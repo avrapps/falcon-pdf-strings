@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Проверите интернет везу и потврдите да је Google налог додат на ваш уређај, а затим покушајте поново.</string>
+    <string name="sign_in_with_apple">Пријавите се помоћу Apple-а</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Надоградите своје искуство</string>
+    <string name="purchase_screen_close">Затвори</string>
+    <string name="purchase_screen_refresh">Освежи</string>
+    <string name="purchase_sync_status">Последња синхронизација: %1s</string>
+    <string name="purchase_current_plan">Тренутни</string>
+    <string name="purchase_syncing">Синхронизација…</string>
+    <string name="purchase_loading">Учитавање…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Бесплатан план</string>
+    <string name="purchase_pro_plan">Про издање</string>
+    <string name="purchase_pro_tagline">Плати једном. Поседуј заувек.</string>
+    <string name="purchase_premium_plan">Премијум претплата</string>
+    <string name="purchase_premium_tagline">Све у Pro верзији, плус вештачка интелигенција &amp; Облак</string>
+    <string name="purchase_recommended">Препоручено</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">Читање наглас уз помоћ вештачке интелигенције — Слушајте ПДФ-ове природно</string>
+    <string name="purchase_pro_feature_2">Комплетно уређивање PDF-а &amp; Попуњавање образаца</string>
+    <string name="purchase_pro_feature_3">Синхронизација на више уређаја путем Диска</string>
+    <string name="purchase_pro_feature_4">Без реклама, без воденог жига на скенираним сликама</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">Резимеи вештачке интелигенције са јачим образложењем</string>
+    <string name="purchase_premium_feature_1_desc">Детаљнији одговори из дужих, сложених докумената</string>
+    <string name="purchase_premium_feature_2_title">50GB Falcon Cloud</string>
+    <string name="purchase_premium_feature_2_desc">Ваша лична PDF библиотека, синхронизована и безбедна</string>
+    <string name="purchase_premium_feature_3_title">Без ограничења за 60+ PDF алата</string>
+    <string name="purchase_premium_feature_3_desc">Сваки алат, увек доступан</string>
+    <string name="purchase_premium_feature_4_title">Уређивање целог текста у PDF-овима</string>
+    <string name="purchase_premium_feature_4_desc">Уредите текст директно као у програму за обраду текста</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Купи Про</string>
+    <string name="purchase_sign_in_buy">Пријавите се &amp; Купи</string>
+    <string name="purchase_sign_in_subscribe">Пријавите се &amp; Претплатите се</string>
+    <string name="purchase_subscribe">Претплатите се</string>
+    <string name="purchase_start_trial">Започните 7-дневну бесплатну пробну верзију</string>
+    <string name="purchase_view_all_features">Погледајте све функције</string>
+    <string name="purchase_show_more">Прикажи више</string>
+    <string name="purchase_show_less">Прикажи мање</string>
+    <string name="purchase_see_all_features">Погледајте све карактеристике</string>
+    <string name="purchase_manage_subscription">Управљање претплатом</string>
+    <string name="purchase_restore_purchases">Врати куповине</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Месечно</string>
+    <string name="purchase_billing_yearly">Годишње</string>
+    <string name="purchase_save_badge">Уштедите 40%</string>
+    <string name="purchase_lifetime">Доживотно</string>
+    <string name="purchase_per_year">/година</string>
+    <string name="purchase_per_month">/месец</string>
+    <string name="purchase_trial_terms">Откажите било када. Обнавља се осим ако се не откаже 24 сата пре истека пробног периода.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Учитавање производа није успело. Проверите пријаву и интернет везу.</string>
+    <string name="purchase_error_network">Веза је прекинута. Проверите интернет и покушајте поново.</string>
+    <string name="purchase_error_payment_declined">Начин плаћања је одбијен. Молимо вас да ажурирате информације о плаћању.</string>
+    <string name="purchase_error_server">Дошло је до грешке. Молимо вас покушајте поново касније.</string>
+    <string name="purchase_error_rate_limit">Превише покушаја освежавања. Молимо сачекајте.</string>
+    <string name="purchase_error_offline">Нема интернет везе. Приказују се кеширани подаци.</string>
+    <string name="purchase_error_product_refresh">Није могуће верификовати производ. Молимо покушајте поново.</string>
+    <string name="purchase_error_generic">Дошло је до грешке. Молимо покушајте поново.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Услови коришћења услуге</string>
+    <string name="purchase_privacy_policy">Политика приватности</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">Историја куповине</string>
+    <string name="free_trial">Бесплатна пробна верзија</string>
+    <string name="no_purchase_history">Нема историје куповине</string>
+    <string name="you_havent_made_any_purchases_">Још нисте обавили никакву куповину.</string>
+    <string name="error">Грешка</string>
+    <string name="retry">Покушај поново</string>
+    <string name="back">Назад</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Надоградите своје искуство</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Врати куповине</string>
+    <string name="close_purchase_screen">Затвори екран за куповину</string>
+    <string name="help">Помоћ</string>
+    <string name="more_options">Више опција</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Освежи</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Активно</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s АКТИВНО</string>
+    <string name="premium_benefits">ПРЕМИЈУМ ПОГОДНОСТИ</string>
+    <string name="manage_subscription">Управљање претплатом</string>
+    <string name="next_billing_date__manage_your">Следећи датум обрачуна: %1$s. Управљајте детаљима обрачуна и отказивањем путем подешавања налога у Play продавници.</string>
+    <string name="purchase_expires_">Куповина истиче: %1$s</string>
+    <string name="falcon_pdf_pro">Фалкон ПДФ Про</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF Premium (mesečno)</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Premium (годишње)</string>
+    <string name="pro">ПРОФЕСИОНАЛНИ</string>
+    <string name="premium">ПРЕМИЈУМ</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Набавите Falcon PDF Pro или Premium</string>
+    <string name="purchase_desktop_subtitle">Куповине се управљају на нашој веб страници. Кликните испод да бисте видели планове и цене.</string>
+    <string name="purchase_desktop_open_website">Погледајте планове &amp; Цене</string>
+    <string name="purchase_desktop_already_purchased">Већ сте купили? Пријавите се да бисте синхронизовали свој план.</string>
+    <string name="purchase_store_build_subtitle">Ваша претплата откључава Pro функције на свим вашим уређајима. Пријавите се да бисте синхронизовали свој план.</string>
+    <string name="ai_read_aloud">Вештачка интелигенција Читање наглас</string>
+    <string name="full_pdf_editing__form_filling">Комплетно уређивање PDF-а &amp; Попуњавање образаца</string>
+    <string name="crossdevice_sync_via_drive">Синхронизација на више уређаја путем Диска</string>
+    <string name="adfree_no_watermark">Без реклама, без воденог жига</string>
+    <string name="export_to_word__excel">Извоз у Word &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">Више тема &amp; Позадине странице</string>
+    <string name="ai_summaries_with_stronger_reasoning">Резимеи вештачке интелигенције са јачим образложењем</string>
+    <string name="no_limits_on_60_pdf_tools">Без ограничења за 60+ PDF алата</string>
+    <string name="full_text_editing_in_pdfs">Уређивање целог текста у PDF-овима</string>
+    <string name="digital_signatures_dscesign">Дигитални потписи (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Неограничена синхронизација скенираних докумената</string>
+    <string name="biometric_document_lock">Биометријско закључавање докумената</string>
+    <string name="everything_in_pro_all_devices">Све у Pro верзији, сви уређаји</string>
+    <string name="introductory_offer">Уводна понуда</string>
+    <string name="limited_time__30_off">Ограничено време — 30% попуста</string>
+    <string name="date__time">Датум &amp; Време</string>
+    <string name="amount">Износ</string>
+    <string name="platform">Платформа</string>
+    <string name="type">Тип</string>
+    <string name="expires_on">Истиче</string>
+</resources>

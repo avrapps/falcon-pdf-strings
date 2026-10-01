@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Tjek din internetforbindelse, og bekræft, at der er tilføjet en Google-konto til din enhed, og prøv derefter igen.</string>
+    <string name="sign_in_with_apple">Log ind med Apple</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Opgrader din oplevelse</string>
+    <string name="purchase_screen_close">Tæt</string>
+    <string name="purchase_screen_refresh">Opfriske</string>
+    <string name="purchase_sync_status">Sidst synkroniseret: %1s</string>
+    <string name="purchase_current_plan">Strøm</string>
+    <string name="purchase_syncing">Synkroniserer…</string>
+    <string name="purchase_loading">Indlæser…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Gratis plan</string>
+    <string name="purchase_pro_plan">Pro-udgave</string>
+    <string name="purchase_pro_tagline">Betal én gang. Ej for evigt.</string>
+    <string name="purchase_premium_plan">Premium-abonnement</string>
+    <string name="purchase_premium_tagline">Alt i Pro, plus AI &amp; Cloud</string>
+    <string name="purchase_recommended">Anbefalet</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">AI-højtlæsning — Lyt til PDF'er naturligt</string>
+    <string name="purchase_pro_feature_2">Fuld PDF-redigering &amp; Formularudfyldning</string>
+    <string name="purchase_pro_feature_3">Synkronisering på tværs af enheder via Drev</string>
+    <string name="purchase_pro_feature_4">Reklamefri, intet vandmærke på scanninger</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">AI-resuméer med stærkere argumentation</string>
+    <string name="purchase_premium_feature_1_desc">Dybere svar fra længere, komplekse dokumenter</string>
+    <string name="purchase_premium_feature_2_title">5 GB Falcon Cloud</string>
+    <string name="purchase_premium_feature_2_desc">Dit personlige PDF-bibliotek, synkroniseret og sikkert</string>
+    <string name="purchase_premium_feature_3_title">Ingen grænser for 60+ PDF-værktøjer</string>
+    <string name="purchase_premium_feature_3_desc">Alle værktøjer, altid tilgængelige</string>
+    <string name="purchase_premium_feature_4_title">Fuldtekstredigering i PDF'er</string>
+    <string name="purchase_premium_feature_4_desc">Rediger tekst direkte som et tekstbehandlingsprogram</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Køb Pro</string>
+    <string name="purchase_sign_in_buy">Log ind &amp; Køb</string>
+    <string name="purchase_sign_in_subscribe">Log ind &amp; Abonner</string>
+    <string name="purchase_subscribe">Abonner</string>
+    <string name="purchase_start_trial">Start 7-dages gratis prøveperiode</string>
+    <string name="purchase_view_all_features">Se alle funktioner</string>
+    <string name="purchase_show_more">Vis mere</string>
+    <string name="purchase_show_less">Vis mindre</string>
+    <string name="purchase_see_all_features">Se alle funktioner</string>
+    <string name="purchase_manage_subscription">Administrer abonnement</string>
+    <string name="purchase_restore_purchases">Gendan køb</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Månedlig</string>
+    <string name="purchase_billing_yearly">Årligt</string>
+    <string name="purchase_save_badge">Spar 40%</string>
+    <string name="purchase_lifetime">Livstid</string>
+    <string name="purchase_per_year">/år</string>
+    <string name="purchase_per_month">/måned</string>
+    <string name="purchase_trial_terms">Opsiges når som helst. Fornyes medmindre det opsiges 24 timer før prøveperioden slutter.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Produkterne kunne ikke indlæses. Tjek dit login og din internetforbindelse.</string>
+    <string name="purchase_error_network">Forbindelsen er afbrudt. Tjek venligst din internetforbindelse, og prøv igen.</string>
+    <string name="purchase_error_payment_declined">Betalingsmetode afvist. Opdater venligst dine betalingsoplysninger.</string>
+    <string name="purchase_error_server">Noget gik galt. Prøv igen senere.</string>
+    <string name="purchase_error_rate_limit">For mange opdateringsforsøg. Vent venligst.</string>
+    <string name="purchase_error_offline">Ingen internetforbindelse. Viser cachelagrede data.</string>
+    <string name="purchase_error_product_refresh">Produktet kunne ikke bekræftes. Prøv igen.</string>
+    <string name="purchase_error_generic">Der opstod en fejl. Prøv igen.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Servicevilkår</string>
+    <string name="purchase_privacy_policy">Privatlivspolitik</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">Købshistorik</string>
+    <string name="free_trial">Gratis prøveperiode</string>
+    <string name="no_purchase_history">Ingen købshistorik</string>
+    <string name="you_havent_made_any_purchases_">Du har ikke foretaget nogen køb endnu.</string>
+    <string name="error">Fejl</string>
+    <string name="retry">Prøv igen</string>
+    <string name="back">Tilbage</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Opgrader din oplevelse</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Gendan køb</string>
+    <string name="close_purchase_screen">Luk købsskærmen</string>
+    <string name="help">Hjælp</string>
+    <string name="more_options">Flere muligheder</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Opfriske</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Aktiv</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s AKTIV</string>
+    <string name="premium_benefits">PREMIUM FORDELE</string>
+    <string name="manage_subscription">Administrer abonnement</string>
+    <string name="next_billing_date__manage_your">Næste faktureringsdato: %1$s. Administrer dine faktureringsoplysninger og annullering via dine Play Butik-kontoindstillinger.</string>
+    <string name="purchase_expires_">Køb udløber: %1$s</string>
+    <string name="falcon_pdf_pro">Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF Premium (månedlig)</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Premium (Årlig)</string>
+    <string name="pro">PROFESSIONEL</string>
+    <string name="premium">PRÆMIE</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Få Falcon PDF Pro eller Premium</string>
+    <string name="purchase_desktop_subtitle">Køb administreres på vores hjemmeside. Klik nedenfor for at se abonnementer og priser.</string>
+    <string name="purchase_desktop_open_website">Se abonnementer &amp; Priser</string>
+    <string name="purchase_desktop_already_purchased">Har du allerede købt? Log ind for at synkronisere dit abonnement.</string>
+    <string name="purchase_store_build_subtitle">Dit abonnement låser op for Pro-funktioner på alle dine enheder. Log ind for at synkronisere dit abonnement.</string>
+    <string name="ai_read_aloud">AI Læs højt</string>
+    <string name="full_pdf_editing__form_filling">Fuld PDF-redigering &amp; Formularudfyldning</string>
+    <string name="crossdevice_sync_via_drive">Synkronisering på tværs af enheder via Drev</string>
+    <string name="adfree_no_watermark">Reklamefri, intet vandmærke</string>
+    <string name="export_to_word__excel">Eksporter til Word &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">Flere temaer &amp; Sidebaggrunde</string>
+    <string name="ai_summaries_with_stronger_reasoning">AI-resuméer med stærkere argumentation</string>
+    <string name="no_limits_on_60_pdf_tools">Ingen grænser for 60+ PDF-værktøjer</string>
+    <string name="full_text_editing_in_pdfs">Fuldtekstredigering i PDF'er</string>
+    <string name="digital_signatures_dscesign">Digitale signaturer (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Ubegrænset synkronisering af scannede dokumenter</string>
+    <string name="biometric_document_lock">Biometrisk dokumentlås</string>
+    <string name="everything_in_pro_all_devices">Alt i Pro, alle enheder</string>
+    <string name="introductory_offer">Introduktionstilbud</string>
+    <string name="limited_time__30_off">Begrænset tid — 30% rabat</string>
+    <string name="date__time">Dato &amp; Tid</string>
+    <string name="amount">Beløb</string>
+    <string name="platform">Platform</string>
+    <string name="type">Type</string>
+    <string name="expires_on">Udløber den</string>
+</resources>

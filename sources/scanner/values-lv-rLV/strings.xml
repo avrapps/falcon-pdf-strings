@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Skenēt</string>
+    <string name="scan_home_documents">Dokumenti</string>
+    <string name="scan_home_documents_lowercase">dokumenti</string>
+    <string name="scan_home_documents_count">%1$d Dokumenti</string>
+    <string name="scan_home_no_documents">Vēl nav dokumentu</string>
+    <string name="scan_home_start_scanning">Sāciet skenēšanu, lai izveidotu savu pirmo dokumentu</string>
+    <string name="scan_home_new_folder">Jauna mape</string>
+    <string name="scan_home_scan_document">Skenēt dokumentu</string>
+    <string name="scan_home_import_gallery">Importēt no galerijas</string>
+    <string name="scan_home_parent_folder">Vecāku mape</string>
+    <string name="scan_home_go_back">Atgriezties vecākmapē</string>
+    <string name="scan_home_create_folder">Izveidot jaunu mapi</string>
+    <string name="scan_home_enter_folder_name">Ievadiet jaunās mapes nosaukumu</string>
+    <string name="scan_home_folder_name">Mapes nosaukums</string>
+    <string name="scan_home_folder_placeholder">piem., Darba dokumenti</string>
+    <string name="scan_home_folder_error">Mapes nosaukuma lauks nedrīkst būt tukšs</string>
+    <string name="scan_home_folder_name_empty">Mapes nosaukuma lauks nedrīkst būt tukšs</string>
+    <string name="scan_home_create">Izveidot</string>
+    <string name="scan_home_folder_exists">Mape ar šādu nosaukumu jau pastāv</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Kamera</string>
+    <string name="scan_camera_permission_required">Nepieciešama kameras atļauja</string>
+    <string name="scan_camera_permission_message">Šai lietotnei ir nepieciešama piekļuve kamerai, lai skenētu dokumentus.</string>
+    <string name="scan_camera_permission_settings">Lūdzu, dodieties uz Iestatījumi &gt; Lietotnes &gt; PDF skatītājs &gt; Atļaujas un iespējojiet kameras atļauju.</string>
+    <string name="scan_camera_permission_title">Nepieciešama kameras atļauja</string>
+    <string name="scan_camera_request_permission">Pieprasīt atļauju</string>
+    <string name="scan_camera_open_settings">Atvērt iestatījumus</string>
+    <string name="scan_camera_close">Aizvērt</string>
+    <string name="scan_camera_flash">Zibspuldze</string>
+    <string name="scan_camera_auto_capture">Automātiska uzņemšana</string>
+    <string name="scan_camera_settings">Iestatījumi</string>
+    <string name="scan_camera_ready_batch">Gatavs vairāku lappušu skenēšanai</string>
+    <string name="scan_camera_ready_multiple">Gatavs vairāku lappušu skenēšanai</string>
+    <string name="scan_camera_hold_steady">Skenēšanas laikā turiet nekustīgi</string>
+    <string name="scan_camera_captured_pages">%1$d lapas uzņemtas</string>
+    <string name="scan_camera_mode_single">Vientuļš</string>
+    <string name="scan_camera_mode_batch">Partija</string>
+    <string name="scan_camera_preview">Priekšskatījums</string>
+    <string name="scan_camera_finish">Pabeigt</string>
+    <string name="scan_camera_starting">Kameras palaišana...</string>
+    <string name="scan_camera_document_name">Dokumenta nosaukums</string>
+    <string name="scan_camera_document_name_empty">Dokumenta nosaukuma lauks nedrīkst būt tukšs</string>
+    <string name="scan_camera_save_document">Saglabāt dokumentu</string>
+    <string name="scan_camera_processing">Notiek apstrāde...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Apgriezt &amp; Pielāgot</string>
+    <string name="scan_crop_close">Aizvērt</string>
+    <string name="scan_crop_reset">Atiestatīt</string>
+    <string name="scan_crop_rotate">Pagriezt</string>
+    <string name="scan_crop_done">Pabeigts</string>
+    <string name="scan_crop_scanned_document">Skenēts dokuments</string>
+    <string name="scan_crop_magnified_view">Palielināts skats</string>
+    <string name="scan_crop_processing">Notiek apstrāde...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Uzlabot</string>
+    <string name="scan_filter_close">Aizvērt</string>
+    <string name="scan_filter_rotate">Pagriezt</string>
+    <string name="scan_filter_done">Pabeigts</string>
+    <string name="scan_filter_filters">Filtri</string>
+    <string name="scan_filter_original">Oriģināls</string>
+    <string name="scan_filter_magic">Maģija</string>
+    <string name="scan_filter_lighten">Gaišināt</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">Pelēktoņu</string>
+    <string name="scan_filter_magic_2">Tīrs dokuments</string>
+    <string name="scan_filter_soft_scan">Mīkstā skenēšana</string>
+    <string name="scan_filter_color_enhance">Krāsa+</string>
+    <string name="scan_filter_ink_saver">Tintes taupītājs</string>
+    <string name="scan_filter_premium">Premium funkcija</string>
+    <string name="scan_filter_filtered_document">Filtrēts dokuments</string>
+    <string name="scan_filter_applying">Notiek filtra lietošana...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Atcelt</string>
+    <string name="scan_share">Kopīgot</string>
+    <string name="scan_move">Pārvietot</string>
+    <string name="scan_move_to_folder">Pārvietot uz mapi</string>
+    <string name="scan_delete">Dzēst</string>
+    <string name="scan_rename">Pārdēvēt</string>
+    <string name="scan_root">Sakne</string>
+    <string name="scan_select_destination">Atlasiet mērķa mapi</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Dokuments</string>
+    <string name="scan_document_back">Atpakaļ</string>
+    <string name="scan_document_pages">lapas</string>
+    <string name="scan_document_add_pages">Pievienot lapas šim dokumentam</string>
+    <string name="scan_document_add_page_button">Pievienot lapu</string>
+    <string name="scan_document_rename">Pārdēvēt</string>
+    <string name="scan_document_share">Kopīgot</string>
+    <string name="scan_document_more">Vairāk</string>
+    <string name="scan_document_pages_count">%1$d lapas</string>
+    <string name="scan_document_no_pages">Vēl nav lapu</string>
+    <string name="scan_document_scan_page">Skenēt lapu</string>
+    <string name="scan_document_import_page">Importēt no galerijas</string>
+    <string name="scan_document_grid_view">Režģa skats</string>
+    <string name="scan_document_list_view">Saraksta skats</string>
+    <string name="scan_document_continuous_view">Nepārtraukts skats</string>
+    <string name="scan_document_page_number">Lapa %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Lapa</string>
+    <string name="scan_page_back">Atpakaļ</string>
+    <string name="scan_page_share">Kopīgot</string>
+    <string name="scan_page_delete">Dzēst</string>
+    <string name="scan_page_of">%1$d no %2$d</string>
+    <string name="scan_page_image_not_found">Attēls nav atrasts</string>
+    <string name="scan_page_retake">Atkārtoti uzņemt</string>
+    <string name="scan_page_crop">Apgriezt</string>
+    <string name="scan_page_enhance">Uzlabot</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">Saglabāt galerijā</string>
+    <string name="scan_page_saved_to_gallery">Attēls saglabāts galerijā</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Vai dzēst dokumentu?</string>
+    <string name="scan_delete_document_message">Vai tiešām vēlaties dzēst "%1$s"? Tas neatgriezeniski dzēsīs visas šī dokumenta lapas. Šo darbību nevar atsaukt.</string>
+    <string name="scan_rename_document">Pārdēvēt dokumentu</string>
+    <string name="scan_rename_enter_name">Ievadiet jaunu dokumenta nosaukumu</string>
+    <string name="scan_rename_document_name">Dokumenta nosaukums</string>
+    <string name="scan_rename_error">Dokumenta nosaukuma lauks nedrīkst būt tukšs</string>
+    <string name="scan_dialog_delete_document_title">Vai dzēst dokumentu?</string>
+    <string name="scan_dialog_delete_document_message">Vai tiešām vēlaties dzēst "%1$s"? Tas neatgriezeniski dzēsīs visas šī dokumenta lapas. Šo darbību nevar atsaukt.</string>
+    <string name="scan_dialog_delete_confirm">Dzēst</string>
+    <string name="scan_dialog_cancel">Atcelt</string>
+    <string name="scan_dialog_move_title">Pārvietot uz mapi</string>
+    <string name="scan_dialog_move_message">Atlasiet mērķa mapi</string>
+    <string name="scan_dialog_move_confirm">Pārvietot</string>
+    <string name="scan_dialog_move_root">Sakne</string>
+    <string name="scan_dialog_move_selected">Atlasīts</string>
+    <string name="scan_dialog_rename_title">Pārdēvēt dokumentu</string>
+    <string name="scan_dialog_rename_message">Ievadiet jaunu dokumenta nosaukumu</string>
+    <string name="scan_dialog_rename_label">Dokumenta nosaukums</string>
+    <string name="scan_dialog_rename_error">Dokumenta nosaukuma lauks nedrīkst būt tukšs</string>
+    <string name="scan_dialog_rename_confirm">Pārdēvēt</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Kopīgot</string>
+    <string name="scan_menu_move">Pārvietot uz mapi</string>
+    <string name="scan_menu_delete">Dzēst</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Kameras priekšskatījums\n(Drīzumā)</string>
+    <string name="scan_platform_desktop_camera">Darbvirsmas kameras priekšskatījums\n(Drīzumā)</string>
+    <string name="scan_platform_ios_camera">iOS kameras priekšskatījums\n(Drīzumā)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Aizvērt</string>
+    <string name="flash">Zibspuldze</string>
+    <string name="auto_capture">Automātiska uzņemšana</string>
+    <string name="settings">Iestatījumi</string>
+    <string name="capture">Uztveršana</string>
+    <string name="finish">Pabeigt</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Vai tiešām vēlaties dzēst %1? Tiks dzēsti arī visi tajā esošie dokumenti.</string>
+    <string name="share">Kopīgot</string>
+    <string name="share_as_images">Kopīgot kā attēlus</string>
+    <string name="share_as_pdf">Kopīgot kā PDF</string>
+    <string name="move_to_folder">Pārvietot uz mapi</string>
+    <string name="delete">Dzēst</string>
+    <string name="selected">Atlasīts</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Lapa %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">Mape ir tukša</string>
+    <string name="tap_the__button_to_scan_a_docu">Pieskarieties pogai +, lai skenētu dokumentu</string>
+    <string name="str______pages">%1$s • %2$s • %3$s lapas</string>
+    <string name="create_folder">Izveidot mapi</string>
+    <string name="more_options">Vairāk iespēju</string>
+    <string name="document_thumbnail">Dokumenta sīktēls</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Attēls nav atrasts</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Lapa %2$d</string>
+    <string name="scan_ocr_title">Teksta atpazīšana</string>
+    <string name="scan_ocr_copy">Kopēt tekstu</string>
+    <string name="scan_ocr_no_text">Nav atrasts teksts</string>
+    <string name="scan_ocr_processing">Teksta atpazīšana…</string>
+    <string name="scan_ocr_error">Neizdevās atpazīt tekstu</string>
+    <string name="scan_ocr_not_supported">OCR šajā platformā netiek atbalstīts</string>
+    <string name="scan_ocr_image">Skenēta lapa OCR atpazīšanai</string>
+    <string name="gallery">Galerija</string>
+    <string name="select_file">Atlasīt failu</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Neizdevās uzņemt attēlu</string>
+    <string name="error_no_images_captured">Nav uzņemtu attēlu</string>
+    <string name="error_open_settings">Neizdevās atvērt iestatījumus</string>
+    <string name="error_process_images">Neizdevās apstrādāt attēlus</string>
+    <string name="error_process_image">Neizdevās apstrādāt attēlu</string>
+    <string name="error_start_camera">Neizdevās iedarbināt kameru</string>
+    <string name="error_stop_camera">Neizdevās apturēt kameru</string>
+    <string name="error_crop_image">Neizdevās apgriezt attēlu</string>
+    <string name="error_delete_document">Neizdevās izdzēst dokumentu</string>
+    <string name="error_delete_page">Neizdevās izdzēst lapu</string>
+    <string name="error_load_document">Neizdevās ielādēt dokumentu</string>
+    <string name="error_load_page">Neizdevās ielādēt lapu</string>
+    <string name="error_move_document">Neizdevās pārvietot dokumentu</string>
+    <string name="error_no_pages_to_share">Nav lapu, ko kopīgot</string>
+    <string name="error_rename_document">Neizdevās pārdēvēt dokumentu</string>
+    <string name="error_reorder_pages">Neizdevās pārkārtot lapas</string>
+    <string name="error_share_images">Neizdevās kopīgot attēlus</string>
+    <string name="error_share_pdf">Neizdevās kopīgot PDF failu</string>
+    <string name="error_share_page">Neizdevās kopīgot lapu</string>
+    <string name="error_create_folder">Neizdevās izveidot mapi</string>
+    <string name="error_delete_folder">Neizdevās izdzēst mapi</string>
+    <string name="error_rename_folder">Neizdevās pārdēvēt mapi</string>
+    <string name="error_unknown">Radās nezināma kļūda</string>
+    <string name="folder_not_found">Mape nav atrasta</string>
+    <string name="sync_documents">Sinhronizēt dokumentus</string>
+    <string name="shutter_scale">slēdža_mērogs</string>
+    <string name="import_gallery">Importēt galeriju</string>
+    <string name="scan_camera">Skenēšanas kamera</string>
+</resources>

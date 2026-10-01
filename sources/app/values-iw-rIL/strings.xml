@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">קסם PDF</string>
+    <string name="app_tagline">מה היית רוצה לעשות?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">בשימוש אחרון</string>
+    <string name="home_favorites">מועדפים</string>
+    <string name="home_new_tool">כלי חדש</string>
+    <string name="home_featured">מוּבלָט</string>
+    <string name="home_scan_to_pdf">סריקה ל-PDF</string>
+    <string name="home_scan_description">הפכו מסמכי נייר לקסם דיגיטלי באופן מיידי</string>
+    <string name="home_start_scanning">התחל סריקה</string>
+    <string name="home_all_tools">כל הכלים</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">כלי PDF</string>
+    <string name="image_tools">כלי תמונה</string>
+    <string name="tools_split">לְפַצֵל</string>
+    <string name="tools_split_description">חלץ דפים</string>
+    <string name="tools_rotate">לְסוֹבֵב</string>
+    <string name="tools_rotate_description">תקן את הכיוון</string>
+    <string name="tools_delete_pages">מחיקת דפים</string>
+    <string name="tools_delete_pages_description">הסר לא רצוי</string>
+    <string name="tools_convert">לְהַמִיר</string>
+    <string name="tools_convert_description">תמונות אל/מ</string>
+    <string name="tools_sign">סִימָן</string>
+    <string name="tools_sign_description">הוסף חתימה</string>
+    <string name="tools_protect">לְהַגֵן</string>
+    <string name="tools_protect_description">אבטחת סיסמה</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">מציג PDF</string>
+    <string name="pdf_viewer_page_info">עמוד %1$d מתוך %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">סורק מסמכים</string>
+    <string name="scanner_capture">לִלְכּוֹד</string>
+    <string name="scanner_retake">לְצַלֵם שׁוּב</string>
+    <string name="scanner_save">לְהַצִיל</string>
+    <!-- Navigation -->
+    <string name="nav_back">נווט אחורה</string>
+    <string name="nav_settings">הגדרות</string>
+    <string name="nav_more_options">אפשרויות נוספות</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">בַּיִת</string>
+    <string name="nav_library">סִפְרִיָה</string>
+    <string name="nav_scan">לִסְרוֹק</string>
+    <string name="nav_tools">כְּלֵי עֲבוֹדָה</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">עיון בקבצים</string>
+    <string name="browse_files_subtitle">אחסון &amp; קבצי ענן</string>
+    <string name="show_hidden_files">הצג קבצים מוסתרים</string>
+    <string name="hide_hidden_files">הסתר קבצים נסתרים</string>
+    <string name="refresh_storage">רענון אחסון</string>
+    <string name="no_storage_available">אין אחסון זמין</string>
+    <string name="no_files_found">לא נמצאו קבצים</string>
+    <string name="add_files">הוסף קבצים %1$d</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">נדרשת הרשאת אחסון</string>
+    <string name="permission_storage_message">אפליקציה זו זקוקה לגישה לאחסון המכשיר שלך כדי לדפדף ולפתוח קבצי PDF. אנא הענק את הרשאת האחסון כדי להמשיך.</string>
+    <string name="permission_grant">הענקת הרשאה</string>
+    <!-- Common Actions -->
+    <string name="action_open">לִפְתוֹחַ</string>
+    <string name="action_save">לְהַצִיל</string>
+    <string name="action_share">לַחֲלוֹק</string>
+    <string name="action_delete">לִמְחוֹק</string>
+    <string name="action_cancel">לְבַטֵל</string>
+    <string name="action_confirm">לְאַשֵׁר</string>
+    <string name="action_rename">שינוי שם</string>
+    <string name="action_print">הֶדפֵּס</string>
+    <string name="action_favorite">מוּעֲדָף</string>
+    <string name="action_unfavorite">הסר את המועדפים</string>
+    <!-- Document Actions -->
+    <string name="document_share">שתף מסמך</string>
+    <string name="document_rename">שינוי שם המסמך</string>
+    <string name="document_delete">מחיקת מסמך</string>
+    <string name="document_print">הדפס מסמך</string>
+    <string name="document_favorite">הוסף למועדפים</string>
+    <string name="document_unfavorite">הסר מהמועדפים</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">המסמך שותף בהצלחה</string>
+    <string name="document_share_failed">שיתוף המסמך נכשל</string>
+    <string name="document_renamed_success">שם המסמך הצליח</string>
+    <string name="document_rename_failed">שינוי שם המסמך נכשל</string>
+    <string name="document_deleted_success">המסמך נמחק בהצלחה</string>
+    <string name="document_delete_failed">מחיקת המסמך נכשלה</string>
+    <string name="document_print_opened">המסמך נפתח במציג ה-PDF המוגדר כברירת מחדל. השתמש בפונקציית ההדפסה של המציג כדי להדפיס.</string>
+    <string name="document_print_failed">הדפסת המסמך נכשלה</string>
+    <string name="document_added_to_favorites">נוסף למועדפים</string>
+    <string name="document_removed_from_favorites">הוסר מהמועדפים</string>
+    <string name="document_favorite_failed">נכשל עדכון סטטוס המועדף</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">שינוי שם המסמך</string>
+    <string name="dialog_rename_hint">הזן שם חדש</string>
+    <string name="dialog_rename_empty_error">שם המסמך אינו יכול להיות ריק</string>
+    <string name="dialog_delete_title">מחיקת מסמך</string>
+    <string name="dialog_delete_file_message">פעולה זו תמחק את הקובץ לצמיתות.\n\nלמחוק %1$s?</string>
+    <string name="dialog_delete_uri_message">הסרה מהאפליקציה בלבד. הקובץ המקורי לא השתנה.\n\nלהסיר את %1$s מהאפליקציה?</string>
+    <string name="dialog_delete_confirm">לִמְחוֹק</string>
+    <string name="dialog_remove_confirm">לְהַסִיר</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">שינוי שם אפשרי רק בתוך האפליקציה. הקובץ המקורי לא משתנה.</string>
+    <string name="notice_delete_uri_only">הוסר מהאפליקציה. הקובץ המקורי לא השתנה.</string>
+    <string name="notice_file_exists_error">קובץ בשם זה כבר קיים</string>
+    <string name="notice_file_not_found_error">הקובץ לא נמצא</string>
+    <string name="notice_no_active_document">אין מסמך פעיל</string>
+    <string name="notice_document_path_unavailable">נתיב קובץ המסמך אינו זמין</string>
+    <!-- States -->
+    <string name="state_loading">טְעִינָה...</string>
+    <string name="state_empty">לא נמצאו פריטים</string>
+    <string name="state_error">משהו השתבש</string>
+    <string name="state_retry">נסה שוב</string>
+    <!-- Errors -->
+    <string name="error_network">חיבור הרשת נכשל</string>
+    <string name="error_file_not_found">הקובץ לא נמצא</string>
+    <string name="error_permission_denied">ההרשאה נדחתה</string>
+    <string name="error_invalid_file">פורמט קובץ לא חוקי</string>
+    <string name="error_password_required">נדרשת סיסמה</string>
+    <string name="error_incorrect_password">סיסמה שגויה</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">מוגן בסיסמה</string>
+    <string name="password_protected_message">קובץ זה דורש סיסמה לפתיחה. אנא הזן אותה למטה.</string>
+    <string name="password_label">סִיסמָה</string>
+    <string name="password_placeholder">הזן סיסמה</string>
+    <string name="password_unlock">לִפְתוֹחַ</string>
+    <string name="password_show">הצג סיסמה</string>
+    <string name="password_hide">הסתר סיסמה</string>
+    <!-- Theme -->
+    <string name="theme_light">אוֹר</string>
+    <string name="theme_dark">כֵּהֶה</string>
+    <string name="theme_system">מַעֲרֶכֶת</string>
+    <string name="theme_adaptive">אדפטיבי</string>
+    <string name="theme_custom">מִנְהָג</string>
+    <!-- Settings -->
+    <string name="settings_title">העדפות</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">חשבון &amp; סנכרון</string>
+    <string name="settings_category_sync_subtitle">ניהול החשבון שלך, סנכרון &amp; פרטיות</string>
+    <string name="settings_category_appearance_title">הוֹפָעָה</string>
+    <string name="settings_category_appearance_subtitle">התאמה אישית של מראה האפליקציה &amp;</string>
+    <string name="settings_category_pdf_reader_title">קורא PDF</string>
+    <string name="settings_category_pdf_reader_subtitle">חוויית הקריאה של מציג ברירת מחדל &amp;</string>
+    <string name="settings_category_help_title">עזרה &amp; תמיכה</string>
+    <string name="settings_category_help_subtitle">תיעוד &amp; איש קשר</string>
+    <string name="settings_category_general_title">כְּלָלִי</string>
+    <string name="settings_category_general_subtitle">מידע על האפליקציה שפה &amp;</string>
+    <string name="settings_theme_section">נוֹשֵׂא</string>
+    <string name="settings_theme_description">בחר את הנושא המועדף עליך</string>
+    <string name="settings_accent_color">צבע מבטא</string>
+    <string name="settings_custom_colors">צבעים מותאמים אישית</string>
+    <string name="settings_primary_color">צבע ראשוני</string>
+    <string name="settings_background_color">צבע רקע</string>
+    <string name="settings_surface_color">צבע פני השטח</string>
+    <string name="settings_reset_colors">איפוס לברירת מחדל</string>
+    <string name="settings_adaptive_note">צבעים אדפטיביים של Material You (אנדרואיד 12+)</string>
+    <string name="settings_app_section">הגדרות אפליקציה</string>
+    <string name="settings_notifications">התראות</string>
+    <string name="settings_notifications_description">קבלת התראות מאפליקציות</string>
+    <string name="settings_auto_backup">גיבוי אוטומטי</string>
+    <string name="settings_auto_backup_description">גיבוי אוטומטי של מסמכים</string>
+    <string name="settings_change_color">שינוי צבע</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">מסמכי ה-PDF שלך יופיעו כאן</string>
+    <string name="scan_description">סריקת מסמכים ל-PDF</string>
+    <string name="tools_description">כלי עריכה וטיפול בקובץ PDF</string>
+    <string name="home_description">השתמשו בניווט התחתון כדי לגשת לתכונות</string>
+    <!-- Sort Options -->
+    <string name="sort_name">שֵׁם</string>
+    <string name="sort_date">תַאֲרִיך</string>
+    <string name="sort_size">גוֹדֶל</string>
+    <string name="sort_option_name">שֵׁם</string>
+    <string name="sort_option_last_opened">נפתח לאחרונה</string>
+    <string name="sort_option_last_modified">שונה לאחרונה</string>
+    <string name="sort_option_file_size">גודל הקובץ</string>
+    <!-- View Types -->
+    <string name="view_type_list">תצוגת רשימה</string>
+    <string name="view_type_table">טבלה וויו</string>
+    <string name="view_type_grid">תצוגת רשת</string>
+    <!-- File Properties -->
+    <string name="file_name">שם הקובץ</string>
+    <string name="date_modified">תאריך שינוי</string>
+    <string name="file_size">גוֹדֶל</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">לא התחיל</string>
+    <string name="file_status_completed">הושלם</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">מסמך PDF</string>
+    <string name="document_type_word">מסמך וורד</string>
+    <string name="document_type_excel">גיליון אלקטרוני של אקסל</string>
+    <string name="document_type_image">קובץ תמונה</string>
+    <string name="document_type_other">מִסְמָך</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">כל הקבצים</string>
+    <string name="filter_recent">אחרונים</string>
+    <string name="filter_pdfs">קבצי PDF</string>
+    <string name="filter_images">תמונות</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">בַּיִת</string>
+    <string name="browse_tab">לְדַפדֵף</string>
+    <string name="starred_tab">מסומן בכוכב</string>
+    <string name="settings_tab">הגדרות</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">הפעלה/כיבוי של ערכת נושא</string>
+    <string name="accessibility_menu">תַפרִיט</string>
+    <string name="accessibility_close">לִסְגוֹר</string>
+    <string name="accessibility_color_picker">בורר צבעים</string>
+    <!-- Library Screen -->
+    <string name="library_title">סִפְרִיָה</string>
+    <string name="library_subtitle">ניהול קבצים, אחרונים &amp; מועדפים</string>
+    <string name="library_search_placeholder">חיפוש קבצים...</string>
+    <string name="library_selected_count">%1$d נבחר</string>
+    <string name="library_open_from_device">פתיחה ממכשיר\n</string>
+    <string name="library_browse_files">עיון בקבצים\n</string>
+    <string name="library_action_open">לִפְתוֹחַ</string>
+    <string name="library_action_share">לַחֲלוֹק</string>
+    <string name="library_action_remove">לְהַסִיר</string>
+    <string name="library_action_delete">לִמְחוֹק</string>
+    <string name="library_clear_search">נקה חיפוש</string>
+    <string name="library_close_search">סגור חיפוש</string>
+    <string name="library_select_all">בחר את כל הקבצים</string>
+    <string name="library_exit_multiselect">יציאה ממצב בחירה מרובה</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">עזרה &amp; תמיכה</string>
+    <string name="help_support_subtitle">שאלות נפוצות, צור קשר &amp; משפטי</string>
+    <string name="settings_pdf_subtitle">גלילה, תצוגה &amp; פריסה</string>
+    <string name="help_header_title">איך נוכל לעזור?</string>
+    <string name="help_header_subtitle">הצוות שלנו כאן כדי להבטיח לכם את חוויית ה-PDF הטובה ביותר.\n</string>
+    <string name="help_contact_us">צרו קשר</string>
+    <string name="help_contact_subtitle">צרו קשר עם התמיכה</string>
+    <string name="help_faq">שאלות נפוצות</string>
+    <string name="help_faq_subtitle">שאלות נפוצות נענו</string>
+    <string name="help_privacy_policy">מדיניות פרטיות</string>
+    <string name="help_privacy_subtitle">כיצד אנו מגנים על הנתונים שלך</string>
+    <string name="help_terms_service">תנאי השירות</string>
+    <string name="help_terms_subtitle">כללי הבקשה</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">סנכרון בנתונים ניידים</string>
+    <string name="background_sync">סנכרון רקע</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">הגדרות קורא PDF</string>
+    <string name="pdf_settings_coming_soon">בקרוב</string>
+    <string name="pdf_settings_description">הגדרת התנהגות גלילה, מצבי תצוגה והעדפות קריאה</string>
+    <!-- General Settings -->
+    <string name="settings_language">שָׂפָה</string>
+    <string name="settings_pdf_reader">הגדרות קורא PDF</string>
+    <string name="settings_help_support">עזרה &amp; תמיכה</string>
+    <string name="settings_whats_new">מה חדש</string>
+    <string name="settings_download_desktop">התקנה על מכשיר אחר</string>
+    <string name="settings_rate_app">דרג את האפליקציה</string>
+    <string name="play_store_not_found">חנות Play לא נמצאה במכשיר הזה</string>
+    <string name="settings_set_as_default">הגדר כצופה PDF ברירת מחדל</string>
+    <string name="settings_set_as_default_subtitle">פתח קבצי PDF עם אפליקציה זו כברירת מחדל</string>
+    <string name="settings_default_pdf_instructions_title">כיצד להגדיר כברירת מחדל</string>
+    <string name="settings_default_pdf_ok">הבנתי</string>
+    <string name="settings_default_app_hint">לא עבד?</string>
+    <string name="settings_default_app_hint_learn_more">למידע נוסף</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">שָׂפָה</string>
+    <string name="language_search_placeholder">חיפוש שפות...</string>
+    <!-- Common UI -->
+    <string name="support">תְמִיכָה</string>
+    <string name="language_english">אַנגְלִית</string>
+    <string name="language_hindi">הינדו</string>
+    <string name="language_spanish">ספרדית</string>
+    <string name="language_french">צרפתית</string>
+    <string name="language_german">דויטש</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">ערבית</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">פורטוגזית</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">מראה האפליקציה</string>
+    <string name="theme">נוֹשֵׂא</string>
+    <string name="general">כְּלָלִי</string>
+    <string name="new">חָדָשׁ</string>
+    <string name="navigate">ניווט</string>
+    <string name="download">הורדה</string>
+    <string name="falcon_pdf">פלקון PDF</string>
+    <string name="excellence_in_every_pixel">מצוינות בכל פיקסל</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">החל שינויים</string>
+    <string name="apply">לִפְנוֹת</string>
+    <string name="selected">נִבחָר</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">הגדרות סנכרון</string>
+    <string name="autosync_on_wifi">סנכרון אוטומטי ב-WiFi</string>
+    <string name="sync_reading_progress">סנכרון התקדמות הקריאה</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">שם המסמך</string>
+    <string name="name_cannot_be_empty">השם אינו יכול להיות ריק</string>
+    <string name="str__failed">%1$s נכשל</string>
+    <string name="ok">בְּסֵדֶר</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">תוכנית שדרוג - תוכנית נוכחית: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">שחרר כדי לפתוח קובץ</string>
+    <string name="release_to_import_and_open_pdf">שחרור לייבוא ופתיחה של קבצי PDF</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">לְהַסִיר</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">קובץ PDF</string>
+    <string name="images">תמונות</string>
+    <string name="filter_all_types">כל הקבצים</string>
+    <string name="favorites">קבצים מועדפים</string>
+    <string name="recent">אחרונים</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">חיפוש מסמכים...</string>
+    <string name="voice_search">חיפוש קולי</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">קבצים אחרונים</string>
+    <string name="loading_recent_files">טוען קבצים אחרונים...</string>
+    <string name="no_recent_files">אין קבצים אחרונים</string>
+    <string name="no_favorites">אין מועדפים</string>
+    <string name="mark_files_as_favorite_to_see_them_here">סמן קבצים כמועדפים כדי לראות אותם כאן</string>
+    <string name="open_some_pdf_files_to_see_the">פתחו כמה קבצי PDF כדי לראות אותם כאן</string>
+    <string name="status">סטָטוּס</string>
+    <string name="actions">פעולות</string>
+    <string name="select_all">בחר הכל</string>
+    <string name="enter_multiselect_mode">כניסה למצב בחירה מרובה</string>
+    <string name="sorted_ascending">ממוין בסדר עולה</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">אחסון: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">הוסף %1$s קבצים</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">שינוי סוג תצוגה</string>
+    <string name="filter_">סנן: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">טוען PDF...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">היכנס כדי לסנכרן</string>
+    <string name="protect_your_library_files">הגן על קבצי הספרייה שלך</string>
+    <string name="sign_in">כניסה</string>
+    <string name="sign_out">יציאה</string>
+    <string name="sign_in_dialog_title">כניסה לקובץ PDF של Falcon</string>
+    <string name="sign_in_dialog_subtitle">ספריית ה-PDF שלך, בכל מקום.</string>
+    <string name="sign_in_with_google">התחברות עם גוגל</string>
+    <string name="sign_in_with_apple">התחברות עם אפל</string>
+    <string name="apple_user_drive_unavailable">סנכרון Google Drive אינו זמין עם כניסה ל-Apple</string>
+    <string name="apple_user_link_google">קשר חשבון גוגל לסנכרון Drive</string>
+    <string name="apple_user_sync_info">כדי להפעיל סנכרון בענן, יש לקשר חשבון גוגל</string>
+    <string name="link_google_account">קישור חשבון גוגל</string>
+    <string name="signed_in_successfully">כניסה בוצעה בהצלחה</string>
+    <string name="signed_out_successfully">יציאה בהצלחה</string>
+    <string name="sync_disabled_free">הסנכרון מושבת עבור חשבונות חינמיים.</string>
+    <string name="storage_disabled_grant_access">האחסון מושבת. יש להעניק גישה לכונן כדי להתחיל.</string>
+    <string name="upgrade_to_pro">שדרגו ל-Pro</string>
+    <string name="grant_drive_access">הענק גישה ל-Drive</string>
+    <string name="files_synced">%1$d/%2$d קבצים שסונכרנו</string>
+    <string name="synced_count">%1$d מסונכרן</string>
+    <string name="unlimited_sync_active">סנכרון ללא הגבלה</string>
+    <string name="missing_drive_permissions">חסרות הרשאות ב-Drive. הסנכרון חסום כרגע.</string>
+    <string name="drive_access_revoked">גישת ה-Drive בוטלה. התחבר מחדש כדי לחדש את הסנכרון.</string>
+    <string name="upgrade_premium">שדרוג פרימיום</string>
+    <string name="manage_account">ניהול חשבון</string>
+    <string name="sync_now">סנכרן עכשיו</string>
+    <string name="tier_free">לְשַׁחְרֵר</string>
+    <string name="tier_pro">מִקצוֹעָן</string>
+    <string name="tier_premium">פּרֶמיָה</string>
+    <string name="status_paused">מושהה</string>
+    <!-- Common -->
+    <string name="navigate_back">נווט אחורה</string>
+    <string name="dismiss">לְפַטֵר</string>
+    <string name="cancel">לְבַטֵל</string>
+    <string name="back">בְּחֲזָרָה</string>
+    <string name="search">לְחַפֵּשׂ</string>
+    <string name="more_actions">פעולות נוספות</string>
+    <string name="share">לַחֲלוֹק</string>
+    <string name="delete">לִמְחוֹק</string>
+    <string name="remove_from_recents">הסר מהתכנים האחרונים</string>
+    <string name="open">לִפְתוֹחַ</string>
+    <string name="all">כֹּל</string>
+    <string name="sort_by_">מיין לפי %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">סנכרון גוגל דרייב</string>
+    <string name="syncing">מסנכרן...</string>
+    <string name="sync_completed">הסנכרון הושלם</string>
+    <string name="sync_failed">הסנכרון נכשל</string>
+    <string name="sync_limit_exceeded">חריגה ממגבלת הסנכרון. התוכנית %s שלך מאפשרת %d קבצים.</string>
+    <string name="sync_no_drive_access">גישה ל-Google Drive אינה זמינה</string>
+    <string name="sync_network_unavailable">הרשת אינה זמינה</string>
+    <string name="sync_last_sync">סנכרון אחרון: %s</string>
+    <string name="sync_total_files">סַך הַכֹּל</string>
+    <string name="sync_synced_files">מסונכרן</string>
+    <string name="sync_failed_files">נִכשָׁל</string>
+    <string name="sync_conflict_files">קונפליקטים</string>
+    <string name="sync_add_to_favorites">הוסף למועדפים</string>
+    <string name="sync_remove_from_favorites">הסר מהמועדפים</string>
+    <string name="sync_conflict_title">התנגשויות סינכרון</string>
+    <string name="sync_conflict_message">לקבצים הבאים יש התנגשויות הדורש פתרון:</string>
+    <string name="sync_conflict_explanation">התנגשויות מתרחשות כאשר גם גרסה מקומית וגם גרסה מרוחקת שונו.</string>
+    <string name="sync_plan_limit">סנכרון: %d/%d</string>
+    <string name="sync_plan_limit_reached">הגעת למגבלה</string>
+    <string name="sync_plan_unlimited">סנכרון ללא הגבלה</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">לְדַלֵג</string>
+    <string name="welcome_next">הַבָּא</string>
+    <string name="welcome_get_started">התחל</string>
+    <string name="welcome_sign_in_get_started">כניסה &amp; התחל</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;קרא כל מסמך&lt;/b&gt; באופן מיידי</string>
+    <string name="welcome_slide1_description">פתח ונהל מעל 10 פורמטים של מסמכים, כולל PDF, DOC, EPUB, MOBI.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;קרא קבצי PDF, ספרים אלקטרוניים,&lt;/b&gt; ומסמכי אופיס במקום אחד</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;הוסף מועדפים למסמכים&lt;/b&gt; וגש אליהם מכל המכשירים</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;להגיב,&lt;/b&gt; לסמן ולשתף פעולה בקלות</string>
+    <string name="welcome_slide1_footer">קורא המסמכים האוניברסלי שלך</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;עריכה, סריקה וארגון&lt;/b&gt; קבצי PDF</string>
+    <string name="welcome_slide2_description">כל מה שאתם צריכים כדי ליצור, לערוך ולנהל קבצי PDF בערכת כלים אחת עוצמתית.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;עריכת טקסט,&lt;/b&gt; הוספת הערות, סימון ומילוי טפסים</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;סרוק מסמכים&lt;/b&gt; והפך אותם לקבצי PDF באופן מיידי</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;30+ כלים&lt;/b&gt; כולל מיזוג, המרה, דחיסה ואבטחה</string>
+    <string name="welcome_slide2_footer">סביבת העבודה שלך ל-PDF הכוללת הכל</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;בינה מלאכותית שמבינה&lt;/b&gt; את המסמכים שלך</string>
+    <string name="welcome_slide3_description">חסכו שעות עם בינה מלאכותית שקוראת ומנתחת מסמכים עבורכם.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;סיכום&lt;/b&gt; מסמכים ארוכים תוך שניות</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; סריקת דפים ותרגום טקסט באופן מיידי</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;האזנה&lt;/b&gt; למסמכים עם אפשרות קריאה בקול רם מובנית</string>
+    <string name="welcome_slide3_footer">בלי פרסומות. רק פרודוקטיביות.</string>
+    <string name="grace">חֶסֶד</string>
+    <string name="unable_to_verify_subscription_limited_ac">לא ניתן לאמת את המנוי. גישה מוגבלת עד לחידוש החיבור.</string>
+    <string name="retry_verification">נסה אימות חוזר</string>
+    <string name="guest_state">מדינת אורח</string>
+    <string name="free_tier">שכבה חינמית</string>
+    <string name="free_tier__locked">רמה חינמית - נעול</string>
+    <string name="pro_tier">רמת מקצוענים</string>
+    <string name="pro_tier__restricted">רמת מקצוענים - מוגבל</string>
+    <string name="premium_tier">שכבת פרימיום</string>
+    <string name="premium_tier__error">רמת פרימיום - שגיאה</string>
+    <string name="refresh_plan_status">רענון סטטוס התוכנית</string>
+    <string name="user_avatar">אווטאר של המשתמש</string>
+    <string name="debug_tools">כלי ניפוי שגיאות</string>
+    <string name="authentication__drive">אימות &amp; דרייב</string>
+    <string name="auth_state">מצב אימות</string>
+    <string name="revoke_drive_access">ביטול גישה לכונן</string>
+    <string name="image">תְמוּנָה</string>
+    <string name="thumbnail">תמונה ממוזערת</string>
+    <string name="manage_preferences">ניהול העדפות</string>
+    <string name="tools_history">היסטוריית כלים</string>
+    <string name="manage_recent_logs">ניהול יומני רישום אחרונים</string>
+    <string name="more_options">אפשרויות נוספות</string>
+    <string name="clear_all_history">נקה את כל ההיסטוריה</string>
+    <string name="no_history_yet">עדיין אין היסטוריה</string>
+    <string name="your_pdf_tool_operations_will_appear_her">פעולות כלי ה-PDF שלך יופיעו כאן</string>
+    <string name="view">נוֹף</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">נשמר %1$s</string>
+    <string name="history_status_processing">עיבוד</string>
+    <string name="history_status_succeeded">הצליח</string>
+    <string name="history_status_failed">נִכשָׁל</string>
+    <string name="history_status_processing_upper">עיבוד</string>
+    <string name="history_unknown_files">קבצים לא ידועים</string>
+    <string name="history_op_complete">%1$s הושלם!</string>
+    <string name="history_op_failed">%1$s נכשל</string>
+    <string name="history_op_success_multiple">הפעולה הושלמה בהצלחה עם קבצי %1$d</string>
+    <string name="history_op_success_single">הפעולה הושלמה בהצלחה</string>
+    <string name="history_op_error">לא הצלחנו להשלים את הפעולה</string>
+    <string name="history_multiple_files">קבצים %1$d</string>
+    <string name="history_failed">נִכשָׁל</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">סנכרון ענן</string>
+    <string name="cloud_sync_subtitle">מכשירים מחוברים</string>
+    <string name="cloud_sync_all_synced">כל הקבצים סונכרנו</string>
+    <string name="cloud_sync_syncing">מסנכרן…</string>
+    <string name="cloud_sync_pending">סנכרון ממתין</string>
+    <string name="cloud_sync_last_sync">סנכרון אחרון: %1$s</string>
+    <string name="cloud_sync_never_synced">מעולם לא סנכרן</string>
+    <string name="cloud_sync_recent_activity">פעילות סנכרון אחרונה</string>
+    <string name="cloud_sync_no_files">עדיין אין קבצים מסונכרנים</string>
+    <string name="cloud_sync_synced_to_drive">מסונכרן ל-Drive</string>
+    <string name="cloud_sync_pending_upload">העלאה ממתינה</string>
+    <string name="cloud_sync_sync_now">סנכרן עכשיו</string>
+    <string name="cloud_sync_view_history">הצג היסטוריית סנכרון</string>
+    <string name="cloud_sync_files_count">קבצים %1$d / %2$d סונכרנו</string>
+    <string name="cloud_sync_unlimited_files">%1$d קבצים מסונכרנים · ללא הגבלה</string>
+    <string name="cloud_sync_cta_title">כל פלטפורמה, בכל זמן</string>
+    <string name="cloud_sync_cta_subtitle">המסמכים שלך עוקבים אחריך לכל מקום</string>
+    <string name="cloud_sync_files_label">קבצים %1$d</string>
+    <string name="settings_data_privacy">פרטיות נתונים &amp;</string>
+    <string name="settings_data_privacy_subtitle">ניהול נתונים, מחיקת חשבון &amp;</string>
+    <string name="settings_delete_account">מחיקת חשבון</string>
+    <string name="settings_delete_account_subtitle">מחיקת החשבון והנתונים שלך לצמיתות</string>
+    <string name="delete_account_warning_title">למחוק את החשבון שלך?</string>
+    <string name="delete_account_warning_message">פעולה זו תמחק לצמיתות את חשבונך ואת כל הנתונים המשויכים, כולל היסטוריית הרכישות שלך וקבצים המסונכרנים בענן. לא ניתן לבטל פעולה זו ולא ניתן לשחזר רכישות מאוחר יותר.</string>
+    <string name="delete_account_confirm_phrase_label">הקלד 'אישור מחיקה' כדי להמשיך:</string>
+    <string name="delete_account_confirm_phrase">אישור מחיקה</string>
+    <string name="delete_account_button">מחיקת חשבון</string>
+    <string name="delete_account_error_reauth">מטעמי אבטחה, עליך להיכנס לאחרונה כדי למחוק את חשבונך. אנא צא והתחבר שוב, ולאחר מכן נסה שוב.</string>
+    <string name="delete_account_success">החשבון נמחק בהצלחה</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">קובץ &amp; הגדרות סנכרון</string>
+    <string name="sync_on_mobile_data_subtitle">שימוש בנתונים ניידים לסנכרון בענן</string>
+    <string name="drive_sync">סנכרון רקע</string>
+    <string name="drive_sync_subtitle">סנכרון מועדפים &amp; סריקת מסמכים ל-Drive</string>
+    <string name="do_not_import_from_other_apps">אל תייבא קבצים מאפליקציות אחרות</string>
+    <string name="do_not_import_from_other_apps_subtitle">פתח קבצים משותפים באופן זמני מבלי לשמור אותם בספרייה</string>
+    <string name="clear_imported_files">נקה קבצים מיובאים</string>
+    <string name="clear_imported_files_subtitle">מחיקת כל הקבצים שהועתקו מאפליקציות אחרות</string>
+    <string name="clear_imports_confirm_title">לנקות קבצים מיובאים?</string>
+    <string name="clear_imports_confirm_message">פעולה זו תמחק לצמיתות את כל הקבצים בתיקיית הייבוא שלך. לא ניתן לבטל פעולה זו.</string>
+    <string name="clear_imports_success">קבצים מיובאים נוקו</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">פרטיות נתונים &amp;</string>
+    <string name="analytics_opt_out_title">שלח נתוני שימוש</string>
+    <string name="analytics_opt_out_subtitle">שתף נתוני שימוש אנונימיים ודוחות קריסה עם המפתח כדי לעזור בשיפור האפליקציה</string>
+    <string name="analytics_opt_out_disabled_note">ניתוח נתונים ודיווחי קריסה מושבתים. לא נשלחים נתונים לגוגל או למפתח.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">שינויים שלא נשמרו</string>
+    <string name="unsaved_changes_tab_message">במסמך זה יש שינויים שלא נשמרו. האם ברצונך לשמור לפני הסגירה?</string>
+    <string name="unsaved_changes_window_message">יש לך שינויים שלא נשמרו במסמך אחד או יותר. האם ברצונך למחוק אותם ולסגור?</string>
+    <string name="discard">לְהַשְׁלִיך</string>
+    <string name="discard_and_quit">מחק &amp; צא</string>
+    <string name="close">לִסְגוֹר</string>
+    <string name="remove_favorite">הסר מועדף</string>
+    <string name="set_as_default_pdf_viewer">להגדיר כצופה PDF כברירת מחדל?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF אינו מציג ה-PDF המוגדר כברירת מחדל. האם ברצונך להגדיר אותו כברירת מחדל כך שכל קבצי ה-PDF ייפתחו באמצעות Falcon PDF?</string>
+    <string name="set_now">הגדר עכשיו</string>
+    <string name="never">לְעוֹלָם לֹא</string>
+    <string name="later">מְאוּחָר יוֹתֵר</string>
+    <string name="set_default">הגדר ברירת מחדל</string>
+    <string name="default">בְּרִירַת מֶחדָל</string>
+    <string name="version_">גרסה %1$s</string>
+    <string name="sign_in_with_other_accounts">התחברות עם חשבונות אחרים</string>
+    <string name="upgrade">שדרוג</string>
+    <string name="view_plan">הצג תוכנית</string>
+    <string name="unlimited_sync_upto_5gb">סנכרון ללא הגבלה עד 5GB</string>
+    <string name="unlock_faster">נעילה מהירה יותר</string>
+    <string name="use_biometrics_instead_of_passwords">השתמשו במידע ביומטרי במקום בסיסמאות.</string>
+    <string name="upgrade_to_premium">שדרג לפרימיום</string>
+    <string name="unlock_pdf">נעילת PDF</string>
+    <string name="use__to_accessnthis_document">השתמשו ב- %1$s כדי לגשת למסמך\n</string>
+    <string name="open_with_password">פתיחה עם סיסמה</string>
+    <string name="secure">מְאוּבטָח</string>
+    <string name="loading_">טוען %1$s...</string>
+    <string name="failed_to_open_ebook">נכשלה פתיחת הספר האלקטרוני</string>
+    <string name="properties">נכסים</string>
+    <string name="copy">לְהַעְתִיק</string>
+    <string name="highlight">שִׂיא</string>
+    <string name="clear_selection">נקה את הבחירה</string>
+    <string name="close_search">סגור חיפוש</string>
+    <string name="search_in_book">חיפוש בספר...</string>
+    <string name="contents">תוֹכֶן</string>
+    <string name="table_of_contents">תוֹכֶן הָעִניָנִים</string>
+    <string name="no_table_of_contents_available">אין תוכן עניינים זמין</string>
+    <string name="bookmarks">סימניות</string>
+    <string name="no_bookmarks_yet">אין עדיין סימניות</string>
+    <string name="page_">עמוד %1$s</string>
+    <string name="no_results">אין תוצאות</string>
+    <string name="p">פ%1$s</string>
+    <string name="settings">הגדרות</string>
+    <string name="decrease_font_size">הקטנת גודל הגופן</string>
+    <string name="increase_font_size">הגדלת גודל הגופן</string>
+    <string name="font">גוֹפָן</string>
+    <string name="jump_to_page">קפיצה לעמוד</string>
+    <string name="enter_page_number_1">הזן מספר עמוד (1–%1$s):</string>
+    <string name="go">לָלֶכֶת</string>
+    <string name="read_aloud">קרא בקול רם</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">לְהַפְסִיק</string>
+    <string name="annotations__text_selection">הערות &amp; בחירת טקסט</string>
+    <string name="text_selection_and_annotations_for_ebook">בחירת טקסט והערות לספרים אלקטרוניים יהיו זמינים בקרוב.</string>
+    <string name="longpress_on_text_to_select_highlight_or">לחץ לחיצה ארוכה על טקסט כדי לבחור, לסמן או להוסיף הערות.</string>
+    <string name="press_play_to_start_reading_aloud">לחץ על הפעל כדי להתחיל לקרוא בקול רם...</string>
+    <string name="speed">מְהִירוּת</string>
+    <string name="voice">קוֹל</string>
+    <string name="no_annotations_yet">אין עדיין הערות</string>
+    <string name="select_text_to_highlight_or_add_notes">בחר טקסט להדגשה או הוספת הערות</string>
+    <string name="tools">כְּלֵי עֲבוֹדָה</string>
+    <string name="convert_to_images">המרה לתמונות</string>
+    <string name="rename">שינוי שם</string>
+    <string name="print">הֶדפֵּס</string>
+    <string name="a">א−</string>
+    <string name="cover_of_">כריכה של %1$s</string>
+    <string name="no_cover_available">אין כיסוי זמין</string>
+    <string name="read_now">קרא עכשיו</string>
+    <string name="about_the_book">אודות הספר</string>
+    <string name="tags">תגיות</string>
+    <string name="publisher_info">מידע על המוציא לאור</string>
+    <string name="published_">פורסם: %1$s</string>
+    <string name="retry">נסה שוב</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F נקה את המטמון</string>
+    <string name="ebooks_library">ספריית ספרים אלקטרוניים</string>
+    <string name="manage_your_digital_collection_across_mu">נהל את האוסף הדיגיטלי שלך על פני ספקים מרובים. חפש, סנן וגלה כותרים חדשים מ-Google Books ומ-Open Library.</string>
+    <string name="no_books_found">לא נמצאו ספרים</string>
+    <string name="no_results_for__try_a_different_search_t">אין תוצאות עבור "%1$s". נסה מונח חיפוש אחר.</string>
+    <string name="downloadable_only">להורדה בלבד</string>
+    <string name="file_unavailable">הקובץ לא זמין</string>
+    <string name="unavailable">לא זמין</string>
+    <string name="search_titles_authors_isbn">חיפוש כותרים, מחברים, ISBN...</string>
+    <string name="clear_search">נקה חיפוש</string>
+    <string name="ebooks">ספרים אלקטרוניים</string>
+    <string name="read_pdf">קרא PDF</string>
+    <string name="create_pdf">צור PDF</string>
+    <string name="unlock_all_tools_and_remove_limits">פתחו את כל הכלים והסירו מגבלות</string>
+    <string name="ocr_scanning">סריקת OCR</string>
+    <string name="extract_text_from_scanned_documents">חילוץ טקסט ממסמכים סרוקים</string>
+    <string name="cloud_sync">סנכרון ענן</string>
+    <string name="access_your_documents_anywhere">גישה למסמכים שלך מכל מקום</string>
+    <string name="annotate_pdfs">הוספת הערות לקבצי PDF</string>
+    <string name="cloud_backup">גיבוי ענן</string>
+    <string name="continue_reading">המשך קריאה</string>
+    <string name="pick_files">בחירת קבצים</string>
+    <string name="browse">לְדַפדֵף</string>
+    <string name="did_you_know">האם ידעת?</string>
+    <string name="home">בַּיִת</string>
+    <string name="your_documents_at_a_glance">המסמכים שלך במבט חטוף</string>
+    <string name="pick_file">בחר קובץ</string>
+    <string name="quick_actions">פעולות מהירות</string>
+    <string name="pro">מִקצוֹעָן</string>
+    <string name="open_files">פתיחת קבצים</string>
+    <string name="convert_to_pdf">המרה ל-PDF</string>
+    <string name="close_drawer">סגור את המגירה</string>
+    <string name="close_file">סגור קובץ</string>
+    <string name="office">מִשׂרָד</string>
+    <string name="coming_soon">בקרוב</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">מציג ספרים אלקטרוניים אינו זמין עדיין בפלטפורמה זו.</string>
+    <string name="set_as_default_viewer">הגדר כצופה ברירת מחדל</string>
+    <string name="free">לְשַׁחְרֵר</string>
+    <string name="v">ו%1$s</string>
+    <string name="downloading_update_">מוריד עדכון... %1$s%</string>
+    <string name="more">יוֹתֵר</string>
+    <string name="font_size">גודל גופן</string>
+    <string name="font_family">משפחת גופנים</string>
+    <string name="scroll_direction">כיוון גלילה</string>
+    <string name="navigation">ניווט</string>
+    <string name="keep_screen_on">השאר את המסך דלוק</string>
+    <string name="volume_button_to_scroll">כפתור עוצמת קול לגלילה</string>
+    <string name="export_ebook_pages_as_image_files">ייצוא דפי ספר אלקטרוני כקבצי תמונה</string>
+    <string name="access_millions_of_titles">גישה למיליוני כותרים.</string>
+    <string name="read_offline_with_natural_ai_voices">קרא במצב לא מקוון עם קולות טבעיים של בינה מלאכותית.</string>
+    <string name="advanced_ai_reader">קורא בינה מלאכותית מתקדם.</string>
+    <string name="experience_studioquality_narration">חוו קריינות באיכות אולפן.</string>
+    <string name="powerful_pdf_tools">כלי PDF רבי עוצמה.</string>
+    <string name="create_and_edit_documents_on_the_go">צור וערוך מסמכים תוך כדי תנועה.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">שדרגו ל-Pro: פתחו את כל הכלים והסירו מגבלות</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">סריקת OCR: חילוץ טקסט ממסמכים סרוקים</string>
+    <string name="cloud_sync_access_your_documents_anywher">סנכרון ענן: גישה למסמכים שלך מכל מקום</string>
+    <string name="scan">לִסְרוֹק</string>
+    <string name="compress">לִדחוֹס</string>
+    <string name="merge">לְמַזֵג</string>
+    <string name="convert">לְהַמִיר</string>
+    <string name="highlight_underline_and_add_notes_to_you">סימון, קו תחתון והוספת הערות למסמכים שלך</string>
+    <string name="keep_your_documents_safe_with_automatic_">שמרו על המסמכים שלכם בטוחים בעזרת סנכרון אוטומטי בענן</string>
+    <string name="indicator_color_">צבע_המחוון_%1$s</string>
+    <string name="my_library">הספרייה שלי</string>
+    <string name="get_ebooks">קבל ספרים אלקטרוניים</string>
+    <string name="scan_document">סריקת מסמך</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

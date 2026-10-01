@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Magia PDF</string>
+    <string name="app_tagline">Co chciałbyś zrobić?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">Ostatnio używany</string>
+    <string name="home_favorites">Ulubione</string>
+    <string name="home_new_tool">Nowe narzędzie</string>
+    <string name="home_featured">WYRÓŻNIONY</string>
+    <string name="home_scan_to_pdf">Skanuj do PDF</string>
+    <string name="home_scan_description">Natychmiast zamień papierowe dokumenty w cyfrową magię</string>
+    <string name="home_start_scanning">Rozpocznij skanowanie</string>
+    <string name="home_all_tools">Wszystkie narzędzia</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">Narzędzia PDF</string>
+    <string name="image_tools">Narzędzia obrazowe</string>
+    <string name="tools_split">Podział</string>
+    <string name="tools_split_description">Wyodrębnij strony</string>
+    <string name="tools_rotate">Obracać</string>
+    <string name="tools_rotate_description">Napraw orientację</string>
+    <string name="tools_delete_pages">Usuń strony</string>
+    <string name="tools_delete_pages_description">Usuń niechciane</string>
+    <string name="tools_convert">Konwertować</string>
+    <string name="tools_convert_description">Do/Z obrazów</string>
+    <string name="tools_sign">Podpisać</string>
+    <string name="tools_sign_description">Dodaj podpis</string>
+    <string name="tools_protect">Chronić</string>
+    <string name="tools_protect_description">Bezpieczeństwo hasła</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">Przeglądarka PDF</string>
+    <string name="pdf_viewer_page_info">Strona %1$d z %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">Skaner dokumentów</string>
+    <string name="scanner_capture">Schwytać</string>
+    <string name="scanner_retake">Odzyskać</string>
+    <string name="scanner_save">Ratować</string>
+    <!-- Navigation -->
+    <string name="nav_back">Nawiguj wstecz</string>
+    <string name="nav_settings">Ustawienia</string>
+    <string name="nav_more_options">Więcej opcji</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Dom</string>
+    <string name="nav_library">Biblioteka</string>
+    <string name="nav_scan">Skandować</string>
+    <string name="nav_tools">Narzędzia</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">Przeglądaj pliki</string>
+    <string name="browse_files_subtitle">Przechowywanie &amp; Pliki w chmurze</string>
+    <string name="show_hidden_files">Pokaż ukryte pliki</string>
+    <string name="hide_hidden_files">Ukryj ukryte pliki</string>
+    <string name="refresh_storage">Odśwież pamięć</string>
+    <string name="no_storage_available">Brak dostępnego miejsca do przechowywania</string>
+    <string name="no_files_found">Nie znaleziono plików</string>
+    <string name="add_files">Dodaj pliki %1$d</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">Wymagane pozwolenie na przechowywanie</string>
+    <string name="permission_storage_message">Ta aplikacja potrzebuje dostępu do pamięci urządzenia, aby przeglądać i otwierać pliki PDF. Aby kontynuować, udziel uprawnień dostępu do pamięci urządzenia.</string>
+    <string name="permission_grant">Udziel pozwolenia</string>
+    <!-- Common Actions -->
+    <string name="action_open">Otwarte</string>
+    <string name="action_save">Ratować</string>
+    <string name="action_share">Udział</string>
+    <string name="action_delete">Usuwać</string>
+    <string name="action_cancel">Anulować</string>
+    <string name="action_confirm">Potwierdzać</string>
+    <string name="action_rename">Przemianować</string>
+    <string name="action_print">Wydrukować</string>
+    <string name="action_favorite">Ulubiony</string>
+    <string name="action_unfavorite">Nielubiane</string>
+    <!-- Document Actions -->
+    <string name="document_share">Udostępnij dokument</string>
+    <string name="document_rename">Zmień nazwę dokumentu</string>
+    <string name="document_delete">Usuń dokument</string>
+    <string name="document_print">Wydrukuj dokument</string>
+    <string name="document_favorite">Dodaj do ulubionych</string>
+    <string name="document_unfavorite">Usuń z ulubionych</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">Dokument udostępniony pomyślnie</string>
+    <string name="document_share_failed">Nie udało się udostępnić dokumentu</string>
+    <string name="document_renamed_success">Pomyślnie zmieniono nazwę dokumentu</string>
+    <string name="document_rename_failed">Nie udało się zmienić nazwy dokumentu</string>
+    <string name="document_deleted_success">Dokument został pomyślnie usunięty</string>
+    <string name="document_delete_failed">Nie udało się usunąć dokumentu</string>
+    <string name="document_print_opened">Dokument został otwarty w domyślnej przeglądarce PDF. Aby go wydrukować, użyj funkcji drukowania w przeglądarce.</string>
+    <string name="document_print_failed">Nie udało się wydrukować dokumentu</string>
+    <string name="document_added_to_favorites">Dodano do ulubionych</string>
+    <string name="document_removed_from_favorites">Usunięto z ulubionych</string>
+    <string name="document_favorite_failed">Nie udało się zaktualizować statusu ulubionych</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">Zmień nazwę dokumentu</string>
+    <string name="dialog_rename_hint">Wprowadź nową nazwę</string>
+    <string name="dialog_rename_empty_error">Nazwa dokumentu nie może być pusta</string>
+    <string name="dialog_delete_title">Usuń dokument</string>
+    <string name="dialog_delete_file_message">Spowoduje to trwałe usunięcie pliku.\n\nUsuń %1$s?</string>
+    <string name="dialog_delete_uri_message">Usuwa tylko z aplikacji. Oryginalny plik pozostaje niezmieniony.\n\nUsunąć %1$s z aplikacji?</string>
+    <string name="dialog_delete_confirm">Usuwać</string>
+    <string name="dialog_remove_confirm">Usunąć</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">Zmiana nazwy możliwa tylko w aplikacji. Oryginalny plik pozostaje niezmieniony.</string>
+    <string name="notice_delete_uri_only">Usunięto z aplikacji. Oryginalny plik pozostał niezmieniony.</string>
+    <string name="notice_file_exists_error">Plik o tej nazwie już istnieje</string>
+    <string name="notice_file_not_found_error">Plik nie został znaleziony</string>
+    <string name="notice_no_active_document">Brak aktywnego dokumentu</string>
+    <string name="notice_document_path_unavailable">Ścieżka do pliku dokumentu jest niedostępna</string>
+    <!-- States -->
+    <string name="state_loading">Załadunek...</string>
+    <string name="state_empty">Nie znaleziono żadnych pozycji</string>
+    <string name="state_error">Coś poszło nie tak</string>
+    <string name="state_retry">Spróbować ponownie</string>
+    <!-- Errors -->
+    <string name="error_network">Połączenie sieciowe nie powiodło się</string>
+    <string name="error_file_not_found">Plik nie został znaleziony</string>
+    <string name="error_permission_denied">Odmowa pozwolenia</string>
+    <string name="error_invalid_file">Nieprawidłowy format pliku</string>
+    <string name="error_password_required">Wymagane hasło</string>
+    <string name="error_incorrect_password">Nieprawidłowe hasło</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">Zabezpieczone hasłem</string>
+    <string name="password_protected_message">Do otwarcia tego pliku wymagane jest hasło. Wprowadź je poniżej.</string>
+    <string name="password_label">Hasło</string>
+    <string name="password_placeholder">Wprowadź hasło</string>
+    <string name="password_unlock">Odblokować</string>
+    <string name="password_show">Pokaż hasło</string>
+    <string name="password_hide">Ukryj hasło</string>
+    <!-- Theme -->
+    <string name="theme_light">Światło</string>
+    <string name="theme_dark">Ciemny</string>
+    <string name="theme_system">System</string>
+    <string name="theme_adaptive">Adaptacyjny</string>
+    <string name="theme_custom">Zwyczaj</string>
+    <!-- Settings -->
+    <string name="settings_title">Preferencje</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">Synchronizacja konta &amp;</string>
+    <string name="settings_category_sync_subtitle">Zarządzaj swoim kontem, synchronizuj &amp; prywatność</string>
+    <string name="settings_category_appearance_title">Wygląd</string>
+    <string name="settings_category_appearance_subtitle">Dostosuj wygląd aplikacji &amp;</string>
+    <string name="settings_category_pdf_reader_title">Czytnik PDF</string>
+    <string name="settings_category_pdf_reader_subtitle">Domyślny widok przeglądarki &amp; – doświadczenie czytania</string>
+    <string name="settings_category_help_title">Pomoc &amp; Wsparcie</string>
+    <string name="settings_category_help_subtitle">Dokumentacja &amp; kontakt</string>
+    <string name="settings_category_general_title">Ogólny</string>
+    <string name="settings_category_general_subtitle">Język &amp; informacje o aplikacji</string>
+    <string name="settings_theme_section">Temat</string>
+    <string name="settings_theme_description">Wybierz preferowany motyw</string>
+    <string name="settings_accent_color">KOLOR AKCENTUJĄCY</string>
+    <string name="settings_custom_colors">Niestandardowe kolory</string>
+    <string name="settings_primary_color">Kolor podstawowy</string>
+    <string name="settings_background_color">Kolor tła</string>
+    <string name="settings_surface_color">Kolor powierzchni</string>
+    <string name="settings_reset_colors">Przywróć ustawienia domyślne</string>
+    <string name="settings_adaptive_note">Materiał Ty adaptacyjne kolory (Android 12+)</string>
+    <string name="settings_app_section">Ustawienia aplikacji</string>
+    <string name="settings_notifications">Powiadomienia</string>
+    <string name="settings_notifications_description">Otrzymuj powiadomienia z aplikacji</string>
+    <string name="settings_auto_backup">Automatyczne tworzenie kopii zapasowych</string>
+    <string name="settings_auto_backup_description">Automatyczne tworzenie kopii zapasowych dokumentów</string>
+    <string name="settings_change_color">Mienić się</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">Twoje dokumenty PDF pojawią się tutaj</string>
+    <string name="scan_description">Skanuj dokumenty do PDF-u</string>
+    <string name="tools_description">Narzędzia do edycji i obróbki plików PDF</string>
+    <string name="home_description">Aby uzyskać dostęp do funkcji, skorzystaj z dolnego paska nawigacyjnego</string>
+    <!-- Sort Options -->
+    <string name="sort_name">Nazwa</string>
+    <string name="sort_date">Data</string>
+    <string name="sort_size">Rozmiar</string>
+    <string name="sort_option_name">Nazwa</string>
+    <string name="sort_option_last_opened">Ostatnio otwarte</string>
+    <string name="sort_option_last_modified">Ostatnia modyfikacja</string>
+    <string name="sort_option_file_size">Rozmiar pliku</string>
+    <!-- View Types -->
+    <string name="view_type_list">Widok listy</string>
+    <string name="view_type_table">Widok tabeli</string>
+    <string name="view_type_grid">Widok siatki</string>
+    <!-- File Properties -->
+    <string name="file_name">Nazwa pliku</string>
+    <string name="date_modified">Data modyfikacji</string>
+    <string name="file_size">Rozmiar</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">Nie rozpoczęto</string>
+    <string name="file_status_completed">Zakończony</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">Dokument PDF</string>
+    <string name="document_type_word">Dokument Word</string>
+    <string name="document_type_excel">Arkusz kalkulacyjny Excel</string>
+    <string name="document_type_image">Plik obrazu</string>
+    <string name="document_type_other">Dokument</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">Wszystkie pliki</string>
+    <string name="filter_recent">Ostatni</string>
+    <string name="filter_pdfs">Pliki PDF</string>
+    <string name="filter_images">Obrazy</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">Dom</string>
+    <string name="browse_tab">Przeglądać</string>
+    <string name="starred_tab">Oznaczone gwiazdką</string>
+    <string name="settings_tab">Ustawienia</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">Przełącz motyw</string>
+    <string name="accessibility_menu">Menu</string>
+    <string name="accessibility_close">Zamknąć</string>
+    <string name="accessibility_color_picker">Selektor kolorów</string>
+    <!-- Library Screen -->
+    <string name="library_title">Biblioteka</string>
+    <string name="library_subtitle">Zarządzaj plikami, ostatnimi &amp; Ulubione</string>
+    <string name="library_search_placeholder">Wyszukaj pliki...</string>
+    <string name="library_selected_count">%1$d wybrano</string>
+    <string name="library_open_from_device">Otwórz z urządzenia\n</string>
+    <string name="library_browse_files">Przeglądaj\nplików</string>
+    <string name="library_action_open">Otwarte</string>
+    <string name="library_action_share">Udział</string>
+    <string name="library_action_remove">Usunąć</string>
+    <string name="library_action_delete">Usuwać</string>
+    <string name="library_clear_search">Wyczyść wyszukiwanie</string>
+    <string name="library_close_search">Zamknij wyszukiwanie</string>
+    <string name="library_select_all">Zaznacz wszystkie pliki</string>
+    <string name="library_exit_multiselect">Wyjdź z trybu wielokrotnego wyboru</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">Pomoc &amp; Wsparcie</string>
+    <string name="help_support_subtitle">Często zadawane pytania, kontakt &amp; Informacje prawne</string>
+    <string name="settings_pdf_subtitle">Przewiń, widok &amp; Układ</string>
+    <string name="help_header_title">Jak możemy pomóc?</string>
+    <string name="help_header_subtitle">Nasz zespół jest tutaj, aby zapewnić Ci\nnajlepsze wrażenia z korzystania z plików PDF.</string>
+    <string name="help_contact_us">Skontaktuj się z nami</string>
+    <string name="help_contact_subtitle">Skontaktuj się z pomocą techniczną</string>
+    <string name="help_faq">Często zadawane pytania</string>
+    <string name="help_faq_subtitle">Odpowiedzi na najczęściej zadawane pytania</string>
+    <string name="help_privacy_policy">Polityka prywatności</string>
+    <string name="help_privacy_subtitle">Jak chronimy Twoje dane</string>
+    <string name="help_terms_service">Warunki korzystania z usługi</string>
+    <string name="help_terms_subtitle">Zasady aplikacji</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">Synchronizuj dane mobilne</string>
+    <string name="background_sync">Synchronizacja w tle</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">Ustawienia czytnika PDF</string>
+    <string name="pdf_settings_coming_soon">Już wkrótce</string>
+    <string name="pdf_settings_description">Konfiguruj zachowanie przewijania, tryby widoku i preferencje czytania</string>
+    <!-- General Settings -->
+    <string name="settings_language">Język</string>
+    <string name="settings_pdf_reader">Ustawienia czytnika PDF</string>
+    <string name="settings_help_support">Pomoc &amp; Wsparcie</string>
+    <string name="settings_whats_new">Co nowego</string>
+    <string name="settings_download_desktop">Zainstaluj na innym urządzeniu</string>
+    <string name="settings_rate_app">Oceń aplikację</string>
+    <string name="play_store_not_found">Sklep Play nie został znaleziony na tym urządzeniu</string>
+    <string name="settings_set_as_default">Ustaw jako domyślną przeglądarkę PDF</string>
+    <string name="settings_set_as_default_subtitle">Domyślnie otwieraj pliki PDF za pomocą tej aplikacji</string>
+    <string name="settings_default_pdf_instructions_title">Jak ustawić jako domyślne</string>
+    <string name="settings_default_pdf_ok">Zrozumiałem</string>
+    <string name="settings_default_app_hint">Nie zadziałało?</string>
+    <string name="settings_default_app_hint_learn_more">Dowiedz się więcej</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">Język</string>
+    <string name="language_search_placeholder">Wyszukaj języki...</string>
+    <!-- Common UI -->
+    <string name="support">Wsparcie</string>
+    <string name="language_english">angielski</string>
+    <string name="language_hindi">हिंदी</string>
+    <string name="language_spanish">hiszpański</string>
+    <string name="language_french">francuski</string>
+    <string name="language_german">Niemiecki</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">portugalski</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">WYGLĄD APLIKACJI</string>
+    <string name="theme">TEMAT</string>
+    <string name="general">OGÓLNY</string>
+    <string name="new">NOWY</string>
+    <string name="navigate">Nawigować</string>
+    <string name="download">Pobierać</string>
+    <string name="falcon_pdf">Falcon PDF</string>
+    <string name="excellence_in_every_pixel">Doskonałość w każdym pikselu</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">ZASTOSUJ ZMIANY</string>
+    <string name="apply">Stosować</string>
+    <string name="selected">Wybrany</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">Ustawienia synchronizacji</string>
+    <string name="autosync_on_wifi">Automatyczna synchronizacja przez Wi-Fi</string>
+    <string name="sync_reading_progress">Synchronizuj postęp czytania</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">Nazwa dokumentu</string>
+    <string name="name_cannot_be_empty">Nazwa nie może być pusta</string>
+    <string name="str__failed">%1$s Nie powiodło się</string>
+    <string name="ok">OK</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">Plan aktualizacji - Aktualny plan: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">Upuść, aby otworzyć plik</string>
+    <string name="release_to_import_and_open_pdf">Zwolnij, aby importować i otwierać pliki PDF</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">Usunąć</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF</string>
+    <string name="images">Obrazy</string>
+    <string name="filter_all_types">Wszystkie pliki</string>
+    <string name="favorites">Ulubione pliki</string>
+    <string name="recent">Ostatni</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">Przeszukaj dokumenty...</string>
+    <string name="voice_search">Wyszukiwanie głosowe</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">Ostatnie pliki</string>
+    <string name="loading_recent_files">Ładowanie ostatnich plików...</string>
+    <string name="no_recent_files">Brak ostatnich plików</string>
+    <string name="no_favorites">Brak ulubionych</string>
+    <string name="mark_files_as_favorite_to_see_them_here">Oznacz pliki jako ulubione, aby je tutaj zobaczyć</string>
+    <string name="open_some_pdf_files_to_see_the">Otwórz kilka plików PDF, aby je tutaj zobaczyć</string>
+    <string name="status">Status</string>
+    <string name="actions">Akcje</string>
+    <string name="select_all">Zaznacz wszystko</string>
+    <string name="enter_multiselect_mode">Wejdź w tryb wielokrotnego wyboru</string>
+    <string name="sorted_ascending">Posortowane rosnąco</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">Pamięć: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">Dodaj pliki %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">Zmień typ widoku</string>
+    <string name="filter_">Filtr: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">Ładowanie pliku PDF...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">Zaloguj się, aby zsynchronizować</string>
+    <string name="protect_your_library_files">Chroń swoje pliki biblioteczne</string>
+    <string name="sign_in">Zalogować się</string>
+    <string name="sign_out">Wyloguj się</string>
+    <string name="sign_in_dialog_title">Zaloguj się do Falcon PDF</string>
+    <string name="sign_in_dialog_subtitle">Twoja biblioteka PDF, gdziekolwiek jesteś.</string>
+    <string name="sign_in_with_google">Zaloguj się za pomocą Google</string>
+    <string name="sign_in_with_apple">Zaloguj się za pomocą Apple</string>
+    <string name="apple_user_drive_unavailable">Synchronizacja z Dyskiem Google nie jest dostępna w przypadku logowania Apple</string>
+    <string name="apple_user_link_google">Połącz konto Google, aby synchronizować Dysk</string>
+    <string name="apple_user_sync_info">Aby włączyć synchronizację w chmurze, połącz konto Google</string>
+    <string name="link_google_account">Połącz konto Google</string>
+    <string name="signed_in_successfully">Zalogowano pomyślnie</string>
+    <string name="signed_out_successfully">Wylogowano pomyślnie</string>
+    <string name="sync_disabled_free">Synchronizacja jest wyłączona dla kont bezpłatnych.</string>
+    <string name="storage_disabled_grant_access">Pamięć masowa jest wyłączona. Aby rozpocząć, udziel dostępu do dysku.</string>
+    <string name="upgrade_to_pro">Uaktualnij do wersji Pro</string>
+    <string name="grant_drive_access">Udziel dostępu do dysku</string>
+    <string name="files_synced">%1$d/%2$d Zsynchronizowane pliki</string>
+    <string name="synced_count">%1$d Zsynchronizowano</string>
+    <string name="unlimited_sync_active">NIEOGRANICZONA SYNCHRONIZACJA</string>
+    <string name="missing_drive_permissions">Brak uprawnień do Dysku. Synchronizacja jest obecnie zablokowana.</string>
+    <string name="drive_access_revoked">Dostęp do dysku został cofnięty. Połącz się ponownie, aby wznowić synchronizację.</string>
+    <string name="upgrade_premium">Uaktualnij do wersji Premium</string>
+    <string name="manage_account">Zarządzaj kontem</string>
+    <string name="sync_now">Synchronizuj teraz</string>
+    <string name="tier_free">BEZPŁATNY</string>
+    <string name="tier_pro">ZAWODOWIEC</string>
+    <string name="tier_premium">PREMIA</string>
+    <string name="status_paused">WSTRZYMANO</string>
+    <!-- Common -->
+    <string name="navigate_back">Nawiguj wstecz</string>
+    <string name="dismiss">Odrzucać</string>
+    <string name="cancel">Anulować</string>
+    <string name="back">Z powrotem</string>
+    <string name="search">Szukaj</string>
+    <string name="more_actions">Więcej akcji</string>
+    <string name="share">Udział</string>
+    <string name="delete">Usuwać</string>
+    <string name="remove_from_recents">Usuń z ostatnich</string>
+    <string name="open">Otwarte</string>
+    <string name="all">Wszystko</string>
+    <string name="sort_by_">Sortuj według %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Synchronizacja Dysku Google</string>
+    <string name="syncing">Synchronizacja...</string>
+    <string name="sync_completed">Synchronizacja zakończona</string>
+    <string name="sync_failed">Synchronizacja nie powiodła się</string>
+    <string name="sync_limit_exceeded">Przekroczono limit synchronizacji. Twój plan %s zezwala na %d plików.</string>
+    <string name="sync_no_drive_access">Dostęp do Dysku Google niedostępny</string>
+    <string name="sync_network_unavailable">Sieć niedostępna</string>
+    <string name="sync_last_sync">Ostatnia synchronizacja: %s</string>
+    <string name="sync_total_files">Całkowity</string>
+    <string name="sync_synced_files">Zsynchronizowane</string>
+    <string name="sync_failed_files">Przegrany</string>
+    <string name="sync_conflict_files">Konflikty</string>
+    <string name="sync_add_to_favorites">Dodaj do ulubionych</string>
+    <string name="sync_remove_from_favorites">Usuń z ulubionych</string>
+    <string name="sync_conflict_title">Konflikty synchronizacji</string>
+    <string name="sync_conflict_message">Następujące pliki zawierają konflikty, które należy rozwiązać:</string>
+    <string name="sync_conflict_explanation">Konflikty występują, gdy zmodyfikowano zarówno wersję lokalną, jak i zdalną.</string>
+    <string name="sync_plan_limit">Synchronizacja: %d/%d</string>
+    <string name="sync_plan_limit_reached">Osiągnięto limit</string>
+    <string name="sync_plan_unlimited">Nieograniczona synchronizacja</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">Pominąć</string>
+    <string name="welcome_next">Następny</string>
+    <string name="welcome_get_started">Rozpocznij</string>
+    <string name="welcome_sign_in_get_started">Zaloguj się &amp; Rozpocznij</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Odczytaj dowolny dokument&lt;/b&gt; natychmiast</string>
+    <string name="welcome_slide1_description">Otwieraj i zarządzaj ponad 10 formatami dokumentów, w tym PDF, DOC, EPUB, MOBI.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Czytaj pliki PDF, e-booki,&lt;/b&gt; i dokumenty biurowe w jednym miejscu</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Dodaj&lt;/b&gt; dokumentów do ulubionych i uzyskaj do nich dostęp na różnych urządzeniach</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;Komentuj,&lt;/b&gt; wyróżniaj i współpracuj z łatwością</string>
+    <string name="welcome_slide1_footer">Twój uniwersalny czytnik dokumentów</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;Edytuj, skanuj i organizuj&lt;/b&gt; pliki PDF</string>
+    <string name="welcome_slide2_description">Wszystko, czego potrzebujesz do tworzenia, edytowania i zarządzania plikami PDF w jednym potężnym zestawie narzędzi.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;Edytuj tekst,&lt;/b&gt; dodawaj adnotacje, podświetlaj i wypełniaj formularze</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Skanuj dokumenty&lt;/b&gt; i natychmiast konwertuj je do plików PDF</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;Ponad 30 narzędzi&lt;/b&gt; , w tym scalanie, konwersja, kompresja i zabezpieczanie</string>
+    <string name="welcome_slide2_footer">Twój kompleksowy obszar roboczy PDF</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;Sztuczna inteligencja, która rozumie&lt;/b&gt; Twoje dokumenty</string>
+    <string name="welcome_slide3_description">Oszczędź godziny dzięki sztucznej inteligencji, która odczytuje i analizuje dokumenty za Ciebie.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Podsumuj&lt;/b&gt; długich dokumentów w sekundach</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; zeskanowanych stron i natychmiastowe tłumaczenie tekstu</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Słuchaj&lt;/b&gt; dokumentów z wbudowaną funkcją czytania na głos</string>
+    <string name="welcome_slide3_footer">Żadnych reklam. Tylko produktywność.</string>
+    <string name="grace">ŁASKA</string>
+    <string name="unable_to_verify_subscription_limited_ac">Nie można zweryfikować subskrypcji. Dostęp ograniczony do czasu przywrócenia połączenia.</string>
+    <string name="retry_verification">Ponów weryfikację</string>
+    <string name="guest_state">Państwo gościnne</string>
+    <string name="free_tier">Bezpłatny poziom</string>
+    <string name="free_tier__locked">Poziom darmowy – zablokowany</string>
+    <string name="pro_tier">Poziom Pro</string>
+    <string name="pro_tier__restricted">Poziom Pro – Ograniczony</string>
+    <string name="premium_tier">Poziom Premium</string>
+    <string name="premium_tier__error">Poziom Premium – Błąd</string>
+    <string name="refresh_plan_status">Odśwież status planu</string>
+    <string name="user_avatar">Awatar użytkownika</string>
+    <string name="debug_tools">Narzędzia debugowania</string>
+    <string name="authentication__drive">Uwierzytelnianie &amp; Dysk</string>
+    <string name="auth_state">Stan autoryzacji</string>
+    <string name="revoke_drive_access">Cofnij dostęp do dysku</string>
+    <string name="image">Obraz</string>
+    <string name="thumbnail">Zwięzły</string>
+    <string name="manage_preferences">Zarządzaj preferencjami</string>
+    <string name="tools_history">Historia narzędzi</string>
+    <string name="manage_recent_logs">Zarządzaj ostatnimi dziennikami</string>
+    <string name="more_options">Więcej opcji</string>
+    <string name="clear_all_history">Wyczyść całą historię</string>
+    <string name="no_history_yet">Brak historii</string>
+    <string name="your_pdf_tool_operations_will_appear_her">Tutaj będą wyświetlane operacje narzędzia PDF</string>
+    <string name="view">Pogląd</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">Zapisano %1$s</string>
+    <string name="history_status_processing">Przetwarzanie</string>
+    <string name="history_status_succeeded">OSIĄGNIĘTY SUKCES</string>
+    <string name="history_status_failed">PRZEGRANY</string>
+    <string name="history_status_processing_upper">PRZETWARZANIE</string>
+    <string name="history_unknown_files">Nieznane pliki</string>
+    <string name="history_op_complete">%1$s Zakończono!</string>
+    <string name="history_op_failed">%1$s Nie powiodło się</string>
+    <string name="history_op_success_multiple">Operacja zakończona pomyślnie z plikami %1$d</string>
+    <string name="history_op_success_single">Operacja zakończona pomyślnie</string>
+    <string name="history_op_error">Nie udało nam się dokończyć operacji</string>
+    <string name="history_multiple_files">Pliki %1$d</string>
+    <string name="history_failed">Przegrany</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">Synchronizacja w chmurze</string>
+    <string name="cloud_sync_subtitle">Podłączone urządzenia</string>
+    <string name="cloud_sync_all_synced">Wszystkie pliki zsynchronizowane</string>
+    <string name="cloud_sync_syncing">Synchronizacja…</string>
+    <string name="cloud_sync_pending">Synchronizacja w toku</string>
+    <string name="cloud_sync_last_sync">Ostatnia synchronizacja: %1$s</string>
+    <string name="cloud_sync_never_synced">Nigdy nie zsynchronizowane</string>
+    <string name="cloud_sync_recent_activity">Ostatnia aktywność synchronizacji</string>
+    <string name="cloud_sync_no_files">Brak zsynchronizowanych plików</string>
+    <string name="cloud_sync_synced_to_drive">Zsynchronizowano z Dyskiem</string>
+    <string name="cloud_sync_pending_upload">Oczekiwanie na przesłanie</string>
+    <string name="cloud_sync_sync_now">Synchronizuj teraz</string>
+    <string name="cloud_sync_view_history">Wyświetl historię synchronizacji</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d plików zsynchronizowanych</string>
+    <string name="cloud_sync_unlimited_files">%1$d zsynchronizowanych plików · Nieograniczona liczba</string>
+    <string name="cloud_sync_cta_title">Dowolna platforma, dowolny czas</string>
+    <string name="cloud_sync_cta_subtitle">Twoje dokumenty są z Tobą wszędzie</string>
+    <string name="cloud_sync_files_label">Pliki %1$d</string>
+    <string name="settings_data_privacy">Dane &amp; Prywatność</string>
+    <string name="settings_data_privacy_subtitle">Zarządzanie danymi, usunięcie konta &amp;</string>
+    <string name="settings_delete_account">Usuń konto</string>
+    <string name="settings_delete_account_subtitle">Trwale usuń swoje konto i dane</string>
+    <string name="delete_account_warning_title">Usunąć swoje konto?</string>
+    <string name="delete_account_warning_message">Spowoduje to trwałe usunięcie Twojego konta i wszystkich powiązanych z nim danych, w tym historii zakupów i plików zsynchronizowanych z chmurą. Tej czynności nie można cofnąć, a zakupów nie można później przywrócić.</string>
+    <string name="delete_account_confirm_phrase_label">Wpisz „potwierdź usunięcie”, aby kontynuować:</string>
+    <string name="delete_account_confirm_phrase">potwierdź usunięcie</string>
+    <string name="delete_account_button">Usuń konto</string>
+    <string name="delete_account_error_reauth">Ze względów bezpieczeństwa, aby usunąć konto, musisz się niedawno zalogować. Wyloguj się i zaloguj ponownie, a następnie spróbuj jeszcze raz.</string>
+    <string name="delete_account_success">Konto zostało pomyślnie usunięte</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">Plik &amp; Ustawienia synchronizacji</string>
+    <string name="sync_on_mobile_data_subtitle">Użyj danych mobilnych do synchronizacji w chmurze</string>
+    <string name="drive_sync">Synchronizacja w tle</string>
+    <string name="drive_sync_subtitle">Synchronizuj ulubione &amp; skanuj dokumenty do Dysku</string>
+    <string name="do_not_import_from_other_apps">Nie importuj plików z innych aplikacji</string>
+    <string name="do_not_import_from_other_apps_subtitle">Otwórz tymczasowo udostępnione pliki bez zapisywania ich w bibliotece</string>
+    <string name="clear_imported_files">Wyczyść zaimportowane pliki</string>
+    <string name="clear_imported_files_subtitle">Usuń wszystkie pliki skopiowane z innych aplikacji</string>
+    <string name="clear_imports_confirm_title">Wyczyścić zaimportowane pliki?</string>
+    <string name="clear_imports_confirm_message">Spowoduje to trwałe usunięcie wszystkich plików z folderu Importy. Tej operacji nie można cofnąć.</string>
+    <string name="clear_imports_success">Zaimportowane pliki zostały wyczyszczone</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">Dane &amp; Prywatność</string>
+    <string name="analytics_opt_out_title">Wyślij dane dotyczące użytkowania</string>
+    <string name="analytics_opt_out_subtitle">Udostępniaj programistom anonimowe dane dotyczące użytkowania i raporty o awariach, aby pomóc w ulepszaniu aplikacji</string>
+    <string name="analytics_opt_out_disabled_note">Analityka i raportowanie awarii są wyłączone. Żadne dane nie są wysyłane do Google ani dewelopera.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">Niezapisane zmiany</string>
+    <string name="unsaved_changes_tab_message">Ten dokument zawiera niezapisane zmiany. Czy chcesz je zapisać przed zamknięciem?</string>
+    <string name="unsaved_changes_window_message">Masz niezapisane zmiany w jednym lub kilku dokumentach. Czy chcesz je odrzucić i wyjść?</string>
+    <string name="discard">Wyrzucać</string>
+    <string name="discard_and_quit">Odrzuć &amp; Wyjdź</string>
+    <string name="close">Zamknąć</string>
+    <string name="remove_favorite">Usuń z ulubionych</string>
+    <string name="set_as_default_pdf_viewer">Ustawić jako domyślną przeglądarkę PDF?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF nie jest Twoją domyślną przeglądarką PDF. Czy chcesz ustawić ją jako domyślną, aby wszystkie pliki PDF otwierały się w Falcon PDF?</string>
+    <string name="set_now">Ustaw teraz</string>
+    <string name="never">Nigdy</string>
+    <string name="later">Później</string>
+    <string name="set_default">Ustaw domyślne</string>
+    <string name="default">Domyślny</string>
+    <string name="version_">Wersja %1$s</string>
+    <string name="sign_in_with_other_accounts">Zaloguj się za pomocą innych kont</string>
+    <string name="upgrade">Aktualizacja</string>
+    <string name="view_plan">Zobacz plan</string>
+    <string name="unlimited_sync_upto_5gb">Nieograniczona synchronizacja do 5 GB</string>
+    <string name="unlock_faster">Odblokuj szybciej</string>
+    <string name="use_biometrics_instead_of_passwords">Używaj biometrii zamiast haseł.</string>
+    <string name="upgrade_to_premium">Uaktualnij do wersji Premium</string>
+    <string name="unlock_pdf">Odblokuj PDF</string>
+    <string name="use__to_accessnthis_document">Użyj %1$s , aby uzyskać dostęp do\ntego dokumentu</string>
+    <string name="open_with_password">Otwórz za pomocą hasła</string>
+    <string name="secure">Bezpieczny</string>
+    <string name="loading_">Ładowanie %1$s...</string>
+    <string name="failed_to_open_ebook">Nie udało się otworzyć e-booka</string>
+    <string name="properties">Właściwości</string>
+    <string name="copy">Kopia</string>
+    <string name="highlight">Atrakcja</string>
+    <string name="clear_selection">Wyczyść wybór</string>
+    <string name="close_search">Zamknij wyszukiwanie</string>
+    <string name="search_in_book">Szukaj w książce...</string>
+    <string name="contents">Zawartość</string>
+    <string name="table_of_contents">Spis treści</string>
+    <string name="no_table_of_contents_available">Brak spisu treści</string>
+    <string name="bookmarks">Zakładki</string>
+    <string name="no_bookmarks_yet">Brak zakładek</string>
+    <string name="page_">Strona %1$s</string>
+    <string name="no_results">Brak wyników</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">Ustawienia</string>
+    <string name="decrease_font_size">Zmniejsz rozmiar czcionki</string>
+    <string name="increase_font_size">Zwiększ rozmiar czcionki</string>
+    <string name="font">Chrzcielnica</string>
+    <string name="jump_to_page">Przejdź do strony</string>
+    <string name="enter_page_number_1">Wprowadź numer strony (1–%1$s):</string>
+    <string name="go">Iść</string>
+    <string name="read_aloud">Czytaj na głos</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">Zatrzymywać się</string>
+    <string name="annotations__text_selection">Adnotacje &amp; Wybór tekstu</string>
+    <string name="text_selection_and_annotations_for_ebook">Już wkrótce w e-bookach będzie można wybierać tekst i dodawać adnotacje.</string>
+    <string name="longpress_on_text_to_select_highlight_or">Naciśnij i przytrzymaj tekst, aby go zaznaczyć, podświetlić lub dodać notatki.</string>
+    <string name="press_play_to_start_reading_aloud">Naciśnij przycisk odtwarzania, aby rozpocząć czytanie na głos...</string>
+    <string name="speed">Prędkość</string>
+    <string name="voice">Głos</string>
+    <string name="no_annotations_yet">Brak jeszcze adnotacji</string>
+    <string name="select_text_to_highlight_or_add_notes">Zaznacz tekst, aby go podświetlić lub dodać notatki</string>
+    <string name="tools">Narzędzia</string>
+    <string name="convert_to_images">Konwertuj na obrazy</string>
+    <string name="rename">Przemianować</string>
+    <string name="print">Wydrukować</string>
+    <string name="a">A−</string>
+    <string name="cover_of_">Okładka %1$s</string>
+    <string name="no_cover_available">Brak dostępnej okładki</string>
+    <string name="read_now">Przeczytaj teraz</string>
+    <string name="about_the_book">O KSIĄŻCE</string>
+    <string name="tags">TAGI</string>
+    <string name="publisher_info">INFORMACJE O WYDAWCY</string>
+    <string name="published_">Opublikowano: %1$s</string>
+    <string name="retry">Spróbować ponownie</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Wyczyść pamięć podręczną</string>
+    <string name="ebooks_library">Biblioteka e-booków</string>
+    <string name="manage_your_digital_collection_across_mu">Zarządzaj swoją cyfrową kolekcją u wielu dostawców. Szukaj, filtruj i odkrywaj nowe tytuły w Google Books i Open Library.</string>
+    <string name="no_books_found">Nie znaleziono książek</string>
+    <string name="no_results_for__try_a_different_search_t">Brak wyników dla „%1$s”. Spróbuj użyć innego terminu wyszukiwania.</string>
+    <string name="downloadable_only">Tylko do pobrania</string>
+    <string name="file_unavailable">Plik niedostępny</string>
+    <string name="unavailable">Nie płynny</string>
+    <string name="search_titles_authors_isbn">Wyszukaj tytuły, autorów, ISBN...</string>
+    <string name="clear_search">Wyczyść wyszukiwanie</string>
+    <string name="ebooks">e-booki</string>
+    <string name="read_pdf">Przeczytaj PDF</string>
+    <string name="create_pdf">Utwórz plik PDF</string>
+    <string name="unlock_all_tools_and_remove_limits">Odblokuj wszystkie narzędzia i usuń ograniczenia</string>
+    <string name="ocr_scanning">Skanowanie OCR</string>
+    <string name="extract_text_from_scanned_documents">Wyodrębnij tekst ze zeskanowanych dokumentów</string>
+    <string name="cloud_sync">Synchronizacja w chmurze</string>
+    <string name="access_your_documents_anywhere">Uzyskaj dostęp do swoich dokumentów z dowolnego miejsca</string>
+    <string name="annotate_pdfs">Adnotacje do plików PDF</string>
+    <string name="cloud_backup">Kopia zapasowa w chmurze</string>
+    <string name="continue_reading">Czytaj dalej</string>
+    <string name="pick_files">Wybierz pliki</string>
+    <string name="browse">Przeglądać</string>
+    <string name="did_you_know">Czy wiesz, że?</string>
+    <string name="home">Dom</string>
+    <string name="your_documents_at_a_glance">Twoje dokumenty w skrócie</string>
+    <string name="pick_file">Wybierz plik</string>
+    <string name="quick_actions">Szybkie akcje</string>
+    <string name="pro">ZAWODOWIEC</string>
+    <string name="open_files">Otwórz pliki</string>
+    <string name="convert_to_pdf">Konwertuj do PDF</string>
+    <string name="close_drawer">Zamknij szufladę</string>
+    <string name="close_file">Zamknij plik</string>
+    <string name="office">Biuro</string>
+    <string name="coming_soon">Już wkrótce</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">Przeglądarka e-booków nie jest jeszcze dostępna na tej platformie.</string>
+    <string name="set_as_default_viewer">Ustaw jako domyślną przeglądarkę</string>
+    <string name="free">Bezpłatny</string>
+    <string name="v">w%1$s</string>
+    <string name="downloading_update_">Pobieranie aktualizacji... %1$s%</string>
+    <string name="more">Więcej</string>
+    <string name="font_size">Rozmiar czcionki</string>
+    <string name="font_family">Rodzina czcionek</string>
+    <string name="scroll_direction">Kierunek przewijania</string>
+    <string name="navigation">Nawigacja</string>
+    <string name="keep_screen_on">Utrzymuj ekran włączony</string>
+    <string name="volume_button_to_scroll">Przycisk głośności do przewijania</string>
+    <string name="export_ebook_pages_as_image_files">Eksportuj strony e-booków jako pliki graficzne</string>
+    <string name="access_millions_of_titles">Uzyskaj dostęp do milionów tytułów.</string>
+    <string name="read_offline_with_natural_ai_voices">Czytaj offline, korzystając z naturalnych głosów sztucznej inteligencji.</string>
+    <string name="advanced_ai_reader">Zaawansowany czytnik AI.</string>
+    <string name="experience_studioquality_narration">Ciesz się narracją o jakości studyjnej.</string>
+    <string name="powerful_pdf_tools">Potężne narzędzia PDF.</string>
+    <string name="create_and_edit_documents_on_the_go">Twórz i edytuj dokumenty w dowolnym miejscu.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Uaktualnij do wersji Pro: odblokuj wszystkie narzędzia i usuń ograniczenia</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">Skanowanie OCR: Wyodrębnianie tekstu z zeskanowanych dokumentów</string>
+    <string name="cloud_sync_access_your_documents_anywher">Synchronizacja w chmurze: Uzyskaj dostęp do swoich dokumentów z dowolnego miejsca</string>
+    <string name="scan">Skandować</string>
+    <string name="compress">Kompres</string>
+    <string name="merge">Łączyć</string>
+    <string name="convert">Konwertować</string>
+    <string name="highlight_underline_and_add_notes_to_you">Podświetlaj, podkreślaj i dodawaj notatki do dokumentów</string>
+    <string name="keep_your_documents_safe_with_automatic_">Zachowaj bezpieczeństwo swoich dokumentów dzięki automatycznej synchronizacji z chmurą</string>
+    <string name="indicator_color_">kolor_wskaźnika_%1$s</string>
+    <string name="my_library">Moja biblioteka</string>
+    <string name="get_ebooks">Pobierz e-booki</string>
+    <string name="scan_document">Skanuj dokument</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

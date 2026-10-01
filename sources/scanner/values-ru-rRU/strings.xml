@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Сканировать</string>
+    <string name="scan_home_documents">Документы</string>
+    <string name="scan_home_documents_lowercase">документы</string>
+    <string name="scan_home_documents_count">%1$d Документы</string>
+    <string name="scan_home_no_documents">Документов пока нет.</string>
+    <string name="scan_home_start_scanning">Начните сканирование, чтобы создать свой первый документ.</string>
+    <string name="scan_home_new_folder">Новая папка</string>
+    <string name="scan_home_scan_document">Сканировать документ</string>
+    <string name="scan_home_import_gallery">Импорт из галереи</string>
+    <string name="scan_home_parent_folder">Родительская папка</string>
+    <string name="scan_home_go_back">Вернуться в родительскую папку</string>
+    <string name="scan_home_create_folder">Создать новую папку</string>
+    <string name="scan_home_enter_folder_name">Введите название для новой папки.</string>
+    <string name="scan_home_folder_name">Название папки</string>
+    <string name="scan_home_folder_placeholder">например, рабочие документы</string>
+    <string name="scan_home_folder_error">Имя папки не может быть пустым.</string>
+    <string name="scan_home_folder_name_empty">Имя папки не может быть пустым.</string>
+    <string name="scan_home_create">Создавать</string>
+    <string name="scan_home_folder_exists">Папка с таким именем уже существует.</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Камера</string>
+    <string name="scan_camera_permission_required">Требуется разрешение на использование камеры.</string>
+    <string name="scan_camera_permission_message">Для сканирования документов этому приложению необходим доступ к камере.</string>
+    <string name="scan_camera_permission_settings">Пожалуйста, перейдите в Настройки &gt; Приложения &gt; Просмотрщик PDF &gt; Разрешения и включите разрешение на доступ к камере.</string>
+    <string name="scan_camera_permission_title">Требуется разрешение на использование камеры.</string>
+    <string name="scan_camera_request_permission">Запросить разрешение</string>
+    <string name="scan_camera_open_settings">Откройте настройки</string>
+    <string name="scan_camera_close">Закрывать</string>
+    <string name="scan_camera_flash">Вспышка</string>
+    <string name="scan_camera_auto_capture">Автоматический захват</string>
+    <string name="scan_camera_settings">Настройки</string>
+    <string name="scan_camera_ready_batch">Готов к сканированию нескольких страниц.</string>
+    <string name="scan_camera_ready_multiple">Готов к сканированию нескольких страниц.</string>
+    <string name="scan_camera_hold_steady">Во время сканирования удерживайте неподвижно.</string>
+    <string name="scan_camera_captured_pages">%1$d страницы захвачены</string>
+    <string name="scan_camera_mode_single">Одинокий</string>
+    <string name="scan_camera_mode_batch">Партия</string>
+    <string name="scan_camera_preview">Предварительный просмотр</string>
+    <string name="scan_camera_finish">Заканчивать</string>
+    <string name="scan_camera_starting">Запуск камеры...</string>
+    <string name="scan_camera_document_name">Название документа</string>
+    <string name="scan_camera_document_name_empty">Название документа не может быть пустым.</string>
+    <string name="scan_camera_save_document">Сохранить документ</string>
+    <string name="scan_camera_processing">Обработка...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Обрезка &amp; Настройка</string>
+    <string name="scan_crop_close">Закрывать</string>
+    <string name="scan_crop_reset">Перезагрузить</string>
+    <string name="scan_crop_rotate">Повернуть</string>
+    <string name="scan_crop_done">Сделанный</string>
+    <string name="scan_crop_scanned_document">Отсканированный документ</string>
+    <string name="scan_crop_magnified_view">Увеличенное изображение</string>
+    <string name="scan_crop_processing">Обработка...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Усиливать</string>
+    <string name="scan_filter_close">Закрывать</string>
+    <string name="scan_filter_rotate">Повернуть</string>
+    <string name="scan_filter_done">Сделанный</string>
+    <string name="scan_filter_filters">Фильтры</string>
+    <string name="scan_filter_original">Оригинал</string>
+    <string name="scan_filter_magic">Магия</string>
+    <string name="scan_filter_lighten">Осветить</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">Оттенки серого</string>
+    <string name="scan_filter_magic_2">Чистый документ</string>
+    <string name="scan_filter_soft_scan">Мягкое сканирование</string>
+    <string name="scan_filter_color_enhance">Цвет+</string>
+    <string name="scan_filter_ink_saver">Экономия чернил</string>
+    <string name="scan_filter_premium">Премиум-функция</string>
+    <string name="scan_filter_filtered_document">Отфильтрованный документ</string>
+    <string name="scan_filter_applying">Применение фильтра...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Отмена</string>
+    <string name="scan_share">Делиться</string>
+    <string name="scan_move">Двигаться</string>
+    <string name="scan_move_to_folder">Переместить в папку</string>
+    <string name="scan_delete">Удалить</string>
+    <string name="scan_rename">Переименовать</string>
+    <string name="scan_root">Корень</string>
+    <string name="scan_select_destination">Выберите папку назначения</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Документ</string>
+    <string name="scan_document_back">Назад</string>
+    <string name="scan_document_pages">страницы</string>
+    <string name="scan_document_add_pages">Добавить страницы в этот документ</string>
+    <string name="scan_document_add_page_button">Добавить страницу</string>
+    <string name="scan_document_rename">Переименовать</string>
+    <string name="scan_document_share">Делиться</string>
+    <string name="scan_document_more">Более</string>
+    <string name="scan_document_pages_count">%1$d страниц</string>
+    <string name="scan_document_no_pages">Страниц пока нет.</string>
+    <string name="scan_document_scan_page">Сканировать страницу</string>
+    <string name="scan_document_import_page">Импорт из галереи</string>
+    <string name="scan_document_grid_view">Сеточный вид</string>
+    <string name="scan_document_list_view">Просмотр списка</string>
+    <string name="scan_document_continuous_view">Непрерывный просмотр</string>
+    <string name="scan_document_page_number">Страница %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Страница</string>
+    <string name="scan_page_back">Назад</string>
+    <string name="scan_page_share">Делиться</string>
+    <string name="scan_page_delete">Удалить</string>
+    <string name="scan_page_of">%1$d из %2$d</string>
+    <string name="scan_page_image_not_found">Изображение не найдено</string>
+    <string name="scan_page_retake">Переснять</string>
+    <string name="scan_page_crop">Обрезать</string>
+    <string name="scan_page_enhance">Усиливать</string>
+    <string name="scan_page_ocr">ОКР</string>
+    <string name="scan_page_save_gallery">Сохранить в галерею</string>
+    <string name="scan_page_saved_to_gallery">Изображение сохранено в галерею</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Удалить документ?</string>
+    <string name="scan_delete_document_message">Вы уверены, что хотите удалить "%1$s"? Это приведет к безвозвратному удалению всех страниц в этом документе. Это действие необратимо.</string>
+    <string name="scan_rename_document">Переименовать документ</string>
+    <string name="scan_rename_enter_name">Введите новое название для документа.</string>
+    <string name="scan_rename_document_name">Название документа</string>
+    <string name="scan_rename_error">Название документа не может быть пустым.</string>
+    <string name="scan_dialog_delete_document_title">Удалить документ?</string>
+    <string name="scan_dialog_delete_document_message">Вы уверены, что хотите удалить "%1$s"? Это приведет к безвозвратному удалению всех страниц в этом документе. Это действие необратимо.</string>
+    <string name="scan_dialog_delete_confirm">Удалить</string>
+    <string name="scan_dialog_cancel">Отмена</string>
+    <string name="scan_dialog_move_title">Переместить в папку</string>
+    <string name="scan_dialog_move_message">Выберите папку назначения</string>
+    <string name="scan_dialog_move_confirm">Двигаться</string>
+    <string name="scan_dialog_move_root">Корень</string>
+    <string name="scan_dialog_move_selected">Избранные</string>
+    <string name="scan_dialog_rename_title">Переименовать документ</string>
+    <string name="scan_dialog_rename_message">Введите новое название для документа.</string>
+    <string name="scan_dialog_rename_label">Название документа</string>
+    <string name="scan_dialog_rename_error">Название документа не может быть пустым.</string>
+    <string name="scan_dialog_rename_confirm">Переименовать</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Делиться</string>
+    <string name="scan_menu_move">Переместить в папку</string>
+    <string name="scan_menu_delete">Удалить</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Предварительный просмотр камеры\n(Скоро будет доступен)</string>
+    <string name="scan_platform_desktop_camera">Предварительный просмотр камеры рабочего стола\n(Скоро будет доступен)</string>
+    <string name="scan_platform_ios_camera">Предварительный просмотр камеры iOS\n(Скоро будет доступен)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Закрывать</string>
+    <string name="flash">Вспышка</string>
+    <string name="auto_capture">Автоматический захват</string>
+    <string name="settings">Настройки</string>
+    <string name="capture">Захватывать</string>
+    <string name="finish">Заканчивать</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Вы уверены, что хотите удалить %1? Все документы внутри также будут удалены.</string>
+    <string name="share">Делиться</string>
+    <string name="share_as_images">Поделиться как изображения</string>
+    <string name="share_as_pdf">Поделиться в формате PDF</string>
+    <string name="move_to_folder">Переместить в папку</string>
+    <string name="delete">Удалить</string>
+    <string name="selected">Избранные</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Страница %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">Папка пуста</string>
+    <string name="tap_the__button_to_scan_a_docu">Нажмите кнопку «+», чтобы отсканировать документ.</string>
+    <string name="str______pages">%1$s • %2$s • %3$s страниц</string>
+    <string name="create_folder">Создать папку</string>
+    <string name="more_options">Больше вариантов</string>
+    <string name="document_thumbnail">миниатюра документа</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Изображение не найдено</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Страница %2$d</string>
+    <string name="scan_ocr_title">Распознавание текста</string>
+    <string name="scan_ocr_copy">Скопировать текст</string>
+    <string name="scan_ocr_no_text">Текст не найден</string>
+    <string name="scan_ocr_processing">Распознавание текста…</string>
+    <string name="scan_ocr_error">Не удалось распознать текст</string>
+    <string name="scan_ocr_not_supported">Функция распознавания текста (OCR) на этой платформе не поддерживается.</string>
+    <string name="scan_ocr_image">Отсканированная страница для распознавания текста (OCR)</string>
+    <string name="gallery">Галерея</string>
+    <string name="select_file">Выберите файл</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Не удалось получить изображение.</string>
+    <string name="error_no_images_captured">Изображения не получены.</string>
+    <string name="error_open_settings">Не удалось открыть настройки.</string>
+    <string name="error_process_images">Не удалось обработать изображения.</string>
+    <string name="error_process_image">Не удалось обработать изображение.</string>
+    <string name="error_start_camera">Не удалось запустить камеру</string>
+    <string name="error_stop_camera">Не удалось остановить камеру</string>
+    <string name="error_crop_image">Не удалось обрезать изображение.</string>
+    <string name="error_delete_document">Не удалось удалить документ.</string>
+    <string name="error_delete_page">Не удалось удалить страницу</string>
+    <string name="error_load_document">Не удалось загрузить документ.</string>
+    <string name="error_load_page">Не удалось загрузить страницу</string>
+    <string name="error_move_document">Не удалось переместить документ.</string>
+    <string name="error_no_pages_to_share">Нет страниц для обмена.</string>
+    <string name="error_rename_document">Не удалось переименовать документ.</string>
+    <string name="error_reorder_pages">Не удалось изменить порядок страниц.</string>
+    <string name="error_share_images">Не удалось поделиться изображениями</string>
+    <string name="error_share_pdf">Не удалось отправить PDF-файл</string>
+    <string name="error_share_page">Не удалось поделиться страницей</string>
+    <string name="error_create_folder">Не удалось создать папку.</string>
+    <string name="error_delete_folder">Не удалось удалить папку.</string>
+    <string name="error_rename_folder">Не удалось переименовать папку.</string>
+    <string name="error_unknown">Произошла неизвестная ошибка.</string>
+    <string name="folder_not_found">Папка не найдена</string>
+    <string name="sync_documents">Синхронизация документов</string>
+    <string name="shutter_scale">масштаб затвора</string>
+    <string name="import_gallery">Галерея импорта</string>
+    <string name="scan_camera">Сканирующая камера</string>
+</resources>

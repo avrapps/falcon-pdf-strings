@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">刪除頁面</string>
+    <string name="are_you_sure_you_want_to_delet">您確定要刪除所選頁面嗎？此操作無法撤銷。</string>
+    <string name="delete">刪除</string>
+    <string name="cancel">取消</string>
+    <string name="quick_selection">快速選擇</string>
+    <string name="select_range">選擇範圍</string>
+    <string name="select_all">全選</string>
+    <string name="clear_all">全部清除</string>
+    <string name="select_page_range">選擇頁面範圍</string>
+    <string name="enter_the_range_of_pages_to_de">請輸入要刪除的頁面範圍（1-%1$s）</string>
+    <string name="from">從</string>
+    <string name="to">到</string>
+    <string name="select">選擇</string>
+    <string name="please_go_back_and_select_a_pd">請返回並選擇PDF文件。</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">拆分 PDF</string>
+    <string name="str_1_file_selected">已選擇 1 個文件</string>
+    <string name="no_file_selected">未選擇文件</string>
+    <string name="split_mode">分割畫面模式</string>
+    <string name="fixed_segments">固定段</string>
+    <string name="custom_ranges">自訂範圍</string>
+    <string name="segment_size">細分市場規模</string>
+    <string name="this_will_create_multiple_pdfs">這將建立多個 PDF 文件，每個文件包含指定頁數。為了創建有意義的分割，分段大小必須小於總頁數。例如，如果原始檔案有 8 頁，而您輸入 2，則會產生四個 PDF 文件，每個文件包含 2 頁。</string>
+    <string name="pages_per_file">每份文件頁數</string>
+    <string name="eg_2">例如，2</string>
+    <string name="total_number_of_pages_in_pdf__">PDF 檔案總頁數： %1$d （分段大小必須小於 %1$d）</string>
+    <string name="this_will_create__output_files">這將建立 %1$d 輸出文件</string>
+    <string name="this_will_create__output_file">這將建立 %1$d 輸出文件</string>
+    <string name="this_input_will_split_the_pdf_">此輸入將根據您指定的範圍將 PDF 文件拆分為多個文件。例如，「1-2,5,6-8」將建立 3 個 PDF 檔案：第一個包含第 1-2 頁，第二個包含第 5 頁，第三個包含第 6-8 頁。</string>
+    <string name="page_ranges">頁面範圍</string>
+    <string name="eg_1234571520">例如：1-2、3、4-5、7、15-20</string>
+    <string name="format_use_ranges_15_or_single">格式：使用範圍（1-5）或單頁（7），以逗號分隔。僅允許使用數字、連字號和逗號。</string>
+    <string name="split_preview">分割預覽</string>
+    <string name="pdf_files_will_be_created">%1$d PDF files will be created</string>
+    <string name="pdf_file_will_be_created">%1$d PDF file will be created</string>
+    <string name="pdf_result_">PDF 結果 %1$s</string>
+    <string name="str__and__more">……還有更多 %1$d</string>
+    <string name="splitting_pdf">分割PDF文件...</string>
+    <string name="checking_files">正在檢查文件…</string>
+    <string name="page_n">頁碼 %1$d</string>
+    <string name="pages_n_m">頁碼 %1$d-%2$d</string>
+    <string name="split_complete">分割完成！</string>
+    <string name="split_failed">拆分失敗</string>
+    <string name="we_couldnt_split_your_pdf">我們無法分割您的PDF文件。</string>
+    <string name="your_pdf_has_been_successfully_split">您的 PDF 檔案已成功拆分為 %1$d 個文件</string>
+    <string name="your_pdf_has_been_successfully_split_single">您的 PDF 檔案已成功拆分為 %1$d 文件</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">PDF 工具</string>
+    <string name="image_tools">影像工具</string>
+    <string name="str_30_tools_for_pdf">30多種PDF工具</string>
+    <string name="tools_for_images">影像處理工具</string>
+    <string name="no_tools_found">未找到工具</string>
+    <string name="try_adjusting_your_search">嘗試調整搜尋條件</string>
+    <string name="history">歷史</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s 頁${如果（頁數 &gt; 1） </string>
+    <string name="n_pages">%1$d 頁</string>
+    <string name="n_page">%1$d 頁</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">此PDF需要密碼。</string>
+    <string name="password_provided">提供的密碼</string>
+    <string name="password_required">需要密碼</string>
+    <string name="open_file">開啟文件</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">壓縮 </string>
+    <string name="error_details">錯誤詳情</string>
+    <string name="view">看法</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">已選擇 %1$s 共 %2$s 頁</string>
+    <string name="showing_first_200_pages">顯示前 200 頁</string>
+    <string name="use_quick_selection_above_for_">對於超過 200 頁的頁面，請使用上方的快速選擇功能。</string>
+    <string name="loading">載入中...</string>
+    <string name="error">錯誤</string>
+    <string name="generating_page_previews">正在生成頁面預覽…</string>
+    <string name="page__thumbnail">頁 %1$s 縮圖</string>
+    <string name="selected">已選</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">搜尋</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">旋轉 PDF</string>
+    <string name="please_provide_the_password_to">請提供密碼以選擇自訂頁面</string>
+    <string name="rotation_angle">旋轉角度</string>
+    <string name="page_selection">頁面選擇</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">重新排序 PDF</string>
+    <string name="use_the_arrow_buttons_to_reord">使用箭頭按鈕重新排列頁面順序</string>
+    <string name="pages_">頁（%1$s）</string>
+    <string name="page_">頁碼 %1$s</string>
+    <string name="position__of_">位置： %1$s 中的 %2$s</string>
+    <string name="drag_handle">拖曳柄</string>
+    <string name="move_up">向上</string>
+    <string name="move_down">向下</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">壓縮 PDF</string>
+    <string name="no_files_selected">未選擇任何文件</string>
+    <string name="please_go_back_and_select_pdf_">請返回並選擇要壓縮的PDF文件</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">成功</string>
+    <string name="individual_results">個人結果</string>
+    <string name="done">完畢</string>
+    <string name="compression_complete">壓縮完成</string>
+    <string name="your_file_is_ready_and_much_li">您的文件已準備就緒，而且體積小了很多！</string>
+    <string name="before">前</string>
+    <string name="after">後</string>
+    <string name="total_saved">總共節省了</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">較小</string>
+    <string name="str__saved">%1$s% 已儲存</string>
+    <string name="open">打開</string>
+    <string name="share">分享</string>
+    <string name="close">關閉</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">壓縮水平</string>
+    <string name="recommended">受到推崇的</string>
+    <string name="str__compression">%1$s 壓縮</string>
+    <string name="str__of_original_size">~%1$s% 原始大小</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">圖片轉PDF</string>
+    <string name="str__images_selected">%1$s 已選取影像</string>
+    <string name="images_will_be_converted_in_th">圖片將按以下順序轉換。</string>
+    <string name="remove">消除</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">PDF 轉影像</string>
+    <string name="image_format">影像格式</string>
+    <string name="image_quality_dpi">影像品質（DPI）</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">合併PDF</string>
+    <string name="n_files_selected">%1$d 已選取文件</string>
+    <string name="n_file_selected">%1$d 檔案已選擇</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">鎖定 PDF</string>
+    <string name="password_protection">密碼保護</string>
+    <string name="enter_a_password_to_protect_yo">請輸入密碼以保護您的PDF檔案。您需要此密碼才能開啟該檔案。</string>
+    <string name="password">密碼</string>
+    <string name="enter_password">輸入密碼</string>
+    <string name="confirm_password">確認密碼</string>
+    <string name="reenter_password">重新輸入密碼</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">請返回並選擇文件</string>
+    <string name="back">後退</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">解鎖 PDF</string>
+    <string name="current_password">目前密碼</string>
+    <string name="enter_the_current_password_to_">請輸入當前密碼以解鎖此PDF文件</string>
+    <string name="enter_current_password">請輸入目前密碼</string>
+    <string name="incorrect_password_please_try_">密碼錯誤，請重試。</string>
+    <string name="new_password_optional">新密碼（可選）</string>
+    <string name="set_a_new_password_to_change_i">設定新密碼即可變更密碼，留空則可移除密碼保護。</string>
+    <string name="new_password">新密碼</string>
+    <string name="enter_new_password">輸入新密碼</string>
+    <string name="confirm_new_password">確認新密碼</string>
+    <string name="reenter_new_password">重新輸入新密碼</string>
+    <string name="passwords_do_not_match">密碼不匹配</string>
+    <string name="compression_failed">壓縮失敗</string>
+    <string name="open_pdf">開啟PDF</string>
+    <string name="share_file">共享文件</string>
+    <string name="pages_deleted">頁面已刪除！</string>
+    <string name="delete_failed">刪除失敗</string>
+    <string name="select_pages_to_delete">選擇要刪除的頁面</string>
+    <string name="pdf_created">PDF檔案已建立！</string>
+    <string name="conversion_failed">轉換失敗</string>
+    <string name="pdf_locked_successfully">PDF檔案已成功鎖定！</string>
+    <string name="lock_failed">鎖定失敗</string>
+    <string name="merge_complete">合併完成！</string>
+    <string name="merge_failed">合併失敗</string>
+    <string name="conversion_complete">轉換完成！</string>
+    <string name="reorder_complete">重新訂購完成！</string>
+    <string name="reorder_failed">重新訂購失敗</string>
+    <string name="rotation_complete">輪換完成！</string>
+    <string name="rotation_failed">旋轉失敗</string>
+    <string name="select_pages_to_rotate">選擇要旋轉的頁面</string>
+    <string name="str__complete">%1$s 完成！</string>
+    <string name="str__failed">%1$s 失敗</string>
+    <string name="unlock_failed">解鎖失敗</string>
+    <string name="your_pdfs_have_been_successfully_compres">您的PDF檔案已成功壓縮</string>
+    <string name="we_couldnt_compress_your_pdfs">我們無法壓縮您的PDF文件。</string>
+    <string name="view_your_compressed_file">查看您的壓縮文件</string>
+    <string name="send_to_others_or_apps">發送給其他人或應用</string>
+    <string name="your_pdf_has_been_successfully_modified">您的PDF檔案已成功修改</string>
+    <string name="we_couldnt_delete_the_pages">我們無法刪除這些頁面。</string>
+    <string name="your_images_have_been_converted_to_pdf">您的圖片已轉換為 PDF 格式。</string>
+    <string name="unable_to_create_pdf_from_images">無法從圖像建立 PDF</string>
+    <string name="your_pdf_is_now_password_protected">您的PDF檔案已設定密碼保護。</string>
+    <string name="we_couldnt_lock_your_pdf">我們無法鎖定您的PDF文件。</string>
+    <string name="your_pdfs_have_been_successfully_merged">您的PDF文件已成功合併。</string>
+    <string name="we_couldnt_merge_your_pdfs">我們無法合併您的PDF文件。</string>
+    <string name="str__images_created_successfully">%1$s 圖片建立成功</string>
+    <string name="unable_to_convert_pdf_to_images">無法將 PDF 檔案轉換為圖像</string>
+    <string name="your_pdf_pages_have_been_successfully_re">您的PDF頁面已成功重新排序。</string>
+    <string name="we_couldnt_reorder_your_pdf">我們無法重新排序您的PDF文件。</string>
+    <string name="your_pdf_has_been_successfully_rotated">您的PDF檔案已成功旋轉。</string>
+    <string name="we_couldnt_rotate_your_pdf">我們無法旋轉您的PDF文件。</string>
+    <string name="your_file_has_been_successfully_processe">您的文件已成功處理</string>
+    <string name="we_couldnt_process_your_file">我們無法處理您的文件</string>
+    <string name="we_couldnt_unlock_your_pdf">我們無法解鎖您的PDF檔案。</string>
+    <string name="clear_filter">清除過濾器</string>
+    <string name="clear">清除</string>
+    <string name="pick_a_tool_">選擇工具 →</string>
+    <string name="drag_to_reorder">拖曳即可重新排序</string>
+    <string name="your_files_are_securely_processed_on_our">您的檔案透過加密連線在我們的伺服器上安全處理，並在1小時內自動刪除。我們絕不會儲存或分享您的資料。</string>
+    <string name="compression_quality">壓縮質量</string>
+    <string name="dragelevation">拖曳高度</string>
+    <string name="tool_card_scale">工具卡比例</string>
+</resources>

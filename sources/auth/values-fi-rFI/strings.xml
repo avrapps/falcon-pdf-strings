@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Tarkista internetyhteytesi ja varmista, että Google-tili on lisätty laitteellesi, ja yritä sitten uudelleen.</string>
+    <string name="sign_in_with_apple">Kirjaudu sisään Applella</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Paranna kokemustasi</string>
+    <string name="purchase_screen_close">Lähellä</string>
+    <string name="purchase_screen_refresh">Päivitä</string>
+    <string name="purchase_sync_status">Viimeksi synkronoitu: %1s</string>
+    <string name="purchase_current_plan">Nykyinen</string>
+    <string name="purchase_syncing">Synkronoidaan…</string>
+    <string name="purchase_loading">Ladataan…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Ilmainen paketti</string>
+    <string name="purchase_pro_plan">Pro-versio</string>
+    <string name="purchase_pro_tagline">Maksa kerran. Omista ikuisesti.</string>
+    <string name="purchase_premium_plan">Premium-tilaus</string>
+    <string name="purchase_premium_tagline">Kaikki Prossa, sekä tekoäly &amp; Pilvipalvelu</string>
+    <string name="purchase_recommended">Suositeltu</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">Tekoälyn ääneenluku — Kuuntele PDF-tiedostoja luonnollisesti</string>
+    <string name="purchase_pro_feature_2">Täydellinen PDF-muokkaus &amp; Lomakkeiden täyttö</string>
+    <string name="purchase_pro_feature_3">Laitteiden välinen synkronointi Driven kautta</string>
+    <string name="purchase_pro_feature_4">Mainokseton, ei vesileimaa skannauksissa</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">Tekoälyyn perustuvat yhteenvedot vahvemmalla perustelulla</string>
+    <string name="purchase_premium_feature_1_desc">Syvempiä vastauksia pidemmistä ja monimutkaisemmista dokumenteista</string>
+    <string name="purchase_premium_feature_2_title">50 Gt:n Falcon Cloud -tallennustila</string>
+    <string name="purchase_premium_feature_2_desc">Henkilökohtainen PDF-kirjastosi, synkronoituna ja suojattuna</string>
+    <string name="purchase_premium_feature_3_title">Ei rajoituksia yli 60 PDF-työkalulle</string>
+    <string name="purchase_premium_feature_3_desc">Jokainen työkalu, aina saatavilla</string>
+    <string name="purchase_premium_feature_4_title">PDF-tiedostojen kokotekstien muokkaaminen</string>
+    <string name="purchase_premium_feature_4_desc">Muokkaa tekstiä suoraan kuten tekstinkäsittelyohjelmassa</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Osta Pro</string>
+    <string name="purchase_sign_in_buy">Kirjaudu sisään &amp; Osta</string>
+    <string name="purchase_sign_in_subscribe">Kirjaudu sisään &amp; Tilaa</string>
+    <string name="purchase_subscribe">Tilaa</string>
+    <string name="purchase_start_trial">Aloita 7 päivän ilmainen kokeilujakso</string>
+    <string name="purchase_view_all_features">Näytä kaikki ominaisuudet</string>
+    <string name="purchase_show_more">Näytä lisää</string>
+    <string name="purchase_show_less">Näytä vähemmän</string>
+    <string name="purchase_see_all_features">Katso kaikki ominaisuudet</string>
+    <string name="purchase_manage_subscription">Hallinnoi tilausta</string>
+    <string name="purchase_restore_purchases">Palauta ostokset</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Kuukausittain</string>
+    <string name="purchase_billing_yearly">Vuosittain</string>
+    <string name="purchase_save_badge">Säästä 40%%</string>
+    <string name="purchase_lifetime">Elinikäinen</string>
+    <string name="purchase_per_year">/vuosi</string>
+    <string name="purchase_per_month">/kuukausi</string>
+    <string name="purchase_trial_terms">Peruuta milloin tahansa. Uusiutuu, ellei peruuteta 24 tuntia ennen kokeilujakson päättymistä.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Tuotteiden lataus epäonnistui. Tarkista kirjautumisesi ja internetyhteytesi.</string>
+    <string name="purchase_error_network">Yhteys katkesi. Tarkista internet-yhteytesi ja yritä uudelleen.</string>
+    <string name="purchase_error_payment_declined">Maksutapa hylätty. Päivitä maksutietosi.</string>
+    <string name="purchase_error_server">Jotain meni pieleen. Yritä myöhemmin uudelleen.</string>
+    <string name="purchase_error_rate_limit">Liikaa päivitysyrityksiä. Odota hetki.</string>
+    <string name="purchase_error_offline">Ei internetyhteyttä. Näytetään välimuistissa olevat tiedot.</string>
+    <string name="purchase_error_product_refresh">Tuotteen vahvistaminen epäonnistui. Yritä uudelleen.</string>
+    <string name="purchase_error_generic">Tapahtui virhe. Yritä uudelleen.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Palveluehdot</string>
+    <string name="purchase_privacy_policy">Tietosuojakäytäntö</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">Ostohistoria</string>
+    <string name="free_trial">Ilmainen kokeilu</string>
+    <string name="no_purchase_history">Ei ostohistoriaa</string>
+    <string name="you_havent_made_any_purchases_">Et ole vielä tehnyt ostoksia.</string>
+    <string name="error">Virhe</string>
+    <string name="retry">Yritä uudelleen</string>
+    <string name="back">Takaisin</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Paranna kokemustasi</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Palauta ostokset</string>
+    <string name="close_purchase_screen">Sulje ostonäyttö</string>
+    <string name="help">Auttaa</string>
+    <string name="more_options">Lisää vaihtoehtoja</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Päivitä</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Aktiivinen</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s AKTIIVINEN</string>
+    <string name="premium_benefits">PREMIUM-EDUT</string>
+    <string name="manage_subscription">Hallinnoi tilausta</string>
+    <string name="next_billing_date__manage_your">Seuraava laskutuspäivä: %1$s. Hallinnoi laskutustietojasi ja peruutuksiasi Play Kauppa -tilisi asetuksissa.</string>
+    <string name="purchase_expires_">Osto vanhenee: %1$s</string>
+    <string name="falcon_pdf_pro">Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF Premium (kuukausittainen)</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Premium (vuosittainen)</string>
+    <string name="pro">AMMATTILAINEN</string>
+    <string name="premium">PREMIUM</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Hanki Falcon PDF Pro tai Premium</string>
+    <string name="purchase_desktop_subtitle">Ostoksia hallitaan verkkosivustollamme. Klikkaa alta nähdäksesi paketit ja hinnat.</string>
+    <string name="purchase_desktop_open_website">Näytä paketit &amp; Hinnoittelu</string>
+    <string name="purchase_desktop_already_purchased">Oletko jo ostanut pakettisi? Kirjaudu sisään synkronoidaksesi sen.</string>
+    <string name="purchase_store_build_subtitle">Tilauksesi avaa Pro-ominaisuudet kaikilla laitteillasi. Kirjaudu sisään synkronoidaksesi tilauksesi.</string>
+    <string name="ai_read_aloud">Tekoäly lukee ääneen</string>
+    <string name="full_pdf_editing__form_filling">Täydellinen PDF-muokkaus &amp; Lomakkeiden täyttö</string>
+    <string name="crossdevice_sync_via_drive">Laitteiden välinen synkronointi Driven kautta</string>
+    <string name="adfree_no_watermark">Mainokseton, ei vesileimaa</string>
+    <string name="export_to_word__excel">Vie Wordiin &amp; Exceliin</string>
+    <string name="multiple_themes__page_backgrounds">Useita teemoja &amp; Sivun taustat</string>
+    <string name="ai_summaries_with_stronger_reasoning">Tekoälyyn perustuvat yhteenvedot vahvemmalla perustelulla</string>
+    <string name="no_limits_on_60_pdf_tools">Ei rajoituksia yli 60 PDF-työkalulle</string>
+    <string name="full_text_editing_in_pdfs">PDF-tiedostojen kokotekstien muokkaaminen</string>
+    <string name="digital_signatures_dscesign">Digitaaliset allekirjoitukset (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Rajoittamaton skannattujen asiakirjojen synkronointi</string>
+    <string name="biometric_document_lock">Biometrinen asiakirjalukko</string>
+    <string name="everything_in_pro_all_devices">Kaikki Prossa, kaikissa laitteissa</string>
+    <string name="introductory_offer">Tutustumistarjous</string>
+    <string name="limited_time__30_off">Rajoitetun ajan — 30 % alennus</string>
+    <string name="date__time">Päivämäärä &amp; Aika</string>
+    <string name="amount">Määrä</string>
+    <string name="platform">Alusta</string>
+    <string name="type">Tyyppi</string>
+    <string name="expires_on">Vanhenee</string>
+</resources>

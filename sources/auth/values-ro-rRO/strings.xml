@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Verificați conexiunea la internet și confirmați că un cont Google este adăugat pe dispozitiv, apoi încercați din nou.</string>
+    <string name="sign_in_with_apple">Conectați-vă cu Apple</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Îmbunătățiți-vă experiența</string>
+    <string name="purchase_screen_close">Aproape</string>
+    <string name="purchase_screen_refresh">Reîmprospăta</string>
+    <string name="purchase_sync_status">Ultima sincronizare: %1s</string>
+    <string name="purchase_current_plan">Actual</string>
+    <string name="purchase_syncing">Sincronizare…</string>
+    <string name="purchase_loading">Se încarcă…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Plan gratuit</string>
+    <string name="purchase_pro_plan">Ediție Pro</string>
+    <string name="purchase_pro_tagline">Plătește o singură dată. Deține-l pentru totdeauna.</string>
+    <string name="purchase_premium_plan">Abonament Premium</string>
+    <string name="purchase_premium_tagline">Totul în Pro, plus inteligența artificială &amp; Cloud</string>
+    <string name="purchase_recommended">Recomandat</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">Citire cu voce tare prin inteligență artificială — Ascultați fișiere PDF în mod natural</string>
+    <string name="purchase_pro_feature_2">Editare completă PDF &amp; Completare formulare</string>
+    <string name="purchase_pro_feature_3">Sincronizare pe mai multe dispozitive prin intermediul Drive</string>
+    <string name="purchase_pro_feature_4">Fără reclame, fără filigran pe scanări</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">Rezumate bazate pe inteligență artificială cu raționament mai puternic</string>
+    <string name="purchase_premium_feature_1_desc">Răspunsuri mai detaliate din documente mai lungi și complexe</string>
+    <string name="purchase_premium_feature_2_title">5 GB Falcon Cloud</string>
+    <string name="purchase_premium_feature_2_desc">Biblioteca ta personală de PDF-uri, sincronizată și securizată</string>
+    <string name="purchase_premium_feature_3_title">Fără limite la peste 60 de instrumente PDF</string>
+    <string name="purchase_premium_feature_3_desc">Fiecare instrument, mereu disponibil</string>
+    <string name="purchase_premium_feature_4_title">Editare integrală a textului în PDF-uri</string>
+    <string name="purchase_premium_feature_4_desc">Editați textul direct ca un procesor de text</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Cumpără Pro</string>
+    <string name="purchase_sign_in_buy">Conectare &amp; Cumpără</string>
+    <string name="purchase_sign_in_subscribe">Conectare &amp; Abonare</string>
+    <string name="purchase_subscribe">Abonează-te</string>
+    <string name="purchase_start_trial">Începeți perioada de probă gratuită de 7 zile</string>
+    <string name="purchase_view_all_features">Vedeți toate caracteristicile</string>
+    <string name="purchase_show_more">Afișează mai multe</string>
+    <string name="purchase_show_less">Afișează mai puțin</string>
+    <string name="purchase_see_all_features">Vedeți toate caracteristicile</string>
+    <string name="purchase_manage_subscription">Gestionează abonamentul</string>
+    <string name="purchase_restore_purchases">Restaurați achizițiile</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Lunar</string>
+    <string name="purchase_billing_yearly">Anual</string>
+    <string name="purchase_save_badge">Economisiți 40%</string>
+    <string name="purchase_lifetime">Durata de viață</string>
+    <string name="purchase_per_year">/an</string>
+    <string name="purchase_per_month">/lună</string>
+    <string name="purchase_trial_terms">Anulează oricând. Se reînnoiește, cu excepția cazului în care anulează cu 24 de ore înainte de încheierea perioadei de probă.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Nu s-au putut încărca produsele. Verificați conectarea și conexiunea la internet.</string>
+    <string name="purchase_error_network">Conexiune pierdută. Verificați conexiunea la internet și încercați din nou.</string>
+    <string name="purchase_error_payment_declined">Metoda de plată a fost refuzată. Vă rugăm să actualizați informațiile de plată.</string>
+    <string name="purchase_error_server">Ceva nu a mers bine. Vă rugăm să încercați din nou mai târziu.</string>
+    <string name="purchase_error_rate_limit">Prea multe încercări de reîmprospătare. Vă rugăm să așteptați.</string>
+    <string name="purchase_error_offline">Nu există conexiune la internet. Se afișează datele din cache.</string>
+    <string name="purchase_error_product_refresh">Nu se poate verifica produsul. Vă rugăm să încercați din nou.</string>
+    <string name="purchase_error_generic">A apărut o eroare. Vă rugăm să încercați din nou.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Termeni și condiții</string>
+    <string name="purchase_privacy_policy">Politica de confidențialitate</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">Istoricul achizițiilor</string>
+    <string name="free_trial">Perioadă de încercare gratuită</string>
+    <string name="no_purchase_history">Fără istoric de achiziții</string>
+    <string name="you_havent_made_any_purchases_">Nu ați făcut încă nicio achiziție.</string>
+    <string name="error">Eroare</string>
+    <string name="retry">Reîncercați</string>
+    <string name="back">Spate</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Îmbunătățiți-vă experiența</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Restaurați achizițiile</string>
+    <string name="close_purchase_screen">Închideți ecranul de achiziție</string>
+    <string name="help">Ajutor</string>
+    <string name="more_options">Mai multe opțiuni</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Reîmprospăta</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Activ</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s ACTIV</string>
+    <string name="premium_benefits">BENEFICII PREMIUM</string>
+    <string name="manage_subscription">Gestionează abonamentul</string>
+    <string name="next_billing_date__manage_your">Următoarea dată de facturare: %1$s. Gestionați detaliile de facturare și anularea prin setările contului dvs. din Magazin Play.</string>
+    <string name="purchase_expires_">Achiziția expiră la: %1$s</string>
+    <string name="falcon_pdf_pro">Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF Premium (lunar)</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Premium (anual)</string>
+    <string name="pro">PRO</string>
+    <string name="premium">PREMIUM</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Obțineți Falcon PDF Pro sau Premium</string>
+    <string name="purchase_desktop_subtitle">Achizițiile sunt gestionate pe site-ul nostru web. Faceți clic mai jos pentru a vizualiza planurile și prețurile.</string>
+    <string name="purchase_desktop_open_website">Vizualizați planurile &amp; Prețuri</string>
+    <string name="purchase_desktop_already_purchased">Ai achiziționat deja? Conectează-te pentru a sincroniza abonamentul.</string>
+    <string name="purchase_store_build_subtitle">Abonamentul dvs. deblochează funcțiile Pro pe toate dispozitivele dvs. Conectați-vă pentru a vă sincroniza planul.</string>
+    <string name="ai_read_aloud">Citire cu voce tare prin inteligență artificială</string>
+    <string name="full_pdf_editing__form_filling">Editare completă PDF &amp; Completare formulare</string>
+    <string name="crossdevice_sync_via_drive">Sincronizare pe mai multe dispozitive prin intermediul Drive</string>
+    <string name="adfree_no_watermark">Fără reclame, fără filigran</string>
+    <string name="export_to_word__excel">Export în Word &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">Teme multiple &amp; Fundaluri de pagină</string>
+    <string name="ai_summaries_with_stronger_reasoning">Rezumate bazate pe inteligență artificială cu raționament mai puternic</string>
+    <string name="no_limits_on_60_pdf_tools">Fără limite la peste 60 de instrumente PDF</string>
+    <string name="full_text_editing_in_pdfs">Editare integrală a textului în PDF-uri</string>
+    <string name="digital_signatures_dscesign">Semnături digitale (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Sincronizare nelimitată a documentelor scanate</string>
+    <string name="biometric_document_lock">Blocare biometrică pentru documente</string>
+    <string name="everything_in_pro_all_devices">Totul în Pro, pe toate dispozitivele</string>
+    <string name="introductory_offer">Ofertă introductivă</string>
+    <string name="limited_time__30_off">Perioadă limitată — reducere de 30%</string>
+    <string name="date__time">Data &amp; Ora</string>
+    <string name="amount">Cantitate</string>
+    <string name="platform">Platformă</string>
+    <string name="type">Tip</string>
+    <string name="expires_on">Expiră pe</string>
+</resources>

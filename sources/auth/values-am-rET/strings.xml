@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">የበይነመረብ ግንኙነትዎን ያረጋግጡ እና የGoogle መለያ ወደ መሳሪያዎ መጨመሩን ያረጋግጡ፣ ከዚያ እንደገና ይሞክሩ።</string>
+    <string name="sign_in_with_apple">በአፕል ይግቡ</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">ተሞክሮዎን ያሻሽሉ</string>
+    <string name="purchase_screen_close">ገጠመ</string>
+    <string name="purchase_screen_refresh">አድስ</string>
+    <string name="purchase_sync_status">ለመጨረሻ ጊዜ የተመሳሰለው፦ %1s</string>
+    <string name="purchase_current_plan">የአሁኑ</string>
+    <string name="purchase_syncing">በማመሳሰል ላይ…</string>
+    <string name="purchase_loading">…በመጫን ላይ</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">ነፃ ዕቅድ</string>
+    <string name="purchase_pro_plan">ፕሮ እትም</string>
+    <string name="purchase_pro_tagline">አንድ ጊዜ ይክፈሉ። ለዘላለም ባለቤት ይሁኑ።</string>
+    <string name="purchase_premium_plan">የፕሪሚየም የደንበኝነት ምዝገባ</string>
+    <string name="purchase_premium_tagline">በፕሮ ውስጥ ያለ ሁሉም ነገር፣ በተጨማሪም AI &amp; ደመና</string>
+    <string name="purchase_recommended">የሚመከር</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">AI ጮክ ብለህ አንብብ - ፒዲኤፎችን በተፈጥሮ አዳምጥ</string>
+    <string name="purchase_pro_feature_2">ሙሉ የፒዲኤፍ አርትዖት &amp; የቅጽ መሙላት</string>
+    <string name="purchase_pro_feature_3">በDrive በኩል የመሣሪያ ተሻጋሪ ማመሳሰል</string>
+    <string name="purchase_pro_feature_4">ከማስታወቂያ ነፃ፣ በስካንሶች ላይ የውሃ ምልክት የለም</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">የ AI ማጠቃለያዎች በጠንካራ ምክንያት</string>
+    <string name="purchase_premium_feature_1_desc">ከረጅምና ውስብስብ ሰነዶች ጥልቅ መልሶች</string>
+    <string name="purchase_premium_feature_2_title">50GB ፋልኮን ክላውድ</string>
+    <string name="purchase_premium_feature_2_desc">የእርስዎ የግል የፒዲኤፍ ቤተ-መጽሐፍት፣ የተመሳሰለ እና ደህንነቱ የተጠበቀ</string>
+    <string name="purchase_premium_feature_3_title">ከ60 በላይ በሆኑ የፒዲኤፍ መሳሪያዎች ላይ ምንም ገደብ የለም</string>
+    <string name="purchase_premium_feature_3_desc">እያንዳንዱ መሳሪያ፣ ሁልጊዜም ይገኛል</string>
+    <string name="purchase_premium_feature_4_title">ሙሉ የጽሑፍ አርትዖት በፒዲኤፍዎች</string>
+    <string name="purchase_premium_feature_4_desc">ጽሑፍን በቀጥታ እንደ የቃል ማቀናበሪያ ያርትዑ</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">ፕሮፌሽናል ይግዙ</string>
+    <string name="purchase_sign_in_buy">ይግቡ &amp; ይግዙ</string>
+    <string name="purchase_sign_in_subscribe">ይግቡ &amp; ይመዝገቡ</string>
+    <string name="purchase_subscribe">ሰብስክራይብ ያድርጉ</string>
+    <string name="purchase_start_trial">የ7-ቀን ነፃ ሙከራ ይጀምሩ</string>
+    <string name="purchase_view_all_features">ሁሉንም ባህሪያት ይመልከቱ</string>
+    <string name="purchase_show_more">ተጨማሪ አሳይ</string>
+    <string name="purchase_show_less">ያነሰ አሳይ</string>
+    <string name="purchase_see_all_features">ሁሉንም ባህሪያት ይመልከቱ</string>
+    <string name="purchase_manage_subscription">የደንበኝነት ምዝገባን ያቀናብሩ</string>
+    <string name="purchase_restore_purchases">ግዢዎችን ወደነበረበት ይመልሱ</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">ወርሃዊ</string>
+    <string name="purchase_billing_yearly">ዓመታዊ</string>
+    <string name="purchase_save_badge">40%% ይቆጥቡ</string>
+    <string name="purchase_lifetime">የዕድሜ ልክ</string>
+    <string name="purchase_per_year">/አመት</string>
+    <string name="purchase_per_month">/ወር</string>
+    <string name="purchase_trial_terms">በማንኛውም ጊዜ ሰርዝ። ሙከራው ከማብቃቱ 24 ሰዓት በፊት ካልተሰረዘ በስተቀር ይታደሳል።</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">ምርቶችን መጫን አልተሳካም። የመግቢያ እና የኢንተርኔት ግንኙነትዎን ያረጋግጡ።</string>
+    <string name="purchase_error_network">ግንኙነት ጠፍቷል። እባክዎ ኢንተርኔትዎን ይፈትሹና እንደገና ይሞክሩ።</string>
+    <string name="purchase_error_payment_declined">የክፍያ ዘዴው ውድቅ ተደርጓል። እባክዎ የክፍያ መረጃዎን ያዘምኑ።</string>
+    <string name="purchase_error_server">የሆነ ችግር ተፈጥሯል። እባክዎ ቆይተው እንደገና ይሞክሩ።</string>
+    <string name="purchase_error_rate_limit">በጣም ብዙ የማደስ ሙከራዎች። እባክዎ ይጠብቁ።</string>
+    <string name="purchase_error_offline">የበይነመረብ ግንኙነት የለም። የተሸጎጠ ውሂብን በማሳየት ላይ።</string>
+    <string name="purchase_error_product_refresh">ምርቱን ማረጋገጥ አልተቻለም። እባክዎ እንደገና ይሞክሩ።</string>
+    <string name="purchase_error_generic">ስህተት ተከስቷል። እባክዎ እንደገና ይሞክሩ።</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">የአገልግሎት ውል</string>
+    <string name="purchase_privacy_policy">የግላዊነት መመሪያ</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">የግዢ ታሪክ</string>
+    <string name="free_trial">ነጻ ሙከራ</string>
+    <string name="no_purchase_history">የግዢ ታሪክ የለም</string>
+    <string name="you_havent_made_any_purchases_">እስካሁን ምንም ግዢ አላደረግክም።</string>
+    <string name="error">ስህተት</string>
+    <string name="retry">እንደገና ሞክር</string>
+    <string name="back">ተመለስ</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">ተሞክሮዎን ያሻሽሉ</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">ግዢዎችን ወደነበረበት ይመልሱ</string>
+    <string name="close_purchase_screen">የግዢ ማያ ገጹን ዝጋ</string>
+    <string name="help">እገዛ</string>
+    <string name="more_options">ተጨማሪ አማራጮች</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">አድስ</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">ንቁ</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s አክቲቭ</string>
+    <string name="premium_benefits">ፕሪሚየም ጥቅማ ጥቅሞች</string>
+    <string name="manage_subscription">የደንበኝነት ምዝገባን ያቀናብሩ</string>
+    <string name="next_billing_date__manage_your">የሚቀጥለው የክፍያ ቀን፦ %1$s። የክፍያ ዝርዝሮችዎን እና ስረዛዎን በPlay መደብር መለያዎ ቅንብሮች በኩል ያስተዳድሩ።</string>
+    <string name="purchase_expires_">ግዢው የሚያበቃበት ጊዜ፦ %1$s</string>
+    <string name="falcon_pdf_pro">ፋልኮን ፒዲኤፍ ፕሮ</string>
+    <string name="falcon_pdf_premium_monthly">ፋልኮን ፒዲኤፍ ፕሪሚየም (ወርሃዊ)</string>
+    <string name="falcon_pdf_premium_yearly">ፋልኮን ፒዲኤፍ ፕሪሚየም (ዓመታዊ)</string>
+    <string name="pro">ፕሮ</string>
+    <string name="premium">ፕሪሚየም</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Falcon PDF Pro ወይም Premium ያግኙ</string>
+    <string name="purchase_desktop_subtitle">ግዢዎች የሚተዳደሩት በድረገጻችን ላይ ነው። ዕቅዶችን እና ዋጋዎችን ለማየት ከታች ጠቅ ያድርጉ።</string>
+    <string name="purchase_desktop_open_website">ዕቅዶችን ይመልከቱ &amp; ዋጋ</string>
+    <string name="purchase_desktop_already_purchased">አስቀድመው ገዝተዋል? ዕቅድዎን ለማመሳሰል ይግቡ።</string>
+    <string name="purchase_store_build_subtitle">የእርስዎ ደንበኝነት ምዝገባ በሁሉም መሳሪያዎችዎ ላይ የPro ባህሪያትን ይከፍታል። ዕቅድዎን ለማመሳሰል ይግቡ።</string>
+    <string name="ai_read_aloud">AI ጮክ ብሎ ያንብቡ</string>
+    <string name="full_pdf_editing__form_filling">ሙሉ የፒዲኤፍ አርትዖት &amp; የቅጽ መሙላት</string>
+    <string name="crossdevice_sync_via_drive">በDrive በኩል የመሣሪያ ተሻጋሪ ማመሳሰል</string>
+    <string name="adfree_no_watermark">ከማስታወቂያ-ነጻ፣ የውሃ ምልክት የለም</string>
+    <string name="export_to_word__excel">ወደ Word &amp; ኤክሴል ይላኩ</string>
+    <string name="multiple_themes__page_backgrounds">በርካታ ገጽታዎች &amp; የገጽ ዳራዎች</string>
+    <string name="ai_summaries_with_stronger_reasoning">የ AI ማጠቃለያዎች በጠንካራ ምክንያት</string>
+    <string name="no_limits_on_60_pdf_tools">ከ60 በላይ በሆኑ የፒዲኤፍ መሳሪያዎች ላይ ምንም ገደብ የለም</string>
+    <string name="full_text_editing_in_pdfs">ሙሉ የጽሑፍ አርትዖት በፒዲኤፍዎች</string>
+    <string name="digital_signatures_dscesign">ዲጂታል ፊርማዎች (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">ያልተገደበ የተቃኘ ሰነድ ማመሳሰል</string>
+    <string name="biometric_document_lock">የባዮሜትሪክ ሰነድ መቆለፊያ</string>
+    <string name="everything_in_pro_all_devices">ሁሉም ነገር በፕሮ፣ ሁሉም መሳሪያዎች</string>
+    <string name="introductory_offer">የመግቢያ ቅናሽ</string>
+    <string name="limited_time__30_off">የተወሰነ ጊዜ — 30% ቅናሽ</string>
+    <string name="date__time">ቀን &amp; ሰዓት</string>
+    <string name="amount">መጠን</string>
+    <string name="platform">መድረክ</string>
+    <string name="type">አይነት</string>
+    <string name="expires_on">የሚያበቃው በ</string>
+</resources>

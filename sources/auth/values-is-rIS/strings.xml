@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Athugaðu nettenginguna þína og staðfestu að Google reikningur sé bætt við tækið þitt og reyndu síðan aftur.</string>
+    <string name="sign_in_with_apple">Innskráning með Apple</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Uppfærðu upplifun þína</string>
+    <string name="purchase_screen_close">Loka</string>
+    <string name="purchase_screen_refresh">Endurnýja</string>
+    <string name="purchase_sync_status">Síðast samstillt: %1s</string>
+    <string name="purchase_current_plan">Núverandi</string>
+    <string name="purchase_syncing">Samstilling…</string>
+    <string name="purchase_loading">Hleður…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Ókeypis áætlun</string>
+    <string name="purchase_pro_plan">Pro útgáfa</string>
+    <string name="purchase_pro_tagline">Borgaðu einu sinni. Eigðu að eilífu.</string>
+    <string name="purchase_premium_plan">Premium áskrift</string>
+    <string name="purchase_premium_tagline">Allt í Pro, auk gervigreindar &amp; skýsins</string>
+    <string name="purchase_recommended">Mælt með</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">Upplestur með gervigreind — Hlustaðu á PDF skjöl á náttúrulegan hátt</string>
+    <string name="purchase_pro_feature_2">Full PDF útgáfa &amp; Eyðublaðsútfylling</string>
+    <string name="purchase_pro_feature_3">Samstilling milli tækja í gegnum Drive</string>
+    <string name="purchase_pro_feature_4">Auglýsingalaust, ekkert vatnsmerki á skönnuðum myndum</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">Samantektir gervigreindar með sterkari rökstuðningi</string>
+    <string name="purchase_premium_feature_1_desc">Ítarlegri svör úr lengri og flóknari skjölum</string>
+    <string name="purchase_premium_feature_2_title">50GB Falcon Cloud</string>
+    <string name="purchase_premium_feature_2_desc">Persónulegt PDF-bókasafn þitt, samstillt og öruggt</string>
+    <string name="purchase_premium_feature_3_title">Engar takmarkanir á 60+ PDF verkfærum</string>
+    <string name="purchase_premium_feature_3_desc">Öll verkfæri, alltaf tiltæk</string>
+    <string name="purchase_premium_feature_4_title">Fulltextabreytingar í PDF skjölum</string>
+    <string name="purchase_premium_feature_4_desc">Breyta texta beint eins og ritvinnsluforrit</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Kaupa atvinnumaður</string>
+    <string name="purchase_sign_in_buy">Innskráning &amp; Kaupa</string>
+    <string name="purchase_sign_in_subscribe">Innskráning &amp; Gerast áskrifandi</string>
+    <string name="purchase_subscribe">Gerast áskrifandi</string>
+    <string name="purchase_start_trial">Byrjaðu 7 daga ókeypis prufuáskrift</string>
+    <string name="purchase_view_all_features">Skoða alla eiginleika</string>
+    <string name="purchase_show_more">Sýna meira</string>
+    <string name="purchase_show_less">Sýna minna</string>
+    <string name="purchase_see_all_features">Sjá alla eiginleika</string>
+    <string name="purchase_manage_subscription">Stjórna áskrift</string>
+    <string name="purchase_restore_purchases">Endurheimta kaup</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Mánaðarlega</string>
+    <string name="purchase_billing_yearly">Árlega</string>
+    <string name="purchase_save_badge">Sparaðu 40%</string>
+    <string name="purchase_lifetime">Ævi</string>
+    <string name="purchase_per_year">/ár</string>
+    <string name="purchase_per_month">/mánuði</string>
+    <string name="purchase_trial_terms">Hætta við hvenær sem er. Endurnýjast nema sagt sé upp 24 klst. fyrir lok prufuáskriftar.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Mistókst að hlaða vörum. Athugaðu innskráningu og nettengingu.</string>
+    <string name="purchase_error_network">Tenging rofnaði. Athugaðu netsambandið og reyndu aftur.</string>
+    <string name="purchase_error_payment_declined">Greiðslumáta hafnað. Vinsamlegast uppfærðu greiðsluupplýsingar þínar.</string>
+    <string name="purchase_error_server">Eitthvað fór úrskeiðis. Reyndu aftur síðar.</string>
+    <string name="purchase_error_rate_limit">Of margar tilraunir til að endurnýja. Vinsamlegast bíðið.</string>
+    <string name="purchase_error_offline">Engin nettenging. Sýni skyndiminnigögn.</string>
+    <string name="purchase_error_product_refresh">Ekki tókst að staðfesta vöruna. Reyndu aftur.</string>
+    <string name="purchase_error_generic">Villa kom upp. Vinsamlegast reyndu aftur.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Þjónustuskilmálar</string>
+    <string name="purchase_privacy_policy">Persónuverndarstefna</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">Kaupsaga</string>
+    <string name="free_trial">Ókeypis prufuáskrift</string>
+    <string name="no_purchase_history">Engin kaupsaga</string>
+    <string name="you_havent_made_any_purchases_">Þú hefur ekki gert neinar kaup ennþá.</string>
+    <string name="error">Villa</string>
+    <string name="retry">Reyna aftur</string>
+    <string name="back">Til baka</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Uppfærðu upplifun þína</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Endurheimta kaup</string>
+    <string name="close_purchase_screen">Loka kaupskjánum</string>
+    <string name="help">Hjálp</string>
+    <string name="more_options">Fleiri valkostir</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Endurnýja</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Virk</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s VIRK</string>
+    <string name="premium_benefits">AUKAÁVINNINGUR</string>
+    <string name="manage_subscription">Stjórna áskrift</string>
+    <string name="next_billing_date__manage_your">Næsti reikningsdagur: %1$s. Stjórnaðu reikningsupplýsingum þínum og uppsögn í gegnum stillingar Play Store reikningsins þíns.</string>
+    <string name="purchase_expires_">Kaup rennur út: %1$s</string>
+    <string name="falcon_pdf_pro">Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF Premium (mánaðarlega)</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Premium (árlega)</string>
+    <string name="pro">FAGMAÐUR</string>
+    <string name="premium">ÚRVALS</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Fáðu Falcon PDF Pro eða Premium</string>
+    <string name="purchase_desktop_subtitle">Kaupum er stjórnað á vefsíðu okkar. Smelltu hér að neðan til að skoða áskriftir og verð.</string>
+    <string name="purchase_desktop_open_website">Skoða áætlanir &amp; Verðlagning</string>
+    <string name="purchase_desktop_already_purchased">Hefurðu keypt áskrift? Skráðu þig inn til að samstilla áskriftina þína.</string>
+    <string name="purchase_store_build_subtitle">Áskriftin þín opnar Pro-eiginleika á öllum tækjunum þínum. Skráðu þig inn til að samstilla áskriftina þína.</string>
+    <string name="ai_read_aloud">Gervigreind les upphátt</string>
+    <string name="full_pdf_editing__form_filling">Full PDF útgáfa &amp; Eyðublaðsútfylling</string>
+    <string name="crossdevice_sync_via_drive">Samstilling milli tækja í gegnum Drive</string>
+    <string name="adfree_no_watermark">Auglýsingalaust, ekkert vatnsmerki</string>
+    <string name="export_to_word__excel">Flytja út í Word &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">Margþemu &amp; Síðubakgrunnar</string>
+    <string name="ai_summaries_with_stronger_reasoning">Samantektir gervigreindar með sterkari rökstuðningi</string>
+    <string name="no_limits_on_60_pdf_tools">Engar takmarkanir á 60+ PDF verkfærum</string>
+    <string name="full_text_editing_in_pdfs">Fulltextabreytingar í PDF skjölum</string>
+    <string name="digital_signatures_dscesign">Stafrænar undirskriftir (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Ótakmörkuð samstilling skannaðra skjala</string>
+    <string name="biometric_document_lock">Líffræðilegur skjalalás</string>
+    <string name="everything_in_pro_all_devices">Allt í Pro, öll tæki</string>
+    <string name="introductory_offer">Kynningartilboð</string>
+    <string name="limited_time__30_off">Takmarkaður tími — 30% afsláttur</string>
+    <string name="date__time">Dagsetning &amp; Tími</string>
+    <string name="amount">Upphæð</string>
+    <string name="platform">Pallur</string>
+    <string name="type">Tegund</string>
+    <string name="expires_on">Rennur út þann</string>
+</resources>

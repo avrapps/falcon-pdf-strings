@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Escaneja</string>
+    <string name="scan_home_documents">Documents</string>
+    <string name="scan_home_documents_lowercase">documents</string>
+    <string name="scan_home_documents_count">%1$d Documents</string>
+    <string name="scan_home_no_documents">Encara no hi ha documents</string>
+    <string name="scan_home_start_scanning">Comença a escanejar per crear el teu primer document</string>
+    <string name="scan_home_new_folder">Nova carpeta</string>
+    <string name="scan_home_scan_document">Escaneja el document</string>
+    <string name="scan_home_import_gallery">Importa des de la galeria</string>
+    <string name="scan_home_parent_folder">Carpeta principal</string>
+    <string name="scan_home_go_back">Torna a la carpeta principal</string>
+    <string name="scan_home_create_folder">Crea una carpeta nova</string>
+    <string name="scan_home_enter_folder_name">Introduïu un nom per a la carpeta nova</string>
+    <string name="scan_home_folder_name">Nom de la carpeta</string>
+    <string name="scan_home_folder_placeholder">p. ex., documents de treball</string>
+    <string name="scan_home_folder_error">El nom de la carpeta no pot estar buit</string>
+    <string name="scan_home_folder_name_empty">El nom de la carpeta no pot estar buit</string>
+    <string name="scan_home_create">Crea</string>
+    <string name="scan_home_folder_exists">Ja existeix una carpeta amb aquest nom</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Càmera</string>
+    <string name="scan_camera_permission_required">Cal permís de càmera</string>
+    <string name="scan_camera_permission_message">Aquesta aplicació necessita accés a la càmera per escanejar documents.</string>
+    <string name="scan_camera_permission_settings">Aneu a Configuració &gt; Aplicacions &gt; Visualitzador de PDF &gt; Permisos i activeu el permís de la càmera.</string>
+    <string name="scan_camera_permission_title">Cal permís de càmera</string>
+    <string name="scan_camera_request_permission">Sol·licita permís</string>
+    <string name="scan_camera_open_settings">Obre la configuració</string>
+    <string name="scan_camera_close">Tanca</string>
+    <string name="scan_camera_flash">Flaix</string>
+    <string name="scan_camera_auto_capture">Captura automàtica</string>
+    <string name="scan_camera_settings">Configuració</string>
+    <string name="scan_camera_ready_batch">Preparat per escanejar diverses pàgines</string>
+    <string name="scan_camera_ready_multiple">Preparat per escanejar diverses pàgines</string>
+    <string name="scan_camera_hold_steady">Mantingueu-vos ferms mentre escanegeu</string>
+    <string name="scan_camera_captured_pages">%1$d pàgines capturades</string>
+    <string name="scan_camera_mode_single">Solter/a</string>
+    <string name="scan_camera_mode_batch">Lot</string>
+    <string name="scan_camera_preview">Vista prèvia</string>
+    <string name="scan_camera_finish">Finalitzar</string>
+    <string name="scan_camera_starting">Iniciant la càmera...</string>
+    <string name="scan_camera_document_name">Nom del document</string>
+    <string name="scan_camera_document_name_empty">El nom del document no pot estar buit</string>
+    <string name="scan_camera_save_document">Desa el document</string>
+    <string name="scan_camera_processing">Processant...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Retalla &amp; Ajusta</string>
+    <string name="scan_crop_close">Tanca</string>
+    <string name="scan_crop_reset">Restablir</string>
+    <string name="scan_crop_rotate">Girar</string>
+    <string name="scan_crop_done">Fet</string>
+    <string name="scan_crop_scanned_document">Document escanejat</string>
+    <string name="scan_crop_magnified_view">Vista ampliada</string>
+    <string name="scan_crop_processing">Processant...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Millora</string>
+    <string name="scan_filter_close">Tanca</string>
+    <string name="scan_filter_rotate">Girar</string>
+    <string name="scan_filter_done">Fet</string>
+    <string name="scan_filter_filters">Filtres</string>
+    <string name="scan_filter_original">Original</string>
+    <string name="scan_filter_magic">Màgia</string>
+    <string name="scan_filter_lighten">Aclarir</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">Escala de grisos</string>
+    <string name="scan_filter_magic_2">Document net</string>
+    <string name="scan_filter_soft_scan">Escaneig suau</string>
+    <string name="scan_filter_color_enhance">Color+</string>
+    <string name="scan_filter_ink_saver">Estalvi de tinta</string>
+    <string name="scan_filter_premium">Funció premium</string>
+    <string name="scan_filter_filtered_document">Document filtrat</string>
+    <string name="scan_filter_applying">Aplicant el filtre...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Cancel·la</string>
+    <string name="scan_share">Comparteix</string>
+    <string name="scan_move">Moure</string>
+    <string name="scan_move_to_folder">Mou a la carpeta</string>
+    <string name="scan_delete">Suprimeix</string>
+    <string name="scan_rename">Canvia el nom</string>
+    <string name="scan_root">Arrel</string>
+    <string name="scan_select_destination">Seleccioneu una carpeta de destinació</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Document</string>
+    <string name="scan_document_back">Enrere</string>
+    <string name="scan_document_pages">pàgines</string>
+    <string name="scan_document_add_pages">Afegeix pàgines a aquest document</string>
+    <string name="scan_document_add_page_button">Afegeix pàgina</string>
+    <string name="scan_document_rename">Canvia el nom</string>
+    <string name="scan_document_share">Comparteix</string>
+    <string name="scan_document_more">Més</string>
+    <string name="scan_document_pages_count">%1$d pàgines</string>
+    <string name="scan_document_no_pages">Encara no hi ha pàgines</string>
+    <string name="scan_document_scan_page">Escaneja la pàgina</string>
+    <string name="scan_document_import_page">Importa des de la galeria</string>
+    <string name="scan_document_grid_view">Vista de quadrícula</string>
+    <string name="scan_document_list_view">Vista de llista</string>
+    <string name="scan_document_continuous_view">Vista contínua</string>
+    <string name="scan_document_page_number">Pàgina %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Pàgina</string>
+    <string name="scan_page_back">Enrere</string>
+    <string name="scan_page_share">Comparteix</string>
+    <string name="scan_page_delete">Suprimeix</string>
+    <string name="scan_page_of">%1$d de %2$d</string>
+    <string name="scan_page_image_not_found">Imatge no trobada</string>
+    <string name="scan_page_retake">Repetir</string>
+    <string name="scan_page_crop">Recoltar</string>
+    <string name="scan_page_enhance">Millora</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">Desa a la galeria</string>
+    <string name="scan_page_saved_to_gallery">Imatge desada a la galeria</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Voleu suprimir el document?</string>
+    <string name="scan_delete_document_message">Esteu segur que voleu suprimir "%1$s"? Això suprimirà permanentment totes les pàgines d'aquest document. Aquesta acció no es pot desfer.</string>
+    <string name="scan_rename_document">Canvia el nom del document</string>
+    <string name="scan_rename_enter_name">Introduïu un nom nou per al document</string>
+    <string name="scan_rename_document_name">Nom del document</string>
+    <string name="scan_rename_error">El nom del document no pot estar buit</string>
+    <string name="scan_dialog_delete_document_title">Voleu suprimir el document?</string>
+    <string name="scan_dialog_delete_document_message">Esteu segur que voleu suprimir "%1$s"? Això suprimirà permanentment totes les pàgines d'aquest document. Aquesta acció no es pot desfer.</string>
+    <string name="scan_dialog_delete_confirm">Suprimeix</string>
+    <string name="scan_dialog_cancel">Cancel·la</string>
+    <string name="scan_dialog_move_title">Mou a la carpeta</string>
+    <string name="scan_dialog_move_message">Seleccioneu una carpeta de destinació</string>
+    <string name="scan_dialog_move_confirm">Moure</string>
+    <string name="scan_dialog_move_root">Arrel</string>
+    <string name="scan_dialog_move_selected">Seleccionat</string>
+    <string name="scan_dialog_rename_title">Canvia el nom del document</string>
+    <string name="scan_dialog_rename_message">Introduïu un nom nou per al document</string>
+    <string name="scan_dialog_rename_label">Nom del document</string>
+    <string name="scan_dialog_rename_error">El nom del document no pot estar buit</string>
+    <string name="scan_dialog_rename_confirm">Canvia el nom</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Comparteix</string>
+    <string name="scan_menu_move">Mou a la carpeta</string>
+    <string name="scan_menu_delete">Suprimeix</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Previsualització de la càmera\n(Properament)</string>
+    <string name="scan_platform_desktop_camera">Previsualització de la càmera d'escriptori\n(Properament)</string>
+    <string name="scan_platform_ios_camera">Previsualització de la càmera d'iOS\n(Properament)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Tanca</string>
+    <string name="flash">Flaix</string>
+    <string name="auto_capture">Captura automàtica</string>
+    <string name="settings">Configuració</string>
+    <string name="capture">Captura</string>
+    <string name="finish">Finalitzar</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Esteu segur que voleu suprimir %1? Tots els documents que hi ha a dins també s'eliminaran.</string>
+    <string name="share">Comparteix</string>
+    <string name="share_as_images">Comparteix com a imatges</string>
+    <string name="share_as_pdf">Comparteix com a PDF</string>
+    <string name="move_to_folder">Mou a la carpeta</string>
+    <string name="delete">Suprimeix</string>
+    <string name="selected">Seleccionat</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Pàgina %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">La carpeta està buida</string>
+    <string name="tap_the__button_to_scan_a_docu">Toqueu el botó + per escanejar un document</string>
+    <string name="str______pages">%1$s • %2$s • %3$s pàgines</string>
+    <string name="create_folder">Crea una carpeta</string>
+    <string name="more_options">Més opcions</string>
+    <string name="document_thumbnail">Miniatura del document</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Imatge no trobada</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Pàgina %2$d</string>
+    <string name="scan_ocr_title">Reconeixement de text</string>
+    <string name="scan_ocr_copy">Copiar text</string>
+    <string name="scan_ocr_no_text">No s'ha trobat cap text</string>
+    <string name="scan_ocr_processing">Reconeixement de text…</string>
+    <string name="scan_ocr_error">No s'ha pogut reconèixer el text</string>
+    <string name="scan_ocr_not_supported">L'OCR no és compatible amb aquesta plataforma</string>
+    <string name="scan_ocr_image">Pàgina escanejada per a OCR</string>
+    <string name="gallery">Galeria</string>
+    <string name="select_file">Selecciona un fitxer</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">No s'ha pogut capturar la imatge</string>
+    <string name="error_no_images_captured">No s'han capturat imatges</string>
+    <string name="error_open_settings">No s'ha pogut obrir la configuració</string>
+    <string name="error_process_images">No s'han pogut processar les imatges</string>
+    <string name="error_process_image">No s'ha pogut processar la imatge</string>
+    <string name="error_start_camera">No s'ha pogut iniciar la càmera</string>
+    <string name="error_stop_camera">No s'ha pogut aturar la càmera</string>
+    <string name="error_crop_image">No s'ha pogut retallar la imatge</string>
+    <string name="error_delete_document">No s'ha pogut suprimir el document</string>
+    <string name="error_delete_page">No s'ha pogut suprimir la pàgina</string>
+    <string name="error_load_document">No s'ha pogut carregar el document</string>
+    <string name="error_load_page">No s'ha pogut carregar la pàgina</string>
+    <string name="error_move_document">No s'ha pogut moure el document</string>
+    <string name="error_no_pages_to_share">No hi ha pàgines per compartir</string>
+    <string name="error_rename_document">No s'ha pogut canviar el nom del document</string>
+    <string name="error_reorder_pages">No s'han pogut reordenar les pàgines</string>
+    <string name="error_share_images">No s'han pogut compartir les imatges</string>
+    <string name="error_share_pdf">No s'ha pogut compartir el PDF</string>
+    <string name="error_share_page">No s'ha pogut compartir la pàgina</string>
+    <string name="error_create_folder">No s'ha pogut crear la carpeta</string>
+    <string name="error_delete_folder">No s'ha pogut suprimir la carpeta</string>
+    <string name="error_rename_folder">No s'ha pogut canviar el nom de la carpeta</string>
+    <string name="error_unknown">S'ha produït un error desconegut</string>
+    <string name="folder_not_found">No s'ha trobat la carpeta</string>
+    <string name="sync_documents">Sincronitza documents</string>
+    <string name="shutter_scale">escala_obturador</string>
+    <string name="import_gallery">Importa la galeria</string>
+    <string name="scan_camera">Càmera d'escaneig</string>
+</resources>

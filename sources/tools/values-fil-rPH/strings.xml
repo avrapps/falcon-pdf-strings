@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">Burahin ang mga Pahina</string>
+    <string name="are_you_sure_you_want_to_delet">Sigurado ka bang gusto mong burahin ang mga napiling pahina? Hindi na maaaring bawiin ang aksyon na ito.</string>
+    <string name="delete">Burahin</string>
+    <string name="cancel">Kanselahin</string>
+    <string name="quick_selection">Mabilis na Pagpili</string>
+    <string name="select_range">Pumili ng Saklaw</string>
+    <string name="select_all">Piliin Lahat</string>
+    <string name="clear_all">I-clear Lahat</string>
+    <string name="select_page_range">Piliin ang Saklaw ng Pahina</string>
+    <string name="enter_the_range_of_pages_to_de">Ilagay ang hanay ng mga pahinang buburahin (1-%1$s)</string>
+    <string name="from">Mula sa</string>
+    <string name="to">Para sa</string>
+    <string name="select">Piliin</string>
+    <string name="please_go_back_and_select_a_pd">Bumalik at pumili ng PDF</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">Hatiin ang PDF</string>
+    <string name="str_1_file_selected">1 file ang napili</string>
+    <string name="no_file_selected">Walang napiling file</string>
+    <string name="split_mode">Mode ng Paghahati</string>
+    <string name="fixed_segments">Mga Nakapirming Segment</string>
+    <string name="custom_ranges">Mga Pasadyang Saklaw</string>
+    <string name="segment_size">Laki ng Segment</string>
+    <string name="this_will_create_multiple_pdfs">Lilikha ito ng maraming PDF na may tinukoy na bilang ng mga pahina bawat isa. Ang laki ng segment ay dapat na mas mababa kaysa sa kabuuang mga pahina upang lumikha ng makabuluhang mga hati. Halimbawa, kung ang source file ay may 8 pahina at naglagay ka ng 2, apat na PDF file ang mabubuo na may 2 pahina bawat isa.</string>
+    <string name="pages_per_file">Mga pahina bawat file</string>
+    <string name="eg_2">hal., 2</string>
+    <string name="total_number_of_pages_in_pdf__">Kabuuang bilang ng mga pahina sa PDF: %1$d (ang laki ng segment ay dapat na mas mababa sa %1$d)</string>
+    <string name="this_will_create__output_files">Gagawa ito ng mga output file na %1$d</string>
+    <string name="this_will_create__output_file">Gagawa ito ng output file na %1$d</string>
+    <string name="this_input_will_split_the_pdf_">Hahatiin ng input na ito ang PDF sa magkakahiwalay na file batay sa iyong mga saklaw. Halimbawa, ang "1-2,5,6-8" ay lilikha ng 3 PDF: una na may mga pahina 1-2, pangalawa na may pahina 5, at pangatlo na may mga pahina 6-8.</string>
+    <string name="page_ranges">Mga hanay ng pahina</string>
+    <string name="eg_1234571520">hal., 1-2,3,4-5,7,15-20</string>
+    <string name="format_use_ranges_15_or_single">Format: Gumamit ng mga saklaw (1-5) o mga pahinang isahan (7), na pinaghihiwalay ng mga kuwit. Mga digit, gitling, at kuwit lamang ang pinapayagan.</string>
+    <string name="split_preview">Hatiin ang Preview</string>
+    <string name="pdf_files_will_be_created">%1$d Gagawin ang mga PDF file</string>
+    <string name="pdf_file_will_be_created">%1$d Magagawa ang PDF file</string>
+    <string name="pdf_result_">Resulta ng PDF %1$s</string>
+    <string name="str__and__more">... at %1$d higit pa</string>
+    <string name="splitting_pdf">Paghihiwalay ng PDF...</string>
+    <string name="checking_files">Sinusuri ang mga file...</string>
+    <string name="page_n">Pahina %1$d</string>
+    <string name="pages_n_m">Mga Pahina %1$d-%2$d</string>
+    <string name="split_complete">Tapos na ang Paghahati!</string>
+    <string name="split_failed">Nabigo ang Paghahati</string>
+    <string name="we_couldnt_split_your_pdf">Hindi namin mahati ang iyong PDF</string>
+    <string name="your_pdf_has_been_successfully_split">Matagumpay na nahati ang iyong PDF sa mga %1$d na file</string>
+    <string name="your_pdf_has_been_successfully_split_single">Matagumpay na nahati ang iyong PDF sa %1$d file</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">Mga Kagamitan sa PDF</string>
+    <string name="image_tools">Mga Kagamitan sa Imahe</string>
+    <string name="str_30_tools_for_pdf">30+ na Kagamitan para sa PDF</string>
+    <string name="tools_for_images">Mga Kagamitan para sa mga Larawan</string>
+    <string name="no_tools_found">Walang nakitang mga kagamitan</string>
+    <string name="try_adjusting_your_search">Subukang isaayos ang iyong paghahanap</string>
+    <string name="history">Kasaysayan</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s pahina${kung (bilang ng pahina &gt; 1) </string>
+    <string name="n_pages">mga pahina ng %1$d</string>
+    <string name="n_page">pahina ng %1$d</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">Kinakailangan ang password para sa PDF na ito</string>
+    <string name="password_provided">Ibinigay ang password</string>
+    <string name="password_required">Kinakailangan ang password</string>
+    <string name="open_file">Buksan ang file</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">Na-compress ni </string>
+    <string name="error_details">Mga Detalye ng Error</string>
+    <string name="view">Tingnan</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">%1$s ng %2$s na mga pahina ang napili</string>
+    <string name="showing_first_200_pages">Ipinapakita ang unang 200 pahina</string>
+    <string name="use_quick_selection_above_for_">Gamitin ang Mabilisang Pagpili sa itaas para sa mga pahinang lampas sa 200</string>
+    <string name="loading">Naglo-load...</string>
+    <string name="error">Mali</string>
+    <string name="generating_page_previews">Bumubuo ng mga preview ng pahina...</string>
+    <string name="page__thumbnail">Pahina %1$s thumbnail</string>
+    <string name="selected">Napili</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">Maghanap</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">I-rotate ang PDF</string>
+    <string name="please_provide_the_password_to">Pakibigay ang password para pumili ng mga custom na pahina</string>
+    <string name="rotation_angle">Anggulo ng Pag-ikot</string>
+    <string name="page_selection">Pagpili ng Pahina</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">Muling i-order ang PDF</string>
+    <string name="use_the_arrow_buttons_to_reord">Gamitin ang mga arrow button para baguhin ang pagkakasunod-sunod ng mga pahina</string>
+    <string name="pages_">Mga Pahina (%1$s)</string>
+    <string name="page_">Pahina %1$s</string>
+    <string name="position__of_">Posisyon: %1$s ng %2$s</string>
+    <string name="drag_handle">Hawakan ng pag-drag</string>
+    <string name="move_up">Umakyat</string>
+    <string name="move_down">Gumalaw pababa</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">I-compress ang PDF</string>
+    <string name="no_files_selected">Walang napiling mga file</string>
+    <string name="please_go_back_and_select_pdf_">Bumalik at pumili ng mga PDF file na iko-compress</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">Tagumpay</string>
+    <string name="individual_results">Indibidwal na mga Resulta</string>
+    <string name="done">Tapos na</string>
+    <string name="compression_complete">Kumpleto na ang Compression</string>
+    <string name="your_file_is_ready_and_much_li">Handa na ang iyong file at mas magaan!</string>
+    <string name="before">BAGO</string>
+    <string name="after">PAGKATAPOS</string>
+    <string name="total_saved">Kabuuang Na-save</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">MAS MALIIT</string>
+    <string name="str__saved">%1$s% na natipid</string>
+    <string name="open">Bukas</string>
+    <string name="share">Ibahagi</string>
+    <string name="close">Isara</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">Antas ng Kompresyon</string>
+    <string name="recommended">Inirerekomenda</string>
+    <string name="str__compression">%1$s Kompresiyon</string>
+    <string name="str__of_original_size">~%1$s% ng orihinal na laki</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">Mga Larawan sa PDF</string>
+    <string name="str__images_selected">Mga napiling larawan ng %1$s</string>
+    <string name="images_will_be_converted_in_th">Ang mga imahe ay iko-convert sa pagkakasunud-sunod na ipinapakita sa ibaba</string>
+    <string name="remove">Alisin</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">PDF sa mga Larawan</string>
+    <string name="image_format">Format ng Larawan</string>
+    <string name="image_quality_dpi">Kalidad ng Imahe (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">Pagsamahin ang PDF</string>
+    <string name="n_files_selected">Mga napiling file na %1$d</string>
+    <string name="n_file_selected">Napili ang file na %1$d</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">I-lock ang PDF</string>
+    <string name="password_protection">Proteksyon ng Password</string>
+    <string name="enter_a_password_to_protect_yo">Maglagay ng password para protektahan ang iyong PDF. Kakailanganin mo ang password na ito para mabuksan ang file.</string>
+    <string name="password">Password</string>
+    <string name="enter_password">Ilagay ang password</string>
+    <string name="confirm_password">Kumpirmahin ang Password</string>
+    <string name="reenter_password">Ilagay muli ang password</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">Bumalik at pumili ng file</string>
+    <string name="back">Balik</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">I-unlock ang PDF</string>
+    <string name="current_password">Kasalukuyang Password</string>
+    <string name="enter_the_current_password_to_">Ilagay ang kasalukuyang password para ma-unlock ang PDF na ito</string>
+    <string name="enter_current_password">Ilagay ang kasalukuyang password</string>
+    <string name="incorrect_password_please_try_">Maling password. Pakisubukang muli.</string>
+    <string name="new_password_optional">Bagong Password (Opsyonal)</string>
+    <string name="set_a_new_password_to_change_i">Magtakda ng bagong password para baguhin ito, o iwanang blangko para maalis ang proteksyon ng password</string>
+    <string name="new_password">Bagong Password</string>
+    <string name="enter_new_password">Maglagay ng bagong password</string>
+    <string name="confirm_new_password">Kumpirmahin ang Bagong Password</string>
+    <string name="reenter_new_password">Ilagay muli ang bagong password</string>
+    <string name="passwords_do_not_match">Hindi magkatugma ang mga password</string>
+    <string name="compression_failed">Nabigo ang Kompresyon</string>
+    <string name="open_pdf">Buksan ang PDF</string>
+    <string name="share_file">Ibahagi ang File</string>
+    <string name="pages_deleted">Mga Pahinang Nabura!</string>
+    <string name="delete_failed">Nabigo ang Pagtanggal</string>
+    <string name="select_pages_to_delete">Pumili ng mga Pahinang Buburahin</string>
+    <string name="pdf_created">Nagawa na ang PDF!</string>
+    <string name="conversion_failed">Nabigo ang Pag-convert</string>
+    <string name="pdf_locked_successfully">Matagumpay na Na-lock ang PDF!</string>
+    <string name="lock_failed">Nabigo ang Pag-lock</string>
+    <string name="merge_complete">Kumpleto na ang Pagsasama!</string>
+    <string name="merge_failed">Nabigo ang Pagsasama</string>
+    <string name="conversion_complete">Kumpleto na ang Pag-convert!</string>
+    <string name="reorder_complete">Kumpleto na ang pag-order muli!</string>
+    <string name="reorder_failed">Nabigo ang Muling Pag-order</string>
+    <string name="rotation_complete">Kumpleto na ang Pag-ikot!</string>
+    <string name="rotation_failed">Nabigo ang Pag-ikot</string>
+    <string name="select_pages_to_rotate">Pumili ng mga Pahina na Iikot</string>
+    <string name="str__complete">%1$s Kumpleto na!</string>
+    <string name="str__failed">%1$s Nabigo</string>
+    <string name="unlock_failed">Nabigo ang Pag-unlock</string>
+    <string name="your_pdfs_have_been_successfully_compres">Matagumpay na na-compress ang iyong mga PDF</string>
+    <string name="we_couldnt_compress_your_pdfs">Hindi namin ma-compress ang iyong mga PDF</string>
+    <string name="view_your_compressed_file">Tingnan ang iyong naka-compress na file</string>
+    <string name="send_to_others_or_apps">Ipadala sa iba o mga app</string>
+    <string name="your_pdf_has_been_successfully_modified">Matagumpay na nabago ang iyong PDF</string>
+    <string name="we_couldnt_delete_the_pages">Hindi namin mabura ang mga pahina</string>
+    <string name="your_images_have_been_converted_to_pdf">Na-convert na ang iyong mga larawan sa PDF</string>
+    <string name="unable_to_create_pdf_from_images">Hindi makagawa ng PDF mula sa mga imahe</string>
+    <string name="your_pdf_is_now_password_protected">Ang iyong PDF ay protektado na ngayon ng password</string>
+    <string name="we_couldnt_lock_your_pdf">Hindi namin ma-lock ang iyong PDF</string>
+    <string name="your_pdfs_have_been_successfully_merged">Matagumpay na naipagsama ang iyong mga PDF</string>
+    <string name="we_couldnt_merge_your_pdfs">Hindi namin mapagsama ang iyong mga PDF</string>
+    <string name="str__images_created_successfully">Matagumpay na nalikha ang mga larawang %1$s</string>
+    <string name="unable_to_convert_pdf_to_images">Hindi ma-convert ang PDF sa mga larawan</string>
+    <string name="your_pdf_pages_have_been_successfully_re">Matagumpay na naayos muli ang pagkakasunod-sunod ng iyong mga pahina ng PDF</string>
+    <string name="we_couldnt_reorder_your_pdf">Hindi namin ma-reorder ang iyong PDF</string>
+    <string name="your_pdf_has_been_successfully_rotated">Matagumpay na naiikot ang iyong PDF</string>
+    <string name="we_couldnt_rotate_your_pdf">Hindi namin mai-rotate ang iyong PDF</string>
+    <string name="your_file_has_been_successfully_processe">Matagumpay na naproseso ang iyong file</string>
+    <string name="we_couldnt_process_your_file">Hindi namin maproseso ang iyong file</string>
+    <string name="we_couldnt_unlock_your_pdf">Hindi namin ma-unlock ang iyong PDF</string>
+    <string name="clear_filter">I-clear ang filter</string>
+    <string name="clear">I-clear</string>
+    <string name="pick_a_tool_">Pumili ng kagamitan →</string>
+    <string name="drag_to_reorder">I-drag upang muling isaayos</string>
+    <string name="your_files_are_securely_processed_on_our">Ang iyong mga file ay ligtas na pinoproseso sa aming mga server gamit ang mga naka-encrypt na koneksyon at awtomatikong binubura sa loob ng 1 oras. Hindi namin iniimbak o ibinabahagi ang iyong data.</string>
+    <string name="compression_quality">Kalidad ng kompresyon</string>
+    <string name="dragelevation">dragElevation</string>
+    <string name="tool_card_scale">iskala ng toolcard</string>
+</resources>

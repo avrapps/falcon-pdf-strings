@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Pārbaudiet interneta savienojumu un pārliecinieties, vai jūsu ierīcei ir pievienots Google konts, pēc tam mēģiniet vēlreiz.</string>
+    <string name="sign_in_with_apple">Pierakstieties ar Apple</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Uzlabojiet savu pieredzi</string>
+    <string name="purchase_screen_close">Aizvērt</string>
+    <string name="purchase_screen_refresh">Atsvaidzināt</string>
+    <string name="purchase_sync_status">Pēdējoreiz sinhronizēts: %1s</string>
+    <string name="purchase_current_plan">Pašreizējais</string>
+    <string name="purchase_syncing">Sinhronizācija…</string>
+    <string name="purchase_loading">Notiek ielāde…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Bezmaksas plāns</string>
+    <string name="purchase_pro_plan">Pro versija</string>
+    <string name="purchase_pro_tagline">Maksā vienreiz. Pieder mūžīgi.</string>
+    <string name="purchase_premium_plan">Premium abonements</string>
+    <string name="purchase_premium_tagline">Viss Pro versijā, kā arī mākslīgais intelekts &amp; Mākonī</string>
+    <string name="purchase_recommended">Ieteicams</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">Mākslīgā intelekta skaļa lasīšana — klausieties PDF failus dabiski</string>
+    <string name="purchase_pro_feature_2">Pilnīga PDF rediģēšana &amp; Veidlapu aizpildīšana</string>
+    <string name="purchase_pro_feature_3">Starpierīču sinhronizācija, izmantojot Disku</string>
+    <string name="purchase_pro_feature_4">Bez reklāmām, bez ūdenszīmēm skenējumos</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">Mākslīgā intelekta kopsavilkumi ar spēcīgāku pamatojumu</string>
+    <string name="purchase_premium_feature_1_desc">Padziļinātas atbildes no garākiem, sarežģītākiem dokumentiem</string>
+    <string name="purchase_premium_feature_2_title">5 GB Falcon mākonis</string>
+    <string name="purchase_premium_feature_2_desc">Jūsu personīgā PDF bibliotēka, sinhronizēta un droša</string>
+    <string name="purchase_premium_feature_3_title">Nav ierobežojumu vairāk nekā 60 PDF rīkiem</string>
+    <string name="purchase_premium_feature_3_desc">Katrs instruments, vienmēr pieejams</string>
+    <string name="purchase_premium_feature_4_title">Pilna teksta rediģēšana PDF failos</string>
+    <string name="purchase_premium_feature_4_desc">Rediģējiet tekstu tieši kā teksta redaktorā</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Iegādāties Pro</string>
+    <string name="purchase_sign_in_buy">Pierakstīties &amp; Pirkt</string>
+    <string name="purchase_sign_in_subscribe">Pierakstīties &amp; Abonēt</string>
+    <string name="purchase_subscribe">Abonēt</string>
+    <string name="purchase_start_trial">Sākt 7 dienu bezmaksas izmēģinājumu</string>
+    <string name="purchase_view_all_features">Skatīt visas funkcijas</string>
+    <string name="purchase_show_more">Rādīt vairāk</string>
+    <string name="purchase_show_less">Rādīt mazāk</string>
+    <string name="purchase_see_all_features">Skatīt visas funkcijas</string>
+    <string name="purchase_manage_subscription">Pārvaldīt abonementu</string>
+    <string name="purchase_restore_purchases">Atjaunot pirkumus</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Mēneša</string>
+    <string name="purchase_billing_yearly">Katru gadu</string>
+    <string name="purchase_save_badge">Ietaupiet 40%%</string>
+    <string name="purchase_lifetime">Mūža ilgums</string>
+    <string name="purchase_per_year">/gadā</string>
+    <string name="purchase_per_month">/mēnesī</string>
+    <string name="purchase_trial_terms">Atcelt jebkurā laikā. Atjaunojas, ja vien netiek atcelts 24 stundas pirms izmēģinājuma perioda beigām.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Neizdevās ielādēt produktus. Pārbaudiet pierakstīšanos un interneta savienojumu.</string>
+    <string name="purchase_error_network">Savienojums pārtraukts. Lūdzu, pārbaudiet interneta savienojumu un mēģiniet vēlreiz.</string>
+    <string name="purchase_error_payment_declined">Maksājuma metode noraidīta. Lūdzu, atjauniniet savu maksājuma informāciju.</string>
+    <string name="purchase_error_server">Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz vēlāk.</string>
+    <string name="purchase_error_rate_limit">Pārāk daudz atsvaidzināšanas mēģinājumu. Lūdzu, uzgaidiet.</string>
+    <string name="purchase_error_offline">Nav interneta savienojuma. Tiek rādīti kešatmiņā saglabātie dati.</string>
+    <string name="purchase_error_product_refresh">Nevar verificēt produktu. Lūdzu, mēģiniet vēlreiz.</string>
+    <string name="purchase_error_generic">Radās kļūda. Lūdzu, mēģiniet vēlreiz.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Pakalpojumu sniegšanas noteikumi</string>
+    <string name="purchase_privacy_policy">Privātuma politika</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">Pirkumu vēsture</string>
+    <string name="free_trial">Bezmaksas izmēģinājums</string>
+    <string name="no_purchase_history">Nav pirkumu vēstures</string>
+    <string name="you_havent_made_any_purchases_">Jūs vēl neesat veicis nevienu pirkumu.</string>
+    <string name="error">Kļūda</string>
+    <string name="retry">Mēģināt vēlreiz</string>
+    <string name="back">Atpakaļ</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Uzlabojiet savu pieredzi</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Atjaunot pirkumus</string>
+    <string name="close_purchase_screen">Aizvērt pirkuma ekrānu</string>
+    <string name="help">Palīdzība</string>
+    <string name="more_options">Vairāk iespēju</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Atsvaidzināt</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Aktīvs</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s AKTĪVS</string>
+    <string name="premium_benefits">PREMIUM PRIEKŠROCĪBAS</string>
+    <string name="manage_subscription">Pārvaldīt abonementu</string>
+    <string name="next_billing_date__manage_your">Nākamais norēķinu datums: %1$s. Pārvaldiet norēķinu informāciju un atcelšanu, izmantojot Play veikala konta iestatījumus.</string>
+    <string name="purchase_expires_">Pirkuma derīguma termiņš beidzas: %1$s</string>
+    <string name="falcon_pdf_pro">Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF Premium (mēneša abonements)</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Premium (gada)</string>
+    <string name="pro">PROFESIONĀLISTS</string>
+    <string name="premium">PREMIUM</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Iegūstiet Falcon PDF Pro vai Premium versiju</string>
+    <string name="purchase_desktop_subtitle">Pirkumi tiek pārvaldīti mūsu tīmekļa vietnē. Noklikšķiniet zemāk, lai skatītu plānus un cenas.</string>
+    <string name="purchase_desktop_open_website">Skatīt plānus &amp; Cenas</string>
+    <string name="purchase_desktop_already_purchased">Jau iegādājies? Pierakstieties, lai sinhronizētu savu plānu.</string>
+    <string name="purchase_store_build_subtitle">Jūsu abonements atbloķē Pro funkcijas visās jūsu ierīcēs. Pierakstieties, lai sinhronizētu savu plānu.</string>
+    <string name="ai_read_aloud">Mākslīgais intelekts skaļi lasa</string>
+    <string name="full_pdf_editing__form_filling">Pilnīga PDF rediģēšana &amp; Veidlapu aizpildīšana</string>
+    <string name="crossdevice_sync_via_drive">Starpierīču sinhronizācija, izmantojot Disku</string>
+    <string name="adfree_no_watermark">Bez reklāmām, bez ūdenszīmes</string>
+    <string name="export_to_word__excel">Eksportēt uz Word &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">Vairākas tēmas &amp; Lapu foni</string>
+    <string name="ai_summaries_with_stronger_reasoning">Mākslīgā intelekta kopsavilkumi ar spēcīgāku pamatojumu</string>
+    <string name="no_limits_on_60_pdf_tools">Nav ierobežojumu vairāk nekā 60 PDF rīkiem</string>
+    <string name="full_text_editing_in_pdfs">Pilna teksta rediģēšana PDF failos</string>
+    <string name="digital_signatures_dscesign">Digitālie paraksti (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Neierobežota skenētu dokumentu sinhronizācija</string>
+    <string name="biometric_document_lock">Biometriskā dokumentu slēdzene</string>
+    <string name="everything_in_pro_all_devices">Viss Pro versijā, visās ierīcēs</string>
+    <string name="introductory_offer">Ievada piedāvājums</string>
+    <string name="limited_time__30_off">Ierobežots laiks — 30% atlaide</string>
+    <string name="date__time">Datums &amp; Laiks</string>
+    <string name="amount">Summa</string>
+    <string name="platform">Platforma</string>
+    <string name="type">Tips</string>
+    <string name="expires_on">Beidzas</string>
+</resources>

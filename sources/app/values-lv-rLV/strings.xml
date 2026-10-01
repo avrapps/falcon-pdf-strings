@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">PDF maģija</string>
+    <string name="app_tagline">Ko tu vēlētos darīt?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">Pēdējo reizi izmantots</string>
+    <string name="home_favorites">Izlase</string>
+    <string name="home_new_tool">Jauns rīks</string>
+    <string name="home_featured">IZCELTAIS</string>
+    <string name="home_scan_to_pdf">Skenēt uz PDF</string>
+    <string name="home_scan_description">Pārvērtiet papīra dokumentus digitālā maģijā acumirklī</string>
+    <string name="home_start_scanning">Sākt skenēšanu</string>
+    <string name="home_all_tools">Visi rīki</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">PDF rīki</string>
+    <string name="image_tools">Attēlu rīki</string>
+    <string name="tools_split">Sadalīt</string>
+    <string name="tools_split_description">Izvilkt lapas</string>
+    <string name="tools_rotate">Pagriezt</string>
+    <string name="tools_rotate_description">Fiksēt orientāciju</string>
+    <string name="tools_delete_pages">Dzēst lapas</string>
+    <string name="tools_delete_pages_description">Noņemt nevēlamu</string>
+    <string name="tools_convert">Konvertēt</string>
+    <string name="tools_convert_description">Uz/no attēliem</string>
+    <string name="tools_sign">Zīme</string>
+    <string name="tools_sign_description">Pievienot parakstu</string>
+    <string name="tools_protect">Aizsargāt</string>
+    <string name="tools_protect_description">Paroles drošība</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">PDF skatītājs</string>
+    <string name="pdf_viewer_page_info">%1$d . lappuse no %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">Dokumentu skeneris</string>
+    <string name="scanner_capture">Uztveršana</string>
+    <string name="scanner_retake">Atkārtoti uzņemt</string>
+    <string name="scanner_save">Saglabāt</string>
+    <!-- Navigation -->
+    <string name="nav_back">Navigēt atpakaļ</string>
+    <string name="nav_settings">Iestatījumi</string>
+    <string name="nav_more_options">Vairāk iespēju</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Sākums</string>
+    <string name="nav_library">Bibliotēka</string>
+    <string name="nav_scan">Skenēt</string>
+    <string name="nav_tools">Instrumenti</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">Pārlūkot failus</string>
+    <string name="browse_files_subtitle">Krātuve &amp; Mākoņa faili</string>
+    <string name="show_hidden_files">Rādīt slēptos failus</string>
+    <string name="hide_hidden_files">Slēpt slēptos failus</string>
+    <string name="refresh_storage">Atsvaidzināt krātuvi</string>
+    <string name="no_storage_available">Nav pieejama krātuve</string>
+    <string name="no_files_found">Nav atrasts neviens fails</string>
+    <string name="add_files">Pievienot %1$d failus</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">Nepieciešama glabāšanas atļauja</string>
+    <string name="permission_storage_message">Šai lietotnei ir nepieciešama piekļuve jūsu ierīces krātuvei, lai pārlūkotu un atvērtu PDF failus. Lūdzu, piešķiriet krātuves atļauju, lai turpinātu.</string>
+    <string name="permission_grant">Piešķirt atļauju</string>
+    <!-- Common Actions -->
+    <string name="action_open">Atvērt</string>
+    <string name="action_save">Saglabāt</string>
+    <string name="action_share">Kopīgot</string>
+    <string name="action_delete">Dzēst</string>
+    <string name="action_cancel">Atcelt</string>
+    <string name="action_confirm">Apstiprināt</string>
+    <string name="action_rename">Pārdēvēt</string>
+    <string name="action_print">Drukāt</string>
+    <string name="action_favorite">Iecienītākais</string>
+    <string name="action_unfavorite">Noņemt no iecienītākajiem</string>
+    <!-- Document Actions -->
+    <string name="document_share">Kopīgot dokumentu</string>
+    <string name="document_rename">Pārdēvēt dokumentu</string>
+    <string name="document_delete">Dzēst dokumentu</string>
+    <string name="document_print">Drukāt dokumentu</string>
+    <string name="document_favorite">Pievienot izlasei</string>
+    <string name="document_unfavorite">Noņemt no izlases</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">Dokuments veiksmīgi kopīgots</string>
+    <string name="document_share_failed">Neizdevās kopīgot dokumentu</string>
+    <string name="document_renamed_success">Dokuments veiksmīgi pārdēvēts</string>
+    <string name="document_rename_failed">Neizdevās pārdēvēt dokumentu</string>
+    <string name="document_deleted_success">Dokuments veiksmīgi izdzēsts</string>
+    <string name="document_delete_failed">Neizdevās izdzēst dokumentu</string>
+    <string name="document_print_opened">Dokuments atvērts noklusējuma PDF skatītājā. Drukāšanai izmantojiet skatītāja drukāšanas funkciju.</string>
+    <string name="document_print_failed">Neizdevās izdrukāt dokumentu</string>
+    <string name="document_added_to_favorites">Pievienots izlasei</string>
+    <string name="document_removed_from_favorites">Noņemts no izlases</string>
+    <string name="document_favorite_failed">Neizdevās atjaunināt iecienītāko statusu</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">Pārdēvēt dokumentu</string>
+    <string name="dialog_rename_hint">Ievadiet jaunu nosaukumu</string>
+    <string name="dialog_rename_empty_error">Dokumenta nosaukuma lauks nedrīkst būt tukšs</string>
+    <string name="dialog_delete_title">Dzēst dokumentu</string>
+    <string name="dialog_delete_file_message">Tas neatgriezeniski izdzēsīs failu.\n\nDzēst %1$s?</string>
+    <string name="dialog_delete_uri_message">Noņem tikai no lietotnes. Sākotnējais fails netiek mainīts.\n\nNoņemt %1$s no lietotnes?</string>
+    <string name="dialog_delete_confirm">Dzēst</string>
+    <string name="dialog_remove_confirm">Noņemt</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">Pārdēvē tikai lietotnes iekšienē. Sākotnējais fails netiek mainīts.</string>
+    <string name="notice_delete_uri_only">Noņemts no lietotnes. Sākotnējais fails nav mainīts.</string>
+    <string name="notice_file_exists_error">Fails ar šādu nosaukumu jau pastāv</string>
+    <string name="notice_file_not_found_error">Fails nav atrasts</string>
+    <string name="notice_no_active_document">Nav aktīvu dokumentu</string>
+    <string name="notice_document_path_unavailable">Dokumenta faila ceļš nav pieejams</string>
+    <!-- States -->
+    <string name="state_loading">Notiek ielāde...</string>
+    <string name="state_empty">Nav atrasts neviens vienums</string>
+    <string name="state_error">Kaut kas nogāja greizi</string>
+    <string name="state_retry">Mēģināt vēlreiz</string>
+    <!-- Errors -->
+    <string name="error_network">Tīkla savienojums neizdevās</string>
+    <string name="error_file_not_found">Fails nav atrasts</string>
+    <string name="error_permission_denied">Atļauja liegta</string>
+    <string name="error_invalid_file">Nederīgs faila formāts</string>
+    <string name="error_password_required">Nepieciešama parole</string>
+    <string name="error_incorrect_password">Nepareiza parole</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">Aizsargāts ar paroli</string>
+    <string name="password_protected_message">Šī faila atvēršanai ir nepieciešama parole. Lūdzu, ievadiet to zemāk.</string>
+    <string name="password_label">Parole</string>
+    <string name="password_placeholder">Ievadiet paroli</string>
+    <string name="password_unlock">Atbloķēt</string>
+    <string name="password_show">Rādīt paroli</string>
+    <string name="password_hide">Slēpt paroli</string>
+    <!-- Theme -->
+    <string name="theme_light">Gaisma</string>
+    <string name="theme_dark">Tumšs</string>
+    <string name="theme_system">Sistēma</string>
+    <string name="theme_adaptive">Adaptīvs</string>
+    <string name="theme_custom">Pielāgots</string>
+    <!-- Settings -->
+    <string name="settings_title">Preferences</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">Konta &amp; Sinhronizācija</string>
+    <string name="settings_category_sync_subtitle">Pārvaldiet savu kontu, sinhronizējiet &amp; privātumu</string>
+    <string name="settings_category_appearance_title">Izskats</string>
+    <string name="settings_category_appearance_subtitle">Pielāgojiet lietotnes izskatu &amp; sajūtu</string>
+    <string name="settings_category_pdf_reader_title">PDF lasītājs</string>
+    <string name="settings_category_pdf_reader_subtitle">Noklusējuma skatītāja &amp; lasīšanas pieredze</string>
+    <string name="settings_category_help_title">Palīdzība &amp; Atbalsts</string>
+    <string name="settings_category_help_subtitle">Dokumentācija &amp; kontaktinformācija</string>
+    <string name="settings_category_general_title">Vispārīgi</string>
+    <string name="settings_category_general_subtitle">Valoda &amp; lietotnes informācija</string>
+    <string name="settings_theme_section">Tēma</string>
+    <string name="settings_theme_description">Izvēlieties vēlamo tēmu</string>
+    <string name="settings_accent_color">AKCENTA KRĀSA</string>
+    <string name="settings_custom_colors">Pielāgotas krāsas</string>
+    <string name="settings_primary_color">Primārā krāsa</string>
+    <string name="settings_background_color">Fona krāsa</string>
+    <string name="settings_surface_color">Virsmas krāsa</string>
+    <string name="settings_reset_colors">Atiestatīt uz noklusējuma iestatījumiem</string>
+    <string name="settings_adaptive_note">Material You adaptīvās krāsas (Android 12+)</string>
+    <string name="settings_app_section">Lietotnes iestatījumi</string>
+    <string name="settings_notifications">Paziņojumi</string>
+    <string name="settings_notifications_description">Saņemt lietotņu paziņojumus</string>
+    <string name="settings_auto_backup">Automātiskā dublēšana</string>
+    <string name="settings_auto_backup_description">Automātiski dublēt dokumentus</string>
+    <string name="settings_change_color">Mainīt krāsu</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">Jūsu PDF dokumenti tiks parādīti šeit</string>
+    <string name="scan_description">Skenēt dokumentus PDF formātā</string>
+    <string name="tools_description">PDF rediģēšanas un manipulācijas rīki</string>
+    <string name="home_description">Izmantojiet apakšējo navigāciju, lai piekļūtu funkcijām</string>
+    <!-- Sort Options -->
+    <string name="sort_name">Vārds</string>
+    <string name="sort_date">Datums</string>
+    <string name="sort_size">Izmērs</string>
+    <string name="sort_option_name">Vārds</string>
+    <string name="sort_option_last_opened">Pēdējoreiz atvērts</string>
+    <string name="sort_option_last_modified">Pēdējoreiz modificēts</string>
+    <string name="sort_option_file_size">Faila lielums</string>
+    <!-- View Types -->
+    <string name="view_type_list">Saraksta skats</string>
+    <string name="view_type_table">Tabulas skats</string>
+    <string name="view_type_grid">Režģa skats</string>
+    <!-- File Properties -->
+    <string name="file_name">Faila nosaukums</string>
+    <string name="date_modified">Modificēšanas datums</string>
+    <string name="file_size">Izmērs</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">Nav sākts</string>
+    <string name="file_status_completed">Pabeigts</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">PDF dokuments</string>
+    <string name="document_type_word">Word dokuments</string>
+    <string name="document_type_excel">Excel izklājlapa</string>
+    <string name="document_type_image">Attēla fails</string>
+    <string name="document_type_other">Dokuments</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">Visi faili</string>
+    <string name="filter_recent">Jaunākie</string>
+    <string name="filter_pdfs">PDF faili</string>
+    <string name="filter_images">Attēli</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">Sākums</string>
+    <string name="browse_tab">Pārlūkot</string>
+    <string name="starred_tab">Atzīmēts ar zvaigznīti</string>
+    <string name="settings_tab">Iestatījumi</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">Pārslēgt tēmu</string>
+    <string name="accessibility_menu">Izvēlne</string>
+    <string name="accessibility_close">Aizvērt</string>
+    <string name="accessibility_color_picker">Krāsu atlasītājs</string>
+    <!-- Library Screen -->
+    <string name="library_title">Bibliotēka</string>
+    <string name="library_subtitle">Pārvaldīt failus, Nesenie &amp; Izlase</string>
+    <string name="library_search_placeholder">Meklēt failus...</string>
+    <string name="library_selected_count">%1$d atlasīts</string>
+    <string name="library_open_from_device">Atvērt no\nierīces</string>
+    <string name="library_browse_files">Pārlūkot\nfailus</string>
+    <string name="library_action_open">Atvērt</string>
+    <string name="library_action_share">Kopīgot</string>
+    <string name="library_action_remove">Noņemt</string>
+    <string name="library_action_delete">Dzēst</string>
+    <string name="library_clear_search">Notīrīt meklēšanu</string>
+    <string name="library_close_search">Aizvērt meklēšanu</string>
+    <string name="library_select_all">Atlasīt visus failus</string>
+    <string name="library_exit_multiselect">Iziet no vairāku elementu atlases režīma</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">Palīdzība &amp; Atbalsts</string>
+    <string name="help_support_subtitle">Bieži uzdotie jautājumi, Kontakti &amp; Juridiskā informācija</string>
+    <string name="settings_pdf_subtitle">Ritināt, skatīt &amp; Izkārtojums</string>
+    <string name="help_header_title">Kā mēs varam palīdzēt?</string>
+    <string name="help_header_subtitle">Our team is here to ensure you have the\nbest PDF experience.</string>
+    <string name="help_contact_us">Sazinieties ar mums</string>
+    <string name="help_contact_subtitle">Sazinieties ar atbalsta dienestu</string>
+    <string name="help_faq">Bieži uzdotie jautājumi</string>
+    <string name="help_faq_subtitle">Atbildes uz bieži uzdotiem jautājumiem</string>
+    <string name="help_privacy_policy">Privātuma politika</string>
+    <string name="help_privacy_subtitle">Kā mēs aizsargājam jūsu datus</string>
+    <string name="help_terms_service">Pakalpojumu sniegšanas noteikumi</string>
+    <string name="help_terms_subtitle">Pieteikuma noteikumi</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">Sinhronizācija mobilajos datos</string>
+    <string name="background_sync">Fona sinhronizācija</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">PDF lasītāja iestatījumi</string>
+    <string name="pdf_settings_coming_soon">Drīzumā</string>
+    <string name="pdf_settings_description">Konfigurējiet ritināšanas darbību, skata režīmus un lasīšanas preferences</string>
+    <!-- General Settings -->
+    <string name="settings_language">Valoda</string>
+    <string name="settings_pdf_reader">PDF lasītāja iestatījumi</string>
+    <string name="settings_help_support">Palīdzība &amp; Atbalsts</string>
+    <string name="settings_whats_new">Kas jauns</string>
+    <string name="settings_download_desktop">Instalēt citā ierīcē</string>
+    <string name="settings_rate_app">Novērtējiet lietotni</string>
+    <string name="play_store_not_found">Play veikals šajā ierīcē nav atrasts</string>
+    <string name="settings_set_as_default">Iestatīt kā noklusējuma PDF skatītāju</string>
+    <string name="settings_set_as_default_subtitle">Pēc noklusējuma atveriet PDF failus ar šo lietotni</string>
+    <string name="settings_default_pdf_instructions_title">Kā iestatīt kā noklusējuma iestatījumu</string>
+    <string name="settings_default_pdf_ok">Sapratu</string>
+    <string name="settings_default_app_hint">Nedarbojās?</string>
+    <string name="settings_default_app_hint_learn_more">Uzziniet vairāk</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">Valoda</string>
+    <string name="language_search_placeholder">Meklēt valodas...</string>
+    <!-- Common UI -->
+    <string name="support">Atbalsts</string>
+    <string name="language_english">Angļu</string>
+    <string name="language_hindi">हिंदी</string>
+    <string name="language_spanish">Spāņu valoda</string>
+    <string name="language_french">Franču</string>
+    <string name="language_german">Vācu valoda</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">Portugāļu</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">LIETOTNES IZSKATS</string>
+    <string name="theme">TĒMA</string>
+    <string name="general">VISPĀRĪGI</string>
+    <string name="new">JAUNS</string>
+    <string name="navigate">Navigācija</string>
+    <string name="download">Lejupielādēt</string>
+    <string name="falcon_pdf">Piekūns PDF formātā</string>
+    <string name="excellence_in_every_pixel">Izcilība katrā pikselī</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">LIETOT IZMAIŅAS</string>
+    <string name="apply">Pieteikties</string>
+    <string name="selected">Atlasīts</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">Sinhronizācijas iestatījumi</string>
+    <string name="autosync_on_wifi">Automātiska sinhronizācija Wi-Fi tīklā</string>
+    <string name="sync_reading_progress">Sinhronizēt lasīšanas progresu</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">Dokumenta nosaukums</string>
+    <string name="name_cannot_be_empty">Nosaukuma lauks nedrīkst būt tukšs</string>
+    <string name="str__failed">%1$s Neizdevās</string>
+    <string name="ok">Labi</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">Jaunināšanas plāns — pašreizējais plāns: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">Nometiet, lai atvērtu failu</string>
+    <string name="release_to_import_and_open_pdf">Atlaidiet, lai importētu un atvērtu PDF failus</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">Noņemt</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF</string>
+    <string name="images">Attēli</string>
+    <string name="filter_all_types">Visi faili</string>
+    <string name="favorites">Iecienītākie faili</string>
+    <string name="recent">Jaunākie</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">Meklēt dokumentus...</string>
+    <string name="voice_search">Balss meklēšana</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">Nesenie faili</string>
+    <string name="loading_recent_files">Notiek neseno failu ielāde...</string>
+    <string name="no_recent_files">Nav nesenu failu</string>
+    <string name="no_favorites">Nav favorītu</string>
+    <string name="mark_files_as_favorite_to_see_them_here">Atzīmējiet failus kā iecienītākos, lai tos šeit redzētu</string>
+    <string name="open_some_pdf_files_to_see_the">Atveriet dažus PDF failus, lai tos šeit skatītu</string>
+    <string name="status">Statuss</string>
+    <string name="actions">Darbības</string>
+    <string name="select_all">Atlasīt visu</string>
+    <string name="enter_multiselect_mode">Ieslēgt vairāku elementu atlases režīmu</string>
+    <string name="sorted_ascending">Kārtots augošā secībā</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">Krātuve: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">Pievienot %1$s failus</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">Mainīt skata veidu</string>
+    <string name="filter_">Filtrs: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">Notiek PDF faila ielāde...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">Pierakstieties, lai sinhronizētu</string>
+    <string name="protect_your_library_files">Aizsargājiet savus bibliotēkas failus</string>
+    <string name="sign_in">Pierakstīties</string>
+    <string name="sign_out">Izrakstīties</string>
+    <string name="sign_in_dialog_title">Pierakstieties Falcon PDF failā</string>
+    <string name="sign_in_dialog_subtitle">Jūsu PDF bibliotēka visur.</string>
+    <string name="sign_in_with_google">Pierakstieties ar Google</string>
+    <string name="sign_in_with_apple">Pierakstieties ar Apple</string>
+    <string name="apple_user_drive_unavailable">Google diska sinhronizācija nav pieejama, izmantojot Apple pierakstīšanos</string>
+    <string name="apple_user_link_google">Saistīt Google kontu, lai sinhronizētu disku</string>
+    <string name="apple_user_sync_info">Lai iespējotu sinhronizāciju ar mākoņpakalpojumu, pievienojiet Google kontu</string>
+    <string name="link_google_account">Saistīt Google kontu</string>
+    <string name="signed_in_successfully">Pierakstīts veiksmīgi</string>
+    <string name="signed_out_successfully">Izrakstīts veiksmīgi</string>
+    <string name="sync_disabled_free">Sinhronizācija ir atspējota bezmaksas kontiem.</string>
+    <string name="storage_disabled_grant_access">Krātuve ir atspējota. Lai sāktu, piešķiriet piekļuvi diskam.</string>
+    <string name="upgrade_to_pro">Jaunināt uz Pro versiju</string>
+    <string name="grant_drive_access">Piešķirt piekļuvi diskam</string>
+    <string name="files_synced">%1$d/%2$d Sinhronizētie faili</string>
+    <string name="synced_count">%1$d Sinhronizēts</string>
+    <string name="unlimited_sync_active">NEIEROBEŽOTA SINHRONIZĀCIJA</string>
+    <string name="missing_drive_permissions">Trūkst Diska atļauju. Sinhronizācija pašlaik ir bloķēta.</string>
+    <string name="drive_access_revoked">Piekļuve diskam ir atsaukta. Lai atsāktu sinhronizāciju, atkārtoti izveidojiet savienojumu.</string>
+    <string name="upgrade_premium">Jauniniet Premium</string>
+    <string name="manage_account">Pārvaldīt kontu</string>
+    <string name="sync_now">Sinhronizēt tūlīt</string>
+    <string name="tier_free">BEZ MAKSAS</string>
+    <string name="tier_pro">PROFESIONĀLISTS</string>
+    <string name="tier_premium">PREMIUM</string>
+    <string name="status_paused">PAUZĒTS</string>
+    <!-- Common -->
+    <string name="navigate_back">Navigēt atpakaļ</string>
+    <string name="dismiss">Noraidīt</string>
+    <string name="cancel">Atcelt</string>
+    <string name="back">Atpakaļ</string>
+    <string name="search">Meklēt</string>
+    <string name="more_actions">Vairāk darbību</string>
+    <string name="share">Kopīgot</string>
+    <string name="delete">Dzēst</string>
+    <string name="remove_from_recents">Noņemt no nesenajiem</string>
+    <string name="open">Atvērt</string>
+    <string name="all">Visi</string>
+    <string name="sort_by_">Kārtot pēc %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Google diska sinhronizācija</string>
+    <string name="syncing">Sinhronizācija...</string>
+    <string name="sync_completed">Sinhronizācija pabeigta</string>
+    <string name="sync_failed">Sinhronizācija neizdevās</string>
+    <string name="sync_limit_exceeded">Sinhronizācijas ierobežojums ir pārsniegts. Jūsu %s plāns atļauj %d failus.</string>
+    <string name="sync_no_drive_access">Piekļuve Google diskam nav pieejama</string>
+    <string name="sync_network_unavailable">Tīkls nav pieejams</string>
+    <string name="sync_last_sync">Pēdējā sinhronizācija: %s</string>
+    <string name="sync_total_files">Kopā</string>
+    <string name="sync_synced_files">Sinhronizēts</string>
+    <string name="sync_failed_files">Neizdevās</string>
+    <string name="sync_conflict_files">Konflikti</string>
+    <string name="sync_add_to_favorites">Pievienot izlasei</string>
+    <string name="sync_remove_from_favorites">Noņemt no izlases</string>
+    <string name="sync_conflict_title">Sinhronizācijas konflikti</string>
+    <string name="sync_conflict_message">Šajos failos ir konflikti, kas jāatrisina:</string>
+    <string name="sync_conflict_explanation">Konflikti rodas, ja ir modificētas gan lokālās, gan attālās versijas.</string>
+    <string name="sync_plan_limit">Sinhronizācija: %d/%d</string>
+    <string name="sync_plan_limit_reached">Sasniegts limits</string>
+    <string name="sync_plan_unlimited">Neierobežota sinhronizācija</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">Izlaist</string>
+    <string name="welcome_next">Nākamais</string>
+    <string name="welcome_get_started">Sākt darbu</string>
+    <string name="welcome_sign_in_get_started">Pierakstīties &amp; Sākt darbu</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Izlasiet jebkuru dokumentu&lt;/b&gt; Tūlītēji</string>
+    <string name="welcome_slide1_description">Atveriet un pārvaldiet vairāk nekā 10 dokumentu formātus, tostarp PDF, DOC, EPUB, MOBI.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Lasiet PDF failus, e-grāmatas,&lt;/b&gt; un Office dokumentus vienuviet</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Pievienot izlasei&lt;/b&gt; dokumentus un piekļūt tiem dažādās ierīcēs.</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;Komentējiet,&lt;/b&gt; iezīmējiet un sadarbojieties ērti</string>
+    <string name="welcome_slide1_footer">Jūsu universālais dokumentu lasītājs</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;Rediģēt, skenēt un organizēt&lt;/b&gt; PDF failus</string>
+    <string name="welcome_slide2_description">Viss nepieciešamais PDF failu izveidei, rediģēšanai un pārvaldībai vienā jaudīgā rīku komplektā.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;Rediģēt tekstu,&lt;/b&gt; anotēt, iezīmēt un aizpildīt veidlapas</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Skenējiet dokumentus&lt;/b&gt; un acumirklī pārvērtiet tos PDF failos</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;Vairāk nekā 30 rīki&lt;/b&gt; , tostarp apvienošana, konvertēšana, saspiešana un aizsardzība</string>
+    <string name="welcome_slide2_footer">Jūsu universālā PDF darba vieta</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;Mākslīgais intelekts, kas saprot&lt;/b&gt; jūsu dokumentus</string>
+    <string name="welcome_slide3_description">Ietaupiet stundas ar mākslīgo intelektu, kas nolasa un analizē dokumentus jūsu vietā.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Apkopojiet&lt;/b&gt; garus dokumentus dažu sekunžu laikā</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; skenētas lapas un tūlītēja teksta tulkošana</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Klausīties&lt;/b&gt; dokumentus ar iebūvētu skaļas nolasīšanas funkciju</string>
+    <string name="welcome_slide3_footer">Nav reklāmu. Tikai produktivitāte.</string>
+    <string name="grace">ŽĒLASTĪBA</string>
+    <string name="unable_to_verify_subscription_limited_ac">Nevar verificēt abonementu. Piekļuve ir ierobežota, līdz savienojums tiek atjaunots.</string>
+    <string name="retry_verification">Atkārtota verifikācija</string>
+    <string name="guest_state">Viesu valsts</string>
+    <string name="free_tier">Bezmaksas līmenis</string>
+    <string name="free_tier__locked">Bezmaksas līmenis — bloķēts</string>
+    <string name="pro_tier">Profesionālais līmenis</string>
+    <string name="pro_tier__restricted">Profesionālais līmenis — ierobežots</string>
+    <string name="premium_tier">Premium līmenis</string>
+    <string name="premium_tier__error">Premium līmenis — kļūda</string>
+    <string name="refresh_plan_status">Atsvaidzināt plāna statusu</string>
+    <string name="user_avatar">Lietotāja avatārs</string>
+    <string name="debug_tools">Atkļūdošanas rīki</string>
+    <string name="authentication__drive">Autentifikācija &amp; Disks</string>
+    <string name="auth_state">Autorizācijas statuss</string>
+    <string name="revoke_drive_access">Atsaukt piekļuvi diskam</string>
+    <string name="image">Attēls</string>
+    <string name="thumbnail">Sīktēls</string>
+    <string name="manage_preferences">Pārvaldīt preferences</string>
+    <string name="tools_history">Rīku vēsture</string>
+    <string name="manage_recent_logs">Pārvaldīt jaunākos žurnālus</string>
+    <string name="more_options">Vairāk iespēju</string>
+    <string name="clear_all_history">Notīrīt visu vēsturi</string>
+    <string name="no_history_yet">Vēl nav vēstures</string>
+    <string name="your_pdf_tool_operations_will_appear_her">Jūsu PDF rīka darbības tiks parādītas šeit</string>
+    <string name="view">Skatīt</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">Saglabāts %1$s</string>
+    <string name="history_status_processing">Apstrāde</string>
+    <string name="history_status_succeeded">IZDEVĀS</string>
+    <string name="history_status_failed">NEKAD NAV IZDEVIES</string>
+    <string name="history_status_processing_upper">APSTRĀDE</string>
+    <string name="history_unknown_files">Nezināmi faili</string>
+    <string name="history_op_complete">%1$s Pabeigts!</string>
+    <string name="history_op_failed">%1$s Neizdevās</string>
+    <string name="history_op_success_multiple">Darbība veiksmīgi pabeigta ar %1$d failiem</string>
+    <string name="history_op_success_single">Darbība veiksmīgi pabeigta</string>
+    <string name="history_op_error">Mēs nevarējām pabeigt operāciju</string>
+    <string name="history_multiple_files">%1$d faili</string>
+    <string name="history_failed">Neizdevās</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">Mākoņa sinhronizācija</string>
+    <string name="cloud_sync_subtitle">Savienotās ierīces</string>
+    <string name="cloud_sync_all_synced">Visi faili ir sinhronizēti</string>
+    <string name="cloud_sync_syncing">Sinhronizācija…</string>
+    <string name="cloud_sync_pending">Sinhronizācija gaida</string>
+    <string name="cloud_sync_last_sync">Pēdējā sinhronizācija: %1$s</string>
+    <string name="cloud_sync_never_synced">Nekad nav sinhronizēts</string>
+    <string name="cloud_sync_recent_activity">Nesenās sinhronizācijas darbības</string>
+    <string name="cloud_sync_no_files">Vēl nav sinhronizētu failu</string>
+    <string name="cloud_sync_synced_to_drive">Sinhronizēts ar Disku</string>
+    <string name="cloud_sync_pending_upload">Augšupielāde gaida</string>
+    <string name="cloud_sync_sync_now">Sinhronizēt tūlīt</string>
+    <string name="cloud_sync_view_history">Skatīt sinhronizācijas vēsturi</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d faili sinhronizēti</string>
+    <string name="cloud_sync_unlimited_files">%1$d faili sinhronizēti · Neierobežots</string>
+    <string name="cloud_sync_cta_title">Jebkura platforma, jebkurā laikā</string>
+    <string name="cloud_sync_cta_subtitle">Jūsu dokumenti seko jums visur</string>
+    <string name="cloud_sync_files_label">%1$d faili</string>
+    <string name="settings_data_privacy">Dati &amp; Konfidencialitāte</string>
+    <string name="settings_data_privacy_subtitle">Pārvaldīt datus, konta &amp; dzēšana</string>
+    <string name="settings_delete_account">Dzēst kontu</string>
+    <string name="settings_delete_account_subtitle">Neatgriezeniski dzēst savu kontu un datus</string>
+    <string name="delete_account_warning_title">Dzēst savu kontu?</string>
+    <string name="delete_account_warning_message">Tas neatgriezeniski izdzēsīs jūsu kontu un visus saistītos datus, tostarp pirkumu vēsturi un mākonī sinhronizētos failus. Šo darbību nevar atsaukt, un pirkumus vēlāk nevar atjaunot.</string>
+    <string name="delete_account_confirm_phrase_label">Lai turpinātu, ierakstiet “apstiprināt dzēšanu”:</string>
+    <string name="delete_account_confirm_phrase">apstiprināt dzēšanu</string>
+    <string name="delete_account_button">Dzēst kontu</string>
+    <string name="delete_account_error_reauth">Drošības apsvērumu dēļ jums nesen ir jāpierakstās, lai dzēstu savu kontu. Lūdzu, izrakstieties un pierakstieties vēlreiz, pēc tam mēģiniet vēlreiz.</string>
+    <string name="delete_account_success">Konts veiksmīgi izdzēsts</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">Fails &amp; Sinhronizācijas iestatījumi</string>
+    <string name="sync_on_mobile_data_subtitle">Izmantot mobilos datus mākoņsinhronizācijai</string>
+    <string name="drive_sync">Fona sinhronizācija</string>
+    <string name="drive_sync_subtitle">Sinhronizēt izlasi &amp; skenēt dokumentus uz Disku</string>
+    <string name="do_not_import_from_other_apps">Neimportēt failus no citām lietotnēm</string>
+    <string name="do_not_import_from_other_apps_subtitle">Koplietoto failu īslaicīga atvēršana, tos nesaglabājot bibliotēkā</string>
+    <string name="clear_imported_files">Notīrīt importētos failus</string>
+    <string name="clear_imported_files_subtitle">Dzēst visus failus, kas kopēti no citām lietotnēm</string>
+    <string name="clear_imports_confirm_title">Vai notīrīt importētos failus?</string>
+    <string name="clear_imports_confirm_message">Tas neatgriezeniski izdzēsīs visus failus jūsu importēšanas mapē. Šo darbību nevar atsaukt.</string>
+    <string name="clear_imports_success">Importētie faili ir notīrīti</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">Dati &amp; Konfidencialitāte</string>
+    <string name="analytics_opt_out_title">Sūtīt lietošanas datus</string>
+    <string name="analytics_opt_out_subtitle">Kopīgojiet anonīmus lietošanas datus un avāriju pārskatus ar izstrādātāju, lai palīdzētu uzlabot lietotni.</string>
+    <string name="analytics_opt_out_disabled_note">Analītika un avāriju ziņošana ir atspējota. Dati netiek sūtīti uzņēmumam Google vai izstrādātājam.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">Nesaglabātās izmaiņas</string>
+    <string name="unsaved_changes_tab_message">Šajā dokumentā ir nesaglabātas izmaiņas. Vai vēlaties saglabāt pirms aizvēršanas?</string>
+    <string name="unsaved_changes_window_message">Vienā vai vairākos dokumentos ir nesaglabātas izmaiņas. Vai vēlaties tās atmest un iziet?</string>
+    <string name="discard">Atmest</string>
+    <string name="discard_and_quit">Atmest &amp; Iziet</string>
+    <string name="close">Aizvērt</string>
+    <string name="remove_favorite">Noņemt izlasi</string>
+    <string name="set_as_default_pdf_viewer">Vai iestatīt kā noklusējuma PDF skatītāju?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF nav jūsu noklusējuma PDF skatītājs. Vai vēlaties to iestatīt kā noklusējuma programmu, lai visi PDF faili tiktu atvērti ar Falcon PDF?</string>
+    <string name="set_now">Iestatīt tūlīt</string>
+    <string name="never">Nekad</string>
+    <string name="later">Vēlāk</string>
+    <string name="set_default">Iestatīt noklusējuma vērtību</string>
+    <string name="default">Noklusējuma</string>
+    <string name="version_">Versija %1$s</string>
+    <string name="sign_in_with_other_accounts">Pierakstīšanās ar citiem kontiem</string>
+    <string name="upgrade">Jaunināt</string>
+    <string name="view_plan">Skatīt plānu</string>
+    <string name="unlimited_sync_upto_5gb">Neierobežota sinhronizācija līdz 5 GB</string>
+    <string name="unlock_faster">Atbloķēt ātrāk</string>
+    <string name="use_biometrics_instead_of_passwords">Paroļu vietā izmantojiet biometriskos datus.</string>
+    <string name="upgrade_to_premium">Jaunināt uz Premium</string>
+    <string name="unlock_pdf">Atbloķēt PDF failu</string>
+    <string name="use__to_accessnthis_document">Izmantojiet %1$s , lai piekļūtu\nšim dokumentam</string>
+    <string name="open_with_password">Atvērt ar paroli</string>
+    <string name="secure">Drošs</string>
+    <string name="loading_">Notiek ielāde %1$s...</string>
+    <string name="failed_to_open_ebook">Neizdevās atvērt e-grāmatu</string>
+    <string name="properties">Īpašumi</string>
+    <string name="copy">Kopēt</string>
+    <string name="highlight">Izcelt</string>
+    <string name="clear_selection">Notīrīt atlasi</string>
+    <string name="close_search">Aizvērt meklēšanu</string>
+    <string name="search_in_book">Meklēt grāmatā...</string>
+    <string name="contents">Saturs</string>
+    <string name="table_of_contents">Satura rādītājs</string>
+    <string name="no_table_of_contents_available">Satura rādītājs nav pieejams</string>
+    <string name="bookmarks">Grāmatzīmes</string>
+    <string name="no_bookmarks_yet">Vēl nav grāmatzīmju</string>
+    <string name="page_">Lapa %1$s</string>
+    <string name="no_results">Nav rezultātu</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">Iestatījumi</string>
+    <string name="decrease_font_size">Samazināt fonta lielumu</string>
+    <string name="increase_font_size">Palielināt fonta lielumu</string>
+    <string name="font">Fonts</string>
+    <string name="jump_to_page">Pāriet uz lapu</string>
+    <string name="enter_page_number_1">Ievadiet lappuses numuru (1–%1$s):</string>
+    <string name="go">Ej</string>
+    <string name="read_aloud">Lasīt skaļi</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">Apstāties</string>
+    <string name="annotations__text_selection">Anotācijas &amp; Teksta atlase</string>
+    <string name="text_selection_and_annotations_for_ebook">E-grāmatu teksta atlase un anotācijas būs pieejamas drīzumā.</string>
+    <string name="longpress_on_text_to_select_highlight_or">Ilgi nospiediet tekstu, lai atlasītu, iezīmētu vai pievienotu piezīmes.</string>
+    <string name="press_play_to_start_reading_aloud">Nospiediet atskaņošanas pogu, lai sāktu skaļu lasīšanu...</string>
+    <string name="speed">Ātrums</string>
+    <string name="voice">Balss</string>
+    <string name="no_annotations_yet">Vēl nav anotāciju</string>
+    <string name="select_text_to_highlight_or_add_notes">Atlasiet tekstu, lai iezīmētu vai pievienotu piezīmes</string>
+    <string name="tools">Instrumenti</string>
+    <string name="convert_to_images">Konvertēt uz attēliem</string>
+    <string name="rename">Pārdēvēt</string>
+    <string name="print">Drukāt</string>
+    <string name="a">A−</string>
+    <string name="cover_of_">%1$s vāks</string>
+    <string name="no_cover_available">Nav pieejams segums</string>
+    <string name="read_now">Lasīt tūlīt</string>
+    <string name="about_the_book">PAR GRĀMATU</string>
+    <string name="tags">BIRKAS</string>
+    <string name="publisher_info">IZDEVĒJA INFORMĀCIJA</string>
+    <string name="published_">Publicēts: %1$s</string>
+    <string name="retry">Mēģināt vēlreiz</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Notīrīt kešatmiņu</string>
+    <string name="ebooks_library">E-grāmatu bibliotēka</string>
+    <string name="manage_your_digital_collection_across_mu">Pārvaldiet savu digitālo kolekciju vairākos pakalpojumu sniedzējos. Meklējiet, filtrējiet un atklājiet jaunus nosaukumus pakalpojumos Google Books un Open Library.</string>
+    <string name="no_books_found">Nav atrasta neviena grāmata</string>
+    <string name="no_results_for__try_a_different_search_t">Nav rezultātu vaicājumam "%1$s". Izmēģiniet citu meklēšanas terminu.</string>
+    <string name="downloadable_only">Tikai lejupielādējams</string>
+    <string name="file_unavailable">Fails nav pieejams</string>
+    <string name="unavailable">Nav pieejams</string>
+    <string name="search_titles_authors_isbn">Meklēt nosaukumus, autorus, ISBN...</string>
+    <string name="clear_search">Notīrīt meklēšanu</string>
+    <string name="ebooks">e-grāmatas</string>
+    <string name="read_pdf">Lasīt PDF failu</string>
+    <string name="create_pdf">Izveidot PDF failu</string>
+    <string name="unlock_all_tools_and_remove_limits">Atbloķējiet visus rīkus un noņemiet ierobežojumus</string>
+    <string name="ocr_scanning">OCR skenēšana</string>
+    <string name="extract_text_from_scanned_documents">Izvilkt tekstu no skenētiem dokumentiem</string>
+    <string name="cloud_sync">Mākoņa sinhronizācija</string>
+    <string name="access_your_documents_anywhere">Piekļūstiet saviem dokumentiem jebkur</string>
+    <string name="annotate_pdfs">Anotēt PDF failus</string>
+    <string name="cloud_backup">Mākoņa dublēšana</string>
+    <string name="continue_reading">Turpināt lasīšanu</string>
+    <string name="pick_files">Izvēlieties failus</string>
+    <string name="browse">Pārlūkot</string>
+    <string name="did_you_know">Vai tu zināji?</string>
+    <string name="home">Sākums</string>
+    <string name="your_documents_at_a_glance">Jūsu dokumenti īsumā</string>
+    <string name="pick_file">Izvēlēties failu</string>
+    <string name="quick_actions">Ātrās darbības</string>
+    <string name="pro">PROFESIONĀLISTS</string>
+    <string name="open_files">Atvērt failus</string>
+    <string name="convert_to_pdf">Konvertēt uz PDF</string>
+    <string name="close_drawer">Aizvērt atvilktni</string>
+    <string name="close_file">Aizvērt failu</string>
+    <string name="office">Birojs</string>
+    <string name="coming_soon">Drīzumā</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">E-grāmatu skatītājs šajā platformā vēl nav pieejams.</string>
+    <string name="set_as_default_viewer">Iestatīt kā noklusējuma skatītāju</string>
+    <string name="free">Bezmaksas</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">Notiek atjauninājuma lejupielāde... %1$s%</string>
+    <string name="more">Vairāk</string>
+    <string name="font_size">Fonta lielums</string>
+    <string name="font_family">Fontu saime</string>
+    <string name="scroll_direction">Ritināšanas virziens</string>
+    <string name="navigation">Navigācija</string>
+    <string name="keep_screen_on">Atstāt ekrānu ieslēgtu</string>
+    <string name="volume_button_to_scroll">Skaļuma poga ritināšanai</string>
+    <string name="export_ebook_pages_as_image_files">Eksportēt e-grāmatu lapas kā attēlu failus</string>
+    <string name="access_millions_of_titles">Piekļūstiet miljoniem nosaukumu.</string>
+    <string name="read_offline_with_natural_ai_voices">Lasiet bezsaistē ar dabiskām mākslīgā intelekta balsīm.</string>
+    <string name="advanced_ai_reader">Uzlabots mākslīgā intelekta lasītājs.</string>
+    <string name="experience_studioquality_narration">Izbaudiet studijas kvalitātes narāciju.</string>
+    <string name="powerful_pdf_tools">Jaudīgi PDF rīki.</string>
+    <string name="create_and_edit_documents_on_the_go">Izveidojiet un rediģējiet dokumentus, atrodoties ceļā.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Jauniniet uz Pro versiju: atbloķējiet visus rīkus un noņemiet ierobežojumus</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">OCR skenēšana: izvilkt tekstu no skenētiem dokumentiem</string>
+    <string name="cloud_sync_access_your_documents_anywher">Mākoņa sinhronizācija: piekļūstiet dokumentiem jebkur</string>
+    <string name="scan">Skenēt</string>
+    <string name="compress">Saspiest</string>
+    <string name="merge">Apvienot</string>
+    <string name="convert">Konvertēt</string>
+    <string name="highlight_underline_and_add_notes_to_you">Iezīmējiet, pasvītrojiet un pievienojiet piezīmes dokumentiem</string>
+    <string name="keep_your_documents_safe_with_automatic_">Saglabājiet savus dokumentus drošībā, izmantojot automātisko mākoņsinhronizāciju</string>
+    <string name="indicator_color_">indikatora_krāsa_%1$s</string>
+    <string name="my_library">Mana bibliotēka</string>
+    <string name="get_ebooks">Iegūt e-grāmatas</string>
+    <string name="scan_document">Skenēt dokumentu</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

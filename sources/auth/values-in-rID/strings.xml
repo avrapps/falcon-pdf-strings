@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Periksa koneksi internet Anda dan pastikan akun Google telah ditambahkan ke perangkat Anda, lalu coba lagi.</string>
+    <string name="sign_in_with_apple">Masuk dengan Apple</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Tingkatkan Pengalaman Anda</string>
+    <string name="purchase_screen_close">Menutup</string>
+    <string name="purchase_screen_refresh">Menyegarkan</string>
+    <string name="purchase_sync_status">Sinkronisasi terakhir: %1s</string>
+    <string name="purchase_current_plan">Saat ini</string>
+    <string name="purchase_syncing">Sinkronisasi…</string>
+    <string name="purchase_loading">Memuat…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Paket Gratis</string>
+    <string name="purchase_pro_plan">Edisi Pro</string>
+    <string name="purchase_pro_tagline">Bayar sekali. Miliki selamanya.</string>
+    <string name="purchase_premium_plan">Langganan Premium</string>
+    <string name="purchase_premium_tagline">Semua fitur Pro, ditambah AI &amp; Cloud</string>
+    <string name="purchase_recommended">Direkomendasikan</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">AI Read Aloud — Dengarkan PDF secara alami</string>
+    <string name="purchase_pro_feature_2">Pengeditan PDF Lengkap &amp; Pengisian Formulir</string>
+    <string name="purchase_pro_feature_3">Sinkronisasi Lintas Perangkat melalui Drive</string>
+    <string name="purchase_pro_feature_4">Bebas Iklan, Tanpa Tanda Air pada Hasil Pindai</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">Ringkasan AI dengan Penalaran yang Lebih Kuat</string>
+    <string name="purchase_premium_feature_1_desc">Jawaban yang lebih mendalam dari dokumen yang lebih panjang dan kompleks.</string>
+    <string name="purchase_premium_feature_2_title">Falcon Cloud 50GB</string>
+    <string name="purchase_premium_feature_2_desc">Pustaka PDF pribadi Anda, tersinkronisasi dan aman.</string>
+    <string name="purchase_premium_feature_3_title">Tidak Ada Batasan pada 60+ Alat PDF</string>
+    <string name="purchase_premium_feature_3_desc">Semua alat, selalu tersedia.</string>
+    <string name="purchase_premium_feature_4_title">Penyuntingan Teks Lengkap pada PDF</string>
+    <string name="purchase_premium_feature_4_desc">Edit teks secara langsung seperti pada pengolah kata.</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Beli Pro</string>
+    <string name="purchase_sign_in_buy">Masuk &amp; Beli</string>
+    <string name="purchase_sign_in_subscribe">Masuk &amp; Berlangganan</string>
+    <string name="purchase_subscribe">Berlangganan</string>
+    <string name="purchase_start_trial">Mulai Uji Coba Gratis 7 Hari</string>
+    <string name="purchase_view_all_features">Lihat semua fitur</string>
+    <string name="purchase_show_more">Tampilkan Lebih Banyak</string>
+    <string name="purchase_show_less">Tampilkan Lebih Sedikit</string>
+    <string name="purchase_see_all_features">Lihat semua fitur</string>
+    <string name="purchase_manage_subscription">Kelola Langganan</string>
+    <string name="purchase_restore_purchases">Pulihkan Pembelian</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Bulanan</string>
+    <string name="purchase_billing_yearly">Tahunan</string>
+    <string name="purchase_save_badge">Hemat 40%</string>
+    <string name="purchase_lifetime">Seumur Hidup</string>
+    <string name="purchase_per_year">/tahun</string>
+    <string name="purchase_per_month">/bulan</string>
+    <string name="purchase_trial_terms">Batalkan kapan saja. Berlangganan akan diperpanjang kecuali dibatalkan 24 jam sebelum masa percobaan berakhir.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Produk gagal dimuat. Periksa informasi login dan koneksi internet Anda.</string>
+    <string name="purchase_error_network">Koneksi terputus. Silakan periksa koneksi internet Anda dan coba lagi.</string>
+    <string name="purchase_error_payment_declined">Metode pembayaran ditolak. Harap perbarui informasi pembayaran Anda.</string>
+    <string name="purchase_error_server">Terjadi kesalahan. Silakan coba lagi nanti.</string>
+    <string name="purchase_error_rate_limit">Terlalu banyak upaya penyegaran. Mohon tunggu.</string>
+    <string name="purchase_error_offline">Tidak ada koneksi internet. Menampilkan data yang tersimpan dalam cache.</string>
+    <string name="purchase_error_product_refresh">Produk tidak dapat diverifikasi. Silakan coba lagi.</string>
+    <string name="purchase_error_generic">Terjadi kesalahan. Silakan coba lagi.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Ketentuan Layanan</string>
+    <string name="purchase_privacy_policy">Kebijakan Privasi</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">Riwayat Pembelian</string>
+    <string name="free_trial">Uji Coba Gratis</string>
+    <string name="no_purchase_history">Tidak ada riwayat pembelian.</string>
+    <string name="you_havent_made_any_purchases_">Anda belum melakukan pembelian apa pun.</string>
+    <string name="error">Kesalahan</string>
+    <string name="retry">Mencoba kembali</string>
+    <string name="back">Kembali</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Tingkatkan Pengalaman Anda</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Pulihkan Pembelian</string>
+    <string name="close_purchase_screen">Tutup layar pembelian</string>
+    <string name="help">Membantu</string>
+    <string name="more_options">Opsi lainnya</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Menyegarkan</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Aktif</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s AKTIF</string>
+    <string name="premium_benefits">MANFAAT PREMIUM</string>
+    <string name="manage_subscription">Kelola Langganan</string>
+    <string name="next_billing_date__manage_your">Tanggal penagihan berikutnya: %1$s. Kelola detail penagihan dan pembatalan Anda melalui pengaturan akun Play Store Anda.</string>
+    <string name="purchase_expires_">Pembelian berakhir: %1$s</string>
+    <string name="falcon_pdf_pro">Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF Premium (Bulanan)</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Premium (Tahunan)</string>
+    <string name="pro">PRO</string>
+    <string name="premium">PREMI</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Dapatkan Falcon PDF Pro atau Premium</string>
+    <string name="purchase_desktop_subtitle">Pembelian dikelola melalui situs web kami. Klik di bawah untuk melihat paket dan harga.</string>
+    <string name="purchase_desktop_open_website">Lihat Paket &amp; Harga</string>
+    <string name="purchase_desktop_already_purchased">Sudah membeli? Masuk untuk menyinkronkan paket Anda.</string>
+    <string name="purchase_store_build_subtitle">Langganan Anda membuka fitur Pro di semua perangkat Anda. Masuk untuk menyinkronkan paket Anda.</string>
+    <string name="ai_read_aloud">AI Membaca dengan Lantang</string>
+    <string name="full_pdf_editing__form_filling">Pengeditan PDF Lengkap &amp; Pengisian Formulir</string>
+    <string name="crossdevice_sync_via_drive">Sinkronisasi Lintas Perangkat melalui Drive</string>
+    <string name="adfree_no_watermark">Bebas Iklan, Tanpa Tanda Air</string>
+    <string name="export_to_word__excel">Ekspor ke Word &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">Berbagai Tema &amp; Latar Belakang Halaman</string>
+    <string name="ai_summaries_with_stronger_reasoning">Ringkasan AI dengan Penalaran yang Lebih Kuat</string>
+    <string name="no_limits_on_60_pdf_tools">Tidak Ada Batasan pada 60+ Alat PDF</string>
+    <string name="full_text_editing_in_pdfs">Penyuntingan Teks Lengkap pada PDF</string>
+    <string name="digital_signatures_dscesign">Tanda Tangan Digital (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Sinkronisasi Dokumen yang Dipindai Tanpa Batas</string>
+    <string name="biometric_document_lock">Penguncian Dokumen Biometrik</string>
+    <string name="everything_in_pro_all_devices">Semua fitur di versi Pro, untuk semua perangkat.</string>
+    <string name="introductory_offer">Penawaran Perkenalan</string>
+    <string name="limited_time__30_off">Penawaran terbatas — Diskon 30%</string>
+    <string name="date__time">Tanggal &amp; Waktu</string>
+    <string name="amount">Jumlah</string>
+    <string name="platform">Platform</string>
+    <string name="type">Jenis</string>
+    <string name="expires_on">Berakhir pada</string>
+</resources>

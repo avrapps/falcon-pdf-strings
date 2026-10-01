@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">Izbriši stranice</string>
+    <string name="are_you_sure_you_want_to_delet">Jeste li sigurni da želite izbrisati odabrane stranice? Ovu radnju nije moguće poništiti.</string>
+    <string name="delete">Izbrisati</string>
+    <string name="cancel">Otkazati</string>
+    <string name="quick_selection">Brzi odabir</string>
+    <string name="select_range">Odaberite raspon</string>
+    <string name="select_all">Odaberi sve</string>
+    <string name="clear_all">Očisti sve</string>
+    <string name="select_page_range">Odaberite raspon stranica</string>
+    <string name="enter_the_range_of_pages_to_de">Unesite raspon stranica za brisanje (1-%1$s)</string>
+    <string name="from">Iz</string>
+    <string name="to">Do</string>
+    <string name="select">Odaberite</string>
+    <string name="please_go_back_and_select_a_pd">Molimo vas da se vratite i odaberete PDF</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">Podijeli PDF</string>
+    <string name="str_1_file_selected">Odabrana je 1 datoteka</string>
+    <string name="no_file_selected">Nije odabrana datoteka</string>
+    <string name="split_mode">Podijeljeni način rada</string>
+    <string name="fixed_segments">Fiksni segmenti</string>
+    <string name="custom_ranges">Prilagođeni rasponi</string>
+    <string name="segment_size">Veličina segmenta</string>
+    <string name="this_will_create_multiple_pdfs">Ovim će se stvoriti više PDF-ova s određenim brojem stranica svaki. Veličina segmenta mora biti manja od ukupnog broja stranica kako bi se stvorile smislene podjele. Na primjer, ako izvorna datoteka ima 8 stranica, a unesete 2, generirat će se četiri PDF datoteke s po 2 stranice.</string>
+    <string name="pages_per_file">Stranice po datoteci</string>
+    <string name="eg_2">npr. 2</string>
+    <string name="total_number_of_pages_in_pdf__">Ukupan broj stranica u PDF-u: %1$d (veličina segmenta mora biti manja od %1$d)</string>
+    <string name="this_will_create__output_files">Ovo će stvoriti %1$d izlaznih datoteka</string>
+    <string name="this_will_create__output_file">Ovo će stvoriti %1$d izlaznu datoteku</string>
+    <string name="this_input_will_split_the_pdf_">Ovaj unos će podijeliti PDF u zasebne datoteke na temelju vaših raspona. Na primjer, "1-2,5,6-8" će stvoriti 3 PDF-a: prvi sa stranicama 1-2, drugi sa stranicom 5 i treći sa stranicama 6-8.</string>
+    <string name="page_ranges">Rasponi stranica</string>
+    <string name="eg_1234571520">npr. 1-2, 3, 4-5, 7, 15-20</string>
+    <string name="format_use_ranges_15_or_single">Format: Koristite raspone (1-5) ili pojedinačne stranice (7), odvojene zarezima. Dopuštene su samo znamenke, crtice i zarezi.</string>
+    <string name="split_preview">Podijeljeni pregled</string>
+    <string name="pdf_files_will_be_created">%1$d Bit će kreirane PDF datoteke</string>
+    <string name="pdf_file_will_be_created">%1$d Bit će kreirana PDF datoteka</string>
+    <string name="pdf_result_">Rezultat PDF-a %1$s</string>
+    <string name="str__and__more">... i još %1$d više</string>
+    <string name="splitting_pdf">Dijeljenje PDF-a...</string>
+    <string name="checking_files">Provjera datoteka...</string>
+    <string name="page_n">Stranica %1$d</string>
+    <string name="pages_n_m">Stranice %1$d-%2$d</string>
+    <string name="split_complete">Podjela završena!</string>
+    <string name="split_failed">Podjela nije uspjela</string>
+    <string name="we_couldnt_split_your_pdf">Nismo mogli podijeliti vaš PDF</string>
+    <string name="your_pdf_has_been_successfully_split">Vaš PDF je uspješno podijeljen na %1$d datoteka</string>
+    <string name="your_pdf_has_been_successfully_split_single">Vaš PDF je uspješno podijeljen u %1$d datoteku</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">PDF alati</string>
+    <string name="image_tools">Alati za slike</string>
+    <string name="str_30_tools_for_pdf">30+ alata za PDF</string>
+    <string name="tools_for_images">Alati za slike</string>
+    <string name="no_tools_found">Nisu pronađeni alati</string>
+    <string name="try_adjusting_your_search">Pokušajte prilagoditi pretragu</string>
+    <string name="history">Povijest</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s stranica${ako (broj_stranica &gt; 1) </string>
+    <string name="n_pages">%1$d stranica</string>
+    <string name="n_page">%1$d stranica</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">Za ovaj PDF je potrebna lozinka</string>
+    <string name="password_provided">Lozinka je unesena</string>
+    <string name="password_required">Potrebna je lozinka</string>
+    <string name="open_file">Otvori datoteku</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">Komprimirano od strane </string>
+    <string name="error_details">Detalji pogreške</string>
+    <string name="view">Pogled</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">Odabrano %1$s od %2$s stranica</string>
+    <string name="showing_first_200_pages">Prikazuje se prvih 200 stranica</string>
+    <string name="use_quick_selection_above_for_">Za stranice veće od 200 koristite Brzi odabir iznad</string>
+    <string name="loading">Učitavanje...</string>
+    <string name="error">Pogreška</string>
+    <string name="generating_page_previews">Generiranje pregleda stranica...</string>
+    <string name="page__thumbnail">Minijatura stranice %1$s</string>
+    <string name="selected">Odabrano</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">Pretraživanje</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">Rotiranje PDF-a</string>
+    <string name="please_provide_the_password_to">Molimo unesite lozinku za odabir prilagođenih stranica</string>
+    <string name="rotation_angle">Kut rotacije</string>
+    <string name="page_selection">Odabir stranice</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">Promjena redoslijeda PDF-a</string>
+    <string name="use_the_arrow_buttons_to_reord">Pomoću tipki sa strelicama promijenite redoslijed stranica</string>
+    <string name="pages_">Stranice (%1$s)</string>
+    <string name="page_">Stranica %1$s</string>
+    <string name="position__of_">Pozicija: %1$s od %2$s</string>
+    <string name="drag_handle">Povucite ručku</string>
+    <string name="move_up">Pomakni se gore</string>
+    <string name="move_down">Pomakni prema dolje</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">Komprimiraj PDF</string>
+    <string name="no_files_selected">Nije odabrana nijedna datoteka</string>
+    <string name="please_go_back_and_select_pdf_">Molimo vas da se vratite i odaberete PDF datoteke za kompresiju</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">Uspjeh</string>
+    <string name="individual_results">Pojedinačni rezultati</string>
+    <string name="done">Gotovo</string>
+    <string name="compression_complete">Kompresija završena</string>
+    <string name="your_file_is_ready_and_much_li">Vaša datoteka je spremna i puno lakša!</string>
+    <string name="before">PRIJE</string>
+    <string name="after">NAKON</string>
+    <string name="total_saved">Ukupno ušteđeno</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">MANJI</string>
+    <string name="str__saved">%1$s% ušteđeno</string>
+    <string name="open">Otvoriti</string>
+    <string name="share">Udio</string>
+    <string name="close">Zatvoriti</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">Razina kompresije</string>
+    <string name="recommended">Preporučeno</string>
+    <string name="str__compression">%1$s Kompresija</string>
+    <string name="str__of_original_size">~%1$s% izvorne veličine</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">Slike u PDF</string>
+    <string name="str__images_selected">Odabrano %1$s slika</string>
+    <string name="images_will_be_converted_in_th">Slike će se pretvoriti redoslijedom prikazanim u nastavku</string>
+    <string name="remove">Ukloniti</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">PDF u slike</string>
+    <string name="image_format">Format slike</string>
+    <string name="image_quality_dpi">Kvaliteta slike (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">Spoji PDF</string>
+    <string name="n_files_selected">Odabrano %1$d datoteka</string>
+    <string name="n_file_selected">Odabrana datoteka %1$d</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">Zaključaj PDF</string>
+    <string name="password_protection">Zaštita lozinkom</string>
+    <string name="enter_a_password_to_protect_yo">Unesite lozinku za zaštitu PDF-a. Trebat će vam ova lozinka za otvaranje datoteke.</string>
+    <string name="password">Lozinka</string>
+    <string name="enter_password">Unesite lozinku</string>
+    <string name="confirm_password">Potvrdite lozinku</string>
+    <string name="reenter_password">Ponovno unesite lozinku</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">Molimo vas da se vratite i odaberete datoteku</string>
+    <string name="back">Nazad</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">Otključaj PDF</string>
+    <string name="current_password">Trenutna lozinka</string>
+    <string name="enter_the_current_password_to_">Unesite trenutnu lozinku za otključavanje ovog PDF-a</string>
+    <string name="enter_current_password">Unesite trenutnu lozinku</string>
+    <string name="incorrect_password_please_try_">Netočna lozinka. Pokušajte ponovno.</string>
+    <string name="new_password_optional">Nova lozinka (nije obavezno)</string>
+    <string name="set_a_new_password_to_change_i">Postavite novu lozinku da biste je promijenili ili ostavite prazno da biste uklonili zaštitu lozinkom</string>
+    <string name="new_password">Nova lozinka</string>
+    <string name="enter_new_password">Unesite novu lozinku</string>
+    <string name="confirm_new_password">Potvrdite novu lozinku</string>
+    <string name="reenter_new_password">Ponovno unesite novu lozinku</string>
+    <string name="passwords_do_not_match">Lozinke se ne podudaraju</string>
+    <string name="compression_failed">Kompresija nije uspjela</string>
+    <string name="open_pdf">Otvori PDF</string>
+    <string name="share_file">Dijeli datoteku</string>
+    <string name="pages_deleted">Stranice izbrisane!</string>
+    <string name="delete_failed">Brisanje nije uspjelo</string>
+    <string name="select_pages_to_delete">Odaberite stranice za brisanje</string>
+    <string name="pdf_created">PDF kreiran!</string>
+    <string name="conversion_failed">Konverzija nije uspjela</string>
+    <string name="pdf_locked_successfully">PDF uspješno zaključan!</string>
+    <string name="lock_failed">Zaključavanje nije uspjelo</string>
+    <string name="merge_complete">Spajanje dovršeno!</string>
+    <string name="merge_failed">Spajanje nije uspjelo</string>
+    <string name="conversion_complete">Konverzija dovršena!</string>
+    <string name="reorder_complete">Ponovna narudžba dovršena!</string>
+    <string name="reorder_failed">Ponovna narudžba nije uspjela</string>
+    <string name="rotation_complete">Rotacija završena!</string>
+    <string name="rotation_failed">Rotacija nije uspjela</string>
+    <string name="select_pages_to_rotate">Odaberite stranice za rotiranje</string>
+    <string name="str__complete">%1$s Završeno!</string>
+    <string name="str__failed">%1$s Neuspješno</string>
+    <string name="unlock_failed">Otključavanje nije uspjelo</string>
+    <string name="your_pdfs_have_been_successfully_compres">Vaši PDF-ovi su uspješno komprimirani</string>
+    <string name="we_couldnt_compress_your_pdfs">Nismo mogli komprimirati vaše PDF-ove</string>
+    <string name="view_your_compressed_file">Pregledajte svoju komprimiranu datoteku</string>
+    <string name="send_to_others_or_apps">Pošalji drugima ili aplikacijama</string>
+    <string name="your_pdf_has_been_successfully_modified">Vaš PDF je uspješno izmijenjen</string>
+    <string name="we_couldnt_delete_the_pages">Nismo mogli izbrisati stranice</string>
+    <string name="your_images_have_been_converted_to_pdf">Vaše slike su pretvorene u PDF</string>
+    <string name="unable_to_create_pdf_from_images">Nije moguće stvoriti PDF iz slika</string>
+    <string name="your_pdf_is_now_password_protected">Vaš PDF je sada zaštićen lozinkom</string>
+    <string name="we_couldnt_lock_your_pdf">Nismo mogli zaključati vaš PDF</string>
+    <string name="your_pdfs_have_been_successfully_merged">Vaši PDF-ovi su uspješno spojeni</string>
+    <string name="we_couldnt_merge_your_pdfs">Nismo mogli spojiti vaše PDF-ove</string>
+    <string name="str__images_created_successfully">%1$s slika uspješno stvoreno</string>
+    <string name="unable_to_convert_pdf_to_images">Nije moguće pretvoriti PDF u slike</string>
+    <string name="your_pdf_pages_have_been_successfully_re">Redoslijed vaših PDF stranica uspješno je promijenjen</string>
+    <string name="we_couldnt_reorder_your_pdf">Nismo mogli promijeniti redoslijed vašeg PDF-a</string>
+    <string name="your_pdf_has_been_successfully_rotated">Vaš PDF je uspješno rotiran</string>
+    <string name="we_couldnt_rotate_your_pdf">Nismo mogli rotirati vaš PDF</string>
+    <string name="your_file_has_been_successfully_processe">Vaša datoteka je uspješno obrađena</string>
+    <string name="we_couldnt_process_your_file">Nismo mogli obraditi vašu datoteku</string>
+    <string name="we_couldnt_unlock_your_pdf">Nismo mogli otključati vaš PDF</string>
+    <string name="clear_filter">Očisti filter</string>
+    <string name="clear">Jasan</string>
+    <string name="pick_a_tool_">Odaberite alat →</string>
+    <string name="drag_to_reorder">Povucite za promjenu redoslijeda</string>
+    <string name="your_files_are_securely_processed_on_our">Vaše se datoteke sigurno obrađuju na našim poslužiteljima putem šifriranih veza i automatski brišu u roku od 1 sata. Nikada ne pohranjujemo niti dijelimo vaše podatke.</string>
+    <string name="compression_quality">Kvaliteta kompresije</string>
+    <string name="dragelevation">povlačenjeElevacija</string>
+    <string name="tool_card_scale">skala_kartice_alata</string>
+</resources>

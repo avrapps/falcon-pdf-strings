@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">Dzēst lapas</string>
+    <string name="are_you_sure_you_want_to_delet">Vai tiešām vēlaties dzēst atlasītās lapas? Šo darbību nevar atsaukt.</string>
+    <string name="delete">Dzēst</string>
+    <string name="cancel">Atcelt</string>
+    <string name="quick_selection">Ātrā atlase</string>
+    <string name="select_range">Atlasīt diapazonu</string>
+    <string name="select_all">Atlasīt visu</string>
+    <string name="clear_all">Notīrīt visu</string>
+    <string name="select_page_range">Atlasīt lappušu diapazonu</string>
+    <string name="enter_the_range_of_pages_to_de">Ievadiet dzēšamo lappušu diapazonu (1–%1$s)</string>
+    <string name="from">No</string>
+    <string name="to">Uz</string>
+    <string name="select">Atlasīt</string>
+    <string name="please_go_back_and_select_a_pd">Lūdzu, atgriezieties un atlasiet PDF failu.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">Sadalīt PDF failu</string>
+    <string name="str_1_file_selected">Atlasīts 1 fails</string>
+    <string name="no_file_selected">Nav atlasīts fails</string>
+    <string name="split_mode">Sadalītais režīms</string>
+    <string name="fixed_segments">Fiksētie segmenti</string>
+    <string name="custom_ranges">Pielāgoti diapazoni</string>
+    <string name="segment_size">Segmenta lielums</string>
+    <string name="this_will_create_multiple_pdfs">Tādējādi tiks izveidoti vairāki PDF faili ar norādīto lappušu skaitu katrā. Lai izveidotu jēgpilnus sadalījumus, segmenta lielumam jābūt mazākam par kopējo lappušu skaitu. Piemēram, ja avota failam ir 8 lappuses un jūs ievadāt 2, tiks ģenerēti četri PDF faili ar 2 lappusēm katrā.</string>
+    <string name="pages_per_file">Lappuses failā</string>
+    <string name="eg_2">piemēram, 2</string>
+    <string name="total_number_of_pages_in_pdf__">Kopējais lappušu skaits PDF failā: %1$d (segmenta izmēram jābūt mazākam par %1$d)</string>
+    <string name="this_will_create__output_files">Tas izveidos %1$d izvades failus</string>
+    <string name="this_will_create__output_file">Tas izveidos %1$d izvades failu</string>
+    <string name="this_input_will_split_the_pdf_">Šī ievade sadalīs PDF failu atsevišķos failos, pamatojoties uz jūsu diapazoniem. Piemēram, ievadot "1-2,5,6-8", tiks izveidoti 3 PDF faili: pirmais ar 1.-2. lappusi, otrais ar 5. lappusi un trešais ar 6.-8. lappusi.</string>
+    <string name="page_ranges">Lapu diapazoni</string>
+    <string name="eg_1234571520">piem., 1–2, 3, 4–5, 7, 15–20</string>
+    <string name="format_use_ranges_15_or_single">Formāts: Izmantojiet diapazonus (1–5) vai atsevišķas lappuses (7), atdalot tās ar komatiem. Atļauti ir tikai cipari, defises un komati.</string>
+    <string name="split_preview">Sadalīt priekšskatījumu</string>
+    <string name="pdf_files_will_be_created">%1$d Tiks izveidoti PDF faili</string>
+    <string name="pdf_file_will_be_created">%1$d Tiks izveidots PDF fails</string>
+    <string name="pdf_result_">PDF rezultāts %1$s</string>
+    <string name="str__and__more">... un vēl %1$d</string>
+    <string name="splitting_pdf">PDF sadalīšana...</string>
+    <string name="checking_files">Failu pārbaude...</string>
+    <string name="page_n">Lapa %1$d</string>
+    <string name="pages_n_m">Lappuses %1$d-%2$d</string>
+    <string name="split_complete">Sadalīšana pabeigta!</string>
+    <string name="split_failed">Sadalīšana neizdevās</string>
+    <string name="we_couldnt_split_your_pdf">Mums neizdevās sadalīt jūsu PDF failu</string>
+    <string name="your_pdf_has_been_successfully_split">Jūsu PDF fails ir veiksmīgi sadalīts %1$d failos</string>
+    <string name="your_pdf_has_been_successfully_split_single">Jūsu PDF fails ir veiksmīgi sadalīts %1$d failā</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">PDF rīki</string>
+    <string name="image_tools">Attēlu rīki</string>
+    <string name="str_30_tools_for_pdf">Vairāk nekā 30 PDF rīku</string>
+    <string name="tools_for_images">Attēlu rīki</string>
+    <string name="no_tools_found">Nav atrasti rīki</string>
+    <string name="try_adjusting_your_search">Mēģiniet pielāgot meklēšanu</string>
+    <string name="history">Vēsture</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s lapa${ja (lapuSkaits &gt; 1) </string>
+    <string name="n_pages">%1$d lapas</string>
+    <string name="n_page">%1$d lapa</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">Šim PDF failam nepieciešama parole</string>
+    <string name="password_provided">Parole norādīta</string>
+    <string name="password_required">Nepieciešama parole</string>
+    <string name="open_file">Atvērt failu</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">Saspiests ar </string>
+    <string name="error_details">Kļūdas informācija</string>
+    <string name="view">Skatīt</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">Atlasītas %1$s no %2$s lapām</string>
+    <string name="showing_first_200_pages">Rāda pirmās 200 lappuses</string>
+    <string name="use_quick_selection_above_for_">Lapām, kas pārsniedz 200, izmantojiet iepriekš minēto ātro atlasi.</string>
+    <string name="loading">Notiek ielāde...</string>
+    <string name="error">Kļūda</string>
+    <string name="generating_page_previews">Notiek lapu priekšskatījumu ģenerēšana...</string>
+    <string name="page__thumbnail">Lapas %1$s sīktēls</string>
+    <string name="selected">Atlasīts</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">Meklēt</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">Pagriezt PDF failu</string>
+    <string name="please_provide_the_password_to">Lūdzu, ievadiet paroli, lai atlasītu pielāgotas lapas.</string>
+    <string name="rotation_angle">Rotācijas leņķis</string>
+    <string name="page_selection">Lapas atlase</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">Pārkārtot PDF failu</string>
+    <string name="use_the_arrow_buttons_to_reord">Izmantojiet bultiņu pogas, lai mainītu lapu secību</string>
+    <string name="pages_">Lapas (%1$s)</string>
+    <string name="page_">Lapa %1$s</string>
+    <string name="position__of_">Pozīcija: %1$s no %2$s</string>
+    <string name="drag_handle">Velciet rokturi</string>
+    <string name="move_up">Pārvietot uz augšu</string>
+    <string name="move_down">Pārvietot uz leju</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">Saspiest PDF</string>
+    <string name="no_files_selected">Nav atlasīts neviens fails</string>
+    <string name="please_go_back_and_select_pdf_">Lūdzu, atgriezieties un atlasiet PDF failus saspiešanai</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">Panākumi</string>
+    <string name="individual_results">Individuālie rezultāti</string>
+    <string name="done">Pabeigts</string>
+    <string name="compression_complete">Saspiešana pabeigta</string>
+    <string name="your_file_is_ready_and_much_li">Jūsu fails ir gatavs un daudz vieglāks!</string>
+    <string name="before">PIRMS</string>
+    <string name="after">PĒC</string>
+    <string name="total_saved">Kopā saglabāts</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">MAZĀKS</string>
+    <string name="str__saved">%1$sIetaupītais %</string>
+    <string name="open">Atvērt</string>
+    <string name="share">Kopīgot</string>
+    <string name="close">Aizvērt</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">Saspiešanas līmenis</string>
+    <string name="recommended">Ieteicams</string>
+    <string name="str__compression">%1$s Saspiešana</string>
+    <string name="str__of_original_size">~%1$s% no sākotnējā izmēra</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">Attēli PDF formātā</string>
+    <string name="str__images_selected">%1$s atlasītie attēli</string>
+    <string name="images_will_be_converted_in_th">Attēli tiks konvertēti tālāk norādītajā secībā.</string>
+    <string name="remove">Noņemt</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">PDF uz attēliem</string>
+    <string name="image_format">Attēla formāts</string>
+    <string name="image_quality_dpi">Attēla kvalitāte (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">Apvienot PDF</string>
+    <string name="n_files_selected">%1$d atlasītie faili</string>
+    <string name="n_file_selected">%1$d fails atlasīts</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">Bloķēt PDF failu</string>
+    <string name="password_protection">Paroles aizsardzība</string>
+    <string name="enter_a_password_to_protect_yo">Ievadiet paroli, lai aizsargātu savu PDF failu. Šī parole būs nepieciešama, lai atvērtu failu.</string>
+    <string name="password">Parole</string>
+    <string name="enter_password">Ievadiet paroli</string>
+    <string name="confirm_password">Apstiprināt paroli</string>
+    <string name="reenter_password">Atkārtoti ievadiet paroli</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">Lūdzu, atgriezieties un atlasiet failu</string>
+    <string name="back">Atpakaļ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">Atbloķēt PDF failu</string>
+    <string name="current_password">Pašreizējā parole</string>
+    <string name="enter_the_current_password_to_">Ievadiet pašreizējo paroli, lai atbloķētu šo PDF failu</string>
+    <string name="enter_current_password">Ievadiet pašreizējo paroli</string>
+    <string name="incorrect_password_please_try_">Nepareiza parole. Lūdzu, mēģiniet vēlreiz.</string>
+    <string name="new_password_optional">Jauna parole (pēc izvēles)</string>
+    <string name="set_a_new_password_to_change_i">Iestatiet jaunu paroli, lai to mainītu, vai atstājiet tukšu, lai noņemtu paroles aizsardzību</string>
+    <string name="new_password">Jauna parole</string>
+    <string name="enter_new_password">Ievadiet jauno paroli</string>
+    <string name="confirm_new_password">Apstiprināt jauno paroli</string>
+    <string name="reenter_new_password">Atkārtoti ievadiet jauno paroli</string>
+    <string name="passwords_do_not_match">Paroles nesakrīt</string>
+    <string name="compression_failed">Saspiešana neizdevās</string>
+    <string name="open_pdf">Atvērt PDF failu</string>
+    <string name="share_file">Kopīgot failu</string>
+    <string name="pages_deleted">Lapas izdzēstas!</string>
+    <string name="delete_failed">Dzēšana neizdevās</string>
+    <string name="select_pages_to_delete">Atlasīt dzēšamās lapas</string>
+    <string name="pdf_created">PDF fails izveidots!</string>
+    <string name="conversion_failed">Konvertēšana neizdevās</string>
+    <string name="pdf_locked_successfully">PDF veiksmīgi bloķēts!</string>
+    <string name="lock_failed">Bloķēšana neizdevās</string>
+    <string name="merge_complete">Apvienošana pabeigta!</string>
+    <string name="merge_failed">Apvienošana neizdevās</string>
+    <string name="conversion_complete">Konversija pabeigta!</string>
+    <string name="reorder_complete">Pārkārtošana pabeigta!</string>
+    <string name="reorder_failed">Pārkārtošana neizdevās</string>
+    <string name="rotation_complete">Rotācija pabeigta!</string>
+    <string name="rotation_failed">Rotācija neizdevās</string>
+    <string name="select_pages_to_rotate">Atlasīt lapas, kuras pagriezt</string>
+    <string name="str__complete">%1$s Pabeigts!</string>
+    <string name="str__failed">%1$s Neizdevās</string>
+    <string name="unlock_failed">Atbloķēšana neizdevās</string>
+    <string name="your_pdfs_have_been_successfully_compres">Jūsu PDF faili ir veiksmīgi saspiesti</string>
+    <string name="we_couldnt_compress_your_pdfs">Mēs nevarējām saspiest jūsu PDF failus</string>
+    <string name="view_your_compressed_file">Skatiet savu saspiesto failu</string>
+    <string name="send_to_others_or_apps">Sūtīt citiem vai lietotnēm</string>
+    <string name="your_pdf_has_been_successfully_modified">Jūsu PDF fails ir veiksmīgi modificēts</string>
+    <string name="we_couldnt_delete_the_pages">Mēs nevarējām izdzēst lapas</string>
+    <string name="your_images_have_been_converted_to_pdf">Jūsu attēli ir konvertēti uz PDF failu</string>
+    <string name="unable_to_create_pdf_from_images">Nevar izveidot PDF failu no attēliem</string>
+    <string name="your_pdf_is_now_password_protected">Jūsu PDF fails tagad ir aizsargāts ar paroli</string>
+    <string name="we_couldnt_lock_your_pdf">Mēs nevarējām bloķēt jūsu PDF failu.</string>
+    <string name="your_pdfs_have_been_successfully_merged">Jūsu PDF faili ir veiksmīgi apvienoti.</string>
+    <string name="we_couldnt_merge_your_pdfs">Mēs nevarējām apvienot jūsu PDF failus.</string>
+    <string name="str__images_created_successfully">%1$s attēli veiksmīgi izveidoti</string>
+    <string name="unable_to_convert_pdf_to_images">Nevar konvertēt PDF failu uz attēliem</string>
+    <string name="your_pdf_pages_have_been_successfully_re">Jūsu PDF lapas ir veiksmīgi pārkārtotas.</string>
+    <string name="we_couldnt_reorder_your_pdf">Neizdevās pārkārtot jūsu PDF failu.</string>
+    <string name="your_pdf_has_been_successfully_rotated">Jūsu PDF fails ir veiksmīgi pagriezts</string>
+    <string name="we_couldnt_rotate_your_pdf">Mēs nevarējām pagriezt jūsu PDF failu.</string>
+    <string name="your_file_has_been_successfully_processe">Jūsu fails ir veiksmīgi apstrādāts</string>
+    <string name="we_couldnt_process_your_file">Mēs nevarējām apstrādāt jūsu failu.</string>
+    <string name="we_couldnt_unlock_your_pdf">Mēs nevarējām atbloķēt jūsu PDF failu.</string>
+    <string name="clear_filter">Notīrīt filtru</string>
+    <string name="clear">Skaidrs</string>
+    <string name="pick_a_tool_">Izvēlieties rīku →</string>
+    <string name="drag_to_reorder">Velciet, lai pārkārtotu</string>
+    <string name="your_files_are_securely_processed_on_our">Jūsu faili tiek droši apstrādāti mūsu serveros, izmantojot šifrētus savienojumus, un automātiski dzēsti 1 stundas laikā. Mēs nekad neuzglabājam un nekopīgojam jūsu datus.</string>
+    <string name="compression_quality">Saspiešanas kvalitāte</string>
+    <string name="dragelevation">vilkšanas augstums</string>
+    <string name="tool_card_scale">rīku_kartes_mērogs</string>
+</resources>

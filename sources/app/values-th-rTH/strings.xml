@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">PDF Magic</string>
+    <string name="app_tagline">คุณอยากทำอะไร?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">ใช้งานครั้งล่าสุด</string>
+    <string name="home_favorites">รายการโปรด</string>
+    <string name="home_new_tool">เครื่องมือใหม่</string>
+    <string name="home_featured">นำเสนอ</string>
+    <string name="home_scan_to_pdf">สแกนเป็นไฟล์ PDF</string>
+    <string name="home_scan_description">เปลี่ยนเอกสารกระดาษให้เป็นภาพดิจิทัลสุดมหัศจรรย์ได้ทันที</string>
+    <string name="home_start_scanning">เริ่มการสแกน</string>
+    <string name="home_all_tools">เครื่องมือทั้งหมด</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">เครื่องมือ PDF</string>
+    <string name="image_tools">เครื่องมือรูปภาพ</string>
+    <string name="tools_split">แยก</string>
+    <string name="tools_split_description">ดึงข้อมูลหน้าต่างๆ</string>
+    <string name="tools_rotate">หมุน</string>
+    <string name="tools_rotate_description">แก้ไขการวางแนว</string>
+    <string name="tools_delete_pages">ลบหน้า</string>
+    <string name="tools_delete_pages_description">กำจัดสิ่งที่ไม่ต้องการ</string>
+    <string name="tools_convert">แปลง</string>
+    <string name="tools_convert_description">รูปภาพต้นทาง/ปลายทาง</string>
+    <string name="tools_sign">เข้าสู่ระบบ</string>
+    <string name="tools_sign_description">เพิ่มลายเซ็น</string>
+    <string name="tools_protect">ปกป้อง</string>
+    <string name="tools_protect_description">ความปลอดภัยของรหัสผ่าน</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">โปรแกรมดูไฟล์ PDF</string>
+    <string name="pdf_viewer_page_info">หน้า %1$d จาก %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">เครื่องสแกนเอกสาร</string>
+    <string name="scanner_capture">การจับกุม</string>
+    <string name="scanner_retake">ถ่ายซ้ำ</string>
+    <string name="scanner_save">บันทึก</string>
+    <!-- Navigation -->
+    <string name="nav_back">ย้อนกลับ</string>
+    <string name="nav_settings">การตั้งค่า</string>
+    <string name="nav_more_options">ตัวเลือกเพิ่มเติม</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">บ้าน</string>
+    <string name="nav_library">ห้องสมุด</string>
+    <string name="nav_scan">สแกน</string>
+    <string name="nav_tools">เครื่องมือ</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">เรียกดูไฟล์</string>
+    <string name="browse_files_subtitle">พื้นที่จัดเก็บ &amp; ไฟล์บนคลาวด์</string>
+    <string name="show_hidden_files">แสดงไฟล์ที่ซ่อนอยู่</string>
+    <string name="hide_hidden_files">ซ่อนไฟล์ที่ซ่อนไว้</string>
+    <string name="refresh_storage">รีเฟรชพื้นที่จัดเก็บข้อมูล</string>
+    <string name="no_storage_available">ไม่มีพื้นที่จัดเก็บว่าง</string>
+    <string name="no_files_found">ไม่พบไฟล์</string>
+    <string name="add_files">เพิ่มไฟล์ %1$d</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">ต้องได้รับอนุญาตในการจัดเก็บข้อมูล</string>
+    <string name="permission_storage_message">แอปนี้จำเป็นต้องเข้าถึงพื้นที่จัดเก็บข้อมูลในอุปกรณ์ของคุณเพื่อเรียกดูและเปิดไฟล์ PDF โปรดอนุญาตการเข้าถึงพื้นที่จัดเก็บข้อมูลเพื่อดำเนินการต่อ</string>
+    <string name="permission_grant">อนุญาต</string>
+    <!-- Common Actions -->
+    <string name="action_open">เปิด</string>
+    <string name="action_save">บันทึก</string>
+    <string name="action_share">แบ่งปัน</string>
+    <string name="action_delete">ลบ</string>
+    <string name="action_cancel">ยกเลิก</string>
+    <string name="action_confirm">ยืนยัน</string>
+    <string name="action_rename">เปลี่ยนชื่อ</string>
+    <string name="action_print">พิมพ์</string>
+    <string name="action_favorite">ที่ชื่นชอบ</string>
+    <string name="action_unfavorite">ไม่ชอบ</string>
+    <!-- Document Actions -->
+    <string name="document_share">แชร์เอกสาร</string>
+    <string name="document_rename">เปลี่ยนชื่อเอกสาร</string>
+    <string name="document_delete">ลบเอกสาร</string>
+    <string name="document_print">พิมพ์เอกสาร</string>
+    <string name="document_favorite">เพิ่มในรายการโปรด</string>
+    <string name="document_unfavorite">ลบออกจากรายการโปรด</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">เอกสารถูกแชร์เรียบร้อยแล้ว</string>
+    <string name="document_share_failed">ไม่สามารถแชร์เอกสารได้</string>
+    <string name="document_renamed_success">เปลี่ยนชื่อเอกสารสำเร็จแล้ว</string>
+    <string name="document_rename_failed">ไม่สามารถเปลี่ยนชื่อเอกสารได้</string>
+    <string name="document_deleted_success">เอกสารถูกลบเรียบร้อยแล้ว</string>
+    <string name="document_delete_failed">ไม่สามารถลบเอกสารได้</string>
+    <string name="document_print_opened">เอกสารนี้เปิดด้วยโปรแกรมดูไฟล์ PDF เริ่มต้น ใช้ฟังก์ชันการพิมพ์ของโปรแกรมดูไฟล์เพื่อพิมพ์เอกสาร</string>
+    <string name="document_print_failed">ไม่สามารถพิมพ์เอกสารได้</string>
+    <string name="document_added_to_favorites">เพิ่มลงในรายการโปรดแล้ว</string>
+    <string name="document_removed_from_favorites">ลบออกจากรายการโปรด</string>
+    <string name="document_favorite_failed">ไม่สามารถอัปเดตสถานะรายการโปรดได้</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">เปลี่ยนชื่อเอกสาร</string>
+    <string name="dialog_rename_hint">ป้อนชื่อใหม่</string>
+    <string name="dialog_rename_empty_error">ชื่อเอกสารต้องไม่ว่างเปล่า</string>
+    <string name="dialog_delete_title">ลบเอกสาร</string>
+    <string name="dialog_delete_file_message">การดำเนินการนี้จะลบไฟล์อย่างถาวร\n\nลบ %1$s?</string>
+    <string name="dialog_delete_uri_message">ลบออกจากแอปเท่านั้น ไฟล์ต้นฉบับไม่เปลี่ยนแปลง\n\nลบ %1$s ออกจากแอปหรือไม่?</string>
+    <string name="dialog_delete_confirm">ลบ</string>
+    <string name="dialog_remove_confirm">ลบ</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">เปลี่ยนชื่อไฟล์เฉพาะภายในแอปเท่านั้น ไฟล์ต้นฉบับยังคงเดิม</string>
+    <string name="notice_delete_uri_only">ลบออกจากแอปแล้ว ไฟล์ต้นฉบับยังคงเดิม</string>
+    <string name="notice_file_exists_error">ไฟล์ชื่อนี้มีอยู่แล้ว</string>
+    <string name="notice_file_not_found_error">ไม่พบไฟล์</string>
+    <string name="notice_no_active_document">ไม่มีเอกสารที่ใช้งานอยู่</string>
+    <string name="notice_document_path_unavailable">ไม่พบเส้นทางไฟล์เอกสาร</string>
+    <!-- States -->
+    <string name="state_loading">กำลังโหลด...</string>
+    <string name="state_empty">ไม่พบรายการใดๆ</string>
+    <string name="state_error">เกิดข้อผิดพลาดบางอย่าง</string>
+    <string name="state_retry">ลองใหม่อีกครั้ง</string>
+    <!-- Errors -->
+    <string name="error_network">การเชื่อมต่อเครือข่ายล้มเหลว</string>
+    <string name="error_file_not_found">ไม่พบไฟล์</string>
+    <string name="error_permission_denied">ไม่ได้รับอนุญาต</string>
+    <string name="error_invalid_file">รูปแบบไฟล์ไม่ถูกต้อง</string>
+    <string name="error_password_required">ต้องใส่รหัสผ่าน</string>
+    <string name="error_incorrect_password">รหัสผ่านไม่ถูกต้อง</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">มีการป้องกันด้วยรหัสผ่าน</string>
+    <string name="password_protected_message">ไฟล์นี้ต้องใช้รหัสผ่านในการเปิด โปรดป้อนรหัสผ่านด้านล่าง</string>
+    <string name="password_label">รหัสผ่าน</string>
+    <string name="password_placeholder">ป้อนรหัสผ่าน</string>
+    <string name="password_unlock">ปลดล็อก</string>
+    <string name="password_show">แสดงรหัสผ่าน</string>
+    <string name="password_hide">ซ่อนรหัสผ่าน</string>
+    <!-- Theme -->
+    <string name="theme_light">แสงสว่าง</string>
+    <string name="theme_dark">มืด</string>
+    <string name="theme_system">ระบบ</string>
+    <string name="theme_adaptive">ปรับตัวได้</string>
+    <string name="theme_custom">กำหนดเอง</string>
+    <!-- Settings -->
+    <string name="settings_title">การตั้งค่า</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">บัญชี &amp; ซิงค์</string>
+    <string name="settings_category_sync_subtitle">จัดการบัญชีของคุณ ซิงค์ &amp; ความเป็นส่วนตัว</string>
+    <string name="settings_category_appearance_title">รูปร่าง</string>
+    <string name="settings_category_appearance_subtitle">ปรับแต่งรูปลักษณ์และความรู้สึกของแอป &amp;</string>
+    <string name="settings_category_pdf_reader_title">โปรแกรมอ่านไฟล์ PDF</string>
+    <string name="settings_category_pdf_reader_subtitle">ประสบการณ์การอ่านจากโปรแกรมดูเริ่มต้น &amp;</string>
+    <string name="settings_category_help_title">ความช่วยเหลือ &amp; การสนับสนุน</string>
+    <string name="settings_category_help_subtitle">เอกสาร &amp; ติดต่อ</string>
+    <string name="settings_category_general_title">ทั่วไป</string>
+    <string name="settings_category_general_subtitle">ข้อมูลแอปภาษา &amp;</string>
+    <string name="settings_theme_section">ธีม</string>
+    <string name="settings_theme_description">เลือกธีมที่คุณชื่นชอบ</string>
+    <string name="settings_accent_color">สีเน้น</string>
+    <string name="settings_custom_colors">สีที่กำหนดเอง</string>
+    <string name="settings_primary_color">สีหลัก</string>
+    <string name="settings_background_color">สีพื้นหลัง</string>
+    <string name="settings_surface_color">สีพื้นผิว</string>
+    <string name="settings_reset_colors">รีเซ็ตเป็นค่าเริ่มต้น</string>
+    <string name="settings_adaptive_note">สีแบบปรับได้ตามหน้าจอ (Android 12 ขึ้นไป)</string>
+    <string name="settings_app_section">การตั้งค่าแอป</string>
+    <string name="settings_notifications">การแจ้งเตือน</string>
+    <string name="settings_notifications_description">รับการแจ้งเตือนจากแอป</string>
+    <string name="settings_auto_backup">สำรองข้อมูลอัตโนมัติ</string>
+    <string name="settings_auto_backup_description">สำรองข้อมูลเอกสารโดยอัตโนมัติ</string>
+    <string name="settings_change_color">เปลี่ยนสี</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">เอกสาร PDF ของคุณจะปรากฏที่นี่</string>
+    <string name="scan_description">สแกนเอกสารเป็นไฟล์ PDF</string>
+    <string name="tools_description">เครื่องมือแก้ไขและปรับแต่งไฟล์ PDF</string>
+    <string name="home_description">ใช้แถบนำทางด้านล่างเพื่อเข้าถึงฟีเจอร์ต่างๆ</string>
+    <!-- Sort Options -->
+    <string name="sort_name">ชื่อ</string>
+    <string name="sort_date">วันที่</string>
+    <string name="sort_size">ขนาด</string>
+    <string name="sort_option_name">ชื่อ</string>
+    <string name="sort_option_last_opened">เปิดครั้งล่าสุด</string>
+    <string name="sort_option_last_modified">แก้ไขล่าสุด</string>
+    <string name="sort_option_file_size">ขนาดไฟล์</string>
+    <!-- View Types -->
+    <string name="view_type_list">มุมมองรายการ</string>
+    <string name="view_type_table">มุมมองตาราง</string>
+    <string name="view_type_grid">มุมมองแบบตาราง</string>
+    <!-- File Properties -->
+    <string name="file_name">ชื่อไฟล์</string>
+    <string name="date_modified">วันที่แก้ไขล่าสุด</string>
+    <string name="file_size">ขนาด</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">ยังไม่เริ่ม</string>
+    <string name="file_status_completed">สมบูรณ์</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">เอกสาร PDF</string>
+    <string name="document_type_word">เอกสาร Word</string>
+    <string name="document_type_excel">สเปรดชีต Excel</string>
+    <string name="document_type_image">ไฟล์รูปภาพ</string>
+    <string name="document_type_other">เอกสาร</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">ไฟล์ทั้งหมด</string>
+    <string name="filter_recent">ล่าสุด</string>
+    <string name="filter_pdfs">ไฟล์ PDF</string>
+    <string name="filter_images">รูปภาพ</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">บ้าน</string>
+    <string name="browse_tab">เรียกดู</string>
+    <string name="starred_tab">ดาว</string>
+    <string name="settings_tab">การตั้งค่า</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">สลับธีม</string>
+    <string name="accessibility_menu">เมนู</string>
+    <string name="accessibility_close">ปิด</string>
+    <string name="accessibility_color_picker">ตัวเลือกสี</string>
+    <!-- Library Screen -->
+    <string name="library_title">ห้องสมุด</string>
+    <string name="library_subtitle">จัดการไฟล์, รายการล่าสุด &amp; รายการโปรด</string>
+    <string name="library_search_placeholder">ค้นหาไฟล์...</string>
+    <string name="library_selected_count">%1$d เลือกแล้ว</string>
+    <string name="library_open_from_device">เปิดจากอุปกรณ์\n</string>
+    <string name="library_browse_files">เรียกดูไฟล์\n</string>
+    <string name="library_action_open">เปิด</string>
+    <string name="library_action_share">แบ่งปัน</string>
+    <string name="library_action_remove">ลบ</string>
+    <string name="library_action_delete">ลบ</string>
+    <string name="library_clear_search">ล้างการค้นหา</string>
+    <string name="library_close_search">ปิดการค้นหา</string>
+    <string name="library_select_all">เลือกไฟล์ทั้งหมด</string>
+    <string name="library_exit_multiselect">ออกจากโหมดเลือกหลายรายการ</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">ความช่วยเหลือ &amp; การสนับสนุน</string>
+    <string name="help_support_subtitle">คำถามที่พบบ่อย, ติดต่อ &amp; ข้อกำหนดทางกฎหมาย</string>
+    <string name="settings_pdf_subtitle">เลื่อนดู &amp; เค้าโครง</string>
+    <string name="help_header_title">เราจะช่วยคุณได้อย่างไร?</string>
+    <string name="help_header_subtitle">ทีมงานของเราพร้อมมอบประสบการณ์การใช้งาน PDF ที่ดีที่สุดให้กับคุณ\n</string>
+    <string name="help_contact_us">ติดต่อเรา</string>
+    <string name="help_contact_subtitle">ติดต่อฝ่ายสนับสนุน</string>
+    <string name="help_faq">คำถามที่พบบ่อย</string>
+    <string name="help_faq_subtitle">คำถามที่พบบ่อยพร้อมคำตอบ</string>
+    <string name="help_privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="help_privacy_subtitle">วิธีที่เราปกป้องข้อมูลของคุณ</string>
+    <string name="help_terms_service">เงื่อนไขการให้บริการ</string>
+    <string name="help_terms_subtitle">กฎเกณฑ์การสมัคร</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">ซิงค์ข้อมูลผ่านมือถือ</string>
+    <string name="background_sync">การซิงค์พื้นหลัง</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">การตั้งค่าโปรแกรมอ่านไฟล์ PDF</string>
+    <string name="pdf_settings_coming_soon">เร็วๆ นี้</string>
+    <string name="pdf_settings_description">ตั้งค่าลักษณะการเลื่อน โหมดการแสดงผล และการตั้งค่าการอ่าน</string>
+    <!-- General Settings -->
+    <string name="settings_language">ภาษา</string>
+    <string name="settings_pdf_reader">การตั้งค่าโปรแกรมอ่านไฟล์ PDF</string>
+    <string name="settings_help_support">ความช่วยเหลือ &amp; การสนับสนุน</string>
+    <string name="settings_whats_new">มีอะไรใหม่บ้าง</string>
+    <string name="settings_download_desktop">ติดตั้งบนอุปกรณ์อื่น</string>
+    <string name="settings_rate_app">ให้คะแนนแอป</string>
+    <string name="play_store_not_found">ไม่พบ Play Store บนอุปกรณ์นี้</string>
+    <string name="settings_set_as_default">ตั้งค่าเป็นโปรแกรมดูไฟล์ PDF เริ่มต้น</string>
+    <string name="settings_set_as_default_subtitle">แอปนี้จะเปิดไฟล์ PDF โดยค่าเริ่มต้น</string>
+    <string name="settings_default_pdf_instructions_title">วิธีตั้งค่าเป็นค่าเริ่มต้น</string>
+    <string name="settings_default_pdf_ok">เข้าใจแล้ว</string>
+    <string name="settings_default_app_hint">ไม่ได้ผลเหรอ?</string>
+    <string name="settings_default_app_hint_learn_more">เรียนรู้เพิ่มเติม</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">ภาษา</string>
+    <string name="language_search_placeholder">ค้นหาภาษา...</string>
+    <!-- Common UI -->
+    <string name="support">สนับสนุน</string>
+    <string name="language_english">ภาษาอังกฤษ</string>
+    <string name="language_hindi">हिंदी</string>
+    <string name="language_spanish">ภาษาสเปน</string>
+    <string name="language_french">ภาษาฝรั่งเศส</string>
+    <string name="language_german">ภาษาเยอรมัน</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">อาหรับ</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">เกาหลี</string>
+    <string name="language_portuguese">โปรตุเกส</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">ลักษณะของแอป</string>
+    <string name="theme">ธีม</string>
+    <string name="general">ทั่วไป</string>
+    <string name="new">ใหม่</string>
+    <string name="navigate">นำทาง</string>
+    <string name="download">ดาวน์โหลด</string>
+    <string name="falcon_pdf">ฟอลคอน PDF</string>
+    <string name="excellence_in_every_pixel">ความเป็นเลิศในทุกพิกเซล</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">ใช้การเปลี่ยนแปลง</string>
+    <string name="apply">นำมาใช้</string>
+    <string name="selected">เลือกแล้ว</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">การตั้งค่าการซิงค์</string>
+    <string name="autosync_on_wifi">ซิงค์อัตโนมัติผ่าน WiFi</string>
+    <string name="sync_reading_progress">ซิงค์ความคืบหน้าการอ่าน</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">ชื่อเอกสาร</string>
+    <string name="name_cannot_be_empty">ชื่อต้องไม่ว่างเปล่า</string>
+    <string name="str__failed">%1$s ล้มเหลว</string>
+    <string name="ok">ตกลง</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">แผนการอัปเกรด - แผนปัจจุบัน: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">ลากเพื่อเปิดไฟล์</string>
+    <string name="release_to_import_and_open_pdf">อนุญาตให้นำเข้าและเปิดไฟล์ PDF</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">ลบ</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">พีดี</string>
+    <string name="images">รูปภาพ</string>
+    <string name="filter_all_types">ไฟล์ทั้งหมด</string>
+    <string name="favorites">ไฟล์โปรด</string>
+    <string name="recent">ล่าสุด</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">ค้นหาเอกสาร...</string>
+    <string name="voice_search">ค้นหาด้วยเสียง</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">ไฟล์ล่าสุด</string>
+    <string name="loading_recent_files">กำลังโหลดไฟล์ล่าสุด...</string>
+    <string name="no_recent_files">ไม่มีไฟล์ล่าสุด</string>
+    <string name="no_favorites">ไม่มีรายการโปรด</string>
+    <string name="mark_files_as_favorite_to_see_them_here">ทำเครื่องหมายไฟล์เป็นรายการโปรดเพื่อดูไฟล์เหล่านั้นที่นี่</string>
+    <string name="open_some_pdf_files_to_see_the">เปิดไฟล์ PDF บางไฟล์เพื่อดูข้อมูลได้ที่นี่</string>
+    <string name="status">สถานะ</string>
+    <string name="actions">การกระทำ</string>
+    <string name="select_all">เลือกทั้งหมด</string>
+    <string name="enter_multiselect_mode">เข้าสู่โหมดเลือกหลายรายการ</string>
+    <string name="sorted_ascending">เรียงลำดับจากน้อยไปมาก</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">พื้นที่จัดเก็บ: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">เพิ่มไฟล์ %1$s ไฟล์</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">เปลี่ยนประเภทการแสดงผล</string>
+    <string name="filter_">ตัวกรอง: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">กำลังโหลดไฟล์ PDF...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">ลงชื่อเข้าใช้เพื่อซิงค์ข้อมูล</string>
+    <string name="protect_your_library_files">ปกป้องไฟล์ห้องสมุดของคุณ</string>
+    <string name="sign_in">เข้าสู่ระบบ</string>
+    <string name="sign_out">ออกจากระบบ</string>
+    <string name="sign_in_dialog_title">เข้าสู่ระบบ Falcon PDF</string>
+    <string name="sign_in_dialog_subtitle">คลังไฟล์ PDF ของคุณ อยู่ทุกที่</string>
+    <string name="sign_in_with_google">ลงชื่อเข้าใช้ด้วย Google</string>
+    <string name="sign_in_with_apple">ลงชื่อเข้าใช้ด้วย Apple</string>
+    <string name="apple_user_drive_unavailable">การซิงค์ Google Drive ไม่สามารถใช้งานได้กับการลงชื่อเข้าใช้ด้วย Apple</string>
+    <string name="apple_user_link_google">เชื่อมต่อบัญชี Google เพื่อซิงค์ข้อมูลไปยัง Google Drive</string>
+    <string name="apple_user_sync_info">หากต้องการเปิดใช้งานการซิงค์ข้อมูลบนคลาวด์ โปรดเชื่อมโยงบัญชี Google</string>
+    <string name="link_google_account">เชื่อมโยงบัญชี Google</string>
+    <string name="signed_in_successfully">เข้าสู่ระบบสำเร็จแล้ว</string>
+    <string name="signed_out_successfully">ออกจากระบบสำเร็จแล้ว</string>
+    <string name="sync_disabled_free">การซิงค์ข้อมูลถูกปิดใช้งานสำหรับบัญชีฟรี</string>
+    <string name="storage_disabled_grant_access">พื้นที่จัดเก็บข้อมูลถูกปิดใช้งาน โปรดอนุญาตการเข้าถึงไดรฟ์เพื่อเริ่มต้น</string>
+    <string name="upgrade_to_pro">อัปเกรดเป็นเวอร์ชันโปร</string>
+    <string name="grant_drive_access">การเข้าถึง Grant Drive</string>
+    <string name="files_synced">%1$d/%2$d ไฟล์ถูกซิงค์แล้ว</string>
+    <string name="synced_count">%1$d ซิงค์แล้ว</string>
+    <string name="unlimited_sync_active">การซิงค์แบบไม่จำกัด</string>
+    <string name="missing_drive_permissions">สิทธิ์ในการเข้าถึงไดรฟ์ไม่เพียงพอ การซิงค์ถูกบล็อกอยู่ขณะนี้</string>
+    <string name="drive_access_revoked">สิทธิ์การเข้าถึงไดรฟ์ถูกระงับ โปรดเชื่อมต่อใหม่เพื่อดำเนินการซิงค์ต่อ</string>
+    <string name="upgrade_premium">อัปเกรดเป็นระดับพรีเมียม</string>
+    <string name="manage_account">จัดการบัญชี</string>
+    <string name="sync_now">ซิงค์เดี๋ยวนี้</string>
+    <string name="tier_free">ฟรี</string>
+    <string name="tier_pro">โปร</string>
+    <string name="tier_premium">พรีเมียม</string>
+    <string name="status_paused">หยุดชั่วคราว</string>
+    <!-- Common -->
+    <string name="navigate_back">ย้อนกลับ</string>
+    <string name="dismiss">อนุญาตให้ออกไป</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="back">กลับ</string>
+    <string name="search">ค้นหา</string>
+    <string name="more_actions">การดำเนินการเพิ่มเติม</string>
+    <string name="share">แบ่งปัน</string>
+    <string name="delete">ลบ</string>
+    <string name="remove_from_recents">ลบออกจากรายการล่าสุด</string>
+    <string name="open">เปิด</string>
+    <string name="all">ทั้งหมด</string>
+    <string name="sort_by_">เรียงลำดับตาม %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">การซิงค์ Google Drive</string>
+    <string name="syncing">กำลังซิงค์...</string>
+    <string name="sync_completed">การซิงค์เสร็จสมบูรณ์</string>
+    <string name="sync_failed">การซิงค์ล้มเหลว</string>
+    <string name="sync_limit_exceeded">เกินขีดจำกัดการซิงค์ แพ็กเกจ %s ของคุณรองรับไฟล์ได้ %d ไฟล์</string>
+    <string name="sync_no_drive_access">ไม่สามารถเข้าถึง Google Drive ได้</string>
+    <string name="sync_network_unavailable">ไม่สามารถใช้งานเครือข่ายได้</string>
+    <string name="sync_last_sync">ซิงค์ครั้งล่าสุด: %s</string>
+    <string name="sync_total_files">ทั้งหมด</string>
+    <string name="sync_synced_files">ซิงค์แล้ว</string>
+    <string name="sync_failed_files">ล้มเหลว</string>
+    <string name="sync_conflict_files">ความขัดแย้ง</string>
+    <string name="sync_add_to_favorites">เพิ่มในรายการโปรด</string>
+    <string name="sync_remove_from_favorites">ลบออกจากรายการโปรด</string>
+    <string name="sync_conflict_title">ความขัดแย้งในการซิงค์</string>
+    <string name="sync_conflict_message">ไฟล์ต่อไปนี้มีข้อขัดแย้งที่ต้องแก้ไข:</string>
+    <string name="sync_conflict_explanation">ความขัดแย้งเกิดขึ้นเมื่อมีการแก้ไขทั้งเวอร์ชันในเครื่องและเวอร์ชันบนเซิร์ฟเวอร์</string>
+    <string name="sync_plan_limit">ซิงค์: %d/%d</string>
+    <string name="sync_plan_limit_reached">ถึงขีดจำกัดแล้ว</string>
+    <string name="sync_plan_unlimited">การซิงค์แบบไม่จำกัด</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">ข้าม</string>
+    <string name="welcome_next">ต่อไป</string>
+    <string name="welcome_get_started">เริ่มต้นใช้งาน</string>
+    <string name="welcome_sign_in_get_started">เข้าสู่ระบบ &amp; เริ่มต้นใช้งาน</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;อ่านเอกสารใดก็ได้&lt;/b&gt; ทันที</string>
+    <string name="welcome_slide1_description">เปิดและจัดการไฟล์เอกสารมากกว่า 10 รูปแบบ รวมถึง PDF, DOC, EPUB และ MOBI</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;อ่านไฟล์ PDF, อีบุ๊ก,&lt;/b&gt; และเอกสาร Office ได้ในที่เดียว</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;เอกสารโปรด&lt;/b&gt; และเข้าถึงได้จากทุกอุปกรณ์</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;แสดงความคิดเห็น&lt;/b&gt; เน้นข้อความ และทำงานร่วมกันได้อย่างง่ายดาย</string>
+    <string name="welcome_slide1_footer">เครื่องอ่านเอกสารอเนกประสงค์ของคุณ</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;แก้ไข สแกน และจัดระเบียบ&lt;/b&gt; ไฟล์ PDF</string>
+    <string name="welcome_slide2_description">ทุกสิ่งที่คุณต้องการในการสร้าง แก้ไข และจัดการไฟล์ PDF รวมอยู่ในชุดเครื่องมือทรงพลังเดียว</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;แก้ไขข้อความ,&lt;/b&gt; ใส่คำอธิบายประกอบ, ไฮไลต์ และกรอกแบบฟอร์ม</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;สแกนเอกสาร&lt;/b&gt; และแปลงเป็นไฟล์ PDF ได้ทันที</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;เครื่องมือมากกว่า 30 รายการ&lt;/b&gt; รวมถึงการรวม การแปลง การบีบอัด และการรักษาความปลอดภัย</string>
+    <string name="welcome_slide2_footer">พื้นที่ทำงาน PDF แบบครบวงจรของคุณ</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;AI ที่เข้าใจ&lt;/b&gt; เอกสารของคุณ</string>
+    <string name="welcome_slide3_description">ประหยัดเวลาได้หลายชั่วโมงด้วย AI ที่อ่านและวิเคราะห์เอกสารให้คุณ</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;สรุปเอกสารยาวๆ&lt;/b&gt; ในเวลาไม่กี่วินาที</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; สแกนหน้าเอกสารและแปลข้อความได้ทันที</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;ฟัง&lt;/b&gt; เอกสารที่มีฟังก์ชั่นอ่านออกเสียงในตัว</string>
+    <string name="welcome_slide3_footer">ไม่มีโฆษณา มีแต่ประสิทธิภาพในการทำงาน</string>
+    <string name="grace">เกรซ</string>
+    <string name="unable_to_verify_subscription_limited_ac">ไม่สามารถตรวจสอบการสมัครสมาชิกได้ การเข้าถึงถูกจำกัดจนกว่าการเชื่อมต่อจะกลับมาใช้งานได้อีกครั้ง</string>
+    <string name="retry_verification">ลองตรวจสอบซ้ำอีกครั้ง</string>
+    <string name="guest_state">สถานะแขก</string>
+    <string name="free_tier">ระดับฟรี</string>
+    <string name="free_tier__locked">ระดับฟรี - ถูกล็อกไว้</string>
+    <string name="pro_tier">ระดับโปร</string>
+    <string name="pro_tier__restricted">ระดับโปร - สิทธิ์การเข้าถึงแบบจำกัด</string>
+    <string name="premium_tier">ระดับพรีเมียม</string>
+    <string name="premium_tier__error">ระดับพรีเมียม - ข้อผิดพลาด</string>
+    <string name="refresh_plan_status">รีเฟรชสถานะแผน</string>
+    <string name="user_avatar">รูปประจำตัวผู้ใช้</string>
+    <string name="debug_tools">เครื่องมือดีบัก</string>
+    <string name="authentication__drive">การตรวจสอบสิทธิ์ &amp; ไดรฟ์</string>
+    <string name="auth_state">สถานะการอนุญาต</string>
+    <string name="revoke_drive_access">เพิกถอนสิทธิ์การเข้าถึงไดรฟ์</string>
+    <string name="image">ภาพ</string>
+    <string name="thumbnail">ภาพย่อ</string>
+    <string name="manage_preferences">จัดการการตั้งค่า</string>
+    <string name="tools_history">ประวัติเครื่องมือ</string>
+    <string name="manage_recent_logs">จัดการบันทึกข้อมูลล่าสุด</string>
+    <string name="more_options">ตัวเลือกเพิ่มเติม</string>
+    <string name="clear_all_history">ล้างประวัติทั้งหมด</string>
+    <string name="no_history_yet">ยังไม่มีประวัติ</string>
+    <string name="your_pdf_tool_operations_will_appear_her">การทำงานของเครื่องมือ PDF ของคุณจะปรากฏที่นี่</string>
+    <string name="view">ดู</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">บันทึกแล้ว %1$s</string>
+    <string name="history_status_processing">กำลังประมวลผล</string>
+    <string name="history_status_succeeded">สำเร็จ</string>
+    <string name="history_status_failed">ล้มเหลว</string>
+    <string name="history_status_processing_upper">กำลังประมวลผล</string>
+    <string name="history_unknown_files">ไฟล์ที่ไม่รู้จัก</string>
+    <string name="history_op_complete">%1$s เสร็จสมบูรณ์!</string>
+    <string name="history_op_failed">%1$s ล้มเหลว</string>
+    <string name="history_op_success_multiple">การดำเนินการเสร็จสมบูรณ์ด้วยไฟล์ %1$d ไฟล์</string>
+    <string name="history_op_success_single">การดำเนินการเสร็จสมบูรณ์อย่างราบรื่น</string>
+    <string name="history_op_error">เราไม่สามารถดำเนินการให้เสร็จสิ้นได้</string>
+    <string name="history_multiple_files">ไฟล์ %1$d</string>
+    <string name="history_failed">ล้มเหลว</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">การซิงค์บนคลาวด์</string>
+    <string name="cloud_sync_subtitle">อุปกรณ์ที่เชื่อมต่อ</string>
+    <string name="cloud_sync_all_synced">ไฟล์ทั้งหมดซิงค์เรียบร้อยแล้ว</string>
+    <string name="cloud_sync_syncing">กำลังซิงค์…</string>
+    <string name="cloud_sync_pending">กำลังดำเนินการซิงค์</string>
+    <string name="cloud_sync_last_sync">ซิงค์ครั้งล่าสุด: %1$s</string>
+    <string name="cloud_sync_never_synced">ไม่เคยซิงค์</string>
+    <string name="cloud_sync_recent_activity">กิจกรรมการซิงค์ล่าสุด</string>
+    <string name="cloud_sync_no_files">ยังไม่มีไฟล์ที่ซิงค์</string>
+    <string name="cloud_sync_synced_to_drive">ซิงค์กับไดรฟ์แล้ว</string>
+    <string name="cloud_sync_pending_upload">กำลังดำเนินการอัปโหลด</string>
+    <string name="cloud_sync_sync_now">ซิงค์เดี๋ยวนี้</string>
+    <string name="cloud_sync_view_history">ดูประวัติการซิงค์</string>
+    <string name="cloud_sync_files_count">ไฟล์ %1$d / %2$d ซิงค์เสร็จแล้ว</string>
+    <string name="cloud_sync_unlimited_files">ไฟล์ที่ซิงค์ %1$d ไฟล์ · ไม่จำกัด</string>
+    <string name="cloud_sync_cta_title">ทุกแพลตฟอร์ม ทุกเวลา</string>
+    <string name="cloud_sync_cta_subtitle">เอกสารของคุณจะติดตามคุณไปทุกที่</string>
+    <string name="cloud_sync_files_label">ไฟล์ %1$d</string>
+    <string name="settings_data_privacy">ข้อมูล &amp; ความเป็นส่วนตัว</string>
+    <string name="settings_data_privacy_subtitle">จัดการข้อมูล ลบบัญชี &amp;</string>
+    <string name="settings_delete_account">ลบบัญชีผู้ใช้</string>
+    <string name="settings_delete_account_subtitle">ลบข้อมูลและบัญชีของคุณอย่างถาวร</string>
+    <string name="delete_account_warning_title">ลบบัญชีของคุณแล้วใช่ไหม?</string>
+    <string name="delete_account_warning_message">การดำเนินการนี้จะลบข้อมูลบัญชีของคุณและข้อมูลที่เกี่ยวข้องทั้งหมดอย่างถาวร รวมถึงประวัติการซื้อและไฟล์ที่ซิงค์กับระบบคลาวด์ การดำเนินการนี้ไม่สามารถยกเลิกได้ และไม่สามารถกู้คืนการซื้อในภายหลังได้</string>
+    <string name="delete_account_confirm_phrase_label">พิมพ์ 'ยืนยันการลบ' เพื่อดำเนินการต่อ:</string>
+    <string name="delete_account_confirm_phrase">ยืนยันการลบ</string>
+    <string name="delete_account_button">ลบบัญชีผู้ใช้</string>
+    <string name="delete_account_error_reauth">เพื่อความปลอดภัย คุณต้องเพิ่งเข้าสู่ระบบเพื่อลบบัญชีของคุณ โปรดออกจากระบบแล้วเข้าสู่ระบบอีกครั้ง จากนั้นลองใหม่อีกครั้ง</string>
+    <string name="delete_account_success">ลบบัญชีผู้ใช้สำเร็จแล้ว</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">ไฟล์ &amp; การตั้งค่าการซิงค์</string>
+    <string name="sync_on_mobile_data_subtitle">ใช้ข้อมูลมือถือสำหรับการซิงค์ข้อมูลบนคลาวด์</string>
+    <string name="drive_sync">การซิงค์พื้นหลัง</string>
+    <string name="drive_sync_subtitle">ซิงค์รายการโปรด &amp; สแกนเอกสารไปยัง Google Drive</string>
+    <string name="do_not_import_from_other_apps">ห้ามนำเข้าไฟล์จากแอปพลิเคชันอื่น</string>
+    <string name="do_not_import_from_other_apps_subtitle">เปิดไฟล์ที่แชร์ชั่วคราวโดยไม่ต้องบันทึกไปยังไลบรารี</string>
+    <string name="clear_imported_files">ล้างไฟล์ที่นำเข้า</string>
+    <string name="clear_imported_files_subtitle">ลบไฟล์ทั้งหมดที่คัดลอกมาจากแอปอื่น</string>
+    <string name="clear_imports_confirm_title">ล้างไฟล์ที่นำเข้าแล้วหรือไม่?</string>
+    <string name="clear_imports_confirm_message">การดำเนินการนี้จะลบไฟล์ทั้งหมดในโฟลเดอร์ Imports ของคุณอย่างถาวร ไม่สามารถยกเลิกได้</string>
+    <string name="clear_imports_success">ไฟล์ที่นำเข้าถูกล้างแล้ว</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">ข้อมูล &amp; ความเป็นส่วนตัว</string>
+    <string name="analytics_opt_out_title">ส่งข้อมูลการใช้งาน</string>
+    <string name="analytics_opt_out_subtitle">แบ่งปันข้อมูลการใช้งานแบบไม่ระบุตัวตนและรายงานข้อผิดพลาดกับผู้พัฒนาแอป เพื่อช่วยปรับปรุงแอปให้ดียิ่งขึ้น</string>
+    <string name="analytics_opt_out_disabled_note">ปิดใช้งานระบบวิเคราะห์ข้อมูลและรายงานข้อผิดพลาดแล้ว จึงไม่มีการส่งข้อมูลใดๆ ไปยัง Google หรือผู้พัฒนาโปรแกรม</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">การเปลี่ยนแปลงที่ยังไม่ได้บันทึก</string>
+    <string name="unsaved_changes_tab_message">เอกสารนี้มีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก คุณต้องการบันทึกก่อนปิดหรือไม่?</string>
+    <string name="unsaved_changes_window_message">คุณมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึกในเอกสารอย่างน้อยหนึ่งฉบับ คุณต้องการยกเลิกการเปลี่ยนแปลงเหล่านั้นและออกจากโปรแกรมหรือไม่</string>
+    <string name="discard">ทิ้ง</string>
+    <string name="discard_and_quit">ทิ้ง &amp; ออก</string>
+    <string name="close">ปิด</string>
+    <string name="remove_favorite">ลบรายการโปรด</string>
+    <string name="set_as_default_pdf_viewer">ตั้งเป็นโปรแกรมดูไฟล์ PDF เริ่มต้นหรือไม่?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF ไม่ใช่โปรแกรมดูไฟล์ PDF ค่าเริ่มต้นของคุณ คุณต้องการตั้งค่าให้เป็นค่าเริ่มต้นเพื่อให้ไฟล์ PDF ทั้งหมดเปิดด้วย Falcon PDF หรือไม่?</string>
+    <string name="set_now">ตั้งค่าเลย</string>
+    <string name="never">ไม่เคย</string>
+    <string name="later">ภายหลัง</string>
+    <string name="set_default">ตั้งค่าเริ่มต้น</string>
+    <string name="default">ค่าเริ่มต้น</string>
+    <string name="version_">เวอร์ชัน %1$s</string>
+    <string name="sign_in_with_other_accounts">ลงชื่อเข้าใช้ด้วยบัญชีอื่น</string>
+    <string name="upgrade">อัปเกรด</string>
+    <string name="view_plan">ดูแผนผัง</string>
+    <string name="unlimited_sync_upto_5gb">ซิงค์ข้อมูลได้ไม่จำกัดสูงสุด 5GB</string>
+    <string name="unlock_faster">ปลดล็อกได้เร็วขึ้น</string>
+    <string name="use_biometrics_instead_of_passwords">ใช้ระบบไบโอเมตริกแทนรหัสผ่าน</string>
+    <string name="upgrade_to_premium">อัปเกรดเป็นระดับพรีเมียม</string>
+    <string name="unlock_pdf">ปลดล็อก PDF</string>
+    <string name="use__to_accessnthis_document">ใช้ %1$s เพื่อเข้าถึง\nเอกสารนี้</string>
+    <string name="open_with_password">เปิดด้วยรหัสผ่าน</string>
+    <string name="secure">ปลอดภัย</string>
+    <string name="loading_">กำลังโหลด %1$s...</string>
+    <string name="failed_to_open_ebook">ไม่สามารถเปิดอีบุ๊กได้</string>
+    <string name="properties">คุณสมบัติ</string>
+    <string name="copy">สำเนา</string>
+    <string name="highlight">ไฮไลท์</string>
+    <string name="clear_selection">การเลือกที่ชัดเจน</string>
+    <string name="close_search">ปิดการค้นหา</string>
+    <string name="search_in_book">ค้นหาในหนังสือ...</string>
+    <string name="contents">สารบัญ</string>
+    <string name="table_of_contents">สารบัญ</string>
+    <string name="no_table_of_contents_available">ไม่มีสารบัญให้ดู</string>
+    <string name="bookmarks">ที่คั่นหนังสือ</string>
+    <string name="no_bookmarks_yet">ยังไม่มีที่คั่นหนังสือ</string>
+    <string name="page_">หน้า %1$s</string>
+    <string name="no_results">ไม่พบผลลัพธ์</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">การตั้งค่า</string>
+    <string name="decrease_font_size">ลดขนาดตัวอักษร</string>
+    <string name="increase_font_size">เพิ่มขนาดตัวอักษร</string>
+    <string name="font">ฟอนต์</string>
+    <string name="jump_to_page">ข้ามไปยังหน้า</string>
+    <string name="enter_page_number_1">ป้อนหมายเลขหน้า (1–%1$s):</string>
+    <string name="go">ไป</string>
+    <string name="read_aloud">อ่านออกเสียง</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">หยุด</string>
+    <string name="annotations__text_selection">คำอธิบายประกอบ &amp; การเลือกข้อความ</string>
+    <string name="text_selection_and_annotations_for_ebook">ฟีเจอร์การเลือกข้อความและการใส่คำอธิบายประกอบสำหรับอีบุ๊กจะพร้อมใช้งานในเร็วๆ นี้</string>
+    <string name="longpress_on_text_to_select_highlight_or">กดค้างที่ข้อความเพื่อเลือก ไฮไลต์ หรือเพิ่มบันทึก</string>
+    <string name="press_play_to_start_reading_aloud">กดเล่นเพื่อเริ่มอ่านออกเสียง...</string>
+    <string name="speed">ความเร็ว</string>
+    <string name="voice">เสียง</string>
+    <string name="no_annotations_yet">ยังไม่มีคำอธิบายประกอบ</string>
+    <string name="select_text_to_highlight_or_add_notes">เลือกข้อความเพื่อไฮไลต์หรือเพิ่มบันทึก</string>
+    <string name="tools">เครื่องมือ</string>
+    <string name="convert_to_images">แปลงเป็นรูปภาพ</string>
+    <string name="rename">เปลี่ยนชื่อ</string>
+    <string name="print">พิมพ์</string>
+    <string name="a">เอ−</string>
+    <string name="cover_of_">หน้าปกของ %1$s</string>
+    <string name="no_cover_available">ไม่มีบริการประกันภัย</string>
+    <string name="read_now">อ่านเลย</string>
+    <string name="about_the_book">เกี่ยวกับหนังสือเล่มนี้</string>
+    <string name="tags">แท็ก</string>
+    <string name="publisher_info">ข้อมูลสำนักพิมพ์</string>
+    <string name="published_">เผยแพร่: %1$s</string>
+    <string name="retry">ลองใหม่อีกครั้ง</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F ล้างแคช</string>
+    <string name="ebooks_library">ห้องสมุดอีบุ๊ก</string>
+    <string name="manage_your_digital_collection_across_mu">จัดการคอลเล็กชันดิจิทัลของคุณจากผู้ให้บริการหลายราย ค้นหา กรอง และค้นพบหนังสือใหม่ ๆ จาก Google Books และ Open Library</string>
+    <string name="no_books_found">ไม่พบหนังสือ</string>
+    <string name="no_results_for__try_a_different_search_t">ไม่พบผลลัพธ์สำหรับ "%1$s" ลองใช้คำค้นหาอื่นดู</string>
+    <string name="downloadable_only">ดาวน์โหลดเท่านั้น</string>
+    <string name="file_unavailable">ไฟล์ไม่พร้อมใช้งาน</string>
+    <string name="unavailable">ไม่พร้อมใช้งาน</string>
+    <string name="search_titles_authors_isbn">ค้นหาตามชื่อเรื่อง ผู้แต่ง และหมายเลข ISBN...</string>
+    <string name="clear_search">ล้างการค้นหา</string>
+    <string name="ebooks">อีบุ๊ก</string>
+    <string name="read_pdf">อ่านไฟล์ PDF</string>
+    <string name="create_pdf">สร้างไฟล์ PDF</string>
+    <string name="unlock_all_tools_and_remove_limits">ปลดล็อกเครื่องมือทั้งหมดและลบข้อจำกัด</string>
+    <string name="ocr_scanning">การสแกน OCR</string>
+    <string name="extract_text_from_scanned_documents">ดึงข้อความจากเอกสารที่สแกนแล้ว</string>
+    <string name="cloud_sync">การซิงค์บนคลาวด์</string>
+    <string name="access_your_documents_anywhere">เข้าถึงเอกสารของคุณได้ทุกที่</string>
+    <string name="annotate_pdfs">ใส่คำอธิบายประกอบในไฟล์ PDF</string>
+    <string name="cloud_backup">การสำรองข้อมูลบนคลาวด์</string>
+    <string name="continue_reading">อ่านต่อ</string>
+    <string name="pick_files">เลือกไฟล์</string>
+    <string name="browse">เรียกดู</string>
+    <string name="did_you_know">คุณรู้หรือไม่?</string>
+    <string name="home">บ้าน</string>
+    <string name="your_documents_at_a_glance">เอกสารของคุณโดยสรุป</string>
+    <string name="pick_file">เลือกไฟล์</string>
+    <string name="quick_actions">การดำเนินการด่วน</string>
+    <string name="pro">โปร</string>
+    <string name="open_files">เปิดไฟล์</string>
+    <string name="convert_to_pdf">แปลงเป็น PDF</string>
+    <string name="close_drawer">ปิดลิ้นชัก</string>
+    <string name="close_file">ปิดไฟล์</string>
+    <string name="office">สำนักงาน</string>
+    <string name="coming_soon">เร็วๆ นี้</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">โปรแกรมดูอีบุ๊กยังไม่พร้อมใช้งานบนแพลตฟอร์มนี้</string>
+    <string name="set_as_default_viewer">ตั้งค่าเป็นโปรแกรมดูเริ่มต้น</string>
+    <string name="free">ฟรี</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">กำลังดาวน์โหลดการอัปเดต... %1$s%</string>
+    <string name="more">มากกว่า</string>
+    <string name="font_size">ขนาดตัวอักษร</string>
+    <string name="font_family">ตระกูลฟอนต์</string>
+    <string name="scroll_direction">ทิศทางการเลื่อน</string>
+    <string name="navigation">การนำทาง</string>
+    <string name="keep_screen_on">เปิดหน้าจอไว้</string>
+    <string name="volume_button_to_scroll">ปุ่มปรับระดับเสียงเพื่อเลื่อน</string>
+    <string name="export_ebook_pages_as_image_files">ส่งออกหน้าอีบุ๊กเป็นไฟล์รูปภาพ</string>
+    <string name="access_millions_of_titles">เข้าถึงหนังสือและภาพยนตร์นับล้านเรื่อง</string>
+    <string name="read_offline_with_natural_ai_voices">อ่านแบบออฟไลน์ได้ด้วยเสียง AI ที่เป็นธรรมชาติ</string>
+    <string name="advanced_ai_reader">เครื่องอ่าน AI ขั้นสูง</string>
+    <string name="experience_studioquality_narration">สัมผัสประสบการณ์การบรรยายคุณภาพระดับสตูดิโอ</string>
+    <string name="powerful_pdf_tools">เครื่องมือ PDF ที่ทรงพลัง</string>
+    <string name="create_and_edit_documents_on_the_go">สร้างและแก้ไขเอกสารได้ทุกที่ทุกเวลา</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">อัปเกรดเป็นเวอร์ชันโปร: ปลดล็อกเครื่องมือทั้งหมดและขจัดข้อจำกัดต่างๆ</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">การสแกน OCR: ดึงข้อความจากเอกสารที่สแกนแล้ว</string>
+    <string name="cloud_sync_access_your_documents_anywher">การซิงค์บนคลาวด์: เข้าถึงเอกสารของคุณได้ทุกที่</string>
+    <string name="scan">สแกน</string>
+    <string name="compress">บีบอัด</string>
+    <string name="merge">ผสาน</string>
+    <string name="convert">แปลง</string>
+    <string name="highlight_underline_and_add_notes_to_you">เน้นข้อความ ขีดเส้นใต้ และเพิ่มบันทึกในเอกสารของคุณ</string>
+    <string name="keep_your_documents_safe_with_automatic_">เก็บรักษาเอกสารของคุณให้ปลอดภัยด้วยการซิงค์ข้อมูลอัตโนมัติบนคลาวด์</string>
+    <string name="indicator_color_">indicator_color_%1$s</string>
+    <string name="my_library">ห้องสมุดของฉัน</string>
+    <string name="get_ebooks">ดาวน์โหลดอีบุ๊ก</string>
+    <string name="scan_document">สแกนเอกสาร</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

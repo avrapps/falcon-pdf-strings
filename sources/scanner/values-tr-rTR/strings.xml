@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Tarama</string>
+    <string name="scan_home_documents">Belgeler</string>
+    <string name="scan_home_documents_lowercase">belgeler</string>
+    <string name="scan_home_documents_count">%1$d Belgeler</string>
+    <string name="scan_home_no_documents">Henüz hiçbir belge yok.</string>
+    <string name="scan_home_start_scanning">İlk belgenizi oluşturmak için taramaya başlayın.</string>
+    <string name="scan_home_new_folder">Yeni Klasör</string>
+    <string name="scan_home_scan_document">Belgeyi Tara</string>
+    <string name="scan_home_import_gallery">Galeriden İçe Aktar</string>
+    <string name="scan_home_parent_folder">Üst Klasör</string>
+    <string name="scan_home_go_back">Üst klasöre geri dön</string>
+    <string name="scan_home_create_folder">Yeni Klasör Oluştur</string>
+    <string name="scan_home_enter_folder_name">Yeni klasör için bir ad girin.</string>
+    <string name="scan_home_folder_name">Klasör Adı</string>
+    <string name="scan_home_folder_placeholder">Örneğin, İş Belgeleri</string>
+    <string name="scan_home_folder_error">Klasör adı boş bırakılamaz.</string>
+    <string name="scan_home_folder_name_empty">Klasör adı boş bırakılamaz.</string>
+    <string name="scan_home_create">Yaratmak</string>
+    <string name="scan_home_folder_exists">Bu isimde bir klasör zaten mevcut.</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Kamera</string>
+    <string name="scan_camera_permission_required">Kamera İzni Gerekli</string>
+    <string name="scan_camera_permission_message">Bu uygulama, belgeleri taramak için kameraya erişim gerektirir.</string>
+    <string name="scan_camera_permission_settings">Lütfen Ayarlar &gt; Uygulamalar &gt; PDF Görüntleyici &gt; İzinler bölümüne gidin ve Kamera iznini etkinleştirin.</string>
+    <string name="scan_camera_permission_title">Kamera İzni Gerekli</string>
+    <string name="scan_camera_request_permission">İzin İsteği</string>
+    <string name="scan_camera_open_settings">Ayarları aç</string>
+    <string name="scan_camera_close">Kapalı</string>
+    <string name="scan_camera_flash">Flaş</string>
+    <string name="scan_camera_auto_capture">Otomatik Yakalama</string>
+    <string name="scan_camera_settings">Ayarlar</string>
+    <string name="scan_camera_ready_batch">Birden fazla sayfayı taramaya hazır</string>
+    <string name="scan_camera_ready_multiple">Birden fazla sayfayı taramaya hazır</string>
+    <string name="scan_camera_hold_steady">Tarama yaparken sabit durun.</string>
+    <string name="scan_camera_captured_pages">%1$d sayfa yakalandı</string>
+    <string name="scan_camera_mode_single">Bekar</string>
+    <string name="scan_camera_mode_batch">Grup</string>
+    <string name="scan_camera_preview">Önizleme</string>
+    <string name="scan_camera_finish">Sona ermek</string>
+    <string name="scan_camera_starting">Kamera başlatılıyor...</string>
+    <string name="scan_camera_document_name">Belge Adı</string>
+    <string name="scan_camera_document_name_empty">Belge adı boş bırakılamaz.</string>
+    <string name="scan_camera_save_document">Belgeyi Kaydet</string>
+    <string name="scan_camera_processing">İşleme...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Kırp &amp; Ayarla</string>
+    <string name="scan_crop_close">Kapalı</string>
+    <string name="scan_crop_reset">Sıfırla</string>
+    <string name="scan_crop_rotate">Döndür</string>
+    <string name="scan_crop_done">Tamamlamak</string>
+    <string name="scan_crop_scanned_document">Taranmış belge</string>
+    <string name="scan_crop_magnified_view">Büyütülmüş görünüm</string>
+    <string name="scan_crop_processing">İşleme...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Genişletmek</string>
+    <string name="scan_filter_close">Kapalı</string>
+    <string name="scan_filter_rotate">Döndür</string>
+    <string name="scan_filter_done">Tamamlamak</string>
+    <string name="scan_filter_filters">Filtreler</string>
+    <string name="scan_filter_original">Orijinal</string>
+    <string name="scan_filter_magic">Büyü</string>
+    <string name="scan_filter_lighten">Hafifletmek</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">Gri tonlamalı</string>
+    <string name="scan_filter_magic_2">Temiz Belge</string>
+    <string name="scan_filter_soft_scan">Yumuşak Tarama</string>
+    <string name="scan_filter_color_enhance">Renk+</string>
+    <string name="scan_filter_ink_saver">Mürekkep Tasarrufu</string>
+    <string name="scan_filter_premium">Premium özellik</string>
+    <string name="scan_filter_filtered_document">Filtrelenmiş belge</string>
+    <string name="scan_filter_applying">Filtre uygulanıyor...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">İptal etmek</string>
+    <string name="scan_share">Paylaşmak</string>
+    <string name="scan_move">Taşınmak</string>
+    <string name="scan_move_to_folder">Klasöre Taşı</string>
+    <string name="scan_delete">Silmek</string>
+    <string name="scan_rename">Yeniden isimlendirmek</string>
+    <string name="scan_root">Kök</string>
+    <string name="scan_select_destination">Hedef klasörü seçin</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Belge</string>
+    <string name="scan_document_back">Geri</string>
+    <string name="scan_document_pages">sayfalar</string>
+    <string name="scan_document_add_pages">Bu belgeye sayfalar ekleyin</string>
+    <string name="scan_document_add_page_button">Sayfa Ekle</string>
+    <string name="scan_document_rename">Yeniden isimlendirmek</string>
+    <string name="scan_document_share">Paylaşmak</string>
+    <string name="scan_document_more">Daha</string>
+    <string name="scan_document_pages_count">%1$d sayfalar</string>
+    <string name="scan_document_no_pages">Henüz sayfa yok</string>
+    <string name="scan_document_scan_page">Sayfayı Tara</string>
+    <string name="scan_document_import_page">Galeriden İçe Aktar</string>
+    <string name="scan_document_grid_view">Izgara Görünümü</string>
+    <string name="scan_document_list_view">Liste Görünümü</string>
+    <string name="scan_document_continuous_view">Sürekli Görünüm</string>
+    <string name="scan_document_page_number">Sayfa %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Sayfa</string>
+    <string name="scan_page_back">Geri</string>
+    <string name="scan_page_share">Paylaşmak</string>
+    <string name="scan_page_delete">Silmek</string>
+    <string name="scan_page_of">%1$d / %2$d</string>
+    <string name="scan_page_image_not_found">Resim bulunamadı.</string>
+    <string name="scan_page_retake">Tekrar çekim</string>
+    <string name="scan_page_crop">Mahsul</string>
+    <string name="scan_page_enhance">Genişletmek</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">Galeriye Kaydet</string>
+    <string name="scan_page_saved_to_gallery">Resim galeriye kaydedildi.</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Belgeyi silmek mi istiyorsunuz?</string>
+    <string name="scan_delete_document_message">"%1$s" öğesini silmek istediğinizden emin misiniz? Bu işlem, bu belgedeki tüm sayfaları kalıcı olarak silecektir. Bu işlem geri alınamaz.</string>
+    <string name="scan_rename_document">Belgeyi Yeniden Adlandır</string>
+    <string name="scan_rename_enter_name">Belge için yeni bir ad girin.</string>
+    <string name="scan_rename_document_name">Belge Adı</string>
+    <string name="scan_rename_error">Belge adı boş bırakılamaz.</string>
+    <string name="scan_dialog_delete_document_title">Belgeyi silmek mi istiyorsunuz?</string>
+    <string name="scan_dialog_delete_document_message">"%1$s" öğesini silmek istediğinizden emin misiniz? Bu işlem, bu belgedeki tüm sayfaları kalıcı olarak silecektir. Bu işlem geri alınamaz.</string>
+    <string name="scan_dialog_delete_confirm">Silmek</string>
+    <string name="scan_dialog_cancel">İptal etmek</string>
+    <string name="scan_dialog_move_title">Klasöre Taşı</string>
+    <string name="scan_dialog_move_message">Hedef klasörü seçin</string>
+    <string name="scan_dialog_move_confirm">Taşınmak</string>
+    <string name="scan_dialog_move_root">Kök</string>
+    <string name="scan_dialog_move_selected">Seçildi</string>
+    <string name="scan_dialog_rename_title">Belgeyi Yeniden Adlandır</string>
+    <string name="scan_dialog_rename_message">Belge için yeni bir ad girin.</string>
+    <string name="scan_dialog_rename_label">Belge Adı</string>
+    <string name="scan_dialog_rename_error">Belge adı boş bırakılamaz.</string>
+    <string name="scan_dialog_rename_confirm">Yeniden isimlendirmek</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Paylaşmak</string>
+    <string name="scan_menu_move">Klasöre Taşı</string>
+    <string name="scan_menu_delete">Silmek</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Kamera Önizlemesi\n(Yakında)</string>
+    <string name="scan_platform_desktop_camera">Masaüstü Kamera Önizlemesi\n(Yakında)</string>
+    <string name="scan_platform_ios_camera">iOS Kamera Önizlemesi\n(Yakında)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Kapalı</string>
+    <string name="flash">Flaş</string>
+    <string name="auto_capture">Otomatik Yakalama</string>
+    <string name="settings">Ayarlar</string>
+    <string name="capture">Esir almak</string>
+    <string name="finish">Sona ermek</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">%1dosyasını silmek istediğinizden emin misiniz? İçindeki tüm belgeler de silinecektir.</string>
+    <string name="share">Paylaşmak</string>
+    <string name="share_as_images">Görüntü olarak paylaş</string>
+    <string name="share_as_pdf">PDF olarak paylaş</string>
+    <string name="move_to_folder">Klasöre Taşı</string>
+    <string name="delete">Silmek</string>
+    <string name="selected">Seçildi</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Sayfa %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">Klasör boş.</string>
+    <string name="tap_the__button_to_scan_a_docu">Belge taramak için + düğmesine dokunun.</string>
+    <string name="str______pages">%1$s • %2$s • %3$s sayfalar</string>
+    <string name="create_folder">Klasör Oluştur</string>
+    <string name="more_options">Daha fazla seçenek</string>
+    <string name="document_thumbnail">Belge küçük resmi</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Resim bulunamadı.</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Sayfa %2$d</string>
+    <string name="scan_ocr_title">Metin Tanıma</string>
+    <string name="scan_ocr_copy">Metni Kopyala</string>
+    <string name="scan_ocr_no_text">Metin bulunamadı.</string>
+    <string name="scan_ocr_processing">Metni tanıma…</string>
+    <string name="scan_ocr_error">Metin tanınmadı.</string>
+    <string name="scan_ocr_not_supported">Bu platformda OCR desteği bulunmamaktadır.</string>
+    <string name="scan_ocr_image">OCR için taranmış sayfa</string>
+    <string name="gallery">Galeri</string>
+    <string name="select_file">Dosya Seç</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Görüntü yakalanamadı.</string>
+    <string name="error_no_images_captured">Hiçbir görüntü kaydedilmedi.</string>
+    <string name="error_open_settings">Ayarlar açılamadı.</string>
+    <string name="error_process_images">Görüntüler işlenemedi.</string>
+    <string name="error_process_image">Görüntü işleme başarısız oldu.</string>
+    <string name="error_start_camera">Kamera başlatılamadı.</string>
+    <string name="error_stop_camera">Kamerayı durdurmayı başaramadı.</string>
+    <string name="error_crop_image">Görüntü kırpma işlemi başarısız oldu.</string>
+    <string name="error_delete_document">Belge silme işlemi başarısız oldu.</string>
+    <string name="error_delete_page">Sayfa silme işlemi başarısız oldu.</string>
+    <string name="error_load_document">Belge yüklenemedi.</string>
+    <string name="error_load_page">Sayfa yüklenemedi.</string>
+    <string name="error_move_document">Belge taşınamadı.</string>
+    <string name="error_no_pages_to_share">Paylaşılacak sayfa yok</string>
+    <string name="error_rename_document">Belgeyi yeniden adlandırma başarısız oldu.</string>
+    <string name="error_reorder_pages">Sayfaların yeniden sıralanması başarısız oldu.</string>
+    <string name="error_share_images">Görüntü paylaşımı başarısız oldu.</string>
+    <string name="error_share_pdf">PDF paylaşımı başarısız oldu.</string>
+    <string name="error_share_page">Sayfa paylaşımı başarısız oldu.</string>
+    <string name="error_create_folder">Klasör oluşturulamadı.</string>
+    <string name="error_delete_folder">Klasör silme işlemi başarısız oldu.</string>
+    <string name="error_rename_folder">Klasörü yeniden adlandırma başarısız oldu.</string>
+    <string name="error_unknown">Bilinmeyen bir hata oluştu.</string>
+    <string name="folder_not_found">Klasör bulunamadı</string>
+    <string name="sync_documents">Belgeleri senkronize et</string>
+    <string name="shutter_scale">deklanşör_ölçeği</string>
+    <string name="import_gallery">Galeriye İçe Aktarma</string>
+    <string name="scan_camera">Tarama Kamerası</string>
+</resources>

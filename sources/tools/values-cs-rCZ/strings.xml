@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">Smazat stránky</string>
+    <string name="are_you_sure_you_want_to_delet">Opravdu chcete smazat vybrané stránky? Tuto akci nelze vrátit zpět.</string>
+    <string name="delete">Vymazat</string>
+    <string name="cancel">Zrušit</string>
+    <string name="quick_selection">Rychlý výběr</string>
+    <string name="select_range">Vyberte rozsah</string>
+    <string name="select_all">Vybrat vše</string>
+    <string name="clear_all">Vymazat vše</string>
+    <string name="select_page_range">Vyberte rozsah stránek</string>
+    <string name="enter_the_range_of_pages_to_de">Zadejte rozsah stránek, které chcete smazat (1-%1$s)</string>
+    <string name="from">Z</string>
+    <string name="to">Na</string>
+    <string name="select">Vybrat</string>
+    <string name="please_go_back_and_select_a_pd">Vraťte se prosím zpět a vyberte PDF</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">Rozdělit PDF</string>
+    <string name="str_1_file_selected">Vybrán 1 soubor</string>
+    <string name="no_file_selected">Není vybrán žádný soubor</string>
+    <string name="split_mode">Rozdělený režim</string>
+    <string name="fixed_segments">Pevné segmenty</string>
+    <string name="custom_ranges">Vlastní rozsahy</string>
+    <string name="segment_size">Velikost segmentu</string>
+    <string name="this_will_create_multiple_pdfs">Tím se vytvoří více PDF souborů se zadaným počtem stránek. Velikost segmentu musí být menší než celkový počet stránek, aby se vytvořila smysluplná rozdělení. Pokud má například zdrojový soubor 8 stránek a zadáte 2, budou vygenerovány čtyři PDF soubory se 2 stránkami každý.</string>
+    <string name="pages_per_file">Stránky v souboru</string>
+    <string name="eg_2">např. 2</string>
+    <string name="total_number_of_pages_in_pdf__">Celkový počet stránek v PDF: %1$d (velikost segmentu musí být menší než %1$d)</string>
+    <string name="this_will_create__output_files">Tím se vytvoří %1$d výstupních souborů</string>
+    <string name="this_will_create__output_file">Tím se vytvoří výstupní soubor %1$d</string>
+    <string name="this_input_will_split_the_pdf_">Tento vstup rozdělí PDF do samostatných souborů na základě zadaných rozsahů. Například „1-2,5,6-8“ vytvoří 3 PDF soubory: první se stránkami 1-2, druhý se stránkou 5 a třetí se stránkami 6-8.</string>
+    <string name="page_ranges">Rozsahy stránek</string>
+    <string name="eg_1234571520">např. 1-2, 3, 4-5, 7, 15-20</string>
+    <string name="format_use_ranges_15_or_single">Formát: Použijte rozsahy (1–5) nebo jednotlivé stránky (7), oddělené čárkami. Povoleny jsou pouze číslice, pomlčky a čárky.</string>
+    <string name="split_preview">Rozdělený náhled</string>
+    <string name="pdf_files_will_be_created">%1$d Budou vytvořeny soubory PDF</string>
+    <string name="pdf_file_will_be_created">%1$d Bude vytvořen soubor PDF</string>
+    <string name="pdf_result_">Výsledek PDF %1$s</string>
+    <string name="str__and__more">... a %1$d dalších</string>
+    <string name="splitting_pdf">Rozdělování PDF...</string>
+    <string name="checking_files">Kontrola souborů...</string>
+    <string name="page_n">Strana %1$d</string>
+    <string name="pages_n_m">Stránky %1$d-%2$d</string>
+    <string name="split_complete">Rozdělení dokončeno!</string>
+    <string name="split_failed">Rozdělení se nezdařilo</string>
+    <string name="we_couldnt_split_your_pdf">Nepodařilo se nám rozdělit váš PDF soubor</string>
+    <string name="your_pdf_has_been_successfully_split">Váš PDF soubor byl úspěšně rozdělen na %1$d souborů</string>
+    <string name="your_pdf_has_been_successfully_split_single">Váš PDF soubor byl úspěšně rozdělen na %1$d soubor</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">Nástroje pro PDF</string>
+    <string name="image_tools">Nástroje pro tvorbu obrázků</string>
+    <string name="str_30_tools_for_pdf">Více než 30 nástrojů pro PDF</string>
+    <string name="tools_for_images">Nástroje pro obrázky</string>
+    <string name="no_tools_found">Nenalezeny žádné nástroje</string>
+    <string name="try_adjusting_your_search">Zkuste upravit vyhledávání</string>
+    <string name="history">Dějiny</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s stránka${pokud (počet_stránek &gt; 1) </string>
+    <string name="n_pages">%1$d stránek</string>
+    <string name="n_page">%1$d stránka</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">Pro tento PDF je vyžadováno heslo</string>
+    <string name="password_provided">Heslo zadáno</string>
+    <string name="password_required">Vyžadováno heslo</string>
+    <string name="open_file">Otevřít soubor</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">Komprimováno pomocí </string>
+    <string name="error_details">Podrobnosti o chybě</string>
+    <string name="view">Pohled</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">Vybráno %1$s z %2$s stránek</string>
+    <string name="showing_first_200_pages">Zobrazeno prvních 200 stránek</string>
+    <string name="use_quick_selection_above_for_">Pro stránky nad 200 použijte výše uvedený Rychlý výběr</string>
+    <string name="loading">Načítání...</string>
+    <string name="error">Chyba</string>
+    <string name="generating_page_previews">Generování náhledů stránek...</string>
+    <string name="page__thumbnail">Náhled stránky %1$s</string>
+    <string name="selected">Vybraný</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">Vyhledávání</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">Otočit PDF</string>
+    <string name="please_provide_the_password_to">Pro výběr vlastních stránek zadejte prosím heslo.</string>
+    <string name="rotation_angle">Úhel natočení</string>
+    <string name="page_selection">Výběr stránky</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">Změnit pořadí PDF</string>
+    <string name="use_the_arrow_buttons_to_reord">Pomocí tlačítek se šipkami můžete změnit pořadí stránek</string>
+    <string name="pages_">Stránky (%1$s)</string>
+    <string name="page_">Strana %1$s</string>
+    <string name="position__of_">Pozice: %1$s z %2$s</string>
+    <string name="drag_handle">Přetáhnout úchyt</string>
+    <string name="move_up">Posunout nahoru</string>
+    <string name="move_down">Přesunout dolů</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">Komprimovat PDF</string>
+    <string name="no_files_selected">Žádné soubory nejsou vybrány</string>
+    <string name="please_go_back_and_select_pdf_">Vraťte se prosím zpět a vyberte soubory PDF ke kompresi.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">Úspěch</string>
+    <string name="individual_results">Individuální výsledky</string>
+    <string name="done">Hotovo</string>
+    <string name="compression_complete">Komprese dokončena</string>
+    <string name="your_file_is_ready_and_much_li">Váš soubor je připravený a mnohem lehčí!</string>
+    <string name="before">PŘED</string>
+    <string name="after">PO</string>
+    <string name="total_saved">Celkem ušetřeno</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">MENŠÍ</string>
+    <string name="str__saved">%1$s% ušetřeno</string>
+    <string name="open">OTEVŘENO</string>
+    <string name="share">Podíl</string>
+    <string name="close">Blízko</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">Úroveň komprese</string>
+    <string name="recommended">Doporučeno</string>
+    <string name="str__compression">%1$s Komprese</string>
+    <string name="str__of_original_size">~%1$s% původní velikosti</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">Obrázky do PDF</string>
+    <string name="str__images_selected">Vybráno %1$s obrázků</string>
+    <string name="images_will_be_converted_in_th">Obrázky budou převedeny v níže uvedeném pořadí.</string>
+    <string name="remove">Odstranit</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">PDF do obrázků</string>
+    <string name="image_format">Formát obrázku</string>
+    <string name="image_quality_dpi">Kvalita obrazu (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">Sloučit PDF</string>
+    <string name="n_files_selected">Vybráno %1$d souborů</string>
+    <string name="n_file_selected">Vybrán soubor %1$d</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">Zamknout PDF</string>
+    <string name="password_protection">Ochrana heslem</string>
+    <string name="enter_a_password_to_protect_yo">Zadejte heslo pro ochranu PDF. Toto heslo budete potřebovat k otevření souboru.</string>
+    <string name="password">Heslo</string>
+    <string name="enter_password">Zadejte heslo</string>
+    <string name="confirm_password">Potvrzení hesla</string>
+    <string name="reenter_password">Znovu zadejte heslo</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">Vraťte se prosím zpět a vyberte soubor</string>
+    <string name="back">Zadní</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">Odemknout PDF</string>
+    <string name="current_password">Aktuální heslo</string>
+    <string name="enter_the_current_password_to_">Zadejte aktuální heslo pro odemčení tohoto PDF souboru</string>
+    <string name="enter_current_password">Zadejte aktuální heslo</string>
+    <string name="incorrect_password_please_try_">Nesprávné heslo. Zkuste to prosím znovu.</string>
+    <string name="new_password_optional">Nové heslo (volitelné)</string>
+    <string name="set_a_new_password_to_change_i">Chcete-li změnit heslo, nastavte ho nové, nebo ponechte pole prázdné, chcete-li ochranu heslem odstranit.</string>
+    <string name="new_password">Nové heslo</string>
+    <string name="enter_new_password">Zadejte nové heslo</string>
+    <string name="confirm_new_password">Potvrdit nové heslo</string>
+    <string name="reenter_new_password">Znovu zadejte nové heslo</string>
+    <string name="passwords_do_not_match">Hesla se neshodují</string>
+    <string name="compression_failed">Komprese selhala</string>
+    <string name="open_pdf">Otevřít PDF</string>
+    <string name="share_file">Sdílet soubor</string>
+    <string name="pages_deleted">Stránky smazány!</string>
+    <string name="delete_failed">Smazání se nezdařilo</string>
+    <string name="select_pages_to_delete">Vyberte stránky, které chcete smazat</string>
+    <string name="pdf_created">PDF vytvořeno!</string>
+    <string name="conversion_failed">Konverze se nezdařila</string>
+    <string name="pdf_locked_successfully">PDF úspěšně uzamčeno!</string>
+    <string name="lock_failed">Zámek selhal</string>
+    <string name="merge_complete">Sloučení dokončeno!</string>
+    <string name="merge_failed">Sloučení se nezdařilo</string>
+    <string name="conversion_complete">Konverze dokončena!</string>
+    <string name="reorder_complete">Objednávka dokončena!</string>
+    <string name="reorder_failed">Objednávka se nezdařilo</string>
+    <string name="rotation_complete">Rotace dokončena!</string>
+    <string name="rotation_failed">Rotace selhala</string>
+    <string name="select_pages_to_rotate">Vyberte stránky k otočení</string>
+    <string name="str__complete">%1$s Hotovo!</string>
+    <string name="str__failed">%1$s Selhalo</string>
+    <string name="unlock_failed">Odemknutí se nezdařilo</string>
+    <string name="your_pdfs_have_been_successfully_compres">Vaše PDF soubory byly úspěšně komprimovány</string>
+    <string name="we_couldnt_compress_your_pdfs">Nepodařilo se nám komprimovat vaše soubory PDF</string>
+    <string name="view_your_compressed_file">Zobrazení komprimovaného souboru</string>
+    <string name="send_to_others_or_apps">Odeslat ostatním nebo aplikacím</string>
+    <string name="your_pdf_has_been_successfully_modified">Váš PDF soubor byl úspěšně upraven</string>
+    <string name="we_couldnt_delete_the_pages">Stránky se nám nepodařilo smazat.</string>
+    <string name="your_images_have_been_converted_to_pdf">Vaše obrázky byly převedeny do PDF</string>
+    <string name="unable_to_create_pdf_from_images">Nelze vytvořit PDF z obrázků</string>
+    <string name="your_pdf_is_now_password_protected">Váš PDF je nyní chráněn heslem</string>
+    <string name="we_couldnt_lock_your_pdf">Nepodařilo se nám uzamknout váš PDF soubor.</string>
+    <string name="your_pdfs_have_been_successfully_merged">Vaše PDF soubory byly úspěšně sloučeny</string>
+    <string name="we_couldnt_merge_your_pdfs">Nepodařilo se nám sloučit vaše PDF soubory</string>
+    <string name="str__images_created_successfully">%1$s obrázků bylo úspěšně vytvořeno</string>
+    <string name="unable_to_convert_pdf_to_images">Nelze převést PDF do obrázků</string>
+    <string name="your_pdf_pages_have_been_successfully_re">Pořadí stránek vašeho PDF souboru bylo úspěšně změněno.</string>
+    <string name="we_couldnt_reorder_your_pdf">Nepodařilo se nám změnit pořadí vašeho PDF souboru</string>
+    <string name="your_pdf_has_been_successfully_rotated">Váš PDF soubor byl úspěšně otočen</string>
+    <string name="we_couldnt_rotate_your_pdf">Nepodařilo se nám otočit váš PDF soubor</string>
+    <string name="your_file_has_been_successfully_processe">Váš soubor byl úspěšně zpracován</string>
+    <string name="we_couldnt_process_your_file">Váš soubor se nám nepodařilo zpracovat.</string>
+    <string name="we_couldnt_unlock_your_pdf">Nepodařilo se nám odemknout váš PDF soubor</string>
+    <string name="clear_filter">Vymazat filtr</string>
+    <string name="clear">Jasný</string>
+    <string name="pick_a_tool_">Vyberte nástroj →</string>
+    <string name="drag_to_reorder">Přetažením změníte pořadí</string>
+    <string name="your_files_are_securely_processed_on_our">Vaše soubory jsou bezpečně zpracovávány na našich serverech pomocí šifrovaného připojení a automaticky smazány do 1 hodiny. Vaše data nikdy neukládáme ani nesdílíme.</string>
+    <string name="compression_quality">Kvalita komprese</string>
+    <string name="dragelevation">dragElevation</string>
+    <string name="tool_card_scale">měřítko_karty_tool_card</string>
+</resources>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">Futa Kurasa</string>
+    <string name="are_you_sure_you_want_to_delet">Una uhakika unataka kufuta kurasa zilizochaguliwa? Kitendo hiki hakiwezi kutenduliwa.</string>
+    <string name="delete">Futa</string>
+    <string name="cancel">Ghairi</string>
+    <string name="quick_selection">Uteuzi wa Haraka</string>
+    <string name="select_range">Chagua Kipengele cha Masafa</string>
+    <string name="select_all">Chagua Zote</string>
+    <string name="clear_all">Futa Zote</string>
+    <string name="select_page_range">Chagua Kipindi cha Ukurasa</string>
+    <string name="enter_the_range_of_pages_to_de">Ingiza safu ya kurasa za kufuta (1-%1$s)</string>
+    <string name="from">Kutoka</string>
+    <string name="to">Kwa</string>
+    <string name="select">Chagua</string>
+    <string name="please_go_back_and_select_a_pd">Tafadhali rudi nyuma na uchague PDF</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">Gawanya PDF</string>
+    <string name="str_1_file_selected">Faili 1 imechaguliwa</string>
+    <string name="no_file_selected">Hakuna faili iliyochaguliwa</string>
+    <string name="split_mode">Hali ya Kugawanyika</string>
+    <string name="fixed_segments">Sehemu Zisizobadilika</string>
+    <string name="custom_ranges">Safu Maalum</string>
+    <string name="segment_size">Ukubwa wa Sehemu</string>
+    <string name="this_will_create_multiple_pdfs">Hii itaunda PDF nyingi zenye idadi maalum ya kurasa kila moja. Ukubwa wa sehemu lazima uwe chini ya jumla ya kurasa ili kuunda mgawanyiko wenye maana. Kwa mfano, ikiwa faili chanzo ina kurasa 8 na ukiingiza 2, faili nne za PDF zitatengenezwa na kurasa 2 kila moja.</string>
+    <string name="pages_per_file">Kurasa kwa kila faili</string>
+    <string name="eg_2">mfano, 2</string>
+    <string name="total_number_of_pages_in_pdf__">Jumla ya idadi ya kurasa katika PDF: %1$d (ukubwa wa sehemu lazima uwe chini ya %1$d)</string>
+    <string name="this_will_create__output_files">Hii itaunda faili za matokeo %1$d</string>
+    <string name="this_will_create__output_file">Hii itaunda faili ya matokeo ya %1$d</string>
+    <string name="this_input_will_split_the_pdf_">Ingizo hili litagawanya PDF katika faili tofauti kulingana na masafa yako. Kwa mfano, "1-2,5,6-8" itaunda PDF 3: kwanza ikiwa na kurasa 1-2, pili ikiwa na ukurasa wa 5, na ya tatu ikiwa na kurasa 6-8.</string>
+    <string name="page_ranges">Safu za kurasa</string>
+    <string name="eg_1234571520">mfano, 1-2,3,4-5,7,15-20</string>
+    <string name="format_use_ranges_15_or_single">Muundo: Tumia masafa (1-5) au kurasa moja (7), yaliyotenganishwa na koma. Ni tarakimu, vistari, na koma pekee zinazoruhusiwa.</string>
+    <string name="split_preview">Gawanya Onyesho la Kuchungulia</string>
+    <string name="pdf_files_will_be_created">%1$d Faili za PDF zitaundwa</string>
+    <string name="pdf_file_will_be_created">%1$d Faili ya PDF itaundwa</string>
+    <string name="pdf_result_">Matokeo ya PDF %1$s</string>
+    <string name="str__and__more">... na %1$d zaidi</string>
+    <string name="splitting_pdf">Inagawanya PDF...</string>
+    <string name="checking_files">Inaangalia faili...</string>
+    <string name="page_n">Ukurasa %1$d</string>
+    <string name="pages_n_m">Kurasa %1$d-%2$d</string>
+    <string name="split_complete">Gawanya Imekamilika!</string>
+    <string name="split_failed">Mgawanyiko Umeshindwa</string>
+    <string name="we_couldnt_split_your_pdf">Hatukuweza kugawanya PDF yako</string>
+    <string name="your_pdf_has_been_successfully_split">PDF yako imegawanywa kwa mafanikio katika faili %1$d</string>
+    <string name="your_pdf_has_been_successfully_split_single">PDF yako imegawanywa kwa mafanikio katika faili ya %1$d</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">Zana za PDF</string>
+    <string name="image_tools">Zana za Picha</string>
+    <string name="str_30_tools_for_pdf">Zana 30+ za PDF</string>
+    <string name="tools_for_images">Zana za Picha</string>
+    <string name="no_tools_found">Hakuna zana zilizopatikana</string>
+    <string name="try_adjusting_your_search">Jaribu kurekebisha utafutaji wako</string>
+    <string name="history">Historia</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s ukurasa${ikiwa (Hesabu ya ukurasa &gt; 1) </string>
+    <string name="n_pages">%1$d kurasa</string>
+    <string name="n_page">%1$d ukurasa</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">Nenosiri linahitajika kwa PDF hii</string>
+    <string name="password_provided">Nenosiri limetolewa</string>
+    <string name="password_required">Nenosiri linahitajika</string>
+    <string name="open_file">Fungua faili</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">Imebanwa na </string>
+    <string name="error_details">Maelezo ya Hitilafu</string>
+    <string name="view">Tazama</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">%1$s kati ya %2$s kurasa zilizochaguliwa</string>
+    <string name="showing_first_200_pages">Inaonyesha kurasa 200 za kwanza</string>
+    <string name="use_quick_selection_above_for_">Tumia Uteuzi wa Haraka hapo juu kwa kurasa zaidi ya 200</string>
+    <string name="loading">Inapakia...</string>
+    <string name="error">Hitilafu</string>
+    <string name="generating_page_previews">Inazalisha hakiki za ukurasa...</string>
+    <string name="page__thumbnail">Ukurasa %1$s kijipicha</string>
+    <string name="selected">Imechaguliwa</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">Tafuta</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">Zungusha PDF</string>
+    <string name="please_provide_the_password_to">Tafadhali toa nenosiri ili kuchagua kurasa maalum</string>
+    <string name="rotation_angle">Pembe ya Mzunguko</string>
+    <string name="page_selection">Uteuzi wa Ukurasa</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">Panga upya PDF</string>
+    <string name="use_the_arrow_buttons_to_reord">Tumia vitufe vya mshale kupanga upya kurasa</string>
+    <string name="pages_">Kurasa (%1$s)</string>
+    <string name="page_">Ukurasa %1$s</string>
+    <string name="position__of_">Nafasi: %1$s ya %2$s</string>
+    <string name="drag_handle">Kipini cha kuburuta</string>
+    <string name="move_up">Sogea juu</string>
+    <string name="move_down">Sogeza chini</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">Bandika PDF</string>
+    <string name="no_files_selected">Hakuna faili zilizochaguliwa</string>
+    <string name="please_go_back_and_select_pdf_">Tafadhali rudi nyuma na uchague faili za PDF za kubana</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">Mafanikio</string>
+    <string name="individual_results">Matokeo ya Mtu Binafsi</string>
+    <string name="done">Imekamilika</string>
+    <string name="compression_complete">Ukandamizaji Umekamilika</string>
+    <string name="your_file_is_ready_and_much_li">Faili yako iko tayari na ni nyepesi zaidi!</string>
+    <string name="before">KABLA</string>
+    <string name="after">BAADA</string>
+    <string name="total_saved">Jumla Iliyohifadhiwa</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">NDOGO ZAIDI</string>
+    <string name="str__saved">%1$s% imehifadhiwa</string>
+    <string name="open">Fungua</string>
+    <string name="share">Shiriki</string>
+    <string name="close">Funga</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">Kiwango cha Mgandamizo</string>
+    <string name="recommended">Imependekezwa</string>
+    <string name="str__compression">%1$s Mgandamizo</string>
+    <string name="str__of_original_size">~%1$s% ya ukubwa asili</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">Picha kwa PDF</string>
+    <string name="str__images_selected">%1$s picha zimechaguliwa</string>
+    <string name="images_will_be_converted_in_th">Picha zitabadilishwa kwa mpangilio unaoonyeshwa hapa chini</string>
+    <string name="remove">Ondoa</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">PDF hadi Picha</string>
+    <string name="image_format">Muundo wa Picha</string>
+    <string name="image_quality_dpi">Ubora wa Picha (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">Unganisha PDF</string>
+    <string name="n_files_selected">%1$d faili zilizochaguliwa</string>
+    <string name="n_file_selected">%1$d faili imechaguliwa</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">Funga PDF</string>
+    <string name="password_protection">Ulinzi wa Nenosiri</string>
+    <string name="enter_a_password_to_protect_yo">Ingiza nenosiri ili kulinda PDF yako. Utahitaji nenosiri hili ili kufungua faili.</string>
+    <string name="password">Nenosiri</string>
+    <string name="enter_password">Ingiza nenosiri</string>
+    <string name="confirm_password">Thibitisha Nenosiri</string>
+    <string name="reenter_password">Weka nenosiri tena</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">Tafadhali rudi nyuma na uchague faili</string>
+    <string name="back">Rudi</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">Fungua PDF</string>
+    <string name="current_password">Nenosiri la Sasa</string>
+    <string name="enter_the_current_password_to_">Ingiza nenosiri la sasa ili kufungua PDF hii</string>
+    <string name="enter_current_password">Ingiza nenosiri la sasa</string>
+    <string name="incorrect_password_please_try_">Nenosiri si sahihi. Tafadhali jaribu tena.</string>
+    <string name="new_password_optional">Nenosiri Jipya (Si lazima)</string>
+    <string name="set_a_new_password_to_change_i">Weka nenosiri jipya ili kulibadilisha, au acha tupu ili kuondoa ulinzi wa nenosiri</string>
+    <string name="new_password">Nenosiri Jipya</string>
+    <string name="enter_new_password">Ingiza nenosiri jipya</string>
+    <string name="confirm_new_password">Thibitisha Nenosiri Jipya</string>
+    <string name="reenter_new_password">Ingiza tena nenosiri jipya</string>
+    <string name="passwords_do_not_match">Manenosiri hayalingani</string>
+    <string name="compression_failed">Ukandamizaji Umeshindwa</string>
+    <string name="open_pdf">Fungua PDF</string>
+    <string name="share_file">Shiriki Faili</string>
+    <string name="pages_deleted">Kurasa Zimefutwa!</string>
+    <string name="delete_failed">Imeshindwa Kufuta</string>
+    <string name="select_pages_to_delete">Chagua Kurasa za Kufuta</string>
+    <string name="pdf_created">PDF Imeundwa!</string>
+    <string name="conversion_failed">Ubadilishaji Umeshindwa</string>
+    <string name="pdf_locked_successfully">PDF Imefungwa kwa Mafanikio!</string>
+    <string name="lock_failed">Kufuli Kumeshindwa</string>
+    <string name="merge_complete">Unganisha Imekamilika!</string>
+    <string name="merge_failed">Kuunganisha Kumeshindwa</string>
+    <string name="conversion_complete">Ubadilishaji Umekamilika!</string>
+    <string name="reorder_complete">Agiza Upya Imekamilika!</string>
+    <string name="reorder_failed">Upangaji Upya Umeshindwa</string>
+    <string name="rotation_complete">Mzunguko Umekamilika!</string>
+    <string name="rotation_failed">Mzunguko Umeshindwa</string>
+    <string name="select_pages_to_rotate">Chagua Kurasa za Kuzungusha</string>
+    <string name="str__complete">%1$s Imekamilika!</string>
+    <string name="str__failed">%1$s Imeshindwa</string>
+    <string name="unlock_failed">Kufungua Kumeshindwa</string>
+    <string name="your_pdfs_have_been_successfully_compres">PDF zako zimebanwa kwa ufanisi</string>
+    <string name="we_couldnt_compress_your_pdfs">Hatukuweza kubana PDF zako</string>
+    <string name="view_your_compressed_file">Tazama faili yako iliyobanwa</string>
+    <string name="send_to_others_or_apps">Tuma kwa wengine au programu</string>
+    <string name="your_pdf_has_been_successfully_modified">PDF yako imebadilishwa kwa ufanisi</string>
+    <string name="we_couldnt_delete_the_pages">Hatukuweza kufuta kurasa hizo</string>
+    <string name="your_images_have_been_converted_to_pdf">Picha zako zimebadilishwa kuwa PDF</string>
+    <string name="unable_to_create_pdf_from_images">Haiwezi kuunda PDF kutoka kwa picha</string>
+    <string name="your_pdf_is_now_password_protected">PDF yako sasa inalindwa kwa nenosiri</string>
+    <string name="we_couldnt_lock_your_pdf">Hatukuweza kufunga PDF yako</string>
+    <string name="your_pdfs_have_been_successfully_merged">PDF zako zimeunganishwa kwa ufanisi</string>
+    <string name="we_couldnt_merge_your_pdfs">Hatukuweza kuunganisha PDF zako</string>
+    <string name="str__images_created_successfully">%1$s picha zimeundwa kwa mafanikio</string>
+    <string name="unable_to_convert_pdf_to_images">Haiwezi kubadilisha PDF kuwa picha</string>
+    <string name="your_pdf_pages_have_been_successfully_re">Kurasa zako za PDF zimepangwa upya kwa ufanisi</string>
+    <string name="we_couldnt_reorder_your_pdf">Hatukuweza kupanga upya PDF yako</string>
+    <string name="your_pdf_has_been_successfully_rotated">PDF yako imezungushwa kwa ufanisi</string>
+    <string name="we_couldnt_rotate_your_pdf">Hatukuweza kuzungusha PDF yako</string>
+    <string name="your_file_has_been_successfully_processe">Faili yako imechakatwa kwa ufanisi</string>
+    <string name="we_couldnt_process_your_file">Hatukuweza kuchakata faili yako</string>
+    <string name="we_couldnt_unlock_your_pdf">Hatukuweza kufungua PDF yako</string>
+    <string name="clear_filter">Futa kichujio</string>
+    <string name="clear">Wazi</string>
+    <string name="pick_a_tool_">Chagua kifaa →</string>
+    <string name="drag_to_reorder">Buruta ili kupanga upya</string>
+    <string name="your_files_are_securely_processed_on_our">Faili zako hushughulikiwa kwa usalama kwenye seva zetu kwa kutumia miunganisho iliyosimbwa kwa njia fiche na hufutwa kiotomatiki ndani ya saa 1. Hatuhifadhi au kushiriki data yako kamwe.</string>
+    <string name="compression_quality">Ubora wa kubana</string>
+    <string name="dragelevation">Kuinua</string>
+    <string name="tool_card_scale">kipimo_cha_kadi_ya_zana</string>
+</resources>

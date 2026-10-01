@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">ገጾችን ሰርዝ</string>
+    <string name="are_you_sure_you_want_to_delet">የተመረጡትን ገጾች መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት? ይህ እርምጃ ሊቀለበስ አይችልም።</string>
+    <string name="delete">ሰርዝ</string>
+    <string name="cancel">ሰርዝ</string>
+    <string name="quick_selection">ፈጣን ምርጫ</string>
+    <string name="select_range">ክልል ይምረጡ</string>
+    <string name="select_all">ሁሉንም ምረጥ</string>
+    <string name="clear_all">ሁሉንም አጽዳ</string>
+    <string name="select_page_range">የገጽ ክልል ይምረጡ</string>
+    <string name="enter_the_range_of_pages_to_de">የሚሰርዟቸውን የገጾች ክልል ያስገቡ (1-%1$s)</string>
+    <string name="from">ከ</string>
+    <string name="to">ወደ</string>
+    <string name="select">ምረጥ</string>
+    <string name="please_go_back_and_select_a_pd">እባክዎ ተመልሰው ይሂዱ እና ፒዲኤፍ ይምረጡ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">ፒዲኤፍ ክፈል</string>
+    <string name="str_1_file_selected">1 ፋይል ተመርጧል</string>
+    <string name="no_file_selected">ምንም ፋይል አልተመረጠም</string>
+    <string name="split_mode">የተከፈለ ሁነታ</string>
+    <string name="fixed_segments">የተስተካከሉ ክፍሎች</string>
+    <string name="custom_ranges">ብጁ ክልሎች</string>
+    <string name="segment_size">የክፍል መጠን</string>
+    <string name="this_will_create_multiple_pdfs">ይህ እያንዳንዳቸው በተጠቀሰው የገጾች ብዛት በርካታ ፒዲኤፎችን ይፈጥራል። ትርጉም ያላቸው ክፍተቶችን ለመፍጠር የክፍሉ መጠን ከጠቅላላው ገጾች ያነሰ መሆን አለበት። ለምሳሌ፣ የምንጭ ፋይሉ 8 ገጾች ካሉት እና 2 ካስገቡ፣ እያንዳንዳቸው 2 ገጾች ያሉት አራት የፒዲኤፍ ፋይሎች ይፈጠራሉ።</string>
+    <string name="pages_per_file">ገጾች በፋይል</string>
+    <string name="eg_2">ለምሳሌ፣ 2</string>
+    <string name="total_number_of_pages_in_pdf__">በፒዲኤፍ ውስጥ ያሉት አጠቃላይ የገጾች ብዛት፦ %1$d (የክፍሉ መጠን ከ %1$d ያነሰ መሆን አለበት)</string>
+    <string name="this_will_create__output_files">ይህ %1$d የውጤት ፋይሎችን ይፈጥራል</string>
+    <string name="this_will_create__output_file">ይህ %1$d የውጤት ፋይል ይፈጥራል</string>
+    <string name="this_input_will_split_the_pdf_">ይህ ግቤት ፒዲኤፉን እንደ ክልልዎ መሰረት ወደ ተለያዩ ፋይሎች ይከፍለዋል። ለምሳሌ፣ "1-2,5,6-8" 3 ፒዲኤፎችን ይፈጥራል፡ መጀመሪያ ከገጽ 1-2፣ ሁለተኛ ከገጽ 5 እና ሶስተኛ ከገጽ 6-8 ጋር።</string>
+    <string name="page_ranges">የገጽ ክልሎች</string>
+    <string name="eg_1234571520">ለምሳሌ፣ 1-2,3,4-5,7,15-20</string>
+    <string name="format_use_ranges_15_or_single">ቅርጸት፡ በኮማዎች የተለዩ ክልሎችን (1-5) ወይም ነጠላ ገጾችን (7) ይጠቀሙ። አሃዞች፣ ሰረዞች እና ኮማዎች ብቻ ይፈቀዳሉ።</string>
+    <string name="split_preview">የተከፈለ ቅድመ እይታ</string>
+    <string name="pdf_files_will_be_created">%1$d የፒዲኤፍ ፋይሎች ይፈጠራሉ</string>
+    <string name="pdf_file_will_be_created">%1$d የፒዲኤፍ ፋይል ይፈጠራል</string>
+    <string name="pdf_result_">የፒዲኤፍ ውጤት %1$s</string>
+    <string name="str__and__more">... እና %1$d ተጨማሪ</string>
+    <string name="splitting_pdf">ፒዲኤፍን በመከፋፈል ላይ...</string>
+    <string name="checking_files">ፋይሎችን በመፈተሽ ላይ...</string>
+    <string name="page_n">ገጽ %1$d</string>
+    <string name="pages_n_m">ገጾች %1$d-%2$d</string>
+    <string name="split_complete">መከፋፈል ተጠናቋል!</string>
+    <string name="split_failed">መከፋፈል አልተሳካም</string>
+    <string name="we_couldnt_split_your_pdf">የእርስዎን ፒዲኤፍ መክፈል አልቻልንም።</string>
+    <string name="your_pdf_has_been_successfully_split">የእርስዎ ፒዲኤፍ በተሳካ ሁኔታ ወደ %1$d ፋይሎች ተከፍሏል</string>
+    <string name="your_pdf_has_been_successfully_split_single">የእርስዎ ፒዲኤፍ በተሳካ ሁኔታ ወደ %1$d ፋይል ተከፍሏል</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">የፒዲኤፍ መሳሪያዎች</string>
+    <string name="image_tools">የምስል መሳሪያዎች</string>
+    <string name="str_30_tools_for_pdf">ከ30+ በላይ ለፒዲኤፍ የሚሆኑ መሳሪያዎች</string>
+    <string name="tools_for_images">ለምስሎች የሚሆኑ መሳሪያዎች</string>
+    <string name="no_tools_found">ምንም መሳሪያዎች አልተገኙም</string>
+    <string name="try_adjusting_your_search">ፍለጋዎን ለማስተካከል ይሞክሩ</string>
+    <string name="history">ታሪክ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s ገጽ${if (ገጽቁጥር &gt; 1) </string>
+    <string name="n_pages">%1$d ገጾች</string>
+    <string name="n_page">%1$d ገጽ</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">ለዚህ ፒዲኤፍ የይለፍ ቃል ያስፈልጋል</string>
+    <string name="password_provided">የይለፍ ቃል ቀርቧል</string>
+    <string name="password_required">የይለፍ ቃል ያስፈልጋል</string>
+    <string name="open_file">ፋይል ክፈት</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">የተጨመቀው በ </string>
+    <string name="error_details">የስህተት ዝርዝሮች</string>
+    <string name="view">ይመልከቱ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">%1$s ከ %2$s ገጾች ተመርጠዋል</string>
+    <string name="showing_first_200_pages">የመጀመሪያዎቹን 200 ገጾች በማሳየት ላይ</string>
+    <string name="use_quick_selection_above_for_">ከ200 በላይ ለሆኑ ገጾች ከላይ ያለውን ፈጣን ምርጫ ይጠቀሙ</string>
+    <string name="loading">በመጫን ላይ...</string>
+    <string name="error">ስህተት</string>
+    <string name="generating_page_previews">የገጽ ቅድመ-እይታዎችን በማመንጨት ላይ...</string>
+    <string name="page__thumbnail">ገጽ %1$s ድንክዬ</string>
+    <string name="selected">ተመርጧል</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">ፈልግ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">ፒዲኤፍ አሽከርክር</string>
+    <string name="please_provide_the_password_to">ብጁ ገጾችን ለመምረጥ የይለፍ ቃሉን እባክዎ ያቅርቡ</string>
+    <string name="rotation_angle">የማዞሪያ አንግል</string>
+    <string name="page_selection">የገጽ ምርጫ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">ፒዲኤፍ እንደገና ይዘዙ</string>
+    <string name="use_the_arrow_buttons_to_reord">ገጾችን እንደገና ለማደራጀት የቀስት ቁልፎቹን ይጠቀሙ</string>
+    <string name="pages_">ገጾች (%1$s)</string>
+    <string name="page_">ገጽ %1$s</string>
+    <string name="position__of_">አቀማመጥ፦ %1$s ከ %2$s</string>
+    <string name="drag_handle">የመጎተት እጀታ</string>
+    <string name="move_up">ወደ ላይ ውሰድ</string>
+    <string name="move_down">ወደ ታች ውሰድ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">ፒዲኤፍ ጨመቅ</string>
+    <string name="no_files_selected">ምንም ፋይሎች አልተመረጡም</string>
+    <string name="please_go_back_and_select_pdf_">እባክዎ ተመልሰው ይሂዱ እና ለመጭመቅ የፒዲኤፍ ፋይሎችን ይምረጡ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">ስኬት</string>
+    <string name="individual_results">የግለሰብ ውጤቶች</string>
+    <string name="done">ተጠናቅቋል</string>
+    <string name="compression_complete">መጭመቂያ ተጠናቋል</string>
+    <string name="your_file_is_ready_and_much_li">ፋይልዎ ዝግጁ እና በጣም ቀላል ነው!</string>
+    <string name="before">ከዚህ በፊት</string>
+    <string name="after">በኋላ</string>
+    <string name="total_saved">ጠቅላላ የተቆጠበ</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">ትንሽ</string>
+    <string name="str__saved">%1$s% ተቆጥቧል</string>
+    <string name="open">ክፈት</string>
+    <string name="share">አጋራ</string>
+    <string name="close">ገጠመ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">የመጭመቂያ ደረጃ</string>
+    <string name="recommended">የሚመከር</string>
+    <string name="str__compression">%1$s መጭመቂያ</string>
+    <string name="str__of_original_size">~%1$s% የመጀመሪያው መጠን</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">ምስሎች ወደ ፒዲኤፍ</string>
+    <string name="str__images_selected">%1$s ምስሎች ተመርጠዋል</string>
+    <string name="images_will_be_converted_in_th">ምስሎቹ ከታች በሚታየው ቅደም ተከተል ይቀየራሉ</string>
+    <string name="remove">አስወግድ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">ፒዲኤፍ ወደ ምስሎች</string>
+    <string name="image_format">የምስል ቅርጸት</string>
+    <string name="image_quality_dpi">የምስል ጥራት (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">ፒዲኤፍን አዋህድ</string>
+    <string name="n_files_selected">%1$d ፋይሎች ተመርጠዋል</string>
+    <string name="n_file_selected">%1$d ፋይል ተመርጧል</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">ፒዲኤፍ ቆልፍ</string>
+    <string name="password_protection">የይለፍ ቃል ጥበቃ</string>
+    <string name="enter_a_password_to_protect_yo">የእርስዎን ፒዲኤፍ ለመጠበቅ የይለፍ ቃል ያስገቡ። ፋይሉን ለመክፈት ይህ የይለፍ ቃል ያስፈልግዎታል።</string>
+    <string name="password">የይለፍ ቃል</string>
+    <string name="enter_password">የይለፍ ቃል ያስገቡ</string>
+    <string name="confirm_password">የይለፍ ቃል አረጋግጥ</string>
+    <string name="reenter_password">የይለፍ ቃል ድጋሚ ያስገቡ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">እባክዎ ተመልሰው ፋይል ይምረጡ</string>
+    <string name="back">ተመለስ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">ፒዲኤፍ ይክፈቱ</string>
+    <string name="current_password">የአሁኑ ሚስጥራዊ ማለፊያ ቁልፍ</string>
+    <string name="enter_the_current_password_to_">ይህንን ፒዲኤፍ ለመክፈት የአሁኑን የይለፍ ቃል ያስገቡ</string>
+    <string name="enter_current_password">የአሁኑን የይለፍ ቃል ያስገቡ</string>
+    <string name="incorrect_password_please_try_">የተሳሳተ የይለፍ ቃል። እባክዎ እንደገና ይሞክሩ።</string>
+    <string name="new_password_optional">አዲስ የይለፍ ቃል (አማራጭ)</string>
+    <string name="set_a_new_password_to_change_i">የይለፍ ቃል ለመቀየር አዲስ የይለፍ ቃል ያዘጋጁ ወይም የይለፍ ቃል ጥበቃን ለማስወገድ ባዶ ይተዉት</string>
+    <string name="new_password">አዲስ የይለፍ ቃል</string>
+    <string name="enter_new_password">አዲስ የይለፍ ቃል ያስገቡ</string>
+    <string name="confirm_new_password">አዲሱን የይለፍ ቃል ያረጋግጡ</string>
+    <string name="reenter_new_password">አዲስ የይለፍ ቃል እንደገና ያስገቡ</string>
+    <string name="passwords_do_not_match">የይለፍ ቃሎች አይዛመዱም</string>
+    <string name="compression_failed">መጭመቅ አልተሳካም</string>
+    <string name="open_pdf">ፒዲኤፍ ክፈት</string>
+    <string name="share_file">ፋይል አጋራ</string>
+    <string name="pages_deleted">ገጾች ተሰርዘዋል!</string>
+    <string name="delete_failed">መሰረዝ አልተሳካም</string>
+    <string name="select_pages_to_delete">የሚሰረዙ ገጾችን ይምረጡ</string>
+    <string name="pdf_created">ፒዲኤፍ ተፈጠረ!</string>
+    <string name="conversion_failed">ልወጣ አልተሳካም</string>
+    <string name="pdf_locked_successfully">ፒዲኤፍ በተሳካ ሁኔታ ተቆልፏል!</string>
+    <string name="lock_failed">መቆለፊያ አልተሳካም</string>
+    <string name="merge_complete">ውህደት ተጠናቋል!</string>
+    <string name="merge_failed">ውህደት አልተሳካም</string>
+    <string name="conversion_complete">ልወጣ ተጠናቋል!</string>
+    <string name="reorder_complete">ዳግም ማዘዝ ተጠናቋል!</string>
+    <string name="reorder_failed">ዳግም ማዘዝ አልተሳካም</string>
+    <string name="rotation_complete">ማዞሪያው ተጠናቋል!</string>
+    <string name="rotation_failed">ማሽከርከር አልተሳካም</string>
+    <string name="select_pages_to_rotate">የሚሽከረከሩ ገጾችን ይምረጡ</string>
+    <string name="str__complete">%1$s ተጠናቋል!</string>
+    <string name="str__failed">%1$s አልተሳካም</string>
+    <string name="unlock_failed">መክፈት አልተሳካም</string>
+    <string name="your_pdfs_have_been_successfully_compres">የእርስዎ ፒዲኤፎች በተሳካ ሁኔታ ተጨምቀዋል</string>
+    <string name="we_couldnt_compress_your_pdfs">የእርስዎን ፒዲኤፎች መጭመቅ አልቻልንም</string>
+    <string name="view_your_compressed_file">የተጨመቀውን ፋይልዎን ይመልከቱ</string>
+    <string name="send_to_others_or_apps">ለሌሎች ወይም ለመተግበሪያዎች ይላኩ</string>
+    <string name="your_pdf_has_been_successfully_modified">የእርስዎ ፒዲኤፍ በተሳካ ሁኔታ ተሻሽሏል</string>
+    <string name="we_couldnt_delete_the_pages">ገጾቹን መሰረዝ አልቻልንም</string>
+    <string name="your_images_have_been_converted_to_pdf">ምስሎችዎ ወደ ፒዲኤፍ ተቀይረዋል</string>
+    <string name="unable_to_create_pdf_from_images">ፒዲኤፍ ከምስሎች መፍጠር አልተቻለም</string>
+    <string name="your_pdf_is_now_password_protected">የእርስዎ ፒዲኤፍ አሁን በይለፍ ቃል የተጠበቀ ነው</string>
+    <string name="we_couldnt_lock_your_pdf">የእርስዎን ፒዲኤፍ መቆለፍ አልቻልንም</string>
+    <string name="your_pdfs_have_been_successfully_merged">የእርስዎ ፒዲኤፎች በተሳካ ሁኔታ ተዋህደዋል</string>
+    <string name="we_couldnt_merge_your_pdfs">የእርስዎን ፒዲኤፎች ማዋሃድ አልቻልንም</string>
+    <string name="str__images_created_successfully">%1$s ምስሎች በተሳካ ሁኔታ ተፈጥረዋል</string>
+    <string name="unable_to_convert_pdf_to_images">ፒዲኤፍ ወደ ምስሎች መቀየር አልተቻለም</string>
+    <string name="your_pdf_pages_have_been_successfully_re">የፒዲኤፍ ገጾችዎ በተሳካ ሁኔታ እንደገና ተደርድረዋል</string>
+    <string name="we_couldnt_reorder_your_pdf">የእርስዎን ፒዲኤፍ እንደገና ማዘዝ አልቻልንም</string>
+    <string name="your_pdf_has_been_successfully_rotated">የእርስዎ ፒዲኤፍ በተሳካ ሁኔታ ተሽከረክሯል</string>
+    <string name="we_couldnt_rotate_your_pdf">የእርስዎን ፒዲኤፍ ማሽከርከር አልቻልንም</string>
+    <string name="your_file_has_been_successfully_processe">ፋይልዎ በተሳካ ሁኔታ ተሰርቷል</string>
+    <string name="we_couldnt_process_your_file">ፋይልዎን ማስኬድ አልቻልንም</string>
+    <string name="we_couldnt_unlock_your_pdf">የእርስዎን ፒዲኤፍ መክፈት አልቻልንም</string>
+    <string name="clear_filter">ማጣሪያውን አጽዳ</string>
+    <string name="clear">አጽዳ</string>
+    <string name="pick_a_tool_">መሳሪያ ይምረጡ →</string>
+    <string name="drag_to_reorder">እንደገና ለመደርደር ይጎትቱ</string>
+    <string name="your_files_are_securely_processed_on_our">ፋይሎችዎ በአገልጋዮቻችን ላይ በተመሰጠሩ ግንኙነቶች ደህንነቱ በተጠበቀ ሁኔታ ይከናወናሉ እና በ1 ሰዓት ውስጥ በራስ-ሰር ይሰረዛሉ። ውሂብዎን በጭራሽ አናከማችም ወይም አናጋራም።</string>
+    <string name="compression_quality">የመጭመቂያ ጥራት</string>
+    <string name="dragelevation">ድራግኢልቬሽን</string>
+    <string name="tool_card_scale">የመሳሪያ_ካርድ_ልኬት</string>
+</resources>

@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">पीडीएफ मैजिक</string>
+    <string name="app_tagline">आप क्या करना चाहेंगे?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">अंतिम समय प्रयोग हुआ</string>
+    <string name="home_favorites">पसंदीदा</string>
+    <string name="home_new_tool">नया उपकरण</string>
+    <string name="home_featured">प्रदर्शित</string>
+    <string name="home_scan_to_pdf">पीडीएफ में स्कैन करें</string>
+    <string name="home_scan_description">कागज़ी दस्तावेज़ों को पल भर में डिजिटल जादू में बदलें</string>
+    <string name="home_start_scanning">स्कैनिंग शुरू करें</string>
+    <string name="home_all_tools">सभी उपकरण</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">पीडीएफ उपकरण</string>
+    <string name="image_tools">छवि उपकरण</string>
+    <string name="tools_split">विभाजित करना</string>
+    <string name="tools_split_description">पृष्ठ निकालें</string>
+    <string name="tools_rotate">घुमाएँ</string>
+    <string name="tools_rotate_description">अभिविन्यास ठीक करें</string>
+    <string name="tools_delete_pages">पृष्ठ हटाएं</string>
+    <string name="tools_delete_pages_description">अवांछित चीज़ें हटाएँ</string>
+    <string name="tools_convert">बदलना</string>
+    <string name="tools_convert_description">छवियों से/तक</string>
+    <string name="tools_sign">संकेत</string>
+    <string name="tools_sign_description">हस्ताक्षर जोड़ें</string>
+    <string name="tools_protect">रक्षा करना</string>
+    <string name="tools_protect_description">पासवर्ड सुरक्षा</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">पीडीएफ व्यूअर</string>
+    <string name="pdf_viewer_page_info">पृष्ठ %1$d का %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">दस्तावेज़ स्कैनर</string>
+    <string name="scanner_capture">कब्जा</string>
+    <string name="scanner_retake">फिर से लेना</string>
+    <string name="scanner_save">बचाना</string>
+    <!-- Navigation -->
+    <string name="nav_back">वापस जाएँ</string>
+    <string name="nav_settings">सेटिंग्स</string>
+    <string name="nav_more_options">अधिक विकल्प</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">घर</string>
+    <string name="nav_library">पुस्तकालय</string>
+    <string name="nav_scan">स्कैन</string>
+    <string name="nav_tools">औजार</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">फ़ाइलों को ब्राउज़ करें</string>
+    <string name="browse_files_subtitle">संग्रहण &amp; क्लाउड फ़ाइलें</string>
+    <string name="show_hidden_files">छिपी हुई फ़ाइलें दिखाएँ</string>
+    <string name="hide_hidden_files">छिपी हुई फ़ाइलों को छुपाएँ</string>
+    <string name="refresh_storage">संग्रहण को रीफ़्रेश करें</string>
+    <string name="no_storage_available">भंडारण उपलब्ध नहीं है</string>
+    <string name="no_files_found">कोई फाईल नहीं मिली</string>
+    <string name="add_files">%1$d फ़ाइलें जोड़ें</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">भंडारण की अनुमति आवश्यक है</string>
+    <string name="permission_storage_message">पीडीएफ फाइलों को ब्राउज़ करने और खोलने के लिए इस ऐप को आपके डिवाइस स्टोरेज तक पहुंच की आवश्यकता है। कृपया जारी रखने के लिए स्टोरेज की अनुमति दें।</string>
+    <string name="permission_grant">अनुमति प्रदान करें</string>
+    <!-- Common Actions -->
+    <string name="action_open">खुला</string>
+    <string name="action_save">बचाना</string>
+    <string name="action_share">शेयर करना</string>
+    <string name="action_delete">मिटाना</string>
+    <string name="action_cancel">रद्द करना</string>
+    <string name="action_confirm">पुष्टि करना</string>
+    <string name="action_rename">नाम बदलें</string>
+    <string name="action_print">छाप</string>
+    <string name="action_favorite">पसंदीदा</string>
+    <string name="action_unfavorite">नापसंद करें</string>
+    <!-- Document Actions -->
+    <string name="document_share">दस्तावेज़ साझा करें</string>
+    <string name="document_rename">दस्तावेज़ का नाम बदलें</string>
+    <string name="document_delete">दस्तावेज़ हटाएं</string>
+    <string name="document_print">दस्तावेज़ प्रिंट करें</string>
+    <string name="document_favorite">पसंदीदा में जोड़े</string>
+    <string name="document_unfavorite">पसंदीदा से हटाएं</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">दस्तावेज़ सफलतापूर्वक साझा किया गया</string>
+    <string name="document_share_failed">दस्तावेज़ साझा करने में विफल</string>
+    <string name="document_renamed_success">दस्तावेज़ का नाम सफलतापूर्वक बदल दिया गया</string>
+    <string name="document_rename_failed">दस्तावेज़ का नाम बदलने में विफल</string>
+    <string name="document_deleted_success">दस्तावेज़ सफलतापूर्वक हटा दिया गया</string>
+    <string name="document_delete_failed">दस्तावेज़ हटाने में विफल</string>
+    <string name="document_print_opened">दस्तावेज़ डिफ़ॉल्ट PDF व्यूअर में खुल गया है। प्रिंट करने के लिए व्यूअर के प्रिंट फ़ंक्शन का उपयोग करें।</string>
+    <string name="document_print_failed">दस्तावेज़ प्रिंट करने में विफल</string>
+    <string name="document_added_to_favorites">पसंदीदा में जोड़ा गया</string>
+    <string name="document_removed_from_favorites">पसंदीदा सूची से हटा दिया गया</string>
+    <string name="document_favorite_failed">पसंदीदा स्थिति अपडेट करने में विफल</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">दस्तावेज़ का नाम बदलें</string>
+    <string name="dialog_rename_hint">नया नाम दर्ज करें</string>
+    <string name="dialog_rename_empty_error">दस्तावेज़ का नाम खाली नहीं हो सकता</string>
+    <string name="dialog_delete_title">दस्तावेज़ हटाएं</string>
+    <string name="dialog_delete_file_message">इससे फ़ाइल स्थायी रूप से डिलीट हो जाएगी।\n\nडिलीट %1$s?</string>
+    <string name="dialog_delete_uri_message">केवल ऐप से हटाएं। मूल फ़ाइल अपरिवर्तित रहेगी।\n\nक्या %1$s को ऐप से हटाना है?</string>
+    <string name="dialog_delete_confirm">मिटाना</string>
+    <string name="dialog_remove_confirm">निकालना</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">नाम केवल ऐप के अंदर ही बदला जाता है। मूल फ़ाइल अपरिवर्तित रहती है।</string>
+    <string name="notice_delete_uri_only">ऐप से हटा दिया गया। मूल फ़ाइल अपरिवर्तित है।</string>
+    <string name="notice_file_exists_error">इस नाम की एक फ़ाइल पहले से मौजूद है</string>
+    <string name="notice_file_not_found_error">फ़ाइल प्राप्त नहीं हुई</string>
+    <string name="notice_no_active_document">कोई सक्रिय दस्तावेज़ नहीं</string>
+    <string name="notice_document_path_unavailable">दस्तावेज़ फ़ाइल पथ उपलब्ध नहीं है</string>
+    <!-- States -->
+    <string name="state_loading">लोड हो रहा है...</string>
+    <string name="state_empty">कोई आइटम नहीं मिला</string>
+    <string name="state_error">कुछ गलत हो गया</string>
+    <string name="state_retry">पुन: प्रयास करें</string>
+    <!-- Errors -->
+    <string name="error_network">नेटवर्क कनेक्शन विफल हो गया</string>
+    <string name="error_file_not_found">फ़ाइल प्राप्त नहीं हुई</string>
+    <string name="error_permission_denied">अनुमति नहीं मिली</string>
+    <string name="error_invalid_file">अमान्य फाइल प्रारूप</string>
+    <string name="error_password_required">पासवर्ड आवश्यक है</string>
+    <string name="error_incorrect_password">गलत पासवर्ड</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">पासवर्ड से सुरक्षित</string>
+    <string name="password_protected_message">इस फ़ाइल को खोलने के लिए पासवर्ड की आवश्यकता है। कृपया इसे नीचे दर्ज करें।</string>
+    <string name="password_label">पासवर्ड</string>
+    <string name="password_placeholder">पास वर्ड दर्ज करें</string>
+    <string name="password_unlock">अनलॉक</string>
+    <string name="password_show">पासवर्ड दिखाए</string>
+    <string name="password_hide">पासवर्ड छिपाएं</string>
+    <!-- Theme -->
+    <string name="theme_light">रोशनी</string>
+    <string name="theme_dark">अँधेरा</string>
+    <string name="theme_system">प्रणाली</string>
+    <string name="theme_adaptive">अनुकूली</string>
+    <string name="theme_custom">रिवाज़</string>
+    <!-- Settings -->
+    <string name="settings_title">प्राथमिकताएँ</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">खाता &amp; सिंक</string>
+    <string name="settings_category_sync_subtitle">अपना खाता प्रबंधित करें, गोपनीयता को सिंक करें &amp;</string>
+    <string name="settings_category_appearance_title">उपस्थिति</string>
+    <string name="settings_category_appearance_subtitle">ऐप के लुक और फील को कस्टमाइज़ करें &amp;</string>
+    <string name="settings_category_pdf_reader_title">पीडीएफ रीडर</string>
+    <string name="settings_category_pdf_reader_subtitle">डिफ़ॉल्ट दर्शक &amp; पठन अनुभव</string>
+    <string name="settings_category_help_title">सहायता &amp; समर्थन</string>
+    <string name="settings_category_help_subtitle">प्रलेखन &amp; संपर्क</string>
+    <string name="settings_category_general_title">सामान्य</string>
+    <string name="settings_category_general_subtitle">भाषा &amp; ऐप जानकारी</string>
+    <string name="settings_theme_section">विषय</string>
+    <string name="settings_theme_description">अपनी पसंदीदा थीम चुनें</string>
+    <string name="settings_accent_color">एक्सेंट कलर</string>
+    <string name="settings_custom_colors">अनुकूलित रंग</string>
+    <string name="settings_primary_color">प्राथमिक रंग</string>
+    <string name="settings_background_color">पृष्ठभूमि का रंग</string>
+    <string name="settings_surface_color">सतह का रंग</string>
+    <string name="settings_reset_colors">वितथ पर ले जाएं</string>
+    <string name="settings_adaptive_note">मटेरियल यू एडैप्टिव कलर्स (एंड्रॉइड 12+)</string>
+    <string name="settings_app_section">ऐप सेटिंग्स</string>
+    <string name="settings_notifications">सूचनाएं</string>
+    <string name="settings_notifications_description">ऐप नोटिफिकेशन प्राप्त करें</string>
+    <string name="settings_auto_backup">ऑटो बैकअप</string>
+    <string name="settings_auto_backup_description">दस्तावेज़ों का स्वचालित बैकअप लें</string>
+    <string name="settings_change_color">रंग बदलें</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">आपके पीडीएफ दस्तावेज़ यहां दिखाई देंगे</string>
+    <string name="scan_description">दस्तावेज़ों को स्कैन करके पीडीएफ में बदलें</string>
+    <string name="tools_description">पीडीएफ संपादन और हेरफेर उपकरण</string>
+    <string name="home_description">सुविधाओं तक पहुँचने के लिए नीचे दिए गए नेविगेशन का उपयोग करें।</string>
+    <!-- Sort Options -->
+    <string name="sort_name">नाम</string>
+    <string name="sort_date">तारीख</string>
+    <string name="sort_size">आकार</string>
+    <string name="sort_option_name">नाम</string>
+    <string name="sort_option_last_opened">अंतिम बार खोला गया</string>
+    <string name="sort_option_last_modified">अंतिम बार संशोधित</string>
+    <string name="sort_option_file_size">फ़ाइल का साइज़</string>
+    <!-- View Types -->
+    <string name="view_type_list">लिस्ट व्यू</string>
+    <string name="view_type_table">टेबल दृश्य</string>
+    <string name="view_type_grid">जालक दृश्य</string>
+    <!-- File Properties -->
+    <string name="file_name">फ़ाइल नाम</string>
+    <string name="date_modified">डेटा संशोधित</string>
+    <string name="file_size">आकार</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">शुरू नहीं</string>
+    <string name="file_status_completed">पुरा होना।</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">पीडीएफ दस्तावेज़</string>
+    <string name="document_type_word">वर्ड दस्तावेज़</string>
+    <string name="document_type_excel">एक्सेल स्प्रेडशीट</string>
+    <string name="document_type_image">छवि फ़ाइल</string>
+    <string name="document_type_other">दस्तावेज़</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">सभी फाइलें</string>
+    <string name="filter_recent">हाल ही का</string>
+    <string name="filter_pdfs">पीडीएफ़</string>
+    <string name="filter_images">इमेजिस</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">घर</string>
+    <string name="browse_tab">ब्राउज़</string>
+    <string name="starred_tab">तारांकित</string>
+    <string name="settings_tab">सेटिंग्स</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">थीम को टॉगल करें</string>
+    <string name="accessibility_menu">मेनू</string>
+    <string name="accessibility_close">बंद करना</string>
+    <string name="accessibility_color_picker">रंग चुनने वाली मशीन</string>
+    <!-- Library Screen -->
+    <string name="library_title">पुस्तकालय</string>
+    <string name="library_subtitle">फ़ाइलें प्रबंधित करें, हाल ही की फ़ाइलें &amp; पसंदीदा</string>
+    <string name="library_search_placeholder">फ़ाइलें खोजें...</string>
+    <string name="library_selected_count">%1$d चयनित</string>
+    <string name="library_open_from_device">\nडिवाइस से खोलें</string>
+    <string name="library_browse_files">फ़ाइलें ब्राउज़ करें\n</string>
+    <string name="library_action_open">खुला</string>
+    <string name="library_action_share">शेयर करना</string>
+    <string name="library_action_remove">निकालना</string>
+    <string name="library_action_delete">मिटाना</string>
+    <string name="library_clear_search">खोज साफ़ करें</string>
+    <string name="library_close_search">खोज बंद करें</string>
+    <string name="library_select_all">सभी फ़ाइलें चुनें</string>
+    <string name="library_exit_multiselect">मल्टी-सेलेक्ट मोड से बाहर निकलें</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">सहायता &amp; समर्थन</string>
+    <string name="help_support_subtitle">अक्सर पूछे जाने वाले प्रश्न, संपर्क &amp; कानूनी</string>
+    <string name="settings_pdf_subtitle">स्क्रॉल करें, लेआउट देखें &amp;</string>
+    <string name="help_header_title">हम कैसे मदद कर सकते हैं?</string>
+    <string name="help_header_subtitle">Our team is here to ensure you have the\nbest PDF experience.</string>
+    <string name="help_contact_us">हमसे संपर्क करें</string>
+    <string name="help_contact_subtitle">सहायता के लिए संपर्क करें</string>
+    <string name="help_faq">पूछे जाने वाले प्रश्न</string>
+    <string name="help_faq_subtitle">आम सवालों के जवाब</string>
+    <string name="help_privacy_policy">गोपनीयता नीति</string>
+    <string name="help_privacy_subtitle">हम आपके डेटा की सुरक्षा कैसे करते हैं</string>
+    <string name="help_terms_service">सेवा की शर्तें</string>
+    <string name="help_terms_subtitle">आवेदन के नियम</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">मोबाइल डेटा पर सिंक करें</string>
+    <string name="background_sync">बैकग्राउंड सिंक</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">पीडीएफ रीडर सेटिंग्स</string>
+    <string name="pdf_settings_coming_soon">जल्द आ रहा है</string>
+    <string name="pdf_settings_description">स्क्रॉल व्यवहार, व्यू मोड और पढ़ने की प्राथमिकताएं कॉन्फ़िगर करें</string>
+    <!-- General Settings -->
+    <string name="settings_language">भाषा</string>
+    <string name="settings_pdf_reader">पीडीएफ रीडर सेटिंग्स</string>
+    <string name="settings_help_support">सहायता &amp; समर्थन</string>
+    <string name="settings_whats_new">नया क्या है</string>
+    <string name="settings_download_desktop">किसी अन्य डिवाइस पर इंस्टॉल करें</string>
+    <string name="settings_rate_app">एप्प का मूल्यांकन</string>
+    <string name="play_store_not_found">इस डिवाइस पर प्ले स्टोर नहीं मिला</string>
+    <string name="settings_set_as_default">डिफ़ॉल्ट पीडीएफ व्यूअर के रूप में सेट करें</string>
+    <string name="settings_set_as_default_subtitle">इस ऐप से डिफ़ॉल्ट रूप से PDF फ़ाइलें खुलती हैं।</string>
+    <string name="settings_default_pdf_instructions_title">डिफ़ॉल्ट के रूप में कैसे सेट करें</string>
+    <string name="settings_default_pdf_ok">समझ गया</string>
+    <string name="settings_default_app_hint">काम नहीं किया?</string>
+    <string name="settings_default_app_hint_learn_more">और अधिक जानें</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">भाषा</string>
+    <string name="language_search_placeholder">भाषाओं में खोजें...</string>
+    <!-- Common UI -->
+    <string name="support">सहायता</string>
+    <string name="language_english">अंग्रेज़ी</string>
+    <string name="language_hindi">हिंदी</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_french">फ़्रेंच</string>
+    <string name="language_german">deutsch</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">अरबी</string>
+    <string name="language_japanese">ठीक है</string>
+    <string name="language_korean">धन्यवाद</string>
+    <string name="language_portuguese">पुर्तगाली</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">ऐप की उपस्थिति</string>
+    <string name="theme">विषय</string>
+    <string name="general">सामान्य</string>
+    <string name="new">नया</string>
+    <string name="navigate">नेविगेट</string>
+    <string name="download">डाउनलोड करना</string>
+    <string name="falcon_pdf">फाल्कन पीडीएफ</string>
+    <string name="excellence_in_every_pixel">हर पिक्सेल में उत्कृष्टता</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">परिवर्तनों को लागू करें</string>
+    <string name="apply">आवेदन करना</string>
+    <string name="selected">चयनित</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">सिंक सेटिंग्स</string>
+    <string name="autosync_on_wifi">वाईफाई पर ऑटो-सिंक</string>
+    <string name="sync_reading_progress">पढ़ने की प्रगति को सिंक्रनाइज़ करें</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">दस्तावेज़ का नाम</string>
+    <string name="name_cannot_be_empty">नाम खाली नहीं हो सकता</string>
+    <string name="str__failed">%1$s असफल</string>
+    <string name="ok">ठीक है</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">अपग्रेड प्लान - वर्तमान प्लान: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">फ़ाइल खोलने के लिए ड्रॉप करें</string>
+    <string name="release_to_import_and_open_pdf">पीडीएफ फाइलों को आयात करने और खोलने के लिए रिलीज़ करें</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">निकालना</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">पीडीएफ</string>
+    <string name="images">इमेजिस</string>
+    <string name="filter_all_types">सभी फाइलें</string>
+    <string name="favorites">पसंदीदा फ़ाइलें</string>
+    <string name="recent">हाल ही का</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">दस्तावेज़ खोजें...</string>
+    <string name="voice_search">आवाज खोज</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">हाल की फ़ाइलें</string>
+    <string name="loading_recent_files">हाल ही में लोड की गई फ़ाइलें...</string>
+    <string name="no_recent_files">कोई हालिया फ़ाइलें नहीं हैं</string>
+    <string name="no_favorites">कोई पसंदीदा नहीं</string>
+    <string name="mark_files_as_favorite_to_see_them_here">फ़ाइलों को पसंदीदा के रूप में चिह्नित करें ताकि आप उन्हें यहां देख सकें</string>
+    <string name="open_some_pdf_files_to_see_the">कुछ पीडीएफ फाइलें खोलकर उन्हें यहां देखें</string>
+    <string name="status">स्थिति</string>
+    <string name="actions">कार्रवाई</string>
+    <string name="select_all">सबका चयन करें</string>
+    <string name="enter_multiselect_mode">मल्टी-सेलेक्ट मोड में प्रवेश करें</string>
+    <string name="sorted_ascending">आरोही क्रम में व्यवस्थित</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">संग्रहण: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">%1$s फ़ाइलें जोड़ें</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">दृश्य प्रकार बदलें</string>
+    <string name="filter_">फ़िल्टर: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">पीडीएफ लोड हो रही है...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">सिंक करने के लिए साइन इन करें</string>
+    <string name="protect_your_library_files">अपनी लाइब्रेरी फ़ाइलों को सुरक्षित रखें</string>
+    <string name="sign_in">दाखिल करना</string>
+    <string name="sign_out">साइन आउट</string>
+    <string name="sign_in_dialog_title">फाल्कन पीडीएफ में साइन इन करें</string>
+    <string name="sign_in_dialog_subtitle">आपकी पीडीएफ लाइब्रेरी, हर जगह।</string>
+    <string name="sign_in_with_google">Google से साइन इन करें</string>
+    <string name="sign_in_with_apple">Apple से साइन इन करें</string>
+    <string name="apple_user_drive_unavailable">Apple Sign-In के साथ Google Drive सिंक उपलब्ध नहीं है।</string>
+    <string name="apple_user_link_google">ड्राइव सिंक के लिए Google खाता लिंक करें</string>
+    <string name="apple_user_sync_info">क्लाउड सिंक को सक्षम करने के लिए, एक Google खाता लिंक करें।</string>
+    <string name="link_google_account">Google खाते को लिंक करें</string>
+    <string name="signed_in_successfully">सफलतापूर्वक लॉग इन हो गया</string>
+    <string name="signed_out_successfully">सफलतापूर्वक लॉग आउट हो गया</string>
+    <string name="sync_disabled_free">फ्री अकाउंट के लिए सिंक्रोनाइज़ेशन सुविधा बंद है।</string>
+    <string name="storage_disabled_grant_access">स्टोरेज अक्षम है। शुरू करने के लिए ड्राइव एक्सेस की अनुमति दें।</string>
+    <string name="upgrade_to_pro">प्रो में अपग्रेड</string>
+    <string name="grant_drive_access">ग्रांट ड्राइव एक्सेस</string>
+    <string name="files_synced">%1$d/%2$d फ़ाइलें सिंक्रनाइज़ हो गईं</string>
+    <string name="synced_count">%1$d सिंक्रनाइज़ किया गया</string>
+    <string name="unlimited_sync_active">असीमित सिंक</string>
+    <string name="missing_drive_permissions">ड्राइव की अनुमतियाँ उपलब्ध नहीं हैं। सिंक्रोनाइज़ेशन फिलहाल अवरुद्ध है।</string>
+    <string name="drive_access_revoked">ड्राइव एक्सेस रद्द कर दिया गया है। सिंक्रोनाइज़ेशन फिर से शुरू करने के लिए पुनः कनेक्ट करें।</string>
+    <string name="upgrade_premium">प्रीमियम अपग्रेड करें</string>
+    <string name="manage_account">खाते का प्रबंधन करें</string>
+    <string name="sync_now">अभी सिंक करें</string>
+    <string name="tier_free">मुक्त</string>
+    <string name="tier_pro">प्रो</string>
+    <string name="tier_premium">अधिमूल्य</string>
+    <string name="status_paused">रुका हुआ</string>
+    <!-- Common -->
+    <string name="navigate_back">वापस जाएँ</string>
+    <string name="dismiss">नकार देना</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="back">पीछे</string>
+    <string name="search">खोज</string>
+    <string name="more_actions">और कार्रवाइयां</string>
+    <string name="share">शेयर करना</string>
+    <string name="delete">मिटाना</string>
+    <string name="remove_from_recents">हाल के संदेशों से हटाएं</string>
+    <string name="open">खुला</string>
+    <string name="all">सभी</string>
+    <string name="sort_by_">क्रमबद्ध करें %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">गूगल ड्राइव सिंक</string>
+    <string name="syncing">सिंक्रनाइज़ हो रहा है...</string>
+    <string name="sync_completed">सिंक्रोनाइज़ेशन पूरा हुआ</string>
+    <string name="sync_failed">सिंक्रोनाइज़ेशन विफल</string>
+    <string name="sync_limit_exceeded">सिंक सीमा पार हो गई है। आपके %s प्लान में %d फ़ाइलें ही सिंक करने की अनुमति है।</string>
+    <string name="sync_no_drive_access">Google ड्राइव तक पहुंच उपलब्ध नहीं है</string>
+    <string name="sync_network_unavailable">नेटवर्क उपलब्ध नहीं है</string>
+    <string name="sync_last_sync">अंतिम सिंक: %s</string>
+    <string name="sync_total_files">कुल</string>
+    <string name="sync_synced_files">सिंक किया गया</string>
+    <string name="sync_failed_files">असफल</string>
+    <string name="sync_conflict_files">संघर्ष</string>
+    <string name="sync_add_to_favorites">पसंदीदा में जोड़े</string>
+    <string name="sync_remove_from_favorites">पसंदीदा से हटाएँ</string>
+    <string name="sync_conflict_title">सिंक विरोध</string>
+    <string name="sync_conflict_message">निम्नलिखित फ़ाइलों में कुछ विरोधाभास हैं जिनका समाधान आवश्यक है:</string>
+    <string name="sync_conflict_explanation">स्थानीय और दूरस्थ दोनों संस्करणों में संशोधन होने पर टकराव उत्पन्न होता है।</string>
+    <string name="sync_plan_limit">सिंक: %d/%d</string>
+    <string name="sync_plan_limit_reached">हद हो गई</string>
+    <string name="sync_plan_unlimited">असीमित सिंक</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">छोडना</string>
+    <string name="welcome_next">अगला</string>
+    <string name="welcome_get_started">शुरू हो जाओ</string>
+    <string name="welcome_sign_in_get_started">लॉग इन करें &amp; आरंभ करें</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;किसी भी दस्तावेज़ को तुरंत पढ़ें&lt;/b&gt;</string>
+    <string name="welcome_slide1_description">पीडीएफ, डीओसी, ईपीयूबी, एमओबीआई सहित 10 से अधिक दस्तावेज़ प्रारूपों को खोलें और प्रबंधित करें।</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Read PDFs, ebooks,&lt;/b&gt; and office docs in one place</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;दस्तावेज़ों को पसंदीदा बनाएं&lt;/b&gt; और उन्हें सभी उपकरणों पर एक्सेस करें</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;टिप्पणी करें,&lt;/b&gt; हाइलाइट करें और आसानी से सहयोग करें</string>
+    <string name="welcome_slide1_footer">आपका सार्वभौमिक दस्तावेज़ पाठक</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;पीडीएफ़ संपादित करें, स्कैन करें और व्यवस्थित करें&lt;/b&gt;</string>
+    <string name="welcome_slide2_description">पीडीएफ बनाने, संपादित करने और प्रबंधित करने के लिए आवश्यक सभी चीजें एक शक्तिशाली टूलकिट में उपलब्ध हैं।</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;टेक्स्ट संपादित करें,&lt;/b&gt; एनोटेट करें, हाइलाइट करें और फ़ॉर्म भरें</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;दस्तावेज़ स्कैन करें&lt;/b&gt; और उन्हें तुरंत PDF में बदलें</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;30+ उपकरण&lt;/b&gt; जिनमें मर्ज, कन्वर्ट, कंप्रेस और सुरक्षित करना शामिल है</string>
+    <string name="welcome_slide2_footer">आपका संपूर्ण पीडीएफ कार्यक्षेत्र</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;एआई जो आपके दस्तावेज़ों को समझता है&lt;/b&gt;</string>
+    <string name="welcome_slide3_description">एआई की मदद से अपने दस्तावेज़ों को पढ़कर और उनका विश्लेषण करके घंटों की बचत करें।</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;लंबे दस्तावेज़ों को सेकंडों में संक्षिप्त करें&lt;/b&gt;</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;स्कैन किए गए पृष्ठों का OCR करें और टेक्स्ट का तुरंत अनुवाद करें&lt;/b&gt;</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;अंतर्निहित रीड-अलाउड सुविधा वाले दस्तावेज़ सुनें&lt;/b&gt;</string>
+    <string name="welcome_slide3_footer">कोई विज्ञापन नहीं। बस उत्पादकता।</string>
+    <string name="grace">अनुग्रह</string>
+    <string name="unable_to_verify_subscription_limited_ac">सदस्यता सत्यापित नहीं हो सकी। कनेक्शन बहाल होने तक सीमित पहुंच।</string>
+    <string name="retry_verification">पुनः प्रयास सत्यापन</string>
+    <string name="guest_state">अतिथि राज्य</string>
+    <string name="free_tier">निःशुल्क स्तर</string>
+    <string name="free_tier__locked">निःशुल्क स्तर - लॉक किया गया</string>
+    <string name="pro_tier">प्रो टियर</string>
+    <string name="pro_tier__restricted">प्रो टियर - प्रतिबंधित</string>
+    <string name="premium_tier">प्रीमियम टियर</string>
+    <string name="premium_tier__error">प्रीमियम टियर - त्रुटि</string>
+    <string name="refresh_plan_status">प्लान की स्थिति रीफ़्रेश करें</string>
+    <string name="user_avatar">उपयोगकर्ता अवतार</string>
+    <string name="debug_tools">डीबग उपकरण</string>
+    <string name="authentication__drive">प्रमाणीकरण &amp; ड्राइव</string>
+    <string name="auth_state">प्राधिकरण राज्य</string>
+    <string name="revoke_drive_access">ड्राइव एक्सेस रद्द करें</string>
+    <string name="image">छवि</string>
+    <string name="thumbnail">थंबनेल</string>
+    <string name="manage_preferences">प्राथमिकताएं प्रबंधित करें</string>
+    <string name="tools_history">उपकरण इतिहास</string>
+    <string name="manage_recent_logs">हाल के लॉग प्रबंधित करें</string>
+    <string name="more_options">अधिक विकल्प</string>
+    <string name="clear_all_history">सभी इतिहास साफ़ करें</string>
+    <string name="no_history_yet">अभी तक कोई इतिहास नहीं</string>
+    <string name="your_pdf_tool_operations_will_appear_her">आपके पीडीएफ टूल के संचालन यहां दिखाई देंगे।</string>
+    <string name="view">देखना</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">सहेजा गया %1$s</string>
+    <string name="history_status_processing">प्रसंस्करण</string>
+    <string name="history_status_succeeded">सफल हुए</string>
+    <string name="history_status_failed">असफल</string>
+    <string name="history_status_processing_upper">प्रसंस्करण</string>
+    <string name="history_unknown_files">अज्ञात फ़ाइलें</string>
+    <string name="history_op_complete">%1$s पूरा हुआ!</string>
+    <string name="history_op_failed">%1$s असफल</string>
+    <string name="history_op_success_multiple">ऑपरेशन सफलतापूर्वक पूरा हुआ ( %1$d फ़ाइलें)</string>
+    <string name="history_op_success_single">ऑपरेशन सफलतापूर्वक पूरा किया</string>
+    <string name="history_op_error">हम ऑपरेशन पूरा नहीं कर सके।</string>
+    <string name="history_multiple_files">%1$d फ़ाइलें</string>
+    <string name="history_failed">असफल</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">क्लाउड सिंक</string>
+    <string name="cloud_sync_subtitle">जुड़ी हुई डिवाइसेज</string>
+    <string name="cloud_sync_all_synced">सभी फाइलें सिंक हो गईं</string>
+    <string name="cloud_sync_syncing">सिंक्रनाइज़ हो रहा है…</string>
+    <string name="cloud_sync_pending">सिंक्रोनाइज़ेशन लंबित है</string>
+    <string name="cloud_sync_last_sync">अंतिम सिंक: %1$s</string>
+    <string name="cloud_sync_never_synced">कभी सिंक्रनाइज़ नहीं हुआ</string>
+    <string name="cloud_sync_recent_activity">हाल की सिंक गतिविधि</string>
+    <string name="cloud_sync_no_files">अभी तक कोई फ़ाइल सिंक्रोनाइज़ नहीं हुई है</string>
+    <string name="cloud_sync_synced_to_drive">ड्राइव से सिंक्रनाइज़ किया गया</string>
+    <string name="cloud_sync_pending_upload">अपलोड लंबित है</string>
+    <string name="cloud_sync_sync_now">अभी सिंक करें</string>
+    <string name="cloud_sync_view_history">सिंक इतिहास देखें</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d फ़ाइलें सिंक हो गईं</string>
+    <string name="cloud_sync_unlimited_files">%1$d फाइलें सिंक हो गईं · असीमित</string>
+    <string name="cloud_sync_cta_title">किसी भी प्लेटफॉर्म पर, किसी भी समय</string>
+    <string name="cloud_sync_cta_subtitle">आपके दस्तावेज़ हर जगह आपके साथ रहते हैं।</string>
+    <string name="cloud_sync_files_label">%1$d फ़ाइलें</string>
+    <string name="settings_data_privacy">डेटा &amp; गोपनीयता</string>
+    <string name="settings_data_privacy_subtitle">डेटा प्रबंधित करें, खाता &amp; विलोपन</string>
+    <string name="settings_delete_account">खाता हटा दो</string>
+    <string name="settings_delete_account_subtitle">अपना खाता और डेटा स्थायी रूप से हटा दें</string>
+    <string name="delete_account_warning_title">अपना खाता हटाना चाहते हैं?</string>
+    <string name="delete_account_warning_message">इससे आपका खाता और उससे संबंधित सभी डेटा, जिसमें आपकी खरीदारी का इतिहास और क्लाउड-सिंक्रनाइज़्ड फ़ाइलें शामिल हैं, स्थायी रूप से हटा दिए जाएंगे। इस कार्रवाई को पूर्ववत नहीं किया जा सकता है और बाद में की गई खरीदारी को बहाल नहीं किया जा सकता है।</string>
+    <string name="delete_account_confirm_phrase_label">आगे बढ़ने के लिए 'डिलीट की पुष्टि करें' टाइप करें:</string>
+    <string name="delete_account_confirm_phrase">डिलीट की पुष्टि करें</string>
+    <string name="delete_account_button">खाता हटा दो</string>
+    <string name="delete_account_error_reauth">सुरक्षा कारणों से, आपको अपना खाता हटाने के लिए हाल ही में लॉग इन करना होगा। कृपया लॉग आउट करें और फिर से लॉग इन करें, फिर प्रयास करें।</string>
+    <string name="delete_account_success">खाता सफलतापूर्वक हटा दिया गया</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">फ़ाइल &amp; सिंक सेटिंग्स</string>
+    <string name="sync_on_mobile_data_subtitle">क्लाउड सिंक के लिए मोबाइल डेटा का उपयोग करें</string>
+    <string name="drive_sync">बैकग्राउंड सिंक</string>
+    <string name="drive_sync_subtitle">पसंदीदा को सिंक करें &amp; स्कैन किए गए दस्तावेज़ों को ड्राइव में सेव करें</string>
+    <string name="do_not_import_from_other_apps">अन्य ऐप्स से फ़ाइलें आयात न करें</string>
+    <string name="do_not_import_from_other_apps_subtitle">साझा की गई फ़ाइलों को लाइब्रेरी में सहेजे बिना अस्थायी रूप से खोलें</string>
+    <string name="clear_imported_files">आयातित फ़ाइलें साफ़ करें</string>
+    <string name="clear_imported_files_subtitle">अन्य ऐप्स से कॉपी की गई सभी फ़ाइलें हटा दें</string>
+    <string name="clear_imports_confirm_title">आयातित फ़ाइलें साफ़ करें?</string>
+    <string name="clear_imports_confirm_message">इससे आपके Imports फोल्डर में मौजूद सभी फाइलें स्थायी रूप से डिलीट हो जाएंगी। इसे वापस नहीं लाया जा सकता।</string>
+    <string name="clear_imports_success">आयातित फ़ाइलें साफ़ कर दी गईं</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">डेटा &amp; गोपनीयता</string>
+    <string name="analytics_opt_out_title">उपयोग डेटा भेजें</string>
+    <string name="analytics_opt_out_subtitle">ऐप को बेहतर बनाने में मदद के लिए डेवलपर के साथ गुमनाम उपयोग डेटा और क्रैश रिपोर्ट साझा करें।</string>
+    <string name="analytics_opt_out_disabled_note">एनालिटिक्स और क्रैश रिपोर्टिंग बंद कर दी गई है। Google या डेवलपर को कोई डेटा नहीं भेजा जाता है।</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">असहेजित परिवर्तन</string>
+    <string name="unsaved_changes_tab_message">इस दस्तावेज़ में कुछ बदलाव अभी तक सहेजे नहीं गए हैं। क्या आप इसे बंद करने से पहले सहेजना चाहते हैं?</string>
+    <string name="unsaved_changes_window_message">आपने एक या अधिक दस्तावेज़ों में बदलाव किए हैं जिन्हें आपने सहेजा नहीं है। क्या आप उन्हें हटाकर बाहर निकलना चाहते हैं?</string>
+    <string name="discard">खारिज करना</string>
+    <string name="discard_and_quit">त्यागें &amp; बाहर निकलें</string>
+    <string name="close">बंद करना</string>
+    <string name="remove_favorite">पसंदीदा हटाएं</string>
+    <string name="set_as_default_pdf_viewer">क्या इसे डिफ़ॉल्ट पीडीएफ व्यूअर के रूप में सेट करना है?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF आपका डिफ़ॉल्ट PDF व्यूअर नहीं है। क्या आप इसे डिफ़ॉल्ट के रूप में सेट करना चाहेंगे ताकि सभी PDF फ़ाइलें Falcon PDF के साथ खुलें?</string>
+    <string name="set_now">अभी सेट करें</string>
+    <string name="never">कभी नहीं</string>
+    <string name="later">बाद में</string>
+    <string name="set_default">सेट डिफ़ॉल्ट</string>
+    <string name="default">गलती करना</string>
+    <string name="version_">संस्करण %1$s</string>
+    <string name="sign_in_with_other_accounts">अन्य खातों से लॉग इन करें</string>
+    <string name="upgrade">उन्नत करना</string>
+    <string name="view_plan">योजना देखें</string>
+    <string name="unlimited_sync_upto_5gb">5GB तक असीमित सिंक</string>
+    <string name="unlock_faster">तेजी से अनलॉक करें</string>
+    <string name="use_biometrics_instead_of_passwords">पासवर्ड की जगह बायोमेट्रिक्स का इस्तेमाल करें।</string>
+    <string name="upgrade_to_premium">प्रीमियम में अपग्रेड करें</string>
+    <string name="unlock_pdf">पीडीएफ अनलॉक करें</string>
+    <string name="use__to_accessnthis_document">इस दस्तावेज़ तक पहुँचने के लिए %1$s का उपयोग करें\n</string>
+    <string name="open_with_password">पासवर्ड से खोलें</string>
+    <string name="secure">सुरक्षित</string>
+    <string name="loading_">लोडिंग %1$s...</string>
+    <string name="failed_to_open_ebook">ई-बुक खोलने में विफल</string>
+    <string name="properties">गुण</string>
+    <string name="copy">प्रतिलिपि</string>
+    <string name="highlight">प्रमुखता से दिखाना</string>
+    <string name="clear_selection">चयन साफ़ करें</string>
+    <string name="close_search">खोज बंद करें</string>
+    <string name="search_in_book">पुस्तक में खोजें...</string>
+    <string name="contents">अंतर्वस्तु</string>
+    <string name="table_of_contents">विषयसूची</string>
+    <string name="no_table_of_contents_available">विषय-सूची उपलब्ध नहीं है</string>
+    <string name="bookmarks">बुकमार्क</string>
+    <string name="no_bookmarks_yet">अभी तक कोई बुकमार्क नहीं है</string>
+    <string name="page_">पृष्ठ %1$s</string>
+    <string name="no_results">कोई परिणाम नहीं</string>
+    <string name="p">पी%1$s</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="decrease_font_size">फ़ॉन्ट का आकार घटाएँ</string>
+    <string name="increase_font_size">फ़ॉन्ट का आकार बढ़ाएँ</string>
+    <string name="font">फ़ॉन्ट</string>
+    <string name="jump_to_page">पेज पर जाएं</string>
+    <string name="enter_page_number_1">पृष्ठ संख्या दर्ज करें (1–%1$s):</string>
+    <string name="go">जाना</string>
+    <string name="read_aloud">जोर से पढ़ें</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">रुकना</string>
+    <string name="annotations__text_selection">एनोटेशन &amp; पाठ चयन</string>
+    <string name="text_selection_and_annotations_for_ebook">ईबुक के लिए टेक्स्ट चयन और एनोटेशन की सुविधा जल्द ही उपलब्ध होगी।</string>
+    <string name="longpress_on_text_to_select_highlight_or">टेक्स्ट को सेलेक्ट करने, हाईलाइट करने या नोट्स जोड़ने के लिए उस पर देर तक दबाएं।</string>
+    <string name="press_play_to_start_reading_aloud">जोर से पढ़ना शुरू करने के लिए प्ले बटन दबाएं...</string>
+    <string name="speed">रफ़्तार</string>
+    <string name="voice">आवाज़</string>
+    <string name="no_annotations_yet">अभी तक कोई टिप्पणी नहीं है</string>
+    <string name="select_text_to_highlight_or_add_notes">हाइलाइट करने या नोट्स जोड़ने के लिए टेक्स्ट चुनें</string>
+    <string name="tools">औजार</string>
+    <string name="convert_to_images">छवियों में परिवर्तित करें</string>
+    <string name="rename">नाम बदलें</string>
+    <string name="print">छाप</string>
+    <string name="a">ए−</string>
+    <string name="cover_of_">%1$s का कवर</string>
+    <string name="no_cover_available">कोई कवर उपलब्ध नहीं है</string>
+    <string name="read_now">अभी पढ़ें</string>
+    <string name="about_the_book">किताब के बारे में</string>
+    <string name="tags">टैग</string>
+    <string name="publisher_info">प्रकाशक की जानकारी</string>
+    <string name="published_">प्रकाशित: %1$s</string>
+    <string name="retry">पुन: प्रयास करें</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F कैश साफ़ करें</string>
+    <string name="ebooks_library">ई-पुस्तक पुस्तकालय</string>
+    <string name="manage_your_digital_collection_across_mu">कई प्रदाताओं पर अपने डिजिटल संग्रह को प्रबंधित करें। Google Books और Open Library से नई पुस्तकें खोजें, फ़िल्टर करें और उनका पता लगाएं।</string>
+    <string name="no_books_found">कोई पुस्तकें नहीं मिलीं</string>
+    <string name="no_results_for__try_a_different_search_t">"%1$s" के लिए कोई परिणाम नहीं मिले। कृपया कोई दूसरा खोज शब्द आजमाएँ।</string>
+    <string name="downloadable_only">केवल डाउनलोड करने योग्य</string>
+    <string name="file_unavailable">फ़ाइल अनुपलब्ध है</string>
+    <string name="unavailable">अनुपलब्ध</string>
+    <string name="search_titles_authors_isbn">शीर्षक, लेखक, ISBN आदि खोजें...</string>
+    <string name="clear_search">खोज साफ़ करें</string>
+    <string name="ebooks">ई-पुस्तकें</string>
+    <string name="read_pdf">पीडीएफ पढ़ें</string>
+    <string name="create_pdf">पीडीएफ बनाएं</string>
+    <string name="unlock_all_tools_and_remove_limits">सभी टूल अनलॉक करें और सीमाएं हटाएँ</string>
+    <string name="ocr_scanning">ओसीआर स्कैनिंग</string>
+    <string name="extract_text_from_scanned_documents">स्कैन किए गए दस्तावेज़ों से पाठ निकालें</string>
+    <string name="cloud_sync">क्लाउड सिंक</string>
+    <string name="access_your_documents_anywhere">आप कहीं भी अपने दस्तावेज़ों तक पहुंच सकते हैं।</string>
+    <string name="annotate_pdfs">पीडीएफ़ पर एनोटेशन करें</string>
+    <string name="cloud_backup">मेघ बैकअप</string>
+    <string name="continue_reading">जारी रखें पढ़ रहे हैं</string>
+    <string name="pick_files">फ़ाइलें चुनें</string>
+    <string name="browse">ब्राउज़</string>
+    <string name="did_you_know">क्या आप जानते हैं?</string>
+    <string name="home">घर</string>
+    <string name="your_documents_at_a_glance">आपके दस्तावेज़ एक नज़र में</string>
+    <string name="pick_file">फ़ाइल चुनें</string>
+    <string name="quick_actions">त्वरित कार्रवाइयां</string>
+    <string name="pro">प्रो</string>
+    <string name="open_files">खुली फ़ाइलें</string>
+    <string name="convert_to_pdf">पीडीएफ में रूपांतरित करें</string>
+    <string name="close_drawer">दराज बंद करें</string>
+    <string name="close_file">फ़ाइल बंद करें</string>
+    <string name="office">कार्यालय</string>
+    <string name="coming_soon">जल्द आ रहा है</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">इस प्लेटफॉर्म पर अभी ई-बुक व्यूअर उपलब्ध नहीं है।</string>
+    <string name="set_as_default_viewer">डिफ़ॉल्ट व्यूअर के रूप में सेट करें</string>
+    <string name="free">मुक्त</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">अपडेट डाउनलोड हो रहा है... %1$s%</string>
+    <string name="more">अधिक</string>
+    <string name="font_size">फ़ॉन्ट आकार</string>
+    <string name="font_family">फुहारा परिवार</string>
+    <string name="scroll_direction">स्क्रॉल दिशा</string>
+    <string name="navigation">मार्गदर्शन</string>
+    <string name="keep_screen_on">स्क्रीन ऑन करो</string>
+    <string name="volume_button_to_scroll">स्क्रॉल करने के लिए वॉल्यूम बटन दबाएं</string>
+    <string name="export_ebook_pages_as_image_files">ईबुक के पृष्ठों को इमेज फ़ाइलों के रूप में निर्यात करें</string>
+    <string name="access_millions_of_titles">लाखों पुस्तकों तक पहुंच प्राप्त करें।</string>
+    <string name="read_offline_with_natural_ai_voices">प्राकृतिक एआई आवाजों के साथ ऑफ़लाइन पढ़ें।</string>
+    <string name="advanced_ai_reader">एडवांस्ड एआई रीडर।</string>
+    <string name="experience_studioquality_narration">स्टूडियो-स्तरीय नैरेटर की आवाज़ का अनुभव करें।</string>
+    <string name="powerful_pdf_tools">शक्तिशाली पीडीएफ उपकरण।</string>
+    <string name="create_and_edit_documents_on_the_go">चलते-फिरते दस्तावेज़ बनाएं और संपादित करें।</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">प्रो संस्करण में अपग्रेड करें: सभी टूल अनलॉक करें और सीमाएं हटाएँ</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">ओसीआर स्कैनिंग: स्कैन किए गए दस्तावेज़ों से पाठ निकालें</string>
+    <string name="cloud_sync_access_your_documents_anywher">क्लाउड सिंक: अपने दस्तावेज़ों को कहीं भी एक्सेस करें</string>
+    <string name="scan">स्कैन</string>
+    <string name="compress">संकुचित करें</string>
+    <string name="merge">मर्ज</string>
+    <string name="convert">बदलना</string>
+    <string name="highlight_underline_and_add_notes_to_you">अपने दस्तावेज़ों को हाइलाइट करें, अंडरलाइन करें और उनमें नोट्स जोड़ें।</string>
+    <string name="keep_your_documents_safe_with_automatic_">स्वचालित क्लाउड सिंक के साथ अपने दस्तावेज़ों को सुरक्षित रखें</string>
+    <string name="indicator_color_">संकेतक_रंग_%1$s</string>
+    <string name="my_library">मेरी लाइब्रेरी</string>
+    <string name="get_ebooks">ई-पुस्तकें प्राप्त करें</string>
+    <string name="scan_document">दस्तावेज़ स्कैन करें</string>
+    <string name="settings_category_ai_chat_title">AI चैट प्रदाता</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama या आपकी अपनी कुंजी</string>
+    <string name="settings_category_tts_title">ज़ोर से पढ़ें (TTS)</string>
+    <string name="settings_category_tts_subtitle">ज़ोर से पढ़ने के लिए आवाज़ें</string>
+    <string name="settings_section_ai_voice">AI और आवाज़</string>
+    <string name="settings_entry_ai_title">AI चैट प्रदाता</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, लोकल Ollama, या आपकी अपनी OpenAI-संगत कुंजी</string>
+    <string name="settings_entry_tts_title">ज़ोर से पढ़ें (TTS)</string>
+    <string name="settings_entry_tts_subtitle">सिस्टम, ElevenLabs, OpenAI या लोकल Kokoro आवाज़ें</string>
+    <string name="provider_dialog_reset">रीसेट करें</string>
+    <string name="provider_dialog_cancel">रद्द करें</string>
+    <string name="provider_dialog_save">प्राथमिकताएँ सहेजें</string>
+    <string name="provider_dialog_encryption_note">स्थानीय रूप से एन्क्रिप्ट करके संग्रहीत। कभी भी रिमोट सर्वर से सिंक नहीं किया जाता।</string>
+    <string name="provider_dialog_close">बंद करें</string>
+    <string name="ai_settings_dialog_title">AI चैट प्रदाता सेटिंग्स</string>
+    <string name="ai_settings_dialog_subtitle">API एक्सेस कुंजियाँ, कस्टम मॉडल और प्रदाता प्राथमिकताएँ कॉन्फ़िगर करें।</string>
+    <string name="tts_settings_dialog_title">TTS प्रदाता सेटिंग्स</string>
+    <string name="tts_settings_dialog_subtitle">संश्लेषण इंजन कॉन्फ़िगर करें, क्रेडेंशियल प्रबंधित करें और आवाज़ें चुनें।</string>
+</resources>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Quét</string>
+    <string name="scan_home_documents">Tài liệu</string>
+    <string name="scan_home_documents_lowercase">tài liệu</string>
+    <string name="scan_home_documents_count">%1$d Tài liệu</string>
+    <string name="scan_home_no_documents">Chưa có tài liệu nào</string>
+    <string name="scan_home_start_scanning">Bắt đầu quét để tạo tài liệu đầu tiên của bạn.</string>
+    <string name="scan_home_new_folder">Thư mục mới</string>
+    <string name="scan_home_scan_document">Quét tài liệu</string>
+    <string name="scan_home_import_gallery">Nhập từ thư viện</string>
+    <string name="scan_home_parent_folder">Thư mục cha</string>
+    <string name="scan_home_go_back">Quay lại thư mục cha</string>
+    <string name="scan_home_create_folder">Tạo thư mục mới</string>
+    <string name="scan_home_enter_folder_name">Nhập tên cho thư mục mới.</string>
+    <string name="scan_home_folder_name">Tên thư mục</string>
+    <string name="scan_home_folder_placeholder">Ví dụ: Tài liệu công việc</string>
+    <string name="scan_home_folder_error">Tên thư mục không được để trống.</string>
+    <string name="scan_home_folder_name_empty">Tên thư mục không được để trống.</string>
+    <string name="scan_home_create">Tạo nên</string>
+    <string name="scan_home_folder_exists">Thư mục có tên này đã tồn tại.</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Máy ảnh</string>
+    <string name="scan_camera_permission_required">Cần có quyền truy cập camera</string>
+    <string name="scan_camera_permission_message">Ứng dụng này cần quyền truy cập camera để quét tài liệu.</string>
+    <string name="scan_camera_permission_settings">Vui lòng vào Cài đặt &gt; Ứng dụng &gt; Trình xem PDF &gt; Quyền và bật quyền truy cập Camera.</string>
+    <string name="scan_camera_permission_title">Cần có quyền truy cập camera</string>
+    <string name="scan_camera_request_permission">Yêu cầu quyền</string>
+    <string name="scan_camera_open_settings">Mở Cài đặt</string>
+    <string name="scan_camera_close">Đóng</string>
+    <string name="scan_camera_flash">Flash</string>
+    <string name="scan_camera_auto_capture">Tự động chụp</string>
+    <string name="scan_camera_settings">Cài đặt</string>
+    <string name="scan_camera_ready_batch">Sẵn sàng để quét nhiều trang</string>
+    <string name="scan_camera_ready_multiple">Sẵn sàng để quét nhiều trang</string>
+    <string name="scan_camera_hold_steady">Giữ nguyên tư thế trong khi quét.</string>
+    <string name="scan_camera_captured_pages">%1$d trang đã được chụp</string>
+    <string name="scan_camera_mode_single">Đơn</string>
+    <string name="scan_camera_mode_batch">Lô</string>
+    <string name="scan_camera_preview">Xem trước</string>
+    <string name="scan_camera_finish">Hoàn thành</string>
+    <string name="scan_camera_starting">Khởi động máy quay...</string>
+    <string name="scan_camera_document_name">Tên tài liệu</string>
+    <string name="scan_camera_document_name_empty">Tên tài liệu không được để trống.</string>
+    <string name="scan_camera_save_document">Lưu tài liệu</string>
+    <string name="scan_camera_processing">Xử lý...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Cắt &amp; Điều chỉnh</string>
+    <string name="scan_crop_close">Đóng</string>
+    <string name="scan_crop_reset">Cài lại</string>
+    <string name="scan_crop_rotate">Quay</string>
+    <string name="scan_crop_done">Xong</string>
+    <string name="scan_crop_scanned_document">Tài liệu đã quét</string>
+    <string name="scan_crop_magnified_view">Hình ảnh phóng to</string>
+    <string name="scan_crop_processing">Xử lý...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Nâng cao</string>
+    <string name="scan_filter_close">Đóng</string>
+    <string name="scan_filter_rotate">Quay</string>
+    <string name="scan_filter_done">Xong</string>
+    <string name="scan_filter_filters">Bộ lọc</string>
+    <string name="scan_filter_original">Nguyên bản</string>
+    <string name="scan_filter_magic">Ảo thuật</string>
+    <string name="scan_filter_lighten">Làm sáng</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">thang độ xám</string>
+    <string name="scan_filter_magic_2">Bác sĩ sạch sẽ</string>
+    <string name="scan_filter_soft_scan">Quét mềm</string>
+    <string name="scan_filter_color_enhance">Màu sắc+</string>
+    <string name="scan_filter_ink_saver">Trình tiết kiệm mực</string>
+    <string name="scan_filter_premium">Tính năng cao cấp</string>
+    <string name="scan_filter_filtered_document">Tài liệu đã lọc</string>
+    <string name="scan_filter_applying">Đang áp dụng bộ lọc...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Hủy bỏ</string>
+    <string name="scan_share">Chia sẻ</string>
+    <string name="scan_move">Di chuyển</string>
+    <string name="scan_move_to_folder">Di chuyển đến thư mục</string>
+    <string name="scan_delete">Xóa bỏ</string>
+    <string name="scan_rename">Đổi tên</string>
+    <string name="scan_root">Rễ</string>
+    <string name="scan_select_destination">Chọn thư mục đích</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Tài liệu</string>
+    <string name="scan_document_back">Mặt sau</string>
+    <string name="scan_document_pages">trang</string>
+    <string name="scan_document_add_pages">Thêm trang vào tài liệu này</string>
+    <string name="scan_document_add_page_button">Thêm trang</string>
+    <string name="scan_document_rename">Đổi tên</string>
+    <string name="scan_document_share">Chia sẻ</string>
+    <string name="scan_document_more">Hơn</string>
+    <string name="scan_document_pages_count">%1$d trang</string>
+    <string name="scan_document_no_pages">Chưa có trang nào</string>
+    <string name="scan_document_scan_page">Quét trang</string>
+    <string name="scan_document_import_page">Nhập từ thư viện</string>
+    <string name="scan_document_grid_view">Chế độ xem lưới</string>
+    <string name="scan_document_list_view">Chế độ xem danh sách</string>
+    <string name="scan_document_continuous_view">Chế độ xem liên tục</string>
+    <string name="scan_document_page_number">Trang %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Trang</string>
+    <string name="scan_page_back">Mặt sau</string>
+    <string name="scan_page_share">Chia sẻ</string>
+    <string name="scan_page_delete">Xóa bỏ</string>
+    <string name="scan_page_of">%1$d của %2$d</string>
+    <string name="scan_page_image_not_found">Không tìm thấy hình ảnh.</string>
+    <string name="scan_page_retake">Thi lại</string>
+    <string name="scan_page_crop">Mùa vụ</string>
+    <string name="scan_page_enhance">Nâng cao</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">Lưu vào thư viện</string>
+    <string name="scan_page_saved_to_gallery">Ảnh đã được lưu vào thư viện</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Xóa tài liệu?</string>
+    <string name="scan_delete_document_message">Bạn có chắc chắn muốn xóa "%1$s" không? Thao tác này sẽ xóa vĩnh viễn tất cả các trang trong tài liệu này. Không thể hoàn tác.</string>
+    <string name="scan_rename_document">Đổi tên tài liệu</string>
+    <string name="scan_rename_enter_name">Nhập tên mới cho tài liệu</string>
+    <string name="scan_rename_document_name">Tên tài liệu</string>
+    <string name="scan_rename_error">Tên tài liệu không được để trống.</string>
+    <string name="scan_dialog_delete_document_title">Xóa tài liệu?</string>
+    <string name="scan_dialog_delete_document_message">Bạn có chắc chắn muốn xóa "%1$s" không? Thao tác này sẽ xóa vĩnh viễn tất cả các trang trong tài liệu này. Không thể hoàn tác.</string>
+    <string name="scan_dialog_delete_confirm">Xóa bỏ</string>
+    <string name="scan_dialog_cancel">Hủy bỏ</string>
+    <string name="scan_dialog_move_title">Di chuyển đến thư mục</string>
+    <string name="scan_dialog_move_message">Chọn thư mục đích</string>
+    <string name="scan_dialog_move_confirm">Di chuyển</string>
+    <string name="scan_dialog_move_root">Rễ</string>
+    <string name="scan_dialog_move_selected">Đã chọn</string>
+    <string name="scan_dialog_rename_title">Đổi tên tài liệu</string>
+    <string name="scan_dialog_rename_message">Nhập tên mới cho tài liệu</string>
+    <string name="scan_dialog_rename_label">Tên tài liệu</string>
+    <string name="scan_dialog_rename_error">Tên tài liệu không được để trống.</string>
+    <string name="scan_dialog_rename_confirm">Đổi tên</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Chia sẻ</string>
+    <string name="scan_menu_move">Di chuyển đến thư mục</string>
+    <string name="scan_menu_delete">Xóa bỏ</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Xem trước camera\n(Sắp ra mắt)</string>
+    <string name="scan_platform_desktop_camera">Xem trước Camera trên máy tính để bàn\n(Sắp ra mắt)</string>
+    <string name="scan_platform_ios_camera">Xem trước camera iOS\n(Sắp ra mắt)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Đóng</string>
+    <string name="flash">Flash</string>
+    <string name="auto_capture">Tự động chụp</string>
+    <string name="settings">Cài đặt</string>
+    <string name="capture">Chiếm lấy</string>
+    <string name="finish">Hoàn thành</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Bạn có chắc chắn muốn xóa %1không? Tất cả tài liệu bên trong cũng sẽ bị xóa.</string>
+    <string name="share">Chia sẻ</string>
+    <string name="share_as_images">Chia sẻ dưới dạng hình ảnh</string>
+    <string name="share_as_pdf">Chia sẻ dưới dạng PDF</string>
+    <string name="move_to_folder">Di chuyển đến thư mục</string>
+    <string name="delete">Xóa bỏ</string>
+    <string name="selected">Đã chọn</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Trang %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">Thư mục trống</string>
+    <string name="tap_the__button_to_scan_a_docu">Nhấn vào nút + để quét tài liệu.</string>
+    <string name="str______pages">%1$s • %2$s • %3$s trang</string>
+    <string name="create_folder">Tạo thư mục</string>
+    <string name="more_options">Nhiều tùy chọn hơn</string>
+    <string name="document_thumbnail">Hình thu nhỏ tài liệu</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Không tìm thấy hình ảnh.</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Trang %2$d</string>
+    <string name="scan_ocr_title">Nhận dạng văn bản</string>
+    <string name="scan_ocr_copy">Sao chép văn bản</string>
+    <string name="scan_ocr_no_text">Không tìm thấy văn bản nào</string>
+    <string name="scan_ocr_processing">Nhận dạng văn bản…</string>
+    <string name="scan_ocr_error">Không nhận dạng được văn bản</string>
+    <string name="scan_ocr_not_supported">Nền tảng này không hỗ trợ OCR.</string>
+    <string name="scan_ocr_image">Trang được quét để nhận dạng ký tự quang học (OCR).</string>
+    <string name="gallery">Phòng trưng bày</string>
+    <string name="select_file">Chọn tệp</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Không thể chụp ảnh</string>
+    <string name="error_no_images_captured">Không có hình ảnh nào được chụp.</string>
+    <string name="error_open_settings">Không thể mở cài đặt</string>
+    <string name="error_process_images">Không thể xử lý hình ảnh.</string>
+    <string name="error_process_image">Không thể xử lý hình ảnh</string>
+    <string name="error_start_camera">Không thể khởi động camera</string>
+    <string name="error_stop_camera">Không thể dừng camera</string>
+    <string name="error_crop_image">Không thể cắt ảnh</string>
+    <string name="error_delete_document">Không thể xóa tài liệu</string>
+    <string name="error_delete_page">Không thể xóa trang</string>
+    <string name="error_load_document">Không thể tải tài liệu</string>
+    <string name="error_load_page">Trang không tải được.</string>
+    <string name="error_move_document">Không thể di chuyển tài liệu</string>
+    <string name="error_no_pages_to_share">Không có trang nào để chia sẻ</string>
+    <string name="error_rename_document">Không thể đổi tên tài liệu.</string>
+    <string name="error_reorder_pages">Không thể sắp xếp lại trang</string>
+    <string name="error_share_images">Không thể chia sẻ hình ảnh</string>
+    <string name="error_share_pdf">Không thể chia sẻ tệp PDF</string>
+    <string name="error_share_page">Không thể chia sẻ trang</string>
+    <string name="error_create_folder">Không thể tạo thư mục</string>
+    <string name="error_delete_folder">Không thể xóa thư mục</string>
+    <string name="error_rename_folder">Không thể đổi tên thư mục.</string>
+    <string name="error_unknown">Đã xảy ra lỗi không xác định</string>
+    <string name="folder_not_found">Không tìm thấy thư mục</string>
+    <string name="sync_documents">Đồng bộ hóa tài liệu</string>
+    <string name="shutter_scale">tỷ lệ màn trập</string>
+    <string name="import_gallery">Thư viện nhập khẩu</string>
+    <string name="scan_camera">Máy quét</string>
+</resources>

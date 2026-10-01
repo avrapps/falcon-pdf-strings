@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Umlingo we-PDF</string>
+    <string name="app_tagline">Ungathanda ukwenzani?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">Ukusetshenziswa Kokugcina</string>
+    <string name="home_favorites">Izintandokazi</string>
+    <string name="home_new_tool">Ithuluzi Elisha</string>
+    <string name="home_featured">OKUFAKWE</string>
+    <string name="home_scan_to_pdf">Skena ku-PDF</string>
+    <string name="home_scan_description">Guqula amadokhumenti ephepha abe umlingo wedijithali ngokushesha</string>
+    <string name="home_start_scanning">Qala Ukuskena</string>
+    <string name="home_all_tools">Wonke Amathuluzi</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">Amathuluzi e-PDF</string>
+    <string name="image_tools">Amathuluzi Esithombe</string>
+    <string name="tools_split">Hlukanisa</string>
+    <string name="tools_split_description">Khipha amakhasi</string>
+    <string name="tools_rotate">Zungezisa</string>
+    <string name="tools_rotate_description">Lungisa ukuma</string>
+    <string name="tools_delete_pages">Susa Amakhasi</string>
+    <string name="tools_delete_pages_description">Susa okungafuneki</string>
+    <string name="tools_convert">Guqula</string>
+    <string name="tools_convert_description">Kusuka/Kusuka ezithombeni</string>
+    <string name="tools_sign">Uphawu</string>
+    <string name="tools_sign_description">Engeza isiginesha</string>
+    <string name="tools_protect">Vikela</string>
+    <string name="tools_protect_description">Ukuphepha kwephasiwedi</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">Isibukeli se-PDF</string>
+    <string name="pdf_viewer_page_info">Ikhasi %1$d le- %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">Iskena Sedokhumenti</string>
+    <string name="scanner_capture">Ukuthwebula</string>
+    <string name="scanner_retake">Phinda uthathe</string>
+    <string name="scanner_save">Londoloza</string>
+    <!-- Navigation -->
+    <string name="nav_back">Zulazulela emuva</string>
+    <string name="nav_settings">Izilungiselelo</string>
+    <string name="nav_more_options">Izinketho ezengeziwe</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Ikhaya</string>
+    <string name="nav_library">Umtapo Wolwazi</string>
+    <string name="nav_scan">Skena</string>
+    <string name="nav_tools">Amathuluzi</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">Phequlula Amafayela</string>
+    <string name="browse_files_subtitle">Isitoreji &amp; Amafayela Efu</string>
+    <string name="show_hidden_files">Bonisa amafayela afihliwe</string>
+    <string name="hide_hidden_files">Fihla amafayela afihliwe</string>
+    <string name="refresh_storage">Vuselela isitoreji</string>
+    <string name="no_storage_available">Akukho sitoreji esitholakalayo</string>
+    <string name="no_files_found">Awekho amafayela atholakele</string>
+    <string name="add_files">Engeza %1$d Amafayela</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">Imvume Yesitoreji Iyadingeka</string>
+    <string name="permission_storage_message">Lolu hlelo lokusebenza ludinga ukufinyelela kusitoreji sedivayisi yakho ukuze luphequlule futhi luvule amafayela e-PDF. Sicela unikeze imvume yesitoreji ukuze uqhubeke.</string>
+    <string name="permission_grant">Imvume Yesibonelelo</string>
+    <!-- Common Actions -->
+    <string name="action_open">Vula</string>
+    <string name="action_save">Londoloza</string>
+    <string name="action_share">Yabelana</string>
+    <string name="action_delete">Susa</string>
+    <string name="action_cancel">Khansela</string>
+    <string name="action_confirm">Qinisekisa</string>
+    <string name="action_rename">Qamba kabusha</string>
+    <string name="action_print">Phrinta</string>
+    <string name="action_favorite">Okuthandwayo</string>
+    <string name="action_unfavorite">Okungathandwa</string>
+    <!-- Document Actions -->
+    <string name="document_share">Yabelana ngedokhumenti</string>
+    <string name="document_rename">Qamba kabusha idokhumenti</string>
+    <string name="document_delete">Susa Idokhumenti</string>
+    <string name="document_print">Phrinta Idokhumenti</string>
+    <string name="document_favorite">Engeza kuzintandokazi</string>
+    <string name="document_unfavorite">Susa kuzintandokazi</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">Idokhumenti yabiwe ngempumelelo</string>
+    <string name="document_share_failed">Yehlulekile ukwabelana ngedokhumenti</string>
+    <string name="document_renamed_success">Idokhumenti iqanjwe kabusha ngempumelelo</string>
+    <string name="document_rename_failed">Yehlulekile ukuqamba kabusha idokhumenti</string>
+    <string name="document_deleted_success">Idokhumenti isusiwe ngempumelelo</string>
+    <string name="document_delete_failed">Yehlulekile ukususa idokhumenti</string>
+    <string name="document_print_opened">Idokhumenti ivulwe njengesibukeli se-PDF esizenzakalelayo. Sebenzisa umsebenzi wokuphrinta wesibukeli ukuze uphrinte.</string>
+    <string name="document_print_failed">Yehlulekile ukuphrinta idokhumenti</string>
+    <string name="document_added_to_favorites">Kungezwe kuzintandokazi</string>
+    <string name="document_removed_from_favorites">Kususiwe kuzintandokazi</string>
+    <string name="document_favorite_failed">Yehlulekile ukubuyekeza isimo esiyintandokazi</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">Qamba kabusha idokhumenti</string>
+    <string name="dialog_rename_hint">Faka igama elisha</string>
+    <string name="dialog_rename_empty_error">Igama ledokhumenti alikwazi ukungabi nalutho</string>
+    <string name="dialog_delete_title">Susa Idokhumenti</string>
+    <string name="dialog_delete_file_message">Lokhu kuzosusa ifayela unomphela.\n\nSusa %1$s?</string>
+    <string name="dialog_delete_uri_message">Isuswa kuhlelo lokusebenza kuphela. Ifayela lokuqala alishintshiwe.\n\nSusa %1$s kuhlelo lokusebenza?</string>
+    <string name="dialog_delete_confirm">Susa</string>
+    <string name="dialog_remove_confirm">Susa</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">Iqamba kabusha kuphela ngaphakathi kohlelo lokusebenza. Ifayela lokuqala alishintshiwe.</string>
+    <string name="notice_delete_uri_only">Kususiwe kuhlelo lokusebenza. Ifayela lokuqala alishintshiwe.</string>
+    <string name="notice_file_exists_error">Ifayela elinaleli gama selivele likhona</string>
+    <string name="notice_file_not_found_error">Ifayela ayitholakalanga</string>
+    <string name="notice_no_active_document">Ayikho idokhumenti esebenzayo</string>
+    <string name="notice_document_path_unavailable">Indlela yefayela ledokhumenti ayitholakali</string>
+    <!-- States -->
+    <string name="state_loading">Iyalayisha...</string>
+    <string name="state_empty">Azikho izinto ezitholiwe</string>
+    <string name="state_error">Kukhona into engahambanga kahle</string>
+    <string name="state_retry">Zama futhi</string>
+    <!-- Errors -->
+    <string name="error_network">Ukuxhumeka kwenethiwekhi kwehlulekile</string>
+    <string name="error_file_not_found">Ifayela ayitholakalanga</string>
+    <string name="error_permission_denied">Imvume inqatshelwe</string>
+    <string name="error_invalid_file">Ifomethi yefayela engavumelekile</string>
+    <string name="error_password_required">Iphasiwedi iyadingeka</string>
+    <string name="error_incorrect_password">Iphasiwedi engalungile</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">Iphasiwedi Ivikelwe</string>
+    <string name="password_protected_message">Leli fayela lidinga iphasiwedi ukuze livuleke. Sicela ulifake ngezansi.</string>
+    <string name="password_label">Iphasiwedi</string>
+    <string name="password_placeholder">Faka iphasiwedi</string>
+    <string name="password_unlock">Vula</string>
+    <string name="password_show">Bonisa iphasiwedi</string>
+    <string name="password_hide">Fihla iphasiwedi</string>
+    <!-- Theme -->
+    <string name="theme_light">Ukukhanya</string>
+    <string name="theme_dark">Okumnyama</string>
+    <string name="theme_system">Uhlelo</string>
+    <string name="theme_adaptive">Okuzivumelanisa nezimo</string>
+    <string name="theme_custom">Ngokwezifiso</string>
+    <!-- Settings -->
+    <string name="settings_title">Izintandokazi</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">I-akhawunti &amp; Vumelanisa</string>
+    <string name="settings_category_sync_subtitle">Phatha i-akhawunti yakho, vumelanisa ubumfihlo &amp;</string>
+    <string name="settings_category_appearance_title">Ukubukeka</string>
+    <string name="settings_category_appearance_subtitle">Yenza ngokwezifiso ukubukeka kohlelo lokusebenza &amp; umuzwa</string>
+    <string name="settings_category_pdf_reader_title">Isifundi se-PDF</string>
+    <string name="settings_category_pdf_reader_subtitle">Isibukeli esizenzakalelayo &amp; isipiliyoni sokufunda</string>
+    <string name="settings_category_help_title">Usizo &amp; Usekelo</string>
+    <string name="settings_category_help_subtitle">Amadokhumenti &amp; oxhumana naye</string>
+    <string name="settings_category_general_title">Jikelele</string>
+    <string name="settings_category_general_subtitle">Ulimi &amp; ulwazi lohlelo lokusebenza</string>
+    <string name="settings_theme_section">Itimu</string>
+    <string name="settings_theme_description">Khetha itimu oyithandayo</string>
+    <string name="settings_accent_color">UMBALA WE-ACCENT</string>
+    <string name="settings_custom_colors">Imibala Engokwezifiso</string>
+    <string name="settings_primary_color">Umbala Oyinhloko</string>
+    <string name="settings_background_color">Umbala Wangemuva</string>
+    <string name="settings_surface_color">Umbala Womphezulu</string>
+    <string name="settings_reset_colors">Setha kabusha kube Okuzenzakalelayo</string>
+    <string name="settings_adaptive_note">Imibala eguquguqukayo yezinto ezibonakalayo (i-Android 12+)</string>
+    <string name="settings_app_section">Izilungiselelo zohlelo lokusebenza</string>
+    <string name="settings_notifications">Izaziso</string>
+    <string name="settings_notifications_description">Thola izaziso zohlelo lokusebenza</string>
+    <string name="settings_auto_backup">Isipele ngokuzenzakalela</string>
+    <string name="settings_auto_backup_description">Yenza isipele ngokuzenzakalelayo amadokhumenti</string>
+    <string name="settings_change_color">Shintsha umbala</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">Amadokhumenti akho e-PDF azovela lapha</string>
+    <string name="scan_description">Skena amadokhumenti ku-PDF</string>
+    <string name="tools_description">Amathuluzi okuhlela nokuphatha i-PDF</string>
+    <string name="home_description">Sebenzisa ukuzulazula okungezansi ukuze ufinyelele izici</string>
+    <!-- Sort Options -->
+    <string name="sort_name">Igama</string>
+    <string name="sort_date">Usuku</string>
+    <string name="sort_size">Usayizi</string>
+    <string name="sort_option_name">Igama</string>
+    <string name="sort_option_last_opened">Kuvulwe Okokugcina</string>
+    <string name="sort_option_last_modified">Kuguqulwe Okokugcina</string>
+    <string name="sort_option_file_size">Usayizi Wefayela</string>
+    <!-- View Types -->
+    <string name="view_type_list">Ukubuka Kohlu</string>
+    <string name="view_type_table">Ukubuka Kwethebula</string>
+    <string name="view_type_grid">Ukubuka kwegridi</string>
+    <!-- File Properties -->
+    <string name="file_name">Igama lefayela</string>
+    <string name="date_modified">Usuku Olushintshiwe</string>
+    <string name="file_size">Usayizi</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">Akuqaliwe</string>
+    <string name="file_status_completed">Kuqediwe</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">Idokhumenti ye-PDF</string>
+    <string name="document_type_word">Idokhumenti Yegama</string>
+    <string name="document_type_excel">Ispredishithi se-Excel</string>
+    <string name="document_type_image">Ifayela Lesithombe</string>
+    <string name="document_type_other">Idokhumenti</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">Wonke Amafayela</string>
+    <string name="filter_recent">Okwakamuva</string>
+    <string name="filter_pdfs">Ama-PDF</string>
+    <string name="filter_images">Izithombe</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">Ikhaya</string>
+    <string name="browse_tab">Phequlula</string>
+    <string name="starred_tab">Okunenkanyezi</string>
+    <string name="settings_tab">Izilungiselelo</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">Guqula itimu</string>
+    <string name="accessibility_menu">Imenyu</string>
+    <string name="accessibility_close">Vala</string>
+    <string name="accessibility_color_picker">Isikhethi sombala</string>
+    <!-- Library Screen -->
+    <string name="library_title">Umtapo Wolwazi</string>
+    <string name="library_subtitle">Phatha Amafayela, Okwakamuva &amp; Izintandokazi</string>
+    <string name="library_search_placeholder">Sesha amafayela...</string>
+    <string name="library_selected_count">%1$d kukhethiwe</string>
+    <string name="library_open_from_device">Vula Kusuka ku-\nIdivayisi</string>
+    <string name="library_browse_files">Phequlula Amafayela\n</string>
+    <string name="library_action_open">Vula</string>
+    <string name="library_action_share">Yabelana</string>
+    <string name="library_action_remove">Susa</string>
+    <string name="library_action_delete">Susa</string>
+    <string name="library_clear_search">Sula usesho</string>
+    <string name="library_close_search">Vala usesho</string>
+    <string name="library_select_all">Khetha wonke amafayela</string>
+    <string name="library_exit_multiselect">Phuma kwimodi yokukhetha okuningi</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">Usizo &amp; Usekelo</string>
+    <string name="help_support_subtitle">Imibuzo Evame Ukubuzwa, Xhumana &amp; Ezomthetho</string>
+    <string name="settings_pdf_subtitle">Skrola, Buka &amp; Isakhiwo</string>
+    <string name="help_header_title">Singasiza kanjani?</string>
+    <string name="help_header_subtitle">Ithimba lethu lilapha ukuqinisekisa ukuthi uthola ulwazi lwe-PDF olungcono kakhulu\n.</string>
+    <string name="help_contact_us">Xhumana nathi</string>
+    <string name="help_contact_subtitle">Xhumana nosekelo</string>
+    <string name="help_faq">Imibuzo Evame Ukubuzwa</string>
+    <string name="help_faq_subtitle">Imibuzo evamile iyaphendulwa</string>
+    <string name="help_privacy_policy">Inqubomgomo yobumfihlo</string>
+    <string name="help_privacy_subtitle">Indlela esivikela ngayo idatha yakho</string>
+    <string name="help_terms_service">Imigomo Yesevisi</string>
+    <string name="help_terms_subtitle">Imithetho yesicelo</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">Vumelanisa kudatha yeselula</string>
+    <string name="background_sync">Ukuvumelanisa kwangemuva</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">Izilungiselelo Zomfundi we-PDF</string>
+    <string name="pdf_settings_coming_soon">Kuyeza maduze</string>
+    <string name="pdf_settings_description">Lungiselela ukuziphatha kokuskrola, izindlela zokubuka, kanye nezintandokazi zokufunda</string>
+    <!-- General Settings -->
+    <string name="settings_language">Ulimi</string>
+    <string name="settings_pdf_reader">Izilungiselelo Zomfundi we-PDF</string>
+    <string name="settings_help_support">Usizo &amp; Usekelo</string>
+    <string name="settings_whats_new">Yini entsha</string>
+    <string name="settings_download_desktop">Faka kwenye idivayisi</string>
+    <string name="settings_rate_app">Linganisela uhlelo lokusebenza</string>
+    <string name="play_store_not_found">I-Play Store ayitholakali kule divayisi</string>
+    <string name="settings_set_as_default">Setha njengesibukeli se-PDF esizenzakalelayo</string>
+    <string name="settings_set_as_default_subtitle">Vula ama-PDF ngalolu hlelo lokusebenza ngokuzenzakalelayo</string>
+    <string name="settings_default_pdf_instructions_title">Indlela Yokusetha Njengokuzenzakalelayo</string>
+    <string name="settings_default_pdf_ok">Ngiyitholile</string>
+    <string name="settings_default_app_hint">Akuzange kusebenze?</string>
+    <string name="settings_default_app_hint_learn_more">Funda kabanzi</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">Ulimi</string>
+    <string name="language_search_placeholder">Sesha izilimi...</string>
+    <!-- Common UI -->
+    <string name="support">Usekelo</string>
+    <string name="language_english">IsiNgisi</string>
+    <string name="language_hindi">Isi-हिंदी</string>
+    <string name="language_spanish">Isi-Spanish</string>
+    <string name="language_french">IsiFulentshi</string>
+    <string name="language_german">IsiJalimane</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">Isi-Arabic</string>
+    <string name="language_japanese">Izimpahla</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">IsiPutukezi</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">UKUBUKEKA KWE-APP</string>
+    <string name="theme">ISIHLOKO</string>
+    <string name="general">JIKELELE</string>
+    <string name="new">KUSHA</string>
+    <string name="navigate">Zulazula</string>
+    <string name="download">Landa</string>
+    <string name="falcon_pdf">I-Falcon PDF</string>
+    <string name="excellence_in_every_pixel">Ubuhle kuyo yonke iphikseli</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">SEBENZISA IZINGUQUKO</string>
+    <string name="apply">Faka isicelo</string>
+    <string name="selected">Kukhethiwe</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">Izilungiselelo Zokuvumelanisa</string>
+    <string name="autosync_on_wifi">Vumelanisa ngokuzenzakalela ku-WiFi</string>
+    <string name="sync_reading_progress">Vumelanisa inqubekela phambili yokufunda</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">Igama ledokhumenti</string>
+    <string name="name_cannot_be_empty">Igama alikwazi ukungabi nalutho</string>
+    <string name="str__failed">%1$s Yehlulekile</string>
+    <string name="ok">KULUNGILE</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">Uhlelo lokuthuthukisa - Uhlelo lwamanje: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">Beka ukuze uvule ifayela</string>
+    <string name="release_to_import_and_open_pdf">Khulula ukuze ungenise futhi uvule amafayela e-PDF</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">Susa</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">I-PDF</string>
+    <string name="images">Izithombe</string>
+    <string name="filter_all_types">Wonke Amafayela</string>
+    <string name="favorites">Amafayela Athandwayo</string>
+    <string name="recent">Okwakamuva</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">Sesha amadokhumenti...</string>
+    <string name="voice_search">Ukusesha ngezwi</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">Amafayela Akamuva</string>
+    <string name="loading_recent_files">Ilayisha amafayela akamuva...</string>
+    <string name="no_recent_files">Awekho amafayela akamuva</string>
+    <string name="no_favorites">Azikho izintandokazi</string>
+    <string name="mark_files_as_favorite_to_see_them_here">Maka amafayela njengayintandokazi ukuze uwabone lapha</string>
+    <string name="open_some_pdf_files_to_see_the">Vula amanye amafayela e-PDF ukuze uwabone lapha</string>
+    <string name="status">Isimo</string>
+    <string name="actions">Izenzo</string>
+    <string name="select_all">Khetha konke</string>
+    <string name="enter_multiselect_mode">Faka imodi yokukhetha okuningi</string>
+    <string name="sorted_ascending">Kuhlelwe ngokunyuka</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">Isitoreji: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">Engeza amafayela angu- %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">Shintsha uhlobo lokubuka</string>
+    <string name="filter_">Isihlungi: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">Ilayisha i-PDF...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">Ngena ngemvume ukuze uvumelanise</string>
+    <string name="protect_your_library_files">Vikela amafayela akho elabhulali</string>
+    <string name="sign_in">Ngena ngemvume</string>
+    <string name="sign_out">Phuma ngemvume</string>
+    <string name="sign_in_dialog_title">Ngena ngemvume ku-Falcon PDF</string>
+    <string name="sign_in_dialog_subtitle">Umtapo wakho we-PDF, yonke indawo.</string>
+    <string name="sign_in_with_google">Ngena ngemvume nge-Google</string>
+    <string name="sign_in_with_apple">Ngena ngemvume nge-Apple</string>
+    <string name="apple_user_drive_unavailable">Ukuvumelanisa kwe-Google Drayivu akutholakali nge-Apple Sign-In</string>
+    <string name="apple_user_link_google">Xhumanisa i-Akhawunti ye-Google ukuze uvumelanise iDrayivu</string>
+    <string name="apple_user_sync_info">Ukuze unike amandla ukuvumelanisa kwamafu, xhumanisa i-akhawunti ye-Google</string>
+    <string name="link_google_account">Xhumanisa i-Akhawunti ye-Google</string>
+    <string name="signed_in_successfully">Ungene ngemvume ngempumelelo</string>
+    <string name="signed_out_successfully">Uphume ngemvume ngempumelelo</string>
+    <string name="sync_disabled_free">Ukuvumelanisa kukhutshaziwe kuma-akhawunti wamahhala.</string>
+    <string name="storage_disabled_grant_access">Isitoreji sikhutshaziwe. Nikeza ukufinyelela kwedrayivu ukuze kuqale.</string>
+    <string name="upgrade_to_pro">Thuthukela ku-Pro</string>
+    <string name="grant_drive_access">Nikeza Ukufinyelela KweDrayivu</string>
+    <string name="files_synced">%1$d/%2$d Amafayela Avumelanisiwe</string>
+    <string name="synced_count">%1$d Kuvumelanisiwe</string>
+    <string name="unlimited_sync_active">UKUVUMELANISA OKUNGENAMKHAWULO</string>
+    <string name="missing_drive_permissions">Akukho zimvume zeDrayivu. Ukuvumelanisa kuvinjelwe okwamanje.</string>
+    <string name="drive_access_revoked">Ukufinyelela kudrayivu kuhoxisiwe. Xhuma kabusha ukuze uqalise kabusha ukuvumelanisa.</string>
+    <string name="upgrade_premium">Thuthukisa i-Premium</string>
+    <string name="manage_account">Phatha i-Akhawunti</string>
+    <string name="sync_now">Vumelanisa manje</string>
+    <string name="tier_free">MAHHALA</string>
+    <string name="tier_pro">I-PRO</string>
+    <string name="tier_premium">I-PREMIUM</string>
+    <string name="status_paused">KUPHUMILE</string>
+    <!-- Common -->
+    <string name="navigate_back">Zulazulela emuva</string>
+    <string name="dismiss">Lahla</string>
+    <string name="cancel">Khansela</string>
+    <string name="back">Emuva</string>
+    <string name="search">Sesha</string>
+    <string name="more_actions">Izenzo ezengeziwe</string>
+    <string name="share">Yabelana</string>
+    <string name="delete">Susa</string>
+    <string name="remove_from_recents">Susa kokusanda kwenzeka</string>
+    <string name="open">Vula</string>
+    <string name="all">Konke</string>
+    <string name="sort_by_">Hlunga nge- %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Ukuvumelanisa kwe-Google Drayivu</string>
+    <string name="syncing">Ivumelanisa...</string>
+    <string name="sync_completed">Ukuvumelanisa kuqediwe</string>
+    <string name="sync_failed">Ukuvumelanisa kwehlulekile</string>
+    <string name="sync_limit_exceeded">Umkhawulo wokuvumelanisa udluliwe. Uhlelo lwakho lwe- %s luvumela amafayela e- %d.</string>
+    <string name="sync_no_drive_access">Ukufinyelela ku-Google Drayivu akutholakali</string>
+    <string name="sync_network_unavailable">Inethiwekhi ayitholakali</string>
+    <string name="sync_last_sync">Ukuvumelanisa kokugcina: %s</string>
+    <string name="sync_total_files">Isiyonke</string>
+    <string name="sync_synced_files">Kuvumelanisiwe</string>
+    <string name="sync_failed_files">Yehlulekile</string>
+    <string name="sync_conflict_files">Izingxabano</string>
+    <string name="sync_add_to_favorites">Engeza kuzintandokazi</string>
+    <string name="sync_remove_from_favorites">Susa kuzintandokazi</string>
+    <string name="sync_conflict_title">Vumelanisa Izingxabano</string>
+    <string name="sync_conflict_message">Amafayela alandelayo anezingxabano ezidinga ukuxazululwa:</string>
+    <string name="sync_conflict_explanation">Izingxabano zenzeka lapho kokubili izinguqulo zendawo nezikude sezishintshiwe.</string>
+    <string name="sync_plan_limit">Vumelanisa: %d/%d</string>
+    <string name="sync_plan_limit_reached">Umkhawulo ufinyelelwe</string>
+    <string name="sync_plan_unlimited">Ukuvumelanisa okungenamkhawulo</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">Yeqa</string>
+    <string name="welcome_next">Olandelayo</string>
+    <string name="welcome_get_started">Qalisa</string>
+    <string name="welcome_sign_in_get_started">Ngena ngemvume &amp; Qala</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Funda Noma Yimuphi Umbhalo&lt;/b&gt; Ngokushesha</string>
+    <string name="welcome_slide1_description">Vula futhi uphathe amafomethi edokhumenti angaphezu kwe-10 kufaka phakathi i-PDF, i-DOC, i-EPUB, ne-MOBI.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Funda ama-PDF, ama-ebook,&lt;/b&gt; kanye namadokhumenti ehhovisi endaweni eyodwa</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Izintandokazi&lt;/b&gt; amadokhumenti bese uwafinyelela kuwo wonke amadivayisi</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;Amazwana,&lt;/b&gt; gqamisa, futhi ubambisane kalula</string>
+    <string name="welcome_slide1_footer">Isifundi sakho sedokhumenti esijwayelekile</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;Hlela, Skena futhi Uhlele&lt;/b&gt; ama-PDF</string>
+    <string name="welcome_slide2_description">Konke okudingayo ukuze udale, uhlele, futhi uphathe ama-PDF kuthuluzi elilodwa elinamandla.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;Hlela umbhalo,&lt;/b&gt; chaza, gqamisa, bese ugcwalisa amafomu</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Skena amadokhumenti&lt;/b&gt; bese uwaguqula abe ama-PDF ngokushesha</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;Amathuluzi angaphezu kuka-30&lt;/b&gt; kufaka phakathi ukuhlanganisa, ukuguqula, ukucindezela, kanye nokuvikela</string>
+    <string name="welcome_slide2_footer">Indawo yakho yokusebenza ye-PDF ephelele</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;I-AI Eqonda&lt;/b&gt; Amadokhumenti Akho</string>
+    <string name="welcome_slide3_description">Londoloza amahora nge-AI efunda futhi ihlaziye amadokhumenti akho.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Fingqa&lt;/b&gt; amadokhumenti amade ngemizuzwana</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; amakhasi askeniwe bese uhumusha umbhalo ngokushesha</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Lalela&lt;/b&gt; amadokhumenti afundeka ngokuzwakalayo ngaphakathi</string>
+    <string name="welcome_slide3_footer">Azikho izikhangiso. Ukukhiqiza kuphela.</string>
+    <string name="grace">UMUSA</string>
+    <string name="unable_to_verify_subscription_limited_ac">Ayikwazi ukuqinisekisa okubhaliselwe. Ukufinyelela okulinganiselwe kuze kube yilapho uxhumano lubuyiselwa.</string>
+    <string name="retry_verification">Zama Ukuqinisekiswa Futhi</string>
+    <string name="guest_state">Izwe Lezivakashi</string>
+    <string name="free_tier">Izinga Lamahhala</string>
+    <string name="free_tier__locked">Isigaba Samahhala - Kukhiyiwe</string>
+    <string name="pro_tier">Isigaba Sobungcweti</string>
+    <string name="pro_tier__restricted">Isigaba Sobungcweti - Sinqunyelwe</string>
+    <string name="premium_tier">Isigaba se-Premium</string>
+    <string name="premium_tier__error">I-Premium Tier - Iphutha</string>
+    <string name="refresh_plan_status">Isimo sohlelo lokuvuselela</string>
+    <string name="user_avatar">Isithombe somsebenzisi</string>
+    <string name="debug_tools">Amathuluzi Okulungisa Amaphutha</string>
+    <string name="authentication__drive">Ukuqinisekiswa &amp; Idrayivu</string>
+    <string name="auth_state">Isifundazwe Sase-Auth</string>
+    <string name="revoke_drive_access">Buyisa Ukufinyelela Kwedrayivu</string>
+    <string name="image">Isithombe</string>
+    <string name="thumbnail">Isithonjana</string>
+    <string name="manage_preferences">Phatha Okuncamelayo</string>
+    <string name="tools_history">Umlando Wamathuluzi</string>
+    <string name="manage_recent_logs">Phatha amalogi wakamuva</string>
+    <string name="more_options">Izinketho ezengeziwe</string>
+    <string name="clear_all_history">Sula Wonke Umlando</string>
+    <string name="no_history_yet">Akukho Mlando Okwamanje</string>
+    <string name="your_pdf_tool_operations_will_appear_her">Imisebenzi yakho yamathuluzi e-PDF izovela lapha</string>
+    <string name="view">Buka</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">Kulondoloziwe %1$s</string>
+    <string name="history_status_processing">Ukucubungula</string>
+    <string name="history_status_succeeded">UPHUMELELE</string>
+    <string name="history_status_failed">YEHLULEKILE</string>
+    <string name="history_status_processing_upper">UKUCubungula</string>
+    <string name="history_unknown_files">Amafayela angaziwa</string>
+    <string name="history_op_complete">%1$s Kuqediwe!</string>
+    <string name="history_op_failed">%1$s Yehlulekile</string>
+    <string name="history_op_success_multiple">Umsebenzi uqedwe ngempumelelo ngamafayela angu- %1$d</string>
+    <string name="history_op_success_single">Umsebenzi uqedwe ngempumelelo</string>
+    <string name="history_op_error">Asikwazanga ukuqeda umsebenzi</string>
+    <string name="history_multiple_files">%1$d amafayela</string>
+    <string name="history_failed">Yehlulekile</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">Ukuvumelanisa Kwamafu</string>
+    <string name="cloud_sync_subtitle">Amadivayisi Axhunyiwe</string>
+    <string name="cloud_sync_all_synced">Wonke amafayela avumelanisiwe</string>
+    <string name="cloud_sync_syncing">Ukuvumelanisa…</string>
+    <string name="cloud_sync_pending">Ukuvumelanisa kulindile</string>
+    <string name="cloud_sync_last_sync">Ukuvumelanisa kokugcina: %1$s</string>
+    <string name="cloud_sync_never_synced">Akukaze kuvunyelaniswe</string>
+    <string name="cloud_sync_recent_activity">Umsebenzi Wokuvumelanisa Wakamuva</string>
+    <string name="cloud_sync_no_files">Awekho amafayela avumelanisiwe okwamanje</string>
+    <string name="cloud_sync_synced_to_drive">Kuvumelaniswe neDrayivu</string>
+    <string name="cloud_sync_pending_upload">Kusalindelwe ukulayishwa</string>
+    <string name="cloud_sync_sync_now">Vumelanisa Manje</string>
+    <string name="cloud_sync_view_history">Buka umlando wokuvumelanisa</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d amafayela avumelanisiwe</string>
+    <string name="cloud_sync_unlimited_files">%1$d amafayela avumelanisiwe · Angenamkhawulo</string>
+    <string name="cloud_sync_cta_title">Noma iyiphi ipulatifomu, noma nini</string>
+    <string name="cloud_sync_cta_subtitle">Amadokhumenti akho akulandela yonke indawo</string>
+    <string name="cloud_sync_files_label">%1$d amafayela</string>
+    <string name="settings_data_privacy">Idatha &amp; Ubumfihlo</string>
+    <string name="settings_data_privacy_subtitle">Phatha idatha, ukususwa kwe-akhawunti &amp;</string>
+    <string name="settings_delete_account">Susa i-Akhawunti</string>
+    <string name="settings_delete_account_subtitle">Susa unomphela i-akhawunti yakho nedatha</string>
+    <string name="delete_account_warning_title">Susa i-akhawunti yakho?</string>
+    <string name="delete_account_warning_message">Lokhu kuzosusa unomphela i-akhawunti yakho kanye nayo yonke idatha ehlobene, kufaka phakathi umlando wakho wokuthenga namafayela avumelaniswe namafu. Lesi senzo asikwazi ukuhlehliswa futhi ukuthenga akukwazi ukubuyiselwa kamuva.</string>
+    <string name="delete_account_confirm_phrase_label">Thayipha okuthi 'qinisekisa ukususa' ukuze uqhubeke:</string>
+    <string name="delete_account_confirm_phrase">qinisekisa ukususa</string>
+    <string name="delete_account_button">Susa i-Akhawunti</string>
+    <string name="delete_account_error_reauth">Ukuze kuvikelwe, kumele ukuthi usungene ngemvume muva nje ukuze ususe i-akhawunti yakho. Sicela uphume ngemvume bese ungena futhi, bese uzama futhi.</string>
+    <string name="delete_account_success">I-akhawunti isuswe ngempumelelo</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">Ifayela &amp; Izilungiselelo Zokuvumelanisa</string>
+    <string name="sync_on_mobile_data_subtitle">Sebenzisa idatha yeselula ukuze uvumelanise amafu</string>
+    <string name="drive_sync">Ukuvumelanisa kwangemuva</string>
+    <string name="drive_sync_subtitle">Vumelanisa izintandokazi &amp; skena amadokhumenti ku-Drive</string>
+    <string name="do_not_import_from_other_apps">Ungangenisi amafayela avela kwezinye izinhlelo zokusebenza</string>
+    <string name="do_not_import_from_other_apps_subtitle">Vula amafayela abiwe okwesikhashana ngaphandle kokulondoloza kulabhulali</string>
+    <string name="clear_imported_files">Sula Amafayela Angenisiwe</string>
+    <string name="clear_imported_files_subtitle">Susa wonke amafayela akopishwe kwezinye izinhlelo zokusebenza</string>
+    <string name="clear_imports_confirm_title">Sula amafayela angenisiwe?</string>
+    <string name="clear_imports_confirm_message">Lokhu kuzosusa unomphela wonke amafayela kufolda yakho ye-Imports. Lokhu akukwazi ukuhlehliswa.</string>
+    <string name="clear_imports_success">Amafayela angenisiwe asuliwe</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">Idatha &amp; Ubumfihlo</string>
+    <string name="analytics_opt_out_title">Thumela Idatha Yokusetshenziswa</string>
+    <string name="analytics_opt_out_subtitle">Yabelana ngedatha yokusetshenziswa engaziwa kanye nemibiko yokuphahlazeka nonjiniyela ukuze usize ekuthuthukiseni uhlelo lokusebenza</string>
+    <string name="analytics_opt_out_disabled_note">Ukuhlaziya kanye nokubikwa kokuphahlazeka kukhutshaziwe. Akukho datha ethunyelwa ku-Google noma kunjiniyela.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">Izinguquko Ezingalondoloziwe</string>
+    <string name="unsaved_changes_tab_message">Le dokhumenti inezinguquko ezingakagcinwa. Ingabe ufuna ukuyilondoloza ngaphambi kokuvala?</string>
+    <string name="unsaved_changes_window_message">Unezinguquko ezingakagcinwa kudokhumenti eyodwa noma ngaphezulu. Ingabe ufuna ukuzilahla bese uphuma?</string>
+    <string name="discard">Lahla</string>
+    <string name="discard_and_quit">Lahla &amp; Yeka</string>
+    <string name="close">Vala</string>
+    <string name="remove_favorite">Susa intandokazi</string>
+    <string name="set_as_default_pdf_viewer">Setha njenge-PDF Viewer Ezenzakalelayo?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">I-Falcon PDF akuyona i-PDF viewer yakho ezenzakalelayo. Ungathanda ukuyibeka njenge-default ukuze wonke amafayela e-PDF avuleke nge-Falcon PDF?</string>
+    <string name="set_now">Setha Manje</string>
+    <string name="never">Akukaze kube njalo</string>
+    <string name="later">Kamuva</string>
+    <string name="set_default">Setha Okuzenzakalelayo</string>
+    <string name="default">Okuzenzakalelayo</string>
+    <string name="version_">Inguqulo %1$s</string>
+    <string name="sign_in_with_other_accounts">Ngena ngemvume ngamanye ama-akhawunti</string>
+    <string name="upgrade">Thuthukisa</string>
+    <string name="view_plan">Buka Uhlelo</string>
+    <string name="unlimited_sync_upto_5gb">Ukuvumelanisa okungenamkhawulo kufika ku-5GB</string>
+    <string name="unlock_faster">Vula ngokushesha</string>
+    <string name="use_biometrics_instead_of_passwords">Sebenzisa i-Biometrics esikhundleni samaphasiwedi.</string>
+    <string name="upgrade_to_premium">Thuthukela ku-Premium</string>
+    <string name="unlock_pdf">Vula i-PDF</string>
+    <string name="use__to_accessnthis_document">Sebenzisa %1$s ukufinyelela\nle dokhumenti</string>
+    <string name="open_with_password">Vula ngephasiwedi</string>
+    <string name="secure">Kuphephile</string>
+    <string name="loading_">Ilayisha %1$s...</string>
+    <string name="failed_to_open_ebook">Yehlulekile ukuvula i-e-book</string>
+    <string name="properties">Izakhiwo</string>
+    <string name="copy">Kopisha</string>
+    <string name="highlight">Okugqamile</string>
+    <string name="clear_selection">Sula ukukhetha</string>
+    <string name="close_search">Vala usesho</string>
+    <string name="search_in_book">Sesha encwadini...</string>
+    <string name="contents">Okuqukethwe</string>
+    <string name="table_of_contents">Okuqukethwe</string>
+    <string name="no_table_of_contents_available">Akukho uhlu lokuqukethwe olutholakalayo</string>
+    <string name="bookmarks">Amabhukhimakhi</string>
+    <string name="no_bookmarks_yet">Awekho amabhukhimakhi okwamanje</string>
+    <string name="page_">Ikhasi %1$s</string>
+    <string name="no_results">Ayikho imiphumela</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">Izilungiselelo</string>
+    <string name="decrease_font_size">Nciphisa usayizi wefonti</string>
+    <string name="increase_font_size">Khulisa usayizi wefonti</string>
+    <string name="font">Ifonti</string>
+    <string name="jump_to_page">Yeqa ekhasini</string>
+    <string name="enter_page_number_1">Faka inombolo yekhasi (1–%1$s):</string>
+    <string name="go">Hamba</string>
+    <string name="read_aloud">Funda Ngokuzwakalayo</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">Ima</string>
+    <string name="annotations__text_selection">Izichasiselo &amp; Ukukhethwa Kombhalo</string>
+    <string name="text_selection_and_annotations_for_ebook">Ukukhethwa kombhalo kanye nezichasiselo zama-ebook kuyeza maduze.</string>
+    <string name="longpress_on_text_to_select_highlight_or">Cindezela isikhathi eside umbhalo ukuze ukhethe, ugqamise, noma wengeze amanothi.</string>
+    <string name="press_play_to_start_reading_aloud">Cindezela u-play ukuze uqale ukufunda ngokuzwakalayo...</string>
+    <string name="speed">Isivinini</string>
+    <string name="voice">Izwi</string>
+    <string name="no_annotations_yet">Azikho izichasiselo okwamanje</string>
+    <string name="select_text_to_highlight_or_add_notes">Khetha umbhalo ozowugqamisa noma ozowengeza amanothi</string>
+    <string name="tools">Amathuluzi</string>
+    <string name="convert_to_images">Guqula kube Izithombe</string>
+    <string name="rename">Qamba kabusha</string>
+    <string name="print">Phrinta</string>
+    <string name="a">A−</string>
+    <string name="cover_of_">Isembozo se- %1$s</string>
+    <string name="no_cover_available">Akukho siciko esitholakalayo</string>
+    <string name="read_now">Funda Manje</string>
+    <string name="about_the_book">MAYELANA NENKUBO</string>
+    <string name="tags">AMATHEGI</string>
+    <string name="publisher_info">ULWAZI LOMSHICELELI</string>
+    <string name="published_">Kushicilelwe: %1$s</string>
+    <string name="retry">Zama futhi</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Sula i-Cache</string>
+    <string name="ebooks_library">Umtapo Wezincwadi ze-E</string>
+    <string name="manage_your_digital_collection_across_mu">Phatha iqoqo lakho ledijithali kubahlinzeki abaningi. Sesha, hlunga, futhi uthole izihloko ezintsha ezivela ku-Google Books kanye ne-Open Library.</string>
+    <string name="no_books_found">Azikho izincwadi ezitholakele</string>
+    <string name="no_results_for__try_a_different_search_t">Ayikho imiphumela ye-"%1$s". Zama igama lokusesha elihlukile.</string>
+    <string name="downloadable_only">Okungalandwa Kuphela</string>
+    <string name="file_unavailable">Ifayela alitholakali</string>
+    <string name="unavailable">Akutholakali</string>
+    <string name="search_titles_authors_isbn">Sesha izihloko, ababhali, i-ISBN...</string>
+    <string name="clear_search">Sula usesho</string>
+    <string name="ebooks">Ama-eBook</string>
+    <string name="read_pdf">Funda i-PDF</string>
+    <string name="create_pdf">Dala i-PDF</string>
+    <string name="unlock_all_tools_and_remove_limits">Vula wonke amathuluzi bese ususa imikhawulo</string>
+    <string name="ocr_scanning">Ukuskena kwe-OCR</string>
+    <string name="extract_text_from_scanned_documents">Khipha umbhalo kumadokhumenti askeniwe</string>
+    <string name="cloud_sync">Ukuvumelanisa Kwamafu</string>
+    <string name="access_your_documents_anywhere">Finyelela amadokhumenti akho noma kuphi</string>
+    <string name="annotate_pdfs">Chaza ama-PDF</string>
+    <string name="cloud_backup">Isipele Samafu</string>
+    <string name="continue_reading">Qhubeka Ufunda</string>
+    <string name="pick_files">Khetha Amafayela</string>
+    <string name="browse">Phequlula</string>
+    <string name="did_you_know">Uthi bewazi?</string>
+    <string name="home">Ikhaya</string>
+    <string name="your_documents_at_a_glance">Amadokhumenti akho ngokushesha</string>
+    <string name="pick_file">Khetha Ifayela</string>
+    <string name="quick_actions">Izenzo Ezisheshayo</string>
+    <string name="pro">I-PRO</string>
+    <string name="open_files">Vula amafayela</string>
+    <string name="convert_to_pdf">Guqula kube yi-PDF</string>
+    <string name="close_drawer">Vala idrowa</string>
+    <string name="close_file">Vala ifayela</string>
+    <string name="office">Ihhovisi</string>
+    <string name="coming_soon">Kuyeza maduze</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">Isibukeli se-e-book asikatholakali kule nkundla.</string>
+    <string name="set_as_default_viewer">Setha njengesibukeli Esizenzakalelayo</string>
+    <string name="free">Mahhala</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">Ilanda isibuyekezo... %1$s%</string>
+    <string name="more">Okuningi</string>
+    <string name="font_size">Usayizi Wefonti</string>
+    <string name="font_family">Umndeni Wefonti</string>
+    <string name="scroll_direction">Isiqondiso Sokuskrola</string>
+    <string name="navigation">Ukuzulazula</string>
+    <string name="keep_screen_on">Gcina Isikrini Sivuliwe</string>
+    <string name="volume_button_to_scroll">Inkinobho Yevolumu Yokuskrola</string>
+    <string name="export_ebook_pages_as_image_files">Thumela amakhasi e-ebook njengamafayela esithombe</string>
+    <string name="access_millions_of_titles">Finyelela izigidi zezihloko.</string>
+    <string name="read_offline_with_natural_ai_voices">Funda ungaxhunyiwe ku-inthanethi ngamazwi emvelo e-AI.</string>
+    <string name="advanced_ai_reader">Umfundi we-AI othuthukisiwe.</string>
+    <string name="experience_studioquality_narration">Jabulela ukulandisa okuseqophelweni eliphezulu kwesitudiyo.</string>
+    <string name="powerful_pdf_tools">Amathuluzi e-PDF anamandla.</string>
+    <string name="create_and_edit_documents_on_the_go">Dala futhi uhlele amadokhumenti usohambeni.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Thuthukela ku-Pro: Vula wonke amathuluzi bese ususa imikhawulo</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">Ukuskena kwe-OCR: Khipha umbhalo kumadokhumenti askeniwe</string>
+    <string name="cloud_sync_access_your_documents_anywher">Ukuvumelanisa Kwamafu: Finyelela amadokhumenti akho noma kuphi</string>
+    <string name="scan">Skena</string>
+    <string name="compress">Cindezela</string>
+    <string name="merge">Hlanganisa</string>
+    <string name="convert">Guqula</string>
+    <string name="highlight_underline_and_add_notes_to_you">Gqamisa, dwebela, bese wengeza amanothi kumadokhumenti akho</string>
+    <string name="keep_your_documents_safe_with_automatic_">Gcina amadokhumenti akho ephephile ngokuvumelanisa kwamafu okuzenzakalelayo</string>
+    <string name="indicator_color_">umbala_wesikhombisi_%1$s</string>
+    <string name="my_library">Ilabhulali Yami</string>
+    <string name="get_ebooks">Thola ama-eBook</string>
+    <string name="scan_document">Skena Idokhumenti</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

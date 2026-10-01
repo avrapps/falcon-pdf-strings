@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Hãy kiểm tra kết nối internet và xác nhận rằng tài khoản Google đã được thêm vào thiết bị của bạn, sau đó thử lại.</string>
+    <string name="sign_in_with_apple">Đăng nhập bằng Apple</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Nâng cấp trải nghiệm của bạn</string>
+    <string name="purchase_screen_close">Đóng</string>
+    <string name="purchase_screen_refresh">Làm cho khỏe lại</string>
+    <string name="purchase_sync_status">Lần đồng bộ cuối cùng: %1s</string>
+    <string name="purchase_current_plan">Hiện hành</string>
+    <string name="purchase_syncing">Đang đồng bộ…</string>
+    <string name="purchase_loading">Đang tải…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Gói miễn phí</string>
+    <string name="purchase_pro_plan">Phiên bản chuyên nghiệp</string>
+    <string name="purchase_pro_tagline">Chỉ cần trả tiền một lần. Sở hữu mãi mãi.</string>
+    <string name="purchase_premium_plan">Đăng ký cao cấp</string>
+    <string name="purchase_premium_tagline">Tất cả mọi thứ trong phiên bản Pro, cộng thêm AI &amp; Cloud</string>
+    <string name="purchase_recommended">Khuyến khích</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">AI Read Aloud — Nghe PDF một cách tự nhiên</string>
+    <string name="purchase_pro_feature_2">Chỉnh sửa PDF đầy đủ &amp; Điền biểu mẫu</string>
+    <string name="purchase_pro_feature_3">Đồng bộ hóa giữa các thiết bị thông qua Drive</string>
+    <string name="purchase_pro_feature_4">Không quảng cáo, không có hình mờ trên bản quét.</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">Tóm tắt bằng AI với khả năng suy luận mạnh mẽ hơn</string>
+    <string name="purchase_premium_feature_1_desc">Những câu trả lời sâu sắc hơn từ các tài liệu dài và phức tạp.</string>
+    <string name="purchase_premium_feature_2_title">50GB Falcon Cloud</string>
+    <string name="purchase_premium_feature_2_desc">Thư viện PDF cá nhân của bạn, được đồng bộ hóa và bảo mật.</string>
+    <string name="purchase_premium_feature_3_title">Không giới hạn số lượng công cụ PDF trên 60+</string>
+    <string name="purchase_premium_feature_3_desc">Mọi công cụ, luôn sẵn có</string>
+    <string name="purchase_premium_feature_4_title">Chỉnh sửa toàn văn trong tệp PDF</string>
+    <string name="purchase_premium_feature_4_desc">Chỉnh sửa văn bản trực tiếp như trong trình soạn thảo văn bản.</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Mua Pro</string>
+    <string name="purchase_sign_in_buy">Đăng nhập &amp; Mua</string>
+    <string name="purchase_sign_in_subscribe">Đăng nhập &amp; Đăng ký</string>
+    <string name="purchase_subscribe">Đặt mua</string>
+    <string name="purchase_start_trial">Bắt đầu dùng thử miễn phí 7 ngày</string>
+    <string name="purchase_view_all_features">Xem tất cả các tính năng</string>
+    <string name="purchase_show_more">Hiển thị thêm</string>
+    <string name="purchase_show_less">Hiển thị ít hơn</string>
+    <string name="purchase_see_all_features">Xem tất cả các tính năng</string>
+    <string name="purchase_manage_subscription">Quản lý đăng ký</string>
+    <string name="purchase_restore_purchases">Khôi phục các giao dịch mua</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Hàng tháng</string>
+    <string name="purchase_billing_yearly">Hàng năm</string>
+    <string name="purchase_save_badge">Tiết kiệm 40%</string>
+    <string name="purchase_lifetime">Trọn đời</string>
+    <string name="purchase_per_year">/năm</string>
+    <string name="purchase_per_month">/tháng</string>
+    <string name="purchase_trial_terms">Bạn có thể hủy bất cứ lúc nào. Dịch vụ sẽ tự động gia hạn trừ khi bạn hủy 24 giờ trước khi thời gian dùng thử kết thúc.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Không thể tải sản phẩm. Vui lòng kiểm tra thông tin đăng nhập và kết nối internet của bạn.</string>
+    <string name="purchase_error_network">Mất kết nối. Vui lòng kiểm tra kết nối internet và thử lại.</string>
+    <string name="purchase_error_payment_declined">Phương thức thanh toán bị từ chối. Vui lòng cập nhật thông tin thanh toán của bạn.</string>
+    <string name="purchase_error_server">Đã xảy ra lỗi. Vui lòng thử lại sau.</string>
+    <string name="purchase_error_rate_limit">Quá nhiều lần làm mới trang. Vui lòng chờ.</string>
+    <string name="purchase_error_offline">Không có kết nối internet. Đang hiển thị dữ liệu được lưu trong bộ nhớ cache.</string>
+    <string name="purchase_error_product_refresh">Không thể xác minh sản phẩm. Vui lòng thử lại.</string>
+    <string name="purchase_error_generic">Đã xảy ra lỗi. Vui lòng thử lại.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Điều khoản dịch vụ</string>
+    <string name="purchase_privacy_policy">Chính sách bảo mật</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">Lịch sử mua hàng</string>
+    <string name="free_trial">Dùng thử miễn phí</string>
+    <string name="no_purchase_history">Không có lịch sử mua hàng</string>
+    <string name="you_havent_made_any_purchases_">Bạn chưa thực hiện bất kỳ giao dịch mua nào.</string>
+    <string name="error">Lỗi</string>
+    <string name="retry">Thử lại</string>
+    <string name="back">Mặt sau</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Nâng cấp trải nghiệm của bạn</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Khôi phục giao dịch mua</string>
+    <string name="close_purchase_screen">Đóng màn hình mua hàng</string>
+    <string name="help">Giúp đỡ</string>
+    <string name="more_options">Nhiều tùy chọn hơn</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Làm cho khỏe lại</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Tích cực</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s HOẠT ĐỘNG</string>
+    <string name="premium_benefits">QUYỀN LỢI CAO CẤP</string>
+    <string name="manage_subscription">Quản lý đăng ký</string>
+    <string name="next_billing_date__manage_your">Ngày thanh toán tiếp theo: %1$s. Quản lý chi tiết thanh toán và hủy đăng ký thông qua cài đặt tài khoản Play Store của bạn.</string>
+    <string name="purchase_expires_">Giao dịch mua hết hạn vào: %1$s</string>
+    <string name="falcon_pdf_pro">Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">Gói Falcon PDF Premium (Hàng tháng)</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Premium (Hàng năm)</string>
+    <string name="pro">CHUYÊN NGHIỆP</string>
+    <string name="premium">PHẦN THƯỞNG</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Tải Falcon PDF Pro hoặc Premium</string>
+    <string name="purchase_desktop_subtitle">Việc mua hàng được quản lý trên trang web của chúng tôi. Vui lòng nhấp vào bên dưới để xem các gói dịch vụ và giá cả.</string>
+    <string name="purchase_desktop_open_website">Xem các gói &amp; Bảng giá</string>
+    <string name="purchase_desktop_already_purchased">Đã mua rồi? Đăng nhập để đồng bộ gói dịch vụ của bạn.</string>
+    <string name="purchase_store_build_subtitle">Gói đăng ký của bạn mở khóa các tính năng Pro trên mọi thiết bị của bạn. Đăng nhập để đồng bộ hóa gói của bạn.</string>
+    <string name="ai_read_aloud">AI đọc to</string>
+    <string name="full_pdf_editing__form_filling">Chỉnh sửa PDF đầy đủ &amp; Điền biểu mẫu</string>
+    <string name="crossdevice_sync_via_drive">Đồng bộ hóa giữa các thiết bị thông qua Drive</string>
+    <string name="adfree_no_watermark">Không quảng cáo, không hình mờ</string>
+    <string name="export_to_word__excel">Xuất sang Word &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">Nhiều chủ đề &amp; Hình nền trang</string>
+    <string name="ai_summaries_with_stronger_reasoning">Tóm tắt bằng AI với khả năng suy luận mạnh mẽ hơn</string>
+    <string name="no_limits_on_60_pdf_tools">Không giới hạn số lượng công cụ PDF trên 60+</string>
+    <string name="full_text_editing_in_pdfs">Chỉnh sửa toàn văn trong tệp PDF</string>
+    <string name="digital_signatures_dscesign">Chữ ký điện tử (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Đồng bộ hóa tài liệu đã quét không giới hạn</string>
+    <string name="biometric_document_lock">Khóa tài liệu sinh trắc học</string>
+    <string name="everything_in_pro_all_devices">Tất cả mọi thứ trong phiên bản Pro, trên mọi thiết bị.</string>
+    <string name="introductory_offer">Ưu đãi ra mắt</string>
+    <string name="limited_time__30_off">Ưu đãi có thời hạn — Giảm giá 30%</string>
+    <string name="date__time">Ngày &amp; Giờ</string>
+    <string name="amount">Số lượng</string>
+    <string name="platform">Nền tảng</string>
+    <string name="type">Kiểu</string>
+    <string name="expires_on">Hết hạn vào ngày</string>
+</resources>

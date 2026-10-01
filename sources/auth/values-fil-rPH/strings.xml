@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Suriin ang iyong koneksyon sa internet at kumpirmahin na may naidagdag na Google account sa iyong device, pagkatapos ay subukang muli.</string>
+    <string name="sign_in_with_apple">Mag-sign in gamit ang Apple</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">I-upgrade ang Iyong Karanasan</string>
+    <string name="purchase_screen_close">Isara</string>
+    <string name="purchase_screen_refresh">I-refresh</string>
+    <string name="purchase_sync_status">Huling na-sync: %1s</string>
+    <string name="purchase_current_plan">Kasalukuyan</string>
+    <string name="purchase_syncing">Nagsi-sync…</string>
+    <string name="purchase_loading">Naglo-load…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Libreng Plano</string>
+    <string name="purchase_pro_plan">Edisyong Pro</string>
+    <string name="purchase_pro_tagline">Magbayad nang isang beses. Maari nang panghabambuhay.</string>
+    <string name="purchase_premium_plan">Premium na Suskrisyon</string>
+    <string name="purchase_premium_tagline">Lahat ay nasa Pro, kasama ang AI &amp; Cloud</string>
+    <string name="purchase_recommended">Inirerekomenda</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">AI Read Aloud — Pakikinig sa mga PDF nang natural</string>
+    <string name="purchase_pro_feature_2">Buong Pag-eedit ng PDF &amp; Pagpuno ng Form</string>
+    <string name="purchase_pro_feature_3">Pag-sync sa Iba't Ibang Device sa pamamagitan ng Drive</string>
+    <string name="purchase_pro_feature_4">Walang Ad, Walang Watermark sa mga Scan</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">Mga Buod ng AI na may Mas Matibay na Pangangatwiran</string>
+    <string name="purchase_premium_feature_1_desc">Mas malalalim na sagot mula sa mas mahaba at kumplikadong mga dokumento</string>
+    <string name="purchase_premium_feature_2_title">50GB Falcon Cloud</string>
+    <string name="purchase_premium_feature_2_desc">Ang iyong personal na PDF library, naka-sync at ligtas</string>
+    <string name="purchase_premium_feature_3_title">Walang Limitasyon sa 60+ na PDF Tools</string>
+    <string name="purchase_premium_feature_3_desc">Bawat kagamitan, laging magagamit</string>
+    <string name="purchase_premium_feature_4_title">Pag-edit ng Buong Teksto sa mga PDF</string>
+    <string name="purchase_premium_feature_4_desc">Direktang i-edit ang teksto tulad ng isang word processor</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Bumili ng Pro</string>
+    <string name="purchase_sign_in_buy">Mag-sign In &amp; Bilhin</string>
+    <string name="purchase_sign_in_subscribe">Mag-sign In &amp; Mag-subscribe</string>
+    <string name="purchase_subscribe">Mag-subscribe</string>
+    <string name="purchase_start_trial">Simulan ang 7-Araw na Libreng Pagsubok</string>
+    <string name="purchase_view_all_features">Tingnan ang lahat ng feature</string>
+    <string name="purchase_show_more">Magpakita Pa</string>
+    <string name="purchase_show_less">Ipakita ang Mas Kaunting</string>
+    <string name="purchase_see_all_features">Tingnan ang lahat ng mga tampok</string>
+    <string name="purchase_manage_subscription">Pamahalaan ang Suskrisyon</string>
+    <string name="purchase_restore_purchases">Ibalik ang mga Binili</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Buwan-buwan</string>
+    <string name="purchase_billing_yearly">Taunan</string>
+    <string name="purchase_save_badge">Makatipid ng 40%%</string>
+    <string name="purchase_lifetime">Panghabambuhay</string>
+    <string name="purchase_per_year">/taon</string>
+    <string name="purchase_per_month">/buwan</string>
+    <string name="purchase_trial_terms">Kanselahin anumang oras. Magre-renew maliban kung kanselahin 24 oras bago matapos ang trial.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Nabigong i-load ang mga produkto. Suriin ang iyong pag-sign-in at koneksyon sa internet.</string>
+    <string name="purchase_error_network">Nawala ang koneksyon. Pakitingnan ang iyong internet at subukang muli.</string>
+    <string name="purchase_error_payment_declined">Tinanggihan ang paraan ng pagbabayad. Paki-update ang iyong impormasyon sa pagbabayad.</string>
+    <string name="purchase_error_server">May nangyaring mali. Pakisubukang muli mamaya.</string>
+    <string name="purchase_error_rate_limit">Masyadong maraming pagtatangkang i-refresh. Mangyaring maghintay.</string>
+    <string name="purchase_error_offline">Walang koneksyon sa internet. Ipinapakita ang naka-cache na data.</string>
+    <string name="purchase_error_product_refresh">Hindi ma-verify ang produkto. Pakisubukang muli.</string>
+    <string name="purchase_error_generic">Nagkaroon ng error. Pakisubukang muli.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Mga Tuntunin ng Serbisyo</string>
+    <string name="purchase_privacy_policy">Patakaran sa Pagkapribado</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">Kasaysayan ng Pagbili</string>
+    <string name="free_trial">Libreng Pagsubok</string>
+    <string name="no_purchase_history">Walang Kasaysayan ng Pagbili</string>
+    <string name="you_havent_made_any_purchases_">Wala ka pang nabibili.</string>
+    <string name="error">Mali</string>
+    <string name="retry">Subukan muli</string>
+    <string name="back">Balik</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">I-upgrade ang Iyong Karanasan</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Ibalik ang mga Binili</string>
+    <string name="close_purchase_screen">Isara ang screen ng pagbili</string>
+    <string name="help">Tulong</string>
+    <string name="more_options">Higit pang mga opsyon</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">I-refresh</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Aktibo</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s AKTIBO</string>
+    <string name="premium_benefits">MGA PREMIUM NA BENEPISYO</string>
+    <string name="manage_subscription">Pamahalaan ang Suskrisyon</string>
+    <string name="next_billing_date__manage_your">Susunod na petsa ng pagsingil: %1$s. Pamahalaan ang iyong mga detalye sa pagsingil at pagkansela sa pamamagitan ng mga setting ng iyong Play Store account.</string>
+    <string name="purchase_expires_">Magtatapos ang pagbili: %1$s</string>
+    <string name="falcon_pdf_pro">Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF Premium (Buwanan)</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Premium (Taunan)</string>
+    <string name="pro">PRO</string>
+    <string name="premium">PREMIUM</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Kumuha ng Falcon PDF Pro o Premium</string>
+    <string name="purchase_desktop_subtitle">Ang mga pagbili ay pinamamahalaan sa aming website. Mag-click sa ibaba upang tingnan ang mga plano at presyo.</string>
+    <string name="purchase_desktop_open_website">Tingnan ang mga Plano &amp; Pagpepresyo</string>
+    <string name="purchase_desktop_already_purchased">Nabili na? Mag-sign in para i-sync ang iyong plano.</string>
+    <string name="purchase_store_build_subtitle">Ina-unlock ng iyong subscription ang mga Pro na feature sa lahat ng iyong device. Mag-sign in para i-sync ang iyong plano.</string>
+    <string name="ai_read_aloud">Pagbasa nang Malakas ng AI</string>
+    <string name="full_pdf_editing__form_filling">Buong Pag-eedit ng PDF &amp; Pagpuno ng Form</string>
+    <string name="crossdevice_sync_via_drive">Pag-sync sa Iba't Ibang Device sa pamamagitan ng Drive</string>
+    <string name="adfree_no_watermark">Walang Ad, Walang Watermark</string>
+    <string name="export_to_word__excel">I-export sa Word &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">Maramihang Tema &amp; Mga Background ng Pahina</string>
+    <string name="ai_summaries_with_stronger_reasoning">Mga Buod ng AI na may Mas Matibay na Pangangatwiran</string>
+    <string name="no_limits_on_60_pdf_tools">Walang Limitasyon sa 60+ na PDF Tools</string>
+    <string name="full_text_editing_in_pdfs">Pag-edit ng Buong Teksto sa mga PDF</string>
+    <string name="digital_signatures_dscesign">Mga Digital na Lagda (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Walang Limitasyong Pag-sync ng Na-scan na Dokumento</string>
+    <string name="biometric_document_lock">Biometric na Lock ng Dokumento</string>
+    <string name="everything_in_pro_all_devices">Lahat sa Pro, Lahat ng Device</string>
+    <string name="introductory_offer">Pambungad na Alok</string>
+    <string name="limited_time__30_off">Limitadong oras — 30% diskwento</string>
+    <string name="date__time">Petsa &amp; Oras</string>
+    <string name="amount">Halaga</string>
+    <string name="platform">Plataporma</string>
+    <string name="type">Uri</string>
+    <string name="expires_on">Magtatapos sa</string>
+</resources>

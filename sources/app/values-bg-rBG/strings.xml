@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">PDF магия</string>
+    <string name="app_tagline">Какво бихте искали да правите?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">Последно използвано</string>
+    <string name="home_favorites">Любими</string>
+    <string name="home_new_tool">Нов инструмент</string>
+    <string name="home_featured">ПРЕДСТАВЕНО</string>
+    <string name="home_scan_to_pdf">Сканиране в PDF</string>
+    <string name="home_scan_description">Превърнете хартиените документи в дигитална магия мигновено</string>
+    <string name="home_start_scanning">Стартиране на сканиране</string>
+    <string name="home_all_tools">Всички инструменти</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">PDF инструменти</string>
+    <string name="image_tools">Инструменти за изображения</string>
+    <string name="tools_split">Сплит</string>
+    <string name="tools_split_description">Извличане на страници</string>
+    <string name="tools_rotate">Завъртане</string>
+    <string name="tools_rotate_description">Фиксиране на ориентацията</string>
+    <string name="tools_delete_pages">Изтриване на страници</string>
+    <string name="tools_delete_pages_description">Премахнете нежеланото</string>
+    <string name="tools_convert">Конвертиране</string>
+    <string name="tools_convert_description">До/От изображения</string>
+    <string name="tools_sign">Знак</string>
+    <string name="tools_sign_description">Добавяне на подпис</string>
+    <string name="tools_protect">Защитете</string>
+    <string name="tools_protect_description">Защита с парола</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">PDF преглед</string>
+    <string name="pdf_viewer_page_info">Страница %1$d от %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">Скенер за документи</string>
+    <string name="scanner_capture">Заснемане</string>
+    <string name="scanner_retake">Повторно снимане</string>
+    <string name="scanner_save">Запазване</string>
+    <!-- Navigation -->
+    <string name="nav_back">Навигиране назад</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="nav_more_options">Още опции</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Дом</string>
+    <string name="nav_library">Библиотека</string>
+    <string name="nav_scan">Сканиране</string>
+    <string name="nav_tools">Инструменти</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">Преглед на файлове</string>
+    <string name="browse_files_subtitle">Съхранение &amp; Облачни файлове</string>
+    <string name="show_hidden_files">Показване на скритите файлове</string>
+    <string name="hide_hidden_files">Скриване на скрити файлове</string>
+    <string name="refresh_storage">Обновяване на хранилището</string>
+    <string name="no_storage_available">Няма налично място за съхранение</string>
+    <string name="no_files_found">Няма намерени файлове</string>
+    <string name="add_files">Добавяне на %1$d файлове</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">Необходимо е разрешение за съхранение</string>
+    <string name="permission_storage_message">Това приложение се нуждае от достъп до паметта на вашето устройство, за да преглежда и отваря PDF файлове. Моля, предоставете разрешение за достъп до паметта, за да продължите.</string>
+    <string name="permission_grant">Предоставяне на разрешение</string>
+    <!-- Common Actions -->
+    <string name="action_open">Отворено</string>
+    <string name="action_save">Запазване</string>
+    <string name="action_share">Споделяне</string>
+    <string name="action_delete">Изтриване</string>
+    <string name="action_cancel">Отказ</string>
+    <string name="action_confirm">Потвърди</string>
+    <string name="action_rename">Преименуване</string>
+    <string name="action_print">Печат</string>
+    <string name="action_favorite">Любим</string>
+    <string name="action_unfavorite">Премахни от любими</string>
+    <!-- Document Actions -->
+    <string name="document_share">Споделяне на документ</string>
+    <string name="document_rename">Преименуване на документ</string>
+    <string name="document_delete">Изтриване на документ</string>
+    <string name="document_print">Печат на документ</string>
+    <string name="document_favorite">Добави към любими</string>
+    <string name="document_unfavorite">Премахване от любими</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">Документът е споделен успешно</string>
+    <string name="document_share_failed">Споделянето на документа не бе успешно</string>
+    <string name="document_renamed_success">Документът е преименуван успешно</string>
+    <string name="document_rename_failed">Преименуването на документа не бе успешно</string>
+    <string name="document_deleted_success">Документът е успешно изтрит</string>
+    <string name="document_delete_failed">Неуспешно изтриване на документа</string>
+    <string name="document_print_opened">Документът е отворен в програмата за преглед на PDF файлове по подразбиране. Използвайте функцията за печат на програмата за преглед.</string>
+    <string name="document_print_failed">Неуспешно отпечатване на документа</string>
+    <string name="document_added_to_favorites">Добавено към любими</string>
+    <string name="document_removed_from_favorites">Премахнато от любими</string>
+    <string name="document_favorite_failed">Актуализирането на статуса „Любими“ не бе успешно</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">Преименуване на документ</string>
+    <string name="dialog_rename_hint">Въведете ново име</string>
+    <string name="dialog_rename_empty_error">Името на документа не може да бъде празно</string>
+    <string name="dialog_delete_title">Изтриване на документ</string>
+    <string name="dialog_delete_file_message">Това ще изтрие файла завинаги.\n\nДа се изтрие %1$s?</string>
+    <string name="dialog_delete_uri_message">Премахва се само от приложението. Оригиналният файл е непроменен.\n\nДа се премахне ли %1$s от приложението?</string>
+    <string name="dialog_delete_confirm">Изтриване</string>
+    <string name="dialog_remove_confirm">Премахване</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">Преименува само вътре в приложението. Оригиналният файл остава непроменен.</string>
+    <string name="notice_delete_uri_only">Премахнато от приложението. Оригиналният файл е непроменен.</string>
+    <string name="notice_file_exists_error">Файл с това име вече съществува</string>
+    <string name="notice_file_not_found_error">Файлът не е намерен</string>
+    <string name="notice_no_active_document">Няма активен документ</string>
+    <string name="notice_document_path_unavailable">Пътят към файла на документа не е наличен</string>
+    <!-- States -->
+    <string name="state_loading">Зареждане...</string>
+    <string name="state_empty">Няма намерени елементи</string>
+    <string name="state_error">Нещо се обърка</string>
+    <string name="state_retry">Опитай отново</string>
+    <!-- Errors -->
+    <string name="error_network">Мрежовата връзка не бе успешна</string>
+    <string name="error_file_not_found">Файлът не е намерен</string>
+    <string name="error_permission_denied">Разрешението е отказано</string>
+    <string name="error_invalid_file">Невалиден файлов формат</string>
+    <string name="error_password_required">Изисква се парола</string>
+    <string name="error_incorrect_password">Неправилна парола</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">Защитено с парола</string>
+    <string name="password_protected_message">Този файл изисква парола за отваряне. Моля, въведете я по-долу.</string>
+    <string name="password_label">Парола</string>
+    <string name="password_placeholder">Въведете парола</string>
+    <string name="password_unlock">Отключи</string>
+    <string name="password_show">Покажи паролата</string>
+    <string name="password_hide">Скриване на парола</string>
+    <!-- Theme -->
+    <string name="theme_light">Светлина</string>
+    <string name="theme_dark">Тъмно</string>
+    <string name="theme_system">Система</string>
+    <string name="theme_adaptive">Адаптивен</string>
+    <string name="theme_custom">Персонализирано</string>
+    <!-- Settings -->
+    <string name="settings_title">Предпочитания</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">Синхронизиране на акаунт &amp;</string>
+    <string name="settings_category_sync_subtitle">Управлявайте профила си, синхронизирайте &amp; поверителност</string>
+    <string name="settings_category_appearance_title">Външен вид</string>
+    <string name="settings_category_appearance_subtitle">Персонализиране на външния вид на приложението &amp; усещане</string>
+    <string name="settings_category_pdf_reader_title">PDF четец</string>
+    <string name="settings_category_pdf_reader_subtitle">Стандартен преглед &amp; четене</string>
+    <string name="settings_category_help_title">Помощ &amp; Поддръжка</string>
+    <string name="settings_category_help_subtitle">Документация &amp; контакт</string>
+    <string name="settings_category_general_title">Общи</string>
+    <string name="settings_category_general_subtitle">Език &amp; информация за приложението</string>
+    <string name="settings_theme_section">Тема</string>
+    <string name="settings_theme_description">Изберете предпочитаната от вас тема</string>
+    <string name="settings_accent_color">АКЦЕНТЕН ЦВЯТ</string>
+    <string name="settings_custom_colors">Персонализирани цветове</string>
+    <string name="settings_primary_color">Основен цвят</string>
+    <string name="settings_background_color">Цвят на фона</string>
+    <string name="settings_surface_color">Цвят на повърхността</string>
+    <string name="settings_reset_colors">Възстановяване на фабричните настройки</string>
+    <string name="settings_adaptive_note">Адаптивни цветове за Material You (Android 12+)</string>
+    <string name="settings_app_section">Настройки на приложението</string>
+    <string name="settings_notifications">Известия</string>
+    <string name="settings_notifications_description">Получаване на известия от приложения</string>
+    <string name="settings_auto_backup">Автоматично архивиране</string>
+    <string name="settings_auto_backup_description">Автоматично архивиране на документи</string>
+    <string name="settings_change_color">Промяна на цвета</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">Вашите PDF документи ще се появят тук</string>
+    <string name="scan_description">Сканиране на документи в PDF формат</string>
+    <string name="tools_description">Инструменти за редактиране и манипулиране на PDF файлове</string>
+    <string name="home_description">Използвайте долната навигация за достъп до функции</string>
+    <!-- Sort Options -->
+    <string name="sort_name">Име</string>
+    <string name="sort_date">Дата</string>
+    <string name="sort_size">Размер</string>
+    <string name="sort_option_name">Име</string>
+    <string name="sort_option_last_opened">Последно отворено</string>
+    <string name="sort_option_last_modified">Последна промяна</string>
+    <string name="sort_option_file_size">Размер на файла</string>
+    <!-- View Types -->
+    <string name="view_type_list">Списъчен изглед</string>
+    <string name="view_type_table">Изглед на таблицата</string>
+    <string name="view_type_grid">Изглед в мрежа</string>
+    <!-- File Properties -->
+    <string name="file_name">Име на файл</string>
+    <string name="date_modified">Дата на промяна</string>
+    <string name="file_size">Размер</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">Не е започнато</string>
+    <string name="file_status_completed">Завършено</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">PDF документ</string>
+    <string name="document_type_word">Word документ</string>
+    <string name="document_type_excel">Електронна таблица в Excel</string>
+    <string name="document_type_image">Файл с изображение</string>
+    <string name="document_type_other">Документ</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">Всички файлове</string>
+    <string name="filter_recent">Скорошни</string>
+    <string name="filter_pdfs">PDF файлове</string>
+    <string name="filter_images">Изображения</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">Дом</string>
+    <string name="browse_tab">Разглеждане</string>
+    <string name="starred_tab">Със звезда</string>
+    <string name="settings_tab">Настройки</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">Превключване на темата</string>
+    <string name="accessibility_menu">Меню</string>
+    <string name="accessibility_close">Затвори</string>
+    <string name="accessibility_color_picker">Избор на цвят</string>
+    <!-- Library Screen -->
+    <string name="library_title">Библиотека</string>
+    <string name="library_subtitle">Управление на файлове, Скорошни &amp; Любими</string>
+    <string name="library_search_placeholder">Търсене на файлове...</string>
+    <string name="library_selected_count">%1$d избрано</string>
+    <string name="library_open_from_device">Отвори от устройство\n</string>
+    <string name="library_browse_files">Разгледайте\nфайлове</string>
+    <string name="library_action_open">Отворено</string>
+    <string name="library_action_share">Споделяне</string>
+    <string name="library_action_remove">Премахване</string>
+    <string name="library_action_delete">Изтриване</string>
+    <string name="library_clear_search">Изчистване на търсенето</string>
+    <string name="library_close_search">Затвори търсенето</string>
+    <string name="library_select_all">Избери всички файлове</string>
+    <string name="library_exit_multiselect">Изход от режим на множествен избор</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">Помощ &amp; Поддръжка</string>
+    <string name="help_support_subtitle">ЧЗВ, Контакти &amp; Правни въпроси</string>
+    <string name="settings_pdf_subtitle">Превъртане, Изглед &amp; Оформление</string>
+    <string name="help_header_title">Как можем да помогнем?</string>
+    <string name="help_header_subtitle">Нашият екип е тук, за да ви осигури\nнай-доброто PDF изживяване.</string>
+    <string name="help_contact_us">Свържете се с нас</string>
+    <string name="help_contact_subtitle">Свържете се с поддръжката</string>
+    <string name="help_faq">Често задавани въпроси</string>
+    <string name="help_faq_subtitle">Отговори на често задавани въпроси</string>
+    <string name="help_privacy_policy">Политика за поверителност</string>
+    <string name="help_privacy_subtitle">Как защитаваме вашите данни</string>
+    <string name="help_terms_service">Общи условия</string>
+    <string name="help_terms_subtitle">Правила на приложението</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">Синхронизиране на мобилни данни</string>
+    <string name="background_sync">Синхронизиране на фона</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">Настройки на PDF четеца</string>
+    <string name="pdf_settings_coming_soon">Очаквайте скоро</string>
+    <string name="pdf_settings_description">Конфигуриране на поведението при превъртане, режимите на преглед и предпочитанията за четене</string>
+    <!-- General Settings -->
+    <string name="settings_language">Език</string>
+    <string name="settings_pdf_reader">Настройки на PDF четеца</string>
+    <string name="settings_help_support">Помощ &amp; Поддръжка</string>
+    <string name="settings_whats_new">Какво е новото</string>
+    <string name="settings_download_desktop">Инсталиране на друго устройство</string>
+    <string name="settings_rate_app">Оценете приложението</string>
+    <string name="play_store_not_found">Play Store не е намерен на това устройство</string>
+    <string name="settings_set_as_default">Задай като PDF преглед по подразбиране</string>
+    <string name="settings_set_as_default_subtitle">Отваряйте PDF файлове с това приложение по подразбиране</string>
+    <string name="settings_default_pdf_instructions_title">Как да зададете по подразбиране</string>
+    <string name="settings_default_pdf_ok">Разбрах</string>
+    <string name="settings_default_app_hint">Не се получи?</string>
+    <string name="settings_default_app_hint_learn_more">Научете повече</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">Език</string>
+    <string name="language_search_placeholder">Търсене на езици...</string>
+    <!-- Common UI -->
+    <string name="support">Поддръжка</string>
+    <string name="language_english">английски</string>
+    <string name="language_hindi">хинди</string>
+    <string name="language_spanish">испански</string>
+    <string name="language_french">Френски</string>
+    <string name="language_german">Дойч</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">Арабски</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">Португалски</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">ВЪНШЕН ВИД НА ПРИЛОЖЕНИЕТО</string>
+    <string name="theme">ТЕМА</string>
+    <string name="general">ОБЩИ</string>
+    <string name="new">НОВО</string>
+    <string name="navigate">Навигиране</string>
+    <string name="download">Изтегляне</string>
+    <string name="falcon_pdf">PDF за Сокол</string>
+    <string name="excellence_in_every_pixel">Превъзходство във всеки пиксел</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">ПРИЛАГАНЕ НА ПРОМЕНИ</string>
+    <string name="apply">Приложи</string>
+    <string name="selected">Избрано</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">Настройки за синхронизиране</string>
+    <string name="autosync_on_wifi">Автоматично синхронизиране през WiFi</string>
+    <string name="sync_reading_progress">Синхронизиране на напредъка на четене</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">Име на документа</string>
+    <string name="name_cannot_be_empty">Името не може да бъде празно</string>
+    <string name="str__failed">%1$s Неуспешно</string>
+    <string name="ok">Добре</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">План за надграждане - Текущ план: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">Пуснете, за да отворите файл</string>
+    <string name="release_to_import_and_open_pdf">Освободете, за да импортирате и отворите PDF файлове</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">Премахване</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF</string>
+    <string name="images">Изображения</string>
+    <string name="filter_all_types">Всички файлове</string>
+    <string name="favorites">Любими файлове</string>
+    <string name="recent">Скорошни</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">Търсене на документи...</string>
+    <string name="voice_search">Гласово търсене</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">Последни файлове</string>
+    <string name="loading_recent_files">Зареждане на скорошни файлове...</string>
+    <string name="no_recent_files">Няма скорошни файлове</string>
+    <string name="no_favorites">Няма любими</string>
+    <string name="mark_files_as_favorite_to_see_them_here">Маркирайте файловете като любими, за да ги видите тук</string>
+    <string name="open_some_pdf_files_to_see_the">Отворете някои PDF файлове, за да ги видите тук</string>
+    <string name="status">Статус</string>
+    <string name="actions">Действия</string>
+    <string name="select_all">Избери всички</string>
+    <string name="enter_multiselect_mode">Влизане в режим на множествен избор</string>
+    <string name="sorted_ascending">Сортирано във възходящ ред</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">Памет: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">Добавяне на %1$s файлове</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">Промяна на типа изглед</string>
+    <string name="filter_">Филтър: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">Зареждане на PDF файл...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">Влезте, за да синхронизирате</string>
+    <string name="protect_your_library_files">Защитете файловете на вашата библиотека</string>
+    <string name="sign_in">Вход</string>
+    <string name="sign_out">Изход</string>
+    <string name="sign_in_dialog_title">Влезте във Falcon PDF</string>
+    <string name="sign_in_dialog_subtitle">Вашата PDF библиотека, навсякъде.</string>
+    <string name="sign_in_with_google">Вход с Google</string>
+    <string name="sign_in_with_apple">Влизане с Apple</string>
+    <string name="apple_user_drive_unavailable">Синхронизирането с Google Диск не е налично с вход в Apple</string>
+    <string name="apple_user_link_google">Свързване на Google акаунт за синхронизиране с Диск</string>
+    <string name="apple_user_sync_info">За да активирате синхронизирането с облак, свържете акаунт в Google</string>
+    <string name="link_google_account">Свързване на акаунт в Google</string>
+    <string name="signed_in_successfully">Влезнахте успешно</string>
+    <string name="signed_out_successfully">Излязох успешно</string>
+    <string name="sync_disabled_free">Синхронизирането е деактивирано за безплатни акаунти.</string>
+    <string name="storage_disabled_grant_access">Паметта е деактивирана. Предоставете достъп до устройството, за да започнете.</string>
+    <string name="upgrade_to_pro">Надстройте до Pro</string>
+    <string name="grant_drive_access">Предоставяне на достъп до устройството</string>
+    <string name="files_synced">%1$d/%2$d Синхронизирани файлове</string>
+    <string name="synced_count">%1$d Синхронизирано</string>
+    <string name="unlimited_sync_active">НЕОГРАНИЧЕНА СИНХРОНИЗАЦИЯ</string>
+    <string name="missing_drive_permissions">Липсват разрешения за Диск. Синхронизирането е блокирано в момента.</string>
+    <string name="drive_access_revoked">Достъпът до Диск е отменен. Свържете се отново, за да възобновите синхронизирането.</string>
+    <string name="upgrade_premium">Надстройка на премиум ниво</string>
+    <string name="manage_account">Управление на акаунта</string>
+    <string name="sync_now">Синхронизирай сега</string>
+    <string name="tier_free">БЕЗПЛАТНО</string>
+    <string name="tier_pro">ПРОФЕСИОНАЛИСТ</string>
+    <string name="tier_premium">ПРЕМИУМ</string>
+    <string name="status_paused">ПАУЗА</string>
+    <!-- Common -->
+    <string name="navigate_back">Навигиране назад</string>
+    <string name="dismiss">Отхвърляне</string>
+    <string name="cancel">Отказ</string>
+    <string name="back">Обратно</string>
+    <string name="search">Търсене</string>
+    <string name="more_actions">Още действия</string>
+    <string name="share">Споделяне</string>
+    <string name="delete">Изтриване</string>
+    <string name="remove_from_recents">Премахване от скорошните</string>
+    <string name="open">Отворено</string>
+    <string name="all">Всички</string>
+    <string name="sort_by_">Сортиране по %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Синхронизиране на Google Диск</string>
+    <string name="syncing">Синхронизиране...</string>
+    <string name="sync_completed">Синхронизирането е завършено</string>
+    <string name="sync_failed">Синхронизирането не бе успешно</string>
+    <string name="sync_limit_exceeded">Превишено е ограничението за синхронизиране. Вашият план %s позволява %d файла.</string>
+    <string name="sync_no_drive_access">Достъпът до Google Диск не е наличен</string>
+    <string name="sync_network_unavailable">Мрежата не е налична</string>
+    <string name="sync_last_sync">Последна синхронизация: %s</string>
+    <string name="sync_total_files">Общо</string>
+    <string name="sync_synced_files">Синхронизирано</string>
+    <string name="sync_failed_files">Неуспешно</string>
+    <string name="sync_conflict_files">Конфликти</string>
+    <string name="sync_add_to_favorites">Добави към любими</string>
+    <string name="sync_remove_from_favorites">Премахване от любими</string>
+    <string name="sync_conflict_title">Конфликти при синхронизиране</string>
+    <string name="sync_conflict_message">Следните файлове имат конфликти, които трябва да бъдат разрешени:</string>
+    <string name="sync_conflict_explanation">Конфликти възникват, когато са променени както локалните, така и отдалечените версии.</string>
+    <string name="sync_plan_limit">Синхронизиране: %d/%d</string>
+    <string name="sync_plan_limit_reached">Достигнат е лимитът</string>
+    <string name="sync_plan_unlimited">Неограничена синхронизация</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">Пропускане</string>
+    <string name="welcome_next">Следващо</string>
+    <string name="welcome_get_started">Започнете</string>
+    <string name="welcome_sign_in_get_started">Вход &amp; Започнете</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Прочетете всеки документ&lt;/b&gt; Незабавно</string>
+    <string name="welcome_slide1_description">Отваряйте и управлявайте над 10 формата на документи, включително PDF, DOC, EPUB, MOBI.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Четете PDF файлове, електронни книги,&lt;/b&gt; и офис документи на едно място</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Любими&lt;/b&gt; документи и достъп до тях на различни устройства</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;Коментирайте,&lt;/b&gt; маркирайте и си сътрудничете с лекота</string>
+    <string name="welcome_slide1_footer">Вашият универсален четец на документи</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;Редактиране, сканиране и организиране&lt;/b&gt; PDF файлове</string>
+    <string name="welcome_slide2_description">Всичко необходимо за създаване, редактиране и управление на PDF файлове в един мощен набор от инструменти.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;Редактиране на текст,&lt;/b&gt; анотиране, маркиране и попълване на формуляри</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Сканирайте документи&lt;/b&gt; и ги превърнете в PDF файлове мигновено</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;30+ инструмента&lt;/b&gt; включително сливане, конвертиране, компресиране и защита</string>
+    <string name="welcome_slide2_footer">Вашето многофункционално PDF работно пространство</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;Изкуствен интелект, който разбира&lt;/b&gt; Вашите документи</string>
+    <string name="welcome_slide3_description">Спестете часове с изкуствен интелект, който чете и анализира документи вместо вас.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Обобщете&lt;/b&gt; дълги документи за секунди</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; сканирани страници и превод на текст мигновено</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Слушайте&lt;/b&gt; документи с вградена функция за четене на глас</string>
+    <string name="welcome_slide3_footer">Без реклами. Само продуктивност.</string>
+    <string name="grace">БЛАГОДАТ</string>
+    <string name="unable_to_verify_subscription_limited_ac">Неуспешно потвърждаване на абонамента. Ограничен достъп до възстановяване на връзката.</string>
+    <string name="retry_verification">Повторен опит за проверка</string>
+    <string name="guest_state">Гостуваща държава</string>
+    <string name="free_tier">Безплатно ниво</string>
+    <string name="free_tier__locked">Безплатно ниво - Заключено</string>
+    <string name="pro_tier">Професионално ниво</string>
+    <string name="pro_tier__restricted">Професионално ниво - Ограничено</string>
+    <string name="premium_tier">Премиум ниво</string>
+    <string name="premium_tier__error">Премиум ниво - Грешка</string>
+    <string name="refresh_plan_status">Обновяване на състоянието на плана</string>
+    <string name="user_avatar">Потребителски аватар</string>
+    <string name="debug_tools">Инструменти за отстраняване на грешки</string>
+    <string name="authentication__drive">Удостоверяване &amp; Диск</string>
+    <string name="auth_state">Състояние на оторизацията</string>
+    <string name="revoke_drive_access">Отмяна на достъпа до устройството</string>
+    <string name="image">Изображение</string>
+    <string name="thumbnail">Миниатюра</string>
+    <string name="manage_preferences">Управление на предпочитанията</string>
+    <string name="tools_history">История на инструментите</string>
+    <string name="manage_recent_logs">Управление на последните регистрационни файлове</string>
+    <string name="more_options">Още опции</string>
+    <string name="clear_all_history">Изчистване на цялата история</string>
+    <string name="no_history_yet">Все още няма история</string>
+    <string name="your_pdf_tool_operations_will_appear_her">Операциите на вашия PDF инструмент ще се показват тук</string>
+    <string name="view">Преглед</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">Запазено %1$s</string>
+    <string name="history_status_processing">Обработка</string>
+    <string name="history_status_succeeded">УСПЕШНО</string>
+    <string name="history_status_failed">НЕУСПЕШНО</string>
+    <string name="history_status_processing_upper">ОБРАБОТКА</string>
+    <string name="history_unknown_files">Неизвестни файлове</string>
+    <string name="history_op_complete">%1$s Завършено!</string>
+    <string name="history_op_failed">%1$s Неуспешно</string>
+    <string name="history_op_success_multiple">Операцията е завършена успешно с %1$d файла</string>
+    <string name="history_op_success_single">Операцията е завършена успешно</string>
+    <string name="history_op_error">Не успяхме да завършим операцията</string>
+    <string name="history_multiple_files">%1$d файлове</string>
+    <string name="history_failed">Неуспешно</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">Синхронизиране в облака</string>
+    <string name="cloud_sync_subtitle">Свързани устройства</string>
+    <string name="cloud_sync_all_synced">Всички файлове са синхронизирани</string>
+    <string name="cloud_sync_syncing">Синхронизиране…</string>
+    <string name="cloud_sync_pending">Синхронизиране в очакване</string>
+    <string name="cloud_sync_last_sync">Последна синхронизация: %1$s</string>
+    <string name="cloud_sync_never_synced">Никога не е синхронизирано</string>
+    <string name="cloud_sync_recent_activity">Последна активност при синхронизиране</string>
+    <string name="cloud_sync_no_files">Все още няма синхронизирани файлове</string>
+    <string name="cloud_sync_synced_to_drive">Синхронизирано с Диск</string>
+    <string name="cloud_sync_pending_upload">Чака качване</string>
+    <string name="cloud_sync_sync_now">Синхронизирай сега</string>
+    <string name="cloud_sync_view_history">Преглед на историята на синхронизирането</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d синхронизирани файлове</string>
+    <string name="cloud_sync_unlimited_files">%1$d синхронизирани файлове · Неограничено</string>
+    <string name="cloud_sync_cta_title">Всяка платформа, по всяко време</string>
+    <string name="cloud_sync_cta_subtitle">Документите ви следват навсякъде</string>
+    <string name="cloud_sync_files_label">%1$d файлове</string>
+    <string name="settings_data_privacy">Данни &amp; Поверителност</string>
+    <string name="settings_data_privacy_subtitle">Управление на данни, изтриване на акаунт &amp;</string>
+    <string name="settings_delete_account">Изтриване на акаунт</string>
+    <string name="settings_delete_account_subtitle">Изтрийте окончателно акаунта и данните си</string>
+    <string name="delete_account_warning_title">Да изтрия ли профила си?</string>
+    <string name="delete_account_warning_message">Това ще изтрие завинаги вашия акаунт и всички свързани данни, включително историята на покупките ви и синхронизираните в облака файлове. Това действие не може да бъде отменено и покупките не могат да бъдат възстановени по-късно.</string>
+    <string name="delete_account_confirm_phrase_label">Въведете „потвърди изтриването“, за да продължите:</string>
+    <string name="delete_account_confirm_phrase">потвърди изтриването</string>
+    <string name="delete_account_button">Изтриване на акаунт</string>
+    <string name="delete_account_error_reauth">От съображения за сигурност е необходимо наскоро да сте влезли в профила си, за да го изтриете. Моля, излезте и влезте отново, след което опитайте отново.</string>
+    <string name="delete_account_success">Профилът е успешно изтрит</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">Файл &amp; Настройки за синхронизиране</string>
+    <string name="sync_on_mobile_data_subtitle">Използване на мобилни данни за синхронизиране в облака</string>
+    <string name="drive_sync">Синхронизиране на фона</string>
+    <string name="drive_sync_subtitle">Синхронизиране на любими &amp; сканиране на документи в Диск</string>
+    <string name="do_not_import_from_other_apps">Не импортирайте файлове от други приложения</string>
+    <string name="do_not_import_from_other_apps_subtitle">Временно отваряне на споделени файлове без запазване в библиотеката</string>
+    <string name="clear_imported_files">Изчистване на импортирани файлове</string>
+    <string name="clear_imported_files_subtitle">Изтрийте всички файлове, копирани от други приложения</string>
+    <string name="clear_imports_confirm_title">Да се изчистят ли импортираните файлове?</string>
+    <string name="clear_imports_confirm_message">Това ще изтрие завинаги всички файлове във вашата папка „Импортиране“. Това действие не може да бъде отменено.</string>
+    <string name="clear_imports_success">Импортираните файлове са изчистени</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">Данни &amp; Поверителност</string>
+    <string name="analytics_opt_out_title">Изпращане на данни за употреба</string>
+    <string name="analytics_opt_out_subtitle">Споделяйте анонимни данни за употреба и отчети за сривове с разработчика, за да помогнете за подобряването на приложението</string>
+    <string name="analytics_opt_out_disabled_note">Анализът и отчитането на сривове са деактивирани. Не се изпращат данни до Google или разработчика.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">Незапазени промени</string>
+    <string name="unsaved_changes_tab_message">Този документ има незапазени промени. Искате ли да ги запазите преди да затворите?</string>
+    <string name="unsaved_changes_window_message">Имате незапазени промени в един или повече документи. Искате ли да ги отхвърлите и да излезете?</string>
+    <string name="discard">Изхвърлете</string>
+    <string name="discard_and_quit">Изхвърляне &amp; Изход</string>
+    <string name="close">Затвори</string>
+    <string name="remove_favorite">Премахване от любимо</string>
+    <string name="set_as_default_pdf_viewer">Задаване като PDF преглед по подразбиране?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF не е вашият PDF прегледник по подразбиране. Искате ли да го зададете като такъв по подразбиране, така че всички PDF файлове да се отварят с Falcon PDF?</string>
+    <string name="set_now">Задай сега</string>
+    <string name="never">Никога</string>
+    <string name="later">По-късно</string>
+    <string name="set_default">Задай по подразбиране</string>
+    <string name="default">По подразбиране</string>
+    <string name="version_">Версия %1$s</string>
+    <string name="sign_in_with_other_accounts">Влезте с други акаунти</string>
+    <string name="upgrade">Надграждане</string>
+    <string name="view_plan">Преглед на плана</string>
+    <string name="unlimited_sync_upto_5gb">Неограничена синхронизация до 5GB</string>
+    <string name="unlock_faster">Отключете по-бързо</string>
+    <string name="use_biometrics_instead_of_passwords">Използвайте биометрични данни вместо пароли.</string>
+    <string name="upgrade_to_premium">Надстройте до Premium</string>
+    <string name="unlock_pdf">Отключи PDF</string>
+    <string name="use__to_accessnthis_document">Използвайте %1$s за достъп до\nтози документ</string>
+    <string name="open_with_password">Отвори с парола</string>
+    <string name="secure">Сигурно</string>
+    <string name="loading_">Зареждане %1$s...</string>
+    <string name="failed_to_open_ebook">Неуспешно отваряне на електронната книга</string>
+    <string name="properties">Имоти</string>
+    <string name="copy">Копиране</string>
+    <string name="highlight">Акцент</string>
+    <string name="clear_selection">Изчистване на избора</string>
+    <string name="close_search">Затвори търсенето</string>
+    <string name="search_in_book">Търсене в книгата...</string>
+    <string name="contents">Съдържание</string>
+    <string name="table_of_contents">Съдържание</string>
+    <string name="no_table_of_contents_available">Няма налично съдържание</string>
+    <string name="bookmarks">Отметки</string>
+    <string name="no_bookmarks_yet">Все още няма отметки</string>
+    <string name="page_">Страница %1$s</string>
+    <string name="no_results">Няма резултати</string>
+    <string name="p">П%1$s</string>
+    <string name="settings">Настройки</string>
+    <string name="decrease_font_size">Намаляване на размера на шрифта</string>
+    <string name="increase_font_size">Увеличаване на размера на шрифта</string>
+    <string name="font">Шрифт</string>
+    <string name="jump_to_page">Преход към страница</string>
+    <string name="enter_page_number_1">Въведете номера на страницата (1–%1$s):</string>
+    <string name="go">Отиди</string>
+    <string name="read_aloud">Четене на глас</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">Спри</string>
+    <string name="annotations__text_selection">Анотации &amp; Избор на текст</string>
+    <string name="text_selection_and_annotations_for_ebook">Изборът на текст и анотациите за електронни книги ще бъдат налични скоро.</string>
+    <string name="longpress_on_text_to_select_highlight_or">Натиснете продължително върху текст, за да го изберете, маркирате или добавите бележки.</string>
+    <string name="press_play_to_start_reading_aloud">Натиснете „Пусни“, за да започнете да четете на глас...</string>
+    <string name="speed">Скорост</string>
+    <string name="voice">Глас</string>
+    <string name="no_annotations_yet">Все още няма анотации</string>
+    <string name="select_text_to_highlight_or_add_notes">Изберете текст, който да маркирате или да добавите бележки</string>
+    <string name="tools">Инструменти</string>
+    <string name="convert_to_images">Конвертиране в изображения</string>
+    <string name="rename">Преименуване</string>
+    <string name="print">Печат</string>
+    <string name="a">А−</string>
+    <string name="cover_of_">Корица на %1$s</string>
+    <string name="no_cover_available">Няма налично покритие</string>
+    <string name="read_now">Прочетете сега</string>
+    <string name="about_the_book">ЗА КНИГАТА</string>
+    <string name="tags">ЕТИКЕТИ</string>
+    <string name="publisher_info">ИНФОРМАЦИЯ ЗА ИЗДАТЕЛЯ</string>
+    <string name="published_">Публикувано: %1$s</string>
+    <string name="retry">Опитай отново</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Изчистване на кеша</string>
+    <string name="ebooks_library">Библиотека с електронни книги</string>
+    <string name="manage_your_digital_collection_across_mu">Управлявайте дигиталната си колекция от множество доставчици. Търсете, филтрирайте и откривайте нови заглавия от Google Books и Open Library.</string>
+    <string name="no_books_found">Няма намерени книги</string>
+    <string name="no_results_for__try_a_different_search_t">Няма резултати за „%1$s“. Опитайте с друг термин за търсене.</string>
+    <string name="downloadable_only">Само за изтегляне</string>
+    <string name="file_unavailable">Файлът не е наличен</string>
+    <string name="unavailable">Не е налично</string>
+    <string name="search_titles_authors_isbn">Търсене на заглавия, автори, ISBN...</string>
+    <string name="clear_search">Изчистване на търсенето</string>
+    <string name="ebooks">Електронни книги</string>
+    <string name="read_pdf">Прочетете PDF</string>
+    <string name="create_pdf">Създаване на PDF файл</string>
+    <string name="unlock_all_tools_and_remove_limits">Отключете всички инструменти и премахнете ограниченията</string>
+    <string name="ocr_scanning">OCR сканиране</string>
+    <string name="extract_text_from_scanned_documents">Извличане на текст от сканирани документи</string>
+    <string name="cloud_sync">Синхронизиране в облака</string>
+    <string name="access_your_documents_anywhere">Достъп до документите си отвсякъде</string>
+    <string name="annotate_pdfs">Анотиране на PDF файлове</string>
+    <string name="cloud_backup">Архивиране в облака</string>
+    <string name="continue_reading">Продължете да четете</string>
+    <string name="pick_files">Избор на файлове</string>
+    <string name="browse">Разглеждане</string>
+    <string name="did_you_know">Знаехте ли?</string>
+    <string name="home">Дом</string>
+    <string name="your_documents_at_a_glance">Вашите документи с един поглед</string>
+    <string name="pick_file">Изберете файл</string>
+    <string name="quick_actions">Бързи действия</string>
+    <string name="pro">ПРОФЕСИОНАЛИСТ</string>
+    <string name="open_files">Отваряне на файлове</string>
+    <string name="convert_to_pdf">Конвертиране в PDF</string>
+    <string name="close_drawer">Затвори чекмеджето</string>
+    <string name="close_file">Затвори файл</string>
+    <string name="office">Офис</string>
+    <string name="coming_soon">Очаквайте скоро</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">Програмата за преглед на електронни книги все още не е налична на тази платформа.</string>
+    <string name="set_as_default_viewer">Задай като зрител по подразбиране</string>
+    <string name="free">Безплатно</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">Изтегляне на актуализация... %1$s%</string>
+    <string name="more">Още</string>
+    <string name="font_size">Размер на шрифта</string>
+    <string name="font_family">Семейство шрифтове</string>
+    <string name="scroll_direction">Посока на превъртане</string>
+    <string name="navigation">Навигация</string>
+    <string name="keep_screen_on">Дръжте екрана включен</string>
+    <string name="volume_button_to_scroll">Бутон за сила на звука за превъртане</string>
+    <string name="export_ebook_pages_as_image_files">Експортиране на страници от електронна книга като файлове с изображения</string>
+    <string name="access_millions_of_titles">Достъп до милиони заглавия.</string>
+    <string name="read_offline_with_natural_ai_voices">Четете офлайн с естествени AI гласове.</string>
+    <string name="advanced_ai_reader">Усъвършенстван четец с изкуствен интелект.</string>
+    <string name="experience_studioquality_narration">Изживейте разказ със студийно качество.</string>
+    <string name="powerful_pdf_tools">Мощни инструменти за PDF.</string>
+    <string name="create_and_edit_documents_on_the_go">Създавайте и редактирайте документи в движение.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Надстройте до Pro: Отключете всички инструменти и премахнете ограниченията</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">OCR сканиране: Извличане на текст от сканирани документи</string>
+    <string name="cloud_sync_access_your_documents_anywher">Синхронизиране в облака: Достъп до документите ви отвсякъде</string>
+    <string name="scan">Сканиране</string>
+    <string name="compress">Компресиране</string>
+    <string name="merge">Сливане</string>
+    <string name="convert">Конвертиране</string>
+    <string name="highlight_underline_and_add_notes_to_you">Маркирайте, подчертавайте и добавяйте бележки към документите си</string>
+    <string name="keep_your_documents_safe_with_automatic_">Пазете документите си в безопасност с автоматична синхронизация в облака</string>
+    <string name="indicator_color_">цвят_на_индикатора_%1$s</string>
+    <string name="my_library">Моята библиотека</string>
+    <string name="get_ebooks">Вземете електронни книги</string>
+    <string name="scan_document">Сканиране на документ</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

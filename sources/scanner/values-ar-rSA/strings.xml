@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">مسح ضوئي</string>
+    <string name="scan_home_documents">وثائق</string>
+    <string name="scan_home_documents_lowercase">وثائق</string>
+    <string name="scan_home_documents_count">%1$d المستندات</string>
+    <string name="scan_home_no_documents">لم يتم تقديم أي وثائق بعد</string>
+    <string name="scan_home_start_scanning">ابدأ المسح الضوئي لإنشاء مستندك الأول</string>
+    <string name="scan_home_new_folder">مجلد جديد</string>
+    <string name="scan_home_scan_document">مسح المستند ضوئيًا</string>
+    <string name="scan_home_import_gallery">استيراد من المعرض</string>
+    <string name="scan_home_parent_folder">المجلد الرئيسي</string>
+    <string name="scan_home_go_back">العودة إلى المجلد الرئيسي</string>
+    <string name="scan_home_create_folder">إنشاء مجلد جديد</string>
+    <string name="scan_home_enter_folder_name">أدخل اسمًا للمجلد الجديد</string>
+    <string name="scan_home_folder_name">اسم المجلد</string>
+    <string name="scan_home_folder_placeholder">مثال: مستندات العمل</string>
+    <string name="scan_home_folder_error">لا يمكن أن يكون اسم المجلد فارغًا</string>
+    <string name="scan_home_folder_name_empty">لا يمكن أن يكون اسم المجلد فارغًا</string>
+    <string name="scan_home_create">يخلق</string>
+    <string name="scan_home_folder_exists">يوجد مجلد بهذا الاسم بالفعل</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">آلة تصوير</string>
+    <string name="scan_camera_permission_required">يلزم الحصول على إذن استخدام الكاميرا</string>
+    <string name="scan_camera_permission_message">يحتاج هذا التطبيق إلى الوصول إلى الكاميرا لمسح المستندات ضوئيًا.</string>
+    <string name="scan_camera_permission_settings">يرجى الانتقال إلى الإعدادات &gt; التطبيقات &gt; عارض ملفات PDF &gt; الأذونات وتمكين إذن الكاميرا.</string>
+    <string name="scan_camera_permission_title">يلزم الحصول على إذن استخدام الكاميرا</string>
+    <string name="scan_camera_request_permission">طلب الإذن</string>
+    <string name="scan_camera_open_settings">افتح الإعدادات</string>
+    <string name="scan_camera_close">يغلق</string>
+    <string name="scan_camera_flash">فلاش</string>
+    <string name="scan_camera_auto_capture">التقاط تلقائي</string>
+    <string name="scan_camera_settings">إعدادات</string>
+    <string name="scan_camera_ready_batch">جاهز لمسح صفحات متعددة</string>
+    <string name="scan_camera_ready_multiple">جاهز لمسح صفحات متعددة</string>
+    <string name="scan_camera_hold_steady">حافظ على ثباتك أثناء المسح الضوئي</string>
+    <string name="scan_camera_captured_pages">تم التقاط %1$d صفحة</string>
+    <string name="scan_camera_mode_single">أعزب</string>
+    <string name="scan_camera_mode_batch">حزمة</string>
+    <string name="scan_camera_preview">معاينة</string>
+    <string name="scan_camera_finish">ينهي</string>
+    <string name="scan_camera_starting">بدء تشغيل الكاميرا...</string>
+    <string name="scan_camera_document_name">اسم المستند</string>
+    <string name="scan_camera_document_name_empty">لا يمكن أن يكون اسم المستند فارغًا</string>
+    <string name="scan_camera_save_document">حفظ المستند</string>
+    <string name="scan_camera_processing">يعالج...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">قص &amp; ضبط</string>
+    <string name="scan_crop_close">يغلق</string>
+    <string name="scan_crop_reset">إعادة ضبط</string>
+    <string name="scan_crop_rotate">تناوب</string>
+    <string name="scan_crop_done">منتهي</string>
+    <string name="scan_crop_scanned_document">مستند ممسوح ضوئياً</string>
+    <string name="scan_crop_magnified_view">عرض مكبر</string>
+    <string name="scan_crop_processing">يعالج...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">يحسن</string>
+    <string name="scan_filter_close">يغلق</string>
+    <string name="scan_filter_rotate">تناوب</string>
+    <string name="scan_filter_done">منتهي</string>
+    <string name="scan_filter_filters">الفلاتر</string>
+    <string name="scan_filter_original">إبداعي</string>
+    <string name="scan_filter_magic">سحر</string>
+    <string name="scan_filter_lighten">خفف من حدة الضوء</string>
+    <string name="scan_filter_bw">ب&amp;غرب</string>
+    <string name="scan_filter_grayscale">تدرج الرمادي</string>
+    <string name="scan_filter_magic_2">وثيقة نظيفة</string>
+    <string name="scan_filter_soft_scan">المسح الضوئي الناعم</string>
+    <string name="scan_filter_color_enhance">لون+</string>
+    <string name="scan_filter_ink_saver">موفر الحبر</string>
+    <string name="scan_filter_premium">ميزة مميزة</string>
+    <string name="scan_filter_filtered_document">المستند المُصفّى</string>
+    <string name="scan_filter_applying">تطبيق الفلتر...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">يلغي</string>
+    <string name="scan_share">يشارك</string>
+    <string name="scan_move">يتحرك</string>
+    <string name="scan_move_to_folder">نقل إلى المجلد</string>
+    <string name="scan_delete">يمسح</string>
+    <string name="scan_rename">إعادة تسمية</string>
+    <string name="scan_root">جذر</string>
+    <string name="scan_select_destination">حدد مجلد الوجهة</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">وثيقة</string>
+    <string name="scan_document_back">خلف</string>
+    <string name="scan_document_pages">الصفحات</string>
+    <string name="scan_document_add_pages">أضف صفحات إلى هذا المستند</string>
+    <string name="scan_document_add_page_button">إضافة صفحة</string>
+    <string name="scan_document_rename">إعادة تسمية</string>
+    <string name="scan_document_share">يشارك</string>
+    <string name="scan_document_more">أكثر</string>
+    <string name="scan_document_pages_count">%1$d صفحات</string>
+    <string name="scan_document_no_pages">لا توجد صفحات بعد</string>
+    <string name="scan_document_scan_page">صفحة المسح الضوئي</string>
+    <string name="scan_document_import_page">استيراد من المعرض</string>
+    <string name="scan_document_grid_view">عرض الشبكة</string>
+    <string name="scan_document_list_view">عرض القائمة</string>
+    <string name="scan_document_continuous_view">عرض متواصل</string>
+    <string name="scan_document_page_number">الصفحة %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">صفحة</string>
+    <string name="scan_page_back">خلف</string>
+    <string name="scan_page_share">يشارك</string>
+    <string name="scan_page_delete">يمسح</string>
+    <string name="scan_page_of">%1$d من %2$d</string>
+    <string name="scan_page_image_not_found">لم يتم العثور على الصورة</string>
+    <string name="scan_page_retake">إعادة الاختبار</string>
+    <string name="scan_page_crop">اقتصاص</string>
+    <string name="scan_page_enhance">يحسن</string>
+    <string name="scan_page_ocr">التعرف الضوئي على الأحرف</string>
+    <string name="scan_page_save_gallery">حفظ في المعرض</string>
+    <string name="scan_page_saved_to_gallery">تم حفظ الصورة في المعرض</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">هل تريد حذف المستند؟</string>
+    <string name="scan_delete_document_message">هل أنت متأكد من رغبتك في حذف "%1$s"؟ سيؤدي هذا إلى حذف جميع صفحات هذا المستند نهائيًا. لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="scan_rename_document">إعادة تسمية المستند</string>
+    <string name="scan_rename_enter_name">أدخل اسمًا جديدًا للمستند</string>
+    <string name="scan_rename_document_name">اسم المستند</string>
+    <string name="scan_rename_error">لا يمكن أن يكون اسم المستند فارغًا</string>
+    <string name="scan_dialog_delete_document_title">هل تريد حذف المستند؟</string>
+    <string name="scan_dialog_delete_document_message">هل أنت متأكد من رغبتك في حذف "%1$s"؟ سيؤدي هذا إلى حذف جميع صفحات هذا المستند نهائيًا. لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="scan_dialog_delete_confirm">يمسح</string>
+    <string name="scan_dialog_cancel">يلغي</string>
+    <string name="scan_dialog_move_title">نقل إلى المجلد</string>
+    <string name="scan_dialog_move_message">حدد مجلد الوجهة</string>
+    <string name="scan_dialog_move_confirm">يتحرك</string>
+    <string name="scan_dialog_move_root">جذر</string>
+    <string name="scan_dialog_move_selected">مختار</string>
+    <string name="scan_dialog_rename_title">إعادة تسمية المستند</string>
+    <string name="scan_dialog_rename_message">أدخل اسمًا جديدًا للمستند</string>
+    <string name="scan_dialog_rename_label">اسم المستند</string>
+    <string name="scan_dialog_rename_error">لا يمكن أن يكون اسم المستند فارغًا</string>
+    <string name="scan_dialog_rename_confirm">إعادة تسمية</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">يشارك</string>
+    <string name="scan_menu_move">نقل إلى المجلد</string>
+    <string name="scan_menu_delete">يمسح</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">معاينة الكاميرا\n(قريبًا)</string>
+    <string name="scan_platform_desktop_camera">معاينة كاميرا سطح المكتب\n(قريبًا)</string>
+    <string name="scan_platform_ios_camera">معاينة كاميرا iOS\n(قريبًا)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">يغلق</string>
+    <string name="flash">فلاش</string>
+    <string name="auto_capture">التقاط تلقائي</string>
+    <string name="settings">إعدادات</string>
+    <string name="capture">يأسر</string>
+    <string name="finish">ينهي</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">هل أنت متأكد من رغبتك في حذف %1؟ سيتم حذف جميع المستندات الموجودة بداخله أيضاً.</string>
+    <string name="share">يشارك</string>
+    <string name="share_as_images">مشاركة كصور</string>
+    <string name="share_as_pdf">مشاركة كملف PDF</string>
+    <string name="move_to_folder">نقل إلى المجلد</string>
+    <string name="delete">يمسح</string>
+    <string name="selected">مختار</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">الصفحة %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">المجلد فارغ</string>
+    <string name="tap_the__button_to_scan_a_docu">انقر على زر "+" لمسح مستند ضوئيًا</string>
+    <string name="str______pages">%1$s • %2$s • %3$s صفحات</string>
+    <string name="create_folder">إنشاء مجلد</string>
+    <string name="more_options">خيارات إضافية</string>
+    <string name="document_thumbnail">صورة مصغرة للمستند</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">لم يتم العثور على الصورة</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — الصفحة %2$d</string>
+    <string name="scan_ocr_title">التعرف على النصوص</string>
+    <string name="scan_ocr_copy">انسخ النص</string>
+    <string name="scan_ocr_no_text">لم يتم العثور على نص</string>
+    <string name="scan_ocr_processing">التعرف على النص…</string>
+    <string name="scan_ocr_error">فشل في التعرف على النص</string>
+    <string name="scan_ocr_not_supported">لا تدعم هذه المنصة تقنية التعرف الضوئي على الأحرف (OCR).</string>
+    <string name="scan_ocr_image">صفحة ممسوحة ضوئياً لغرض التعرف الضوئي على الحروف (OCR)</string>
+    <string name="gallery">معرض</string>
+    <string name="select_file">حدد ملفًا</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">فشل في التقاط الصورة</string>
+    <string name="error_no_images_captured">لم يتم التقاط أي صور</string>
+    <string name="error_open_settings">فشل فتح الإعدادات</string>
+    <string name="error_process_images">فشل في معالجة الصور</string>
+    <string name="error_process_image">فشل في معالجة الصورة</string>
+    <string name="error_start_camera">فشل تشغيل الكاميرا</string>
+    <string name="error_stop_camera">فشل في إيقاف الكاميرا</string>
+    <string name="error_crop_image">فشل في قص الصورة</string>
+    <string name="error_delete_document">فشل حذف المستند</string>
+    <string name="error_delete_page">فشل حذف الصفحة</string>
+    <string name="error_load_document">فشل تحميل المستند</string>
+    <string name="error_load_page">فشل تحميل الصفحة</string>
+    <string name="error_move_document">فشل نقل المستند</string>
+    <string name="error_no_pages_to_share">لا توجد صفحات للمشاركة</string>
+    <string name="error_rename_document">فشل في إعادة تسمية المستند</string>
+    <string name="error_reorder_pages">فشل في إعادة ترتيب الصفحات</string>
+    <string name="error_share_images">فشل في مشاركة الصور</string>
+    <string name="error_share_pdf">فشل مشاركة ملف PDF</string>
+    <string name="error_share_page">فشل مشاركة الصفحة</string>
+    <string name="error_create_folder">فشل إنشاء المجلد</string>
+    <string name="error_delete_folder">فشل حذف المجلد</string>
+    <string name="error_rename_folder">فشل إعادة تسمية المجلد</string>
+    <string name="error_unknown">حدث خطأ غير معروف</string>
+    <string name="folder_not_found">لم يتم العثور على المجلد</string>
+    <string name="sync_documents">مزامنة المستندات</string>
+    <string name="shutter_scale">مقياس الغالق</string>
+    <string name="import_gallery">معرض الاستيراد</string>
+    <string name="scan_camera">كاميرا المسح الضوئي</string>
+</resources>

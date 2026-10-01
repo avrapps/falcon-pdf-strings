@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Letapogatás</string>
+    <string name="scan_home_documents">Dokumentumok</string>
+    <string name="scan_home_documents_lowercase">dokumentumok</string>
+    <string name="scan_home_documents_count">%1$d Dokumentumok</string>
+    <string name="scan_home_no_documents">Még nincsenek dokumentumok</string>
+    <string name="scan_home_start_scanning">Indítsa el a szkennelést az első dokumentum létrehozásához</string>
+    <string name="scan_home_new_folder">Új mappa</string>
+    <string name="scan_home_scan_document">Dokumentum beolvasása</string>
+    <string name="scan_home_import_gallery">Importálás a Galériából</string>
+    <string name="scan_home_parent_folder">Szülő mappa</string>
+    <string name="scan_home_go_back">Vissza a szülőmappához</string>
+    <string name="scan_home_create_folder">Új mappa létrehozása</string>
+    <string name="scan_home_enter_folder_name">Adjon meg egy nevet az új mappa számára</string>
+    <string name="scan_home_folder_name">Mappa neve</string>
+    <string name="scan_home_folder_placeholder">pl. Munkadokumentumok</string>
+    <string name="scan_home_folder_error">A mappa neve nem lehet üres</string>
+    <string name="scan_home_folder_name_empty">A mappa neve nem lehet üres</string>
+    <string name="scan_home_create">Teremt</string>
+    <string name="scan_home_folder_exists">Már létezik egy ilyen nevű mappa</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Kamera</string>
+    <string name="scan_camera_permission_required">Kameraengedély szükséges</string>
+    <string name="scan_camera_permission_message">Ennek az alkalmazásnak kamerához való hozzáférésre van szüksége a dokumentumok beolvasásához.</string>
+    <string name="scan_camera_permission_settings">Kérjük, lépjen a Beállítások &gt; Alkalmazások &gt; PDF-megjelenítő &gt; Engedélyek menüpontra, és engedélyezze a Kamera engedélyt.</string>
+    <string name="scan_camera_permission_title">Kameraengedély szükséges</string>
+    <string name="scan_camera_request_permission">Engedély kérése</string>
+    <string name="scan_camera_open_settings">Beállítások megnyitása</string>
+    <string name="scan_camera_close">Közeli</string>
+    <string name="scan_camera_flash">Vaku</string>
+    <string name="scan_camera_auto_capture">Automatikus rögzítés</string>
+    <string name="scan_camera_settings">Beállítások</string>
+    <string name="scan_camera_ready_batch">Több oldal beolvasására kész</string>
+    <string name="scan_camera_ready_multiple">Több oldal beolvasására kész</string>
+    <string name="scan_camera_hold_steady">Tartsa mozdulatlanul szkennelés közben</string>
+    <string name="scan_camera_captured_pages">%1$d oldal rögzítve</string>
+    <string name="scan_camera_mode_single">Egyetlen</string>
+    <string name="scan_camera_mode_batch">Köteg</string>
+    <string name="scan_camera_preview">Előnézet</string>
+    <string name="scan_camera_finish">Befejezés</string>
+    <string name="scan_camera_starting">Kamera indítása...</string>
+    <string name="scan_camera_document_name">Dokumentum neve</string>
+    <string name="scan_camera_document_name_empty">A dokumentum neve nem lehet üres</string>
+    <string name="scan_camera_save_document">Dokumentum mentése</string>
+    <string name="scan_camera_processing">Feldolgozás...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Vágás &amp; Igazítás</string>
+    <string name="scan_crop_close">Közeli</string>
+    <string name="scan_crop_reset">Visszaállítás</string>
+    <string name="scan_crop_rotate">Forog</string>
+    <string name="scan_crop_done">Kész</string>
+    <string name="scan_crop_scanned_document">Szkennelt dokumentum</string>
+    <string name="scan_crop_magnified_view">Nagyított nézet</string>
+    <string name="scan_crop_processing">Feldolgozás...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Javítás</string>
+    <string name="scan_filter_close">Közeli</string>
+    <string name="scan_filter_rotate">Forog</string>
+    <string name="scan_filter_done">Kész</string>
+    <string name="scan_filter_filters">Szűrők</string>
+    <string name="scan_filter_original">Eredeti</string>
+    <string name="scan_filter_magic">Mágikus</string>
+    <string name="scan_filter_lighten">Világosít</string>
+    <string name="scan_filter_bw">B&amp;Ny</string>
+    <string name="scan_filter_grayscale">Szürkeárnyalatos</string>
+    <string name="scan_filter_magic_2">Tiszta dokumentum</string>
+    <string name="scan_filter_soft_scan">Lágy szkennelés</string>
+    <string name="scan_filter_color_enhance">Szín+</string>
+    <string name="scan_filter_ink_saver">Tintatakarékos</string>
+    <string name="scan_filter_premium">Prémium funkció</string>
+    <string name="scan_filter_filtered_document">Szűrt dokumentum</string>
+    <string name="scan_filter_applying">Szűrő alkalmazása...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Mégsem</string>
+    <string name="scan_share">Részesedés</string>
+    <string name="scan_move">Mozog</string>
+    <string name="scan_move_to_folder">Áthelyezés mappába</string>
+    <string name="scan_delete">Töröl</string>
+    <string name="scan_rename">Átnevezés</string>
+    <string name="scan_root">Gyökér</string>
+    <string name="scan_select_destination">Válasszon ki egy célmappát</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Dokumentum</string>
+    <string name="scan_document_back">Vissza</string>
+    <string name="scan_document_pages">oldalak</string>
+    <string name="scan_document_add_pages">Oldalak hozzáadása ehhez a dokumentumhoz</string>
+    <string name="scan_document_add_page_button">Oldal hozzáadása</string>
+    <string name="scan_document_rename">Átnevezés</string>
+    <string name="scan_document_share">Részesedés</string>
+    <string name="scan_document_more">Több</string>
+    <string name="scan_document_pages_count">%1$d oldal</string>
+    <string name="scan_document_no_pages">Még nincsenek oldalak</string>
+    <string name="scan_document_scan_page">Oldal beolvasása</string>
+    <string name="scan_document_import_page">Importálás a Galériából</string>
+    <string name="scan_document_grid_view">Rácsnézet</string>
+    <string name="scan_document_list_view">Lista nézet</string>
+    <string name="scan_document_continuous_view">Folyamatos nézet</string>
+    <string name="scan_document_page_number">%1$d oldal</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Oldal</string>
+    <string name="scan_page_back">Vissza</string>
+    <string name="scan_page_share">Részesedés</string>
+    <string name="scan_page_delete">Töröl</string>
+    <string name="scan_page_of">%1$d a %2$d-ból</string>
+    <string name="scan_page_image_not_found">A kép nem található</string>
+    <string name="scan_page_retake">Újrafelvétel</string>
+    <string name="scan_page_crop">Termés</string>
+    <string name="scan_page_enhance">Javítás</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">Mentés a galériába</string>
+    <string name="scan_page_saved_to_gallery">Kép mentve a galériába</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Törli a dokumentumot?</string>
+    <string name="scan_delete_document_message">Biztosan törölni szeretnéd a(z) "%1$s" oldalt? Ez véglegesen törli a dokumentum összes oldalát. A művelet nem vonható vissza.</string>
+    <string name="scan_rename_document">Dokumentum átnevezése</string>
+    <string name="scan_rename_enter_name">Adjon meg egy új nevet a dokumentumnak</string>
+    <string name="scan_rename_document_name">Dokumentum neve</string>
+    <string name="scan_rename_error">A dokumentum neve nem lehet üres</string>
+    <string name="scan_dialog_delete_document_title">Törli a dokumentumot?</string>
+    <string name="scan_dialog_delete_document_message">Biztosan törölni szeretnéd a(z) "%1$s" oldalt? Ez véglegesen törli a dokumentum összes oldalát. A művelet nem vonható vissza.</string>
+    <string name="scan_dialog_delete_confirm">Töröl</string>
+    <string name="scan_dialog_cancel">Mégsem</string>
+    <string name="scan_dialog_move_title">Áthelyezés mappába</string>
+    <string name="scan_dialog_move_message">Válasszon ki egy célmappát</string>
+    <string name="scan_dialog_move_confirm">Mozog</string>
+    <string name="scan_dialog_move_root">Gyökér</string>
+    <string name="scan_dialog_move_selected">Kiválasztott</string>
+    <string name="scan_dialog_rename_title">Dokumentum átnevezése</string>
+    <string name="scan_dialog_rename_message">Adjon meg egy új nevet a dokumentumnak</string>
+    <string name="scan_dialog_rename_label">Dokumentum neve</string>
+    <string name="scan_dialog_rename_error">A dokumentum neve nem lehet üres</string>
+    <string name="scan_dialog_rename_confirm">Átnevezés</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Részesedés</string>
+    <string name="scan_menu_move">Áthelyezés mappába</string>
+    <string name="scan_menu_delete">Töröl</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Kamera előnézet\n(Hamarosan)</string>
+    <string name="scan_platform_desktop_camera">Asztali kamera előnézete\n(Hamarosan)</string>
+    <string name="scan_platform_ios_camera">iOS kamera előnézet\n(Hamarosan)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Közeli</string>
+    <string name="flash">Vaku</string>
+    <string name="auto_capture">Automatikus rögzítés</string>
+    <string name="settings">Beállítások</string>
+    <string name="capture">Elfog</string>
+    <string name="finish">Befejezés</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Biztosan törölni szeretnéd a(z) %1fájlt? Az összes benne lévő dokumentum is törlődni fog.</string>
+    <string name="share">Részesedés</string>
+    <string name="share_as_images">Megosztás képként</string>
+    <string name="share_as_pdf">Megosztás PDF-ként</string>
+    <string name="move_to_folder">Áthelyezés mappába</string>
+    <string name="delete">Töröl</string>
+    <string name="selected">Kiválasztott</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">%1$s oldal</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">A mappa üres</string>
+    <string name="tap_the__button_to_scan_a_docu">Koppintson a + gombra egy dokumentum beolvasásához</string>
+    <string name="str______pages">%1$s • %2$s • %3$s oldal</string>
+    <string name="create_folder">Mappa létrehozása</string>
+    <string name="more_options">További lehetőségek</string>
+    <string name="document_thumbnail">Dokumentum bélyegképe</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">A kép nem található</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — %2$d oldal</string>
+    <string name="scan_ocr_title">Szövegfelismerés</string>
+    <string name="scan_ocr_copy">Szöveg másolása</string>
+    <string name="scan_ocr_no_text">Nem található szöveg</string>
+    <string name="scan_ocr_processing">Szöveg felismerése…</string>
+    <string name="scan_ocr_error">Nem sikerült felismerni a szöveget</string>
+    <string name="scan_ocr_not_supported">Az OCR nem támogatott ezen a platformon.</string>
+    <string name="scan_ocr_image">OCR-hez beolvasott oldal</string>
+    <string name="gallery">Galéria</string>
+    <string name="select_file">Fájl kiválasztása</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Nem sikerült rögzíteni a képet</string>
+    <string name="error_no_images_captured">Nincsenek képek rögzítve</string>
+    <string name="error_open_settings">Nem sikerült megnyitni a beállításokat</string>
+    <string name="error_process_images">Nem sikerült feldolgozni a képeket</string>
+    <string name="error_process_image">Nem sikerült feldolgozni a képet</string>
+    <string name="error_start_camera">Nem sikerült elindítani a kamerát</string>
+    <string name="error_stop_camera">Nem sikerült leállítani a kamerát</string>
+    <string name="error_crop_image">Nem sikerült a képet körülvágni</string>
+    <string name="error_delete_document">Nem sikerült törölni a dokumentumot</string>
+    <string name="error_delete_page">Nem sikerült törölni az oldalt</string>
+    <string name="error_load_document">Nem sikerült betölteni a dokumentumot</string>
+    <string name="error_load_page">Nem sikerült betölteni az oldalt</string>
+    <string name="error_move_document">Nem sikerült áthelyezni a dokumentumot</string>
+    <string name="error_no_pages_to_share">Nincsenek megosztható oldalak</string>
+    <string name="error_rename_document">Nem sikerült átnevezni a dokumentumot</string>
+    <string name="error_reorder_pages">Nem sikerült átrendezni az oldalakat</string>
+    <string name="error_share_images">Nem sikerült megosztani a képeket</string>
+    <string name="error_share_pdf">Nem sikerült megosztani a PDF-et</string>
+    <string name="error_share_page">Nem sikerült megosztani az oldalt</string>
+    <string name="error_create_folder">Nem sikerült létrehozni a mappát</string>
+    <string name="error_delete_folder">Nem sikerült törölni a mappát</string>
+    <string name="error_rename_folder">Nem sikerült átnevezni a mappát</string>
+    <string name="error_unknown">Ismeretlen hiba történt</string>
+    <string name="folder_not_found">Mappa nem található</string>
+    <string name="sync_documents">Dokumentumok szinkronizálása</string>
+    <string name="shutter_scale">redőnyméret</string>
+    <string name="import_gallery">Galéria importálása</string>
+    <string name="scan_camera">Szkennelő kamera</string>
+</resources>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">Διαγραφή σελίδων</string>
+    <string name="are_you_sure_you_want_to_delet">Είστε βέβαιοι ότι θέλετε να διαγράψετε τις επιλεγμένες σελίδες; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</string>
+    <string name="delete">Διαγράφω</string>
+    <string name="cancel">Ματαίωση</string>
+    <string name="quick_selection">Γρήγορη Επιλογή</string>
+    <string name="select_range">Επιλογή εύρους</string>
+    <string name="select_all">Επιλογή όλων</string>
+    <string name="clear_all">Εκκαθάριση όλων</string>
+    <string name="select_page_range">Επιλογή εύρους σελίδων</string>
+    <string name="enter_the_range_of_pages_to_de">Εισαγάγετε το εύρος σελίδων που θα διαγραφούν (1-%1$s)</string>
+    <string name="from">Από</string>
+    <string name="to">Να</string>
+    <string name="select">Επιλέγω</string>
+    <string name="please_go_back_and_select_a_pd">Επιστρέψτε και επιλέξτε ένα PDF</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">Διαχωρισμός PDF</string>
+    <string name="str_1_file_selected">Επιλέχθηκε 1 αρχείο</string>
+    <string name="no_file_selected">Δεν έχει επιλεγεί αρχείο</string>
+    <string name="split_mode">Λειτουργία διαίρεσης</string>
+    <string name="fixed_segments">Σταθερά τμήματα</string>
+    <string name="custom_ranges">Προσαρμοσμένα εύρη</string>
+    <string name="segment_size">Μέγεθος τμήματος</string>
+    <string name="this_will_create_multiple_pdfs">Αυτό θα δημιουργήσει πολλά PDF με τον καθορισμένο αριθμό σελίδων το καθένα. Το μέγεθος του τμήματος πρέπει να είναι μικρότερο από το σύνολο των σελίδων για να δημιουργηθούν ουσιαστικές διαιρέσεις. Για παράδειγμα, εάν το αρχείο προέλευσης έχει 8 σελίδες και εισαγάγετε 2, θα δημιουργηθούν τέσσερα αρχεία PDF με 2 σελίδες το καθένα.</string>
+    <string name="pages_per_file">Σελίδες ανά αρχείο</string>
+    <string name="eg_2">π.χ., 2</string>
+    <string name="total_number_of_pages_in_pdf__">Συνολικός αριθμός σελίδων σε PDF: %1$d (το μέγεθος του τμήματος πρέπει να είναι μικρότερο από %1$d)</string>
+    <string name="this_will_create__output_files">Αυτό θα δημιουργήσει %1$d αρχεία εξόδου</string>
+    <string name="this_will_create__output_file">Αυτό θα δημιουργήσει το αρχείο εξόδου %1$d</string>
+    <string name="this_input_will_split_the_pdf_">Αυτή η εισαγωγή θα διαιρέσει το PDF σε ξεχωριστά αρχεία με βάση τα εύρη σας. Για παράδειγμα, η εντολή "1-2,5,6-8" θα δημιουργήσει 3 PDF: το πρώτο με τις σελίδες 1-2, το δεύτερο με τη σελίδα 5 και το τρίτο με τις σελίδες 6-8.</string>
+    <string name="page_ranges">Εύρος σελίδων</string>
+    <string name="eg_1234571520">π.χ., 1-2,3,4-5,7,15-20</string>
+    <string name="format_use_ranges_15_or_single">Μορφή: Χρησιμοποιήστε εύρη (1-5) ή μεμονωμένες σελίδες (7), διαχωρισμένες με κόμματα. Επιτρέπονται μόνο ψηφία, παύλες και κόμματα.</string>
+    <string name="split_preview">Διαχωρισμένη προεπισκόπηση</string>
+    <string name="pdf_files_will_be_created">Θα δημιουργηθούν αρχεία PDF %1$d</string>
+    <string name="pdf_file_will_be_created">%1$d Το αρχείο PDF θα δημιουργηθεί</string>
+    <string name="pdf_result_">Αποτέλεσμα PDF %1$s</string>
+    <string name="str__and__more">... και %1$d περισσότερα</string>
+    <string name="splitting_pdf">Διαχωρισμός PDF...</string>
+    <string name="checking_files">Έλεγχος αρχείων...</string>
+    <string name="page_n">Σελίδα %1$d</string>
+    <string name="pages_n_m">Σελίδες %1$d-%2$d</string>
+    <string name="split_complete">Ολοκληρώθηκε η διαίρεση!</string>
+    <string name="split_failed">Η διαίρεση απέτυχε</string>
+    <string name="we_couldnt_split_your_pdf">Δεν μπορέσαμε να διαχωρίσουμε το PDF σας</string>
+    <string name="your_pdf_has_been_successfully_split">Το PDF σας χωρίστηκε με επιτυχία σε %1$d αρχεία</string>
+    <string name="your_pdf_has_been_successfully_split_single">Το PDF σας διαιρέθηκε με επιτυχία σε αρχείο %1$d</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">Εργαλεία PDF</string>
+    <string name="image_tools">Εργαλεία εικόνας</string>
+    <string name="str_30_tools_for_pdf">30+ Εργαλεία για PDF</string>
+    <string name="tools_for_images">Εργαλεία για εικόνες</string>
+    <string name="no_tools_found">Δεν βρέθηκαν εργαλεία</string>
+    <string name="try_adjusting_your_search">Δοκιμάστε να προσαρμόσετε την αναζήτησή σας</string>
+    <string name="history">Ιστορία</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s σελίδα${αν (pageCount &gt; 1) </string>
+    <string name="n_pages">%1$d σελίδες</string>
+    <string name="n_page">%1$d σελίδα</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">Απαιτείται κωδικός πρόσβασης για αυτό το PDF</string>
+    <string name="password_provided">Κωδικός πρόσβασης που παρέχεται</string>
+    <string name="password_required">Απαιτείται κωδικός πρόσβασης</string>
+    <string name="open_file">Άνοιγμα αρχείου</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">Συμπιεσμένο από </string>
+    <string name="error_details">Λεπτομέρειες σφάλματος</string>
+    <string name="view">Θέα</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">Επιλέχθηκαν %1$s από %2$s σελίδες</string>
+    <string name="showing_first_200_pages">Εμφάνιση των πρώτων 200 σελίδων</string>
+    <string name="use_quick_selection_above_for_">Χρησιμοποιήστε την παραπάνω Γρήγορη Επιλογή για σελίδες άνω των 200</string>
+    <string name="loading">Φόρτωση...</string>
+    <string name="error">Σφάλμα</string>
+    <string name="generating_page_previews">Δημιουργία προεπισκοπήσεων σελίδας...</string>
+    <string name="page__thumbnail">Μικρογραφία σελίδας %1$s</string>
+    <string name="selected">Επιλεγμένο</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">Ερευνα</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">Περιστροφή PDF</string>
+    <string name="please_provide_the_password_to">Παρακαλώ δώστε τον κωδικό πρόσβασης για να επιλέξετε προσαρμοσμένες σελίδες</string>
+    <string name="rotation_angle">Γωνία περιστροφής</string>
+    <string name="page_selection">Επιλογή σελίδας</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">Αναδιάταξη PDF</string>
+    <string name="use_the_arrow_buttons_to_reord">Χρησιμοποιήστε τα κουμπιά βέλους για να αναδιατάξετε τις σελίδες</string>
+    <string name="pages_">Σελίδες (%1$s)</string>
+    <string name="page_">Σελίδα %1$s</string>
+    <string name="position__of_">Θέση: %1$s από %2$s</string>
+    <string name="drag_handle">Λαβή σύρματος</string>
+    <string name="move_up">Μετακίνηση προς τα πάνω</string>
+    <string name="move_down">Μετακίνηση προς τα κάτω</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">Συμπίεση PDF</string>
+    <string name="no_files_selected">Δεν έχουν επιλεγεί αρχεία</string>
+    <string name="please_go_back_and_select_pdf_">Επιστρέψτε και επιλέξτε αρχεία PDF για συμπίεση</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">Επιτυχία</string>
+    <string name="individual_results">Μεμονωμένα Αποτελέσματα</string>
+    <string name="done">Γινώμενος</string>
+    <string name="compression_complete">Η συμπίεση ολοκληρώθηκε</string>
+    <string name="your_file_is_ready_and_much_li">Το αρχείο σας είναι έτοιμο και πολύ ελαφρύτερο!</string>
+    <string name="before">ΠΡΟΤΟΥ</string>
+    <string name="after">ΜΕΤΑ</string>
+    <string name="total_saved">Σύνολο Αποθηκευμένων</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">ΜΙΚΡΟΤΕΡΟΣ</string>
+    <string name="str__saved">%1$s% εξοικονόμησης</string>
+    <string name="open">Ανοιχτό</string>
+    <string name="share">Μερίδιο</string>
+    <string name="close">Κοντά</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">Επίπεδο συμπίεσης</string>
+    <string name="recommended">Συνιστάται</string>
+    <string name="str__compression">%1$s Συμπίεση</string>
+    <string name="str__of_original_size">~%1$s% του αρχικού μεγέθους</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">Εικόνες σε PDF</string>
+    <string name="str__images_selected">Επιλέχθηκαν %1$s εικόνες</string>
+    <string name="images_will_be_converted_in_th">Οι εικόνες θα μετατραπούν με τη σειρά που φαίνεται παρακάτω</string>
+    <string name="remove">Αφαιρώ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">PDF σε εικόνες</string>
+    <string name="image_format">Μορφή εικόνας</string>
+    <string name="image_quality_dpi">Ποιότητα εικόνας (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">Συγχώνευση PDF</string>
+    <string name="n_files_selected">Επιλέχθηκαν %1$d αρχεία</string>
+    <string name="n_file_selected">Επιλέχθηκε αρχείο %1$d</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">Κλείδωμα PDF</string>
+    <string name="password_protection">Προστασία με κωδικό πρόσβασης</string>
+    <string name="enter_a_password_to_protect_yo">Εισαγάγετε έναν κωδικό πρόσβασης για να προστατεύσετε το PDF σας. Θα χρειαστείτε αυτόν τον κωδικό πρόσβασης για να ανοίξετε το αρχείο.</string>
+    <string name="password">Σύνθημα</string>
+    <string name="enter_password">Εισαγάγετε τον κωδικό πρόσβασης</string>
+    <string name="confirm_password">Επιβεβαίωση κωδικού πρόσβασης</string>
+    <string name="reenter_password">Επαναπληκτρολόγηση κωδικού πρόσβασης</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">Παρακαλώ επιστρέψτε και επιλέξτε ένα αρχείο</string>
+    <string name="back">Πίσω</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">Ξεκλείδωμα PDF</string>
+    <string name="current_password">Τρέχων κωδικός πρόσβασης</string>
+    <string name="enter_the_current_password_to_">Εισαγάγετε τον τρέχοντα κωδικό πρόσβασης για να ξεκλειδώσετε αυτό το PDF</string>
+    <string name="enter_current_password">Εισαγάγετε τον τρέχοντα κωδικό πρόσβασης</string>
+    <string name="incorrect_password_please_try_">Λανθασμένος κωδικός πρόσβασης. Δοκιμάστε ξανά.</string>
+    <string name="new_password_optional">Νέος κωδικός πρόσβασης (Προαιρετικό)</string>
+    <string name="set_a_new_password_to_change_i">Ορίστε έναν νέο κωδικό πρόσβασης για να τον αλλάξετε ή αφήστε κενό για να καταργήσετε την προστασία με κωδικό πρόσβασης.</string>
+    <string name="new_password">Νέος κωδικός πρόσβασης</string>
+    <string name="enter_new_password">Εισαγάγετε νέο κωδικό πρόσβασης</string>
+    <string name="confirm_new_password">Επιβεβαίωση νέου κωδικού πρόσβασης</string>
+    <string name="reenter_new_password">Επαναεισάγετε τον νέο κωδικό πρόσβασης</string>
+    <string name="passwords_do_not_match">Οι κωδικοί πρόσβασης δεν ταιριάζουν</string>
+    <string name="compression_failed">Η συμπίεση απέτυχε</string>
+    <string name="open_pdf">Άνοιγμα PDF</string>
+    <string name="share_file">Κοινή χρήση αρχείου</string>
+    <string name="pages_deleted">Οι σελίδες διαγράφηκαν!</string>
+    <string name="delete_failed">Η διαγραφή απέτυχε</string>
+    <string name="select_pages_to_delete">Επιλογή σελίδων για διαγραφή</string>
+    <string name="pdf_created">Το PDF δημιουργήθηκε!</string>
+    <string name="conversion_failed">Η μετατροπή απέτυχε</string>
+    <string name="pdf_locked_successfully">Το PDF κλειδώθηκε με επιτυχία!</string>
+    <string name="lock_failed">Το κλείδωμα απέτυχε</string>
+    <string name="merge_complete">Η συγχώνευση ολοκληρώθηκε!</string>
+    <string name="merge_failed">Η συγχώνευση απέτυχε</string>
+    <string name="conversion_complete">Η μετατροπή ολοκληρώθηκε!</string>
+    <string name="reorder_complete">Η επαναπαραγγελία ολοκληρώθηκε!</string>
+    <string name="reorder_failed">Η επαναπαραγγελία απέτυχε.</string>
+    <string name="rotation_complete">Η περιστροφή ολοκληρώθηκε!</string>
+    <string name="rotation_failed">Η περιστροφή απέτυχε</string>
+    <string name="select_pages_to_rotate">Επιλογή σελίδων για περιστροφή</string>
+    <string name="str__complete">%1$s Ολοκληρώθηκε!</string>
+    <string name="str__failed">%1$s Αποτυχία</string>
+    <string name="unlock_failed">Το ξεκλείδωμα απέτυχε</string>
+    <string name="your_pdfs_have_been_successfully_compres">Τα PDF σας έχουν συμπιεστεί με επιτυχία</string>
+    <string name="we_couldnt_compress_your_pdfs">Δεν μπορέσαμε να συμπιέσουμε τα PDF σας</string>
+    <string name="view_your_compressed_file">Δείτε το συμπιεσμένο αρχείο σας</string>
+    <string name="send_to_others_or_apps">Αποστολή σε άλλους ή εφαρμογές</string>
+    <string name="your_pdf_has_been_successfully_modified">Το PDF σας τροποποιήθηκε με επιτυχία</string>
+    <string name="we_couldnt_delete_the_pages">Δεν μπορέσαμε να διαγράψουμε τις σελίδες</string>
+    <string name="your_images_have_been_converted_to_pdf">Οι εικόνες σας έχουν μετατραπεί σε PDF</string>
+    <string name="unable_to_create_pdf_from_images">Δεν είναι δυνατή η δημιουργία PDF από εικόνες</string>
+    <string name="your_pdf_is_now_password_protected">Το PDF σας προστατεύεται πλέον με κωδικό πρόσβασης.</string>
+    <string name="we_couldnt_lock_your_pdf">Δεν μπορέσαμε να κλειδώσουμε το PDF σας</string>
+    <string name="your_pdfs_have_been_successfully_merged">Τα PDF σας συγχωνεύτηκαν με επιτυχία</string>
+    <string name="we_couldnt_merge_your_pdfs">Δεν ήταν δυνατή η συγχώνευση των PDF σας</string>
+    <string name="str__images_created_successfully">%1$s εικόνες δημιουργήθηκαν με επιτυχία</string>
+    <string name="unable_to_convert_pdf_to_images">Δεν είναι δυνατή η μετατροπή PDF σε εικόνες</string>
+    <string name="your_pdf_pages_have_been_successfully_re">Οι σελίδες PDF σας αναδιατάχθηκαν με επιτυχία</string>
+    <string name="we_couldnt_reorder_your_pdf">Δεν ήταν δυνατή η αναδιάταξη του PDF σας</string>
+    <string name="your_pdf_has_been_successfully_rotated">Το PDF σας έχει περιστραφεί με επιτυχία</string>
+    <string name="we_couldnt_rotate_your_pdf">Δεν ήταν δυνατή η εναλλαγή του PDF σας</string>
+    <string name="your_file_has_been_successfully_processe">Το αρχείο σας έχει υποβληθεί σε επεξεργασία με επιτυχία</string>
+    <string name="we_couldnt_process_your_file">Δεν ήταν δυνατή η επεξεργασία του αρχείου σας</string>
+    <string name="we_couldnt_unlock_your_pdf">Δεν μπορέσαμε να ξεκλειδώσουμε το PDF σας</string>
+    <string name="clear_filter">Καθαρισμός φίλτρου</string>
+    <string name="clear">Σαφής</string>
+    <string name="pick_a_tool_">Επιλέξτε ένα εργαλείο →</string>
+    <string name="drag_to_reorder">Σύρετε για αναδιάταξη</string>
+    <string name="your_files_are_securely_processed_on_our">Τα αρχεία σας υποβάλλονται σε ασφαλή επεξεργασία στους διακομιστές μας χρησιμοποιώντας κρυπτογραφημένες συνδέσεις και διαγράφονται αυτόματα εντός 1 ώρας. Δεν αποθηκεύουμε ούτε κοινοποιούμε ποτέ τα δεδομένα σας.</string>
+    <string name="compression_quality">Ποιότητα συμπίεσης</string>
+    <string name="dragelevation">dragElevation</string>
+    <string name="tool_card_scale">κλίμακα_κάρτας_εργαλείου</string>
+</resources>

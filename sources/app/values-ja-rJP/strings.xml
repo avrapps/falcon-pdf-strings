@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">PDFマジック</string>
+    <string name="app_tagline">何をしたいですか?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">最後に使用したもの</string>
+    <string name="home_favorites">お気に入り</string>
+    <string name="home_new_tool">新しいツール</string>
+    <string name="home_featured">特集</string>
+    <string name="home_scan_to_pdf">スキャンしてPDFにする</string>
+    <string name="home_scan_description">紙の文書を瞬時にデジタル化</string>
+    <string name="home_start_scanning">スキャンを開始</string>
+    <string name="home_all_tools">すべてのツール</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">PDFツール</string>
+    <string name="image_tools">画像ツール</string>
+    <string name="tools_split">スプリット</string>
+    <string name="tools_split_description">ページを抽出</string>
+    <string name="tools_rotate">回転</string>
+    <string name="tools_rotate_description">向きを修正</string>
+    <string name="tools_delete_pages">ページを削除</string>
+    <string name="tools_delete_pages_description">不要なものを削除する</string>
+    <string name="tools_convert">変換する</string>
+    <string name="tools_convert_description">画像の送信先/送信元</string>
+    <string name="tools_sign">サイン</string>
+    <string name="tools_sign_description">署名を追加</string>
+    <string name="tools_protect">守る</string>
+    <string name="tools_protect_description">パスワードのセキュリティ</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">PDFビューア</string>
+    <string name="pdf_viewer_page_info">%1$d / %2$dページ</string>
+    <!-- Scanner -->
+    <string name="scanner_title">ドキュメントスキャナー</string>
+    <string name="scanner_capture">捕獲</string>
+    <string name="scanner_retake">再受験</string>
+    <string name="scanner_save">保存</string>
+    <!-- Navigation -->
+    <string name="nav_back">戻る</string>
+    <string name="nav_settings">設定</string>
+    <string name="nav_more_options">その他のオプション</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">家</string>
+    <string name="nav_library">図書館</string>
+    <string name="nav_scan">スキャン</string>
+    <string name="nav_tools">ツール</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">ファイルを参照</string>
+    <string name="browse_files_subtitle">ストレージ &amp; クラウドファイル</string>
+    <string name="show_hidden_files">隠しファイルを表示する</string>
+    <string name="hide_hidden_files">隠しファイルを非表示にする</string>
+    <string name="refresh_storage">ストレージをリフレッシュ</string>
+    <string name="no_storage_available">利用可能なストレージがありません</string>
+    <string name="no_files_found">ファイルが見つかりません</string>
+    <string name="add_files">%1$d ファイルを追加する</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">保存権限が必要です</string>
+    <string name="permission_storage_message">このアプリはPDFファイルを閲覧・開くためにデバイスのストレージにアクセスする必要があります。続行するにはストレージへのアクセスを許可してください。</string>
+    <string name="permission_grant">許可を与える</string>
+    <!-- Common Actions -->
+    <string name="action_open">開ける</string>
+    <string name="action_save">保存</string>
+    <string name="action_share">共有</string>
+    <string name="action_delete">消去</string>
+    <string name="action_cancel">キャンセル</string>
+    <string name="action_confirm">確認する</string>
+    <string name="action_rename">名前を変更</string>
+    <string name="action_print">印刷</string>
+    <string name="action_favorite">お気に入り</string>
+    <string name="action_unfavorite">お気に入りを解除</string>
+    <!-- Document Actions -->
+    <string name="document_share">ドキュメントを共有</string>
+    <string name="document_rename">ドキュメントの名前を変更</string>
+    <string name="document_delete">ドキュメントを削除</string>
+    <string name="document_print">文書を印刷</string>
+    <string name="document_favorite">お気に入りに追加</string>
+    <string name="document_unfavorite">お気に入りから削除</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">ドキュメントが正常に共有されました</string>
+    <string name="document_share_failed">ドキュメントを共有できませんでした</string>
+    <string name="document_renamed_success">ドキュメントの名前を変更しました</string>
+    <string name="document_rename_failed">ドキュメントの名前を変更できませんでした</string>
+    <string name="document_deleted_success">ドキュメントは正常に削除されました</string>
+    <string name="document_delete_failed">ドキュメントの削除に失敗しました</string>
+    <string name="document_print_opened">ドキュメントはデフォルトのPDFビューアで開かれています。印刷するには、ビューアの印刷機能を使用してください。</string>
+    <string name="document_print_failed">ドキュメントの印刷に失敗しました</string>
+    <string name="document_added_to_favorites">お気に入りに追加されました</string>
+    <string name="document_removed_from_favorites">お気に入りから削除されました</string>
+    <string name="document_favorite_failed">お気に入りステータスの更新に失敗しました</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">ドキュメントの名前を変更</string>
+    <string name="dialog_rename_hint">新しい名前を入力</string>
+    <string name="dialog_rename_empty_error">ドキュメント名は空欄にできません</string>
+    <string name="dialog_delete_title">ドキュメントを削除</string>
+    <string name="dialog_delete_file_message">これによりファイルは完全に削除されます。\n\n削除 %1$s?</string>
+    <string name="dialog_delete_uri_message">アプリからのみ削除します。元のファイルは変更されません。\n\nアプリから %1$s を削除しますか？</string>
+    <string name="dialog_delete_confirm">消去</string>
+    <string name="dialog_remove_confirm">取り除く</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">アプリ内でのみ名前を変更します。元のファイルは変更されません。</string>
+    <string name="notice_delete_uri_only">アプリから削除されました。元のファイルは変更されていません。</string>
+    <string name="notice_file_exists_error">この名前のファイルは既に存在します</string>
+    <string name="notice_file_not_found_error">ファイルが見つかりません</string>
+    <string name="notice_no_active_document">アクティブなドキュメントがありません</string>
+    <string name="notice_document_path_unavailable">ドキュメントファイルパスが利用できません</string>
+    <!-- States -->
+    <string name="state_loading">読み込み中...</string>
+    <string name="state_empty">アイテムが見つかりません</string>
+    <string name="state_error">問題が発生しました</string>
+    <string name="state_retry">リトライ</string>
+    <!-- Errors -->
+    <string name="error_network">ネットワーク接続に失敗しました</string>
+    <string name="error_file_not_found">ファイルが見つかりません</string>
+    <string name="error_permission_denied">許可が拒否されました</string>
+    <string name="error_invalid_file">無効なファイル形式</string>
+    <string name="error_password_required">パスワードが必要です</string>
+    <string name="error_incorrect_password">パスワードが間違っています</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">パスワード保護</string>
+    <string name="password_protected_message">このファイルを開くにはパスワードが必要です。下記に入力してください。</string>
+    <string name="password_label">パスワード</string>
+    <string name="password_placeholder">パスワードを入力してください</string>
+    <string name="password_unlock">ロック解除</string>
+    <string name="password_show">パスワードを表示</string>
+    <string name="password_hide">パスワードを非表示にする</string>
+    <!-- Theme -->
+    <string name="theme_light">ライト</string>
+    <string name="theme_dark">暗い</string>
+    <string name="theme_system">システム</string>
+    <string name="theme_adaptive">適応型</string>
+    <string name="theme_custom">カスタム</string>
+    <!-- Settings -->
+    <string name="settings_title">設定</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">アカウント &amp; 同期</string>
+    <string name="settings_category_sync_subtitle">アカウントの管理、同期 &amp; プライバシー</string>
+    <string name="settings_category_appearance_title">外観</string>
+    <string name="settings_category_appearance_subtitle">アプリの外観をカスタマイズ &amp; 感触</string>
+    <string name="settings_category_pdf_reader_title">PDFリーダー</string>
+    <string name="settings_category_pdf_reader_subtitle">デフォルトビューア &amp; 読書体験</string>
+    <string name="settings_category_help_title">ヘルプ &amp; サポート</string>
+    <string name="settings_category_help_subtitle">ドキュメント &amp; お問い合わせ</string>
+    <string name="settings_category_general_title">一般的な</string>
+    <string name="settings_category_general_subtitle">言語 &amp; アプリ情報</string>
+    <string name="settings_theme_section">テーマ</string>
+    <string name="settings_theme_description">お好みのテーマを選択してください</string>
+    <string name="settings_accent_color">アクセントカラー</string>
+    <string name="settings_custom_colors">カスタムカラー</string>
+    <string name="settings_primary_color">原色</string>
+    <string name="settings_background_color">背景色</string>
+    <string name="settings_surface_color">表面の色</string>
+    <string name="settings_reset_colors">デフォルトにリセット</string>
+    <string name="settings_adaptive_note">Material You アダプティブカラー (Android 12 以降)</string>
+    <string name="settings_app_section">アプリ設定</string>
+    <string name="settings_notifications">通知</string>
+    <string name="settings_notifications_description">アプリの通知を受け取る</string>
+    <string name="settings_auto_backup">自動バックアップ</string>
+    <string name="settings_auto_backup_description">ドキュメントを自動的にバックアップ</string>
+    <string name="settings_change_color">色を変える</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">PDF文書はここに表示されます</string>
+    <string name="scan_description">ドキュメントをスキャンしてPDFにする</string>
+    <string name="tools_description">PDF編集および操作ツール</string>
+    <string name="home_description">下部のナビゲーションを使用して機能にアクセスします</string>
+    <!-- Sort Options -->
+    <string name="sort_name">名前</string>
+    <string name="sort_date">日付</string>
+    <string name="sort_size">サイズ</string>
+    <string name="sort_option_name">名前</string>
+    <string name="sort_option_last_opened">最終更新日</string>
+    <string name="sort_option_last_modified">最終更新日</string>
+    <string name="sort_option_file_size">ファイルサイズ</string>
+    <!-- View Types -->
+    <string name="view_type_list">リストビュー</string>
+    <string name="view_type_table">テーブルビュー</string>
+    <string name="view_type_grid">グリッド表示</string>
+    <!-- File Properties -->
+    <string name="file_name">ファイル名</string>
+    <string name="date_modified">更新日</string>
+    <string name="file_size">サイズ</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">未開始</string>
+    <string name="file_status_completed">完了</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">PDF文書</string>
+    <string name="document_type_word">ワード文書</string>
+    <string name="document_type_excel">Excelスプレッドシート</string>
+    <string name="document_type_image">画像ファイル</string>
+    <string name="document_type_other">書類</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">すべてのファイル</string>
+    <string name="filter_recent">最近の</string>
+    <string name="filter_pdfs">PDF</string>
+    <string name="filter_images">画像</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">家</string>
+    <string name="browse_tab">ブラウズ</string>
+    <string name="starred_tab">スター付き</string>
+    <string name="settings_tab">設定</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">テーマを切り替える</string>
+    <string name="accessibility_menu">メニュー</string>
+    <string name="accessibility_close">近い</string>
+    <string name="accessibility_color_picker">カラーピッカー</string>
+    <!-- Library Screen -->
+    <string name="library_title">図書館</string>
+    <string name="library_subtitle">ファイル管理、最近使用した項目 &amp; お気に入り</string>
+    <string name="library_search_placeholder">ファイルを検索...</string>
+    <string name="library_selected_count">%1$d 選択済み</string>
+    <string name="library_open_from_device">\nデバイスから開く</string>
+    <string name="library_browse_files">\nファイルを参照</string>
+    <string name="library_action_open">開ける</string>
+    <string name="library_action_share">共有</string>
+    <string name="library_action_remove">取り除く</string>
+    <string name="library_action_delete">消去</string>
+    <string name="library_clear_search">検索をクリア</string>
+    <string name="library_close_search">検索を閉じる</string>
+    <string name="library_select_all">すべてのファイルを選択</string>
+    <string name="library_exit_multiselect">複数選択モードを終了する</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">ヘルプ &amp; サポート</string>
+    <string name="help_support_subtitle">よくある質問、お問い合わせ &amp; 法務</string>
+    <string name="settings_pdf_subtitle">スクロール、表示 &amp; レイアウト</string>
+    <string name="help_header_title">どのようにお手伝いできますか?</string>
+    <string name="help_header_subtitle">私たちのチームは、\n最高の PDF エクスペリエンスをお客様に提供できるよう尽力しています。</string>
+    <string name="help_contact_us">お問い合わせ</string>
+    <string name="help_contact_subtitle">サポートにお問い合わせください</string>
+    <string name="help_faq">よくある質問</string>
+    <string name="help_faq_subtitle">よくある質問への回答</string>
+    <string name="help_privacy_policy">プライバシーポリシー</string>
+    <string name="help_privacy_subtitle">データの保護方法</string>
+    <string name="help_terms_service">利用規約</string>
+    <string name="help_terms_subtitle">応募規則</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">モバイルデータで同期</string>
+    <string name="background_sync">バックグラウンド同期</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">PDFリーダーの設定</string>
+    <string name="pdf_settings_coming_soon">近日公開</string>
+    <string name="pdf_settings_description">スクロール動作、表示モード、読み取り設定を構成する</string>
+    <!-- General Settings -->
+    <string name="settings_language">言語</string>
+    <string name="settings_pdf_reader">PDFリーダーの設定</string>
+    <string name="settings_help_support">ヘルプ &amp; サポート</string>
+    <string name="settings_whats_new">新着情報</string>
+    <string name="settings_download_desktop">別のデバイスにインストールする</string>
+    <string name="settings_rate_app">アプリを評価する</string>
+    <string name="play_store_not_found">このデバイスではPlayストアが見つかりません</string>
+    <string name="settings_set_as_default">デフォルトのPDFビューアとして設定</string>
+    <string name="settings_set_as_default_subtitle">PDFをデフォルトでこのアプリで開く</string>
+    <string name="settings_default_pdf_instructions_title">デフォルトとして設定する方法</string>
+    <string name="settings_default_pdf_ok">わかった</string>
+    <string name="settings_default_app_hint">うまくいかなかった？</string>
+    <string name="settings_default_app_hint_learn_more">もっと詳しく知る</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">言語</string>
+    <string name="language_search_placeholder">言語を検索...</string>
+    <!-- Common UI -->
+    <string name="support">サポート</string>
+    <string name="language_english">英語</string>
+    <string name="language_hindi">ヒンディー語</string>
+    <string name="language_spanish">スペイン語</string>
+    <string name="language_french">フランス語</string>
+    <string name="language_german">ドイツ語</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">アラビア語</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">ポルトガル語</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">アプリの外観</string>
+    <string name="theme">テーマ</string>
+    <string name="general">一般的な</string>
+    <string name="new">新しい</string>
+    <string name="navigate">ナビゲート</string>
+    <string name="download">ダウンロード</string>
+    <string name="falcon_pdf">ファルコン PDF</string>
+    <string name="excellence_in_every_pixel">あらゆるピクセルに卓越性</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">変更を適用</string>
+    <string name="apply">適用する</string>
+    <string name="selected">選択済み</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">同期設定</string>
+    <string name="autosync_on_wifi">WiFiで自動同期</string>
+    <string name="sync_reading_progress">読書の進捗状況を同期</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">文書名</string>
+    <string name="name_cannot_be_empty">名前は空欄にできません</string>
+    <string name="str__failed">%1$s 失敗しました</string>
+    <string name="ok">わかりました</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">アップグレードプラン - 現在のプラン: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">ドロップしてファイルを開く</string>
+    <string name="release_to_import_and_open_pdf">PDFファイルをインポートして開くにはリリースしてください</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">取り除く</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF</string>
+    <string name="images">画像</string>
+    <string name="filter_all_types">すべてのファイル</string>
+    <string name="favorites">お気に入りのファイル</string>
+    <string name="recent">最近の</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">ドキュメントを検索...</string>
+    <string name="voice_search">音声検索</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">最近使用したファイル</string>
+    <string name="loading_recent_files">最近使用したファイルを読み込んでいます...</string>
+    <string name="no_recent_files">最近のファイルはありません</string>
+    <string name="no_favorites">お気に入りはなし</string>
+    <string name="mark_files_as_favorite_to_see_them_here">ファイルをお気に入りとしてマークすると、ここに表示されます</string>
+    <string name="open_some_pdf_files_to_see_the">PDFファイルを開いてここでご覧ください</string>
+    <string name="status">状態</string>
+    <string name="actions">アクション</string>
+    <string name="select_all">すべて選択</string>
+    <string name="enter_multiselect_mode">複数選択モードに入る</string>
+    <string name="sorted_ascending">昇順でソート</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">ストレージ: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">%1$s ファイルを追加する</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">ビューの種類を変更する</string>
+    <string name="filter_">フィルター: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">PDF を読み込んでいます...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">同期するにはサインインしてください</string>
+    <string name="protect_your_library_files">ライブラリファイルを保護します</string>
+    <string name="sign_in">サインイン</string>
+    <string name="sign_out">サインアウト</string>
+    <string name="sign_in_dialog_title">Falcon PDFにサインインする</string>
+    <string name="sign_in_dialog_subtitle">あなたのPDFライブラリを、どこでも利用できる。</string>
+    <string name="sign_in_with_google">Googleでログイン</string>
+    <string name="sign_in_with_apple">Appleでサインイン</string>
+    <string name="apple_user_drive_unavailable">Googleドライブの同期はAppleサインインでは利用できません</string>
+    <string name="apple_user_link_google">Googleアカウントをリンクしてドライブと同期する</string>
+    <string name="apple_user_sync_info">クラウド同期を有効にするには、Googleアカウントをリンクしてください。</string>
+    <string name="link_google_account">Googleアカウントをリンクする</string>
+    <string name="signed_in_successfully">ログインに成功しました</string>
+    <string name="signed_out_successfully">正常にログアウトしました。</string>
+    <string name="sync_disabled_free">無料アカウントでは同期機能は無効になっています。</string>
+    <string name="storage_disabled_grant_access">ストレージが無効になっています。開始するにはドライブへのアクセスを許可してください。</string>
+    <string name="upgrade_to_pro">Proにアップグレード</string>
+    <string name="grant_drive_access">グラントドライブアクセス</string>
+    <string name="files_synced">%1$d/%2$d ファイルが同期されました</string>
+    <string name="synced_count">%1$d 同期済み</string>
+    <string name="unlimited_sync_active">無制限同期</string>
+    <string name="missing_drive_permissions">ドライブのアクセス許可が不足しています。同期は現在ブロックされています。</string>
+    <string name="drive_access_revoked">ドライブへのアクセス権が取り消されました。同期を再開するには、再接続してください。</string>
+    <string name="upgrade_premium">プレミアムにアップグレード</string>
+    <string name="manage_account">アカウント管理</string>
+    <string name="sync_now">今すぐ同期</string>
+    <string name="tier_free">無料</string>
+    <string name="tier_pro">プロ</string>
+    <string name="tier_premium">プレミアム</string>
+    <string name="status_paused">一時停止</string>
+    <!-- Common -->
+    <string name="navigate_back">戻る</string>
+    <string name="dismiss">却下する</string>
+    <string name="cancel">キャンセル</string>
+    <string name="back">戻る</string>
+    <string name="search">検索</string>
+    <string name="more_actions">その他のアクション</string>
+    <string name="share">共有</string>
+    <string name="delete">消去</string>
+    <string name="remove_from_recents">最近使用した項目から削除</string>
+    <string name="open">開ける</string>
+    <string name="all">全て</string>
+    <string name="sort_by_">並べ替え %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Googleドライブ同期</string>
+    <string name="syncing">同期中...</string>
+    <string name="sync_completed">同期が完了しました</string>
+    <string name="sync_failed">同期に失敗しました</string>
+    <string name="sync_limit_exceeded">Sync limit exceeded. Your %s plan allows %d files.</string>
+    <string name="sync_no_drive_access">Googleドライブへのアクセスは利用できません</string>
+    <string name="sync_network_unavailable">ネットワークが利用できません</string>
+    <string name="sync_last_sync">最終同期: %s</string>
+    <string name="sync_total_files">合計</string>
+    <string name="sync_synced_files">同期済み</string>
+    <string name="sync_failed_files">失敗した</string>
+    <string name="sync_conflict_files">紛争</string>
+    <string name="sync_add_to_favorites">お気に入りに追加</string>
+    <string name="sync_remove_from_favorites">お気に入りから削除</string>
+    <string name="sync_conflict_title">同期の競合</string>
+    <string name="sync_conflict_message">以下のファイルには、解決が必要な競合があります。</string>
+    <string name="sync_conflict_explanation">ローカルバージョンとリモートバージョンの両方が変更されている場合に、競合が発生します。</string>
+    <string name="sync_plan_limit">同期: %d/%d</string>
+    <string name="sync_plan_limit_reached">制限に達しました</string>
+    <string name="sync_plan_unlimited">無制限の同期</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">スキップ</string>
+    <string name="welcome_next">次</string>
+    <string name="welcome_get_started">さあ始めましょう</string>
+    <string name="welcome_sign_in_get_started">サインイン &amp; 開始する</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;あらゆるドキュメントを&lt;/b&gt; 即座に読む</string>
+    <string name="welcome_slide1_description">PDF、DOC、EPUB、MOBIなど、10種類以上のドキュメント形式を開いて管理できます。</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;PDF、電子書籍、&lt;/b&gt; オフィス文書を1か所で読む</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;お気に入りの&lt;/b&gt; ドキュメントをデバイス間でアクセスします</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;コメント、&lt;/b&gt; ハイライト、そして簡単にコラボレーション</string>
+    <string name="welcome_slide1_footer">汎用ドキュメントリーダー</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;PDFの編集、スキャン、整理&lt;/b&gt;</string>
+    <string name="welcome_slide2_description">PDFの作成、編集、管理に必要なすべてが、この強力なツールキットに凝縮されています。</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;テキストの編集、&lt;/b&gt; 注釈、ハイライト、フォームへの入力</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;ドキュメントをスキャンして&lt;/b&gt; すぐにPDFに変換</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;結合、変換、圧縮、セキュリティなど30種類以上のツール&lt;/b&gt;</string>
+    <string name="welcome_slide2_footer">オールインワンのPDFワークスペース</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;あなたのドキュメントを理解するAI&lt;/b&gt;</string>
+    <string name="welcome_slide3_description">文書の読み取りと分析をAIが行ってくれるので、時間を大幅に節約できます。</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;長い文書を数秒で要約します&lt;/b&gt;</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; スキャンしたページを瞬時にテキストに変換</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;読み上げ機能が組み込まれたドキュメントを&lt;/b&gt; 聞く</string>
+    <string name="welcome_slide3_footer">広告なし。生産性だけを追求します。</string>
+    <string name="grace">グレース</string>
+    <string name="unable_to_verify_subscription_limited_ac">購読情報を確認できませんでした。接続が復旧するまでアクセスが制限されます。</string>
+    <string name="retry_verification">再検証</string>
+    <string name="guest_state">ゲストの状態</string>
+    <string name="free_tier">無料プラン</string>
+    <string name="free_tier__locked">無料ティア - ロック済み</string>
+    <string name="pro_tier">プロティア</string>
+    <string name="pro_tier__restricted">プロティア - 制限あり</string>
+    <string name="premium_tier">プレミアムティア</string>
+    <string name="premium_tier__error">プレミアムティア - エラー</string>
+    <string name="refresh_plan_status">更新プランのステータス</string>
+    <string name="user_avatar">ユーザーアバター</string>
+    <string name="debug_tools">デバッグツール</string>
+    <string name="authentication__drive">認証 &amp; ドライブ</string>
+    <string name="auth_state">認証状態</string>
+    <string name="revoke_drive_access">ドライブアクセスを取り消す</string>
+    <string name="image">画像</string>
+    <string name="thumbnail">サムネイル</string>
+    <string name="manage_preferences">設定の管理</string>
+    <string name="tools_history">ツール履歴</string>
+    <string name="manage_recent_logs">最近のログを管理する</string>
+    <string name="more_options">その他のオプション</string>
+    <string name="clear_all_history">履歴をすべて消去</string>
+    <string name="no_history_yet">履歴はまだありません</string>
+    <string name="your_pdf_tool_operations_will_appear_her">PDFツールの操作内容はここに表示されます。</string>
+    <string name="view">ビュー</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">保存しました %1$s</string>
+    <string name="history_status_processing">処理</string>
+    <string name="history_status_succeeded">成功しました</string>
+    <string name="history_status_failed">失敗した</string>
+    <string name="history_status_processing_upper">処理</string>
+    <string name="history_unknown_files">不明なファイル</string>
+    <string name="history_op_complete">%1$s 完了！</string>
+    <string name="history_op_failed">%1$s 失敗</string>
+    <string name="history_op_success_multiple">%1$d 個のファイルで操作が正常に完了しました。</string>
+    <string name="history_op_success_single">操作は正常に完了しました。</string>
+    <string name="history_op_error">作戦を完了できませんでした</string>
+    <string name="history_multiple_files">%1$d ファイル</string>
+    <string name="history_failed">失敗した</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">クラウド同期</string>
+    <string name="cloud_sync_subtitle">接続されたデバイス</string>
+    <string name="cloud_sync_all_synced">すべてのファイルが同期されました</string>
+    <string name="cloud_sync_syncing">同期中…</string>
+    <string name="cloud_sync_pending">同期保留中</string>
+    <string name="cloud_sync_last_sync">最終同期: %1$s</string>
+    <string name="cloud_sync_never_synced">同期されたことはありません</string>
+    <string name="cloud_sync_recent_activity">最近の同期アクティビティ</string>
+    <string name="cloud_sync_no_files">同期されたファイルはまだありません</string>
+    <string name="cloud_sync_synced_to_drive">ドライブに同期済み</string>
+    <string name="cloud_sync_pending_upload">アップロード保留中</string>
+    <string name="cloud_sync_sync_now">今すぐ同期</string>
+    <string name="cloud_sync_view_history">同期履歴を表示する</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d 個のファイルが同期されました</string>
+    <string name="cloud_sync_unlimited_files">%1$d 個のファイルが同期されました · 無制限</string>
+    <string name="cloud_sync_cta_title">どのプラットフォームでも、いつでも</string>
+    <string name="cloud_sync_cta_subtitle">あなたの書類はどこへでもあなたについていきます</string>
+    <string name="cloud_sync_files_label">%1$d ファイル</string>
+    <string name="settings_data_privacy">データ &amp; プライバシー</string>
+    <string name="settings_data_privacy_subtitle">データ、アカウントの管理 &amp; 削除</string>
+    <string name="settings_delete_account">アカウントを削除</string>
+    <string name="settings_delete_account_subtitle">アカウントとデータを完全に削除する</string>
+    <string name="delete_account_warning_title">アカウントを削除しますか？</string>
+    <string name="delete_account_warning_message">これにより、アカウントおよび購入履歴やクラウド同期ファイルを含むすべての関連データが完全に削除されます。この操作は元に戻すことができず、購入した商品を後から復元することもできません。</string>
+    <string name="delete_account_confirm_phrase_label">続行するには「削除の確認」と入力してください。</string>
+    <string name="delete_account_confirm_phrase">削除を確認する</string>
+    <string name="delete_account_button">アカウントを削除</string>
+    <string name="delete_account_error_reauth">セキュリティ上の理由から、アカウントを削除するには、最近ログインしている必要があります。一度ログアウトしてから再度ログインし、もう一度お試しください。</string>
+    <string name="delete_account_success">アカウントは正常に削除されました。</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">ファイル &amp; 同期設定</string>
+    <string name="sync_on_mobile_data_subtitle">クラウド同期にはモバイルデータを使用します</string>
+    <string name="drive_sync">バックグラウンド同期</string>
+    <string name="drive_sync_subtitle">お気に入りを同期 &amp; ドキュメントをドライブにスキャン</string>
+    <string name="do_not_import_from_other_apps">他のアプリからファイルをインポートしないでください</string>
+    <string name="do_not_import_from_other_apps_subtitle">ライブラリに保存せずに共有ファイルを一時的に開く</string>
+    <string name="clear_imported_files">インポートしたファイルをクリアする</string>
+    <string name="clear_imported_files_subtitle">他のアプリからコピーしたファイルをすべて削除してください</string>
+    <string name="clear_imports_confirm_title">インポートしたファイルを削除しますか？</string>
+    <string name="clear_imports_confirm_message">これにより、Importsフォルダ内のすべてのファイルが完全に削除されます。この操作は元に戻せません。</string>
+    <string name="clear_imports_success">インポートされたファイルが削除されました</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">データ &amp; プライバシー</string>
+    <string name="analytics_opt_out_title">使用状況データを送信する</string>
+    <string name="analytics_opt_out_subtitle">アプリの改善に役立てるため、匿名化された使用データとクラッシュレポートを開発者と共有してください。</string>
+    <string name="analytics_opt_out_disabled_note">分析機能とクラッシュレポート機能は無効になっています。Googleや開発者にはデータは送信されません。</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">保存されていない変更</string>
+    <string name="unsaved_changes_tab_message">このドキュメントには未保存の変更があります。閉じる前に保存しますか？</string>
+    <string name="unsaved_changes_window_message">1つ以上のドキュメントに保存されていない変更があります。それらを破棄して終了しますか？</string>
+    <string name="discard">破棄</string>
+    <string name="discard_and_quit">破棄 &amp; 終了</string>
+    <string name="close">近い</string>
+    <string name="remove_favorite">お気に入りから削除</string>
+    <string name="set_as_default_pdf_viewer">デフォルトのPDFビューアとして設定しますか？</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDFはデフォルトのPDFビューアではありません。すべてのPDFファイルがFalcon PDFで開くように、デフォルトに設定しますか？</string>
+    <string name="set_now">今すぐ設定</string>
+    <string name="never">一度もない</string>
+    <string name="later">後で</string>
+    <string name="set_default">デフォルト設定</string>
+    <string name="default">デフォルト</string>
+    <string name="version_">バージョン %1$s</string>
+    <string name="sign_in_with_other_accounts">他のアカウントでログインする</string>
+    <string name="upgrade">アップグレード</string>
+    <string name="view_plan">プランを見る</string>
+    <string name="unlimited_sync_upto_5gb">最大5GBまでの無制限同期</string>
+    <string name="unlock_faster">より速くロック解除</string>
+    <string name="use_biometrics_instead_of_passwords">パスワードの代わりに生体認証を使用する。</string>
+    <string name="upgrade_to_premium">プレミアムにアップグレード</string>
+    <string name="unlock_pdf">PDFのロックを解除</string>
+    <string name="use__to_accessnthis_document">%1$s を使用して\nこのドキュメントにアクセスするには %1$s を使用してください。</string>
+    <string name="open_with_password">パスワードで開く</string>
+    <string name="secure">安全な</string>
+    <string name="loading_">%1$s を読み込んでいます...</string>
+    <string name="failed_to_open_ebook">電子書籍を開くことができませんでした</string>
+    <string name="properties">不動産</string>
+    <string name="copy">コピー</string>
+    <string name="highlight">ハイライト</string>
+    <string name="clear_selection">選択をクリア</string>
+    <string name="close_search">検索を閉じる</string>
+    <string name="search_in_book">本の中で検索する...</string>
+    <string name="contents">コンテンツ</string>
+    <string name="table_of_contents">目次</string>
+    <string name="no_table_of_contents_available">目次はありません</string>
+    <string name="bookmarks">ブックマーク</string>
+    <string name="no_bookmarks_yet">ブックマークはまだありません</string>
+    <string name="page_">ページ %1$s</string>
+    <string name="no_results">検索結果なし</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">設定</string>
+    <string name="decrease_font_size">フォントサイズを小さくする</string>
+    <string name="increase_font_size">フォントサイズを大きくする</string>
+    <string name="font">フォント</string>
+    <string name="jump_to_page">ページへジャンプ</string>
+    <string name="enter_page_number_1">ページ番号を入力してください（1–%1$s）：</string>
+    <string name="go">行く</string>
+    <string name="read_aloud">声に出して読む</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">停止</string>
+    <string name="annotations__text_selection">注釈 &amp; テキスト選択</string>
+    <string name="text_selection_and_annotations_for_ebook">電子書籍のテキスト選択と注釈機能は近日中に提供開始予定です。</string>
+    <string name="longpress_on_text_to_select_highlight_or">テキストを長押しすると、選択、ハイライト表示、またはメモの追加ができます。</string>
+    <string name="press_play_to_start_reading_aloud">再生ボタンを押して読み上げを開始してください…</string>
+    <string name="speed">スピード</string>
+    <string name="voice">声</string>
+    <string name="no_annotations_yet">まだ注釈はありません</string>
+    <string name="select_text_to_highlight_or_add_notes">テキストを選択して強調表示したり、メモを追加したりします。</string>
+    <string name="tools">ツール</string>
+    <string name="convert_to_images">画像に変換</string>
+    <string name="rename">名前を変更</string>
+    <string name="print">印刷</string>
+    <string name="a">A−</string>
+    <string name="cover_of_">%1$sのカバー</string>
+    <string name="no_cover_available">カバーは利用できません</string>
+    <string name="read_now">今すぐ読む</string>
+    <string name="about_the_book">本書について</string>
+    <string name="tags">タグ</string>
+    <string name="publisher_info">出版社情報</string>
+    <string name="published_">公開日: %1$s</string>
+    <string name="retry">リトライ</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F キャッシュをクリア</string>
+    <string name="ebooks_library">電子書籍ライブラリ</string>
+    <string name="manage_your_digital_collection_across_mu">複数のプロバイダーにまたがるデジタルコレクションを管理しましょう。GoogleブックスやOpen Libraryから、検索、絞り込み、新しいタイトルの発見が可能です。</string>
+    <string name="no_books_found">書籍が見つかりませんでした</string>
+    <string name="no_results_for__try_a_different_search_t">「%1$s」に一致する結果は見つかりませんでした。別の検索語をお試しください。</string>
+    <string name="downloadable_only">ダウンロード専用</string>
+    <string name="file_unavailable">ファイルが利用できません</string>
+    <string name="unavailable">利用不可</string>
+    <string name="search_titles_authors_isbn">タイトル、著者、ISBNで検索...</string>
+    <string name="clear_search">検索をクリアする</string>
+    <string name="ebooks">電子書籍</string>
+    <string name="read_pdf">PDFを読む</string>
+    <string name="create_pdf">PDFを作成する</string>
+    <string name="unlock_all_tools_and_remove_limits">すべてのツールをロック解除し、制限を解除します。</string>
+    <string name="ocr_scanning">OCRスキャン</string>
+    <string name="extract_text_from_scanned_documents">スキャンした文書からテキストを抽出する</string>
+    <string name="cloud_sync">クラウド同期</string>
+    <string name="access_your_documents_anywhere">どこからでもドキュメントにアクセスできます</string>
+    <string name="annotate_pdfs">PDFに注釈を付ける</string>
+    <string name="cloud_backup">クラウドバックアップ</string>
+    <string name="continue_reading">続きを読む</string>
+    <string name="pick_files">ファイルを選択する</string>
+    <string name="browse">ブラウズ</string>
+    <string name="did_you_know">知っていましたか？</string>
+    <string name="home">家</string>
+    <string name="your_documents_at_a_glance">書類一覧</string>
+    <string name="pick_file">ファイルを選択する</string>
+    <string name="quick_actions">クイックアクション</string>
+    <string name="pro">プロ</string>
+    <string name="open_files">ファイルを開く</string>
+    <string name="convert_to_pdf">PDFに変換</string>
+    <string name="close_drawer">引き出しを閉じる</string>
+    <string name="close_file">ファイルを閉じる</string>
+    <string name="office">オフィス</string>
+    <string name="coming_soon">近日公開</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">このプラットフォームでは、電子書籍ビューアはまだ利用できません。</string>
+    <string name="set_as_default_viewer">デフォルトビューアとして設定</string>
+    <string name="free">無料</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">アップデートをダウンロード中... %1$s%</string>
+    <string name="more">もっと</string>
+    <string name="font_size">フォントサイズ</string>
+    <string name="font_family">フォントファミリー</string>
+    <string name="scroll_direction">スクロール方向</string>
+    <string name="navigation">ナビゲーション</string>
+    <string name="keep_screen_on">画面をオンにする</string>
+    <string name="volume_button_to_scroll">音量ボタンでスクロール</string>
+    <string name="export_ebook_pages_as_image_files">電子書籍のページを画像ファイルとしてエクスポートする</string>
+    <string name="access_millions_of_titles">数百万ものタイトルにアクセスできます。</string>
+    <string name="read_offline_with_natural_ai_voices">自然なAI音声でオフラインでも読み上げます。</string>
+    <string name="advanced_ai_reader">高度なAIリーダー。</string>
+    <string name="experience_studioquality_narration">スタジオ品質のナレーションを体験してください。</string>
+    <string name="powerful_pdf_tools">強力なPDFツール。</string>
+    <string name="create_and_edit_documents_on_the_go">外出先でも文書を作成・編集できます。</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Pro版にアップグレード：すべてのツールをアンロックし、制限を解除します</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">OCRスキャン：スキャンした文書からテキストを抽出します</string>
+    <string name="cloud_sync_access_your_documents_anywher">クラウド同期：どこからでもドキュメントにアクセスできます</string>
+    <string name="scan">スキャン</string>
+    <string name="compress">圧縮</string>
+    <string name="merge">マージ</string>
+    <string name="convert">変換する</string>
+    <string name="highlight_underline_and_add_notes_to_you">文書にハイライト、下線、メモを追加する</string>
+    <string name="keep_your_documents_safe_with_automatic_">自動クラウド同期でドキュメントを安全に保ちましょう</string>
+    <string name="indicator_color_">indicator_color_%1$s</string>
+    <string name="my_library">マイライブラリ</string>
+    <string name="get_ebooks">電子書籍を入手する</string>
+    <string name="scan_document">スキャンドキュメント</string>
+    <string name="settings_category_ai_chat_title">AI チャットプロバイダー</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI、Ollama、または自分のキー</string>
+    <string name="settings_category_tts_title">読み上げ (TTS)</string>
+    <string name="settings_category_tts_subtitle">読み上げ再生用の音声</string>
+    <string name="settings_section_ai_voice">AI と音声</string>
+    <string name="settings_entry_ai_title">AI チャットプロバイダー</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI、ローカル Ollama、または自分の OpenAI 互換キー</string>
+    <string name="settings_entry_tts_title">読み上げ (TTS)</string>
+    <string name="settings_entry_tts_subtitle">システム、ElevenLabs、OpenAI、またはローカル Kokoro の音声</string>
+    <string name="provider_dialog_reset">リセット</string>
+    <string name="provider_dialog_cancel">キャンセル</string>
+    <string name="provider_dialog_save">設定を保存</string>
+    <string name="provider_dialog_encryption_note">ローカルに暗号化して保存されます。リモートサーバーには一切同期されません。</string>
+    <string name="provider_dialog_close">閉じる</string>
+    <string name="ai_settings_dialog_title">AI チャットプロバイダーの設定</string>
+    <string name="ai_settings_dialog_subtitle">API アクセスキー、カスタムモデル、プロバイダーの設定を構成します。</string>
+    <string name="tts_settings_dialog_title">TTS プロバイダーの設定</string>
+    <string name="tts_settings_dialog_subtitle">合成エンジンを構成し、認証情報を管理して、音声を選択します。</string>
+</resources>

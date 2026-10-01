@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">בדוק את חיבור האינטרנט שלך וודא שחשבון גוגל נוסף למכשיר שלך, לאחר מכן נסה שוב.</string>
+    <string name="sign_in_with_apple">התחברות עם אפל</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">שדרגו את החוויה שלכם</string>
+    <string name="purchase_screen_close">לִסְגוֹר</string>
+    <string name="purchase_screen_refresh">לְרַעֲנֵן</string>
+    <string name="purchase_sync_status">סנכרון אחרון: %1s</string>
+    <string name="purchase_current_plan">נוֹכְחִי</string>
+    <string name="purchase_syncing">מסנכרן…</string>
+    <string name="purchase_loading">טוען…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">תוכנית חינמית</string>
+    <string name="purchase_pro_plan">מהדורת פרו</string>
+    <string name="purchase_pro_tagline">שלם פעם אחת. רכוש לנצח.</string>
+    <string name="purchase_premium_plan">מנוי פרימיום</string>
+    <string name="purchase_premium_tagline">הכל ב-Pro, בתוספת בינה מלאכותית &amp; ענן</string>
+    <string name="purchase_recommended">מוּמלָץ</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">קריאה בקול רם באמצעות בינה מלאכותית - האזנה לקבצי PDF באופן טבעי</string>
+    <string name="purchase_pro_feature_2">עריכת PDF מלאה &amp; מילוי טפסים</string>
+    <string name="purchase_pro_feature_3">סנכרון בין מכשירים דרך Drive</string>
+    <string name="purchase_pro_feature_4">ללא פרסומות, ללא סימן מים על סריקות</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">סיכומי בינה מלאכותית עם נימוקים חזקים יותר</string>
+    <string name="purchase_premium_feature_1_desc">תשובות מעמיקות יותר ממסמכים ארוכים ומורכבים</string>
+    <string name="purchase_premium_feature_2_title">50GB פלקון קלאוד</string>
+    <string name="purchase_premium_feature_2_desc">ספריית ה-PDF האישית שלך, מסונכרנת ומאובטחת</string>
+    <string name="purchase_premium_feature_3_title">אין מגבלות על 60+ כלי PDF</string>
+    <string name="purchase_premium_feature_3_desc">כל כלי, תמיד זמין</string>
+    <string name="purchase_premium_feature_4_title">עריכת טקסט מלא בקבצי PDF</string>
+    <string name="purchase_premium_feature_4_desc">עריכת טקסט ישירות כמו מעבד תמלילים</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">קנה פרו</string>
+    <string name="purchase_sign_in_buy">כניסה &amp; קנה</string>
+    <string name="purchase_sign_in_subscribe">כניסה &amp; הרשמה</string>
+    <string name="purchase_subscribe">הירשם</string>
+    <string name="purchase_start_trial">התחל תקופת ניסיון בחינם למשך 7 ימים</string>
+    <string name="purchase_view_all_features">הצג את כל התכונות</string>
+    <string name="purchase_show_more">הצג עוד</string>
+    <string name="purchase_show_less">הצג פחות</string>
+    <string name="purchase_see_all_features">ראה את כל התכונות</string>
+    <string name="purchase_manage_subscription">ניהול מנוי</string>
+    <string name="purchase_restore_purchases">שחזור רכישות</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">יַרחוֹן</string>
+    <string name="purchase_billing_yearly">שְׁנָתִי</string>
+    <string name="purchase_save_badge">חסכו 40%</string>
+    <string name="purchase_lifetime">מֶשֶׁך הָחַיִים</string>
+    <string name="purchase_per_year">/שָׁנָה</string>
+    <string name="purchase_per_month">/חוֹדֶשׁ</string>
+    <string name="purchase_trial_terms">ביטול בכל עת. מתחדש אלא אם כן הביטול מתבצע 24 שעות לפני סיום תקופת הניסיון.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">טעינת המוצרים נכשלה. בדוק את הכניסה ואת חיבור האינטרנט שלך.</string>
+    <string name="purchase_error_network">החיבור אבד. אנא בדוק את האינטרנט שלך ונסה שוב.</string>
+    <string name="purchase_error_payment_declined">אמצעי התשלום נדחה. אנא עדכן את פרטי התשלום שלך.</string>
+    <string name="purchase_error_server">משהו השתבש. אנא נסה שוב מאוחר יותר.</string>
+    <string name="purchase_error_rate_limit">יותר מדי ניסיונות רענון. אנא המתן.</string>
+    <string name="purchase_error_offline">אין חיבור לאינטרנט. מוצגים נתונים במטמון.</string>
+    <string name="purchase_error_product_refresh">לא ניתן לאמת את המוצר. אנא נסה שוב.</string>
+    <string name="purchase_error_generic">אירעה שגיאה. אנא נסה שוב.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">תנאי השירות</string>
+    <string name="purchase_privacy_policy">מדיניות פרטיות</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">היסטוריית רכישות</string>
+    <string name="free_trial">ניסיון חינם</string>
+    <string name="no_purchase_history">אין היסטוריית רכישות</string>
+    <string name="you_havent_made_any_purchases_">עדיין לא ביצעת רכישות.</string>
+    <string name="error">שְׁגִיאָה</string>
+    <string name="retry">נסה שוב</string>
+    <string name="back">בְּחֲזָרָה</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">שדרגו את החוויה שלכם</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">שחזור רכישות</string>
+    <string name="close_purchase_screen">סגירת מסך הרכישה</string>
+    <string name="help">עֶזרָה</string>
+    <string name="more_options">אפשרויות נוספות</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">לְרַעֲנֵן</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">פָּעִיל</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s פעיל</string>
+    <string name="premium_benefits">הטבות פרימיום</string>
+    <string name="manage_subscription">ניהול מנוי</string>
+    <string name="next_billing_date__manage_your">תאריך חיוב הבא: %1$s. נהל את פרטי החיוב והביטול שלך דרך הגדרות חשבון חנות Play שלך.</string>
+    <string name="purchase_expires_">תוקף הרכישה פג: %1$s</string>
+    <string name="falcon_pdf_pro">פלקון PDF פרו</string>
+    <string name="falcon_pdf_premium_monthly">פלקון PDF פרימיום (חודשי)</string>
+    <string name="falcon_pdf_premium_yearly">פלקון PDF פרימיום (שנתי)</string>
+    <string name="pro">מִקצוֹעָן</string>
+    <string name="premium">פּרֶמיָה</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">הורד את Falcon PDF Pro או Premium</string>
+    <string name="purchase_desktop_subtitle">ניהול הרכישות מתבצע באתר שלנו. לחצו למטה כדי לצפות בתוכניות ובמחירים.</string>
+    <string name="purchase_desktop_open_website">הצג תוכניות &amp; תמחור</string>
+    <string name="purchase_desktop_already_purchased">כבר רכשת? היכנס כדי לסנכרן את התוכנית שלך.</string>
+    <string name="purchase_store_build_subtitle">המנוי שלכם פותח את תכונות Pro בכל המכשירים שלכם. היכנסו כדי לסנכרן את התוכנית שלכם.</string>
+    <string name="ai_read_aloud">קריאה בקול רם של בינה מלאכותית</string>
+    <string name="full_pdf_editing__form_filling">עריכת PDF מלאה &amp; מילוי טפסים</string>
+    <string name="crossdevice_sync_via_drive">סנכרון בין מכשירים דרך Drive</string>
+    <string name="adfree_no_watermark">ללא פרסומות, ללא סימן מים</string>
+    <string name="export_to_word__excel">ייצוא ל-Word &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">ערכות נושא מרובות &amp; רקעים של עמודים</string>
+    <string name="ai_summaries_with_stronger_reasoning">סיכומי בינה מלאכותית עם נימוקים חזקים יותר</string>
+    <string name="no_limits_on_60_pdf_tools">אין מגבלות על 60+ כלי PDF</string>
+    <string name="full_text_editing_in_pdfs">עריכת טקסט מלא בקבצי PDF</string>
+    <string name="digital_signatures_dscesign">חתימות דיגיטליות (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">סנכרון מסמכים סרוקים ללא הגבלה</string>
+    <string name="biometric_document_lock">נעילת מסמך ביומטרי</string>
+    <string name="everything_in_pro_all_devices">הכל ב-Pro, כל המכשירים</string>
+    <string name="introductory_offer">מבצע היכרות</string>
+    <string name="limited_time__30_off">לזמן מוגבל - 30% הנחה</string>
+    <string name="date__time">תאריך &amp; שעה</string>
+    <string name="amount">סְכוּם</string>
+    <string name="platform">פּלַטפוֹרמָה</string>
+    <string name="type">סוּג</string>
+    <string name="expires_on">פג תוקף בתאריך</string>
+</resources>

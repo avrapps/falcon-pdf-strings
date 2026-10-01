@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">PDF Magija</string>
+    <string name="app_tagline">Što biste željeli raditi?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">Zadnje korišteno</string>
+    <string name="home_favorites">Favoriti</string>
+    <string name="home_new_tool">Novi alat</string>
+    <string name="home_featured">ISTAKNUTO</string>
+    <string name="home_scan_to_pdf">Skeniraj u PDF</string>
+    <string name="home_scan_description">Pretvorite papirnate dokumente u digitalnu magiju u trenu</string>
+    <string name="home_start_scanning">Započni skeniranje</string>
+    <string name="home_all_tools">Svi alati</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">PDF alati</string>
+    <string name="image_tools">Alati za slike</string>
+    <string name="tools_split">Split</string>
+    <string name="tools_split_description">Izdvoji stranice</string>
+    <string name="tools_rotate">Rotirati</string>
+    <string name="tools_rotate_description">Ispravite orijentaciju</string>
+    <string name="tools_delete_pages">Izbriši stranice</string>
+    <string name="tools_delete_pages_description">Uklonite neželjene</string>
+    <string name="tools_convert">Pretvoriti</string>
+    <string name="tools_convert_description">Do/Od slika</string>
+    <string name="tools_sign">Znak</string>
+    <string name="tools_sign_description">Dodaj potpis</string>
+    <string name="tools_protect">Zaštititi</string>
+    <string name="tools_protect_description">Sigurnost lozinke</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">Preglednik PDF-ova</string>
+    <string name="pdf_viewer_page_info">Stranica %1$d od %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">Skener dokumenata</string>
+    <string name="scanner_capture">Hvatanje</string>
+    <string name="scanner_retake">Ponovno snimi</string>
+    <string name="scanner_save">Uštedjeti</string>
+    <!-- Navigation -->
+    <string name="nav_back">Natrag</string>
+    <string name="nav_settings">Postavke</string>
+    <string name="nav_more_options">Više opcija</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Dom</string>
+    <string name="nav_library">Knjižnica</string>
+    <string name="nav_scan">Skenirati</string>
+    <string name="nav_tools">Alati</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">Pregledaj datoteke</string>
+    <string name="browse_files_subtitle">Pohrana &amp; Datoteke u oblaku</string>
+    <string name="show_hidden_files">Prikaži skrivene datoteke</string>
+    <string name="hide_hidden_files">Sakrij skrivene datoteke</string>
+    <string name="refresh_storage">Osvježi pohranu</string>
+    <string name="no_storage_available">Nema dostupne pohrane</string>
+    <string name="no_files_found">Nisu pronađene datoteke</string>
+    <string name="add_files">Dodaj %1$d datoteke</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">Potrebno je dopuštenje za pohranu</string>
+    <string name="permission_storage_message">Ovoj aplikaciji je potreban pristup pohrani vašeg uređaja za pregledavanje i otvaranje PDF datoteka. Dajte dopuštenje za pohranu da biste nastavili.</string>
+    <string name="permission_grant">Odobri dopuštenje</string>
+    <!-- Common Actions -->
+    <string name="action_open">Otvoriti</string>
+    <string name="action_save">Uštedjeti</string>
+    <string name="action_share">Udio</string>
+    <string name="action_delete">Izbrisati</string>
+    <string name="action_cancel">Otkazati</string>
+    <string name="action_confirm">Potvrdi</string>
+    <string name="action_rename">Preimenovati</string>
+    <string name="action_print">Ispis</string>
+    <string name="action_favorite">Omiljeno</string>
+    <string name="action_unfavorite">Ukloni iz favorita</string>
+    <!-- Document Actions -->
+    <string name="document_share">Dijeli dokument</string>
+    <string name="document_rename">Preimenuj dokument</string>
+    <string name="document_delete">Izbriši dokument</string>
+    <string name="document_print">Ispis dokumenta</string>
+    <string name="document_favorite">Dodaj u favorite</string>
+    <string name="document_unfavorite">Ukloni iz favorita</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">Dokument je uspješno podijeljen</string>
+    <string name="document_share_failed">Dijeljenje dokumenta nije uspjelo</string>
+    <string name="document_renamed_success">Dokument je uspješno preimenovan</string>
+    <string name="document_rename_failed">Preimenovanje dokumenta nije uspjelo</string>
+    <string name="document_deleted_success">Dokument je uspješno izbrisan</string>
+    <string name="document_delete_failed">Brisanje dokumenta nije uspjelo</string>
+    <string name="document_print_opened">Dokument je otvoren u zadanom PDF pregledniku. Za ispis upotrijebite funkciju ispisa u pregledniku.</string>
+    <string name="document_print_failed">Ispis dokumenta nije uspio</string>
+    <string name="document_added_to_favorites">Dodano u favorite</string>
+    <string name="document_removed_from_favorites">Uklonjeno iz favorita</string>
+    <string name="document_favorite_failed">Nije uspjelo ažuriranje statusa favorita</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">Preimenuj dokument</string>
+    <string name="dialog_rename_hint">Unesite novo ime</string>
+    <string name="dialog_rename_empty_error">Naziv dokumenta ne može biti prazan</string>
+    <string name="dialog_delete_title">Izbriši dokument</string>
+    <string name="dialog_delete_file_message">Ovim ćete trajno izbrisati datoteku.\n\nIzbriši %1$s?</string>
+    <string name="dialog_delete_uri_message">Uklanja se samo iz aplikacije. Izvorna datoteka nije promijenjena.\n\nUkloniti %1$s iz aplikacije?</string>
+    <string name="dialog_delete_confirm">Izbrisati</string>
+    <string name="dialog_remove_confirm">Ukloniti</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">Preimenuje se samo unutar aplikacije. Izvorna datoteka ostaje nepromijenjena.</string>
+    <string name="notice_delete_uri_only">Uklonjeno iz aplikacije. Izvorna datoteka nije promijenjena.</string>
+    <string name="notice_file_exists_error">Datoteka s ovim nazivom već postoji</string>
+    <string name="notice_file_not_found_error">Datoteka nije pronađena</string>
+    <string name="notice_no_active_document">Nema aktivnog dokumenta</string>
+    <string name="notice_document_path_unavailable">Putanja do datoteke dokumenta nije dostupna</string>
+    <!-- States -->
+    <string name="state_loading">Učitavanje...</string>
+    <string name="state_empty">Nije pronađen nijedan artikal</string>
+    <string name="state_error">Nešto je pošlo po zlu</string>
+    <string name="state_retry">Pokušaj ponovno</string>
+    <!-- Errors -->
+    <string name="error_network">Mrežna veza nije uspjela</string>
+    <string name="error_file_not_found">Datoteka nije pronađena</string>
+    <string name="error_permission_denied">Dozvola odbijena</string>
+    <string name="error_invalid_file">Nevažeći format datoteke</string>
+    <string name="error_password_required">Potrebna je lozinka</string>
+    <string name="error_incorrect_password">Netočna lozinka</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">Zaštićeno lozinkom</string>
+    <string name="password_protected_message">Za otvaranje ove datoteke potrebna je lozinka. Unesite je u nastavku.</string>
+    <string name="password_label">Lozinka</string>
+    <string name="password_placeholder">Unesite lozinku</string>
+    <string name="password_unlock">Otključati</string>
+    <string name="password_show">Prikaži lozinku</string>
+    <string name="password_hide">Sakrij lozinku</string>
+    <!-- Theme -->
+    <string name="theme_light">Svjetlo</string>
+    <string name="theme_dark">Tamno</string>
+    <string name="theme_system">Sustav</string>
+    <string name="theme_adaptive">Adaptivno</string>
+    <string name="theme_custom">Običaj</string>
+    <!-- Settings -->
+    <string name="settings_title">Postavke</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">Račun &amp; Sinkronizacija</string>
+    <string name="settings_category_sync_subtitle">Upravljajte svojim računom, sinkronizirajte &amp; privatnost</string>
+    <string name="settings_category_appearance_title">Izgled</string>
+    <string name="settings_category_appearance_subtitle">Prilagodite izgled aplikacije &amp; osjećaj</string>
+    <string name="settings_category_pdf_reader_title">PDF čitač</string>
+    <string name="settings_category_pdf_reader_subtitle">Zadani preglednik &amp; iskustvo čitanja</string>
+    <string name="settings_category_help_title">Pomoć &amp; Podrška</string>
+    <string name="settings_category_help_subtitle">Dokumentacija &amp; kontakt</string>
+    <string name="settings_category_general_title">General</string>
+    <string name="settings_category_general_subtitle">Informacije o aplikaciji za jezik &amp;</string>
+    <string name="settings_theme_section">Tema</string>
+    <string name="settings_theme_description">Odaberite željenu temu</string>
+    <string name="settings_accent_color">BOJA NAGLASKA</string>
+    <string name="settings_custom_colors">Prilagođene boje</string>
+    <string name="settings_primary_color">Primarna boja</string>
+    <string name="settings_background_color">Boja pozadine</string>
+    <string name="settings_surface_color">Boja površine</string>
+    <string name="settings_reset_colors">Vrati na zadano</string>
+    <string name="settings_adaptive_note">Prilagodljive boje Material You (Android 12+)</string>
+    <string name="settings_app_section">Postavke aplikacije</string>
+    <string name="settings_notifications">Obavijesti</string>
+    <string name="settings_notifications_description">Primajte obavijesti aplikacija</string>
+    <string name="settings_auto_backup">Automatska sigurnosna kopija</string>
+    <string name="settings_auto_backup_description">Automatski izrađujte sigurnosne kopije dokumenata</string>
+    <string name="settings_change_color">Promijeni boju</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">Vaši PDF dokumenti će se pojaviti ovdje</string>
+    <string name="scan_description">Skeniranje dokumenata u PDF</string>
+    <string name="tools_description">Alati za uređivanje i manipulaciju PDF-ovima</string>
+    <string name="home_description">Za pristup značajkama koristite donju navigaciju</string>
+    <!-- Sort Options -->
+    <string name="sort_name">Ime</string>
+    <string name="sort_date">Datum</string>
+    <string name="sort_size">Veličina</string>
+    <string name="sort_option_name">Ime</string>
+    <string name="sort_option_last_opened">Zadnje otvaranje</string>
+    <string name="sort_option_last_modified">Zadnja izmjena</string>
+    <string name="sort_option_file_size">Veličina datoteke</string>
+    <!-- View Types -->
+    <string name="view_type_list">Prikaz popisa</string>
+    <string name="view_type_table">Prikaz tablice</string>
+    <string name="view_type_grid">Prikaz mreže</string>
+    <!-- File Properties -->
+    <string name="file_name">Naziv datoteke</string>
+    <string name="date_modified">Datum izmjene</string>
+    <string name="file_size">Veličina</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">Nije započeto</string>
+    <string name="file_status_completed">Završeno</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">PDF dokument</string>
+    <string name="document_type_word">Word dokument</string>
+    <string name="document_type_excel">Excelova proračunska tablica</string>
+    <string name="document_type_image">Datoteka slike</string>
+    <string name="document_type_other">Dokument</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">Sve datoteke</string>
+    <string name="filter_recent">Nedavno</string>
+    <string name="filter_pdfs">PDF-ovi</string>
+    <string name="filter_images">Slike</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">Dom</string>
+    <string name="browse_tab">Pregledaj</string>
+    <string name="starred_tab">Označeno zvjezdicom</string>
+    <string name="settings_tab">Postavke</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">Uključi/isključi temu</string>
+    <string name="accessibility_menu">Jelovnik</string>
+    <string name="accessibility_close">Zatvoriti</string>
+    <string name="accessibility_color_picker">Alat za odabir boja</string>
+    <!-- Library Screen -->
+    <string name="library_title">Knjižnica</string>
+    <string name="library_subtitle">Upravljanje datotekama, Nedavno &amp; Favoriti</string>
+    <string name="library_search_placeholder">Pretraži datoteke...</string>
+    <string name="library_selected_count">%1$d odabrano</string>
+    <string name="library_open_from_device">Otvori s uređaja\n</string>
+    <string name="library_browse_files">Pregledaj\ndatoteke</string>
+    <string name="library_action_open">Otvoriti</string>
+    <string name="library_action_share">Udio</string>
+    <string name="library_action_remove">Ukloniti</string>
+    <string name="library_action_delete">Izbrisati</string>
+    <string name="library_clear_search">Obriši pretragu</string>
+    <string name="library_close_search">Zatvori pretragu</string>
+    <string name="library_select_all">Odaberi sve datoteke</string>
+    <string name="library_exit_multiselect">Izlaz iz načina višestrukog odabira</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">Pomoć &amp; Podrška</string>
+    <string name="help_support_subtitle">Često postavljana pitanja, Kontakt &amp; Pravne informacije</string>
+    <string name="settings_pdf_subtitle">Pomicanje, Prikaz &amp; Raspored</string>
+    <string name="help_header_title">Kako možemo pomoći?</string>
+    <string name="help_header_subtitle">Naš tim je tu kako bi vam osigurao\nnajbolje PDF iskustvo.</string>
+    <string name="help_contact_us">Kontaktirajte nas</string>
+    <string name="help_contact_subtitle">Kontaktirajte podršku</string>
+    <string name="help_faq">Često postavljana pitanja</string>
+    <string name="help_faq_subtitle">Odgovori na česta pitanja</string>
+    <string name="help_privacy_policy">Pravila o privatnosti</string>
+    <string name="help_privacy_subtitle">Kako štitimo vaše podatke</string>
+    <string name="help_terms_service">Uvjeti pružanja usluge</string>
+    <string name="help_terms_subtitle">Pravila prijave</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">Sinkronizacija putem mobilnih podataka</string>
+    <string name="background_sync">Sinkronizacija u pozadini</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">Postavke PDF čitača</string>
+    <string name="pdf_settings_coming_soon">Uskoro</string>
+    <string name="pdf_settings_description">Konfigurirajte ponašanje pomicanja, načine prikaza i postavke čitanja</string>
+    <!-- General Settings -->
+    <string name="settings_language">Jezik</string>
+    <string name="settings_pdf_reader">Postavke PDF čitača</string>
+    <string name="settings_help_support">Pomoć &amp; Podrška</string>
+    <string name="settings_whats_new">Što je novo</string>
+    <string name="settings_download_desktop">Instaliraj na drugi uređaj</string>
+    <string name="settings_rate_app">Ocijenite aplikaciju</string>
+    <string name="play_store_not_found">Trgovina Play nije pronađena na ovom uređaju</string>
+    <string name="settings_set_as_default">Postavi kao zadani preglednik PDF-ova</string>
+    <string name="settings_set_as_default_subtitle">Otvaranje PDF-ova s ovom aplikacijom prema zadanim postavkama</string>
+    <string name="settings_default_pdf_instructions_title">Kako postaviti kao zadano</string>
+    <string name="settings_default_pdf_ok">Shvatio/la sam</string>
+    <string name="settings_default_app_hint">Nije uspjelo?</string>
+    <string name="settings_default_app_hint_learn_more">Saznajte više</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">Jezik</string>
+    <string name="language_search_placeholder">Pretraživanje jezika...</string>
+    <!-- Common UI -->
+    <string name="support">Podrška</string>
+    <string name="language_english">engleski</string>
+    <string name="language_hindi">hindski</string>
+    <string name="language_spanish">Španjolski</string>
+    <string name="language_french">Francuski</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">arapski</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">Portugalski</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">IZGLED APLIKACIJE</string>
+    <string name="theme">TEMA</string>
+    <string name="general">GENERAL</string>
+    <string name="new">NOVI</string>
+    <string name="navigate">Navigacija</string>
+    <string name="download">Preuzmi</string>
+    <string name="falcon_pdf">PDF o sokolu</string>
+    <string name="excellence_in_every_pixel">Izvrsnost u svakom pikselu</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">PRIMIJENI PROMJENE</string>
+    <string name="apply">Primijeni</string>
+    <string name="selected">Odabrano</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">Postavke sinkronizacije</string>
+    <string name="autosync_on_wifi">Automatska sinkronizacija na WiFi-ju</string>
+    <string name="sync_reading_progress">Sinkroniziraj napredak čitanja</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">Naziv dokumenta</string>
+    <string name="name_cannot_be_empty">Naziv ne može biti prazan</string>
+    <string name="str__failed">%1$s Neuspješno</string>
+    <string name="ok">U REDU</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">Plan nadogradnje - Trenutni plan: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">Ispustite za otvaranje datoteke</string>
+    <string name="release_to_import_and_open_pdf">Otpustite za uvoz i otvaranje PDF datoteka</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">Ukloniti</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF</string>
+    <string name="images">Slike</string>
+    <string name="filter_all_types">Sve datoteke</string>
+    <string name="favorites">Omiljene datoteke</string>
+    <string name="recent">Nedavno</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">Pretraži dokumente...</string>
+    <string name="voice_search">Glasovno pretraživanje</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">Nedavne datoteke</string>
+    <string name="loading_recent_files">Učitavanje nedavnih datoteka...</string>
+    <string name="no_recent_files">Nema nedavnih datoteka</string>
+    <string name="no_favorites">Nema favorita</string>
+    <string name="mark_files_as_favorite_to_see_them_here">Označite datoteke kao omiljene da biste ih vidjeli ovdje</string>
+    <string name="open_some_pdf_files_to_see_the">Otvorite neke PDF datoteke da biste ih ovdje vidjeli</string>
+    <string name="status">Status</string>
+    <string name="actions">Radnje</string>
+    <string name="select_all">Odaberi sve</string>
+    <string name="enter_multiselect_mode">Uđi u način višestrukog odabira</string>
+    <string name="sorted_ascending">Sortirano uzlazno</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">Pohrana: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">Dodaj %1$s datoteka</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">Promijeni vrstu prikaza</string>
+    <string name="filter_">Filter: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">Učitavanje PDF-a...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">Prijavite se za sinkronizaciju</string>
+    <string name="protect_your_library_files">Zaštitite datoteke svoje knjižnice</string>
+    <string name="sign_in">Prijava</string>
+    <string name="sign_out">Odjava</string>
+    <string name="sign_in_dialog_title">Prijava u Falcon PDF</string>
+    <string name="sign_in_dialog_subtitle">Vaša PDF biblioteka, svugdje.</string>
+    <string name="sign_in_with_google">Prijava putem Googlea</string>
+    <string name="sign_in_with_apple">Prijavite se putem Applea</string>
+    <string name="apple_user_drive_unavailable">Sinkronizacija Google diska nije dostupna uz prijavu putem Applea</string>
+    <string name="apple_user_link_google">Poveži Google račun za sinkronizaciju Diska</string>
+    <string name="apple_user_sync_info">Da biste omogućili sinkronizaciju s oblakom, povežite Google račun</string>
+    <string name="link_google_account">Poveži Google račun</string>
+    <string name="signed_in_successfully">Uspješno prijavljen/a</string>
+    <string name="signed_out_successfully">Uspješno odjavljeno</string>
+    <string name="sync_disabled_free">Sinkronizacija je onemogućena za besplatne račune.</string>
+    <string name="storage_disabled_grant_access">Pohrana je onemogućena. Omogućite pristup disku za početak.</string>
+    <string name="upgrade_to_pro">Nadogradite na Pro verziju</string>
+    <string name="grant_drive_access">Odobri pristup disku</string>
+    <string name="files_synced">%1$d/%2$d Sinkronizirane datoteke</string>
+    <string name="synced_count">%1$d Sinkronizirano</string>
+    <string name="unlimited_sync_active">NEOGANIČENA SINKRONIZACIJA</string>
+    <string name="missing_drive_permissions">Nedostaju dozvole za Disk. Sinkronizacija je trenutno blokirana.</string>
+    <string name="drive_access_revoked">Pristup Disku je opozvan. Ponovno se povežite da biste nastavili sinkronizaciju.</string>
+    <string name="upgrade_premium">Nadogradite Premium</string>
+    <string name="manage_account">Upravljanje računom</string>
+    <string name="sync_now">Sinkroniziraj sada</string>
+    <string name="tier_free">BESPLATNO</string>
+    <string name="tier_pro">PROFESIONALAC</string>
+    <string name="tier_premium">PREMIJA</string>
+    <string name="status_paused">PAUZIRANO</string>
+    <!-- Common -->
+    <string name="navigate_back">Natrag</string>
+    <string name="dismiss">Odbaciti</string>
+    <string name="cancel">Otkazati</string>
+    <string name="back">Nazad</string>
+    <string name="search">Pretraživanje</string>
+    <string name="more_actions">Više radnji</string>
+    <string name="share">Udio</string>
+    <string name="delete">Izbrisati</string>
+    <string name="remove_from_recents">Ukloni iz nedavnih</string>
+    <string name="open">Otvoriti</string>
+    <string name="all">Sve</string>
+    <string name="sort_by_">Sortiraj po %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Sinkronizacija Google diska</string>
+    <string name="syncing">Sinkronizacija...</string>
+    <string name="sync_completed">Sinkronizacija dovršena</string>
+    <string name="sync_failed">Sinkronizacija nije uspjela</string>
+    <string name="sync_limit_exceeded">Prekoračeno ograničenje sinkronizacije. Vaš %s plan dopušta %d datoteka.</string>
+    <string name="sync_no_drive_access">Pristup Google disku nije dostupan</string>
+    <string name="sync_network_unavailable">Mreža nije dostupna</string>
+    <string name="sync_last_sync">Zadnja sinkronizacija: %s</string>
+    <string name="sync_total_files">Ukupno</string>
+    <string name="sync_synced_files">Sinkronizirano</string>
+    <string name="sync_failed_files">Neuspješno</string>
+    <string name="sync_conflict_files">Sukobi</string>
+    <string name="sync_add_to_favorites">Dodaj u favorite</string>
+    <string name="sync_remove_from_favorites">Ukloni iz favorita</string>
+    <string name="sync_conflict_title">Sukobi sinkronizacije</string>
+    <string name="sync_conflict_message">Sljedeće datoteke imaju sukobe koje je potrebno riješiti:</string>
+    <string name="sync_conflict_explanation">Do sukoba dolazi kada su izmijenjene i lokalne i udaljene verzije.</string>
+    <string name="sync_plan_limit">Sinkronizacija: %d/%d</string>
+    <string name="sync_plan_limit_reached">Dosegnuto je ograničenje</string>
+    <string name="sync_plan_unlimited">Neograničena sinkronizacija</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">Preskočiti</string>
+    <string name="welcome_next">Sljedeći</string>
+    <string name="welcome_get_started">Započnite</string>
+    <string name="welcome_sign_in_get_started">Prijava &amp; Početak</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Pročitajte bilo koji dokument&lt;/b&gt; Trenutačno</string>
+    <string name="welcome_slide1_description">Otvaranje i upravljanje više od 10 formata dokumenata, uključujući PDF, DOC, EPUB i MOBI.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Čitajte PDF-ove, e-knjige i&lt;/b&gt; uredske dokumente na jednom mjestu</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Označi kao favorite&lt;/b&gt; dokumente i pristupi im na svim uređajima</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;Komentirajte,&lt;/b&gt; istaknite i surađujte s lakoćom</string>
+    <string name="welcome_slide1_footer">Vaš univerzalni čitač dokumenata</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;Uređivanje, skeniranje i organiziranje&lt;/b&gt; PDF-ova</string>
+    <string name="welcome_slide2_description">Sve što vam je potrebno za stvaranje, uređivanje i upravljanje PDF-ovima u jednom moćnom alatu.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;Uređivanje teksta,&lt;/b&gt; dodavanje bilješki, označavanje i popunjavanje obrazaca</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Skenirajte dokumente&lt;/b&gt; i odmah ih pretvorite u PDF-ove</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;30+ alata&lt;/b&gt; uključujući spajanje, pretvaranje, kompresiju i zaštitu</string>
+    <string name="welcome_slide2_footer">Vaše sveobuhvatno PDF radno okruženje</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;Umjetna inteligencija koja razumije&lt;/b&gt; Vaše dokumente</string>
+    <string name="welcome_slide3_description">Uštedite sate uz umjetnu inteligenciju koja čita i analizira dokumente umjesto vas.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Sažmi&lt;/b&gt; dugačkih dokumenata u sekundama</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; skenirane stranice i trenutačno prevedi tekst</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Slušajte&lt;/b&gt; dokumente s ugrađenim čitanjem naglas</string>
+    <string name="welcome_slide3_footer">Nema reklama. Samo produktivnost.</string>
+    <string name="grace">MILOST</string>
+    <string name="unable_to_verify_subscription_limited_ac">Nije moguće potvrditi pretplatu. Ograničen pristup do ponovnog uspostavljanja veze.</string>
+    <string name="retry_verification">Ponovni pokušaj provjere</string>
+    <string name="guest_state">Država gosta</string>
+    <string name="free_tier">Besplatna razina</string>
+    <string name="free_tier__locked">Besplatna razina - Zaključano</string>
+    <string name="pro_tier">Profesionalna razina</string>
+    <string name="pro_tier__restricted">Profesionalna razina - Ograničeno</string>
+    <string name="premium_tier">Premium razina</string>
+    <string name="premium_tier__error">Premium razina - Pogreška</string>
+    <string name="refresh_plan_status">Osvježi status plana</string>
+    <string name="user_avatar">Korisnički avatar</string>
+    <string name="debug_tools">Alati za otklanjanje pogrešaka</string>
+    <string name="authentication__drive">Autentifikacija &amp; Pogon</string>
+    <string name="auth_state">Status autorizacije</string>
+    <string name="revoke_drive_access">Opoziv pristupa disku</string>
+    <string name="image">Slika</string>
+    <string name="thumbnail">Sličica</string>
+    <string name="manage_preferences">Upravljanje postavkama</string>
+    <string name="tools_history">Povijest alata</string>
+    <string name="manage_recent_logs">Upravljanje nedavnim zapisnicima</string>
+    <string name="more_options">Više opcija</string>
+    <string name="clear_all_history">Izbriši svu povijest</string>
+    <string name="no_history_yet">Još nema povijesti</string>
+    <string name="your_pdf_tool_operations_will_appear_her">Ovdje će se pojaviti vaše operacije alata za PDF</string>
+    <string name="view">Pogled</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">Spremljeno %1$s</string>
+    <string name="history_status_processing">Obrada</string>
+    <string name="history_status_succeeded">USPJELO</string>
+    <string name="history_status_failed">NEUSPJELO</string>
+    <string name="history_status_processing_upper">OBRADA</string>
+    <string name="history_unknown_files">Nepoznate datoteke</string>
+    <string name="history_op_complete">%1$s Završeno!</string>
+    <string name="history_op_failed">%1$s Neuspješno</string>
+    <string name="history_op_success_multiple">Operacija je uspješno završena s %1$d datotekama</string>
+    <string name="history_op_success_single">Operacija je uspješno završena</string>
+    <string name="history_op_error">Nismo mogli dovršiti operaciju</string>
+    <string name="history_multiple_files">%1$d datoteka</string>
+    <string name="history_failed">Neuspješno</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">Sinkronizacija u oblaku</string>
+    <string name="cloud_sync_subtitle">Povezani uređaji</string>
+    <string name="cloud_sync_all_synced">Sve datoteke sinkronizirane</string>
+    <string name="cloud_sync_syncing">Sinkronizacija…</string>
+    <string name="cloud_sync_pending">Sinkronizacija na čekanju</string>
+    <string name="cloud_sync_last_sync">Zadnja sinkronizacija: %1$s</string>
+    <string name="cloud_sync_never_synced">Nikada nije sinkronizirano</string>
+    <string name="cloud_sync_recent_activity">Nedavna aktivnost sinkronizacije</string>
+    <string name="cloud_sync_no_files">Još nema sinkroniziranih datoteka</string>
+    <string name="cloud_sync_synced_to_drive">Sinkronizirano s Diskom</string>
+    <string name="cloud_sync_pending_upload">Prijenos na čekanju</string>
+    <string name="cloud_sync_sync_now">Sinkroniziraj sada</string>
+    <string name="cloud_sync_view_history">Prikaži povijest sinkronizacije</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d sinkroniziranih datoteka</string>
+    <string name="cloud_sync_unlimited_files">%1$d sinkroniziranih datoteka · Neograničeno</string>
+    <string name="cloud_sync_cta_title">Bilo koja platforma, bilo kada</string>
+    <string name="cloud_sync_cta_subtitle">Vaši dokumenti vas prate svugdje</string>
+    <string name="cloud_sync_files_label">%1$d datoteka</string>
+    <string name="settings_data_privacy">Podaci &amp; Privatnost</string>
+    <string name="settings_data_privacy_subtitle">Upravljanje podacima, brisanje računa &amp;</string>
+    <string name="settings_delete_account">Izbriši račun</string>
+    <string name="settings_delete_account_subtitle">Trajno izbrišite svoj račun i podatke</string>
+    <string name="delete_account_warning_title">Izbrisati račun?</string>
+    <string name="delete_account_warning_message">Ovim će se trajno izbrisati vaš račun i svi povezani podaci, uključujući povijest kupnje i datoteke sinkronizirane u oblaku. Ovu radnju nije moguće poništiti i kupnje se kasnije ne mogu vratiti.</string>
+    <string name="delete_account_confirm_phrase_label">Za nastavak upišite 'potvrdi brisanje':</string>
+    <string name="delete_account_confirm_phrase">potvrdi brisanje</string>
+    <string name="delete_account_button">Izbriši račun</string>
+    <string name="delete_account_error_reauth">Iz sigurnosnih razloga, morate se nedavno prijaviti da biste izbrisali svoj račun. Odjavite se i ponovno prijavite, a zatim pokušajte ponovno.</string>
+    <string name="delete_account_success">Račun je uspješno izbrisan</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">Datoteka &amp; Postavke sinkronizacije</string>
+    <string name="sync_on_mobile_data_subtitle">Koristi mobilne podatke za sinkronizaciju u oblaku</string>
+    <string name="drive_sync">Sinkronizacija u pozadini</string>
+    <string name="drive_sync_subtitle">Sinkronizacija favorita &amp; skeniranje dokumenata na Disk</string>
+    <string name="do_not_import_from_other_apps">Ne uvozi datoteke iz drugih aplikacija</string>
+    <string name="do_not_import_from_other_apps_subtitle">Privremeno otvaranje dijeljenih datoteka bez spremanja u biblioteku</string>
+    <string name="clear_imported_files">Obriši uvezene datoteke</string>
+    <string name="clear_imported_files_subtitle">Izbriši sve datoteke kopirane iz drugih aplikacija</string>
+    <string name="clear_imports_confirm_title">Želite li izbrisati uvezene datoteke?</string>
+    <string name="clear_imports_confirm_message">Ovim će se trajno izbrisati sve datoteke u mapi Uvoz. To se ne može poništiti.</string>
+    <string name="clear_imports_success">Uvezene datoteke su obrisane</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">Podaci &amp; Privatnost</string>
+    <string name="analytics_opt_out_title">Pošalji podatke o korištenju</string>
+    <string name="analytics_opt_out_subtitle">Podijelite anonimne podatke o korištenju i izvješća o padu programa s razvojnim programerom kako biste pomogli u poboljšanju aplikacije</string>
+    <string name="analytics_opt_out_disabled_note">Analitika i izvještavanje o rušenju programa su onemogućeni. Nikakvi se podaci ne šalju Googleu ili programeru.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">Nespremljene promjene</string>
+    <string name="unsaved_changes_tab_message">Ovaj dokument ima nespremljene promjene. Želite li spremiti prije zatvaranja?</string>
+    <string name="unsaved_changes_window_message">Imate nespremljene promjene u jednom ili više dokumenata. Želite li ih odbaciti i izaći?</string>
+    <string name="discard">Odbaciti</string>
+    <string name="discard_and_quit">Odbaci &amp; Izađi</string>
+    <string name="close">Zatvoriti</string>
+    <string name="remove_favorite">Ukloni iz favorita</string>
+    <string name="set_as_default_pdf_viewer">Postavi kao zadani preglednik PDF-ova?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF nije vaš zadani preglednik PDF-ova. Želite li ga postaviti kao zadanog tako da se sve PDF datoteke otvaraju pomoću Falcon PDF-a?</string>
+    <string name="set_now">Postavi sada</string>
+    <string name="never">Nikada</string>
+    <string name="later">Kasnije</string>
+    <string name="set_default">Postavi zadano</string>
+    <string name="default">Zadano</string>
+    <string name="version_">Verzija %1$s</string>
+    <string name="sign_in_with_other_accounts">Prijavite se s drugim računima</string>
+    <string name="upgrade">Nadogradnja</string>
+    <string name="view_plan">Prikaži plan</string>
+    <string name="unlimited_sync_upto_5gb">Neograničena sinkronizacija do 5 GB</string>
+    <string name="unlock_faster">Otključaj brže</string>
+    <string name="use_biometrics_instead_of_passwords">Koristite biometriju umjesto lozinki.</string>
+    <string name="upgrade_to_premium">Nadogradite na Premium</string>
+    <string name="unlock_pdf">Otključaj PDF</string>
+    <string name="use__to_accessnthis_document">Koristite %1$s za pristup\novom dokumentu</string>
+    <string name="open_with_password">Otvori s lozinkom</string>
+    <string name="secure">Siguran</string>
+    <string name="loading_">Učitavanje %1$s...</string>
+    <string name="failed_to_open_ebook">Nije uspjelo otvaranje e-knjige</string>
+    <string name="properties">Svojstva</string>
+    <string name="copy">Kopirati</string>
+    <string name="highlight">Istaknite</string>
+    <string name="clear_selection">Poništi odabir</string>
+    <string name="close_search">Zatvori pretragu</string>
+    <string name="search_in_book">Pretraži u knjizi...</string>
+    <string name="contents">Sadržaj</string>
+    <string name="table_of_contents">Sadržaj</string>
+    <string name="no_table_of_contents_available">Nema dostupnog sadržaja</string>
+    <string name="bookmarks">Oznake</string>
+    <string name="no_bookmarks_yet">Još nema oznaka</string>
+    <string name="page_">Stranica %1$s</string>
+    <string name="no_results">Nema rezultata</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">Postavke</string>
+    <string name="decrease_font_size">Smanji veličinu fonta</string>
+    <string name="increase_font_size">Povećaj veličinu fonta</string>
+    <string name="font">Font</string>
+    <string name="jump_to_page">Skoči na stranicu</string>
+    <string name="enter_page_number_1">Unesite broj stranice (1–%1$s):</string>
+    <string name="go">Ići</string>
+    <string name="read_aloud">Čitaj naglas</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">Stop</string>
+    <string name="annotations__text_selection">Anotacije &amp; Odabir teksta</string>
+    <string name="text_selection_and_annotations_for_ebook">Odabir teksta i napomene za e-knjige uskoro stižu.</string>
+    <string name="longpress_on_text_to_select_highlight_or">Dugo pritisnite tekst za odabir, označavanje ili dodavanje bilješki.</string>
+    <string name="press_play_to_start_reading_aloud">Pritisnite play za početak čitanja naglas...</string>
+    <string name="speed">Ubrzati</string>
+    <string name="voice">Glas</string>
+    <string name="no_annotations_yet">Još nema napomena</string>
+    <string name="select_text_to_highlight_or_add_notes">Odaberite tekst za isticanje ili dodavanje bilješki</string>
+    <string name="tools">Alati</string>
+    <string name="convert_to_images">Pretvori u slike</string>
+    <string name="rename">Preimenovati</string>
+    <string name="print">Ispis</string>
+    <string name="a">A−</string>
+    <string name="cover_of_">Naslovnica %1$s</string>
+    <string name="no_cover_available">Nema dostupnih naslovnica</string>
+    <string name="read_now">Čitaj sada</string>
+    <string name="about_the_book">O KNJIZI</string>
+    <string name="tags">OZNAKE</string>
+    <string name="publisher_info">INFORMACIJE O IZDAVAČU</string>
+    <string name="published_">Objavljeno: %1$s</string>
+    <string name="retry">Pokušaj ponovno</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Izbriši predmemoriju</string>
+    <string name="ebooks_library">Knjižnica e-knjiga</string>
+    <string name="manage_your_digital_collection_across_mu">Upravljajte svojom digitalnom zbirkom putem više pružatelja usluga. Pretražujte, filtrirajte i otkrivajte nove naslove s Google knjiga i Open Libraryja.</string>
+    <string name="no_books_found">Nisu pronađene knjige</string>
+    <string name="no_results_for__try_a_different_search_t">Nema rezultata za "%1$s". Pokušajte s drugim pojmom za pretraživanje.</string>
+    <string name="downloadable_only">Samo za preuzimanje</string>
+    <string name="file_unavailable">Datoteka nije dostupna</string>
+    <string name="unavailable">Nije dostupno</string>
+    <string name="search_titles_authors_isbn">Pretraži naslove, autore, ISBN...</string>
+    <string name="clear_search">Obriši pretragu</string>
+    <string name="ebooks">e-knjige</string>
+    <string name="read_pdf">Pročitajte PDF</string>
+    <string name="create_pdf">Izradi PDF</string>
+    <string name="unlock_all_tools_and_remove_limits">Otključajte sve alate i uklonite ograničenja</string>
+    <string name="ocr_scanning">OCR skeniranje</string>
+    <string name="extract_text_from_scanned_documents">Izdvajanje teksta iz skeniranih dokumenata</string>
+    <string name="cloud_sync">Sinkronizacija u oblaku</string>
+    <string name="access_your_documents_anywhere">Pristupite svojim dokumentima bilo gdje</string>
+    <string name="annotate_pdfs">Označavanje PDF-ova</string>
+    <string name="cloud_backup">Sigurnosna kopija u oblaku</string>
+    <string name="continue_reading">Nastavi čitati</string>
+    <string name="pick_files">Odaberite datoteke</string>
+    <string name="browse">Pregledaj</string>
+    <string name="did_you_know">Jeste li znali?</string>
+    <string name="home">Dom</string>
+    <string name="your_documents_at_a_glance">Vaši dokumenti na prvi pogled</string>
+    <string name="pick_file">Odaberite datoteku</string>
+    <string name="quick_actions">Brze radnje</string>
+    <string name="pro">PROFESIONALAC</string>
+    <string name="open_files">Otvori datoteke</string>
+    <string name="convert_to_pdf">Pretvori u PDF</string>
+    <string name="close_drawer">Zatvori ladicu</string>
+    <string name="close_file">Zatvori datoteku</string>
+    <string name="office">Ured</string>
+    <string name="coming_soon">Uskoro</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">Preglednik e-knjiga još nije dostupan na ovoj platformi.</string>
+    <string name="set_as_default_viewer">Postavi kao zadani preglednik</string>
+    <string name="free">Besplatno</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">Preuzimanje ažuriranja... %1$s%</string>
+    <string name="more">Više</string>
+    <string name="font_size">Veličina fonta</string>
+    <string name="font_family">Obitelj fontova</string>
+    <string name="scroll_direction">Smjer pomicanja</string>
+    <string name="navigation">Navigacija</string>
+    <string name="keep_screen_on">Održavaj zaslon uključenim</string>
+    <string name="volume_button_to_scroll">Gumb za glasnoću za pomicanje</string>
+    <string name="export_ebook_pages_as_image_files">Izvoz stranica e-knjige kao slikovnih datoteka</string>
+    <string name="access_millions_of_titles">Pristupite milijunima naslova.</string>
+    <string name="read_offline_with_natural_ai_voices">Čitajte izvan mreže s prirodnim AI glasovima.</string>
+    <string name="advanced_ai_reader">Napredni AI čitač.</string>
+    <string name="experience_studioquality_narration">Doživite naraciju studijske kvalitete.</string>
+    <string name="powerful_pdf_tools">Moćni PDF alati.</string>
+    <string name="create_and_edit_documents_on_the_go">Izrađujte i uređujte dokumente u pokretu.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Nadogradite na Pro: Otključajte sve alate i uklonite ograničenja</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">OCR skeniranje: Izdvajanje teksta iz skeniranih dokumenata</string>
+    <string name="cloud_sync_access_your_documents_anywher">Sinkronizacija u oblaku: Pristupite svojim dokumentima bilo gdje</string>
+    <string name="scan">Skenirati</string>
+    <string name="compress">Oblog</string>
+    <string name="merge">Spojiti</string>
+    <string name="convert">Pretvoriti</string>
+    <string name="highlight_underline_and_add_notes_to_you">Označite, podcrtajte i dodajte bilješke u svoje dokumente</string>
+    <string name="keep_your_documents_safe_with_automatic_">Zaštitite svoje dokumente automatskom sinkronizacijom u oblaku</string>
+    <string name="indicator_color_">boja_indikatora_%1$s</string>
+    <string name="my_library">Moja knjižnica</string>
+    <string name="get_ebooks">Nabavite e-knjige</string>
+    <string name="scan_document">Skeniraj dokument</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

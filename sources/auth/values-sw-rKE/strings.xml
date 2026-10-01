@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Angalia muunganisho wako wa intaneti na uthibitishe kuwa akaunti ya Google imeongezwa kwenye kifaa chako, kisha ujaribu tena.</string>
+    <string name="sign_in_with_apple">Ingia ukitumia Apple</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Boresha Uzoefu Wako</string>
+    <string name="purchase_screen_close">Funga</string>
+    <string name="purchase_screen_refresh">Onyesha upya</string>
+    <string name="purchase_sync_status">Ilisawazishwa mara ya mwisho: %1s</string>
+    <string name="purchase_current_plan">Mkondo wa sasa</string>
+    <string name="purchase_syncing">Inasawazisha…</string>
+    <string name="purchase_loading">Inapakia…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Mpango wa Bure</string>
+    <string name="purchase_pro_plan">Toleo la Kitaalamu</string>
+    <string name="purchase_pro_tagline">Lipa mara moja. Umiliki milele.</string>
+    <string name="purchase_premium_plan">Usajili wa Premium</string>
+    <string name="purchase_premium_tagline">Kila kitu katika Pro, pamoja na AI &amp; Wingu</string>
+    <string name="purchase_recommended">Imependekezwa</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">AI Kusoma Kwa Sauti — Sikiliza PDF kwa njia ya kawaida</string>
+    <string name="purchase_pro_feature_2">Uhariri Kamili wa PDF &amp; Kujaza Fomu</string>
+    <string name="purchase_pro_feature_3">Usawazishaji wa Kifaa Kilichounganishwa kupitia Hifadhi</string>
+    <string name="purchase_pro_feature_4">Bila Matangazo, Hakuna Alama ya Maji kwenye Changanuzi</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">Muhtasari wa AI wenye Hoja Nzuri Zaidi</string>
+    <string name="purchase_premium_feature_1_desc">Majibu ya kina kutoka kwa hati ndefu na ngumu</string>
+    <string name="purchase_premium_feature_2_title">Wingu la Falcon la GB 50</string>
+    <string name="purchase_premium_feature_2_desc">Maktaba yako ya kibinafsi ya PDF, iliyosawazishwa na salama</string>
+    <string name="purchase_premium_feature_3_title">Hakuna Vikwazo kwenye Zana 60+ za PDF</string>
+    <string name="purchase_premium_feature_3_desc">Kila zana, inapatikana kila wakati</string>
+    <string name="purchase_premium_feature_4_title">Uhariri Kamili wa Maandishi katika PDF</string>
+    <string name="purchase_premium_feature_4_desc">Hariri maandishi moja kwa moja kama kichakataji cha maneno</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Nunua Pro</string>
+    <string name="purchase_sign_in_buy">Ingia &amp; Nunua</string>
+    <string name="purchase_sign_in_subscribe">Ingia &amp; Jisajili</string>
+    <string name="purchase_subscribe">Jisajili</string>
+    <string name="purchase_start_trial">Anza Jaribio la Bila Malipo la Siku 7</string>
+    <string name="purchase_view_all_features">Tazama vipengele vyote</string>
+    <string name="purchase_show_more">Onyesha Zaidi</string>
+    <string name="purchase_show_less">Onyesha Kidogo</string>
+    <string name="purchase_see_all_features">Tazama vipengele vyote</string>
+    <string name="purchase_manage_subscription">Dhibiti Usajili</string>
+    <string name="purchase_restore_purchases">Rejesha Ununuzi</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Kila mwezi</string>
+    <string name="purchase_billing_yearly">Kila mwaka</string>
+    <string name="purchase_save_badge">Okoa 40%%</string>
+    <string name="purchase_lifetime">Maisha yote</string>
+    <string name="purchase_per_year">/mwaka</string>
+    <string name="purchase_per_month">/mwezi</string>
+    <string name="purchase_trial_terms">Ghairi wakati wowote. Husasishwa isipokuwa imeghairiwa saa 24 kabla ya jaribio kuisha.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Imeshindwa kupakia bidhaa. Angalia muunganisho wako wa kuingia na intaneti.</string>
+    <string name="purchase_error_network">Muunganisho umepotea. Tafadhali angalia intaneti yako na ujaribu tena.</string>
+    <string name="purchase_error_payment_declined">Njia ya malipo imekataliwa. Tafadhali sasisha taarifa zako za malipo.</string>
+    <string name="purchase_error_server">Kuna kitu kimeenda vibaya. Tafadhali jaribu tena baadaye.</string>
+    <string name="purchase_error_rate_limit">Majaribio mengi mno ya kuonyesha upya. Tafadhali subiri.</string>
+    <string name="purchase_error_offline">Hakuna muunganisho wa intaneti. Inaonyesha data iliyohifadhiwa.</string>
+    <string name="purchase_error_product_refresh">Haiwezi kuthibitisha bidhaa. Tafadhali jaribu tena.</string>
+    <string name="purchase_error_generic">Hitilafu imetokea. Tafadhali jaribu tena.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Sheria na Masharti</string>
+    <string name="purchase_privacy_policy">Sera ya Faragha</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">Historia ya Ununuzi</string>
+    <string name="free_trial">Jaribio la Bure</string>
+    <string name="no_purchase_history">Hakuna Historia ya Ununuzi</string>
+    <string name="you_havent_made_any_purchases_">Hujafanya manunuzi yoyote bado.</string>
+    <string name="error">Hitilafu</string>
+    <string name="retry">Jaribu tena</string>
+    <string name="back">Rudi</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Boresha Uzoefu Wako</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Rejesha Ununuzi</string>
+    <string name="close_purchase_screen">Funga skrini ya ununuzi</string>
+    <string name="help">Msaada</string>
+    <string name="more_options">Chaguo zaidi</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Onyesha upya</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Inayotumika</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s INAYOENDELEA</string>
+    <string name="premium_benefits">FAIDA ZA PESA ZAIDI</string>
+    <string name="manage_subscription">Dhibiti Usajili</string>
+    <string name="next_billing_date__manage_your">Tarehe inayofuata ya bili: %1$s. Dhibiti maelezo yako ya bili na kughairi kupitia mipangilio ya akaunti yako ya Duka la Google Play.</string>
+    <string name="purchase_expires_">Muda wa ununuzi unaisha: %1$s</string>
+    <string name="falcon_pdf_pro">Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF Premium (Kila Mwezi)</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Premium (Kila Mwaka)</string>
+    <string name="pro">PRO</string>
+    <string name="premium">BORA</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Pata Falcon PDF Pro au Premium</string>
+    <string name="purchase_desktop_subtitle">Ununuzi unasimamiwa kwenye tovuti yetu. Bofya hapa chini ili kuona mipango na bei.</string>
+    <string name="purchase_desktop_open_website">Tazama Mipango &amp; Bei</string>
+    <string name="purchase_desktop_already_purchased">Umenunua tayari? Ingia ili kusawazisha mpango wako.</string>
+    <string name="purchase_store_build_subtitle">Usajili wako hufungua vipengele vya Pro kwenye vifaa vyako vyote. Ingia ili kusawazisha mpango wako.</string>
+    <string name="ai_read_aloud">Kusoma kwa Sauti kwa AI</string>
+    <string name="full_pdf_editing__form_filling">Uhariri Kamili wa PDF &amp; Kujaza Fomu</string>
+    <string name="crossdevice_sync_via_drive">Usawazishaji wa Kifaa Kilichounganishwa kupitia Hifadhi</string>
+    <string name="adfree_no_watermark">Bila Matangazo, Hakuna Alama ya Maji</string>
+    <string name="export_to_word__excel">Hamisha hadi Word &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">Mandhari Nyingi &amp; Mandhari ya Ukurasa</string>
+    <string name="ai_summaries_with_stronger_reasoning">Muhtasari wa AI wenye Hoja Nzuri Zaidi</string>
+    <string name="no_limits_on_60_pdf_tools">Hakuna Vikwazo kwenye Zana 60+ za PDF</string>
+    <string name="full_text_editing_in_pdfs">Uhariri Kamili wa Maandishi katika PDF</string>
+    <string name="digital_signatures_dscesign">Saini za Dijitali (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Usawazishaji wa Hati Uliochanganuliwa Bila Kikomo</string>
+    <string name="biometric_document_lock">Kufuli la Hati ya Biometriki</string>
+    <string name="everything_in_pro_all_devices">Kila kitu katika Pro, Vifaa Vyote</string>
+    <string name="introductory_offer">Ofa ya Utangulizi</string>
+    <string name="limited_time__30_off">Muda mdogo — punguzo la 30%</string>
+    <string name="date__time">Tarehe &amp; Muda</string>
+    <string name="amount">Kiasi</string>
+    <string name="platform">Jukwaa</string>
+    <string name="type">Aina</string>
+    <string name="expires_on">Inaisha Muda Wake</string>
+</resources>

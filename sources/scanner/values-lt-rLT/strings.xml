@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Nuskaityti</string>
+    <string name="scan_home_documents">Dokumentai</string>
+    <string name="scan_home_documents_lowercase">dokumentai</string>
+    <string name="scan_home_documents_count">%1$d Dokumentai</string>
+    <string name="scan_home_no_documents">Dar nėra dokumentų</string>
+    <string name="scan_home_start_scanning">Pradėkite nuskaityti, kad sukurtumėte savo pirmąjį dokumentą</string>
+    <string name="scan_home_new_folder">Naujas aplankas</string>
+    <string name="scan_home_scan_document">Nuskaityti dokumentą</string>
+    <string name="scan_home_import_gallery">Importuoti iš galerijos</string>
+    <string name="scan_home_parent_folder">Tėvų aplankas</string>
+    <string name="scan_home_go_back">Grįžti į pagrindinį aplanką</string>
+    <string name="scan_home_create_folder">Sukurti naują aplanką</string>
+    <string name="scan_home_enter_folder_name">Įveskite naujo aplanko pavadinimą</string>
+    <string name="scan_home_folder_name">Aplanko pavadinimas</string>
+    <string name="scan_home_folder_placeholder">pvz., darbo dokumentai</string>
+    <string name="scan_home_folder_error">Aplanko pavadinimo laukas negali būti tuščias</string>
+    <string name="scan_home_folder_name_empty">Aplanko pavadinimas negali būti tuščias</string>
+    <string name="scan_home_create">Sukurti</string>
+    <string name="scan_home_folder_exists">Aplankas tokiu pavadinimu jau yra</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Kamera</string>
+    <string name="scan_camera_permission_required">Reikalingas kameros leidimas</string>
+    <string name="scan_camera_permission_message">Šiai programai reikia prieigos prie kameros, kad galėtų nuskaityti dokumentus.</string>
+    <string name="scan_camera_permission_settings">Eikite į Nustatymai &gt; Programos &gt; PDF peržiūros programa &gt; Leidimai ir įjunkite Kameros leidimą.</string>
+    <string name="scan_camera_permission_title">Reikalingas kameros leidimas</string>
+    <string name="scan_camera_request_permission">Prašyti leidimo</string>
+    <string name="scan_camera_open_settings">Atidaryti nustatymus</string>
+    <string name="scan_camera_close">Uždaryti</string>
+    <string name="scan_camera_flash">Blykstė</string>
+    <string name="scan_camera_auto_capture">Automatinis fiksavimas</string>
+    <string name="scan_camera_settings">Nustatymai</string>
+    <string name="scan_camera_ready_batch">Pasiruošęs nuskaityti kelis puslapius</string>
+    <string name="scan_camera_ready_multiple">Pasiruošęs nuskaityti kelis puslapius</string>
+    <string name="scan_camera_hold_steady">Skenavimo metu laikykite stabiliai</string>
+    <string name="scan_camera_captured_pages">Užfiksuota %1$d puslapių</string>
+    <string name="scan_camera_mode_single">Vienvietis</string>
+    <string name="scan_camera_mode_batch">Partija</string>
+    <string name="scan_camera_preview">Peržiūra</string>
+    <string name="scan_camera_finish">Baigti</string>
+    <string name="scan_camera_starting">Paleidžiama kamera...</string>
+    <string name="scan_camera_document_name">Dokumento pavadinimas</string>
+    <string name="scan_camera_document_name_empty">Dokumento pavadinimo laukas negali būti tuščias</string>
+    <string name="scan_camera_save_document">Įrašyti dokumentą</string>
+    <string name="scan_camera_processing">Apdorojama...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Apkirpti &amp; Koreguoti</string>
+    <string name="scan_crop_close">Uždaryti</string>
+    <string name="scan_crop_reset">Atstatyti</string>
+    <string name="scan_crop_rotate">Pasukti</string>
+    <string name="scan_crop_done">Atlikta</string>
+    <string name="scan_crop_scanned_document">Nuskaitytas dokumentas</string>
+    <string name="scan_crop_magnified_view">Padidintas vaizdas</string>
+    <string name="scan_crop_processing">Apdorojama...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Patobulinti</string>
+    <string name="scan_filter_close">Uždaryti</string>
+    <string name="scan_filter_rotate">Pasukti</string>
+    <string name="scan_filter_done">Atlikta</string>
+    <string name="scan_filter_filters">Filtrai</string>
+    <string name="scan_filter_original">Originalus</string>
+    <string name="scan_filter_magic">Magija</string>
+    <string name="scan_filter_lighten">Pašviesinti</string>
+    <string name="scan_filter_bw">B&amp;V</string>
+    <string name="scan_filter_grayscale">Pilkos spalvos</string>
+    <string name="scan_filter_magic_2">Švarus dokumentas</string>
+    <string name="scan_filter_soft_scan">Švelnus nuskaitymas</string>
+    <string name="scan_filter_color_enhance">Spalva+</string>
+    <string name="scan_filter_ink_saver">Rašalo taupymas</string>
+    <string name="scan_filter_premium">Aukščiausios kokybės funkcija</string>
+    <string name="scan_filter_filtered_document">Filtruotas dokumentas</string>
+    <string name="scan_filter_applying">Taikomas filtras...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Atšaukti</string>
+    <string name="scan_share">Bendrinti</string>
+    <string name="scan_move">Perkelti</string>
+    <string name="scan_move_to_folder">Perkelti į aplanką</string>
+    <string name="scan_delete">Ištrinti</string>
+    <string name="scan_rename">Pervardyti</string>
+    <string name="scan_root">Šaknis</string>
+    <string name="scan_select_destination">Pasirinkite paskirties aplanką</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Dokumentas</string>
+    <string name="scan_document_back">Atgal</string>
+    <string name="scan_document_pages">puslapiai</string>
+    <string name="scan_document_add_pages">Pridėti puslapius prie šio dokumento</string>
+    <string name="scan_document_add_page_button">Pridėti puslapį</string>
+    <string name="scan_document_rename">Pervardyti</string>
+    <string name="scan_document_share">Bendrinti</string>
+    <string name="scan_document_more">Daugiau</string>
+    <string name="scan_document_pages_count">%1$d puslapiai</string>
+    <string name="scan_document_no_pages">Dar nėra puslapių</string>
+    <string name="scan_document_scan_page">Nuskaityti puslapį</string>
+    <string name="scan_document_import_page">Importuoti iš galerijos</string>
+    <string name="scan_document_grid_view">Tinklelio rodinys</string>
+    <string name="scan_document_list_view">Sąrašo rodinys</string>
+    <string name="scan_document_continuous_view">Nuolatinis vaizdas</string>
+    <string name="scan_document_page_number">Puslapis %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Puslapis</string>
+    <string name="scan_page_back">Atgal</string>
+    <string name="scan_page_share">Bendrinti</string>
+    <string name="scan_page_delete">Ištrinti</string>
+    <string name="scan_page_of">%1$d iš %2$d</string>
+    <string name="scan_page_image_not_found">Vaizdas nerastas</string>
+    <string name="scan_page_retake">Pakartotinai užfiksuoti</string>
+    <string name="scan_page_crop">Apkarpyti</string>
+    <string name="scan_page_enhance">Patobulinti</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">Įrašyti į galeriją</string>
+    <string name="scan_page_saved_to_gallery">Vaizdas išsaugotas galerijoje</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Ištrinti dokumentą?</string>
+    <string name="scan_delete_document_message">Ar tikrai norite ištrinti „%1$s“? Tai visam laikui ištrins visus šio dokumento puslapius. Šio veiksmo negalima atšaukti.</string>
+    <string name="scan_rename_document">Pervardyti dokumentą</string>
+    <string name="scan_rename_enter_name">Įveskite naują dokumento pavadinimą</string>
+    <string name="scan_rename_document_name">Dokumento pavadinimas</string>
+    <string name="scan_rename_error">Dokumento pavadinimo laukas negali būti tuščias</string>
+    <string name="scan_dialog_delete_document_title">Ištrinti dokumentą?</string>
+    <string name="scan_dialog_delete_document_message">Ar tikrai norite ištrinti „%1$s“? Tai visam laikui ištrins visus šio dokumento puslapius. Šio veiksmo negalima atšaukti.</string>
+    <string name="scan_dialog_delete_confirm">Ištrinti</string>
+    <string name="scan_dialog_cancel">Atšaukti</string>
+    <string name="scan_dialog_move_title">Perkelti į aplanką</string>
+    <string name="scan_dialog_move_message">Pasirinkite paskirties aplanką</string>
+    <string name="scan_dialog_move_confirm">Perkelti</string>
+    <string name="scan_dialog_move_root">Šaknis</string>
+    <string name="scan_dialog_move_selected">Pasirinkta</string>
+    <string name="scan_dialog_rename_title">Pervardyti dokumentą</string>
+    <string name="scan_dialog_rename_message">Įveskite naują dokumento pavadinimą</string>
+    <string name="scan_dialog_rename_label">Dokumento pavadinimas</string>
+    <string name="scan_dialog_rename_error">Dokumento pavadinimo laukas negali būti tuščias</string>
+    <string name="scan_dialog_rename_confirm">Pervardyti</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Bendrinti</string>
+    <string name="scan_menu_move">Perkelti į aplanką</string>
+    <string name="scan_menu_delete">Ištrinti</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Kameros peržiūra\n(Netrukus)</string>
+    <string name="scan_platform_desktop_camera">Stalinio fotoaparato peržiūra\n(Netrukus)</string>
+    <string name="scan_platform_ios_camera">„iOS“ kameros peržiūra\n(greitai)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Uždaryti</string>
+    <string name="flash">Blykstė</string>
+    <string name="auto_capture">Automatinis fiksavimas</string>
+    <string name="settings">Nustatymai</string>
+    <string name="capture">Užfiksuoti</string>
+    <string name="finish">Baigti</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Ar tikrai norite ištrinti %1? Visi jame esantys dokumentai taip pat bus ištrinti.</string>
+    <string name="share">Bendrinti</string>
+    <string name="share_as_images">Bendrinti kaip vaizdus</string>
+    <string name="share_as_pdf">Bendrinti kaip PDF</string>
+    <string name="move_to_folder">Perkelti į aplanką</string>
+    <string name="delete">Ištrinti</string>
+    <string name="selected">Pasirinkta</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Puslapis %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">Aplankas tuščias</string>
+    <string name="tap_the__button_to_scan_a_docu">Norėdami nuskaityti dokumentą, palieskite mygtuką +</string>
+    <string name="str______pages">%1$s • %2$s • %3$s puslapiai</string>
+    <string name="create_folder">Sukurti aplanką</string>
+    <string name="more_options">Daugiau parinkčių</string>
+    <string name="document_thumbnail">Dokumento miniatiūra</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Vaizdas nerastas</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Puslapis %2$d</string>
+    <string name="scan_ocr_title">Teksto atpažinimas</string>
+    <string name="scan_ocr_copy">Kopijuoti tekstą</string>
+    <string name="scan_ocr_no_text">Nerasta jokio teksto</string>
+    <string name="scan_ocr_processing">Atpažįstamas tekstas…</string>
+    <string name="scan_ocr_error">Nepavyko atpažinti teksto</string>
+    <string name="scan_ocr_not_supported">OCR nepalaikomas šioje platformoje</string>
+    <string name="scan_ocr_image">Nuskaitytas puslapis OCR atpažinimui</string>
+    <string name="gallery">Galerija</string>
+    <string name="select_file">Pasirinkite failą</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Nepavyko užfiksuoti vaizdo</string>
+    <string name="error_no_images_captured">Nėra užfiksuotų vaizdų</string>
+    <string name="error_open_settings">Nepavyko atidaryti nustatymų</string>
+    <string name="error_process_images">Nepavyko apdoroti vaizdų</string>
+    <string name="error_process_image">Nepavyko apdoroti vaizdo</string>
+    <string name="error_start_camera">Nepavyko paleisti kameros</string>
+    <string name="error_stop_camera">Nepavyko sustabdyti kameros</string>
+    <string name="error_crop_image">Nepavyko apkirpti vaizdo</string>
+    <string name="error_delete_document">Nepavyko ištrinti dokumento</string>
+    <string name="error_delete_page">Nepavyko ištrinti puslapio</string>
+    <string name="error_load_document">Nepavyko įkelti dokumento</string>
+    <string name="error_load_page">Nepavyko įkelti puslapio</string>
+    <string name="error_move_document">Nepavyko perkelti dokumento</string>
+    <string name="error_no_pages_to_share">Nėra puslapių, kuriuos būtų galima bendrinti</string>
+    <string name="error_rename_document">Nepavyko pervardyti dokumento</string>
+    <string name="error_reorder_pages">Nepavyko pertvarkyti puslapių</string>
+    <string name="error_share_images">Nepavyko bendrinti vaizdų</string>
+    <string name="error_share_pdf">Nepavyko bendrinti PDF failo</string>
+    <string name="error_share_page">Nepavyko bendrinti puslapio</string>
+    <string name="error_create_folder">Nepavyko sukurti aplanko</string>
+    <string name="error_delete_folder">Nepavyko ištrinti aplanko</string>
+    <string name="error_rename_folder">Nepavyko pervardyti aplanko</string>
+    <string name="error_unknown">Įvyko nežinoma klaida</string>
+    <string name="folder_not_found">Aplankas nerastas</string>
+    <string name="sync_documents">Sinchronizuoti dokumentus</string>
+    <string name="shutter_scale">užrakto_mastas</string>
+    <string name="import_gallery">Importuoti galeriją</string>
+    <string name="scan_camera">Skenavimo kamera</string>
+</resources>

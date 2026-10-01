@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">Ștergeți paginile</string>
+    <string name="are_you_sure_you_want_to_delet">Sigur doriți să ștergeți paginile selectate? Această acțiune nu poate fi anulată.</string>
+    <string name="delete">Şterge</string>
+    <string name="cancel">Anula</string>
+    <string name="quick_selection">Selecție rapidă</string>
+    <string name="select_range">Selectați intervalul</string>
+    <string name="select_all">Selectați tot</string>
+    <string name="clear_all">Ștergeți tot</string>
+    <string name="select_page_range">Selectați intervalul de pagini</string>
+    <string name="enter_the_range_of_pages_to_de">Introduceți intervalul de pagini de șters (1-%1$s)</string>
+    <string name="from">Din</string>
+    <string name="to">La</string>
+    <string name="select">Selecta</string>
+    <string name="please_go_back_and_select_a_pd">Vă rugăm să reveniți și să selectați un PDF</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">PDF divizat</string>
+    <string name="str_1_file_selected">1 fișier selectat</string>
+    <string name="no_file_selected">Niciun fișier selectat</string>
+    <string name="split_mode">Mod divizat</string>
+    <string name="fixed_segments">Segmente fixe</string>
+    <string name="custom_ranges">Intervale personalizate</string>
+    <string name="segment_size">Dimensiunea segmentului</string>
+    <string name="this_will_create_multiple_pdfs">Aceasta va crea mai multe fișiere PDF cu numărul specificat de pagini fiecare. Dimensiunea segmentului trebuie să fie mai mică decât numărul total de pagini pentru a crea diviziuni semnificative. De exemplu, dacă fișierul sursă are 8 pagini și introduceți 2, vor fi generate patru fișiere PDF cu câte 2 pagini fiecare.</string>
+    <string name="pages_per_file">Pagini per fișier</string>
+    <string name="eg_2">de exemplu, 2</string>
+    <string name="total_number_of_pages_in_pdf__">Numărul total de pagini în PDF: %1$d (dimensiunea segmentului trebuie să fie mai mică decât %1$d)</string>
+    <string name="this_will_create__output_files">Aceasta va crea fișiere de ieșire %1$d</string>
+    <string name="this_will_create__output_file">Aceasta va crea fișierul de ieșire %1$d</string>
+    <string name="this_input_will_split_the_pdf_">Această introducere va împărți fișierul PDF în fișiere separate în funcție de intervalele selectate. De exemplu, „1-2,5,6-8” va crea 3 fișiere PDF: primul cu paginile 1-2, al doilea cu pagina 5 și al treilea cu paginile 6-8.</string>
+    <string name="page_ranges">Intervale de pagini</string>
+    <string name="eg_1234571520">de exemplu, 1-2, 3, 4-5, 7, 15-20</string>
+    <string name="format_use_ranges_15_or_single">Format: Folosiți intervale (1-5) sau pagini individuale (7), separate prin virgule. Sunt permise doar cifre, cratime și virgule.</string>
+    <string name="split_preview">Previzualizare divizată</string>
+    <string name="pdf_files_will_be_created">%1$d PDF files will be created</string>
+    <string name="pdf_file_will_be_created">Fișierul %1$d PDF va fi creat</string>
+    <string name="pdf_result_">Rezultat PDF %1$s</string>
+    <string name="str__and__more">... și %1$d mai multe</string>
+    <string name="splitting_pdf">Se divizează PDF-ul...</string>
+    <string name="checking_files">Se verifică fișierele...</string>
+    <string name="page_n">Pagina %1$d</string>
+    <string name="pages_n_m">Pagini %1$d-%2$d</string>
+    <string name="split_complete">Despărțire completă!</string>
+    <string name="split_failed">Divizarea a eșuat</string>
+    <string name="we_couldnt_split_your_pdf">Nu am putut diviza PDF-ul dvs.</string>
+    <string name="your_pdf_has_been_successfully_split">PDF-ul dvs. a fost împărțit cu succes în %1$d fișiere</string>
+    <string name="your_pdf_has_been_successfully_split_single">PDF-ul dvs. a fost împărțit cu succes în fișierul %1$d</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">Instrumente PDF</string>
+    <string name="image_tools">Instrumente de imagine</string>
+    <string name="str_30_tools_for_pdf">Peste 30 de instrumente pentru PDF-uri</string>
+    <string name="tools_for_images">Instrumente pentru imagini</string>
+    <string name="no_tools_found">Nu s-au găsit instrumente</string>
+    <string name="try_adjusting_your_search">Încearcă să ajustezi căutarea</string>
+    <string name="history">Istorie</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s pagină${dacă (numărPagini &gt; 1) </string>
+    <string name="n_pages">%1$d pagini</string>
+    <string name="n_page">pagină %1$d</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">Parolă necesară pentru acest PDF</string>
+    <string name="password_provided">Parolă furnizată</string>
+    <string name="password_required">Parolă necesară</string>
+    <string name="open_file">Deschide fișierul</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">Comprimat de </string>
+    <string name="error_details">Detalii eroare</string>
+    <string name="view">Vedere</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">%1$s din %2$s pagini selectate</string>
+    <string name="showing_first_200_pages">Se afișează primele 200 de pagini</string>
+    <string name="use_quick_selection_above_for_">Folosește Selecția rapidă de mai sus pentru paginile peste 200</string>
+    <string name="loading">Încărcare...</string>
+    <string name="error">Eroare</string>
+    <string name="generating_page_previews">Se generează previzualizări ale paginilor...</string>
+    <string name="page__thumbnail">Miniatură pagină %1$s</string>
+    <string name="selected">Selectat</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">Căutare</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">Rotire PDF</string>
+    <string name="please_provide_the_password_to">Vă rugăm să furnizați parola pentru a selecta pagini personalizate</string>
+    <string name="rotation_angle">Unghiul de rotație</string>
+    <string name="page_selection">Selecție pagină</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">Reordonați PDF-ul</string>
+    <string name="use_the_arrow_buttons_to_reord">Folosește butoanele săgeată pentru a reordona paginile</string>
+    <string name="pages_">Pagini (%1$s)</string>
+    <string name="page_">Pagina %1$s</string>
+    <string name="position__of_">Poziție: %1$s din %2$s</string>
+    <string name="drag_handle">Ghidaj de tragere</string>
+    <string name="move_up">Mută în sus</string>
+    <string name="move_down">Mută în jos</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">Comprimați PDF-ul</string>
+    <string name="no_files_selected">Niciun fișier selectat</string>
+    <string name="please_go_back_and_select_pdf_">Vă rugăm să reveniți și să selectați fișierele PDF pentru comprimare.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">Succes</string>
+    <string name="individual_results">Rezultate individuale</string>
+    <string name="done">Făcut</string>
+    <string name="compression_complete">Compresie completă</string>
+    <string name="your_file_is_ready_and_much_li">Fișierul tău este gata și mult mai ușor!</string>
+    <string name="before">ÎNAINTE</string>
+    <string name="after">DUPĂ</string>
+    <string name="total_saved">Total salvat</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">MAI MIC</string>
+    <string name="str__saved">%1$s% economisit</string>
+    <string name="open">Deschide</string>
+    <string name="share">Distribuie</string>
+    <string name="close">Aproape</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">Nivel de compresie</string>
+    <string name="recommended">Recomandat</string>
+    <string name="str__compression">%1$s Compresie</string>
+    <string name="str__of_original_size">~%1$s% din dimensiunea originală</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">Imagini în PDF</string>
+    <string name="str__images_selected">%1$s imagini selectate</string>
+    <string name="images_will_be_converted_in_th">Imaginile vor fi convertite în ordinea afișată mai jos</string>
+    <string name="remove">Elimina</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">PDF în imagini</string>
+    <string name="image_format">Formatul imaginii</string>
+    <string name="image_quality_dpi">Calitatea imaginii (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">Îmbinare PDF</string>
+    <string name="n_files_selected">%1$d fișiere selectate</string>
+    <string name="n_file_selected">%1$d fișier selectat</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">Blocare PDF</string>
+    <string name="password_protection">Protecție prin parolă</string>
+    <string name="enter_a_password_to_protect_yo">Introduceți o parolă pentru a vă proteja PDF-ul. Veți avea nevoie de această parolă pentru a deschide fișierul.</string>
+    <string name="password">Parolă</string>
+    <string name="enter_password">Introduceți parola</string>
+    <string name="confirm_password">Confirmați parola</string>
+    <string name="reenter_password">Reintroduceți parola</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">Vă rugăm să reveniți și să selectați un fișier</string>
+    <string name="back">Spate</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">Deblocare PDF</string>
+    <string name="current_password">Parola actuală</string>
+    <string name="enter_the_current_password_to_">Introduceți parola curentă pentru a debloca acest PDF</string>
+    <string name="enter_current_password">Introduceți parola curentă</string>
+    <string name="incorrect_password_please_try_">Parolă incorectă. Vă rugăm să încercați din nou.</string>
+    <string name="new_password_optional">Parolă nouă (opțională)</string>
+    <string name="set_a_new_password_to_change_i">Setați o parolă nouă pentru a o schimba sau lăsați necompletat pentru a elimina protecția prin parolă.</string>
+    <string name="new_password">Parolă Nouă</string>
+    <string name="enter_new_password">Introduceți noua parolă</string>
+    <string name="confirm_new_password">Confirmați noua parolă</string>
+    <string name="reenter_new_password">Reintroduceți noua parolă</string>
+    <string name="passwords_do_not_match">Parolele nu se potrivesc</string>
+    <string name="compression_failed">Compresie eșuată</string>
+    <string name="open_pdf">Deschide PDF</string>
+    <string name="share_file">Partajați fișierul</string>
+    <string name="pages_deleted">Pagini șterse!</string>
+    <string name="delete_failed">Ștergere eșuată</string>
+    <string name="select_pages_to_delete">Selectați paginile de șters</string>
+    <string name="pdf_created">PDF creat!</string>
+    <string name="conversion_failed">Conversia a eșuat</string>
+    <string name="pdf_locked_successfully">PDF blocat cu succes!</string>
+    <string name="lock_failed">Blocare eșuată</string>
+    <string name="merge_complete">Îmbinare finalizată!</string>
+    <string name="merge_failed">Îmbinare eșuată</string>
+    <string name="conversion_complete">Conversie finalizată!</string>
+    <string name="reorder_complete">Recomandă finalizată!</string>
+    <string name="reorder_failed">Reordonare eșuată</string>
+    <string name="rotation_complete">Rotație finalizată!</string>
+    <string name="rotation_failed">Rotație eșuată</string>
+    <string name="select_pages_to_rotate">Selectați paginile de rotit</string>
+    <string name="str__complete">%1$s Completat!</string>
+    <string name="str__failed">%1$s Eșuat</string>
+    <string name="unlock_failed">Deblocare eșuată</string>
+    <string name="your_pdfs_have_been_successfully_compres">Fișierele PDF au fost comprimate cu succes</string>
+    <string name="we_couldnt_compress_your_pdfs">Nu am putut comprima fișierele PDF</string>
+    <string name="view_your_compressed_file">Vizualizați fișierul comprimat</string>
+    <string name="send_to_others_or_apps">Trimiteți către alte persoane sau aplicații</string>
+    <string name="your_pdf_has_been_successfully_modified">PDF-ul dvs. a fost modificat cu succes</string>
+    <string name="we_couldnt_delete_the_pages">Nu am putut șterge paginile</string>
+    <string name="your_images_have_been_converted_to_pdf">Imaginile dvs. au fost convertite în PDF</string>
+    <string name="unable_to_create_pdf_from_images">Nu se poate crea un PDF din imagini</string>
+    <string name="your_pdf_is_now_password_protected">PDF-ul dvs. este acum protejat prin parolă</string>
+    <string name="we_couldnt_lock_your_pdf">Nu am putut bloca PDF-ul dvs.</string>
+    <string name="your_pdfs_have_been_successfully_merged">Fișierele PDF au fost îmbinate cu succes</string>
+    <string name="we_couldnt_merge_your_pdfs">Nu am putut îmbina fișierele PDF</string>
+    <string name="str__images_created_successfully">%1$s imagini create cu succes</string>
+    <string name="unable_to_convert_pdf_to_images">Nu se poate converti PDF-ul în imagini</string>
+    <string name="your_pdf_pages_have_been_successfully_re">Paginile PDF au fost reordonate cu succes</string>
+    <string name="we_couldnt_reorder_your_pdf">Nu am putut reordona PDF-ul dvs.</string>
+    <string name="your_pdf_has_been_successfully_rotated">PDF-ul dvs. a fost rotit cu succes</string>
+    <string name="we_couldnt_rotate_your_pdf">Nu am putut roti PDF-ul dvs.</string>
+    <string name="your_file_has_been_successfully_processe">Fișierul dumneavoastră a fost procesat cu succes</string>
+    <string name="we_couldnt_process_your_file">Nu am putut procesa fișierul dvs.</string>
+    <string name="we_couldnt_unlock_your_pdf">Nu am putut debloca PDF-ul dvs.</string>
+    <string name="clear_filter">Șterge filtrul</string>
+    <string name="clear">Clar</string>
+    <string name="pick_a_tool_">Alegeți un instrument →</string>
+    <string name="drag_to_reorder">Trageți pentru a reordona</string>
+    <string name="your_files_are_securely_processed_on_our">Fișierele dumneavoastră sunt procesate în siguranță pe serverele noastre folosind conexiuni criptate și sunt șterse automat în decurs de o oră. Nu stocăm și nu partajăm niciodată datele dumneavoastră.</string>
+    <string name="compression_quality">Calitatea compresiei</string>
+    <string name="dragelevation">dragElevation</string>
+    <string name="tool_card_scale">scară_card_instrument</string>
+</resources>

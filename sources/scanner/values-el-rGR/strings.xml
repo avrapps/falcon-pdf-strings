@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Σάρωση</string>
+    <string name="scan_home_documents">Εγγραφα</string>
+    <string name="scan_home_documents_lowercase">έγγραφα</string>
+    <string name="scan_home_documents_count">%1$d Έγγραφα</string>
+    <string name="scan_home_no_documents">Δεν υπάρχουν ακόμη έγγραφα</string>
+    <string name="scan_home_start_scanning">Ξεκινήστε τη σάρωση για να δημιουργήσετε το πρώτο σας έγγραφο</string>
+    <string name="scan_home_new_folder">Νέος φάκελος</string>
+    <string name="scan_home_scan_document">Σάρωση εγγράφου</string>
+    <string name="scan_home_import_gallery">Εισαγωγή από τη Συλλογή</string>
+    <string name="scan_home_parent_folder">Γονικός φάκελος</string>
+    <string name="scan_home_go_back">Επιστροφή στον γονικό φάκελο</string>
+    <string name="scan_home_create_folder">Δημιουργία νέου φακέλου</string>
+    <string name="scan_home_enter_folder_name">Εισαγάγετε ένα όνομα για τον νέο φάκελο</string>
+    <string name="scan_home_folder_name">Όνομα φακέλου</string>
+    <string name="scan_home_folder_placeholder">π.χ., Έγγραφα Εργασίας</string>
+    <string name="scan_home_folder_error">Το όνομα φακέλου δεν μπορεί να είναι κενό</string>
+    <string name="scan_home_folder_name_empty">Το όνομα φακέλου δεν μπορεί να είναι κενό</string>
+    <string name="scan_home_create">Δημιουργώ</string>
+    <string name="scan_home_folder_exists">Υπάρχει ήδη ένας φάκελος με αυτό το όνομα</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Κάμερα</string>
+    <string name="scan_camera_permission_required">Απαιτείται άδεια κάμερας</string>
+    <string name="scan_camera_permission_message">Αυτή η εφαρμογή χρειάζεται πρόσβαση στην κάμερα για τη σάρωση εγγράφων.</string>
+    <string name="scan_camera_permission_settings">Μεταβείτε στις Ρυθμίσεις &gt; Εφαρμογές &gt; Πρόγραμμα προβολής PDF &gt; Δικαιώματα και ενεργοποιήστε την άδεια Κάμερα.</string>
+    <string name="scan_camera_permission_title">Απαιτείται άδεια κάμερας</string>
+    <string name="scan_camera_request_permission">Αίτημα άδειας</string>
+    <string name="scan_camera_open_settings">Άνοιγμα Ρυθμίσεων</string>
+    <string name="scan_camera_close">Κοντά</string>
+    <string name="scan_camera_flash">Λάμψη</string>
+    <string name="scan_camera_auto_capture">Αυτόματη καταγραφή</string>
+    <string name="scan_camera_settings">Ρυθμίσεις</string>
+    <string name="scan_camera_ready_batch">Έτοιμο για σάρωση πολλαπλών σελίδων</string>
+    <string name="scan_camera_ready_multiple">Έτοιμο για σάρωση πολλαπλών σελίδων</string>
+    <string name="scan_camera_hold_steady">Κρατήστε σταθερό κατά τη σάρωση</string>
+    <string name="scan_camera_captured_pages">%1$d σελίδες που καταγράφηκαν</string>
+    <string name="scan_camera_mode_single">Μονόκλινο</string>
+    <string name="scan_camera_mode_batch">Σύνολο παραγωγής</string>
+    <string name="scan_camera_preview">Πρεμιέρα</string>
+    <string name="scan_camera_finish">Φινίρισμα</string>
+    <string name="scan_camera_starting">Έναρξη κάμερας...</string>
+    <string name="scan_camera_document_name">Όνομα εγγράφου</string>
+    <string name="scan_camera_document_name_empty">Το όνομα του εγγράφου δεν μπορεί να είναι κενό</string>
+    <string name="scan_camera_save_document">Αποθήκευση εγγράφου</string>
+    <string name="scan_camera_processing">Επεξεργασία...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Περικοπή &amp; Προσαρμογή</string>
+    <string name="scan_crop_close">Κοντά</string>
+    <string name="scan_crop_reset">Επαναφορά</string>
+    <string name="scan_crop_rotate">Γυρίζω</string>
+    <string name="scan_crop_done">Γινώμενος</string>
+    <string name="scan_crop_scanned_document">Σαρωμένο έγγραφο</string>
+    <string name="scan_crop_magnified_view">Μεγεθυμένη προβολή</string>
+    <string name="scan_crop_processing">Επεξεργασία...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Επαυξάνω</string>
+    <string name="scan_filter_close">Κοντά</string>
+    <string name="scan_filter_rotate">Γυρίζω</string>
+    <string name="scan_filter_done">Γινώμενος</string>
+    <string name="scan_filter_filters">Φίλτρα</string>
+    <string name="scan_filter_original">Πρωτότυπο</string>
+    <string name="scan_filter_magic">Μαγεία</string>
+    <string name="scan_filter_lighten">Αστράφτω</string>
+    <string name="scan_filter_bw">Β&amp;Δ</string>
+    <string name="scan_filter_grayscale">Κλίμακα του γκρι</string>
+    <string name="scan_filter_magic_2">Καθαρισμός Εγγράφων</string>
+    <string name="scan_filter_soft_scan">Μαλακή σάρωση</string>
+    <string name="scan_filter_color_enhance">Χρώμα+</string>
+    <string name="scan_filter_ink_saver">Εξοικονόμηση μελανιού</string>
+    <string name="scan_filter_premium">Premium χαρακτηριστικό</string>
+    <string name="scan_filter_filtered_document">Φιλτραρισμένο έγγραφο</string>
+    <string name="scan_filter_applying">Εφαρμογή φίλτρου...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Ματαίωση</string>
+    <string name="scan_share">Μερίδιο</string>
+    <string name="scan_move">Κίνηση</string>
+    <string name="scan_move_to_folder">Μετακίνηση σε φάκελο</string>
+    <string name="scan_delete">Διαγράφω</string>
+    <string name="scan_rename">Μετονομάζω</string>
+    <string name="scan_root">Ρίζα</string>
+    <string name="scan_select_destination">Επιλέξτε έναν φάκελο προορισμού</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Εγγραφο</string>
+    <string name="scan_document_back">Πίσω</string>
+    <string name="scan_document_pages">σελίδες</string>
+    <string name="scan_document_add_pages">Προσθήκη σελίδων σε αυτό το έγγραφο</string>
+    <string name="scan_document_add_page_button">Προσθήκη σελίδας</string>
+    <string name="scan_document_rename">Μετονομάζω</string>
+    <string name="scan_document_share">Μερίδιο</string>
+    <string name="scan_document_more">Περισσότερο</string>
+    <string name="scan_document_pages_count">%1$d σελίδες</string>
+    <string name="scan_document_no_pages">Δεν υπάρχουν ακόμη σελίδες</string>
+    <string name="scan_document_scan_page">Σάρωση σελίδας</string>
+    <string name="scan_document_import_page">Εισαγωγή από τη Συλλογή</string>
+    <string name="scan_document_grid_view">Προβολή πλέγματος</string>
+    <string name="scan_document_list_view">Προβολή λίστας</string>
+    <string name="scan_document_continuous_view">Συνεχής προβολή</string>
+    <string name="scan_document_page_number">Σελίδα %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Σελίδα</string>
+    <string name="scan_page_back">Πίσω</string>
+    <string name="scan_page_share">Μερίδιο</string>
+    <string name="scan_page_delete">Διαγράφω</string>
+    <string name="scan_page_of">%1$d από %2$d</string>
+    <string name="scan_page_image_not_found">Η εικόνα δεν βρέθηκε</string>
+    <string name="scan_page_retake">Ξαναπαίρνω</string>
+    <string name="scan_page_crop">Καλλιέργεια</string>
+    <string name="scan_page_enhance">Επαυξάνω</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">Αποθήκευση στη Συλλογή</string>
+    <string name="scan_page_saved_to_gallery">Η εικόνα αποθηκεύτηκε στη συλλογή</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Διαγραφή εγγράφου;</string>
+    <string name="scan_delete_document_message">Είστε βέβαιοι ότι θέλετε να διαγράψετε το "%1$s"; Αυτό θα διαγράψει οριστικά όλες τις σελίδες σε αυτό το έγγραφο. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</string>
+    <string name="scan_rename_document">Μετονομασία εγγράφου</string>
+    <string name="scan_rename_enter_name">Εισαγάγετε ένα νέο όνομα για το έγγραφο</string>
+    <string name="scan_rename_document_name">Όνομα εγγράφου</string>
+    <string name="scan_rename_error">Το όνομα του εγγράφου δεν μπορεί να είναι κενό</string>
+    <string name="scan_dialog_delete_document_title">Διαγραφή εγγράφου;</string>
+    <string name="scan_dialog_delete_document_message">Είστε βέβαιοι ότι θέλετε να διαγράψετε το "%1$s"; Αυτό θα διαγράψει οριστικά όλες τις σελίδες σε αυτό το έγγραφο. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</string>
+    <string name="scan_dialog_delete_confirm">Διαγράφω</string>
+    <string name="scan_dialog_cancel">Ματαίωση</string>
+    <string name="scan_dialog_move_title">Μετακίνηση σε φάκελο</string>
+    <string name="scan_dialog_move_message">Επιλέξτε έναν φάκελο προορισμού</string>
+    <string name="scan_dialog_move_confirm">Κίνηση</string>
+    <string name="scan_dialog_move_root">Ρίζα</string>
+    <string name="scan_dialog_move_selected">Επιλεγμένο</string>
+    <string name="scan_dialog_rename_title">Μετονομασία εγγράφου</string>
+    <string name="scan_dialog_rename_message">Εισαγάγετε ένα νέο όνομα για το έγγραφο</string>
+    <string name="scan_dialog_rename_label">Όνομα εγγράφου</string>
+    <string name="scan_dialog_rename_error">Το όνομα του εγγράφου δεν μπορεί να είναι κενό</string>
+    <string name="scan_dialog_rename_confirm">Μετονομάζω</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Μερίδιο</string>
+    <string name="scan_menu_move">Μετακίνηση σε φάκελο</string>
+    <string name="scan_menu_delete">Διαγράφω</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Προεπισκόπηση κάμερας\n(Σύντομα διαθέσιμο)</string>
+    <string name="scan_platform_desktop_camera">Προεπισκόπηση κάμερας επιφάνειας εργασίας\n(Σύντομα διαθέσιμο)</string>
+    <string name="scan_platform_ios_camera">Προεπισκόπηση κάμερας iOS\n(Σύντομα διαθέσιμο)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Κοντά</string>
+    <string name="flash">Λάμψη</string>
+    <string name="auto_capture">Αυτόματη καταγραφή</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="capture">Σύλληψη</string>
+    <string name="finish">Φινίρισμα</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Είστε σίγουροι ότι θέλετε να διαγράψετε το %1; Όλα τα έγγραφα που υπάρχουν μέσα θα διαγραφούν επίσης.</string>
+    <string name="share">Μερίδιο</string>
+    <string name="share_as_images">Κοινή χρήση ως εικόνες</string>
+    <string name="share_as_pdf">Κοινή χρήση ως PDF</string>
+    <string name="move_to_folder">Μετακίνηση σε φάκελο</string>
+    <string name="delete">Διαγράφω</string>
+    <string name="selected">Επιλεγμένο</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Σελίδα %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">Ο φάκελος είναι άδειος</string>
+    <string name="tap_the__button_to_scan_a_docu">Πατήστε το κουμπί + για να σαρώσετε ένα έγγραφο</string>
+    <string name="str______pages">%1$s • %2$s • %3$s σελίδες</string>
+    <string name="create_folder">Δημιουργία φακέλου</string>
+    <string name="more_options">Περισσότερες επιλογές</string>
+    <string name="document_thumbnail">Μικρογραφία εγγράφου</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Η εικόνα δεν βρέθηκε</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Σελίδα %2$d</string>
+    <string name="scan_ocr_title">Αναγνώριση κειμένου</string>
+    <string name="scan_ocr_copy">Αντιγραφή κειμένου</string>
+    <string name="scan_ocr_no_text">Δεν βρέθηκε κείμενο</string>
+    <string name="scan_ocr_processing">Αναγνώριση κειμένου…</string>
+    <string name="scan_ocr_error">Αποτυχία αναγνώρισης κειμένου</string>
+    <string name="scan_ocr_not_supported">Το OCR δεν υποστηρίζεται σε αυτήν την πλατφόρμα</string>
+    <string name="scan_ocr_image">Σαρωμένη σελίδα για OCR</string>
+    <string name="gallery">Στοά</string>
+    <string name="select_file">Επιλογή Αρχείου</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Η λήψη εικόνας απέτυχε</string>
+    <string name="error_no_images_captured">Δεν έχουν καταγραφεί εικόνες</string>
+    <string name="error_open_settings">Αποτυχία ανοίγματος ρυθμίσεων</string>
+    <string name="error_process_images">Αποτυχία επεξεργασίας εικόνων</string>
+    <string name="error_process_image">Αποτυχία επεξεργασίας εικόνας</string>
+    <string name="error_start_camera">Αποτυχία εκκίνησης κάμερας</string>
+    <string name="error_stop_camera">Αποτυχία διακοπής της κάμερας</string>
+    <string name="error_crop_image">Αποτυχία περικοπής εικόνας</string>
+    <string name="error_delete_document">Η διαγραφή του εγγράφου απέτυχε</string>
+    <string name="error_delete_page">Η διαγραφή της σελίδας απέτυχε</string>
+    <string name="error_load_document">Η φόρτωση του εγγράφου απέτυχε</string>
+    <string name="error_load_page">Η φόρτωση της σελίδας απέτυχε</string>
+    <string name="error_move_document">Η μετακίνηση του εγγράφου απέτυχε</string>
+    <string name="error_no_pages_to_share">Δεν υπάρχουν σελίδες για κοινή χρήση</string>
+    <string name="error_rename_document">Η μετονομασία του εγγράφου απέτυχε</string>
+    <string name="error_reorder_pages">Η αναδιάταξη των σελίδων απέτυχε</string>
+    <string name="error_share_images">Η κοινοποίηση εικόνων απέτυχε</string>
+    <string name="error_share_pdf">Η κοινοποίηση του PDF απέτυχε</string>
+    <string name="error_share_page">Η κοινοποίηση της σελίδας απέτυχε</string>
+    <string name="error_create_folder">Η δημιουργία φακέλου απέτυχε</string>
+    <string name="error_delete_folder">Η διαγραφή του φακέλου απέτυχε</string>
+    <string name="error_rename_folder">Η μετονομασία του φακέλου απέτυχε</string>
+    <string name="error_unknown">Παρουσιάστηκε ένα άγνωστο σφάλμα</string>
+    <string name="folder_not_found">Ο φάκελος δεν βρέθηκε</string>
+    <string name="sync_documents">Συγχρονισμός εγγράφων</string>
+    <string name="shutter_scale">κλίμακα_κλίμακας_κλείστρου</string>
+    <string name="import_gallery">Εισαγωγή Συλλογής</string>
+    <string name="scan_camera">Σάρωση κάμερας</string>
+</resources>

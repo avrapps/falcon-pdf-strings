@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณและยืนยันว่าได้เพิ่มบัญชี Google ลงในอุปกรณ์ของคุณแล้ว จากนั้นลองใหม่อีกครั้ง</string>
+    <string name="sign_in_with_apple">ลงชื่อเข้าใช้ด้วย Apple</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">ยกระดับประสบการณ์ของคุณ</string>
+    <string name="purchase_screen_close">ปิด</string>
+    <string name="purchase_screen_refresh">รีเฟรช</string>
+    <string name="purchase_sync_status">ซิงค์ครั้งล่าสุด: %1s</string>
+    <string name="purchase_current_plan">ปัจจุบัน</string>
+    <string name="purchase_syncing">กำลังซิงค์…</string>
+    <string name="purchase_loading">กำลังโหลด…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">แผนฟรี</string>
+    <string name="purchase_pro_plan">รุ่นโปร</string>
+    <string name="purchase_pro_tagline">จ่ายครั้งเดียว เป็นเจ้าของได้ตลอดไป</string>
+    <string name="purchase_premium_plan">การสมัครสมาชิกแบบพรีเมียม</string>
+    <string name="purchase_premium_tagline">ทุกอย่างในเวอร์ชัน Pro บวกกับ AI &amp; Cloud</string>
+    <string name="purchase_recommended">ที่แนะนำ</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">AI อ่านออกเสียง — ฟังไฟล์ PDF ได้อย่างเป็นธรรมชาติ</string>
+    <string name="purchase_pro_feature_2">การแก้ไข PDF เต็มรูปแบบ &amp; การกรอกแบบฟอร์ม</string>
+    <string name="purchase_pro_feature_3">การซิงค์ข้อมูลข้ามอุปกรณ์ผ่าน Google Drive</string>
+    <string name="purchase_pro_feature_4">ไม่มีโฆษณา ไม่มีลายน้ำบนภาพสแกน</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">บทสรุป AI ที่ให้เหตุผลได้แข็งแกร่งยิ่งขึ้น</string>
+    <string name="purchase_premium_feature_1_desc">คำตอบที่ลึกซึ้งยิ่งขึ้นจากเอกสารที่ยาวและซับซ้อน</string>
+    <string name="purchase_premium_feature_2_title">ฟอลคอนคลาวด์ 50GB</string>
+    <string name="purchase_premium_feature_2_desc">คลังไฟล์ PDF ส่วนตัวของคุณ ซิงค์ข้อมูลและปลอดภัย</string>
+    <string name="purchase_premium_feature_3_title">ไม่มีข้อจำกัดในการใช้งานเครื่องมือ PDF กว่า 60 รายการ</string>
+    <string name="purchase_premium_feature_3_desc">เครื่องมือทุกอย่าง พร้อมใช้งานเสมอ</string>
+    <string name="purchase_premium_feature_4_title">การแก้ไขข้อความแบบเต็มรูปแบบในไฟล์ PDF</string>
+    <string name="purchase_premium_feature_4_desc">แก้ไขข้อความได้โดยตรงเหมือนโปรแกรมประมวลผลคำ</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">ซื้อโปร</string>
+    <string name="purchase_sign_in_buy">เข้าสู่ระบบ &amp; ซื้อ</string>
+    <string name="purchase_sign_in_subscribe">เข้าสู่ระบบ &amp; สมัครสมาชิก</string>
+    <string name="purchase_subscribe">สมัครสมาชิก</string>
+    <string name="purchase_start_trial">เริ่มทดลองใช้งานฟรี 7 วัน</string>
+    <string name="purchase_view_all_features">ดูคุณสมบัติทั้งหมด</string>
+    <string name="purchase_show_more">แสดงเพิ่มเติม</string>
+    <string name="purchase_show_less">แสดงน้อยลง</string>
+    <string name="purchase_see_all_features">ดูคุณสมบัติทั้งหมด</string>
+    <string name="purchase_manage_subscription">จัดการการสมัครสมาชิก</string>
+    <string name="purchase_restore_purchases">กู้คืนการซื้อ</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">รายเดือน</string>
+    <string name="purchase_billing_yearly">รายปี</string>
+    <string name="purchase_save_badge">ประหยัด 40%</string>
+    <string name="purchase_lifetime">ตลอดชีวิต</string>
+    <string name="purchase_per_year">/ปี</string>
+    <string name="purchase_per_month">/เดือน</string>
+    <string name="purchase_trial_terms">สามารถยกเลิกได้ทุกเมื่อ ระบบจะต่ออายุอัตโนมัติ เว้นแต่จะยกเลิกก่อนช่วงทดลองใช้สิ้นสุด 24 ชั่วโมง</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">ไม่สามารถโหลดสินค้าได้ โปรดตรวจสอบการเข้าสู่ระบบและการเชื่อมต่ออินเทอร์เน็ตของคุณ</string>
+    <string name="purchase_error_network">การเชื่อมต่อขาดหาย โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณแล้วลองใหม่อีกครั้ง</string>
+    <string name="purchase_error_payment_declined">วิธีการชำระเงินไม่ถูกต้อง โปรดอัปเดตข้อมูลการชำระเงินของคุณ</string>
+    <string name="purchase_error_server">เกิดข้อผิดพลาดบางอย่าง โปรดลองใหม่อีกครั้งในภายหลัง</string>
+    <string name="purchase_error_rate_limit">พยายามรีเฟรชหลายครั้งเกินไป โปรดรอสักครู่</string>
+    <string name="purchase_error_offline">ไม่มีการเชื่อมต่ออินเทอร์เน็ต แสดงข้อมูลที่แคชไว้</string>
+    <string name="purchase_error_product_refresh">ไม่สามารถตรวจสอบผลิตภัณฑ์ได้ โปรดลองอีกครั้ง</string>
+    <string name="purchase_error_generic">เกิดข้อผิดพลาด โปรดลองใหม่อีกครั้ง</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">เงื่อนไขการให้บริการ</string>
+    <string name="purchase_privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">ประวัติการซื้อ</string>
+    <string name="free_trial">ทดลองใช้งานฟรี</string>
+    <string name="no_purchase_history">ไม่มีประวัติการซื้อ</string>
+    <string name="you_havent_made_any_purchases_">คุณยังไม่ได้ทำการซื้อใดๆ เลย</string>
+    <string name="error">ข้อผิดพลาด</string>
+    <string name="retry">ลองใหม่อีกครั้ง</string>
+    <string name="back">กลับ</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">ยกระดับประสบการณ์ของคุณ</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">กู้คืนการซื้อ</string>
+    <string name="close_purchase_screen">ปิดหน้าจอการซื้อ</string>
+    <string name="help">ช่วย</string>
+    <string name="more_options">ตัวเลือกเพิ่มเติม</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">รีเฟรช</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">คล่องแคล่ว</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s ใช้งานอยู่</string>
+    <string name="premium_benefits">สิทธิประโยชน์ระดับพรีเมียม</string>
+    <string name="manage_subscription">จัดการการสมัครสมาชิก</string>
+    <string name="next_billing_date__manage_your">วันเรียกเก็บเงินครั้งถัดไป: %1$sจัดการรายละเอียดการเรียกเก็บเงินและการยกเลิกผ่านการตั้งค่าบัญชี Play Store ของคุณ</string>
+    <string name="purchase_expires_">วันหมดอายุการซื้อ: %1$s</string>
+    <string name="falcon_pdf_pro">ฟอลคอน PDF โปร</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF Premium (รายเดือน)</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Premium (รายปี)</string>
+    <string name="pro">โปร</string>
+    <string name="premium">พรีเมียม</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">รับ Falcon PDF Pro หรือ Premium</string>
+    <string name="purchase_desktop_subtitle">การสั่งซื้อจะดำเนินการผ่านเว็บไซต์ของเรา คลิกด้านล่างเพื่อดูแพ็กเกจและราคา</string>
+    <string name="purchase_desktop_open_website">ดูแผน &amp; ราคา</string>
+    <string name="purchase_desktop_already_purchased">ซื้อแล้วหรือยัง? เข้าสู่ระบบเพื่อซิงค์แผนของคุณ</string>
+    <string name="purchase_store_build_subtitle">การสมัครสมาชิกของคุณจะปลดล็อกฟีเจอร์ Pro บนอุปกรณ์ทั้งหมดของคุณ ลงชื่อเข้าใช้เพื่อซิงค์แผนของคุณ</string>
+    <string name="ai_read_aloud">AI อ่านออกเสียง</string>
+    <string name="full_pdf_editing__form_filling">การแก้ไข PDF เต็มรูปแบบ &amp; การกรอกแบบฟอร์ม</string>
+    <string name="crossdevice_sync_via_drive">การซิงค์ข้อมูลข้ามอุปกรณ์ผ่าน Google Drive</string>
+    <string name="adfree_no_watermark">ไม่มีโฆษณา ไม่มีลายน้ำ</string>
+    <string name="export_to_word__excel">ส่งออกไปยัง Word &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">ธีมหลากหลาย &amp; พื้นหลังหน้าเว็บ</string>
+    <string name="ai_summaries_with_stronger_reasoning">บทสรุป AI ที่ให้เหตุผลได้แข็งแกร่งยิ่งขึ้น</string>
+    <string name="no_limits_on_60_pdf_tools">ไม่มีข้อจำกัดในการใช้งานเครื่องมือ PDF กว่า 60 รายการ</string>
+    <string name="full_text_editing_in_pdfs">การแก้ไขข้อความแบบเต็มรูปแบบในไฟล์ PDF</string>
+    <string name="digital_signatures_dscesign">ลายเซ็นดิจิทัล (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">การซิงค์เอกสารที่สแกนแบบไม่จำกัดจำนวน</string>
+    <string name="biometric_document_lock">ระบบล็อกเอกสารไบโอเมตริกซ์</string>
+    <string name="everything_in_pro_all_devices">ทุกอย่างในเวอร์ชัน Pro สำหรับทุกอุปกรณ์</string>
+    <string name="introductory_offer">ข้อเสนอพิเศษสำหรับผู้เริ่มต้น</string>
+    <string name="limited_time__30_off">ส่วนลด 30% เฉพาะช่วงเวลาจำกัด</string>
+    <string name="date__time">วันที่ &amp; เวลา</string>
+    <string name="amount">จำนวน</string>
+    <string name="platform">แพลตฟอร์ม</string>
+    <string name="type">พิมพ์</string>
+    <string name="expires_on">หมดอายุในวันที่</string>
+</resources>

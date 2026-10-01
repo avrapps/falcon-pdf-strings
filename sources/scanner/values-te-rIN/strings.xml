@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">స్కాన్</string>
+    <string name="scan_home_documents">పత్రాలు</string>
+    <string name="scan_home_documents_lowercase">పత్రాలు</string>
+    <string name="scan_home_documents_count">%1$d పత్రాలు</string>
+    <string name="scan_home_no_documents">ఇంకా పత్రాలు లేవు</string>
+    <string name="scan_home_start_scanning">మీ మొదటి పత్రాన్ని సృష్టించడానికి స్కాన్ చేయడం ప్రారంభించండి</string>
+    <string name="scan_home_new_folder">కొత్త ఫోల్డర్</string>
+    <string name="scan_home_scan_document">పత్రాన్ని స్కాన్ చేయండి</string>
+    <string name="scan_home_import_gallery">గ్యాలరీ నుండి దిగుమతి చేసుకోండి</string>
+    <string name="scan_home_parent_folder">పేరెంట్ ఫోల్డర్</string>
+    <string name="scan_home_go_back">పేరెంట్ ఫోల్డర్‌కు తిరిగి వెళ్లండి</string>
+    <string name="scan_home_create_folder">కొత్త ఫోల్డర్‌ను సృష్టించండి</string>
+    <string name="scan_home_enter_folder_name">కొత్త ఫోల్డర్‌కు పేరును నమోదు చేయండి</string>
+    <string name="scan_home_folder_name">ఫోల్డర్ పేరు</string>
+    <string name="scan_home_folder_placeholder">ఉదాహరణకు, పని పత్రాలు</string>
+    <string name="scan_home_folder_error">ఫోల్డర్ పేరు ఖాళీగా ఉండకూడదు</string>
+    <string name="scan_home_folder_name_empty">ఫోల్డర్ పేరు ఖాళీగా ఉండకూడదు</string>
+    <string name="scan_home_create">సృష్టించండి</string>
+    <string name="scan_home_folder_exists">ఈ పేరుతో ఒక ఫోల్డర్ ఇప్పటికే ఉంది</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">కెమెరా</string>
+    <string name="scan_camera_permission_required">కెమెరా అనుమతి అవసరం</string>
+    <string name="scan_camera_permission_message">ఈ యాప్‌కు డాక్యుమెంట్‌లను స్కాన్ చేయడానికి కెమెరా యాక్సెస్ అవసరం.</string>
+    <string name="scan_camera_permission_settings">దయచేసి సెట్టింగ్స్ &gt; యాప్స్ &gt; PDF వ్యూయర్ &gt; అనుమతులకు వెళ్లి కెమెరా అనుమతిని ఎనేబుల్ చేయండి.</string>
+    <string name="scan_camera_permission_title">కెమెరా అనుమతి అవసరం</string>
+    <string name="scan_camera_request_permission">అనుమతి కోరండి</string>
+    <string name="scan_camera_open_settings">సెట్టింగ్‌లను తెరవండి</string>
+    <string name="scan_camera_close">మూసివేయండి</string>
+    <string name="scan_camera_flash">ఫ్లాష్</string>
+    <string name="scan_camera_auto_capture">ఆటో క్యాప్చర్</string>
+    <string name="scan_camera_settings">సెట్టింగ్‌లు</string>
+    <string name="scan_camera_ready_batch">బహుళ పేజీలను స్కాన్ చేయడానికి సిద్ధంగా ఉంది</string>
+    <string name="scan_camera_ready_multiple">బహుళ పేజీలను స్కాన్ చేయడానికి సిద్ధంగా ఉంది</string>
+    <string name="scan_camera_hold_steady">స్కాన్ చేస్తున్నప్పుడు స్థిరంగా పట్టుకోండి</string>
+    <string name="scan_camera_captured_pages">%1$d పేజీలు సంగ్రహించబడ్డాయి</string>
+    <string name="scan_camera_mode_single">ఒంటరి</string>
+    <string name="scan_camera_mode_batch">బ్యాచ్</string>
+    <string name="scan_camera_preview">ప్రివ్యూ</string>
+    <string name="scan_camera_finish">ముగించు</string>
+    <string name="scan_camera_starting">కెమెరాను ప్రారంభిస్తోంది...</string>
+    <string name="scan_camera_document_name">పత్రం పేరు</string>
+    <string name="scan_camera_document_name_empty">పత్రం పేరు ఖాళీగా ఉండకూడదు</string>
+    <string name="scan_camera_save_document">పత్రాన్ని భద్రపరచండి</string>
+    <string name="scan_camera_processing">ప్రాసెస్ అవుతోంది...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">కత్తిరించు &amp; సర్దుబాటు</string>
+    <string name="scan_crop_close">మూసివేయండి</string>
+    <string name="scan_crop_reset">రీసెట్</string>
+    <string name="scan_crop_rotate">తిప్పండి</string>
+    <string name="scan_crop_done">పూర్తయింది</string>
+    <string name="scan_crop_scanned_document">స్కాన్ చేసిన పత్రం</string>
+    <string name="scan_crop_magnified_view">విస్తరించిన దృశ్యం</string>
+    <string name="scan_crop_processing">ప్రాసెస్ అవుతోంది...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">మెరుగుపరచండి</string>
+    <string name="scan_filter_close">మూసివేయండి</string>
+    <string name="scan_filter_rotate">తిప్పండి</string>
+    <string name="scan_filter_done">పూర్తయింది</string>
+    <string name="scan_filter_filters">ఫిల్టర్లు</string>
+    <string name="scan_filter_original">అసలైన</string>
+    <string name="scan_filter_magic">మాయాజాలం</string>
+    <string name="scan_filter_lighten">తేలికపరచండి</string>
+    <string name="scan_filter_bw">బి&amp;డబ్ల్యూ</string>
+    <string name="scan_filter_grayscale">గ్రేస్కేల్</string>
+    <string name="scan_filter_magic_2">క్లీన్ డాక్</string>
+    <string name="scan_filter_soft_scan">సాఫ్ట్ స్కాన్</string>
+    <string name="scan_filter_color_enhance">రంగు+</string>
+    <string name="scan_filter_ink_saver">ఇంక్ సేవర్</string>
+    <string name="scan_filter_premium">ప్రీమియం ఫీచర్</string>
+    <string name="scan_filter_filtered_document">ఫిల్టర్ చేయబడిన పత్రం</string>
+    <string name="scan_filter_applying">ఫిల్టర్ వర్తింపజేస్తోంది...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">రద్దు చేయండి</string>
+    <string name="scan_share">పంచుకోండి</string>
+    <string name="scan_move">కదలండి</string>
+    <string name="scan_move_to_folder">ఫోల్డర్‌కు తరలించండి</string>
+    <string name="scan_delete">తొలగించు</string>
+    <string name="scan_rename">పేరు మార్చండి</string>
+    <string name="scan_root">రూట్</string>
+    <string name="scan_select_destination">గమ్యస్థాన ఫోల్డర్‌ను ఎంచుకోండి</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">పత్రం</string>
+    <string name="scan_document_back">వెనుక</string>
+    <string name="scan_document_pages">పేజీలు</string>
+    <string name="scan_document_add_pages">ఈ పత్రానికి పేజీలను జోడించండి</string>
+    <string name="scan_document_add_page_button">పేజీని జోడించండి</string>
+    <string name="scan_document_rename">పేరు మార్చండి</string>
+    <string name="scan_document_share">పంచుకోండి</string>
+    <string name="scan_document_more">మరిన్ని</string>
+    <string name="scan_document_pages_count">%1$d పేజీలు</string>
+    <string name="scan_document_no_pages">ఇంకా పేజీలు లేవు</string>
+    <string name="scan_document_scan_page">పేజీని స్కాన్ చేయండి</string>
+    <string name="scan_document_import_page">గ్యాలరీ నుండి దిగుమతి చేసుకోండి</string>
+    <string name="scan_document_grid_view">గ్రిడ్ వీక్షణ</string>
+    <string name="scan_document_list_view">జాబితా వీక్షణ</string>
+    <string name="scan_document_continuous_view">నిరంతర వీక్షణ</string>
+    <string name="scan_document_page_number">పేజీ %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">పేజీ</string>
+    <string name="scan_page_back">వెనుక</string>
+    <string name="scan_page_share">పంచుకోండి</string>
+    <string name="scan_page_delete">తొలగించు</string>
+    <string name="scan_page_of">%1$d of %2$d</string>
+    <string name="scan_page_image_not_found">చిత్రం కనుగొనబడలేదు</string>
+    <string name="scan_page_retake">తిరిగి తీసుకోండి</string>
+    <string name="scan_page_crop">పంట</string>
+    <string name="scan_page_enhance">మెరుగుపరచండి</string>
+    <string name="scan_page_ocr">ఓసిఆర్</string>
+    <string name="scan_page_save_gallery">గ్యాలరీలో సేవ్ చేయండి</string>
+    <string name="scan_page_saved_to_gallery">చిత్రం గ్యాలరీలో సేవ్ చేయబడింది</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">పత్రం తొలగించాలా?</string>
+    <string name="scan_delete_document_message">మీరు నిజంగా "%1$s" ను తొలగించాలనుకుంటున్నారా? ఇది ఈ పత్రంలోని అన్ని పేజీలను శాశ్వతంగా తొలగిస్తుంది. ఈ చర్యను రద్దు చేయడం సాధ్యపడదు.</string>
+    <string name="scan_rename_document">పత్రం పేరు మార్చండి</string>
+    <string name="scan_rename_enter_name">పత్రానికి కొత్త పేరును నమోదు చేయండి</string>
+    <string name="scan_rename_document_name">పత్రం పేరు</string>
+    <string name="scan_rename_error">పత్రం పేరు ఖాళీగా ఉండకూడదు</string>
+    <string name="scan_dialog_delete_document_title">పత్రం తొలగించాలా?</string>
+    <string name="scan_dialog_delete_document_message">మీరు నిజంగా "%1$s" ను తొలగించాలనుకుంటున్నారా? ఇది ఈ పత్రంలోని అన్ని పేజీలను శాశ్వతంగా తొలగిస్తుంది. ఈ చర్యను రద్దు చేయడం సాధ్యపడదు.</string>
+    <string name="scan_dialog_delete_confirm">తొలగించు</string>
+    <string name="scan_dialog_cancel">రద్దు చేయండి</string>
+    <string name="scan_dialog_move_title">ఫోల్డర్‌కు తరలించండి</string>
+    <string name="scan_dialog_move_message">గమ్యస్థాన ఫోల్డర్‌ను ఎంచుకోండి</string>
+    <string name="scan_dialog_move_confirm">కదలండి</string>
+    <string name="scan_dialog_move_root">మూలం</string>
+    <string name="scan_dialog_move_selected">ఎంపిక చేయబడింది</string>
+    <string name="scan_dialog_rename_title">పత్రం పేరు మార్చండి</string>
+    <string name="scan_dialog_rename_message">పత్రానికి కొత్త పేరును నమోదు చేయండి</string>
+    <string name="scan_dialog_rename_label">పత్రం పేరు</string>
+    <string name="scan_dialog_rename_error">పత్రం పేరు ఖాళీగా ఉండకూడదు</string>
+    <string name="scan_dialog_rename_confirm">పేరు మార్చండి</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">పంచుకోండి</string>
+    <string name="scan_menu_move">ఫోల్డర్‌కు తరలించండి</string>
+    <string name="scan_menu_delete">తొలగించు</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">కెమెరా ప్రివ్యూ\n(త్వరలో వస్తుంది)</string>
+    <string name="scan_platform_desktop_camera">డెస్క్‌టాప్ కెమెరా ప్రివ్యూ\n(త్వరలో వస్తుంది)</string>
+    <string name="scan_platform_ios_camera">iOS కెమెరా ప్రివ్యూ\n(త్వరలో వస్తుంది)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">మూసివేయండి</string>
+    <string name="flash">ఫ్లాష్</string>
+    <string name="auto_capture">ఆటో క్యాప్చర్</string>
+    <string name="settings">సెట్టింగ్‌లు</string>
+    <string name="capture">క్యాప్చర్</string>
+    <string name="finish">ముగించు</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">మీరు నిజంగా %1ను తొలగించాలనుకుంటున్నారా? దానిలోని పత్రాలన్నీ కూడా తొలగించబడతాయి.</string>
+    <string name="share">పంచుకోండి</string>
+    <string name="share_as_images">చిత్రాలుగా పంచుకోండి</string>
+    <string name="share_as_pdf">PDFగా పంచుకోండి</string>
+    <string name="move_to_folder">ఫోల్డర్‌కు తరలించండి</string>
+    <string name="delete">తొలగించు</string>
+    <string name="selected">ఎంపిక చేయబడింది</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">పేజీ %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">ఫోల్డర్ ఖాళీగా ఉంది</string>
+    <string name="tap_the__button_to_scan_a_docu">పత్రాన్ని స్కాన్ చేయడానికి + బటన్‌ను నొక్కండి</string>
+    <string name="str______pages">%1$s • %2$s • %3$s పేజీలు</string>
+    <string name="create_folder">ఫోల్డర్‌ను సృష్టించండి</string>
+    <string name="more_options">మరిన్ని ఎంపికలు</string>
+    <string name="document_thumbnail">పత్రం సూక్ష్మచిత్రం</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">చిత్రం కనుగొనబడలేదు</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — పేజీ %2$d</string>
+    <string name="scan_ocr_title">టెక్స్ట్ గుర్తింపు</string>
+    <string name="scan_ocr_copy">వచనాన్ని కాపీ చేయండి</string>
+    <string name="scan_ocr_no_text">ఎటువంటి వచనం కనుగొనబడలేదు</string>
+    <string name="scan_ocr_processing">టెక్స్ట్‌ను గుర్తించడం…</string>
+    <string name="scan_ocr_error">టెక్స్ట్‌ను గుర్తించడంలో విఫలమైంది</string>
+    <string name="scan_ocr_not_supported">ఈ ప్లాట్‌ఫారమ్‌లో OCR సపోర్ట్ చేయబడదు</string>
+    <string name="scan_ocr_image">OCR కోసం స్కాన్ చేసిన పేజీ</string>
+    <string name="gallery">గ్యాలరీ</string>
+    <string name="select_file">ఫైల్‌ను ఎంచుకోండి</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">చిత్రాన్ని తీయడంలో విఫలమయ్యాను</string>
+    <string name="error_no_images_captured">చిత్రాలు తీయబడలేదు</string>
+    <string name="error_open_settings">సెట్టింగ్‌లను తెరవడంలో విఫలమయ్యాను</string>
+    <string name="error_process_images">చిత్రాలను ప్రాసెస్ చేయడంలో విఫలమైంది</string>
+    <string name="error_process_image">చిత్రాన్ని ప్రాసెస్ చేయడంలో విఫలమైంది</string>
+    <string name="error_start_camera">కెమెరాను ప్రారంభించడంలో విఫలమైంది</string>
+    <string name="error_stop_camera">కెమెరాను ఆపడంలో విఫలమయ్యారు</string>
+    <string name="error_crop_image">చిత్రాన్ని కత్తిరించడంలో విఫలమయ్యారు</string>
+    <string name="error_delete_document">పత్రాన్ని తొలగించడంలో విఫలమయ్యారు</string>
+    <string name="error_delete_page">పేజీని తొలగించడంలో విఫలమయ్యారు</string>
+    <string name="error_load_document">పత్రం లోడ్ చేయడంలో విఫలమైంది</string>
+    <string name="error_load_page">పేజీని లోడ్ చేయడంలో విఫలమైంది</string>
+    <string name="error_move_document">పత్రాన్ని తరలించడంలో విఫలమయ్యారు</string>
+    <string name="error_no_pages_to_share">పంచుకోవడానికి పేజీలు లేవు</string>
+    <string name="error_rename_document">పత్రం పేరు మార్చడంలో విఫలమయ్యారు</string>
+    <string name="error_reorder_pages">పేజీలను తిరిగి అమర్చడంలో విఫలమయ్యారు</string>
+    <string name="error_share_images">చిత్రాలను పంచుకోవడంలో విఫలమయ్యారు</string>
+    <string name="error_share_pdf">PDFని షేర్ చేయడంలో విఫలమయ్యారు</string>
+    <string name="error_share_page">పేజీని షేర్ చేయడంలో విఫలమయ్యారు</string>
+    <string name="error_create_folder">ఫోల్డర్‌ను సృష్టించడంలో విఫలమైంది</string>
+    <string name="error_delete_folder">ఫోల్డర్‌ను తొలగించడంలో విఫలమైంది</string>
+    <string name="error_rename_folder">ఫోల్డర్ పేరు మార్చడంలో విఫలమైంది</string>
+    <string name="error_unknown">తెలియని లోపం సంభవించింది</string>
+    <string name="folder_not_found">ఫోల్డర్ కనుగొనబడలేదు</string>
+    <string name="sync_documents">పత్రాలను సమకాలీకరించండి</string>
+    <string name="shutter_scale">షట్టర్_స్కేల్</string>
+    <string name="import_gallery">దిగుమతి గ్యాలరీ</string>
+    <string name="scan_camera">స్కాన్ కెమెరా</string>
+</resources>

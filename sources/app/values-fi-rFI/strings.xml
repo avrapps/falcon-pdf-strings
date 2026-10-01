@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">PDF-taikaa</string>
+    <string name="app_tagline">Mitä haluaisit tehdä?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">Viimeksi käytetty</string>
+    <string name="home_favorites">Suosikit</string>
+    <string name="home_new_tool">Uusi työkalu</string>
+    <string name="home_featured">ESITTELYSSÄ</string>
+    <string name="home_scan_to_pdf">Skannaa PDF-tiedostoksi</string>
+    <string name="home_scan_description">Muunna paperidokumentit digitaaliseksi taiaksi hetkessä</string>
+    <string name="home_start_scanning">Aloita skannaus</string>
+    <string name="home_all_tools">Kaikki työkalut</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">PDF-työkalut</string>
+    <string name="image_tools">Kuvatyökalut</string>
+    <string name="tools_split">Jakaa</string>
+    <string name="tools_split_description">Pura sivuja</string>
+    <string name="tools_rotate">Kiertää</string>
+    <string name="tools_rotate_description">Korjaa suunta</string>
+    <string name="tools_delete_pages">Poista sivut</string>
+    <string name="tools_delete_pages_description">Poista ei-toivotut</string>
+    <string name="tools_convert">Muuntaa</string>
+    <string name="tools_convert_description">Kuvien lähteet/lähteet</string>
+    <string name="tools_sign">Merkki</string>
+    <string name="tools_sign_description">Lisää allekirjoitus</string>
+    <string name="tools_protect">Suojella</string>
+    <string name="tools_protect_description">Salasanasuojaus</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">PDF-katseluohjelma</string>
+    <string name="pdf_viewer_page_info">Sivu %1$d / %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">Asiakirjaskanneri</string>
+    <string name="scanner_capture">Kaapata</string>
+    <string name="scanner_retake">Ota uudelleen</string>
+    <string name="scanner_save">Tallentaa</string>
+    <!-- Navigation -->
+    <string name="nav_back">Siirry takaisin</string>
+    <string name="nav_settings">Asetukset</string>
+    <string name="nav_more_options">Lisää vaihtoehtoja</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Kotiin</string>
+    <string name="nav_library">Kirjasto</string>
+    <string name="nav_scan">Skannata</string>
+    <string name="nav_tools">Työkalut</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">Selaa tiedostoja</string>
+    <string name="browse_files_subtitle">Tallennustila &amp; Pilvitiedostot</string>
+    <string name="show_hidden_files">Näytä piilotetut tiedostot</string>
+    <string name="hide_hidden_files">Piilota piilotetut tiedostot</string>
+    <string name="refresh_storage">Päivitä tallennustila</string>
+    <string name="no_storage_available">Ei tallennustilaa saatavilla</string>
+    <string name="no_files_found">Ei tiedostoja löytynyt</string>
+    <string name="add_files">Lisää %1$d tiedostoa</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">Tallennuslupa vaaditaan</string>
+    <string name="permission_storage_message">Tämä sovellus tarvitsee pääsyn laitteesi tallennustilaan PDF-tiedostojen selaamiseen ja avaamiseen. Myönnä tallennuslupa jatkaaksesi.</string>
+    <string name="permission_grant">Myönnä lupa</string>
+    <!-- Common Actions -->
+    <string name="action_open">Avata</string>
+    <string name="action_save">Tallentaa</string>
+    <string name="action_share">Jakaa</string>
+    <string name="action_delete">Poistaa</string>
+    <string name="action_cancel">Peruuttaa</string>
+    <string name="action_confirm">Vahvistaa</string>
+    <string name="action_rename">Nimeä uudelleen</string>
+    <string name="action_print">Painaa</string>
+    <string name="action_favorite">Suosikki</string>
+    <string name="action_unfavorite">Poista suosikeista</string>
+    <!-- Document Actions -->
+    <string name="document_share">Jaa dokumentti</string>
+    <string name="document_rename">Nimeä asiakirja uudelleen</string>
+    <string name="document_delete">Poista dokumentti</string>
+    <string name="document_print">Tulosta asiakirja</string>
+    <string name="document_favorite">Lisää suosikkeihin</string>
+    <string name="document_unfavorite">Poista suosikeista</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">Dokumentti jaettiin onnistuneesti</string>
+    <string name="document_share_failed">Dokumentin jakaminen epäonnistui</string>
+    <string name="document_renamed_success">Asiakirja nimettiin uudelleen onnistuneesti</string>
+    <string name="document_rename_failed">Dokumentin uudelleennimeäminen epäonnistui</string>
+    <string name="document_deleted_success">Asiakirja poistettu onnistuneesti</string>
+    <string name="document_delete_failed">Dokumentin poistaminen epäonnistui</string>
+    <string name="document_print_opened">Asiakirja avattiin PDF-oletuskatseluohjelmassa. Tulosta käyttämällä katseluohjelman tulostustoimintoa.</string>
+    <string name="document_print_failed">Asiakirjan tulostaminen epäonnistui</string>
+    <string name="document_added_to_favorites">Lisätty suosikkeihin</string>
+    <string name="document_removed_from_favorites">Poistettu suosikeista</string>
+    <string name="document_favorite_failed">Suosikki-tilan päivittäminen epäonnistui</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">Nimeä asiakirja uudelleen</string>
+    <string name="dialog_rename_hint">Anna uusi nimi</string>
+    <string name="dialog_rename_empty_error">Dokumentin nimi ei voi olla tyhjä</string>
+    <string name="dialog_delete_title">Poista dokumentti</string>
+    <string name="dialog_delete_file_message">Tämä poistaa tiedoston pysyvästi.\n\nPoistetaanko %1$s?</string>
+    <string name="dialog_delete_uri_message">Poistaa vain sovelluksesta. Alkuperäinen tiedosto ei muutu.\n\nPoistetaanko %1$s sovelluksesta?</string>
+    <string name="dialog_delete_confirm">Poistaa</string>
+    <string name="dialog_remove_confirm">Poistaa</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">Nimeää uudelleen vain sovelluksen sisällä. Alkuperäistä tiedostoa ei muuteta.</string>
+    <string name="notice_delete_uri_only">Poistettu sovelluksesta. Alkuperäistä tiedostoa ei muutettu.</string>
+    <string name="notice_file_exists_error">Tämänniminen tiedosto on jo olemassa</string>
+    <string name="notice_file_not_found_error">Tiedostoa ei löytynyt</string>
+    <string name="notice_no_active_document">Ei aktiivista dokumenttia</string>
+    <string name="notice_document_path_unavailable">Asiakirjatiedoston polku ei ole käytettävissä</string>
+    <!-- States -->
+    <string name="state_loading">Ladataan...</string>
+    <string name="state_empty">Ei kohteita löytynyt</string>
+    <string name="state_error">Jokin meni pieleen</string>
+    <string name="state_retry">Yritä uudelleen</string>
+    <!-- Errors -->
+    <string name="error_network">Verkkoyhteys epäonnistui</string>
+    <string name="error_file_not_found">Tiedostoa ei löytynyt</string>
+    <string name="error_permission_denied">Lupa evätty</string>
+    <string name="error_invalid_file">Virheellinen tiedostomuoto</string>
+    <string name="error_password_required">Salasana vaaditaan</string>
+    <string name="error_incorrect_password">Väärä salasana</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">Salasanalla suojattu</string>
+    <string name="password_protected_message">Tämän tiedoston avaamiseen vaaditaan salasana. Kirjoita se alle.</string>
+    <string name="password_label">Salasana</string>
+    <string name="password_placeholder">Syötä salasana</string>
+    <string name="password_unlock">Avata</string>
+    <string name="password_show">Näytä salasana</string>
+    <string name="password_hide">Piilota salasana</string>
+    <!-- Theme -->
+    <string name="theme_light">Valo</string>
+    <string name="theme_dark">Tumma</string>
+    <string name="theme_system">Järjestelmä</string>
+    <string name="theme_adaptive">Mukautuva</string>
+    <string name="theme_custom">Mukautettu</string>
+    <!-- Settings -->
+    <string name="settings_title">Asetukset</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">Tili &amp; Synkronoi</string>
+    <string name="settings_category_sync_subtitle">Hallinnoi tiliäsi, synkronoi &amp; yksityisyyttäsi</string>
+    <string name="settings_category_appearance_title">Ulkonäkö</string>
+    <string name="settings_category_appearance_subtitle">Mukauta sovelluksen ulkoasua &amp; tuntumaa</string>
+    <string name="settings_category_pdf_reader_title">PDF-lukija</string>
+    <string name="settings_category_pdf_reader_subtitle">Oletusarvoinen katseluohjelma &amp; lukukokemus</string>
+    <string name="settings_category_help_title">Apua &amp; Tuki</string>
+    <string name="settings_category_help_subtitle">Dokumentaatio &amp; yhteystiedot</string>
+    <string name="settings_category_general_title">Yleistä</string>
+    <string name="settings_category_general_subtitle">Kieli &amp; sovellustiedot</string>
+    <string name="settings_theme_section">Teema</string>
+    <string name="settings_theme_description">Valitse haluamasi teema</string>
+    <string name="settings_accent_color">KOROSTUSVÄRI</string>
+    <string name="settings_custom_colors">Mukautetut värit</string>
+    <string name="settings_primary_color">Ensisijainen väri</string>
+    <string name="settings_background_color">Taustaväri</string>
+    <string name="settings_surface_color">Pinnan väri</string>
+    <string name="settings_reset_colors">Palauta oletusarvoihin</string>
+    <string name="settings_adaptive_note">Material You mukautuvat värit (Android 12+)</string>
+    <string name="settings_app_section">Sovellusasetukset</string>
+    <string name="settings_notifications">Ilmoitukset</string>
+    <string name="settings_notifications_description">Vastaanota sovellusilmoituksia</string>
+    <string name="settings_auto_backup">Automaattinen varmuuskopiointi</string>
+    <string name="settings_auto_backup_description">Varmuuskopioi asiakirjat automaattisesti</string>
+    <string name="settings_change_color">Vaihda väriä</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">PDF-dokumenttisi näkyvät täällä</string>
+    <string name="scan_description">Skannaa asiakirjat PDF-muotoon</string>
+    <string name="tools_description">PDF-tiedostojen muokkaus- ja käsittelytyökalut</string>
+    <string name="home_description">Käytä ominaisuuksiin pääsyä alareunassa olevaa navigointia</string>
+    <!-- Sort Options -->
+    <string name="sort_name">Nimi</string>
+    <string name="sort_date">Päivämäärä</string>
+    <string name="sort_size">Koko</string>
+    <string name="sort_option_name">Nimi</string>
+    <string name="sort_option_last_opened">Viimeksi avattu</string>
+    <string name="sort_option_last_modified">Viimeksi muokattu</string>
+    <string name="sort_option_file_size">Tiedoston koko</string>
+    <!-- View Types -->
+    <string name="view_type_list">Listanäkymä</string>
+    <string name="view_type_table">Taulukkonäkymä</string>
+    <string name="view_type_grid">Ruudukkonäkymä</string>
+    <!-- File Properties -->
+    <string name="file_name">Tiedoston nimi</string>
+    <string name="date_modified">Muokkauspäivämäärä</string>
+    <string name="file_size">Koko</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">Ei aloitettu</string>
+    <string name="file_status_completed">Valmis</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">PDF-dokumentti</string>
+    <string name="document_type_word">Word-asiakirja</string>
+    <string name="document_type_excel">Excel-taulukko</string>
+    <string name="document_type_image">Kuvatiedosto</string>
+    <string name="document_type_other">Asiakirja</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">Kaikki tiedostot</string>
+    <string name="filter_recent">Viimeaikaiset</string>
+    <string name="filter_pdfs">PDF-tiedostot</string>
+    <string name="filter_images">Kuvat</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">Kotiin</string>
+    <string name="browse_tab">Selaa</string>
+    <string name="starred_tab">Tähdellä merkitty</string>
+    <string name="settings_tab">Asetukset</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">Vaihda teemaa</string>
+    <string name="accessibility_menu">Valikko</string>
+    <string name="accessibility_close">Lähellä</string>
+    <string name="accessibility_color_picker">Värivalitsin</string>
+    <!-- Library Screen -->
+    <string name="library_title">Kirjasto</string>
+    <string name="library_subtitle">Tiedostojen hallinta, Viimeisimmät &amp; Suosikit</string>
+    <string name="library_search_placeholder">Hae tiedostoja...</string>
+    <string name="library_selected_count">%1$d valittu</string>
+    <string name="library_open_from_device">Avaa laitteelta\n</string>
+    <string name="library_browse_files">Selaa\ntiedostoja</string>
+    <string name="library_action_open">Avata</string>
+    <string name="library_action_share">Jakaa</string>
+    <string name="library_action_remove">Poistaa</string>
+    <string name="library_action_delete">Poistaa</string>
+    <string name="library_clear_search">Tyhjennä haku</string>
+    <string name="library_close_search">Sulje haku</string>
+    <string name="library_select_all">Valitse kaikki tiedostot</string>
+    <string name="library_exit_multiselect">Poistu monivalintatilasta</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">Apua &amp; Tuki</string>
+    <string name="help_support_subtitle">Usein kysytyt kysymykset, Yhteystiedot &amp; Lakitiedot</string>
+    <string name="settings_pdf_subtitle">Vieritä, Näytä &amp; Asettelu</string>
+    <string name="help_header_title">Kuinka voimme auttaa?</string>
+    <string name="help_header_subtitle">Our team is here to ensure you have the\nbest PDF experience.</string>
+    <string name="help_contact_us">Ota yhteyttä</string>
+    <string name="help_contact_subtitle">Ota yhteyttä tukeen</string>
+    <string name="help_faq">Usein kysytyt kysymykset</string>
+    <string name="help_faq_subtitle">Yleisiin kysymyksiin vastattu</string>
+    <string name="help_privacy_policy">Tietosuojakäytäntö</string>
+    <string name="help_privacy_subtitle">Kuinka suojaamme tietojasi</string>
+    <string name="help_terms_service">Palveluehdot</string>
+    <string name="help_terms_subtitle">Hakemuksen säännöt</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">Synkronoi mobiilidatalla</string>
+    <string name="background_sync">Taustasynkronointi</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">PDF-lukijan asetukset</string>
+    <string name="pdf_settings_coming_soon">Tulossa pian</string>
+    <string name="pdf_settings_description">Määritä vieritystoiminnot, katselutilat ja lukuasetukset</string>
+    <!-- General Settings -->
+    <string name="settings_language">Kieli</string>
+    <string name="settings_pdf_reader">PDF-lukijan asetukset</string>
+    <string name="settings_help_support">Apua &amp; Tuki</string>
+    <string name="settings_whats_new">Mitä uutta</string>
+    <string name="settings_download_desktop">Asenna toiselle laitteelle</string>
+    <string name="settings_rate_app">Arvostele sovellus</string>
+    <string name="play_store_not_found">Play Kauppaa ei löydy tältä laitteelta</string>
+    <string name="settings_set_as_default">Aseta PDF-oletuskatseluohjelmaksi</string>
+    <string name="settings_set_as_default_subtitle">Avaa PDF-tiedostot tällä sovelluksella oletuksena</string>
+    <string name="settings_default_pdf_instructions_title">Kuinka asettaa oletukseksi</string>
+    <string name="settings_default_pdf_ok">Selvä</string>
+    <string name="settings_default_app_hint">Ei toiminut?</string>
+    <string name="settings_default_app_hint_learn_more">Lue lisää</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">Kieli</string>
+    <string name="language_search_placeholder">Hae kieliä...</string>
+    <!-- Common UI -->
+    <string name="support">Tukea</string>
+    <string name="language_english">englanti</string>
+    <string name="language_hindi">हिंदी</string>
+    <string name="language_spanish">espanjaksi</string>
+    <string name="language_french">ranska</string>
+    <string name="language_german">Saksa</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">portugali</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">SOVELLUKSEN ULKONÄKÖ</string>
+    <string name="theme">TEEMA</string>
+    <string name="general">YLEISTÄ</string>
+    <string name="new">UUSI</string>
+    <string name="navigate">Navigoida</string>
+    <string name="download">Lataa</string>
+    <string name="falcon_pdf">Haukka PDF</string>
+    <string name="excellence_in_every_pixel">Erinomaisuutta jokaisessa pikselissä</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">KÄYTÄ MUUTOKSET</string>
+    <string name="apply">Käytä</string>
+    <string name="selected">Valittu</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">Synkronointiasetukset</string>
+    <string name="autosync_on_wifi">Automaattinen synkronointi Wi-Fi-yhteydellä</string>
+    <string name="sync_reading_progress">Synkronoi lukuedistyminen</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">Asiakirjan nimi</string>
+    <string name="name_cannot_be_empty">Nimi ei voi olla tyhjä</string>
+    <string name="str__failed">%1$s Epäonnistui</string>
+    <string name="ok">OK</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">Päivityspaketti - Nykyinen paketti: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">Pudota avataksesi tiedoston</string>
+    <string name="release_to_import_and_open_pdf">Vapauta PDF-tiedostojen tuomiseksi ja avaamiseksi</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">Poistaa</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF-tiedosto</string>
+    <string name="images">Kuvat</string>
+    <string name="filter_all_types">Kaikki tiedostot</string>
+    <string name="favorites">Suosikkitiedostot</string>
+    <string name="recent">Viimeaikaiset</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">Hae asiakirjoja...</string>
+    <string name="voice_search">Äänihaku</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">Viimeisimmät tiedostot</string>
+    <string name="loading_recent_files">Ladataan viimeisimpiä tiedostoja...</string>
+    <string name="no_recent_files">Ei viimeaikaisia tiedostoja</string>
+    <string name="no_favorites">Ei suosikkeja</string>
+    <string name="mark_files_as_favorite_to_see_them_here">Merkitse tiedostot suosikeiksi nähdäksesi ne täällä</string>
+    <string name="open_some_pdf_files_to_see_the">Avaa joitakin PDF-tiedostoja nähdäksesi ne täällä</string>
+    <string name="status">Status</string>
+    <string name="actions">Toiminnot</string>
+    <string name="select_all">Valitse kaikki</string>
+    <string name="enter_multiselect_mode">Siirry monivalintatilaan</string>
+    <string name="sorted_ascending">Lajiteltu nousevaan järjestykseen</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">Tallennustila: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">Lisää %1$s tiedostoa</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">Vaihda näkymätyyppiä</string>
+    <string name="filter_">Suodatin: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">Ladataan PDF-tiedostoa...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">Kirjaudu sisään synkronoidaksesi</string>
+    <string name="protect_your_library_files">Suojaa kirjastotiedostosi</string>
+    <string name="sign_in">Kirjaudu sisään</string>
+    <string name="sign_out">Kirjaudu ulos</string>
+    <string name="sign_in_dialog_title">Kirjaudu Falcon PDF -tiedostoon</string>
+    <string name="sign_in_dialog_subtitle">PDF-kirjastosi kaikkialla.</string>
+    <string name="sign_in_with_google">Kirjaudu sisään Googlella</string>
+    <string name="sign_in_with_apple">Kirjaudu sisään Applella</string>
+    <string name="apple_user_drive_unavailable">Google Driven synkronointi ei ole käytettävissä Apple-kirjautumisen kanssa</string>
+    <string name="apple_user_link_google">Yhdistä Google-tili Drive-synkronointia varten</string>
+    <string name="apple_user_sync_info">Ota pilvisynkronointi käyttöön linkittämällä Google-tili</string>
+    <string name="link_google_account">Yhdistä Google-tili</string>
+    <string name="signed_in_successfully">Kirjautuminen onnistui</string>
+    <string name="signed_out_successfully">Uloskirjautuminen onnistui</string>
+    <string name="sync_disabled_free">Synkronointi on poistettu käytöstä ilmaisilla tileillä.</string>
+    <string name="storage_disabled_grant_access">Tallennustila on poistettu käytöstä. Aloita myöntämällä aseman käyttöoikeus.</string>
+    <string name="upgrade_to_pro">Päivitä Pro-tasolle</string>
+    <string name="grant_drive_access">Myönnä aseman käyttöoikeus</string>
+    <string name="files_synced">%1$d/%2$d Synkronoidut tiedostot</string>
+    <string name="synced_count">%1$d Synkronoitu</string>
+    <string name="unlimited_sync_active">RAJATON SYNKRONOINTI</string>
+    <string name="missing_drive_permissions">Puuttuvia Driven käyttöoikeuksia. Synkronointi on tällä hetkellä estetty.</string>
+    <string name="drive_access_revoked">Aseman käyttöoikeus peruutettu. Yhdistä uudelleen jatkaaksesi synkronointia.</string>
+    <string name="upgrade_premium">Päivitä Premium-tasolle</string>
+    <string name="manage_account">Hallinnoi tiliä</string>
+    <string name="sync_now">Synkronoi nyt</string>
+    <string name="tier_free">ILMAINEN</string>
+    <string name="tier_pro">AMMATTILAINEN</string>
+    <string name="tier_premium">PREMIUM</string>
+    <string name="status_paused">TAUKOLLINEN</string>
+    <!-- Common -->
+    <string name="navigate_back">Siirry takaisin</string>
+    <string name="dismiss">Hylkää</string>
+    <string name="cancel">Peruuttaa</string>
+    <string name="back">Takaisin</string>
+    <string name="search">Haku</string>
+    <string name="more_actions">Lisää toimintoja</string>
+    <string name="share">Jakaa</string>
+    <string name="delete">Poistaa</string>
+    <string name="remove_from_recents">Poista viimeisimmistä</string>
+    <string name="open">Avata</string>
+    <string name="all">Kaikki</string>
+    <string name="sort_by_">Lajittele %1$smukaan</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Google Driven synkronointi</string>
+    <string name="syncing">Synkronoidaan...</string>
+    <string name="sync_completed">Synkronointi valmis</string>
+    <string name="sync_failed">Synkronointi epäonnistui</string>
+    <string name="sync_limit_exceeded">Synkronointiraja ylitetty. %s -sopimuksesi sallii %d tiedostoa.</string>
+    <string name="sync_no_drive_access">Google Driven käyttöoikeus ei ole käytettävissä</string>
+    <string name="sync_network_unavailable">Verkko ei ole käytettävissä</string>
+    <string name="sync_last_sync">Viimeisin synkronointi: %s</string>
+    <string name="sync_total_files">Kokonais</string>
+    <string name="sync_synced_files">Synkronoitu</string>
+    <string name="sync_failed_files">Epäonnistui</string>
+    <string name="sync_conflict_files">Konfliktit</string>
+    <string name="sync_add_to_favorites">Lisää suosikkeihin</string>
+    <string name="sync_remove_from_favorites">Poista suosikeista</string>
+    <string name="sync_conflict_title">Synkronointiristiriidat</string>
+    <string name="sync_conflict_message">Seuraavissa tiedostoissa on ristiriitoja, jotka vaativat ratkaisua:</string>
+    <string name="sync_conflict_explanation">Konflikteja syntyy, kun sekä paikallisia että etäversioita on muokattu.</string>
+    <string name="sync_plan_limit">Synkronointi: %d/%d</string>
+    <string name="sync_plan_limit_reached">Raja saavutettu</string>
+    <string name="sync_plan_unlimited">Rajoittamaton synkronointi</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">Ohita</string>
+    <string name="welcome_next">Seuraava</string>
+    <string name="welcome_get_started">Aloita</string>
+    <string name="welcome_sign_in_get_started">Kirjaudu sisään &amp; Aloita</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Lue mikä tahansa dokumentti&lt;/b&gt; Välittömästi</string>
+    <string name="welcome_slide1_description">Avaa ja hallinnoi yli 10 dokumenttimuotoa, mukaan lukien PDF, DOC, EPUB ja MOBI.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Lue PDF-tiedostoja, e-kirjoja,&lt;/b&gt; ja toimistoasiakirjoja yhdessä paikassa</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Lisää dokumentit suosikkeihin&lt;/b&gt; ja käytä niitä eri laitteilla.</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;Kommentoi,&lt;/b&gt; korosta ja tee yhteistyötä helposti</string>
+    <string name="welcome_slide1_footer">Universaali dokumenttienlukija</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;Muokkaa, skannaa ja järjestele&lt;/b&gt; PDF-tiedostoja</string>
+    <string name="welcome_slide2_description">Kaikki mitä tarvitset PDF-tiedostojen luomiseen, muokkaamiseen ja hallintaan yhdessä tehokkaassa työkalupakissa.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;Muokkaa tekstiä,&lt;/b&gt; lisää merkintöjä, korosta ja täytä lomakkeita</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Skannaa dokumentteja&lt;/b&gt; ja muunna ne PDF-tiedostoiksi välittömästi</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;Yli 30 työkalua&lt;/b&gt; mukaan lukien yhdistäminen, muuntaminen, pakkaus ja suojaus</string>
+    <string name="welcome_slide2_footer">Kaikenkattava PDF-työtilasi</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;Tekoäly, joka ymmärtää&lt;/b&gt; dokumenttisi</string>
+    <string name="welcome_slide3_description">Säästä tunteja tekoälyn avulla, joka lukee ja analysoi dokumentit puolestasi.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Tiivistä&lt;/b&gt; pitkiä dokumentteja sekunneissa</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; skannatut sivut ja käännä teksti välittömästi</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Kuuntele&lt;/b&gt; dokumentteja sisäänrakennetulla ääneenlukutoiminnolla</string>
+    <string name="welcome_slide3_footer">Ei mainoksia. Vain tuottavuutta.</string>
+    <string name="grace">ARMO</string>
+    <string name="unable_to_verify_subscription_limited_ac">Tilauksen vahvistaminen epäonnistui. Käyttöoikeus on rajoitettu, kunnes yhteys on palautettu.</string>
+    <string name="retry_verification">Yritä vahvistusta uudelleen</string>
+    <string name="guest_state">Vierasvaltio</string>
+    <string name="free_tier">Ilmainen taso</string>
+    <string name="free_tier__locked">Ilmainen taso - Lukittu</string>
+    <string name="pro_tier">Pro-taso</string>
+    <string name="pro_tier__restricted">Pro-taso - Rajoitettu</string>
+    <string name="premium_tier">Premium-taso</string>
+    <string name="premium_tier__error">Premium-taso - Virhe</string>
+    <string name="refresh_plan_status">Päivitä suunnitelman tila</string>
+    <string name="user_avatar">Käyttäjän avatar</string>
+    <string name="debug_tools">Virheenkorjaustyökalut</string>
+    <string name="authentication__drive">Todennus &amp; Asema</string>
+    <string name="auth_state">Valtuutustila</string>
+    <string name="revoke_drive_access">Peruuta aseman käyttöoikeus</string>
+    <string name="image">Kuva</string>
+    <string name="thumbnail">Pienoiskuva</string>
+    <string name="manage_preferences">Hallinnoi asetuksia</string>
+    <string name="tools_history">Työkalujen historia</string>
+    <string name="manage_recent_logs">Hallinnoi viimeisimpiä lokeja</string>
+    <string name="more_options">Lisää vaihtoehtoja</string>
+    <string name="clear_all_history">Tyhjennä kaikki historiatiedot</string>
+    <string name="no_history_yet">Ei vielä historiaa</string>
+    <string name="your_pdf_tool_operations_will_appear_her">PDF-työkalusi toiminnot näkyvät tässä</string>
+    <string name="view">Näytä</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">Tallennettu %1$s</string>
+    <string name="history_status_processing">Käsittely</string>
+    <string name="history_status_succeeded">ONNISTUIN</string>
+    <string name="history_status_failed">EPÄONNISTUI</string>
+    <string name="history_status_processing_upper">KÄSITTELY</string>
+    <string name="history_unknown_files">Tuntemattomat tiedostot</string>
+    <string name="history_op_complete">%1$s Valmis!</string>
+    <string name="history_op_failed">%1$s Epäonnistui</string>
+    <string name="history_op_success_multiple">Toiminto suoritettiin onnistuneesti %1$d tiedostolla</string>
+    <string name="history_op_success_single">Toiminto suoritettu onnistuneesti</string>
+    <string name="history_op_error">Emme voineet suorittaa toimintoa loppuun</string>
+    <string name="history_multiple_files">%1$d tiedostoa</string>
+    <string name="history_failed">Epäonnistui</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">Pilvisynkronointi</string>
+    <string name="cloud_sync_subtitle">Yhdistetyt laitteet</string>
+    <string name="cloud_sync_all_synced">Kaikki tiedostot synkronoitu</string>
+    <string name="cloud_sync_syncing">Synkronoidaan…</string>
+    <string name="cloud_sync_pending">Synkronointi odottaa</string>
+    <string name="cloud_sync_last_sync">Viimeisin synkronointi: %1$s</string>
+    <string name="cloud_sync_never_synced">Ei koskaan synkronoitu</string>
+    <string name="cloud_sync_recent_activity">Viimeaikaiset synkronointitoiminnot</string>
+    <string name="cloud_sync_no_files">Ei vielä synkronoituja tiedostoja</string>
+    <string name="cloud_sync_synced_to_drive">Synkronoitu Driveen</string>
+    <string name="cloud_sync_pending_upload">Odottaa lähetystä</string>
+    <string name="cloud_sync_sync_now">Synkronoi nyt</string>
+    <string name="cloud_sync_view_history">Näytä synkronointihistoria</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d synkronoidut tiedostot</string>
+    <string name="cloud_sync_unlimited_files">%1$d synkronoituja tiedostoja · Rajoittamaton</string>
+    <string name="cloud_sync_cta_title">Millä tahansa alustalla, milloin tahansa</string>
+    <string name="cloud_sync_cta_subtitle">Dokumenttisi seuraavat sinua kaikkialle</string>
+    <string name="cloud_sync_files_label">%1$d tiedostoa</string>
+    <string name="settings_data_privacy">Tietosuoja &amp;</string>
+    <string name="settings_data_privacy_subtitle">Hallinnoi tietoja, tilin &amp; poisto</string>
+    <string name="settings_delete_account">Poista tili</string>
+    <string name="settings_delete_account_subtitle">Poista tilisi ja tietosi pysyvästi</string>
+    <string name="delete_account_warning_title">Poistetaanko tilisi?</string>
+    <string name="delete_account_warning_message">Tämä poistaa pysyvästi tilisi ja kaikki siihen liittyvät tiedot, mukaan lukien ostohistoriasi ja pilveen synkronoidut tiedostosi. Tätä toimintoa ei voi perua, eikä ostoksia voi palauttaa myöhemmin.</string>
+    <string name="delete_account_confirm_phrase_label">Jatka kirjoittamalla 'vahvista poisto':</string>
+    <string name="delete_account_confirm_phrase">vahvista poisto</string>
+    <string name="delete_account_button">Poista tili</string>
+    <string name="delete_account_error_reauth">Turvallisuussyistä sinun on täytynyt kirjautua sisään äskettäin poistaaksesi tilisi. Kirjaudu ulos ja kirjaudu sisään uudelleen ja yritä sitten uudelleen.</string>
+    <string name="delete_account_success">Tili poistettu onnistuneesti</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">Tiedosto &amp; Synkronointiasetukset</string>
+    <string name="sync_on_mobile_data_subtitle">Käytä mobiilidataa pilvisynkronoinnissa</string>
+    <string name="drive_sync">Taustasynkronointi</string>
+    <string name="drive_sync_subtitle">Synkronoi suosikit &amp; skannaa dokumentit Driveen</string>
+    <string name="do_not_import_from_other_apps">Älä tuo tiedostoja muista sovelluksista</string>
+    <string name="do_not_import_from_other_apps_subtitle">Avaa jaettuja tiedostoja väliaikaisesti tallentamatta niitä kirjastoon</string>
+    <string name="clear_imported_files">Tyhjennä tuodut tiedostot</string>
+    <string name="clear_imported_files_subtitle">Poista kaikki muista sovelluksista kopioidut tiedostot</string>
+    <string name="clear_imports_confirm_title">Tyhjennetäänkö tuodut tiedostot?</string>
+    <string name="clear_imports_confirm_message">Tämä poistaa pysyvästi kaikki tiedostot Tuonnit-kansiostasi. Tätä ei voi perua.</string>
+    <string name="clear_imports_success">Tuodut tiedostot tyhjennetty</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">Tietosuoja &amp;</string>
+    <string name="analytics_opt_out_title">Lähetä käyttötiedot</string>
+    <string name="analytics_opt_out_subtitle">Jaa anonyymejä käyttötietoja ja virheraportteja kehittäjän kanssa sovelluksen parantamiseksi</string>
+    <string name="analytics_opt_out_disabled_note">Analytiikka ja virheraportointi on poistettu käytöstä. Tietoja ei lähetetä Googlelle tai kehittäjälle.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">Tallentamattomat muutokset</string>
+    <string name="unsaved_changes_tab_message">Tässä asiakirjassa on tallentamattomia muutoksia. Haluatko tallentaa ne ennen sulkemista?</string>
+    <string name="unsaved_changes_window_message">Yhdessä tai useammassa asiakirjassa on tallentamattomia muutoksia. Haluatko hylätä ne ja lopettaa?</string>
+    <string name="discard">Hylkää</string>
+    <string name="discard_and_quit">Hylkää &amp; Lopeta</string>
+    <string name="close">Lähellä</string>
+    <string name="remove_favorite">Poista suosikeista</string>
+    <string name="set_as_default_pdf_viewer">Asetetaanko oletusarvoiseksi PDF-katseluohjelmaksi?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF ei ole oletusarvoinen PDF-lukuohjelmasi. Haluatko asettaa sen oletusarvoiseksi, jotta kaikki PDF-tiedostot avautuvat Falcon PDF:llä?</string>
+    <string name="set_now">Aseta nyt</string>
+    <string name="never">Ei koskaan</string>
+    <string name="later">Myöhemmin</string>
+    <string name="set_default">Aseta oletusarvoksi</string>
+    <string name="default">Oletus</string>
+    <string name="version_">Versio %1$s</string>
+    <string name="sign_in_with_other_accounts">Kirjaudu sisään muilla tileillä</string>
+    <string name="upgrade">Päivitä</string>
+    <string name="view_plan">Näytä suunnitelma</string>
+    <string name="unlimited_sync_upto_5gb">Rajoittamaton synkronointi jopa 5 Gt:iin asti</string>
+    <string name="unlock_faster">Avaa nopeammin</string>
+    <string name="use_biometrics_instead_of_passwords">Käytä biometriikkaa salasanojen sijaan.</string>
+    <string name="upgrade_to_premium">Päivitä Premium-tasolle</string>
+    <string name="unlock_pdf">PDF-tiedoston lukituksen avaaminen</string>
+    <string name="use__to_accessnthis_document">Käytä %1$s -painiketta päästäksesi\ntähän dokumenttiin</string>
+    <string name="open_with_password">Avaa salasanalla</string>
+    <string name="secure">Turvallinen</string>
+    <string name="loading_">Ladataan %1$s...</string>
+    <string name="failed_to_open_ebook">E-kirjan avaaminen epäonnistui</string>
+    <string name="properties">Ominaisuudet</string>
+    <string name="copy">Kopioida</string>
+    <string name="highlight">Kohokohta</string>
+    <string name="clear_selection">Tyhjennä valinta</string>
+    <string name="close_search">Sulje haku</string>
+    <string name="search_in_book">Hae kirjasta...</string>
+    <string name="contents">Sisällys</string>
+    <string name="table_of_contents">Sisällysluettelo</string>
+    <string name="no_table_of_contents_available">Sisällysluetteloa ei ole saatavilla</string>
+    <string name="bookmarks">Kirjanmerkit</string>
+    <string name="no_bookmarks_yet">Ei vielä kirjanmerkkejä</string>
+    <string name="page_">Sivu %1$s</string>
+    <string name="no_results">Ei tuloksia</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">Asetukset</string>
+    <string name="decrease_font_size">Pienennä fonttikokoa</string>
+    <string name="increase_font_size">Suurenna fonttikokoa</string>
+    <string name="font">Fontti</string>
+    <string name="jump_to_page">Siirry sivulle</string>
+    <string name="enter_page_number_1">Anna sivunumero (1–%1$s):</string>
+    <string name="go">Mennä</string>
+    <string name="read_aloud">Lue ääneen</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">Stop</string>
+    <string name="annotations__text_selection">Merkinnät &amp; Tekstin valinta</string>
+    <string name="text_selection_and_annotations_for_ebook">E-kirjojen tekstinvalinta ja merkinnät ovat tulossa pian.</string>
+    <string name="longpress_on_text_to_select_highlight_or">Paina tekstiä pitkään valitaksesi, korostaaksesi tai lisätäksesi muistiinpanoja.</string>
+    <string name="press_play_to_start_reading_aloud">Aloita ääneen lukeminen painamalla toisto-painiketta...</string>
+    <string name="speed">Nopeus</string>
+    <string name="voice">Ääni</string>
+    <string name="no_annotations_yet">Ei vielä merkintöjä</string>
+    <string name="select_text_to_highlight_or_add_notes">Valitse korostettava teksti tai lisää muistiinpanoja</string>
+    <string name="tools">Työkalut</string>
+    <string name="convert_to_images">Muunna kuviksi</string>
+    <string name="rename">Nimeä uudelleen</string>
+    <string name="print">Painaa</string>
+    <string name="a">A−</string>
+    <string name="cover_of_">%1$s:n kansi</string>
+    <string name="no_cover_available">Ei saatavilla vakuutusturvaa</string>
+    <string name="read_now">Lue nyt</string>
+    <string name="about_the_book">TIETOA KIRJASTA</string>
+    <string name="tags">TAGIT</string>
+    <string name="publisher_info">JULKAISIJAN TIEDOT</string>
+    <string name="published_">Julkaistu: %1$s</string>
+    <string name="retry">Yritä uudelleen</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Tyhjennä välimuisti</string>
+    <string name="ebooks_library">E-kirjojen kirjasto</string>
+    <string name="manage_your_digital_collection_across_mu">Hallitse digitaalista kokoelmaasi useiden eri palveluntarjoajien kautta. Hae, suodata ja löydä uusia nimikkeitä Google Booksista ja Open Librarysta.</string>
+    <string name="no_books_found">Ei kirjoja löytynyt</string>
+    <string name="no_results_for__try_a_different_search_t">Ei tuloksia haulle "%1$s". Kokeile toista hakusanaa.</string>
+    <string name="downloadable_only">Vain ladattavissa</string>
+    <string name="file_unavailable">Tiedosto ei ole käytettävissä</string>
+    <string name="unavailable">Ei saatavilla</string>
+    <string name="search_titles_authors_isbn">Hae nimikkeitä, tekijöitä, ISBN-numeroita...</string>
+    <string name="clear_search">Tyhjennä haku</string>
+    <string name="ebooks">e-kirjat</string>
+    <string name="read_pdf">Lue PDF-tiedosto</string>
+    <string name="create_pdf">Luo PDF-tiedosto</string>
+    <string name="unlock_all_tools_and_remove_limits">Avaa kaikki työkalut ja poista rajoitukset</string>
+    <string name="ocr_scanning">OCR-skannaus</string>
+    <string name="extract_text_from_scanned_documents">Poimi tekstiä skannatuista asiakirjoista</string>
+    <string name="cloud_sync">Pilvisynkronointi</string>
+    <string name="access_your_documents_anywhere">Käytä asiakirjojasi missä tahansa</string>
+    <string name="annotate_pdfs">PDF-tiedostojen kommentointi</string>
+    <string name="cloud_backup">Pilvivarmuuskopiointi</string>
+    <string name="continue_reading">Jatka lukemista</string>
+    <string name="pick_files">Valitse tiedostot</string>
+    <string name="browse">Selaa</string>
+    <string name="did_you_know">Tiesitkö?</string>
+    <string name="home">Kotiin</string>
+    <string name="your_documents_at_a_glance">Dokumenttisi yhdellä silmäyksellä</string>
+    <string name="pick_file">Valitse tiedosto</string>
+    <string name="quick_actions">Pikatoiminnot</string>
+    <string name="pro">AMMATTILAINEN</string>
+    <string name="open_files">Avaa tiedostot</string>
+    <string name="convert_to_pdf">Muunna PDF-muotoon</string>
+    <string name="close_drawer">Sulje laatikko</string>
+    <string name="close_file">Sulje tiedosto</string>
+    <string name="office">Toimisto</string>
+    <string name="coming_soon">Tulossa pian</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">E-kirjojen lukuohjelmaa ei ole vielä saatavilla tällä alustalla.</string>
+    <string name="set_as_default_viewer">Aseta oletuskatseluohjelmaksi</string>
+    <string name="free">Ilmainen</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">Päivitystä ladataan... %1$s%</string>
+    <string name="more">Lisää</string>
+    <string name="font_size">Fonttikoko</string>
+    <string name="font_family">Fonttiperhe</string>
+    <string name="scroll_direction">Vieroitussuunta</string>
+    <string name="navigation">Navigointi</string>
+    <string name="keep_screen_on">Pidä näyttö päällä</string>
+    <string name="volume_button_to_scroll">Äänenvoimakkuuspainike vierittämiseen</string>
+    <string name="export_ebook_pages_as_image_files">Vie e-kirjan sivuja kuvatiedostoina</string>
+    <string name="access_millions_of_titles">Käytä miljoonia nimikkeitä.</string>
+    <string name="read_offline_with_natural_ai_voices">Lue offline-tilassa luonnollisilla tekoälyäänillä.</string>
+    <string name="advanced_ai_reader">Edistynyt tekoälylukija.</string>
+    <string name="experience_studioquality_narration">Koe studiotasoinen kerronta.</string>
+    <string name="powerful_pdf_tools">Tehokkaat PDF-työkalut.</string>
+    <string name="create_and_edit_documents_on_the_go">Luo ja muokkaa dokumentteja liikkeellä ollessasi.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Päivitä Pro-tasolle: Avaa kaikki työkalut ja poista rajoitukset</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">OCR-skannaus: Poimi tekstiä skannatuista asiakirjoista</string>
+    <string name="cloud_sync_access_your_documents_anywher">Pilvisynkronointi: Käytä asiakirjojasi missä tahansa</string>
+    <string name="scan">Skannata</string>
+    <string name="compress">Pakkaa</string>
+    <string name="merge">Yhdistää</string>
+    <string name="convert">Muuntaa</string>
+    <string name="highlight_underline_and_add_notes_to_you">Korosta, alleviivaa ja lisää muistiinpanoja asiakirjoihisi</string>
+    <string name="keep_your_documents_safe_with_automatic_">Pidä asiakirjasi turvassa automaattisella pilvisynkronoinnilla</string>
+    <string name="indicator_color_">ilmaisinväri_%1$s</string>
+    <string name="my_library">Kirjastoni</string>
+    <string name="get_ebooks">Hanki e-kirjoja</string>
+    <string name="scan_document">Skannaa asiakirja</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

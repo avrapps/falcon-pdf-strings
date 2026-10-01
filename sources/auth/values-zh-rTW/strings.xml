@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">請檢查您的網路連接，並確認您的裝置已新增 Google 帳戶，然後再試一次。</string>
+    <string name="sign_in_with_apple">使用 Apple 登入</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">提升您的體驗</string>
+    <string name="purchase_screen_close">關閉</string>
+    <string name="purchase_screen_refresh">重新整理</string>
+    <string name="purchase_sync_status">上次同步時間： %1s</string>
+    <string name="purchase_current_plan">目前的</string>
+    <string name="purchase_syncing">正在同步…</string>
+    <string name="purchase_loading">載入中…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">免費規劃</string>
+    <string name="purchase_pro_plan">專業版</string>
+    <string name="purchase_pro_tagline">一次付費，永久擁有。</string>
+    <string name="purchase_premium_plan">高級訂閱</string>
+    <string name="purchase_premium_tagline">專業版的所有功能，外加 AI &amp; 雲</string>
+    <string name="purchase_recommended">受到推崇的</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">AI朗讀－自然地聆聽PDF文件</string>
+    <string name="purchase_pro_feature_2">完整PDF編輯 &amp; 表單填寫</string>
+    <string name="purchase_pro_feature_3">透過雲端硬碟進行跨裝置同步</string>
+    <string name="purchase_pro_feature_4">無廣告，掃描件無浮水印</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">具備更強推理能力的AI摘要</string>
+    <string name="purchase_premium_feature_1_desc">從篇幅更長、更複雜的文件中獲得更深入的答案</string>
+    <string name="purchase_premium_feature_2_title">50GB Falcon Cloud</string>
+    <string name="purchase_premium_feature_2_desc">您的個人 PDF 庫，同步且安全</string>
+    <string name="purchase_premium_feature_3_title">60多種PDF工具，使用無限制</string>
+    <string name="purchase_premium_feature_3_desc">所有工具，隨時可用</string>
+    <string name="purchase_premium_feature_4_title">PDF全文編輯</string>
+    <string name="purchase_premium_feature_4_desc">像使用文字處理器一樣直接編輯文字。</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">購買專業版</string>
+    <string name="purchase_sign_in_buy">登入 &amp; 購買</string>
+    <string name="purchase_sign_in_subscribe">登入 &amp; 訂閱</string>
+    <string name="purchase_subscribe">訂閱</string>
+    <string name="purchase_start_trial">開始7天免費試用</string>
+    <string name="purchase_view_all_features">查看所有功能</string>
+    <string name="purchase_show_more">顯示更多</string>
+    <string name="purchase_show_less">顯示更少</string>
+    <string name="purchase_see_all_features">查看所有功能</string>
+    <string name="purchase_manage_subscription">管理訂閱</string>
+    <string name="purchase_restore_purchases">恢復購買</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">每月</string>
+    <string name="purchase_billing_yearly">每年</string>
+    <string name="purchase_save_badge">節省 40%</string>
+    <string name="purchase_lifetime">壽命</string>
+    <string name="purchase_per_year">/年</string>
+    <string name="purchase_per_month">/月</string>
+    <string name="purchase_trial_terms">隨時可以取消。除非在試用期結束前 24 小時取消，否則試用期將自動續訂。</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">商品加載失敗。請檢查您的登入資訊和網路連線。</string>
+    <string name="purchase_error_network">連線失敗。請檢查您的網路連線並重試。</string>
+    <string name="purchase_error_payment_declined">付款方式被拒絕。請更新您的付款資訊。</string>
+    <string name="purchase_error_server">出錯了，請稍後再試。</string>
+    <string name="purchase_error_rate_limit">刷新次數過多，請稍候。</string>
+    <string name="purchase_error_offline">無網路連線。正在顯示快取資料。</string>
+    <string name="purchase_error_product_refresh">無法驗證產品訊息，請重試。</string>
+    <string name="purchase_error_generic">發生錯誤，請重試。</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">服務條款</string>
+    <string name="purchase_privacy_policy">隱私權政策</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">購買歷史</string>
+    <string name="free_trial">免費試用</string>
+    <string name="no_purchase_history">無購買記錄</string>
+    <string name="you_havent_made_any_purchases_">您尚未進行任何購買。</string>
+    <string name="error">錯誤</string>
+    <string name="retry">重試</string>
+    <string name="back">後退</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">提升您的體驗</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">恢復購買</string>
+    <string name="close_purchase_screen">關閉購買螢幕</string>
+    <string name="help">幫助</string>
+    <string name="more_options">更多選項</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">重新整理</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">積極的</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s 激活</string>
+    <string name="premium_benefits">進階福利</string>
+    <string name="manage_subscription">管理訂閱</string>
+    <string name="next_billing_date__manage_your">下次帳單日期： %1$s。您可以透過 Play 商店帳戶設定管理您的帳單詳情和取消訂閱。</string>
+    <string name="purchase_expires_">購買有效期限至： %1$s</string>
+    <string name="falcon_pdf_pro">Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF Premium（月度）</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Premium（年度版）</string>
+    <string name="pro">專業版</string>
+    <string name="premium">優質的</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">取得 Falcon PDF 專業版或進階版</string>
+    <string name="purchase_desktop_subtitle">所有購買均在我們的網站上進行。點擊下方查看套餐及價格。</string>
+    <string name="purchase_desktop_open_website">查看方案 &amp; 價格</string>
+    <string name="purchase_desktop_already_purchased">已經購買？登入以同步您的套餐。</string>
+    <string name="purchase_store_build_subtitle">您的訂閱可在所有裝置上解鎖 Pro 功能。請登入以同步您的訂閱方案。</string>
+    <string name="ai_read_aloud">人工智慧朗讀</string>
+    <string name="full_pdf_editing__form_filling">完整PDF編輯 &amp; 表單填寫</string>
+    <string name="crossdevice_sync_via_drive">透過雲端硬碟進行跨裝置同步</string>
+    <string name="adfree_no_watermark">無廣告，無浮水印</string>
+    <string name="export_to_word__excel">匯出至 Word &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">多種主題 &amp; 頁面背景</string>
+    <string name="ai_summaries_with_stronger_reasoning">具備更強推理能力的AI摘要</string>
+    <string name="no_limits_on_60_pdf_tools">60多種PDF工具，使用無限制</string>
+    <string name="full_text_editing_in_pdfs">PDF全文編輯</string>
+    <string name="digital_signatures_dscesign">數位簽章（DSC/eSign）</string>
+    <string name="unlimited_scanned_document_sync">無限次掃描文件同步</string>
+    <string name="biometric_document_lock">生物辨識文件鎖定</string>
+    <string name="everything_in_pro_all_devices">專業版所有內容，所有設備。</string>
+    <string name="introductory_offer">優惠活動</string>
+    <string name="limited_time__30_off">限時優惠－七折</string>
+    <string name="date__time">日期 &amp; 時間</string>
+    <string name="amount">數量</string>
+    <string name="platform">平台</string>
+    <string name="type">類型</string>
+    <string name="expires_on">到期日</string>
+</resources>

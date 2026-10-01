@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">I-scan</string>
+    <string name="scan_home_documents">Mga Dokumento</string>
+    <string name="scan_home_documents_lowercase">mga dokumento</string>
+    <string name="scan_home_documents_count">%1$d Mga Dokumento</string>
+    <string name="scan_home_no_documents">Wala pang mga dokumento</string>
+    <string name="scan_home_start_scanning">Simulan ang pag-scan upang gawin ang iyong unang dokumento</string>
+    <string name="scan_home_new_folder">Bagong Folder</string>
+    <string name="scan_home_scan_document">I-scan ang Dokumento</string>
+    <string name="scan_home_import_gallery">Mag-import mula sa Gallery</string>
+    <string name="scan_home_parent_folder">Magulang na Folder</string>
+    <string name="scan_home_go_back">Bumalik sa parent folder</string>
+    <string name="scan_home_create_folder">Gumawa ng Bagong Folder</string>
+    <string name="scan_home_enter_folder_name">Maglagay ng pangalan para sa bagong folder</string>
+    <string name="scan_home_folder_name">Pangalan ng Folder</string>
+    <string name="scan_home_folder_placeholder">hal., Mga Dokumento sa Trabaho</string>
+    <string name="scan_home_folder_error">Hindi maaaring walang laman ang pangalan ng folder</string>
+    <string name="scan_home_folder_name_empty">Hindi maaaring walang laman ang pangalan ng folder</string>
+    <string name="scan_home_create">Gumawa</string>
+    <string name="scan_home_folder_exists">Mayroon nang folder na may ganitong pangalan</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Kamera</string>
+    <string name="scan_camera_permission_required">Kinakailangan ang Pahintulot sa Kamera</string>
+    <string name="scan_camera_permission_message">Kailangan ng app na ito ng access sa camera para makapag-scan ng mga dokumento.</string>
+    <string name="scan_camera_permission_settings">Pumunta sa Mga Setting &gt; Mga App &gt; PDF Viewer &gt; Mga Pahintulot at paganahin ang pahintulot ng Camera.</string>
+    <string name="scan_camera_permission_title">Kinakailangan ang Pahintulot sa Kamera</string>
+    <string name="scan_camera_request_permission">Humingi ng Pahintulot</string>
+    <string name="scan_camera_open_settings">Buksan ang Mga Setting</string>
+    <string name="scan_camera_close">Isara</string>
+    <string name="scan_camera_flash">Flash</string>
+    <string name="scan_camera_auto_capture">Awtomatikong Pagkuha</string>
+    <string name="scan_camera_settings">Mga Setting</string>
+    <string name="scan_camera_ready_batch">Handa nang i-scan ang maraming pahina</string>
+    <string name="scan_camera_ready_multiple">Handa nang i-scan ang maraming pahina</string>
+    <string name="scan_camera_hold_steady">Manatiling matatag habang nag-i-scan</string>
+    <string name="scan_camera_captured_pages">%1$d na mga pahina ang nakuha</string>
+    <string name="scan_camera_mode_single">Isahan</string>
+    <string name="scan_camera_mode_batch">Batch</string>
+    <string name="scan_camera_preview">Preview</string>
+    <string name="scan_camera_finish">Tapusin</string>
+    <string name="scan_camera_starting">Sinisimulan ang Kamera...</string>
+    <string name="scan_camera_document_name">Pangalan ng Dokumento</string>
+    <string name="scan_camera_document_name_empty">Hindi maaaring walang laman ang pangalan ng dokumento</string>
+    <string name="scan_camera_save_document">I-save ang Dokumento</string>
+    <string name="scan_camera_processing">Pinoproseso...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">I-crop &amp; Ayusin</string>
+    <string name="scan_crop_close">Isara</string>
+    <string name="scan_crop_reset">I-reset</string>
+    <string name="scan_crop_rotate">I-rotate</string>
+    <string name="scan_crop_done">Tapos na</string>
+    <string name="scan_crop_scanned_document">Na-scan na dokumento</string>
+    <string name="scan_crop_magnified_view">Pinalaking view</string>
+    <string name="scan_crop_processing">Pinoproseso...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Pahusayin</string>
+    <string name="scan_filter_close">Isara</string>
+    <string name="scan_filter_rotate">I-rotate</string>
+    <string name="scan_filter_done">Tapos na</string>
+    <string name="scan_filter_filters">Mga Filter</string>
+    <string name="scan_filter_original">Orihinal</string>
+    <string name="scan_filter_magic">Mahika</string>
+    <string name="scan_filter_lighten">Magpagaan</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">Grayscale</string>
+    <string name="scan_filter_magic_2">Malinis na Doktor</string>
+    <string name="scan_filter_soft_scan">Malambot na Pag-scan</string>
+    <string name="scan_filter_color_enhance">Kulay+</string>
+    <string name="scan_filter_ink_saver">Tagatipid ng Tinta</string>
+    <string name="scan_filter_premium">Premium na tampok</string>
+    <string name="scan_filter_filtered_document">Na-filter na dokumento</string>
+    <string name="scan_filter_applying">Inilalapat ang filter...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Kanselahin</string>
+    <string name="scan_share">Ibahagi</string>
+    <string name="scan_move">Ilipat</string>
+    <string name="scan_move_to_folder">Ilipat sa Folder</string>
+    <string name="scan_delete">Burahin</string>
+    <string name="scan_rename">Palitan ang pangalan</string>
+    <string name="scan_root">Ugat</string>
+    <string name="scan_select_destination">Pumili ng folder na patutunguhan</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Dokumento</string>
+    <string name="scan_document_back">Balik</string>
+    <string name="scan_document_pages">mga pahina</string>
+    <string name="scan_document_add_pages">Magdagdag ng mga pahina sa dokumentong ito</string>
+    <string name="scan_document_add_page_button">Magdagdag ng Pahina</string>
+    <string name="scan_document_rename">Palitan ang pangalan</string>
+    <string name="scan_document_share">Ibahagi</string>
+    <string name="scan_document_more">Higit pa</string>
+    <string name="scan_document_pages_count">mga pahina ng %1$d</string>
+    <string name="scan_document_no_pages">Wala pang mga pahina</string>
+    <string name="scan_document_scan_page">I-scan ang Pahina</string>
+    <string name="scan_document_import_page">Mag-import mula sa Gallery</string>
+    <string name="scan_document_grid_view">Grid View</string>
+    <string name="scan_document_list_view">Tingnan ang Listahan</string>
+    <string name="scan_document_continuous_view">Patuloy na Pagtingin</string>
+    <string name="scan_document_page_number">Pahina %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Pahina</string>
+    <string name="scan_page_back">Balik</string>
+    <string name="scan_page_share">Ibahagi</string>
+    <string name="scan_page_delete">Burahin</string>
+    <string name="scan_page_of">%1$d ng %2$d</string>
+    <string name="scan_page_image_not_found">Hindi natagpuan ang larawan</string>
+    <string name="scan_page_retake">Kunin muli</string>
+    <string name="scan_page_crop">I-crop</string>
+    <string name="scan_page_enhance">Pahusayin</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">I-save sa Gallery</string>
+    <string name="scan_page_saved_to_gallery">Na-save ang larawan sa gallery</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Burahin ang Dokumento?</string>
+    <string name="scan_delete_document_message">Sigurado ka bang gusto mong burahin ang "%1$s"? Permanente nitong buburahin ang lahat ng pahina sa dokumentong ito. Hindi na maaaring bawiin ang aksyon na ito.</string>
+    <string name="scan_rename_document">Palitan ang Pangalan ng Dokumento</string>
+    <string name="scan_rename_enter_name">Maglagay ng bagong pangalan para sa dokumento</string>
+    <string name="scan_rename_document_name">Pangalan ng Dokumento</string>
+    <string name="scan_rename_error">Hindi maaaring walang laman ang pangalan ng dokumento</string>
+    <string name="scan_dialog_delete_document_title">Burahin ang Dokumento?</string>
+    <string name="scan_dialog_delete_document_message">Sigurado ka bang gusto mong burahin ang "%1$s"? Permanente nitong buburahin ang lahat ng pahina sa dokumentong ito. Hindi na maaaring bawiin ang aksyon na ito.</string>
+    <string name="scan_dialog_delete_confirm">Burahin</string>
+    <string name="scan_dialog_cancel">Kanselahin</string>
+    <string name="scan_dialog_move_title">Ilipat sa Folder</string>
+    <string name="scan_dialog_move_message">Pumili ng folder na patutunguhan</string>
+    <string name="scan_dialog_move_confirm">Ilipat</string>
+    <string name="scan_dialog_move_root">Ugat</string>
+    <string name="scan_dialog_move_selected">Napili</string>
+    <string name="scan_dialog_rename_title">Palitan ang Pangalan ng Dokumento</string>
+    <string name="scan_dialog_rename_message">Maglagay ng bagong pangalan para sa dokumento</string>
+    <string name="scan_dialog_rename_label">Pangalan ng Dokumento</string>
+    <string name="scan_dialog_rename_error">Hindi maaaring walang laman ang pangalan ng dokumento</string>
+    <string name="scan_dialog_rename_confirm">Palitan ang pangalan</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Ibahagi</string>
+    <string name="scan_menu_move">Ilipat sa Folder</string>
+    <string name="scan_menu_delete">Burahin</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Preview ng Kamera\n(Malapit na)</string>
+    <string name="scan_platform_desktop_camera">Preview ng Kamera sa Desktop\n(Malapit na)</string>
+    <string name="scan_platform_ios_camera">Preview ng Kamera ng iOS\n(Malapit na)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Isara</string>
+    <string name="flash">Flash</string>
+    <string name="auto_capture">Awtomatikong Pagkuha</string>
+    <string name="settings">Mga Setting</string>
+    <string name="capture">Pagkuha</string>
+    <string name="finish">Tapusin</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Sigurado ka bang gusto mong burahin ang %1? Mabubura rin ang lahat ng dokumento sa loob.</string>
+    <string name="share">Ibahagi</string>
+    <string name="share_as_images">Ibahagi bilang mga Larawan</string>
+    <string name="share_as_pdf">Ibahagi bilang PDF</string>
+    <string name="move_to_folder">Ilipat sa Folder</string>
+    <string name="delete">Burahin</string>
+    <string name="selected">Napili</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Pahina %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">Walang laman ang folder</string>
+    <string name="tap_the__button_to_scan_a_docu">Pindutin ang + button para i-scan ang isang dokumento</string>
+    <string name="str______pages">%1$s • %2$s • %3$s mga pahina</string>
+    <string name="create_folder">Gumawa ng Folder</string>
+    <string name="more_options">Higit pang mga opsyon</string>
+    <string name="document_thumbnail">Thumbnail ng dokumento</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Hindi natagpuan ang larawan</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Pahina %2$d</string>
+    <string name="scan_ocr_title">Pagkilala sa Teksto</string>
+    <string name="scan_ocr_copy">Kopyahin ang Teksto</string>
+    <string name="scan_ocr_no_text">Walang nakitang teksto</string>
+    <string name="scan_ocr_processing">Pagkilala sa teksto…</string>
+    <string name="scan_ocr_error">Nabigong makilala ang teksto</string>
+    <string name="scan_ocr_not_supported">Hindi sinusuportahan ang OCR sa platform na ito</string>
+    <string name="scan_ocr_image">Na-scan na pahina para sa OCR</string>
+    <string name="gallery">Galeriya</string>
+    <string name="select_file">Piliin ang File</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Nabigong makuha ang larawan</string>
+    <string name="error_no_images_captured">Walang nakuhang mga larawan</string>
+    <string name="error_open_settings">Nabigong buksan ang mga setting</string>
+    <string name="error_process_images">Nabigong iproseso ang mga imahe</string>
+    <string name="error_process_image">Nabigong iproseso ang imahe</string>
+    <string name="error_start_camera">Nabigong simulan ang kamera</string>
+    <string name="error_stop_camera">Nabigong ihinto ang kamera</string>
+    <string name="error_crop_image">Nabigong i-crop ang larawan</string>
+    <string name="error_delete_document">Nabigong burahin ang dokumento</string>
+    <string name="error_delete_page">Nabigong burahin ang pahina</string>
+    <string name="error_load_document">Nabigong i-load ang dokumento</string>
+    <string name="error_load_page">Nabigong i-load ang pahina</string>
+    <string name="error_move_document">Nabigong ilipat ang dokumento</string>
+    <string name="error_no_pages_to_share">Walang mga pahinang maibabahagi</string>
+    <string name="error_rename_document">Nabigong palitan ang pangalan ng dokumento</string>
+    <string name="error_reorder_pages">Nabigong muling isaayos ang mga pahina</string>
+    <string name="error_share_images">Nabigong ibahagi ang mga larawan</string>
+    <string name="error_share_pdf">Nabigong ibahagi ang PDF</string>
+    <string name="error_share_page">Nabigong ibahagi ang pahina</string>
+    <string name="error_create_folder">Nabigong lumikha ng folder</string>
+    <string name="error_delete_folder">Nabigong burahin ang folder</string>
+    <string name="error_rename_folder">Nabigong palitan ang pangalan ng folder</string>
+    <string name="error_unknown">Nagkaroon ng hindi kilalang error</string>
+    <string name="folder_not_found">Hindi natagpuan ang folder</string>
+    <string name="sync_documents">I-sync ang mga dokumento</string>
+    <string name="shutter_scale">shutter_scale</string>
+    <string name="import_gallery">I-import ang Gallery</string>
+    <string name="scan_camera">I-scan ang Kamera</string>
+</resources>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">Hapus Halaman</string>
+    <string name="are_you_sure_you_want_to_delet">Apakah Anda yakin ingin menghapus halaman yang dipilih? Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="delete">Menghapus</string>
+    <string name="cancel">Membatalkan</string>
+    <string name="quick_selection">Pemilihan Cepat</string>
+    <string name="select_range">Pilih Rentang</string>
+    <string name="select_all">Pilih Semua</string>
+    <string name="clear_all">Hapus Semua</string>
+    <string name="select_page_range">Pilih Rentang Halaman</string>
+    <string name="enter_the_range_of_pages_to_de">Masukkan rentang halaman yang akan dihapus (1-%1$s)</string>
+    <string name="from">Dari</string>
+    <string name="to">Ke</string>
+    <string name="select">Memilih</string>
+    <string name="please_go_back_and_select_a_pd">Silakan kembali dan pilih file PDF.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">PDF terpisah</string>
+    <string name="str_1_file_selected">1 berkas terpilih</string>
+    <string name="no_file_selected">Tidak ada berkas yang dipilih</string>
+    <string name="split_mode">Mode Terpisah</string>
+    <string name="fixed_segments">Segmen Tetap</string>
+    <string name="custom_ranges">Rentang Kustom</string>
+    <string name="segment_size">Ukuran Segmen</string>
+    <string name="this_will_create_multiple_pdfs">Ini akan membuat beberapa file PDF dengan jumlah halaman yang ditentukan. Ukuran segmen harus kurang dari total halaman agar pemisahannya bermakna. Misalnya, jika file sumber memiliki 8 halaman dan Anda memasukkan 2, maka empat file PDF akan dihasilkan dengan masing-masing 2 halaman.</string>
+    <string name="pages_per_file">Halaman per berkas</string>
+    <string name="eg_2">misalnya, 2</string>
+    <string name="total_number_of_pages_in_pdf__">Jumlah total halaman dalam PDF: %1$d (ukuran segmen harus kurang dari %1$d)</string>
+    <string name="this_will_create__output_files">Ini akan membuat %1$d file keluaran</string>
+    <string name="this_will_create__output_file">Ini akan membuat file keluaran %1$d</string>
+    <string name="this_input_will_split_the_pdf_">Input ini akan membagi PDF menjadi beberapa file terpisah berdasarkan rentang yang Anda pilih. Misalnya, "1-2,5,6-8" akan membuat 3 PDF: yang pertama berisi halaman 1-2, yang kedua berisi halaman 5, dan yang ketiga berisi halaman 6-8.</string>
+    <string name="page_ranges">Rentang halaman</string>
+    <string name="eg_1234571520">misalnya, 1-2, 3, 4-5, 7, 15-20</string>
+    <string name="format_use_ranges_15_or_single">Format: Gunakan rentang (1-5) atau halaman tunggal (7), dipisahkan oleh koma. Hanya angka, tanda hubung, dan koma yang diperbolehkan.</string>
+    <string name="split_preview">Pratinjau Terpisah</string>
+    <string name="pdf_files_will_be_created">%1$d File PDF akan dibuat</string>
+    <string name="pdf_file_will_be_created">%1$d File PDF akan dibuat</string>
+    <string name="pdf_result_">Hasil PDF %1$s</string>
+    <string name="str__and__more">... dan %1$d lagi</string>
+    <string name="splitting_pdf">Memisahkan PDF...</string>
+    <string name="checking_files">Memeriksa file...</string>
+    <string name="page_n">Halaman %1$d</string>
+    <string name="pages_n_m">Halaman %1$d-%2$d</string>
+    <string name="split_complete">Pemisahan Selesai!</string>
+    <string name="split_failed">Pemisahan Gagal</string>
+    <string name="we_couldnt_split_your_pdf">Kami tidak dapat memisahkan PDF Anda.</string>
+    <string name="your_pdf_has_been_successfully_split">PDF Anda telah berhasil dipisahkan menjadi %1$d file</string>
+    <string name="your_pdf_has_been_successfully_split_single">PDF Anda telah berhasil dipisahkan menjadi %1$d file</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">Alat PDF</string>
+    <string name="image_tools">Alat Gambar</string>
+    <string name="str_30_tools_for_pdf">30+ Alat untuk PDF</string>
+    <string name="tools_for_images">Alat untuk Gambar</string>
+    <string name="no_tools_found">Tidak ditemukan alat apa pun</string>
+    <string name="try_adjusting_your_search">Cobalah menyesuaikan pencarian Anda</string>
+    <string name="history">Sejarah</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s halaman${jika (pageCount &gt; 1) </string>
+    <string name="n_pages">%1$d halaman</string>
+    <string name="n_page">%1$d halaman</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">Kata sandi diperlukan untuk PDF ini.</string>
+    <string name="password_provided">Kata sandi diberikan</string>
+    <string name="password_required">Kata sandi diperlukan</string>
+    <string name="open_file">Buka berkas</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">Dikompresi oleh </string>
+    <string name="error_details">Detail Kesalahan</string>
+    <string name="view">Melihat</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">%1$s dari %2$s halaman terpilih</string>
+    <string name="showing_first_200_pages">Menampilkan 200 halaman pertama</string>
+    <string name="use_quick_selection_above_for_">Gunakan Seleksi Cepat di atas untuk halaman di atas 200.</string>
+    <string name="loading">Memuat...</string>
+    <string name="error">Kesalahan</string>
+    <string name="generating_page_previews">Menghasilkan pratinjau halaman...</string>
+    <string name="page__thumbnail">Gambar mini halaman %1$s</string>
+    <string name="selected">Terpilih</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">Mencari</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">Putar PDF</string>
+    <string name="please_provide_the_password_to">Harap masukkan kata sandi untuk memilih halaman khusus.</string>
+    <string name="rotation_angle">Sudut Rotasi</string>
+    <string name="page_selection">Pemilihan Halaman</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">Susun ulang PDF</string>
+    <string name="use_the_arrow_buttons_to_reord">Gunakan tombol panah untuk mengubah urutan halaman.</string>
+    <string name="pages_">Halaman (%1$s)</string>
+    <string name="page_">Halaman %1$s</string>
+    <string name="position__of_">Posisi: %1$s dari %2$s</string>
+    <string name="drag_handle">Tarik pegangan</string>
+    <string name="move_up">Naikkan</string>
+    <string name="move_down">Turun ke bawah</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">Kompres PDF</string>
+    <string name="no_files_selected">Tidak ada file yang dipilih</string>
+    <string name="please_go_back_and_select_pdf_">Silakan kembali dan pilih file PDF yang ingin dikompres.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">Kesuksesan</string>
+    <string name="individual_results">Hasil Individu</string>
+    <string name="done">Selesai</string>
+    <string name="compression_complete">Kompresi Selesai</string>
+    <string name="your_file_is_ready_and_much_li">File Anda sudah siap dan jauh lebih ringan!</string>
+    <string name="before">SEBELUM</string>
+    <string name="after">SETELAH</string>
+    <string name="total_saved">Total yang Disimpan</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">LEBIH KECIL</string>
+    <string name="str__saved">%1$s% tersimpan</string>
+    <string name="open">Membuka</string>
+    <string name="share">Membagikan</string>
+    <string name="close">Menutup</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">Tingkat Kompresi</string>
+    <string name="recommended">Direkomendasikan</string>
+    <string name="str__compression">%1$s Kompresi</string>
+    <string name="str__of_original_size">~%1$s% dari ukuran asli</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">Konversi Gambar ke PDF</string>
+    <string name="str__images_selected">%1$s gambar terpilih</string>
+    <string name="images_will_be_converted_in_th">Gambar akan dikonversi sesuai urutan yang ditunjukkan di bawah ini.</string>
+    <string name="remove">Menghapus</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">Konversi PDF ke Gambar</string>
+    <string name="image_format">Format Gambar</string>
+    <string name="image_quality_dpi">Kualitas Gambar (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">Gabungkan PDF</string>
+    <string name="n_files_selected">%1$d berkas terpilih</string>
+    <string name="n_file_selected">%1$d berkas terpilih</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">Kunci PDF</string>
+    <string name="password_protection">Perlindungan Kata Sandi</string>
+    <string name="enter_a_password_to_protect_yo">Masukkan kata sandi untuk melindungi PDF Anda. Anda akan membutuhkan kata sandi ini untuk membuka file tersebut.</string>
+    <string name="password">Kata sandi</string>
+    <string name="enter_password">Masukkan kata sandi</string>
+    <string name="confirm_password">Konfirmasi Kata Sandi</string>
+    <string name="reenter_password">Masukkan kembali kata sandi</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">Silakan kembali dan pilih sebuah file.</string>
+    <string name="back">Kembali</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">Buka PDF</string>
+    <string name="current_password">Kata Sandi Saat Ini</string>
+    <string name="enter_the_current_password_to_">Masukkan kata sandi saat ini untuk membuka PDF ini.</string>
+    <string name="enter_current_password">Masukkan kata sandi saat ini</string>
+    <string name="incorrect_password_please_try_">Kata sandi salah. Silakan coba lagi.</string>
+    <string name="new_password_optional">Kata Sandi Baru (Opsional)</string>
+    <string name="set_a_new_password_to_change_i">Atur kata sandi baru untuk mengubahnya, atau biarkan kosong untuk menghapus perlindungan kata sandi.</string>
+    <string name="new_password">Kata Sandi Baru</string>
+    <string name="enter_new_password">Masukkan kata sandi baru</string>
+    <string name="confirm_new_password">Konfirmasi Kata Sandi Baru</string>
+    <string name="reenter_new_password">Masukkan kembali kata sandi baru</string>
+    <string name="passwords_do_not_match">Kata sandi tidak cocok</string>
+    <string name="compression_failed">Kompresi Gagal</string>
+    <string name="open_pdf">Buka PDF</string>
+    <string name="share_file">Bagikan File</string>
+    <string name="pages_deleted">Halaman Dihapus!</string>
+    <string name="delete_failed">Penghapusan Gagal</string>
+    <string name="select_pages_to_delete">Pilih Halaman yang Akan Dihapus</string>
+    <string name="pdf_created">PDF berhasil dibuat!</string>
+    <string name="conversion_failed">Konversi Gagal</string>
+    <string name="pdf_locked_successfully">PDF berhasil dikunci!</string>
+    <string name="lock_failed">Kunci Gagal</string>
+    <string name="merge_complete">Penggabungan Selesai!</string>
+    <string name="merge_failed">Penggabungan Gagal</string>
+    <string name="conversion_complete">Konversi Selesai!</string>
+    <string name="reorder_complete">Pemesanan Ulang Selesai!</string>
+    <string name="reorder_failed">Pemesanan Ulang Gagal</string>
+    <string name="rotation_complete">Rotasi Selesai!</string>
+    <string name="rotation_failed">Rotasi Gagal</string>
+    <string name="select_pages_to_rotate">Pilih Halaman yang Ingin Diputar</string>
+    <string name="str__complete">%1$s Selesai!</string>
+    <string name="str__failed">%1$s Gagal</string>
+    <string name="unlock_failed">Pembukaan Kunci Gagal</string>
+    <string name="your_pdfs_have_been_successfully_compres">File PDF Anda telah berhasil dikompresi.</string>
+    <string name="we_couldnt_compress_your_pdfs">Kami tidak dapat mengompres PDF Anda</string>
+    <string name="view_your_compressed_file">Lihat file terkompresi Anda</string>
+    <string name="send_to_others_or_apps">Kirim ke orang lain atau aplikasi</string>
+    <string name="your_pdf_has_been_successfully_modified">File PDF Anda telah berhasil dimodifikasi.</string>
+    <string name="we_couldnt_delete_the_pages">Kami tidak bisa menghapus halaman-halaman tersebut.</string>
+    <string name="your_images_have_been_converted_to_pdf">Gambar Anda telah dikonversi ke PDF</string>
+    <string name="unable_to_create_pdf_from_images">Tidak dapat membuat PDF dari gambar.</string>
+    <string name="your_pdf_is_now_password_protected">File PDF Anda sekarang dilindungi kata sandi.</string>
+    <string name="we_couldnt_lock_your_pdf">Kami tidak dapat mengunci PDF Anda</string>
+    <string name="your_pdfs_have_been_successfully_merged">File PDF Anda telah berhasil digabungkan.</string>
+    <string name="we_couldnt_merge_your_pdfs">Kami tidak dapat menggabungkan PDF Anda.</string>
+    <string name="str__images_created_successfully">%1$s gambar berhasil dibuat</string>
+    <string name="unable_to_convert_pdf_to_images">Tidak dapat mengkonversi PDF ke gambar.</string>
+    <string name="your_pdf_pages_have_been_successfully_re">Halaman PDF Anda telah berhasil diurutkan ulang.</string>
+    <string name="we_couldnt_reorder_your_pdf">Kami tidak dapat menyusun ulang PDF Anda.</string>
+    <string name="your_pdf_has_been_successfully_rotated">PDF Anda telah berhasil diputar.</string>
+    <string name="we_couldnt_rotate_your_pdf">Kami tidak dapat memutar PDF Anda</string>
+    <string name="your_file_has_been_successfully_processe">Berkas Anda telah berhasil diproses.</string>
+    <string name="we_couldnt_process_your_file">Kami tidak dapat memproses file Anda.</string>
+    <string name="we_couldnt_unlock_your_pdf">Kami tidak dapat membuka kunci PDF Anda.</string>
+    <string name="clear_filter">Hapus filter</string>
+    <string name="clear">Jernih</string>
+    <string name="pick_a_tool_">Pilih alat →</string>
+    <string name="drag_to_reorder">Seret untuk mengubah urutan</string>
+    <string name="your_files_are_securely_processed_on_our">File Anda diproses secara aman di server kami menggunakan koneksi terenkripsi dan dihapus secara otomatis dalam waktu 1 jam. Kami tidak pernah menyimpan atau membagikan data Anda.</string>
+    <string name="compression_quality">Kualitas kompresi</string>
+    <string name="dragelevation">seret elevasi</string>
+    <string name="tool_card_scale">skala kartu alat</string>
+</resources>

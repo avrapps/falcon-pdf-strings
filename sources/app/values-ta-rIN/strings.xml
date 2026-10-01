@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">PDF மேஜிக்</string>
+    <string name="app_tagline">நீங்கள் என்ன செய்ய விரும்புகிறீர்கள்?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">கடைசியாகப் பயன்படுத்தியது</string>
+    <string name="home_favorites">பிடித்தவை</string>
+    <string name="home_new_tool">புதிய கருவி</string>
+    <string name="home_featured">சிறப்பு</string>
+    <string name="home_scan_to_pdf">PDF ஆக ஸ்கேன் செய்</string>
+    <string name="home_scan_description">காகித ஆவணங்களை உடனடியாக டிஜிட்டல் மாயாஜாலமாக மாற்றுங்கள்.</string>
+    <string name="home_start_scanning">ஸ்கேன் செய்யத் தொடங்கு</string>
+    <string name="home_all_tools">அனைத்து கருவிகளும்</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">PDF கருவிகள்</string>
+    <string name="image_tools">படக் கருவிகள்</string>
+    <string name="tools_split">பிரி</string>
+    <string name="tools_split_description">பக்கங்களைப் பிரித்தெடுக்கவும்</string>
+    <string name="tools_rotate">சுழற்று</string>
+    <string name="tools_rotate_description">திசையமைப்பைச் சரிசெய்</string>
+    <string name="tools_delete_pages">பக்கங்களை நீக்கு</string>
+    <string name="tools_delete_pages_description">தேவையற்றவற்றை அகற்று</string>
+    <string name="tools_convert">மாற்று</string>
+    <string name="tools_convert_description">படங்களுக்கு/அனுப்புநர்</string>
+    <string name="tools_sign">அடையாளம்</string>
+    <string name="tools_sign_description">கையொப்பத்தைச் சேர்க்கவும்</string>
+    <string name="tools_protect">பாதுகாக்கவும்</string>
+    <string name="tools_protect_description">கடவுச்சொல் பாதுகாப்பு</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">PDF பார்வையாளர்</string>
+    <string name="pdf_viewer_page_info">பக்கம் %1$d இல் %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">ஆவண ஸ்கேனர்</string>
+    <string name="scanner_capture">பிடிப்பு</string>
+    <string name="scanner_retake">மீண்டும் எடு</string>
+    <string name="scanner_save">சேமிக்கவும்</string>
+    <!-- Navigation -->
+    <string name="nav_back">பின்னோக்கிச் செல்</string>
+    <string name="nav_settings">அமைப்புகள்</string>
+    <string name="nav_more_options">கூடுதல் விருப்பங்கள்</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">வீடு</string>
+    <string name="nav_library">நூலகம்</string>
+    <string name="nav_scan">ஸ்கேன்</string>
+    <string name="nav_tools">கருவிகள்</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">கோப்புகளை உலாவுக</string>
+    <string name="browse_files_subtitle">சேமிப்பகம் &amp; கிளவுட் கோப்புகள்</string>
+    <string name="show_hidden_files">மறைக்கப்பட்ட கோப்புகளைக் காட்டு</string>
+    <string name="hide_hidden_files">மறைக்கப்பட்ட கோப்புகளை மறை</string>
+    <string name="refresh_storage">சேமிப்பிடத்தைப் புதுப்பிக்கவும்</string>
+    <string name="no_storage_available">சேமிப்பிடம் இல்லை</string>
+    <string name="no_files_found">கோப்புகள் எதுவும் கிடைக்கவில்லை.</string>
+    <string name="add_files">%1$d கோப்புகளைச் சேர்க்கவும்</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">சேமிப்பக அனுமதி தேவை</string>
+    <string name="permission_storage_message">PDF கோப்புகளை உலாவவும் திறக்கவும் இந்த ஆப்ஸுக்கு உங்கள் சாதன சேமிப்பகத்திற்கான அணுகல் தேவை. தொடர சேமிப்பக அனுமதியை வழங்கவும்.</string>
+    <string name="permission_grant">அனுமதி வழங்கு</string>
+    <!-- Common Actions -->
+    <string name="action_open">திறந்த</string>
+    <string name="action_save">சேமிக்கவும்</string>
+    <string name="action_share">பகிர்</string>
+    <string name="action_delete">நீக்கு</string>
+    <string name="action_cancel">ரத்துசெய்</string>
+    <string name="action_confirm">உறுதிப்படுத்தவும்</string>
+    <string name="action_rename">மறுபெயரிடு</string>
+    <string name="action_print">அச்சு</string>
+    <string name="action_favorite">பிடித்தது</string>
+    <string name="action_unfavorite">பிடித்ததை நீக்கு</string>
+    <!-- Document Actions -->
+    <string name="document_share">ஆவணத்தைப் பகிரவும்</string>
+    <string name="document_rename">ஆவணத்தை மறுபெயரிடு</string>
+    <string name="document_delete">ஆவணத்தை நீக்கு</string>
+    <string name="document_print">ஆவணத்தை அச்சிடு</string>
+    <string name="document_favorite">பிடித்தவையில் சேர்</string>
+    <string name="document_unfavorite">பிடித்தவையிலிருந்து அகற்று</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">ஆவணம் வெற்றிகரமாகப் பகிரப்பட்டது.</string>
+    <string name="document_share_failed">ஆவணத்தைப் பகிர முடியவில்லை.</string>
+    <string name="document_renamed_success">ஆவணம் வெற்றிகரமாக மறுபெயரிடப்பட்டது.</string>
+    <string name="document_rename_failed">ஆவணத்தை மறுபெயரிடுவதில் தோல்வி.</string>
+    <string name="document_deleted_success">ஆவணம் வெற்றிகரமாக நீக்கப்பட்டது.</string>
+    <string name="document_delete_failed">ஆவணத்தை நீக்க முடியவில்லை.</string>
+    <string name="document_print_opened">ஆவணம் இயல்புநிலை PDF வியூவரில் திறக்கப்பட்டது. அச்சிட பார்வையாளரின் அச்சு செயல்பாட்டைப் பயன்படுத்தவும்.</string>
+    <string name="document_print_failed">ஆவணத்தை அச்சிட முடியவில்லை.</string>
+    <string name="document_added_to_favorites">பிடித்தவையில் சேர்க்கப்பட்டது</string>
+    <string name="document_removed_from_favorites">பிடித்தவையிலிருந்து அகற்றப்பட்டது</string>
+    <string name="document_favorite_failed">பிடித்த நிலையைப் புதுப்பிக்க முடியவில்லை.</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">ஆவணத்தை மறுபெயரிடு</string>
+    <string name="dialog_rename_hint">புதிய பெயரை உள்ளிடவும்</string>
+    <string name="dialog_rename_empty_error">ஆவணப் பெயர் காலியாக இருக்கக்கூடாது.</string>
+    <string name="dialog_delete_title">ஆவணத்தை நீக்கு</string>
+    <string name="dialog_delete_file_message">இது கோப்பை நிரந்தரமாக நீக்கிவிடும்.\n\nநீக்கு %1$s?</string>
+    <string name="dialog_delete_uri_message">செயலியில் இருந்து மட்டும் நீக்குகிறது. அசல் கோப்பு மாற்றப்படவில்லை.\n\nசெயலியில் இருந்து %1$s ஐ நீக்கவா?</string>
+    <string name="dialog_delete_confirm">நீக்கு</string>
+    <string name="dialog_remove_confirm">அகற்று</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">பயன்பாட்டிற்குள் மட்டுமே மறுபெயரிடப்படும். அசல் கோப்பு மாறவில்லை.</string>
+    <string name="notice_delete_uri_only">பயன்பாட்டிலிருந்து அகற்றப்பட்டது. அசல் கோப்பு மாற்றப்படவில்லை.</string>
+    <string name="notice_file_exists_error">இந்தப் பெயரில் ஒரு கோப்பு ஏற்கனவே உள்ளது.</string>
+    <string name="notice_file_not_found_error">கோப்பு கிடைக்கவில்லை.</string>
+    <string name="notice_no_active_document">செயலில் உள்ள ஆவணம் இல்லை.</string>
+    <string name="notice_document_path_unavailable">ஆவணக் கோப்பு பாதை கிடைக்கவில்லை.</string>
+    <!-- States -->
+    <string name="state_loading">ஏற்றுகிறது...</string>
+    <string name="state_empty">எந்த பொருட்களும் கிடைக்கவில்லை.</string>
+    <string name="state_error">ஏதோ தவறாகிவிட்டது.</string>
+    <string name="state_retry">மீண்டும் முயற்சிக்கவும்</string>
+    <!-- Errors -->
+    <string name="error_network">நெட்வொர்க் இணைப்பு தோல்வியடைந்தது.</string>
+    <string name="error_file_not_found">கோப்பு கிடைக்கவில்லை.</string>
+    <string name="error_permission_denied">அனுமதி மறுக்கப்பட்டது</string>
+    <string name="error_invalid_file">தவறான கோப்பு வடிவம்</string>
+    <string name="error_password_required">கடவுச்சொல் தேவை</string>
+    <string name="error_incorrect_password">தவறான கடவுச்சொல்</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">கடவுச்சொல் பாதுகாக்கப்பட்டது</string>
+    <string name="password_protected_message">இந்தக் கோப்பைத் திறக்க கடவுச்சொல் தேவை. அதை கீழே உள்ளிடவும்.</string>
+    <string name="password_label">கடவுச்சொல்</string>
+    <string name="password_placeholder">கடவுச்சொல்லை உள்ளிடவும்</string>
+    <string name="password_unlock">திறக்கவும்</string>
+    <string name="password_show">கடவுச்சொல்லைக் காட்டு</string>
+    <string name="password_hide">கடவுச்சொல்லை மறை</string>
+    <!-- Theme -->
+    <string name="theme_light">ஒளி</string>
+    <string name="theme_dark">இருள்</string>
+    <string name="theme_system">அமைப்பு</string>
+    <string name="theme_adaptive">தகவமைப்பு</string>
+    <string name="theme_custom">தனிப்பயன்</string>
+    <!-- Settings -->
+    <string name="settings_title">விருப்பத்தேர்வுகள்</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">கணக்கு &amp; ஒத்திசைவு</string>
+    <string name="settings_category_sync_subtitle">உங்கள் கணக்கை நிர்வகிக்கவும், ஒத்திசைக்கவும் &amp; தனியுரிமை</string>
+    <string name="settings_category_appearance_title">தோற்றம்</string>
+    <string name="settings_category_appearance_subtitle">செயலியின் தோற்றத்தையும் உணர்வையும் தனிப்பயனாக்குங்கள் &amp;</string>
+    <string name="settings_category_pdf_reader_title">PDF ரீடர்</string>
+    <string name="settings_category_pdf_reader_subtitle">இயல்புநிலை பார்வையாளர் &amp; வாசிப்பு அனுபவம்</string>
+    <string name="settings_category_help_title">உதவி &amp; ஆதரவு</string>
+    <string name="settings_category_help_subtitle">ஆவணங்கள் &amp; தொடர்பு</string>
+    <string name="settings_category_general_title">பொது</string>
+    <string name="settings_category_general_subtitle">மொழி &amp; செயலி தகவல்</string>
+    <string name="settings_theme_section">தீம்</string>
+    <string name="settings_theme_description">உங்களுக்கு விருப்பமான கருப்பொருளைத் தேர்வுசெய்யவும்.</string>
+    <string name="settings_accent_color">உச்சரிப்பு நிறம்</string>
+    <string name="settings_custom_colors">தனிப்பயன் வண்ணங்கள்</string>
+    <string name="settings_primary_color">முதன்மை நிறம்</string>
+    <string name="settings_background_color">பின்னணி நிறம்</string>
+    <string name="settings_surface_color">மேற்பரப்பு நிறம்</string>
+    <string name="settings_reset_colors">இயல்புநிலைக்கு மீட்டமை</string>
+    <string name="settings_adaptive_note">மெட்டீரியல் யூ தகவமைப்பு வண்ணங்கள் (ஆண்ட்ராய்டு 12+)</string>
+    <string name="settings_app_section">பயன்பாட்டு அமைப்புகள்</string>
+    <string name="settings_notifications">அறிவிப்புகள்</string>
+    <string name="settings_notifications_description">பயன்பாட்டு அறிவிப்புகளைப் பெறுக</string>
+    <string name="settings_auto_backup">தானியங்கு காப்புப்பிரதி</string>
+    <string name="settings_auto_backup_description">ஆவணங்களைத் தானாகவே காப்புப் பிரதி எடுக்கவும்</string>
+    <string name="settings_change_color">நிறத்தை மாற்று</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">உங்கள் PDF ஆவணங்கள் இங்கே தோன்றும்.</string>
+    <string name="scan_description">ஆவணங்களை PDF ஆக ஸ்கேன் செய்யவும்</string>
+    <string name="tools_description">PDF எடிட்டிங் மற்றும் கையாளுதல் கருவிகள்</string>
+    <string name="home_description">அம்சங்களை அணுக கீழ்நோக்கிய வழிசெலுத்தலைப் பயன்படுத்தவும்.</string>
+    <!-- Sort Options -->
+    <string name="sort_name">பெயர்</string>
+    <string name="sort_date">தேதி</string>
+    <string name="sort_size">அளவு</string>
+    <string name="sort_option_name">பெயர்</string>
+    <string name="sort_option_last_opened">கடைசியாக திறக்கப்பட்டது</string>
+    <string name="sort_option_last_modified">கடைசியாக மாற்றப்பட்டது</string>
+    <string name="sort_option_file_size">கோப்பு அளவு</string>
+    <!-- View Types -->
+    <string name="view_type_list">பட்டியல் பார்வை</string>
+    <string name="view_type_table">அட்டவணை பார்வை</string>
+    <string name="view_type_grid">கட்டக் காட்சி</string>
+    <!-- File Properties -->
+    <string name="file_name">கோப்பு பெயர்</string>
+    <string name="date_modified">தேதி மாற்றப்பட்டது</string>
+    <string name="file_size">அளவு</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">தொடங்கப்படவில்லை</string>
+    <string name="file_status_completed">நிறைவுற்றது</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">PDF ஆவணம்</string>
+    <string name="document_type_word">வேர்ட் ஆவணம்</string>
+    <string name="document_type_excel">எக்செல் விரிதாள்</string>
+    <string name="document_type_image">படக் கோப்பு</string>
+    <string name="document_type_other">ஆவணம்</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">அனைத்து கோப்புகளும்</string>
+    <string name="filter_recent">சமீபத்தியது</string>
+    <string name="filter_pdfs">PDFகள்</string>
+    <string name="filter_images">படங்கள்</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">முகப்புப் பக்கம்</string>
+    <string name="browse_tab">உலவ</string>
+    <string name="starred_tab">நட்சத்திரமிட்டது</string>
+    <string name="settings_tab">அமைப்புகள்</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">தீமினை மாற்று</string>
+    <string name="accessibility_menu">மெனு</string>
+    <string name="accessibility_close">மூடு</string>
+    <string name="accessibility_color_picker">வண்ணத் தேர்வி</string>
+    <!-- Library Screen -->
+    <string name="library_title">நூலகம்</string>
+    <string name="library_subtitle">கோப்புகளை நிர்வகி, சமீபத்தியவை &amp; பிடித்தவை</string>
+    <string name="library_search_placeholder">கோப்புகளைத் தேடு...</string>
+    <string name="library_selected_count">%1$d தேர்ந்தெடுக்கப்பட்டது</string>
+    <string name="library_open_from_device">\nசாதனத்திலிருந்து திற</string>
+    <string name="library_browse_files">\nகோப்புகளை உலாவுக</string>
+    <string name="library_action_open">திறந்த</string>
+    <string name="library_action_share">பகிர்</string>
+    <string name="library_action_remove">அகற்று</string>
+    <string name="library_action_delete">நீக்கு</string>
+    <string name="library_clear_search">தேடலை அழி</string>
+    <string name="library_close_search">தேடலை மூடு</string>
+    <string name="library_select_all">எல்லா கோப்புகளையும் தேர்ந்தெடுக்கவும்</string>
+    <string name="library_exit_multiselect">பல தேர்வு பயன்முறையிலிருந்து வெளியேறு</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">உதவி &amp; ஆதரவு</string>
+    <string name="help_support_subtitle">அடிக்கடி கேட்கப்படும் கேள்விகள், தொடர்புக்கு &amp; சட்டப்பூர்வமானவை</string>
+    <string name="settings_pdf_subtitle">உருட்டு, &amp; தளவமைப்பைக் காண்க</string>
+    <string name="help_header_title">நாங்கள் எப்படி உதவ முடியும்?</string>
+    <string name="help_header_subtitle">\nசிறந்த PDF அனுபவத்தை நீங்கள் பெறுவதை உறுதிசெய்ய எங்கள் குழு இங்கே உள்ளது.</string>
+    <string name="help_contact_us">எங்களை தொடர்பு கொள்ள</string>
+    <string name="help_contact_subtitle">ஆதரவுடன் தொடர்பு கொள்ளவும்</string>
+    <string name="help_faq">அடிக்கடி கேட்கப்படும் கேள்விகள்</string>
+    <string name="help_faq_subtitle">பொதுவான கேள்விகளுக்கு பதிலளிக்கப்பட்டது</string>
+    <string name="help_privacy_policy">தனியுரிமைக் கொள்கை</string>
+    <string name="help_privacy_subtitle">உங்கள் தரவை நாங்கள் எவ்வாறு பாதுகாக்கிறோம்</string>
+    <string name="help_terms_service">சேவை விதிமுறைகள்</string>
+    <string name="help_terms_subtitle">விண்ணப்ப விதிகள்</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">மொபைல் டேட்டாவில் ஒத்திசைக்கவும்</string>
+    <string name="background_sync">பின்னணி ஒத்திசைவு</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">PDF ரீடர் அமைப்புகள்</string>
+    <string name="pdf_settings_coming_soon">விரைவில்</string>
+    <string name="pdf_settings_description">உருள் நடத்தை, பார்வை முறைகள் மற்றும் வாசிப்பு விருப்பங்களை உள்ளமைக்கவும்</string>
+    <!-- General Settings -->
+    <string name="settings_language">மொழி</string>
+    <string name="settings_pdf_reader">PDF ரீடர் அமைப்புகள்</string>
+    <string name="settings_help_support">உதவி &amp; ஆதரவு</string>
+    <string name="settings_whats_new">புதியது என்ன</string>
+    <string name="settings_download_desktop">மற்றொரு சாதனத்தில் நிறுவவும்</string>
+    <string name="settings_rate_app">பயன்பாட்டை மதிப்பிடு</string>
+    <string name="play_store_not_found">இந்தச் சாதனத்தில் பிளே ஸ்டோர் காணப்படவில்லை</string>
+    <string name="settings_set_as_default">இயல்புநிலை PDF பார்வையாளராக அமைக்கவும்</string>
+    <string name="settings_set_as_default_subtitle">இயல்பாகவே இந்தப் பயன்பாட்டின் மூலம் PDFகளைத் திறக்கவும்.</string>
+    <string name="settings_default_pdf_instructions_title">இயல்புநிலையாக அமைப்பது எப்படி</string>
+    <string name="settings_default_pdf_ok">புரிந்தது</string>
+    <string name="settings_default_app_hint">வேலை செய்யவில்லையா?</string>
+    <string name="settings_default_app_hint_learn_more">மேலும் அறிக</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">மொழி</string>
+    <string name="language_search_placeholder">மொழிகளைத் தேடு...</string>
+    <!-- Common UI -->
+    <string name="support">ஆதரவு</string>
+    <string name="language_english">ஆங்கிலம்</string>
+    <string name="language_hindi">இந்தி</string>
+    <string name="language_spanish">ஸ்பானிஷ்</string>
+    <string name="language_french">பிரெஞ்சுக்காரர்கள்</string>
+    <string name="language_german">ஜெர்மன்</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">العربية தமிழ் in இல்</string>
+    <string name="language_japanese">எஸ்</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">போர்த்துகீசியம்</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">பயன்பாட்டின் தோற்றம்</string>
+    <string name="theme">தீம்</string>
+    <string name="general">பொது</string>
+    <string name="new">புதியது</string>
+    <string name="navigate">வழிசெலுத்தல்</string>
+    <string name="download">பதிவிறக்கவும்</string>
+    <string name="falcon_pdf">பால்கன் PDF</string>
+    <string name="excellence_in_every_pixel">ஒவ்வொரு பிக்சலிலும் சிறப்பானது</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">மாற்றங்களைப் பயன்படுத்துங்கள்</string>
+    <string name="apply">விண்ணப்பிக்கவும்</string>
+    <string name="selected">தேர்ந்தெடுக்கப்பட்டது</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">ஒத்திசைவு அமைப்புகள்</string>
+    <string name="autosync_on_wifi">வைஃபையில் தானியங்கி ஒத்திசைவு</string>
+    <string name="sync_reading_progress">ஒத்திசைவு வாசிப்பு முன்னேற்றம்</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">ஆவணப் பெயர்</string>
+    <string name="name_cannot_be_empty">பெயர் காலியாக இருக்கக்கூடாது.</string>
+    <string name="str__failed">%1$s தோல்வியடைந்தது</string>
+    <string name="ok">சரி</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">மேம்படுத்தல் திட்டம் - தற்போதைய திட்டம்: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">கோப்பைத் திறக்க இழுத்து விடுங்கள்</string>
+    <string name="release_to_import_and_open_pdf">PDF கோப்புகளை இறக்குமதி செய்து திறக்க விடுவிக்கவும்.</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">அகற்று</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF ஐ பதிவிறக்கவும்</string>
+    <string name="images">படங்கள்</string>
+    <string name="filter_all_types">அனைத்து கோப்புகளும்</string>
+    <string name="favorites">பிடித்த கோப்புகள்</string>
+    <string name="recent">ஞாபகம்</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">ஆவணங்களைத் தேடு...</string>
+    <string name="voice_search">குரல் தேடல்</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">சமீபத்திய கோப்புகள்</string>
+    <string name="loading_recent_files">சமீபத்திய கோப்புகளை ஏற்றுகிறது...</string>
+    <string name="no_recent_files">சமீபத்திய கோப்புகள் இல்லை</string>
+    <string name="no_favorites">விருப்பமானவை இல்லை</string>
+    <string name="mark_files_as_favorite_to_see_them_here">கோப்புகளை இங்கே காண, அவற்றை விருப்பமானவையாகக் குறியிடவும்.</string>
+    <string name="open_some_pdf_files_to_see_the">இங்கே காண சில PDF கோப்புகளைத் திறக்கவும்.</string>
+    <string name="status">நிலைமை</string>
+    <string name="actions">செயல்கள்</string>
+    <string name="select_all">அனைத்தையும் தேர்ந்தெடுக்கவும்</string>
+    <string name="enter_multiselect_mode">பல தேர்வு பயன்முறையை உள்ளிடவும்</string>
+    <string name="sorted_ascending">ஏறுவரிசையில் வரிசைப்படுத்தப்பட்டது</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">சேமிப்பு: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">%1$s கோப்புகளைச் சேர்க்கவும்</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">காட்சி வகையை மாற்று</string>
+    <string name="filter_">வடிகட்டி: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">PDF-ஐ ஏற்றுகிறது...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">ஒத்திசைக்க உள்நுழையவும்</string>
+    <string name="protect_your_library_files">உங்கள் நூலகக் கோப்புகளைப் பாதுகாக்கவும்</string>
+    <string name="sign_in">உள்நுழை</string>
+    <string name="sign_out">வெளியேறு</string>
+    <string name="sign_in_dialog_title">ஃபால்கன் PDF இல் உள்நுழைக</string>
+    <string name="sign_in_dialog_subtitle">உங்கள் PDF நூலகம், எங்கும்.</string>
+    <string name="sign_in_with_google">கூகிள் மூலம் உள்நுழைக</string>
+    <string name="sign_in_with_apple">ஆப்பிள் மூலம் உள்நுழைக</string>
+    <string name="apple_user_drive_unavailable">ஆப்பிள் உள்நுழைவுடன் கூகிள் டிரைவ் ஒத்திசைவு கிடைக்காது.</string>
+    <string name="apple_user_link_google">டிரைவ் ஒத்திசைவிற்காக கூகிள் கணக்கை இணைக்கவும்</string>
+    <string name="apple_user_sync_info">கிளவுட் ஒத்திசைவை இயக்க, ஒரு கூகுள் கணக்கை இணைக்கவும்.</string>
+    <string name="link_google_account">கூகிள் கணக்கை இணைக்கவும்</string>
+    <string name="signed_in_successfully">வெற்றிகரமாக உள்நுழைந்தார்</string>
+    <string name="signed_out_successfully">வெற்றிகரமாக வெளியேறினார்</string>
+    <string name="sync_disabled_free">இலவச கணக்குகளுக்கு ஒத்திசைவு முடக்கப்பட்டுள்ளது.</string>
+    <string name="storage_disabled_grant_access">சேமிப்பகம் முடக்கப்பட்டுள்ளது. தொடங்குவதற்கு இயக்கக அணுகலை வழங்கவும்.</string>
+    <string name="upgrade_to_pro">புரோ பதிப்பிற்கு மேம்படுத்தவும்</string>
+    <string name="grant_drive_access">கிராண்ட் டிரைவ் அணுகல்</string>
+    <string name="files_synced">%1$d/%2$d கோப்புகள் ஒத்திசைக்கப்பட்டன</string>
+    <string name="synced_count">%1$d ஒத்திசைக்கப்பட்டது</string>
+    <string name="unlimited_sync_active">வரம்பற்ற ஒத்திசைவு</string>
+    <string name="missing_drive_permissions">டிரைவ் அனுமதிகள் இல்லை. ஒத்திசைவு தற்போது தடுக்கப்பட்டுள்ளது.</string>
+    <string name="drive_access_revoked">டிரைவ் அணுகல் ரத்து செய்யப்பட்டது. ஒத்திசைவை மீண்டும் தொடங்க, மீண்டும் இணைக்கவும்.</string>
+    <string name="upgrade_premium">பிரீமியம் மேம்படுத்து</string>
+    <string name="manage_account">கணக்கை நிர்வகிக்கவும்</string>
+    <string name="sync_now">இப்போது ஒத்திசைக்கவும்</string>
+    <string name="tier_free">இலவசம்</string>
+    <string name="tier_pro">புரோ</string>
+    <string name="tier_premium">பிரீமியம்</string>
+    <string name="status_paused">இடைநிறுத்தப்பட்டது</string>
+    <!-- Common -->
+    <string name="navigate_back">பின்னோக்கிச் செல்</string>
+    <string name="dismiss">நிராகரி</string>
+    <string name="cancel">ரத்துசெய்</string>
+    <string name="back">மீண்டும்</string>
+    <string name="search">தேடல்</string>
+    <string name="more_actions">மேலும் செயல்கள்</string>
+    <string name="share">பகிர்</string>
+    <string name="delete">நீக்கு</string>
+    <string name="remove_from_recents">சமீபத்தியவற்றிலிருந்து அகற்று</string>
+    <string name="open">திறந்த</string>
+    <string name="all">அனைத்தும்</string>
+    <string name="sort_by_">%1$sபடி வரிசைப்படுத்து</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">கூகிள் டிரைவ் ஒத்திசைவு</string>
+    <string name="syncing">ஒத்திசைக்கப்படுகிறது...</string>
+    <string name="sync_completed">ஒத்திசைவு நிறைவடைந்தது</string>
+    <string name="sync_failed">ஒத்திசைவு தோல்வியடைந்தது</string>
+    <string name="sync_limit_exceeded">ஒத்திசைவு வரம்பு மீறப்பட்டது. உங்கள் %s திட்டம் %d கோப்புகளை மட்டுமே அனுமதிக்கிறது.</string>
+    <string name="sync_no_drive_access">கூகிள் டிரைவ் அணுகல் கிடைக்கவில்லை</string>
+    <string name="sync_network_unavailable">நெட்வொர்க் கிடைக்கவில்லை</string>
+    <string name="sync_last_sync">கடைசி ஒத்திசைவு: %s</string>
+    <string name="sync_total_files">மொத்தம்</string>
+    <string name="sync_synced_files">ஒத்திசைக்கப்பட்டது</string>
+    <string name="sync_failed_files">தோல்வியுற்றது</string>
+    <string name="sync_conflict_files">மோதல்கள்</string>
+    <string name="sync_add_to_favorites">விருப்பமானவற்றில் சேர்க்கவும்</string>
+    <string name="sync_remove_from_favorites">விருப்பமானவற்றிலிருந்து அகற்று</string>
+    <string name="sync_conflict_title">ஒத்திசைவு முரண்பாடுகள்</string>
+    <string name="sync_conflict_message">பின்வரும் கோப்புகளில் தீர்க்கப்பட வேண்டிய முரண்பாடுகள் உள்ளன:</string>
+    <string name="sync_conflict_explanation">உள்ளூர் மற்றும் தொலைநிலை பதிப்புகள் இரண்டும் மாற்றியமைக்கப்படும்போது முரண்பாடுகள் ஏற்படுகின்றன.</string>
+    <string name="sync_plan_limit">ஒத்திசைவு: %d/%d</string>
+    <string name="sync_plan_limit_reached">வரம்பு எட்டல்</string>
+    <string name="sync_plan_unlimited">வரம்பற்ற ஒத்திசைவு</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">தவிர்க்கவும்</string>
+    <string name="welcome_next">அடுத்து</string>
+    <string name="welcome_get_started">தொடங்குங்கள்</string>
+    <string name="welcome_sign_in_get_started">உள்நுழை &amp; தொடங்கு</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;எந்த ஆவணத்தையும்&lt;/b&gt; உடனடியாகப் படிக்கவும்</string>
+    <string name="welcome_slide1_description">PDF, DOC, EPUB, MOBI உள்ளிட்ட 10க்கும் மேற்பட்ட ஆவண வடிவங்களைத் திறந்து நிர்வகிக்கவும்.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;PDFகள், மின்புத்தகங்கள்,&lt;/b&gt; மற்றும் அலுவலக ஆவணங்களை ஒரே இடத்தில் படிக்கவும்</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;ஆவணங்களை&lt;/b&gt; பிடித்தமானவையாகவும், பல்வேறு சாதனங்களிலும் அவற்றை அணுகவும்.</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;கருத்துரையிடவும்,&lt;/b&gt; சிறப்பித்துக் காட்டவும், மற்றும் எளிதாக இணைந்து செயல்படவும்.</string>
+    <string name="welcome_slide1_footer">உங்கள் உலகளாவிய ஆவண வாசிப்பான்</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;PDF கோப்புகளைத் திருத்தவும், ஸ்கேன் செய்யவும் மற்றும் ஒழுங்கமைக்கவும்&lt;/b&gt;</string>
+    <string name="welcome_slide2_description">PDF கோப்புகளை உருவாக்க, திருத்த மற்றும் நிர்வகிக்கத் தேவையான அனைத்தும் ஒரே சக்திவாய்ந்த கருவித்தொகுப்பில் உள்ளன.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;உரையைத் திருத்தவும்,&lt;/b&gt; குறிப்புகளைச் சேர்க்கவும், ஹைலைட் செய்யவும், மற்றும் படிவங்களை நிரப்பவும்.</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;ஆவணங்களை ஸ்கேன்&lt;/b&gt; செய்து அவற்றை உடனடியாக PDFகளாக மாற்றவும்</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;ஒன்றிணைத்தல், மாற்றுதல், சுருக்குதல் மற்றும் பாதுகாத்தல் உள்ளிட்ட 30க்கும் மேற்பட்ட கருவிகள்&lt;/b&gt;</string>
+    <string name="welcome_slide2_footer">உங்களுக்கான முழுமையான PDF பணிச்சூழல்</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;உங்கள் ஆவணங்களை&lt;/b&gt; புரிந்துகொள்ளும் செயற்கை நுண்ணறிவு</string>
+    <string name="welcome_slide3_description">உங்களுக்காக ஆவணங்களைப் படித்துப் பகுப்பாய்வு செய்யும் செயற்கை நுண்ணறிவு மூலம் பல மணிநேரங்களைச் சேமிக்கவும்.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;நீண்ட ஆவணங்களை நொடிகளில் சுருக்கவும்&lt;/b&gt;</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; ஸ்கேன் செய்யப்பட்ட பக்கங்கள் மற்றும் உரையை உடனடியாக மொழிபெயர்க்கவும்</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;உள்ளமைக்கப்பட்ட உரக்க வாசிப்பு வசதியுடன் ஆவணங்களைக்&lt;/b&gt; கேளுங்கள்</string>
+    <string name="welcome_slide3_footer">விளம்பரங்கள் இல்லை. உற்பத்தித்திறன் மட்டுமே.</string>
+    <string name="grace">கிரேஸ்</string>
+    <string name="unable_to_verify_subscription_limited_ac">சந்தாவைச் சரிபார்க்க முடியவில்லை. இணைப்பு மீண்டும் வரும் வரை அணுகல் கட்டுப்படுத்தப்பட்டுள்ளது.</string>
+    <string name="retry_verification">சரிபார்ப்பை மீண்டும் முயற்சிக்கவும்</string>
+    <string name="guest_state">விருந்தினர் நிலை</string>
+    <string name="free_tier">இலவச அடுக்கு</string>
+    <string name="free_tier__locked">இலவச அடுக்கு - பூட்டப்பட்டது</string>
+    <string name="pro_tier">புரோ டயர்</string>
+    <string name="pro_tier__restricted">புரோ அடுக்கு - கட்டுப்படுத்தப்பட்டது</string>
+    <string name="premium_tier">பிரீமியம் அடுக்கு</string>
+    <string name="premium_tier__error">பிரீமியம் அடுக்கு - பிழை</string>
+    <string name="refresh_plan_status">திட்ட நிலையைப் புதுப்பிக்கவும்</string>
+    <string name="user_avatar">பயனர் அவதார்</string>
+    <string name="debug_tools">பிழைத்திருத்தக் கருவிகள்</string>
+    <string name="authentication__drive">அங்கீகாரம் &amp; டிரைவ்</string>
+    <string name="auth_state">அங்கீகார நிலை</string>
+    <string name="revoke_drive_access">ஓட்டுநர் அணுகலை ரத்துசெய்</string>
+    <string name="image">படம்</string>
+    <string name="thumbnail">சிறுபடம்</string>
+    <string name="manage_preferences">விருப்பங்களை நிர்வகிக்கவும்</string>
+    <string name="tools_history">கருவிகளின் வரலாறு</string>
+    <string name="manage_recent_logs">சமீபத்திய பதிவுகளை நிர்வகிக்கவும்</string>
+    <string name="more_options">கூடுதல் விருப்பங்கள்</string>
+    <string name="clear_all_history">அனைத்து வரலாற்றையும் அழிக்கவும்</string>
+    <string name="no_history_yet">இன்னும் வரலாறு இல்லை</string>
+    <string name="your_pdf_tool_operations_will_appear_her">உங்கள் PDF கருவி செயல்பாடுகள் இங்கே தோன்றும்</string>
+    <string name="view">பார்வை</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">சேமிக்கப்பட்டது %1$s</string>
+    <string name="history_status_processing">செயலாக்கம்</string>
+    <string name="history_status_succeeded">வெற்றி பெற்றார்</string>
+    <string name="history_status_failed">தோல்வி</string>
+    <string name="history_status_processing_upper">செயலாக்கம்</string>
+    <string name="history_unknown_files">அறியப்படாத கோப்புகள்</string>
+    <string name="history_op_complete">%1$s முடிந்தது!</string>
+    <string name="history_op_failed">%1$s தோல்வி</string>
+    <string name="history_op_success_multiple">%1$d கோப்புகளுடன் செயல்பாடு வெற்றிகரமாக நிறைவடைந்தது.</string>
+    <string name="history_op_success_single">செயல்பாடு வெற்றிகரமாக நிறைவடைந்தது.</string>
+    <string name="history_op_error">எங்களால் அந்த நடவடிக்கையை முடிக்க முடியவில்லை.</string>
+    <string name="history_multiple_files">%1$d கோப்புகள்</string>
+    <string name="history_failed">தோல்வியுற்றது</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">கிளவுட் ஒத்திசைவு</string>
+    <string name="cloud_sync_subtitle">இணைக்கப்பட்ட சாதனங்கள்</string>
+    <string name="cloud_sync_all_synced">அனைத்து கோப்புகளும் ஒத்திசைக்கப்பட்டன</string>
+    <string name="cloud_sync_syncing">ஒத்திசைக்கப்படுகிறது…</string>
+    <string name="cloud_sync_pending">ஒத்திசைவு</string>
+    <string name="cloud_sync_last_sync">கடைசி ஒத்திசைவு: %1$s</string>
+    <string name="cloud_sync_never_synced">ஒருபோதும் ஒத்திசைக்கப்படவில்லை</string>
+    <string name="cloud_sync_recent_activity">சமீபத்திய ஒத்திசைவு செயல்பாடு</string>
+    <string name="cloud_sync_no_files">இன்னும் கோப்புகள் ஒத்திசைக்கப்படவில்லை</string>
+    <string name="cloud_sync_synced_to_drive">டிரைவுடன் ஒத்திசைக்கப்பட்டது</string>
+    <string name="cloud_sync_pending_upload">பதிவேற்றம் நிலுவையில் உள்ளது</string>
+    <string name="cloud_sync_sync_now">இப்போது ஒத்திசைக்கவும்</string>
+    <string name="cloud_sync_view_history">ஒத்திசைவு வரலாற்றைக் காண்க</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d கோப்புகள் ஒத்திசைக்கப்பட்டன</string>
+    <string name="cloud_sync_unlimited_files">%1$d கோப்புகள் ஒத்திசைக்கப்பட்டன · வரம்பற்றது</string>
+    <string name="cloud_sync_cta_title">எந்தத் தளத்திலும், எந்த நேரத்திலும்</string>
+    <string name="cloud_sync_cta_subtitle">உங்கள் ஆவணங்கள் உங்களை எல்லா இடங்களிலும் பின்தொடர்கின்றன.</string>
+    <string name="cloud_sync_files_label">%1$d கோப்புகள்</string>
+    <string name="settings_data_privacy">தரவு &amp; தனியுரிமை</string>
+    <string name="settings_data_privacy_subtitle">தரவு, கணக்கு &amp; நீக்கம் ஆகியவற்றை நிர்வகிக்கவும்</string>
+    <string name="settings_delete_account">கணக்கை நீக்கு</string>
+    <string name="settings_delete_account_subtitle">உங்கள் கணக்கையும் தரவுகளையும் நிரந்தரமாக நீக்கவும்</string>
+    <string name="delete_account_warning_title">உங்கள் கணக்கை நீக்கவா?</string>
+    <string name="delete_account_warning_message">இது உங்கள் கணக்கையும், உங்கள் கொள்முதல் வரலாறு மற்றும் கிளவுடில் ஒத்திசைக்கப்பட்ட கோப்புகள் உள்ளிட்ட அதனுடன் தொடர்புடைய அனைத்துத் தரவுகளையும் நிரந்தரமாக நீக்கிவிடும். இந்தச் செயலைத் திரும்பப் பெற முடியாது, மேலும் வாங்கியவற்றை பின்னர் மீட்டெடுக்கவும் இயலாது.</string>
+    <string name="delete_account_confirm_phrase_label">தொடர, 'confirm delete' எனத் தட்டச்சு செய்யவும்:</string>
+    <string name="delete_account_confirm_phrase">நீக்குதலை உறுதிப்படுத்துக</string>
+    <string name="delete_account_button">கணக்கை நீக்கு</string>
+    <string name="delete_account_error_reauth">பாதுகாப்புக் காரணங்களுக்காக, உங்கள் கணக்கை நீக்குவதற்கு நீங்கள் சமீபத்தில் உள்நுழைந்திருக்க வேண்டும். தயவுசெய்து வெளியேறி மீண்டும் உள்நுழைந்து, பிறகு மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="delete_account_success">கணக்கு வெற்றிகரமாக நீக்கப்பட்டது</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">கோப்பு &amp; ஒத்திசைவு அமைப்புகள்</string>
+    <string name="sync_on_mobile_data_subtitle">கிளவுட் ஒத்திசைவுக்கு மொபைல் டேட்டாவைப் பயன்படுத்தவும்</string>
+    <string name="drive_sync">பின்னணி ஒத்திசைவு</string>
+    <string name="drive_sync_subtitle">பிடித்தவைகளை ஒத்திசைக்கவும் &amp; ஆவணங்களை டிரைவிற்கு ஸ்கேன் செய்யவும்</string>
+    <string name="do_not_import_from_other_apps">மற்ற செயலிகளிலிருந்து கோப்புகளை இறக்குமதி செய்ய வேண்டாம்</string>
+    <string name="do_not_import_from_other_apps_subtitle">பகிரப்பட்ட கோப்புகளை நூலகத்தில் சேமிக்காமல் தற்காலிகமாகத் திறக்கவும்.</string>
+    <string name="clear_imported_files">இறக்குமதி செய்யப்பட்ட கோப்புகளை அழிக்கவும்</string>
+    <string name="clear_imported_files_subtitle">மற்ற செயலிகளிலிருந்து நகலெடுக்கப்பட்ட அனைத்து கோப்புகளையும் நீக்கவும்</string>
+    <string name="clear_imports_confirm_title">இறக்குமதி செய்யப்பட்ட கோப்புகளை அழிக்கவா?</string>
+    <string name="clear_imports_confirm_message">இது உங்கள் Imports கோப்புறையில் உள்ள அனைத்து கோப்புகளையும் நிரந்தரமாக நீக்கிவிடும். இதை மீண்டும் பழைய நிலைக்குக் கொண்டுவர முடியாது.</string>
+    <string name="clear_imports_success">இறக்குமதி செய்யப்பட்ட கோப்புகள் அனுமதிக்கப்பட்டன.</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">தரவு &amp; தனியுரிமை</string>
+    <string name="analytics_opt_out_title">பயன்பாட்டுத் தரவை அனுப்பவும்</string>
+    <string name="analytics_opt_out_subtitle">செயலியை மேம்படுத்த உதவுவதற்காக, அநாமதேய பயன்பாட்டுத் தரவுகளையும் செயலிழப்பு அறிக்கைகளையும் உருவாக்குநருடன் பகிரவும்.</string>
+    <string name="analytics_opt_out_disabled_note">பகுப்பாய்வு மற்றும் செயலிழப்பு அறிக்கை முடக்கப்பட்டுள்ளன. கூகிளுக்கோ அல்லது டெவலப்பருக்கோ எந்தத் தரவும் அனுப்பப்படவில்லை.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">சேமிக்கப்படாத மாற்றங்கள்</string>
+    <string name="unsaved_changes_tab_message">இந்த ஆவணத்தில் சேமிக்கப்படாத மாற்றங்கள் உள்ளன. மூடுவதற்கு முன் சேமிக்க விரும்புகிறீர்களா?</string>
+    <string name="unsaved_changes_window_message">ஒன்று அல்லது அதற்கு மேற்பட்ட ஆவணங்களில் நீங்கள் சேமிக்காத மாற்றங்கள் உள்ளன. அவற்றை நிராகரித்துவிட்டு வெளியேற விரும்புகிறீர்களா?</string>
+    <string name="discard">நிராகரி</string>
+    <string name="discard_and_quit">நிராகரி &amp; வெளியேறு</string>
+    <string name="close">அருகில்</string>
+    <string name="remove_favorite">விருப்பமானதை அகற்று</string>
+    <string name="set_as_default_pdf_viewer">இயல்புநிலை PDF பார்வையாளராக அமைக்கவா?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">ஃபால்கன் PDF உங்கள் இயல்புநிலை PDF காண்பி அல்ல. அனைத்து PDF கோப்புகளும் ஃபால்கன் PDF மூலம் திறக்கப்பட வேண்டும் என்பதற்காக, அதை இயல்புநிலையாக அமைக்க விரும்புகிறீர்களா?</string>
+    <string name="set_now">இப்போது அமைக்கவும்</string>
+    <string name="never">ஒருபோதும்</string>
+    <string name="later">பின்னர்</string>
+    <string name="set_default">இயல்புநிலையை அமைக்கவும்</string>
+    <string name="default">இயல்புநிலை</string>
+    <string name="version_">பதிப்பு %1$s</string>
+    <string name="sign_in_with_other_accounts">மற்ற கணக்குகளுடன் உள்நுழைக</string>
+    <string name="upgrade">மேம்படுத்து</string>
+    <string name="view_plan">திட்டத்தைப் பார்க்கவும்</string>
+    <string name="unlimited_sync_upto_5gb">5GB வரை வரம்பற்ற ஒத்திசைவு</string>
+    <string name="unlock_faster">வேகமாக திறக்கவும்</string>
+    <string name="use_biometrics_instead_of_passwords">கடவுச்சொற்களுக்குப் பதிலாக பயோமெட்ரிக்ஸைப் பயன்படுத்துங்கள்.</string>
+    <string name="upgrade_to_premium">பிரீமியத்திற்கு மேம்படுத்தவும்</string>
+    <string name="unlock_pdf">PDF-ஐத் திறக்கவும்</string>
+    <string name="use__to_accessnthis_document">இந்த ஆவணத்தை\nஅணுக %1$s ஐப் பயன்படுத்தவும்.</string>
+    <string name="open_with_password">கடவுச்சொல்லுடன் திறக்கவும்</string>
+    <string name="secure">பாதுகாப்பானது</string>
+    <string name="loading_">%1$s ஏற்றப்படுகிறது ...</string>
+    <string name="failed_to_open_ebook">மின் புத்தகத்தைத் திறக்க முடியவில்லை</string>
+    <string name="properties">பொருட்கள்</string>
+    <string name="copy">நகலெடு</string>
+    <string name="highlight">ஹைலைட்</string>
+    <string name="clear_selection">தெளிவான தேர்வு</string>
+    <string name="close_search">தேடலை மூடு</string>
+    <string name="search_in_book">புத்தகத்தில் தேடு...</string>
+    <string name="contents">உள்ளடக்கம்</string>
+    <string name="table_of_contents">பொருளடக்கம்</string>
+    <string name="no_table_of_contents_available">பொருளடக்கம் எதுவும் கிடைக்கவில்லை</string>
+    <string name="bookmarks">புக்மார்க்குகள்</string>
+    <string name="no_bookmarks_yet">இன்னும் புக்மார்க்குகள் இல்லை</string>
+    <string name="page_">பக்கம் %1$s</string>
+    <string name="no_results">முடிவுகள் இல்லை</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">அமைப்புகள்</string>
+    <string name="decrease_font_size">எழுத்துரு அளவைக் குறைக்கவும்</string>
+    <string name="increase_font_size">எழுத்துரு அளவை அதிகரிக்கவும்</string>
+    <string name="font">எழுத்துரு</string>
+    <string name="jump_to_page">பக்கத்திற்குச் செல்லவும்</string>
+    <string name="enter_page_number_1">பக்க எண்ணை உள்ளிடவும் (1–%1$s):</string>
+    <string name="go">போ</string>
+    <string name="read_aloud">சத்தமாகப் படியுங்கள்</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">நிறுத்து</string>
+    <string name="annotations__text_selection">விளக்கக் குறிப்புகள் &amp; உரைத் தேர்வு</string>
+    <string name="text_selection_and_annotations_for_ebook">மின்புத்தகங்களுக்கான உரைத் தேர்வு மற்றும் விளக்கக் குறிப்புகள் விரைவில் வரவிருக்கின்றன.</string>
+    <string name="longpress_on_text_to_select_highlight_or">தேர்ந்தெடுக்க, ஹைலைட் செய்ய அல்லது குறிப்புகளைச் சேர்க்க, உரையை நீண்ட நேரம் அழுத்திப் பிடிக்கவும்.</string>
+    <string name="press_play_to_start_reading_aloud">சத்தமாக வாசிக்கத் தொடங்க, ப்ளே பொத்தானை அழுத்தவும்...</string>
+    <string name="speed">வேகம்</string>
+    <string name="voice">குரல்</string>
+    <string name="no_annotations_yet">இன்னும் குறிப்புகள் இல்லை</string>
+    <string name="select_text_to_highlight_or_add_notes">சிறப்பித்துக் காட்ட அல்லது குறிப்புகளைச் சேர்க்க உரையைத் தேர்ந்தெடுக்கவும்.</string>
+    <string name="tools">கருவிகள்</string>
+    <string name="convert_to_images">படங்களாக மாற்றவும்</string>
+    <string name="rename">மறுபெயரிடு</string>
+    <string name="print">அச்சு</string>
+    <string name="a">அ−</string>
+    <string name="cover_of_">%1$s இன் அட்டை</string>
+    <string name="no_cover_available">காப்பீடு எதுவும் கிடைக்காது</string>
+    <string name="read_now">இப்போது படிக்கவும்</string>
+    <string name="about_the_book">புத்தகத்தைப் பற்றி</string>
+    <string name="tags">குறிச்சொற்கள்</string>
+    <string name="publisher_info">பதிப்பாளர் தகவல்</string>
+    <string name="published_">வெளியிடப்பட்டது: %1$s</string>
+    <string name="retry">மீண்டும் முயற்சிக்கவும்</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F தற்காலிக நினைவகத்தை அழி</string>
+    <string name="ebooks_library">மின் புத்தகங்கள் நூலகம்</string>
+    <string name="manage_your_digital_collection_across_mu">பல்வேறு வழங்குநர்களிடமிருந்து உங்கள் டிஜிட்டல் சேகரிப்பை நிர்வகிக்கவும். கூகுள் புக்ஸ் மற்றும் ஓப்பன் லைப்ரரியிலிருந்து புதிய தலைப்புகளைத் தேடுங்கள், வடிகட்டுங்கள் மற்றும் கண்டறியுங்கள்.</string>
+    <string name="no_books_found">புத்தகங்கள் எதுவும் காணப்படவில்லை</string>
+    <string name="no_results_for__try_a_different_search_t">"%1$s" என்பதற்கு முடிவுகள் எதுவும் இல்லை. வேறு தேடல் சொல்லைப் பயன்படுத்திப் பார்க்கவும்.</string>
+    <string name="downloadable_only">பதிவிறக்கம் செய்ய மட்டுமே</string>
+    <string name="file_unavailable">கோப்பு கிடைக்கவில்லை</string>
+    <string name="unavailable">கிடைக்கவில்லை</string>
+    <string name="search_titles_authors_isbn">தலைப்புகள், ஆசிரியர்கள், ISBN போன்றவற்றைத் தேடவும்...</string>
+    <string name="clear_search">தேடலைத் தெளிவுபடுத்து</string>
+    <string name="ebooks">மின்புத்தகங்கள்</string>
+    <string name="read_pdf">PDF-ஐப் படிக்கவும்</string>
+    <string name="create_pdf">PDF-ஐ உருவாக்கவும்</string>
+    <string name="unlock_all_tools_and_remove_limits">அனைத்து கருவிகளையும் திறக்கவும் மற்றும் வரம்புகளை அகற்றவும்</string>
+    <string name="ocr_scanning">OCR ஸ்கேனிங்</string>
+    <string name="extract_text_from_scanned_documents">ஸ்கேன் செய்யப்பட்ட ஆவணங்களிலிருந்து உரையைப் பிரித்தெடுக்கவும்</string>
+    <string name="cloud_sync">கிளவுட் ஒத்திசைவு</string>
+    <string name="access_your_documents_anywhere">உங்கள் ஆவணங்களை எங்கிருந்தும் அணுகுங்கள்.</string>
+    <string name="annotate_pdfs">PDFகளில் குறிப்புகளைச் சேர்க்கவும்</string>
+    <string name="cloud_backup">கிளவுட் காப்புப்பிரதி</string>
+    <string name="continue_reading">தொடர்ந்து படிக்கவும்</string>
+    <string name="pick_files">கோப்புகளைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="browse">உலாவுக</string>
+    <string name="did_you_know">உங்களுக்குத் தெரியுமா?</string>
+    <string name="home">வீடு</string>
+    <string name="your_documents_at_a_glance">உங்கள் ஆவணங்கள் ஒரு பார்வையில்</string>
+    <string name="pick_file">கோப்பைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="quick_actions">விரைவான நடவடிக்கைகள்</string>
+    <string name="pro">புரோ</string>
+    <string name="open_files">கோப்புகளைத் திறக்கவும்</string>
+    <string name="convert_to_pdf">PDF ஆக மாற்றவும்</string>
+    <string name="close_drawer">டிராயரை மூடு</string>
+    <string name="close_file">கோப்பை மூடு</string>
+    <string name="office">அலுவலகம்</string>
+    <string name="coming_soon">விரைவில் வருகிறது</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">இந்தத் தளத்தில் மின்புத்தகக் காட்சி வசதி இன்னும் கிடைக்கவில்லை.</string>
+    <string name="set_as_default_viewer">இயல்புநிலை பார்வையாளராக அமைக்கவும்</string>
+    <string name="free">இலவசம்</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">புதுப்பிப்பு பதிவிறக்கப்படுகிறது... %1$s%</string>
+    <string name="more">மேலும்</string>
+    <string name="font_size">எழுத்துரு அளவு</string>
+    <string name="font_family">எழுத்துரு குடும்பம்</string>
+    <string name="scroll_direction">சுருள் திசை</string>
+    <string name="navigation">வழிசெலுத்தல்</string>
+    <string name="keep_screen_on">திரையை ஆன் செய்து வைக்கவும்</string>
+    <string name="volume_button_to_scroll">ஸ்க்ரோல் செய்ய வால்யூம் பட்டனை அழுத்தவும்</string>
+    <string name="export_ebook_pages_as_image_files">மின்புத்தகப் பக்கங்களை படக் கோப்புகளாக ஏற்றுமதி செய்யவும்</string>
+    <string name="access_millions_of_titles">மில்லியன் கணக்கான தலைப்புகளை அணுகுங்கள்.</string>
+    <string name="read_offline_with_natural_ai_voices">இயற்கையான AI குரல்கள் மூலம் ஆஃப்லைனில் படிக்கவும்.</string>
+    <string name="advanced_ai_reader">மேம்பட்ட AI ரீடர்.</string>
+    <string name="experience_studioquality_narration">ஸ்டுடியோ தரத்திலான கதைசொல்லலை அனுபவியுங்கள்.</string>
+    <string name="powerful_pdf_tools">சக்திவாய்ந்த PDF கருவிகள்.</string>
+    <string name="create_and_edit_documents_on_the_go">பயணத்தின்போது ஆவணங்களை உருவாக்கித் திருத்தவும்.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">புரோ பதிப்பிற்கு மேம்படுத்துங்கள்: அனைத்து கருவிகளையும் திறக்கவும் மற்றும் வரம்புகளை நீக்கவும்</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">OCR ஸ்கேனிங்: ஸ்கேன் செய்யப்பட்ட ஆவணங்களிலிருந்து உரையைப் பிரித்தெடுத்தல்</string>
+    <string name="cloud_sync_access_your_documents_anywher">கிளவுட் ஒத்திசைவு: உங்கள் ஆவணங்களை எங்கிருந்தும் அணுகுங்கள்</string>
+    <string name="scan">ஸ்கேன்</string>
+    <string name="compress">சுருக்கு</string>
+    <string name="merge">ஒன்றிணைக்கவும்</string>
+    <string name="convert">மாற்று</string>
+    <string name="highlight_underline_and_add_notes_to_you">உங்கள் ஆவணங்களில் முக்கியப் பகுதிகளைக் குறித்துக் காட்டவும், அடிக்கோடிடவும், குறிப்புகளைச் சேர்க்கவும்.</string>
+    <string name="keep_your_documents_safe_with_automatic_">தானியங்கி கிளவுட் ஒத்திசைவு மூலம் உங்கள் ஆவணங்களைப் பாதுகாப்பாக வைத்திருங்கள்.</string>
+    <string name="indicator_color_">காட்டி_நிறம்_%1$s</string>
+    <string name="my_library">என் நூலகம்</string>
+    <string name="get_ebooks">மின்புத்தகங்களைப் பெறுங்கள்</string>
+    <string name="scan_document">ஆவணத்தை ஸ்கேன் செய்யவும்</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

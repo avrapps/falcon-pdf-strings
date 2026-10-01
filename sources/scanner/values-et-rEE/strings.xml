@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Skannimine</string>
+    <string name="scan_home_documents">Dokumendid</string>
+    <string name="scan_home_documents_lowercase">dokumendid</string>
+    <string name="scan_home_documents_count">%1$d Dokumendid</string>
+    <string name="scan_home_no_documents">Dokumente pole veel</string>
+    <string name="scan_home_start_scanning">Alusta skannimist, et luua oma esimene dokument</string>
+    <string name="scan_home_new_folder">Uus kaust</string>
+    <string name="scan_home_scan_document">Skanni dokument</string>
+    <string name="scan_home_import_gallery">Impordi galeriist</string>
+    <string name="scan_home_parent_folder">Ülemkaust</string>
+    <string name="scan_home_go_back">Mine tagasi ülemkausta juurde</string>
+    <string name="scan_home_create_folder">Loo uus kaust</string>
+    <string name="scan_home_enter_folder_name">Sisesta uue kausta nimi</string>
+    <string name="scan_home_folder_name">Kausta nimi</string>
+    <string name="scan_home_folder_placeholder">nt töödokumendid</string>
+    <string name="scan_home_folder_error">Kausta nimi ei tohi olla tühi</string>
+    <string name="scan_home_folder_name_empty">Kausta nimi ei tohi olla tühi</string>
+    <string name="scan_home_create">Loo</string>
+    <string name="scan_home_folder_exists">Selle nimega kaust on juba olemas</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Kaamera</string>
+    <string name="scan_camera_permission_required">Kaamera luba on vajalik</string>
+    <string name="scan_camera_permission_message">See rakendus vajab dokumentide skannimiseks kaamerale juurdepääsu.</string>
+    <string name="scan_camera_permission_settings">Palun mine menüüsse Seaded &gt; Rakendused &gt; PDF-vaatur &gt; Load ja luba kaameraluba.</string>
+    <string name="scan_camera_permission_title">Kaamera luba on vajalik</string>
+    <string name="scan_camera_request_permission">Taotle luba</string>
+    <string name="scan_camera_open_settings">Ava seaded</string>
+    <string name="scan_camera_close">Sule</string>
+    <string name="scan_camera_flash">Välk</string>
+    <string name="scan_camera_auto_capture">Automaatne jäädvustamine</string>
+    <string name="scan_camera_settings">Seaded</string>
+    <string name="scan_camera_ready_batch">Valmis mitme lehe skannimiseks</string>
+    <string name="scan_camera_ready_multiple">Valmis mitme lehe skannimiseks</string>
+    <string name="scan_camera_hold_steady">Hoidke skaneerimise ajal paigal</string>
+    <string name="scan_camera_captured_pages">%1$d lehekülge jäädvustatud</string>
+    <string name="scan_camera_mode_single">Vallaline</string>
+    <string name="scan_camera_mode_batch">Partii</string>
+    <string name="scan_camera_preview">Eelvaade</string>
+    <string name="scan_camera_finish">Lõpeta</string>
+    <string name="scan_camera_starting">Kaamera käivitamine...</string>
+    <string name="scan_camera_document_name">Dokumendi nimi</string>
+    <string name="scan_camera_document_name_empty">Dokumendi nimi ei tohi olla tühi</string>
+    <string name="scan_camera_save_document">Salvesta dokument</string>
+    <string name="scan_camera_processing">Töötlemine...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Kärpimine &amp; Kohanda</string>
+    <string name="scan_crop_close">Sule</string>
+    <string name="scan_crop_reset">Lähtesta</string>
+    <string name="scan_crop_rotate">Pööra</string>
+    <string name="scan_crop_done">Valmis</string>
+    <string name="scan_crop_scanned_document">Skannitud dokument</string>
+    <string name="scan_crop_magnified_view">Suurendatud vaade</string>
+    <string name="scan_crop_processing">Töötlemine...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Täiustama</string>
+    <string name="scan_filter_close">Sule</string>
+    <string name="scan_filter_rotate">Pööra</string>
+    <string name="scan_filter_done">Valmis</string>
+    <string name="scan_filter_filters">Filtrid</string>
+    <string name="scan_filter_original">Originaal</string>
+    <string name="scan_filter_magic">Maagia</string>
+    <string name="scan_filter_lighten">Helenda</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">Halltoonid</string>
+    <string name="scan_filter_magic_2">Puhas dokument</string>
+    <string name="scan_filter_soft_scan">Pehme skaneerimine</string>
+    <string name="scan_filter_color_enhance">Värv+</string>
+    <string name="scan_filter_ink_saver">Tindisäästja</string>
+    <string name="scan_filter_premium">Lisatasu funktsioon</string>
+    <string name="scan_filter_filtered_document">Filtreeritud dokument</string>
+    <string name="scan_filter_applying">Filtri rakendamine...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Tühista</string>
+    <string name="scan_share">Jaga</string>
+    <string name="scan_move">Liigu</string>
+    <string name="scan_move_to_folder">Teisalda kausta</string>
+    <string name="scan_delete">Kustuta</string>
+    <string name="scan_rename">Nimeta ümber</string>
+    <string name="scan_root">Juur</string>
+    <string name="scan_select_destination">Valige sihtkaust</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Dokument</string>
+    <string name="scan_document_back">Tagasi</string>
+    <string name="scan_document_pages">lehed</string>
+    <string name="scan_document_add_pages">Lisa sellele dokumendile lehti</string>
+    <string name="scan_document_add_page_button">Lisa leht</string>
+    <string name="scan_document_rename">Nimeta ümber</string>
+    <string name="scan_document_share">Jaga</string>
+    <string name="scan_document_more">Rohkem</string>
+    <string name="scan_document_pages_count">%1$d lehekülge</string>
+    <string name="scan_document_no_pages">Lehekülgi pole veel</string>
+    <string name="scan_document_scan_page">Skanni leht</string>
+    <string name="scan_document_import_page">Impordi galeriist</string>
+    <string name="scan_document_grid_view">Ruudustikuvaade</string>
+    <string name="scan_document_list_view">Loendivaade</string>
+    <string name="scan_document_continuous_view">Pidev vaade</string>
+    <string name="scan_document_page_number">Lehekülg %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Leht</string>
+    <string name="scan_page_back">Tagasi</string>
+    <string name="scan_page_share">Jaga</string>
+    <string name="scan_page_delete">Kustuta</string>
+    <string name="scan_page_of">%1$d / %2$d</string>
+    <string name="scan_page_image_not_found">Pilti ei leitud</string>
+    <string name="scan_page_retake">Võta uuesti</string>
+    <string name="scan_page_crop">Kärpimine</string>
+    <string name="scan_page_enhance">Täiustama</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">Salvesta galeriisse</string>
+    <string name="scan_page_saved_to_gallery">Pilt salvestati galeriisse</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Kustutada dokument?</string>
+    <string name="scan_delete_document_message">Kas olete kindel, et soovite kustutada "%1$s"? See kustutab jäädavalt kõik selle dokumendi lehed. Seda toimingut ei saa tagasi võtta.</string>
+    <string name="scan_rename_document">Dokumendi ümbernimetamine</string>
+    <string name="scan_rename_enter_name">Sisesta dokumendile uus nimi</string>
+    <string name="scan_rename_document_name">Dokumendi nimi</string>
+    <string name="scan_rename_error">Dokumendi nimi ei tohi olla tühi</string>
+    <string name="scan_dialog_delete_document_title">Kustutada dokument?</string>
+    <string name="scan_dialog_delete_document_message">Kas olete kindel, et soovite kustutada "%1$s"? See kustutab jäädavalt kõik selle dokumendi lehed. Seda toimingut ei saa tagasi võtta.</string>
+    <string name="scan_dialog_delete_confirm">Kustuta</string>
+    <string name="scan_dialog_cancel">Tühista</string>
+    <string name="scan_dialog_move_title">Teisalda kausta</string>
+    <string name="scan_dialog_move_message">Valige sihtkaust</string>
+    <string name="scan_dialog_move_confirm">Liigu</string>
+    <string name="scan_dialog_move_root">Juur</string>
+    <string name="scan_dialog_move_selected">Valitud</string>
+    <string name="scan_dialog_rename_title">Dokumendi ümbernimetamine</string>
+    <string name="scan_dialog_rename_message">Sisesta dokumendile uus nimi</string>
+    <string name="scan_dialog_rename_label">Dokumendi nimi</string>
+    <string name="scan_dialog_rename_error">Dokumendi nimi ei tohi olla tühi</string>
+    <string name="scan_dialog_rename_confirm">Nimeta ümber</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Jaga</string>
+    <string name="scan_menu_move">Teisalda kausta</string>
+    <string name="scan_menu_delete">Kustuta</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Kaamera eelvaade\n(Varsti saadaval)</string>
+    <string name="scan_platform_desktop_camera">Lauakaamera eelvaade\n(Varsti saadaval)</string>
+    <string name="scan_platform_ios_camera">iOS-i kaamera eelvaade\n(Varsti saadaval)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Sule</string>
+    <string name="flash">Välk</string>
+    <string name="auto_capture">Automaatne jäädvustamine</string>
+    <string name="settings">Seaded</string>
+    <string name="capture">Jäädvusta</string>
+    <string name="finish">Lõpeta</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Kas oled kindel, et soovid kustutada %1? Kõik selles olevad dokumendid kustutatakse samuti.</string>
+    <string name="share">Jaga</string>
+    <string name="share_as_images">Jaga piltidena</string>
+    <string name="share_as_pdf">Jaga PDF-failina</string>
+    <string name="move_to_folder">Teisalda kausta</string>
+    <string name="delete">Kustuta</string>
+    <string name="selected">Valitud</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Lehekülg %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">Kaust on tühi</string>
+    <string name="tap_the__button_to_scan_a_docu">Dokumendi skannimiseks puudutage nuppu +</string>
+    <string name="str______pages">%1$s • %2$s • %3$s lehekülge</string>
+    <string name="create_folder">Loo kaust</string>
+    <string name="more_options">Rohkem valikuid</string>
+    <string name="document_thumbnail">Dokumendi pisipilt</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Pilti ei leitud</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Leht %2$d</string>
+    <string name="scan_ocr_title">Tekstituvastus</string>
+    <string name="scan_ocr_copy">Kopeeri tekst</string>
+    <string name="scan_ocr_no_text">Teksti ei leitud</string>
+    <string name="scan_ocr_processing">Teksti tuvastamine…</string>
+    <string name="scan_ocr_error">Teksti tuvastamine ebaõnnestus</string>
+    <string name="scan_ocr_not_supported">OCR-i see platvorm ei toeta</string>
+    <string name="scan_ocr_image">OCR-i jaoks skannitud leht</string>
+    <string name="gallery">Galerii</string>
+    <string name="select_file">Valige fail</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Pildi jäädvustamine ebaõnnestus</string>
+    <string name="error_no_images_captured">Pilte pole jäädvustatud</string>
+    <string name="error_open_settings">Seadete avamine ebaõnnestus</string>
+    <string name="error_process_images">Piltide töötlemine ebaõnnestus</string>
+    <string name="error_process_image">Pildi töötlemine ebaõnnestus</string>
+    <string name="error_start_camera">Kaamera käivitamine ebaõnnestus</string>
+    <string name="error_stop_camera">Kaamera peatamine ebaõnnestus</string>
+    <string name="error_crop_image">Pildi kärpimine ebaõnnestus</string>
+    <string name="error_delete_document">Dokumendi kustutamine ebaõnnestus</string>
+    <string name="error_delete_page">Lehe kustutamine ebaõnnestus</string>
+    <string name="error_load_document">Dokumendi laadimine ebaõnnestus</string>
+    <string name="error_load_page">Lehe laadimine ebaõnnestus</string>
+    <string name="error_move_document">Dokumendi teisaldamine ebaõnnestus</string>
+    <string name="error_no_pages_to_share">Jagamiseks pole lehti</string>
+    <string name="error_rename_document">Dokumendi ümbernimetamine ebaõnnestus</string>
+    <string name="error_reorder_pages">Lehekülgede ümberjärjestamine ebaõnnestus</string>
+    <string name="error_share_images">Piltide jagamine ebaõnnestus</string>
+    <string name="error_share_pdf">PDF-i jagamine ebaõnnestus</string>
+    <string name="error_share_page">Lehe jagamine ebaõnnestus</string>
+    <string name="error_create_folder">Kausta loomine ebaõnnestus</string>
+    <string name="error_delete_folder">Kausta kustutamine ebaõnnestus</string>
+    <string name="error_rename_folder">Kausta ümbernimetamine ebaõnnestus</string>
+    <string name="error_unknown">Tekkis tundmatu viga</string>
+    <string name="folder_not_found">Kausta ei leitud</string>
+    <string name="sync_documents">Dokumentide sünkroonimine</string>
+    <string name="shutter_scale">katiku_skaala</string>
+    <string name="import_gallery">Impordi galerii</string>
+    <string name="scan_camera">Skannimiskaamera</string>
+</resources>

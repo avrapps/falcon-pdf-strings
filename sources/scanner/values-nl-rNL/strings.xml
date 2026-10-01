@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Scannen</string>
+    <string name="scan_home_documents">Documenten</string>
+    <string name="scan_home_documents_lowercase">documenten</string>
+    <string name="scan_home_documents_count">%1$d Documenten</string>
+    <string name="scan_home_no_documents">Nog geen documenten beschikbaar</string>
+    <string name="scan_home_start_scanning">Begin met scannen om je eerste document te maken.</string>
+    <string name="scan_home_new_folder">Nieuwe map</string>
+    <string name="scan_home_scan_document">Scan document</string>
+    <string name="scan_home_import_gallery">Importeren vanuit de galerij</string>
+    <string name="scan_home_parent_folder">Hoofdmap</string>
+    <string name="scan_home_go_back">Ga terug naar de hoofdmap</string>
+    <string name="scan_home_create_folder">Nieuwe map maken</string>
+    <string name="scan_home_enter_folder_name">Geef de nieuwe map een naam.</string>
+    <string name="scan_home_folder_name">Mapnaam</string>
+    <string name="scan_home_folder_placeholder">bijvoorbeeld werkdocumenten</string>
+    <string name="scan_home_folder_error">Mapnaam mag niet leeg zijn</string>
+    <string name="scan_home_folder_name_empty">Mapnaam mag niet leeg zijn</string>
+    <string name="scan_home_create">Creëren</string>
+    <string name="scan_home_folder_exists">Er bestaat al een map met deze naam.</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Camera</string>
+    <string name="scan_camera_permission_required">Cameratoestemming vereist</string>
+    <string name="scan_camera_permission_message">Deze app heeft toegang tot de camera nodig om documenten te scannen.</string>
+    <string name="scan_camera_permission_settings">Ga naar Instellingen &gt; Apps &gt; PDF-viewer &gt; Machtigingen en schakel de cameratoegang in.</string>
+    <string name="scan_camera_permission_title">Cameratoestemming vereist</string>
+    <string name="scan_camera_request_permission">Verzoek om toestemming</string>
+    <string name="scan_camera_open_settings">Open instellingen</string>
+    <string name="scan_camera_close">Dichtbij</string>
+    <string name="scan_camera_flash">Flash</string>
+    <string name="scan_camera_auto_capture">Automatische vastlegging</string>
+    <string name="scan_camera_settings">Instellingen</string>
+    <string name="scan_camera_ready_batch">Klaar om meerdere pagina's te scannen</string>
+    <string name="scan_camera_ready_multiple">Klaar om meerdere pagina's te scannen</string>
+    <string name="scan_camera_hold_steady">Houd uw apparaat stabiel tijdens het scannen.</string>
+    <string name="scan_camera_captured_pages">%1$d pagina's vastgelegd</string>
+    <string name="scan_camera_mode_single">Enkel</string>
+    <string name="scan_camera_mode_batch">Partij</string>
+    <string name="scan_camera_preview">Voorbeeld</string>
+    <string name="scan_camera_finish">Finish</string>
+    <string name="scan_camera_starting">Camera opstarten...</string>
+    <string name="scan_camera_document_name">Documentnaam</string>
+    <string name="scan_camera_document_name_empty">De documentnaam mag niet leeg zijn.</string>
+    <string name="scan_camera_save_document">Document opslaan</string>
+    <string name="scan_camera_processing">Bezig met verwerken...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Bijsnijden &amp; Aanpassen</string>
+    <string name="scan_crop_close">Dichtbij</string>
+    <string name="scan_crop_reset">Reset</string>
+    <string name="scan_crop_rotate">Draaien</string>
+    <string name="scan_crop_done">Klaar</string>
+    <string name="scan_crop_scanned_document">Gescand document</string>
+    <string name="scan_crop_magnified_view">Vergrote weergave</string>
+    <string name="scan_crop_processing">Bezig met verwerken...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Uitbreiden</string>
+    <string name="scan_filter_close">Dichtbij</string>
+    <string name="scan_filter_rotate">Draaien</string>
+    <string name="scan_filter_done">Klaar</string>
+    <string name="scan_filter_filters">Filters</string>
+    <string name="scan_filter_original">Origineel</string>
+    <string name="scan_filter_magic">Magie</string>
+    <string name="scan_filter_lighten">Verlichten</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">Grijstinten</string>
+    <string name="scan_filter_magic_2">Schone Doc</string>
+    <string name="scan_filter_soft_scan">Soft Scan</string>
+    <string name="scan_filter_color_enhance">Kleur+</string>
+    <string name="scan_filter_ink_saver">Inktbesparing</string>
+    <string name="scan_filter_premium">Premiumfunctie</string>
+    <string name="scan_filter_filtered_document">Gefilterd document</string>
+    <string name="scan_filter_applying">Filter toepassen...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Annuleren</string>
+    <string name="scan_share">Deel</string>
+    <string name="scan_move">Beweging</string>
+    <string name="scan_move_to_folder">Verplaatsen naar map</string>
+    <string name="scan_delete">Verwijderen</string>
+    <string name="scan_rename">Naam wijzigen</string>
+    <string name="scan_root">Wortel</string>
+    <string name="scan_select_destination">Selecteer een bestemmingsmap</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Document</string>
+    <string name="scan_document_back">Rug</string>
+    <string name="scan_document_pages">pagina's</string>
+    <string name="scan_document_add_pages">Voeg pagina's toe aan dit document</string>
+    <string name="scan_document_add_page_button">Pagina toevoegen</string>
+    <string name="scan_document_rename">Naam wijzigen</string>
+    <string name="scan_document_share">Deel</string>
+    <string name="scan_document_more">Meer</string>
+    <string name="scan_document_pages_count">%1$d pagina's</string>
+    <string name="scan_document_no_pages">Nog geen pagina's</string>
+    <string name="scan_document_scan_page">Scan pagina</string>
+    <string name="scan_document_import_page">Importeren vanuit de galerij</string>
+    <string name="scan_document_grid_view">Rasterweergave</string>
+    <string name="scan_document_list_view">Lijstweergave</string>
+    <string name="scan_document_continuous_view">Doorlopende weergave</string>
+    <string name="scan_document_page_number">Pagina %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Pagina</string>
+    <string name="scan_page_back">Rug</string>
+    <string name="scan_page_share">Deel</string>
+    <string name="scan_page_delete">Verwijderen</string>
+    <string name="scan_page_of">%1$d van %2$d</string>
+    <string name="scan_page_image_not_found">Afbeelding niet gevonden</string>
+    <string name="scan_page_retake">Herhaling</string>
+    <string name="scan_page_crop">Gewas</string>
+    <string name="scan_page_enhance">Uitbreiden</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">Opslaan in de galerij</string>
+    <string name="scan_page_saved_to_gallery">Afbeelding opgeslagen in de galerij</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Document verwijderen?</string>
+    <string name="scan_delete_document_message">Weet je zeker dat je "%1$s" wilt verwijderen? Hiermee worden alle pagina's in dit document permanent verwijderd. Deze actie kan niet ongedaan worden gemaakt.</string>
+    <string name="scan_rename_document">Document hernoemen</string>
+    <string name="scan_rename_enter_name">Voer een nieuwe naam in voor het document.</string>
+    <string name="scan_rename_document_name">Documentnaam</string>
+    <string name="scan_rename_error">De documentnaam mag niet leeg zijn.</string>
+    <string name="scan_dialog_delete_document_title">Document verwijderen?</string>
+    <string name="scan_dialog_delete_document_message">Weet je zeker dat je "%1$s" wilt verwijderen? Hiermee worden alle pagina's in dit document permanent verwijderd. Deze actie kan niet ongedaan worden gemaakt.</string>
+    <string name="scan_dialog_delete_confirm">Verwijderen</string>
+    <string name="scan_dialog_cancel">Annuleren</string>
+    <string name="scan_dialog_move_title">Verplaatsen naar map</string>
+    <string name="scan_dialog_move_message">Selecteer een bestemmingsmap</string>
+    <string name="scan_dialog_move_confirm">Beweging</string>
+    <string name="scan_dialog_move_root">Wortel</string>
+    <string name="scan_dialog_move_selected">Gekozen</string>
+    <string name="scan_dialog_rename_title">Document hernoemen</string>
+    <string name="scan_dialog_rename_message">Voer een nieuwe naam in voor het document.</string>
+    <string name="scan_dialog_rename_label">Documentnaam</string>
+    <string name="scan_dialog_rename_error">De documentnaam mag niet leeg zijn.</string>
+    <string name="scan_dialog_rename_confirm">Naam wijzigen</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Deel</string>
+    <string name="scan_menu_move">Verplaatsen naar map</string>
+    <string name="scan_menu_delete">Verwijderen</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Cameravoorbeeld\n(Binnenkort beschikbaar)</string>
+    <string name="scan_platform_desktop_camera">Voorbeeldweergave van de desktopcamera\n(Binnenkort beschikbaar)</string>
+    <string name="scan_platform_ios_camera">iOS Camera Preview\n(Binnenkort beschikbaar)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Dichtbij</string>
+    <string name="flash">Flash</string>
+    <string name="auto_capture">Automatische vastlegging</string>
+    <string name="settings">Instellingen</string>
+    <string name="capture">Vastlegging</string>
+    <string name="finish">Finish</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Weet je zeker dat je %1wilt verwijderen? Alle documenten binnenin worden dan ook verwijderd.</string>
+    <string name="share">Deel</string>
+    <string name="share_as_images">Delen als afbeeldingen</string>
+    <string name="share_as_pdf">Delen als PDF</string>
+    <string name="move_to_folder">Verplaatsen naar map</string>
+    <string name="delete">Verwijderen</string>
+    <string name="selected">Gekozen</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Pagina %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">De map is leeg.</string>
+    <string name="tap_the__button_to_scan_a_docu">Tik op de + knop om een document te scannen.</string>
+    <string name="str______pages">%1$s • %2$s • %3$s pagina's</string>
+    <string name="create_folder">Map maken</string>
+    <string name="more_options">Meer opties</string>
+    <string name="document_thumbnail">Documentminiatuur</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Afbeelding niet gevonden</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Pagina %2$d</string>
+    <string name="scan_ocr_title">Tekstherkenning</string>
+    <string name="scan_ocr_copy">Tekst kopiëren</string>
+    <string name="scan_ocr_no_text">Geen tekst gevonden</string>
+    <string name="scan_ocr_processing">Tekst herkennen…</string>
+    <string name="scan_ocr_error">Tekst niet herkend</string>
+    <string name="scan_ocr_not_supported">OCR wordt niet ondersteund op dit platform.</string>
+    <string name="scan_ocr_image">Gescande pagina voor OCR</string>
+    <string name="gallery">Galerij</string>
+    <string name="select_file">Selecteer bestand</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Het vastleggen van de afbeelding is mislukt.</string>
+    <string name="error_no_images_captured">Geen afbeeldingen vastgelegd</string>
+    <string name="error_open_settings">Instellingen openen mislukt</string>
+    <string name="error_process_images">Het verwerken van de afbeeldingen is mislukt.</string>
+    <string name="error_process_image">Het verwerken van de afbeelding is mislukt.</string>
+    <string name="error_start_camera">Het opstarten van de camera is mislukt.</string>
+    <string name="error_stop_camera">Het is niet gelukt de camera te stoppen.</string>
+    <string name="error_crop_image">Afbeelding bijsnijden mislukt</string>
+    <string name="error_delete_document">Het verwijderen van het document is mislukt.</string>
+    <string name="error_delete_page">Het verwijderen van de pagina is mislukt.</string>
+    <string name="error_load_document">Het laden van het document is mislukt.</string>
+    <string name="error_load_page">Pagina laden mislukt</string>
+    <string name="error_move_document">Het verplaatsen van het document is mislukt.</string>
+    <string name="error_no_pages_to_share">Geen pagina's om te delen</string>
+    <string name="error_rename_document">Het hernoemen van het document is mislukt.</string>
+    <string name="error_reorder_pages">Het is niet gelukt om de pagina's opnieuw te ordenen.</string>
+    <string name="error_share_images">Afbeeldingen delen mislukt</string>
+    <string name="error_share_pdf">Het delen van het PDF-bestand is mislukt.</string>
+    <string name="error_share_page">Pagina delen mislukt</string>
+    <string name="error_create_folder">Map aanmaken mislukt</string>
+    <string name="error_delete_folder">Map verwijderen mislukt</string>
+    <string name="error_rename_folder">Het hernoemen van de map is mislukt.</string>
+    <string name="error_unknown">Er is een onbekende fout opgetreden.</string>
+    <string name="folder_not_found">Map niet gevonden</string>
+    <string name="sync_documents">Documenten synchroniseren</string>
+    <string name="shutter_scale">sluiter_schaal</string>
+    <string name="import_gallery">Importeer galerij</string>
+    <string name="scan_camera">Scancamera</string>
+</resources>

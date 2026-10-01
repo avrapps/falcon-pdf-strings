@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">PDF Magic</string>
+    <string name="app_tagline">你想做什么？</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">上次使用</string>
+    <string name="home_favorites">收藏夹</string>
+    <string name="home_new_tool">新工具</string>
+    <string name="home_featured">特色</string>
+    <string name="home_scan_to_pdf">扫描成 PDF</string>
+    <string name="home_scan_description">立即将纸质文档转换为数字文档</string>
+    <string name="home_start_scanning">开始扫描</string>
+    <string name="home_all_tools">所有工具</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">PDF 工具</string>
+    <string name="image_tools">图像工具</string>
+    <string name="tools_split">分裂</string>
+    <string name="tools_split_description">提取页面</string>
+    <string name="tools_rotate">旋转</string>
+    <string name="tools_rotate_description">固定方向</string>
+    <string name="tools_delete_pages">删除页面</string>
+    <string name="tools_delete_pages_description">不需要</string>
+    <string name="tools_convert">转变</string>
+    <string name="tools_convert_description">到/来自图像</string>
+    <string name="tools_sign">符号</string>
+    <string name="tools_sign_description">添加签名</string>
+    <string name="tools_protect">保护</string>
+    <string name="tools_protect_description">密码安全</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">PDF查看器</string>
+    <string name="pdf_viewer_page_info">第 %1$d 页，共 %2$d页</string>
+    <!-- Scanner -->
+    <string name="scanner_title">文档扫描仪</string>
+    <string name="scanner_capture">捕获</string>
+    <string name="scanner_retake">重拍</string>
+    <string name="scanner_save">节省</string>
+    <!-- Navigation -->
+    <string name="nav_back">返回</string>
+    <string name="nav_settings">设置</string>
+    <string name="nav_more_options">更多选项</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">家</string>
+    <string name="nav_library">图书馆</string>
+    <string name="nav_scan">扫描</string>
+    <string name="nav_tools">工具</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">浏览文件</string>
+    <string name="browse_files_subtitle">存储 &amp; 云文件</string>
+    <string name="show_hidden_files">显示隐藏文件</string>
+    <string name="hide_hidden_files">隐藏隐藏文件</string>
+    <string name="refresh_storage">刷新存储</string>
+    <string name="no_storage_available">没有可用存储空间</string>
+    <string name="no_files_found">未找到文件</string>
+    <string name="add_files">添加 %1$d 文件</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">需要存储权限</string>
+    <string name="permission_storage_message">此应用需要访问您的设备存储空间才能浏览和打开 PDF 文件。请授予存储权限以继续。</string>
+    <string name="permission_grant">授予许可</string>
+    <!-- Common Actions -->
+    <string name="action_open">打开</string>
+    <string name="action_save">节省</string>
+    <string name="action_share">分享</string>
+    <string name="action_delete">删除</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_confirm">确认</string>
+    <string name="action_rename">重命名</string>
+    <string name="action_print">打印</string>
+    <string name="action_favorite">最喜欢的</string>
+    <string name="action_unfavorite">不受欢迎</string>
+    <!-- Document Actions -->
+    <string name="document_share">分享文档</string>
+    <string name="document_rename">重命名文档</string>
+    <string name="document_delete">删除文档</string>
+    <string name="document_print">打印文档</string>
+    <string name="document_favorite">添加到收藏夹</string>
+    <string name="document_unfavorite">从收藏夹中移除</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">文档已成功共享</string>
+    <string name="document_share_failed">共享文档失败</string>
+    <string name="document_renamed_success">文档已成功重命名</string>
+    <string name="document_rename_failed">重命名文档失败</string>
+    <string name="document_deleted_success">文档已成功删除</string>
+    <string name="document_delete_failed">删除文档失败</string>
+    <string name="document_print_opened">文档已在默认 PDF 查看器中打开。请使用查看器的打印功能进行打印。</string>
+    <string name="document_print_failed">文档打印失败</string>
+    <string name="document_added_to_favorites">已添加到收藏夹</string>
+    <string name="document_removed_from_favorites">已从收藏夹中移除</string>
+    <string name="document_favorite_failed">更新收藏状态失败</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">重命名文档</string>
+    <string name="dialog_rename_hint">输入新名称</string>
+    <string name="dialog_rename_empty_error">文档名称不能为空</string>
+    <string name="dialog_delete_title">删除文档</string>
+    <string name="dialog_delete_file_message">这将永久删除该文件。\n\n删除 %1$s？</string>
+    <string name="dialog_delete_uri_message">仅从应用内移除。原始文件保持不变。\n\n从应用中移除 %1$s？</string>
+    <string name="dialog_delete_confirm">删除</string>
+    <string name="dialog_remove_confirm">消除</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">仅在应用内重命名。原始文件保持不变。</string>
+    <string name="notice_delete_uri_only">已从应用程序中移除。原始文件未作更改。</string>
+    <string name="notice_file_exists_error">已存在同名文件</string>
+    <string name="notice_file_not_found_error">文件未找到</string>
+    <string name="notice_no_active_document">没有活动文档</string>
+    <string name="notice_document_path_unavailable">文档文件路径不可用</string>
+    <!-- States -->
+    <string name="state_loading">加载中...</string>
+    <string name="state_empty">未找到任何物品</string>
+    <string name="state_error">出问题了</string>
+    <string name="state_retry">重试</string>
+    <!-- Errors -->
+    <string name="error_network">网络连接失败</string>
+    <string name="error_file_not_found">文件未找到</string>
+    <string name="error_permission_denied">没有权限</string>
+    <string name="error_invalid_file">文件格式无效</string>
+    <string name="error_password_required">需要密码</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">密码保护</string>
+    <string name="password_protected_message">此文件需要密码才能打开。请在下方输入密码。</string>
+    <string name="password_label">密码</string>
+    <string name="password_placeholder">输入密码</string>
+    <string name="password_unlock">开锁</string>
+    <string name="password_show">显示密码</string>
+    <string name="password_hide">隐藏密码</string>
+    <!-- Theme -->
+    <string name="theme_light">光</string>
+    <string name="theme_dark">黑暗的</string>
+    <string name="theme_system">系统</string>
+    <string name="theme_adaptive">自适应</string>
+    <string name="theme_custom">风俗</string>
+    <!-- Settings -->
+    <string name="settings_title">偏好</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">账户 &amp; 同步</string>
+    <string name="settings_category_sync_subtitle">管理您的帐户，同步 &amp; 隐私</string>
+    <string name="settings_category_appearance_title">外貌</string>
+    <string name="settings_category_appearance_subtitle">自定义应用外观 &amp; 感觉</string>
+    <string name="settings_category_pdf_reader_title">PDF阅读器</string>
+    <string name="settings_category_pdf_reader_subtitle">默认查看器 &amp; 阅读体验</string>
+    <string name="settings_category_help_title">帮助 &amp; 支持</string>
+    <string name="settings_category_help_subtitle">文档 &amp; 联系方式</string>
+    <string name="settings_category_general_title">一般的</string>
+    <string name="settings_category_general_subtitle">语言 &amp; 应用信息</string>
+    <string name="settings_theme_section">主题</string>
+    <string name="settings_theme_description">选择您喜欢的主题</string>
+    <string name="settings_accent_color">强调色</string>
+    <string name="settings_custom_colors">自定义颜色</string>
+    <string name="settings_primary_color">原色</string>
+    <string name="settings_background_color">背景颜色</string>
+    <string name="settings_surface_color">表面颜色</string>
+    <string name="settings_reset_colors">重置为默认值</string>
+    <string name="settings_adaptive_note">Material You 自适应颜色（Android 12+）</string>
+    <string name="settings_app_section">应用设置</string>
+    <string name="settings_notifications">通知</string>
+    <string name="settings_notifications_description">接收应用通知</string>
+    <string name="settings_auto_backup">自动备份</string>
+    <string name="settings_auto_backup_description">自动备份文档</string>
+    <string name="settings_change_color">改变颜色</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">您的PDF文档将显示在此处。</string>
+    <string name="scan_description">扫描文档并保存为 PDF 文件</string>
+    <string name="tools_description">PDF编辑和处理工具</string>
+    <string name="home_description">使用底部导航栏访问各项功能</string>
+    <!-- Sort Options -->
+    <string name="sort_name">姓名</string>
+    <string name="sort_date">日期</string>
+    <string name="sort_size">尺寸</string>
+    <string name="sort_option_name">姓名</string>
+    <string name="sort_option_last_opened">最后打开时间</string>
+    <string name="sort_option_last_modified">最后修改日期</string>
+    <string name="sort_option_file_size">文件大小</string>
+    <!-- View Types -->
+    <string name="view_type_list">列表视图</string>
+    <string name="view_type_table">表格视图</string>
+    <string name="view_type_grid">网格视图</string>
+    <!-- File Properties -->
+    <string name="file_name">文件名</string>
+    <string name="date_modified">修改日期</string>
+    <string name="file_size">尺寸</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">尚未开始</string>
+    <string name="file_status_completed">完全的</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">PDF文档</string>
+    <string name="document_type_word">Word文档</string>
+    <string name="document_type_excel">Excel电子表格</string>
+    <string name="document_type_image">图像文件</string>
+    <string name="document_type_other">文档</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">所有文件</string>
+    <string name="filter_recent">最近的</string>
+    <string name="filter_pdfs">PDF文件</string>
+    <string name="filter_images">图片</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">家</string>
+    <string name="browse_tab">浏览</string>
+    <string name="starred_tab">星标</string>
+    <string name="settings_tab">设置</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">切换主题</string>
+    <string name="accessibility_menu">菜单</string>
+    <string name="accessibility_close">关闭</string>
+    <string name="accessibility_color_picker">颜色选择器</string>
+    <!-- Library Screen -->
+    <string name="library_title">图书馆</string>
+    <string name="library_subtitle">管理文件、最近使用 &amp; 收藏夹</string>
+    <string name="library_search_placeholder">搜索文件...</string>
+    <string name="library_selected_count">%1$d 已选择</string>
+    <string name="library_open_from_device">从\n设备打开</string>
+    <string name="library_browse_files">浏览\n文件</string>
+    <string name="library_action_open">打开</string>
+    <string name="library_action_share">分享</string>
+    <string name="library_action_remove">消除</string>
+    <string name="library_action_delete">删除</string>
+    <string name="library_clear_search">清除搜索</string>
+    <string name="library_close_search">关闭搜索</string>
+    <string name="library_select_all">选择所有文件</string>
+    <string name="library_exit_multiselect">退出多选模式</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">帮助 &amp; 支持</string>
+    <string name="help_support_subtitle">常见问题解答，联系我们 &amp; 法律声明</string>
+    <string name="settings_pdf_subtitle">滚动，视图 &amp; 布局</string>
+    <string name="help_header_title">我们能帮上什么忙？</string>
+    <string name="help_header_subtitle">我们的团队致力于确保您拥有\n最佳的PDF体验。</string>
+    <string name="help_contact_us">联系我们</string>
+    <string name="help_contact_subtitle">联系支持团队</string>
+    <string name="help_faq">常见问题解答</string>
+    <string name="help_faq_subtitle">常见问题解答</string>
+    <string name="help_privacy_policy">隐私政策</string>
+    <string name="help_privacy_subtitle">我们如何保护您的数据</string>
+    <string name="help_terms_service">服务条款</string>
+    <string name="help_terms_subtitle">申请规则</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">移动数据同步</string>
+    <string name="background_sync">后台同步</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">PDF阅读器设置</string>
+    <string name="pdf_settings_coming_soon">即将推出</string>
+    <string name="pdf_settings_description">配置滚动行为、视图模式和阅读偏好设置</string>
+    <!-- General Settings -->
+    <string name="settings_language">语言</string>
+    <string name="settings_pdf_reader">PDF阅读器设置</string>
+    <string name="settings_help_support">帮助 &amp; 支持</string>
+    <string name="settings_whats_new">什么是新的</string>
+    <string name="settings_download_desktop">安装到另一台设备上</string>
+    <string name="settings_rate_app">评分应用</string>
+    <string name="play_store_not_found">此设备上未找到 Play 商店</string>
+    <string name="settings_set_as_default">设置为默认PDF查看器</string>
+    <string name="settings_set_as_default_subtitle">默认情况下使用此应用打开 PDF 文件</string>
+    <string name="settings_default_pdf_instructions_title">如何设置为默认值</string>
+    <string name="settings_default_pdf_ok">知道了</string>
+    <string name="settings_default_app_hint">没用？</string>
+    <string name="settings_default_app_hint_learn_more">了解更多</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">语言</string>
+    <string name="language_search_placeholder">搜索语言...</string>
+    <!-- Common UI -->
+    <string name="support">支持</string>
+    <string name="language_english">英语</string>
+    <string name="language_hindi">印地语</string>
+    <string name="language_spanish">西班牙语</string>
+    <string name="language_french">法语</string>
+    <string name="language_german">德语</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">阿拉伯语</string>
+    <string name="language_japanese">日本语</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">葡萄牙语</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">应用外观</string>
+    <string name="theme">主题</string>
+    <string name="general">一般的</string>
+    <string name="new">新的</string>
+    <string name="navigate">导航</string>
+    <string name="download">下载</string>
+    <string name="falcon_pdf">猎鹰 PDF</string>
+    <string name="excellence_in_every_pixel">每一像素都臻于完美</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">应用更改</string>
+    <string name="apply">申请</string>
+    <string name="selected">已选</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">同步设置</string>
+    <string name="autosync_on_wifi">通过 Wi-Fi 自动同步</string>
+    <string name="sync_reading_progress">同步阅读进度</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">文档名称</string>
+    <string name="name_cannot_be_empty">名称不能为空</string>
+    <string name="str__failed">%1$s 失败</string>
+    <string name="ok">好的</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">升级方案 - 当前方案： %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">拖放以打开文件</string>
+    <string name="release_to_import_and_open_pdf">发布导入和打开 PDF 文件的功能</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">消除</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF</string>
+    <string name="images">图片</string>
+    <string name="filter_all_types">所有文件</string>
+    <string name="favorites">收藏夹</string>
+    <string name="recent">最近的</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">搜索文档……</string>
+    <string name="voice_search">语音搜索</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">最近的文件</string>
+    <string name="loading_recent_files">正在加载最近使用的文件...</string>
+    <string name="no_recent_files">没有最近的文件</string>
+    <string name="no_favorites">没有偏袒</string>
+    <string name="mark_files_as_favorite_to_see_them_here">将文件标记为收藏，即可在此处查看。</string>
+    <string name="open_some_pdf_files_to_see_the">在这里打开一些PDF文件查看它们。</string>
+    <string name="status">地位</string>
+    <string name="actions">行动</string>
+    <string name="select_all">全选</string>
+    <string name="enter_multiselect_mode">进入多选模式</string>
+    <string name="sorted_ascending">按升序排列</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">存储： %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">添加 %1$s 文件</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">更改视图类型</string>
+    <string name="filter_">筛选： %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">正在加载PDF文件...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">登录以同步</string>
+    <string name="protect_your_library_files">保护您的图书馆文件</string>
+    <string name="sign_in">登入</string>
+    <string name="sign_out">登出</string>
+    <string name="sign_in_dialog_title">登录 Falcon PDF</string>
+    <string name="sign_in_dialog_subtitle">随时随地，您的PDF库。</string>
+    <string name="sign_in_with_google">使用 Google 登录</string>
+    <string name="sign_in_with_apple">使用 Apple 登录</string>
+    <string name="apple_user_drive_unavailable">使用 Apple 登录无法同步 Google 云端硬盘。</string>
+    <string name="apple_user_link_google">关联 Google 帐户以同步云端硬盘</string>
+    <string name="apple_user_sync_info">要启用云同步，请关联 Google 帐户</string>
+    <string name="link_google_account">关联 Google 帐户</string>
+    <string name="signed_in_successfully">登录成功</string>
+    <string name="signed_out_successfully">已成功登出</string>
+    <string name="sync_disabled_free">免费账户已禁用同步功能。</string>
+    <string name="storage_disabled_grant_access">存储功能已禁用。请授予驱动器访问权限以开始使用。</string>
+    <string name="upgrade_to_pro">升级到专业版</string>
+    <string name="grant_drive_access">格兰特大道通道</string>
+    <string name="files_synced">%1$d/%2$d 文件已同步</string>
+    <string name="synced_count">%1$d 已同步</string>
+    <string name="unlimited_sync_active">无限同步</string>
+    <string name="missing_drive_permissions">缺少云端硬盘权限。同步当前已被阻止。</string>
+    <string name="drive_access_revoked">驱动器访问权限已被撤销。请重新连接以恢复同步。</string>
+    <string name="upgrade_premium">升级至高级版</string>
+    <string name="manage_account">管理账户</string>
+    <string name="sync_now">立即同步</string>
+    <string name="tier_free">自由的</string>
+    <string name="tier_pro">专业版</string>
+    <string name="tier_premium">优质的</string>
+    <string name="status_paused">暂停</string>
+    <!-- Common -->
+    <string name="navigate_back">返回</string>
+    <string name="dismiss">解雇</string>
+    <string name="cancel">取消</string>
+    <string name="back">后退</string>
+    <string name="search">搜索</string>
+    <string name="more_actions">更多操作</string>
+    <string name="share">分享</string>
+    <string name="delete">删除</string>
+    <string name="remove_from_recents">从最近使用列表中删除</string>
+    <string name="open">打开</string>
+    <string name="all">全部</string>
+    <string name="sort_by_">按 %1$s排序</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Google 云端硬盘同步</string>
+    <string name="syncing">正在同步...</string>
+    <string name="sync_completed">同步完成</string>
+    <string name="sync_failed">同步失败</string>
+    <string name="sync_limit_exceeded">同步次数已超出限制。您的 %s 套餐允许上传 %d 个文件。</string>
+    <string name="sync_no_drive_access">目前无法访问 Google 云端硬盘</string>
+    <string name="sync_network_unavailable">网络不可用</string>
+    <string name="sync_last_sync">上次同步时间： %s</string>
+    <string name="sync_total_files">全部的</string>
+    <string name="sync_synced_files">已同步</string>
+    <string name="sync_failed_files">失败的</string>
+    <string name="sync_conflict_files">冲突</string>
+    <string name="sync_add_to_favorites">添加到收藏夹</string>
+    <string name="sync_remove_from_favorites">从收藏夹中移除</string>
+    <string name="sync_conflict_title">同步冲突</string>
+    <string name="sync_conflict_message">以下文件存在冲突，需要解决：</string>
+    <string name="sync_conflict_explanation">当本地版本和远程版本都被修改时，就会发生冲突。</string>
+    <string name="sync_plan_limit">同步： %d/%d</string>
+    <string name="sync_plan_limit_reached">已达上限</string>
+    <string name="sync_plan_unlimited">无限同步</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">跳过</string>
+    <string name="welcome_next">下一个</string>
+    <string name="welcome_get_started">开始使用</string>
+    <string name="welcome_sign_in_get_started">登录 &amp; 开始使用</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Read Any Document&lt;/b&gt; Instantly</string>
+    <string name="welcome_slide1_description">打开和管理 10 多种文档格式，包括 PDF、DOC、EPUB、MOBI。</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Read PDFs, ebooks,&lt;/b&gt; and office docs in one place</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;收藏&lt;/b&gt; 个文档，并在不同设备上访问它们</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;轻松评论、&lt;/b&gt; 高亮显示和轻松协作</string>
+    <string name="welcome_slide1_footer">您的通用文档阅读器</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;Edit, Scan and Organize&lt;/b&gt; PDFs</string>
+    <string name="welcome_slide2_description">在一个强大的工具包中，即可满足您创建、编辑和管理 PDF 的所有需求。</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;编辑文本，&lt;/b&gt; 添加注释、高亮显示和填写表单</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Scan documents&lt;/b&gt; and turn them into PDFs instantly</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;30 多种工具&lt;/b&gt; 包括合并、转换、压缩和安全</string>
+    <string name="welcome_slide2_footer">您的一体化 PDF 工作区</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;理解您的文档的人工智能&lt;/b&gt;</string>
+    <string name="welcome_slide3_description">利用人工智能读取和分析文档，节省您数小时的时间。</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Summarize&lt;/b&gt; long documents in seconds</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; scanned pages and translate text instantly</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;收听&lt;/b&gt; 带有内置朗读功能的文档</string>
+    <string name="welcome_slide3_footer">没有广告，只有高效办公。</string>
+    <string name="grace">优雅</string>
+    <string name="unable_to_verify_subscription_limited_ac">订阅验证失败。连接恢复后，访问权限将受到限制。</string>
+    <string name="retry_verification">重试验证</string>
+    <string name="guest_state">宾客州</string>
+    <string name="free_tier">免费套餐</string>
+    <string name="free_tier__locked">免费版 - 已锁定</string>
+    <string name="pro_tier">专业级</string>
+    <string name="pro_tier__restricted">专业级 - 受限</string>
+    <string name="premium_tier">高级会员</string>
+    <string name="premium_tier__error">高级会员 - 错误</string>
+    <string name="refresh_plan_status">刷新计划状态</string>
+    <string name="user_avatar">用户头像</string>
+    <string name="debug_tools">调试工具</string>
+    <string name="authentication__drive">身份验证 &amp; 驱动器</string>
+    <string name="auth_state">授权状态</string>
+    <string name="revoke_drive_access">撤销驱动器访问权限</string>
+    <string name="image">图像</string>
+    <string name="thumbnail">缩略图</string>
+    <string name="manage_preferences">管理偏好设置</string>
+    <string name="tools_history">工具历史</string>
+    <string name="manage_recent_logs">管理最近的日志</string>
+    <string name="more_options">更多选项</string>
+    <string name="clear_all_history">清除所有历史记录</string>
+    <string name="no_history_yet">暂无历史记录</string>
+    <string name="your_pdf_tool_operations_will_appear_her">您的 PDF 工具操作将显示在此处。</string>
+    <string name="view">看法</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">已保存 %1$s</string>
+    <string name="history_status_processing">加工</string>
+    <string name="history_status_succeeded">成功</string>
+    <string name="history_status_failed">失败的</string>
+    <string name="history_status_processing_upper">加工</string>
+    <string name="history_unknown_files">未知文件</string>
+    <string name="history_op_complete">%1$s 完成！</string>
+    <string name="history_op_failed">%1$s 失败</string>
+    <string name="history_op_success_multiple">操作已成功完成，使用了 %1$d 个文件</string>
+    <string name="history_op_success_single">手术成功完成</string>
+    <string name="history_op_error">我们未能完成手术。</string>
+    <string name="history_multiple_files">%1$d 文件</string>
+    <string name="history_failed">失败的</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">云同步</string>
+    <string name="cloud_sync_subtitle">联网设备</string>
+    <string name="cloud_sync_all_synced">所有文件已同步</string>
+    <string name="cloud_sync_syncing">正在同步…</string>
+    <string name="cloud_sync_pending">同步待处理</string>
+    <string name="cloud_sync_last_sync">上次同步时间： %1$s</string>
+    <string name="cloud_sync_never_synced">从未同步</string>
+    <string name="cloud_sync_recent_activity">最近的同步活动</string>
+    <string name="cloud_sync_no_files">暂无同步文件</string>
+    <string name="cloud_sync_synced_to_drive">已同步到云端硬盘</string>
+    <string name="cloud_sync_pending_upload">待上传</string>
+    <string name="cloud_sync_sync_now">立即同步</string>
+    <string name="cloud_sync_view_history">查看同步历史记录</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d 文件已同步</string>
+    <string name="cloud_sync_unlimited_files">%1$d 个文件已同步 · 无限制</string>
+    <string name="cloud_sync_cta_title">任何平台，任何时间</string>
+    <string name="cloud_sync_cta_subtitle">您的文件将伴您左右</string>
+    <string name="cloud_sync_files_label">%1$d 文件</string>
+    <string name="settings_data_privacy">数据 &amp; 隐私</string>
+    <string name="settings_data_privacy_subtitle">管理数据、帐户 &amp; 删除</string>
+    <string name="settings_delete_account">删除帐户</string>
+    <string name="settings_delete_account_subtitle">永久删除您的帐户和数据</string>
+    <string name="delete_account_warning_title">删除您的帐户？</string>
+    <string name="delete_account_warning_message">这将永久删除您的帐户及所有关联数据，包括您的购买记录和云端同步文件。此操作无法撤销，购买记录也无法恢复。</string>
+    <string name="delete_account_confirm_phrase_label">输入“确认删除”以继续：</string>
+    <string name="delete_account_confirm_phrase">确认删除</string>
+    <string name="delete_account_button">删除帐户</string>
+    <string name="delete_account_error_reauth">出于安全考虑，您必须最近登录过才能删除帐户。请先退出登录，然后重新登录，再试一次。</string>
+    <string name="delete_account_success">账户已成功删除</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">文件 &amp; 同步设置</string>
+    <string name="sync_on_mobile_data_subtitle">使用移动数据进行云同步</string>
+    <string name="drive_sync">后台同步</string>
+    <string name="drive_sync_subtitle">将收藏夹 &amp; 扫描的文档同步到云端硬盘</string>
+    <string name="do_not_import_from_other_apps">请勿从其他应用程序导入文件</string>
+    <string name="do_not_import_from_other_apps_subtitle">临时打开共享文件，不保存到库中</string>
+    <string name="clear_imported_files">清除导入的文件</string>
+    <string name="clear_imported_files_subtitle">删除从其他应用程序复制的所有文件</string>
+    <string name="clear_imports_confirm_title">清除导入的文件？</string>
+    <string name="clear_imports_confirm_message">这将永久删除 Imports 文件夹中的所有文件。此操作无法撤销。</string>
+    <string name="clear_imports_success">已清除导入文件</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">数据 &amp; 隐私</string>
+    <string name="analytics_opt_out_title">发送使用情况数据</string>
+    <string name="analytics_opt_out_subtitle">与开发者分享匿名使用数据和崩溃报告，以帮助改进应用。</string>
+    <string name="analytics_opt_out_disabled_note">分析和崩溃报告功能已禁用。不会向 Google 或开发者发送任何数据。</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">未保存的更改</string>
+    <string name="unsaved_changes_tab_message">此文档中还有未保存的更改。是否要在关闭前保存？</string>
+    <string name="unsaved_changes_window_message">您在一个或多个文档中存在未保存的更改。是否要放弃这些更改并退出？</string>
+    <string name="discard">丢弃</string>
+    <string name="discard_and_quit">丢弃 &amp; 退出</string>
+    <string name="close">关闭</string>
+    <string name="remove_favorite">移除收藏</string>
+    <string name="set_as_default_pdf_viewer">设置为默认PDF查看器？</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF 不是您的默认 PDF 查看器。您是否想将其设置为默认查看器，以便所有 PDF 文件都使用 Falcon PDF 打开？</string>
+    <string name="set_now">立即设置</string>
+    <string name="never">绝不</string>
+    <string name="later">之后</string>
+    <string name="set_default">设置默认值</string>
+    <string name="default">默认</string>
+    <string name="version_">版本 %1$s</string>
+    <string name="sign_in_with_other_accounts">使用其他帐户登录</string>
+    <string name="upgrade">升级</string>
+    <string name="view_plan">查看平面图</string>
+    <string name="unlimited_sync_upto_5gb">无限同步，最高可达 5GB</string>
+    <string name="unlock_faster">解锁速度更快</string>
+    <string name="use_biometrics_instead_of_passwords">使用生物识别技术代替密码。</string>
+    <string name="upgrade_to_premium">升级至高级版</string>
+    <string name="unlock_pdf">解锁 PDF</string>
+    <string name="use__to_accessnthis_document">使用 %1$s 访问\n此文档</string>
+    <string name="open_with_password">使用密码打开</string>
+    <string name="secure">安全的</string>
+    <string name="loading_">加载中 %1$s...</string>
+    <string name="failed_to_open_ebook">电子书无法打开</string>
+    <string name="properties">特性</string>
+    <string name="copy">复制</string>
+    <string name="highlight">强调</string>
+    <string name="clear_selection">清除选择</string>
+    <string name="close_search">关闭搜索</string>
+    <string name="search_in_book">在书中查找……</string>
+    <string name="contents">内容</string>
+    <string name="table_of_contents">目录</string>
+    <string name="no_table_of_contents_available">暂无目录</string>
+    <string name="bookmarks">书签</string>
+    <string name="no_bookmarks_yet">暂无书签</string>
+    <string name="page_">页码 %1$s</string>
+    <string name="no_results">没有结果</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">设置</string>
+    <string name="decrease_font_size">减小字体大小</string>
+    <string name="increase_font_size">增大字体大小</string>
+    <string name="font">字体</string>
+    <string name="jump_to_page">跳转至页面</string>
+    <string name="enter_page_number_1">请输入页码（1–%1$s）：</string>
+    <string name="go">去</string>
+    <string name="read_aloud">朗读</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">停止</string>
+    <string name="annotations__text_selection">注释 &amp; 文本选择</string>
+    <string name="text_selection_and_annotations_for_ebook">电子书的文本选择和注释功能即将推出。</string>
+    <string name="longpress_on_text_to_select_highlight_or">长按文本即可选择、高亮显示或添加注释。</string>
+    <string name="press_play_to_start_reading_aloud">按下播放键开始朗读……</string>
+    <string name="speed">速度</string>
+    <string name="voice">嗓音</string>
+    <string name="no_annotations_yet">暂无注释</string>
+    <string name="select_text_to_highlight_or_add_notes">选择文本以突出显示或添加注释</string>
+    <string name="tools">工具</string>
+    <string name="convert_to_images">转换为图像</string>
+    <string name="rename">重命名</string>
+    <string name="print">打印</string>
+    <string name="a">A−</string>
+    <string name="cover_of_">封面 %1$s</string>
+    <string name="no_cover_available">暂无保险</string>
+    <string name="read_now">立即阅读</string>
+    <string name="about_the_book">关于本书</string>
+    <string name="tags">标签</string>
+    <string name="publisher_info">出版商信息</string>
+    <string name="published_">发布时间： %1$s</string>
+    <string name="retry">重试</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F 清除缓存</string>
+    <string name="ebooks_library">电子书库</string>
+    <string name="manage_your_digital_collection_across_mu">管理您在多个供应商处的数字馆藏。搜索、筛选和发现来自 Google 图书和 Open Library 的新书。</string>
+    <string name="no_books_found">未找到书籍</string>
+    <string name="no_results_for__try_a_different_search_t">搜索“%1$s”未找到结果。请尝试其他搜索词。</string>
+    <string name="downloadable_only">仅供下载</string>
+    <string name="file_unavailable">文件不可用</string>
+    <string name="unavailable">不可用</string>
+    <string name="search_titles_authors_isbn">搜索书名、作者、ISBN...</string>
+    <string name="clear_search">清除搜索</string>
+    <string name="ebooks">电子书</string>
+    <string name="read_pdf">阅读PDF</string>
+    <string name="create_pdf">创建 PDF</string>
+    <string name="unlock_all_tools_and_remove_limits">解锁所有工具并移除限制</string>
+    <string name="ocr_scanning">OCR扫描</string>
+    <string name="extract_text_from_scanned_documents">从扫描文档中提取文本</string>
+    <string name="cloud_sync">云同步</string>
+    <string name="access_your_documents_anywhere">随时随地访问您的文档</string>
+    <string name="annotate_pdfs">注释PDF</string>
+    <string name="cloud_backup">云备份</string>
+    <string name="continue_reading">继续阅读</string>
+    <string name="pick_files">挑选文件</string>
+    <string name="browse">浏览</string>
+    <string name="did_you_know">你可知道？</string>
+    <string name="home">家</string>
+    <string name="your_documents_at_a_glance">您的文档一目了然</string>
+    <string name="pick_file">拣货文件</string>
+    <string name="quick_actions">快速操作</string>
+    <string name="pro">专业版</string>
+    <string name="open_files">打开文件</string>
+    <string name="convert_to_pdf">转换为 PDF</string>
+    <string name="close_drawer">关上抽屉。</string>
+    <string name="close_file">关闭文件</string>
+    <string name="office">办公室</string>
+    <string name="coming_soon">即将推出</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">本平台暂不支持电子书阅读器。</string>
+    <string name="set_as_default_viewer">设置为默认查看器</string>
+    <string name="free">自由的</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">正在下载更新... %1$s%</string>
+    <string name="more">更多的</string>
+    <string name="font_size">字体大小</string>
+    <string name="font_family">字体系列</string>
+    <string name="scroll_direction">滚动方向</string>
+    <string name="navigation">导航</string>
+    <string name="keep_screen_on">保持屏幕开启</string>
+    <string name="volume_button_to_scroll">音量键滚动</string>
+    <string name="export_ebook_pages_as_image_files">将电子书页面导出为图像文件</string>
+    <string name="access_millions_of_titles">访问数百万种图书。</string>
+    <string name="read_offline_with_natural_ai_voices">使用自然AI语音离线阅读。</string>
+    <string name="advanced_ai_reader">高级人工智能阅读器。</string>
+    <string name="experience_studioquality_narration">体验录音棚级别的旁白。</string>
+    <string name="powerful_pdf_tools">功能强大的PDF工具。</string>
+    <string name="create_and_edit_documents_on_the_go">随时随地创建和编辑文档。</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">升级到专业版：解锁所有工具并移除限制</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">OCR扫描：从扫描文档中提取文本</string>
+    <string name="cloud_sync_access_your_documents_anywher">云同步：随时随地访问您的文档</string>
+    <string name="scan">扫描</string>
+    <string name="compress">压缩</string>
+    <string name="merge">合并</string>
+    <string name="convert">转变</string>
+    <string name="highlight_underline_and_add_notes_to_you">在文档中高亮显示、添加下划线和添加注释</string>
+    <string name="keep_your_documents_safe_with_automatic_">通过自动云同步保护您的文档安全。</string>
+    <string name="indicator_color_">指示器颜色_%1$s</string>
+    <string name="my_library">我的图书馆</string>
+    <string name="get_ebooks">获取电子书</string>
+    <string name="scan_document">扫描文档</string>
+    <string name="settings_category_ai_chat_title">AI 聊天提供商</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI、Ollama 或你自己的密钥</string>
+    <string name="settings_category_tts_title">朗读 (TTS)</string>
+    <string name="settings_category_tts_subtitle">朗读播放使用的语音</string>
+    <string name="settings_section_ai_voice">AI 与语音</string>
+    <string name="settings_entry_ai_title">AI 聊天提供商</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI、本地 Ollama 或你自己的 OpenAI 兼容密钥</string>
+    <string name="settings_entry_tts_title">朗读 (TTS)</string>
+    <string name="settings_entry_tts_subtitle">系统、ElevenLabs、OpenAI 或本地 Kokoro 语音</string>
+    <string name="provider_dialog_reset">重置</string>
+    <string name="provider_dialog_cancel">取消</string>
+    <string name="provider_dialog_save">保存偏好设置</string>
+    <string name="provider_dialog_encryption_note">在本地加密存储，绝不同步到远程服务器。</string>
+    <string name="provider_dialog_close">关闭</string>
+    <string name="ai_settings_dialog_title">AI 聊天提供商设置</string>
+    <string name="ai_settings_dialog_subtitle">配置 API 访问密钥、自定义模型和提供商偏好设置。</string>
+    <string name="tts_settings_dialog_title">TTS 提供商设置</string>
+    <string name="tts_settings_dialog_subtitle">配置合成引擎、管理凭据并选择语音。</string>
+</resources>

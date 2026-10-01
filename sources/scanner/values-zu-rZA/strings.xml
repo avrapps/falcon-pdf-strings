@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Skena</string>
+    <string name="scan_home_documents">Amadokhumenti</string>
+    <string name="scan_home_documents_lowercase">imibhalo</string>
+    <string name="scan_home_documents_count">%1$d Amadokhumenti</string>
+    <string name="scan_home_no_documents">Awekho amadokhumenti okwamanje</string>
+    <string name="scan_home_start_scanning">Qala ukuskena ukuze udale idokhumenti yakho yokuqala</string>
+    <string name="scan_home_new_folder">Ifolda Elisha</string>
+    <string name="scan_home_scan_document">Skena Idokhumenti</string>
+    <string name="scan_home_import_gallery">Ngenisa kusuka kugalari</string>
+    <string name="scan_home_parent_folder">Ifolda Yomzali</string>
+    <string name="scan_home_go_back">Buyela emuva kufolda yomzali</string>
+    <string name="scan_home_create_folder">Dala Ifolda Elisha</string>
+    <string name="scan_home_enter_folder_name">Faka igama lefolda entsha</string>
+    <string name="scan_home_folder_name">Igama Lefolda</string>
+    <string name="scan_home_folder_placeholder">isib. Amadokhumenti Omsebenzi</string>
+    <string name="scan_home_folder_error">Igama lefolda alikwazi ukungabi nalutho</string>
+    <string name="scan_home_folder_name_empty">Igama lefolda alikwazi ukungabi nalutho</string>
+    <string name="scan_home_create">Dala</string>
+    <string name="scan_home_folder_exists">Ifolda enaleli gama isivele ikhona</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Ikhamera</string>
+    <string name="scan_camera_permission_required">Imvume Yekhamera Iyadingeka</string>
+    <string name="scan_camera_permission_message">Lolu hlelo lokusebenza ludinga ukufinyelela ikhamera ukuze luskene amadokhumenti.</string>
+    <string name="scan_camera_permission_settings">Sicela uye kuzilungiselelo &gt; Izinhlelo zokusebenza &gt; Isibukeli se-PDF &gt; Izimvume bese uvumela imvume yekhamera.</string>
+    <string name="scan_camera_permission_title">Imvume Yekhamera Iyadingeka</string>
+    <string name="scan_camera_request_permission">Cela Imvume</string>
+    <string name="scan_camera_open_settings">Vula Izilungiselelo</string>
+    <string name="scan_camera_close">Vala</string>
+    <string name="scan_camera_flash">I-Flash</string>
+    <string name="scan_camera_auto_capture">Ukuthwebula Okuzenzakalelayo</string>
+    <string name="scan_camera_settings">Izilungiselelo</string>
+    <string name="scan_camera_ready_batch">Ilungele ukuskena amakhasi amaningi</string>
+    <string name="scan_camera_ready_multiple">Ilungele ukuskena amakhasi amaningi</string>
+    <string name="scan_camera_hold_steady">Bamba unganyakazi ngenkathi uskena</string>
+    <string name="scan_camera_captured_pages">%1$d amakhasi athwetshuliwe</string>
+    <string name="scan_camera_mode_single">Oyedwa</string>
+    <string name="scan_camera_mode_batch">Iqembu</string>
+    <string name="scan_camera_preview">Ukubuka kuqala</string>
+    <string name="scan_camera_finish">Qeda</string>
+    <string name="scan_camera_starting">Iqala Ikhamera...</string>
+    <string name="scan_camera_document_name">Igama Ledokhumenti</string>
+    <string name="scan_camera_document_name_empty">Igama ledokhumenti alikwazi ukungabi nalutho</string>
+    <string name="scan_camera_save_document">Londoloza Idokhumenti</string>
+    <string name="scan_camera_processing">Iyacubungula...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Nciphisa &amp; Lungisa</string>
+    <string name="scan_crop_close">Vala</string>
+    <string name="scan_crop_reset">Setha kabusha</string>
+    <string name="scan_crop_rotate">Zungezisa</string>
+    <string name="scan_crop_done">Kuqediwe</string>
+    <string name="scan_crop_scanned_document">Idokhumenti eskeniwe</string>
+    <string name="scan_crop_magnified_view">Umbono okhulisiwe</string>
+    <string name="scan_crop_processing">Iyacubungula...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Thuthukisa</string>
+    <string name="scan_filter_close">Vala</string>
+    <string name="scan_filter_rotate">Zungezisa</string>
+    <string name="scan_filter_done">Kuqediwe</string>
+    <string name="scan_filter_filters">Izihlungi</string>
+    <string name="scan_filter_original">Okwangempela</string>
+    <string name="scan_filter_magic">Umlingo</string>
+    <string name="scan_filter_lighten">Khanyisa</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">Isikali Esimpunga</string>
+    <string name="scan_filter_magic_2">Idokhumenti Ehlanzekile</string>
+    <string name="scan_filter_soft_scan">Ukuskena Okuthambile</string>
+    <string name="scan_filter_color_enhance">Umbala+</string>
+    <string name="scan_filter_ink_saver">Isilondolozi Seyinki</string>
+    <string name="scan_filter_premium">Isici se-Premium</string>
+    <string name="scan_filter_filtered_document">Idokhumenti ehlungiwe</string>
+    <string name="scan_filter_applying">Isebenzisa isihlungi...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Khansela</string>
+    <string name="scan_share">Yabelana</string>
+    <string name="scan_move">Hambisa</string>
+    <string name="scan_move_to_folder">Hambisa Kufolda</string>
+    <string name="scan_delete">Susa</string>
+    <string name="scan_rename">Qamba kabusha</string>
+    <string name="scan_root">Impande</string>
+    <string name="scan_select_destination">Khetha ifolda oya kuyo</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Idokhumenti</string>
+    <string name="scan_document_back">Emuva</string>
+    <string name="scan_document_pages">amakhasi</string>
+    <string name="scan_document_add_pages">Engeza amakhasi kule dokhumenti</string>
+    <string name="scan_document_add_page_button">Engeza Ikhasi</string>
+    <string name="scan_document_rename">Qamba kabusha</string>
+    <string name="scan_document_share">Yabelana</string>
+    <string name="scan_document_more">Okuningi</string>
+    <string name="scan_document_pages_count">%1$d amakhasi</string>
+    <string name="scan_document_no_pages">Awekho amakhasi okwamanje</string>
+    <string name="scan_document_scan_page">Skena Ikhasi</string>
+    <string name="scan_document_import_page">Ngenisa kusuka kugalari</string>
+    <string name="scan_document_grid_view">Ukubuka kwegridi</string>
+    <string name="scan_document_list_view">Ukubuka Kohlu</string>
+    <string name="scan_document_continuous_view">Ukubuka Okuqhubekayo</string>
+    <string name="scan_document_page_number">Ikhasi %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Ikhasi</string>
+    <string name="scan_page_back">Emuva</string>
+    <string name="scan_page_share">Yabelana</string>
+    <string name="scan_page_delete">Susa</string>
+    <string name="scan_page_of">%1$d ka %2$d</string>
+    <string name="scan_page_image_not_found">Isithombe asitholakalanga</string>
+    <string name="scan_page_retake">Phinda uthathe</string>
+    <string name="scan_page_crop">Nqampuna</string>
+    <string name="scan_page_enhance">Thuthukisa</string>
+    <string name="scan_page_ocr">I-OCR</string>
+    <string name="scan_page_save_gallery">Londoloza kugalari</string>
+    <string name="scan_page_saved_to_gallery">Isithombe silondolozwe kugalari</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Susa Idokhumenti?</string>
+    <string name="scan_delete_document_message">Uqinisekile ukuthi ufuna ukususa "%1$s"? Lokhu kuzosusa unomphela wonke amakhasi akule dokhumenti. Lesi senzo asikwazi ukuhlehliswa.</string>
+    <string name="scan_rename_document">Qamba kabusha idokhumenti</string>
+    <string name="scan_rename_enter_name">Faka igama elisha ledokhumenti</string>
+    <string name="scan_rename_document_name">Igama Ledokhumenti</string>
+    <string name="scan_rename_error">Igama ledokhumenti alikwazi ukungabi nalutho</string>
+    <string name="scan_dialog_delete_document_title">Susa Idokhumenti?</string>
+    <string name="scan_dialog_delete_document_message">Uqinisekile ukuthi ufuna ukususa "%1$s"? Lokhu kuzosusa unomphela wonke amakhasi akule dokhumenti. Lesi senzo asikwazi ukuhlehliswa.</string>
+    <string name="scan_dialog_delete_confirm">Susa</string>
+    <string name="scan_dialog_cancel">Khansela</string>
+    <string name="scan_dialog_move_title">Hambisa Kufolda</string>
+    <string name="scan_dialog_move_message">Khetha ifolda oya kuyo</string>
+    <string name="scan_dialog_move_confirm">Hambisa</string>
+    <string name="scan_dialog_move_root">Impande</string>
+    <string name="scan_dialog_move_selected">Kukhethiwe</string>
+    <string name="scan_dialog_rename_title">Qamba kabusha idokhumenti</string>
+    <string name="scan_dialog_rename_message">Faka igama elisha ledokhumenti</string>
+    <string name="scan_dialog_rename_label">Igama Ledokhumenti</string>
+    <string name="scan_dialog_rename_error">Igama ledokhumenti alikwazi ukungabi nalutho</string>
+    <string name="scan_dialog_rename_confirm">Qamba kabusha</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Yabelana</string>
+    <string name="scan_menu_move">Hambisa Kufolda</string>
+    <string name="scan_menu_delete">Susa</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Ukubuka Kuqala Kwekhamera\n(Kuyeza Maduze)</string>
+    <string name="scan_platform_desktop_camera">Ukubuka Kuqala Kwekhamera Yedeskithophu\n(Kuyeza Maduze)</string>
+    <string name="scan_platform_ios_camera">Ukubuka Kuqala Kwekhamera ye-iOS\n(Kuyeza Maduze)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Vala</string>
+    <string name="flash">I-Flash</string>
+    <string name="auto_capture">Ukuthwebula Okuzenzakalelayo</string>
+    <string name="settings">Izilungiselelo</string>
+    <string name="capture">Ukuthwebula</string>
+    <string name="finish">Qeda</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Uqinisekile ukuthi ufuna ukususa %1? Wonke amadokhumenti angaphakathi nawo azosuswa.</string>
+    <string name="share">Yabelana</string>
+    <string name="share_as_images">Yabelana njengezithombe</string>
+    <string name="share_as_pdf">Yabelana njenge-PDF</string>
+    <string name="move_to_folder">Hambisa Kufolda</string>
+    <string name="delete">Susa</string>
+    <string name="selected">Kukhethiwe</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Ikhasi %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">Ifolda ayinalutho</string>
+    <string name="tap_the__button_to_scan_a_docu">Thepha inkinobho ethi + ukuze uskene idokhumenti</string>
+    <string name="str______pages">%1$s • %2$s • %3$s amakhasi</string>
+    <string name="create_folder">Dala Ifolda</string>
+    <string name="more_options">Izinketho ezengeziwe</string>
+    <string name="document_thumbnail">Isithonjana sedokhumenti</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Isithombe asitholakalanga</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Ikhasi %2$d</string>
+    <string name="scan_ocr_title">Ukuqashelwa Kombhalo</string>
+    <string name="scan_ocr_copy">Kopisha Umbhalo</string>
+    <string name="scan_ocr_no_text">Akukho umbhalo otholiwe</string>
+    <string name="scan_ocr_processing">Ukuqaphela umbhalo…</string>
+    <string name="scan_ocr_error">Yehlulekile ukubona umbhalo</string>
+    <string name="scan_ocr_not_supported">I-OCR ayisekelwa kule nkundla</string>
+    <string name="scan_ocr_image">Ikhasi eliskeniwe le-OCR</string>
+    <string name="gallery">Igalari</string>
+    <string name="select_file">Khetha Ifayela</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Yehlulekile ukuthwebula isithombe</string>
+    <string name="error_no_images_captured">Azikho izithombe ezithwetshuliwe</string>
+    <string name="error_open_settings">Yehlulekile ukuvula izilungiselelo</string>
+    <string name="error_process_images">Yehlulekile ukucubungula izithombe</string>
+    <string name="error_process_image">Yehlulekile ukucubungula isithombe</string>
+    <string name="error_start_camera">Yehlulekile ukuqala ikhamera</string>
+    <string name="error_stop_camera">Yehlulekile ukumisa ikhamera</string>
+    <string name="error_crop_image">Yehlulekile ukunqampuna isithombe</string>
+    <string name="error_delete_document">Yehlulekile ukususa idokhumenti</string>
+    <string name="error_delete_page">Yehlulekile ukususa ikhasi</string>
+    <string name="error_load_document">Yehlulekile ukulayisha idokhumenti</string>
+    <string name="error_load_page">Yehlulekile ukulayisha ikhasi</string>
+    <string name="error_move_document">Yehlulekile ukuhambisa idokhumenti</string>
+    <string name="error_no_pages_to_share">Awekho amakhasi okwabelana ngawo</string>
+    <string name="error_rename_document">Yehlulekile ukuqamba kabusha idokhumenti</string>
+    <string name="error_reorder_pages">Yehlulekile ukuhlela kabusha amakhasi</string>
+    <string name="error_share_images">Yehlulekile ukwabelana ngezithombe</string>
+    <string name="error_share_pdf">Yehlulekile ukwabelana nge-PDF</string>
+    <string name="error_share_page">Yehlulekile ukwabelana ngekhasi</string>
+    <string name="error_create_folder">Yehlulekile ukudala ifolda</string>
+    <string name="error_delete_folder">Yehlulekile ukususa ifolda</string>
+    <string name="error_rename_folder">Yehlulekile ukuqamba kabusha ifolda</string>
+    <string name="error_unknown">Kuvele iphutha elingaziwa</string>
+    <string name="folder_not_found">Ifolda ayitholakalanga</string>
+    <string name="sync_documents">Vumelanisa amadokhumenti</string>
+    <string name="shutter_scale">isikali_sesivalo</string>
+    <string name="import_gallery">Ngenisa Igalari</string>
+    <string name="scan_camera">Skena Ikhamera</string>
+</resources>

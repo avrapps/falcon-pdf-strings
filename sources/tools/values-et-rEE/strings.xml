@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">Kustuta lehed</string>
+    <string name="are_you_sure_you_want_to_delet">Kas olete kindel, et soovite valitud lehed kustutada? Seda toimingut ei saa tagasi võtta.</string>
+    <string name="delete">Kustuta</string>
+    <string name="cancel">Tühista</string>
+    <string name="quick_selection">Kiire valik</string>
+    <string name="select_range">Valige vahemik</string>
+    <string name="select_all">Vali kõik</string>
+    <string name="clear_all">Tühjenda kõik</string>
+    <string name="select_page_range">Valige lehekülgede vahemik</string>
+    <string name="enter_the_range_of_pages_to_de">Sisesta kustutatavate lehekülgede vahemik (1-%1$s)</string>
+    <string name="from">Alates</string>
+    <string name="to">Kuni</string>
+    <string name="select">Vali</string>
+    <string name="please_go_back_and_select_a_pd">Palun minge tagasi ja valige PDF-fail</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">PDF-i jagamine</string>
+    <string name="str_1_file_selected">1 fail valitud</string>
+    <string name="no_file_selected">Faili pole valitud</string>
+    <string name="split_mode">Jagatud režiim</string>
+    <string name="fixed_segments">Fikseeritud segmendid</string>
+    <string name="custom_ranges">Kohandatud vahemikud</string>
+    <string name="segment_size">Segmendi suurus</string>
+    <string name="this_will_create_multiple_pdfs">See loob mitu PDF-faili, millest igaühel on määratud arv lehekülgi. Mõistlike jaotuste loomiseks peab segmendi suurus olema väiksem kui lehekülgede koguarv. Näiteks kui lähtefailis on 8 lehekülge ja sisestate 2, genereeritakse neli PDF-faili, millest igaühel on 2 lehekülge.</string>
+    <string name="pages_per_file">Lehekülgi faili kohta</string>
+    <string name="eg_2">nt 2</string>
+    <string name="total_number_of_pages_in_pdf__">PDF-i lehekülgede koguarv: %1$d (segmendi suurus peab olema väiksem kui %1$d)</string>
+    <string name="this_will_create__output_files">See loob %1$d väljundfaili</string>
+    <string name="this_will_create__output_file">See loob %1$d väljundfaili</string>
+    <string name="this_input_will_split_the_pdf_">See sisend jagab PDF-faili eraldi failideks vastavalt teie vahemikele. Näiteks "1-2,5,6-8" loob 3 PDF-faili: esimese lehekülgedega 1-2, teise lehekülgedega 5 ja kolmanda lehekülgedega 6-8.</string>
+    <string name="page_ranges">Lehekülgede vahemikud</string>
+    <string name="eg_1234571520">nt 1-2, 3, 4-5, 7, 15-20</string>
+    <string name="format_use_ranges_15_or_single">Formaat: Kasutage vahemikke (1–5) või üksikuid lehekülgi (7), eraldades need komadega. Lubatud on ainult numbrid, sidekriipsud ja komad.</string>
+    <string name="split_preview">Jagatud eelvaade</string>
+    <string name="pdf_files_will_be_created">%1$d PDF-failid luuakse</string>
+    <string name="pdf_file_will_be_created">%1$d PDF-fail luuakse</string>
+    <string name="pdf_result_">PDF-i tulemus %1$s</string>
+    <string name="str__and__more">... ja %1$d veel</string>
+    <string name="splitting_pdf">PDF-i jagamine...</string>
+    <string name="checking_files">Failide kontrollimine...</string>
+    <string name="page_n">Lehekülg %1$d</string>
+    <string name="pages_n_m">Leheküljed %1$d-%2$d</string>
+    <string name="split_complete">Jagamine lõpetatud!</string>
+    <string name="split_failed">Jagamine ebaõnnestus</string>
+    <string name="we_couldnt_split_your_pdf">Me ei saanud teie PDF-faili jagada</string>
+    <string name="your_pdf_has_been_successfully_split">Teie PDF-fail on edukalt %1$d failiks jagatud</string>
+    <string name="your_pdf_has_been_successfully_split_single">Teie PDF-fail on edukalt %1$d failiks jagatud</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">PDF-tööriistad</string>
+    <string name="image_tools">Pilditööriistad</string>
+    <string name="str_30_tools_for_pdf">30+ PDF-i tööriista</string>
+    <string name="tools_for_images">Piltide tööriistad</string>
+    <string name="no_tools_found">Tööriistu ei leitud</string>
+    <string name="try_adjusting_your_search">Proovige oma otsingut kohandada</string>
+    <string name="history">Ajalugu</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s lehekülg${if (lehekülgedeArv &gt; 1) </string>
+    <string name="n_pages">%1$d lehekülge</string>
+    <string name="n_page">%1$d leht</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">Selle PDF-i jaoks on vaja parooli</string>
+    <string name="password_provided">Parool on esitatud</string>
+    <string name="password_required">Parool on nõutav</string>
+    <string name="open_file">Ava fail</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">Kokkusurutud </string>
+    <string name="error_details">Vea üksikasjad</string>
+    <string name="view">Vaade</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">%1$s / %2$s lehest valitud</string>
+    <string name="showing_first_200_pages">Kuvatakse esimesed 200 lehekülge</string>
+    <string name="use_quick_selection_above_for_">Kasutage ülaltoodud kiirvalikut lehekülgede puhul, mis ületavad 200 lehekülge</string>
+    <string name="loading">Laadimine...</string>
+    <string name="error">Viga</string>
+    <string name="generating_page_previews">Lehe eelvaadete genereerimine...</string>
+    <string name="page__thumbnail">Lehe %1$s pisipilt</string>
+    <string name="selected">Valitud</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">Otsi</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">Pööra PDF-i</string>
+    <string name="please_provide_the_password_to">Kohandatud lehtede valimiseks sisestage parool</string>
+    <string name="rotation_angle">Pöördenurk</string>
+    <string name="page_selection">Lehekülje valik</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">PDF-i ümberjärjestamine</string>
+    <string name="use_the_arrow_buttons_to_reord">Lehekülgede järjestuse muutmiseks kasutage nooleklahve</string>
+    <string name="pages_">Leheküljed (%1$s)</string>
+    <string name="page_">Lehekülg %1$s</string>
+    <string name="position__of_">Positsioon: %1$s / %2$s</string>
+    <string name="drag_handle">Lohistage käepidet</string>
+    <string name="move_up">Liiguta üles</string>
+    <string name="move_down">Liiguta alla</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">PDF-i tihendamine</string>
+    <string name="no_files_selected">Ühtegi faili pole valitud</string>
+    <string name="please_go_back_and_select_pdf_">Palun minge tagasi ja valige tihendamiseks PDF-failid</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">Edu</string>
+    <string name="individual_results">Individuaalsed tulemused</string>
+    <string name="done">Valmis</string>
+    <string name="compression_complete">Tihendus on valmis</string>
+    <string name="your_file_is_ready_and_much_li">Teie fail on valmis ja palju kergem!</string>
+    <string name="before">ENNE</string>
+    <string name="after">PÄRAST</string>
+    <string name="total_saved">Kokku salvestatud</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">VÄIKSEM</string>
+    <string name="str__saved">%1$sSäästetud %</string>
+    <string name="open">Avatud</string>
+    <string name="share">Jaga</string>
+    <string name="close">Sule</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">Tihendusaste</string>
+    <string name="recommended">Soovitatav</string>
+    <string name="str__compression">%1$s Tihendus</string>
+    <string name="str__of_original_size">~%1$s% algsest suurusest</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">Pildid PDF-iks</string>
+    <string name="str__images_selected">%1$s pilti valitud</string>
+    <string name="images_will_be_converted_in_th">Pildid teisendatakse allpool näidatud järjekorras</string>
+    <string name="remove">Eemalda</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">PDF piltideks</string>
+    <string name="image_format">Pildi formaat</string>
+    <string name="image_quality_dpi">Pildi kvaliteet (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">PDF-i ühendamine</string>
+    <string name="n_files_selected">%1$d faili valitud</string>
+    <string name="n_file_selected">%1$d fail valitud</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">PDF-i lukustamine</string>
+    <string name="password_protection">Paroolikaitse</string>
+    <string name="enter_a_password_to_protect_yo">PDF-faili kaitsmiseks sisestage parool. Faili avamiseks vajate seda parooli.</string>
+    <string name="password">Parool</string>
+    <string name="enter_password">Sisesta parool</string>
+    <string name="confirm_password">Kinnita parool</string>
+    <string name="reenter_password">Sisesta parool uuesti</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">Palun minge tagasi ja valige fail</string>
+    <string name="back">Tagasi</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">PDF-i avamine</string>
+    <string name="current_password">Praegune parool</string>
+    <string name="enter_the_current_password_to_">PDF-i avamiseks sisestage kehtiv parool</string>
+    <string name="enter_current_password">Sisestage kehtiv parool</string>
+    <string name="incorrect_password_please_try_">Vale parool. Palun proovige uuesti.</string>
+    <string name="new_password_optional">Uus parool (valikuline)</string>
+    <string name="set_a_new_password_to_change_i">Parooli muutmiseks määrake uus parool või jätke paroolikaitse eemaldamiseks tühjaks</string>
+    <string name="new_password">Uus parool</string>
+    <string name="enter_new_password">Sisesta uus parool</string>
+    <string name="confirm_new_password">Kinnita uus parool</string>
+    <string name="reenter_new_password">Sisestage uus parool uuesti</string>
+    <string name="passwords_do_not_match">Paroolid ei ühti</string>
+    <string name="compression_failed">Tihendamine ebaõnnestus</string>
+    <string name="open_pdf">Ava PDF</string>
+    <string name="share_file">Jaga faili</string>
+    <string name="pages_deleted">Leheküljed kustutatud!</string>
+    <string name="delete_failed">Kustutamine ebaõnnestus</string>
+    <string name="select_pages_to_delete">Valige kustutatavad lehed</string>
+    <string name="pdf_created">PDF-fail loodud!</string>
+    <string name="conversion_failed">Konversioon ebaõnnestus</string>
+    <string name="pdf_locked_successfully">PDF edukalt lukustatud!</string>
+    <string name="lock_failed">Lukustamine ebaõnnestus</string>
+    <string name="merge_complete">Ühendamine lõpetatud!</string>
+    <string name="merge_failed">Ühendamine ebaõnnestus</string>
+    <string name="conversion_complete">Konversioon on lõppenud!</string>
+    <string name="reorder_complete">Ümbertellimus on lõpetatud!</string>
+    <string name="reorder_failed">Ümberjärjestamine ebaõnnestus</string>
+    <string name="rotation_complete">Pööramine lõpetatud!</string>
+    <string name="rotation_failed">Pööramine ebaõnnestus</string>
+    <string name="select_pages_to_rotate">Valige pööramiseks lehed</string>
+    <string name="str__complete">%1$s Valmis!</string>
+    <string name="str__failed">%1$s Ebaõnnestus</string>
+    <string name="unlock_failed">Avamine ebaõnnestus</string>
+    <string name="your_pdfs_have_been_successfully_compres">Teie PDF-failid on edukalt tihendatud</string>
+    <string name="we_couldnt_compress_your_pdfs">Me ei saanud teie PDF-faile tihendada</string>
+    <string name="view_your_compressed_file">Vaadake oma tihendatud faili</string>
+    <string name="send_to_others_or_apps">Saada teistele või rakendustesse</string>
+    <string name="your_pdf_has_been_successfully_modified">Teie PDF-faili on edukalt muudetud</string>
+    <string name="we_couldnt_delete_the_pages">Me ei saanud lehti kustutada</string>
+    <string name="your_images_have_been_converted_to_pdf">Teie pildid on PDF-iks teisendatud</string>
+    <string name="unable_to_create_pdf_from_images">Piltidest PDF-faili loomine ebaõnnestus</string>
+    <string name="your_pdf_is_now_password_protected">Teie PDF-fail on nüüd parooliga kaitstud</string>
+    <string name="we_couldnt_lock_your_pdf">Me ei saanud teie PDF-i lukustada</string>
+    <string name="your_pdfs_have_been_successfully_merged">Teie PDF-failid on edukalt ühendatud</string>
+    <string name="we_couldnt_merge_your_pdfs">Me ei saanud teie PDF-e ühendada</string>
+    <string name="str__images_created_successfully">%1$s pildid on edukalt loodud</string>
+    <string name="unable_to_convert_pdf_to_images">PDF-i ei saanud piltideks teisendada</string>
+    <string name="your_pdf_pages_have_been_successfully_re">Teie PDF-lehtede järjekord on edukalt ümber korraldatud</string>
+    <string name="we_couldnt_reorder_your_pdf">Me ei saanud teie PDF-i ümber järjestada</string>
+    <string name="your_pdf_has_been_successfully_rotated">Teie PDF-faili pööramine õnnestus</string>
+    <string name="we_couldnt_rotate_your_pdf">Me ei saanud teie PDF-faili pöörata</string>
+    <string name="your_file_has_been_successfully_processe">Teie fail on edukalt töödeldud</string>
+    <string name="we_couldnt_process_your_file">Me ei saanud teie faili töödelda</string>
+    <string name="we_couldnt_unlock_your_pdf">Me ei saanud teie PDF-i avada</string>
+    <string name="clear_filter">Tühjenda filter</string>
+    <string name="clear">Selge</string>
+    <string name="pick_a_tool_">Vali tööriist →</string>
+    <string name="drag_to_reorder">Lohistage ümberjärjestamiseks</string>
+    <string name="your_files_are_securely_processed_on_our">Teie faile töödeldakse meie serverites turvaliselt krüpteeritud ühenduste abil ja need kustutatakse automaatselt 1 tunni jooksul. Me ei salvesta ega jaga kunagi teie andmeid.</string>
+    <string name="compression_quality">Tihenduskvaliteet</string>
+    <string name="dragelevation">lohistamise kõrgus</string>
+    <string name="tool_card_scale">tööriistakaardi_skaala</string>
+</resources>

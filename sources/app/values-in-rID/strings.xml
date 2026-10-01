@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">PDF Ajaib</string>
+    <string name="app_tagline">Apa yang ingin kamu lakukan?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">Terakhir Digunakan</string>
+    <string name="home_favorites">Favorit</string>
+    <string name="home_new_tool">Alat Baru</string>
+    <string name="home_featured">FITUR</string>
+    <string name="home_scan_to_pdf">Pindai ke PDF</string>
+    <string name="home_scan_description">Ubah dokumen kertas menjadi keajaiban digital secara instan.</string>
+    <string name="home_start_scanning">Mulai Memindai</string>
+    <string name="home_all_tools">Semua Alat</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">Alat PDF</string>
+    <string name="image_tools">Alat Gambar</string>
+    <string name="tools_split">Membelah</string>
+    <string name="tools_split_description">Halaman cuplikan</string>
+    <string name="tools_rotate">Memutar</string>
+    <string name="tools_rotate_description">Perbaiki orientasi</string>
+    <string name="tools_delete_pages">Hapus Halaman</string>
+    <string name="tools_delete_pages_description">Hapus yang tidak diinginkan</string>
+    <string name="tools_convert">Mengubah</string>
+    <string name="tools_convert_description">Dari/Ke gambar</string>
+    <string name="tools_sign">Tanda</string>
+    <string name="tools_sign_description">Tambahkan tanda tangan</string>
+    <string name="tools_protect">Melindungi</string>
+    <string name="tools_protect_description">Keamanan kata sandi</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">Penampil PDF</string>
+    <string name="pdf_viewer_page_info">Halaman %1$d dari %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">Pemindai Dokumen</string>
+    <string name="scanner_capture">Menangkap</string>
+    <string name="scanner_retake">Merebut kembali</string>
+    <string name="scanner_save">Menyimpan</string>
+    <!-- Navigation -->
+    <string name="nav_back">Kembali ke halaman sebelumnya</string>
+    <string name="nav_settings">Pengaturan</string>
+    <string name="nav_more_options">Opsi lainnya</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Rumah</string>
+    <string name="nav_library">Perpustakaan</string>
+    <string name="nav_scan">Pindai</string>
+    <string name="nav_tools">Peralatan</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">Telusuri Berkas</string>
+    <string name="browse_files_subtitle">Penyimpanan &amp; File Cloud</string>
+    <string name="show_hidden_files">Tampilkan file tersembunyi</string>
+    <string name="hide_hidden_files">Sembunyikan file tersembunyi</string>
+    <string name="refresh_storage">Perbarui penyimpanan</string>
+    <string name="no_storage_available">Tidak ada tempat penyimpanan yang tersedia.</string>
+    <string name="no_files_found">Tidak ada berkas yang ditemukan.</string>
+    <string name="add_files">Tambahkan %1$d File</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">Izin Penyimpanan Diperlukan</string>
+    <string name="permission_storage_message">Aplikasi ini memerlukan akses ke penyimpanan perangkat Anda untuk menjelajahi dan membuka file PDF. Mohon berikan izin akses penyimpanan untuk melanjutkan.</string>
+    <string name="permission_grant">Berikan Izin</string>
+    <!-- Common Actions -->
+    <string name="action_open">Membuka</string>
+    <string name="action_save">Menyimpan</string>
+    <string name="action_share">Membagikan</string>
+    <string name="action_delete">Menghapus</string>
+    <string name="action_cancel">Membatalkan</string>
+    <string name="action_confirm">Mengonfirmasi</string>
+    <string name="action_rename">Ganti nama</string>
+    <string name="action_print">Mencetak</string>
+    <string name="action_favorite">Favorit</string>
+    <string name="action_unfavorite">Tidak disukai</string>
+    <!-- Document Actions -->
+    <string name="document_share">Bagikan Dokumen</string>
+    <string name="document_rename">Ganti Nama Dokumen</string>
+    <string name="document_delete">Hapus Dokumen</string>
+    <string name="document_print">Cetak Dokumen</string>
+    <string name="document_favorite">Tambahkan ke Favorit</string>
+    <string name="document_unfavorite">Hapus dari Favorit</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">Dokumen berhasil dibagikan.</string>
+    <string name="document_share_failed">Gagal membagikan dokumen</string>
+    <string name="document_renamed_success">Dokumen berhasil diganti namanya.</string>
+    <string name="document_rename_failed">Gagal mengganti nama dokumen</string>
+    <string name="document_deleted_success">Dokumen berhasil dihapus.</string>
+    <string name="document_delete_failed">Gagal menghapus dokumen</string>
+    <string name="document_print_opened">Dokumen dibuka di penampil PDF bawaan. Gunakan fungsi cetak penampil untuk mencetak.</string>
+    <string name="document_print_failed">Dokumen gagal dicetak</string>
+    <string name="document_added_to_favorites">Ditambahkan ke Favorit</string>
+    <string name="document_removed_from_favorites">Dihapus dari Favorit</string>
+    <string name="document_favorite_failed">Gagal memperbarui status favorit</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">Ganti Nama Dokumen</string>
+    <string name="dialog_rename_hint">Masukkan nama baru</string>
+    <string name="dialog_rename_empty_error">Nama dokumen tidak boleh kosong.</string>
+    <string name="dialog_delete_title">Hapus Dokumen</string>
+    <string name="dialog_delete_file_message">Ini akan menghapus file secara permanen.\n\nHapus %1$s?</string>
+    <string name="dialog_delete_uri_message">Menghapus hanya dari aplikasi. File asli tidak berubah.\n\nHapus %1$s dari aplikasi?</string>
+    <string name="dialog_delete_confirm">Menghapus</string>
+    <string name="dialog_remove_confirm">Menghapus</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">Hanya mengubah nama di dalam aplikasi. File asli tidak berubah.</string>
+    <string name="notice_delete_uri_only">Dihapus dari aplikasi. File asli tidak berubah.</string>
+    <string name="notice_file_exists_error">Berkas dengan nama ini sudah ada.</string>
+    <string name="notice_file_not_found_error">Berkas tidak ditemukan</string>
+    <string name="notice_no_active_document">Tidak ada dokumen aktif.</string>
+    <string name="notice_document_path_unavailable">Jalur file dokumen tidak tersedia</string>
+    <!-- States -->
+    <string name="state_loading">Memuat...</string>
+    <string name="state_empty">Tidak ada barang yang ditemukan</string>
+    <string name="state_error">Terjadi kesalahan.</string>
+    <string name="state_retry">Mencoba kembali</string>
+    <!-- Errors -->
+    <string name="error_network">Koneksi jaringan gagal</string>
+    <string name="error_file_not_found">Berkas tidak ditemukan</string>
+    <string name="error_permission_denied">Izin ditolak</string>
+    <string name="error_invalid_file">Format file tidak valid</string>
+    <string name="error_password_required">Kata sandi diperlukan</string>
+    <string name="error_incorrect_password">Kata sandi salah</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">Dilindungi Kata Sandi</string>
+    <string name="password_protected_message">File ini memerlukan kata sandi untuk dibuka. Silakan masukkan kata sandi Anda di bawah ini.</string>
+    <string name="password_label">Kata sandi</string>
+    <string name="password_placeholder">Masukkan kata sandi</string>
+    <string name="password_unlock">Membuka kunci</string>
+    <string name="password_show">Tampilkan kata sandi</string>
+    <string name="password_hide">Sembunyikan kata sandi</string>
+    <!-- Theme -->
+    <string name="theme_light">Lampu</string>
+    <string name="theme_dark">Gelap</string>
+    <string name="theme_system">Sistem</string>
+    <string name="theme_adaptive">Adaptif</string>
+    <string name="theme_custom">Kebiasaan</string>
+    <!-- Settings -->
+    <string name="settings_title">Preferensi</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">Sinkronisasi Akun &amp;</string>
+    <string name="settings_category_sync_subtitle">Kelola akun Anda, sinkronkan &amp; privasi</string>
+    <string name="settings_category_appearance_title">Penampilan</string>
+    <string name="settings_category_appearance_subtitle">Sesuaikan tampilan aplikasi &amp; terasa</string>
+    <string name="settings_category_pdf_reader_title">Pembaca PDF</string>
+    <string name="settings_category_pdf_reader_subtitle">Pengalaman membaca penampil default &amp;</string>
+    <string name="settings_category_help_title">Bantuan &amp; Dukungan</string>
+    <string name="settings_category_help_subtitle">Dokumentasi &amp; kontak</string>
+    <string name="settings_category_general_title">Umum</string>
+    <string name="settings_category_general_subtitle">Info aplikasi Bahasa &amp;</string>
+    <string name="settings_theme_section">Tema</string>
+    <string name="settings_theme_description">Pilih tema pilihan Anda</string>
+    <string name="settings_accent_color">WARNA AKSEN</string>
+    <string name="settings_custom_colors">Warna Kustom</string>
+    <string name="settings_primary_color">Warna Primer</string>
+    <string name="settings_background_color">Warna Latar Belakang</string>
+    <string name="settings_surface_color">Warna Permukaan</string>
+    <string name="settings_reset_colors">Atur Ulang ke Pengaturan Default</string>
+    <string name="settings_adaptive_note">Warna adaptif Material You (Android 12+)</string>
+    <string name="settings_app_section">Pengaturan Aplikasi</string>
+    <string name="settings_notifications">Pemberitahuan</string>
+    <string name="settings_notifications_description">Terima notifikasi aplikasi</string>
+    <string name="settings_auto_backup">Pencadangan Otomatis</string>
+    <string name="settings_auto_backup_description">Mencadangkan dokumen secara otomatis</string>
+    <string name="settings_change_color">Ubah warna</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">Dokumen PDF Anda akan muncul di sini.</string>
+    <string name="scan_description">Pindai dokumen ke PDF</string>
+    <string name="tools_description">Alat pengeditan dan manipulasi PDF</string>
+    <string name="home_description">Gunakan navigasi bawah untuk mengakses fitur.</string>
+    <!-- Sort Options -->
+    <string name="sort_name">Nama</string>
+    <string name="sort_date">Tanggal</string>
+    <string name="sort_size">Ukuran</string>
+    <string name="sort_option_name">Nama</string>
+    <string name="sort_option_last_opened">Terakhir Dibuka</string>
+    <string name="sort_option_last_modified">Terakhir Diubah</string>
+    <string name="sort_option_file_size">Ukuran File</string>
+    <!-- View Types -->
+    <string name="view_type_list">Tampilan Daftar</string>
+    <string name="view_type_table">Tampilan Tabel</string>
+    <string name="view_type_grid">Tampilan Kisi</string>
+    <!-- File Properties -->
+    <string name="file_name">Nama File</string>
+    <string name="date_modified">Tanggal Diubah</string>
+    <string name="file_size">Ukuran</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">Belum dimulai</string>
+    <string name="file_status_completed">Selesai</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">Dokumen PDF</string>
+    <string name="document_type_word">Dokumen Word</string>
+    <string name="document_type_excel">Lembar Kerja Excel</string>
+    <string name="document_type_image">Berkas Gambar</string>
+    <string name="document_type_other">Dokumen</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">Semua File</string>
+    <string name="filter_recent">Terkini</string>
+    <string name="filter_pdfs">PDF</string>
+    <string name="filter_images">Gambar</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">Rumah</string>
+    <string name="browse_tab">Jelajahi</string>
+    <string name="starred_tab">Berbintang</string>
+    <string name="settings_tab">Pengaturan</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">Alihkan tema</string>
+    <string name="accessibility_menu">Menu</string>
+    <string name="accessibility_close">Menutup</string>
+    <string name="accessibility_color_picker">Pemilih warna</string>
+    <!-- Library Screen -->
+    <string name="library_title">Perpustakaan</string>
+    <string name="library_subtitle">Kelola File, Terbaru &amp; Favorit</string>
+    <string name="library_search_placeholder">Cari file...</string>
+    <string name="library_selected_count">%1$d dipilih</string>
+    <string name="library_open_from_device">Buka Dari Perangkat\n</string>
+    <string name="library_browse_files">Telusuri\nFile</string>
+    <string name="library_action_open">Membuka</string>
+    <string name="library_action_share">Membagikan</string>
+    <string name="library_action_remove">Menghapus</string>
+    <string name="library_action_delete">Menghapus</string>
+    <string name="library_clear_search">Hapus pencarian</string>
+    <string name="library_close_search">Tutup pencarian</string>
+    <string name="library_select_all">Pilih semua file</string>
+    <string name="library_exit_multiselect">Keluar dari mode multi-pilihan</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">Bantuan &amp; Dukungan</string>
+    <string name="help_support_subtitle">Pertanyaan yang Sering Diajukan, Kontak &amp; Hukum</string>
+    <string name="settings_pdf_subtitle">Gulir, Lihat Tata Letak &amp;</string>
+    <string name="help_header_title">Bagaimana kami dapat membantu?</string>
+    <string name="help_header_subtitle">Our team is here to ensure you have the\nbest PDF experience.</string>
+    <string name="help_contact_us">Hubungi kami</string>
+    <string name="help_contact_subtitle">Hubungi tim dukungan</string>
+    <string name="help_faq">Pertanyaan yang Sering Diajukan (FAQ)</string>
+    <string name="help_faq_subtitle">Pertanyaan umum dijawab</string>
+    <string name="help_privacy_policy">Kebijakan Privasi</string>
+    <string name="help_privacy_subtitle">Bagaimana kami melindungi data Anda</string>
+    <string name="help_terms_service">Ketentuan Layanan</string>
+    <string name="help_terms_subtitle">Aturan aplikasi</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">Sinkronisasi melalui data seluler</string>
+    <string name="background_sync">Sinkronisasi latar belakang</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">Pengaturan Pembaca PDF</string>
+    <string name="pdf_settings_coming_soon">Segera hadir</string>
+    <string name="pdf_settings_description">Konfigurasikan perilaku pengguliran, mode tampilan, dan preferensi membaca.</string>
+    <!-- General Settings -->
+    <string name="settings_language">Bahasa</string>
+    <string name="settings_pdf_reader">Pengaturan Pembaca PDF</string>
+    <string name="settings_help_support">Bantuan &amp; Dukungan</string>
+    <string name="settings_whats_new">Apa yang Baru</string>
+    <string name="settings_download_desktop">Instal di Perangkat Lain</string>
+    <string name="settings_rate_app">Beri peringkat aplikasi</string>
+    <string name="play_store_not_found">Play Store tidak ditemukan di perangkat ini.</string>
+    <string name="settings_set_as_default">Tetapkan sebagai Penampil PDF Default</string>
+    <string name="settings_set_as_default_subtitle">Buka PDF dengan aplikasi ini secara default.</string>
+    <string name="settings_default_pdf_instructions_title">Cara Mengaturnya Sebagai Default</string>
+    <string name="settings_default_pdf_ok">Mengerti</string>
+    <string name="settings_default_app_hint">Tidak berhasil?</string>
+    <string name="settings_default_app_hint_learn_more">Pelajari selengkapnya</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">Bahasa</string>
+    <string name="language_search_placeholder">Cari bahasa...</string>
+    <!-- Common UI -->
+    <string name="support">Mendukung</string>
+    <string name="language_english">Bahasa inggris</string>
+    <string name="language_hindi">Bahasa Hindi</string>
+    <string name="language_spanish">Bahasa Spanyol</string>
+    <string name="language_french">Bahasa Prancis</string>
+    <string name="language_german">Bahasa Jerman</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">Bahasa Arab</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">Bahasa Portugis</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">TAMPILAN APLIKASI</string>
+    <string name="theme">TEMA</string>
+    <string name="general">UMUM</string>
+    <string name="new">BARU</string>
+    <string name="navigate">Navigasi</string>
+    <string name="download">Unduh</string>
+    <string name="falcon_pdf">Falcon PDF</string>
+    <string name="excellence_in_every_pixel">Keunggulan dalam setiap piksel</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">TERAPKAN PERUBAHAN</string>
+    <string name="apply">Menerapkan</string>
+    <string name="selected">Terpilih</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">Pengaturan Sinkronisasi</string>
+    <string name="autosync_on_wifi">Sinkronisasi otomatis melalui WiFi</string>
+    <string name="sync_reading_progress">Sinkronkan kemajuan membaca</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">Nama dokumen</string>
+    <string name="name_cannot_be_empty">Nama tidak boleh kosong</string>
+    <string name="str__failed">%1$s Gagal</string>
+    <string name="ok">OKE</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">Paket upgrade - Paket saat ini: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">Seret untuk membuka file</string>
+    <string name="release_to_import_and_open_pdf">Izinkan impor dan pembukaan file PDF.</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">Menghapus</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF</string>
+    <string name="images">Gambar</string>
+    <string name="filter_all_types">Semua File</string>
+    <string name="favorites">File Favorit</string>
+    <string name="recent">Terkini</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">Cari dokumen...</string>
+    <string name="voice_search">Pencarian suara</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">Berkas Terbaru</string>
+    <string name="loading_recent_files">Memuat file terbaru...</string>
+    <string name="no_recent_files">Tidak ada berkas terbaru</string>
+    <string name="no_favorites">Tidak ada favorit</string>
+    <string name="mark_files_as_favorite_to_see_them_here">Tandai file sebagai favorit agar Anda dapat melihatnya di sini.</string>
+    <string name="open_some_pdf_files_to_see_the">Buka beberapa file PDF untuk melihatnya di sini.</string>
+    <string name="status">Status</string>
+    <string name="actions">Tindakan</string>
+    <string name="select_all">Pilih semua</string>
+    <string name="enter_multiselect_mode">Masuk ke mode multi-pilihan</string>
+    <string name="sorted_ascending">Diurutkan secara menaik</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">Penyimpanan: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">Tambahkan %1$s file</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">Ubah tipe tampilan</string>
+    <string name="filter_">Filter: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">Sedang memuat PDF...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">Masuk untuk sinkronisasi</string>
+    <string name="protect_your_library_files">Lindungi file perpustakaan Anda</string>
+    <string name="sign_in">Masuk</string>
+    <string name="sign_out">Keluar</string>
+    <string name="sign_in_dialog_title">Masuk ke Falcon PDF</string>
+    <string name="sign_in_dialog_subtitle">Koleksi PDF Anda, di mana pun.</string>
+    <string name="sign_in_with_google">Masuk dengan Google</string>
+    <string name="sign_in_with_apple">Masuk dengan Apple</string>
+    <string name="apple_user_drive_unavailable">Sinkronisasi Google Drive tidak tersedia dengan Apple Sign-In.</string>
+    <string name="apple_user_link_google">Hubungkan Akun Google untuk sinkronisasi Drive</string>
+    <string name="apple_user_sync_info">Untuk mengaktifkan sinkronisasi cloud, tautkan akun Google.</string>
+    <string name="link_google_account">Tautkan Akun Google</string>
+    <string name="signed_in_successfully">Berhasil masuk.</string>
+    <string name="signed_out_successfully">Berhasil keluar</string>
+    <string name="sync_disabled_free">Sinkronisasi dinonaktifkan untuk akun gratis.</string>
+    <string name="storage_disabled_grant_access">Penyimpanan dinonaktifkan. Berikan akses drive untuk memulai.</string>
+    <string name="upgrade_to_pro">Tingkatkan ke Pro</string>
+    <string name="grant_drive_access">Akses Grant Drive</string>
+    <string name="files_synced">%1$d/%2$d File yang Disinkronkan</string>
+    <string name="synced_count">%1$d Tersinkronisasi</string>
+    <string name="unlimited_sync_active">SINKRONISASI TANPA BATAS</string>
+    <string name="missing_drive_permissions">Izin akses Drive hilang. Sinkronisasi saat ini diblokir.</string>
+    <string name="drive_access_revoked">Akses drive dicabut. Sambungkan kembali untuk melanjutkan sinkronisasi.</string>
+    <string name="upgrade_premium">Tingkatkan ke Premium</string>
+    <string name="manage_account">Kelola Akun</string>
+    <string name="sync_now">Sinkronkan sekarang</string>
+    <string name="tier_free">BEBAS</string>
+    <string name="tier_pro">PRO</string>
+    <string name="tier_premium">PREMI</string>
+    <string name="status_paused">DIJEDA</string>
+    <!-- Common -->
+    <string name="navigate_back">Kembali ke halaman sebelumnya</string>
+    <string name="dismiss">Membubarkan</string>
+    <string name="cancel">Membatalkan</string>
+    <string name="back">Kembali</string>
+    <string name="search">Mencari</string>
+    <string name="more_actions">Tindakan lainnya</string>
+    <string name="share">Membagikan</string>
+    <string name="delete">Menghapus</string>
+    <string name="remove_from_recents">Hapus dari postingan terbaru</string>
+    <string name="open">Membuka</string>
+    <string name="all">Semua</string>
+    <string name="sort_by_">Urutkan berdasarkan %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Sinkronisasi Google Drive</string>
+    <string name="syncing">Sinkronisasi...</string>
+    <string name="sync_completed">Sinkronisasi selesai</string>
+    <string name="sync_failed">Sinkronisasi gagal</string>
+    <string name="sync_limit_exceeded">Batas sinkronisasi terlampaui. Paket %s Anda mengizinkan %d file.</string>
+    <string name="sync_no_drive_access">Akses Google Drive tidak tersedia.</string>
+    <string name="sync_network_unavailable">Jaringan tidak tersedia</string>
+    <string name="sync_last_sync">Sinkronisasi terakhir: %s</string>
+    <string name="sync_total_files">Total</string>
+    <string name="sync_synced_files">Tersinkronisasi</string>
+    <string name="sync_failed_files">Gagal</string>
+    <string name="sync_conflict_files">Konflik</string>
+    <string name="sync_add_to_favorites">Tambahkan ke favorit</string>
+    <string name="sync_remove_from_favorites">Hapus dari favorit</string>
+    <string name="sync_conflict_title">Konflik Sinkronisasi</string>
+    <string name="sync_conflict_message">File-file berikut memiliki konflik yang perlu diselesaikan:</string>
+    <string name="sync_conflict_explanation">Konflik terjadi ketika versi lokal dan versi jarak jauh telah dimodifikasi.</string>
+    <string name="sync_plan_limit">Sinkronisasi: %d/%d</string>
+    <string name="sync_plan_limit_reached">Batas tercapai</string>
+    <string name="sync_plan_unlimited">Sinkronisasi tanpa batas</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">Melewati</string>
+    <string name="welcome_next">Berikutnya</string>
+    <string name="welcome_get_started">Mulai</string>
+    <string name="welcome_sign_in_get_started">Masuk &amp; Mulai</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Baca Dokumen Apa Pun&lt;/b&gt; Secara Instan</string>
+    <string name="welcome_slide1_description">Buka dan kelola lebih dari 10 format dokumen termasuk PDF, DOC, EPUB, dan MOBI.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Baca PDF, ebook,&lt;/b&gt; dan dokumen kantor di satu tempat</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Favoritkan&lt;/b&gt; dokumen dan akses di berbagai perangkat</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;Beri komentar,&lt;/b&gt; sorot, dan berkolaborasi dengan mudah</string>
+    <string name="welcome_slide1_footer">Pembaca dokumen universal Anda</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;Edit, Pindai, dan Atur&lt;/b&gt; PDF</string>
+    <string name="welcome_slide2_description">Semua yang Anda butuhkan untuk membuat, mengedit, dan mengelola PDF dalam satu perangkat yang ampuh.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;Edit teks,&lt;/b&gt; beri anotasi, sorot, dan isi formulir</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Pindai dokumen&lt;/b&gt; dan ubah menjadi PDF secara instan</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;30+ alat&lt;/b&gt; termasuk penggabungan, konversi, kompresi, dan pengamanan</string>
+    <string name="welcome_slide2_footer">Ruang kerja PDF lengkap Anda</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;AI yang Memahami&lt;/b&gt; Dokumen Anda</string>
+    <string name="welcome_slide3_description">Hemat waktu berjam-jam dengan AI yang membaca dan menganalisis dokumen untuk Anda.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Ringkas&lt;/b&gt; dokumen panjang dalam hitungan detik</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; halaman yang dipindai dan terjemahkan teks secara instan</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Dengarkan&lt;/b&gt; dokumen dengan fitur baca keras bawaan</string>
+    <string name="welcome_slide3_footer">Tanpa iklan. Hanya produktivitas.</string>
+    <string name="grace">BERKAH</string>
+    <string name="unable_to_verify_subscription_limited_ac">Langganan tidak dapat diverifikasi. Akses terbatas hingga koneksi pulih.</string>
+    <string name="retry_verification">Coba lagi verifikasi</string>
+    <string name="guest_state">Negara Tamu</string>
+    <string name="free_tier">Tingkat Gratis</string>
+    <string name="free_tier__locked">Tingkat Gratis - Terkunci</string>
+    <string name="pro_tier">Tingkat Pro</string>
+    <string name="pro_tier__restricted">Tingkat Pro - Terbatas</string>
+    <string name="premium_tier">Tingkat Premium</string>
+    <string name="premium_tier__error">Tingkat Premium - Kesalahan</string>
+    <string name="refresh_plan_status">Perbarui status rencana</string>
+    <string name="user_avatar">Avatar pengguna</string>
+    <string name="debug_tools">Alat Debug</string>
+    <string name="authentication__drive">Otentikasi &amp; Drive</string>
+    <string name="auth_state">Status Otorisasi</string>
+    <string name="revoke_drive_access">Cabut Akses Drive</string>
+    <string name="image">Gambar</string>
+    <string name="thumbnail">Gambar mini</string>
+    <string name="manage_preferences">Kelola Preferensi</string>
+    <string name="tools_history">Riwayat Alat</string>
+    <string name="manage_recent_logs">Kelola log terbaru</string>
+    <string name="more_options">Opsi lainnya</string>
+    <string name="clear_all_history">Hapus Semua Riwayat</string>
+    <string name="no_history_yet">Belum ada riwayat</string>
+    <string name="your_pdf_tool_operations_will_appear_her">Pengaturan alat PDF Anda akan muncul di sini.</string>
+    <string name="view">Melihat</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">Tersimpan %1$s</string>
+    <string name="history_status_processing">Pengolahan</string>
+    <string name="history_status_succeeded">BERHASIL</string>
+    <string name="history_status_failed">GAGAL</string>
+    <string name="history_status_processing_upper">PENGOLAHAN</string>
+    <string name="history_unknown_files">File tidak dikenal</string>
+    <string name="history_op_complete">%1$s Selesai!</string>
+    <string name="history_op_failed">%1$s Gagal</string>
+    <string name="history_op_success_multiple">Operasi berhasil diselesaikan dengan %1$d file</string>
+    <string name="history_op_success_single">Operasi berhasil diselesaikan.</string>
+    <string name="history_op_error">Kami tidak dapat menyelesaikan operasi tersebut.</string>
+    <string name="history_multiple_files">%1$d berkas</string>
+    <string name="history_failed">Gagal</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">Sinkronisasi Awan</string>
+    <string name="cloud_sync_subtitle">Perangkat Terhubung</string>
+    <string name="cloud_sync_all_synced">Semua file telah disinkronkan.</string>
+    <string name="cloud_sync_syncing">Sinkronisasi…</string>
+    <string name="cloud_sync_pending">Sinkronisasi tertunda</string>
+    <string name="cloud_sync_last_sync">Sinkronisasi terakhir: %1$s</string>
+    <string name="cloud_sync_never_synced">Tidak pernah disinkronkan</string>
+    <string name="cloud_sync_recent_activity">Aktivitas Sinkronisasi Terbaru</string>
+    <string name="cloud_sync_no_files">Belum ada file yang disinkronkan.</string>
+    <string name="cloud_sync_synced_to_drive">Disinkronkan ke Drive</string>
+    <string name="cloud_sync_pending_upload">Unggahan tertunda</string>
+    <string name="cloud_sync_sync_now">Sinkronkan Sekarang</string>
+    <string name="cloud_sync_view_history">Lihat riwayat sinkronisasi</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d berkas disinkronkan</string>
+    <string name="cloud_sync_unlimited_files">%1$d berkas disinkronkan · Tidak terbatas</string>
+    <string name="cloud_sync_cta_title">Platform Apa Pun, Kapan Pun</string>
+    <string name="cloud_sync_cta_subtitle">Dokumen Anda akan selalu mengikuti Anda ke mana pun Anda pergi.</string>
+    <string name="cloud_sync_files_label">%1$d berkas</string>
+    <string name="settings_data_privacy">Data &amp; Privasi</string>
+    <string name="settings_data_privacy_subtitle">Kelola data, penghapusan akun &amp;</string>
+    <string name="settings_delete_account">Hapus Akun</string>
+    <string name="settings_delete_account_subtitle">Hapus akun dan data Anda secara permanen.</string>
+    <string name="delete_account_warning_title">Hapus akun Anda?</string>
+    <string name="delete_account_warning_message">Tindakan ini akan menghapus akun Anda dan semua data terkait secara permanen, termasuk riwayat pembelian dan file yang disinkronkan ke cloud. Tindakan ini tidak dapat dibatalkan dan pembelian tidak dapat dipulihkan di kemudian hari.</string>
+    <string name="delete_account_confirm_phrase_label">Ketik 'konfirmasi penghapusan' untuk melanjutkan:</string>
+    <string name="delete_account_confirm_phrase">konfirmasi penghapusan</string>
+    <string name="delete_account_button">Hapus Akun</string>
+    <string name="delete_account_error_reauth">Demi keamanan, Anda harus sudah masuk (login) baru-baru ini untuk menghapus akun Anda. Silakan keluar (logout) dan masuk kembali (login), lalu coba lagi.</string>
+    <string name="delete_account_success">Akun berhasil dihapus.</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">File &amp; Pengaturan Sinkronisasi</string>
+    <string name="sync_on_mobile_data_subtitle">Gunakan data seluler untuk sinkronisasi cloud.</string>
+    <string name="drive_sync">Sinkronisasi latar belakang</string>
+    <string name="drive_sync_subtitle">Sinkronkan favorit &amp; pindai dokumen ke Drive</string>
+    <string name="do_not_import_from_other_apps">Jangan mengimpor file dari aplikasi lain.</string>
+    <string name="do_not_import_from_other_apps_subtitle">Buka file bersama untuk sementara tanpa menyimpannya ke pustaka.</string>
+    <string name="clear_imported_files">Hapus File yang Diimpor</string>
+    <string name="clear_imported_files_subtitle">Hapus semua file yang disalin dari aplikasi lain.</string>
+    <string name="clear_imports_confirm_title">Hapus file yang diimpor?</string>
+    <string name="clear_imports_confirm_message">Ini akan menghapus semua file di folder Impor Anda secara permanen. Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="clear_imports_success">File impor telah dihapus.</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">Data &amp; Privasi</string>
+    <string name="analytics_opt_out_title">Kirim Data Penggunaan</string>
+    <string name="analytics_opt_out_subtitle">Bagikan data penggunaan anonim dan laporan kerusakan dengan pengembang untuk membantu meningkatkan aplikasi.</string>
+    <string name="analytics_opt_out_disabled_note">Analitik dan pelaporan kerusakan dinonaktifkan. Tidak ada data yang dikirim ke Google atau pengembang.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">Perubahan yang Belum Disimpan</string>
+    <string name="unsaved_changes_tab_message">Dokumen ini memiliki perubahan yang belum disimpan. Apakah Anda ingin menyimpan sebelum menutupnya?</string>
+    <string name="unsaved_changes_window_message">Anda memiliki perubahan yang belum disimpan di satu atau lebih dokumen. Apakah Anda ingin membuang perubahan tersebut dan keluar?</string>
+    <string name="discard">Membuang</string>
+    <string name="discard_and_quit">Buang &amp; Keluar</string>
+    <string name="close">Menutup</string>
+    <string name="remove_favorite">Hapus favorit</string>
+    <string name="set_as_default_pdf_viewer">Apakah sudah diatur sebagai penampil PDF default?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF bukan penampil PDF default Anda. Apakah Anda ingin mengaturnya sebagai default sehingga semua file PDF terbuka dengan Falcon PDF?</string>
+    <string name="set_now">Atur Sekarang</string>
+    <string name="never">Tidak pernah</string>
+    <string name="later">Nanti</string>
+    <string name="set_default">Tetapkan Default</string>
+    <string name="default">Bawaan</string>
+    <string name="version_">Versi %1$s</string>
+    <string name="sign_in_with_other_accounts">Masuk dengan akun lain</string>
+    <string name="upgrade">Meningkatkan</string>
+    <string name="view_plan">Lihat Rencana</string>
+    <string name="unlimited_sync_upto_5gb">Sinkronisasi tak terbatas hingga 5GB</string>
+    <string name="unlock_faster">Buka kunci lebih cepat</string>
+    <string name="use_biometrics_instead_of_passwords">Gunakan biometrik sebagai pengganti kata sandi.</string>
+    <string name="upgrade_to_premium">Tingkatkan ke Premium</string>
+    <string name="unlock_pdf">Buka PDF</string>
+    <string name="use__to_accessnthis_document">Gunakan %1$s untuk mengakses\ndokumen ini</string>
+    <string name="open_with_password">Buka dengan Kata Sandi</string>
+    <string name="secure">Aman</string>
+    <string name="loading_">Memuat %1$s...</string>
+    <string name="failed_to_open_ebook">Gagal membuka e-book</string>
+    <string name="properties">Properti</string>
+    <string name="copy">Menyalin</string>
+    <string name="highlight">Menyorot</string>
+    <string name="clear_selection">Hapus pilihan</string>
+    <string name="close_search">Tutup pencarian</string>
+    <string name="search_in_book">Cari di dalam buku...</string>
+    <string name="contents">Isi</string>
+    <string name="table_of_contents">Daftar isi</string>
+    <string name="no_table_of_contents_available">Daftar isi tidak tersedia.</string>
+    <string name="bookmarks">Penanda buku</string>
+    <string name="no_bookmarks_yet">Belum ada bookmark</string>
+    <string name="page_">Halaman %1$s</string>
+    <string name="no_results">Tidak ada hasil</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">Pengaturan</string>
+    <string name="decrease_font_size">Kurangi ukuran font</string>
+    <string name="increase_font_size">Perbesar ukuran font</string>
+    <string name="font">Font</string>
+    <string name="jump_to_page">Lompat ke Halaman</string>
+    <string name="enter_page_number_1">Masukkan nomor halaman (1–%1$s):</string>
+    <string name="go">Pergi</string>
+    <string name="read_aloud">Membacakan</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">Berhenti</string>
+    <string name="annotations__text_selection">Anotasi &amp; Pemilihan Teks</string>
+    <string name="text_selection_and_annotations_for_ebook">Fitur pemilihan teks dan anotasi untuk ebook akan segera hadir.</string>
+    <string name="longpress_on_text_to_select_highlight_or">Tekan lama pada teks untuk memilih, menyorot, atau menambahkan catatan.</string>
+    <string name="press_play_to_start_reading_aloud">Tekan putar untuk mulai membaca dengan lantang...</string>
+    <string name="speed">Kecepatan</string>
+    <string name="voice">Suara</string>
+    <string name="no_annotations_yet">Belum ada anotasi</string>
+    <string name="select_text_to_highlight_or_add_notes">Pilih teks yang ingin disorot atau ditambahkan catatan.</string>
+    <string name="tools">Peralatan</string>
+    <string name="convert_to_images">Konversi ke Gambar</string>
+    <string name="rename">Ganti nama</string>
+    <string name="print">Mencetak</string>
+    <string name="a">A−</string>
+    <string name="cover_of_">Sampul %1$s</string>
+    <string name="no_cover_available">Tidak ada perlindungan yang tersedia</string>
+    <string name="read_now">Baca Sekarang</string>
+    <string name="about_the_book">TENTANG BUKU</string>
+    <string name="tags">TAGS</string>
+    <string name="publisher_info">INFORMASI PENERBIT</string>
+    <string name="published_">Diterbitkan: %1$s</string>
+    <string name="retry">Mencoba kembali</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Hapus Cache</string>
+    <string name="ebooks_library">Perpustakaan E-book</string>
+    <string name="manage_your_digital_collection_across_mu">Kelola koleksi digital Anda di berbagai penyedia. Cari, saring, dan temukan judul baru dari Google Books dan Open Library.</string>
+    <string name="no_books_found">Tidak ada buku yang ditemukan</string>
+    <string name="no_results_for__try_a_different_search_t">Tidak ada hasil untuk "%1$s". Coba kata kunci pencarian lain.</string>
+    <string name="downloadable_only">Hanya Dapat Diunduh</string>
+    <string name="file_unavailable">Berkas tidak tersedia</string>
+    <string name="unavailable">Tidak tersedia</string>
+    <string name="search_titles_authors_isbn">Cari berdasarkan judul, penulis, ISBN...</string>
+    <string name="clear_search">Hapus pencarian</string>
+    <string name="ebooks">Buku elektronik</string>
+    <string name="read_pdf">Baca PDF</string>
+    <string name="create_pdf">Buat PDF</string>
+    <string name="unlock_all_tools_and_remove_limits">Buka semua fitur dan hilangkan batasan.</string>
+    <string name="ocr_scanning">Pemindaian OCR</string>
+    <string name="extract_text_from_scanned_documents">Ekstrak teks dari dokumen yang dipindai.</string>
+    <string name="cloud_sync">Sinkronisasi Awan</string>
+    <string name="access_your_documents_anywhere">Akses dokumen Anda di mana saja.</string>
+    <string name="annotate_pdfs">Memberi anotasi pada PDF</string>
+    <string name="cloud_backup">Pencadangan Cloud</string>
+    <string name="continue_reading">Lanjutkan Membaca</string>
+    <string name="pick_files">Pilih File</string>
+    <string name="browse">Jelajahi</string>
+    <string name="did_you_know">Tahukah Anda?</string>
+    <string name="home">Rumah</string>
+    <string name="your_documents_at_a_glance">Dokumen Anda sekilas</string>
+    <string name="pick_file">Pilih File</string>
+    <string name="quick_actions">Tindakan Cepat</string>
+    <string name="pro">PRO</string>
+    <string name="open_files">Buka berkas</string>
+    <string name="convert_to_pdf">Konversi ke PDF</string>
+    <string name="close_drawer">Tutup laci</string>
+    <string name="close_file">Tutup berkas</string>
+    <string name="office">Kantor</string>
+    <string name="coming_soon">Segera hadir</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">Fitur penampil e-book belum tersedia di platform ini.</string>
+    <string name="set_as_default_viewer">Tetapkan sebagai Penampil Default</string>
+    <string name="free">Bebas</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">Mengunduh pembaruan... %1$s%</string>
+    <string name="more">Lagi</string>
+    <string name="font_size">Ukuran Huruf</string>
+    <string name="font_family">Keluarga Font</string>
+    <string name="scroll_direction">Arah Gulir</string>
+    <string name="navigation">Navigasi</string>
+    <string name="keep_screen_on">Biarkan Layar Tetap Menyala</string>
+    <string name="volume_button_to_scroll">Tombol Volume untuk Menggulir</string>
+    <string name="export_ebook_pages_as_image_files">Ekspor halaman ebook sebagai file gambar.</string>
+    <string name="access_millions_of_titles">Akses jutaan judul.</string>
+    <string name="read_offline_with_natural_ai_voices">Baca secara offline dengan suara AI alami.</string>
+    <string name="advanced_ai_reader">Pembaca AI tingkat lanjut.</string>
+    <string name="experience_studioquality_narration">Nikmati narasi berkualitas studio.</string>
+    <string name="powerful_pdf_tools">Alat PDF yang ampuh.</string>
+    <string name="create_and_edit_documents_on_the_go">Buat dan edit dokumen di mana saja.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Tingkatkan ke versi Pro: Buka semua fitur dan hilangkan batasan.</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">Pemindaian OCR: Ekstrak teks dari dokumen yang dipindai</string>
+    <string name="cloud_sync_access_your_documents_anywher">Sinkronisasi Cloud: Akses dokumen Anda di mana saja</string>
+    <string name="scan">Pindai</string>
+    <string name="compress">Kompres</string>
+    <string name="merge">Menggabungkan</string>
+    <string name="convert">Mengubah</string>
+    <string name="highlight_underline_and_add_notes_to_you">Sorot, garis bawahi, dan tambahkan catatan pada dokumen Anda.</string>
+    <string name="keep_your_documents_safe_with_automatic_">Jaga keamanan dokumen Anda dengan sinkronisasi cloud otomatis.</string>
+    <string name="indicator_color_">warna_indikator_%1$s</string>
+    <string name="my_library">Perpustakaan Saya</string>
+    <string name="get_ebooks">Dapatkan eBook</string>
+    <string name="scan_document">Pindai Dokumen</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

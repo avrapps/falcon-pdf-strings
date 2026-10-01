@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">Oldalak törlése</string>
+    <string name="are_you_sure_you_want_to_delet">Biztosan törölni szeretné a kiválasztott oldalakat? Ez a művelet nem vonható vissza.</string>
+    <string name="delete">Töröl</string>
+    <string name="cancel">Mégsem</string>
+    <string name="quick_selection">Gyors kijelölés</string>
+    <string name="select_range">Válasszon tartományt</string>
+    <string name="select_all">Összes kijelölése</string>
+    <string name="clear_all">Összes törlése</string>
+    <string name="select_page_range">Oldaltartomány kiválasztása</string>
+    <string name="enter_the_range_of_pages_to_de">Adja meg a törlendő oldalak tartományát (1-%1$s)</string>
+    <string name="from">Tól</string>
+    <string name="to">Címzett</string>
+    <string name="select">Válasszon</string>
+    <string name="please_go_back_and_select_a_pd">Kérjük, lépjen vissza, és válasszon egy PDF-et</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">PDF felosztása</string>
+    <string name="str_1_file_selected">1 fájl kiválasztva</string>
+    <string name="no_file_selected">Nincs kiválasztott fájl</string>
+    <string name="split_mode">Osztott mód</string>
+    <string name="fixed_segments">Fix szegmensek</string>
+    <string name="custom_ranges">Egyéni tartományok</string>
+    <string name="segment_size">Szegmens mérete</string>
+    <string name="this_will_create_multiple_pdfs">Ez több, a megadott számú oldalból álló PDF fájlt hoz létre. A szegmens méretének kisebbnek kell lennie az oldalak teljes számánál, hogy értelmes felosztásokat hozzon létre. Például, ha a forrásfájl 8 oldalas, és Ön 2 oldalt ad meg, akkor négy, egyenként 2 oldalas PDF fájl jön létre.</string>
+    <string name="pages_per_file">Oldalak fájlonként</string>
+    <string name="eg_2">pl. 2</string>
+    <string name="total_number_of_pages_in_pdf__">A PDF oldalainak teljes száma: %1$d (a szegmens méretének kisebbnek kell lennie, mint %1$d)</string>
+    <string name="this_will_create__output_files">Ez %1$d kimeneti fájlt hoz létre</string>
+    <string name="this_will_create__output_file">Ez %1$d kimeneti fájlt hoz létre</string>
+    <string name="this_input_will_split_the_pdf_">Ez a bemenet a PDF-et külön fájlokra osztja a megadott tartományok alapján. Például az „1-2,5,6-8” 3 PDF-et hoz létre: az elsőt az 1-2. oldallal, a másodikat az 5. oldallal, a harmadikat pedig a 6-8. oldallal.</string>
+    <string name="page_ranges">Oldaltartományok</string>
+    <string name="eg_1234571520">pl. 1-2, 3, 4-5, 7, 15-20</string>
+    <string name="format_use_ranges_15_or_single">Formátum: Tartományokat (1-5) vagy egyetlen oldalt (7) használjon, vesszővel elválasztva. Csak számjegyek, kötőjelek és vesszők engedélyezettek.</string>
+    <string name="split_preview">Felosztott előnézet</string>
+    <string name="pdf_files_will_be_created">%1$d PDF fájlok jönnek létre</string>
+    <string name="pdf_file_will_be_created">%1$d PDF fájl jön létre</string>
+    <string name="pdf_result_">PDF-eredmény %1$s</string>
+    <string name="str__and__more">... és %1$d több</string>
+    <string name="splitting_pdf">PDF felosztása...</string>
+    <string name="checking_files">Fájlok ellenőrzése...</string>
+    <string name="page_n">%1$d oldal</string>
+    <string name="pages_n_m">%1$d-%2$d oldalak</string>
+    <string name="split_complete">Felosztás kész!</string>
+    <string name="split_failed">Sikertelen felosztás</string>
+    <string name="we_couldnt_split_your_pdf">Nem tudtuk felosztani a PDF-et</string>
+    <string name="your_pdf_has_been_successfully_split">A PDF fájlod sikeresen %1$d fájlra lett felosztva</string>
+    <string name="your_pdf_has_been_successfully_split_single">A PDF fájlt sikeresen %1$d fájlra osztottuk</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">PDF-eszközök</string>
+    <string name="image_tools">Képeszközök</string>
+    <string name="str_30_tools_for_pdf">30+ eszköz PDF-hez</string>
+    <string name="tools_for_images">Eszközök képekhez</string>
+    <string name="no_tools_found">Nem találhatók eszközök</string>
+    <string name="try_adjusting_your_search">Próbálja meg módosítani a keresést</string>
+    <string name="history">Történelem</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s oldal${if (oldalSzám &gt; 1) </string>
+    <string name="n_pages">%1$d oldal</string>
+    <string name="n_page">%1$d oldal</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">Jelszó szükséges ehhez a PDF-hez</string>
+    <string name="password_provided">Jelszó megadva</string>
+    <string name="password_required">Jelszó szükséges</string>
+    <string name="open_file">Fájl megnyitása</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">Tömörítve </string>
+    <string name="error_details">Hiba részletei</string>
+    <string name="view">Kilátás</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">%1$s / %2$s oldal kiválasztva</string>
+    <string name="showing_first_200_pages">Az első 200 oldal megjelenítése</string>
+    <string name="use_quick_selection_above_for_">200 oldal feletti oldalakhoz használja a fenti Gyorskijelölést</string>
+    <string name="loading">Terhelés...</string>
+    <string name="error">Hiba</string>
+    <string name="generating_page_previews">Oldal előnézetek generálása...</string>
+    <string name="page__thumbnail">%1$s oldal bélyegképe</string>
+    <string name="selected">Kiválasztott</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">Keresés</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">PDF elforgatása</string>
+    <string name="please_provide_the_password_to">Kérjük, adja meg a jelszót az egyéni oldalak kiválasztásához</string>
+    <string name="rotation_angle">Forgásszög</string>
+    <string name="page_selection">Oldalkiválasztás</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">PDF újrarendezése</string>
+    <string name="use_the_arrow_buttons_to_reord">A nyílgombokkal rendezheti át az oldalakat</string>
+    <string name="pages_">Oldalak (%1$s)</string>
+    <string name="page_">%1$s oldal</string>
+    <string name="position__of_">Pozíció: %1$s / %2$s</string>
+    <string name="drag_handle">Húzza a fogantyút</string>
+    <string name="move_up">Feljebb mozgatás</string>
+    <string name="move_down">Lejjebb mozgatás</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">PDF tömörítése</string>
+    <string name="no_files_selected">Nincsenek kiválasztott fájlok</string>
+    <string name="please_go_back_and_select_pdf_">Kérjük, lépjen vissza, és válassza ki a tömörítendő PDF-fájlokat</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">Siker</string>
+    <string name="individual_results">Egyéni eredmények</string>
+    <string name="done">Kész</string>
+    <string name="compression_complete">Tömörítés befejezve</string>
+    <string name="your_file_is_ready_and_much_li">A fájlod készen áll és sokkal könnyebb!</string>
+    <string name="before">ELŐTT</string>
+    <string name="after">UTÁN</string>
+    <string name="total_saved">Összesen megtakarítva</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">KISEBB</string>
+    <string name="str__saved">%1$sMegtakarítás %-a</string>
+    <string name="open">Nyitott</string>
+    <string name="share">Részesedés</string>
+    <string name="close">Közeli</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">Tömörítési szint</string>
+    <string name="recommended">Ajánlott</string>
+    <string name="str__compression">%1$s Tömörítés</string>
+    <string name="str__of_original_size">~%1$saz eredeti méret %-a</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">Képek PDF-be</string>
+    <string name="str__images_selected">%1$s kép kijelölve</string>
+    <string name="images_will_be_converted_in_th">A képek az alább látható sorrendben lesznek konvertálva</string>
+    <string name="remove">Eltávolítás</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">PDF képekké</string>
+    <string name="image_format">Képformátum</string>
+    <string name="image_quality_dpi">Képminőség (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">PDF egyesítése</string>
+    <string name="n_files_selected">%1$d fájl kiválasztva</string>
+    <string name="n_file_selected">%1$d fájl kiválasztva</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">PDF zárolása</string>
+    <string name="password_protection">Jelszóvédelem</string>
+    <string name="enter_a_password_to_protect_yo">Adjon meg egy jelszót a PDF védelme érdekében. Erre a jelszóra lesz szüksége a fájl megnyitásához.</string>
+    <string name="password">Jelszó</string>
+    <string name="enter_password">Jelszó megadása</string>
+    <string name="confirm_password">Jelszó megerősítése</string>
+    <string name="reenter_password">Jelszó újra megadása</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">Kérjük, lépjen vissza, és válasszon ki egy fájlt</string>
+    <string name="back">Vissza</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">PDF feloldása</string>
+    <string name="current_password">Jelenlegi jelszó</string>
+    <string name="enter_the_current_password_to_">Írja be a jelenlegi jelszót a PDF feloldásához</string>
+    <string name="enter_current_password">Adja meg a jelenlegi jelszót</string>
+    <string name="incorrect_password_please_try_">Helytelen jelszó. Kérjük, próbálja újra.</string>
+    <string name="new_password_optional">Új jelszó (opcionális)</string>
+    <string name="set_a_new_password_to_change_i">Állítson be új jelszót a módosításhoz, vagy hagyja üresen a jelszóvédelem eltávolításához</string>
+    <string name="new_password">Új jelszó</string>
+    <string name="enter_new_password">Írja be az új jelszót</string>
+    <string name="confirm_new_password">Új jelszó megerősítése</string>
+    <string name="reenter_new_password">Írja be újra az új jelszót</string>
+    <string name="passwords_do_not_match">A jelszavak nem egyeznek</string>
+    <string name="compression_failed">Sikertelen tömörítés</string>
+    <string name="open_pdf">PDF megnyitása</string>
+    <string name="share_file">Fájl megosztása</string>
+    <string name="pages_deleted">Oldalak törölve!</string>
+    <string name="delete_failed">Törlés sikertelen</string>
+    <string name="select_pages_to_delete">Törlendő oldalak kiválasztása</string>
+    <string name="pdf_created">PDF létrehozva!</string>
+    <string name="conversion_failed">Konverzió sikertelen</string>
+    <string name="pdf_locked_successfully">PDF sikeresen zárolva!</string>
+    <string name="lock_failed">Zárolás sikertelen</string>
+    <string name="merge_complete">Egyesítés kész!</string>
+    <string name="merge_failed">Egyesítés sikertelen</string>
+    <string name="conversion_complete">Konverzió kész!</string>
+    <string name="reorder_complete">Újrarendelés kész!</string>
+    <string name="reorder_failed">Újrarendelés sikertelen</string>
+    <string name="rotation_complete">Forgatás kész!</string>
+    <string name="rotation_failed">Forgatás sikertelen</string>
+    <string name="select_pages_to_rotate">Oldalak kiválasztása forgatáshoz</string>
+    <string name="str__complete">%1$s Kész!</string>
+    <string name="str__failed">%1$s Sikertelen</string>
+    <string name="unlock_failed">Feloldás sikertelen</string>
+    <string name="your_pdfs_have_been_successfully_compres">A PDF-fájlok tömörítése sikeresen megtörtént.</string>
+    <string name="we_couldnt_compress_your_pdfs">Nem sikerült tömöríteni a PDF-fájlokat</string>
+    <string name="view_your_compressed_file">A tömörített fájl megtekintése</string>
+    <string name="send_to_others_or_apps">Küldés másoknak vagy alkalmazásokba</string>
+    <string name="your_pdf_has_been_successfully_modified">A PDF fájlod sikeresen módosítva</string>
+    <string name="we_couldnt_delete_the_pages">Nem tudtuk törölni az oldalakat</string>
+    <string name="your_images_have_been_converted_to_pdf">A képeidet PDF formátumba konvertáltuk</string>
+    <string name="unable_to_create_pdf_from_images">Nem sikerült PDF-et létrehozni képekből</string>
+    <string name="your_pdf_is_now_password_protected">A PDF-fájl mostantól jelszóval védett</string>
+    <string name="we_couldnt_lock_your_pdf">Nem tudtuk zárolni a PDF-et</string>
+    <string name="your_pdfs_have_been_successfully_merged">A PDF-fájlok sikeresen egyesültek</string>
+    <string name="we_couldnt_merge_your_pdfs">Nem sikerült egyesíteni a PDF-fájlokat</string>
+    <string name="str__images_created_successfully">%1$s kép sikeresen létrehozva</string>
+    <string name="unable_to_convert_pdf_to_images">Nem sikerült PDF-et képpé konvertálni</string>
+    <string name="your_pdf_pages_have_been_successfully_re">A PDF oldalainak átrendezése sikeresen megtörtént.</string>
+    <string name="we_couldnt_reorder_your_pdf">Nem sikerült átrendezni a PDF-et</string>
+    <string name="your_pdf_has_been_successfully_rotated">A PDF fájlod sikeresen elforgatva</string>
+    <string name="we_couldnt_rotate_your_pdf">Nem sikerült elforgatni a PDF-et</string>
+    <string name="your_file_has_been_successfully_processe">A fájl feldolgozása sikeresen megtörtént</string>
+    <string name="we_couldnt_process_your_file">Nem tudtuk feldolgozni a fájlját</string>
+    <string name="we_couldnt_unlock_your_pdf">Nem tudtuk feloldani a PDF-fájl zárolását</string>
+    <string name="clear_filter">Szűrő törlése</string>
+    <string name="clear">Világos</string>
+    <string name="pick_a_tool_">Válasszon egy eszközt →</string>
+    <string name="drag_to_reorder">Húzd át az átrendezéshez</string>
+    <string name="your_files_are_securely_processed_on_our">A fájljaidat biztonságosan feldolgozzuk szervereinken titkosított kapcsolatok segítségével, és 1 órán belül automatikusan töröljük. Soha nem tároljuk és nem osztjuk meg az adataidat.</string>
+    <string name="compression_quality">Tömörítési minőség</string>
+    <string name="dragelevation">Magassághúzás</string>
+    <string name="tool_card_scale">eszközkártya-méretezés</string>
+</resources>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">페이지 삭제</string>
+    <string name="are_you_sure_you_want_to_delet">선택한 페이지를 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.</string>
+    <string name="delete">삭제</string>
+    <string name="cancel">취소</string>
+    <string name="quick_selection">빠른 선택</string>
+    <string name="select_range">범위 선택</string>
+    <string name="select_all">모두 선택</string>
+    <string name="clear_all">모두 지우기</string>
+    <string name="select_page_range">페이지 범위 선택</string>
+    <string name="enter_the_range_of_pages_to_de">삭제할 페이지 범위를 입력하세요(1-%1$s).</string>
+    <string name="from">에서</string>
+    <string name="to">에게</string>
+    <string name="select">선택하다</string>
+    <string name="please_go_back_and_select_a_pd">뒤로 돌아가서 PDF를 선택해 주세요.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">PDF 분할</string>
+    <string name="str_1_file_selected">파일 1개가 선택되었습니다.</string>
+    <string name="no_file_selected">선택된 파일이 없습니다</string>
+    <string name="split_mode">분할 모드</string>
+    <string name="fixed_segments">고정 세그먼트</string>
+    <string name="custom_ranges">사용자 지정 범위</string>
+    <string name="segment_size">세그먼트 크기</string>
+    <string name="this_will_create_multiple_pdfs">이 기능을 사용하면 지정된 페이지 수만큼의 PDF 파일이 여러 개 생성됩니다. 의미 있는 분할을 위해서는 분할 크기가 전체 페이지 수보다 작아야 합니다. 예를 들어 원본 파일이 8페이지이고 2를 입력하면 2페이지씩 4개의 PDF 파일이 생성됩니다.</string>
+    <string name="pages_per_file">파일당 페이지 수</string>
+    <string name="eg_2">예, 2</string>
+    <string name="total_number_of_pages_in_pdf__">PDF의 총 페이지 수: %1$d (세그먼트 크기는 %1$d보다 작아야 합니다)</string>
+    <string name="this_will_create__output_files">이렇게 하면 %1$d 개의 출력 파일이 생성됩니다.</string>
+    <string name="this_will_create__output_file">이렇게 하면 %1$d 출력 파일이 생성됩니다.</string>
+    <string name="this_input_will_split_the_pdf_">이 입력값을 사용하면 지정한 범위에 따라 PDF 파일이 여러 개의 개별 파일로 분할됩니다. 예를 들어, "1-2,5,6-8"을 입력하면 1~2페이지가 포함된 첫 번째 파일, 5페이지가 포함된 두 번째 파일, 그리고 6~8페이지가 포함된 세 번째 파일, 이렇게 총 세 개의 PDF 파일이 생성됩니다.</string>
+    <string name="page_ranges">페이지 범위</string>
+    <string name="eg_1234571520">예: 1-2, 3, 4-5, 7, 15-20</string>
+    <string name="format_use_ranges_15_or_single">형식: 쉼표로 구분된 범위(1-5) 또는 단일 페이지(7)를 사용하십시오. 숫자, 하이픈 및 쉼표만 허용됩니다.</string>
+    <string name="split_preview">분할 미리보기</string>
+    <string name="pdf_files_will_be_created">%1$d PDF 파일이 생성됩니다</string>
+    <string name="pdf_file_will_be_created">%1$d PDF 파일이 생성됩니다</string>
+    <string name="pdf_result_">PDF 결과 %1$s</string>
+    <string name="str__and__more">... 그리고 %1$d 더 보기</string>
+    <string name="splitting_pdf">PDF 분할 중...</string>
+    <string name="checking_files">파일을 확인하는 중...</string>
+    <string name="page_n">페이지 %1$d</string>
+    <string name="pages_n_m">페이지 %1$d-%2$d</string>
+    <string name="split_complete">분할 완료!</string>
+    <string name="split_failed">분할 실패</string>
+    <string name="we_couldnt_split_your_pdf">PDF 파일을 분할할 수 없습니다.</string>
+    <string name="your_pdf_has_been_successfully_split">PDF 파일이 %1$d 개 파일로 성공적으로 분할되었습니다.</string>
+    <string name="your_pdf_has_been_successfully_split_single">PDF 파일이 %1$d 개 파일로 성공적으로 분할되었습니다.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">PDF 도구</string>
+    <string name="image_tools">이미지 도구</string>
+    <string name="str_30_tools_for_pdf">PDF용 도구 30가지 이상</string>
+    <string name="tools_for_images">이미지 도구</string>
+    <string name="no_tools_found">도구를 찾을 수 없습니다.</string>
+    <string name="try_adjusting_your_search">검색 조건을 조정해 보세요.</string>
+    <string name="history">역사</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s 페이지${if (pageCount &gt; 1) </string>
+    <string name="n_pages">%1$d 페이지</string>
+    <string name="n_page">%1$d 페이지</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">이 PDF 파일에 접근하려면 비밀번호가 필요합니다.</string>
+    <string name="password_provided">제공된 비밀번호</string>
+    <string name="password_required">비밀번호가 필요합니다</string>
+    <string name="open_file">파일 열기</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">압축됨 </string>
+    <string name="error_details">오류 세부 정보</string>
+    <string name="view">보다</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">%1$s of %2$s pages selected</string>
+    <string name="showing_first_200_pages">처음 200페이지를 표시합니다.</string>
+    <string name="use_quick_selection_above_for_">200페이지를 초과하는 경우 위의 빠른 선택 기능을 사용하십시오.</string>
+    <string name="loading">로딩 중...</string>
+    <string name="error">오류</string>
+    <string name="generating_page_previews">페이지 미리보기를 생성하는 중...</string>
+    <string name="page__thumbnail">페이지 %1$s 썸네일</string>
+    <string name="selected">선택된</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">찾다</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">PDF 회전</string>
+    <string name="please_provide_the_password_to">사용자 지정 페이지를 선택하려면 비밀번호를 입력해 주세요.</string>
+    <string name="rotation_angle">회전 각도</string>
+    <string name="page_selection">페이지 선택</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">PDF 재정렬</string>
+    <string name="use_the_arrow_buttons_to_reord">화살표 버튼을 사용하여 페이지 순서를 변경하세요.</string>
+    <string name="pages_">페이지(%1$s)</string>
+    <string name="page_">페이지 %1$s</string>
+    <string name="position__of_">위치: %1$s %2$s</string>
+    <string name="drag_handle">드래그 핸들</string>
+    <string name="move_up">위로 이동</string>
+    <string name="move_down">아래로 이동</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">PDF 압축</string>
+    <string name="no_files_selected">선택된 파일이 없습니다</string>
+    <string name="please_go_back_and_select_pdf_">뒤로 돌아가서 압축할 PDF 파일을 선택하세요.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">성공</string>
+    <string name="individual_results">개별 결과</string>
+    <string name="done">완료</string>
+    <string name="compression_complete">압축 완료</string>
+    <string name="your_file_is_ready_and_much_li">파일이 준비되었으며 용량도 훨씬 가벼워졌습니다!</string>
+    <string name="before">전에</string>
+    <string name="after">후에</string>
+    <string name="total_saved">총 저축액</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">더 작은</string>
+    <string name="str__saved">%1$s% 저장됨</string>
+    <string name="open">열려 있는</string>
+    <string name="share">공유하다</string>
+    <string name="close">닫다</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">압축 수준</string>
+    <string name="recommended">추천</string>
+    <string name="str__compression">%1$s 압축</string>
+    <string name="str__of_original_size">~%1$s원래 크기의 %</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">이미지를 PDF로 변환</string>
+    <string name="str__images_selected">%1$s 이미지 선택됨</string>
+    <string name="images_will_be_converted_in_th">이미지는 아래에 표시된 순서대로 변환됩니다.</string>
+    <string name="remove">제거하다</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">PDF를 이미지로 변환</string>
+    <string name="image_format">이미지 형식</string>
+    <string name="image_quality_dpi">이미지 품질(DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">PDF 병합</string>
+    <string name="n_files_selected">%1$d 파일 선택됨</string>
+    <string name="n_file_selected">%1$d 파일 선택됨</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">PDF 잠금</string>
+    <string name="password_protection">비밀번호 보호</string>
+    <string name="enter_a_password_to_protect_yo">PDF 파일을 보호하려면 비밀번호를 입력하세요. 파일을 열려면 이 비밀번호가 필요합니다.</string>
+    <string name="password">비밀번호</string>
+    <string name="enter_password">비밀번호를 입력하세요</string>
+    <string name="confirm_password">비밀번호 확인</string>
+    <string name="reenter_password">비밀번호를 다시 입력하세요</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">뒤로 돌아가서 파일을 선택해 주세요.</string>
+    <string name="back">뒤쪽에</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">PDF 잠금 해제</string>
+    <string name="current_password">현재 비밀번호</string>
+    <string name="enter_the_current_password_to_">이 PDF 파일의 잠금을 해제하려면 현재 비밀번호를 입력하세요.</string>
+    <string name="enter_current_password">현재 비밀번호를 입력하세요</string>
+    <string name="incorrect_password_please_try_">비밀번호가 잘못되었습니다. 다시 시도해 주세요.</string>
+    <string name="new_password_optional">새 비밀번호 (선택 사항)</string>
+    <string name="set_a_new_password_to_change_i">비밀번호를 변경하려면 새 비밀번호를 설정하거나, 비밀번호 보호를 해제하려면 비워 두세요.</string>
+    <string name="new_password">새 비밀번호</string>
+    <string name="enter_new_password">새 비밀번호를 입력하세요</string>
+    <string name="confirm_new_password">새 비밀번호를 확인하세요</string>
+    <string name="reenter_new_password">새 비밀번호를 다시 입력하세요</string>
+    <string name="passwords_do_not_match">비밀번호가 일치하지 않습니다</string>
+    <string name="compression_failed">압축 실패</string>
+    <string name="open_pdf">PDF 열기</string>
+    <string name="share_file">파일 공유</string>
+    <string name="pages_deleted">페이지가 삭제되었습니다!</string>
+    <string name="delete_failed">삭제 실패</string>
+    <string name="select_pages_to_delete">삭제할 페이지를 선택하세요</string>
+    <string name="pdf_created">PDF 파일이 생성되었습니다!</string>
+    <string name="conversion_failed">변환 실패</string>
+    <string name="pdf_locked_successfully">PDF 잠금이 성공적으로 완료되었습니다!</string>
+    <string name="lock_failed">잠금 실패</string>
+    <string name="merge_complete">병합 완료!</string>
+    <string name="merge_failed">병합 실패</string>
+    <string name="conversion_complete">변환 완료!</string>
+    <string name="reorder_complete">재주문 완료!</string>
+    <string name="reorder_failed">재주문 실패</string>
+    <string name="rotation_complete">회전 완료!</string>
+    <string name="rotation_failed">회전 실패</string>
+    <string name="select_pages_to_rotate">회전할 페이지를 선택하세요</string>
+    <string name="str__complete">%1$s 완료!</string>
+    <string name="str__failed">%1$s 실패</string>
+    <string name="unlock_failed">잠금 해제 실패</string>
+    <string name="your_pdfs_have_been_successfully_compres">PDF 파일 압축이 완료되었습니다.</string>
+    <string name="we_couldnt_compress_your_pdfs">PDF 파일을 압축할 수 없습니다.</string>
+    <string name="view_your_compressed_file">압축된 파일을 확인하세요</string>
+    <string name="send_to_others_or_apps">다른 사람이나 앱으로 보내기</string>
+    <string name="your_pdf_has_been_successfully_modified">PDF 파일이 성공적으로 수정되었습니다.</string>
+    <string name="we_couldnt_delete_the_pages">페이지를 삭제할 수 없었습니다.</string>
+    <string name="your_images_have_been_converted_to_pdf">이미지가 PDF로 변환되었습니다.</string>
+    <string name="unable_to_create_pdf_from_images">이미지에서 PDF를 생성할 수 없습니다</string>
+    <string name="your_pdf_is_now_password_protected">이제 PDF 파일이 비밀번호로 보호되었습니다.</string>
+    <string name="we_couldnt_lock_your_pdf">PDF 파일을 잠글 수 없습니다.</string>
+    <string name="your_pdfs_have_been_successfully_merged">PDF 파일 병합이 성공적으로 완료되었습니다.</string>
+    <string name="we_couldnt_merge_your_pdfs">PDF 파일을 병합할 수 없습니다.</string>
+    <string name="str__images_created_successfully">%1$s 이미지가 성공적으로 생성되었습니다</string>
+    <string name="unable_to_convert_pdf_to_images">PDF 파일을 이미지로 변환할 수 없습니다.</string>
+    <string name="your_pdf_pages_have_been_successfully_re">PDF 페이지 순서가 성공적으로 재정렬되었습니다.</string>
+    <string name="we_couldnt_reorder_your_pdf">PDF 파일의 순서를 변경할 수 없습니다.</string>
+    <string name="your_pdf_has_been_successfully_rotated">PDF 파일 회전이 성공적으로 완료되었습니다.</string>
+    <string name="we_couldnt_rotate_your_pdf">PDF 파일을 회전할 수 없습니다.</string>
+    <string name="your_file_has_been_successfully_processe">파일 처리가 성공적으로 완료되었습니다.</string>
+    <string name="we_couldnt_process_your_file">파일을 처리할 수 없습니다.</string>
+    <string name="we_couldnt_unlock_your_pdf">PDF 파일의 잠금을 해제할 수 없습니다.</string>
+    <string name="clear_filter">필터 지우기</string>
+    <string name="clear">분명한</string>
+    <string name="pick_a_tool_">도구를 선택하세요 →</string>
+    <string name="drag_to_reorder">드래그하여 순서를 변경하세요</string>
+    <string name="your_files_are_securely_processed_on_our">고객님의 파일은 암호화된 연결을 사용하여 당사 서버에서 안전하게 처리되며 1시간 이내에 자동으로 삭제됩니다. 당사는 고객님의 데이터를 저장하거나 공유하지 않습니다.</string>
+    <string name="compression_quality">압축 품질</string>
+    <string name="dragelevation">드래그 고도</string>
+    <string name="tool_card_scale">툴카드 스케일</string>
+</resources>

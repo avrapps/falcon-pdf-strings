@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Màgia en PDF</string>
+    <string name="app_tagline">Què t'agradaria fer?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">Últim ús</string>
+    <string name="home_favorites">Preferits</string>
+    <string name="home_new_tool">Nova eina</string>
+    <string name="home_featured">DESTACAT</string>
+    <string name="home_scan_to_pdf">Escaneja a PDF</string>
+    <string name="home_scan_description">Converteix documents en paper en màgia digital a l'instant</string>
+    <string name="home_start_scanning">Comença l'escaneig</string>
+    <string name="home_all_tools">Totes les eines</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">Eines PDF</string>
+    <string name="image_tools">Eines d'imatge</string>
+    <string name="tools_split">Dividir</string>
+    <string name="tools_split_description">Extreure pàgines</string>
+    <string name="tools_rotate">Girar</string>
+    <string name="tools_rotate_description">Fixar l'orientació</string>
+    <string name="tools_delete_pages">Suprimeix pàgines</string>
+    <string name="tools_delete_pages_description">Eliminar no desitjats</string>
+    <string name="tools_convert">Converteix</string>
+    <string name="tools_convert_description">Imatges de/cap a</string>
+    <string name="tools_sign">Signa</string>
+    <string name="tools_sign_description">Afegeix una signatura</string>
+    <string name="tools_protect">Protegir</string>
+    <string name="tools_protect_description">Seguretat de contrasenya</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">Visualitzador de PDF</string>
+    <string name="pdf_viewer_page_info">Pàgina %1$d de %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">Escàner de documents</string>
+    <string name="scanner_capture">Captura</string>
+    <string name="scanner_retake">Repetir</string>
+    <string name="scanner_save">Desa</string>
+    <!-- Navigation -->
+    <string name="nav_back">Navega enrere</string>
+    <string name="nav_settings">Configuració</string>
+    <string name="nav_more_options">Més opcions</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Inici</string>
+    <string name="nav_library">Biblioteca</string>
+    <string name="nav_scan">Escaneja</string>
+    <string name="nav_tools">Eines</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">Navega pels fitxers</string>
+    <string name="browse_files_subtitle">Emmagatzematge &amp; Fitxers al núvol</string>
+    <string name="show_hidden_files">Mostra els fitxers ocults</string>
+    <string name="hide_hidden_files">Amaga els fitxers ocults</string>
+    <string name="refresh_storage">Actualitza l'emmagatzematge</string>
+    <string name="no_storage_available">No hi ha emmagatzematge disponible</string>
+    <string name="no_files_found">No s'han trobat fitxers</string>
+    <string name="add_files">Afegeix fitxers %1$d</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">Permís d'emmagatzematge requerit</string>
+    <string name="permission_storage_message">Aquesta aplicació necessita accés a l'emmagatzematge del dispositiu per navegar i obrir fitxers PDF. Si us plau, concedeix permís d'emmagatzematge per continuar.</string>
+    <string name="permission_grant">Atorgar permís</string>
+    <!-- Common Actions -->
+    <string name="action_open">Obre</string>
+    <string name="action_save">Desa</string>
+    <string name="action_share">Comparteix</string>
+    <string name="action_delete">Suprimeix</string>
+    <string name="action_cancel">Cancel·la</string>
+    <string name="action_confirm">Confirma</string>
+    <string name="action_rename">Canvia el nom</string>
+    <string name="action_print">Imprimeix</string>
+    <string name="action_favorite">Preferit</string>
+    <string name="action_unfavorite">Eliminar dels preferits</string>
+    <!-- Document Actions -->
+    <string name="document_share">Comparteix el document</string>
+    <string name="document_rename">Canvia el nom del document</string>
+    <string name="document_delete">Suprimeix el document</string>
+    <string name="document_print">Imprimeix el document</string>
+    <string name="document_favorite">Afegeix a Preferits</string>
+    <string name="document_unfavorite">Elimina dels preferits</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">El document s'ha compartit correctament</string>
+    <string name="document_share_failed">No s'ha pogut compartir el document</string>
+    <string name="document_renamed_success">El document s'ha canviat de nom correctament</string>
+    <string name="document_rename_failed">No s'ha pogut canviar el nom del document</string>
+    <string name="document_deleted_success">El document s'ha suprimit correctament</string>
+    <string name="document_delete_failed">No s'ha pogut suprimir el document</string>
+    <string name="document_print_opened">Document obert al visor de PDF per defecte. Feu servir la funció d'impressió del visor per imprimir.</string>
+    <string name="document_print_failed">No s'ha pogut imprimir el document</string>
+    <string name="document_added_to_favorites">Afegit a Preferits</string>
+    <string name="document_removed_from_favorites">Eliminat dels preferits</string>
+    <string name="document_favorite_failed">No s'ha pogut actualitzar l'estat dels preferits</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">Canvia el nom del document</string>
+    <string name="dialog_rename_hint">Introdueix el nom nou</string>
+    <string name="dialog_rename_empty_error">El nom del document no pot estar buit</string>
+    <string name="dialog_delete_title">Suprimeix el document</string>
+    <string name="dialog_delete_file_message">Això eliminarà el fitxer permanentment.\n\nVoleu eliminar %1$s?</string>
+    <string name="dialog_delete_uri_message">Només s'elimina de l'aplicació. El fitxer original no ha canviat.\n\nVoleu eliminar %1$s de l'aplicació?</string>
+    <string name="dialog_delete_confirm">Suprimeix</string>
+    <string name="dialog_remove_confirm">Elimina</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">Només es canvia el nom dins de l'aplicació. El fitxer original no ha canviat.</string>
+    <string name="notice_delete_uri_only">Eliminat de l'aplicació. Fitxer original sense canvis.</string>
+    <string name="notice_file_exists_error">Ja existeix un fitxer amb aquest nom</string>
+    <string name="notice_file_not_found_error">No s'ha trobat el fitxer</string>
+    <string name="notice_no_active_document">Cap document actiu</string>
+    <string name="notice_document_path_unavailable">Ruta del fitxer del document no disponible</string>
+    <!-- States -->
+    <string name="state_loading">S'està carregant...</string>
+    <string name="state_empty">No s'han trobat elements</string>
+    <string name="state_error">Alguna cosa ha anat malament</string>
+    <string name="state_retry">Torna-ho a intentar</string>
+    <!-- Errors -->
+    <string name="error_network">La connexió de xarxa ha fallat</string>
+    <string name="error_file_not_found">No s'ha trobat el fitxer</string>
+    <string name="error_permission_denied">Permís denegat</string>
+    <string name="error_invalid_file">Format de fitxer no vàlid</string>
+    <string name="error_password_required">Cal una contrasenya</string>
+    <string name="error_incorrect_password">Contrasenya incorrecta</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">Protegit amb contrasenya</string>
+    <string name="password_protected_message">Aquest fitxer requereix una contrasenya per obrir-se. Si us plau, introduïu-la a continuació.</string>
+    <string name="password_label">Contrasenya</string>
+    <string name="password_placeholder">Introdueix la contrasenya</string>
+    <string name="password_unlock">Desbloqueja</string>
+    <string name="password_show">Mostra la contrasenya</string>
+    <string name="password_hide">Amaga la contrasenya</string>
+    <!-- Theme -->
+    <string name="theme_light">Llum</string>
+    <string name="theme_dark">Fosc</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_adaptive">Adaptatiu</string>
+    <string name="theme_custom">Personalitzat</string>
+    <!-- Settings -->
+    <string name="settings_title">Preferències</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">Sincronització del compte &amp;</string>
+    <string name="settings_category_sync_subtitle">Gestiona el teu compte, sincronitza la privadesa de &amp;</string>
+    <string name="settings_category_appearance_title">Aspecte</string>
+    <string name="settings_category_appearance_subtitle">Personalitza l'aspecte de l'aplicació &amp;</string>
+    <string name="settings_category_pdf_reader_title">Lector de PDF</string>
+    <string name="settings_category_pdf_reader_subtitle">Experiència de lectura del visor predeterminat &amp;</string>
+    <string name="settings_category_help_title">Ajuda &amp; Assistència</string>
+    <string name="settings_category_help_subtitle">Documentació &amp; contacte</string>
+    <string name="settings_category_general_title">General</string>
+    <string name="settings_category_general_subtitle">Informació de l'aplicació d'idioma &amp;</string>
+    <string name="settings_theme_section">Tema</string>
+    <string name="settings_theme_description">Tria el teu tema preferit</string>
+    <string name="settings_accent_color">COLOR D'ACCENT</string>
+    <string name="settings_custom_colors">Colors personalitzats</string>
+    <string name="settings_primary_color">Color primari</string>
+    <string name="settings_background_color">Color de fons</string>
+    <string name="settings_surface_color">Color de la superfície</string>
+    <string name="settings_reset_colors">Restableix els valors predeterminats</string>
+    <string name="settings_adaptive_note">Colors adaptatius de Material You (Android 12+)</string>
+    <string name="settings_app_section">Configuració de l'aplicació</string>
+    <string name="settings_notifications">Notificacions</string>
+    <string name="settings_notifications_description">Rebre notificacions d'aplicacions</string>
+    <string name="settings_auto_backup">Còpia de seguretat automàtica</string>
+    <string name="settings_auto_backup_description">Còpia de seguretat automàtica dels documents</string>
+    <string name="settings_change_color">Canvia el color</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">Els vostres documents PDF apareixeran aquí</string>
+    <string name="scan_description">Escaneja documents a PDF</string>
+    <string name="tools_description">Eines d'edició i manipulació de PDF</string>
+    <string name="home_description">Feu servir la navegació inferior per accedir a les funcions</string>
+    <!-- Sort Options -->
+    <string name="sort_name">Nom</string>
+    <string name="sort_date">Data</string>
+    <string name="sort_size">Mida</string>
+    <string name="sort_option_name">Nom</string>
+    <string name="sort_option_last_opened">Última obertura</string>
+    <string name="sort_option_last_modified">Última modificació</string>
+    <string name="sort_option_file_size">Mida del fitxer</string>
+    <!-- View Types -->
+    <string name="view_type_list">Vista de llista</string>
+    <string name="view_type_table">Vista de taula</string>
+    <string name="view_type_grid">Vista de quadrícula</string>
+    <!-- File Properties -->
+    <string name="file_name">Nom del fitxer</string>
+    <string name="date_modified">Data de modificació</string>
+    <string name="file_size">Mida</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">No iniciat</string>
+    <string name="file_status_completed">Completat</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">Document PDF</string>
+    <string name="document_type_word">Document de Word</string>
+    <string name="document_type_excel">Full de càlcul d'Excel</string>
+    <string name="document_type_image">Fitxer d'imatge</string>
+    <string name="document_type_other">Document</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">Tots els fitxers</string>
+    <string name="filter_recent">Recent</string>
+    <string name="filter_pdfs">PDF</string>
+    <string name="filter_images">Imatges</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">Inici</string>
+    <string name="browse_tab">Navega</string>
+    <string name="starred_tab">Destacat</string>
+    <string name="settings_tab">Configuració</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">Activa/desactiva el tema</string>
+    <string name="accessibility_menu">Menú</string>
+    <string name="accessibility_close">Tanca</string>
+    <string name="accessibility_color_picker">Selector de color</string>
+    <!-- Library Screen -->
+    <string name="library_title">Biblioteca</string>
+    <string name="library_subtitle">Gestiona fitxers, Recents &amp; Preferits</string>
+    <string name="library_search_placeholder">Cerca fitxers...</string>
+    <string name="library_selected_count">%1$d seleccionat</string>
+    <string name="library_open_from_device">Obre des del dispositiu\n</string>
+    <string name="library_browse_files">Navega pels fitxers\n</string>
+    <string name="library_action_open">Obre</string>
+    <string name="library_action_share">Comparteix</string>
+    <string name="library_action_remove">Elimina</string>
+    <string name="library_action_delete">Suprimeix</string>
+    <string name="library_clear_search">Esborra la cerca</string>
+    <string name="library_close_search">Tanca la cerca</string>
+    <string name="library_select_all">Selecciona tots els fitxers</string>
+    <string name="library_exit_multiselect">Sortir del mode de selecció múltiple</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">Ajuda &amp; Assistència</string>
+    <string name="help_support_subtitle">Preguntes freqüents, contacte &amp; Avís legal</string>
+    <string name="settings_pdf_subtitle">Desplaça't, Visualitza &amp; Disseny</string>
+    <string name="help_header_title">Com podem ajudar?</string>
+    <string name="help_header_subtitle">El nostre equip està aquí per garantir que tingueu la\nmillor experiència amb PDF.</string>
+    <string name="help_contact_us">Contacta amb nosaltres</string>
+    <string name="help_contact_subtitle">Poseu-vos en contacte amb el suport</string>
+    <string name="help_faq">Preguntes freqüents</string>
+    <string name="help_faq_subtitle">Respostes a preguntes freqüents</string>
+    <string name="help_privacy_policy">Política de privacitat</string>
+    <string name="help_privacy_subtitle">Com protegim les vostres dades</string>
+    <string name="help_terms_service">Condicions del servei</string>
+    <string name="help_terms_subtitle">Normes de l'aplicació</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">Sincronitza amb dades mòbils</string>
+    <string name="background_sync">Sincronització en segon pla</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">Configuració del lector de PDF</string>
+    <string name="pdf_settings_coming_soon">Properament</string>
+    <string name="pdf_settings_description">Configura el comportament de desplaçament, els modes de visualització i les preferències de lectura</string>
+    <!-- General Settings -->
+    <string name="settings_language">Llengua</string>
+    <string name="settings_pdf_reader">Configuració del lector de PDF</string>
+    <string name="settings_help_support">Ajuda &amp; Assistència</string>
+    <string name="settings_whats_new">Novetats</string>
+    <string name="settings_download_desktop">Instal·la en un altre dispositiu</string>
+    <string name="settings_rate_app">Valora l'aplicació</string>
+    <string name="play_store_not_found">No s'ha trobat la Play Store en aquest dispositiu</string>
+    <string name="settings_set_as_default">Estableix com a visor de PDF per defecte</string>
+    <string name="settings_set_as_default_subtitle">Obre els PDF amb aquesta aplicació per defecte</string>
+    <string name="settings_default_pdf_instructions_title">Com establir com a predeterminat</string>
+    <string name="settings_default_pdf_ok">Ho entenc</string>
+    <string name="settings_default_app_hint">No ha funcionat?</string>
+    <string name="settings_default_app_hint_learn_more">Més informació</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">Llengua</string>
+    <string name="language_search_placeholder">Cerca idiomes...</string>
+    <!-- Common UI -->
+    <string name="support">Suport</string>
+    <string name="language_english">Anglès</string>
+    <string name="language_hindi">Hindi</string>
+    <string name="language_spanish">Espanyol</string>
+    <string name="language_french">Francès</string>
+    <string name="language_german">Alemany</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">Àrab</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">Portuguès</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">APARÈNCIA DE L'APP</string>
+    <string name="theme">TEMA</string>
+    <string name="general">GENERAL</string>
+    <string name="new">NOU</string>
+    <string name="navigate">Navega</string>
+    <string name="download">Descarrega</string>
+    <string name="falcon_pdf">PDF del Falcó</string>
+    <string name="excellence_in_every_pixel">Excel·lència en cada píxel</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">APLICA ELS CANVIS</string>
+    <string name="apply">Aplica</string>
+    <string name="selected">Seleccionat</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">Configuració de sincronització</string>
+    <string name="autosync_on_wifi">Sincronització automàtica per Wi-Fi</string>
+    <string name="sync_reading_progress">Sincronitza el progrés de lectura</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">Nom del document</string>
+    <string name="name_cannot_be_empty">El nom no pot estar buit</string>
+    <string name="str__failed">%1$s Error</string>
+    <string name="ok">D'acord</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">Pla d'actualització - Pla actual: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">Deixa anar per obrir el fitxer</string>
+    <string name="release_to_import_and_open_pdf">Allibera per importar i obrir fitxers PDF</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">Elimina</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF</string>
+    <string name="images">Imatges</string>
+    <string name="filter_all_types">Tots els fitxers</string>
+    <string name="favorites">Fitxers preferits</string>
+    <string name="recent">Recent</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">Cerca documents...</string>
+    <string name="voice_search">Cerca per veu</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">Fitxers recents</string>
+    <string name="loading_recent_files">S'estan carregant els fitxers recents...</string>
+    <string name="no_recent_files">No hi ha fitxers recents</string>
+    <string name="no_favorites">Sense preferits</string>
+    <string name="mark_files_as_favorite_to_see_them_here">Marca els fitxers com a preferits per veure'ls aquí</string>
+    <string name="open_some_pdf_files_to_see_the">Obre alguns fitxers PDF per veure'ls aquí</string>
+    <string name="status">Estat</string>
+    <string name="actions">Accions</string>
+    <string name="select_all">Selecciona-ho tot</string>
+    <string name="enter_multiselect_mode">Entra en el mode de selecció múltiple</string>
+    <string name="sorted_ascending">Ordenat ascendent</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">Emmagatzematge: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">Afegeix fitxers %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">Canvia el tipus de vista</string>
+    <string name="filter_">Filtre: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">S'està carregant el PDF...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">Inicia la sessió per sincronitzar</string>
+    <string name="protect_your_library_files">Protegiu els fitxers de la vostra biblioteca</string>
+    <string name="sign_in">Inicia la sessió</string>
+    <string name="sign_out">Tanca la sessió</string>
+    <string name="sign_in_dialog_title">Inicia la sessió al PDF de Falcon</string>
+    <string name="sign_in_dialog_subtitle">La teva biblioteca de PDF, a tot arreu.</string>
+    <string name="sign_in_with_google">Inicia la sessió amb Google</string>
+    <string name="sign_in_with_apple">Inicia la sessió amb Apple</string>
+    <string name="apple_user_drive_unavailable">La sincronització de Google Drive no està disponible amb l'inici de sessió d'Apple</string>
+    <string name="apple_user_link_google">Enllaça el compte de Google per a la sincronització de Drive</string>
+    <string name="apple_user_sync_info">Per activar la sincronització al núvol, enllaça un compte de Google</string>
+    <string name="link_google_account">Enllaça el compte de Google</string>
+    <string name="signed_in_successfully">S'ha iniciat la sessió correctament</string>
+    <string name="signed_out_successfully">S'ha tancat la sessió correctament</string>
+    <string name="sync_disabled_free">La sincronització està desactivada per als comptes gratuïts.</string>
+    <string name="storage_disabled_grant_access">L'emmagatzematge està desactivat. Concedeix accés a la unitat per començar.</string>
+    <string name="upgrade_to_pro">Actualitza a Pro</string>
+    <string name="grant_drive_access">Concedir accés a la unitat</string>
+    <string name="files_synced">%1$d/%2$d Fitxers sincronitzats</string>
+    <string name="synced_count">%1$d Sincronitzat</string>
+    <string name="unlimited_sync_active">SINCRONITZACIÓ ILLIMITADA</string>
+    <string name="missing_drive_permissions">Falten permisos de Drive. La sincronització està bloquejada actualment.</string>
+    <string name="drive_access_revoked">Accés a la unitat revocat. Torna a connectar-te per reprendre la sincronització.</string>
+    <string name="upgrade_premium">Actualitza Premium</string>
+    <string name="manage_account">Gestiona el compte</string>
+    <string name="sync_now">Sincronitza ara</string>
+    <string name="tier_free">GRATUÏT</string>
+    <string name="tier_pro">PROFESSIONAL</string>
+    <string name="tier_premium">PREMIUM</string>
+    <string name="status_paused">EN PAUSA</string>
+    <!-- Common -->
+    <string name="navigate_back">Navega enrere</string>
+    <string name="dismiss">Ignora</string>
+    <string name="cancel">Cancel·la</string>
+    <string name="back">Enrere</string>
+    <string name="search">Cerca</string>
+    <string name="more_actions">Més accions</string>
+    <string name="share">Comparteix</string>
+    <string name="delete">Suprimeix</string>
+    <string name="remove_from_recents">Elimina de recents</string>
+    <string name="open">Obre</string>
+    <string name="all">Tot</string>
+    <string name="sort_by_">Ordena per %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Sincronització de Google Drive</string>
+    <string name="syncing">Sincronitzant...</string>
+    <string name="sync_completed">Sincronització completada</string>
+    <string name="sync_failed">La sincronització ha fallat</string>
+    <string name="sync_limit_exceeded">S'ha superat el límit de sincronització. El vostre pla %s permet %d fitxers.</string>
+    <string name="sync_no_drive_access">Accés a Google Drive no disponible</string>
+    <string name="sync_network_unavailable">Xarxa no disponible</string>
+    <string name="sync_last_sync">Darrera sincronització: %s</string>
+    <string name="sync_total_files">Total</string>
+    <string name="sync_synced_files">Sincronitzat</string>
+    <string name="sync_failed_files">Fallat</string>
+    <string name="sync_conflict_files">Conflictes</string>
+    <string name="sync_add_to_favorites">Afegeix als preferits</string>
+    <string name="sync_remove_from_favorites">Elimina dels preferits</string>
+    <string name="sync_conflict_title">Conflictes de sincronització</string>
+    <string name="sync_conflict_message">Els fitxers següents tenen conflictes que cal resoldre:</string>
+    <string name="sync_conflict_explanation">Els conflictes es produeixen quan s'han modificat tant la versió local com la remota.</string>
+    <string name="sync_plan_limit">Sincronització: %d/%d</string>
+    <string name="sync_plan_limit_reached">Límit assolit</string>
+    <string name="sync_plan_unlimited">Sincronització il·limitada</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">Omet</string>
+    <string name="welcome_next">Següent</string>
+    <string name="welcome_get_started">Començar</string>
+    <string name="welcome_sign_in_get_started">Inicia la sessió &amp; Començar</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Llegeix qualsevol document&lt;/b&gt; a l'instant</string>
+    <string name="welcome_slide1_description">Obriu i gestioneu més de 10 formats de documents, com ara PDF, DOC, EPUB i MOBI.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Llegeix PDF, llibres electrònics,&lt;/b&gt; i documents d'Office en un sol lloc</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Afegiu documents a preferits&lt;/b&gt; i accediu-hi des de diversos dispositius.</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;Comenta,&lt;/b&gt; destaca i col·labora amb facilitat</string>
+    <string name="welcome_slide1_footer">El vostre lector de documents universal</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;Edita, escaneja i organitza&lt;/b&gt; PDF</string>
+    <string name="welcome_slide2_description">Tot el que necessiteu per crear, editar i gestionar PDF en un potent conjunt d'eines.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;Edita text,&lt;/b&gt; anota, ressalta i omple formularis</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Escaneja documents&lt;/b&gt; i converteix-los en PDF a l'instant</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;Més de 30 eines&lt;/b&gt; incloent-hi fusionar, convertir, comprimir i protegir</string>
+    <string name="welcome_slide2_footer">El vostre espai de treball PDF tot en un</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;IA que entén&lt;/b&gt; els vostres documents</string>
+    <string name="welcome_slide3_description">Estalvieu hores amb la IA que llegeix i analitza documents per vosaltres.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Resumeix&lt;/b&gt; documents llargs en segons</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; pàgines escanejades i tradueix text a l'instant</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Escolta&lt;/b&gt; documents amb la lectura en veu alta integrada</string>
+    <string name="welcome_slide3_footer">Sense anuncis. Només productivitat.</string>
+    <string name="grace">GRÀCIA</string>
+    <string name="unable_to_verify_subscription_limited_ac">No s'ha pogut verificar la subscripció. Accés limitat fins que es restauri la connexió.</string>
+    <string name="retry_verification">Reintenta la verificació</string>
+    <string name="guest_state">Estat convidat</string>
+    <string name="free_tier">Nivell gratuït</string>
+    <string name="free_tier__locked">Nivell gratuït - Bloquejat</string>
+    <string name="pro_tier">Nivell professional</string>
+    <string name="pro_tier__restricted">Nivell Pro - Restringit</string>
+    <string name="premium_tier">Nivell Premium</string>
+    <string name="premium_tier__error">Nivell Premium: Error</string>
+    <string name="refresh_plan_status">Actualitza l'estat del pla</string>
+    <string name="user_avatar">Avatar de l'usuari</string>
+    <string name="debug_tools">Eines de depuració</string>
+    <string name="authentication__drive">Autenticació &amp; Unitat</string>
+    <string name="auth_state">Estat d'autorització</string>
+    <string name="revoke_drive_access">Revoca l'accés a la unitat</string>
+    <string name="image">Imatge</string>
+    <string name="thumbnail">Miniatura</string>
+    <string name="manage_preferences">Gestiona les preferències</string>
+    <string name="tools_history">Història de les eines</string>
+    <string name="manage_recent_logs">Gestiona els registres recents</string>
+    <string name="more_options">Més opcions</string>
+    <string name="clear_all_history">Esborra tot l'historial</string>
+    <string name="no_history_yet">Encara no hi ha història</string>
+    <string name="your_pdf_tool_operations_will_appear_her">Les operacions de l'eina PDF apareixeran aquí.</string>
+    <string name="view">Vista</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">Desat %1$s</string>
+    <string name="history_status_processing">Processament</string>
+    <string name="history_status_succeeded">VA ACONSEGUIR</string>
+    <string name="history_status_failed">FALLAT</string>
+    <string name="history_status_processing_upper">PROCESSAMENT</string>
+    <string name="history_unknown_files">Fitxers desconeguts</string>
+    <string name="history_op_complete">%1$s Completat!</string>
+    <string name="history_op_failed">%1$s Error</string>
+    <string name="history_op_success_multiple">L'operació s'ha completat correctament amb els fitxers %1$d</string>
+    <string name="history_op_success_single">Operació completada correctament</string>
+    <string name="history_op_error">No vam poder completar l'operació</string>
+    <string name="history_multiple_files">%1$d fitxers</string>
+    <string name="history_failed">Fallat</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">Sincronització al núvol</string>
+    <string name="cloud_sync_subtitle">Dispositius connectats</string>
+    <string name="cloud_sync_all_synced">Tots els fitxers sincronitzats</string>
+    <string name="cloud_sync_syncing">Sincronitzant…</string>
+    <string name="cloud_sync_pending">Sincronització pendent</string>
+    <string name="cloud_sync_last_sync">Darrera sincronització: %1$s</string>
+    <string name="cloud_sync_never_synced">Mai sincronitzat</string>
+    <string name="cloud_sync_recent_activity">Activitat de sincronització recent</string>
+    <string name="cloud_sync_no_files">Encara no hi ha fitxers sincronitzats</string>
+    <string name="cloud_sync_synced_to_drive">Sincronitzat amb Drive</string>
+    <string name="cloud_sync_pending_upload">Pendent de càrrega</string>
+    <string name="cloud_sync_sync_now">Sincronitza ara</string>
+    <string name="cloud_sync_view_history">Veure l'historial de sincronització</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d fitxers sincronitzats</string>
+    <string name="cloud_sync_unlimited_files">%1$d fitxers sincronitzats · Il·limitats</string>
+    <string name="cloud_sync_cta_title">Qualsevol plataforma, en qualsevol moment</string>
+    <string name="cloud_sync_cta_subtitle">Els teus documents et segueixen a tot arreu</string>
+    <string name="cloud_sync_files_label">fitxers %1$d</string>
+    <string name="settings_data_privacy">Dades &amp; Privacitat</string>
+    <string name="settings_data_privacy_subtitle">Gestiona dades, eliminació del compte &amp;</string>
+    <string name="settings_delete_account">Suprimeix el compte</string>
+    <string name="settings_delete_account_subtitle">Suprimeix permanentment el teu compte i les teves dades</string>
+    <string name="delete_account_warning_title">Vols eliminar el teu compte?</string>
+    <string name="delete_account_warning_message">Això eliminarà permanentment el vostre compte i totes les dades associades, inclòs l'historial de compres i els fitxers sincronitzats al núvol. Aquesta acció no es pot desfer i les compres no es poden restaurar més tard.</string>
+    <string name="delete_account_confirm_phrase_label">Escriu 'confirma l'eliminació' per continuar:</string>
+    <string name="delete_account_confirm_phrase">confirmar l'eliminació</string>
+    <string name="delete_account_button">Suprimeix el compte</string>
+    <string name="delete_account_error_reauth">Per seguretat, cal que hagis iniciat la sessió recentment per suprimir el teu compte. Tanca la sessió, torna-la a iniciar i, a continuació, torna-ho a provar.</string>
+    <string name="delete_account_success">El compte s'ha suprimit correctament</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">Fitxer &amp; Configuració de sincronització</string>
+    <string name="sync_on_mobile_data_subtitle">Utilitza dades mòbils per a la sincronització al núvol</string>
+    <string name="drive_sync">Sincronització en segon pla</string>
+    <string name="drive_sync_subtitle">Sincronitza els preferits &amp; escaneja documents a Drive</string>
+    <string name="do_not_import_from_other_apps">No importis fitxers d'altres aplicacions</string>
+    <string name="do_not_import_from_other_apps_subtitle">Obre els fitxers compartits temporalment sense desar-los a la biblioteca</string>
+    <string name="clear_imported_files">Esborra els fitxers importats</string>
+    <string name="clear_imported_files_subtitle">Suprimeix tots els fitxers copiats d'altres aplicacions</string>
+    <string name="clear_imports_confirm_title">Voleu esborrar els fitxers importats?</string>
+    <string name="clear_imports_confirm_message">Això suprimirà permanentment tots els fitxers de la carpeta Importacions. Aquesta acció no es pot desfer.</string>
+    <string name="clear_imports_success">Fitxers importats esborrats</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">Dades &amp; Privacitat</string>
+    <string name="analytics_opt_out_title">Enviar dades d'ús</string>
+    <string name="analytics_opt_out_subtitle">Comparteix dades d'ús anònimes i informes d'errors amb el desenvolupador per ajudar a millorar l'aplicació</string>
+    <string name="analytics_opt_out_disabled_note">L'analítica i els informes d'errors estan desactivats. No s'envien dades a Google ni al desenvolupador.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">Canvis no desats</string>
+    <string name="unsaved_changes_tab_message">Aquest document té canvis no desats. Voleu desar-los abans de tancar?</string>
+    <string name="unsaved_changes_window_message">Teniu canvis no desats en un o més documents. Voleu descartar-los i sortir?</string>
+    <string name="discard">Descartar</string>
+    <string name="discard_and_quit">Descarta &amp; Surt</string>
+    <string name="close">Tanca</string>
+    <string name="remove_favorite">Elimina el preferit</string>
+    <string name="set_as_default_pdf_viewer">Voleu establir-lo com a visor de PDF per defecte?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF no és el vostre visor de PDF predeterminat. Voleu definir-lo com a predeterminat perquè tots els fitxers PDF s'obrin amb Falcon PDF?</string>
+    <string name="set_now">Defineix ara</string>
+    <string name="never">Mai</string>
+    <string name="later">Més tard</string>
+    <string name="set_default">Estableix el valor per defecte</string>
+    <string name="default">Per defecte</string>
+    <string name="version_">Versió %1$s</string>
+    <string name="sign_in_with_other_accounts">Inicia la sessió amb altres comptes</string>
+    <string name="upgrade">Actualització</string>
+    <string name="view_plan">Veure pla</string>
+    <string name="unlimited_sync_upto_5gb">Sincronització il·limitada fins a 5 GB</string>
+    <string name="unlock_faster">Desbloqueja més ràpid</string>
+    <string name="use_biometrics_instead_of_passwords">Utilitzeu dades biomètriques en lloc de contrasenyes.</string>
+    <string name="upgrade_to_premium">Actualitza a Premium</string>
+    <string name="unlock_pdf">Desbloqueja el PDF</string>
+    <string name="use__to_accessnthis_document">Feu servir %1$s per accedir a\naquest document</string>
+    <string name="open_with_password">Obre amb contrasenya</string>
+    <string name="secure">Segur</string>
+    <string name="loading_">S'està carregant %1$s...</string>
+    <string name="failed_to_open_ebook">No s'ha pogut obrir el llibre electrònic</string>
+    <string name="properties">Propietats</string>
+    <string name="copy">Còpia</string>
+    <string name="highlight">Destacar</string>
+    <string name="clear_selection">Esborra la selecció</string>
+    <string name="close_search">Tanca la cerca</string>
+    <string name="search_in_book">Cerca al llibre...</string>
+    <string name="contents">Contingut</string>
+    <string name="table_of_contents">Índex</string>
+    <string name="no_table_of_contents_available">No hi ha cap índex disponible</string>
+    <string name="bookmarks">Adreces d'interès</string>
+    <string name="no_bookmarks_yet">Encara no hi ha marcadors</string>
+    <string name="page_">Pàgina %1$s</string>
+    <string name="no_results">Sense resultats</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">Configuració</string>
+    <string name="decrease_font_size">Reduir la mida de la lletra</string>
+    <string name="increase_font_size">Augmenta la mida de la lletra</string>
+    <string name="font">Font</string>
+    <string name="jump_to_page">Salta a la pàgina</string>
+    <string name="enter_page_number_1">Introduïu el número de pàgina (1–%1$s):</string>
+    <string name="go">Anar</string>
+    <string name="read_aloud">Llegir en veu alta</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">Atura</string>
+    <string name="annotations__text_selection">Anotacions &amp; Selecció de text</string>
+    <string name="text_selection_and_annotations_for_ebook">La selecció de text i les anotacions per a llibres electrònics estaran disponibles aviat.</string>
+    <string name="longpress_on_text_to_select_highlight_or">Mantingueu premut el text per seleccionar, ressaltar o afegir notes.</string>
+    <string name="press_play_to_start_reading_aloud">Prem play per començar a llegir en veu alta...</string>
+    <string name="speed">Velocitat</string>
+    <string name="voice">Veu</string>
+    <string name="no_annotations_yet">Encara no hi ha anotacions</string>
+    <string name="select_text_to_highlight_or_add_notes">Selecciona el text per ressaltar-lo o afegir notes</string>
+    <string name="tools">Eines</string>
+    <string name="convert_to_images">Converteix en imatges</string>
+    <string name="rename">Canvia el nom</string>
+    <string name="print">Imprimeix</string>
+    <string name="a">A−</string>
+    <string name="cover_of_">Portada de %1$s</string>
+    <string name="no_cover_available">No hi ha cobertura disponible</string>
+    <string name="read_now">Llegeix ara</string>
+    <string name="about_the_book">SOBRE EL LLIBRE</string>
+    <string name="tags">ETIQUETES</string>
+    <string name="publisher_info">INFORMACIÓ DE L'EDITOR</string>
+    <string name="published_">Publicat: %1$s</string>
+    <string name="retry">Torna-ho a intentar</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Esborra la memòria cau</string>
+    <string name="ebooks_library">Biblioteca de llibres electrònics</string>
+    <string name="manage_your_digital_collection_across_mu">Gestiona la teva col·lecció digital a través de diversos proveïdors. Cerca, filtra i descobreix nous títols de Google Books i Open Library.</string>
+    <string name="no_books_found">No s'han trobat llibres</string>
+    <string name="no_results_for__try_a_different_search_t">No s'han trobat resultats per a "%1$s". Proveu un terme de cerca diferent.</string>
+    <string name="downloadable_only">Només descarregable</string>
+    <string name="file_unavailable">Fitxer no disponible</string>
+    <string name="unavailable">No disponible</string>
+    <string name="search_titles_authors_isbn">Cerca títols, autors, ISBN...</string>
+    <string name="clear_search">Esborra la cerca</string>
+    <string name="ebooks">llibres electrònics</string>
+    <string name="read_pdf">Llegeix el PDF</string>
+    <string name="create_pdf">Crea PDF</string>
+    <string name="unlock_all_tools_and_remove_limits">Desbloqueja totes les eines i elimina els límits</string>
+    <string name="ocr_scanning">Escaneig OCR</string>
+    <string name="extract_text_from_scanned_documents">Extreure text de documents escanejats</string>
+    <string name="cloud_sync">Sincronització al núvol</string>
+    <string name="access_your_documents_anywhere">Accedeix als teus documents des de qualsevol lloc</string>
+    <string name="annotate_pdfs">Anotar PDF</string>
+    <string name="cloud_backup">Còpia de seguretat al núvol</string>
+    <string name="continue_reading">Continua llegint</string>
+    <string name="pick_files">Selecciona fitxers</string>
+    <string name="browse">Navega</string>
+    <string name="did_you_know">Ho sabies?</string>
+    <string name="home">Inici</string>
+    <string name="your_documents_at_a_glance">Els vostres documents d'un cop d'ull</string>
+    <string name="pick_file">Selecciona un fitxer</string>
+    <string name="quick_actions">Accions ràpides</string>
+    <string name="pro">PROFESSIONAL</string>
+    <string name="open_files">Obre els fitxers</string>
+    <string name="convert_to_pdf">Converteix a PDF</string>
+    <string name="close_drawer">Tanca el calaix</string>
+    <string name="close_file">Tanca el fitxer</string>
+    <string name="office">Oficina</string>
+    <string name="coming_soon">Properament</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">El visor de llibres electrònics encara no està disponible en aquesta plataforma.</string>
+    <string name="set_as_default_viewer">Estableix com a visor predeterminat</string>
+    <string name="free">Gratuït</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">Descarregant l'actualització... %1$s%</string>
+    <string name="more">Més</string>
+    <string name="font_size">Mida de la lletra</string>
+    <string name="font_family">Família tipogràfica</string>
+    <string name="scroll_direction">Direcció de desplaçament</string>
+    <string name="navigation">Navegació</string>
+    <string name="keep_screen_on">Mantenir la pantalla activada</string>
+    <string name="volume_button_to_scroll">Botó de volum per desplaçar-se</string>
+    <string name="export_ebook_pages_as_image_files">Exporta les pàgines dels llibres electrònics com a fitxers d'imatge</string>
+    <string name="access_millions_of_titles">Accedeix a milions de títols.</string>
+    <string name="read_offline_with_natural_ai_voices">Llegeix fora de línia amb veus naturals d'IA.</string>
+    <string name="advanced_ai_reader">Lector d'IA avançat.</string>
+    <string name="experience_studioquality_narration">Experimenta una narració amb qualitat d'estudi.</string>
+    <string name="powerful_pdf_tools">Eines PDF potents.</string>
+    <string name="create_and_edit_documents_on_the_go">Crea i edita documents sobre la marxa.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Actualitza a Pro: desbloqueja totes les eines i elimina els límits</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">Escaneig OCR: extreure text de documents escanejats</string>
+    <string name="cloud_sync_access_your_documents_anywher">Sincronització al núvol: accedeix als teus documents des de qualsevol lloc</string>
+    <string name="scan">Escaneja</string>
+    <string name="compress">Comprimir</string>
+    <string name="merge">Fusionar</string>
+    <string name="convert">Converteix</string>
+    <string name="highlight_underline_and_add_notes_to_you">Ressaltar, subratllar i afegir notes als documents</string>
+    <string name="keep_your_documents_safe_with_automatic_">Mantingueu els vostres documents segurs amb la sincronització automàtica al núvol</string>
+    <string name="indicator_color_">indicador_color_%1$s</string>
+    <string name="my_library">La meva biblioteca</string>
+    <string name="get_ebooks">Obtén llibres electrònics</string>
+    <string name="scan_document">Escaneja el document</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

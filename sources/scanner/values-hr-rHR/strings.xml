@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Skenirati</string>
+    <string name="scan_home_documents">Dokumenti</string>
+    <string name="scan_home_documents_lowercase">dokumenti</string>
+    <string name="scan_home_documents_count">%1$d Dokumenti</string>
+    <string name="scan_home_no_documents">Još nema dokumenata</string>
+    <string name="scan_home_start_scanning">Započnite skeniranje kako biste stvorili svoj prvi dokument</string>
+    <string name="scan_home_new_folder">Nova mapa</string>
+    <string name="scan_home_scan_document">Skeniraj dokument</string>
+    <string name="scan_home_import_gallery">Uvoz iz galerije</string>
+    <string name="scan_home_parent_folder">Nadređena mapa</string>
+    <string name="scan_home_go_back">Povratak na nadređenu mapu</string>
+    <string name="scan_home_create_folder">Stvori novu mapu</string>
+    <string name="scan_home_enter_folder_name">Unesite naziv za novu mapu</string>
+    <string name="scan_home_folder_name">Naziv mape</string>
+    <string name="scan_home_folder_placeholder">npr. Radni dokumenti</string>
+    <string name="scan_home_folder_error">Naziv mape ne može biti prazan</string>
+    <string name="scan_home_folder_name_empty">Naziv mape ne može biti prazan</string>
+    <string name="scan_home_create">Stvoriti</string>
+    <string name="scan_home_folder_exists">Mapa s ovim nazivom već postoji</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Fotoaparat</string>
+    <string name="scan_camera_permission_required">Potrebno je dopuštenje za kameru</string>
+    <string name="scan_camera_permission_message">Ovoj aplikaciji je potreban pristup kameri za skeniranje dokumenata.</string>
+    <string name="scan_camera_permission_settings">Molimo idite na Postavke &gt; Aplikacije &gt; Preglednik PDF-ova &gt; Dozvole i omogućite dopuštenje za kameru.</string>
+    <string name="scan_camera_permission_title">Potrebno je dopuštenje za kameru</string>
+    <string name="scan_camera_request_permission">Zahtjev za dopuštenje</string>
+    <string name="scan_camera_open_settings">Otvori Postavke</string>
+    <string name="scan_camera_close">Zatvoriti</string>
+    <string name="scan_camera_flash">Bljesak</string>
+    <string name="scan_camera_auto_capture">Automatsko snimanje</string>
+    <string name="scan_camera_settings">Postavke</string>
+    <string name="scan_camera_ready_batch">Spremno za skeniranje više stranica</string>
+    <string name="scan_camera_ready_multiple">Spremno za skeniranje više stranica</string>
+    <string name="scan_camera_hold_steady">Držite mirno tijekom skeniranja</string>
+    <string name="scan_camera_captured_pages">%1$d snimljenih stranica</string>
+    <string name="scan_camera_mode_single">Singl</string>
+    <string name="scan_camera_mode_batch">Serija</string>
+    <string name="scan_camera_preview">Pregled</string>
+    <string name="scan_camera_finish">Završiti</string>
+    <string name="scan_camera_starting">Pokretanje kamere...</string>
+    <string name="scan_camera_document_name">Naziv dokumenta</string>
+    <string name="scan_camera_document_name_empty">Naziv dokumenta ne može biti prazan</string>
+    <string name="scan_camera_save_document">Spremi dokument</string>
+    <string name="scan_camera_processing">Obrada...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Orezivanje &amp; Prilagodi</string>
+    <string name="scan_crop_close">Zatvoriti</string>
+    <string name="scan_crop_reset">Resetiraj</string>
+    <string name="scan_crop_rotate">Rotirati</string>
+    <string name="scan_crop_done">Gotovo</string>
+    <string name="scan_crop_scanned_document">Skenirani dokument</string>
+    <string name="scan_crop_magnified_view">Uvećani prikaz</string>
+    <string name="scan_crop_processing">Obrada...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Poboljšaj</string>
+    <string name="scan_filter_close">Zatvoriti</string>
+    <string name="scan_filter_rotate">Rotirati</string>
+    <string name="scan_filter_done">Gotovo</string>
+    <string name="scan_filter_filters">Filtri</string>
+    <string name="scan_filter_original">Izvornik</string>
+    <string name="scan_filter_magic">Magija</string>
+    <string name="scan_filter_lighten">Posvijetli</string>
+    <string name="scan_filter_bw">B&amp;Z</string>
+    <string name="scan_filter_grayscale">Siva nijansa</string>
+    <string name="scan_filter_magic_2">Očisti dokument</string>
+    <string name="scan_filter_soft_scan">Meko skeniranje</string>
+    <string name="scan_filter_color_enhance">Boja+</string>
+    <string name="scan_filter_ink_saver">Ušteda tinte</string>
+    <string name="scan_filter_premium">Premium značajka</string>
+    <string name="scan_filter_filtered_document">Filtrirani dokument</string>
+    <string name="scan_filter_applying">Primjena filtra...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Otkazati</string>
+    <string name="scan_share">Udio</string>
+    <string name="scan_move">Potez</string>
+    <string name="scan_move_to_folder">Premjesti u mapu</string>
+    <string name="scan_delete">Izbrisati</string>
+    <string name="scan_rename">Preimenovati</string>
+    <string name="scan_root">Korijen</string>
+    <string name="scan_select_destination">Odaberite odredišnu mapu</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Dokument</string>
+    <string name="scan_document_back">Nazad</string>
+    <string name="scan_document_pages">stranice</string>
+    <string name="scan_document_add_pages">Dodaj stranice ovom dokumentu</string>
+    <string name="scan_document_add_page_button">Dodaj stranicu</string>
+    <string name="scan_document_rename">Preimenovati</string>
+    <string name="scan_document_share">Udio</string>
+    <string name="scan_document_more">Više</string>
+    <string name="scan_document_pages_count">%1$d stranica</string>
+    <string name="scan_document_no_pages">Još nema stranica</string>
+    <string name="scan_document_scan_page">Skeniraj stranicu</string>
+    <string name="scan_document_import_page">Uvoz iz galerije</string>
+    <string name="scan_document_grid_view">Prikaz mreže</string>
+    <string name="scan_document_list_view">Prikaz popisa</string>
+    <string name="scan_document_continuous_view">Neprekidni prikaz</string>
+    <string name="scan_document_page_number">Stranica %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Stranica</string>
+    <string name="scan_page_back">Nazad</string>
+    <string name="scan_page_share">Udio</string>
+    <string name="scan_page_delete">Izbrisati</string>
+    <string name="scan_page_of">%1$d od %2$d</string>
+    <string name="scan_page_image_not_found">Slika nije pronađena</string>
+    <string name="scan_page_retake">Ponovno snimi</string>
+    <string name="scan_page_crop">Obrezivanje</string>
+    <string name="scan_page_enhance">Poboljšaj</string>
+    <string name="scan_page_ocr">Optičko prepoznavanje znakova (OCR)</string>
+    <string name="scan_page_save_gallery">Spremi u galeriju</string>
+    <string name="scan_page_saved_to_gallery">Slika spremljena u galeriju</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Izbrisati dokument?</string>
+    <string name="scan_delete_document_message">Jeste li sigurni da želite izbrisati "%1$s"? Ovim će se trajno izbrisati sve stranice u ovom dokumentu. Ova se radnja ne može poništiti.</string>
+    <string name="scan_rename_document">Preimenuj dokument</string>
+    <string name="scan_rename_enter_name">Unesite novi naziv za dokument</string>
+    <string name="scan_rename_document_name">Naziv dokumenta</string>
+    <string name="scan_rename_error">Naziv dokumenta ne može biti prazan</string>
+    <string name="scan_dialog_delete_document_title">Izbrisati dokument?</string>
+    <string name="scan_dialog_delete_document_message">Jeste li sigurni da želite izbrisati "%1$s"? Ovim će se trajno izbrisati sve stranice u ovom dokumentu. Ova se radnja ne može poništiti.</string>
+    <string name="scan_dialog_delete_confirm">Izbrisati</string>
+    <string name="scan_dialog_cancel">Otkazati</string>
+    <string name="scan_dialog_move_title">Premjesti u mapu</string>
+    <string name="scan_dialog_move_message">Odaberite odredišnu mapu</string>
+    <string name="scan_dialog_move_confirm">Potez</string>
+    <string name="scan_dialog_move_root">Korijen</string>
+    <string name="scan_dialog_move_selected">Odabrano</string>
+    <string name="scan_dialog_rename_title">Preimenuj dokument</string>
+    <string name="scan_dialog_rename_message">Unesite novi naziv za dokument</string>
+    <string name="scan_dialog_rename_label">Naziv dokumenta</string>
+    <string name="scan_dialog_rename_error">Naziv dokumenta ne može biti prazan</string>
+    <string name="scan_dialog_rename_confirm">Preimenovati</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Udio</string>
+    <string name="scan_menu_move">Premjesti u mapu</string>
+    <string name="scan_menu_delete">Izbrisati</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Pregled kamere\n(Uskoro)</string>
+    <string name="scan_platform_desktop_camera">Pregled kamere za stolno računalo\n(Uskoro)</string>
+    <string name="scan_platform_ios_camera">Pregled iOS kamere\n(Uskoro)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Zatvoriti</string>
+    <string name="flash">Bljesak</string>
+    <string name="auto_capture">Automatsko snimanje</string>
+    <string name="settings">Postavke</string>
+    <string name="capture">Hvatanje</string>
+    <string name="finish">Završiti</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Jeste li sigurni da želite izbrisati %1? Svi dokumenti unutra također će biti izbrisani.</string>
+    <string name="share">Udio</string>
+    <string name="share_as_images">Podijeli kao slike</string>
+    <string name="share_as_pdf">Podijeli kao PDF</string>
+    <string name="move_to_folder">Premjesti u mapu</string>
+    <string name="delete">Izbrisati</string>
+    <string name="selected">Odabrano</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Stranica %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">Mapa je prazna</string>
+    <string name="tap_the__button_to_scan_a_docu">Dodirnite gumb + za skeniranje dokumenta</string>
+    <string name="str______pages">%1$s • %2$s • %3$s stranica</string>
+    <string name="create_folder">Izradi mapu</string>
+    <string name="more_options">Više opcija</string>
+    <string name="document_thumbnail">Sličica dokumenta</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Slika nije pronađena</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Stranica %2$d</string>
+    <string name="scan_ocr_title">Prepoznavanje teksta</string>
+    <string name="scan_ocr_copy">Kopiraj tekst</string>
+    <string name="scan_ocr_no_text">Nije pronađen tekst</string>
+    <string name="scan_ocr_processing">Prepoznavanje teksta…</string>
+    <string name="scan_ocr_error">Prepoznavanje teksta nije uspjelo</string>
+    <string name="scan_ocr_not_supported">OCR nije podržan na ovoj platformi</string>
+    <string name="scan_ocr_image">Skenirana stranica za OCR</string>
+    <string name="gallery">Galerija</string>
+    <string name="select_file">Odaberite datoteku</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Nije uspjelo snimanje slike</string>
+    <string name="error_no_images_captured">Nema snimljenih slika</string>
+    <string name="error_open_settings">Nije uspjelo otvaranje postavki</string>
+    <string name="error_process_images">Obrada slika nije uspjela</string>
+    <string name="error_process_image">Obrada slike nije uspjela</string>
+    <string name="error_start_camera">Nije uspjelo pokretanje kamere</string>
+    <string name="error_stop_camera">Nije uspjelo zaustavljanje kamere</string>
+    <string name="error_crop_image">Obrezivanje slike nije uspjelo</string>
+    <string name="error_delete_document">Brisanje dokumenta nije uspjelo</string>
+    <string name="error_delete_page">Brisanje stranice nije uspjelo</string>
+    <string name="error_load_document">Nije uspjelo učitavanje dokumenta</string>
+    <string name="error_load_page">Nije uspjelo učitavanje stranice</string>
+    <string name="error_move_document">Premještanje dokumenta nije uspjelo</string>
+    <string name="error_no_pages_to_share">Nema stranica za dijeljenje</string>
+    <string name="error_rename_document">Preimenovanje dokumenta nije uspjelo</string>
+    <string name="error_reorder_pages">Promjena redoslijeda stranica nije uspjela</string>
+    <string name="error_share_images">Dijeljenje slika nije uspjelo</string>
+    <string name="error_share_pdf">Dijeljenje PDF-a nije uspjelo</string>
+    <string name="error_share_page">Dijeljenje stranice nije uspjelo</string>
+    <string name="error_create_folder">Nije uspjelo stvaranje mape</string>
+    <string name="error_delete_folder">Brisanje mape nije uspjelo</string>
+    <string name="error_rename_folder">Preimenovanje mape nije uspjelo</string>
+    <string name="error_unknown">Došlo je do nepoznate pogreške</string>
+    <string name="folder_not_found">Mapa nije pronađena</string>
+    <string name="sync_documents">Sinkronizacija dokumenata</string>
+    <string name="shutter_scale">skala_zatvarača</string>
+    <string name="import_gallery">Uvoz galerije</string>
+    <string name="scan_camera">Skeniraj kameru</string>
+</resources>

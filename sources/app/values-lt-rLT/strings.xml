@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">PDF magija</string>
+    <string name="app_tagline">Ką norėtumėte veikti?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">Paskutinį kartą naudotas</string>
+    <string name="home_favorites">Mėgstamiausi</string>
+    <string name="home_new_tool">Naujas įrankis</string>
+    <string name="home_featured">REKOMENDUOJAMI</string>
+    <string name="home_scan_to_pdf">Nuskaityti į PDF</string>
+    <string name="home_scan_description">Akimirksniu paverskite popierinius dokumentus skaitmenine magija</string>
+    <string name="home_start_scanning">Pradėti nuskaitymą</string>
+    <string name="home_all_tools">Visi įrankiai</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">PDF įrankiai</string>
+    <string name="image_tools">Vaizdo įrankiai</string>
+    <string name="tools_split">Padalintas</string>
+    <string name="tools_split_description">Išskleisti puslapius</string>
+    <string name="tools_rotate">Pasukti</string>
+    <string name="tools_rotate_description">Fiksuoti orientaciją</string>
+    <string name="tools_delete_pages">Ištrinti puslapius</string>
+    <string name="tools_delete_pages_description">Pašalinkite nepageidaujamus</string>
+    <string name="tools_convert">Konvertuoti</string>
+    <string name="tools_convert_description">Į/Iš paveikslėlių</string>
+    <string name="tools_sign">Ženklas</string>
+    <string name="tools_sign_description">Pridėti parašą</string>
+    <string name="tools_protect">Apsaugoti</string>
+    <string name="tools_protect_description">Slaptažodžio apsauga</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">PDF peržiūros programa</string>
+    <string name="pdf_viewer_page_info">%1$d puslapis iš %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">Dokumentų skaitytuvas</string>
+    <string name="scanner_capture">Užfiksuoti</string>
+    <string name="scanner_retake">Pakartotinai užfiksuoti</string>
+    <string name="scanner_save">Išsaugoti</string>
+    <!-- Navigation -->
+    <string name="nav_back">Naviguoti atgal</string>
+    <string name="nav_settings">Nustatymai</string>
+    <string name="nav_more_options">Daugiau parinkčių</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Pradžia</string>
+    <string name="nav_library">Biblioteka</string>
+    <string name="nav_scan">Nuskaityti</string>
+    <string name="nav_tools">Įrankiai</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">Naršyti failus</string>
+    <string name="browse_files_subtitle">Saugykla &amp; Debesijos failai</string>
+    <string name="show_hidden_files">Rodyti paslėptus failus</string>
+    <string name="hide_hidden_files">Slėpti paslėptus failus</string>
+    <string name="refresh_storage">Atnaujinti saugyklą</string>
+    <string name="no_storage_available">Nėra laisvos vietos saugykloje</string>
+    <string name="no_files_found">Nerasta jokių failų</string>
+    <string name="add_files">Pridėti %1$d failus</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">Reikalingas saugojimo leidimas</string>
+    <string name="permission_storage_message">Šiai programai reikia prieigos prie jūsų įrenginio saugyklos, kad galėtų naršyti ir atidaryti PDF failus. Norėdami tęsti, suteikite saugyklos leidimą.</string>
+    <string name="permission_grant">Suteikti leidimą</string>
+    <!-- Common Actions -->
+    <string name="action_open">Atidaryti</string>
+    <string name="action_save">Išsaugoti</string>
+    <string name="action_share">Bendrinti</string>
+    <string name="action_delete">Ištrinti</string>
+    <string name="action_cancel">Atšaukti</string>
+    <string name="action_confirm">Patvirtinti</string>
+    <string name="action_rename">Pervardyti</string>
+    <string name="action_print">Spausdinti</string>
+    <string name="action_favorite">Mėgstamiausias</string>
+    <string name="action_unfavorite">Pašalinti iš mėgstamiausių</string>
+    <!-- Document Actions -->
+    <string name="document_share">Bendrinti dokumentą</string>
+    <string name="document_rename">Pervardyti dokumentą</string>
+    <string name="document_delete">Ištrinti dokumentą</string>
+    <string name="document_print">Spausdinti dokumentą</string>
+    <string name="document_favorite">Pridėti prie mėgstamiausių</string>
+    <string name="document_unfavorite">Pašalinti iš mėgstamiausių</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">Dokumentas sėkmingai bendrintas</string>
+    <string name="document_share_failed">Nepavyko bendrinti dokumento</string>
+    <string name="document_renamed_success">Dokumentas sėkmingai pervadintas</string>
+    <string name="document_rename_failed">Nepavyko pervardyti dokumento</string>
+    <string name="document_deleted_success">Dokumentas sėkmingai ištrintas</string>
+    <string name="document_delete_failed">Nepavyko ištrinti dokumento</string>
+    <string name="document_print_opened">Dokumentas atidarytas numatytojoje PDF peržiūros programoje. Norėdami spausdinti, naudokite peržiūros programos spausdinimo funkciją.</string>
+    <string name="document_print_failed">Nepavyko atspausdinti dokumento</string>
+    <string name="document_added_to_favorites">Pridėta prie mėgstamiausių</string>
+    <string name="document_removed_from_favorites">Pašalinta iš mėgstamiausių</string>
+    <string name="document_favorite_failed">Nepavyko atnaujinti mėgstamiausio būsenos</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">Pervardyti dokumentą</string>
+    <string name="dialog_rename_hint">Įveskite naują vardą</string>
+    <string name="dialog_rename_empty_error">Dokumento pavadinimo laukas negali būti tuščias</string>
+    <string name="dialog_delete_title">Ištrinti dokumentą</string>
+    <string name="dialog_delete_file_message">Tai visam laikui ištrins failą.\n\nIštrinti %1$s?</string>
+    <string name="dialog_delete_uri_message">Pašalina tik iš programėlės. Originalus failas nepakeistas.\n\nPašalinti %1$s iš programėlės?</string>
+    <string name="dialog_delete_confirm">Ištrinti</string>
+    <string name="dialog_remove_confirm">Pašalinti</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">Pervadina tik programos viduje. Originalus failas nepakeičiamas.</string>
+    <string name="notice_delete_uri_only">Pašalinta iš programėlės. Originalus failas nepakeistas.</string>
+    <string name="notice_file_exists_error">Failas tokiu pavadinimu jau yra</string>
+    <string name="notice_file_not_found_error">Failas nerastas</string>
+    <string name="notice_no_active_document">Nėra aktyvių dokumentų</string>
+    <string name="notice_document_path_unavailable">Dokumento failo kelias nepasiekiamas</string>
+    <!-- States -->
+    <string name="state_loading">Kraunama...</string>
+    <string name="state_empty">Nerasta jokių elementų</string>
+    <string name="state_error">Kažkas nutiko ne taip</string>
+    <string name="state_retry">Bandyti dar kartą</string>
+    <!-- Errors -->
+    <string name="error_network">Tinklo ryšys nepavyko</string>
+    <string name="error_file_not_found">Failas nerastas</string>
+    <string name="error_permission_denied">Leidimas atmestas</string>
+    <string name="error_invalid_file">Neteisingas failo formatas</string>
+    <string name="error_password_required">Reikalingas slaptažodis</string>
+    <string name="error_incorrect_password">Neteisingas slaptažodis</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">Apsaugota slaptažodžiu</string>
+    <string name="password_protected_message">Šiam failui atidaryti reikalingas slaptažodis. Įveskite jį žemiau.</string>
+    <string name="password_label">Slaptažodis</string>
+    <string name="password_placeholder">Įveskite slaptažodį</string>
+    <string name="password_unlock">Atrakinti</string>
+    <string name="password_show">Rodyti slaptažodį</string>
+    <string name="password_hide">Slėpti slaptažodį</string>
+    <!-- Theme -->
+    <string name="theme_light">Šviesa</string>
+    <string name="theme_dark">Tamsu</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_adaptive">Adaptyvus</string>
+    <string name="theme_custom">Pasirinktinis</string>
+    <!-- Settings -->
+    <string name="settings_title">Nuostatos</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">Paskyros &amp; Sinchronizuoti</string>
+    <string name="settings_category_sync_subtitle">Tvarkykite savo paskyrą, sinchronizuokite &amp; privatumą</string>
+    <string name="settings_category_appearance_title">Išvaizda</string>
+    <string name="settings_category_appearance_subtitle">Tinkinkite programėlės išvaizdą &amp;</string>
+    <string name="settings_category_pdf_reader_title">PDF skaitytuvas</string>
+    <string name="settings_category_pdf_reader_subtitle">Numatytoji peržiūros programa &amp; skaitymo patirtis</string>
+    <string name="settings_category_help_title">Pagalba &amp; Palaikymas</string>
+    <string name="settings_category_help_subtitle">Dokumentacija &amp; kontaktas</string>
+    <string name="settings_category_general_title">Bendra</string>
+    <string name="settings_category_general_subtitle">Kalba &amp; programėlės informacija</string>
+    <string name="settings_theme_section">Tema</string>
+    <string name="settings_theme_description">Pasirinkite pageidaujamą temą</string>
+    <string name="settings_accent_color">AKCENTINĖ SPALVA</string>
+    <string name="settings_custom_colors">Pasirinktinės spalvos</string>
+    <string name="settings_primary_color">Pirminė spalva</string>
+    <string name="settings_background_color">Fono spalva</string>
+    <string name="settings_surface_color">Paviršiaus spalva</string>
+    <string name="settings_reset_colors">Atkurti numatytuosius nustatymus</string>
+    <string name="settings_adaptive_note">„Material You“ prisitaikančios spalvos („Android 12+“)</string>
+    <string name="settings_app_section">Programėlės nustatymai</string>
+    <string name="settings_notifications">Pranešimai</string>
+    <string name="settings_notifications_description">Gauti programėlių pranešimus</string>
+    <string name="settings_auto_backup">Automatinis atsarginis kopijavimas</string>
+    <string name="settings_auto_backup_description">Automatiškai kurti dokumentų atsargines kopijas</string>
+    <string name="settings_change_color">Keisti spalvą</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">Jūsų PDF dokumentai bus rodomi čia</string>
+    <string name="scan_description">Nuskaityti dokumentus į PDF</string>
+    <string name="tools_description">PDF redagavimo ir manipuliavimo įrankiai</string>
+    <string name="home_description">Norėdami pasiekti funkcijas, naudokite apatinę naršymo juostą</string>
+    <!-- Sort Options -->
+    <string name="sort_name">Vardas</string>
+    <string name="sort_date">Data</string>
+    <string name="sort_size">Dydis</string>
+    <string name="sort_option_name">Vardas</string>
+    <string name="sort_option_last_opened">Paskutinį kartą atidaryta</string>
+    <string name="sort_option_last_modified">Paskutinį kartą modifikuota</string>
+    <string name="sort_option_file_size">Failo dydis</string>
+    <!-- View Types -->
+    <string name="view_type_list">Sąrašo rodinys</string>
+    <string name="view_type_table">Lentelės rodinys</string>
+    <string name="view_type_grid">Tinklelio rodinys</string>
+    <!-- File Properties -->
+    <string name="file_name">Failo pavadinimas</string>
+    <string name="date_modified">Modifikavimo data</string>
+    <string name="file_size">Dydis</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">Nepradėta</string>
+    <string name="file_status_completed">Užbaigta</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">PDF dokumentas</string>
+    <string name="document_type_word">„Word“ dokumentas</string>
+    <string name="document_type_excel">„Excel“ skaičiuoklė</string>
+    <string name="document_type_image">Vaizdo failas</string>
+    <string name="document_type_other">Dokumentas</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">Visi failai</string>
+    <string name="filter_recent">Naujausi</string>
+    <string name="filter_pdfs">PDF failai</string>
+    <string name="filter_images">Vaizdai</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">Pradžia</string>
+    <string name="browse_tab">Naršyti</string>
+    <string name="starred_tab">Pažymėta žvaigždute</string>
+    <string name="settings_tab">Nustatymai</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">Perjungti temą</string>
+    <string name="accessibility_menu">Meniu</string>
+    <string name="accessibility_close">Uždaryti</string>
+    <string name="accessibility_color_picker">Spalvų rinkiklis</string>
+    <!-- Library Screen -->
+    <string name="library_title">Biblioteka</string>
+    <string name="library_subtitle">Tvarkyti failus, Naujausi &amp; Mėgstamiausi</string>
+    <string name="library_search_placeholder">Ieškoti failų...</string>
+    <string name="library_selected_count">%1$d pasirinkta</string>
+    <string name="library_open_from_device">Atidaryti iš\nįrenginio</string>
+    <string name="library_browse_files">Naršyti\nfailus</string>
+    <string name="library_action_open">Atidaryti</string>
+    <string name="library_action_share">Bendrinti</string>
+    <string name="library_action_remove">Pašalinti</string>
+    <string name="library_action_delete">Ištrinti</string>
+    <string name="library_clear_search">Išvalyti paiešką</string>
+    <string name="library_close_search">Uždaryti paiešką</string>
+    <string name="library_select_all">Pasirinkti visus failus</string>
+    <string name="library_exit_multiselect">Išeiti iš kelių pasirinkimų režimo</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">Pagalba &amp; Palaikymas</string>
+    <string name="help_support_subtitle">DUK, Kontaktai &amp; Teisinė informacija</string>
+    <string name="settings_pdf_subtitle">Slinkti, peržiūrėti &amp; Išdėstymas</string>
+    <string name="help_header_title">Kaip galime padėti?</string>
+    <string name="help_header_subtitle">Mūsų komanda pasiruošusi užtikrinti, kad Jums būtų suteikta\ngeriausia PDF skaitymo patirtis.</string>
+    <string name="help_contact_us">Susisiekite su mumis</string>
+    <string name="help_contact_subtitle">Susisiekite su palaikymo tarnyba</string>
+    <string name="help_faq">DUK</string>
+    <string name="help_faq_subtitle">Atsakymai į dažniausiai užduodamus klausimus</string>
+    <string name="help_privacy_policy">Privatumo politika</string>
+    <string name="help_privacy_subtitle">Kaip mes saugome jūsų duomenis</string>
+    <string name="help_terms_service">Paslaugų teikimo sąlygos</string>
+    <string name="help_terms_subtitle">Paraiškos taisyklės</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">Sinchronizavimas naudojant mobiliuosius duomenis</string>
+    <string name="background_sync">Sinchronizavimas fone</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">PDF skaitytuvo nustatymai</string>
+    <string name="pdf_settings_coming_soon">Netrukus</string>
+    <string name="pdf_settings_description">Konfigūruoti slinkties elgseną, peržiūros režimus ir skaitymo nuostatas</string>
+    <!-- General Settings -->
+    <string name="settings_language">Kalba</string>
+    <string name="settings_pdf_reader">PDF skaitytuvo nustatymai</string>
+    <string name="settings_help_support">Pagalba &amp; Palaikymas</string>
+    <string name="settings_whats_new">Kas naujo</string>
+    <string name="settings_download_desktop">Įdiegti kitame įrenginyje</string>
+    <string name="settings_rate_app">Įvertinkite programėlę</string>
+    <string name="play_store_not_found">„Play“ parduotuvė šiame įrenginyje nerasta</string>
+    <string name="settings_set_as_default">Nustatyti kaip numatytąją PDF peržiūros programą</string>
+    <string name="settings_set_as_default_subtitle">Atidaryti PDF failus šia programa pagal numatytuosius nustatymus</string>
+    <string name="settings_default_pdf_instructions_title">Kaip nustatyti kaip numatytąjį</string>
+    <string name="settings_default_pdf_ok">Supratau</string>
+    <string name="settings_default_app_hint">Nepavyko?</string>
+    <string name="settings_default_app_hint_learn_more">Sužinokite daugiau</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">Kalba</string>
+    <string name="language_search_placeholder">Ieškoti kalbų...</string>
+    <!-- Common UI -->
+    <string name="support">Pagalba</string>
+    <string name="language_english">Anglų</string>
+    <string name="language_hindi">हिंदी</string>
+    <string name="language_spanish">Ispanų k.</string>
+    <string name="language_french">Prancūzų</string>
+    <string name="language_german">Vokiečių k.</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">arabų</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">Portugalų k.</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">PROGRAMĖLĖS IŠVAIZDA</string>
+    <string name="theme">TEMA</string>
+    <string name="general">BENDRA</string>
+    <string name="new">NAUJAS</string>
+    <string name="navigate">Naviguoti</string>
+    <string name="download">Atsisiųsti</string>
+    <string name="falcon_pdf">Sakalas PDF</string>
+    <string name="excellence_in_every_pixel">Tobulumas kiekviename pikselyje</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">TAIKYTI PAKEITIMUS</string>
+    <string name="apply">Taikyti</string>
+    <string name="selected">Pasirinkta</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">Sinchronizavimo nustatymai</string>
+    <string name="autosync_on_wifi">Automatinis sinchronizavimas per „Wi-Fi“</string>
+    <string name="sync_reading_progress">Sinchronizuoti skaitymo eigą</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">Dokumento pavadinimas</string>
+    <string name="name_cannot_be_empty">Vardo laukas negali būti tuščias</string>
+    <string name="str__failed">%1$s Nepavyko</string>
+    <string name="ok">Gerai</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">Atnaujinimo planas – Dabartinis planas: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">Numeskite, kad atidarytumėte failą</string>
+    <string name="release_to_import_and_open_pdf">Atleiskite, kad importuotumėte ir atidarytumėte PDF failus</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">Pašalinti</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF</string>
+    <string name="images">Vaizdai</string>
+    <string name="filter_all_types">Visi failai</string>
+    <string name="favorites">Mėgstamiausi failai</string>
+    <string name="recent">Naujausi</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">Ieškoti dokumentų...</string>
+    <string name="voice_search">Balso paieška</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">Naujausi failai</string>
+    <string name="loading_recent_files">Įkeliami naujausi failai...</string>
+    <string name="no_recent_files">Nėra naujausių failų</string>
+    <string name="no_favorites">Nėra mėgstamiausių</string>
+    <string name="mark_files_as_favorite_to_see_them_here">Pažymėkite failus kaip mėgstamiausius, kad matytumėte juos čia</string>
+    <string name="open_some_pdf_files_to_see_the">Atidarykite kai kuriuos PDF failus, kad juos pamatytumėte čia</string>
+    <string name="status">Būsena</string>
+    <string name="actions">Veiksmai</string>
+    <string name="select_all">Pasirinkti viską</string>
+    <string name="enter_multiselect_mode">Įjungti kelių elementų pasirinkimo režimą</string>
+    <string name="sorted_ascending">Rūšiuota didėjimo tvarka</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">Saugykla: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">Pridėti %1$s failus</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">Keisti rodinio tipą</string>
+    <string name="filter_">Filtras: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">Įkeliamas PDF failas...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">Prisijunkite, kad sinchronizuotumėte</string>
+    <string name="protect_your_library_files">Apsaugokite savo bibliotekos failus</string>
+    <string name="sign_in">Prisijungti</string>
+    <string name="sign_out">Atsijungti</string>
+    <string name="sign_in_dialog_title">Prisijunkite prie „Falcon“ PDF</string>
+    <string name="sign_in_dialog_subtitle">Jūsų PDF biblioteka visur.</string>
+    <string name="sign_in_with_google">Prisijungti naudojant „Google“</string>
+    <string name="sign_in_with_apple">Prisijunkite naudodami „Apple“</string>
+    <string name="apple_user_drive_unavailable">„Google“ disko sinchronizavimas negalimas naudojant „Apple“ prisijungimą</string>
+    <string name="apple_user_link_google">Susieti „Google“ paskyrą, kad būtų galima sinchronizuoti Diską</string>
+    <string name="apple_user_sync_info">Norėdami įjungti sinchronizavimą debesyje, susiekite „Google“ paskyrą</string>
+    <string name="link_google_account">Susieti „Google“ paskyrą</string>
+    <string name="signed_in_successfully">Prisijungta sėkmingai</string>
+    <string name="signed_out_successfully">Atsijungta sėkmingai</string>
+    <string name="sync_disabled_free">Sinchronizavimas išjungtas nemokamose paskyrose.</string>
+    <string name="storage_disabled_grant_access">Saugykla išjungta. Norėdami pradėti, suteikite prieigą prie disko.</string>
+    <string name="upgrade_to_pro">Atnaujinkite į „Pro“</string>
+    <string name="grant_drive_access">Suteikti prieigą prie disko</string>
+    <string name="files_synced">%1$d/%2$d Sinchronizuoti failai</string>
+    <string name="synced_count">%1$d Sinchronizuota</string>
+    <string name="unlimited_sync_active">NERIBOTAS SINCHRONIZAVIMAS</string>
+    <string name="missing_drive_permissions">Trūksta Disko leidimų. Sinchronizavimas šiuo metu užblokuotas.</string>
+    <string name="drive_access_revoked">Prieiga prie disko atšaukta. Prisijunkite iš naujo, kad tęstumėte sinchronizavimą.</string>
+    <string name="upgrade_premium">Atnaujinkite Premium</string>
+    <string name="manage_account">Tvarkyti paskyrą</string>
+    <string name="sync_now">Sinchronizuoti dabar</string>
+    <string name="tier_free">NEMOKAMAI</string>
+    <string name="tier_pro">PROFESIONALAS</string>
+    <string name="tier_premium">PREMIUM</string>
+    <string name="status_paused">PRISTABDYTA</string>
+    <!-- Common -->
+    <string name="navigate_back">Naviguoti atgal</string>
+    <string name="dismiss">Atmesti</string>
+    <string name="cancel">Atšaukti</string>
+    <string name="back">Atgal</string>
+    <string name="search">Paieška</string>
+    <string name="more_actions">Daugiau veiksmų</string>
+    <string name="share">Bendrinti</string>
+    <string name="delete">Ištrinti</string>
+    <string name="remove_from_recents">Pašalinti iš neseniai naudotų</string>
+    <string name="open">Atidaryti</string>
+    <string name="all">Visi</string>
+    <string name="sort_by_">Rūšiuoti pagal %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">„Google“ disko sinchronizavimas</string>
+    <string name="syncing">Sinchronizuojama...</string>
+    <string name="sync_completed">Sinchronizavimas baigtas</string>
+    <string name="sync_failed">Sinchronizavimas nepavyko</string>
+    <string name="sync_limit_exceeded">Viršytas sinchronizavimo limitas. Jūsų %s planas leidžia %d failus.</string>
+    <string name="sync_no_drive_access">Prieiga prie „Google“ disko negalima</string>
+    <string name="sync_network_unavailable">Tinklas nepasiekiamas</string>
+    <string name="sync_last_sync">Paskutinis sinchronizavimas: %s</string>
+    <string name="sync_total_files">Iš viso</string>
+    <string name="sync_synced_files">Sinchronizuota</string>
+    <string name="sync_failed_files">Nepavyko</string>
+    <string name="sync_conflict_files">Konfliktai</string>
+    <string name="sync_add_to_favorites">Pridėti prie mėgstamiausių</string>
+    <string name="sync_remove_from_favorites">Pašalinti iš mėgstamiausių</string>
+    <string name="sync_conflict_title">Sinchronizavimo konfliktai</string>
+    <string name="sync_conflict_message">Šie failai turi konfliktų, kuriuos reikia išspręsti:</string>
+    <string name="sync_conflict_explanation">Konfliktai kyla, kai modifikuojamos ir vietinės, ir nuotolinės versijos.</string>
+    <string name="sync_plan_limit">Sinchronizavimas: %d/%d</string>
+    <string name="sync_plan_limit_reached">Pasiekta riba</string>
+    <string name="sync_plan_unlimited">Neribotas sinchronizavimas</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">Praleisti</string>
+    <string name="welcome_next">Toliau</string>
+    <string name="welcome_get_started">Pradėti</string>
+    <string name="welcome_sign_in_get_started">Prisijungti &amp; Pradėti</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Skaitykite bet kurį dokumentą&lt;/b&gt; Akimirksniu</string>
+    <string name="welcome_slide1_description">Atidarykite ir tvarkykite daugiau nei 10 dokumentų formatų, įskaitant PDF, DOC, EPUB, MOBI.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Skaitykite PDF failus, el. knygas,&lt;/b&gt; ir „Office“ dokumentus vienoje vietoje</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Įtraukite dokumentus į mėgstamiausius&lt;/b&gt; ir pasiekite juos visuose įrenginiuose.</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;Komentuokite,&lt;/b&gt; paryškinkite ir lengvai bendradarbiaukite</string>
+    <string name="welcome_slide1_footer">Jūsų universalus dokumentų skaitytuvas</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;Redaguoti, nuskaityti ir tvarkyti&lt;/b&gt; PDF failus</string>
+    <string name="welcome_slide2_description">Viskas, ko jums reikia norint kurti, redaguoti ir tvarkyti PDF failus, viename galingame įrankių rinkinyje.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;Redaguoti tekstą,&lt;/b&gt; komentuoti, paryškinti ir užpildyti formas</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Nuskaitykite dokumentus&lt;/b&gt; ir akimirksniu paverskite juos PDF failais</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;30+ įrankių&lt;/b&gt; įskaitant sujungimą, konvertavimą, glaudinimą ir apsaugą</string>
+    <string name="welcome_slide2_footer">Jūsų universali PDF darbo vieta</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;Dirbtinis intelektas, suprantantis&lt;/b&gt; jūsų dokumentus</string>
+    <string name="welcome_slide3_description">Sutaupykite valandų su dirbtiniu intelektu, kuris nuskaito ir analizuoja dokumentus už jus.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Apibendrinkite&lt;/b&gt; ilgus dokumentus per kelias sekundes</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; nuskaityti puslapiai ir išversti tekstą akimirksniu</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Klausytis&lt;/b&gt; dokumentų su integruota garsinio skaitymo funkcija</string>
+    <string name="welcome_slide3_footer">Jokių reklamų. Tik produktyvumas.</string>
+    <string name="grace">MALONĖ</string>
+    <string name="unable_to_verify_subscription_limited_ac">Nepavyko patvirtinti prenumeratos. Prieiga ribota, kol bus atkurtas ryšys.</string>
+    <string name="retry_verification">Bandyti patvirtinti dar kartą</string>
+    <string name="guest_state">Svečio valstybė</string>
+    <string name="free_tier">Nemokamas lygis</string>
+    <string name="free_tier__locked">Nemokamas lygis – užrakintas</string>
+    <string name="pro_tier">Profesionalų lygis</string>
+    <string name="pro_tier__restricted">Profesionalus lygis – ribotas</string>
+    <string name="premium_tier">Premium pakopa</string>
+    <string name="premium_tier__error">Premium pakopa – klaida</string>
+    <string name="refresh_plan_status">Atnaujinti plano būseną</string>
+    <string name="user_avatar">Vartotojo avataras</string>
+    <string name="debug_tools">Derinimo įrankiai</string>
+    <string name="authentication__drive">Autentifikavimas &amp; Diskas</string>
+    <string name="auth_state">Aut. būsena</string>
+    <string name="revoke_drive_access">Atšaukti prieigą prie disko</string>
+    <string name="image">Vaizdas</string>
+    <string name="thumbnail">Miniatiūra</string>
+    <string name="manage_preferences">Tvarkyti nuostatas</string>
+    <string name="tools_history">Įrankių istorija</string>
+    <string name="manage_recent_logs">Tvarkyti naujausius žurnalus</string>
+    <string name="more_options">Daugiau parinkčių</string>
+    <string name="clear_all_history">Išvalyti visą istoriją</string>
+    <string name="no_history_yet">Dar nėra istorijos</string>
+    <string name="your_pdf_tool_operations_will_appear_her">Jūsų PDF įrankio operacijos bus rodomos čia</string>
+    <string name="view">Peržiūrėti</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">Išsaugota %1$s</string>
+    <string name="history_status_processing">Apdorojimas</string>
+    <string name="history_status_succeeded">PASIEKĖ</string>
+    <string name="history_status_failed">NESĖKMĖ</string>
+    <string name="history_status_processing_upper">APDOROJIMAS</string>
+    <string name="history_unknown_files">Nežinomi failai</string>
+    <string name="history_op_complete">%1$s Užbaigta!</string>
+    <string name="history_op_failed">%1$s Nepavyko</string>
+    <string name="history_op_success_multiple">Operacija sėkmingai atlikta su %1$d failais</string>
+    <string name="history_op_success_single">Operacija sėkmingai atlikta</string>
+    <string name="history_op_error">Nepavyko užbaigti operacijos</string>
+    <string name="history_multiple_files">%1$d failai</string>
+    <string name="history_failed">Nepavyko</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">Debesų sinchronizavimas</string>
+    <string name="cloud_sync_subtitle">Prijungti įrenginiai</string>
+    <string name="cloud_sync_all_synced">Visi failai sinchronizuoti</string>
+    <string name="cloud_sync_syncing">Sinchronizuojama…</string>
+    <string name="cloud_sync_pending">Laukiama sinchronizavimo</string>
+    <string name="cloud_sync_last_sync">Paskutinis sinchronizavimas: %1$s</string>
+    <string name="cloud_sync_never_synced">Niekada nesinchronizuota</string>
+    <string name="cloud_sync_recent_activity">Naujausia sinchronizavimo veikla</string>
+    <string name="cloud_sync_no_files">Dar nėra sinchronizuotų failų</string>
+    <string name="cloud_sync_synced_to_drive">Sinchronizuota su Disku</string>
+    <string name="cloud_sync_pending_upload">Laukiama įkėlimo</string>
+    <string name="cloud_sync_sync_now">Sinchronizuoti dabar</string>
+    <string name="cloud_sync_view_history">Peržiūrėti sinchronizavimo istoriją</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d sinchronizuoti failai</string>
+    <string name="cloud_sync_unlimited_files">%1$d failų sinchronizavimas · Neribotas</string>
+    <string name="cloud_sync_cta_title">Bet kuri platforma, bet kuriuo metu</string>
+    <string name="cloud_sync_cta_subtitle">Jūsų dokumentai seka jus visur</string>
+    <string name="cloud_sync_files_label">%1$d failai</string>
+    <string name="settings_data_privacy">Duomenys &amp; Privatumas</string>
+    <string name="settings_data_privacy_subtitle">Tvarkyti duomenis, paskyros &amp; ištrynimas</string>
+    <string name="settings_delete_account">Ištrinti paskyrą</string>
+    <string name="settings_delete_account_subtitle">Visam laikui ištrinti paskyrą ir duomenis</string>
+    <string name="delete_account_warning_title">Ištrinti paskyrą?</string>
+    <string name="delete_account_warning_message">Tai visam laikui ištrins jūsų paskyrą ir visus susijusius duomenis, įskaitant pirkimų istoriją ir debesyje sinchronizuotus failus. Šio veiksmo negalima atšaukti, o pirkinių vėliau atkurti negalima.</string>
+    <string name="delete_account_confirm_phrase_label">Norėdami tęsti, įveskite „patvirtinti ištrynimą“:</string>
+    <string name="delete_account_confirm_phrase">patvirtinti ištrynimą</string>
+    <string name="delete_account_button">Ištrinti paskyrą</string>
+    <string name="delete_account_error_reauth">Dėl saugumo, norėdami ištrinti paskyrą, turite būti neseniai prisijungę. Atsijunkite ir prisijunkite dar kartą, tada bandykite dar kartą.</string>
+    <string name="delete_account_success">Paskyra sėkmingai ištrinta</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">Failas &amp; Sinchronizavimo nustatymai</string>
+    <string name="sync_on_mobile_data_subtitle">Naudokite mobiliojo ryšio duomenis sinchronizavimui debesyje</string>
+    <string name="drive_sync">Sinchronizavimas fone</string>
+    <string name="drive_sync_subtitle">Sinchronizuoti mėgstamiausius &amp; nuskaityti dokumentus į Diską</string>
+    <string name="do_not_import_from_other_apps">Neimportuoti failų iš kitų programų</string>
+    <string name="do_not_import_from_other_apps_subtitle">Laikinai atidaryti bendrinamus failus neįrašant į biblioteką</string>
+    <string name="clear_imported_files">Išvalyti importuotus failus</string>
+    <string name="clear_imported_files_subtitle">Ištrinkite visus failus, nukopijuotus iš kitų programų</string>
+    <string name="clear_imports_confirm_title">Išvalyti importuotus failus?</string>
+    <string name="clear_imports_confirm_message">Tai visam laikui ištrins visus failus iš jūsų importavimo aplanko. Šio veiksmo atšaukti negalima.</string>
+    <string name="clear_imports_success">Importuoti failai išvalyti</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">Duomenys &amp; Privatumas</string>
+    <string name="analytics_opt_out_title">Siųsti naudojimo duomenis</string>
+    <string name="analytics_opt_out_subtitle">Bendrinkite anoniminius naudojimo duomenis ir strigčių ataskaitas su kūrėju, kad padėtumėte tobulinti programą</string>
+    <string name="analytics_opt_out_disabled_note">Analizė ir gedimų ataskaitos yra išjungtos. Duomenys nesiunčiami nei „Google“, nei kūrėjui.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">Neišsaugoti pakeitimai</string>
+    <string name="unsaved_changes_tab_message">Šiame dokumente yra neišsaugotų pakeitimų. Ar norite išsaugoti prieš uždarydami?</string>
+    <string name="unsaved_changes_window_message">Viename ar keliuose dokumentuose yra neišsaugotų pakeitimų. Ar norite juos atmesti ir išeiti?</string>
+    <string name="discard">Išmesti</string>
+    <string name="discard_and_quit">Išmesti &amp; Išeiti</string>
+    <string name="close">Uždaryti</string>
+    <string name="remove_favorite">Pašalinti mėgstamiausią</string>
+    <string name="set_as_default_pdf_viewer">Nustatyti kaip numatytąją PDF peržiūros programą?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">„Falcon PDF“ nėra jūsų numatytoji PDF peržiūros programa. Ar norite ją nustatyti kaip numatytąją, kad visi PDF failai būtų atidaromi naudojant „Falcon PDF“?</string>
+    <string name="set_now">Nustatyti dabar</string>
+    <string name="never">Niekada</string>
+    <string name="later">Vėliau</string>
+    <string name="set_default">Nustatyti numatytąjį</string>
+    <string name="default">Numatytasis</string>
+    <string name="version_">Versija %1$s</string>
+    <string name="sign_in_with_other_accounts">Prisijungti naudojant kitas paskyras</string>
+    <string name="upgrade">Atnaujinti</string>
+    <string name="view_plan">Peržiūrėti planą</string>
+    <string name="unlimited_sync_upto_5gb">Neribota sinchronizacija iki 5 GB</string>
+    <string name="unlock_faster">Atrakinti greičiau</string>
+    <string name="use_biometrics_instead_of_passwords">Vietoj slaptažodžių naudokite biometrinius duomenis.</string>
+    <string name="upgrade_to_premium">Atnaujinkite į „Premium“</string>
+    <string name="unlock_pdf">Atrakinti PDF</string>
+    <string name="use__to_accessnthis_document">Norėdami pasiekti\nšį dokumentą, naudokite %1$s</string>
+    <string name="open_with_password">Atidaryti su slaptažodžiu</string>
+    <string name="secure">Saugu</string>
+    <string name="loading_">Kraunama %1$s...</string>
+    <string name="failed_to_open_ebook">Nepavyko atidaryti el. knygos</string>
+    <string name="properties">Ypatybės</string>
+    <string name="copy">Kopijuoti</string>
+    <string name="highlight">Paryškinti</string>
+    <string name="clear_selection">Išvalyti pasirinkimą</string>
+    <string name="close_search">Uždaryti paiešką</string>
+    <string name="search_in_book">Ieškoti knygoje...</string>
+    <string name="contents">Turinys</string>
+    <string name="table_of_contents">Turinys</string>
+    <string name="no_table_of_contents_available">Turinys nepasiekiamas</string>
+    <string name="bookmarks">Žymės</string>
+    <string name="no_bookmarks_yet">Žymių dar nėra</string>
+    <string name="page_">Puslapis %1$s</string>
+    <string name="no_results">Nėra rezultatų</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">Nustatymai</string>
+    <string name="decrease_font_size">Sumažinti šrifto dydį</string>
+    <string name="increase_font_size">Padidinti šrifto dydį</string>
+    <string name="font">Šriftas</string>
+    <string name="jump_to_page">Pereiti į puslapį</string>
+    <string name="enter_page_number_1">Įveskite puslapio numerį (1–%1$s):</string>
+    <string name="go">Eiti</string>
+    <string name="read_aloud">Skaityti garsiai</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">Stop</string>
+    <string name="annotations__text_selection">Anotacijos &amp; Teksto pasirinkimas</string>
+    <string name="text_selection_and_annotations_for_ebook">Teksto atranka ir anotacijos el. knygoms bus pasiekiamos netrukus.</string>
+    <string name="longpress_on_text_to_select_highlight_or">Ilgai paspauskite tekstą, kad pasirinktumėte, paryškintumėte arba pridėtumėte pastabų.</string>
+    <string name="press_play_to_start_reading_aloud">Paspauskite „Play“, kad pradėtumėte skaityti garsiai...</string>
+    <string name="speed">Greitis</string>
+    <string name="voice">Balsas</string>
+    <string name="no_annotations_yet">Kol kas nėra anotacijų</string>
+    <string name="select_text_to_highlight_or_add_notes">Pasirinkite tekstą, kurį norite paryškinti arba pridėti pastabų</string>
+    <string name="tools">Įrankiai</string>
+    <string name="convert_to_images">Konvertuoti į vaizdus</string>
+    <string name="rename">Pervardyti</string>
+    <string name="print">Spausdinti</string>
+    <string name="a">A−</string>
+    <string name="cover_of_">%1$s viršelis</string>
+    <string name="no_cover_available">Draudimas negalimas</string>
+    <string name="read_now">Skaityti dabar</string>
+    <string name="about_the_book">APIE KNYGĄ</string>
+    <string name="tags">ŽYMĖS</string>
+    <string name="publisher_info">LEIDĖJO INFORMACIJA</string>
+    <string name="published_">Paskelbta: %1$s</string>
+    <string name="retry">Bandyti dar kartą</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Išvalyti talpyklą</string>
+    <string name="ebooks_library">El. knygų biblioteka</string>
+    <string name="manage_your_digital_collection_across_mu">Tvarkykite savo skaitmeninę kolekciją naudodamiesi keliais paslaugų teikėjais. Ieškokite, filtruokite ir atraskite naujų leidinių „Google Books“ ir „Open Library“.</string>
+    <string name="no_books_found">Nerasta jokių knygų</string>
+    <string name="no_results_for__try_a_different_search_t">Nėra rezultatų pagal užklausą „%1$s“. Pabandykite kitą paieškos terminą.</string>
+    <string name="downloadable_only">Tik atsisiunčiama</string>
+    <string name="file_unavailable">Failas nepasiekiamas</string>
+    <string name="unavailable">Nepasiekiama</string>
+    <string name="search_titles_authors_isbn">Ieškoti pavadinimų, autorių, ISBN...</string>
+    <string name="clear_search">Išvalyti paiešką</string>
+    <string name="ebooks">el. knygos</string>
+    <string name="read_pdf">Skaityti PDF</string>
+    <string name="create_pdf">Sukurti PDF failą</string>
+    <string name="unlock_all_tools_and_remove_limits">Atrakinkite visus įrankius ir pašalinkite apribojimus</string>
+    <string name="ocr_scanning">OCR nuskaitymas</string>
+    <string name="extract_text_from_scanned_documents">Ištraukite tekstą iš nuskaitytų dokumentų</string>
+    <string name="cloud_sync">Debesų sinchronizavimas</string>
+    <string name="access_your_documents_anywhere">Pasiekite savo dokumentus bet kur</string>
+    <string name="annotate_pdfs">PDF failų komentavimas</string>
+    <string name="cloud_backup">Atsarginė kopija debesyje</string>
+    <string name="continue_reading">Skaityti toliau</string>
+    <string name="pick_files">Pasirinkite failus</string>
+    <string name="browse">Naršyti</string>
+    <string name="did_you_know">Ar žinojai?</string>
+    <string name="home">Pradžia</string>
+    <string name="your_documents_at_a_glance">Jūsų dokumentai trumpai</string>
+    <string name="pick_file">Pasirinkite failą</string>
+    <string name="quick_actions">Greiti veiksmai</string>
+    <string name="pro">PROFESIONALAS</string>
+    <string name="open_files">Atidaryti failus</string>
+    <string name="convert_to_pdf">Konvertuoti į PDF</string>
+    <string name="close_drawer">Uždaryti stalčių</string>
+    <string name="close_file">Uždaryti failą</string>
+    <string name="office">Biuras</string>
+    <string name="coming_soon">Netrukus</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">Šioje platformoje el. knygų peržiūros programa dar nepasiekiama.</string>
+    <string name="set_as_default_viewer">Nustatyti kaip numatytąją peržiūros programą</string>
+    <string name="free">Nemokama</string>
+    <string name="v">prieš%1$s</string>
+    <string name="downloading_update_">Atsisiunčiamas atnaujinimas... %1$s%</string>
+    <string name="more">Daugiau</string>
+    <string name="font_size">Šrifto dydis</string>
+    <string name="font_family">Šriftų šeima</string>
+    <string name="scroll_direction">Slinkties kryptis</string>
+    <string name="navigation">Navigacija</string>
+    <string name="keep_screen_on">Palikti ekraną įjungtą</string>
+    <string name="volume_button_to_scroll">Garsumo mygtukas slinkimui</string>
+    <string name="export_ebook_pages_as_image_files">Eksportuoti el. knygos puslapius kaip vaizdo failus</string>
+    <string name="access_millions_of_titles">Pasiekite milijonus pavadinimų.</string>
+    <string name="read_offline_with_natural_ai_voices">Skaitykite neprisijungę prie interneto su natūraliais dirbtinio intelekto balsais.</string>
+    <string name="advanced_ai_reader">Pažangus dirbtinio intelekto skaitytuvas.</string>
+    <string name="experience_studioquality_narration">Patirkite studijos kokybės pasakojimą.</string>
+    <string name="powerful_pdf_tools">Galingi PDF įrankiai.</string>
+    <string name="create_and_edit_documents_on_the_go">Kurkite ir redaguokite dokumentus keliaudami.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Atnaujinkite į „Pro“: atrakinkite visus įrankius ir pašalinkite apribojimus</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">OCR nuskaitymas: išgauti tekstą iš nuskaitytų dokumentų</string>
+    <string name="cloud_sync_access_your_documents_anywher">Debesijos sinchronizavimas: pasiekite savo dokumentus bet kur</string>
+    <string name="scan">Nuskaityti</string>
+    <string name="compress">Suspausti</string>
+    <string name="merge">Sujungti</string>
+    <string name="convert">Konvertuoti</string>
+    <string name="highlight_underline_and_add_notes_to_you">Paryškinkite, pabraukite ir pridėkite pastabų prie savo dokumentų</string>
+    <string name="keep_your_documents_safe_with_automatic_">Saugokite savo dokumentus naudodami automatinį sinchronizavimą debesyje</string>
+    <string name="indicator_color_">indikatoriaus_spalva_%1$s</string>
+    <string name="my_library">Mano biblioteka</string>
+    <string name="get_ebooks">Gaukite el. knygas</string>
+    <string name="scan_document">Nuskaityti dokumentą</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

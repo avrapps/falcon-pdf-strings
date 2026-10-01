@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Skenovať</string>
+    <string name="scan_home_documents">Dokumenty</string>
+    <string name="scan_home_documents_lowercase">dokumenty</string>
+    <string name="scan_home_documents_count">%1$d Dokumenty</string>
+    <string name="scan_home_no_documents">Zatiaľ žiadne dokumenty</string>
+    <string name="scan_home_start_scanning">Spustite skenovanie a vytvorte svoj prvý dokument</string>
+    <string name="scan_home_new_folder">Nový priečinok</string>
+    <string name="scan_home_scan_document">Skenovať dokument</string>
+    <string name="scan_home_import_gallery">Importovať z galérie</string>
+    <string name="scan_home_parent_folder">Nadradený priečinok</string>
+    <string name="scan_home_go_back">Späť do nadradeného priečinka</string>
+    <string name="scan_home_create_folder">Vytvoriť nový priečinok</string>
+    <string name="scan_home_enter_folder_name">Zadajte názov nového priečinka</string>
+    <string name="scan_home_folder_name">Názov priečinka</string>
+    <string name="scan_home_folder_placeholder">napr. pracovné dokumenty</string>
+    <string name="scan_home_folder_error">Názov priečinka nemôže byť prázdny</string>
+    <string name="scan_home_folder_name_empty">Názov priečinka nemôže byť prázdny</string>
+    <string name="scan_home_create">Vytvoriť</string>
+    <string name="scan_home_folder_exists">Priečinok s týmto názvom už existuje</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Fotoaparát</string>
+    <string name="scan_camera_permission_required">Vyžaduje sa povolenie na kameru</string>
+    <string name="scan_camera_permission_message">Táto aplikácia potrebuje na skenovanie dokumentov prístup k fotoaparátu.</string>
+    <string name="scan_camera_permission_settings">Prejdite do Nastavenia &gt; Aplikácie &gt; Prehliadač PDF &gt; Povolenia a povoľte prístup k fotoaparátu.</string>
+    <string name="scan_camera_permission_title">Vyžaduje sa povolenie na kameru</string>
+    <string name="scan_camera_request_permission">Žiadosť o povolenie</string>
+    <string name="scan_camera_open_settings">Otvoriť Nastavenia</string>
+    <string name="scan_camera_close">Zatvoriť</string>
+    <string name="scan_camera_flash">Blesk</string>
+    <string name="scan_camera_auto_capture">Automatické snímanie</string>
+    <string name="scan_camera_settings">Nastavenia</string>
+    <string name="scan_camera_ready_batch">Pripravené na skenovanie viacerých strán</string>
+    <string name="scan_camera_ready_multiple">Pripravené na skenovanie viacerých strán</string>
+    <string name="scan_camera_hold_steady">Počas skenovania držte stabilne</string>
+    <string name="scan_camera_captured_pages">%1$d zachytených stránok</string>
+    <string name="scan_camera_mode_single">Jednotlivec</string>
+    <string name="scan_camera_mode_batch">Dávka</string>
+    <string name="scan_camera_preview">Náhľad</string>
+    <string name="scan_camera_finish">Dokončiť</string>
+    <string name="scan_camera_starting">Spúšťanie kamery...</string>
+    <string name="scan_camera_document_name">Názov dokumentu</string>
+    <string name="scan_camera_document_name_empty">Názov dokumentu nemôže byť prázdny</string>
+    <string name="scan_camera_save_document">Uložiť dokument</string>
+    <string name="scan_camera_processing">Spracováva sa...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Orezať &amp; Upraviť</string>
+    <string name="scan_crop_close">Zatvoriť</string>
+    <string name="scan_crop_reset">Obnoviť</string>
+    <string name="scan_crop_rotate">Otočiť</string>
+    <string name="scan_crop_done">Hotovo</string>
+    <string name="scan_crop_scanned_document">Naskenovaný dokument</string>
+    <string name="scan_crop_magnified_view">Zväčšený pohľad</string>
+    <string name="scan_crop_processing">Spracováva sa...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Vylepšiť</string>
+    <string name="scan_filter_close">Zatvoriť</string>
+    <string name="scan_filter_rotate">Otočiť</string>
+    <string name="scan_filter_done">Hotovo</string>
+    <string name="scan_filter_filters">Filtre</string>
+    <string name="scan_filter_original">Originál</string>
+    <string name="scan_filter_magic">Mágia</string>
+    <string name="scan_filter_lighten">Zosvetliť</string>
+    <string name="scan_filter_bw">B&amp;Z</string>
+    <string name="scan_filter_grayscale">Odtiene sivej</string>
+    <string name="scan_filter_magic_2">Vyčistiť dokument</string>
+    <string name="scan_filter_soft_scan">Mäkké skenovanie</string>
+    <string name="scan_filter_color_enhance">Farba+</string>
+    <string name="scan_filter_ink_saver">Šetrič atramentu</string>
+    <string name="scan_filter_premium">Prémiová funkcia</string>
+    <string name="scan_filter_filtered_document">Filtrovaný dokument</string>
+    <string name="scan_filter_applying">Používanie filtra...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Zrušiť</string>
+    <string name="scan_share">Zdieľať</string>
+    <string name="scan_move">Presunúť</string>
+    <string name="scan_move_to_folder">Presunúť do priečinka</string>
+    <string name="scan_delete">Odstrániť</string>
+    <string name="scan_rename">Premenovať</string>
+    <string name="scan_root">Koreň</string>
+    <string name="scan_select_destination">Vyberte cieľový priečinok</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Dokument</string>
+    <string name="scan_document_back">Späť</string>
+    <string name="scan_document_pages">stránky</string>
+    <string name="scan_document_add_pages">Pridať stránky do tohto dokumentu</string>
+    <string name="scan_document_add_page_button">Pridať stránku</string>
+    <string name="scan_document_rename">Premenovať</string>
+    <string name="scan_document_share">Zdieľať</string>
+    <string name="scan_document_more">Viac</string>
+    <string name="scan_document_pages_count">%1$d strán</string>
+    <string name="scan_document_no_pages">Zatiaľ žiadne stránky</string>
+    <string name="scan_document_scan_page">Skenovať stránku</string>
+    <string name="scan_document_import_page">Importovať z galérie</string>
+    <string name="scan_document_grid_view">Zobrazenie mriežky</string>
+    <string name="scan_document_list_view">Zobrazenie zoznamu</string>
+    <string name="scan_document_continuous_view">Nepretržitý pohľad</string>
+    <string name="scan_document_page_number">Strana %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Strana</string>
+    <string name="scan_page_back">Späť</string>
+    <string name="scan_page_share">Zdieľať</string>
+    <string name="scan_page_delete">Odstrániť</string>
+    <string name="scan_page_of">%1$d z %2$d</string>
+    <string name="scan_page_image_not_found">Obrázok sa nenašiel</string>
+    <string name="scan_page_retake">Znovu natočiť</string>
+    <string name="scan_page_crop">Orezať</string>
+    <string name="scan_page_enhance">Vylepšiť</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">Uložiť do galérie</string>
+    <string name="scan_page_saved_to_gallery">Obrázok uložený do galérie</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Odstrániť dokument?</string>
+    <string name="scan_delete_document_message">Naozaj chcete odstrániť „%1$s“? Týmto sa natrvalo odstránia všetky strany v tomto dokumente. Túto akciu nie je možné vrátiť späť.</string>
+    <string name="scan_rename_document">Premenovať dokument</string>
+    <string name="scan_rename_enter_name">Zadajte nový názov dokumentu</string>
+    <string name="scan_rename_document_name">Názov dokumentu</string>
+    <string name="scan_rename_error">Názov dokumentu nemôže byť prázdny</string>
+    <string name="scan_dialog_delete_document_title">Odstrániť dokument?</string>
+    <string name="scan_dialog_delete_document_message">Naozaj chcete odstrániť „%1$s“? Týmto sa natrvalo odstránia všetky strany v tomto dokumente. Túto akciu nie je možné vrátiť späť.</string>
+    <string name="scan_dialog_delete_confirm">Odstrániť</string>
+    <string name="scan_dialog_cancel">Zrušiť</string>
+    <string name="scan_dialog_move_title">Presunúť do priečinka</string>
+    <string name="scan_dialog_move_message">Vyberte cieľový priečinok</string>
+    <string name="scan_dialog_move_confirm">Presunúť</string>
+    <string name="scan_dialog_move_root">Koreň</string>
+    <string name="scan_dialog_move_selected">Vybrané</string>
+    <string name="scan_dialog_rename_title">Premenovať dokument</string>
+    <string name="scan_dialog_rename_message">Zadajte nový názov dokumentu</string>
+    <string name="scan_dialog_rename_label">Názov dokumentu</string>
+    <string name="scan_dialog_rename_error">Názov dokumentu nemôže byť prázdny</string>
+    <string name="scan_dialog_rename_confirm">Premenovať</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Zdieľať</string>
+    <string name="scan_menu_move">Presunúť do priečinka</string>
+    <string name="scan_menu_delete">Odstrániť</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Náhľad fotoaparátu\n(Čoskoro)</string>
+    <string name="scan_platform_desktop_camera">Náhľad stolovej kamery\n(Čoskoro)</string>
+    <string name="scan_platform_ios_camera">Náhľad fotoaparátu pre iOS\n(Čoskoro)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Zatvoriť</string>
+    <string name="flash">Blesk</string>
+    <string name="auto_capture">Automatické snímanie</string>
+    <string name="settings">Nastavenia</string>
+    <string name="capture">Zachytiť</string>
+    <string name="finish">Dokončiť</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Naozaj chcete odstrániť %1? Všetky dokumenty vo vnútri budú tiež odstránené.</string>
+    <string name="share">Zdieľať</string>
+    <string name="share_as_images">Zdieľať ako obrázky</string>
+    <string name="share_as_pdf">Zdieľať ako PDF</string>
+    <string name="move_to_folder">Presunúť do priečinka</string>
+    <string name="delete">Odstrániť</string>
+    <string name="selected">Vybrané</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Strana %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">Priečinok je prázdny</string>
+    <string name="tap_the__button_to_scan_a_docu">Klepnutím na tlačidlo + naskenujete dokument</string>
+    <string name="str______pages">%1$s • %2$s • %3$s strán</string>
+    <string name="create_folder">Vytvoriť priečinok</string>
+    <string name="more_options">Viac možností</string>
+    <string name="document_thumbnail">Miniatúra dokumentu</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Obrázok sa nenašiel</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Strana %2$d</string>
+    <string name="scan_ocr_title">Rozpoznávanie textu</string>
+    <string name="scan_ocr_copy">Kopírovať text</string>
+    <string name="scan_ocr_no_text">Nenašiel sa žiadny text</string>
+    <string name="scan_ocr_processing">Rozpoznávanie textu…</string>
+    <string name="scan_ocr_error">Rozpoznanie textu zlyhalo</string>
+    <string name="scan_ocr_not_supported">OCR nie je na tejto platforme podporované</string>
+    <string name="scan_ocr_image">Naskenovaná stránka pre OCR</string>
+    <string name="gallery">Galéria</string>
+    <string name="select_file">Vybrať súbor</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Nepodarilo sa zachytiť obrázok</string>
+    <string name="error_no_images_captured">Žiadne zachytené obrázky</string>
+    <string name="error_open_settings">Nepodarilo sa otvoriť nastavenia</string>
+    <string name="error_process_images">Nepodarilo sa spracovať obrázky</string>
+    <string name="error_process_image">Nepodarilo sa spracovať obrázok</string>
+    <string name="error_start_camera">Nepodarilo sa spustiť kameru</string>
+    <string name="error_stop_camera">Nepodarilo sa zastaviť kameru</string>
+    <string name="error_crop_image">Orezanie obrázka zlyhalo</string>
+    <string name="error_delete_document">Dokument sa nepodarilo odstrániť</string>
+    <string name="error_delete_page">Nepodarilo sa odstrániť stránku</string>
+    <string name="error_load_document">Nepodarilo sa načítať dokument</string>
+    <string name="error_load_page">Nepodarilo sa načítať stránku</string>
+    <string name="error_move_document">Presunutie dokumentu zlyhalo</string>
+    <string name="error_no_pages_to_share">Žiadne stránky na zdieľanie</string>
+    <string name="error_rename_document">Premenovanie dokumentu zlyhalo</string>
+    <string name="error_reorder_pages">Nepodarilo sa zmeniť poradie stránok</string>
+    <string name="error_share_images">Zdieľanie obrázkov zlyhalo</string>
+    <string name="error_share_pdf">Zdieľanie PDF súboru zlyhalo</string>
+    <string name="error_share_page">Zdieľanie stránky zlyhalo</string>
+    <string name="error_create_folder">Nepodarilo sa vytvoriť priečinok</string>
+    <string name="error_delete_folder">Priečinok sa nepodarilo odstrániť</string>
+    <string name="error_rename_folder">Premenovanie priečinka zlyhalo</string>
+    <string name="error_unknown">Vyskytla sa neznáma chyba</string>
+    <string name="folder_not_found">Priečinok sa nenašiel</string>
+    <string name="sync_documents">Synchronizácia dokumentov</string>
+    <string name="shutter_scale">mierka_shutter</string>
+    <string name="import_gallery">Importovať galériu</string>
+    <string name="scan_camera">Skenovanie kamery</string>
+</resources>

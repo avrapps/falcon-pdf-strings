@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">Slett sider</string>
+    <string name="are_you_sure_you_want_to_delet">Er du sikker på at du vil slette de valgte sidene? Denne handlingen kan ikke angres.</string>
+    <string name="delete">Slett</string>
+    <string name="cancel">Kansellere</string>
+    <string name="quick_selection">Hurtigvalg</string>
+    <string name="select_range">Velg område</string>
+    <string name="select_all">Velg alle</string>
+    <string name="clear_all">Fjern alt</string>
+    <string name="select_page_range">Velg sideområde</string>
+    <string name="enter_the_range_of_pages_to_de">Angi området med sider som skal slettes (1–%1$s)</string>
+    <string name="from">Fra</string>
+    <string name="to">Til</string>
+    <string name="select">Velge</string>
+    <string name="please_go_back_and_select_a_pd">Gå tilbake og velg en PDF</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">Del PDF</string>
+    <string name="str_1_file_selected">1 fil valgt</string>
+    <string name="no_file_selected">Ingen fil valgt</string>
+    <string name="split_mode">Delt modus</string>
+    <string name="fixed_segments">Faste segmenter</string>
+    <string name="custom_ranges">Tilpassede områder</string>
+    <string name="segment_size">Segmentstørrelse</string>
+    <string name="this_will_create_multiple_pdfs">Dette vil opprette flere PDF-filer med det angitte antallet sider hver. Segmentstørrelsen må være mindre enn det totale antallet sider for å lage meningsfulle inndelinger. Hvis for eksempel kildefilen har 8 sider og du skriver inn 2, vil fire PDF-filer bli generert med 2 sider hver.</string>
+    <string name="pages_per_file">Sider per fil</string>
+    <string name="eg_2">f.eks. 2</string>
+    <string name="total_number_of_pages_in_pdf__">Totalt antall sider i PDF-filen: %1$d (segmentstørrelsen må være mindre enn %1$d)</string>
+    <string name="this_will_create__output_files">Dette vil opprette %1$d utdatafiler</string>
+    <string name="this_will_create__output_file">Dette vil opprette %1$d utdatafil</string>
+    <string name="this_input_will_split_the_pdf_">Denne inndataen vil dele PDF-filen inn i separate filer basert på områdene dine. For eksempel vil «1-2, 5, 6-8» opprette 3 PDF-filer: den første med side 1-2, den andre med side 5 og den tredje med side 6-8.</string>
+    <string name="page_ranges">Sideintervaller</string>
+    <string name="eg_1234571520">f.eks. 1-2, 3, 4-5, 7, 15-20</string>
+    <string name="format_use_ranges_15_or_single">Format: Bruk områder (1–5) eller enkeltsider (7), atskilt med komma. Kun sifre, bindestreker og komma er tillatt.</string>
+    <string name="split_preview">Delt forhåndsvisning</string>
+    <string name="pdf_files_will_be_created">%1$d PDF-filer vil bli opprettet</string>
+    <string name="pdf_file_will_be_created">%1$d PDF-filen vil bli opprettet</string>
+    <string name="pdf_result_">PDF-resultat %1$s</string>
+    <string name="str__and__more">... og %1$d mer</string>
+    <string name="splitting_pdf">Deler PDF-filen...</string>
+    <string name="checking_files">Sjekker filer...</string>
+    <string name="page_n">Side %1$d</string>
+    <string name="pages_n_m">Sider %1$d-%2$d</string>
+    <string name="split_complete">Delingen fullført!</string>
+    <string name="split_failed">Delingen mislyktes</string>
+    <string name="we_couldnt_split_your_pdf">Vi kunne ikke dele PDF-filen din</string>
+    <string name="your_pdf_has_been_successfully_split">PDF-filen din er delt inn i %1$d filer</string>
+    <string name="your_pdf_has_been_successfully_split_single">PDF-filen din er delt inn i %1$d -filen</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">PDF-verktøy</string>
+    <string name="image_tools">Bildeverktøy</string>
+    <string name="str_30_tools_for_pdf">30+ verktøy for PDF</string>
+    <string name="tools_for_images">Verktøy for bilder</string>
+    <string name="no_tools_found">Ingen verktøy funnet</string>
+    <string name="try_adjusting_your_search">Prøv å justere søket ditt</string>
+    <string name="history">Historie</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s side${hvis (sideAntall &gt; 1) </string>
+    <string name="n_pages">%1$d sider</string>
+    <string name="n_page">%1$d side</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">Passord kreves for denne PDF-filen</string>
+    <string name="password_provided">Passord oppgitt</string>
+    <string name="password_required">Passord kreves</string>
+    <string name="open_file">Åpne filen</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">Komprimert av </string>
+    <string name="error_details">Feildetaljer</string>
+    <string name="view">Utsikt</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">%1$s av %2$s sider valgt</string>
+    <string name="showing_first_200_pages">Viser de første 200 sidene</string>
+    <string name="use_quick_selection_above_for_">Bruk hurtigvalg ovenfor for sider utover 200</string>
+    <string name="loading">Laster inn...</string>
+    <string name="error">Feil</string>
+    <string name="generating_page_previews">Genererer forhåndsvisninger av sider ...</string>
+    <string name="page__thumbnail">Miniatyrbilde av side %1$s</string>
+    <string name="selected">Valgt</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">Søk</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">Roter PDF</string>
+    <string name="please_provide_the_password_to">Oppgi passordet for å velge tilpassede sider</string>
+    <string name="rotation_angle">Rotasjonsvinkel</string>
+    <string name="page_selection">Sidevalg</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">Omorganiser PDF-en</string>
+    <string name="use_the_arrow_buttons_to_reord">Bruk piltastene for å endre rekkefølgen på sidene</string>
+    <string name="pages_">Sider (%1$s)</string>
+    <string name="page_">Side %1$s</string>
+    <string name="position__of_">Posisjon: %1$s av %2$s</string>
+    <string name="drag_handle">Dra håndtaket</string>
+    <string name="move_up">Flytt opp</string>
+    <string name="move_down">Flytt ned</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">Komprimer PDF</string>
+    <string name="no_files_selected">Ingen filer valgt</string>
+    <string name="please_go_back_and_select_pdf_">Gå tilbake og velg PDF-filer som skal komprimeres</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">Suksess</string>
+    <string name="individual_results">Individuelle resultater</string>
+    <string name="done">Ferdig</string>
+    <string name="compression_complete">Kompresjon fullført</string>
+    <string name="your_file_is_ready_and_much_li">Filen din er klar og mye lettere!</string>
+    <string name="before">FØR</string>
+    <string name="after">ETTER</string>
+    <string name="total_saved">Totalt spart</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">MINDRE</string>
+    <string name="str__saved">%1$s% lagret</string>
+    <string name="open">Åpne</string>
+    <string name="share">Dele</string>
+    <string name="close">Lukke</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">Kompresjonsnivå</string>
+    <string name="recommended">Anbefalt</string>
+    <string name="str__compression">%1$s Kompresjon</string>
+    <string name="str__of_original_size">~%1$s% av originalstørrelse</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">Bilder til PDF</string>
+    <string name="str__images_selected">%1$s bilder valgt</string>
+    <string name="images_will_be_converted_in_th">Bildene vil bli konvertert i rekkefølgen vist nedenfor</string>
+    <string name="remove">Fjerne</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">PDF til bilder</string>
+    <string name="image_format">Bildeformat</string>
+    <string name="image_quality_dpi">Bildekvalitet (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">Slå sammen PDF-filer</string>
+    <string name="n_files_selected">%1$d filer valgt</string>
+    <string name="n_file_selected">%1$d fil valgt</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">Lås PDF</string>
+    <string name="password_protection">Passordbeskyttelse</string>
+    <string name="enter_a_password_to_protect_yo">Skriv inn et passord for å beskytte PDF-filen din. Du trenger dette passordet for å åpne filen.</string>
+    <string name="password">Passord</string>
+    <string name="enter_password">Skriv inn passord</string>
+    <string name="confirm_password">Bekreft passord</string>
+    <string name="reenter_password">Skriv inn passordet på nytt</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">Gå tilbake og velg en fil</string>
+    <string name="back">Tilbake</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">Lås opp PDF-filen</string>
+    <string name="current_password">Nåværende passord</string>
+    <string name="enter_the_current_password_to_">Skriv inn det nåværende passordet for å låse opp denne PDF-filen</string>
+    <string name="enter_current_password">Skriv inn gjeldende passord</string>
+    <string name="incorrect_password_please_try_">Feil passord. Prøv på nytt.</string>
+    <string name="new_password_optional">Nytt passord (valgfritt)</string>
+    <string name="set_a_new_password_to_change_i">Angi nytt passord for å endre det, eller la det stå tomt for å fjerne passordbeskyttelsen</string>
+    <string name="new_password">Nytt passord</string>
+    <string name="enter_new_password">Skriv inn nytt passord</string>
+    <string name="confirm_new_password">Bekreft nytt passord</string>
+    <string name="reenter_new_password">Skriv inn nytt passord på nytt</string>
+    <string name="passwords_do_not_match">Passordene samsvarer ikke</string>
+    <string name="compression_failed">Komprimering mislyktes</string>
+    <string name="open_pdf">Åpne PDF-filen</string>
+    <string name="share_file">Del fil</string>
+    <string name="pages_deleted">Sider slettet!</string>
+    <string name="delete_failed">Sletting mislyktes</string>
+    <string name="select_pages_to_delete">Velg sider som skal slettes</string>
+    <string name="pdf_created">PDF opprettet!</string>
+    <string name="conversion_failed">Konvertering mislyktes</string>
+    <string name="pdf_locked_successfully">PDF-filen er låst!</string>
+    <string name="lock_failed">Låsingen mislyktes</string>
+    <string name="merge_complete">Sammenslåing fullført!</string>
+    <string name="merge_failed">Sammenslåingen mislyktes</string>
+    <string name="conversion_complete">Konvertering fullført!</string>
+    <string name="reorder_complete">Ny bestilling fullført!</string>
+    <string name="reorder_failed">Ombestilling mislyktes</string>
+    <string name="rotation_complete">Rotasjon fullført!</string>
+    <string name="rotation_failed">Rotasjonen mislyktes</string>
+    <string name="select_pages_to_rotate">Velg sider som skal roteres</string>
+    <string name="str__complete">%1$s Fullført!</string>
+    <string name="str__failed">%1$s Mislyktes</string>
+    <string name="unlock_failed">Opplåsing mislyktes</string>
+    <string name="your_pdfs_have_been_successfully_compres">PDF-filene dine er komprimert</string>
+    <string name="we_couldnt_compress_your_pdfs">Vi kunne ikke komprimere PDF-filene dine</string>
+    <string name="view_your_compressed_file">Vis den komprimerte filen din</string>
+    <string name="send_to_others_or_apps">Send til andre eller apper</string>
+    <string name="your_pdf_has_been_successfully_modified">PDF-filen din er endret</string>
+    <string name="we_couldnt_delete_the_pages">Vi kunne ikke slette sidene</string>
+    <string name="your_images_have_been_converted_to_pdf">Bildene dine er konvertert til PDF</string>
+    <string name="unable_to_create_pdf_from_images">Kan ikke opprette PDF fra bilder</string>
+    <string name="your_pdf_is_now_password_protected">PDF-filen din er nå passordbeskyttet</string>
+    <string name="we_couldnt_lock_your_pdf">Vi kunne ikke låse PDF-filen din</string>
+    <string name="your_pdfs_have_been_successfully_merged">PDF-filene dine er slått sammen</string>
+    <string name="we_couldnt_merge_your_pdfs">Vi kunne ikke slå sammen PDF-filene dine</string>
+    <string name="str__images_created_successfully">%1$s bilder er opprettet</string>
+    <string name="unable_to_convert_pdf_to_images">Kan ikke konvertere PDF til bilder</string>
+    <string name="your_pdf_pages_have_been_successfully_re">PDF-sidene dine har blitt omorganisert</string>
+    <string name="we_couldnt_reorder_your_pdf">Vi kunne ikke endre rekkefølgen på PDF-filen din</string>
+    <string name="your_pdf_has_been_successfully_rotated">PDF-filen din er rotert</string>
+    <string name="we_couldnt_rotate_your_pdf">Vi kunne ikke rotere PDF-filen din</string>
+    <string name="your_file_has_been_successfully_processe">Filen din er behandlet</string>
+    <string name="we_couldnt_process_your_file">Vi kunne ikke behandle filen din</string>
+    <string name="we_couldnt_unlock_your_pdf">Vi kunne ikke låse opp PDF-filen din</string>
+    <string name="clear_filter">Tøm filteret</string>
+    <string name="clear">Klar</string>
+    <string name="pick_a_tool_">Velg et verktøy →</string>
+    <string name="drag_to_reorder">Dra for å endre rekkefølgen</string>
+    <string name="your_files_are_securely_processed_on_our">Filene dine behandles sikkert på serverne våre ved hjelp av krypterte tilkoblinger og slettes automatisk innen 1 time. Vi lagrer eller deler aldri dataene dine.</string>
+    <string name="compression_quality">Kompresjonskvalitet</string>
+    <string name="dragelevation">draHøyde</string>
+    <string name="tool_card_scale">verktøykortskala</string>
+</resources>

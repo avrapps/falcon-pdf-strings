@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">PDF మ్యాజిక్</string>
+    <string name="app_tagline">మీరు ఏమి చేయాలనుకుంటున్నారు?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">చివరిగా ఉపయోగించినది</string>
+    <string name="home_favorites">ఇష్టమైనవి</string>
+    <string name="home_new_tool">కొత్త సాధనం</string>
+    <string name="home_featured">ఫీచర్ చేయబడింది</string>
+    <string name="home_scan_to_pdf">PDFకి స్కాన్ చేయండి</string>
+    <string name="home_scan_description">కాగితపు పత్రాలను తక్షణమే డిజిటల్ మ్యాజిక్‌గా మార్చండి</string>
+    <string name="home_start_scanning">స్కానింగ్ ప్రారంభించండి</string>
+    <string name="home_all_tools">అన్ని సాధనాలు</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">PDF సాధనాలు</string>
+    <string name="image_tools">ఇమేజ్ టూల్స్</string>
+    <string name="tools_split">విభజించు</string>
+    <string name="tools_split_description">పేజీలను సంగ్రహించండి</string>
+    <string name="tools_rotate">తిప్పండి</string>
+    <string name="tools_rotate_description">ఓరియంటేషన్‌ను సరిచేయండి</string>
+    <string name="tools_delete_pages">పేజీలను తొలగించు</string>
+    <string name="tools_delete_pages_description">అవాంఛిత వాటిని తీసివేయండి</string>
+    <string name="tools_convert">మార్చండి</string>
+    <string name="tools_convert_description">చిత్రాలకు/నుండి</string>
+    <string name="tools_sign">సంతకం చేయండి</string>
+    <string name="tools_sign_description">సంతకాన్ని జోడించండి</string>
+    <string name="tools_protect">రక్షించు</string>
+    <string name="tools_protect_description">పాస్‌వర్డ్ భద్రత</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">PDF వ్యూయర్</string>
+    <string name="pdf_viewer_page_info">%1$d యొక్క %2$dపేజీ</string>
+    <!-- Scanner -->
+    <string name="scanner_title">డాక్యుమెంట్ స్కానర్</string>
+    <string name="scanner_capture">సంగ్రహించు</string>
+    <string name="scanner_retake">తిరిగి తీసుకోండి</string>
+    <string name="scanner_save">సేవ్ చేయండి</string>
+    <!-- Navigation -->
+    <string name="nav_back">వెనుకకు నావిగేట్ చేయండి</string>
+    <string name="nav_settings">సెట్టింగులు</string>
+    <string name="nav_more_options">మరిన్ని ఎంపికలు</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">హోమ్</string>
+    <string name="nav_library">లైబ్రరీ</string>
+    <string name="nav_scan">స్కాన్ చేయండి</string>
+    <string name="nav_tools">ఉపకరణాలు</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">ఫైళ్ళను బ్రౌజ్ చేయండి</string>
+    <string name="browse_files_subtitle">నిల్వ &amp; క్లౌడ్ ఫైల్‌లు</string>
+    <string name="show_hidden_files">దాచిన ఫైళ్లను చూపించు</string>
+    <string name="hide_hidden_files">దాచిన ఫైళ్ళను దాచు</string>
+    <string name="refresh_storage">నిల్వను రిఫ్రెష్ చేయి</string>
+    <string name="no_storage_available">నిల్వ స్థలం అందుబాటులో లేదు</string>
+    <string name="no_files_found">ఫైళ్లు ఏవీ కనుగొనబడలేదు</string>
+    <string name="add_files">%1$d ఫైళ్లను జోడించండి</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">నిల్వ అనుమతి అవసరం</string>
+    <string name="permission_storage_message">PDF ఫైళ్లను బ్రౌజ్ చేయడానికి మరియు తెరవడానికి ఈ యాప్‌కి మీ పరికర నిల్వకు యాక్సెస్ అవసరం. కొనసాగించడానికి దయచేసి నిల్వ అనుమతిని మంజూరు చేయండి.</string>
+    <string name="permission_grant">అనుమతి ఇవ్వండి</string>
+    <!-- Common Actions -->
+    <string name="action_open">ఓపెన్</string>
+    <string name="action_save">సేవ్ చేయండి</string>
+    <string name="action_share">షేర్ చేయి</string>
+    <string name="action_delete">తొలగించు</string>
+    <string name="action_cancel">రద్దు చేయి</string>
+    <string name="action_confirm">నిర్ధారించండి</string>
+    <string name="action_rename">పేరు మార్చండి</string>
+    <string name="action_print">ప్రింట్</string>
+    <string name="action_favorite">ఇష్టమైనది</string>
+    <string name="action_unfavorite">ఇష్టమైనది తీసివేయి</string>
+    <!-- Document Actions -->
+    <string name="document_share">పత్రాన్ని షేర్ చేయండి</string>
+    <string name="document_rename">పత్రం పేరు మార్చండి</string>
+    <string name="document_delete">పత్రాన్ని తొలగించు</string>
+    <string name="document_print">పత్రాన్ని ముద్రించండి</string>
+    <string name="document_favorite">ఇష్టమైన వాటికి జోడించండి</string>
+    <string name="document_unfavorite">ఇష్టమైనవి నుండి తీసివేయి</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">పత్రం విజయవంతంగా భాగస్వామ్యం చేయబడింది</string>
+    <string name="document_share_failed">పత్రాన్ని భాగస్వామ్యం చేయడంలో విఫలమైంది</string>
+    <string name="document_renamed_success">పత్రం పేరు విజయవంతంగా మార్చబడింది</string>
+    <string name="document_rename_failed">పత్రం పేరు మార్చడంలో విఫలమైంది.</string>
+    <string name="document_deleted_success">పత్రం విజయవంతంగా తొలగించబడింది</string>
+    <string name="document_delete_failed">పత్రాన్ని తొలగించడంలో విఫలమైంది</string>
+    <string name="document_print_opened">పత్రం డిఫాల్ట్ PDF వ్యూయర్‌లో తెరవబడింది. ముద్రించడానికి వ్యూయర్ యొక్క ప్రింట్ ఫంక్షన్‌ను ఉపయోగించండి.</string>
+    <string name="document_print_failed">పత్రాన్ని ముద్రించడం విఫలమైంది.</string>
+    <string name="document_added_to_favorites">ఇష్టమైన వాటికి జోడించబడింది</string>
+    <string name="document_removed_from_favorites">ఇష్టమైనవి నుండి తీసివేయబడింది</string>
+    <string name="document_favorite_failed">ఇష్టమైన స్థితిని నవీకరించడంలో విఫలమైంది</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">పత్రం పేరు మార్చండి</string>
+    <string name="dialog_rename_hint">కొత్త పేరు నమోదు చేయండి</string>
+    <string name="dialog_rename_empty_error">పత్రం పేరు ఖాళీగా ఉండకూడదు.</string>
+    <string name="dialog_delete_title">పత్రాన్ని తొలగించు</string>
+    <string name="dialog_delete_file_message">ఇది ఫైల్‌ను శాశ్వతంగా తొలగిస్తుంది.\n\nతొలగించు %1$s?</string>
+    <string name="dialog_delete_uri_message">యాప్ నుండి మాత్రమే తొలగిస్తుంది. అసలు ఫైల్ మార్చబడదు.\n\nయాప్ నుండి %1$s ను తొలగించాలా?</string>
+    <string name="dialog_delete_confirm">తొలగించు</string>
+    <string name="dialog_remove_confirm">తొలగించు</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">యాప్ లోపల మాత్రమే పేరు మారుస్తుంది. అసలు ఫైల్ మారదు.</string>
+    <string name="notice_delete_uri_only">యాప్ నుండి తీసివేయబడింది. అసలు ఫైల్ మారలేదు.</string>
+    <string name="notice_file_exists_error">ఈ పేరుతో ఒక ఫైల్ ఇప్పటికే ఉంది.</string>
+    <string name="notice_file_not_found_error">ఫైల్ కనుగొనబడలేదు</string>
+    <string name="notice_no_active_document">క్రియాశీల పత్రం లేదు</string>
+    <string name="notice_document_path_unavailable">డాక్యుమెంట్ ఫైల్ పాత్ అందుబాటులో లేదు</string>
+    <!-- States -->
+    <string name="state_loading">లోడ్ అవుతోంది...</string>
+    <string name="state_empty">ఏ వస్తువులు కనుగొనబడలేదు</string>
+    <string name="state_error">ఏదో తప్పు జరిగింది.</string>
+    <string name="state_retry">మళ్ళీ ప్రయత్నించండి</string>
+    <!-- Errors -->
+    <string name="error_network">నెట్‌వర్క్ కనెక్షన్ విఫలమైంది</string>
+    <string name="error_file_not_found">ఫైల్ కనుగొనబడలేదు</string>
+    <string name="error_permission_denied">అనుమతి నిరాకరించబడింది</string>
+    <string name="error_invalid_file">చెల్లని ఫైల్ ఫార్మాట్</string>
+    <string name="error_password_required">పాస్‌వర్డ్ అవసరం</string>
+    <string name="error_incorrect_password">తప్పు పాస్‌వర్డ్</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">పాస్‌వర్డ్ రక్షించబడింది</string>
+    <string name="password_protected_message">ఈ ఫైల్‌ను తెరవడానికి పాస్‌వర్డ్ అవసరం. దయచేసి దానిని క్రింద నమోదు చేయండి.</string>
+    <string name="password_label">పాస్‌వర్డ్</string>
+    <string name="password_placeholder">పాస్‌వర్డ్‌ను నమోదు చేయండి</string>
+    <string name="password_unlock">అన్‌లాక్ చేయండి</string>
+    <string name="password_show">పాస్‌వర్డ్ చూపించు</string>
+    <string name="password_hide">పాస్‌వర్డ్‌ను దాచు</string>
+    <!-- Theme -->
+    <string name="theme_light">కాంతి</string>
+    <string name="theme_dark">చీకటి</string>
+    <string name="theme_system">వ్యవస్థ</string>
+    <string name="theme_adaptive">అనుకూల</string>
+    <string name="theme_custom">కస్టమ్</string>
+    <!-- Settings -->
+    <string name="settings_title">ప్రాధాన్యతలు</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">ఖాతా &amp; సమకాలీకరణ</string>
+    <string name="settings_category_sync_subtitle">మీ ఖాతాను నిర్వహించండి, సమకాలీకరించండి &amp; గోప్యత</string>
+    <string name="settings_category_appearance_title">స్వరూపం</string>
+    <string name="settings_category_appearance_subtitle">యాప్ రూపాన్ని &amp; అనుభూతితో అనుకూలీకరించండి</string>
+    <string name="settings_category_pdf_reader_title">PDF రీడర్</string>
+    <string name="settings_category_pdf_reader_subtitle">డిఫాల్ట్ వ్యూయర్ &amp; పఠన అనుభవం</string>
+    <string name="settings_category_help_title">సహాయం &amp; మద్దతు</string>
+    <string name="settings_category_help_subtitle">డాక్యుమెంటేషన్ &amp; సంప్రదించండి</string>
+    <string name="settings_category_general_title">జనరల్</string>
+    <string name="settings_category_general_subtitle">భాష &amp; యాప్ సమాచారం</string>
+    <string name="settings_theme_section">థీమ్</string>
+    <string name="settings_theme_description">మీకు ఇష్టమైన థీమ్‌ను ఎంచుకోండి</string>
+    <string name="settings_accent_color">యాస రంగు</string>
+    <string name="settings_custom_colors">కస్టమ్ రంగులు</string>
+    <string name="settings_primary_color">ప్రాథమిక రంగు</string>
+    <string name="settings_background_color">నేపథ్య రంగు</string>
+    <string name="settings_surface_color">ఉపరితల రంగు</string>
+    <string name="settings_reset_colors">డిఫాల్ట్‌కు రీసెట్ చేయి</string>
+    <string name="settings_adaptive_note">మెటీరియల్ యు అనుకూల రంగులు (ఆండ్రాయిడ్ 12+)</string>
+    <string name="settings_app_section">యాప్ సెట్టింగ్‌లు</string>
+    <string name="settings_notifications">నోటిఫికేషన్‌లు</string>
+    <string name="settings_notifications_description">యాప్ నోటిఫికేషన్‌లను స్వీకరించండి</string>
+    <string name="settings_auto_backup">ఆటో బ్యాకప్</string>
+    <string name="settings_auto_backup_description">పత్రాలను స్వయంచాలకంగా బ్యాకప్ చేయండి</string>
+    <string name="settings_change_color">రంగు మార్చు</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">మీ PDF పత్రాలు ఇక్కడ కనిపిస్తాయి.</string>
+    <string name="scan_description">పత్రాలను PDFకి స్కాన్ చేయండి</string>
+    <string name="tools_description">PDF ఎడిటింగ్ మరియు మానిప్యులేషన్ సాధనాలు</string>
+    <string name="home_description">ఫీచర్‌లను యాక్సెస్ చేయడానికి దిగువ నావిగేషన్‌ను ఉపయోగించండి</string>
+    <!-- Sort Options -->
+    <string name="sort_name">పేరు</string>
+    <string name="sort_date">తేదీ</string>
+    <string name="sort_size">పరిమాణం</string>
+    <string name="sort_option_name">పేరు</string>
+    <string name="sort_option_last_opened">చివరిగా తెరవబడింది</string>
+    <string name="sort_option_last_modified">చివరిగా సవరించబడింది</string>
+    <string name="sort_option_file_size">ఫైల్ పరిమాణం</string>
+    <!-- View Types -->
+    <string name="view_type_list">జాబితా వీక్షణ</string>
+    <string name="view_type_table">పట్టిక వీక్షణ</string>
+    <string name="view_type_grid">గ్రిడ్ వీక్షణ</string>
+    <!-- File Properties -->
+    <string name="file_name">ఫైల్ పేరు</string>
+    <string name="date_modified">తేదీ సవరించబడింది</string>
+    <string name="file_size">పరిమాణం</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">ప్రారంభించలేదు</string>
+    <string name="file_status_completed">పూర్తయింది</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">PDF పత్రం</string>
+    <string name="document_type_word">వర్డ్ డాక్యుమెంట్</string>
+    <string name="document_type_excel">ఎక్సెల్ స్ప్రెడ్‌షీట్</string>
+    <string name="document_type_image">చిత్ర ఫైల్</string>
+    <string name="document_type_other">పత్రం</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">అన్ని ఫైళ్ళు</string>
+    <string name="filter_recent">ఇటీవలి</string>
+    <string name="filter_pdfs">PDFలు</string>
+    <string name="filter_images">చిత్రాలు</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">హొమ్ పేజ్</string>
+    <string name="browse_tab">బ్రౌజ్ చేయండి</string>
+    <string name="starred_tab">నక్షత్రం గుర్తు ఉన్నవి</string>
+    <string name="settings_tab">సెట్టింగులు</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">థీమ్‌ను టోగుల్ చేయి</string>
+    <string name="accessibility_menu">మెనూ</string>
+    <string name="accessibility_close">ముగింపు / ముగింపు</string>
+    <string name="accessibility_color_picker">రంగు ఎంపిక</string>
+    <!-- Library Screen -->
+    <string name="library_title">లైబ్రరీ</string>
+    <string name="library_subtitle">ఫైళ్లను నిర్వహించండి, ఇటీవలివి &amp; ఇష్టమైనవి</string>
+    <string name="library_search_placeholder">ఫైళ్ళను శోధించు...</string>
+    <string name="library_selected_count">%1$d ఎంచుకున్నారు</string>
+    <string name="library_open_from_device">\nపరికరం నుండి తెరవండి</string>
+    <string name="library_browse_files">\nఫైళ్ళను బ్రౌజ్ చేయండి</string>
+    <string name="library_action_open">ఓపెన్</string>
+    <string name="library_action_share">షేర్ చేయి</string>
+    <string name="library_action_remove">తొలగించు</string>
+    <string name="library_action_delete">తొలగించు</string>
+    <string name="library_clear_search">శోధనను క్లియర్ చేయి</string>
+    <string name="library_close_search">శోధనను మూసివేయి</string>
+    <string name="library_select_all">అన్ని ఫైళ్లను ఎంచుకోండి</string>
+    <string name="library_exit_multiselect">బహుళ-ఎంపిక మోడ్ నుండి నిష్క్రమించండి</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">సహాయం &amp; మద్దతు</string>
+    <string name="help_support_subtitle">తరచుగా అడిగే ప్రశ్నలు, సంప్రదించండి &amp; చట్టపరమైన</string>
+    <string name="settings_pdf_subtitle">స్క్రోల్ చేయండి, &amp; లేఅవుట్‌ను వీక్షించండి</string>
+    <string name="help_header_title">మేము ఎలా సహాయపడగలము?</string>
+    <string name="help_header_subtitle">మీకు\nఉత్తమ PDF అనుభవాన్ని అందించడానికి మా బృందం ఇక్కడ ఉంది.</string>
+    <string name="help_contact_us">మమ్మల్ని సంప్రదించండి</string>
+    <string name="help_contact_subtitle">మద్దతును సంప్రదించండి</string>
+    <string name="help_faq">తరచుగా అడిగే ప్రశ్నలు</string>
+    <string name="help_faq_subtitle">సాధారణ ప్రశ్నలకు సమాధానాలు ఇవ్వబడ్డాయి</string>
+    <string name="help_privacy_policy">గోప్యతా విధానం</string>
+    <string name="help_privacy_subtitle">మేము మీ డేటాను ఎలా రక్షిస్తాము</string>
+    <string name="help_terms_service">సేవా నిబంధనలు</string>
+    <string name="help_terms_subtitle">అప్లికేషన్ నియమాలు</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">మొబైల్ డేటాలో సమకాలీకరణ</string>
+    <string name="background_sync">నేపథ్య సమకాలీకరణ</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">PDF రీడర్ సెట్టింగ్‌లు</string>
+    <string name="pdf_settings_coming_soon">త్వరలో</string>
+    <string name="pdf_settings_description">స్క్రోల్ ప్రవర్తన, వీక్షణ మోడ్‌లు మరియు పఠన ప్రాధాన్యతలను కాన్ఫిగర్ చేయండి</string>
+    <!-- General Settings -->
+    <string name="settings_language">భాష</string>
+    <string name="settings_pdf_reader">PDF రీడర్ సెట్టింగ్‌లు</string>
+    <string name="settings_help_support">సహాయం &amp; మద్దతు</string>
+    <string name="settings_whats_new">కొత్తగా ఏముంది</string>
+    <string name="settings_download_desktop">మరొక పరికరంలో ఇన్‌స్టాల్ చేయండి</string>
+    <string name="settings_rate_app">యాప్‌ను రేట్ చేయండి</string>
+    <string name="play_store_not_found">ఈ పరికరంలో ప్లే స్టోర్ కనుగొనబడలేదు</string>
+    <string name="settings_set_as_default">డిఫాల్ట్ PDF వ్యూయర్‌గా సెట్ చేయండి</string>
+    <string name="settings_set_as_default_subtitle">డిఫాల్ట్‌గా ఈ యాప్‌తో PDFలను తెరవండి</string>
+    <string name="settings_default_pdf_instructions_title">డిఫాల్ట్‌గా ఎలా సెట్ చేయాలి</string>
+    <string name="settings_default_pdf_ok">అర్థమైంది</string>
+    <string name="settings_default_app_hint">పని చేయలేదా?</string>
+    <string name="settings_default_app_hint_learn_more">మరింత తెలుసుకోండి</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">భాష</string>
+    <string name="language_search_placeholder">భాషలను శోధించు...</string>
+    <!-- Common UI -->
+    <string name="support">మద్దతు</string>
+    <string name="language_english">ఇంగ్లీష్</string>
+    <string name="language_hindi">హిందీ</string>
+    <string name="language_spanish">ఎస్పానోల్</string>
+    <string name="language_french">ఫ్రాంకైస్</string>
+    <string name="language_german">డ్యూయిష్</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">العربية తెలుగు in లో</string>
+    <string name="language_japanese">ఎస్</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">పోర్చుగీస్</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">యాప్ స్వరూపం</string>
+    <string name="theme">థీమ్</string>
+    <string name="general">జనరల్</string>
+    <string name="new">కొత్తది</string>
+    <string name="navigate">నావిగేట్ చేయండి</string>
+    <string name="download">డౌన్¬లోడ్ చేయండి</string>
+    <string name="falcon_pdf">ఫాల్కన్ PDF</string>
+    <string name="excellence_in_every_pixel">ప్రతి పిక్సెల్‌లో అద్భుతం</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">మార్పులను వర్తింపజేయండి</string>
+    <string name="apply">వర్తించు</string>
+    <string name="selected">ఎంచుకున్నారు</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">సమకాలీకరణ సెట్టింగ్‌లు</string>
+    <string name="autosync_on_wifi">WiFiలో ఆటో-సింక్</string>
+    <string name="sync_reading_progress">సమకాలీకరణ పఠన పురోగతి</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">పత్రం పేరు</string>
+    <string name="name_cannot_be_empty">పేరు ఖాళీగా ఉండకూడదు.</string>
+    <string name="str__failed">%1$s విఫలమైంది</string>
+    <string name="ok">సరే</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">అప్‌గ్రేడ్ ప్లాన్ - ప్రస్తుత ప్లాన్: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">ఫైల్‌ను తెరవడానికి వదలండి</string>
+    <string name="release_to_import_and_open_pdf">PDF ఫైళ్ళను దిగుమతి చేసుకోవడానికి మరియు తెరవడానికి విడుదల చేయండి</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">తొలగించు</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">పిడిఎఫ్</string>
+    <string name="images">చిత్రాలు</string>
+    <string name="filter_all_types">అన్ని ఫైళ్లు</string>
+    <string name="favorites">ఇష్టమైన ఫైల్స్</string>
+    <string name="recent">ఇటీవలి</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">పత్రాలను శోధించు...</string>
+    <string name="voice_search">వాయిస్ శోధన</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">ఇటీవలి ఫైళ్ళు</string>
+    <string name="loading_recent_files">ఇటీవలి ఫైళ్లను లోడ్ చేస్తోంది...</string>
+    <string name="no_recent_files">ఇటీవలి ఫైళ్లు లేవు</string>
+    <string name="no_favorites">ఇష్టమైనవి ఏవీ లేవు</string>
+    <string name="mark_files_as_favorite_to_see_them_here">ఫైళ్లను ఇక్కడ చూడటానికి వాటిని ఇష్టమైనవిగా గుర్తించండి</string>
+    <string name="open_some_pdf_files_to_see_the">ఇక్కడ చూడటానికి కొన్ని PDF ఫైళ్ళను తెరవండి.</string>
+    <string name="status">స్థితి</string>
+    <string name="actions">చర్యలు</string>
+    <string name="select_all">అన్నీ ఎంచుకోండి</string>
+    <string name="enter_multiselect_mode">బహుళ-ఎంపిక మోడ్‌లోకి ప్రవేశించండి</string>
+    <string name="sorted_ascending">ఆరోహణ క్రమంలో క్రమబద్ధీకరించబడింది</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">నిల్వ: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">%1$s ఫైళ్లను జోడించండి</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">వీక్షణ రకాన్ని మార్చండి</string>
+    <string name="filter_">ఫిల్టర్: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">PDF లోడ్ అవుతోంది...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">సమకాలీకరించడానికి సైన్ ఇన్ చేయండి</string>
+    <string name="protect_your_library_files">మీ లైబ్రరీ ఫైల్‌లను రక్షించుకోండి</string>
+    <string name="sign_in">సైన్ ఇన్ చేయండి</string>
+    <string name="sign_out">సైన్ అవుట్ చేయండి</string>
+    <string name="sign_in_dialog_title">ఫాల్కన్ PDF లోకి సైన్ ఇన్ చేయండి</string>
+    <string name="sign_in_dialog_subtitle">మీ PDF లైబ్రరీ, ప్రతిచోటా.</string>
+    <string name="sign_in_with_google">Googleతో సైన్ ఇన్ చేయండి</string>
+    <string name="sign_in_with_apple">ఆపిల్‌తో సైన్ ఇన్ చేయండి</string>
+    <string name="apple_user_drive_unavailable">ఆపిల్ సైన్-ఇన్‌తో గూగుల్ డ్రైవ్ సింక్ అందుబాటులో లేదు</string>
+    <string name="apple_user_link_google">డ్రైవ్ సింక్ కోసం Google ఖాతాను లింక్ చేయండి</string>
+    <string name="apple_user_sync_info">క్లౌడ్ సింక్‌ను ప్రారంభించడానికి, Google ఖాతాను లింక్ చేయండి</string>
+    <string name="link_google_account">Google ఖాతాను లింక్ చేయండి</string>
+    <string name="signed_in_successfully">విజయవంతంగా లాగిన్ అయ్యారు</string>
+    <string name="signed_out_successfully">విజయవంతంగా సైన్ అవుట్ చేయబడింది</string>
+    <string name="sync_disabled_free">ఉచిత ఖాతాల కోసం సింక్ నిలిపివేయబడింది.</string>
+    <string name="storage_disabled_grant_access">నిల్వ నిలిపివేయబడింది. ప్రారంభించడానికి డ్రైవ్ యాక్సెస్ ఇవ్వండి.</string>
+    <string name="upgrade_to_pro">ప్రోకి అప్‌గ్రేడ్ చేయండి</string>
+    <string name="grant_drive_access">గ్రాంట్ డ్రైవ్ యాక్సెస్</string>
+    <string name="files_synced">%1$d/%2$d ఫైల్‌లు సమకాలీకరించబడ్డాయి</string>
+    <string name="synced_count">%1$d సమకాలీకరించబడింది</string>
+    <string name="unlimited_sync_active">అపరిమిత సింక్</string>
+    <string name="missing_drive_permissions">డ్రైవ్ అనుమతులు లేవు. సింక్ ప్రస్తుతం నిరోధించబడింది.</string>
+    <string name="drive_access_revoked">డ్రైవ్ యాక్సెస్ రద్దు చేయబడింది. సింక్‌ను పునఃప్రారంభించడానికి తిరిగి కనెక్ట్ అవ్వండి.</string>
+    <string name="upgrade_premium">అప్‌గ్రేడ్ ప్రీమియం</string>
+    <string name="manage_account">ఖాతాను నిర్వహించండి</string>
+    <string name="sync_now">ఇప్పుడు సమకాలీకరించండి</string>
+    <string name="tier_free">ఉచితం</string>
+    <string name="tier_pro">ప్రో</string>
+    <string name="tier_premium">ప్రీమియం</string>
+    <string name="status_paused">పాజ్ చేయబడింది</string>
+    <!-- Common -->
+    <string name="navigate_back">వెనుకకు నావిగేట్ చేయండి</string>
+    <string name="dismiss">తీసివేయి</string>
+    <string name="cancel">రద్దు చేయి</string>
+    <string name="back">వెనుకకు</string>
+    <string name="search">వెతకండి</string>
+    <string name="more_actions">మరిన్ని చర్యలు</string>
+    <string name="share">షేర్ చేయి</string>
+    <string name="delete">తొలగించు</string>
+    <string name="remove_from_recents">ఇటీవలి వాటి నుండి తొలగించండి</string>
+    <string name="open">ఓపెన్</string>
+    <string name="all">అన్నీ</string>
+    <string name="sort_by_">%1$sద్వారా క్రమబద్ధీకరించు</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">గూగుల్ డ్రైవ్ సింక్</string>
+    <string name="syncing">సమకాలీకరణ జరుగుతోంది...</string>
+    <string name="sync_completed">సమకాలీకరణ పూర్తయింది</string>
+    <string name="sync_failed">సమకాలీకరణ విఫలమైంది</string>
+    <string name="sync_limit_exceeded">సింక్ పరిమితి మించిపోయింది. మీ %s ప్లాన్ %d ఫైళ్లను అనుమతిస్తుంది.</string>
+    <string name="sync_no_drive_access">Google Drive యాక్సెస్ అందుబాటులో లేదు</string>
+    <string name="sync_network_unavailable">నెట్‌వర్క్ అందుబాటులో లేదు</string>
+    <string name="sync_last_sync">చివరి సమకాలీకరణ: %s</string>
+    <string name="sync_total_files">మొత్తం</string>
+    <string name="sync_synced_files">సమకాలీకరించబడింది</string>
+    <string name="sync_failed_files">విఫలమైంది</string>
+    <string name="sync_conflict_files">సంఘర్షణలు</string>
+    <string name="sync_add_to_favorites">ఇష్టమైన వాటికి జోడించండి</string>
+    <string name="sync_remove_from_favorites">ఇష్టమైన వాటి నుండి తొలగించండి</string>
+    <string name="sync_conflict_title">సింక్ వైరుధ్యాలు</string>
+    <string name="sync_conflict_message">కింది ఫైళ్ళలో పరిష్కరించాల్సిన వైరుధ్యాలు ఉన్నాయి:</string>
+    <string name="sync_conflict_explanation">స్థానిక మరియు రిమోట్ వెర్షన్‌లు రెండూ సవరించబడినప్పుడు వైరుధ్యాలు ఏర్పడతాయి.</string>
+    <string name="sync_plan_limit">సమకాలీకరణ: %d/%d</string>
+    <string name="sync_plan_limit_reached">పరిమితికి చేరుకుంది</string>
+    <string name="sync_plan_unlimited">అపరిమిత సమకాలీకరణ</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">దాటవేయి</string>
+    <string name="welcome_next">తరువాత</string>
+    <string name="welcome_get_started">ప్రారంభించండి</string>
+    <string name="welcome_sign_in_get_started">సైన్ ఇన్ &amp; ప్రారంభించండి</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;ఏదైనా పత్రాన్ని&lt;/b&gt; తక్షణమే చదవండి</string>
+    <string name="welcome_slide1_description">PDF, DOC, EPUB, MOBI సహా 10కి పైగా డాక్యుమెంట్ ఫార్మాట్‌లను తెరవండి మరియు నిర్వహించండి.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;PDFలు, ఈ-పుస్తకాలు,&lt;/b&gt; మరియు ఆఫీస్ డాక్యుమెంట్‌లను ఒకే చోట చదవండి</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;ఇష్టమైన&lt;/b&gt; పత్రాలను మరియు వాటిని వివిధ పరికరాలలో యాక్సెస్ చేయండి</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;వ్యాఖ్యానించండి,&lt;/b&gt; హైలైట్ చేయండి మరియు సులభంగా సహకరించండి</string>
+    <string name="welcome_slide1_footer">మీ సార్వత్రిక డాక్యుమెంట్ రీడర్</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;PDFలను సవరించండి, స్కాన్ చేయండి మరియు నిర్వహించండి&lt;/b&gt;</string>
+    <string name="welcome_slide2_description">PDFలను సృష్టించడానికి, సవరించడానికి మరియు నిర్వహించడానికి మీకు కావలసినవన్నీ ఒకే శక్తివంతమైన టూల్‌కిట్‌లో ఉన్నాయి.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;టెక్స్ట్‌ను సవరించండి,&lt;/b&gt; వ్యాఖ్యానించండి, హైలైట్ చేయండి మరియు ఫారమ్‌లను పూరించండి</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;పత్రాలను&lt;/b&gt; స్కాన్ చేసి, వాటిని తక్షణమే PDFలుగా మార్చండి</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;30+ సాధనాలు&lt;/b&gt; విలీనం, మార్పిడి, కుదించు మరియు సురక్షితం సహా</string>
+    <string name="welcome_slide2_footer">మీ ఆల్ ఇన్ వన్ PDF వర్క్‌స్పేస్</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;మీ పత్రాలను&lt;/b&gt; అర్థం చేసుకునే AI</string>
+    <string name="welcome_slide3_description">మీ కోసం పత్రాలను చదివి, విశ్లేషించే AIతో గంటల సమయాన్ని ఆదా చేసుకోండి.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Summarize&lt;/b&gt; long documents in seconds</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; స్కాన్ చేసిన పేజీలను మరియు టెక్స్ట్‌ను తక్షణమే అనువదిస్తుంది</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;అంతర్నిర్మితంగా బిగ్గరగా చదివే సౌకర్యం ఉన్న పత్రాలను&lt;/b&gt; వినండి</string>
+    <string name="welcome_slide3_footer">ప్రకటనలు లేవు. కేవలం ఉత్పాదకత మాత్రమే.</string>
+    <string name="grace">గ్రేస్</string>
+    <string name="unable_to_verify_subscription_limited_ac">సభ్యత్వాన్ని ధృవీకరించలేకపోయాము. కనెక్షన్ పునరుద్ధరించబడే వరకు యాక్సెస్ పరిమితం చేయబడింది.</string>
+    <string name="retry_verification">ధృవీకరణను మళ్లీ ప్రయత్నించండి</string>
+    <string name="guest_state">అతిథి స్థితి</string>
+    <string name="free_tier">ఉచిత శ్రేణి</string>
+    <string name="free_tier__locked">ఉచిత శ్రేణి - లాక్ చేయబడింది</string>
+    <string name="pro_tier">ప్రో టైర్</string>
+    <string name="pro_tier__restricted">ప్రో టైర్ - పరిమితం చేయబడింది</string>
+    <string name="premium_tier">ప్రీమియం శ్రేణి</string>
+    <string name="premium_tier__error">ప్రీమియం శ్రేణి - లోపం</string>
+    <string name="refresh_plan_status">ప్లాన్ స్థితిని రిఫ్రెష్ చేయండి</string>
+    <string name="user_avatar">వినియోగదారు అవతార్</string>
+    <string name="debug_tools">డీబగ్ సాధనాలు</string>
+    <string name="authentication__drive">ప్రామాణీకరణ &amp; డ్రైవ్</string>
+    <string name="auth_state">అధికార రాష్ట్రం</string>
+    <string name="revoke_drive_access">డ్రైవ్ యాక్సెస్‌ను రద్దు చేయండి</string>
+    <string name="image">చిత్రం</string>
+    <string name="thumbnail">థంబ్నెయిల్</string>
+    <string name="manage_preferences">ప్రాధాన్యతలను నిర్వహించండి</string>
+    <string name="tools_history">పరికరాల చరిత్ర</string>
+    <string name="manage_recent_logs">ఇటీవలి లాగ్‌లను నిర్వహించండి</string>
+    <string name="more_options">మరిన్ని ఎంపికలు</string>
+    <string name="clear_all_history">చరిత్ర మొత్తాన్ని తొలగించండి</string>
+    <string name="no_history_yet">ఇంకా చరిత్ర లేదు</string>
+    <string name="your_pdf_tool_operations_will_appear_her">మీ PDF టూల్ కార్యకలాపాలు ఇక్కడ కనిపిస్తాయి</string>
+    <string name="view">వీక్షణ</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">%1$s సేవ్ చేయబడింది</string>
+    <string name="history_status_processing">ప్రాసెసింగ్</string>
+    <string name="history_status_succeeded">విజయం సాధించారు</string>
+    <string name="history_status_failed">విఫలమైంది</string>
+    <string name="history_status_processing_upper">ప్రాసెసింగ్</string>
+    <string name="history_unknown_files">తెలియని ఫైళ్లు</string>
+    <string name="history_op_complete">%1$s పూర్తయింది!</string>
+    <string name="history_op_failed">%1$s విఫలమైంది</string>
+    <string name="history_op_success_multiple">%1$d ఫైళ్లతో ఆపరేషన్ విజయవంతంగా పూర్తయింది</string>
+    <string name="history_op_success_single">ఆపరేషన్ విజయవంతంగా పూర్తయింది</string>
+    <string name="history_op_error">మేము ఆపరేషన్‌ను పూర్తి చేయలేకపోయాము</string>
+    <string name="history_multiple_files">%1$d ఫైళ్లు</string>
+    <string name="history_failed">విఫలమైంది</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">క్లౌడ్ సింక్</string>
+    <string name="cloud_sync_subtitle">కనెక్ట్ చేయబడిన పరికరాలు</string>
+    <string name="cloud_sync_all_synced">అన్ని ఫైళ్లు సమకాలీకరించబడ్డాయి</string>
+    <string name="cloud_sync_syncing">… ను సింక్ చేస్తోంది</string>
+    <string name="cloud_sync_pending">సమకాలీకరణ పెండింగ్‌లో ఉంది</string>
+    <string name="cloud_sync_last_sync">చివరి సమకాలీకరణ: %1$s</string>
+    <string name="cloud_sync_never_synced">ఎప్పుడూ సమకాలీకరించబడలేదు</string>
+    <string name="cloud_sync_recent_activity">ఇటీవలి సింక్ కార్యాచరణ</string>
+    <string name="cloud_sync_no_files">ఇంకా ఫైళ్లు ఏవీ సింక్ చేయబడలేదు</string>
+    <string name="cloud_sync_synced_to_drive">డ్రైవ్‌కు సమకాలీకరించబడింది</string>
+    <string name="cloud_sync_pending_upload">అప్‌లోడ్ పెండింగ్‌లో ఉంది</string>
+    <string name="cloud_sync_sync_now">ఇప్పుడే సమకాలీకరించండి</string>
+    <string name="cloud_sync_view_history">సమకాలీకరణ చరిత్రను వీక్షించండి</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d ఫైల్‌లు సమకాలీకరించబడ్డాయి</string>
+    <string name="cloud_sync_unlimited_files">%1$d ఫైల్‌లు సమకాలీకరించబడ్డాయి · అపరిమితం</string>
+    <string name="cloud_sync_cta_title">ఏ ప్లాట్‌ఫారమ్‌లోనైనా, ఏ సమయంలోనైనా</string>
+    <string name="cloud_sync_cta_subtitle">మీ పత్రాలు మీరు వెళ్ళే ప్రతిచోటా మీతోనే ఉంటాయి.</string>
+    <string name="cloud_sync_files_label">%1$d ఫైళ్లు</string>
+    <string name="settings_data_privacy">డేటా &amp; గోప్యత</string>
+    <string name="settings_data_privacy_subtitle">డేటాను నిర్వహించండి, ఖాతా &amp; తొలగింపు</string>
+    <string name="settings_delete_account">ఖాతాను తొలగించండి</string>
+    <string name="settings_delete_account_subtitle">మీ ఖాతా మరియు డేటాను శాశ్వతంగా తొలగించండి</string>
+    <string name="delete_account_warning_title">మీ ఖాతాను తొలగించాలా?</string>
+    <string name="delete_account_warning_message">ఇది మీ కొనుగోలు చరిత్ర మరియు క్లౌడ్‌కు సింక్ చేయబడిన ఫైల్‌లతో సహా, మీ ఖాతాను మరియు దానికి సంబంధించిన మొత్తం డేటాను శాశ్వతంగా తొలగిస్తుంది. ఈ చర్యను రద్దు చేయడం సాధ్యపడదు మరియు కొనుగోళ్లను తర్వాత పునరుద్ధరించడం కూడా కుదరదు.</string>
+    <string name="delete_account_confirm_phrase_label">కొనసాగడానికి 'తొలగింపును నిర్ధారించు' అని టైప్ చేయండి:</string>
+    <string name="delete_account_confirm_phrase">తొలగింపును నిర్ధారించండి</string>
+    <string name="delete_account_button">ఖాతాను తొలగించండి</string>
+    <string name="delete_account_error_reauth">భద్రతా కారణాల దృష్ట్యా, మీ ఖాతాను తొలగించడానికి మీరు ఇటీవలే సైన్ ఇన్ చేసి ఉండాలి. దయచేసి సైన్ అవుట్ చేసి, మళ్లీ సైన్ ఇన్ చేసి, తిరిగి ప్రయత్నించండి.</string>
+    <string name="delete_account_success">ఖాతా విజయవంతంగా తొలగించబడింది</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">ఫైల్ &amp; సింక్ సెట్టింగ్‌లు</string>
+    <string name="sync_on_mobile_data_subtitle">క్లౌడ్ సింక్ కోసం మొబైల్ డేటాను ఉపయోగించండి</string>
+    <string name="drive_sync">నేపథ్య సమకాలీకరణ</string>
+    <string name="drive_sync_subtitle">ఇష్టమైనవాటిని సమకాలీకరించండి &amp; పత్రాలను డ్రైవ్‌కు స్కాన్ చేయండి</string>
+    <string name="do_not_import_from_other_apps">ఇతర యాప్‌ల నుండి ఫైల్‌లను దిగుమతి చేసుకోవద్దు</string>
+    <string name="do_not_import_from_other_apps_subtitle">షేర్ చేసిన ఫైళ్లను లైబ్రరీలో సేవ్ చేయకుండా తాత్కాలికంగా తెరవండి</string>
+    <string name="clear_imported_files">దిగుమతి చేసుకున్న ఫైల్‌లను క్లియర్ చేయండి</string>
+    <string name="clear_imported_files_subtitle">ఇతర యాప్‌ల నుండి కాపీ చేసిన అన్ని ఫైల్‌లను తొలగించండి</string>
+    <string name="clear_imports_confirm_title">దిగుమతి చేసుకున్న ఫైళ్లను తొలగించాలా?</string>
+    <string name="clear_imports_confirm_message">ఇది మీ ఇంపోర్ట్స్ ఫోల్డర్‌లోని అన్ని ఫైల్‌లను శాశ్వతంగా తొలగిస్తుంది. దీన్ని వెనక్కి తీసుకోలేరు.</string>
+    <string name="clear_imports_success">దిగుమతి చేసుకున్న ఫైల్‌లు క్లియర్ చేయబడ్డాయి</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">డేటా &amp; గోప్యత</string>
+    <string name="analytics_opt_out_title">వినియోగ డేటాను పంపండి</string>
+    <string name="analytics_opt_out_subtitle">యాప్‌ను మెరుగుపరచడంలో సహాయపడటానికి, అనామక వినియోగ డేటా మరియు క్రాష్ నివేదికలను డెవలపర్‌తో పంచుకోండి.</string>
+    <string name="analytics_opt_out_disabled_note">అనలిటిక్స్ మరియు క్రాష్ రిపోర్టింగ్ నిలిపివేయబడ్డాయి. Googleకు గానీ, డెవలపర్‌కు గానీ ఎలాంటి డేటా పంపబడదు.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">సేవ్ చేయని మార్పులు</string>
+    <string name="unsaved_changes_tab_message">ఈ పత్రంలో సేవ్ చేయని మార్పులు ఉన్నాయి. మూసివేసే ముందు మీరు సేవ్ చేయాలనుకుంటున్నారా?</string>
+    <string name="unsaved_changes_window_message">మీరు ఒకటి లేదా అంతకంటే ఎక్కువ డాక్యుమెంట్‌లలో సేవ్ చేయని మార్పులను కలిగి ఉన్నారు. మీరు వాటిని రద్దు చేసి నిష్క్రమించాలనుకుంటున్నారా?</string>
+    <string name="discard">విస్మరించు</string>
+    <string name="discard_and_quit">విస్మరించు &amp; నిష్క్రమించు</string>
+    <string name="close">మూసివేయండి</string>
+    <string name="remove_favorite">ఇష్టమైన వాటిని తొలగించండి</string>
+    <string name="set_as_default_pdf_viewer">డిఫాల్ట్ PDF వ్యూయర్‌గా సెట్ చేయాలా?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">ఫాల్కన్ పిడిఎఫ్ మీ డిఫాల్ట్ పిడిఎఫ్ వ్యూయర్ కాదు. అన్ని పిడిఎఫ్ ఫైల్స్ ఫాల్కన్ పిడిఎఫ్‌తో ఓపెన్ అయ్యేలా మీరు దీనిని డిఫాల్ట్‌గా సెట్ చేయాలనుకుంటున్నారా?</string>
+    <string name="set_now">ఇప్పుడే సెట్ చేయండి</string>
+    <string name="never">ఎప్పుడూ</string>
+    <string name="later">తరువాత</string>
+    <string name="set_default">డిఫాల్ట్‌ను సెట్ చేయండి</string>
+    <string name="default">డిఫాల్ట్</string>
+    <string name="version_">వెర్షన్ %1$s</string>
+    <string name="sign_in_with_other_accounts">ఇతర ఖాతాలతో సైన్ ఇన్ చేయండి</string>
+    <string name="upgrade">అప్‌గ్రేడ్</string>
+    <string name="view_plan">ప్రణాళికను వీక్షించండి</string>
+    <string name="unlimited_sync_upto_5gb">5GB వరకు అపరిమిత సింక్</string>
+    <string name="unlock_faster">వేగంగా అన్‌లాక్ చేయండి</string>
+    <string name="use_biometrics_instead_of_passwords">పాస్‌వర్డ్‌లకు బదులుగా బయోమెట్రిక్స్‌ను ఉపయోగించండి.</string>
+    <string name="upgrade_to_premium">ప్రీమియంకు అప్‌గ్రేడ్ చేయండి</string>
+    <string name="unlock_pdf">PDFని అన్‌లాక్ చేయండి</string>
+    <string name="use__to_accessnthis_document">ఈ డాక్యుమెంట్‌ను యాక్సెస్ చేయడానికి\nను ఉపయోగించండి %1$s</string>
+    <string name="open_with_password">పాస్‌వర్డ్‌తో తెరవండి</string>
+    <string name="secure">సురక్షితం</string>
+    <string name="loading_">%1$s లోడ్ అవుతోంది ...</string>
+    <string name="failed_to_open_ebook">ఇ-బుక్‌ను తెరవడంలో విఫలమయ్యాను</string>
+    <string name="properties">ఆస్తులు</string>
+    <string name="copy">కాపీ చేయండి</string>
+    <string name="highlight">హైలైట్</string>
+    <string name="clear_selection">స్పష్టమైన ఎంపిక</string>
+    <string name="close_search">శోధనను మూసివేయి</string>
+    <string name="search_in_book">పుస్తకంలో వెతకండి...</string>
+    <string name="contents">కంటెంట్</string>
+    <string name="table_of_contents">విషయ సూచిక</string>
+    <string name="no_table_of_contents_available">విషయ సూచిక అందుబాటులో లేదు</string>
+    <string name="bookmarks">బుక్‌మార్క్‌లు</string>
+    <string name="no_bookmarks_yet">ఇంకా బుక్‌మార్క్‌లు లేవు</string>
+    <string name="page_">పేజీ %1$s</string>
+    <string name="no_results">ఫలితాలు లేవు</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">సెట్టింగులు</string>
+    <string name="decrease_font_size">ఫాంట్ పరిమాణాన్ని తగ్గించండి</string>
+    <string name="increase_font_size">ఫాంట్ పరిమాణాన్ని పెంచండి</string>
+    <string name="font">ఫాంట్</string>
+    <string name="jump_to_page">పేజీకి వెళ్లండి</string>
+    <string name="enter_page_number_1">పేజీ సంఖ్యను నమోదు చేయండి (1–%1$s):</string>
+    <string name="go">వెళ్ళండి</string>
+    <string name="read_aloud">బిగ్గరగా చదవండి</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">ఆపండి</string>
+    <string name="annotations__text_selection">వ్యాఖ్యానాలు &amp; టెక్స్ట్ ఎంపిక</string>
+    <string name="text_selection_and_annotations_for_ebook">ఈ-బుక్స్ కోసం టెక్స్ట్ ఎంపిక మరియు వ్యాఖ్యానాలు త్వరలో రానున్నాయి.</string>
+    <string name="longpress_on_text_to_select_highlight_or">ఎంచుకోవడానికి, హైలైట్ చేయడానికి లేదా గమనికలను జోడించడానికి టెక్స్ట్‌పై ఎక్కువసేపు నొక్కి పట్టుకోండి.</string>
+    <string name="press_play_to_start_reading_aloud">బిగ్గరగా చదవడం ప్రారంభించడానికి ప్లే నొక్కండి...</string>
+    <string name="speed">వేగం</string>
+    <string name="voice">స్వరం</string>
+    <string name="no_annotations_yet">ఇంకా వ్యాఖ్యానాలు లేవు</string>
+    <string name="select_text_to_highlight_or_add_notes">హైలైట్ చేయడానికి లేదా గమనికలను జోడించడానికి టెక్స్ట్‌ను ఎంచుకోండి</string>
+    <string name="tools">ఉపకరణాలు</string>
+    <string name="convert_to_images">చిత్రాలుగా మార్చండి</string>
+    <string name="rename">పేరు మార్చండి</string>
+    <string name="print">ప్రింట్</string>
+    <string name="a">ఎ−</string>
+    <string name="cover_of_">%1$s యొక్క ముఖచిత్రం</string>
+    <string name="no_cover_available">కవర్ అందుబాటులో లేదు</string>
+    <string name="read_now">ఇప్పుడే చదవండి</string>
+    <string name="about_the_book">పుస్తకం గురించి</string>
+    <string name="tags">ట్యాగ్‌లు</string>
+    <string name="publisher_info">ప్రచురణకర్త సమాచారం</string>
+    <string name="published_">ప్రచురించబడింది: %1$s</string>
+    <string name="retry">మళ్ళీ ప్రయత్నించండి</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F కాష్‌ను క్లియర్ చేయండి</string>
+    <string name="ebooks_library">ఇ-పుస్తకాల గ్రంథాలయం</string>
+    <string name="manage_your_digital_collection_across_mu">వివిధ ప్రొవైడర్ల నుండి మీ డిజిటల్ సేకరణను నిర్వహించండి. Google Books మరియు Open Library నుండి కొత్త శీర్షికలను శోధించండి, ఫిల్టర్ చేయండి మరియు కనుగొనండి.</string>
+    <string name="no_books_found">పుస్తకాలు ఏవీ కనుగొనబడలేదు</string>
+    <string name="no_results_for__try_a_different_search_t">"%1$s" కోసం ఫలితాలు లేవు. వేరే శోధన పదాన్ని ప్రయత్నించండి.</string>
+    <string name="downloadable_only">డౌన్‌లోడ్ మాత్రమే</string>
+    <string name="file_unavailable">ఫైల్ అందుబాటులో లేదు</string>
+    <string name="unavailable">అందుబాటులో లేదు</string>
+    <string name="search_titles_authors_isbn">శీర్షికలు, రచయితలు, ISBN... శోధించండి</string>
+    <string name="clear_search">శోధనను క్లియర్ చేయండి</string>
+    <string name="ebooks">ఈ-పుస్తకాలు</string>
+    <string name="read_pdf">PDF చదవండి</string>
+    <string name="create_pdf">PDFని సృష్టించండి</string>
+    <string name="unlock_all_tools_and_remove_limits">అన్ని సాధనాలను అన్‌లాక్ చేసి, పరిమితులను తొలగించండి</string>
+    <string name="ocr_scanning">OCR స్కానింగ్</string>
+    <string name="extract_text_from_scanned_documents">స్కాన్ చేసిన పత్రాల నుండి వచనాన్ని సంగ్రహించండి</string>
+    <string name="cloud_sync">క్లౌడ్ సింక్</string>
+    <string name="access_your_documents_anywhere">మీ పత్రాలను ఎక్కడైనా యాక్సెస్ చేయండి</string>
+    <string name="annotate_pdfs">PDFలను వ్యాఖ్యానించండి</string>
+    <string name="cloud_backup">క్లౌడ్ బ్యాకప్</string>
+    <string name="continue_reading">చదవడం కొనసాగించండి</string>
+    <string name="pick_files">ఫైల్‌లను ఎంచుకోండి</string>
+    <string name="browse">బ్రౌజ్ చేయండి</string>
+    <string name="did_you_know">మీకు తెలుసా?</string>
+    <string name="home">హోమ్</string>
+    <string name="your_documents_at_a_glance">మీ పత్రాలు ఒకే చూపులో</string>
+    <string name="pick_file">ఫైల్‌ను ఎంచుకోండి</string>
+    <string name="quick_actions">త్వరిత చర్యలు</string>
+    <string name="pro">ప్రో</string>
+    <string name="open_files">ఫైళ్లను తెరవండి</string>
+    <string name="convert_to_pdf">PDFగా మార్చండి</string>
+    <string name="close_drawer">డ్రాయర్ మూసివేయి</string>
+    <string name="close_file">ఫైల్‌ను మూసివేయండి</string>
+    <string name="office">కార్యాలయం</string>
+    <string name="coming_soon">త్వరలో వస్తుంది</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">ఈ ప్లాట్‌ఫారమ్‌లో ఇ-బుక్ వ్యూయర్ ఇంకా అందుబాటులో లేదు.</string>
+    <string name="set_as_default_viewer">డిఫాల్ట్ వ్యూయర్‌గా సెట్ చేయండి</string>
+    <string name="free">ఉచితం</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">అప్‌డేట్ డౌన్‌లోడ్ అవుతోంది... %1$s%</string>
+    <string name="more">మరిన్ని</string>
+    <string name="font_size">ఫాంట్ పరిమాణం</string>
+    <string name="font_family">ఫాంట్ ఫ్యామిలీ</string>
+    <string name="scroll_direction">స్క్రోల్ దిశ</string>
+    <string name="navigation">నావిగేషన్</string>
+    <string name="keep_screen_on">స్క్రీన్‌ను ఆన్‌లో ఉంచండి</string>
+    <string name="volume_button_to_scroll">స్క్రోల్ చేయడానికి వాల్యూమ్ బటన్</string>
+    <string name="export_ebook_pages_as_image_files">ఈబుక్ పేజీలను ఇమేజ్ ఫైల్స్‌గా ఎగుమతి చేయండి</string>
+    <string name="access_millions_of_titles">లక్షలాది శీర్షికలను పొందండి.</string>
+    <string name="read_offline_with_natural_ai_voices">సహజమైన AI స్వరాలతో ఆఫ్‌లైన్‌లో చదవండి.</string>
+    <string name="advanced_ai_reader">అధునాతన AI రీడర్.</string>
+    <string name="experience_studioquality_narration">స్టూడియో నాణ్యత గల వ్యాఖ్యానాన్ని అనుభవించండి.</string>
+    <string name="powerful_pdf_tools">శక్తివంతమైన PDF సాధనాలు.</string>
+    <string name="create_and_edit_documents_on_the_go">ప్రయాణంలోనే పత్రాలను సృష్టించండి మరియు సవరించండి.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">ప్రోకి అప్‌గ్రేడ్ చేయండి: అన్ని సాధనాలను అన్‌లాక్ చేయండి మరియు పరిమితులను తొలగించండి</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">OCR స్కానింగ్: స్కాన్ చేసిన పత్రాల నుండి టెక్స్ట్‌ను సంగ్రహించడం</string>
+    <string name="cloud_sync_access_your_documents_anywher">క్లౌడ్ సింక్: మీ పత్రాలను ఎక్కడైనా యాక్సెస్ చేయండి</string>
+    <string name="scan">స్కాన్</string>
+    <string name="compress">సంపీడనం</string>
+    <string name="merge">విలీనం</string>
+    <string name="convert">మార్చండి</string>
+    <string name="highlight_underline_and_add_notes_to_you">మీ పత్రాలను హైలైట్ చేయండి, అండర్‌లైన్ చేయండి మరియు గమనికలను జోడించండి</string>
+    <string name="keep_your_documents_safe_with_automatic_">ఆటోమేటిక్ క్లౌడ్ సింక్‌తో మీ పత్రాలను సురక్షితంగా ఉంచుకోండి</string>
+    <string name="indicator_color_">సూచిక_రంగు_%1$s</string>
+    <string name="my_library">నా గ్రంథాలయం</string>
+    <string name="get_ebooks">ఈ-బుక్స్ పొందండి</string>
+    <string name="scan_document">పత్రాన్ని స్కాన్ చేయండి</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">מחיקת דפים</string>
+    <string name="are_you_sure_you_want_to_delet">האם אתה בטוח שברצונך למחוק את הדפים שנבחרו? פעולה זו אינה ניתנת לביטול.</string>
+    <string name="delete">לִמְחוֹק</string>
+    <string name="cancel">לְבַטֵל</string>
+    <string name="quick_selection">בחירה מהירה</string>
+    <string name="select_range">בחירת טווח</string>
+    <string name="select_all">בחר הכל</string>
+    <string name="clear_all">נקה הכל</string>
+    <string name="select_page_range">בחר טווח עמודים</string>
+    <string name="enter_the_range_of_pages_to_de">הזן את טווח הדפים למחיקה (1-%1$s)</string>
+    <string name="from">מִן</string>
+    <string name="to">אֶל</string>
+    <string name="select">לִבחוֹר</string>
+    <string name="please_go_back_and_select_a_pd">אנא חזור ובחר קובץ PDF</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">פיצול PDF</string>
+    <string name="str_1_file_selected">קובץ אחד נבחר</string>
+    <string name="no_file_selected">לא נבחר קובץ</string>
+    <string name="split_mode">מצב פיצול</string>
+    <string name="fixed_segments">מקטעים קבועים</string>
+    <string name="custom_ranges">טווחים מותאמים אישית</string>
+    <string name="segment_size">גודל הקטע</string>
+    <string name="this_will_create_multiple_pdfs">פעולה זו תיצור מספר קבצי PDF עם מספר העמודים שצוין כל אחד. גודל הקטע חייב להיות קטן מכלל העמודים כדי ליצור פיצולים משמעותיים. לדוגמה, אם קובץ המקור מכיל 8 עמודים ותזין 2, ייווצרו ארבעה קבצי PDF עם 2 עמודים כל אחד.</string>
+    <string name="pages_per_file">עמודים לכל קובץ</string>
+    <string name="eg_2">לדוגמה, 2</string>
+    <string name="total_number_of_pages_in_pdf__">מספר עמודים כולל בקובץ PDF: %1$d (גודל הקטע חייב להיות קטן מ- %1$d)</string>
+    <string name="this_will_create__output_files">פעולה זו תיצור קבצי פלט %1$d</string>
+    <string name="this_will_create__output_file">פעולה זו תיצור קובץ פלט %1$d</string>
+    <string name="this_input_will_split_the_pdf_">קלט זה יפצל את קובץ ה-PDF לקבצים נפרדים בהתבסס על הטווחים שלך. לדוגמה, "1-2,5,6-8" ייצור 3 קבצי PDF: הראשון עם עמודים 1-2, השני עם עמוד 5, והשלישי עם עמודים 6-8.</string>
+    <string name="page_ranges">טווחי עמודים</string>
+    <string name="eg_1234571520">לדוגמה, 1-2, 3, 4-5, 7, 15-20</string>
+    <string name="format_use_ranges_15_or_single">פורמט: השתמשו בטווחים (1-5) או בעמודים בודדים (7), מופרדים באמצעות פסיקים. מותר להשתמש רק בספרות, מקפים ופסיקים.</string>
+    <string name="split_preview">תצוגה מקדימה מפוצלת</string>
+    <string name="pdf_files_will_be_created">%1$d ייווצרו קבצי PDF</string>
+    <string name="pdf_file_will_be_created">%1$d ייווצר קובץ PDF</string>
+    <string name="pdf_result_">תוצאת PDF %1$s</string>
+    <string name="str__and__more">... ועוד %1$d</string>
+    <string name="splitting_pdf">פיצול PDF...</string>
+    <string name="checking_files">בודק קבצים...</string>
+    <string name="page_n">עמוד %1$d</string>
+    <string name="pages_n_m">דפים %1$d-%2$d</string>
+    <string name="split_complete">פיצול הושלם!</string>
+    <string name="split_failed">הפיצול נכשל</string>
+    <string name="we_couldnt_split_your_pdf">לא הצלחנו לפצל את קובץ ה-PDF שלך</string>
+    <string name="your_pdf_has_been_successfully_split">הקובץ PDF שלך פוצל בהצלחה ל- %1$d קבצים</string>
+    <string name="your_pdf_has_been_successfully_split_single">קובץ ה-PDF שלך פוצל בהצלחה לקובץ %1$d</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">כלי PDF</string>
+    <string name="image_tools">כלי תמונה</string>
+    <string name="str_30_tools_for_pdf">30+ כלים ל-PDF</string>
+    <string name="tools_for_images">כלים לתמונות</string>
+    <string name="no_tools_found">לא נמצאו כלים</string>
+    <string name="try_adjusting_your_search">נסה להתאים את החיפוש שלך</string>
+    <string name="history">הִיסטוֹרִיָה</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s עמוד${אם (ספירת עמודים &gt; 1) </string>
+    <string name="n_pages">%1$d דפים</string>
+    <string name="n_page">עמוד %1$d</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">נדרשת סיסמה עבור קובץ PDF זה</string>
+    <string name="password_provided">סיסמה שסופקה</string>
+    <string name="password_required">נדרשת סיסמה</string>
+    <string name="open_file">פתח קובץ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">דחוס על ידי </string>
+    <string name="error_details">פרטי השגיאה</string>
+    <string name="view">נוֹף</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">%1$s מתוך %2$s עמודים נבחרו</string>
+    <string name="showing_first_200_pages">מציגים את 200 העמודים הראשונים</string>
+    <string name="use_quick_selection_above_for_">השתמש בבחירה מהירה לעיל עבור עמודים מעל 200</string>
+    <string name="loading">טְעִינָה...</string>
+    <string name="error">שְׁגִיאָה</string>
+    <string name="generating_page_previews">יצירת תצוגות מקדימות של עמודים...</string>
+    <string name="page__thumbnail">דף ממוזער %1$s</string>
+    <string name="selected">נִבחָר</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">לְחַפֵּשׂ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">סיבוב PDF</string>
+    <string name="please_provide_the_password_to">אנא ספק את הסיסמה כדי לבחור דפים מותאמים אישית</string>
+    <string name="rotation_angle">זווית סיבוב</string>
+    <string name="page_selection">בחירת עמוד</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">סדר מחדש את קובץ ה-PDF</string>
+    <string name="use_the_arrow_buttons_to_reord">השתמשו בלחצני החצים כדי לסדר מחדש את העמודים</string>
+    <string name="pages_">דפים (%1$s)</string>
+    <string name="page_">עמוד %1$s</string>
+    <string name="position__of_">מיקום: %1$s מתוך %2$s</string>
+    <string name="drag_handle">ידית גרירה</string>
+    <string name="move_up">הזז למעלה</string>
+    <string name="move_down">הזז למטה</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">דחיסת PDF</string>
+    <string name="no_files_selected">לא נבחרו קבצים</string>
+    <string name="please_go_back_and_select_pdf_">אנא חזור ובחר קבצי PDF לדחיסה</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">הַצלָחָה</string>
+    <string name="individual_results">תוצאות אישיות</string>
+    <string name="done">נַעֲשָׂה</string>
+    <string name="compression_complete">דחיסה הושלמה</string>
+    <string name="your_file_is_ready_and_much_li">הקובץ שלך מוכן והרבה יותר קל!</string>
+    <string name="before">לִפנֵי</string>
+    <string name="after">לְאַחַר</string>
+    <string name="total_saved">סך הכל נשמר</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">קטן יותר</string>
+    <string name="str__saved">%1$s% נשמר</string>
+    <string name="open">לִפְתוֹחַ</string>
+    <string name="share">לַחֲלוֹק</string>
+    <string name="close">לִסְגוֹר</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">רמת דחיסה</string>
+    <string name="recommended">מוּמלָץ</string>
+    <string name="str__compression">%1$s Compression</string>
+    <string name="str__of_original_size">~%1$s% מהגודל המקורי</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">תמונות ל-PDF</string>
+    <string name="str__images_selected">%1$s תמונות נבחרו</string>
+    <string name="images_will_be_converted_in_th">תמונות יומרו לפי הסדר המוצג להלן</string>
+    <string name="remove">לְהַסִיר</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">PDF לתמונות</string>
+    <string name="image_format">פורמט תמונה</string>
+    <string name="image_quality_dpi">איכות תמונה (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">מיזוג PDF</string>
+    <string name="n_files_selected">%1$d קבצים נבחרו</string>
+    <string name="n_file_selected">קובץ %1$d נבחר</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">נעילת PDF</string>
+    <string name="password_protection">הגנה באמצעות סיסמה</string>
+    <string name="enter_a_password_to_protect_yo">הזן סיסמה כדי להגן על קובץ ה-PDF שלך. תזדקק לסיסמה זו כדי לפתוח את הקובץ.</string>
+    <string name="password">סִיסמָה</string>
+    <string name="enter_password">הזן סיסמה</string>
+    <string name="confirm_password">אשר סיסמה</string>
+    <string name="reenter_password">הזן מחדש את הסיסמה</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">אנא חזור אחורה ובחר קובץ</string>
+    <string name="back">בְּחֲזָרָה</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">נעילת PDF</string>
+    <string name="current_password">סיסמה נוכחית</string>
+    <string name="enter_the_current_password_to_">הזן את הסיסמה הנוכחית כדי לפתוח את הנעילה של קובץ PDF זה</string>
+    <string name="enter_current_password">הזן את הסיסמה הנוכחית</string>
+    <string name="incorrect_password_please_try_">סיסמה שגויה. אנא נסה שוב.</string>
+    <string name="new_password_optional">סיסמה חדשה (אופציונלי)</string>
+    <string name="set_a_new_password_to_change_i">הגדר סיסמה חדשה כדי לשנות אותה, או השאר ריק כדי להסיר את הגנת הסיסמה</string>
+    <string name="new_password">סיסמה חדשה</string>
+    <string name="enter_new_password">הזן סיסמה חדשה</string>
+    <string name="confirm_new_password">אשר סיסמה חדשה</string>
+    <string name="reenter_new_password">הזן מחדש את הסיסמה החדשה</string>
+    <string name="passwords_do_not_match">הסיסמאות אינן תואמות</string>
+    <string name="compression_failed">דחיסה נכשלה</string>
+    <string name="open_pdf">פתיחת קובץ PDF</string>
+    <string name="share_file">שתף קובץ</string>
+    <string name="pages_deleted">דפים נמחקו!</string>
+    <string name="delete_failed">המחיקה נכשלה</string>
+    <string name="select_pages_to_delete">בחר דפים למחיקה</string>
+    <string name="pdf_created">נוצר קובץ PDF!</string>
+    <string name="conversion_failed">ההמרה נכשלה</string>
+    <string name="pdf_locked_successfully">קובץ ה-PDF ננעל בהצלחה!</string>
+    <string name="lock_failed">נעילה נכשלה</string>
+    <string name="merge_complete">המיזוג הושלם!</string>
+    <string name="merge_failed">המיזוג נכשל</string>
+    <string name="conversion_complete">ההמרה הושלמה!</string>
+    <string name="reorder_complete">ההזמנה מחדש הושלמה!</string>
+    <string name="reorder_failed">ההזמנה מחדש נכשלה</string>
+    <string name="rotation_complete">הסיבוב הושלם!</string>
+    <string name="rotation_failed">הסיבוב נכשל</string>
+    <string name="select_pages_to_rotate">בחירת עמודים לסיבוב</string>
+    <string name="str__complete">%1$s הושלם!</string>
+    <string name="str__failed">%1$s נכשל</string>
+    <string name="unlock_failed">הנעילה נכשלה</string>
+    <string name="your_pdfs_have_been_successfully_compres">קבצי ה-PDF שלך נדחסו בהצלחה</string>
+    <string name="we_couldnt_compress_your_pdfs">לא הצלחנו לדחוס את קבצי ה-PDF שלך</string>
+    <string name="view_your_compressed_file">צפה בקובץ הדחוס שלך</string>
+    <string name="send_to_others_or_apps">שליחה לאחרים או לאפליקציות</string>
+    <string name="your_pdf_has_been_successfully_modified">קובץ ה-PDF שלך שונה בהצלחה</string>
+    <string name="we_couldnt_delete_the_pages">לא הצלחנו למחוק את הדפים</string>
+    <string name="your_images_have_been_converted_to_pdf">התמונות שלך הומרו ל-PDF</string>
+    <string name="unable_to_create_pdf_from_images">לא ניתן ליצור PDF מתמונות</string>
+    <string name="your_pdf_is_now_password_protected">הקובץ PDF שלך מוגן כעת בסיסמה</string>
+    <string name="we_couldnt_lock_your_pdf">לא הצלחנו לנעול את קובץ ה-PDF שלך</string>
+    <string name="your_pdfs_have_been_successfully_merged">קבצי ה-PDF שלך אוחדו בהצלחה</string>
+    <string name="we_couldnt_merge_your_pdfs">לא הצלחנו למזג את קבצי ה-PDF שלך</string>
+    <string name="str__images_created_successfully">תמונות %1$s נוצרו בהצלחה</string>
+    <string name="unable_to_convert_pdf_to_images">לא ניתן להמיר PDF לתמונות</string>
+    <string name="your_pdf_pages_have_been_successfully_re">דפי ה-PDF שלך סידורו מחדש בהצלחה</string>
+    <string name="we_couldnt_reorder_your_pdf">לא הצלחנו לסדר מחדש את קובץ ה-PDF שלך</string>
+    <string name="your_pdf_has_been_successfully_rotated">קובץ ה-PDF שלך סובב בהצלחה</string>
+    <string name="we_couldnt_rotate_your_pdf">לא הצלחנו לסובב את קובץ ה-PDF שלך</string>
+    <string name="your_file_has_been_successfully_processe">הקובץ שלך עובד בהצלחה</string>
+    <string name="we_couldnt_process_your_file">לא הצלחנו לעבד את הקובץ שלך</string>
+    <string name="we_couldnt_unlock_your_pdf">לא הצלחנו לפתוח את קובץ ה-PDF שלך</string>
+    <string name="clear_filter">נקה את המסנן</string>
+    <string name="clear">בָּרוּר</string>
+    <string name="pick_a_tool_">בחר כלי →</string>
+    <string name="drag_to_reorder">גרור כדי לסדר מחדש</string>
+    <string name="your_files_are_securely_processed_on_our">הקבצים שלך מעובדים בצורה מאובטחת בשרתים שלנו באמצעות חיבורים מוצפנים ונמחקים אוטומטית תוך שעה. אנו לעולם לא מאחסנים או משתפים את הנתונים שלך.</string>
+    <string name="compression_quality">איכות דחיסה</string>
+    <string name="dragelevation">גרירהגובה</string>
+    <string name="tool_card_scale">קנה מידה_של_כרטיס_כלי</string>
+</resources>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">Vee bladsye uit</string>
+    <string name="are_you_sure_you_want_to_delet">Is jy seker jy wil die gekose bladsye verwyder? Hierdie aksie kan nie ongedaan gemaak word nie.</string>
+    <string name="delete">Vee uit</string>
+    <string name="cancel">Kanselleer</string>
+    <string name="quick_selection">Vinnige Seleksie</string>
+    <string name="select_range">Kies reeks</string>
+    <string name="select_all">Kies Alles</string>
+    <string name="clear_all">Vee alles uit</string>
+    <string name="select_page_range">Kies Bladsyreeks</string>
+    <string name="enter_the_range_of_pages_to_de">Voer die reeks bladsye in wat verwyder moet word (1-%1$s)</string>
+    <string name="from">Van</string>
+    <string name="to">Aan</string>
+    <string name="select">Kies</string>
+    <string name="please_go_back_and_select_a_pd">Gaan asseblief terug en kies 'n PDF</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">Gesplete PDF</string>
+    <string name="str_1_file_selected">1 lêer gekies</string>
+    <string name="no_file_selected">Geen lêer gekies nie</string>
+    <string name="split_mode">Gesplete modus</string>
+    <string name="fixed_segments">Vaste Segmente</string>
+    <string name="custom_ranges">Aangepaste reekse</string>
+    <string name="segment_size">Segmentgrootte</string>
+    <string name="this_will_create_multiple_pdfs">Dit sal verskeie PDF's skep met die gespesifiseerde aantal bladsye elk. Die segmentgrootte moet minder wees as die totale bladsye om betekenisvolle verdelings te skep. Byvoorbeeld, as die bronlêer 8 bladsye het en jy 2 invoer, sal vier PDF-lêers gegenereer word met 2 bladsye elk.</string>
+    <string name="pages_per_file">Bladsye per lêer</string>
+    <string name="eg_2">bv., 2</string>
+    <string name="total_number_of_pages_in_pdf__">Totale aantal bladsye in PDF: %1$d (segmentgrootte moet minder as %1$d wees)</string>
+    <string name="this_will_create__output_files">Dit sal %1$d uitvoerlêers skep</string>
+    <string name="this_will_create__output_file">Dit sal die %1$d uitvoerlêer skep</string>
+    <string name="this_input_will_split_the_pdf_">Hierdie invoer sal die PDF in aparte lêers verdeel gebaseer op jou reekse. Byvoorbeeld, "1-2,5,6-8" sal 3 PDF's skep: eerste met bladsye 1-2, tweede met bladsy 5, en derde met bladsye 6-8.</string>
+    <string name="page_ranges">Bladsyreekse</string>
+    <string name="eg_1234571520">bv. 1-2, 3, 4-5, 7, 15-20</string>
+    <string name="format_use_ranges_15_or_single">Formaat: Gebruik reekse (1-5) of enkele bladsye (7), geskei deur kommas. Slegs syfers, koppeltekens en kommas word toegelaat.</string>
+    <string name="split_preview">Gesplete voorskou</string>
+    <string name="pdf_files_will_be_created">%1$d PDF-lêers sal geskep word</string>
+    <string name="pdf_file_will_be_created">%1$d PDF-lêer sal geskep word</string>
+    <string name="pdf_result_">PDF-resultaat %1$s</string>
+    <string name="str__and__more">... en %1$d meer</string>
+    <string name="splitting_pdf">Verdeel PDF...</string>
+    <string name="checking_files">Kontroleer lêers...</string>
+    <string name="page_n">Bladsy %1$d</string>
+    <string name="pages_n_m">Bladsye %1$d-%2$d</string>
+    <string name="split_complete">Verdeling voltooi!</string>
+    <string name="split_failed">Verdeling het misluk</string>
+    <string name="we_couldnt_split_your_pdf">Ons kon nie jou PDF verdeel nie</string>
+    <string name="your_pdf_has_been_successfully_split">Jou PDF is suksesvol verdeel in %1$d lêers</string>
+    <string name="your_pdf_has_been_successfully_split_single">Jou PDF is suksesvol verdeel in %1$d lêer</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">PDF-gereedskap</string>
+    <string name="image_tools">Beeldgereedskap</string>
+    <string name="str_30_tools_for_pdf">30+ Gereedskap vir PDF</string>
+    <string name="tools_for_images">Gereedskap vir Beelde</string>
+    <string name="no_tools_found">Geen gereedskap gevind nie</string>
+    <string name="try_adjusting_your_search">Probeer om jou soektog aan te pas</string>
+    <string name="history">Geskiedenis</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s bladsy${as (bladsyAantal &gt; 1) </string>
+    <string name="n_pages">%1$d bladsye</string>
+    <string name="n_page">%1$d bladsy</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">Wagwoord benodig vir hierdie PDF</string>
+    <string name="password_provided">Wagwoord verskaf</string>
+    <string name="password_required">Wagwoord benodig</string>
+    <string name="open_file">Maak lêer oop</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">Saamgepers deur </string>
+    <string name="error_details">Foutbesonderhede</string>
+    <string name="view">Bekyk</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">%1$s van %2$s bladsye gekies</string>
+    <string name="showing_first_200_pages">Wys eerste 200 bladsye</string>
+    <string name="use_quick_selection_above_for_">Gebruik Vinnige Seleksie hierbo vir bladsye meer as 200</string>
+    <string name="loading">Laai tans...</string>
+    <string name="error">Fout</string>
+    <string name="generating_page_previews">Genereer tans bladsyvoorskoue...</string>
+    <string name="page__thumbnail">Bladsy %1$s miniatuur</string>
+    <string name="selected">Geselekteerde</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">Soek</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">Roteer PDF</string>
+    <string name="please_provide_the_password_to">Verskaf asseblief die wagwoord om persoonlike bladsye te kies</string>
+    <string name="rotation_angle">Rotasiehoek</string>
+    <string name="page_selection">Bladsykeuse</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">Herrangskik PDF</string>
+    <string name="use_the_arrow_buttons_to_reord">Gebruik die pyltjieknoppies om bladsye te herrangskik</string>
+    <string name="pages_">Bladsye (%1$s)</string>
+    <string name="page_">Bladsy %1$s</string>
+    <string name="position__of_">Posisie: %1$s van %2$s</string>
+    <string name="drag_handle">Sleephandvatsel</string>
+    <string name="move_up">Beweeg op</string>
+    <string name="move_down">Beweeg af</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">Komprimeer PDF</string>
+    <string name="no_files_selected">Geen lêers gekies nie</string>
+    <string name="please_go_back_and_select_pdf_">Gaan asseblief terug en kies PDF-lêers om saam te pers</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">Sukses</string>
+    <string name="individual_results">Individuele Resultate</string>
+    <string name="done">Klaar</string>
+    <string name="compression_complete">Kompressie voltooi</string>
+    <string name="your_file_is_ready_and_much_li">Jou lêer is gereed en baie ligter!</string>
+    <string name="before">VOOR</string>
+    <string name="after">NA</string>
+    <string name="total_saved">Totaal gestoor</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">KLEINER</string>
+    <string name="str__saved">%1$s% gestoor</string>
+    <string name="open">Oop</string>
+    <string name="share">Deel</string>
+    <string name="close">Maak toe</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">Kompressievlak</string>
+    <string name="recommended">Aanbeveel</string>
+    <string name="str__compression">%1$s Kompressie</string>
+    <string name="str__of_original_size">~%1$s% van oorspronklike grootte</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">Beelde na PDF</string>
+    <string name="str__images_selected">%1$s beelde gekies</string>
+    <string name="images_will_be_converted_in_th">Beelde sal omgeskakel word in die volgorde wat hieronder getoon word</string>
+    <string name="remove">Verwyder</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">PDF na Beelde</string>
+    <string name="image_format">Beeldformaat</string>
+    <string name="image_quality_dpi">Beeldkwaliteit (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">Voeg PDF saam</string>
+    <string name="n_files_selected">%1$d lêers gekies</string>
+    <string name="n_file_selected">%1$d lêer gekies</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">Sluit PDF</string>
+    <string name="password_protection">Wagwoordbeskerming</string>
+    <string name="enter_a_password_to_protect_yo">Voer 'n wagwoord in om jou PDF te beskerm. Jy sal hierdie wagwoord nodig hê om die lêer oop te maak.</string>
+    <string name="password">Wagwoord</string>
+    <string name="enter_password">Voer wagwoord in</string>
+    <string name="confirm_password">Bevestig wagwoord</string>
+    <string name="reenter_password">Voer wagwoord weer in</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">Gaan asseblief terug en kies 'n lêer</string>
+    <string name="back">Terug</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">Ontsluit PDF</string>
+    <string name="current_password">Huidige Wagwoord</string>
+    <string name="enter_the_current_password_to_">Voer die huidige wagwoord in om hierdie PDF te ontsluit</string>
+    <string name="enter_current_password">Voer huidige wagwoord in</string>
+    <string name="incorrect_password_please_try_">Verkeerde wagwoord. Probeer asseblief weer.</string>
+    <string name="new_password_optional">Nuwe Wagwoord (Opsioneel)</string>
+    <string name="set_a_new_password_to_change_i">Stel 'n nuwe wagwoord om dit te verander, of los dit leeg om wagwoordbeskerming te verwyder</string>
+    <string name="new_password">Nuwe Wagwoord</string>
+    <string name="enter_new_password">Voer nuwe wagwoord in</string>
+    <string name="confirm_new_password">Bevestig Nuwe Wagwoord</string>
+    <string name="reenter_new_password">Voer nuwe wagwoord weer in</string>
+    <string name="passwords_do_not_match">Wagwoorde stem nie ooreen nie</string>
+    <string name="compression_failed">Kompressie het misluk</string>
+    <string name="open_pdf">Maak PDF oop</string>
+    <string name="share_file">Deel lêer</string>
+    <string name="pages_deleted">Bladsye uitgevee!</string>
+    <string name="delete_failed">Verwydering het misluk</string>
+    <string name="select_pages_to_delete">Kies Bladsye om te Verwyder</string>
+    <string name="pdf_created">PDF geskep!</string>
+    <string name="conversion_failed">Omskakeling het misluk</string>
+    <string name="pdf_locked_successfully">PDF suksesvol gesluit!</string>
+    <string name="lock_failed">Sluiting misluk</string>
+    <string name="merge_complete">Samesmelting Voltooid!</string>
+    <string name="merge_failed">Samevoeging het misluk</string>
+    <string name="conversion_complete">Omskakeling voltooi!</string>
+    <string name="reorder_complete">Herbestelling voltooi!</string>
+    <string name="reorder_failed">Herbestelling het misluk</string>
+    <string name="rotation_complete">Rotasie voltooi!</string>
+    <string name="rotation_failed">Rotasie het misluk</string>
+    <string name="select_pages_to_rotate">Kies Bladsye om te Roteer</string>
+    <string name="str__complete">%1$s Voltooi!</string>
+    <string name="str__failed">%1$s Misluk</string>
+    <string name="unlock_failed">Ontsluit het misluk</string>
+    <string name="your_pdfs_have_been_successfully_compres">Jou PDF's is suksesvol saamgepers</string>
+    <string name="we_couldnt_compress_your_pdfs">Ons kon nie jou PDF's komprimeer nie</string>
+    <string name="view_your_compressed_file">Bekyk jou saamgeperste lêer</string>
+    <string name="send_to_others_or_apps">Stuur na ander of programme</string>
+    <string name="your_pdf_has_been_successfully_modified">Jou PDF is suksesvol gewysig</string>
+    <string name="we_couldnt_delete_the_pages">Ons kon nie die bladsye verwyder nie</string>
+    <string name="your_images_have_been_converted_to_pdf">Jou beelde is na PDF omgeskakel</string>
+    <string name="unable_to_create_pdf_from_images">Kan nie PDF van beelde skep nie</string>
+    <string name="your_pdf_is_now_password_protected">Jou PDF is nou met 'n wagwoord beskerm</string>
+    <string name="we_couldnt_lock_your_pdf">Ons kon nie jou PDF sluit nie</string>
+    <string name="your_pdfs_have_been_successfully_merged">Jou PDF's is suksesvol saamgevoeg</string>
+    <string name="we_couldnt_merge_your_pdfs">Ons kon nie jou PDF's saamvoeg nie</string>
+    <string name="str__images_created_successfully">%1$s beelde suksesvol geskep</string>
+    <string name="unable_to_convert_pdf_to_images">Kan nie PDF na beelde omskakel nie</string>
+    <string name="your_pdf_pages_have_been_successfully_re">Jou PDF-bladsye is suksesvol herrangskik</string>
+    <string name="we_couldnt_reorder_your_pdf">Ons kon nie jou PDF herrangskik nie</string>
+    <string name="your_pdf_has_been_successfully_rotated">Jou PDF is suksesvol geroteer</string>
+    <string name="we_couldnt_rotate_your_pdf">Ons kon nie jou PDF roteer nie</string>
+    <string name="your_file_has_been_successfully_processe">Jou lêer is suksesvol verwerk</string>
+    <string name="we_couldnt_process_your_file">Ons kon nie jou lêer verwerk nie</string>
+    <string name="we_couldnt_unlock_your_pdf">Ons kon nie jou PDF ontsluit nie</string>
+    <string name="clear_filter">Vee filter uit</string>
+    <string name="clear">Duidelik</string>
+    <string name="pick_a_tool_">Kies 'n gereedskap →</string>
+    <string name="drag_to_reorder">Sleep om te herrangskik</string>
+    <string name="your_files_are_securely_processed_on_our">Jou lêers word veilig op ons bedieners verwerk met behulp van geënkripteerde verbindings en outomaties binne 1 uur uitgevee. Ons stoor of deel nooit jou data nie.</string>
+    <string name="compression_quality">Kompressiekwaliteit</string>
+    <string name="dragelevation">sleepHoogte</string>
+    <string name="tool_card_scale">gereedskap_kaart_skaal</string>
+</resources>

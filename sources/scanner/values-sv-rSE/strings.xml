@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Avsöka</string>
+    <string name="scan_home_documents">Dokument</string>
+    <string name="scan_home_documents_lowercase">dokument</string>
+    <string name="scan_home_documents_count">%1$d Dokument</string>
+    <string name="scan_home_no_documents">Inga dokument ännu</string>
+    <string name="scan_home_start_scanning">Börja skanna för att skapa ditt första dokument</string>
+    <string name="scan_home_new_folder">Ny mapp</string>
+    <string name="scan_home_scan_document">Skanna dokument</string>
+    <string name="scan_home_import_gallery">Importera från Galleri</string>
+    <string name="scan_home_parent_folder">Överordnad mapp</string>
+    <string name="scan_home_go_back">Gå tillbaka till överordnad mapp</string>
+    <string name="scan_home_create_folder">Skapa ny mapp</string>
+    <string name="scan_home_enter_folder_name">Ange ett namn för den nya mappen</string>
+    <string name="scan_home_folder_name">Mappnamn</string>
+    <string name="scan_home_folder_placeholder">t.ex. arbetsdokument</string>
+    <string name="scan_home_folder_error">Mappnamnet får inte vara tomt</string>
+    <string name="scan_home_folder_name_empty">Mappnamnet får inte vara tomt</string>
+    <string name="scan_home_create">Skapa</string>
+    <string name="scan_home_folder_exists">En mapp med detta namn finns redan</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Kamera</string>
+    <string name="scan_camera_permission_required">Kameratillstånd krävs</string>
+    <string name="scan_camera_permission_message">Den här appen behöver kameraåtkomst för att skanna dokument.</string>
+    <string name="scan_camera_permission_settings">Gå till Inställningar &gt; Appar &gt; PDF-läsare &gt; Behörigheter och aktivera kamerabehörighet.</string>
+    <string name="scan_camera_permission_title">Kameratillstånd krävs</string>
+    <string name="scan_camera_request_permission">Begär tillstånd</string>
+    <string name="scan_camera_open_settings">Öppna inställningar</string>
+    <string name="scan_camera_close">Nära</string>
+    <string name="scan_camera_flash">Flash</string>
+    <string name="scan_camera_auto_capture">Automatisk inspelning</string>
+    <string name="scan_camera_settings">Inställningar</string>
+    <string name="scan_camera_ready_batch">Klar att skanna flera sidor</string>
+    <string name="scan_camera_ready_multiple">Klar att skanna flera sidor</string>
+    <string name="scan_camera_hold_steady">Håll stadigt medan du skannar</string>
+    <string name="scan_camera_captured_pages">%1$d sidor hämtade</string>
+    <string name="scan_camera_mode_single">Enda</string>
+    <string name="scan_camera_mode_batch">Sats</string>
+    <string name="scan_camera_preview">Förhandsvisning</string>
+    <string name="scan_camera_finish">Avsluta</string>
+    <string name="scan_camera_starting">Startar kameran...</string>
+    <string name="scan_camera_document_name">Dokumentnamn</string>
+    <string name="scan_camera_document_name_empty">Dokumentnamnet får inte vara tomt</string>
+    <string name="scan_camera_save_document">Spara dokument</string>
+    <string name="scan_camera_processing">Bearbetar...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Beskär &amp; Justera</string>
+    <string name="scan_crop_close">Nära</string>
+    <string name="scan_crop_reset">Återställa</string>
+    <string name="scan_crop_rotate">Rotera</string>
+    <string name="scan_crop_done">Gjort</string>
+    <string name="scan_crop_scanned_document">Skannat dokument</string>
+    <string name="scan_crop_magnified_view">Förstorad vy</string>
+    <string name="scan_crop_processing">Bearbetar...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Öka</string>
+    <string name="scan_filter_close">Nära</string>
+    <string name="scan_filter_rotate">Rotera</string>
+    <string name="scan_filter_done">Gjort</string>
+    <string name="scan_filter_filters">Filter</string>
+    <string name="scan_filter_original">Original</string>
+    <string name="scan_filter_magic">Magi</string>
+    <string name="scan_filter_lighten">Lätta</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">Gråskala</string>
+    <string name="scan_filter_magic_2">Rengör dokument</string>
+    <string name="scan_filter_soft_scan">Mjuk skanning</string>
+    <string name="scan_filter_color_enhance">Färg+</string>
+    <string name="scan_filter_ink_saver">Bläcksparare</string>
+    <string name="scan_filter_premium">Premiumfunktion</string>
+    <string name="scan_filter_filtered_document">Filtrerat dokument</string>
+    <string name="scan_filter_applying">Tillämpar filter...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Avboka</string>
+    <string name="scan_share">Dela</string>
+    <string name="scan_move">Flytta</string>
+    <string name="scan_move_to_folder">Flytta till mapp</string>
+    <string name="scan_delete">Radera</string>
+    <string name="scan_rename">Döpa om</string>
+    <string name="scan_root">Rot</string>
+    <string name="scan_select_destination">Välj en målmapp</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Dokumentera</string>
+    <string name="scan_document_back">Tillbaka</string>
+    <string name="scan_document_pages">sidor</string>
+    <string name="scan_document_add_pages">Lägg till sidor i det här dokumentet</string>
+    <string name="scan_document_add_page_button">Lägg till sida</string>
+    <string name="scan_document_rename">Döpa om</string>
+    <string name="scan_document_share">Dela</string>
+    <string name="scan_document_more">Mer</string>
+    <string name="scan_document_pages_count">%1$d sidor</string>
+    <string name="scan_document_no_pages">Inga sidor ännu</string>
+    <string name="scan_document_scan_page">Skanna sidan</string>
+    <string name="scan_document_import_page">Importera från Galleri</string>
+    <string name="scan_document_grid_view">Rutnätsvy</string>
+    <string name="scan_document_list_view">Listvy</string>
+    <string name="scan_document_continuous_view">Kontinuerlig vy</string>
+    <string name="scan_document_page_number">Sida %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Sida</string>
+    <string name="scan_page_back">Tillbaka</string>
+    <string name="scan_page_share">Dela</string>
+    <string name="scan_page_delete">Radera</string>
+    <string name="scan_page_of">%1$d av %2$d</string>
+    <string name="scan_page_image_not_found">Bilden hittades inte</string>
+    <string name="scan_page_retake">Ta om</string>
+    <string name="scan_page_crop">Beskära</string>
+    <string name="scan_page_enhance">Öka</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">Spara i galleriet</string>
+    <string name="scan_page_saved_to_gallery">Bilden sparad i galleriet</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Ta bort dokument?</string>
+    <string name="scan_delete_document_message">Är du säker på att du vill ta bort "%1$s"? Detta kommer att ta bort alla sidor i det här dokumentet permanent. Åtgärden kan inte ångras.</string>
+    <string name="scan_rename_document">Byt namn på dokument</string>
+    <string name="scan_rename_enter_name">Ange ett nytt namn för dokumentet</string>
+    <string name="scan_rename_document_name">Dokumentnamn</string>
+    <string name="scan_rename_error">Dokumentnamnet får inte vara tomt</string>
+    <string name="scan_dialog_delete_document_title">Ta bort dokument?</string>
+    <string name="scan_dialog_delete_document_message">Är du säker på att du vill ta bort "%1$s"? Detta kommer att ta bort alla sidor i det här dokumentet permanent. Åtgärden kan inte ångras.</string>
+    <string name="scan_dialog_delete_confirm">Radera</string>
+    <string name="scan_dialog_cancel">Avboka</string>
+    <string name="scan_dialog_move_title">Flytta till mapp</string>
+    <string name="scan_dialog_move_message">Välj en målmapp</string>
+    <string name="scan_dialog_move_confirm">Flytta</string>
+    <string name="scan_dialog_move_root">Rot</string>
+    <string name="scan_dialog_move_selected">Vald</string>
+    <string name="scan_dialog_rename_title">Byt namn på dokument</string>
+    <string name="scan_dialog_rename_message">Ange ett nytt namn för dokumentet</string>
+    <string name="scan_dialog_rename_label">Dokumentnamn</string>
+    <string name="scan_dialog_rename_error">Dokumentnamnet får inte vara tomt</string>
+    <string name="scan_dialog_rename_confirm">Döpa om</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Dela</string>
+    <string name="scan_menu_move">Flytta till mapp</string>
+    <string name="scan_menu_delete">Radera</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Kameraförhandsvisning\n(Kommer snart)</string>
+    <string name="scan_platform_desktop_camera">Förhandsgranskning av skrivbordskamera\n(Kommer snart)</string>
+    <string name="scan_platform_ios_camera">Förhandsvisning av iOS-kamera\n(Kommer snart)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Nära</string>
+    <string name="flash">Flash</string>
+    <string name="auto_capture">Automatisk inspelning</string>
+    <string name="settings">Inställningar</string>
+    <string name="capture">Fånga</string>
+    <string name="finish">Avsluta</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Är du säker på att du vill ta bort %1? Alla dokument inuti kommer också att raderas.</string>
+    <string name="share">Dela</string>
+    <string name="share_as_images">Dela som bilder</string>
+    <string name="share_as_pdf">Dela som PDF</string>
+    <string name="move_to_folder">Flytta till mapp</string>
+    <string name="delete">Radera</string>
+    <string name="selected">Vald</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Sida %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">Mappen är tom</string>
+    <string name="tap_the__button_to_scan_a_docu">Tryck på +-knappen för att skanna ett dokument</string>
+    <string name="str______pages">%1$s • %2$s • %3$s sidor</string>
+    <string name="create_folder">Skapa mapp</string>
+    <string name="more_options">Fler alternativ</string>
+    <string name="document_thumbnail">Dokumentminiatyr</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Bilden hittades inte</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Sida %2$d</string>
+    <string name="scan_ocr_title">Textigenkänning</string>
+    <string name="scan_ocr_copy">Kopiera text</string>
+    <string name="scan_ocr_no_text">Ingen text hittades</string>
+    <string name="scan_ocr_processing">Tolkning av text…</string>
+    <string name="scan_ocr_error">Kunde inte känna igen texten</string>
+    <string name="scan_ocr_not_supported">OCR stöds inte på den här plattformen</string>
+    <string name="scan_ocr_image">Skannad sida för OCR</string>
+    <string name="gallery">Galleri</string>
+    <string name="select_file">Välj fil</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Misslyckades med att ta bilden</string>
+    <string name="error_no_images_captured">Inga bilder tagna</string>
+    <string name="error_open_settings">Det gick inte att öppna inställningarna</string>
+    <string name="error_process_images">Misslyckades med att bearbeta bilderna</string>
+    <string name="error_process_image">Misslyckades med att bearbeta bilden</string>
+    <string name="error_start_camera">Misslyckades med att starta kameran</string>
+    <string name="error_stop_camera">Misslyckades med att stoppa kameran</string>
+    <string name="error_crop_image">Misslyckades med att beskära bilden</string>
+    <string name="error_delete_document">Misslyckades med att ta bort dokumentet</string>
+    <string name="error_delete_page">Misslyckades med att ta bort sidan</string>
+    <string name="error_load_document">Misslyckades med att läsa in dokumentet</string>
+    <string name="error_load_page">Misslyckades med att ladda sidan</string>
+    <string name="error_move_document">Misslyckades med att flytta dokumentet</string>
+    <string name="error_no_pages_to_share">Inga sidor att dela</string>
+    <string name="error_rename_document">Misslyckades med att byta namn på dokumentet</string>
+    <string name="error_reorder_pages">Misslyckades med att ändra ordningen på sidorna</string>
+    <string name="error_share_images">Misslyckades med att dela bilder</string>
+    <string name="error_share_pdf">Misslyckades med att dela PDF-filen</string>
+    <string name="error_share_page">Misslyckades med att dela sidan</string>
+    <string name="error_create_folder">Misslyckades med att skapa mappen</string>
+    <string name="error_delete_folder">Misslyckades med att ta bort mappen</string>
+    <string name="error_rename_folder">Misslyckades med att byta namn på mappen</string>
+    <string name="error_unknown">Ett okänt fel uppstod</string>
+    <string name="folder_not_found">Mappen hittades inte</string>
+    <string name="sync_documents">Synkronisera dokument</string>
+    <string name="shutter_scale">slutarskala</string>
+    <string name="import_gallery">Importera galleri</string>
+    <string name="scan_camera">Skanna kamera</string>
+</resources>

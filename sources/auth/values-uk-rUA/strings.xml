@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Перевірте підключення до Інтернету та переконайтеся, що обліковий запис Google додано на ваш пристрій, а потім повторіть спробу.</string>
+    <string name="sign_in_with_apple">Увійти за допомогою Apple</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Покращте свій досвід</string>
+    <string name="purchase_screen_close">Закрити</string>
+    <string name="purchase_screen_refresh">Оновити</string>
+    <string name="purchase_sync_status">Остання синхронізація: %1s</string>
+    <string name="purchase_current_plan">Поточний</string>
+    <string name="purchase_syncing">Синхронізація…</string>
+    <string name="purchase_loading">Завантаження…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Безкоштовний план</string>
+    <string name="purchase_pro_plan">Професійне видання</string>
+    <string name="purchase_pro_tagline">Плати один раз. Володій назавжди.</string>
+    <string name="purchase_premium_plan">Преміум-підписка</string>
+    <string name="purchase_premium_tagline">Все в Pro, плюс ШІ &amp; Хмара</string>
+    <string name="purchase_recommended">Рекомендовано</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">Читання вголос зі штучним інтелектом — слухайте PDF-файли природним чином</string>
+    <string name="purchase_pro_feature_2">Повне редагування PDF &amp; Заповнення форм</string>
+    <string name="purchase_pro_feature_3">Синхронізація між пристроями через Диск</string>
+    <string name="purchase_pro_feature_4">Без реклами, без водяних знаків на сканах</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">Підсумки ШІ з переконливішим обґрунтуванням</string>
+    <string name="purchase_premium_feature_1_desc">Глибші відповіді з довших, складних документів</string>
+    <string name="purchase_premium_feature_2_title">50 ГБ Falcon Cloud</string>
+    <string name="purchase_premium_feature_2_desc">Ваша особиста PDF-бібліотека, синхронізована та захищена</string>
+    <string name="purchase_premium_feature_3_title">Без обмежень на понад 60 інструментів для роботи з PDF</string>
+    <string name="purchase_premium_feature_3_desc">Кожен інструмент завжди доступний</string>
+    <string name="purchase_premium_feature_4_title">Повне редагування тексту в PDF-файлах</string>
+    <string name="purchase_premium_feature_4_desc">Редагуйте текст безпосередньо, як у текстовому редакторі</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Купити Професійний</string>
+    <string name="purchase_sign_in_buy">Увійти &amp; Купити</string>
+    <string name="purchase_sign_in_subscribe">Увійти &amp; Підписатися</string>
+    <string name="purchase_subscribe">Підписатися</string>
+    <string name="purchase_start_trial">Почати 7-денний безкоштовний пробний період</string>
+    <string name="purchase_view_all_features">Переглянути всі функції</string>
+    <string name="purchase_show_more">Показати більше</string>
+    <string name="purchase_show_less">Показати менше</string>
+    <string name="purchase_see_all_features">Переглянути всі функції</string>
+    <string name="purchase_manage_subscription">Керування підпискою</string>
+    <string name="purchase_restore_purchases">Відновлення покупок</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Щомісяця</string>
+    <string name="purchase_billing_yearly">Щорічно</string>
+    <string name="purchase_save_badge">Збережіть 40%</string>
+    <string name="purchase_lifetime">Довічно</string>
+    <string name="purchase_per_year">/рік</string>
+    <string name="purchase_per_month">/місяць</string>
+    <string name="purchase_trial_terms">Скасувати можна будь-коли. Поновлення, якщо не скасувати за 24 години до закінчення пробного періоду.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Не вдалося завантажити товари. Перевірте свій вхід та підключення до Інтернету.</string>
+    <string name="purchase_error_network">З’єднання втрачено. Перевірте інтернет-з’єднання та спробуйте ще раз.</string>
+    <string name="purchase_error_payment_declined">Спосіб оплати відхилено. Будь ласка, оновіть свою платіжну інформацію.</string>
+    <string name="purchase_error_server">Щось пішло не так. Спробуйте ще раз пізніше.</string>
+    <string name="purchase_error_rate_limit">Забагато спроб оновлення. Зачекайте.</string>
+    <string name="purchase_error_offline">Немає інтернет-з’єднання. Відображаються кешовані дані.</string>
+    <string name="purchase_error_product_refresh">Не вдалося перевірити товар. Спробуйте ще раз.</string>
+    <string name="purchase_error_generic">Сталася помилка. Будь ласка, спробуйте ще раз.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Умови надання послуг</string>
+    <string name="purchase_privacy_policy">Політика конфіденційності</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">Історія покупок</string>
+    <string name="free_trial">Безкоштовна пробна версія</string>
+    <string name="no_purchase_history">Немає історії покупок</string>
+    <string name="you_havent_made_any_purchases_">Ви ще не зробили жодної покупки.</string>
+    <string name="error">Помилка</string>
+    <string name="retry">Повторити спробу</string>
+    <string name="back">Назад</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Покращте свій досвід</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Відновлення покупок</string>
+    <string name="close_purchase_screen">Закрити екран покупки</string>
+    <string name="help">Допомога</string>
+    <string name="more_options">Більше опцій</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Оновити</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Активний</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s АКТИВНИЙ</string>
+    <string name="premium_benefits">ПРЕМІУМ-ПЕРЕВАГИ</string>
+    <string name="manage_subscription">Керування підпискою</string>
+    <string name="next_billing_date__manage_your">Наступна дата виставлення рахунків: %1$s. Керуйте платіжними даними та скасуванням через налаштування облікового запису Play Store.</string>
+    <string name="purchase_expires_">Термін дії покупки закінчується: %1$s</string>
+    <string name="falcon_pdf_pro">Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">Преміум-підписка Falcon PDF (щомісяця)</string>
+    <string name="falcon_pdf_premium_yearly">Преміум-підписка на Falcon PDF (річна)</string>
+    <string name="pro">ПРОФЕСІЙНИЙ</string>
+    <string name="premium">ПРЕМІУМ</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Отримайте Falcon PDF Pro або Premium</string>
+    <string name="purchase_desktop_subtitle">Покупки здійснюються на нашому вебсайті. Натисніть нижче, щоб переглянути плани та ціни.</string>
+    <string name="purchase_desktop_open_website">Переглянути плани &amp; Ціни</string>
+    <string name="purchase_desktop_already_purchased">Вже придбали? Увійдіть, щоб синхронізувати свій план.</string>
+    <string name="purchase_store_build_subtitle">Ваша передплата відкриває функції Pro на всіх ваших пристроях. Увійдіть, щоб синхронізувати свій план.</string>
+    <string name="ai_read_aloud">Штучний інтелект читає вголос</string>
+    <string name="full_pdf_editing__form_filling">Повне редагування PDF &amp; Заповнення форм</string>
+    <string name="crossdevice_sync_via_drive">Синхронізація між пристроями через Диск</string>
+    <string name="adfree_no_watermark">Без реклами, без водяних знаків</string>
+    <string name="export_to_word__excel">Експорт у Word &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">Кілька тем &amp; Фони сторінок</string>
+    <string name="ai_summaries_with_stronger_reasoning">Підсумки ШІ з переконливішим обґрунтуванням</string>
+    <string name="no_limits_on_60_pdf_tools">Без обмежень на понад 60 інструментів для роботи з PDF</string>
+    <string name="full_text_editing_in_pdfs">Повне редагування тексту в PDF-файлах</string>
+    <string name="digital_signatures_dscesign">Цифрові підписи (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Необмежена синхронізація сканованих документів</string>
+    <string name="biometric_document_lock">Біометричний замок для документів</string>
+    <string name="everything_in_pro_all_devices">Все в Pro, всі пристрої</string>
+    <string name="introductory_offer">Вступна пропозиція</string>
+    <string name="limited_time__30_off">Обмежений час — знижка 30%</string>
+    <string name="date__time">Дата &amp; Час</string>
+    <string name="amount">Сума</string>
+    <string name="platform">Платформа</string>
+    <string name="type">Тип</string>
+    <string name="expires_on">Термін дії закінчується</string>
+</resources>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Skandeer</string>
+    <string name="scan_home_documents">Dokumente</string>
+    <string name="scan_home_documents_lowercase">dokumente</string>
+    <string name="scan_home_documents_count">%1$d Dokumente</string>
+    <string name="scan_home_no_documents">Geen dokumente nog nie</string>
+    <string name="scan_home_start_scanning">Begin skandeer om jou eerste dokument te skep</string>
+    <string name="scan_home_new_folder">Nuwe Vouer</string>
+    <string name="scan_home_scan_document">Skandeer Dokument</string>
+    <string name="scan_home_import_gallery">Voer in vanaf Galery</string>
+    <string name="scan_home_parent_folder">Ouervouer</string>
+    <string name="scan_home_go_back">Gaan terug na ouermap</string>
+    <string name="scan_home_create_folder">Skep Nuwe Vouer</string>
+    <string name="scan_home_enter_folder_name">Voer 'n naam vir die nuwe vouer in</string>
+    <string name="scan_home_folder_name">Vouernaam</string>
+    <string name="scan_home_folder_placeholder">bv. Werkdokumente</string>
+    <string name="scan_home_folder_error">Vouernaam kan nie leeg wees nie</string>
+    <string name="scan_home_folder_name_empty">Vouernaam kan nie leeg wees nie</string>
+    <string name="scan_home_create">Skep</string>
+    <string name="scan_home_folder_exists">'n Vouer met hierdie naam bestaan reeds</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Kamera</string>
+    <string name="scan_camera_permission_required">Kameratoestemming Vereis</string>
+    <string name="scan_camera_permission_message">Hierdie toepassing benodig kameratoegang om dokumente te skandeer.</string>
+    <string name="scan_camera_permission_settings">Gaan asseblief na Instellings &gt; Programme &gt; PDF-kyker &gt; Toestemmings en aktiveer Kamera-toestemming.</string>
+    <string name="scan_camera_permission_title">Kameratoestemming Vereis</string>
+    <string name="scan_camera_request_permission">Versoek Toestemming</string>
+    <string name="scan_camera_open_settings">Maak Instellings oop</string>
+    <string name="scan_camera_close">Maak toe</string>
+    <string name="scan_camera_flash">Flits</string>
+    <string name="scan_camera_auto_capture">Outomatiese Vaslegging</string>
+    <string name="scan_camera_settings">Instellings</string>
+    <string name="scan_camera_ready_batch">Gereed om verskeie bladsye te skandeer</string>
+    <string name="scan_camera_ready_multiple">Gereed om verskeie bladsye te skandeer</string>
+    <string name="scan_camera_hold_steady">Hou stil terwyl jy skandeer</string>
+    <string name="scan_camera_captured_pages">%1$d bladsye vasgelê</string>
+    <string name="scan_camera_mode_single">Enkellopend</string>
+    <string name="scan_camera_mode_batch">Groep</string>
+    <string name="scan_camera_preview">Voorskou</string>
+    <string name="scan_camera_finish">Voltooi</string>
+    <string name="scan_camera_starting">Begin kamera...</string>
+    <string name="scan_camera_document_name">Dokumentnaam</string>
+    <string name="scan_camera_document_name_empty">Dokumentnaam kan nie leeg wees nie</string>
+    <string name="scan_camera_save_document">Stoor Dokument</string>
+    <string name="scan_camera_processing">Verwerk...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Sny &amp; Pas aan</string>
+    <string name="scan_crop_close">Maak toe</string>
+    <string name="scan_crop_reset">Herstel</string>
+    <string name="scan_crop_rotate">Roteer</string>
+    <string name="scan_crop_done">Klaar</string>
+    <string name="scan_crop_scanned_document">Geskandeerde dokument</string>
+    <string name="scan_crop_magnified_view">Vergrote aansig</string>
+    <string name="scan_crop_processing">Verwerk...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Verbeter</string>
+    <string name="scan_filter_close">Maak toe</string>
+    <string name="scan_filter_rotate">Roteer</string>
+    <string name="scan_filter_done">Klaar</string>
+    <string name="scan_filter_filters">Filters</string>
+    <string name="scan_filter_original">Oorspronklik</string>
+    <string name="scan_filter_magic">Magie</string>
+    <string name="scan_filter_lighten">Verlig</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">Grysskaal</string>
+    <string name="scan_filter_magic_2">Skoon Dokument</string>
+    <string name="scan_filter_soft_scan">Sagte skandering</string>
+    <string name="scan_filter_color_enhance">Kleur+</string>
+    <string name="scan_filter_ink_saver">Inkbespaarder</string>
+    <string name="scan_filter_premium">Premium-funksie</string>
+    <string name="scan_filter_filtered_document">Gefiltreerde dokument</string>
+    <string name="scan_filter_applying">Pas filter toe...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Kanselleer</string>
+    <string name="scan_share">Deel</string>
+    <string name="scan_move">Beweeg</string>
+    <string name="scan_move_to_folder">Skuif na vouer</string>
+    <string name="scan_delete">Vee uit</string>
+    <string name="scan_rename">Hernoem</string>
+    <string name="scan_root">Wortel</string>
+    <string name="scan_select_destination">Kies 'n bestemmingsmap</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Dokument</string>
+    <string name="scan_document_back">Terug</string>
+    <string name="scan_document_pages">bladsye</string>
+    <string name="scan_document_add_pages">Voeg bladsye by hierdie dokument</string>
+    <string name="scan_document_add_page_button">Voeg bladsy by</string>
+    <string name="scan_document_rename">Hernoem</string>
+    <string name="scan_document_share">Deel</string>
+    <string name="scan_document_more">Meer</string>
+    <string name="scan_document_pages_count">%1$d bladsye</string>
+    <string name="scan_document_no_pages">Geen bladsye nog nie</string>
+    <string name="scan_document_scan_page">Skandeer bladsy</string>
+    <string name="scan_document_import_page">Voer in vanaf Galery</string>
+    <string name="scan_document_grid_view">Roosteraansig</string>
+    <string name="scan_document_list_view">Lysaansig</string>
+    <string name="scan_document_continuous_view">Deurlopende Aansig</string>
+    <string name="scan_document_page_number">Bladsy %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Bladsy</string>
+    <string name="scan_page_back">Terug</string>
+    <string name="scan_page_share">Deel</string>
+    <string name="scan_page_delete">Vee uit</string>
+    <string name="scan_page_of">%1$d van %2$d</string>
+    <string name="scan_page_image_not_found">Beeld nie gevind nie</string>
+    <string name="scan_page_retake">Herhaal</string>
+    <string name="scan_page_crop">Gewas</string>
+    <string name="scan_page_enhance">Verbeter</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">Stoor na Galery</string>
+    <string name="scan_page_saved_to_gallery">Beeld gestoor in galery</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Vee dokument uit?</string>
+    <string name="scan_delete_document_message">Is jy seker jy wil "%1$s" verwyder? Dit sal alle bladsye in hierdie dokument permanent verwyder. Hierdie aksie kan nie ongedaan gemaak word nie.</string>
+    <string name="scan_rename_document">Hernoem Dokument</string>
+    <string name="scan_rename_enter_name">Voer 'n nuwe naam vir die dokument in</string>
+    <string name="scan_rename_document_name">Dokumentnaam</string>
+    <string name="scan_rename_error">Dokumentnaam kan nie leeg wees nie</string>
+    <string name="scan_dialog_delete_document_title">Vee dokument uit?</string>
+    <string name="scan_dialog_delete_document_message">Is jy seker jy wil "%1$s" verwyder? Dit sal alle bladsye in hierdie dokument permanent verwyder. Hierdie aksie kan nie ongedaan gemaak word nie.</string>
+    <string name="scan_dialog_delete_confirm">Vee uit</string>
+    <string name="scan_dialog_cancel">Kanselleer</string>
+    <string name="scan_dialog_move_title">Skuif na vouer</string>
+    <string name="scan_dialog_move_message">Kies 'n bestemmingsmap</string>
+    <string name="scan_dialog_move_confirm">Beweeg</string>
+    <string name="scan_dialog_move_root">Wortel</string>
+    <string name="scan_dialog_move_selected">Geselekteerde</string>
+    <string name="scan_dialog_rename_title">Hernoem Dokument</string>
+    <string name="scan_dialog_rename_message">Voer 'n nuwe naam vir die dokument in</string>
+    <string name="scan_dialog_rename_label">Dokumentnaam</string>
+    <string name="scan_dialog_rename_error">Dokumentnaam kan nie leeg wees nie</string>
+    <string name="scan_dialog_rename_confirm">Hernoem</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Deel</string>
+    <string name="scan_menu_move">Skuif na vouer</string>
+    <string name="scan_menu_delete">Vee uit</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Kameravoorskou\n(Binnekort beskikbaar)</string>
+    <string name="scan_platform_desktop_camera">Voorskou van rekenaarkamera\n(Binnekort beskikbaar)</string>
+    <string name="scan_platform_ios_camera">iOS Kamera Voorskou\n(Kom Binnekort)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Maak toe</string>
+    <string name="flash">Flits</string>
+    <string name="auto_capture">Outomatiese Vaslegging</string>
+    <string name="settings">Instellings</string>
+    <string name="capture">Vasvang</string>
+    <string name="finish">Voltooi</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Is jy seker jy wil %1verwyder? Alle dokumente binne sal ook verwyder word.</string>
+    <string name="share">Deel</string>
+    <string name="share_as_images">Deel as beelde</string>
+    <string name="share_as_pdf">Deel as PDF</string>
+    <string name="move_to_folder">Skuif na vouer</string>
+    <string name="delete">Vee uit</string>
+    <string name="selected">Geselekteerde</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Bladsy %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">Lêer is leeg</string>
+    <string name="tap_the__button_to_scan_a_docu">Tik die + knoppie om 'n dokument te skandeer</string>
+    <string name="str______pages">%1$s • %2$s • %3$s bladsye</string>
+    <string name="create_folder">Skep vouer</string>
+    <string name="more_options">Meer opsies</string>
+    <string name="document_thumbnail">Dokumentkleinkiekie</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Beeld nie gevind nie</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Bladsy %2$d</string>
+    <string name="scan_ocr_title">Teksherkenning</string>
+    <string name="scan_ocr_copy">Kopieer teks</string>
+    <string name="scan_ocr_no_text">Geen teks gevind nie</string>
+    <string name="scan_ocr_processing">Herkenning van teks…</string>
+    <string name="scan_ocr_error">Kon nie teks herken nie</string>
+    <string name="scan_ocr_not_supported">OCR word nie op hierdie platform ondersteun nie</string>
+    <string name="scan_ocr_image">Geskandeerde bladsy vir OCR</string>
+    <string name="gallery">Galery</string>
+    <string name="select_file">Kies Lêer</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Kon nie beeld vaslê nie</string>
+    <string name="error_no_images_captured">Geen beelde geneem nie</string>
+    <string name="error_open_settings">Kon nie instellings oopmaak nie</string>
+    <string name="error_process_images">Kon nie beelde verwerk nie</string>
+    <string name="error_process_image">Kon nie beeld verwerk nie</string>
+    <string name="error_start_camera">Kon nie kamera begin nie</string>
+    <string name="error_stop_camera">Kon nie kamera stop nie</string>
+    <string name="error_crop_image">Kon nie beeld snoei nie</string>
+    <string name="error_delete_document">Kon nie dokument uitvee nie</string>
+    <string name="error_delete_page">Kon nie bladsy uitvee nie</string>
+    <string name="error_load_document">Kon nie dokument laai nie</string>
+    <string name="error_load_page">Kon nie bladsy laai nie</string>
+    <string name="error_move_document">Kon nie dokument skuif nie</string>
+    <string name="error_no_pages_to_share">Geen bladsye om te deel nie</string>
+    <string name="error_rename_document">Kon nie dokument hernoem nie</string>
+    <string name="error_reorder_pages">Kon nie bladsye herrangskik nie</string>
+    <string name="error_share_images">Kon nie beelde deel nie</string>
+    <string name="error_share_pdf">Kon nie PDF deel nie</string>
+    <string name="error_share_page">Kon nie bladsy deel nie</string>
+    <string name="error_create_folder">Kon nie vouer skep nie</string>
+    <string name="error_delete_folder">Kon nie vouer uitvee nie</string>
+    <string name="error_rename_folder">Kon nie die vouer hernoem nie</string>
+    <string name="error_unknown">'n Onbekende fout het voorgekom</string>
+    <string name="folder_not_found">Lêer nie gevind nie</string>
+    <string name="sync_documents">Sinkroniseer dokumente</string>
+    <string name="shutter_scale">sluiter_skaal</string>
+    <string name="import_gallery">Invoergalery</string>
+    <string name="scan_camera">Skandeerkamera</string>
+</resources>

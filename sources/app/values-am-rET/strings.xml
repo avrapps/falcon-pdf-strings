@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">ፒዲኤፍ ማጂክ</string>
+    <string name="app_tagline">ምን ማድረግ ትፈልጋለህ?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">ለመጨረሻ ጊዜ ጥቅም ላይ የዋለ</string>
+    <string name="home_favorites">ተወዳጆች</string>
+    <string name="home_new_tool">አዲስ መሳሪያ</string>
+    <string name="home_featured">ተለይቶ የቀረበ</string>
+    <string name="home_scan_to_pdf">ወደ ፒዲኤፍ ይቃኙ</string>
+    <string name="home_scan_description">የወረቀት ሰነዶችን ወዲያውኑ ወደ ዲጂታል አስማት ይለውጡ</string>
+    <string name="home_start_scanning">መቃኘት ጀምር</string>
+    <string name="home_all_tools">ሁሉም መሳሪያዎች</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">የፒዲኤፍ መሳሪያዎች</string>
+    <string name="image_tools">የምስል መሳሪያዎች</string>
+    <string name="tools_split">ስፕሊት</string>
+    <string name="tools_split_description">ገጾችን ማውጣት</string>
+    <string name="tools_rotate">አዙር</string>
+    <string name="tools_rotate_description">አቀማመጥን ያስተካክሉ</string>
+    <string name="tools_delete_pages">ገጾችን ሰርዝ</string>
+    <string name="tools_delete_pages_description">የማይፈለጉ ነገሮችን ያስወግዱ</string>
+    <string name="tools_convert">ቀይር</string>
+    <string name="tools_convert_description">ወደ/ከምስሎች</string>
+    <string name="tools_sign">ምልክት</string>
+    <string name="tools_sign_description">ፊርማ ያክሉ</string>
+    <string name="tools_protect">ጥበቃ</string>
+    <string name="tools_protect_description">የይለፍ ቃል ደህንነት</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">የፒዲኤፍ መመልከቻ</string>
+    <string name="pdf_viewer_page_info">ገጽ %1$d ከ %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">የሰነድ ስካነር</string>
+    <string name="scanner_capture">ቀረጻ</string>
+    <string name="scanner_retake">እንደገና ውሰድ</string>
+    <string name="scanner_save">አስቀምጥ</string>
+    <!-- Navigation -->
+    <string name="nav_back">ወደ ኋላ ይጓዙ</string>
+    <string name="nav_settings">ቅንብሮች</string>
+    <string name="nav_more_options">ተጨማሪ አማራጮች</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">መነሻ</string>
+    <string name="nav_library">ቤተ መጻሕፍት</string>
+    <string name="nav_scan">ቃኝ</string>
+    <string name="nav_tools">መሳሪያዎች</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">ፋይሎችን ያስሱ</string>
+    <string name="browse_files_subtitle">ማከማቻ &amp; የደመና ፋይሎች</string>
+    <string name="show_hidden_files">የተደበቁ ፋይሎችን አሳይ</string>
+    <string name="hide_hidden_files">የተደበቁ ፋይሎችን ደብቅ</string>
+    <string name="refresh_storage">ማከማቻን አድስ</string>
+    <string name="no_storage_available">ማከማቻ የለም</string>
+    <string name="no_files_found">ምንም ፋይሎች አልተገኙም</string>
+    <string name="add_files">%1$d ፋይሎችን ያክሉ</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">የማከማቻ ፈቃድ ያስፈልጋል</string>
+    <string name="permission_storage_message">ይህ መተግበሪያ የፒዲኤፍ ፋይሎችን ለማሰስ እና ለመክፈት ወደ መሳሪያዎ ማከማቻ መድረስ ያስፈልገዋል። እባክዎ የማከማቻው እንዲቀጥል ፈቃድ ይስጡት።</string>
+    <string name="permission_grant">ፈቃድ ይስጡ</string>
+    <!-- Common Actions -->
+    <string name="action_open">ክፈት</string>
+    <string name="action_save">አስቀምጥ</string>
+    <string name="action_share">አጋራ</string>
+    <string name="action_delete">ሰርዝ</string>
+    <string name="action_cancel">ሰርዝ</string>
+    <string name="action_confirm">አረጋግጥ</string>
+    <string name="action_rename">እንደገና ሰይም</string>
+    <string name="action_print">አትም</string>
+    <string name="action_favorite">ተወዳጅ</string>
+    <string name="action_unfavorite">ተወዳጅ ያልሆነ</string>
+    <!-- Document Actions -->
+    <string name="document_share">ሰነድ አጋራ</string>
+    <string name="document_rename">ሰነድን እንደገና ይሰይሙ</string>
+    <string name="document_delete">ሰነድ ሰርዝ</string>
+    <string name="document_print">ሰነድ አትም</string>
+    <string name="document_favorite">ወደ ተወዳጆች አክል</string>
+    <string name="document_unfavorite">ከተወዳጆች አስወግድ</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">ሰነድ በተሳካ ሁኔታ ተጋርቷል</string>
+    <string name="document_share_failed">ሰነድ ማጋራት አልተሳካም</string>
+    <string name="document_renamed_success">ሰነዱ በተሳካ ሁኔታ እንደገና ተሰይሟል</string>
+    <string name="document_rename_failed">ሰነዱን እንደገና መሰየም አልተሳካም</string>
+    <string name="document_deleted_success">ሰነድ በተሳካ ሁኔታ ተሰርዟል</string>
+    <string name="document_delete_failed">ሰነድ መሰረዝ አልተሳካም</string>
+    <string name="document_print_opened">ሰነዱ በነባሪ የፒዲኤፍ መመልከቻ ተከፍቷል። ለማተም የተመልካቹን የህትመት ተግባር ይጠቀሙ።</string>
+    <string name="document_print_failed">ሰነድ ማተም አልተሳካም</string>
+    <string name="document_added_to_favorites">ወደ ተወዳጆች ታክሏል</string>
+    <string name="document_removed_from_favorites">ከተወዳጆች ተወግዷል</string>
+    <string name="document_favorite_failed">የተወደደውን ሁኔታ ማዘመን አልተሳካም</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">ሰነድን እንደገና ይሰይሙ</string>
+    <string name="dialog_rename_hint">አዲስ ስም ያስገቡ</string>
+    <string name="dialog_rename_empty_error">የሰነድ ስም ባዶ ሊሆን አይችልም</string>
+    <string name="dialog_delete_title">ሰነድ ሰርዝ</string>
+    <string name="dialog_delete_file_message">ይህ ፋይሉን በቋሚነት ይሰርዘዋል።\n\n %1$s ሰርዝ?</string>
+    <string name="dialog_delete_uri_message">ከመተግበሪያው ብቻ ይወገዳል። የመጀመሪያው ፋይል ሳይለወጥ።\n\n %1$s ከመተግበሪያው ይወገድ?</string>
+    <string name="dialog_delete_confirm">ሰርዝ</string>
+    <string name="dialog_remove_confirm">አስወግድ</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">ስሙ በመተግበሪያው ውስጥ ብቻ ይሰየማል። የመጀመሪያው ፋይል ሳይለወጥ።</string>
+    <string name="notice_delete_uri_only">ከመተግበሪያው ተወግዷል። የመጀመሪያው ፋይል ሳይለወጥ።</string>
+    <string name="notice_file_exists_error">በዚህ ስም ፋይል አስቀድሞ አለ</string>
+    <string name="notice_file_not_found_error">ፋይሉ አልተገኘም</string>
+    <string name="notice_no_active_document">ምንም ንቁ ሰነድ የለም</string>
+    <string name="notice_document_path_unavailable">የሰነድ ፋይል ዱካ አይገኝም</string>
+    <!-- States -->
+    <string name="state_loading">በመጫን ላይ...</string>
+    <string name="state_empty">ምንም እቃዎች አልተገኙም</string>
+    <string name="state_error">የሆነ ችግር ተፈጥሯል</string>
+    <string name="state_retry">እንደገና ሞክር</string>
+    <!-- Errors -->
+    <string name="error_network">የአውታረ መረብ ግንኙነት አልተሳካም</string>
+    <string name="error_file_not_found">ፋይሉ አልተገኘም</string>
+    <string name="error_permission_denied">ፈቃድ ተከልክሏል</string>
+    <string name="error_invalid_file">ልክ ያልሆነ የፋይል ቅርጸት</string>
+    <string name="error_password_required">የይለፍ ቃል ያስፈልጋል</string>
+    <string name="error_incorrect_password">የተሳሳተ የይለፍ ቃል</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">የይለፍ ቃል የተጠበቀ</string>
+    <string name="password_protected_message">ይህ ፋይል ለመክፈት የይለፍ ቃል ይፈልጋል። እባክዎ ከታች ያስገቡት።</string>
+    <string name="password_label">የይለፍ ቃል</string>
+    <string name="password_placeholder">የይለፍ ቃል ያስገቡ</string>
+    <string name="password_unlock">ክፈት</string>
+    <string name="password_show">የይለፍ ቃል አሳይ</string>
+    <string name="password_hide">የይለፍ ቃል ደብቅ</string>
+    <!-- Theme -->
+    <string name="theme_light">ብርሃን</string>
+    <string name="theme_dark">ጨለማ</string>
+    <string name="theme_system">ስርዓት</string>
+    <string name="theme_adaptive">አዳፕቲቭ</string>
+    <string name="theme_custom">ብጁ</string>
+    <!-- Settings -->
+    <string name="settings_title">ምርጫዎች</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">መለያ &amp; ማመሳሰል</string>
+    <string name="settings_category_sync_subtitle">መለያዎን ያቀናብሩ፣ &amp; ግላዊነትን ያመሳስሉ</string>
+    <string name="settings_category_appearance_title">መልክ</string>
+    <string name="settings_category_appearance_subtitle">የመተግበሪያውን መልክ ያብጁ &amp; ስሜት</string>
+    <string name="settings_category_pdf_reader_title">የፒዲኤፍ አንባቢ</string>
+    <string name="settings_category_pdf_reader_subtitle">ነባሪ መመልከቻ &amp; የንባብ ተሞክሮ</string>
+    <string name="settings_category_help_title">እገዛ &amp; ድጋፍ</string>
+    <string name="settings_category_help_subtitle">ሰነዱ &amp; እውቂያ</string>
+    <string name="settings_category_general_title">ጄኔራል</string>
+    <string name="settings_category_general_subtitle">የቋንቋ &amp; የመተግበሪያ መረጃ</string>
+    <string name="settings_theme_section">ገጽታ</string>
+    <string name="settings_theme_description">የሚመርጡትን ገጽታ ይምረጡ</string>
+    <string name="settings_accent_color">አክሰንት ቀለም</string>
+    <string name="settings_custom_colors">ብጁ ቀለሞች</string>
+    <string name="settings_primary_color">ዋና ቀለም</string>
+    <string name="settings_background_color">የዳራ ቀለም</string>
+    <string name="settings_surface_color">የገጽታ ቀለም</string>
+    <string name="settings_reset_colors">ወደ ነባሪ ዳግም አስጀምር</string>
+    <string name="settings_adaptive_note">የቁሳቁስ ዩ ተለዋዋጭ ቀለሞች (አንድሮይድ 12+)</string>
+    <string name="settings_app_section">የመተግበሪያ ቅንብሮች</string>
+    <string name="settings_notifications">ማሳወቂያዎች</string>
+    <string name="settings_notifications_description">የመተግበሪያ ማሳወቂያዎችን ይቀበሉ</string>
+    <string name="settings_auto_backup">ራስ-ሰር ምትኬ</string>
+    <string name="settings_auto_backup_description">ሰነዶችን በራስ-ሰር ምትኬ ያስቀምጡላቸው</string>
+    <string name="settings_change_color">ቀለም ቀይር</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">የፒዲኤፍ ሰነዶችዎ እዚህ ይታያሉ</string>
+    <string name="scan_description">ሰነዶችን ወደ ፒዲኤፍ ይቃኙ</string>
+    <string name="tools_description">የፒዲኤፍ አርትዖት እና የማጭበርበሪያ መሳሪያዎች</string>
+    <string name="home_description">ባህሪያትን ለመድረስ የታችኛውን ዳሰሳ ይጠቀሙ</string>
+    <!-- Sort Options -->
+    <string name="sort_name">ስም</string>
+    <string name="sort_date">ቀን</string>
+    <string name="sort_size">መጠን</string>
+    <string name="sort_option_name">ስም</string>
+    <string name="sort_option_last_opened">ለመጨረሻ ጊዜ የተከፈተው</string>
+    <string name="sort_option_last_modified">ለመጨረሻ ጊዜ የተሻሻለው</string>
+    <string name="sort_option_file_size">የፋይል መጠን</string>
+    <!-- View Types -->
+    <string name="view_type_list">የዝርዝር እይታ</string>
+    <string name="view_type_table">የሰንጠረዥ እይታ</string>
+    <string name="view_type_grid">የፍርግርግ እይታ</string>
+    <!-- File Properties -->
+    <string name="file_name">የፋይል ስም</string>
+    <string name="date_modified">የተሻሻለበት ቀን</string>
+    <string name="file_size">መጠን</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">አልተጀመረም</string>
+    <string name="file_status_completed">ተጠናቋል</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">የፒዲኤፍ ሰነድ</string>
+    <string name="document_type_word">የቃል ሰነድ</string>
+    <string name="document_type_excel">የኤክሴል ተመን ሉህ</string>
+    <string name="document_type_image">የምስል ፋይል</string>
+    <string name="document_type_other">ሰነድ</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">ሁሉም ፋይሎች</string>
+    <string name="filter_recent">የቅርብ ጊዜ</string>
+    <string name="filter_pdfs">ፒዲኤፎች</string>
+    <string name="filter_images">ምስሎች</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">መነሻ</string>
+    <string name="browse_tab">ያስሱ</string>
+    <string name="starred_tab">ኮከብ የተደረገበት</string>
+    <string name="settings_tab">ቅንብሮች</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">ገጽታን ቀያይር</string>
+    <string name="accessibility_menu">ምናሌ</string>
+    <string name="accessibility_close">ገጠመ</string>
+    <string name="accessibility_color_picker">የቀለም መልቀሚያ</string>
+    <!-- Library Screen -->
+    <string name="library_title">ቤተ መጻሕፍት</string>
+    <string name="library_subtitle">ፋይሎችን፣ የቅርብ ጊዜዎችን ያቀናብሩ &amp; ተወዳጆች</string>
+    <string name="library_search_placeholder">ፋይሎችን ፈልግ...</string>
+    <string name="library_selected_count">%1$d ተመርጧል</string>
+    <string name="library_open_from_device">ከ\nመሣሪያ ክፈት</string>
+    <string name="library_browse_files">\nፋይሎችን ያስሱ</string>
+    <string name="library_action_open">ክፈት</string>
+    <string name="library_action_share">አጋራ</string>
+    <string name="library_action_remove">አስወግድ</string>
+    <string name="library_action_delete">ሰርዝ</string>
+    <string name="library_clear_search">ፍለጋን አጽዳ</string>
+    <string name="library_close_search">ፍለጋን ዝጋ</string>
+    <string name="library_select_all">ሁሉንም ፋይሎች ምረጥ</string>
+    <string name="library_exit_multiselect">ከብዙ ምርጫ ሁነታ ይውጡ</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">እገዛ &amp; ድጋፍ</string>
+    <string name="help_support_subtitle">ተደጋጋሚ ጥያቄዎች፣ ያግኙን &amp; ህጋዊ</string>
+    <string name="settings_pdf_subtitle">ሸብልል፣ ይመልከቱ &amp; አቀማመጥ</string>
+    <string name="help_header_title">እንዴት ልንረዳዎ እንችላለን?</string>
+    <string name="help_header_subtitle">ቡድናችን\nምርጡን የፒዲኤፍ ተሞክሮ እንዲኖርዎት ለማረጋገጥ እዚህ ይገኛል።</string>
+    <string name="help_contact_us">ያግኙን</string>
+    <string name="help_contact_subtitle">ከድጋፍ ጋር ይገናኙ</string>
+    <string name="help_faq">ተደጋጋሚ ጥያቄዎች</string>
+    <string name="help_faq_subtitle">የተለመዱ ጥያቄዎች መልስ ተሰጥቷቸዋል</string>
+    <string name="help_privacy_policy">የግላዊነት መመሪያ</string>
+    <string name="help_privacy_subtitle">ውሂብዎን እንዴት እንደምንጠብቅ</string>
+    <string name="help_terms_service">የአገልግሎት ውል</string>
+    <string name="help_terms_subtitle">የማመልከቻው ደንቦች</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">በሞባይል ውሂብ ላይ ማመሳሰል</string>
+    <string name="background_sync">የጀርባ ማመሳሰል</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">የፒዲኤፍ አንባቢ ቅንብሮች</string>
+    <string name="pdf_settings_coming_soon">በቅርቡ ይመጣል</string>
+    <string name="pdf_settings_description">የማሸብለል ባህሪን፣ የእይታ ሁነታዎችን እና የንባብ ምርጫዎችን ያዋቅሩ</string>
+    <!-- General Settings -->
+    <string name="settings_language">ቋንቋ</string>
+    <string name="settings_pdf_reader">የፒዲኤፍ አንባቢ ቅንብሮች</string>
+    <string name="settings_help_support">እገዛ &amp; ድጋፍ</string>
+    <string name="settings_whats_new">ምን አዲስ ነገር አለ</string>
+    <string name="settings_download_desktop">በሌላ መሳሪያ ላይ ይጫኑ</string>
+    <string name="settings_rate_app">ለመተግበሪያው ደረጃ ይስጡ</string>
+    <string name="play_store_not_found">Play Store በዚህ መሣሪያ ላይ አልተገኘም</string>
+    <string name="settings_set_as_default">እንደ ነባሪ የፒዲኤፍ መመልከቻ አዘጋጅ</string>
+    <string name="settings_set_as_default_subtitle">በነባሪነት በዚህ መተግበሪያ ፒዲኤፎችን ይክፈቱ</string>
+    <string name="settings_default_pdf_instructions_title">እንደ ነባሪ እንዴት ማዋቀር እንደሚቻል</string>
+    <string name="settings_default_pdf_ok">ገባኝ</string>
+    <string name="settings_default_app_hint">አልሰራም?</string>
+    <string name="settings_default_app_hint_learn_more">ተጨማሪ ይወቁ</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">ቋንቋ</string>
+    <string name="language_search_placeholder">ቋንቋዎችን ፈልግ...</string>
+    <!-- Common UI -->
+    <string name="support">ድጋፍ</string>
+    <string name="language_english">እንግሊዝኛ</string>
+    <string name="language_hindi">हिंदी</string>
+    <string name="language_spanish">ስፓኒሽ</string>
+    <string name="language_french">ፈረንሳይኛ</string>
+    <string name="language_german">ጀርመኖች</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">ፎን</string>
+    <string name="language_portuguese">ፖርቱጋልኛ</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">የመተግበሪያ ገጽታ</string>
+    <string name="theme">ጭብጥ</string>
+    <string name="general">ጄኔራል</string>
+    <string name="new">አዲስ</string>
+    <string name="navigate">ዳስስ</string>
+    <string name="download">አውርድ</string>
+    <string name="falcon_pdf">ፋልኮን ፒዲኤፍ</string>
+    <string name="excellence_in_every_pixel">በእያንዳንዱ ፒክስል ውስጥ የላቀ ጥራት</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">ለውጦችን ይተግብሩ</string>
+    <string name="apply">ያመልክቱ</string>
+    <string name="selected">ተመርጧል</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">ቅንብሮችን የማመሳሰል</string>
+    <string name="autosync_on_wifi">በዋይፋይ ላይ በራስ-ሰር ማመሳሰል</string>
+    <string name="sync_reading_progress">የንባብ ሂደትን ያመሳስሉ</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">የሰነድ ስም</string>
+    <string name="name_cannot_be_empty">ስም ባዶ ሊሆን አይችልም</string>
+    <string name="str__failed">%1$s አልተሳካም</string>
+    <string name="ok">እሺ</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">የማሻሻል ዕቅድ - የአሁኑ ዕቅድ፦ %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">ፋይል ለመክፈት ጣል ያድርጉ</string>
+    <string name="release_to_import_and_open_pdf">የፒዲኤፍ ፋይሎችን ለማስመጣት እና ለመክፈት ይልቀቁ</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">አስወግድ</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">ፒዲኤፍ</string>
+    <string name="images">ምስሎች</string>
+    <string name="filter_all_types">ሁሉም ፋይሎች</string>
+    <string name="favorites">ተወዳጅ ፋይሎች</string>
+    <string name="recent">የቅርብ ጊዜ</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">ሰነዶችን ፈልግ...</string>
+    <string name="voice_search">የድምጽ ፍለጋ</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">የቅርብ ጊዜ ፋይሎች</string>
+    <string name="loading_recent_files">የቅርብ ጊዜ ፋይሎችን በመጫን ላይ...</string>
+    <string name="no_recent_files">ምንም የቅርብ ጊዜ ፋይሎች የሉም</string>
+    <string name="no_favorites">ምንም ተወዳጆች የሉም</string>
+    <string name="mark_files_as_favorite_to_see_them_here">ፋይሎችን እዚህ ለማየት እንደ ተወዳጅ ምልክት ያድርጉባቸው</string>
+    <string name="open_some_pdf_files_to_see_the">እዚህ ለማየት አንዳንድ የፒዲኤፍ ፋይሎችን ይክፈቱ</string>
+    <string name="status">ሁኔታ</string>
+    <string name="actions">እርምጃዎች</string>
+    <string name="select_all">ሁሉንም ምረጥ</string>
+    <string name="enter_multiselect_mode">ባለብዙ ምርጫ ሁነታን ያስገቡ</string>
+    <string name="sorted_ascending">ወደ ላይ መውጣትን ተደርድሯል</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">ማከማቻ፦ %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">%1$s ፋይሎችን ያክሉ</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">የእይታ አይነት ቀይር</string>
+    <string name="filter_">ማጣሪያ፡ %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">ፒዲኤፍ በመጫን ላይ...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">ለማመሳሰል ይግቡ</string>
+    <string name="protect_your_library_files">የቤተ-መጽሐፍት ፋይሎችዎን ይጠብቁ</string>
+    <string name="sign_in">ይግቡ</string>
+    <string name="sign_out">ውጣ</string>
+    <string name="sign_in_dialog_title">ወደ Falcon PDF ይግቡ</string>
+    <string name="sign_in_dialog_subtitle">የፒዲኤፍ ቤተ-መጽሐፍትዎ፣ በሁሉም ቦታ።</string>
+    <string name="sign_in_with_google">በGoogle ይግቡ</string>
+    <string name="sign_in_with_apple">በአፕል ይግቡ</string>
+    <string name="apple_user_drive_unavailable">የGoogle Drive ማመሳሰል በApple Sign-In አይገኝም</string>
+    <string name="apple_user_link_google">ለDrive ማመሳሰል የጉግል መለያን ያገናኙ</string>
+    <string name="apple_user_sync_info">የደመና ማመሳሰልን ለማንቃት፣ የGoogle መለያ ያገናኙ</string>
+    <string name="link_google_account">የጉግል መለያ አገናኝ</string>
+    <string name="signed_in_successfully">በተሳካ ሁኔታ ገብተዋል</string>
+    <string name="signed_out_successfully">በተሳካ ሁኔታ ወጥተዋል</string>
+    <string name="sync_disabled_free">ማመሳሰል ለነፃ መለያዎች ተሰናክሏል።</string>
+    <string name="storage_disabled_grant_access">ማከማቻ ተሰናክሏል። ለመጀመር የመንዳት መዳረሻ ይስጡ።</string>
+    <string name="upgrade_to_pro">ወደ ፕሮ ያሻሽሉ</string>
+    <string name="grant_drive_access">የመንዳት መዳረሻ ይስጡ</string>
+    <string name="files_synced">%1$d/%2$d ፋይሎች ተመሳስለዋል</string>
+    <string name="synced_count">%1$d ተመሳስሏል</string>
+    <string name="unlimited_sync_active">ያልተገደበ ማመሳሰል</string>
+    <string name="missing_drive_permissions">የDrive ፈቃዶች ይጎድላሉ። ማመሳሰል በአሁኑ ጊዜ ታግዷል።</string>
+    <string name="drive_access_revoked">የDrive መዳረሻ ተሰርዟል። ማመሳሰልን ለመቀጠል እንደገና ያገናኙ።</string>
+    <string name="upgrade_premium">ፕሪሚየምን ያሻሽሉ</string>
+    <string name="manage_account">መለያን ያቀናብሩ</string>
+    <string name="sync_now">አሁን አመሳስል</string>
+    <string name="tier_free">ፍርይ</string>
+    <string name="tier_pro">ፕሮ</string>
+    <string name="tier_premium">ፕሪሚየም</string>
+    <string name="status_paused">ለአፍታ ቆሟል</string>
+    <!-- Common -->
+    <string name="navigate_back">ወደ ኋላ ይጓዙ</string>
+    <string name="dismiss">አሰናብት</string>
+    <string name="cancel">ሰርዝ</string>
+    <string name="back">ተመለስ</string>
+    <string name="search">ፈልግ</string>
+    <string name="more_actions">ተጨማሪ እርምጃዎች</string>
+    <string name="share">አጋራ</string>
+    <string name="delete">ሰርዝ</string>
+    <string name="remove_from_recents">ከቅርብ ጊዜዎች ያስወግዱ</string>
+    <string name="open">ክፈት</string>
+    <string name="all">ሁሉም</string>
+    <string name="sort_by_">በ %1$sደርድር</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">የጉግል ድራይቭ ማመሳሰል</string>
+    <string name="syncing">በማመሳሰል ላይ...</string>
+    <string name="sync_completed">ማመሳሰል ተጠናቅቋል</string>
+    <string name="sync_failed">ማመሳሰል አልተሳካም</string>
+    <string name="sync_limit_exceeded">የማመሳሰል ገደቡ አልፏል። የእርስዎ %s ዕቅድ %d ፋይሎችን ይፈቅዳል።</string>
+    <string name="sync_no_drive_access">የጉግል ድራይቭ መዳረሻ አይገኝም</string>
+    <string name="sync_network_unavailable">አውታረ መረብ አይገኝም</string>
+    <string name="sync_last_sync">የመጨረሻው ማመሳሰል፦ %s</string>
+    <string name="sync_total_files">ጠቅላላ</string>
+    <string name="sync_synced_files">ተመሳስሏል</string>
+    <string name="sync_failed_files">አልተሳካም</string>
+    <string name="sync_conflict_files">ግጭቶች</string>
+    <string name="sync_add_to_favorites">ወደ ተወዳጆች ያክሉ</string>
+    <string name="sync_remove_from_favorites">ከተወዳጆች አስወግድ</string>
+    <string name="sync_conflict_title">የማመሳሰል ግጭቶች</string>
+    <string name="sync_conflict_message">የሚከተሉት ፋይሎች መፍትሄ የሚያስፈልጋቸው ግጭቶች አሏቸው፦</string>
+    <string name="sync_conflict_explanation">ግጭቶች የሚከሰቱት ሁለቱም የአካባቢ እና የርቀት ስሪቶች ሲሻሻሉ ነው።</string>
+    <string name="sync_plan_limit">ማመሳሰል፦ %d/%d</string>
+    <string name="sync_plan_limit_reached">ወሰን ላይ ደርሷል</string>
+    <string name="sync_plan_unlimited">ያልተገደበ ማመሳሰል</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">ዝለል</string>
+    <string name="welcome_next">ቀጣይ</string>
+    <string name="welcome_get_started">እንጀምር</string>
+    <string name="welcome_sign_in_get_started">ይግቡ &amp; ይጀምሩ</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;ማንኛውንም ሰነድ ወዲያውኑ ያንብቡ&lt;/b&gt;</string>
+    <string name="welcome_slide1_description">ፒዲኤፍ፣ DOC፣ EPUB፣ MOBIን ጨምሮ ከ10 በላይ የሰነድ ቅርጸቶችን ይክፈቱ እና ያቀናብሩ።</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;ፒዲኤፎችን፣ ኢ-መጽሐፍቶችን፣&lt;/b&gt; እና የቢሮ ሰነዶችን በአንድ ቦታ ያንብቡ</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;ተወዳጅ&lt;/b&gt; ሰነዶች እና በመሳሪያዎች ላይ ይድረሱባቸው</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;አስተያየት ይስጡ፣&lt;/b&gt; ያድምቁ እና በቀላሉ ይተባበሩ</string>
+    <string name="welcome_slide1_footer">ሁለንተናዊ የሰነድ አንባቢዎ</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;አርትዕ፣ ቃኝ እና አደራጅ&lt;/b&gt; ፒዲኤፎች</string>
+    <string name="welcome_slide2_description">ፒዲኤፎችን በአንድ ኃይለኛ የመሳሪያ ስብስብ ለመፍጠር፣ ለማርትዕ እና ለማስተዳደር የሚያስፈልግዎ ነገር ሁሉ።</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;ጽሑፍን ያርትዑ፣&lt;/b&gt; ማብራሪያ ይስጡ፣ ያድምቁ እና ቅጾችን ይሙሉ</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;ሰነዶችን&lt;/b&gt; ይቃኙ እና ወዲያውኑ ወደ ፒዲኤፍ ይቀይሯቸው</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;30+ መሳሪያዎች&lt;/b&gt; ውህደትን፣ መቀየርን፣ መጭመቅን እና ደህንነትን ጨምሮ</string>
+    <string name="welcome_slide2_footer">የእርስዎ ሁሉን-በአንድ የፒዲኤፍ የስራ ቦታ</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;AI That Understands&lt;/b&gt; Your Documents</string>
+    <string name="welcome_slide3_description">ሰነዶችን የሚያነብ እና የሚተነትን የ AI በመጠቀም ሰዓታትን ይቆጥቡ።</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;በሰከንዶች ውስጥ ረጅም ሰነዶችን&lt;/b&gt; ማጠቃለያ</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; ገጾችን ቃኝተው ወዲያውኑ ጽሑፍ ይተርጉሙ</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;አብሮገነብ ጮክ ብለው የሚነበቡ ሰነዶችን&lt;/b&gt; ያዳምጡ</string>
+    <string name="welcome_slide3_footer">ምንም ማስታወቂያዎች የሉም። ምርታማነት ብቻ።</string>
+    <string name="grace">ግሬስ</string>
+    <string name="unable_to_verify_subscription_limited_ac">የደንበኝነት ምዝገባን ማረጋገጥ አልተቻለም። ግንኙነቱ እስኪመለስ ድረስ የተገደበ መዳረሻ።</string>
+    <string name="retry_verification">ማረጋገጫውን እንደገና ይሞክሩ</string>
+    <string name="guest_state">የእንግዳ ግዛት</string>
+    <string name="free_tier">ነፃ ደረጃ</string>
+    <string name="free_tier__locked">ነፃ ደረጃ - ተቆልፏል</string>
+    <string name="pro_tier">ፕሮ ታይር</string>
+    <string name="pro_tier__restricted">ፕሮፌሽናል ደረጃ - የተገደበ</string>
+    <string name="premium_tier">ፕሪሚየም ደረጃ</string>
+    <string name="premium_tier__error">ፕሪሚየም ደረጃ - ስህተት</string>
+    <string name="refresh_plan_status">የዕቅድ ሁኔታን አድስ</string>
+    <string name="user_avatar">የተጠቃሚ አምሳያ</string>
+    <string name="debug_tools">የስህተት ማረም መሳሪያዎች</string>
+    <string name="authentication__drive">ማረጋገጫ &amp; ድራይቭ</string>
+    <string name="auth_state">የፈቃድ ግዛት</string>
+    <string name="revoke_drive_access">የDrive መዳረሻን ሻር</string>
+    <string name="image">ምስል</string>
+    <string name="thumbnail">ድንክዬ</string>
+    <string name="manage_preferences">ምርጫዎችን ያቀናብሩ</string>
+    <string name="tools_history">የመሳሪያዎች ታሪክ</string>
+    <string name="manage_recent_logs">የቅርብ ጊዜ ምዝግብ ማስታወሻዎችን ያቀናብሩ</string>
+    <string name="more_options">ተጨማሪ አማራጮች</string>
+    <string name="clear_all_history">ሁሉንም ታሪክ አጽዳ</string>
+    <string name="no_history_yet">እስካሁን ምንም ታሪክ የለም</string>
+    <string name="your_pdf_tool_operations_will_appear_her">የፒዲኤፍ መሣሪያዎ ስራዎች እዚህ ይታያሉ</string>
+    <string name="view">ይመልከቱ</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">ተቀምጧል %1$s</string>
+    <string name="history_status_processing">ሂደት</string>
+    <string name="history_status_succeeded">ተሳክቷል</string>
+    <string name="history_status_failed">አልተሳካም</string>
+    <string name="history_status_processing_upper">ማቀነባበር</string>
+    <string name="history_unknown_files">ያልታወቁ ፋይሎች</string>
+    <string name="history_op_complete">%1$s ተጠናቋል!</string>
+    <string name="history_op_failed">%1$s አልተሳካም</string>
+    <string name="history_op_success_multiple">ክዋኔው በ %1$d ፋይሎች በተሳካ ሁኔታ ተጠናቋል</string>
+    <string name="history_op_success_single">ክዋኔው በተሳካ ሁኔታ ተጠናቋል</string>
+    <string name="history_op_error">ቀዶ ጥገናውን ማጠናቀቅ አልቻልንም</string>
+    <string name="history_multiple_files">%1$d ፋይሎች</string>
+    <string name="history_failed">አልተሳካም</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">የደመና ማመሳሰል</string>
+    <string name="cloud_sync_subtitle">የተገናኙ መሣሪያዎች</string>
+    <string name="cloud_sync_all_synced">ሁሉም ፋይሎች ተመሳስለዋል</string>
+    <string name="cloud_sync_syncing">በማመሳሰል ላይ…</string>
+    <string name="cloud_sync_pending">ማመሳሰል በመጠባበቅ ላይ</string>
+    <string name="cloud_sync_last_sync">የመጨረሻው ማመሳሰል፦ %1$s</string>
+    <string name="cloud_sync_never_synced">በፍፁም አልተመሳሰለም</string>
+    <string name="cloud_sync_recent_activity">የቅርብ ጊዜ የማመሳሰል እንቅስቃሴ</string>
+    <string name="cloud_sync_no_files">እስካሁን ምንም የተመሳሰሉ ፋይሎች የሉም</string>
+    <string name="cloud_sync_synced_to_drive">ከDrive ጋር ተመሳስሏል</string>
+    <string name="cloud_sync_pending_upload">ሰቀላ በመጠባበቅ ላይ</string>
+    <string name="cloud_sync_sync_now">አሁን አመሳስል</string>
+    <string name="cloud_sync_view_history">የማመሳሰል ታሪክን ይመልከቱ</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d ፋይሎች ተመሳስለዋል</string>
+    <string name="cloud_sync_unlimited_files">%1$d ፋይሎች ተመሳስለዋል · ያልተገደበ</string>
+    <string name="cloud_sync_cta_title">ማንኛውም መድረክ፣ በማንኛውም ጊዜ</string>
+    <string name="cloud_sync_cta_subtitle">ሰነዶችዎ በሁሉም ቦታ ይከተሉዎታል</string>
+    <string name="cloud_sync_files_label">%1$d ፋይሎች</string>
+    <string name="settings_data_privacy">ውሂብ &amp; ግላዊነት</string>
+    <string name="settings_data_privacy_subtitle">ውሂብ፣ መለያ &amp; ስረዛን ያቀናብሩ</string>
+    <string name="settings_delete_account">መለያ ሰርዝ</string>
+    <string name="settings_delete_account_subtitle">መለያዎን እና ውሂብዎን በቋሚነት ይሰርዙ</string>
+    <string name="delete_account_warning_title">መለያዎን ይሰርዙ?</string>
+    <string name="delete_account_warning_message">ይህ የእርስዎን መለያ እና የግዢ ታሪክዎን እና የደመና-የተመሳሰሉ ፋይሎችን ጨምሮ ሁሉንም ተዛማጅ መረጃዎች በቋሚነት ይሰርዛል። ይህ እርምጃ ሊቀለበስ አይችልም እና ግዢዎች በኋላ ላይ ሊመለሱ አይችሉም።</string>
+    <string name="delete_account_confirm_phrase_label">ለመቀጠል 'confirm delete' ብለው ይተይቡ፦</string>
+    <string name="delete_account_confirm_phrase">ስረዛን ያረጋግጡ</string>
+    <string name="delete_account_button">መለያ ሰርዝ</string>
+    <string name="delete_account_error_reauth">ለደህንነት ሲባል፣ መለያዎን ለመሰረዝ በቅርቡ ገብተው መሆን አለበት። እባክዎ ይውጡ እና እንደገና ይግቡ፣ ከዚያ እንደገና ይሞክሩ።</string>
+    <string name="delete_account_success">መለያ በተሳካ ሁኔታ ተሰርዟል</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">ፋይል &amp; የማመሳሰል ቅንብሮች</string>
+    <string name="sync_on_mobile_data_subtitle">ለደመና ማመሳሰል የሞባይል ውሂብን ይጠቀሙ</string>
+    <string name="drive_sync">የጀርባ ማመሳሰል</string>
+    <string name="drive_sync_subtitle">ተወዳጆችን አመሳስል &amp; ሰነዶችን ወደ Drive ይቃኙ</string>
+    <string name="do_not_import_from_other_apps">ከሌሎች መተግበሪያዎች ፋይሎችን አያስመጡ</string>
+    <string name="do_not_import_from_other_apps_subtitle">ወደ ቤተ-መጽሐፍት ሳያስቀምጡ የተጋሩ ፋይሎችን ለጊዜው ይክፈቱ</string>
+    <string name="clear_imported_files">ከውጭ የመጡ ፋይሎችን አጽዳ</string>
+    <string name="clear_imported_files_subtitle">ከሌሎች መተግበሪያዎች የተገለበጡ ፋይሎችን በሙሉ ሰርዝ</string>
+    <string name="clear_imports_confirm_title">ከውጪ የመጡ ፋይሎችን አጽዳ?</string>
+    <string name="clear_imports_confirm_message">ይህ በእርስዎ Imports folder ውስጥ ያሉትን ሁሉንም ፋይሎች በቋሚነት ይሰርዛል። ይህ ሊቀለበስ አይችልም።</string>
+    <string name="clear_imports_success">የመጡ ፋይሎች ጸድተዋል</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">ውሂብ &amp; ግላዊነት</string>
+    <string name="analytics_opt_out_title">የአጠቃቀም ውሂብ ላክ</string>
+    <string name="analytics_opt_out_subtitle">መተግበሪያውን ለማሻሻል ለማገዝ ስም-አልባ የአጠቃቀም ውሂብ እና የብልሽት ሪፖርቶችን ለገንቢው ያጋሩ</string>
+    <string name="analytics_opt_out_disabled_note">የትንታኔ እና የብልሽት ሪፖርት ማድረግ ተሰናክለዋል። ምንም አይነት ውሂብ ወደ Google ወይም ገንቢው አይላክም።</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">ያልተቀመጡ ለውጦች</string>
+    <string name="unsaved_changes_tab_message">ይህ ሰነድ ያልተቀመጡ ለውጦች አሉት። ከመዝጋትዎ በፊት ማስቀመጥ ይፈልጋሉ?</string>
+    <string name="unsaved_changes_window_message">በአንድ ወይም ከዚያ በላይ በሆኑ ሰነዶች ላይ ያልተቀመጡ ለውጦች አሉዎት። እነሱን ማስወገድ እና ማቋረጥ ይፈልጋሉ?</string>
+    <string name="discard">ጣለው</string>
+    <string name="discard_and_quit">ጣለው &amp; ውጣ</string>
+    <string name="close">ገጠመ</string>
+    <string name="remove_favorite">ተወዳጅን አስወግድ</string>
+    <string name="set_as_default_pdf_viewer">እንደ ነባሪ የፒዲኤፍ መመልከቻ ይቀናበር?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF የእርስዎ ነባሪ የፒዲኤፍ መመልከቻ አይደለም። ሁሉም የፒዲኤፍ ፋይሎች በFalcon PDF እንዲከፈቱ እንደ ነባሪ አድርገው ሊያዘጋጁት ይፈልጋሉ?</string>
+    <string name="set_now">አሁን አዘጋጅ</string>
+    <string name="never">በፍፁም</string>
+    <string name="later">በኋላ ላይ</string>
+    <string name="set_default">ነባሪ አዘጋጅ</string>
+    <string name="default">ነባሪ</string>
+    <string name="version_">ስሪት %1$s</string>
+    <string name="sign_in_with_other_accounts">በሌሎች መለያዎች ይግቡ</string>
+    <string name="upgrade">አሻሽል</string>
+    <string name="view_plan">ዕቅድን ይመልከቱ</string>
+    <string name="unlimited_sync_upto_5gb">እስከ 5 ጊባ ድረስ ያልተገደበ ማመሳሰል</string>
+    <string name="unlock_faster">በበለጠ ፍጥነት ይክፈቱ</string>
+    <string name="use_biometrics_instead_of_passwords">ከይለፍ ቃላት ይልቅ ባዮሜትሪክስ ይጠቀሙ።</string>
+    <string name="upgrade_to_premium">ወደ ፕሪሚየም ያሻሽሉ</string>
+    <string name="unlock_pdf">ፒዲኤፍ ይክፈቱ</string>
+    <string name="use__to_accessnthis_document">ይህንን ሰነድ\nለመድረስ %1$s ን ይጠቀሙ</string>
+    <string name="open_with_password">በይለፍ ቃል ክፈት</string>
+    <string name="secure">ደህንነቱ የተጠበቀ</string>
+    <string name="loading_">%1$s በመጫን ላይ ...</string>
+    <string name="failed_to_open_ebook">ኢ-መጽሐፍን መክፈት አልተሳካም</string>
+    <string name="properties">ንብረቶች</string>
+    <string name="copy">ቅጂ</string>
+    <string name="highlight">ማድመቂያ</string>
+    <string name="clear_selection">ምርጫን አጽዳ</string>
+    <string name="close_search">ፍለጋን ዝጋ</string>
+    <string name="search_in_book">በመጽሐፍ ውስጥ ፈልግ...</string>
+    <string name="contents">ይዘቶች</string>
+    <string name="table_of_contents">የይዘት ማውጫ</string>
+    <string name="no_table_of_contents_available">የይዘት ሠንጠረዥ የለም</string>
+    <string name="bookmarks">ዕልባቶች</string>
+    <string name="no_bookmarks_yet">እስካሁን ምንም ዕልባቶች የሉም</string>
+    <string name="page_">ገጽ %1$s</string>
+    <string name="no_results">ምንም ውጤቶች የሉም</string>
+    <string name="p">ፒ%1$s</string>
+    <string name="settings">ቅንብሮች</string>
+    <string name="decrease_font_size">የቅርጸ-ቁምፊ መጠንን ቀንስ</string>
+    <string name="increase_font_size">የቅርጸ-ቁምፊ መጠንን ጨምር</string>
+    <string name="font">ቅርጸ-ቁምፊ</string>
+    <string name="jump_to_page">ወደ ገጽ ዝለል</string>
+    <string name="enter_page_number_1">የገጽ ቁጥር ያስገቡ (1–%1$s):</string>
+    <string name="go">ሂድ</string>
+    <string name="read_aloud">ጮክ ብለህ አንብብ</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">ተወ</string>
+    <string name="annotations__text_selection">ማብራሪያዎች &amp; የጽሑፍ ምርጫ</string>
+    <string name="text_selection_and_annotations_for_ebook">የጽሑፍ ምርጫ እና ለኢ-መጽሐፍት ማብራሪያዎች በቅርቡ ይመጣሉ።</string>
+    <string name="longpress_on_text_to_select_highlight_or">ለመምረጥ፣ ለማድመቅ ወይም ማስታወሻዎችን ለማከል በጽሑፍ ላይ ለረጅም ጊዜ ተጭነው ይያዙ።</string>
+    <string name="press_play_to_start_reading_aloud">ጮክ ብሎ ማንበብ ለመጀመር አጫውትን ይጫኑ...</string>
+    <string name="speed">ፍጥነት</string>
+    <string name="voice">ድምጽ</string>
+    <string name="no_annotations_yet">እስካሁን ምንም ማብራሪያዎች የሉም</string>
+    <string name="select_text_to_highlight_or_add_notes">ለማድመቅ ወይም ማስታወሻዎችን ለማከል ጽሑፍ ይምረጡ</string>
+    <string name="tools">መሳሪያዎች</string>
+    <string name="convert_to_images">ወደ ምስሎች ቀይር</string>
+    <string name="rename">እንደገና ሰይም</string>
+    <string name="print">አትም</string>
+    <string name="a">ሀ−</string>
+    <string name="cover_of_">የ %1$s ሽፋን</string>
+    <string name="no_cover_available">ምንም ሽፋን የለም</string>
+    <string name="read_now">አሁን ያንብቡ</string>
+    <string name="about_the_book">ስለ መጽሐፉ</string>
+    <string name="tags">መለያዎች</string>
+    <string name="publisher_info">የአሳታሚ መረጃ</string>
+    <string name="published_">የታተመው፦ %1$s</string>
+    <string name="retry">እንደገና ሞክር</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F መሸጎጫ አጽዳ</string>
+    <string name="ebooks_library">የኢ-መጽሐፍት ቤተ መጻሕፍት</string>
+    <string name="manage_your_digital_collection_across_mu">ዲጂታል ስብስብዎን በበርካታ አቅራቢዎች ያስተዳድሩ። ከGoogle Books እና Open Library አዳዲስ ርዕሶችን ይፈልጉ፣ ያጣሩ እና ያግኙ።</string>
+    <string name="no_books_found">ምንም መጽሐፍት አልተገኙም</string>
+    <string name="no_results_for__try_a_different_search_t">ለ "%1$s" ምንም ውጤት የለም። የተለየ የፍለጋ ቃል ይሞክሩ።</string>
+    <string name="downloadable_only">ማውረድ የሚቻል ብቻ</string>
+    <string name="file_unavailable">ፋይል አይገኝም</string>
+    <string name="unavailable">አይገኝም</string>
+    <string name="search_titles_authors_isbn">ርዕሶችን፣ ደራሲያንን፣ ISBNን ፈልግ...</string>
+    <string name="clear_search">ፍለጋን አጽዳ</string>
+    <string name="ebooks">ኢ-መጽሐፍት</string>
+    <string name="read_pdf">ፒዲኤፍ ያንብቡ</string>
+    <string name="create_pdf">ፒዲኤፍ ፍጠር</string>
+    <string name="unlock_all_tools_and_remove_limits">ሁሉንም መሳሪያዎች ይክፈቱ እና ገደቦችን ያስወግዱ</string>
+    <string name="ocr_scanning">የኦሲአር ቅኝት</string>
+    <string name="extract_text_from_scanned_documents">ከተቃኙ ሰነዶች ጽሑፍ ማውጣት</string>
+    <string name="cloud_sync">የደመና ማመሳሰል</string>
+    <string name="access_your_documents_anywhere">ሰነዶችዎን በየትኛውም ቦታ ይድረሱባቸው</string>
+    <string name="annotate_pdfs">ፒዲኤፎችን አብራራ</string>
+    <string name="cloud_backup">የደመና ምትኬ</string>
+    <string name="continue_reading">ማንበብ ይቀጥሉ</string>
+    <string name="pick_files">ፋይሎችን ይምረጡ</string>
+    <string name="browse">ያስሱ</string>
+    <string name="did_you_know">ያውቁ ነበር?</string>
+    <string name="home">መነሻ</string>
+    <string name="your_documents_at_a_glance">ሰነዶችዎ በአጭሩ</string>
+    <string name="pick_file">ፋይል ምረጥ</string>
+    <string name="quick_actions">ፈጣን እርምጃዎች</string>
+    <string name="pro">ፕሮ</string>
+    <string name="open_files">ፋይሎችን ክፈት</string>
+    <string name="convert_to_pdf">ወደ ፒዲኤፍ ቀይር</string>
+    <string name="close_drawer">መሳቢያውን ዝጋ</string>
+    <string name="close_file">ፋይል ዝጋ</string>
+    <string name="office">ቢሮ</string>
+    <string name="coming_soon">በቅርቡ ይመጣል</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">የኢ-መጽሐፍ መመልከቻ በዚህ መድረክ ላይ እስካሁን አይገኝም።</string>
+    <string name="set_as_default_viewer">እንደ ነባሪ መመልከቻ አዘጋጅ</string>
+    <string name="free">ፍርይ</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">ዝማኔን በማውረድ ላይ... %1$s%</string>
+    <string name="more">ተጨማሪ</string>
+    <string name="font_size">የቅርጸ-ቁምፊ መጠን</string>
+    <string name="font_family">የቅርጸ-ቁምፊ ቤተሰብ</string>
+    <string name="scroll_direction">የማሸብለል አቅጣጫ</string>
+    <string name="navigation">አሰሳ</string>
+    <string name="keep_screen_on">ማያ ገጹን እንደበራ ያቆዩት</string>
+    <string name="volume_button_to_scroll">ለማሸብለል የድምጽ አዝራር</string>
+    <string name="export_ebook_pages_as_image_files">የኢ-መጽሐፍ ገጾችን እንደ ምስል ፋይሎች ወደ ውጭ ይላኩ</string>
+    <string name="access_millions_of_titles">በሚሊዮን የሚቆጠሩ ርዕሶችን ያግኙ።</string>
+    <string name="read_offline_with_natural_ai_voices">በተፈጥሯዊ የ AI ድምጾች ከመስመር ውጭ ያንብቡ።</string>
+    <string name="advanced_ai_reader">የላቀ የ AI አንባቢ።</string>
+    <string name="experience_studioquality_narration">በስቱዲዮ ጥራት ያለው ትረካ ይለማመዱ።</string>
+    <string name="powerful_pdf_tools">ኃይለኛ የፒዲኤፍ መሳሪያዎች።</string>
+    <string name="create_and_edit_documents_on_the_go">በጉዞ ላይ እያሉ ሰነዶችን ይፍጠሩ እና ያርትዑ።</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">ወደ ፕሮ ያሻሽሉ፡ ሁሉንም መሳሪያዎች ይክፈቱ እና ገደቦችን ያስወግዱ</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">OCR ቅኝት፡ ከተቃኙ ሰነዶች ጽሑፍ ማውጣት</string>
+    <string name="cloud_sync_access_your_documents_anywher">የደመና ማመሳሰል፡ ሰነዶችዎን በየትኛውም ቦታ ይድረሱባቸው</string>
+    <string name="scan">ቃኝ</string>
+    <string name="compress">ጨመቅ</string>
+    <string name="merge">አዋህድ</string>
+    <string name="convert">ቀይር</string>
+    <string name="highlight_underline_and_add_notes_to_you">በሰነዶችዎ ላይ ያድምቁ፣ ያስምሩ እና ማስታወሻዎችን ያክሉ</string>
+    <string name="keep_your_documents_safe_with_automatic_">ሰነዶችዎን በራስ-ሰር የደመና ማመሳሰል ደህንነቱ በተጠበቀ ሁኔታ ያቆዩ</string>
+    <string name="indicator_color_">አመልካች_ቀለም_%1$s</string>
+    <string name="my_library">የእኔ ቤተ-መጽሐፍት</string>
+    <string name="get_ebooks">ኢ-መጽሐፍትን ያግኙ</string>
+    <string name="scan_document">ሰነድ ይቃኙ</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

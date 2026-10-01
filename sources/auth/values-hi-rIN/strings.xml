@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">अपना इंटरनेट कनेक्शन जांचें और पुष्टि करें कि आपके डिवाइस में एक Google खाता जोड़ा गया है, फिर दोबारा प्रयास करें।</string>
+    <string name="sign_in_with_apple">Apple से साइन इन करें</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">अपने अनुभव को बेहतर बनाएं</string>
+    <string name="purchase_screen_close">बंद करना</string>
+    <string name="purchase_screen_refresh">ताज़ा करना</string>
+    <string name="purchase_sync_status">अंतिम बार सिंक्रनाइज़ किया गया: %1s</string>
+    <string name="purchase_current_plan">मौजूदा</string>
+    <string name="purchase_syncing">सिंक्रनाइज़ हो रहा है…</string>
+    <string name="purchase_loading">लोडिंग…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">निःशुल्क योजना</string>
+    <string name="purchase_pro_plan">प्रो संस्करण</string>
+    <string name="purchase_pro_tagline">एक बार भुगतान करें। हमेशा के लिए मालिक बनें।</string>
+    <string name="purchase_premium_plan">प्रीमियम सदस्यता</string>
+    <string name="purchase_premium_tagline">प्रो में सब कुछ, साथ ही एआई &amp; क्लाउड</string>
+    <string name="purchase_recommended">अनुशंसित</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">एआई रीड अलाउड — पीडीएफ को स्वाभाविक रूप से सुनें</string>
+    <string name="purchase_pro_feature_2">पीडीएफ का पूर्ण संपादन &amp; फॉर्म भरना</string>
+    <string name="purchase_pro_feature_3">ड्राइव के माध्यम से क्रॉस-डिवाइस सिंक</string>
+    <string name="purchase_pro_feature_4">विज्ञापन रहित, स्कैन पर कोई वॉटरमार्क नहीं</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">मजबूत तर्क क्षमता वाले एआई सारांश</string>
+    <string name="purchase_premium_feature_1_desc">लंबे और जटिल दस्तावेजों से गहन उत्तर प्राप्त होते हैं</string>
+    <string name="purchase_premium_feature_2_title">50GB फाल्कन क्लाउड</string>
+    <string name="purchase_premium_feature_2_desc">आपकी निजी पीडीएफ लाइब्रेरी, सिंक्रनाइज़्ड और सुरक्षित</string>
+    <string name="purchase_premium_feature_3_title">60+ पीडीएफ टूल्स पर कोई सीमा नहीं</string>
+    <string name="purchase_premium_feature_3_desc">हर उपकरण, हमेशा उपलब्ध</string>
+    <string name="purchase_premium_feature_4_title">पीडीएफ में पूर्ण पाठ संपादन</string>
+    <string name="purchase_premium_feature_4_desc">वर्ड प्रोसेसर की तरह सीधे टेक्स्ट को संपादित करें</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">खरीदारी के समर्थक</string>
+    <string name="purchase_sign_in_buy">लॉग इन करें &amp; खरीदें</string>
+    <string name="purchase_sign_in_subscribe">लॉग इन करें &amp; सदस्यता लें</string>
+    <string name="purchase_subscribe">सदस्यता लें</string>
+    <string name="purchase_start_trial">7 दिन का निःशुल्क परीक्षण शुरू करें</string>
+    <string name="purchase_view_all_features">सभी सुविधाओं को देखें</string>
+    <string name="purchase_show_more">और दिखाएँ</string>
+    <string name="purchase_show_less">कम दिखाएँ</string>
+    <string name="purchase_see_all_features">सभी सुविधाएं देखें</string>
+    <string name="purchase_manage_subscription">सदस्यता प्रबंधित करें</string>
+    <string name="purchase_restore_purchases">खरीदारी वापस लौटाएं</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">महीने के</string>
+    <string name="purchase_billing_yearly">सालाना</string>
+    <string name="purchase_save_badge">40% की बचत करें</string>
+    <string name="purchase_lifetime">जीवनभर</string>
+    <string name="purchase_per_year">/वर्ष</string>
+    <string name="purchase_per_month">/महीना</string>
+    <string name="purchase_trial_terms">आप कभी भी रद्द कर सकते हैं। ट्रायल अवधि समाप्त होने से 24 घंटे पहले रद्द न करने पर यह स्वतः नवीनीकृत हो जाएगा।</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">उत्पाद लोड करने में विफल। कृपया अपना साइन-इन और इंटरनेट कनेक्शन जांचें।</string>
+    <string name="purchase_error_network">कनेक्शन टूट गया। कृपया अपना इंटरनेट कनेक्शन जांचें और दोबारा प्रयास करें।</string>
+    <string name="purchase_error_payment_declined">भुगतान विधि अस्वीकृत हो गई है। कृपया अपनी भुगतान जानकारी अपडेट करें।</string>
+    <string name="purchase_error_server">कुछ गलत हो गया है। कृपया बाद में दोबारा प्रयास करें।</string>
+    <string name="purchase_error_rate_limit">बहुत बार रीफ़्रेश करने का प्रयास किया गया। कृपया प्रतीक्षा करें।</string>
+    <string name="purchase_error_offline">इंटरनेट कनेक्शन नहीं है। कैश किया हुआ डेटा दिखाया जा रहा है।</string>
+    <string name="purchase_error_product_refresh">उत्पाद सत्यापित नहीं हो पा रहा है। कृपया पुनः प्रयास करें।</string>
+    <string name="purchase_error_generic">एक त्रुटि हुई थी। कृपया दोबारा प्रयास करें।</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">सेवा की शर्तें</string>
+    <string name="purchase_privacy_policy">गोपनीयता नीति</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">खरीद इतिहास</string>
+    <string name="free_trial">मुफ्त परीक्षण</string>
+    <string name="no_purchase_history">कोई खरीद इतिहास नहीं</string>
+    <string name="you_havent_made_any_purchases_">आपने अभी तक कोई खरीदारी नहीं की है।</string>
+    <string name="error">गलती</string>
+    <string name="retry">पुन: प्रयास करें</string>
+    <string name="back">पीछे</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">अपने अनुभव को बेहतर बनाएं</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">खरीदारी वापस लौटाएं</string>
+    <string name="close_purchase_screen">खरीदारी स्क्रीन बंद करें</string>
+    <string name="help">मदद</string>
+    <string name="more_options">अधिक विकल्प</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">ताज़ा करना</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">सक्रिय</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s सक्रिय</string>
+    <string name="premium_benefits">प्रीमियम लाभ</string>
+    <string name="manage_subscription">सदस्यता प्रबंधित करें</string>
+    <string name="next_billing_date__manage_your">अगली बिलिंग तिथि: %1$s। अपने प्ले स्टोर खाते की सेटिंग के माध्यम से अपनी बिलिंग संबंधी जानकारी और रद्द करने की प्रक्रिया को प्रबंधित करें।</string>
+    <string name="purchase_expires_">खरीद की समय सीमा समाप्त: %1$s</string>
+    <string name="falcon_pdf_pro">फाल्कन पीडीएफ प्रो</string>
+    <string name="falcon_pdf_premium_monthly">फाल्कन पीडीएफ प्रीमियम (मासिक)</string>
+    <string name="falcon_pdf_premium_yearly">फाल्कन पीडीएफ प्रीमियम (वार्षिक)</string>
+    <string name="pro">प्रो</string>
+    <string name="premium">अधिमूल्य</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Falcon PDF Pro या Premium प्राप्त करें</string>
+    <string name="purchase_desktop_subtitle">खरीदारी का प्रबंधन हमारी वेबसाइट पर किया जाता है। योजनाओं और कीमतों को देखने के लिए नीचे क्लिक करें।</string>
+    <string name="purchase_desktop_open_website">योजनाएँ देखें &amp; मूल्य निर्धारण</string>
+    <string name="purchase_desktop_already_purchased">क्या आपने पहले ही खरीद लिया है? अपनी योजना को सिंक करने के लिए साइन इन करें।</string>
+    <string name="purchase_store_build_subtitle">आपकी सदस्यता आपके सभी डिवाइस पर Pro सुविधाएँ अनलॉक करती है। अपनी योजना सिंक करने के लिए साइन इन करें।</string>
+    <string name="ai_read_aloud">एआई द्वारा जोर से पढ़ना</string>
+    <string name="full_pdf_editing__form_filling">पूर्ण पीडीएफ संपादन &amp; फॉर्म भरना</string>
+    <string name="crossdevice_sync_via_drive">ड्राइव के माध्यम से क्रॉस-डिवाइस सिंक</string>
+    <string name="adfree_no_watermark">विज्ञापन-मुक्त, वॉटरमार्क रहित</string>
+    <string name="export_to_word__excel">वर्ड में निर्यात करें &amp; एक्सेल</string>
+    <string name="multiple_themes__page_backgrounds">कई थीम &amp; पेज बैकग्राउंड</string>
+    <string name="ai_summaries_with_stronger_reasoning">मजबूत तर्क क्षमता वाले एआई सारांश</string>
+    <string name="no_limits_on_60_pdf_tools">60+ पीडीएफ टूल्स पर कोई सीमा नहीं</string>
+    <string name="full_text_editing_in_pdfs">पीडीएफ में पूर्ण पाठ संपादन</string>
+    <string name="digital_signatures_dscesign">डिजिटल हस्ताक्षर (DSC/ई-हस्ताक्षर)</string>
+    <string name="unlimited_scanned_document_sync">असीमित स्कैन किए गए दस्तावेज़ सिंक</string>
+    <string name="biometric_document_lock">बायोमेट्रिक दस्तावेज़ लॉक</string>
+    <string name="everything_in_pro_all_devices">प्रो में सब कुछ, सभी डिवाइसों पर</string>
+    <string name="introductory_offer">प्रारंभिक प्रस्ताव</string>
+    <string name="limited_time__30_off">सीमित समय के लिए — 30% की छूट</string>
+    <string name="date__time">दिनांक &amp; समय</string>
+    <string name="amount">मात्रा</string>
+    <string name="platform">प्लैटफ़ॉर्म</string>
+    <string name="type">प्रकार</string>
+    <string name="expires_on">पर समय सीमा समाप्त</string>
+</resources>

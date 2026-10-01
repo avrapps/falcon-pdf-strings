@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">Susa Amakhasi</string>
+    <string name="are_you_sure_you_want_to_delet">Uqinisekile ukuthi ufuna ukususa amakhasi akhethiwe? Lesi senzo asikwazi ukuhlehliswa.</string>
+    <string name="delete">Susa</string>
+    <string name="cancel">Khansela</string>
+    <string name="quick_selection">Ukukhetha Okusheshayo</string>
+    <string name="select_range">Khetha Ububanzi</string>
+    <string name="select_all">Khetha Konke</string>
+    <string name="clear_all">Sula Konke</string>
+    <string name="select_page_range">Khetha Ububanzi Bekhasi</string>
+    <string name="enter_the_range_of_pages_to_de">Faka ububanzi bamakhasi okufanele uwasuse (1-%1$s)</string>
+    <string name="from">Kusukela</string>
+    <string name="to">Ku-</string>
+    <string name="select">Khetha</string>
+    <string name="please_go_back_and_select_a_pd">Sicela ubuyele emuva ukhethe i-PDF</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">Hlukanisa i-PDF</string>
+    <string name="str_1_file_selected">Kukhethwe ifayela eli-1</string>
+    <string name="no_file_selected">Akukho fayela elikhethiwe</string>
+    <string name="split_mode">Imodi Yokuhlukanisa</string>
+    <string name="fixed_segments">Izigaba Eziqinile</string>
+    <string name="custom_ranges">Amabanga Angokwezifiso</string>
+    <string name="segment_size">Usayizi Wesigaba</string>
+    <string name="this_will_create_multiple_pdfs">Lokhu kuzodala ama-PDF amaningi anenani elicacisiwe lamakhasi ngalinye. Usayizi wesigaba kumele ube ngaphansi kwamakhasi aphelele ukuze kudalwe ukuhlukaniswa okunenjongo. Isibonelo, uma ifayela lomthombo linamakhasi ayi-8 futhi ufaka ama-2, amafayela e-PDF amane azokhiqizwa anamakhasi ama-2 ngalinye.</string>
+    <string name="pages_per_file">Amakhasi ngefayela ngalinye</string>
+    <string name="eg_2">isib., 2</string>
+    <string name="total_number_of_pages_in_pdf__">Inani eliphelele lamakhasi ku-PDF: %1$d (usayizi wesigaba kumele ube ngaphansi kuka- %1$d)</string>
+    <string name="this_will_create__output_files">Lokhu kuzodala amafayela okukhipha %1$d</string>
+    <string name="this_will_create__output_file">Lokhu kuzodala ifayela lokukhipha %1$d</string>
+    <string name="this_input_will_split_the_pdf_">Lokhu kufakwa kuzohlukanisa i-PDF ibe amafayela ahlukene ngokusekelwe kububanzi bakho. Isibonelo, i-"1-2,5,6-8" izodala ama-PDF amathathu: okokuqala ngamakhasi 1-2, okwesibili ngekhasi 5, kanye nelesithathu ngamakhasi 6-8.</string>
+    <string name="page_ranges">Ububanzi bekhasi</string>
+    <string name="eg_1234571520">isib., 1-2,3,4-5,7,15-20</string>
+    <string name="format_use_ranges_15_or_single">Ifomethi: Sebenzisa amabanga (1-5) noma amakhasi angawodwa (7), ahlukaniswe ngamakhoma. Kuvunyelwe izinombolo, amakhoma, namakhoma kuphela.</string>
+    <string name="split_preview">Ukubuka Kuqala Kokuhlukanisa</string>
+    <string name="pdf_files_will_be_created">%1$d Amafayela e-PDF azodalwa</string>
+    <string name="pdf_file_will_be_created">%1$d Ifayela le-PDF lizodalwa</string>
+    <string name="pdf_result_">Umphumela we-PDF %1$s</string>
+    <string name="str__and__more">... kanye %1$d nokuningi</string>
+    <string name="splitting_pdf">Ihlukanisa i-PDF...</string>
+    <string name="checking_files">Ihlola amafayela...</string>
+    <string name="page_n">Ikhasi %1$d</string>
+    <string name="pages_n_m">Amakhasi %1$d-%2$d</string>
+    <string name="split_complete">Ukuhlukanisa Kuqediwe!</string>
+    <string name="split_failed">Ukuhlukaniswa Kwehlulekile</string>
+    <string name="we_couldnt_split_your_pdf">Asikwazanga ukuhlukanisa i-PDF yakho</string>
+    <string name="your_pdf_has_been_successfully_split">I-PDF yakho ihlukaniswe ngempumelelo yaba amafayela angu- %1$d</string>
+    <string name="your_pdf_has_been_successfully_split_single">I-PDF yakho ihlukaniswe ngempumelelo yaba ifayela le- %1$d</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">Amathuluzi e-PDF</string>
+    <string name="image_tools">Amathuluzi Esithombe</string>
+    <string name="str_30_tools_for_pdf">Amathuluzi e-PDF angaphezu kwama-30</string>
+    <string name="tools_for_images">Amathuluzi Ezithombe</string>
+    <string name="no_tools_found">Awekho amathuluzi atholakele</string>
+    <string name="try_adjusting_your_search">Zama ukulungisa usesho lwakho</string>
+    <string name="history">Umlando</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s ikhasi${uma (Inani lekhasi &gt; 1) </string>
+    <string name="n_pages">%1$d amakhasi</string>
+    <string name="n_page">%1$d ikhasi</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">Iphasiwedi iyadingeka kule PDF</string>
+    <string name="password_provided">Iphasiwedi inikeziwe</string>
+    <string name="password_required">Iphasiwedi iyadingeka</string>
+    <string name="open_file">Vula ifayela</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">Kucindezelwe yi- </string>
+    <string name="error_details">Imininingwane Yephutha</string>
+    <string name="view">Buka</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">%1$s kwamakhasi %2$s akhethiwe</string>
+    <string name="showing_first_200_pages">Kuboniswa amakhasi okuqala angu-200</string>
+    <string name="use_quick_selection_above_for_">Sebenzisa Ukukhetha Okusheshayo ngenhla emakhasini angaphezu kuka-200</string>
+    <string name="loading">Iyalayisha...</string>
+    <string name="error">Iphutha</string>
+    <string name="generating_page_previews">Kudalwa ukubuka kuqala kwekhasi...</string>
+    <string name="page__thumbnail">Ikhasi %1$s isithonjana</string>
+    <string name="selected">Kukhethiwe</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">Sesha</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">Zungezisa i-PDF</string>
+    <string name="please_provide_the_password_to">Sicela unikeze iphasiwedi ukuze ukhethe amakhasi enziwe ngokwezifiso</string>
+    <string name="rotation_angle">I-engela Yokujikeleza</string>
+    <string name="page_selection">Ukukhethwa Kwekhasi</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">Oda kabusha i-PDF</string>
+    <string name="use_the_arrow_buttons_to_reord">Sebenzisa izinkinobho zemicibisholo ukuhlela kabusha amakhasi</string>
+    <string name="pages_">Amakhasi (%1$s)</string>
+    <string name="page_">Ikhasi %1$s</string>
+    <string name="position__of_">Isikhundla: %1$s se- %2$s</string>
+    <string name="drag_handle">Hudula isibambo</string>
+    <string name="move_up">Hamba uyephezulu</string>
+    <string name="move_down">Yehla</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">Cindezela i-PDF</string>
+    <string name="no_files_selected">Awekho amafayela akhethiwe</string>
+    <string name="please_go_back_and_select_pdf_">Sicela ubuyele emuva bese ukhetha amafayela e-PDF ozowacindezela</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">Impumelelo</string>
+    <string name="individual_results">Imiphumela Yomuntu Ngamunye</string>
+    <string name="done">Kuqediwe</string>
+    <string name="compression_complete">Ukucindezela Kuqediwe</string>
+    <string name="your_file_is_ready_and_much_li">Ifayela lakho selilungile futhi lilula kakhulu!</string>
+    <string name="before">NGAPHAMBI</string>
+    <string name="after">NGEMVA</string>
+    <string name="total_saved">Inani Elilondolozwe</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">NCANE</string>
+    <string name="str__saved">%1$s% elondoloziwe</string>
+    <string name="open">Vula</string>
+    <string name="share">Yabelana</string>
+    <string name="close">Vala</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">Izinga Lokucindezela</string>
+    <string name="recommended">Kunconyiwe</string>
+    <string name="str__compression">%1$s Ukucindezela</string>
+    <string name="str__of_original_size">~%1$s% yosayizi wokuqala</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">Izithombe zibe yi-PDF</string>
+    <string name="str__images_selected">%1$s izithombe ezikhethiwe</string>
+    <string name="images_will_be_converted_in_th">Izithombe zizoguqulwa ngokulandelana okuboniswe ngezansi</string>
+    <string name="remove">Susa</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">I-PDF ibe Izithombe</string>
+    <string name="image_format">Ifomethi Yesithombe</string>
+    <string name="image_quality_dpi">Ikhwalithi Yesithombe (i-DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">Hlanganisa i-PDF</string>
+    <string name="n_files_selected">%1$d amafayela akhethiwe</string>
+    <string name="n_file_selected">%1$d ifayela likhethiwe</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">Khiya i-PDF</string>
+    <string name="password_protection">Ukuvikelwa Kwephasiwedi</string>
+    <string name="enter_a_password_to_protect_yo">Faka iphasiwedi ukuze uvikele i-PDF yakho. Uzodinga le phasiwedi ukuze uvule ifayela.</string>
+    <string name="password">Iphasiwedi</string>
+    <string name="enter_password">Faka iphasiwedi</string>
+    <string name="confirm_password">Qinisekisa Iphasiwedi</string>
+    <string name="reenter_password">Faka futhi iphasiwedi</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">Sicela ubuyele emuva ukhethe ifayela</string>
+    <string name="back">Emuva</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">Vula i-PDF</string>
+    <string name="current_password">I-password Yamanje</string>
+    <string name="enter_the_current_password_to_">Faka iphasiwedi yamanje ukuze uvule le PDF</string>
+    <string name="enter_current_password">Faka iphasiwedi yamanje</string>
+    <string name="incorrect_password_please_try_">Iphasiwedi engalungile. Sicela uzame futhi.</string>
+    <string name="new_password_optional">Iphasiwedi Entsha (Ongakukhetha)</string>
+    <string name="set_a_new_password_to_change_i">Setha iphasiwedi entsha ukuze uyishintshe, noma uyishiye ingenalutho ukuze ususe ukuvikelwa kwephasiwedi</string>
+    <string name="new_password">Iphasiwedi Entsha</string>
+    <string name="enter_new_password">Faka iphasiwedi entsha</string>
+    <string name="confirm_new_password">Qinisekisa Iphasiwedi Entsha</string>
+    <string name="reenter_new_password">Faka kabusha iphasiwedi entsha</string>
+    <string name="passwords_do_not_match">Amaphasiwedi awafani</string>
+    <string name="compression_failed">Ukucindezelwa Kwehlulekile</string>
+    <string name="open_pdf">Vula i-PDF</string>
+    <string name="share_file">Yabelana Ngefayela</string>
+    <string name="pages_deleted">Amakhasi Asusiwe!</string>
+    <string name="delete_failed">Ukususa Kwehlulekile</string>
+    <string name="select_pages_to_delete">Khetha Amakhasi Ozowasusa</string>
+    <string name="pdf_created">I-PDF Yakhiwe!</string>
+    <string name="conversion_failed">Ukuguqulwa Kwehlulekile</string>
+    <string name="pdf_locked_successfully">I-PDF Ikhiyiwe Ngempumelelo!</string>
+    <string name="lock_failed">Ukukhiya Kwehlulekile</string>
+    <string name="merge_complete">Ukuhlanganisa Kuqediwe!</string>
+    <string name="merge_failed">Ukuhlanganisa Kwehlulekile</string>
+    <string name="conversion_complete">Ukuguqulwa Kuqediwe!</string>
+    <string name="reorder_complete">Uku-oda Kabusha Kuqediwe!</string>
+    <string name="reorder_failed">Ukuhlela Kabusha Kwehlulekile</string>
+    <string name="rotation_complete">Ukujikeleza Kuqediwe!</string>
+    <string name="rotation_failed">Ukujikeleza Kwehlulekile</string>
+    <string name="select_pages_to_rotate">Khetha Amakhasi Ozowazungezisa</string>
+    <string name="str__complete">%1$s Kuqediwe!</string>
+    <string name="str__failed">%1$s Yehlulekile</string>
+    <string name="unlock_failed">Ukuvula Kwehlulekile</string>
+    <string name="your_pdfs_have_been_successfully_compres">Ama-PDF akho acindezelwe ngempumelelo</string>
+    <string name="we_couldnt_compress_your_pdfs">Asikwazanga ukucindezela ama-PDF akho</string>
+    <string name="view_your_compressed_file">Buka ifayela lakho elicindezelwe</string>
+    <string name="send_to_others_or_apps">Thumela kwabanye noma kuzinhlelo zokusebenza</string>
+    <string name="your_pdf_has_been_successfully_modified">I-PDF yakho ishintshwe ngempumelelo</string>
+    <string name="we_couldnt_delete_the_pages">Asikwazanga ukususa amakhasi</string>
+    <string name="your_images_have_been_converted_to_pdf">Izithombe zakho ziguqulwe zaba yi-PDF</string>
+    <string name="unable_to_create_pdf_from_images">Ayikwazi ukudala i-PDF kusuka ezithombeni</string>
+    <string name="your_pdf_is_now_password_protected">I-PDF yakho manje ivikelwe ngephasiwedi</string>
+    <string name="we_couldnt_lock_your_pdf">Asikwazanga ukukhiya i-PDF yakho</string>
+    <string name="your_pdfs_have_been_successfully_merged">Ama-PDF akho ahlanganiswe ngempumelelo</string>
+    <string name="we_couldnt_merge_your_pdfs">Asikwazanga ukuhlanganisa ama-PDF akho</string>
+    <string name="str__images_created_successfully">%1$s izithombe zidalwe ngempumelelo</string>
+    <string name="unable_to_convert_pdf_to_images">Ayikwazi ukuguqula i-PDF ibe izithombe</string>
+    <string name="your_pdf_pages_have_been_successfully_re">Amakhasi akho e-PDF ahlelwe kabusha ngempumelelo</string>
+    <string name="we_couldnt_reorder_your_pdf">Asikwazanga uku-oda kabusha i-PDF yakho</string>
+    <string name="your_pdf_has_been_successfully_rotated">I-PDF yakho ijikeleziswe ngempumelelo</string>
+    <string name="we_couldnt_rotate_your_pdf">Asikwazanga ukuzungezisa i-PDF yakho</string>
+    <string name="your_file_has_been_successfully_processe">Ifayela lakho licutshungulwe ngempumelelo</string>
+    <string name="we_couldnt_process_your_file">Asikwazanga ukucubungula ifayela lakho</string>
+    <string name="we_couldnt_unlock_your_pdf">Asikwazanga ukuvula i-PDF yakho</string>
+    <string name="clear_filter">Sula isihlungi</string>
+    <string name="clear">Sula</string>
+    <string name="pick_a_tool_">Khetha ithuluzi →</string>
+    <string name="drag_to_reorder">Hudula ukuze uhlele kabusha</string>
+    <string name="your_files_are_securely_processed_on_our">Amafayela akho acutshungulwa ngokuphephile kumaseva ethu kusetshenziswa ukuxhumana okubethelwe futhi asulwa ngokuzenzakalelayo zingakapheli ihora eli-1. Asilokothi sigcine noma sabelane ngedatha yakho.</string>
+    <string name="compression_quality">Ikhwalithi yokucindezelwa</string>
+    <string name="dragelevation">ukuhudulaUkuphakama</string>
+    <string name="tool_card_scale">isikali_sekhadi_lethuluzi</string>
+</resources>

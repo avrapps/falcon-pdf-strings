@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Uchawi wa PDF</string>
+    <string name="app_tagline">Ungependa kufanya nini?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">Iliyotumika Mara ya Mwisho</string>
+    <string name="home_favorites">Vipendwa</string>
+    <string name="home_new_tool">Zana Mpya</string>
+    <string name="home_featured">IMEAngaziwa</string>
+    <string name="home_scan_to_pdf">Changanua hadi PDF</string>
+    <string name="home_scan_description">Badilisha hati za karatasi kuwa uchawi wa kidijitali mara moja</string>
+    <string name="home_start_scanning">Anza Kuchanganua</string>
+    <string name="home_all_tools">Zana Zote</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">Zana za PDF</string>
+    <string name="image_tools">Zana za Picha</string>
+    <string name="tools_split">Gawanya</string>
+    <string name="tools_split_description">Kurasa za dondoo</string>
+    <string name="tools_rotate">Zungusha</string>
+    <string name="tools_rotate_description">Rekebisha mwelekeo</string>
+    <string name="tools_delete_pages">Futa Kurasa</string>
+    <string name="tools_delete_pages_description">Ondoa isiyohitajika</string>
+    <string name="tools_convert">Badilisha</string>
+    <string name="tools_convert_description">Kuelekea/Kutoka kwenye picha</string>
+    <string name="tools_sign">Ishara</string>
+    <string name="tools_sign_description">Ongeza sahihi</string>
+    <string name="tools_protect">Linda</string>
+    <string name="tools_protect_description">Usalama wa nenosiri</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">Kitazamaji cha PDF</string>
+    <string name="pdf_viewer_page_info">Ukurasa %1$d wa %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">Kichanganuzi cha Hati</string>
+    <string name="scanner_capture">Nasa</string>
+    <string name="scanner_retake">Chukua tena</string>
+    <string name="scanner_save">Hifadhi</string>
+    <!-- Navigation -->
+    <string name="nav_back">Nenda nyuma</string>
+    <string name="nav_settings">Mipangilio</string>
+    <string name="nav_more_options">Chaguo zaidi</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Nyumbani</string>
+    <string name="nav_library">Maktaba</string>
+    <string name="nav_scan">Changanua</string>
+    <string name="nav_tools">Zana</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">Vinjari Faili</string>
+    <string name="browse_files_subtitle">Hifadhi &amp; Faili za Wingu</string>
+    <string name="show_hidden_files">Onyesha faili zilizofichwa</string>
+    <string name="hide_hidden_files">Ficha faili zilizofichwa</string>
+    <string name="refresh_storage">Onyesha upya hifadhi</string>
+    <string name="no_storage_available">Hakuna hifadhi inayopatikana</string>
+    <string name="no_files_found">Hakuna faili zilizopatikana</string>
+    <string name="add_files">Ongeza Faili %1$d</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">Ruhusa ya Hifadhi Inahitajika</string>
+    <string name="permission_storage_message">Programu hii inahitaji ufikiaji wa hifadhi ya kifaa chako ili kuvinjari na kufungua faili za PDF. Tafadhali ruhusu hifadhi ili uendelee.</string>
+    <string name="permission_grant">Ruhusa ya Ruzuku</string>
+    <!-- Common Actions -->
+    <string name="action_open">Fungua</string>
+    <string name="action_save">Hifadhi</string>
+    <string name="action_share">Shiriki</string>
+    <string name="action_delete">Futa</string>
+    <string name="action_cancel">Ghairi</string>
+    <string name="action_confirm">Thibitisha</string>
+    <string name="action_rename">Badilisha jina</string>
+    <string name="action_print">Chapisha</string>
+    <string name="action_favorite">Kipendwa</string>
+    <string name="action_unfavorite">Haipendi</string>
+    <!-- Document Actions -->
+    <string name="document_share">Shiriki Hati</string>
+    <string name="document_rename">Badilisha Jina la Hati</string>
+    <string name="document_delete">Futa Hati</string>
+    <string name="document_print">Chapisha Hati</string>
+    <string name="document_favorite">Ongeza kwenye Vipendwa</string>
+    <string name="document_unfavorite">Ondoa kwenye Vipendwa</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">Hati imeshirikiwa kwa mafanikio</string>
+    <string name="document_share_failed">Imeshindwa kushiriki hati</string>
+    <string name="document_renamed_success">Hati imebadilishwa jina kwa mafanikio</string>
+    <string name="document_rename_failed">Imeshindwa kubadilisha jina la hati</string>
+    <string name="document_deleted_success">Hati imefutwa kwa mafanikio</string>
+    <string name="document_delete_failed">Imeshindwa kufuta hati</string>
+    <string name="document_print_opened">Hati imefunguliwa katika kitazamaji chaguo-msingi cha PDF. Tumia chaguo-msingi la kuchapisha la kitazamaji ili kuchapisha.</string>
+    <string name="document_print_failed">Imeshindwa kuchapisha hati</string>
+    <string name="document_added_to_favorites">Imeongezwa kwenye Vipendwa</string>
+    <string name="document_removed_from_favorites">Imeondolewa kwenye Vipendwa</string>
+    <string name="document_favorite_failed">Imeshindwa kusasisha hali ya kipendwa</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">Badilisha Jina la Hati</string>
+    <string name="dialog_rename_hint">Ingiza jina jipya</string>
+    <string name="dialog_rename_empty_error">Jina la hati haliwezi kuwa tupu</string>
+    <string name="dialog_delete_title">Futa Hati</string>
+    <string name="dialog_delete_file_message">Hii itafuta faili kabisa.\n\nFuta %1$s?</string>
+    <string name="dialog_delete_uri_message">Huondolewa kwenye programu pekee. Faili asili haijabadilishwa.\n\nHuondolewa %1$s kutoka kwenye programu?</string>
+    <string name="dialog_delete_confirm">Futa</string>
+    <string name="dialog_remove_confirm">Ondoa</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">Hubadilisha majina ndani ya programu pekee. Faili asili haijabadilishwa.</string>
+    <string name="notice_delete_uri_only">Imeondolewa kwenye programu. Faili asili haijabadilishwa.</string>
+    <string name="notice_file_exists_error">Faili yenye jina hili tayari ipo</string>
+    <string name="notice_file_not_found_error">Faili haipatikani</string>
+    <string name="notice_no_active_document">Hakuna hati inayotumika</string>
+    <string name="notice_document_path_unavailable">Njia ya faili ya hati haipatikani</string>
+    <!-- States -->
+    <string name="state_loading">Inapakia...</string>
+    <string name="state_empty">Hakuna vipengee vilivyopatikana</string>
+    <string name="state_error">Kuna kitu kimeenda vibaya</string>
+    <string name="state_retry">Jaribu tena</string>
+    <!-- Errors -->
+    <string name="error_network">Muunganisho wa mtandao umeshindwa</string>
+    <string name="error_file_not_found">Faili haipatikani</string>
+    <string name="error_permission_denied">Ruhusa imekataliwa</string>
+    <string name="error_invalid_file">Muundo wa faili si sahihi</string>
+    <string name="error_password_required">Nenosiri linahitajika</string>
+    <string name="error_incorrect_password">Nenosiri si sahihi</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">Nenosiri Linalindwa</string>
+    <string name="password_protected_message">Faili hii inahitaji nenosiri ili kuifungua. Tafadhali liingize hapa chini.</string>
+    <string name="password_label">Nenosiri</string>
+    <string name="password_placeholder">Ingiza nenosiri</string>
+    <string name="password_unlock">Fungua</string>
+    <string name="password_show">Onyesha nenosiri</string>
+    <string name="password_hide">Ficha nenosiri</string>
+    <!-- Theme -->
+    <string name="theme_light">Mwanga</string>
+    <string name="theme_dark">Nyeusi</string>
+    <string name="theme_system">Mfumo</string>
+    <string name="theme_adaptive">Inayoweza kubadilika</string>
+    <string name="theme_custom">Maalum</string>
+    <!-- Settings -->
+    <string name="settings_title">Mapendeleo</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">Akaunti &amp; Sawazisha</string>
+    <string name="settings_category_sync_subtitle">Dhibiti akaunti yako, sawazisha &amp; faragha</string>
+    <string name="settings_category_appearance_title">Muonekano</string>
+    <string name="settings_category_appearance_subtitle">Badilisha mwonekano wa programu &amp;</string>
+    <string name="settings_category_pdf_reader_title">Kisomaji cha PDF</string>
+    <string name="settings_category_pdf_reader_subtitle">Kitazamaji chaguomsingi &amp; uzoefu wa kusoma</string>
+    <string name="settings_category_help_title">Usaidizi &amp; Usaidizi</string>
+    <string name="settings_category_help_subtitle">Mawasiliano ya nyaraka &amp;</string>
+    <string name="settings_category_general_title">Jumla</string>
+    <string name="settings_category_general_subtitle">Lugha &amp; maelezo ya programu</string>
+    <string name="settings_theme_section">Mandhari</string>
+    <string name="settings_theme_description">Chagua mandhari unayopendelea</string>
+    <string name="settings_accent_color">RANGI YA LAKINI</string>
+    <string name="settings_custom_colors">Rangi Maalum</string>
+    <string name="settings_primary_color">Rangi ya Msingi</string>
+    <string name="settings_background_color">Rangi ya Mandharinyuma</string>
+    <string name="settings_surface_color">Rangi ya Uso</string>
+    <string name="settings_reset_colors">Rudisha hadi Chaguo-Msingi</string>
+    <string name="settings_adaptive_note">Rangi zinazoweza kubadilika kulingana na nyenzo (Android 12+)</string>
+    <string name="settings_app_section">Mipangilio ya Programu</string>
+    <string name="settings_notifications">Arifa</string>
+    <string name="settings_notifications_description">Pokea arifa za programu</string>
+    <string name="settings_auto_backup">Hifadhi Nakala Kiotomatiki</string>
+    <string name="settings_auto_backup_description">Hifadhi nakala rudufu ya hati kiotomatiki</string>
+    <string name="settings_change_color">Badilisha rangi</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">Hati zako za PDF zitaonekana hapa</string>
+    <string name="scan_description">Changanua hati hadi PDF</string>
+    <string name="tools_description">Zana za uhariri na urekebishaji wa PDF</string>
+    <string name="home_description">Tumia urambazaji wa chini ili kufikia vipengele</string>
+    <!-- Sort Options -->
+    <string name="sort_name">Jina</string>
+    <string name="sort_date">Tarehe</string>
+    <string name="sort_size">Ukubwa</string>
+    <string name="sort_option_name">Jina</string>
+    <string name="sort_option_last_opened">Ilifunguliwa Mara ya Mwisho</string>
+    <string name="sort_option_last_modified">Ilibadilishwa Mara ya Mwisho</string>
+    <string name="sort_option_file_size">Ukubwa wa Faili</string>
+    <!-- View Types -->
+    <string name="view_type_list">Mwonekano wa Orodha</string>
+    <string name="view_type_table">Mwonekano wa Jedwali</string>
+    <string name="view_type_grid">Mwonekano wa Gridi</string>
+    <!-- File Properties -->
+    <string name="file_name">Jina la Faili</string>
+    <string name="date_modified">Tarehe Iliyorekebishwa</string>
+    <string name="file_size">Ukubwa</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">Haijaanza</string>
+    <string name="file_status_completed">Imekamilika</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">Hati ya PDF</string>
+    <string name="document_type_word">Hati ya Neno</string>
+    <string name="document_type_excel">Lahajedwali ya Excel</string>
+    <string name="document_type_image">Faili ya Picha</string>
+    <string name="document_type_other">Hati</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">Faili Zote</string>
+    <string name="filter_recent">Hivi karibuni</string>
+    <string name="filter_pdfs">PDF</string>
+    <string name="filter_images">Picha</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">Nyumbani</string>
+    <string name="browse_tab">Vinjari</string>
+    <string name="starred_tab">Imetiwa nyota</string>
+    <string name="settings_tab">Mipangilio</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">Badilisha mandhari</string>
+    <string name="accessibility_menu">Menyu</string>
+    <string name="accessibility_close">Funga</string>
+    <string name="accessibility_color_picker">Kichagua rangi</string>
+    <!-- Library Screen -->
+    <string name="library_title">Maktaba</string>
+    <string name="library_subtitle">Dhibiti Faili, Vipendwa vya Hivi Karibuni &amp;</string>
+    <string name="library_search_placeholder">Tafuta faili...</string>
+    <string name="library_selected_count">%1$d imechaguliwa</string>
+    <string name="library_open_from_device">Fungua Kutoka\nKifaa</string>
+    <string name="library_browse_files">Vinjari Faili\n</string>
+    <string name="library_action_open">Fungua</string>
+    <string name="library_action_share">Shiriki</string>
+    <string name="library_action_remove">Ondoa</string>
+    <string name="library_action_delete">Futa</string>
+    <string name="library_clear_search">Futa utafutaji</string>
+    <string name="library_close_search">Funga utafutaji</string>
+    <string name="library_select_all">Chagua faili zote</string>
+    <string name="library_exit_multiselect">Toka kwenye hali ya kuchagua nyingi</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">Usaidizi &amp; Usaidizi</string>
+    <string name="help_support_subtitle">Maswali Yanayoulizwa Mara kwa Mara, Wasiliana &amp; Kisheria</string>
+    <string name="settings_pdf_subtitle">Sogeza, Tazama &amp; Mpangilio</string>
+    <string name="help_header_title">Tunawezaje kusaidia?</string>
+    <string name="help_header_subtitle">Timu yetu iko hapa kuhakikisha unapata\nuzoefu bora wa PDF.</string>
+    <string name="help_contact_us">Wasiliana Nasi</string>
+    <string name="help_contact_subtitle">Wasiliana na usaidizi</string>
+    <string name="help_faq">Maswali Yanayoulizwa Mara kwa Mara</string>
+    <string name="help_faq_subtitle">Maswali ya kawaida yamejibiwa</string>
+    <string name="help_privacy_policy">Sera ya Faragha</string>
+    <string name="help_privacy_subtitle">Jinsi tunavyolinda data yako</string>
+    <string name="help_terms_service">Sheria na Masharti</string>
+    <string name="help_terms_subtitle">Sheria za maombi</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">Sawazisha kwenye data ya simu</string>
+    <string name="background_sync">Usawazishaji wa mandharinyuma</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">Mipangilio ya Kisomaji cha PDF</string>
+    <string name="pdf_settings_coming_soon">Inakuja Hivi Karibuni</string>
+    <string name="pdf_settings_description">Sanidi tabia ya kusogeza, hali za kutazama, na mapendeleo ya kusoma</string>
+    <!-- General Settings -->
+    <string name="settings_language">Lugha</string>
+    <string name="settings_pdf_reader">Mipangilio ya Kisomaji cha PDF</string>
+    <string name="settings_help_support">Usaidizi &amp; Usaidizi</string>
+    <string name="settings_whats_new">Kipi Kipya</string>
+    <string name="settings_download_desktop">Sakinisha kwenye Kifaa Kingine</string>
+    <string name="settings_rate_app">Kadiria Programu</string>
+    <string name="play_store_not_found">Duka la Google Play halipatikani kwenye kifaa hiki</string>
+    <string name="settings_set_as_default">Weka kama Kitazamaji Chaguo-msingi cha PDF</string>
+    <string name="settings_set_as_default_subtitle">Fungua PDF kwa kutumia programu hii kwa chaguo-msingi</string>
+    <string name="settings_default_pdf_instructions_title">Jinsi ya Kuweka kama Chaguo-msingi</string>
+    <string name="settings_default_pdf_ok">Nimeelewa</string>
+    <string name="settings_default_app_hint">Haikufanya kazi?</string>
+    <string name="settings_default_app_hint_learn_more">Pata maelezo zaidi</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">Lugha</string>
+    <string name="language_search_placeholder">Tafuta lugha...</string>
+    <!-- Common UI -->
+    <string name="support">Usaidizi</string>
+    <string name="language_english">Kiingereza</string>
+    <string name="language_hindi">Kihindi</string>
+    <string name="language_spanish">Kihispania</string>
+    <string name="language_french">Kifaransa</string>
+    <string name="language_german">Kijerumani</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">Kiarabu</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">Kireno</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">MUONEKANO WA PROGRAMU</string>
+    <string name="theme">MANIA</string>
+    <string name="general">JUMLA</string>
+    <string name="new">MPYA</string>
+    <string name="navigate">Nenda</string>
+    <string name="download">Pakua</string>
+    <string name="falcon_pdf">Falcon PDF</string>
+    <string name="excellence_in_every_pixel">Ubora katika kila pikseli</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">TUMA MABADILIKO</string>
+    <string name="apply">Tuma maombi</string>
+    <string name="selected">Imechaguliwa</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">Mipangilio ya Sawazisha</string>
+    <string name="autosync_on_wifi">Sawazisha kiotomatiki kwenye WiFi</string>
+    <string name="sync_reading_progress">Sawazisha maendeleo ya usomaji</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">Jina la hati</string>
+    <string name="name_cannot_be_empty">Jina haliwezi kuwa tupu</string>
+    <string name="str__failed">%1$s Imeshindwa</string>
+    <string name="ok">Sawa</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">Mpango wa uboreshaji - Mpango wa sasa: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">Weka ili kufungua faili</string>
+    <string name="release_to_import_and_open_pdf">Toa ili kuingiza na kufungua faili za PDF</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">Ondoa</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF</string>
+    <string name="images">Picha</string>
+    <string name="filter_all_types">Faili Zote</string>
+    <string name="favorites">Faili Zinazopendwa</string>
+    <string name="recent">Hivi karibuni</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">Tafuta hati...</string>
+    <string name="voice_search">Utafutaji wa sauti</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">Faili za Hivi Karibuni</string>
+    <string name="loading_recent_files">Inapakia faili za hivi karibuni...</string>
+    <string name="no_recent_files">Hakuna faili za hivi karibuni</string>
+    <string name="no_favorites">Hakuna vipendwa</string>
+    <string name="mark_files_as_favorite_to_see_them_here">Tia alama faili kama zinazopendwa ili kuziona hapa</string>
+    <string name="open_some_pdf_files_to_see_the">Fungua baadhi ya faili za PDF ili uzione hapa</string>
+    <string name="status">Hali</string>
+    <string name="actions">Vitendo</string>
+    <string name="select_all">Chagua zote</string>
+    <string name="enter_multiselect_mode">Ingiza hali ya kuchagua nyingi</string>
+    <string name="sorted_ascending">Imepangwa kupanda</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">Hifadhi: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">Ongeza faili %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">Badilisha aina ya mwonekano</string>
+    <string name="filter_">Kichujio: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">Inapakia PDF...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">Ingia ili kusawazisha</string>
+    <string name="protect_your_library_files">Linda faili zako za maktaba</string>
+    <string name="sign_in">Ingia</string>
+    <string name="sign_out">Toka</string>
+    <string name="sign_in_dialog_title">Ingia kwenye Falcon PDF</string>
+    <string name="sign_in_dialog_subtitle">Maktaba yako ya PDF, kila mahali.</string>
+    <string name="sign_in_with_google">Ingia ukitumia Google</string>
+    <string name="sign_in_with_apple">Ingia ukitumia Apple</string>
+    <string name="apple_user_drive_unavailable">Usawazishaji wa Hifadhi ya Google haupatikani kwa Kuingia kwa Apple</string>
+    <string name="apple_user_link_google">Unganisha Akaunti ya Google kwa ajili ya usawazishaji wa Hifadhi</string>
+    <string name="apple_user_sync_info">Ili kuwezesha usawazishaji wa wingu, unganisha akaunti ya Google</string>
+    <string name="link_google_account">Unganisha Akaunti ya Google</string>
+    <string name="signed_in_successfully">Umeingia kwa mafanikio</string>
+    <string name="signed_out_successfully">Umefanikiwa kutoka</string>
+    <string name="sync_disabled_free">Usawazishaji umezimwa kwa akaunti zisizolipishwa.</string>
+    <string name="storage_disabled_grant_access">Hifadhi imezimwa. Ruhusu ufikiaji wa kiendeshi kuanza.</string>
+    <string name="upgrade_to_pro">Boresha hadi Pro</string>
+    <string name="grant_drive_access">Toa Ufikiaji wa Hifadhi</string>
+    <string name="files_synced">%1$d/%2$d Faili Zimesawazishwa</string>
+    <string name="synced_count">%1$d Imesawazishwa</string>
+    <string name="unlimited_sync_active">Usawazishaji Usio na Kikomo</string>
+    <string name="missing_drive_permissions">Ruhusa za Hifadhi hazipo. Usawazishaji umezuiwa kwa sasa.</string>
+    <string name="drive_access_revoked">Ufikiaji wa Hifadhi umefutwa. Unganisha tena ili kuendelea kusawazisha.</string>
+    <string name="upgrade_premium">Boresha Premium</string>
+    <string name="manage_account">Dhibiti Akaunti</string>
+    <string name="sync_now">Sawazisha sasa</string>
+    <string name="tier_free">BURE</string>
+    <string name="tier_pro">PRO</string>
+    <string name="tier_premium">BORA</string>
+    <string name="status_paused">IMESIMAMA</string>
+    <!-- Common -->
+    <string name="navigate_back">Nenda nyuma</string>
+    <string name="dismiss">Ondoa</string>
+    <string name="cancel">Ghairi</string>
+    <string name="back">Rudi</string>
+    <string name="search">Tafuta</string>
+    <string name="more_actions">Vitendo zaidi</string>
+    <string name="share">Shiriki</string>
+    <string name="delete">Futa</string>
+    <string name="remove_from_recents">Ondoa kutoka kwa hivi karibuni</string>
+    <string name="open">Fungua</string>
+    <string name="all">Zote</string>
+    <string name="sort_by_">Panga kulingana na %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Usawazishaji wa Hifadhi ya Google</string>
+    <string name="syncing">Inasawazisha...</string>
+    <string name="sync_completed">Usawazishaji umekamilika</string>
+    <string name="sync_failed">Usawazishaji umeshindwa</string>
+    <string name="sync_limit_exceeded">Kikomo cha usawazishaji kimezidi. Mpango wako wa %s unaruhusu faili %d.</string>
+    <string name="sync_no_drive_access">Ufikiaji wa Hifadhi ya Google haupatikani</string>
+    <string name="sync_network_unavailable">Mtandao haupatikani</string>
+    <string name="sync_last_sync">Usawazishaji wa mwisho: %s</string>
+    <string name="sync_total_files">Jumla</string>
+    <string name="sync_synced_files">Imesawazishwa</string>
+    <string name="sync_failed_files">Imeshindwa</string>
+    <string name="sync_conflict_files">Migogoro</string>
+    <string name="sync_add_to_favorites">Ongeza kwenye vipendwa</string>
+    <string name="sync_remove_from_favorites">Ondoa kutoka kwa vipendwa</string>
+    <string name="sync_conflict_title">Migogoro ya Sawazisha</string>
+    <string name="sync_conflict_message">Faili zifuatazo zina migogoro inayohitaji kutatuliwa:</string>
+    <string name="sync_conflict_explanation">Migogoro hutokea wakati matoleo ya ndani na ya mbali yamebadilishwa.</string>
+    <string name="sync_plan_limit">Sawazisha: %d/%d</string>
+    <string name="sync_plan_limit_reached">Kikomo kimefikiwa</string>
+    <string name="sync_plan_unlimited">Usawazishaji usio na kikomo</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">Ruka</string>
+    <string name="welcome_next">Inayofuata</string>
+    <string name="welcome_get_started">Anza</string>
+    <string name="welcome_sign_in_get_started">Ingia &amp; Anza</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Soma Hati Yoyote&lt;/b&gt; Papo Hapo</string>
+    <string name="welcome_slide1_description">Fungua na udhibiti miundo zaidi ya 10 ya hati ikiwa ni pamoja na PDF, DOC, EPUB, MOBI.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Soma PDF, vitabu pepe,&lt;/b&gt; na hati za ofisi katika sehemu moja</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Penda hati&lt;/b&gt; na uzifikie kwenye vifaa vyote</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;Toa maoni,&lt;/b&gt; onyesha, na ushirikiane kwa urahisi</string>
+    <string name="welcome_slide1_footer">Msomaji wako wa hati wa ulimwengu wote</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;Hariri, Changanua na Panga&lt;/b&gt; PDF</string>
+    <string name="welcome_slide2_description">Kila kitu unachohitaji ili kuunda, kuhariri, na kudhibiti PDF katika zana moja yenye nguvu.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;Hariri maandishi,&lt;/b&gt; andika maelezo, onyesha, na ujaze fomu</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Changanua hati&lt;/b&gt; na uzibadilishe kuwa PDF mara moja</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;Zana zaidi ya 30&lt;/b&gt; ikijumuisha kuunganisha, kubadilisha, kubana, na kuweka salama</string>
+    <string name="welcome_slide2_footer">Nafasi yako ya kazi ya PDF ya kila kitu</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;AI Inayoelewa&lt;/b&gt; Nyaraka Zako</string>
+    <string name="welcome_slide3_description">Okoa saa ukitumia AI inayosoma na kuchanganua hati kwa ajili yako.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Fupisha&lt;/b&gt; hati ndefu kwa sekunde</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; kurasa zilizochanganuliwa na kutafsiri maandishi papo hapo</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Sikiliza&lt;/b&gt; hati zenye usomaji wa sauti uliojengewa ndani</string>
+    <string name="welcome_slide3_footer">Hakuna matangazo. Uzalishaji tu.</string>
+    <string name="grace">NEEMA</string>
+    <string name="unable_to_verify_subscription_limited_ac">Haiwezi kuthibitisha usajili. Ufikiaji mdogo hadi muunganisho utakaporejeshwa.</string>
+    <string name="retry_verification">Jaribu Uthibitishaji Tena</string>
+    <string name="guest_state">Jimbo la Wageni</string>
+    <string name="free_tier">Kiwango cha Bure</string>
+    <string name="free_tier__locked">Daraja Huria - Imefungwa</string>
+    <string name="pro_tier">Kiwango cha Wataalamu</string>
+    <string name="pro_tier__restricted">Kiwango cha Wataalamu - Kilichopunguzwa</string>
+    <string name="premium_tier">Kiwango cha Premium</string>
+    <string name="premium_tier__error">Kiwango cha Premium - Hitilafu</string>
+    <string name="refresh_plan_status">Hali ya mpango wa kuonyesha upya</string>
+    <string name="user_avatar">Ishara ya mtumiaji</string>
+    <string name="debug_tools">Zana za Kutatua Hitilafu</string>
+    <string name="authentication__drive">Uthibitishaji &amp; Hifadhi</string>
+    <string name="auth_state">Jimbo la Uidhinishaji</string>
+    <string name="revoke_drive_access">Batilisha Ufikiaji wa Hifadhi</string>
+    <string name="image">Picha</string>
+    <string name="thumbnail">Kijipicha</string>
+    <string name="manage_preferences">Dhibiti Mapendeleo</string>
+    <string name="tools_history">Historia ya Zana</string>
+    <string name="manage_recent_logs">Dhibiti kumbukumbu za hivi karibuni</string>
+    <string name="more_options">Chaguo zaidi</string>
+    <string name="clear_all_history">Futa Historia Yote</string>
+    <string name="no_history_yet">Hakuna Historia Bado</string>
+    <string name="your_pdf_tool_operations_will_appear_her">Utendaji wa zana zako za PDF utaonekana hapa</string>
+    <string name="view">Tazama</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">Imehifadhiwa %1$s</string>
+    <string name="history_status_processing">Usindikaji</string>
+    <string name="history_status_succeeded">IMEFANIKIWA</string>
+    <string name="history_status_failed">IMESHINDWA</string>
+    <string name="history_status_processing_upper">USINDIKAJI</string>
+    <string name="history_unknown_files">Faili zisizojulikana</string>
+    <string name="history_op_complete">%1$s Imekamilika!</string>
+    <string name="history_op_failed">%1$s Imeshindwa</string>
+    <string name="history_op_success_multiple">Uendeshaji umekamilika kwa mafanikio na faili %1$d</string>
+    <string name="history_op_success_single">Operesheni imekamilika kwa mafanikio</string>
+    <string name="history_op_error">Hatukuweza kukamilisha operesheni</string>
+    <string name="history_multiple_files">%1$d faili</string>
+    <string name="history_failed">Imeshindwa</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">Usawazishaji wa Wingu</string>
+    <string name="cloud_sync_subtitle">Vifaa Vilivyounganishwa</string>
+    <string name="cloud_sync_all_synced">Faili zote zimesawazishwa</string>
+    <string name="cloud_sync_syncing">Inasawazisha…</string>
+    <string name="cloud_sync_pending">Usawazishaji unasubiri</string>
+    <string name="cloud_sync_last_sync">Usawazishaji wa mwisho: %1$s</string>
+    <string name="cloud_sync_never_synced">Haijawahi kusawazishwa</string>
+    <string name="cloud_sync_recent_activity">Shughuli ya Usawazishaji wa Hivi Karibuni</string>
+    <string name="cloud_sync_no_files">Hakuna faili zilizosawazishwa bado</string>
+    <string name="cloud_sync_synced_to_drive">Imesawazishwa kwenye Hifadhi</string>
+    <string name="cloud_sync_pending_upload">Inasubiri kupakiwa</string>
+    <string name="cloud_sync_sync_now">Sawazisha Sasa</string>
+    <string name="cloud_sync_view_history">Tazama historia ya usawazishaji</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d faili zimesawazishwa</string>
+    <string name="cloud_sync_unlimited_files">%1$d faili zimesawazishwa · Isiyo na kikomo</string>
+    <string name="cloud_sync_cta_title">Jukwaa Lolote, Wakati Wowote</string>
+    <string name="cloud_sync_cta_subtitle">Nyaraka zako zinakufuata kila mahali</string>
+    <string name="cloud_sync_files_label">%1$d faili</string>
+    <string name="settings_data_privacy">Data &amp; Faragha</string>
+    <string name="settings_data_privacy_subtitle">Dhibiti data, akaunti &amp; kufuta</string>
+    <string name="settings_delete_account">Futa Akaunti</string>
+    <string name="settings_delete_account_subtitle">Futa akaunti na data yako kabisa</string>
+    <string name="delete_account_warning_title">Futa akaunti yako?</string>
+    <string name="delete_account_warning_message">Hii itafuta kabisa akaunti yako na data yote inayohusiana, ikiwa ni pamoja na historia yako ya ununuzi na faili zilizosawazishwa na wingu. Kitendo hiki hakiwezi kutenduliwa na ununuzi hauwezi kurejeshwa baadaye.</string>
+    <string name="delete_account_confirm_phrase_label">Andika 'thibitisha kufuta' ili kuendelea:</string>
+    <string name="delete_account_confirm_phrase">thibitisha kufuta</string>
+    <string name="delete_account_button">Futa Akaunti</string>
+    <string name="delete_account_error_reauth">Kwa usalama, lazima uwe umeingia hivi karibuni ili kufuta akaunti yako. Tafadhali ondoka na uingie tena, kisha ujaribu tena.</string>
+    <string name="delete_account_success">Akaunti imefutwa kwa mafanikio</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">Faili &amp; Mipangilio ya Usawazishaji</string>
+    <string name="sync_on_mobile_data_subtitle">Tumia data ya simu kwa ajili ya usawazishaji wa wingu</string>
+    <string name="drive_sync">Usawazishaji wa mandharinyuma</string>
+    <string name="drive_sync_subtitle">Sawazisha vipendwa &amp; changanua hati kwenye Hifadhi</string>
+    <string name="do_not_import_from_other_apps">Usiingize faili kutoka kwa programu zingine</string>
+    <string name="do_not_import_from_other_apps_subtitle">Fungua faili zilizoshirikiwa kwa muda bila kuhifadhi kwenye maktaba</string>
+    <string name="clear_imported_files">Futa Faili Zilizoingizwa</string>
+    <string name="clear_imported_files_subtitle">Futa faili zote zilizonakiliwa kutoka kwa programu zingine</string>
+    <string name="clear_imports_confirm_title">Futa faili zilizoingizwa?</string>
+    <string name="clear_imports_confirm_message">Hii itafuta kabisa faili zote kwenye folda yako ya Uingizaji. Hii haiwezi kutenduliwa.</string>
+    <string name="clear_imports_success">Faili zilizoingizwa zimefutwa</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">Data &amp; Faragha</string>
+    <string name="analytics_opt_out_title">Tuma Data ya Matumizi</string>
+    <string name="analytics_opt_out_subtitle">Shiriki data ya matumizi isiyojulikana na ripoti za kuacha kufanya kazi na msanidi programu ili kusaidia kuboresha programu</string>
+    <string name="analytics_opt_out_disabled_note">Uchanganuzi na kuripoti ajali vimezimwa. Hakuna data inayotumwa kwa Google au msanidi programu.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">Mabadiliko Yasiyohifadhiwa</string>
+    <string name="unsaved_changes_tab_message">Hati hii ina mabadiliko ambayo hayajahifadhiwa. Unataka kuhifadhi kabla ya kufunga?</string>
+    <string name="unsaved_changes_window_message">Una mabadiliko ambayo hayajahifadhiwa katika hati moja au zaidi. Je, unataka kuyatupa na kuacha?</string>
+    <string name="discard">Tupa</string>
+    <string name="discard_and_quit">Tupa &amp; Acha</string>
+    <string name="close">Funga</string>
+    <string name="remove_favorite">Ondoa kipendwa</string>
+    <string name="set_as_default_pdf_viewer">Weka kama Kitazamaji Chaguo-msingi cha PDF?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF si kitazamaji chako chaguo-msingi cha PDF. Ungependa kuiweka kama chaguo-msingi ili faili zote za PDF zifunguke kwa kutumia Falcon PDF?</string>
+    <string name="set_now">Weka Sasa</string>
+    <string name="never">Kamwe</string>
+    <string name="later">Baadaye</string>
+    <string name="set_default">Weka Chaguo-Msingi</string>
+    <string name="default">Chaguo-msingi</string>
+    <string name="version_">Toleo %1$s</string>
+    <string name="sign_in_with_other_accounts">Ingia ukitumia akaunti zingine</string>
+    <string name="upgrade">Boresha</string>
+    <string name="view_plan">Tazama Mpango</string>
+    <string name="unlimited_sync_upto_5gb">Usawazishaji usio na kikomo hadi 5GB</string>
+    <string name="unlock_faster">Fungua haraka zaidi</string>
+    <string name="use_biometrics_instead_of_passwords">Tumia Biometriki badala ya manenosiri.</string>
+    <string name="upgrade_to_premium">Boresha hadi Premium</string>
+    <string name="unlock_pdf">Fungua PDF</string>
+    <string name="use__to_accessnthis_document">Tumia %1$s kufikia\nhati hii</string>
+    <string name="open_with_password">Fungua kwa Nenosiri</string>
+    <string name="secure">Salama</string>
+    <string name="loading_">Inapakia %1$s...</string>
+    <string name="failed_to_open_ebook">Imeshindwa kufungua kitabu pepe</string>
+    <string name="properties">Mali</string>
+    <string name="copy">Nakili</string>
+    <string name="highlight">Kivutio</string>
+    <string name="clear_selection">Futa uteuzi</string>
+    <string name="close_search">Funga utafutaji</string>
+    <string name="search_in_book">Tafuta kwenye kitabu...</string>
+    <string name="contents">Yaliyomo</string>
+    <string name="table_of_contents">Orodha ya Yaliyomo</string>
+    <string name="no_table_of_contents_available">Hakuna jedwali la yaliyomo linalopatikana</string>
+    <string name="bookmarks">Alamisho</string>
+    <string name="no_bookmarks_yet">Hakuna alamisho bado</string>
+    <string name="page_">Ukurasa %1$s</string>
+    <string name="no_results">Hakuna matokeo</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">Mipangilio</string>
+    <string name="decrease_font_size">Punguza ukubwa wa fonti</string>
+    <string name="increase_font_size">Ongeza ukubwa wa fonti</string>
+    <string name="font">Fonti</string>
+    <string name="jump_to_page">Ruka hadi Ukurasa</string>
+    <string name="enter_page_number_1">Ingiza nambari ya ukurasa (1–%1$s):</string>
+    <string name="go">Nenda</string>
+    <string name="read_aloud">Soma kwa Sauti</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">Simamisha</string>
+    <string name="annotations__text_selection">Uteuzi wa Maandishi &amp;</string>
+    <string name="text_selection_and_annotations_for_ebook">Uchaguzi wa maandishi na maelezo ya vitabu pepe unakuja hivi karibuni.</string>
+    <string name="longpress_on_text_to_select_highlight_or">Bonyeza kwa muda mrefu maandishi ili kuchagua, kuangazia, au kuongeza madokezo.</string>
+    <string name="press_play_to_start_reading_aloud">Bonyeza cheza ili uanze kusoma kwa sauti...</string>
+    <string name="speed">Kasi</string>
+    <string name="voice">Sauti</string>
+    <string name="no_annotations_yet">Hakuna maelezo bado</string>
+    <string name="select_text_to_highlight_or_add_notes">Chagua maandishi ili kuangazia au kuongeza madokezo</string>
+    <string name="tools">Zana</string>
+    <string name="convert_to_images">Badilisha hadi Picha</string>
+    <string name="rename">Badilisha jina</string>
+    <string name="print">Chapisha</string>
+    <string name="a">A−</string>
+    <string name="cover_of_">Jalada la %1$s</string>
+    <string name="no_cover_available">Hakuna kifuniko kinachopatikana</string>
+    <string name="read_now">Soma Sasa</string>
+    <string name="about_the_book">KUHUSU KITABU</string>
+    <string name="tags">TAGI</string>
+    <string name="publisher_info">TAARIFA ZA MCHAPISHI</string>
+    <string name="published_">Imechapishwa: %1$s</string>
+    <string name="retry">Jaribu tena</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Futa Akiba</string>
+    <string name="ebooks_library">Maktaba ya Vitabu vya Kielektroniki</string>
+    <string name="manage_your_digital_collection_across_mu">Dhibiti mkusanyiko wako wa kidijitali katika watoa huduma wengi. Tafuta, chuja, na ugundue vitabu vipya kutoka kwa Vitabu vya Google na Maktaba Huria.</string>
+    <string name="no_books_found">Hakuna vitabu vilivyopatikana</string>
+    <string name="no_results_for__try_a_different_search_t">Hakuna matokeo ya "%1$s". Jaribu neno tofauti la utafutaji.</string>
+    <string name="downloadable_only">Inapakuliwa Pekee</string>
+    <string name="file_unavailable">Faili haipatikani</string>
+    <string name="unavailable">Haipatikani</string>
+    <string name="search_titles_authors_isbn">Tafuta majina, waandishi, ISBN...</string>
+    <string name="clear_search">Futa utafutaji</string>
+    <string name="ebooks">Vitabu vya kielektroniki</string>
+    <string name="read_pdf">Soma PDF</string>
+    <string name="create_pdf">Unda PDF</string>
+    <string name="unlock_all_tools_and_remove_limits">Fungua zana zote na uondoe mipaka</string>
+    <string name="ocr_scanning">Uchanganuzi wa OCR</string>
+    <string name="extract_text_from_scanned_documents">Dondoo maandishi kutoka kwa hati zilizochanganuliwa</string>
+    <string name="cloud_sync">Usawazishaji wa Wingu</string>
+    <string name="access_your_documents_anywhere">Fikia hati zako popote</string>
+    <string name="annotate_pdfs">Toa maelezo kwenye PDF</string>
+    <string name="cloud_backup">Hifadhi Nakala ya Wingu</string>
+    <string name="continue_reading">Endelea Kusoma</string>
+    <string name="pick_files">Chagua Faili</string>
+    <string name="browse">Vinjari</string>
+    <string name="did_you_know">Je, Ulijua?</string>
+    <string name="home">Nyumbani</string>
+    <string name="your_documents_at_a_glance">Hati zako kwa muhtasari</string>
+    <string name="pick_file">Chagua Faili</string>
+    <string name="quick_actions">Vitendo vya Haraka</string>
+    <string name="pro">PRO</string>
+    <string name="open_files">Fungua faili</string>
+    <string name="convert_to_pdf">Badilisha hadi PDF</string>
+    <string name="close_drawer">Funga droo</string>
+    <string name="close_file">Funga faili</string>
+    <string name="office">Ofisi</string>
+    <string name="coming_soon">Inakuja Hivi Karibuni</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">Kitazamaji cha vitabu vya kielektroniki bado hakipatikani kwenye mfumo huu.</string>
+    <string name="set_as_default_viewer">Weka kama Kitazamaji Chaguo-Msingi</string>
+    <string name="free">Bure</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">Inapakua sasisho... %1$s%</string>
+    <string name="more">Zaidi</string>
+    <string name="font_size">Ukubwa wa Fonti</string>
+    <string name="font_family">Familia ya Fonti</string>
+    <string name="scroll_direction">Mwelekeo wa kusogeza</string>
+    <string name="navigation">Urambazaji</string>
+    <string name="keep_screen_on">Weka Skrini Imewashwa</string>
+    <string name="volume_button_to_scroll">Kitufe cha Sauti cha Kusogeza</string>
+    <string name="export_ebook_pages_as_image_files">Hamisha kurasa za kitabu pepe kama faili za picha</string>
+    <string name="access_millions_of_titles">Fikia mamilioni ya vitabu.</string>
+    <string name="read_offline_with_natural_ai_voices">Soma nje ya mtandao ukitumia sauti asilia za AI.</string>
+    <string name="advanced_ai_reader">Msomaji wa AI wa hali ya juu.</string>
+    <string name="experience_studioquality_narration">Pata uzoefu wa usimulizi wa ubora wa studio.</string>
+    <string name="powerful_pdf_tools">Zana zenye nguvu za PDF.</string>
+    <string name="create_and_edit_documents_on_the_go">Unda na uhariri hati popote ulipo.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Boresha hadi Pro: Fungua zana zote na uondoe mipaka</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">Uchanganuzi wa OCR: Dondoo maandishi kutoka kwa hati zilizochanganuliwa</string>
+    <string name="cloud_sync_access_your_documents_anywher">Usawazishaji wa Wingu: Fikia hati zako popote</string>
+    <string name="scan">Changanua</string>
+    <string name="compress">Kubana</string>
+    <string name="merge">Unganisha</string>
+    <string name="convert">Badilisha</string>
+    <string name="highlight_underline_and_add_notes_to_you">Angazia, piga mstari, na ongeza madokezo kwenye hati zako</string>
+    <string name="keep_your_documents_safe_with_automatic_">Weka hati zako salama kwa kusawazisha kiotomatiki kwenye wingu</string>
+    <string name="indicator_color_">rangi_ya_kiashiria_%1$s</string>
+    <string name="my_library">Maktaba Yangu</string>
+    <string name="get_ebooks">Pata vitabu vya kielektroniki</string>
+    <string name="scan_document">Changanua Hati</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

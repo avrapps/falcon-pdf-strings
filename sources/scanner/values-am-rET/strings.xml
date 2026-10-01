@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">ቃኝ</string>
+    <string name="scan_home_documents">ሰነዶች</string>
+    <string name="scan_home_documents_lowercase">ሰነዶች</string>
+    <string name="scan_home_documents_count">%1$d ሰነዶች</string>
+    <string name="scan_home_no_documents">እስካሁን ምንም ሰነዶች የሉም</string>
+    <string name="scan_home_start_scanning">የመጀመሪያውን ሰነድዎን ለመፍጠር መቃኘት ይጀምሩ</string>
+    <string name="scan_home_new_folder">አዲስ አቃፊ</string>
+    <string name="scan_home_scan_document">ሰነድ ይቃኙ</string>
+    <string name="scan_home_import_gallery">ከጋለሪ አስመጣ</string>
+    <string name="scan_home_parent_folder">የወላጅ አቃፊ</string>
+    <string name="scan_home_go_back">ወደ የወላጅ አቃፊ ተመለስ</string>
+    <string name="scan_home_create_folder">አዲስ አቃፊ ፍጠር</string>
+    <string name="scan_home_enter_folder_name">ለአዲሱ አቃፊ ስም ያስገቡ</string>
+    <string name="scan_home_folder_name">የአቃፊ ስም</string>
+    <string name="scan_home_folder_placeholder">ለምሳሌ፣ የሥራ ሰነዶች</string>
+    <string name="scan_home_folder_error">የአቃፊ ስም ባዶ ሊሆን አይችልም</string>
+    <string name="scan_home_folder_name_empty">የአቃፊ ስም ባዶ መሆን አይችልም</string>
+    <string name="scan_home_create">ፍጠር</string>
+    <string name="scan_home_folder_exists">ይህ ስም ያለው አቃፊ አስቀድሞ አለ</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">ካሜራ</string>
+    <string name="scan_camera_permission_required">የካሜራ ፈቃድ ያስፈልጋል</string>
+    <string name="scan_camera_permission_message">ይህ መተግበሪያ ሰነዶችን ለመቃኘት የካሜራ መዳረሻ ያስፈልገዋል።</string>
+    <string name="scan_camera_permission_settings">እባክዎ ወደ ቅንብሮች &gt; መተግበሪያዎች &gt; የፒዲኤፍ መመልከቻ &gt; ፈቃዶች ይሂዱ እና የካሜራ ፈቃድን ያንቁ።</string>
+    <string name="scan_camera_permission_title">የካሜራ ፈቃድ ያስፈልጋል</string>
+    <string name="scan_camera_request_permission">ፈቃድ ጠይቅ</string>
+    <string name="scan_camera_open_settings">ቅንብሮችን ክፈት</string>
+    <string name="scan_camera_close">ገጠመ</string>
+    <string name="scan_camera_flash">ፍላሽ</string>
+    <string name="scan_camera_auto_capture">ራስ-ሰር ቀረጻ</string>
+    <string name="scan_camera_settings">ቅንብሮች</string>
+    <string name="scan_camera_ready_batch">በርካታ ገጾችን ለመቃኘት ዝግጁ</string>
+    <string name="scan_camera_ready_multiple">በርካታ ገጾችን ለመቃኘት ዝግጁ</string>
+    <string name="scan_camera_hold_steady">እየቃኙ ሳሉ ቀጥ ብለው ይያዙ</string>
+    <string name="scan_camera_captured_pages">%1$d ገጾች ተቀርፀዋል</string>
+    <string name="scan_camera_mode_single">ነጠላ</string>
+    <string name="scan_camera_mode_batch">ባች</string>
+    <string name="scan_camera_preview">ቅድመ እይታ</string>
+    <string name="scan_camera_finish">ጨርስ</string>
+    <string name="scan_camera_starting">የመነሻ ካሜራ...</string>
+    <string name="scan_camera_document_name">የሰነድ ስም</string>
+    <string name="scan_camera_document_name_empty">የሰነድ ስም ባዶ ሊሆን አይችልም</string>
+    <string name="scan_camera_save_document">ሰነድ አስቀምጥ</string>
+    <string name="scan_camera_processing">በማስኬድ ላይ...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">መከርከም &amp; አስተካክል</string>
+    <string name="scan_crop_close">ገጠመ</string>
+    <string name="scan_crop_reset">ዳግም አስጀምር</string>
+    <string name="scan_crop_rotate">አዙር</string>
+    <string name="scan_crop_done">ተጠናቅቋል</string>
+    <string name="scan_crop_scanned_document">የተቃኘ ሰነድ</string>
+    <string name="scan_crop_magnified_view">የተጎላበተ እይታ</string>
+    <string name="scan_crop_processing">በማስኬድ ላይ...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">አሻሽል</string>
+    <string name="scan_filter_close">ገጠመ</string>
+    <string name="scan_filter_rotate">አዙር</string>
+    <string name="scan_filter_done">ተጠናቅቋል</string>
+    <string name="scan_filter_filters">ማጣሪያዎች</string>
+    <string name="scan_filter_original">ኦሪጅናል</string>
+    <string name="scan_filter_magic">አስማት</string>
+    <string name="scan_filter_lighten">ቀለል አድርግ</string>
+    <string name="scan_filter_bw">ቢ&amp;ወ</string>
+    <string name="scan_filter_grayscale">ግራጫማ ደረጃ</string>
+    <string name="scan_filter_magic_2">ንፁህ ሰነድ</string>
+    <string name="scan_filter_soft_scan">ለስላሳ ቅኝት</string>
+    <string name="scan_filter_color_enhance">ቀለም+</string>
+    <string name="scan_filter_ink_saver">የቀለም ቆጣቢ</string>
+    <string name="scan_filter_premium">ፕሪሚየም ባህሪ</string>
+    <string name="scan_filter_filtered_document">የተጣራ ሰነድ</string>
+    <string name="scan_filter_applying">ማጣሪያን በመተግበር ላይ...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">ሰርዝ</string>
+    <string name="scan_share">አጋራ</string>
+    <string name="scan_move">አንቀሳቅስ</string>
+    <string name="scan_move_to_folder">ወደ አቃፊ ውሰድ</string>
+    <string name="scan_delete">ሰርዝ</string>
+    <string name="scan_rename">እንደገና ሰይም</string>
+    <string name="scan_root">ሩት</string>
+    <string name="scan_select_destination">የመድረሻ አቃፊ ይምረጡ</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">ሰነድ</string>
+    <string name="scan_document_back">ተመለስ</string>
+    <string name="scan_document_pages">ገጾች</string>
+    <string name="scan_document_add_pages">ወደዚህ ሰነድ ገጾችን ያክሉ</string>
+    <string name="scan_document_add_page_button">ገጽ ያክሉ</string>
+    <string name="scan_document_rename">እንደገና ሰይም</string>
+    <string name="scan_document_share">አጋራ</string>
+    <string name="scan_document_more">ተጨማሪ</string>
+    <string name="scan_document_pages_count">%1$d ገጾች</string>
+    <string name="scan_document_no_pages">እስካሁን ምንም ገጾች የሉም</string>
+    <string name="scan_document_scan_page">ገጽን ይቃኙ</string>
+    <string name="scan_document_import_page">ከጋለሪ አስመጣ</string>
+    <string name="scan_document_grid_view">የፍርግርግ እይታ</string>
+    <string name="scan_document_list_view">የዝርዝር እይታ</string>
+    <string name="scan_document_continuous_view">ቀጣይነት ያለው እይታ</string>
+    <string name="scan_document_page_number">ገጽ %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">ገጽ</string>
+    <string name="scan_page_back">ተመለስ</string>
+    <string name="scan_page_share">አጋራ</string>
+    <string name="scan_page_delete">ሰርዝ</string>
+    <string name="scan_page_of">%1$d የ %2$d</string>
+    <string name="scan_page_image_not_found">ምስሉ አልተገኘም</string>
+    <string name="scan_page_retake">እንደገና ውሰድ</string>
+    <string name="scan_page_crop">ሰብል</string>
+    <string name="scan_page_enhance">አሻሽል</string>
+    <string name="scan_page_ocr">ኦሲአር</string>
+    <string name="scan_page_save_gallery">ወደ ጋለሪ ያስቀምጡ</string>
+    <string name="scan_page_saved_to_gallery">ምስሉ ወደ ጋለሪ ተቀምጧል</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">ሰነድ ይሰረዝ?</string>
+    <string name="scan_delete_document_message">"%1$s"ን መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት? ይህ በዚህ ሰነድ ውስጥ ያሉትን ሁሉንም ገጾች በቋሚነት ይሰርዛል። ይህ እርምጃ ሊቀለበስ አይችልም።</string>
+    <string name="scan_rename_document">ሰነድን እንደገና ይሰይሙ</string>
+    <string name="scan_rename_enter_name">ለሰነዱ አዲስ ስም ያስገቡ</string>
+    <string name="scan_rename_document_name">የሰነድ ስም</string>
+    <string name="scan_rename_error">የሰነድ ስም ባዶ ሊሆን አይችልም</string>
+    <string name="scan_dialog_delete_document_title">ሰነድ ይሰረዝ?</string>
+    <string name="scan_dialog_delete_document_message">"%1$s"ን መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት? ይህ በዚህ ሰነድ ውስጥ ያሉትን ሁሉንም ገጾች በቋሚነት ይሰርዛል። ይህ እርምጃ ሊቀለበስ አይችልም።</string>
+    <string name="scan_dialog_delete_confirm">ሰርዝ</string>
+    <string name="scan_dialog_cancel">ሰርዝ</string>
+    <string name="scan_dialog_move_title">ወደ አቃፊ ውሰድ</string>
+    <string name="scan_dialog_move_message">የመድረሻ አቃፊ ይምረጡ</string>
+    <string name="scan_dialog_move_confirm">አንቀሳቅስ</string>
+    <string name="scan_dialog_move_root">ሩት</string>
+    <string name="scan_dialog_move_selected">ተመርጧል</string>
+    <string name="scan_dialog_rename_title">ሰነድን እንደገና ይሰይሙ</string>
+    <string name="scan_dialog_rename_message">ለሰነዱ አዲስ ስም ያስገቡ</string>
+    <string name="scan_dialog_rename_label">የሰነድ ስም</string>
+    <string name="scan_dialog_rename_error">የሰነድ ስም ባዶ ሊሆን አይችልም</string>
+    <string name="scan_dialog_rename_confirm">እንደገና ሰይም</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">አጋራ</string>
+    <string name="scan_menu_move">ወደ አቃፊ ውሰድ</string>
+    <string name="scan_menu_delete">ሰርዝ</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">የካሜራ ቅድመ እይታ\n(በቅርቡ ይመጣል)</string>
+    <string name="scan_platform_desktop_camera">የዴስክቶፕ ካሜራ ቅድመ እይታ\n(በቅርቡ ይመጣል)</string>
+    <string name="scan_platform_ios_camera">የ iOS ካሜራ ቅድመ እይታ\n(በቅርቡ ይመጣል)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">ገጠመ</string>
+    <string name="flash">ፍላሽ</string>
+    <string name="auto_capture">ራስ-ሰር ቀረጻ</string>
+    <string name="settings">ቅንብሮች</string>
+    <string name="capture">ቀረጻ</string>
+    <string name="finish">ጨርስ</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">%1ን መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት? በውስጡ ያሉት ሁሉም ሰነዶችም ይሰረዛሉ።</string>
+    <string name="share">አጋራ</string>
+    <string name="share_as_images">እንደ ምስሎች አጋራ</string>
+    <string name="share_as_pdf">እንደ ፒዲኤፍ አጋራ</string>
+    <string name="move_to_folder">ወደ አቃፊ ውሰድ</string>
+    <string name="delete">ሰርዝ</string>
+    <string name="selected">ተመርጧል</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">ገጽ %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">አቃፊው ባዶ ነው</string>
+    <string name="tap_the__button_to_scan_a_docu">ሰነድ ለመቃኘት የ+ አዝራሩን መታ ያድርጉ</string>
+    <string name="str______pages">%1$s • %2$s • %3$s ገጾች</string>
+    <string name="create_folder">አቃፊ ፍጠር</string>
+    <string name="more_options">ተጨማሪ አማራጮች</string>
+    <string name="document_thumbnail">የሰነድ ድንክዬ</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">ምስሉ አልተገኘም</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — ገጽ %2$d</string>
+    <string name="scan_ocr_title">የጽሑፍ ማወቂያ</string>
+    <string name="scan_ocr_copy">ጽሑፍን ቅዳ</string>
+    <string name="scan_ocr_no_text">ምንም ጽሑፍ አልተገኘም</string>
+    <string name="scan_ocr_processing">ጽሑፍን በማወቅ ላይ…</string>
+    <string name="scan_ocr_error">ጽሑፍን መለየት አልተሳካም</string>
+    <string name="scan_ocr_not_supported">OCR በዚህ መድረክ ላይ አይደገፍም</string>
+    <string name="scan_ocr_image">ለOCR የተቃኘ ገጽ</string>
+    <string name="gallery">ጋለሪ</string>
+    <string name="select_file">ፋይል ይምረጡ</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">ምስሉን መቅረጽ አልተሳካም</string>
+    <string name="error_no_images_captured">ምንም ምስሎች አልተቀረጹም</string>
+    <string name="error_open_settings">ቅንብሮችን መክፈት አልተሳካም</string>
+    <string name="error_process_images">ምስሎችን ማስኬድ አልተሳካም</string>
+    <string name="error_process_image">ምስሉን ማስኬድ አልተሳካም</string>
+    <string name="error_start_camera">ካሜራውን ማስጀመር አልተሳካም</string>
+    <string name="error_stop_camera">ካሜራውን ማቆም አልተሳካም</string>
+    <string name="error_crop_image">ምስሉን መከርከም አልተሳካም</string>
+    <string name="error_delete_document">ሰነድ መሰረዝ አልተሳካም</string>
+    <string name="error_delete_page">ገጹን መሰረዝ አልተሳካም</string>
+    <string name="error_load_document">ሰነድ መጫን አልተሳካም</string>
+    <string name="error_load_page">ገጹን መጫን አልተሳካም</string>
+    <string name="error_move_document">ሰነዱን ማንቀሳቀስ አልተሳካም</string>
+    <string name="error_no_pages_to_share">ለማጋራት ምንም ገጾች የሉም</string>
+    <string name="error_rename_document">ሰነዱን እንደገና መሰየም አልተሳካም</string>
+    <string name="error_reorder_pages">ገጾችን እንደገና ማዘዝ አልተሳካም</string>
+    <string name="error_share_images">ምስሎችን ማጋራት አልተሳካም</string>
+    <string name="error_share_pdf">ፒዲኤፍ ማጋራት አልተሳካም</string>
+    <string name="error_share_page">ገጹን ማጋራት አልተሳካም</string>
+    <string name="error_create_folder">አቃፊ መፍጠር አልተሳካም</string>
+    <string name="error_delete_folder">አቃፊን መሰረዝ አልተሳካም</string>
+    <string name="error_rename_folder">አቃፊን እንደገና መሰየም አልተሳካም</string>
+    <string name="error_unknown">ያልታወቀ ስህተት ተከስቷል</string>
+    <string name="folder_not_found">አቃፊ አልተገኘም</string>
+    <string name="sync_documents">ሰነዶችን አመሳስል</string>
+    <string name="shutter_scale">የመዝጊያ_ልኬት</string>
+    <string name="import_gallery">የማስመጣት ጋለሪ</string>
+    <string name="scan_camera">ካሜራ ይቃኙ</string>
+</resources>

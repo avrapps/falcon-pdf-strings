@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Comprova la connexió a Internet i confirma que s'ha afegit un compte de Google al dispositiu i, a continuació, torna-ho a provar.</string>
+    <string name="sign_in_with_apple">Inicia la sessió amb Apple</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Millora la teva experiència</string>
+    <string name="purchase_screen_close">Tanca</string>
+    <string name="purchase_screen_refresh">Actualitza</string>
+    <string name="purchase_sync_status">Darrera sincronització: %1s</string>
+    <string name="purchase_current_plan">Actual</string>
+    <string name="purchase_syncing">Sincronitzant…</string>
+    <string name="purchase_loading">S'està carregant…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Pla gratuït</string>
+    <string name="purchase_pro_plan">Edició Pro</string>
+    <string name="purchase_pro_tagline">Paga una vegada. Posseeix-lo per sempre.</string>
+    <string name="purchase_premium_plan">Subscripció Premium</string>
+    <string name="purchase_premium_tagline">Tot a Pro, més IA &amp; Cloud</string>
+    <string name="purchase_recommended">Recomanat</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">Lectura en veu alta amb IA: escolta PDF de manera natural</string>
+    <string name="purchase_pro_feature_2">Edició completa de PDF &amp; Emplenament de formularis</string>
+    <string name="purchase_pro_feature_3">Sincronització entre dispositius a través de Drive</string>
+    <string name="purchase_pro_feature_4">Sense anuncis, sense marques d'aigua als escanejos</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">Resums d'IA amb un raonament més sòlid</string>
+    <string name="purchase_premium_feature_1_desc">Respostes més profundes a partir de documents més llargs i complexos</string>
+    <string name="purchase_premium_feature_2_title">5 GB Falcon Cloud</string>
+    <string name="purchase_premium_feature_2_desc">La teva biblioteca personal de PDF, sincronitzada i segura</string>
+    <string name="purchase_premium_feature_3_title">Sense límits en més de 60 eines PDF</string>
+    <string name="purchase_premium_feature_3_desc">Totes les eines, sempre disponibles</string>
+    <string name="purchase_premium_feature_4_title">Edició de text complet en PDF</string>
+    <string name="purchase_premium_feature_4_desc">Edita text directament com un processador de textos</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Compra Pro</string>
+    <string name="purchase_sign_in_buy">Inicia la sessió &amp; Compra</string>
+    <string name="purchase_sign_in_subscribe">Inicia la sessió &amp; Subscriu-te</string>
+    <string name="purchase_subscribe">Subscriu-te</string>
+    <string name="purchase_start_trial">Comença la prova gratuïta de 7 dies</string>
+    <string name="purchase_view_all_features">Veure totes les funcions</string>
+    <string name="purchase_show_more">Mostra'n més</string>
+    <string name="purchase_show_less">Mostra menys</string>
+    <string name="purchase_see_all_features">Veure totes les funcions</string>
+    <string name="purchase_manage_subscription">Gestiona la subscripció</string>
+    <string name="purchase_restore_purchases">Restaurar compres</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Mensual</string>
+    <string name="purchase_billing_yearly">Anual</string>
+    <string name="purchase_save_badge">Estalvieu un 40%%</string>
+    <string name="purchase_lifetime">De per vida</string>
+    <string name="purchase_per_year">/any</string>
+    <string name="purchase_per_month">/mes</string>
+    <string name="purchase_trial_terms">Cancel·la en qualsevol moment. Es renova tret que cancel·lis 24 hores abans que finalitzi la prova.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">No s'han pogut carregar els productes. Comproveu l'inici de sessió i la connexió a Internet.</string>
+    <string name="purchase_error_network">Connexió perduda. Si us plau, comproveu la connexió a Internet i torneu-ho a intentar.</string>
+    <string name="purchase_error_payment_declined">Mètode de pagament rebutjat. Si us plau, actualitzeu la vostra informació de pagament.</string>
+    <string name="purchase_error_server">S'ha produït un error. Torna-ho a provar més tard.</string>
+    <string name="purchase_error_rate_limit">Massa intents d'actualització. Si us plau, espereu.</string>
+    <string name="purchase_error_offline">No hi ha connexió a Internet. Es mostren les dades emmagatzemades a la memòria cau.</string>
+    <string name="purchase_error_product_refresh">No s'ha pogut verificar el producte. Si us plau, torneu-ho a intentar.</string>
+    <string name="purchase_error_generic">S'ha produït un error. Torna-ho a intentar.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Condicions del servei</string>
+    <string name="purchase_privacy_policy">Política de privacitat</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">Historial de compres</string>
+    <string name="free_trial">Prova gratuïta</string>
+    <string name="no_purchase_history">Sense historial de compres</string>
+    <string name="you_havent_made_any_purchases_">Encara no has fet cap compra.</string>
+    <string name="error">Error</string>
+    <string name="retry">Torna-ho a intentar</string>
+    <string name="back">Enrere</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Millora la teva experiència</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Restaurar compres</string>
+    <string name="close_purchase_screen">Tanca la pantalla de compra</string>
+    <string name="help">Ajuda</string>
+    <string name="more_options">Més opcions</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Actualitza</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Actiu</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s ACTIU</string>
+    <string name="premium_benefits">BENEFICIS PREMIUM</string>
+    <string name="manage_subscription">Gestiona la subscripció</string>
+    <string name="next_billing_date__manage_your">Pròxima data de facturació: %1$s. Gestioneu les vostres dades de facturació i la cancel·lació a través de la configuració del vostre compte de Play Store.</string>
+    <string name="purchase_expires_">La compra caduca: %1$s</string>
+    <string name="falcon_pdf_pro">Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF Premium (Mensual)</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Premium (anual)</string>
+    <string name="pro">PROFESSIONAL</string>
+    <string name="premium">PREMIUM</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Obtén Falcon PDF Pro o Premium</string>
+    <string name="purchase_desktop_subtitle">Les compres es gestionen al nostre lloc web. Feu clic a continuació per veure els plans i els preus.</string>
+    <string name="purchase_desktop_open_website">Veure plans &amp; Preus</string>
+    <string name="purchase_desktop_already_purchased">Ja has comprat el teu pla? Inicia la sessió per sincronitzar-lo.</string>
+    <string name="purchase_store_build_subtitle">La teva subscripció desbloqueja les funcions Pro a tots els teus dispositius. Inicia la sessió per sincronitzar el teu pla.</string>
+    <string name="ai_read_aloud">Lectura en veu alta per IA</string>
+    <string name="full_pdf_editing__form_filling">Edició completa de PDF &amp; Emplenament de formularis</string>
+    <string name="crossdevice_sync_via_drive">Sincronització entre dispositius a través de Drive</string>
+    <string name="adfree_no_watermark">Sense anuncis, sense marca d'aigua</string>
+    <string name="export_to_word__excel">Exporta a Word &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">Temes múltiples &amp; Fons de pàgina</string>
+    <string name="ai_summaries_with_stronger_reasoning">Resums d'IA amb un raonament més sòlid</string>
+    <string name="no_limits_on_60_pdf_tools">Sense límits en més de 60 eines PDF</string>
+    <string name="full_text_editing_in_pdfs">Edició de text complet en PDF</string>
+    <string name="digital_signatures_dscesign">Signatures digitals (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Sincronització il·limitada de documents escanejats</string>
+    <string name="biometric_document_lock">Bloqueig biomètric de documents</string>
+    <string name="everything_in_pro_all_devices">Tot en Pro, tots els dispositius</string>
+    <string name="introductory_offer">Oferta de llançament</string>
+    <string name="limited_time__30_off">Temps limitat — 30% de descompte</string>
+    <string name="date__time">Data &amp; Hora</string>
+    <string name="amount">Import</string>
+    <string name="platform">Plataforma</string>
+    <string name="type">Tipus</string>
+    <string name="expires_on">Caduca el</string>
+</resources>

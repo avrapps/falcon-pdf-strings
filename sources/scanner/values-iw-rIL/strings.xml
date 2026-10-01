@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">לִסְרוֹק</string>
+    <string name="scan_home_documents">מסמכים</string>
+    <string name="scan_home_documents_lowercase">מסמכים</string>
+    <string name="scan_home_documents_count">%1$d Documents</string>
+    <string name="scan_home_no_documents">אין עדיין מסמכים</string>
+    <string name="scan_home_start_scanning">התחל לסרוק כדי ליצור את המסמך הראשון שלך</string>
+    <string name="scan_home_new_folder">תיקייה חדשה</string>
+    <string name="scan_home_scan_document">סריקת מסמך</string>
+    <string name="scan_home_import_gallery">ייבוא מהגלריה</string>
+    <string name="scan_home_parent_folder">תיקיית אב</string>
+    <string name="scan_home_go_back">חזור לתיקיית האב</string>
+    <string name="scan_home_create_folder">צור תיקייה חדשה</string>
+    <string name="scan_home_enter_folder_name">הזן שם לתיקייה החדשה</string>
+    <string name="scan_home_folder_name">שם התיקייה</string>
+    <string name="scan_home_folder_placeholder">לדוגמה, מסמכי עבודה</string>
+    <string name="scan_home_folder_error">שם התיקייה אינו יכול להיות ריק</string>
+    <string name="scan_home_folder_name_empty">שם התיקייה אינו יכול להיות ריק</string>
+    <string name="scan_home_create">לִיצוֹר</string>
+    <string name="scan_home_folder_exists">תיקייה בשם זה כבר קיימת</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">מַצלֵמָה</string>
+    <string name="scan_camera_permission_required">נדרשת אישור למצלמה</string>
+    <string name="scan_camera_permission_message">אפליקציה זו זקוקה לגישה למצלמה כדי לסרוק מסמכים.</string>
+    <string name="scan_camera_permission_settings">אנא עבור אל הגדרות &gt; אפליקציות &gt; מציג PDF &gt; הרשאות והפעל את הרשאת המצלמה.</string>
+    <string name="scan_camera_permission_title">נדרשת אישור למצלמה</string>
+    <string name="scan_camera_request_permission">בקשת הרשאה</string>
+    <string name="scan_camera_open_settings">פתח את ההגדרות</string>
+    <string name="scan_camera_close">לִסְגוֹר</string>
+    <string name="scan_camera_flash">הֶבזֵק</string>
+    <string name="scan_camera_auto_capture">לכידה אוטומטית</string>
+    <string name="scan_camera_settings">הגדרות</string>
+    <string name="scan_camera_ready_batch">מוכן לסריקת דפים מרובים</string>
+    <string name="scan_camera_ready_multiple">מוכן לסריקת דפים מרובים</string>
+    <string name="scan_camera_hold_steady">החזק יציב בזמן הסריקה</string>
+    <string name="scan_camera_captured_pages">%1$d דפים שנתפסו</string>
+    <string name="scan_camera_mode_single">אֶחָד</string>
+    <string name="scan_camera_mode_batch">קְבוּצָה</string>
+    <string name="scan_camera_preview">תצוגה מקדימה</string>
+    <string name="scan_camera_finish">סִיוּם</string>
+    <string name="scan_camera_starting">מפעיל את המצלמה...</string>
+    <string name="scan_camera_document_name">שם המסמך</string>
+    <string name="scan_camera_document_name_empty">שם המסמך אינו יכול להיות ריק</string>
+    <string name="scan_camera_save_document">שמור מסמך</string>
+    <string name="scan_camera_processing">עיבוד...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">חיתוך &amp; התאם</string>
+    <string name="scan_crop_close">לִסְגוֹר</string>
+    <string name="scan_crop_reset">אִתחוּל</string>
+    <string name="scan_crop_rotate">לְסוֹבֵב</string>
+    <string name="scan_crop_done">נַעֲשָׂה</string>
+    <string name="scan_crop_scanned_document">מסמך סרוק</string>
+    <string name="scan_crop_magnified_view">תצוגה מוגדלת</string>
+    <string name="scan_crop_processing">עיבוד...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">לְהַגבִּיר</string>
+    <string name="scan_filter_close">לִסְגוֹר</string>
+    <string name="scan_filter_rotate">לְסוֹבֵב</string>
+    <string name="scan_filter_done">נַעֲשָׂה</string>
+    <string name="scan_filter_filters">מסננים</string>
+    <string name="scan_filter_original">מְקוֹרִי</string>
+    <string name="scan_filter_magic">קֶסֶם</string>
+    <string name="scan_filter_lighten">לְהִתְבַּהֵר</string>
+    <string name="scan_filter_bw">ב&amp;מערב</string>
+    <string name="scan_filter_grayscale">גווני אפור</string>
+    <string name="scan_filter_magic_2">מסמך נקי</string>
+    <string name="scan_filter_soft_scan">סריקה רכה</string>
+    <string name="scan_filter_color_enhance">צבע+</string>
+    <string name="scan_filter_ink_saver">חיסכון בדיו</string>
+    <string name="scan_filter_premium">תכונת פרימיום</string>
+    <string name="scan_filter_filtered_document">מסמך מסונן</string>
+    <string name="scan_filter_applying">מפעיל מסנן...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">לְבַטֵל</string>
+    <string name="scan_share">לַחֲלוֹק</string>
+    <string name="scan_move">מַהֲלָך</string>
+    <string name="scan_move_to_folder">העבר לתיקייה</string>
+    <string name="scan_delete">לִמְחוֹק</string>
+    <string name="scan_rename">שינוי שם</string>
+    <string name="scan_root">שׁוֹרֶשׁ</string>
+    <string name="scan_select_destination">בחר תיקיית יעד</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">מִסְמָך</string>
+    <string name="scan_document_back">בְּחֲזָרָה</string>
+    <string name="scan_document_pages">דפים</string>
+    <string name="scan_document_add_pages">הוסף דפים למסמך זה</string>
+    <string name="scan_document_add_page_button">הוסף דף</string>
+    <string name="scan_document_rename">שינוי שם</string>
+    <string name="scan_document_share">לַחֲלוֹק</string>
+    <string name="scan_document_more">יוֹתֵר</string>
+    <string name="scan_document_pages_count">%1$d דפים</string>
+    <string name="scan_document_no_pages">עדיין אין דפים</string>
+    <string name="scan_document_scan_page">סריקת עמוד</string>
+    <string name="scan_document_import_page">ייבוא מהגלריה</string>
+    <string name="scan_document_grid_view">תצוגת רשת</string>
+    <string name="scan_document_list_view">תצוגת רשימה</string>
+    <string name="scan_document_continuous_view">תצוגה רציפה</string>
+    <string name="scan_document_page_number">עמוד %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">עַמוּד</string>
+    <string name="scan_page_back">בְּחֲזָרָה</string>
+    <string name="scan_page_share">לַחֲלוֹק</string>
+    <string name="scan_page_delete">לִמְחוֹק</string>
+    <string name="scan_page_of">%1$d מתוך %2$d</string>
+    <string name="scan_page_image_not_found">התמונה לא נמצאה</string>
+    <string name="scan_page_retake">לְצַלֵם שׁוּב</string>
+    <string name="scan_page_crop">יְבוּל</string>
+    <string name="scan_page_enhance">לְהַגבִּיר</string>
+    <string name="scan_page_ocr">זיהוי תווים אופטי (OCR)</string>
+    <string name="scan_page_save_gallery">שמור בגלריה</string>
+    <string name="scan_page_saved_to_gallery">התמונה נשמרה בגלריה</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">למחוק מסמך?</string>
+    <string name="scan_delete_document_message">האם אתה בטוח שברצונך למחוק את "%1$s"? פעולה זו תמחק לצמיתות את כל הדפים במסמך זה. פעולה זו אינה ניתנת לביטול.</string>
+    <string name="scan_rename_document">שינוי שם המסמך</string>
+    <string name="scan_rename_enter_name">הזן שם חדש למסמך</string>
+    <string name="scan_rename_document_name">שם המסמך</string>
+    <string name="scan_rename_error">שם המסמך אינו יכול להיות ריק</string>
+    <string name="scan_dialog_delete_document_title">למחוק מסמך?</string>
+    <string name="scan_dialog_delete_document_message">האם אתה בטוח שברצונך למחוק את "%1$s"? פעולה זו תמחק לצמיתות את כל הדפים במסמך זה. פעולה זו אינה ניתנת לביטול.</string>
+    <string name="scan_dialog_delete_confirm">לִמְחוֹק</string>
+    <string name="scan_dialog_cancel">לְבַטֵל</string>
+    <string name="scan_dialog_move_title">העבר לתיקייה</string>
+    <string name="scan_dialog_move_message">בחר תיקיית יעד</string>
+    <string name="scan_dialog_move_confirm">מַהֲלָך</string>
+    <string name="scan_dialog_move_root">שׁוֹרֶשׁ</string>
+    <string name="scan_dialog_move_selected">נִבחָר</string>
+    <string name="scan_dialog_rename_title">שינוי שם המסמך</string>
+    <string name="scan_dialog_rename_message">הזן שם חדש למסמך</string>
+    <string name="scan_dialog_rename_label">שם המסמך</string>
+    <string name="scan_dialog_rename_error">שם המסמך אינו יכול להיות ריק</string>
+    <string name="scan_dialog_rename_confirm">שינוי שם</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">לַחֲלוֹק</string>
+    <string name="scan_menu_move">העבר לתיקייה</string>
+    <string name="scan_menu_delete">לִמְחוֹק</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">תצוגה מקדימה של המצלמה\n(בקרוב)</string>
+    <string name="scan_platform_desktop_camera">תצוגה מקדימה של מצלמת שולחן עבודה\n(בקרוב)</string>
+    <string name="scan_platform_ios_camera">תצוגה מקדימה של מצלמת iOS\n(בקרוב)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">לִסְגוֹר</string>
+    <string name="flash">הֶבזֵק</string>
+    <string name="auto_capture">לכידה אוטומטית</string>
+    <string name="settings">הגדרות</string>
+    <string name="capture">לִלְכּוֹד</string>
+    <string name="finish">סִיוּם</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">האם אתה בטוח שברצונך למחוק %1? כל המסמכים שבתוכו יימחקו גם כן.</string>
+    <string name="share">לַחֲלוֹק</string>
+    <string name="share_as_images">שתף כתמונות</string>
+    <string name="share_as_pdf">שתף כקובץ PDF</string>
+    <string name="move_to_folder">העבר לתיקייה</string>
+    <string name="delete">לִמְחוֹק</string>
+    <string name="selected">נִבחָר</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">עמוד %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">התיקייה ריקה</string>
+    <string name="tap_the__button_to_scan_a_docu">הקש על כפתור + כדי לסרוק מסמך</string>
+    <string name="str______pages">%1$s • %2$s • %3$s דפים</string>
+    <string name="create_folder">צור תיקייה</string>
+    <string name="more_options">אפשרויות נוספות</string>
+    <string name="document_thumbnail">תמונה ממוזערת של המסמך</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">התמונה לא נמצאה</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — עמוד %2$d</string>
+    <string name="scan_ocr_title">זיהוי טקסט</string>
+    <string name="scan_ocr_copy">העתקת טקסט</string>
+    <string name="scan_ocr_no_text">לא נמצא טקסט</string>
+    <string name="scan_ocr_processing">זיהוי טקסט…</string>
+    <string name="scan_ocr_error">נכשל בזיהוי הטקסט</string>
+    <string name="scan_ocr_not_supported">זיהוי תווים אופטי (OCR) אינו נתמך בפלטפורמה זו</string>
+    <string name="scan_ocr_image">דף סרוק עבור OCR</string>
+    <string name="gallery">גָלֶרֵיָה</string>
+    <string name="select_file">בחר קובץ</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">צילום התמונה נכשל</string>
+    <string name="error_no_images_captured">לא צולמו תמונות</string>
+    <string name="error_open_settings">פתיחת ההגדרות נכשלה</string>
+    <string name="error_process_images">עיבוד התמונות נכשל</string>
+    <string name="error_process_image">עיבוד התמונה נכשל</string>
+    <string name="error_start_camera">נכשל בהפעלת המצלמה</string>
+    <string name="error_stop_camera">נכשלה עצירת המצלמה</string>
+    <string name="error_crop_image">חיתוך התמונה נכשל</string>
+    <string name="error_delete_document">מחיקת המסמך נכשלה</string>
+    <string name="error_delete_page">מחיקת הדף נכשלה</string>
+    <string name="error_load_document">טעינת המסמך נכשלה</string>
+    <string name="error_load_page">טעינת הדף נכשלה</string>
+    <string name="error_move_document">העברת המסמך נכשלה</string>
+    <string name="error_no_pages_to_share">אין דפים לשיתוף</string>
+    <string name="error_rename_document">שינוי שם המסמך נכשל</string>
+    <string name="error_reorder_pages">סידור מחדש של הדפים נכשל</string>
+    <string name="error_share_images">שיתוף התמונות נכשל</string>
+    <string name="error_share_pdf">שיתוף קובץ ה-PDF נכשל</string>
+    <string name="error_share_page">שיתוף הדף נכשל</string>
+    <string name="error_create_folder">יצירת התיקייה נכשלה</string>
+    <string name="error_delete_folder">מחיקת התיקייה נכשלה</string>
+    <string name="error_rename_folder">נכשל שינוי שם התיקייה</string>
+    <string name="error_unknown">אירעה שגיאה לא ידועה</string>
+    <string name="folder_not_found">תיקייה לא נמצאה</string>
+    <string name="sync_documents">סנכרון מסמכים</string>
+    <string name="shutter_scale">קנה מידה של תריס</string>
+    <string name="import_gallery">ייבוא גלריה</string>
+    <string name="scan_camera">סריקת מצלמה</string>
+</resources>

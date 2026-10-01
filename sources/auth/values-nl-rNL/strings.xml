@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Controleer je internetverbinding en bevestig dat er een Google-account aan je apparaat is toegevoegd. Probeer het daarna opnieuw.</string>
+    <string name="sign_in_with_apple">Aanmelden met Apple</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Verbeter je ervaring</string>
+    <string name="purchase_screen_close">Dichtbij</string>
+    <string name="purchase_screen_refresh">Vernieuwen</string>
+    <string name="purchase_sync_status">Laatst gesynchroniseerd: %1s</string>
+    <string name="purchase_current_plan">Huidig</string>
+    <string name="purchase_syncing">Synchroniseren…</string>
+    <string name="purchase_loading">Laden…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Gratis plan</string>
+    <string name="purchase_pro_plan">Pro-editie</string>
+    <string name="purchase_pro_tagline">Eenmalige betaling. Altijd in bezit.</string>
+    <string name="purchase_premium_plan">Premium-abonnement</string>
+    <string name="purchase_premium_tagline">Alles in Pro, plus AI &amp; Cloud</string>
+    <string name="purchase_recommended">Aanbevolen</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">AI voorlezen — Luister op een natuurlijke manier naar PDF's.</string>
+    <string name="purchase_pro_feature_2">Volledige PDF-bewerking &amp; Formulier invullen</string>
+    <string name="purchase_pro_feature_3">Synchronisatie tussen apparaten via Drive</string>
+    <string name="purchase_pro_feature_4">Reclamevrij, geen watermerk op de scans</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">AI-samenvattingen met een sterkere argumentatie</string>
+    <string name="purchase_premium_feature_1_desc">Diepere antwoorden uit langere, complexe documenten</string>
+    <string name="purchase_premium_feature_2_title">5 GB Falcon Cloud</string>
+    <string name="purchase_premium_feature_2_desc">Uw persoonlijke PDF-bibliotheek, gesynchroniseerd en veilig.</string>
+    <string name="purchase_premium_feature_3_title">Geen beperkingen op meer dan 60 PDF-tools</string>
+    <string name="purchase_premium_feature_3_desc">Alle gereedschappen, altijd beschikbaar.</string>
+    <string name="purchase_premium_feature_4_title">Volledige tekstbewerking in PDF's</string>
+    <string name="purchase_premium_feature_4_desc">Bewerk tekst direct, net als in een tekstverwerker.</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Koop Pro</string>
+    <string name="purchase_sign_in_buy">Aanmelden &amp; Kopen</string>
+    <string name="purchase_sign_in_subscribe">Aanmelden &amp; Abonneren</string>
+    <string name="purchase_subscribe">Abonneren</string>
+    <string name="purchase_start_trial">Start uw gratis proefperiode van 7 dagen</string>
+    <string name="purchase_view_all_features">Bekijk alle functies</string>
+    <string name="purchase_show_more">Meer weergeven</string>
+    <string name="purchase_show_less">Minder weergeven</string>
+    <string name="purchase_see_all_features">Bekijk alle functies</string>
+    <string name="purchase_manage_subscription">Abonnement beheren</string>
+    <string name="purchase_restore_purchases">Aankopen herstellen</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Maandelijks</string>
+    <string name="purchase_billing_yearly">Jaarlijks</string>
+    <string name="purchase_save_badge">Bespaar 40%</string>
+    <string name="purchase_lifetime">Levensduur</string>
+    <string name="purchase_per_year">/jaar</string>
+    <string name="purchase_per_month">/maand</string>
+    <string name="purchase_trial_terms">Annuleer op elk moment. Wordt automatisch verlengd, tenzij 24 uur voor het einde van de proefperiode wordt geannuleerd.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Producten konden niet worden geladen. Controleer uw aanmelding en internetverbinding.</string>
+    <string name="purchase_error_network">Verbinding verbroken. Controleer uw internetverbinding en probeer het opnieuw.</string>
+    <string name="purchase_error_payment_declined">Betaalmethode geweigerd. Werk uw betaalgegevens bij.</string>
+    <string name="purchase_error_server">Er is iets misgegaan. Probeer het later opnieuw.</string>
+    <string name="purchase_error_rate_limit">Er zijn te veel pogingen gedaan om de pagina te vernieuwen. Even geduld alstublieft.</string>
+    <string name="purchase_error_offline">Geen internetverbinding. Gegevens uit de cache worden weergegeven.</string>
+    <string name="purchase_error_product_refresh">Het product kon niet worden geverifieerd. Probeer het opnieuw.</string>
+    <string name="purchase_error_generic">Er is een fout opgetreden. Probeer het opnieuw.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Gebruiksvoorwaarden</string>
+    <string name="purchase_privacy_policy">Privacybeleid</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">Aankoopgeschiedenis</string>
+    <string name="free_trial">Gratis proefperiode</string>
+    <string name="no_purchase_history">Geen aankoopgeschiedenis</string>
+    <string name="you_havent_made_any_purchases_">Je hebt nog geen aankopen gedaan.</string>
+    <string name="error">Fout</string>
+    <string name="retry">Opnieuw proberen</string>
+    <string name="back">Rug</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Verbeter je ervaring</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Aankopen herstellen</string>
+    <string name="close_purchase_screen">Sluit aankoopscherm</string>
+    <string name="help">Hulp</string>
+    <string name="more_options">Meer opties</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Vernieuwen</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Actief</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s ACTIEF</string>
+    <string name="premium_benefits">PREMIUM VOORDELEN</string>
+    <string name="manage_subscription">Abonnement beheren</string>
+    <string name="next_billing_date__manage_your">Volgende factuurdatum: %1$s. Beheer je factuurgegevens en annuleer je abonnement via de instellingen van je Play Store-account.</string>
+    <string name="purchase_expires_">Aankoop verloopt: %1$s</string>
+    <string name="falcon_pdf_pro">Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF Premium (maandelijks)</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Premium (jaarlijks)</string>
+    <string name="pro">PRO</string>
+    <string name="premium">PREMIE</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Schaf Falcon PDF Pro of Premium aan.</string>
+    <string name="purchase_desktop_subtitle">Aankopen worden beheerd via onze website. Klik hieronder om de abonnementen en prijzen te bekijken.</string>
+    <string name="purchase_desktop_open_website">Bekijk plannen &amp; Prijzen</string>
+    <string name="purchase_desktop_already_purchased">Heeft u al een abonnement? Log in om uw abonnement te synchroniseren.</string>
+    <string name="purchase_store_build_subtitle">Je abonnement ontgrendelt Pro-functies op al je apparaten. Log in om je abonnement te synchroniseren.</string>
+    <string name="ai_read_aloud">AI voorlezen</string>
+    <string name="full_pdf_editing__form_filling">Volledige PDF-bewerking &amp; Formulier invullen</string>
+    <string name="crossdevice_sync_via_drive">Synchronisatie tussen apparaten via Drive</string>
+    <string name="adfree_no_watermark">Reclamevrij, geen watermerk</string>
+    <string name="export_to_word__excel">Exporteren naar Word &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">Meerdere thema's &amp; Pagina-achtergronden</string>
+    <string name="ai_summaries_with_stronger_reasoning">AI-samenvattingen met een sterkere argumentatie</string>
+    <string name="no_limits_on_60_pdf_tools">Geen beperkingen op meer dan 60 PDF-tools</string>
+    <string name="full_text_editing_in_pdfs">Volledige tekstbewerking in PDF's</string>
+    <string name="digital_signatures_dscesign">Digitale handtekeningen (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Onbeperkte synchronisatie van gescande documenten</string>
+    <string name="biometric_document_lock">Biometrische documentvergrendeling</string>
+    <string name="everything_in_pro_all_devices">Alles in Pro, alle apparaten</string>
+    <string name="introductory_offer">Introductieaanbieding</string>
+    <string name="limited_time__30_off">Tijdelijke aanbieding: 30% korting</string>
+    <string name="date__time">Datum &amp; Tijd</string>
+    <string name="amount">Hoeveelheid</string>
+    <string name="platform">Platform</string>
+    <string name="type">Type</string>
+    <string name="expires_on">Verloopt op</string>
+</resources>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Scanare</string>
+    <string name="scan_home_documents">Documente</string>
+    <string name="scan_home_documents_lowercase">documente</string>
+    <string name="scan_home_documents_count">%1$d Documents</string>
+    <string name="scan_home_no_documents">Încă nu există documente</string>
+    <string name="scan_home_start_scanning">Începeți scanarea pentru a crea primul document</string>
+    <string name="scan_home_new_folder">Dosar nou</string>
+    <string name="scan_home_scan_document">Scanare document</string>
+    <string name="scan_home_import_gallery">Import din Galerie</string>
+    <string name="scan_home_parent_folder">Dosarul părinte</string>
+    <string name="scan_home_go_back">Reveniți la folderul părinte</string>
+    <string name="scan_home_create_folder">Creați un folder nou</string>
+    <string name="scan_home_enter_folder_name">Introduceți un nume pentru noul folder</string>
+    <string name="scan_home_folder_name">Nume folder</string>
+    <string name="scan_home_folder_placeholder">de exemplu, documente de lucru</string>
+    <string name="scan_home_folder_error">Numele folderului nu poate fi gol</string>
+    <string name="scan_home_folder_name_empty">Numele folderului nu poate fi gol</string>
+    <string name="scan_home_create">Crea</string>
+    <string name="scan_home_folder_exists">Există deja un folder cu acest nume</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Cameră</string>
+    <string name="scan_camera_permission_required">Permisiunea camerei este necesară</string>
+    <string name="scan_camera_permission_message">Această aplicație are nevoie de acces la cameră pentru a scana documente.</string>
+    <string name="scan_camera_permission_settings">Accesați Setări &gt; Aplicații &gt; Vizualizator PDF &gt; Permisiuni și activați permisiunea Cameră.</string>
+    <string name="scan_camera_permission_title">Permisiunea camerei este necesară</string>
+    <string name="scan_camera_request_permission">Solicitați permisiunea</string>
+    <string name="scan_camera_open_settings">Deschideți Setările</string>
+    <string name="scan_camera_close">Aproape</string>
+    <string name="scan_camera_flash">Bliț</string>
+    <string name="scan_camera_auto_capture">Captură automată</string>
+    <string name="scan_camera_settings">Setări</string>
+    <string name="scan_camera_ready_batch">Gata pentru scanarea mai multor pagini</string>
+    <string name="scan_camera_ready_multiple">Gata pentru scanarea mai multor pagini</string>
+    <string name="scan_camera_hold_steady">Mențineți o poziție stabilă în timpul scanării</string>
+    <string name="scan_camera_captured_pages">%1$d pagini capturate</string>
+    <string name="scan_camera_mode_single">Singur</string>
+    <string name="scan_camera_mode_batch">Lot</string>
+    <string name="scan_camera_preview">Previzualizare</string>
+    <string name="scan_camera_finish">Termina</string>
+    <string name="scan_camera_starting">Pornirea camerei...</string>
+    <string name="scan_camera_document_name">Numele documentului</string>
+    <string name="scan_camera_document_name_empty">Numele documentului nu poate fi gol</string>
+    <string name="scan_camera_save_document">Salvați documentul</string>
+    <string name="scan_camera_processing">Prelucrare...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Decupare &amp; Ajustare</string>
+    <string name="scan_crop_close">Aproape</string>
+    <string name="scan_crop_reset">Resetare</string>
+    <string name="scan_crop_rotate">Roti</string>
+    <string name="scan_crop_done">Făcut</string>
+    <string name="scan_crop_scanned_document">Document scanat</string>
+    <string name="scan_crop_magnified_view">Vizualizare mărită</string>
+    <string name="scan_crop_processing">Prelucrare...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Spori</string>
+    <string name="scan_filter_close">Aproape</string>
+    <string name="scan_filter_rotate">Roti</string>
+    <string name="scan_filter_done">Făcut</string>
+    <string name="scan_filter_filters">Filtre</string>
+    <string name="scan_filter_original">Original</string>
+    <string name="scan_filter_magic">Magie</string>
+    <string name="scan_filter_lighten">Uşura</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">Tonuri de gri</string>
+    <string name="scan_filter_magic_2">Curățați documentul</string>
+    <string name="scan_filter_soft_scan">Scanare soft</string>
+    <string name="scan_filter_color_enhance">Culoare+</string>
+    <string name="scan_filter_ink_saver">Economizor de cerneală</string>
+    <string name="scan_filter_premium">Funcție premium</string>
+    <string name="scan_filter_filtered_document">Document filtrat</string>
+    <string name="scan_filter_applying">Se aplică filtrul...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Anula</string>
+    <string name="scan_share">Distribuie</string>
+    <string name="scan_move">Mişcare</string>
+    <string name="scan_move_to_folder">Mutare în folder</string>
+    <string name="scan_delete">Şterge</string>
+    <string name="scan_rename">Redenumire</string>
+    <string name="scan_root">Rădăcină</string>
+    <string name="scan_select_destination">Selectați un folder de destinație</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Document</string>
+    <string name="scan_document_back">Spate</string>
+    <string name="scan_document_pages">pagini</string>
+    <string name="scan_document_add_pages">Adăugați pagini la acest document</string>
+    <string name="scan_document_add_page_button">Adăugați o pagină</string>
+    <string name="scan_document_rename">Redenumire</string>
+    <string name="scan_document_share">Distribuie</string>
+    <string name="scan_document_more">Mai mult</string>
+    <string name="scan_document_pages_count">%1$d pagini</string>
+    <string name="scan_document_no_pages">Nicio pagină încă</string>
+    <string name="scan_document_scan_page">Scanați pagina</string>
+    <string name="scan_document_import_page">Import din Galerie</string>
+    <string name="scan_document_grid_view">Vizualizare grilă</string>
+    <string name="scan_document_list_view">Vizualizare listă</string>
+    <string name="scan_document_continuous_view">Vizualizare continuă</string>
+    <string name="scan_document_page_number">Pagina %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Pagină</string>
+    <string name="scan_page_back">Spate</string>
+    <string name="scan_page_share">Distribuie</string>
+    <string name="scan_page_delete">Şterge</string>
+    <string name="scan_page_of">%1$d din %2$d</string>
+    <string name="scan_page_image_not_found">Imaginea nu a fost găsită</string>
+    <string name="scan_page_retake">Relua</string>
+    <string name="scan_page_crop">Cultivare</string>
+    <string name="scan_page_enhance">Spori</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">Salvați în Galerie</string>
+    <string name="scan_page_saved_to_gallery">Imagine salvată în galerie</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Ștergeți documentul?</string>
+    <string name="scan_delete_document_message">Sigur doriți să ștergeți „%1$s”? Această acțiune va șterge definitiv toate paginile din acest document. Această acțiune nu poate fi anulată.</string>
+    <string name="scan_rename_document">Redenumiți documentul</string>
+    <string name="scan_rename_enter_name">Introduceți un nume nou pentru document</string>
+    <string name="scan_rename_document_name">Numele documentului</string>
+    <string name="scan_rename_error">Numele documentului nu poate fi gol</string>
+    <string name="scan_dialog_delete_document_title">Ștergeți documentul?</string>
+    <string name="scan_dialog_delete_document_message">Sigur doriți să ștergeți „%1$s”? Această acțiune va șterge definitiv toate paginile din acest document. Această acțiune nu poate fi anulată.</string>
+    <string name="scan_dialog_delete_confirm">Şterge</string>
+    <string name="scan_dialog_cancel">Anula</string>
+    <string name="scan_dialog_move_title">Mutare în folder</string>
+    <string name="scan_dialog_move_message">Selectați un folder de destinație</string>
+    <string name="scan_dialog_move_confirm">Mişcare</string>
+    <string name="scan_dialog_move_root">Rădăcină</string>
+    <string name="scan_dialog_move_selected">Selectat</string>
+    <string name="scan_dialog_rename_title">Redenumiți documentul</string>
+    <string name="scan_dialog_rename_message">Introduceți un nume nou pentru document</string>
+    <string name="scan_dialog_rename_label">Numele documentului</string>
+    <string name="scan_dialog_rename_error">Numele documentului nu poate fi gol</string>
+    <string name="scan_dialog_rename_confirm">Redenumire</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Distribuie</string>
+    <string name="scan_menu_move">Mutare în folder</string>
+    <string name="scan_menu_delete">Şterge</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Previzualizare cameră\n(În curând)</string>
+    <string name="scan_platform_desktop_camera">Previzualizare cameră desktop\n(În curând)</string>
+    <string name="scan_platform_ios_camera">Previzualizare cameră iOS\n(În curând)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Aproape</string>
+    <string name="flash">Bliț</string>
+    <string name="auto_capture">Captură automată</string>
+    <string name="settings">Setări</string>
+    <string name="capture">Capta</string>
+    <string name="finish">Termina</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Sigur vrei să ștergi %1? Toate documentele din interior vor fi, de asemenea, șterse.</string>
+    <string name="share">Distribuie</string>
+    <string name="share_as_images">Partajați ca imagini</string>
+    <string name="share_as_pdf">Partajați ca PDF</string>
+    <string name="move_to_folder">Mutare în folder</string>
+    <string name="delete">Şterge</string>
+    <string name="selected">Selectat</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Pagina %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">Dosarul este gol</string>
+    <string name="tap_the__button_to_scan_a_docu">Atingeți butonul + pentru a scana un document</string>
+    <string name="str______pages">%1$s • %2$s • %3$s pagini</string>
+    <string name="create_folder">Creați un folder</string>
+    <string name="more_options">Mai multe opțiuni</string>
+    <string name="document_thumbnail">Miniatură document</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Imaginea nu a fost găsită</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Pagina %2$d</string>
+    <string name="scan_ocr_title">Recunoaștere text</string>
+    <string name="scan_ocr_copy">Copiați textul</string>
+    <string name="scan_ocr_no_text">Nu s-a găsit niciun text</string>
+    <string name="scan_ocr_processing">Recunoașterea textului…</string>
+    <string name="scan_ocr_error">Textul nu a fost recunoscut</string>
+    <string name="scan_ocr_not_supported">OCR nu este acceptat pe această platformă</string>
+    <string name="scan_ocr_image">Pagină scanată pentru OCR</string>
+    <string name="gallery">Galerie</string>
+    <string name="select_file">Selectați fișierul</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Nu s-a reușit capturarea imaginii</string>
+    <string name="error_no_images_captured">Nicio imagine surprinsă</string>
+    <string name="error_open_settings">Setările nu au putut fi deschise</string>
+    <string name="error_process_images">Imaginile nu au putut fi procesate</string>
+    <string name="error_process_image">Imaginea nu a putut fi procesată</string>
+    <string name="error_start_camera">Nu s-a putut porni camera</string>
+    <string name="error_stop_camera">Nu s-a putut opri camera</string>
+    <string name="error_crop_image">Imaginea nu a putut fi decupată</string>
+    <string name="error_delete_document">Nu s-a putut șterge documentul</string>
+    <string name="error_delete_page">Nu s-a putut șterge pagina</string>
+    <string name="error_load_document">Nu s-a putut încărca documentul</string>
+    <string name="error_load_page">Nu s-a putut încărca pagina</string>
+    <string name="error_move_document">Nu s-a putut muta documentul</string>
+    <string name="error_no_pages_to_share">Nicio pagină de partajat</string>
+    <string name="error_rename_document">Nu s-a putut redenumi documentul</string>
+    <string name="error_reorder_pages">Nu s-au putut reordona paginile</string>
+    <string name="error_share_images">Imaginile nu au putut fi partajate</string>
+    <string name="error_share_pdf">Nu s-a putut partaja PDF-ul</string>
+    <string name="error_share_page">Nu s-a putut partaja pagina</string>
+    <string name="error_create_folder">Nu s-a putut crea folderul</string>
+    <string name="error_delete_folder">Nu s-a putut șterge folderul</string>
+    <string name="error_rename_folder">Nu s-a putut redenumi folderul</string>
+    <string name="error_unknown">A apărut o eroare necunoscută</string>
+    <string name="folder_not_found">Dosar negăsit</string>
+    <string name="sync_documents">Sincronizați documentele</string>
+    <string name="shutter_scale">scară_obturator</string>
+    <string name="import_gallery">Importați galeria</string>
+    <string name="scan_camera">Scanare cameră</string>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Skontrolujte internetové pripojenie a potvrďte, že je do zariadenia pridaný účet Google, a potom to skúste znova.</string>
+    <string name="sign_in_with_apple">Prihlásiť sa pomocou Apple</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Vylepšite si svoj zážitok</string>
+    <string name="purchase_screen_close">Zatvoriť</string>
+    <string name="purchase_screen_refresh">Obnoviť</string>
+    <string name="purchase_sync_status">Naposledy synchronizované: %1s</string>
+    <string name="purchase_current_plan">Súčasný</string>
+    <string name="purchase_syncing">Synchronizácia…</string>
+    <string name="purchase_loading">Načítava sa…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Bezplatný plán</string>
+    <string name="purchase_pro_plan">Profesionálna edícia</string>
+    <string name="purchase_pro_tagline">Zaplaťte raz. Vlastnite navždy.</string>
+    <string name="purchase_premium_plan">Prémiové predplatné</string>
+    <string name="purchase_premium_tagline">Všetko v Pro verzii plus AI &amp; Cloud</string>
+    <string name="purchase_recommended">Odporúčané</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">Čítanie nahlas s umelou inteligenciou – počúvajte PDF súbory prirodzene</string>
+    <string name="purchase_pro_feature_2">Úplná úprava PDF &amp; Vyplnenie formulárov</string>
+    <string name="purchase_pro_feature_3">Synchronizácia medzi zariadeniami cez Disk</string>
+    <string name="purchase_pro_feature_4">Bez reklám, bez vodoznaku na skenoch</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">Súhrny umelej inteligencie so silnejším zdôvodnením</string>
+    <string name="purchase_premium_feature_1_desc">Hlbšie odpovede z dlhších a zložitejších dokumentov</string>
+    <string name="purchase_premium_feature_2_title">5 GB Falcon Cloud</string>
+    <string name="purchase_premium_feature_2_desc">Vaša osobná knižnica PDF, synchronizovaná a zabezpečená</string>
+    <string name="purchase_premium_feature_3_title">Žiadne obmedzenia pre viac ako 60 nástrojov PDF</string>
+    <string name="purchase_premium_feature_3_desc">Každý nástroj, vždy k dispozícii</string>
+    <string name="purchase_premium_feature_4_title">Úprava celého textu v PDF súboroch</string>
+    <string name="purchase_premium_feature_4_desc">Upravujte text priamo ako v textovom editore</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Kúpiť profesionála</string>
+    <string name="purchase_sign_in_buy">Prihlásiť sa &amp; Kúpiť</string>
+    <string name="purchase_sign_in_subscribe">Prihlásiť sa &amp; Odoberať</string>
+    <string name="purchase_subscribe">Prihlásiť sa na odber</string>
+    <string name="purchase_start_trial">Začať 7-dňovú bezplatnú skúšobnú verziu</string>
+    <string name="purchase_view_all_features">Zobraziť všetky funkcie</string>
+    <string name="purchase_show_more">Zobraziť viac</string>
+    <string name="purchase_show_less">Zobraziť menej</string>
+    <string name="purchase_see_all_features">Zobraziť všetky funkcie</string>
+    <string name="purchase_manage_subscription">Spravovať predplatné</string>
+    <string name="purchase_restore_purchases">Obnoviť nákupy</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Mesačne</string>
+    <string name="purchase_billing_yearly">Ročne</string>
+    <string name="purchase_save_badge">Ušetrite 40 %</string>
+    <string name="purchase_lifetime">Doživotne</string>
+    <string name="purchase_per_year">/rok</string>
+    <string name="purchase_per_month">/mesiac</string>
+    <string name="purchase_trial_terms">Zrušiť kedykoľvek. Obnoví sa, pokiaľ sa nezruší 24 hodín pred koncom skúšobnej doby.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Načítanie produktov zlyhalo. Skontrolujte prihlásenie a internetové pripojenie.</string>
+    <string name="purchase_error_network">Pripojenie prerušené. Skontrolujte si internet a skúste to znova.</string>
+    <string name="purchase_error_payment_declined">Spôsob platby bol zamietnutý. Aktualizujte si platobné informácie.</string>
+    <string name="purchase_error_server">Vyskytla sa chyba. Skúste to znova neskôr.</string>
+    <string name="purchase_error_rate_limit">Príliš veľa pokusov o obnovenie. Počkajte, prosím.</string>
+    <string name="purchase_error_offline">Žiadne internetové pripojenie. Zobrazujú sa údaje z vyrovnávacej pamäte.</string>
+    <string name="purchase_error_product_refresh">Produkt sa nepodarilo overiť. Skúste to znova.</string>
+    <string name="purchase_error_generic">Vyskytla sa chyba. Skúste to znova.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Podmienky služby</string>
+    <string name="purchase_privacy_policy">Zásady ochrany osobných údajov</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">História nákupov</string>
+    <string name="free_trial">Bezplatná skúšobná verzia</string>
+    <string name="no_purchase_history">Žiadna história nákupov</string>
+    <string name="you_havent_made_any_purchases_">Zatiaľ ste neuskutočnili žiadne nákupy.</string>
+    <string name="error">Chyba</string>
+    <string name="retry">Skúsiť znova</string>
+    <string name="back">Späť</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Vylepšite si svoj zážitok</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Obnoviť nákupy</string>
+    <string name="close_purchase_screen">Zatvoriť obrazovku nákupu</string>
+    <string name="help">Pomocník</string>
+    <string name="more_options">Viac možností</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Obnoviť</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Aktívne</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s AKTÍVNE</string>
+    <string name="premium_benefits">PRÉMIOVÉ VÝHODY</string>
+    <string name="manage_subscription">Spravovať predplatné</string>
+    <string name="next_billing_date__manage_your">Dátum ďalšej fakturácie: %1$s. Spravujte svoje fakturačné údaje a zrušenie prostredníctvom nastavení účtu Obchod Play.</string>
+    <string name="purchase_expires_">Platnosť nákupu vyprší: %1$s</string>
+    <string name="falcon_pdf_pro">Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF Premium (mesačne)</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Premium (ročné)</string>
+    <string name="pro">PROFESIONÁL</string>
+    <string name="premium">PRÉMIOVÝ</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Získajte Falcon PDF Pro alebo Premium</string>
+    <string name="purchase_desktop_subtitle">Nákupy sa spravujú na našej webovej stránke. Kliknite nižšie pre zobrazenie plánov a cien.</string>
+    <string name="purchase_desktop_open_website">Zobraziť plány &amp; Cenník</string>
+    <string name="purchase_desktop_already_purchased">Už ste si to zakúpili? Prihláste sa a synchronizujte si svoj program.</string>
+    <string name="purchase_store_build_subtitle">Vaše predplatné odomyká funkcie Pro na všetkých vašich zariadeniach. Prihláste sa a synchronizujte svoj plán.</string>
+    <string name="ai_read_aloud">Čítanie nahlas s umelou inteligenciou</string>
+    <string name="full_pdf_editing__form_filling">Úplná úprava PDF &amp; Vyplnenie formulárov</string>
+    <string name="crossdevice_sync_via_drive">Synchronizácia medzi zariadeniami cez Disk</string>
+    <string name="adfree_no_watermark">Bez reklám, bez vodoznaku</string>
+    <string name="export_to_word__excel">Exportovať do Wordu &amp; Excelu</string>
+    <string name="multiple_themes__page_backgrounds">Viaceré témy &amp; Pozadia stránky</string>
+    <string name="ai_summaries_with_stronger_reasoning">Súhrny umelej inteligencie so silnejším zdôvodnením</string>
+    <string name="no_limits_on_60_pdf_tools">Žiadne obmedzenia pre viac ako 60 nástrojov PDF</string>
+    <string name="full_text_editing_in_pdfs">Úprava celého textu v PDF súboroch</string>
+    <string name="digital_signatures_dscesign">Digitálne podpisy (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Neobmedzená synchronizácia naskenovaných dokumentov</string>
+    <string name="biometric_document_lock">Biometrický zámok dokumentov</string>
+    <string name="everything_in_pro_all_devices">Všetko v Pro verzii, všetky zariadenia</string>
+    <string name="introductory_offer">Úvodná ponuka</string>
+    <string name="limited_time__30_off">Časovo obmedzené – zľava 30 %</string>
+    <string name="date__time">Dátum &amp; Čas</string>
+    <string name="amount">Suma</string>
+    <string name="platform">Platforma</string>
+    <string name="type">Typ</string>
+    <string name="expires_on">Platnosť vyprší</string>
+</resources>

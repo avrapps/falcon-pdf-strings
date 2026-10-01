@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">حذف الصفحات</string>
+    <string name="are_you_sure_you_want_to_delet">هل أنت متأكد من رغبتك في حذف الصفحات المحددة؟ لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="delete">يمسح</string>
+    <string name="cancel">يلغي</string>
+    <string name="quick_selection">اختيار سريع</string>
+    <string name="select_range">حدد النطاق</string>
+    <string name="select_all">حدد الكل</string>
+    <string name="clear_all">مسح الكل</string>
+    <string name="select_page_range">حدد نطاق الصفحات</string>
+    <string name="enter_the_range_of_pages_to_de">أدخل نطاق الصفحات المراد حذفها (1-%1$s)</string>
+    <string name="from">من</string>
+    <string name="to">ل</string>
+    <string name="select">يختار</string>
+    <string name="please_go_back_and_select_a_pd">يرجى العودة واختيار ملف PDF</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">ملف PDF مقسم</string>
+    <string name="str_1_file_selected">تم تحديد ملف واحد</string>
+    <string name="no_file_selected">لم يتم تحديد أي ملف</string>
+    <string name="split_mode">وضع التقسيم</string>
+    <string name="fixed_segments">القطاعات الثابتة</string>
+    <string name="custom_ranges">نطاقات مخصصة</string>
+    <string name="segment_size">حجم القطاع</string>
+    <string name="this_will_create_multiple_pdfs">سيؤدي هذا إلى إنشاء ملفات PDF متعددة، كل منها يحتوي على عدد الصفحات المحدد. يجب أن يكون حجم الجزء أقل من إجمالي الصفحات لإنشاء تقسيمات منطقية. على سبيل المثال، إذا كان الملف الأصلي يحتوي على 8 صفحات، وأدخلت 2، فسيتم إنشاء أربعة ملفات PDF، كل منها يحتوي على صفحتين.</string>
+    <string name="pages_per_file">عدد الصفحات في الملف</string>
+    <string name="eg_2">مثال، 2</string>
+    <string name="total_number_of_pages_in_pdf__">إجمالي عدد الصفحات في ملف PDF: %1$d (يجب أن يكون حجم الجزء أقل من %1$d)</string>
+    <string name="this_will_create__output_files">سيؤدي هذا إلى إنشاء %1$d ملفات إخراج</string>
+    <string name="this_will_create__output_file">سيؤدي هذا إلى إنشاء ملف إخراج %1$d</string>
+    <string name="this_input_will_split_the_pdf_">سيؤدي هذا الإدخال إلى تقسيم ملف PDF إلى ملفات منفصلة بناءً على نطاقاتك. على سبيل المثال، سيؤدي إدخال "1-2، 5، 6-8" إلى إنشاء 3 ملفات PDF: الأول يحتوي على الصفحتين 1-2، والثاني على الصفحة 5، والثالث على الصفحات من 6 إلى 8.</string>
+    <string name="page_ranges">نطاقات الصفحات</string>
+    <string name="eg_1234571520">مثال: 1-2، 3، 4-5، 7، 15-20</string>
+    <string name="format_use_ranges_15_or_single">التنسيق: استخدم نطاقات (1-5) أو صفحات مفردة (7)، مفصولة بفواصل. يُسمح فقط بالأرقام والواصلات والفواصل.</string>
+    <string name="split_preview">معاينة مقسمة</string>
+    <string name="pdf_files_will_be_created">%1$d PDF files will be created</string>
+    <string name="pdf_file_will_be_created">سيتم إنشاء ملف PDF %1$d</string>
+    <string name="pdf_result_">نتيجة ملف PDF %1$s</string>
+    <string name="str__and__more">... والمزيد %1$d</string>
+    <string name="splitting_pdf">تقسيم ملف PDF...</string>
+    <string name="checking_files">جارٍ فحص الملفات...</string>
+    <string name="page_n">الصفحة %1$d</string>
+    <string name="pages_n_m">الصفحات %1$d-%2$d</string>
+    <string name="split_complete">تم الانقسام بنجاح!</string>
+    <string name="split_failed">فشل التقسيم</string>
+    <string name="we_couldnt_split_your_pdf">لم نتمكن من تقسيم ملف PDF الخاص بك</string>
+    <string name="your_pdf_has_been_successfully_split">تم تقسيم ملف PDF الخاص بك بنجاح إلى %1$d ملف</string>
+    <string name="your_pdf_has_been_successfully_split_single">تم تقسيم ملف PDF الخاص بك بنجاح إلى %1$d ملف</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">أدوات PDF</string>
+    <string name="image_tools">أدوات الصور</string>
+    <string name="str_30_tools_for_pdf">أكثر من 30 أداة لملفات PDF</string>
+    <string name="tools_for_images">أدوات للصور</string>
+    <string name="no_tools_found">لم يتم العثور على أدوات</string>
+    <string name="try_adjusting_your_search">حاول تعديل بحثك</string>
+    <string name="history">تاريخ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s page${if (pageCount &gt; 1) </string>
+    <string name="n_pages">%1$d صفحات</string>
+    <string name="n_page">%1$d صفحة</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">كلمة المرور مطلوبة لهذا الملف PDF</string>
+    <string name="password_provided">كلمة المرور المقدمة</string>
+    <string name="password_required">كلمة المرور مطلوبة</string>
+    <string name="open_file">فتح الملف</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">مضغوط بواسطة </string>
+    <string name="error_details">تفاصيل الخطأ</string>
+    <string name="view">منظر</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">تم تحديد %1$s من %2$s صفحة</string>
+    <string name="showing_first_200_pages">عرض أول 200 صفحة</string>
+    <string name="use_quick_selection_above_for_">استخدم خاصية التحديد السريع أعلاه للصفحات التي تتجاوز 200 صفحة</string>
+    <string name="loading">تحميل...</string>
+    <string name="error">خطأ</string>
+    <string name="generating_page_previews">جارٍ إنشاء معاينات الصفحات...</string>
+    <string name="page__thumbnail">صورة مصغرة للصفحة %1$s</string>
+    <string name="selected">مختار</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">يبحث</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">تدوير ملف PDF</string>
+    <string name="please_provide_the_password_to">يرجى تقديم كلمة المرور لاختيار الصفحات المخصصة</string>
+    <string name="rotation_angle">زاوية الدوران</string>
+    <string name="page_selection">اختيار الصفحة</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">إعادة طلب ملف PDF</string>
+    <string name="use_the_arrow_buttons_to_reord">استخدم أزرار الأسهم لإعادة ترتيب الصفحات</string>
+    <string name="pages_">الصفحات (%1$s)</string>
+    <string name="page_">الصفحة %1$s</string>
+    <string name="position__of_">الموقع: %1$s من %2$s</string>
+    <string name="drag_handle">مقبض السحب</string>
+    <string name="move_up">انتقل إلى مستوى أعلى</string>
+    <string name="move_down">انزل لأسفل</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">ضغط ملف PDF</string>
+    <string name="no_files_selected">لم يتم تحديد أي ملفات</string>
+    <string name="please_go_back_and_select_pdf_">يرجى العودة واختيار ملفات PDF لضغطها</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">نجاح</string>
+    <string name="individual_results">النتائج الفردية</string>
+    <string name="done">منتهي</string>
+    <string name="compression_complete">اكتمل الضغط</string>
+    <string name="your_file_is_ready_and_much_li">ملفك جاهز وأخف وزناً بكثير!</string>
+    <string name="before">قبل</string>
+    <string name="after">بعد</string>
+    <string name="total_saved">إجمالي التوفير</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">الأصغر</string>
+    <string name="str__saved">تم حفظ النسبة المئوية %1$s</string>
+    <string name="open">يفتح</string>
+    <string name="share">يشارك</string>
+    <string name="close">يغلق</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">مستوى الضغط</string>
+    <string name="recommended">مُستَحسَن</string>
+    <string name="str__compression">%1$s ضغط</string>
+    <string name="str__of_original_size">~%1$s% من الحجم الأصلي</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">تحويل الصور إلى ملف PDF</string>
+    <string name="str__images_selected">تم تحديد %1$s صورة</string>
+    <string name="images_will_be_converted_in_th">سيتم تحويل الصور بالترتيب الموضح أدناه</string>
+    <string name="remove">يزيل</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">تحويل ملفات PDF إلى صور</string>
+    <string name="image_format">تنسيق الصورة</string>
+    <string name="image_quality_dpi">جودة الصورة (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">دمج ملف PDF</string>
+    <string name="n_files_selected">تم تحديد %1$d ملف</string>
+    <string name="n_file_selected">تم تحديد الملف %1$d</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">قفل ملف PDF</string>
+    <string name="password_protection">حماية بكلمة مرور</string>
+    <string name="enter_a_password_to_protect_yo">أدخل كلمة مرور لحماية ملف PDF الخاص بك. ستحتاج إلى كلمة المرور هذه لفتح الملف.</string>
+    <string name="password">كلمة المرور</string>
+    <string name="enter_password">أدخل كلمة المرور</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="reenter_password">أعد إدخال كلمة المرور</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">يرجى العودة واختيار ملف</string>
+    <string name="back">خلف</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">فتح ملف PDF</string>
+    <string name="current_password">كلمة المرور الحالية</string>
+    <string name="enter_the_current_password_to_">أدخل كلمة المرور الحالية لفتح ملف PDF هذا</string>
+    <string name="enter_current_password">أدخل كلمة المرور الحالية</string>
+    <string name="incorrect_password_please_try_">كلمة المرور غير صحيحة. يرجى المحاولة مرة أخرى.</string>
+    <string name="new_password_optional">كلمة مرور جديدة (اختياري)</string>
+    <string name="set_a_new_password_to_change_i">قم بتعيين كلمة مرور جديدة لتغييرها، أو اتركها فارغة لإزالة حماية كلمة المرور.</string>
+    <string name="new_password">كلمة المرور الجديدة</string>
+    <string name="enter_new_password">أدخل كلمة المرور الجديدة</string>
+    <string name="confirm_new_password">تأكيد كلمة المرور الجديدة</string>
+    <string name="reenter_new_password">أعد إدخال كلمة المرور الجديدة</string>
+    <string name="passwords_do_not_match">كلمات المرور غير متطابقة</string>
+    <string name="compression_failed">فشل الضغط</string>
+    <string name="open_pdf">افتح ملف PDF</string>
+    <string name="share_file">ملف مشاركة</string>
+    <string name="pages_deleted">تم حذف الصفحات!</string>
+    <string name="delete_failed">فشل الحذف</string>
+    <string name="select_pages_to_delete">حدد الصفحات المراد حذفها</string>
+    <string name="pdf_created">تم إنشاء ملف PDF!</string>
+    <string name="conversion_failed">فشلت عملية التحويل</string>
+    <string name="pdf_locked_successfully">تم قفل ملف PDF بنجاح!</string>
+    <string name="lock_failed">فشل القفل</string>
+    <string name="merge_complete">تم دمج البيانات بنجاح!</string>
+    <string name="merge_failed">فشل الدمج</string>
+    <string name="conversion_complete">اكتمل التحويل!</string>
+    <string name="reorder_complete">تمت إعادة الطلب بنجاح!</string>
+    <string name="reorder_failed">فشلت إعادة الطلب</string>
+    <string name="rotation_complete">اكتملت عملية التدوير!</string>
+    <string name="rotation_failed">فشل الدوران</string>
+    <string name="select_pages_to_rotate">اختر الصفحات المراد تدويرها</string>
+    <string name="str__complete">%1$s اكتمل!</string>
+    <string name="str__failed">فشل %1$s</string>
+    <string name="unlock_failed">فشل فتح القفل</string>
+    <string name="your_pdfs_have_been_successfully_compres">تم ضغط ملفات PDF الخاصة بك بنجاح</string>
+    <string name="we_couldnt_compress_your_pdfs">لم نتمكن من ضغط ملفات PDF الخاصة بك</string>
+    <string name="view_your_compressed_file">اعرض ملفك المضغوط</string>
+    <string name="send_to_others_or_apps">أرسل إلى الآخرين أو التطبيقات</string>
+    <string name="your_pdf_has_been_successfully_modified">تم تعديل ملف PDF الخاص بك بنجاح</string>
+    <string name="we_couldnt_delete_the_pages">لم نتمكن من حذف الصفحات</string>
+    <string name="your_images_have_been_converted_to_pdf">تم تحويل صورك إلى ملف PDF</string>
+    <string name="unable_to_create_pdf_from_images">تعذر إنشاء ملف PDF من الصور</string>
+    <string name="your_pdf_is_now_password_protected">ملف PDF الخاص بك محمي الآن بكلمة مرور</string>
+    <string name="we_couldnt_lock_your_pdf">لم نتمكن من قفل ملف PDF الخاص بك</string>
+    <string name="your_pdfs_have_been_successfully_merged">تم دمج ملفات PDF الخاصة بك بنجاح</string>
+    <string name="we_couldnt_merge_your_pdfs">لم نتمكن من دمج ملفات PDF الخاصة بك</string>
+    <string name="str__images_created_successfully">تم إنشاء الصور بنجاح %1$s</string>
+    <string name="unable_to_convert_pdf_to_images">تعذر تحويل ملف PDF إلى صور</string>
+    <string name="your_pdf_pages_have_been_successfully_re">تمت إعادة ترتيب صفحات ملف PDF الخاص بك بنجاح</string>
+    <string name="we_couldnt_reorder_your_pdf">لم نتمكن من إعادة ترتيب ملف PDF الخاص بك</string>
+    <string name="your_pdf_has_been_successfully_rotated">تم تدوير ملف PDF الخاص بك بنجاح</string>
+    <string name="we_couldnt_rotate_your_pdf">لم نتمكن من تدوير ملف PDF الخاص بك</string>
+    <string name="your_file_has_been_successfully_processe">تمت معالجة ملفك بنجاح</string>
+    <string name="we_couldnt_process_your_file">لم نتمكن من معالجة ملفك</string>
+    <string name="we_couldnt_unlock_your_pdf">لم نتمكن من فتح ملف PDF الخاص بك</string>
+    <string name="clear_filter">فلتر شفاف</string>
+    <string name="clear">واضح</string>
+    <string name="pick_a_tool_">اختر أداة →</string>
+    <string name="drag_to_reorder">اسحب لإعادة الترتيب</string>
+    <string name="your_files_are_securely_processed_on_our">تُعالج ملفاتك بأمان على خوادمنا باستخدام اتصالات مشفرة، وتُحذف تلقائيًا خلال ساعة واحدة. لا نقوم بتخزين بياناتك أو مشاركتها مطلقًا.</string>
+    <string name="compression_quality">جودة الضغط</string>
+    <string name="dragelevation">سحب الارتفاع</string>
+    <string name="tool_card_scale">مقياس بطاقة الأدوات</string>
+</resources>

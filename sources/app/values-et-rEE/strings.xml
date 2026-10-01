@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">PDF-maagia</string>
+    <string name="app_tagline">Mida sa tahaksid teha?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">Viimati kasutatud</string>
+    <string name="home_favorites">Lemmikud</string>
+    <string name="home_new_tool">Uus tööriist</string>
+    <string name="home_featured">ESITLETUD</string>
+    <string name="home_scan_to_pdf">Skanni PDF-faili</string>
+    <string name="home_scan_description">Muutke paberdokumendid koheselt digitaalseks maagiaks</string>
+    <string name="home_start_scanning">Alusta skannimist</string>
+    <string name="home_all_tools">Kõik tööriistad</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">PDF-tööriistad</string>
+    <string name="image_tools">Pilditööriistad</string>
+    <string name="tools_split">Jagatud</string>
+    <string name="tools_split_description">Lehekülgede väljavõtmine</string>
+    <string name="tools_rotate">Pööra</string>
+    <string name="tools_rotate_description">Fikseeri orientatsioon</string>
+    <string name="tools_delete_pages">Kustuta lehed</string>
+    <string name="tools_delete_pages_description">Eemalda soovimatu</string>
+    <string name="tools_convert">Teisenda</string>
+    <string name="tools_convert_description">Piltide saatmine/saamine</string>
+    <string name="tools_sign">Märk</string>
+    <string name="tools_sign_description">Lisa allkiri</string>
+    <string name="tools_protect">Kaitse</string>
+    <string name="tools_protect_description">Parooli turvalisus</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">PDF-vaataja</string>
+    <string name="pdf_viewer_page_info">Lehekülg %1$d / %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">Dokumendiskanner</string>
+    <string name="scanner_capture">Jäädvusta</string>
+    <string name="scanner_retake">Uuesti tegemine</string>
+    <string name="scanner_save">Salvesta</string>
+    <!-- Navigation -->
+    <string name="nav_back">Navigeeri tagasi</string>
+    <string name="nav_settings">Seaded</string>
+    <string name="nav_more_options">Rohkem valikuid</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Avaleht</string>
+    <string name="nav_library">Raamatukogu</string>
+    <string name="nav_scan">Skannimine</string>
+    <string name="nav_tools">Tööriistad</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">Sirvi faile</string>
+    <string name="browse_files_subtitle">Salvestusruum &amp; Pilvefailid</string>
+    <string name="show_hidden_files">Näita peidetud faile</string>
+    <string name="hide_hidden_files">Peida peidetud failid</string>
+    <string name="refresh_storage">Värskenda salvestusruumi</string>
+    <string name="no_storage_available">Salvestusruumi pole saadaval</string>
+    <string name="no_files_found">Faile ei leitud</string>
+    <string name="add_files">Lisa %1$d faili</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">Salvestusruumi luba on nõutav</string>
+    <string name="permission_storage_message">See rakendus vajab PDF-failide sirvimiseks ja avamiseks juurdepääsu teie seadme salvestusruumile. Jätkamiseks andke salvestusruumile luba.</string>
+    <string name="permission_grant">Anna luba</string>
+    <!-- Common Actions -->
+    <string name="action_open">Avatud</string>
+    <string name="action_save">Salvesta</string>
+    <string name="action_share">Jaga</string>
+    <string name="action_delete">Kustuta</string>
+    <string name="action_cancel">Tühista</string>
+    <string name="action_confirm">Kinnita</string>
+    <string name="action_rename">Nimeta ümber</string>
+    <string name="action_print">Prindi</string>
+    <string name="action_favorite">Lemmik</string>
+    <string name="action_unfavorite">Eemalda lemmikutest</string>
+    <!-- Document Actions -->
+    <string name="document_share">Jaga dokumenti</string>
+    <string name="document_rename">Dokumendi ümbernimetamine</string>
+    <string name="document_delete">Kustuta dokument</string>
+    <string name="document_print">Prindi dokument</string>
+    <string name="document_favorite">Lisa lemmikutesse</string>
+    <string name="document_unfavorite">Eemalda lemmikutest</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">Dokument jagati edukalt</string>
+    <string name="document_share_failed">Dokumendi jagamine ebaõnnestus</string>
+    <string name="document_renamed_success">Dokumendi ümbernimetamine õnnestus</string>
+    <string name="document_rename_failed">Dokumendi ümbernimetamine ebaõnnestus</string>
+    <string name="document_deleted_success">Dokument edukalt kustutatud</string>
+    <string name="document_delete_failed">Dokumendi kustutamine ebaõnnestus</string>
+    <string name="document_print_opened">Dokument on avatud PDF-vaaturi vaikesättega. Printimiseks kasutage vaaturi printimisfunktsiooni.</string>
+    <string name="document_print_failed">Dokumendi printimine ebaõnnestus</string>
+    <string name="document_added_to_favorites">Lisatud lemmikutesse</string>
+    <string name="document_removed_from_favorites">Eemaldatud lemmikute hulgast</string>
+    <string name="document_favorite_failed">Lemmikute staatuse värskendamine ebaõnnestus</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">Dokumendi ümbernimetamine</string>
+    <string name="dialog_rename_hint">Sisesta uus nimi</string>
+    <string name="dialog_rename_empty_error">Dokumendi nimi ei tohi olla tühi</string>
+    <string name="dialog_delete_title">Kustuta dokument</string>
+    <string name="dialog_delete_file_message">See kustutab faili jäädavalt.\n\nKustutada %1$s?</string>
+    <string name="dialog_delete_uri_message">Eemaldab ainult rakendusest. Algne fail muutmata.\n\nKas eemaldada %1$s rakendusest?</string>
+    <string name="dialog_delete_confirm">Kustuta</string>
+    <string name="dialog_remove_confirm">Eemalda</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">Nimetab ümber ainult rakenduse sees. Algset faili ei muudeta.</string>
+    <string name="notice_delete_uri_only">Rakendusest eemaldatud. Algne fail muutmata.</string>
+    <string name="notice_file_exists_error">Selle nimega fail on juba olemas</string>
+    <string name="notice_file_not_found_error">Faili ei leitud</string>
+    <string name="notice_no_active_document">Aktiivset dokumenti pole</string>
+    <string name="notice_document_path_unavailable">Dokumendifaili tee pole saadaval</string>
+    <!-- States -->
+    <string name="state_loading">Laadimine...</string>
+    <string name="state_empty">Ühtegi eset ei leitud</string>
+    <string name="state_error">Midagi läks valesti</string>
+    <string name="state_retry">Proovi uuesti</string>
+    <!-- Errors -->
+    <string name="error_network">Võrguühendus ebaõnnestus</string>
+    <string name="error_file_not_found">Faili ei leitud</string>
+    <string name="error_permission_denied">Luba keelatud</string>
+    <string name="error_invalid_file">Sobimatu failivorming</string>
+    <string name="error_password_required">Parool on nõutav</string>
+    <string name="error_incorrect_password">Vale parool</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">Parooliga kaitstud</string>
+    <string name="password_protected_message">Selle faili avamiseks on vaja parooli. Palun sisestage see allpool.</string>
+    <string name="password_label">Parool</string>
+    <string name="password_placeholder">Sisesta parool</string>
+    <string name="password_unlock">Ava</string>
+    <string name="password_show">Näita parooli</string>
+    <string name="password_hide">Peida parool</string>
+    <!-- Theme -->
+    <string name="theme_light">Valgus</string>
+    <string name="theme_dark">Tume</string>
+    <string name="theme_system">Süsteem</string>
+    <string name="theme_adaptive">Adaptiivne</string>
+    <string name="theme_custom">Kohandatud</string>
+    <!-- Settings -->
+    <string name="settings_title">Eelistused</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">Konto &amp; Sünkroonimine</string>
+    <string name="settings_category_sync_subtitle">Halda oma kontot, sünkrooni &amp; privaatsust</string>
+    <string name="settings_category_appearance_title">Välimus</string>
+    <string name="settings_category_appearance_subtitle">Kohanda rakenduse välimust &amp; tunnetust</string>
+    <string name="settings_category_pdf_reader_title">PDF-lugeja</string>
+    <string name="settings_category_pdf_reader_subtitle">Vaikimisi vaataja &amp; lugemiskogemus</string>
+    <string name="settings_category_help_title">Abi &amp; Tugi</string>
+    <string name="settings_category_help_subtitle">Dokumentatsioon &amp; kontakt</string>
+    <string name="settings_category_general_title">Üldine</string>
+    <string name="settings_category_general_subtitle">Keel &amp; rakenduse info</string>
+    <string name="settings_theme_section">Teema</string>
+    <string name="settings_theme_description">Valige oma eelistatud teema</string>
+    <string name="settings_accent_color">AKTSENTVÄRV</string>
+    <string name="settings_custom_colors">Kohandatud värvid</string>
+    <string name="settings_primary_color">Põhivärv</string>
+    <string name="settings_background_color">Taustavärv</string>
+    <string name="settings_surface_color">Pinna värv</string>
+    <string name="settings_reset_colors">Lähtesta vaikesätetele</string>
+    <string name="settings_adaptive_note">Material You adaptiivsed värvid (Android 12+)</string>
+    <string name="settings_app_section">Rakenduse seaded</string>
+    <string name="settings_notifications">Teavitused</string>
+    <string name="settings_notifications_description">Rakenduste märguannete saamine</string>
+    <string name="settings_auto_backup">Automaatne varundamine</string>
+    <string name="settings_auto_backup_description">Dokumentide automaatne varundamine</string>
+    <string name="settings_change_color">Muuda värvi</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">Teie PDF-dokumendid kuvatakse siin</string>
+    <string name="scan_description">Dokumentide skannimine PDF-vormingusse</string>
+    <string name="tools_description">PDF-i redigeerimise ja manipuleerimise tööriistad</string>
+    <string name="home_description">Funktsioonidele juurdepääsemiseks kasutage alumist navigeerimisriba</string>
+    <!-- Sort Options -->
+    <string name="sort_name">Nimi</string>
+    <string name="sort_date">Kuupäev</string>
+    <string name="sort_size">Suurus</string>
+    <string name="sort_option_name">Nimi</string>
+    <string name="sort_option_last_opened">Viimati avatud</string>
+    <string name="sort_option_last_modified">Viimati muudetud</string>
+    <string name="sort_option_file_size">Faili suurus</string>
+    <!-- View Types -->
+    <string name="view_type_list">Loendivaade</string>
+    <string name="view_type_table">Tabelivaade</string>
+    <string name="view_type_grid">Ruudustikuvaade</string>
+    <!-- File Properties -->
+    <string name="file_name">Faili nimi</string>
+    <string name="date_modified">Muutmise kuupäev</string>
+    <string name="file_size">Suurus</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">Pole alustatud</string>
+    <string name="file_status_completed">Lõpetatud</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">PDF-dokument</string>
+    <string name="document_type_word">Wordi dokument</string>
+    <string name="document_type_excel">Exceli arvutustabel</string>
+    <string name="document_type_image">Pildifail</string>
+    <string name="document_type_other">Dokument</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">Kõik failid</string>
+    <string name="filter_recent">Hiljutised</string>
+    <string name="filter_pdfs">PDF-failid</string>
+    <string name="filter_images">Pildid</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">Avaleht</string>
+    <string name="browse_tab">Sirvi</string>
+    <string name="starred_tab">Tärniga tähistatud</string>
+    <string name="settings_tab">Seaded</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">Teema vahetamine/peitmine</string>
+    <string name="accessibility_menu">Menüü</string>
+    <string name="accessibility_close">Sule</string>
+    <string name="accessibility_color_picker">Värvivalija</string>
+    <!-- Library Screen -->
+    <string name="library_title">Raamatukogu</string>
+    <string name="library_subtitle">Halda faile, Hiljutised &amp; Lemmikud</string>
+    <string name="library_search_placeholder">Otsi faile...</string>
+    <string name="library_selected_count">%1$d valitud</string>
+    <string name="library_open_from_device">Ava seadmest\n</string>
+    <string name="library_browse_files">Sirvi\nfaile</string>
+    <string name="library_action_open">Avatud</string>
+    <string name="library_action_share">Jaga</string>
+    <string name="library_action_remove">Eemalda</string>
+    <string name="library_action_delete">Kustuta</string>
+    <string name="library_clear_search">Tühjenda otsing</string>
+    <string name="library_close_search">Sulge otsing</string>
+    <string name="library_select_all">Vali kõik failid</string>
+    <string name="library_exit_multiselect">Välju mitmikvaliku režiimist</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">Abi &amp; Tugi</string>
+    <string name="help_support_subtitle">KKK, kontakt &amp; Õiguslik</string>
+    <string name="settings_pdf_subtitle">Kerige, vaadake &amp; paigutust</string>
+    <string name="help_header_title">Kuidas me saame aidata?</string>
+    <string name="help_header_subtitle">Our team is here to ensure you have the\nbest PDF experience.</string>
+    <string name="help_contact_us">Võta meiega ühendust</string>
+    <string name="help_contact_subtitle">Võtke ühendust tugiteenusega</string>
+    <string name="help_faq">KKK</string>
+    <string name="help_faq_subtitle">Vastused levinud küsimustele</string>
+    <string name="help_privacy_policy">Privaatsuspoliitika</string>
+    <string name="help_privacy_subtitle">Kuidas me teie andmeid kaitseme</string>
+    <string name="help_terms_service">Teenusetingimused</string>
+    <string name="help_terms_subtitle">Taotluse reeglid</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">Sünkroonimine mobiilse andmeside kaudu</string>
+    <string name="background_sync">Taustal sünkroonimine</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">PDF-lugeja seaded</string>
+    <string name="pdf_settings_coming_soon">Varsti tulekul</string>
+    <string name="pdf_settings_description">Kerimiskäitumise, vaaterežiimide ja lugemiseelistuste seadistamine</string>
+    <!-- General Settings -->
+    <string name="settings_language">Keel</string>
+    <string name="settings_pdf_reader">PDF-lugeja seaded</string>
+    <string name="settings_help_support">Abi &amp; Tugi</string>
+    <string name="settings_whats_new">Mis on uut?</string>
+    <string name="settings_download_desktop">Installi teisele seadmele</string>
+    <string name="settings_rate_app">Rakenduse hindamine</string>
+    <string name="play_store_not_found">Play poodi ei leitud sellest seadmest</string>
+    <string name="settings_set_as_default">Määra PDF-i vaikevaaturiks</string>
+    <string name="settings_set_as_default_subtitle">Ava PDF-failid selle rakendusega vaikimisi</string>
+    <string name="settings_default_pdf_instructions_title">Kuidas määrata vaikeseadeks</string>
+    <string name="settings_default_pdf_ok">Sain aru</string>
+    <string name="settings_default_app_hint">Ei toiminud?</string>
+    <string name="settings_default_app_hint_learn_more">Lisateave</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">Keel</string>
+    <string name="language_search_placeholder">Otsi keeli...</string>
+    <!-- Common UI -->
+    <string name="support">Tugi</string>
+    <string name="language_english">Inglise</string>
+    <string name="language_hindi">हिंदी</string>
+    <string name="language_spanish">Hispaania keel</string>
+    <string name="language_french">Prantsuse keel</string>
+    <string name="language_german">Saksa keel</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">portugali keel</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">RAKENDUSE VÄLIMUS</string>
+    <string name="theme">TEEMA</string>
+    <string name="general">ÜLDINE</string>
+    <string name="new">UUS</string>
+    <string name="navigate">Navigeerimine</string>
+    <string name="download">Laadi alla</string>
+    <string name="falcon_pdf">Falconi PDF</string>
+    <string name="excellence_in_every_pixel">Tipptase igas pikslis</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">RAKENDA MUUDATUSED</string>
+    <string name="apply">Kandideeri</string>
+    <string name="selected">Valitud</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">Sünkroonimisseaded</string>
+    <string name="autosync_on_wifi">Automaatne sünkroonimine WiFi-ühenduse kaudu</string>
+    <string name="sync_reading_progress">Lugemise edenemise sünkroonimine</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">Dokumendi nimi</string>
+    <string name="name_cannot_be_empty">Nimi ei tohi olla tühi</string>
+    <string name="str__failed">%1$s Ebaõnnestus</string>
+    <string name="ok">Olgu</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">Täiendusplaan - Praegune plaan: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">Faili avamiseks lohista</string>
+    <string name="release_to_import_and_open_pdf">PDF-failide importimiseks ja avamiseks vabastage</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">Eemalda</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF-fail</string>
+    <string name="images">Pildid</string>
+    <string name="filter_all_types">Kõik failid</string>
+    <string name="favorites">Lemmikfailid</string>
+    <string name="recent">Hiljutised</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">Otsi dokumente...</string>
+    <string name="voice_search">Häälotsing</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">Hiljutised failid</string>
+    <string name="loading_recent_files">Hiljutiste failide laadimine...</string>
+    <string name="no_recent_files">Hiljutisi faile pole</string>
+    <string name="no_favorites">Lemmikuid pole</string>
+    <string name="mark_files_as_favorite_to_see_them_here">Märkige failid lemmikuteks, et neid siin näha</string>
+    <string name="open_some_pdf_files_to_see_the">Ava mõned PDF-failid, et neid siin näha</string>
+    <string name="status">Staatus</string>
+    <string name="actions">Toimingud</string>
+    <string name="select_all">Vali kõik</string>
+    <string name="enter_multiselect_mode">Sisene mitmikvaliku režiimi</string>
+    <string name="sorted_ascending">Sorteeritud kasvavalt</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">Salvestusruum: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">Lisa %1$s faili</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">Vaate tüübi muutmine</string>
+    <string name="filter_">Filter: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">PDF-i laadimine...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">Logige sisse sünkroonimiseks</string>
+    <string name="protect_your_library_files">Kaitske oma raamatukogu faile</string>
+    <string name="sign_in">Logi sisse</string>
+    <string name="sign_out">Logi välja</string>
+    <string name="sign_in_dialog_title">Logi sisse Falcon PDF-i</string>
+    <string name="sign_in_dialog_subtitle">Sinu PDF-teek kõikjal.</string>
+    <string name="sign_in_with_google">Logi sisse Google'iga</string>
+    <string name="sign_in_with_apple">Logi sisse Apple'iga</string>
+    <string name="apple_user_drive_unavailable">Google Drive'i sünkroonimine pole Apple'i sisselogimisega saadaval</string>
+    <string name="apple_user_link_google">Drive'i sünkroonimiseks linkige Google'i konto</string>
+    <string name="apple_user_sync_info">Pilvesünkroonimise lubamiseks linkige Google'i konto</string>
+    <string name="link_google_account">Google'i konto linkimine</string>
+    <string name="signed_in_successfully">Sisselogimine õnnestus</string>
+    <string name="signed_out_successfully">Väljalogimine õnnestus</string>
+    <string name="sync_disabled_free">Tasuta kontode puhul on sünkroonimine keelatud.</string>
+    <string name="storage_disabled_grant_access">Salvestusruum on keelatud. Alustamiseks andke kettale juurdepääs.</string>
+    <string name="upgrade_to_pro">Uuenda Pro versioonile</string>
+    <string name="grant_drive_access">Anna juurdepääs draivile</string>
+    <string name="files_synced">%1$d/%2$d Sünkroonitud failid</string>
+    <string name="synced_count">%1$d Sünkroonitud</string>
+    <string name="unlimited_sync_active">PIIRAMATU SÜNKROONIMINE</string>
+    <string name="missing_drive_permissions">Puuduvad Drive'i load. Sünkroonimine on hetkel blokeeritud.</string>
+    <string name="drive_access_revoked">Draivi ligipääs tühistatud. Sünkroonimise jätkamiseks loo uuesti ühendus.</string>
+    <string name="upgrade_premium">Täienda Premium-tasu</string>
+    <string name="manage_account">Konto haldamine</string>
+    <string name="sync_now">Sünkrooni kohe</string>
+    <string name="tier_free">TASUTA</string>
+    <string name="tier_pro">PRO</string>
+    <string name="tier_premium">PREMIUM</string>
+    <string name="status_paused">PEATUD</string>
+    <!-- Common -->
+    <string name="navigate_back">Navigeeri tagasi</string>
+    <string name="dismiss">Jäta vahele</string>
+    <string name="cancel">Tühista</string>
+    <string name="back">Tagasi</string>
+    <string name="search">Otsi</string>
+    <string name="more_actions">Rohkem toiminguid</string>
+    <string name="share">Jaga</string>
+    <string name="delete">Kustuta</string>
+    <string name="remove_from_recents">Eemalda hiljutiste hulgast</string>
+    <string name="open">Avatud</string>
+    <string name="all">Kõik</string>
+    <string name="sort_by_">Sorteeri %1$sjärgi</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Google Drive'i sünkroonimine</string>
+    <string name="syncing">Sünkroonimine...</string>
+    <string name="sync_completed">Sünkroonimine on lõpetatud</string>
+    <string name="sync_failed">Sünkroonimine ebaõnnestus</string>
+    <string name="sync_limit_exceeded">Sünkroonimislimiit on ületatud. Teie %s pakett lubab %d faili.</string>
+    <string name="sync_no_drive_access">Google Drive'i juurdepääs pole saadaval</string>
+    <string name="sync_network_unavailable">Võrk pole saadaval</string>
+    <string name="sync_last_sync">Viimane sünkroonimine: %s</string>
+    <string name="sync_total_files">Kokku</string>
+    <string name="sync_synced_files">Sünkroonitud</string>
+    <string name="sync_failed_files">Ebaõnnestus</string>
+    <string name="sync_conflict_files">Konfliktid</string>
+    <string name="sync_add_to_favorites">Lisa lemmikutesse</string>
+    <string name="sync_remove_from_favorites">Eemalda lemmikutest</string>
+    <string name="sync_conflict_title">Sünkroonimiskonfliktid</string>
+    <string name="sync_conflict_message">Järgmistel failidel on konfliktid, mis vajavad lahendamist:</string>
+    <string name="sync_conflict_explanation">Konfliktid tekivad siis, kui nii kohalikku kui ka kaugversiooni on muudetud.</string>
+    <string name="sync_plan_limit">Sünkroonimine: %d/%d</string>
+    <string name="sync_plan_limit_reached">Limiit on saavutatud</string>
+    <string name="sync_plan_unlimited">Piiramatu sünkroonimine</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">Jäta vahele</string>
+    <string name="welcome_next">Järgmine</string>
+    <string name="welcome_get_started">Alustamine</string>
+    <string name="welcome_sign_in_get_started">Logi sisse &amp; Alusta</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Loe mis tahes dokumenti&lt;/b&gt; koheselt</string>
+    <string name="welcome_slide1_description">Ava ja halda enam kui 10 dokumendivormingut, sh PDF, DOC, EPUB ja MOBI.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Loe PDF-e, e-raamatuid,&lt;/b&gt; ja Office'i dokumente ühes kohas</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Lisage dokumendid lemmikutesse&lt;/b&gt; ja pääsete neile ligi erinevates seadmetes.</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;Kommenteeri,&lt;/b&gt; tõsta esile ja tee koostööd hõlpsalt</string>
+    <string name="welcome_slide1_footer">Teie universaalne dokumendilugeja</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;Redigeeri, skanni ja korralda&lt;/b&gt; PDF-e</string>
+    <string name="welcome_slide2_description">Kõik, mida vajate PDF-ide loomiseks, redigeerimiseks ja haldamiseks, on ühes võimsas tööriistakomplektis.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;Redigeeri teksti,&lt;/b&gt; lisa märkmeid, tõsta esile ja täida vorme</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Skannige dokumente&lt;/b&gt; ja teisendage need koheselt PDF-failideks</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;30+ tööriista&lt;/b&gt; , sh ühendamine, teisendamine, tihendamine ja turvamine</string>
+    <string name="welcome_slide2_footer">Teie kõik-ühes PDF-tööruum</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;Tehisintellekt, mis mõistab&lt;/b&gt; teie dokumente</string>
+    <string name="welcome_slide3_description">Säästa tunde tehisintellektiga, mis loeb ja analüüsib sinu eest dokumente.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Kokkuvõtete tegemine&lt;/b&gt; pikkadest dokumentidest sekunditega</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; skannitud lehed ja tõlgi tekst koheselt</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Kuula&lt;/b&gt; dokumente sisseehitatud ettelugemise funktsiooniga</string>
+    <string name="welcome_slide3_footer">Reklaame pole. Ainult produktiivsus.</string>
+    <string name="grace">ARMU</string>
+    <string name="unable_to_verify_subscription_limited_ac">Tellimust ei õnnestunud kinnitada. Juurdepääs on piiratud kuni ühenduse taastamiseni.</string>
+    <string name="retry_verification">Proovi uuesti kinnitada</string>
+    <string name="guest_state">Külalisriik</string>
+    <string name="free_tier">Vaba tasand</string>
+    <string name="free_tier__locked">Vaba tase - lukustatud</string>
+    <string name="pro_tier">Professionaalne tase</string>
+    <string name="pro_tier__restricted">Pro-tase – piiratud</string>
+    <string name="premium_tier">Premium-tasand</string>
+    <string name="premium_tier__error">Premium-tase – viga</string>
+    <string name="refresh_plan_status">Värskenda plaani olekut</string>
+    <string name="user_avatar">Kasutaja avatar</string>
+    <string name="debug_tools">Silumistööriistad</string>
+    <string name="authentication__drive">Autentimine &amp; Draiv</string>
+    <string name="auth_state">Autentimisolek</string>
+    <string name="revoke_drive_access">Tühista draivi juurdepääs</string>
+    <string name="image">Pilt</string>
+    <string name="thumbnail">Pisipilt</string>
+    <string name="manage_preferences">Eelistuste haldamine</string>
+    <string name="tools_history">Tööriistade ajalugu</string>
+    <string name="manage_recent_logs">Hiljutiste logide haldamine</string>
+    <string name="more_options">Rohkem valikuid</string>
+    <string name="clear_all_history">Tühjenda kogu ajalugu</string>
+    <string name="no_history_yet">Ajalugu veel pole</string>
+    <string name="your_pdf_tool_operations_will_appear_her">Teie PDF-tööriista toimingud kuvatakse siin</string>
+    <string name="view">Vaade</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">Salvestatud %1$s</string>
+    <string name="history_status_processing">Töötlemine</string>
+    <string name="history_status_succeeded">ÕNNESTUS</string>
+    <string name="history_status_failed">EBAÕNNESTUS</string>
+    <string name="history_status_processing_upper">TÖÖTLEMINE</string>
+    <string name="history_unknown_files">Tundmatud failid</string>
+    <string name="history_op_complete">%1$s Valmis!</string>
+    <string name="history_op_failed">%1$s Ebaõnnestus</string>
+    <string name="history_op_success_multiple">Toiming %1$d failiga edukalt lõpule viidud</string>
+    <string name="history_op_success_single">Toiming edukalt lõpule viidud</string>
+    <string name="history_op_error">Me ei saanud toimingut lõpule viia</string>
+    <string name="history_multiple_files">%1$d faili</string>
+    <string name="history_failed">Ebaõnnestus</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">Pilvesünkroonimine</string>
+    <string name="cloud_sync_subtitle">Ühendatud seadmed</string>
+    <string name="cloud_sync_all_synced">Kõik failid sünkroonitud</string>
+    <string name="cloud_sync_syncing">Sünkroniseerimine…</string>
+    <string name="cloud_sync_pending">Sünkroonimine ootel</string>
+    <string name="cloud_sync_last_sync">Viimane sünkroonimine: %1$s</string>
+    <string name="cloud_sync_never_synced">Pole kunagi sünkroonitud</string>
+    <string name="cloud_sync_recent_activity">Hiljutine sünkroonimistegevus</string>
+    <string name="cloud_sync_no_files">Sünkroonitud faile pole veel</string>
+    <string name="cloud_sync_synced_to_drive">Drive'i sünkroonitud</string>
+    <string name="cloud_sync_pending_upload">Üleslaadimise ootel</string>
+    <string name="cloud_sync_sync_now">Sünkrooni kohe</string>
+    <string name="cloud_sync_view_history">Kuva sünkroonimisajalugu</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d failid sünkroonitud</string>
+    <string name="cloud_sync_unlimited_files">%1$d faili sünkroonitud · Piiramatu</string>
+    <string name="cloud_sync_cta_title">Iga platvorm, igal ajal</string>
+    <string name="cloud_sync_cta_subtitle">Teie dokumendid järgnevad teile kõikjale</string>
+    <string name="cloud_sync_files_label">%1$d faili</string>
+    <string name="settings_data_privacy">Andmed &amp; Privaatsus</string>
+    <string name="settings_data_privacy_subtitle">Andmete haldamine, konto &amp; kustutamine</string>
+    <string name="settings_delete_account">Kustuta konto</string>
+    <string name="settings_delete_account_subtitle">Konto ja andmete jäädav kustutamine</string>
+    <string name="delete_account_warning_title">Kustutada oma konto?</string>
+    <string name="delete_account_warning_message">See kustutab jäädavalt teie konto ja kõik sellega seotud andmed, sh ostuajaloo ja pilvesünkroonitud failid. Seda toimingut ei saa tagasi võtta ja oste ei saa hiljem taastada.</string>
+    <string name="delete_account_confirm_phrase_label">Jätkamiseks tippige „kinnita kustutamine”:</string>
+    <string name="delete_account_confirm_phrase">kinnita kustutamine</string>
+    <string name="delete_account_button">Kustuta konto</string>
+    <string name="delete_account_error_reauth">Turvalisuse huvides peate oma konto kustutamiseks hiljuti sisse logima. Palun logige välja ja uuesti sisse ning proovige siis uuesti.</string>
+    <string name="delete_account_success">Konto kustutati edukalt</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">Fail &amp; Sünkroonimisseaded</string>
+    <string name="sync_on_mobile_data_subtitle">Kasuta pilvesünkroonimiseks mobiilset andmesidet</string>
+    <string name="drive_sync">Taustal sünkroonimine</string>
+    <string name="drive_sync_subtitle">Sünkrooni lemmikud &amp; skanni dokumente Drive'i</string>
+    <string name="do_not_import_from_other_apps">Ära impordi faile teistest rakendustest</string>
+    <string name="do_not_import_from_other_apps_subtitle">Avage jagatud faile ajutiselt ilma teeki salvestamata</string>
+    <string name="clear_imported_files">Tühjenda imporditud failid</string>
+    <string name="clear_imported_files_subtitle">Kustuta kõik teistest rakendustest kopeeritud failid</string>
+    <string name="clear_imports_confirm_title">Kas kustutada imporditud failid?</string>
+    <string name="clear_imports_confirm_message">See kustutab jäädavalt kõik teie imporditud failid kaustast. Seda toimingut ei saa tagasi võtta.</string>
+    <string name="clear_imports_success">Imporditud failid on kustutatud</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">Andmed &amp; Privaatsus</string>
+    <string name="analytics_opt_out_title">Kasutusandmete saatmine</string>
+    <string name="analytics_opt_out_subtitle">Jaga arendajaga anonüümseid kasutusandmeid ja krahhiaruandeid, et aidata rakendust täiustada</string>
+    <string name="analytics_opt_out_disabled_note">Analüütika ja krahhide aruandlus on keelatud. Google'ile ega arendajale ei saadeta andmeid.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">Salvestamata muudatused</string>
+    <string name="unsaved_changes_tab_message">Selles dokumendis on salvestamata muudatusi. Kas soovite enne sulgemist salvestada?</string>
+    <string name="unsaved_changes_window_message">Ühes või mitmes dokumendis on salvestamata muudatusi. Kas soovite need tühistada ja väljuda?</string>
+    <string name="discard">Äraviska</string>
+    <string name="discard_and_quit">Viska ära &amp; Välju</string>
+    <string name="close">Sule</string>
+    <string name="remove_favorite">Eemalda lemmik</string>
+    <string name="set_as_default_pdf_viewer">Kas määrata PDF-i vaikevaaturiks?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF ei ole teie PDF-i vaikevaatur. Kas soovite selle vaikeprogrammiks määrata, et kõik PDF-failid avaneksid Falcon PDF-iga?</string>
+    <string name="set_now">Määra kohe</string>
+    <string name="never">Mitte kunagi</string>
+    <string name="later">Hiljem</string>
+    <string name="set_default">Määra vaikesäte</string>
+    <string name="default">Vaikimisi</string>
+    <string name="version_">Versioon %1$s</string>
+    <string name="sign_in_with_other_accounts">Logi sisse teiste kontodega</string>
+    <string name="upgrade">Täienda</string>
+    <string name="view_plan">Vaata plaani</string>
+    <string name="unlimited_sync_upto_5gb">Piiramatu sünkroonimine kuni 5 GB</string>
+    <string name="unlock_faster">Ava kiiremini</string>
+    <string name="use_biometrics_instead_of_passwords">Kasutage paroolide asemel biomeetriat.</string>
+    <string name="upgrade_to_premium">Uuenda Premium-tasemele</string>
+    <string name="unlock_pdf">PDF-i avamine</string>
+    <string name="use__to_accessnthis_document">Sellele dokumendile %1$s ligipääsemiseks kasutage\n</string>
+    <string name="open_with_password">Ava parooliga</string>
+    <string name="secure">Turvaline</string>
+    <string name="loading_">Laadimine %1$s...</string>
+    <string name="failed_to_open_ebook">E-raamatu avamine ebaõnnestus</string>
+    <string name="properties">Omadused</string>
+    <string name="copy">Kopeeri</string>
+    <string name="highlight">Esiletõstmine</string>
+    <string name="clear_selection">Tühjenda valik</string>
+    <string name="close_search">Sulge otsing</string>
+    <string name="search_in_book">Otsi raamatust...</string>
+    <string name="contents">Sisukord</string>
+    <string name="table_of_contents">Sisukord</string>
+    <string name="no_table_of_contents_available">Sisukorda pole saadaval</string>
+    <string name="bookmarks">Järjehoidjad</string>
+    <string name="no_bookmarks_yet">Järjehoidjaid veel pole</string>
+    <string name="page_">Lehekülg %1$s</string>
+    <string name="no_results">Tulemusi pole</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">Seaded</string>
+    <string name="decrease_font_size">Vähenda fondi suurust</string>
+    <string name="increase_font_size">Suurenda fondi suurust</string>
+    <string name="font">Font</string>
+    <string name="jump_to_page">Hüppa lehele</string>
+    <string name="enter_page_number_1">Sisesta leheküljenumber (1–%1$s):</string>
+    <string name="go">Mine</string>
+    <string name="read_aloud">Loe ette</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">Stopp</string>
+    <string name="annotations__text_selection">Märkused &amp; Teksti valik</string>
+    <string name="text_selection_and_annotations_for_ebook">E-raamatute tekstivalik ja märkused on peagi saadaval.</string>
+    <string name="longpress_on_text_to_select_highlight_or">Teksti valimiseks, esiletõstmiseks või märkmete lisamiseks vajutage pikalt teksti.</string>
+    <string name="press_play_to_start_reading_aloud">Ettelugemise alustamiseks vajutage esitusnuppu...</string>
+    <string name="speed">Kiirus</string>
+    <string name="voice">Hääl</string>
+    <string name="no_annotations_yet">Märkusi pole veel</string>
+    <string name="select_text_to_highlight_or_add_notes">Valige tekst esiletõstmiseks või märkmete lisamiseks</string>
+    <string name="tools">Tööriistad</string>
+    <string name="convert_to_images">Teisenda piltideks</string>
+    <string name="rename">Nimeta ümber</string>
+    <string name="print">Prindi</string>
+    <string name="a">A−</string>
+    <string name="cover_of_">%1$s kaas</string>
+    <string name="no_cover_available">Katteid pole saadaval</string>
+    <string name="read_now">Loe kohe</string>
+    <string name="about_the_book">RAAMATU KOHTA</string>
+    <string name="tags">SILDID</string>
+    <string name="publisher_info">VÄLJAANDJA INFO</string>
+    <string name="published_">Avaldatud: %1$s</string>
+    <string name="retry">Proovi uuesti</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Tühjenda vahemälu</string>
+    <string name="ebooks_library">E-raamatute raamatukogu</string>
+    <string name="manage_your_digital_collection_across_mu">Halda oma digitaalset kollektsiooni mitme pakkuja kaudu. Otsi, filtreeri ja avasta uusi pealkirju Google Booksist ja Open Libraryst.</string>
+    <string name="no_books_found">Raamatuid ei leitud</string>
+    <string name="no_results_for__try_a_different_search_t">Otsingule "%1$s" ei leitud tulemusi. Proovi mõnda teist otsinguterminit.</string>
+    <string name="downloadable_only">Ainult allalaaditav</string>
+    <string name="file_unavailable">Fail pole saadaval</string>
+    <string name="unavailable">Pole saadaval</string>
+    <string name="search_titles_authors_isbn">Otsi pealkirju, autoreid, ISBN-i...</string>
+    <string name="clear_search">Tühjenda otsing</string>
+    <string name="ebooks">e-raamatud</string>
+    <string name="read_pdf">Loe PDF-i</string>
+    <string name="create_pdf">Loo PDF</string>
+    <string name="unlock_all_tools_and_remove_limits">Ava kõik tööriistad ja eemalda piirangud</string>
+    <string name="ocr_scanning">OCR-skannimine</string>
+    <string name="extract_text_from_scanned_documents">Teksti eraldamine skannitud dokumentidest</string>
+    <string name="cloud_sync">Pilvesünkroonimine</string>
+    <string name="access_your_documents_anywhere">Juurdepääs oma dokumentidele kõikjal</string>
+    <string name="annotate_pdfs">PDF-failidele märkuste lisamine</string>
+    <string name="cloud_backup">Pilvevarundus</string>
+    <string name="continue_reading">Jätka lugemist</string>
+    <string name="pick_files">Valige failid</string>
+    <string name="browse">Sirvi</string>
+    <string name="did_you_know">Kas sa teadsid?</string>
+    <string name="home">Avaleht</string>
+    <string name="your_documents_at_a_glance">Teie dokumendid ülevaatlikult</string>
+    <string name="pick_file">Vali fail</string>
+    <string name="quick_actions">Kiirtoimingud</string>
+    <string name="pro">PRO</string>
+    <string name="open_files">Ava failid</string>
+    <string name="convert_to_pdf">Teisenda PDF-iks</string>
+    <string name="close_drawer">Sulge sahtel</string>
+    <string name="close_file">Sulge fail</string>
+    <string name="office">Kontor</string>
+    <string name="coming_soon">Varsti tulekul</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">E-raamatute vaatur pole sellel platvormil veel saadaval.</string>
+    <string name="set_as_default_viewer">Määra vaikevaaturiks</string>
+    <string name="free">Tasuta</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">Värskenduse allalaadimine... %1$s%</string>
+    <string name="more">Rohkem</string>
+    <string name="font_size">Fondi suurus</string>
+    <string name="font_family">Fondipere</string>
+    <string name="scroll_direction">Kerimissuund</string>
+    <string name="navigation">Navigeerimine</string>
+    <string name="keep_screen_on">Hoia ekraan sisse lülitatuna</string>
+    <string name="volume_button_to_scroll">Helitugevuse nupp kerimiseks</string>
+    <string name="export_ebook_pages_as_image_files">Ekspordi e-raamatu lehed pildifailidena</string>
+    <string name="access_millions_of_titles">Ligipääs miljonitele pealkirjadele.</string>
+    <string name="read_offline_with_natural_ai_voices">Loe võrguühenduseta loomulike tehisintellekti häältega.</string>
+    <string name="advanced_ai_reader">Täiustatud tehisintellektiga lugeja.</string>
+    <string name="experience_studioquality_narration">Koge stuudiokvaliteediga jutustust.</string>
+    <string name="powerful_pdf_tools">Võimsad PDF-tööriistad.</string>
+    <string name="create_and_edit_documents_on_the_go">Loo ja redigeeri dokumente liikvel olles.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Uuenda Pro versioonile: ava kõik tööriistad ja eemalda piirangud</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">OCR-skannimine: teksti eraldamine skannitud dokumentidest</string>
+    <string name="cloud_sync_access_your_documents_anywher">Pilvesünkroonimine: pääsete oma dokumentidele ligi kõikjal</string>
+    <string name="scan">Skannimine</string>
+    <string name="compress">Tihenda</string>
+    <string name="merge">Ühenda</string>
+    <string name="convert">Teisenda</string>
+    <string name="highlight_underline_and_add_notes_to_you">Dokumentide esiletõstmine, allajoonimine ja märkmete lisamine</string>
+    <string name="keep_your_documents_safe_with_automatic_">Hoidke oma dokumente automaatse pilvesünkroonimise abil turvaliselt</string>
+    <string name="indicator_color_">indikaatori_värv_%1$s</string>
+    <string name="my_library">Minu raamatukogu</string>
+    <string name="get_ebooks">Hankige e-raamatuid</string>
+    <string name="scan_document">Skanni dokument</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

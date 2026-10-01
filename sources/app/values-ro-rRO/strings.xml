@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Magie PDF</string>
+    <string name="app_tagline">Ce ai vrea să faci?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">Ultima utilizare</string>
+    <string name="home_favorites">Favorite</string>
+    <string name="home_new_tool">Instrument nou</string>
+    <string name="home_featured">RECOMANDAT</string>
+    <string name="home_scan_to_pdf">Scanare în PDF</string>
+    <string name="home_scan_description">Transformă instantaneu documentele pe hârtie în magie digitală</string>
+    <string name="home_start_scanning">Începeți scanarea</string>
+    <string name="home_all_tools">Toate instrumentele</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">Instrumente PDF</string>
+    <string name="image_tools">Instrumente de imagine</string>
+    <string name="tools_split">Despică</string>
+    <string name="tools_split_description">Extrage pagini</string>
+    <string name="tools_rotate">Roti</string>
+    <string name="tools_rotate_description">Fixați orientarea</string>
+    <string name="tools_delete_pages">Ștergeți paginile</string>
+    <string name="tools_delete_pages_description">Eliminați nedorite</string>
+    <string name="tools_convert">Convertit</string>
+    <string name="tools_convert_description">Către/De la imagini</string>
+    <string name="tools_sign">Semn</string>
+    <string name="tools_sign_description">Adăugați semnătură</string>
+    <string name="tools_protect">Proteja</string>
+    <string name="tools_protect_description">Securitatea parolei</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">Vizualizator PDF</string>
+    <string name="pdf_viewer_page_info">Pagina %1$d din %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">Scaner de documente</string>
+    <string name="scanner_capture">Capta</string>
+    <string name="scanner_retake">Relua</string>
+    <string name="scanner_save">Salva</string>
+    <!-- Navigation -->
+    <string name="nav_back">Navigare înapoi</string>
+    <string name="nav_settings">Setări</string>
+    <string name="nav_more_options">Mai multe opțiuni</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Acasă</string>
+    <string name="nav_library">Bibliotecă</string>
+    <string name="nav_scan">Scanare</string>
+    <string name="nav_tools">Instrumente</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">Răsfoiți fișierele</string>
+    <string name="browse_files_subtitle">Stocare &amp; Fișiere în cloud</string>
+    <string name="show_hidden_files">Afișează fișierele ascunse</string>
+    <string name="hide_hidden_files">Ascunde fișierele ascunse</string>
+    <string name="refresh_storage">Reîmprospătați spațiul de stocare</string>
+    <string name="no_storage_available">Nu există spațiu de stocare disponibil</string>
+    <string name="no_files_found">Nu s-au găsit fișiere</string>
+    <string name="add_files">Adăugați fișiere %1$d</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">Permisiunea de stocare este necesară</string>
+    <string name="permission_storage_message">Această aplicație are nevoie de acces la spațiul de stocare al dispozitivului pentru a răsfoi și deschide fișiere PDF. Vă rugăm să acordați permisiunea de stocare pentru a continua.</string>
+    <string name="permission_grant">Acordați permisiunea</string>
+    <!-- Common Actions -->
+    <string name="action_open">Deschide</string>
+    <string name="action_save">Salva</string>
+    <string name="action_share">Distribuie</string>
+    <string name="action_delete">Şterge</string>
+    <string name="action_cancel">Anula</string>
+    <string name="action_confirm">Confirma</string>
+    <string name="action_rename">Redenumire</string>
+    <string name="action_print">Imprimare</string>
+    <string name="action_favorite">Favorit</string>
+    <string name="action_unfavorite">Eliminare favorită</string>
+    <!-- Document Actions -->
+    <string name="document_share">Partajați documentul</string>
+    <string name="document_rename">Redenumiți documentul</string>
+    <string name="document_delete">Ștergeți documentul</string>
+    <string name="document_print">Imprimați documentul</string>
+    <string name="document_favorite">Adaugă la favorite</string>
+    <string name="document_unfavorite">Eliminare din Favorite</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">Documentul a fost partajat cu succes</string>
+    <string name="document_share_failed">Nu s-a putut partaja documentul</string>
+    <string name="document_renamed_success">Documentul a fost redenumit cu succes</string>
+    <string name="document_rename_failed">Nu s-a putut redenumi documentul</string>
+    <string name="document_deleted_success">Documentul a fost șters cu succes</string>
+    <string name="document_delete_failed">Nu s-a putut șterge documentul</string>
+    <string name="document_print_opened">Document deschis în vizualizatorul PDF implicit. Folosește funcția de imprimare a vizualizatorului pentru a imprima.</string>
+    <string name="document_print_failed">Nu s-a putut imprima documentul</string>
+    <string name="document_added_to_favorites">Adăugat la Favorite</string>
+    <string name="document_removed_from_favorites">Eliminat din Favorite</string>
+    <string name="document_favorite_failed">Nu s-a putut actualiza starea favoritelor</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">Redenumiți documentul</string>
+    <string name="dialog_rename_hint">Introduceți numele nou</string>
+    <string name="dialog_rename_empty_error">Numele documentului nu poate fi gol</string>
+    <string name="dialog_delete_title">Ștergeți documentul</string>
+    <string name="dialog_delete_file_message">Aceasta va șterge definitiv fișierul.\n\nȘtergeți %1$s?</string>
+    <string name="dialog_delete_uri_message">Elimină doar din aplicație. Fișierul original rămâne neschimbat.\n\nEliminați %1$s din aplicație?</string>
+    <string name="dialog_delete_confirm">Şterge</string>
+    <string name="dialog_remove_confirm">Elimina</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">Redenumește doar în aplicație. Fișierul original rămâne neschimbat.</string>
+    <string name="notice_delete_uri_only">Eliminat din aplicație. Fișierul original a rămas neschimbat.</string>
+    <string name="notice_file_exists_error">Există deja un fișier cu acest nume</string>
+    <string name="notice_file_not_found_error">Fișierul nu a fost găsit</string>
+    <string name="notice_no_active_document">Niciun document activ</string>
+    <string name="notice_document_path_unavailable">Calea fișierului documentului nu este disponibilă</string>
+    <!-- States -->
+    <string name="state_loading">Încărcare...</string>
+    <string name="state_empty">Nu s-au găsit articole</string>
+    <string name="state_error">Ceva nu a mers bine</string>
+    <string name="state_retry">Reîncercați</string>
+    <!-- Errors -->
+    <string name="error_network">Conexiunea la rețea a eșuat</string>
+    <string name="error_file_not_found">Fișierul nu a fost găsit</string>
+    <string name="error_permission_denied">Acces refuzat</string>
+    <string name="error_invalid_file">Format de fișier nevalid</string>
+    <string name="error_password_required">Parolă necesară</string>
+    <string name="error_incorrect_password">Parolă incorectă</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">Protejat prin parolă</string>
+    <string name="password_protected_message">Acest fișier necesită o parolă pentru a fi deschis. Vă rugăm să o introduceți mai jos.</string>
+    <string name="password_label">Parolă</string>
+    <string name="password_placeholder">Introduceți parola</string>
+    <string name="password_unlock">Deblocare</string>
+    <string name="password_show">Afișează parola</string>
+    <string name="password_hide">Ascunde parola</string>
+    <!-- Theme -->
+    <string name="theme_light">Aprinde</string>
+    <string name="theme_dark">Întuneric</string>
+    <string name="theme_system">Sistem</string>
+    <string name="theme_adaptive">Adaptiv</string>
+    <string name="theme_custom">Personalizat</string>
+    <!-- Settings -->
+    <string name="settings_title">Preferințe</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">Sincronizare cont &amp;</string>
+    <string name="settings_category_sync_subtitle">Gestionează-ți contul, sincronizează &amp; confidențialitatea</string>
+    <string name="settings_category_appearance_title">Aspect</string>
+    <string name="settings_category_appearance_subtitle">Personalizați aspectul aplicației &amp;</string>
+    <string name="settings_category_pdf_reader_title">Cititor PDF</string>
+    <string name="settings_category_pdf_reader_subtitle">Experiență de citire implicită pentru vizualizatorul &amp;</string>
+    <string name="settings_category_help_title">Ajutor &amp; Asistență</string>
+    <string name="settings_category_help_subtitle">Documentație &amp; contact</string>
+    <string name="settings_category_general_title">General</string>
+    <string name="settings_category_general_subtitle">Informații despre aplicație despre limbă &amp;</string>
+    <string name="settings_theme_section">Temă</string>
+    <string name="settings_theme_description">Alege tema preferată</string>
+    <string name="settings_accent_color">CULOARE ACCENT</string>
+    <string name="settings_custom_colors">Culori personalizate</string>
+    <string name="settings_primary_color">Culoare primară</string>
+    <string name="settings_background_color">Culoare de fundal</string>
+    <string name="settings_surface_color">Culoarea suprafeței</string>
+    <string name="settings_reset_colors">Resetare la valorile implicite</string>
+    <string name="settings_adaptive_note">Culori adaptive Material You (Android 12+)</string>
+    <string name="settings_app_section">Setări aplicație</string>
+    <string name="settings_notifications">Notificări</string>
+    <string name="settings_notifications_description">Primește notificări ale aplicației</string>
+    <string name="settings_auto_backup">Copiere de rezervă automată</string>
+    <string name="settings_auto_backup_description">Faceți backup automat la documente</string>
+    <string name="settings_change_color">Schimbă culoarea</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">Documentele dvs. PDF vor apărea aici</string>
+    <string name="scan_description">Scanați documente în format PDF</string>
+    <string name="tools_description">Instrumente de editare și manipulare PDF</string>
+    <string name="home_description">Folosește navigarea din partea de jos pentru a accesa funcțiile</string>
+    <!-- Sort Options -->
+    <string name="sort_name">Nume</string>
+    <string name="sort_date">Data</string>
+    <string name="sort_size">Dimensiune</string>
+    <string name="sort_option_name">Nume</string>
+    <string name="sort_option_last_opened">Ultima deschidere</string>
+    <string name="sort_option_last_modified">Ultima modificare</string>
+    <string name="sort_option_file_size">Dimensiunea fișierului</string>
+    <!-- View Types -->
+    <string name="view_type_list">Vizualizare listă</string>
+    <string name="view_type_table">Vizualizare tabel</string>
+    <string name="view_type_grid">Vizualizare grilă</string>
+    <!-- File Properties -->
+    <string name="file_name">Nume de fișier</string>
+    <string name="date_modified">Data modificării</string>
+    <string name="file_size">Dimensiune</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">Neînceput</string>
+    <string name="file_status_completed">Finalizat</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">Document PDF</string>
+    <string name="document_type_word">Document Word</string>
+    <string name="document_type_excel">Foaie de calcul Excel</string>
+    <string name="document_type_image">Fișier imagine</string>
+    <string name="document_type_other">Document</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">Toate fișierele</string>
+    <string name="filter_recent">Recent</string>
+    <string name="filter_pdfs">PDF-uri</string>
+    <string name="filter_images">Imagini</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">Acasă</string>
+    <string name="browse_tab">Răsfoiți</string>
+    <string name="starred_tab">Cu stea</string>
+    <string name="settings_tab">Setări</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">Comutare temă</string>
+    <string name="accessibility_menu">Meniu</string>
+    <string name="accessibility_close">Aproape</string>
+    <string name="accessibility_color_picker">Selector de culori</string>
+    <!-- Library Screen -->
+    <string name="library_title">Bibliotecă</string>
+    <string name="library_subtitle">Gestionare fișiere, Recente &amp; Favorite</string>
+    <string name="library_search_placeholder">Căutați fișiere...</string>
+    <string name="library_selected_count">%1$d selectat</string>
+    <string name="library_open_from_device">Deschidere de pe dispozitivul\n</string>
+    <string name="library_browse_files">Răsfoiți fișierele\n</string>
+    <string name="library_action_open">Deschide</string>
+    <string name="library_action_share">Distribuie</string>
+    <string name="library_action_remove">Elimina</string>
+    <string name="library_action_delete">Şterge</string>
+    <string name="library_clear_search">Șterge căutarea</string>
+    <string name="library_close_search">Închide căutarea</string>
+    <string name="library_select_all">Selectați toate fișierele</string>
+    <string name="library_exit_multiselect">Ieșiți din modul de selecție multiplă</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">Ajutor &amp; Suport</string>
+    <string name="help_support_subtitle">Întrebări frecvente, Contact &amp; Termeni și condiții</string>
+    <string name="settings_pdf_subtitle">Derulare, Vizualizare &amp; Aspect</string>
+    <string name="help_header_title">Cum putem ajuta?</string>
+    <string name="help_header_subtitle">Echipa noastră este aici pentru a vă asigura că aveți cea mai\nbună experiență PDF.</string>
+    <string name="help_contact_us">Contactaţi-ne</string>
+    <string name="help_contact_subtitle">Contactați serviciul de asistență</string>
+    <string name="help_faq">Întrebări frecvente</string>
+    <string name="help_faq_subtitle">Răspunsuri la întrebări frecvente</string>
+    <string name="help_privacy_policy">Politica de confidențialitate</string>
+    <string name="help_privacy_subtitle">Cum vă protejăm datele</string>
+    <string name="help_terms_service">Termeni și condiții</string>
+    <string name="help_terms_subtitle">Regulile aplicației</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">Sincronizare pe datele mobile</string>
+    <string name="background_sync">Sincronizare în fundal</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">Setări cititor PDF</string>
+    <string name="pdf_settings_coming_soon">În curând</string>
+    <string name="pdf_settings_description">Configurați comportamentul de derulare, modurile de vizualizare și preferințele de citire</string>
+    <!-- General Settings -->
+    <string name="settings_language">Limbă</string>
+    <string name="settings_pdf_reader">Setări cititor PDF</string>
+    <string name="settings_help_support">Ajutor &amp; Suport</string>
+    <string name="settings_whats_new">Ce este nou</string>
+    <string name="settings_download_desktop">Instalare pe alt dispozitiv</string>
+    <string name="settings_rate_app">Evaluează aplicația</string>
+    <string name="play_store_not_found">Magazin Play nu a fost găsit pe acest dispozitiv</string>
+    <string name="settings_set_as_default">Setare ca Vizualizator PDF implicit</string>
+    <string name="settings_set_as_default_subtitle">Deschideți fișierele PDF cu această aplicație în mod implicit</string>
+    <string name="settings_default_pdf_instructions_title">Cum se setează ca implicit</string>
+    <string name="settings_default_pdf_ok">Am înţeles</string>
+    <string name="settings_default_app_hint">Nu a funcționat?</string>
+    <string name="settings_default_app_hint_learn_more">Află mai multe</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">Limbă</string>
+    <string name="language_search_placeholder">Căutați limbi...</string>
+    <!-- Common UI -->
+    <string name="support">Sprijin</string>
+    <string name="language_english">Engleză</string>
+    <string name="language_hindi">Hindi</string>
+    <string name="language_spanish">Spaniolă</string>
+    <string name="language_french">Franceză</string>
+    <string name="language_german">Germană</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">limba arabă</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">Portugheză</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">ASPECTUL APLICAȚIEI</string>
+    <string name="theme">TEMĂ</string>
+    <string name="general">GENERAL</string>
+    <string name="new">NOU</string>
+    <string name="navigate">Navigați</string>
+    <string name="download">Descărcare</string>
+    <string name="falcon_pdf">PDF-ul Falcon</string>
+    <string name="excellence_in_every_pixel">Excelență în fiecare pixel</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">APLICĂ MODIFICĂRI</string>
+    <string name="apply">Aplică</string>
+    <string name="selected">Selectat</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">Setări de sincronizare</string>
+    <string name="autosync_on_wifi">Sincronizare automată prin WiFi</string>
+    <string name="sync_reading_progress">Sincronizează progresul citirii</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">Numele documentului</string>
+    <string name="name_cannot_be_empty">Numele nu poate fi gol</string>
+    <string name="str__failed">%1$s Eșuat</string>
+    <string name="ok">Bine</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">Plan de actualizare - Plan curent: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">Plasați pentru a deschide fișierul</string>
+    <string name="release_to_import_and_open_pdf">Eliberați pentru a importa și deschide fișiere PDF</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">Elimina</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF</string>
+    <string name="images">Imagini</string>
+    <string name="filter_all_types">Toate fișierele</string>
+    <string name="favorites">Fișiere preferate</string>
+    <string name="recent">Recent</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">Căutați documente...</string>
+    <string name="voice_search">Căutare vocală</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">Fișiere recente</string>
+    <string name="loading_recent_files">Se încarcă fișierele recente...</string>
+    <string name="no_recent_files">Niciun fișier recent</string>
+    <string name="no_favorites">Nicio favorită</string>
+    <string name="mark_files_as_favorite_to_see_them_here">Marchează fișierele ca favorite pentru a le vedea aici</string>
+    <string name="open_some_pdf_files_to_see_the">Deschideți câteva fișiere PDF pentru a le vedea aici</string>
+    <string name="status">Stare</string>
+    <string name="actions">Acțiuni</string>
+    <string name="select_all">Selectați tot</string>
+    <string name="enter_multiselect_mode">Intrați în modul de selecție multiplă</string>
+    <string name="sorted_ascending">Sortat crescător</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">Stocare: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">Adăugați fișiere %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">Schimbați tipul de vizualizare</string>
+    <string name="filter_">Filtru: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">Se încarcă PDF-ul...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">Conectați-vă pentru sincronizare</string>
+    <string name="protect_your_library_files">Protejați fișierele bibliotecii dvs.</string>
+    <string name="sign_in">Conectare</string>
+    <string name="sign_out">Sign out</string>
+    <string name="sign_in_dialog_title">Conectați-vă la Falcon PDF</string>
+    <string name="sign_in_dialog_subtitle">Biblioteca ta PDF, oriunde.</string>
+    <string name="sign_in_with_google">Conectați-vă cu Google</string>
+    <string name="sign_in_with_apple">Conectați-vă cu Apple</string>
+    <string name="apple_user_drive_unavailable">Sincronizarea Google Drive nu este disponibilă cu Apple Sign-In</string>
+    <string name="apple_user_link_google">Conectați contul Google pentru sincronizarea Drive</string>
+    <string name="apple_user_sync_info">Pentru a activa sincronizarea în cloud, conectați un cont Google</string>
+    <string name="link_google_account">Conectați contul Google</string>
+    <string name="signed_in_successfully">Conectat cu succes</string>
+    <string name="signed_out_successfully">Deconectare reușită</string>
+    <string name="sync_disabled_free">Sincronizarea este dezactivată pentru conturile gratuite.</string>
+    <string name="storage_disabled_grant_access">Stocarea este dezactivată. Acordați acces la unitate pentru a începe.</string>
+    <string name="upgrade_to_pro">Actualizați la Pro</string>
+    <string name="grant_drive_access">Acordați acces la unitate</string>
+    <string name="files_synced">%1$d/%2$d Fișiere sincronizate</string>
+    <string name="synced_count">%1$d Sincronizat</string>
+    <string name="unlimited_sync_active">SINCRONIZARE NELIMITATĂ</string>
+    <string name="missing_drive_permissions">Lipsesc permisiunile pentru Drive. Sincronizarea este blocată în prezent.</string>
+    <string name="drive_access_revoked">Accesul la unitate a fost revocat. Reconectați-vă pentru a relua sincronizarea.</string>
+    <string name="upgrade_premium">Actualizare Premium</string>
+    <string name="manage_account">Gestionează contul</string>
+    <string name="sync_now">Sincronizează acum</string>
+    <string name="tier_free">GRATUIT</string>
+    <string name="tier_pro">PRO</string>
+    <string name="tier_premium">PREMIUM</string>
+    <string name="status_paused">ÎN PAUZĂ</string>
+    <!-- Common -->
+    <string name="navigate_back">Navigare înapoi</string>
+    <string name="dismiss">Închide</string>
+    <string name="cancel">Anula</string>
+    <string name="back">Spate</string>
+    <string name="search">Căutare</string>
+    <string name="more_actions">Mai multe acțiuni</string>
+    <string name="share">Distribuie</string>
+    <string name="delete">Şterge</string>
+    <string name="remove_from_recents">Eliminați din recente</string>
+    <string name="open">Deschide</string>
+    <string name="all">Toate</string>
+    <string name="sort_by_">Sortează după %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Sincronizare Google Drive</string>
+    <string name="syncing">Se sincronizează...</string>
+    <string name="sync_completed">Sincronizare finalizată</string>
+    <string name="sync_failed">Sincronizarea a eșuat</string>
+    <string name="sync_limit_exceeded">Limita de sincronizare a fost depășită. Planul dvs. %s permite %d fișiere.</string>
+    <string name="sync_no_drive_access">Accesul la Google Drive nu este disponibil</string>
+    <string name="sync_network_unavailable">Rețea indisponibilă</string>
+    <string name="sync_last_sync">Ultima sincronizare: %s</string>
+    <string name="sync_total_files">Total</string>
+    <string name="sync_synced_files">Sincronizat</string>
+    <string name="sync_failed_files">Eșuat</string>
+    <string name="sync_conflict_files">Conflicte</string>
+    <string name="sync_add_to_favorites">Adaugă la favorite</string>
+    <string name="sync_remove_from_favorites">Eliminare din favorite</string>
+    <string name="sync_conflict_title">Conflicte de sincronizare</string>
+    <string name="sync_conflict_message">Următoarele fișiere au conflicte care necesită rezolvare:</string>
+    <string name="sync_conflict_explanation">Conflictele apar atunci când au fost modificate atât versiunile locale, cât și cele la distanță.</string>
+    <string name="sync_plan_limit">Sincronizare: %d/%d</string>
+    <string name="sync_plan_limit_reached">Limită atinsă</string>
+    <string name="sync_plan_unlimited">Sincronizare nelimitată</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">Sari peste</string>
+    <string name="welcome_next">Următorul</string>
+    <string name="welcome_get_started">Începeți</string>
+    <string name="welcome_sign_in_get_started">Conectați-vă &amp; Începeți</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Citește orice document&lt;/b&gt; instantaneu</string>
+    <string name="welcome_slide1_description">Deschideți și gestionați peste 10 formate de documente, inclusiv PDF, DOC, EPUB, MOBI.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Citiți PDF-uri, cărți electronice,&lt;/b&gt; și documente Office într-un singur loc</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Adaugă la favorite documentele&lt;/b&gt; și accesează-le pe diverse dispozitive.</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;Comentează,&lt;/b&gt; evidențiază și colaborează cu ușurință</string>
+    <string name="welcome_slide1_footer">Cititorul tău universal de documente</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;Editați, scanați și organizați&lt;/b&gt; fișiere PDF</string>
+    <string name="welcome_slide2_description">Tot ce ai nevoie pentru a crea, edita și gestiona PDF-uri într-un singur set de instrumente puternic.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;Editați text,&lt;/b&gt; adnotați, evidențiați și completați formulare</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Scanați documente&lt;/b&gt; și transformați-le instantaneu în PDF-uri</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;Peste 30 de instrumente&lt;/b&gt; inclusiv îmbinare, conversie, comprimare și securizare</string>
+    <string name="welcome_slide2_footer">Spațiul tău de lucru PDF multifuncțional</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;Inteligență artificială care înțelege&lt;/b&gt; documentele dvs.</string>
+    <string name="welcome_slide3_description">Economisește ore întregi cu inteligența artificială care citește și analizează documentele pentru tine.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Rezumați&lt;/b&gt; documente lungi în câteva secunde</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; scanează pagini și traduce text instantaneu</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Ascultați&lt;/b&gt; documente cu funcția de citire cu voce tare încorporată</string>
+    <string name="welcome_slide3_footer">Fără reclame. Doar productivitate.</string>
+    <string name="grace">GRAŢIE</string>
+    <string name="unable_to_verify_subscription_limited_ac">Nu se poate verifica abonamentul. Acces limitat până la restabilirea conexiunii.</string>
+    <string name="retry_verification">Reîncercare verificare</string>
+    <string name="guest_state">Statul oaspete</string>
+    <string name="free_tier">Nivel gratuit</string>
+    <string name="free_tier__locked">Nivel gratuit - Blocat</string>
+    <string name="pro_tier">Nivel Pro</string>
+    <string name="pro_tier__restricted">Nivel Pro - Restricționat</string>
+    <string name="premium_tier">Nivel Premium</string>
+    <string name="premium_tier__error">Nivel Premium - Eroare</string>
+    <string name="refresh_plan_status">Actualizați starea planului</string>
+    <string name="user_avatar">Avatarul utilizatorului</string>
+    <string name="debug_tools">Instrumente de depanare</string>
+    <string name="authentication__drive">Autentificare &amp; Unitate</string>
+    <string name="auth_state">Stat de autorizare</string>
+    <string name="revoke_drive_access">Revocați accesul la unitate</string>
+    <string name="image">Imagine</string>
+    <string name="thumbnail">Miniatură</string>
+    <string name="manage_preferences">Gestionați preferințele</string>
+    <string name="tools_history">Istoricul instrumentelor</string>
+    <string name="manage_recent_logs">Gestionați jurnalele recente</string>
+    <string name="more_options">Mai multe opțiuni</string>
+    <string name="clear_all_history">Ștergeți tot istoricul</string>
+    <string name="no_history_yet">Încă nu există istoric</string>
+    <string name="your_pdf_tool_operations_will_appear_her">Operațiunile instrumentului PDF vor apărea aici</string>
+    <string name="view">Vedere</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">Salvat %1$s</string>
+    <string name="history_status_processing">Prelucrare</string>
+    <string name="history_status_succeeded">A REUȘIT</string>
+    <string name="history_status_failed">EȘUAT</string>
+    <string name="history_status_processing_upper">PRELUCRARE</string>
+    <string name="history_unknown_files">Fișiere necunoscute</string>
+    <string name="history_op_complete">%1$s Completat!</string>
+    <string name="history_op_failed">%1$s Eșuat</string>
+    <string name="history_op_success_multiple">Operațiunea s-a finalizat cu succes cu fișierele %1$d</string>
+    <string name="history_op_success_single">Operațiune finalizată cu succes</string>
+    <string name="history_op_error">Nu am putut finaliza operațiunea</string>
+    <string name="history_multiple_files">fișiere %1$d</string>
+    <string name="history_failed">Eșuat</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">Sincronizare în cloud</string>
+    <string name="cloud_sync_subtitle">Dispozitive conectate</string>
+    <string name="cloud_sync_all_synced">Toate fișierele sincronizate</string>
+    <string name="cloud_sync_syncing">Sincronizare…</string>
+    <string name="cloud_sync_pending">Sincronizare în așteptare</string>
+    <string name="cloud_sync_last_sync">Ultima sincronizare: %1$s</string>
+    <string name="cloud_sync_never_synced">Nu s-a sincronizat niciodată</string>
+    <string name="cloud_sync_recent_activity">Activitate de sincronizare recentă</string>
+    <string name="cloud_sync_no_files">Încă nu există fișiere sincronizate</string>
+    <string name="cloud_sync_synced_to_drive">Sincronizat cu Drive</string>
+    <string name="cloud_sync_pending_upload">Încărcare în așteptare</string>
+    <string name="cloud_sync_sync_now">Sincronizează acum</string>
+    <string name="cloud_sync_view_history">Vizualizați istoricul sincronizărilor</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d fișiere sincronizate</string>
+    <string name="cloud_sync_unlimited_files">%1$d fișiere sincronizate · Nelimitat</string>
+    <string name="cloud_sync_cta_title">Orice platformă, oricând</string>
+    <string name="cloud_sync_cta_subtitle">Documentele tale te însoțesc peste tot</string>
+    <string name="cloud_sync_files_label">fișiere %1$d</string>
+    <string name="settings_data_privacy">Date &amp; Confidențialitate</string>
+    <string name="settings_data_privacy_subtitle">Gestionare date, ștergere cont &amp;</string>
+    <string name="settings_delete_account">Șterge contul</string>
+    <string name="settings_delete_account_subtitle">Ștergeți definitiv contul și datele dvs.</string>
+    <string name="delete_account_warning_title">Îți ștergi contul?</string>
+    <string name="delete_account_warning_message">Această acțiune va șterge definitiv contul dvs. și toate datele asociate, inclusiv istoricul achizițiilor și fișierele sincronizate în cloud. Această acțiune nu poate fi anulată, iar achizițiile nu pot fi restaurate ulterior.</string>
+    <string name="delete_account_confirm_phrase_label">Tastați „confirmă ștergerea” pentru a continua:</string>
+    <string name="delete_account_confirm_phrase">confirmați ștergerea</string>
+    <string name="delete_account_button">Șterge contul</string>
+    <string name="delete_account_error_reauth">Din motive de securitate, trebuie să te fi conectat recent pentru a șterge contul. Te rugăm să te deconectezi și să te conectezi din nou, apoi să încerci din nou.</string>
+    <string name="delete_account_success">Contul a fost șters cu succes</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">Setări de sincronizare fișier &amp;</string>
+    <string name="sync_on_mobile_data_subtitle">Folosește datele mobile pentru sincronizarea în cloud</string>
+    <string name="drive_sync">Sincronizare în fundal</string>
+    <string name="drive_sync_subtitle">Sincronizați favoritele &amp; scanați documente în Drive</string>
+    <string name="do_not_import_from_other_apps">Nu importați fișiere din alte aplicații</string>
+    <string name="do_not_import_from_other_apps_subtitle">Deschideți temporar fișierele partajate fără a le salva în bibliotecă</string>
+    <string name="clear_imported_files">Ștergeți fișierele importate</string>
+    <string name="clear_imported_files_subtitle">Ștergeți toate fișierele copiate din alte aplicații</string>
+    <string name="clear_imports_confirm_title">Ștergeți fișierele importate?</string>
+    <string name="clear_imports_confirm_message">Această acțiune va șterge definitiv toate fișierele din folderul Importuri. Această acțiune nu poate fi anulată.</string>
+    <string name="clear_imports_success">Fișierele importate au fost șterse</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">Date &amp; Confidențialitate</string>
+    <string name="analytics_opt_out_title">Trimiteți date de utilizare</string>
+    <string name="analytics_opt_out_subtitle">Partajați date anonime de utilizare și rapoarte de eroare cu dezvoltatorul pentru a ajuta la îmbunătățirea aplicației</string>
+    <string name="analytics_opt_out_disabled_note">Analizele și raportarea erorilor sunt dezactivate. Nu se trimit date către Google sau către dezvoltator.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">Modificări nesalvate</string>
+    <string name="unsaved_changes_tab_message">Acest document are modificări nesalvate. Doriți să salvați înainte de închidere?</string>
+    <string name="unsaved_changes_window_message">Aveți modificări nesalvate într-unul sau mai multe documente. Doriți să le ștergeți și să ieșiți?</string>
+    <string name="discard">Aruncați</string>
+    <string name="discard_and_quit">Anulează &amp; Ieși</string>
+    <string name="close">Aproape</string>
+    <string name="remove_favorite">Eliminați favoritul</string>
+    <string name="set_as_default_pdf_viewer">Setare ca Vizualizator PDF implicit?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF nu este vizualizatorul PDF implicit. Doriți să îl setați ca implicit, astfel încât toate fișierele PDF să se deschidă cu Falcon PDF?</string>
+    <string name="set_now">Setează acum</string>
+    <string name="never">Nu</string>
+    <string name="later">Mai târziu</string>
+    <string name="set_default">Setare implicită</string>
+    <string name="default">Implicit</string>
+    <string name="version_">Versiunea %1$s</string>
+    <string name="sign_in_with_other_accounts">Conectați-vă cu alte conturi</string>
+    <string name="upgrade">Actualizare</string>
+    <string name="view_plan">Vizualizare plan</string>
+    <string name="unlimited_sync_upto_5gb">Sincronizare nelimitată de până la 5 GB</string>
+    <string name="unlock_faster">Deblocare mai rapidă</string>
+    <string name="use_biometrics_instead_of_passwords">Folosește biometria în loc de parole.</string>
+    <string name="upgrade_to_premium">Actualizați la Premium</string>
+    <string name="unlock_pdf">Deblocare PDF</string>
+    <string name="use__to_accessnthis_document">Folosiți %1$s pentru a accesa\nacest document</string>
+    <string name="open_with_password">Deschideți cu parolă</string>
+    <string name="secure">Asigura</string>
+    <string name="loading_">Se încarcă %1$s...</string>
+    <string name="failed_to_open_ebook">Nu s-a putut deschide cartea electronică</string>
+    <string name="properties">Proprietăți</string>
+    <string name="copy">Copie</string>
+    <string name="highlight">Evidențiați</string>
+    <string name="clear_selection">Ștergeți selecția</string>
+    <string name="close_search">Închide căutarea</string>
+    <string name="search_in_book">Caută în carte...</string>
+    <string name="contents">Cuprins</string>
+    <string name="table_of_contents">Cuprins</string>
+    <string name="no_table_of_contents_available">Nu este disponibilă o listă de cuprins</string>
+    <string name="bookmarks">Semne de carte</string>
+    <string name="no_bookmarks_yet">Nicio marcajă încă</string>
+    <string name="page_">Pagina %1$s</string>
+    <string name="no_results">Niciun rezultat</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">Setări</string>
+    <string name="decrease_font_size">Micșorează dimensiunea fontului</string>
+    <string name="increase_font_size">Măriți dimensiunea fontului</string>
+    <string name="font">Font</string>
+    <string name="jump_to_page">Salt la pagină</string>
+    <string name="enter_page_number_1">Introduceți numărul paginii (1–%1$s):</string>
+    <string name="go">Merge</string>
+    <string name="read_aloud">Citește cu voce tare</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">Stop</string>
+    <string name="annotations__text_selection">Adnotări &amp; Selecție text</string>
+    <string name="text_selection_and_annotations_for_ebook">Selecția de text și adnotările pentru cărți electronice vor fi disponibile în curând.</string>
+    <string name="longpress_on_text_to_select_highlight_or">Apăsați lung pe text pentru a selecta, evidenția sau adăuga note.</string>
+    <string name="press_play_to_start_reading_aloud">Apasă butonul de redare pentru a începe citirea cu voce tare...</string>
+    <string name="speed">Viteză</string>
+    <string name="voice">Voce</string>
+    <string name="no_annotations_yet">Nicio adnotare încă</string>
+    <string name="select_text_to_highlight_or_add_notes">Selectați textul pentru a-l evidenția sau a adăuga note</string>
+    <string name="tools">Instrumente</string>
+    <string name="convert_to_images">Conversie în imagini</string>
+    <string name="rename">Redenumire</string>
+    <string name="print">Imprimare</string>
+    <string name="a">A−</string>
+    <string name="cover_of_">Coperta cărții %1$s</string>
+    <string name="no_cover_available">Nu este disponibilă nicio acoperire</string>
+    <string name="read_now">Citește acum</string>
+    <string name="about_the_book">DESPRE CARTE</string>
+    <string name="tags">ETICHETE</string>
+    <string name="publisher_info">INFORMAȚII DESPRE EDITOR</string>
+    <string name="published_">Publicat: %1$s</string>
+    <string name="retry">Reîncercați</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Ștergeți memoria cache</string>
+    <string name="ebooks_library">Bibliotecă de cărți electronice</string>
+    <string name="manage_your_digital_collection_across_mu">Gestionează-ți colecția digitală de la mai mulți furnizori. Caută, filtrează și descoperă titluri noi din Google Books și Open Library.</string>
+    <string name="no_books_found">Nu s-au găsit cărți</string>
+    <string name="no_results_for__try_a_different_search_t">Niciun rezultat pentru „%1$s”. Încercați un alt termen de căutare.</string>
+    <string name="downloadable_only">Numai descărcabil</string>
+    <string name="file_unavailable">Fișier indisponibil</string>
+    <string name="unavailable">Indisponibil</string>
+    <string name="search_titles_authors_isbn">Căutați titluri, autori, ISBN...</string>
+    <string name="clear_search">Șterge căutarea</string>
+    <string name="ebooks">Cărți electronice</string>
+    <string name="read_pdf">Citește PDF-ul</string>
+    <string name="create_pdf">Creați PDF</string>
+    <string name="unlock_all_tools_and_remove_limits">Deblochează toate instrumentele și elimină limitele</string>
+    <string name="ocr_scanning">Scanare OCR</string>
+    <string name="extract_text_from_scanned_documents">Extragerea textului din documentele scanate</string>
+    <string name="cloud_sync">Sincronizare în cloud</string>
+    <string name="access_your_documents_anywhere">Accesați-vă documentele de oriunde</string>
+    <string name="annotate_pdfs">Adnotarea PDF-urilor</string>
+    <string name="cloud_backup">Copiere de rezervă în cloud</string>
+    <string name="continue_reading">Citește mai departe</string>
+    <string name="pick_files">Alege fișiere</string>
+    <string name="browse">Răsfoiți</string>
+    <string name="did_you_know">Știați?</string>
+    <string name="home">Acasă</string>
+    <string name="your_documents_at_a_glance">Documentele dumneavoastră dintr-o privire</string>
+    <string name="pick_file">Alege fișier</string>
+    <string name="quick_actions">Acțiuni rapide</string>
+    <string name="pro">PRO</string>
+    <string name="open_files">Deschideți fișierele</string>
+    <string name="convert_to_pdf">Conversie în PDF</string>
+    <string name="close_drawer">Închide sertarul</string>
+    <string name="close_file">Închide fișierul</string>
+    <string name="office">Birou</string>
+    <string name="coming_soon">În curând</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">Vizualizatorul de cărți electronice nu este încă disponibil pe această platformă.</string>
+    <string name="set_as_default_viewer">Setare ca Vizualizator implicit</string>
+    <string name="free">Gratuit</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">Se descarcă actualizarea... %1$s%</string>
+    <string name="more">Mai mult</string>
+    <string name="font_size">Dimensiunea fontului</string>
+    <string name="font_family">Familie de fonturi</string>
+    <string name="scroll_direction">Direcție de derulare</string>
+    <string name="navigation">Navigare</string>
+    <string name="keep_screen_on">Mențineți ecranul pornit</string>
+    <string name="volume_button_to_scroll">Buton de volum pentru derulare</string>
+    <string name="export_ebook_pages_as_image_files">Exportați paginile cărților electronice ca fișiere imagine</string>
+    <string name="access_millions_of_titles">Accesați milioane de titluri.</string>
+    <string name="read_offline_with_natural_ai_voices">Citește offline cu voci naturale de inteligență artificială.</string>
+    <string name="advanced_ai_reader">Cititor avansat cu inteligență artificială.</string>
+    <string name="experience_studioquality_narration">Experimentați narațiune de calitate studio.</string>
+    <string name="powerful_pdf_tools">Instrumente PDF puternice.</string>
+    <string name="create_and_edit_documents_on_the_go">Creați și editați documente din mers.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Actualizare la Pro: Deblocați toate instrumentele și eliminați limitele</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">Scanare OCR: Extragerea textului din documentele scanate</string>
+    <string name="cloud_sync_access_your_documents_anywher">Sincronizare în cloud: Accesați-vă documentele de oriunde</string>
+    <string name="scan">Scanare</string>
+    <string name="compress">Comprima</string>
+    <string name="merge">Îmbinare</string>
+    <string name="convert">Convertit</string>
+    <string name="highlight_underline_and_add_notes_to_you">Evidențiați, subliniați și adăugați note la documentele dvs.</string>
+    <string name="keep_your_documents_safe_with_automatic_">Păstrează-ți documentele în siguranță cu sincronizarea automată în cloud</string>
+    <string name="indicator_color_">culoare_indicator_%1$s</string>
+    <string name="my_library">Biblioteca mea</string>
+    <string name="get_ebooks">Obțineți cărți electronice</string>
+    <string name="scan_document">Scanare document</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

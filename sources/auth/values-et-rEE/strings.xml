@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Kontrollige oma internetiühendust ja veenduge, et Google'i konto on teie seadmesse lisatud, seejärel proovige uuesti.</string>
+    <string name="sign_in_with_apple">Logi sisse Apple'iga</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Täiusta oma kogemust</string>
+    <string name="purchase_screen_close">Sule</string>
+    <string name="purchase_screen_refresh">Värskenda</string>
+    <string name="purchase_sync_status">Viimati sünkroonitud: %1s</string>
+    <string name="purchase_current_plan">Praegune</string>
+    <string name="purchase_syncing">Sünkroniseerimine…</string>
+    <string name="purchase_loading">Laadimine…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Tasuta pakett</string>
+    <string name="purchase_pro_plan">Pro-väljaanne</string>
+    <string name="purchase_pro_tagline">Maksa üks kord. Oma igavesti.</string>
+    <string name="purchase_premium_plan">Premium-tellimus</string>
+    <string name="purchase_premium_tagline">Kõik Pro-s, lisaks tehisintellekt &amp; Pilves</string>
+    <string name="purchase_recommended">Soovitatav</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">Tehisintellekti abil ettelugemine – kuulake PDF-faile loomulikult</string>
+    <string name="purchase_pro_feature_2">Täielik PDF-i redigeerimine &amp; Vormide täitmine</string>
+    <string name="purchase_pro_feature_3">Seadmeteülene sünkroonimine Drive'i kaudu</string>
+    <string name="purchase_pro_feature_4">Reklaamivaba, skannimisel pole vesimärki</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">Tehisintellekti kokkuvõtted tugevama arutluskäiguga</string>
+    <string name="purchase_premium_feature_1_desc">Põhjalikumad vastused pikematest ja keerukamatest dokumentidest</string>
+    <string name="purchase_premium_feature_2_title">5 GB Falcon Cloudi</string>
+    <string name="purchase_premium_feature_2_desc">Teie isiklik PDF-teek, sünkroonitud ja turvaline</string>
+    <string name="purchase_premium_feature_3_title">Piiranguid pole enam kui 60 PDF-tööriistal</string>
+    <string name="purchase_premium_feature_3_desc">Iga tööriist, alati käepärast</string>
+    <string name="purchase_premium_feature_4_title">Täisteksti redigeerimine PDF-failides</string>
+    <string name="purchase_premium_feature_4_desc">Redigeeri teksti otse nagu tekstitöötlusprogrammis</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Osta Pro</string>
+    <string name="purchase_sign_in_buy">Logi sisse &amp; Osta</string>
+    <string name="purchase_sign_in_subscribe">Logi sisse &amp; Telli</string>
+    <string name="purchase_subscribe">Telli</string>
+    <string name="purchase_start_trial">Alusta 7-päevast tasuta prooviperioodi</string>
+    <string name="purchase_view_all_features">Kuva kõik funktsioonid</string>
+    <string name="purchase_show_more">Näita rohkem</string>
+    <string name="purchase_show_less">Näita vähem</string>
+    <string name="purchase_see_all_features">Vaata kõiki funktsioone</string>
+    <string name="purchase_manage_subscription">Tellimuse haldamine</string>
+    <string name="purchase_restore_purchases">Taasta ostud</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Igakuine</string>
+    <string name="purchase_billing_yearly">Aastas</string>
+    <string name="purchase_save_badge">Säästa 40%%</string>
+    <string name="purchase_lifetime">Eluaegne</string>
+    <string name="purchase_per_year">/aastas</string>
+    <string name="purchase_per_month">/kuus</string>
+    <string name="purchase_trial_terms">Tühistada saab igal ajal. Uueneb, kui seda ei tühistata 24 tundi enne prooviperioodi lõppu.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Toodete laadimine ebaõnnestus. Kontrollige oma sisselogimist ja internetiühendust.</string>
+    <string name="purchase_error_network">Ühendus katkes. Palun kontrollige oma internetiühendust ja proovige uuesti.</string>
+    <string name="purchase_error_payment_declined">Makseviis lükati tagasi. Palun värskendage oma makseteavet.</string>
+    <string name="purchase_error_server">Midagi läks valesti. Palun proovi hiljem uuesti.</string>
+    <string name="purchase_error_rate_limit">Liiga palju värskendamiskatseid. Palun oodake.</string>
+    <string name="purchase_error_offline">Internetiühendust pole. Kuvatakse vahemällu salvestatud andmeid.</string>
+    <string name="purchase_error_product_refresh">Toodet ei õnnestunud kinnitada. Palun proovige uuesti.</string>
+    <string name="purchase_error_generic">Tekkis viga. Palun proovige uuesti.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Teenusetingimused</string>
+    <string name="purchase_privacy_policy">Privaatsuspoliitika</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">Ostude ajalugu</string>
+    <string name="free_trial">Tasuta prooviperiood</string>
+    <string name="no_purchase_history">Ostuajalugu puudub</string>
+    <string name="you_havent_made_any_purchases_">Sa pole veel ühtegi ostu sooritanud.</string>
+    <string name="error">Viga</string>
+    <string name="retry">Proovi uuesti</string>
+    <string name="back">Tagasi</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Täiusta oma kogemust</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Taasta ostud</string>
+    <string name="close_purchase_screen">Sule ostukuva</string>
+    <string name="help">Abi</string>
+    <string name="more_options">Rohkem valikuid</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Värskenda</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Aktiivne</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s AKTIIVNE</string>
+    <string name="premium_benefits">PREMIUM-HÜVED</string>
+    <string name="manage_subscription">Tellimuse haldamine</string>
+    <string name="next_billing_date__manage_your">Järgmine arvelduskuupäev: %1$s. Hallake oma arveldusandmeid ja tühistamist oma Play poe konto seadetes.</string>
+    <string name="purchase_expires_">Ost aegub: %1$s</string>
+    <string name="falcon_pdf_pro">Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF Premium (kuupõhine)</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Premium (aastapõhine)</string>
+    <string name="pro">PRO</string>
+    <string name="premium">PREMIUM</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Hankige Falcon PDF Pro või Premium</string>
+    <string name="purchase_desktop_subtitle">Ostud hallatakse meie veebisaidil. Pakettide ja hindade vaatamiseks klõpsake allpool.</string>
+    <string name="purchase_desktop_open_website">Vaata pakette &amp; Hinnakiri</string>
+    <string name="purchase_desktop_already_purchased">Juba ostetud? Logi sisse, et oma paketti sünkroonida.</string>
+    <string name="purchase_store_build_subtitle">Sinu tellimus avab Pro-funktsioonid kõigis sinu seadmetes. Logi sisse, et oma paketti sünkroonida.</string>
+    <string name="ai_read_aloud">AI loeb valjusti ette</string>
+    <string name="full_pdf_editing__form_filling">Täielik PDF-i redigeerimine &amp; Vormide täitmine</string>
+    <string name="crossdevice_sync_via_drive">Seadmeteülene sünkroonimine Drive'i kaudu</string>
+    <string name="adfree_no_watermark">Reklaamivaba, vesimärgita</string>
+    <string name="export_to_word__excel">Ekspordi Wordi &amp; Excelisse</string>
+    <string name="multiple_themes__page_backgrounds">Mitmed teemad &amp; Lehekülje taustad</string>
+    <string name="ai_summaries_with_stronger_reasoning">Tehisintellekti kokkuvõtted tugevama arutluskäiguga</string>
+    <string name="no_limits_on_60_pdf_tools">Piiranguid pole enam kui 60 PDF-tööriistal</string>
+    <string name="full_text_editing_in_pdfs">Täisteksti redigeerimine PDF-failides</string>
+    <string name="digital_signatures_dscesign">Digitaalallkirjad (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Piiramatu skannitud dokumentide sünkroonimine</string>
+    <string name="biometric_document_lock">Biomeetriline dokumendilukk</string>
+    <string name="everything_in_pro_all_devices">Kõik Pro-s, kõigis seadmetes</string>
+    <string name="introductory_offer">Sissejuhatav pakkumine</string>
+    <string name="limited_time__30_off">Piiratud aja jooksul — 30% allahindlust</string>
+    <string name="date__time">Kuupäev &amp; Kellaaeg</string>
+    <string name="amount">Summa</string>
+    <string name="platform">Platvorm</string>
+    <string name="type">Tüüp</string>
+    <string name="expires_on">Aegub kuupäeval</string>
+</resources>

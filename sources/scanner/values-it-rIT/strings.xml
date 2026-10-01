@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Scansione</string>
+    <string name="scan_home_documents">Documenti</string>
+    <string name="scan_home_documents_lowercase">Documenti</string>
+    <string name="scan_home_documents_count">%1$d Documenti</string>
+    <string name="scan_home_no_documents">Nessun documento ancora disponibile</string>
+    <string name="scan_home_start_scanning">Inizia la scansione per creare il tuo primo documento.</string>
+    <string name="scan_home_new_folder">Nuova cartella</string>
+    <string name="scan_home_scan_document">Scansiona il documento</string>
+    <string name="scan_home_import_gallery">Importa dalla Galleria</string>
+    <string name="scan_home_parent_folder">Cartella principale</string>
+    <string name="scan_home_go_back">Torna alla cartella principale</string>
+    <string name="scan_home_create_folder">Crea una nuova cartella</string>
+    <string name="scan_home_enter_folder_name">Inserisci un nome per la nuova cartella</string>
+    <string name="scan_home_folder_name">Nome della cartella</string>
+    <string name="scan_home_folder_placeholder">ad esempio, documenti di lavoro</string>
+    <string name="scan_home_folder_error">Il nome della cartella non può essere vuoto</string>
+    <string name="scan_home_folder_name_empty">Il nome della cartella non può essere vuoto</string>
+    <string name="scan_home_create">Creare</string>
+    <string name="scan_home_folder_exists">Esiste già una cartella con questo nome</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Telecamera</string>
+    <string name="scan_camera_permission_required">È necessaria l'autorizzazione per scattare foto.</string>
+    <string name="scan_camera_permission_message">Questa app necessita dell'accesso alla fotocamera per scansionare i documenti.</string>
+    <string name="scan_camera_permission_settings">Vai su Impostazioni &gt; App &gt; Visualizzatore PDF &gt; Autorizzazioni e abilita l'autorizzazione per la fotocamera.</string>
+    <string name="scan_camera_permission_title">È necessaria l'autorizzazione per scattare foto.</string>
+    <string name="scan_camera_request_permission">Richiesta di autorizzazione</string>
+    <string name="scan_camera_open_settings">Apri le impostazioni</string>
+    <string name="scan_camera_close">Vicino</string>
+    <string name="scan_camera_flash">Flash</string>
+    <string name="scan_camera_auto_capture">Acquisizione automatica</string>
+    <string name="scan_camera_settings">Impostazioni</string>
+    <string name="scan_camera_ready_batch">Pronto per la scansione di più pagine</string>
+    <string name="scan_camera_ready_multiple">Pronto per la scansione di più pagine</string>
+    <string name="scan_camera_hold_steady">Mantieni la posizione durante la scansione.</string>
+    <string name="scan_camera_captured_pages">%1$d pagine catturate</string>
+    <string name="scan_camera_mode_single">Separare</string>
+    <string name="scan_camera_mode_batch">Lotto</string>
+    <string name="scan_camera_preview">Anteprima</string>
+    <string name="scan_camera_finish">Fine</string>
+    <string name="scan_camera_starting">Avvio della telecamera...</string>
+    <string name="scan_camera_document_name">Nome reale</string>
+    <string name="scan_camera_document_name_empty">Il nome del documento non può essere vuoto</string>
+    <string name="scan_camera_save_document">Salva documento</string>
+    <string name="scan_camera_processing">Elaborazione in corso...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Ritaglia &amp; Regola</string>
+    <string name="scan_crop_close">Vicino</string>
+    <string name="scan_crop_reset">Reset</string>
+    <string name="scan_crop_rotate">Ruotare</string>
+    <string name="scan_crop_done">Fatto</string>
+    <string name="scan_crop_scanned_document">Documento scansionato</string>
+    <string name="scan_crop_magnified_view">Vista ingrandita</string>
+    <string name="scan_crop_processing">Elaborazione in corso...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Migliorare</string>
+    <string name="scan_filter_close">Vicino</string>
+    <string name="scan_filter_rotate">Ruotare</string>
+    <string name="scan_filter_done">Fatto</string>
+    <string name="scan_filter_filters">Filtri</string>
+    <string name="scan_filter_original">Originale</string>
+    <string name="scan_filter_magic">Magia</string>
+    <string name="scan_filter_lighten">Alleggerire</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">Scala grigia</string>
+    <string name="scan_filter_magic_2">Documento pulito</string>
+    <string name="scan_filter_soft_scan">Scansione morbida</string>
+    <string name="scan_filter_color_enhance">Color+</string>
+    <string name="scan_filter_ink_saver">Risparmio inchiostro</string>
+    <string name="scan_filter_premium">Funzionalità premium</string>
+    <string name="scan_filter_filtered_document">Documento filtrato</string>
+    <string name="scan_filter_applying">Applicazione del filtro...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Cancellare</string>
+    <string name="scan_share">Condividere</string>
+    <string name="scan_move">Mossa</string>
+    <string name="scan_move_to_folder">Sposta nella cartella</string>
+    <string name="scan_delete">Eliminare</string>
+    <string name="scan_rename">Rinominare</string>
+    <string name="scan_root">Radice</string>
+    <string name="scan_select_destination">Seleziona una cartella di destinazione</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Documento</string>
+    <string name="scan_document_back">Indietro</string>
+    <string name="scan_document_pages">pagine</string>
+    <string name="scan_document_add_pages">Aggiungi pagine a questo documento</string>
+    <string name="scan_document_add_page_button">Aggiungi pagina</string>
+    <string name="scan_document_rename">Rinominare</string>
+    <string name="scan_document_share">Condividere</string>
+    <string name="scan_document_more">Di più</string>
+    <string name="scan_document_pages_count">%1$d pagine</string>
+    <string name="scan_document_no_pages">Nessuna pagina ancora</string>
+    <string name="scan_document_scan_page">Scansiona la pagina</string>
+    <string name="scan_document_import_page">Importa dalla Galleria</string>
+    <string name="scan_document_grid_view">Visualizzazione a griglia</string>
+    <string name="scan_document_list_view">Visualizzazione elenco</string>
+    <string name="scan_document_continuous_view">Visualizzazione continua</string>
+    <string name="scan_document_page_number">Pagina %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Pagina</string>
+    <string name="scan_page_back">Indietro</string>
+    <string name="scan_page_share">Condividere</string>
+    <string name="scan_page_delete">Eliminare</string>
+    <string name="scan_page_of">%1$d di %2$d</string>
+    <string name="scan_page_image_not_found">Immagine non trovata</string>
+    <string name="scan_page_retake">Riprovare</string>
+    <string name="scan_page_crop">Raccolto</string>
+    <string name="scan_page_enhance">Migliorare</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">Salva nella galleria</string>
+    <string name="scan_page_saved_to_gallery">Immagine salvata nella galleria</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Eliminare il documento?</string>
+    <string name="scan_delete_document_message">Sei sicuro di voler eliminare "%1$s"? Questa operazione eliminerà definitivamente tutte le pagine di questo documento. Questa azione non può essere annullata.</string>
+    <string name="scan_rename_document">Rinominare il documento</string>
+    <string name="scan_rename_enter_name">Inserisci un nuovo nome per il documento</string>
+    <string name="scan_rename_document_name">Nome reale</string>
+    <string name="scan_rename_error">Il nome del documento non può essere vuoto</string>
+    <string name="scan_dialog_delete_document_title">Eliminare il documento?</string>
+    <string name="scan_dialog_delete_document_message">Sei sicuro di voler eliminare "%1$s"? Questa operazione eliminerà definitivamente tutte le pagine di questo documento. Questa azione non può essere annullata.</string>
+    <string name="scan_dialog_delete_confirm">Eliminare</string>
+    <string name="scan_dialog_cancel">Cancellare</string>
+    <string name="scan_dialog_move_title">Sposta nella cartella</string>
+    <string name="scan_dialog_move_message">Seleziona una cartella di destinazione</string>
+    <string name="scan_dialog_move_confirm">Mossa</string>
+    <string name="scan_dialog_move_root">Radice</string>
+    <string name="scan_dialog_move_selected">Selezionato</string>
+    <string name="scan_dialog_rename_title">Rinominare il documento</string>
+    <string name="scan_dialog_rename_message">Inserisci un nuovo nome per il documento</string>
+    <string name="scan_dialog_rename_label">Nome reale</string>
+    <string name="scan_dialog_rename_error">Il nome del documento non può essere vuoto</string>
+    <string name="scan_dialog_rename_confirm">Rinominare</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Condividere</string>
+    <string name="scan_menu_move">Sposta nella cartella</string>
+    <string name="scan_menu_delete">Eliminare</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Anteprima della fotocamera\n(Prossimamente)</string>
+    <string name="scan_platform_desktop_camera">Anteprima della fotocamera desktop\n(Prossimamente)</string>
+    <string name="scan_platform_ios_camera">Anteprima della fotocamera iOS\n(Prossimamente)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Vicino</string>
+    <string name="flash">Flash</string>
+    <string name="auto_capture">Acquisizione automatica</string>
+    <string name="settings">Impostazioni</string>
+    <string name="capture">Catturare</string>
+    <string name="finish">Fine</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Sei sicuro di voler eliminare %1? Tutti i documenti al suo interno verranno eliminati.</string>
+    <string name="share">Condividere</string>
+    <string name="share_as_images">Condividi come immagini</string>
+    <string name="share_as_pdf">Condividi come PDF</string>
+    <string name="move_to_folder">Sposta nella cartella</string>
+    <string name="delete">Eliminare</string>
+    <string name="selected">Selezionato</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Pagina %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">La cartella è vuota</string>
+    <string name="tap_the__button_to_scan_a_docu">Tocca il pulsante + per scansionare un documento</string>
+    <string name="str______pages">%1$s • %2$s • %3$s pagine</string>
+    <string name="create_folder">Crea cartella</string>
+    <string name="more_options">Altre opzioni</string>
+    <string name="document_thumbnail">miniatura del documento</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Immagine non trovata</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Pagina %2$d</string>
+    <string name="scan_ocr_title">Riconoscimento del testo</string>
+    <string name="scan_ocr_copy">Copia testo</string>
+    <string name="scan_ocr_no_text">Nessun testo trovato</string>
+    <string name="scan_ocr_processing">Riconoscimento del testo…</string>
+    <string name="scan_ocr_error">Impossibile riconoscere il testo</string>
+    <string name="scan_ocr_not_supported">La funzionalità OCR non è supportata su questa piattaforma.</string>
+    <string name="scan_ocr_image">Pagina scansionata per OCR</string>
+    <string name="gallery">Galleria</string>
+    <string name="select_file">Seleziona il file</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Impossibile acquisire l'immagine</string>
+    <string name="error_no_images_captured">Nessuna immagine catturata</string>
+    <string name="error_open_settings">Impossibile aprire le impostazioni</string>
+    <string name="error_process_images">Impossibile elaborare le immagini</string>
+    <string name="error_process_image">Impossibile elaborare l'immagine</string>
+    <string name="error_start_camera">Impossibile avviare la fotocamera</string>
+    <string name="error_stop_camera">Impossibile arrestare la telecamera</string>
+    <string name="error_crop_image">Impossibile ritagliare l'immagine</string>
+    <string name="error_delete_document">Impossibile eliminare il documento</string>
+    <string name="error_delete_page">Impossibile eliminare la pagina</string>
+    <string name="error_load_document">Impossibile caricare il documento</string>
+    <string name="error_load_page">Impossibile caricare la pagina</string>
+    <string name="error_move_document">Impossibile spostare il documento</string>
+    <string name="error_no_pages_to_share">Nessuna pagina da condividere</string>
+    <string name="error_rename_document">Impossibile rinominare il documento</string>
+    <string name="error_reorder_pages">Impossibile riordinare le pagine</string>
+    <string name="error_share_images">Impossibile condividere le immagini</string>
+    <string name="error_share_pdf">Impossibile condividere il PDF</string>
+    <string name="error_share_page">Impossibile condividere la pagina</string>
+    <string name="error_create_folder">Impossibile creare la cartella</string>
+    <string name="error_delete_folder">Impossibile eliminare la cartella</string>
+    <string name="error_rename_folder">Impossibile rinominare la cartella</string>
+    <string name="error_unknown">Si è verificato un errore sconosciuto</string>
+    <string name="folder_not_found">Cartella non trovata</string>
+    <string name="sync_documents">Sincronizzare i documenti</string>
+    <string name="shutter_scale">scala dell'otturatore</string>
+    <string name="import_gallery">Galleria d'importazione</string>
+    <string name="scan_camera">Telecamera di scansione</string>
+</resources>

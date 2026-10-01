@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Verifica la tua connessione internet e assicurati che un account Google sia stato aggiunto al tuo dispositivo, quindi riprova.</string>
+    <string name="sign_in_with_apple">Accedi con Apple</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Migliora la tua esperienza</string>
+    <string name="purchase_screen_close">Vicino</string>
+    <string name="purchase_screen_refresh">Aggiorna</string>
+    <string name="purchase_sync_status">Ultima sincronizzazione: %1s</string>
+    <string name="purchase_current_plan">Attuale</string>
+    <string name="purchase_syncing">Sincronizzazione…</string>
+    <string name="purchase_loading">Caricamento in corso…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Piano gratuito</string>
+    <string name="purchase_pro_plan">Edizione Pro</string>
+    <string name="purchase_pro_tagline">Paghi una volta. Possiedi per sempre.</string>
+    <string name="purchase_premium_plan">Abbonamento Premium</string>
+    <string name="purchase_premium_tagline">Tutto in Pro, più AI &amp; Cloud</string>
+    <string name="purchase_recommended">Raccomandato</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">Lettura ad alta voce tramite IA: ascolta i PDF in modo naturale.</string>
+    <string name="purchase_pro_feature_2">Modifica completa del PDF &amp; Compilazione del modulo</string>
+    <string name="purchase_pro_feature_3">Sincronizzazione tra dispositivi tramite Drive</string>
+    <string name="purchase_pro_feature_4">Senza pubblicità, senza filigrana sulle scansioni.</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">Riepiloghi basati sull'IA con un ragionamento più robusto</string>
+    <string name="purchase_premium_feature_1_desc">Risposte più approfondite da documenti più lunghi e complessi</string>
+    <string name="purchase_premium_feature_2_title">5 GB Falcon Cloud</string>
+    <string name="purchase_premium_feature_2_desc">La tua libreria PDF personale, sincronizzata e sicura.</string>
+    <string name="purchase_premium_feature_3_title">Nessun limite su oltre 60 strumenti PDF</string>
+    <string name="purchase_premium_feature_3_desc">Ogni strumento, sempre disponibile</string>
+    <string name="purchase_premium_feature_4_title">Modifica completa del testo nei PDF</string>
+    <string name="purchase_premium_feature_4_desc">Modifica il testo direttamente come in un elaboratore di testi.</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Acquista Pro</string>
+    <string name="purchase_sign_in_buy">Accedi &amp; Acquista</string>
+    <string name="purchase_sign_in_subscribe">Accedi &amp; Iscriviti</string>
+    <string name="purchase_subscribe">Iscriviti</string>
+    <string name="purchase_start_trial">Inizia la prova gratuita di 7 giorni</string>
+    <string name="purchase_view_all_features">Visualizza tutte le funzionalità</string>
+    <string name="purchase_show_more">Mostra altro</string>
+    <string name="purchase_show_less">Mostra meno</string>
+    <string name="purchase_see_all_features">Visualizza tutte le funzionalità</string>
+    <string name="purchase_manage_subscription">Gestisci abbonamento</string>
+    <string name="purchase_restore_purchases">Ripristina gli acquisti</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Mensile</string>
+    <string name="purchase_billing_yearly">Annuale</string>
+    <string name="purchase_save_badge">Risparmia il 40%%</string>
+    <string name="purchase_lifetime">Tutta la vita</string>
+    <string name="purchase_per_year">/anno</string>
+    <string name="purchase_per_month">/mese</string>
+    <string name="purchase_trial_terms">Annulla in qualsiasi momento. Il programma si rinnova automaticamente a meno che non venga annullato almeno 24 ore prima della fine del periodo di prova.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Impossibile caricare i prodotti. Verifica le tue credenziali di accesso e la connessione a Internet.</string>
+    <string name="purchase_error_network">Connessione persa. Controlla la tua connessione Internet e riprova.</string>
+    <string name="purchase_error_payment_declined">Metodo di pagamento rifiutato. Aggiorna le tue informazioni di pagamento.</string>
+    <string name="purchase_error_server">Si è verificato un errore. Riprova più tardi.</string>
+    <string name="purchase_error_rate_limit">Troppi tentativi di aggiornamento. Attendi.</string>
+    <string name="purchase_error_offline">Nessuna connessione Internet. Vengono visualizzati i dati memorizzati nella cache.</string>
+    <string name="purchase_error_product_refresh">Impossibile verificare il prodotto. Riprova.</string>
+    <string name="purchase_error_generic">Si è verificato un errore. Riprova.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Termini di servizio</string>
+    <string name="purchase_privacy_policy">politica sulla riservatezza</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">Cronologia degli acquisti</string>
+    <string name="free_trial">Prova gratuita</string>
+    <string name="no_purchase_history">Nessuna cronologia degli acquisti</string>
+    <string name="you_havent_made_any_purchases_">Non hai ancora effettuato alcun acquisto.</string>
+    <string name="error">Errore</string>
+    <string name="retry">Riprova</string>
+    <string name="back">Indietro</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Migliora la tua esperienza</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Ripristina gli acquisti</string>
+    <string name="close_purchase_screen">Chiudi la schermata di acquisto</string>
+    <string name="help">Aiuto</string>
+    <string name="more_options">Altre opzioni</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Rinfrescato</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Attivo</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s ATTIVO</string>
+    <string name="premium_benefits">VANTAGGI PREMIUM</string>
+    <string name="manage_subscription">Gestisci l'abbonamento</string>
+    <string name="next_billing_date__manage_your">Prossima data di fatturazione: %1$s. Gestisci i dettagli di fatturazione e la cancellazione tramite le impostazioni del tuo account Play Store.</string>
+    <string name="purchase_expires_">L'acquisto scade il: %1$s</string>
+    <string name="falcon_pdf_pro">Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF Premium (Mensile)</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Premium (abbonamento annuale)</string>
+    <string name="pro">PRO</string>
+    <string name="premium">PREMIUM</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Ottieni Falcon PDF Pro o Premium</string>
+    <string name="purchase_desktop_subtitle">Gli acquisti vengono gestiti sul nostro sito web. Clicca qui sotto per visualizzare piani e prezzi.</string>
+    <string name="purchase_desktop_open_website">Visualizza i piani &amp; Prezzi</string>
+    <string name="purchase_desktop_already_purchased">Hai già acquistato il piano? Accedi per sincronizzarlo.</string>
+    <string name="purchase_store_build_subtitle">Il tuo abbonamento sblocca le funzionalità Pro su tutti i tuoi dispositivi. Accedi per sincronizzare il tuo piano.</string>
+    <string name="ai_read_aloud">Lettura ad alta voce tramite IA</string>
+    <string name="full_pdf_editing__form_filling">Modifica completa del PDF &amp; Compilazione del modulo</string>
+    <string name="crossdevice_sync_via_drive">Sincronizzazione tra dispositivi tramite Drive</string>
+    <string name="adfree_no_watermark">Senza pubblicità, senza filigrana</string>
+    <string name="export_to_word__excel">Esporta in Word &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">Temi multipli &amp; Sfondi della pagina</string>
+    <string name="ai_summaries_with_stronger_reasoning">Riepiloghi basati sull'IA con un ragionamento più robusto</string>
+    <string name="no_limits_on_60_pdf_tools">Nessun limite su oltre 60 strumenti PDF</string>
+    <string name="full_text_editing_in_pdfs">Modifica completa del testo nei PDF</string>
+    <string name="digital_signatures_dscesign">Firme digitali (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Sincronizzazione illimitata dei documenti scansionati</string>
+    <string name="biometric_document_lock">Blocco documenti biometrico</string>
+    <string name="everything_in_pro_all_devices">Tutto in Pro, su tutti i dispositivi</string>
+    <string name="introductory_offer">Offerta introduttiva</string>
+    <string name="limited_time__30_off">Offerta a tempo limitato: 30% di sconto.</string>
+    <string name="date__time">Data &amp; Ora</string>
+    <string name="amount">Quantità</string>
+    <string name="platform">Piattaforma</string>
+    <string name="type">Tipo</string>
+    <string name="expires_on">Scade il</string>
+</resources>

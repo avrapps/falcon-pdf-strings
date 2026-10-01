@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Patikrinkite interneto ryšį ir įsitikinkite, kad „Google“ paskyra pridėta prie jūsų įrenginio, tada bandykite dar kartą.</string>
+    <string name="sign_in_with_apple">Prisijunkite naudodami „Apple“</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Patobulinkite savo patirtį</string>
+    <string name="purchase_screen_close">Uždaryti</string>
+    <string name="purchase_screen_refresh">Atnaujinti</string>
+    <string name="purchase_sync_status">Paskutinį kartą sinchronizuota: %1s</string>
+    <string name="purchase_current_plan">Dabartinis</string>
+    <string name="purchase_syncing">Sinchronizuojama…</string>
+    <string name="purchase_loading">Kraunama…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Nemokamas planas</string>
+    <string name="purchase_pro_plan">Profesionali versija</string>
+    <string name="purchase_pro_tagline">Mokėkite vieną kartą. Turėkite amžinai.</string>
+    <string name="purchase_premium_plan">Premium prenumerata</string>
+    <string name="purchase_premium_tagline">Viskas „Pro“ versijoje, plius dirbtinis intelektas &amp; debesyje</string>
+    <string name="purchase_recommended">Rekomenduojama</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">Dirbtinio intelekto garsinis skaitymas – klausykitės PDF failų natūraliai</string>
+    <string name="purchase_pro_feature_2">Pilnas PDF redagavimas &amp; Formų pildymas</string>
+    <string name="purchase_pro_feature_3">Sinchronizavimas tarp įrenginių per Diską</string>
+    <string name="purchase_pro_feature_4">Be reklamų, be vandenženklio nuskaitymuose</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">Dirbtinio intelekto santraukos su stipresniu samprotavimu</string>
+    <string name="purchase_premium_feature_1_desc">Išsamesni atsakymai iš ilgesnių, sudėtingesnių dokumentų</string>
+    <string name="purchase_premium_feature_2_title">5 GB „Falcon Cloud“</string>
+    <string name="purchase_premium_feature_2_desc">Jūsų asmeninė PDF biblioteka, sinchronizuota ir saugi</string>
+    <string name="purchase_premium_feature_3_title">Jokių apribojimų daugiau nei 60 PDF įrankių</string>
+    <string name="purchase_premium_feature_3_desc">Kiekvienas įrankis, visada po ranka</string>
+    <string name="purchase_premium_feature_4_title">Viso teksto redagavimas PDF failuose</string>
+    <string name="purchase_premium_feature_4_desc">Redaguokite tekstą tiesiogiai kaip teksto rengyklė</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Pirkti profesionalą</string>
+    <string name="purchase_sign_in_buy">Prisijungti &amp; Pirkti</string>
+    <string name="purchase_sign_in_subscribe">Prisijungti &amp; Prenumeruoti</string>
+    <string name="purchase_subscribe">Prenumeruoti</string>
+    <string name="purchase_start_trial">Pradėkite 7 dienų nemokamą bandomąją versiją</string>
+    <string name="purchase_view_all_features">Peržiūrėti visas funkcijas</string>
+    <string name="purchase_show_more">Rodyti daugiau</string>
+    <string name="purchase_show_less">Rodyti mažiau</string>
+    <string name="purchase_see_all_features">Žr. visas funkcijas</string>
+    <string name="purchase_manage_subscription">Tvarkyti prenumeratą</string>
+    <string name="purchase_restore_purchases">Atkurti pirkimus</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Mėnesinis</string>
+    <string name="purchase_billing_yearly">Metinis</string>
+    <string name="purchase_save_badge">Sutaupykite 40%%</string>
+    <string name="purchase_lifetime">Visą gyvenimą</string>
+    <string name="purchase_per_year">/metus</string>
+    <string name="purchase_per_month">/mėn.</string>
+    <string name="purchase_trial_terms">Atšaukti bet kuriuo metu. Pratęsiama, nebent atšaukiama likus 24 val. iki bandomojo laikotarpio pabaigos.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Nepavyko įkelti produktų. Patikrinkite prisijungimą ir interneto ryšį.</string>
+    <string name="purchase_error_network">Ryšys nutrūko. Patikrinkite interneto ryšį ir bandykite dar kartą.</string>
+    <string name="purchase_error_payment_declined">Mokėjimo būdas atmestas. Atnaujinkite mokėjimo informaciją.</string>
+    <string name="purchase_error_server">Kažkas nepavyko. Bandykite dar kartą vėliau.</string>
+    <string name="purchase_error_rate_limit">Per daug bandymų atnaujinti. Palaukite.</string>
+    <string name="purchase_error_offline">Nėra interneto ryšio. Rodomi talpykloje saugomi duomenys.</string>
+    <string name="purchase_error_product_refresh">Nepavyko patvirtinti produkto. Bandykite dar kartą.</string>
+    <string name="purchase_error_generic">Įvyko klaida. Bandykite dar kartą.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Paslaugų teikimo sąlygos</string>
+    <string name="purchase_privacy_policy">Privatumo politika</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">Pirkimų istorija</string>
+    <string name="free_trial">Nemokamas bandomasis laikotarpis</string>
+    <string name="no_purchase_history">Nėra pirkimų istorijos</string>
+    <string name="you_havent_made_any_purchases_">Dar neatlikote jokių pirkinių.</string>
+    <string name="error">Klaida</string>
+    <string name="retry">Bandyti dar kartą</string>
+    <string name="back">Atgal</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Patobulinkite savo patirtį</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Atkurti pirkimus</string>
+    <string name="close_purchase_screen">Uždaryti pirkimo ekraną</string>
+    <string name="help">Pagalba</string>
+    <string name="more_options">Daugiau parinkčių</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Atnaujinti</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Aktyvus</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s AKTYVUS</string>
+    <string name="premium_benefits">PREMIUM PRIVALUMAI</string>
+    <string name="manage_subscription">Tvarkyti prenumeratą</string>
+    <string name="next_billing_date__manage_your">Kita atsiskaitymo data: %1$s. Tvarkykite atsiskaitymo informaciją ir atšaukimą „Play Store“ paskyros nustatymuose.</string>
+    <string name="purchase_expires_">Pirkimo galiojimo laikas baigiasi: %1$s</string>
+    <string name="falcon_pdf_pro">„Falcon PDF Pro“</string>
+    <string name="falcon_pdf_premium_monthly">„Falcon PDF Premium“ (mėnesinis)</string>
+    <string name="falcon_pdf_premium_yearly">„Falcon PDF Premium“ (metinis)</string>
+    <string name="pro">PROFESIONALAS</string>
+    <string name="premium">PREMIUM</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Gaukite „Falcon PDF Pro“ arba „Premium“</string>
+    <string name="purchase_desktop_subtitle">Pirkimai tvarkomi mūsų svetainėje. Norėdami peržiūrėti planus ir kainas, spustelėkite žemiau.</string>
+    <string name="purchase_desktop_open_website">Peržiūrėti planus &amp; Kainodara</string>
+    <string name="purchase_desktop_already_purchased">Jau įsigijote? Prisijunkite, kad sinchronizuotumėte savo planą.</string>
+    <string name="purchase_store_build_subtitle">Jūsų prenumerata atrakina „Pro“ funkcijas visuose jūsų įrenginiuose. Prisijunkite, kad sinchronizuotumėte savo planą.</string>
+    <string name="ai_read_aloud">DI garsiai skaitoma</string>
+    <string name="full_pdf_editing__form_filling">Pilnas PDF redagavimas &amp; Formų pildymas</string>
+    <string name="crossdevice_sync_via_drive">Sinchronizavimas tarp įrenginių per Diską</string>
+    <string name="adfree_no_watermark">Be reklamos, be vandenženklio</string>
+    <string name="export_to_word__excel">Eksportuoti į „Word“ &amp; „Excel“</string>
+    <string name="multiple_themes__page_backgrounds">Kelios temos &amp; Puslapio fonai</string>
+    <string name="ai_summaries_with_stronger_reasoning">Dirbtinio intelekto santraukos su stipresniu samprotavimu</string>
+    <string name="no_limits_on_60_pdf_tools">Jokių apribojimų daugiau nei 60 PDF įrankių</string>
+    <string name="full_text_editing_in_pdfs">Viso teksto redagavimas PDF failuose</string>
+    <string name="digital_signatures_dscesign">Skaitmeniniai parašai (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Neribotas nuskaitytų dokumentų sinchronizavimas</string>
+    <string name="biometric_document_lock">Biometrinių dokumentų užraktas</string>
+    <string name="everything_in_pro_all_devices">Viskas „Pro“ versijoje, visuose įrenginiuose</string>
+    <string name="introductory_offer">Įvadinis pasiūlymas</string>
+    <string name="limited_time__30_off">Ribotas laikas – 30 % nuolaida</string>
+    <string name="date__time">Data &amp; Laikas</string>
+    <string name="amount">Suma</string>
+    <string name="platform">Platforma</string>
+    <string name="type">Tipas</string>
+    <string name="expires_on">Galioja iki</string>
+</resources>

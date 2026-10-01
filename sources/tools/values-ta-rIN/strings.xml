@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">பக்கங்களை நீக்கு</string>
+    <string name="are_you_sure_you_want_to_delet">தேர்ந்தெடுக்கப்பட்ட பக்கங்களை நீக்குவது உறுதிதானா? இந்தச் செயலைத் திரும்பப் பெற முடியாது.</string>
+    <string name="delete">நீக்கு</string>
+    <string name="cancel">ரத்துசெய்</string>
+    <string name="quick_selection">விரைவுத் தேர்வு</string>
+    <string name="select_range">வரம்பைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="select_all">அனைத்தையும் தேர்ந்தெடுக்கவும்</string>
+    <string name="clear_all">அனைத்தையும் அழி</string>
+    <string name="select_page_range">பக்க வரம்பைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="enter_the_range_of_pages_to_de">நீக்க வேண்டிய பக்கங்களின் வரம்பை உள்ளிடவும் (1-%1$s)</string>
+    <string name="from">இருந்து</string>
+    <string name="to">க்கு</string>
+    <string name="select">தேர்ந்தெடுக்கவும்</string>
+    <string name="please_go_back_and_select_a_pd">தயவுசெய்து திரும்பிச் சென்று ஒரு PDF-ஐத் தேர்ந்தெடுக்கவும்.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">PDF-ஐப் பிரித்தல்</string>
+    <string name="str_1_file_selected">1 கோப்பு தேர்ந்தெடுக்கப்பட்டது</string>
+    <string name="no_file_selected">கோப்பு எதுவும் தேர்ந்தெடுக்கப்படவில்லை</string>
+    <string name="split_mode">பிளவு முறை</string>
+    <string name="fixed_segments">நிலையான பிரிவுகள்</string>
+    <string name="custom_ranges">தனிப்பயன் வரம்புகள்</string>
+    <string name="segment_size">பிரிவு அளவு</string>
+    <string name="this_will_create_multiple_pdfs">இது, குறிப்பிடப்பட்ட எண்ணிக்கையிலான பக்கங்களைக் கொண்ட பல PDF கோப்புகளை உருவாக்கும். அர்த்தமுள்ள பிரிவுகளை உருவாக்க, பிரிவின் அளவு மொத்தப் பக்கங்களின் எண்ணிக்கையை விடக் குறைவாக இருக்க வேண்டும். உதாரணமாக, மூலக் கோப்பில் 8 பக்கங்கள் இருந்து, நீங்கள் 2 என உள்ளிட்டால், தலா 2 பக்கங்களைக் கொண்ட நான்கு PDF கோப்புகள் உருவாக்கப்படும்.</string>
+    <string name="pages_per_file">ஒரு கோப்பிற்கான பக்கங்கள்</string>
+    <string name="eg_2">எ.கா., 2</string>
+    <string name="total_number_of_pages_in_pdf__">PDF-இல் உள்ள மொத்தப் பக்கங்களின் எண்ணிக்கை: %1$d (பிரிவின் அளவு %1$d-ஐ விடக் குறைவாக இருக்க வேண்டும்)</string>
+    <string name="this_will_create__output_files">இது %1$d வெளியீட்டுக் கோப்புகளை உருவாக்கும்</string>
+    <string name="this_will_create__output_file">இது %1$d வெளியீட்டுக் கோப்பை உருவாக்கும்</string>
+    <string name="this_input_will_split_the_pdf_">இந்த உள்ளீடு, நீங்கள் குறிப்பிடும் வரம்புகளின் அடிப்படையில் PDF-ஐத் தனித்தனி கோப்புகளாகப் பிரிக்கும். உதாரணமாக, "1-2,5,6-8" என உள்ளிடும்போது, முதலாவது 1-2 பக்கங்களையும், இரண்டாவது 5-ஆம் பக்கத்தையும், மூன்றாவது 6-8 பக்கங்களையும் கொண்ட 3 PDF-கள் உருவாக்கப்படும்.</string>
+    <string name="page_ranges">பக்க வரம்புகள்</string>
+    <string name="eg_1234571520">எ.கா., 1-2,3,4-5,7,15-20</string>
+    <string name="format_use_ranges_15_or_single">வடிவம்: காற்புள்ளிகளால் பிரிக்கப்பட்ட வரம்புகளாக (1-5) அல்லது ஒற்றைப் பக்கங்களாக (7) பயன்படுத்தவும். எண்கள், இணைப்புக்கோடுகள் மற்றும் காற்புள்ளிகள் மட்டுமே அனுமதிக்கப்படும்.</string>
+    <string name="split_preview">ஸ்பிளிட் முன்னோட்டம்</string>
+    <string name="pdf_files_will_be_created">%1$d PDF கோப்புகள் உருவாக்கப்படும்</string>
+    <string name="pdf_file_will_be_created">%1$d PDF கோப்பு உருவாக்கப்படும்</string>
+    <string name="pdf_result_">PDF முடிவு %1$s</string>
+    <string name="str__and__more">... மற்றும் %1$d மேலும்</string>
+    <string name="splitting_pdf">PDF-ஐப் பிரித்தல்...</string>
+    <string name="checking_files">கோப்புகளைச் சரிபார்க்கிறது...</string>
+    <string name="page_n">பக்கம் %1$d</string>
+    <string name="pages_n_m">பக்கங்கள் %1$d-%2$d</string>
+    <string name="split_complete">பிரிவு நிறைவடைந்தது!</string>
+    <string name="split_failed">பிளவு தோல்வியடைந்தது</string>
+    <string name="we_couldnt_split_your_pdf">உங்கள் PDF-ஐ எங்களால் பிரிக்க முடியவில்லை</string>
+    <string name="your_pdf_has_been_successfully_split">உங்கள் PDF வெற்றிகரமாக %1$d கோப்புகளாகப் பிரிக்கப்பட்டுள்ளது.</string>
+    <string name="your_pdf_has_been_successfully_split_single">உங்கள் PDF வெற்றிகரமாக %1$d கோப்பாகப் பிரிக்கப்பட்டது.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">PDF கருவிகள்</string>
+    <string name="image_tools">படக் கருவிகள்</string>
+    <string name="str_30_tools_for_pdf">PDF-க்கான 30+ கருவிகள்</string>
+    <string name="tools_for_images">படங்களுக்கான கருவிகள்</string>
+    <string name="no_tools_found">கருவிகள் எதுவும் காணப்படவில்லை</string>
+    <string name="try_adjusting_your_search">உங்கள் தேடலைச் சரிசெய்ய முயற்சிக்கவும்</string>
+    <string name="history">வரலாறு</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s பக்கம்${if (pageCount &gt; 1) </string>
+    <string name="n_pages">%1$d பக்கங்கள்</string>
+    <string name="n_page">%1$d பக்கம்</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">இந்த PDF-க்கு கடவுச்சொல் தேவை</string>
+    <string name="password_provided">கடவுச்சொல் வழங்கப்பட்டது</string>
+    <string name="password_required">கடவுச்சொல் தேவை</string>
+    <string name="open_file">கோப்பைத் திறக்கவும்</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">சுருக்கப்பட்டது </string>
+    <string name="error_details">பிழை விவரங்கள்</string>
+    <string name="view">பார்வை</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">%2$s பக்கங்களில் %1$s பக்கங்கள் தேர்ந்தெடுக்கப்பட்டன</string>
+    <string name="showing_first_200_pages">முதல் 200 பக்கங்கள் காட்டப்படுகின்றன</string>
+    <string name="use_quick_selection_above_for_">200 பக்கங்களுக்கு மேல் உள்ள பக்கங்களுக்கு மேலே உள்ள விரைவுத் தேர்வைப் பயன்படுத்தவும்.</string>
+    <string name="loading">ஏற்றப்படுகிறது...</string>
+    <string name="error">பிழை</string>
+    <string name="generating_page_previews">பக்க முன்னோட்டங்களை உருவாக்குகிறது...</string>
+    <string name="page__thumbnail">பக்கம் %1$s சிறுபடம்</string>
+    <string name="selected">தேர்ந்தெடுக்கப்பட்ட</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">தேடல்</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">PDF ஐ சுழற்று</string>
+    <string name="please_provide_the_password_to">தனிப்பயன் பக்கங்களைத் தேர்ந்தெடுக்க கடவுச்சொல்லை வழங்கவும்.</string>
+    <string name="rotation_angle">சுழற்சி கோணம்</string>
+    <string name="page_selection">பக்கத் தேர்வு</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">PDF-ஐ மறுவரிசைப்படுத்து</string>
+    <string name="use_the_arrow_buttons_to_reord">பக்கங்களை மறுவரிசைப்படுத்த அம்புக்குறி பொத்தான்களைப் பயன்படுத்தவும்.</string>
+    <string name="pages_">பக்கங்கள் (%1$s)</string>
+    <string name="page_">பக்கம் %1$s</string>
+    <string name="position__of_">நிலை: %2$s இல் %1$s</string>
+    <string name="drag_handle">இழுவை கைப்பிடி</string>
+    <string name="move_up">மேலே செல்லுங்கள்</string>
+    <string name="move_down">கீழே நகர்த்தவும்</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">PDF-ஐ சுருக்கு</string>
+    <string name="no_files_selected">கோப்புகள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை</string>
+    <string name="please_go_back_and_select_pdf_">தயவுசெய்து பின்சென்று, சுருக்குவதற்கான PDF கோப்புகளைத் தேர்ந்தெடுக்கவும்.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">வெற்றி</string>
+    <string name="individual_results">தனிப்பட்ட முடிவுகள்</string>
+    <string name="done">முடிந்தது</string>
+    <string name="compression_complete">சுருக்கம் நிறைவு</string>
+    <string name="your_file_is_ready_and_much_li">உங்கள் கோப்பு தயாராகிவிட்டது, மேலும் அதன் எடையும் மிகவும் குறைந்துவிட்டது!</string>
+    <string name="before">முன்பு</string>
+    <string name="after">பிறகு</string>
+    <string name="total_saved">மொத்த சேமிப்பு</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">சிறிய</string>
+    <string name="str__saved">%1$s% சேமிக்கப்பட்டது</string>
+    <string name="open">திறந்த</string>
+    <string name="share">பகிர்</string>
+    <string name="close">அருகில்</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">சுருக்க நிலை</string>
+    <string name="recommended">பரிந்துரைக்கப்பட்டது</string>
+    <string name="str__compression">%1$s சுருக்கம்</string>
+    <string name="str__of_original_size">~%1$sஅசல் அளவில் %</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">படங்களை PDF ஆக</string>
+    <string name="str__images_selected">%1$s தேர்ந்தெடுக்கப்பட்ட படங்கள்</string>
+    <string name="images_will_be_converted_in_th">கீழே காட்டப்பட்டுள்ள வரிசைப்படி படங்கள் மாற்றப்படும்.</string>
+    <string name="remove">அகற்று</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">PDF இலிருந்து படங்களுக்கு</string>
+    <string name="image_format">பட வடிவமைப்பு</string>
+    <string name="image_quality_dpi">படத் தரம் (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">PDF-ஐ ஒன்றிணைக்கவும்</string>
+    <string name="n_files_selected">%1$d தேர்ந்தெடுக்கப்பட்ட கோப்புகள்</string>
+    <string name="n_file_selected">%1$d கோப்பு தேர்ந்தெடுக்கப்பட்டது</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">பூட்டு PDF</string>
+    <string name="password_protection">கடவுச்சொல் பாதுகாப்பு</string>
+    <string name="enter_a_password_to_protect_yo">உங்கள் PDF கோப்பைப் பாதுகாக்க ஒரு கடவுச்சொல்லை உள்ளிடவும். கோப்பைத் திறக்க இந்தக் கடவுச்சொல் தேவைப்படும்.</string>
+    <string name="password">கடவுச்சொல்</string>
+    <string name="enter_password">கடவுச்சொல்லை உள்ளிடவும்</string>
+    <string name="confirm_password">கடவுச்சொல்லை உறுதிப்படுத்தவும்</string>
+    <string name="reenter_password">கடவுச்சொல்லை மீண்டும் உள்ளிடவும்</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">தயவுசெய்து திரும்பிச் சென்று ஒரு கோப்பைத் தேர்ந்தெடுக்கவும்.</string>
+    <string name="back">திரும்பி</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">PDF-ஐத் திறக்கவும்</string>
+    <string name="current_password">தற்போதைய கடவுச்சொல்</string>
+    <string name="enter_the_current_password_to_">இந்த PDF-ஐத் திறக்க தற்போதைய கடவுச்சொல்லை உள்ளிடவும்.</string>
+    <string name="enter_current_password">தற்போதைய கடவுச்சொல்லை உள்ளிடவும்</string>
+    <string name="incorrect_password_please_try_">தவறான கடவுச்சொல். மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="new_password_optional">புதிய கடவுச்சொல் (விருப்பத்திற்குரியது)</string>
+    <string name="set_a_new_password_to_change_i">கடவுச்சொல்லை மாற்ற புதிய ஒன்றை அமைக்கவும், அல்லது கடவுச்சொல் பாதுகாப்பை நீக்க காலியாக விடவும்.</string>
+    <string name="new_password">புதிய கடவுச்சொல்</string>
+    <string name="enter_new_password">புதிய கடவுச்சொல்லை உள்ளிடவும்</string>
+    <string name="confirm_new_password">புதிய கடவுச்சொல்லை உறுதிப்படுத்தவும்</string>
+    <string name="reenter_new_password">புதிய கடவுச்சொல்லை மீண்டும் உள்ளிடவும்</string>
+    <string name="passwords_do_not_match">கடவுச்சொற்கள் பொருந்தவில்லை</string>
+    <string name="compression_failed">சுருக்கம் தோல்வியடைந்தது</string>
+    <string name="open_pdf">PDF-ஐத் திறக்கவும்</string>
+    <string name="share_file">கோப்பைப் பகிரவும்</string>
+    <string name="pages_deleted">பக்கங்கள் நீக்கப்பட்டன!</string>
+    <string name="delete_failed">நீக்குதல் தோல்வியடைந்தது</string>
+    <string name="select_pages_to_delete">நீக்க வேண்டிய பக்கங்களைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="pdf_created">PDF உருவாக்கப்பட்டது!</string>
+    <string name="conversion_failed">மாற்றம் தோல்வியடைந்தது</string>
+    <string name="pdf_locked_successfully">PDF வெற்றிகரமாகப் பூட்டப்பட்டது!</string>
+    <string name="lock_failed">பூட்டு தோல்வியடைந்தது</string>
+    <string name="merge_complete">இணைப்பு நிறைவடைந்தது!</string>
+    <string name="merge_failed">இணைப்பு தோல்வியடைந்தது</string>
+    <string name="conversion_complete">மாற்றம் நிறைவடைந்தது!</string>
+    <string name="reorder_complete">மறுவரிசைப்படுத்தல் நிறைவடைந்தது!</string>
+    <string name="reorder_failed">மறுவரிசைப்படுத்தல் தோல்வியடைந்தது</string>
+    <string name="rotation_complete">சுழற்சி நிறைவடைந்தது!</string>
+    <string name="rotation_failed">சுழற்சி தோல்வியடைந்தது</string>
+    <string name="select_pages_to_rotate">சுழற்றுவதற்கான பக்கங்களைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="str__complete">%1$s முடிந்தது!</string>
+    <string name="str__failed">%1$s தோல்வி</string>
+    <string name="unlock_failed">திறத்தல் தோல்வியடைந்தது</string>
+    <string name="your_pdfs_have_been_successfully_compres">உங்கள் PDF கோப்புகள் வெற்றிகரமாகச் சுருக்கப்பட்டுள்ளன.</string>
+    <string name="we_couldnt_compress_your_pdfs">உங்கள் PDF கோப்புகளை எங்களால் சுருக்க முடியவில்லை.</string>
+    <string name="view_your_compressed_file">உங்கள் சுருக்கப்பட்ட கோப்பைக் காண்க</string>
+    <string name="send_to_others_or_apps">மற்றவர்களுக்கோ அல்லது செயலிகளுக்கோ அனுப்பவும்</string>
+    <string name="your_pdf_has_been_successfully_modified">உங்கள் PDF வெற்றிகரமாகத் திருத்தப்பட்டுள்ளது.</string>
+    <string name="we_couldnt_delete_the_pages">எங்களால் பக்கங்களை நீக்க முடியவில்லை.</string>
+    <string name="your_images_have_been_converted_to_pdf">உங்கள் படங்கள் PDF ஆக மாற்றப்பட்டுள்ளன.</string>
+    <string name="unable_to_create_pdf_from_images">படங்களிலிருந்து PDF உருவாக்க முடியவில்லை</string>
+    <string name="your_pdf_is_now_password_protected">உங்கள் PDF இப்போது கடவுச்சொல் மூலம் பாதுகாக்கப்பட்டுள்ளது.</string>
+    <string name="we_couldnt_lock_your_pdf">உங்கள் PDF-ஐ எங்களால் பூட்ட முடியவில்லை</string>
+    <string name="your_pdfs_have_been_successfully_merged">உங்கள் PDF கோப்புகள் வெற்றிகரமாக இணைக்கப்பட்டுவிட்டன.</string>
+    <string name="we_couldnt_merge_your_pdfs">உங்கள் PDF கோப்புகளை எங்களால் ஒன்றிணைக்க முடியவில்லை.</string>
+    <string name="str__images_created_successfully">%1$s படங்கள் வெற்றிகரமாக உருவாக்கப்பட்டன</string>
+    <string name="unable_to_convert_pdf_to_images">PDF-ஐ படங்களாக மாற்ற முடியவில்லை</string>
+    <string name="your_pdf_pages_have_been_successfully_re">உங்கள் PDF பக்கங்கள் வெற்றிகரமாக மறுவரிசைப்படுத்தப்பட்டுள்ளன.</string>
+    <string name="we_couldnt_reorder_your_pdf">உங்கள் PDF-ஐ எங்களால் மறுவரிசைப்படுத்த முடியவில்லை</string>
+    <string name="your_pdf_has_been_successfully_rotated">உங்கள் PDF வெற்றிகரமாகச் சுழற்றப்பட்டது</string>
+    <string name="we_couldnt_rotate_your_pdf">உங்கள் PDF-ஐ எங்களால் சுழற்ற முடியவில்லை</string>
+    <string name="your_file_has_been_successfully_processe">உங்கள் கோப்பு வெற்றிகரமாகச் செயலாக்கப்பட்டது.</string>
+    <string name="we_couldnt_process_your_file">உங்கள் கோப்பை எங்களால் செயலாக்க முடியவில்லை.</string>
+    <string name="we_couldnt_unlock_your_pdf">உங்கள் PDF-ஐ எங்களால் திறக்க முடியவில்லை</string>
+    <string name="clear_filter">வடிகட்டியைத் தெளிவுபடுத்துங்கள்</string>
+    <string name="clear">தெளிவு</string>
+    <string name="pick_a_tool_">ஒரு கருவியைத் தேர்ந்தெடுக்கவும் →</string>
+    <string name="drag_to_reorder">மறுவரிசைப்படுத்த இழுக்கவும்</string>
+    <string name="your_files_are_securely_processed_on_our">உங்கள் கோப்புகள் எங்கள் சேவையகங்களில் மறைகுறியாக்கப்பட்ட இணைப்புகளைப் பயன்படுத்திப் பாதுகாப்பாகச் செயலாக்கப்பட்டு, 1 மணி நேரத்திற்குள் தானாகவே நீக்கப்படுகின்றன. நாங்கள் உங்கள் தரவை ஒருபோதும் சேமிப்பதோ பகிர்வதோ இல்லை.</string>
+    <string name="compression_quality">சுருக்கத் தரம்</string>
+    <string name="dragelevation">இழுவை உயரம்</string>
+    <string name="tool_card_scale">கருவி_அட்டை_அளவுகோல்</string>
+</resources>

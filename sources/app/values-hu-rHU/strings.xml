@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">PDF varázslat</string>
+    <string name="app_tagline">Mit szeretnél csinálni?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">Utolsó használat</string>
+    <string name="home_favorites">Kedvencek</string>
+    <string name="home_new_tool">Új eszköz</string>
+    <string name="home_featured">KIEMELT</string>
+    <string name="home_scan_to_pdf">Szkennelés PDF-be</string>
+    <string name="home_scan_description">Váltsd papíralapú dokumentumaidat azonnal digitális varázslattá</string>
+    <string name="home_start_scanning">Szkennelés indítása</string>
+    <string name="home_all_tools">Minden eszköz</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">PDF-eszközök</string>
+    <string name="image_tools">Képeszközök</string>
+    <string name="tools_split">Hasított</string>
+    <string name="tools_split_description">Oldalak kinyerése</string>
+    <string name="tools_rotate">Forog</string>
+    <string name="tools_rotate_description">Tájolás javítása</string>
+    <string name="tools_delete_pages">Oldalak törlése</string>
+    <string name="tools_delete_pages_description">Távolítsa el a nem kívánt</string>
+    <string name="tools_convert">Megtérít</string>
+    <string name="tools_convert_description">Képek a célállomásról/forrásról</string>
+    <string name="tools_sign">Jel</string>
+    <string name="tools_sign_description">Aláírás hozzáadása</string>
+    <string name="tools_protect">Védelem</string>
+    <string name="tools_protect_description">Jelszóbiztonság</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">PDF-megjelenítő</string>
+    <string name="pdf_viewer_page_info">%1$d oldal / %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">Dokumentumszkenner</string>
+    <string name="scanner_capture">Elfog</string>
+    <string name="scanner_retake">Újrafelvétel</string>
+    <string name="scanner_save">Megtakarítás</string>
+    <!-- Navigation -->
+    <string name="nav_back">Navigálás vissza</string>
+    <string name="nav_settings">Beállítások</string>
+    <string name="nav_more_options">További lehetőségek</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Otthon</string>
+    <string name="nav_library">Könyvtár</string>
+    <string name="nav_scan">Letapogatás</string>
+    <string name="nav_tools">Eszközök</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">Fájlok böngészése</string>
+    <string name="browse_files_subtitle">Tárhely &amp; Felhőfájlok</string>
+    <string name="show_hidden_files">Rejtett fájlok megjelenítése</string>
+    <string name="hide_hidden_files">Rejtett fájlok elrejtése</string>
+    <string name="refresh_storage">Tárhely frissítése</string>
+    <string name="no_storage_available">Nincs elérhető tárhely</string>
+    <string name="no_files_found">Nem találhatók fájlok</string>
+    <string name="add_files">%1$d Fájlok hozzáadása</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">Tárolási engedély szükséges</string>
+    <string name="permission_storage_message">Ennek az alkalmazásnak hozzáférésre van szüksége az eszköz tárhelyéhez a PDF-fájlok böngészéséhez és megnyitásához. A folytatáshoz engedélyezze a tárhelyhasználatot.</string>
+    <string name="permission_grant">Engedély megadása</string>
+    <!-- Common Actions -->
+    <string name="action_open">Nyitott</string>
+    <string name="action_save">Megtakarítás</string>
+    <string name="action_share">Részesedés</string>
+    <string name="action_delete">Töröl</string>
+    <string name="action_cancel">Mégsem</string>
+    <string name="action_confirm">Megerősítés</string>
+    <string name="action_rename">Átnevezés</string>
+    <string name="action_print">Nyomtatás</string>
+    <string name="action_favorite">Kedvenc</string>
+    <string name="action_unfavorite">Törlés a kedvencek közül</string>
+    <!-- Document Actions -->
+    <string name="document_share">Dokumentum megosztása</string>
+    <string name="document_rename">Dokumentum átnevezése</string>
+    <string name="document_delete">Dokumentum törlése</string>
+    <string name="document_print">Dokumentum nyomtatása</string>
+    <string name="document_favorite">Hozzáadás a kedvencekhez</string>
+    <string name="document_unfavorite">Eltávolítás a kedvencek közül</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">Dokumentum sikeresen megosztva</string>
+    <string name="document_share_failed">Nem sikerült megosztani a dokumentumot</string>
+    <string name="document_renamed_success">Dokumentum átnevezése sikeresen megtörtént</string>
+    <string name="document_rename_failed">Nem sikerült átnevezni a dokumentumot</string>
+    <string name="document_deleted_success">Dokumentum sikeresen törölve</string>
+    <string name="document_delete_failed">Nem sikerült törölni a dokumentumot</string>
+    <string name="document_print_opened">A dokumentum az alapértelmezett PDF-megjelenítőben van megnyitva. A nyomtatáshoz használja a megjelenítő nyomtatási funkcióját.</string>
+    <string name="document_print_failed">Nem sikerült kinyomtatni a dokumentumot</string>
+    <string name="document_added_to_favorites">Hozzáadva a kedvencekhez</string>
+    <string name="document_removed_from_favorites">Eltávolítva a kedvencek közül</string>
+    <string name="document_favorite_failed">Nem sikerült frissíteni a kedvenc állapotot</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">Dokumentum átnevezése</string>
+    <string name="dialog_rename_hint">Adja meg az új nevet</string>
+    <string name="dialog_rename_empty_error">A dokumentum neve nem lehet üres</string>
+    <string name="dialog_delete_title">Dokumentum törlése</string>
+    <string name="dialog_delete_file_message">Ez véglegesen törli a fájlt.\n\nTörlés %1$s?</string>
+    <string name="dialog_delete_uri_message">Csak az alkalmazásból távolít el. Az eredeti fájl változatlan.\n\nEltávolítja a %1$s alkalmazásból?</string>
+    <string name="dialog_delete_confirm">Töröl</string>
+    <string name="dialog_remove_confirm">Eltávolítás</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">Csak az alkalmazáson belüli átnevezések. Az eredeti fájl változatlan marad.</string>
+    <string name="notice_delete_uri_only">Eltávolítva az alkalmazásból. Az eredeti fájl változatlan.</string>
+    <string name="notice_file_exists_error">Már létezik egy ilyen nevű fájl</string>
+    <string name="notice_file_not_found_error">A fájl nem található</string>
+    <string name="notice_no_active_document">Nincs aktív dokumentum</string>
+    <string name="notice_document_path_unavailable">Dokumentumfájl elérési útja nem érhető el</string>
+    <!-- States -->
+    <string name="state_loading">Terhelés...</string>
+    <string name="state_empty">Nincsenek találatok</string>
+    <string name="state_error">Valami rosszul sült el</string>
+    <string name="state_retry">Újrapróbálkozás</string>
+    <!-- Errors -->
+    <string name="error_network">Hálózati kapcsolat sikertelen</string>
+    <string name="error_file_not_found">A fájl nem található</string>
+    <string name="error_permission_denied">Engedély megtagadva</string>
+    <string name="error_invalid_file">Érvénytelen fájlformátum</string>
+    <string name="error_password_required">Jelszó szükséges</string>
+    <string name="error_incorrect_password">Helytelen jelszó</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">Jelszóval védett</string>
+    <string name="password_protected_message">A fájl megnyitásához jelszó szükséges. Kérjük, adja meg alább.</string>
+    <string name="password_label">Jelszó</string>
+    <string name="password_placeholder">Jelszó megadása</string>
+    <string name="password_unlock">Kinyit</string>
+    <string name="password_show">Jelszó megjelenítése</string>
+    <string name="password_hide">Jelszó elrejtése</string>
+    <!-- Theme -->
+    <string name="theme_light">Fény</string>
+    <string name="theme_dark">Sötét</string>
+    <string name="theme_system">Rendszer</string>
+    <string name="theme_adaptive">Adaptív</string>
+    <string name="theme_custom">Szokás</string>
+    <!-- Settings -->
+    <string name="settings_title">Beállítások</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">Fiók &amp; Szinkronizálás</string>
+    <string name="settings_category_sync_subtitle">Manage your account, sync &amp; privacy</string>
+    <string name="settings_category_appearance_title">Megjelenés</string>
+    <string name="settings_category_appearance_subtitle">Az alkalmazás kinézetének testreszabása &amp; érzés</string>
+    <string name="settings_category_pdf_reader_title">PDF-olvasó</string>
+    <string name="settings_category_pdf_reader_subtitle">Alapértelmezett néző &amp; olvasási élmény</string>
+    <string name="settings_category_help_title">Súgó &amp; Támogatás</string>
+    <string name="settings_category_help_subtitle">Dokumentáció &amp; kapcsolatfelvétel</string>
+    <string name="settings_category_general_title">Általános</string>
+    <string name="settings_category_general_subtitle">Nyelv &amp; alkalmazásinformáció</string>
+    <string name="settings_theme_section">Téma</string>
+    <string name="settings_theme_description">Válassza ki a kívánt témát</string>
+    <string name="settings_accent_color">KIEMELŐ SZÍN</string>
+    <string name="settings_custom_colors">Egyedi színek</string>
+    <string name="settings_primary_color">Elsődleges szín</string>
+    <string name="settings_background_color">Háttérszín</string>
+    <string name="settings_surface_color">Felület színe</string>
+    <string name="settings_reset_colors">Alapértelmezett visszaállítás</string>
+    <string name="settings_adaptive_note">Material You adaptív színek (Android 12+)</string>
+    <string name="settings_app_section">Alkalmazásbeállítások</string>
+    <string name="settings_notifications">Értesítések</string>
+    <string name="settings_notifications_description">Alkalmazásértesítések fogadása</string>
+    <string name="settings_auto_backup">Automatikus biztonsági mentés</string>
+    <string name="settings_auto_backup_description">Dokumentumok automatikus biztonsági mentése</string>
+    <string name="settings_change_color">Szín módosítása</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">A PDF-dokumentumai itt fognak megjelenni</string>
+    <string name="scan_description">Dokumentumok szkennelése PDF-be</string>
+    <string name="tools_description">PDF-szerkesztő és -manipulációs eszközök</string>
+    <string name="home_description">Használja az alsó navigációt a funkciók eléréséhez</string>
+    <!-- Sort Options -->
+    <string name="sort_name">Név</string>
+    <string name="sort_date">Dátum</string>
+    <string name="sort_size">Méret</string>
+    <string name="sort_option_name">Név</string>
+    <string name="sort_option_last_opened">Utolsó megnyitás</string>
+    <string name="sort_option_last_modified">Utolsó módosítás</string>
+    <string name="sort_option_file_size">Fájlméret</string>
+    <!-- View Types -->
+    <string name="view_type_list">Lista nézet</string>
+    <string name="view_type_table">Táblázat nézet</string>
+    <string name="view_type_grid">Rácsnézet</string>
+    <!-- File Properties -->
+    <string name="file_name">Fájlnév</string>
+    <string name="date_modified">Módosítás dátuma</string>
+    <string name="file_size">Méret</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">Nincs elindítva</string>
+    <string name="file_status_completed">Befejezve</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">PDF-dokumentum</string>
+    <string name="document_type_word">Word-dokumentum</string>
+    <string name="document_type_excel">Excel-táblázat</string>
+    <string name="document_type_image">Képfájl</string>
+    <string name="document_type_other">Dokumentum</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">Minden fájl</string>
+    <string name="filter_recent">Legutóbbi</string>
+    <string name="filter_pdfs">PDF-ek</string>
+    <string name="filter_images">Képek</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">Otthon</string>
+    <string name="browse_tab">Böngészés</string>
+    <string name="starred_tab">Csillagos</string>
+    <string name="settings_tab">Beállítások</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">Téma be-/kikapcsolása</string>
+    <string name="accessibility_menu">Menü</string>
+    <string name="accessibility_close">Közeli</string>
+    <string name="accessibility_color_picker">Színválasztó</string>
+    <!-- Library Screen -->
+    <string name="library_title">Könyvtár</string>
+    <string name="library_subtitle">Fájlok kezelése, Legutóbbiak &amp; Kedvencek</string>
+    <string name="library_search_placeholder">Fájlok keresése...</string>
+    <string name="library_selected_count">%1$d kiválasztva</string>
+    <string name="library_open_from_device">Megnyitás innen:\neszköz</string>
+    <string name="library_browse_files">Fájlok böngészése\n</string>
+    <string name="library_action_open">Nyitott</string>
+    <string name="library_action_share">Részesedés</string>
+    <string name="library_action_remove">Eltávolítás</string>
+    <string name="library_action_delete">Töröl</string>
+    <string name="library_clear_search">Keresés törlése</string>
+    <string name="library_close_search">Keresés bezárása</string>
+    <string name="library_select_all">Az összes fájl kijelölése</string>
+    <string name="library_exit_multiselect">Kilépés a többszörös kiválasztási módból</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">Súgó &amp; Támogatás</string>
+    <string name="help_support_subtitle">GYIK, Kapcsolat &amp; Jogi nyilatkozat</string>
+    <string name="settings_pdf_subtitle">Görgetés, Nézet &amp; Elrendezés</string>
+    <string name="help_header_title">Hogyan segíthetünk?</string>
+    <string name="help_header_subtitle">Our team is here to ensure you have the\nbest PDF experience.</string>
+    <string name="help_contact_us">Kapcsolat</string>
+    <string name="help_contact_subtitle">Lépjen kapcsolatba az ügyfélszolgálattal</string>
+    <string name="help_faq">GYIK</string>
+    <string name="help_faq_subtitle">Gyakori kérdések megválaszolva</string>
+    <string name="help_privacy_policy">Adatvédelmi irányelvek</string>
+    <string name="help_privacy_subtitle">Hogyan védjük az adatait</string>
+    <string name="help_terms_service">Szolgáltatási feltételek</string>
+    <string name="help_terms_subtitle">A pályázat szabályai</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">Szinkronizálás mobil adatkapcsolaton keresztül</string>
+    <string name="background_sync">Háttérszinkronizálás</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">PDF-olvasó beállításai</string>
+    <string name="pdf_settings_coming_soon">Hamarosan érkezik</string>
+    <string name="pdf_settings_description">Görgetési viselkedés, nézetmódok és olvasási beállítások konfigurálása</string>
+    <!-- General Settings -->
+    <string name="settings_language">Nyelv</string>
+    <string name="settings_pdf_reader">PDF-olvasó beállításai</string>
+    <string name="settings_help_support">Súgó &amp; Támogatás</string>
+    <string name="settings_whats_new">Újdonságok</string>
+    <string name="settings_download_desktop">Telepítés másik eszközre</string>
+    <string name="settings_rate_app">Értékeld az alkalmazást</string>
+    <string name="play_store_not_found">A Play Áruház nem található ezen az eszközön</string>
+    <string name="settings_set_as_default">Beállítás alapértelmezett PDF-megjelenítőként</string>
+    <string name="settings_set_as_default_subtitle">PDF-ek megnyitása ezzel az alkalmazással alapértelmezés szerint</string>
+    <string name="settings_default_pdf_instructions_title">Hogyan állítsuk be alapértelmezettként</string>
+    <string name="settings_default_pdf_ok">Értem</string>
+    <string name="settings_default_app_hint">Nem működött?</string>
+    <string name="settings_default_app_hint_learn_more">Tudj meg többet</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">Nyelv</string>
+    <string name="language_search_placeholder">Nyelvek keresése...</string>
+    <!-- Common UI -->
+    <string name="support">Támogatás</string>
+    <string name="language_english">angol</string>
+    <string name="language_hindi">हिंदी</string>
+    <string name="language_spanish">spanyol</string>
+    <string name="language_french">Francia</string>
+    <string name="language_german">Német</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">Portugál</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">ALKALMAZÁS MEGJELENÉSE</string>
+    <string name="theme">TÉMA</string>
+    <string name="general">ÁLTALÁNOS</string>
+    <string name="new">ÚJ</string>
+    <string name="navigate">Navigálás</string>
+    <string name="download">Letöltés</string>
+    <string name="falcon_pdf">Sólyom PDF</string>
+    <string name="excellence_in_every_pixel">Kiválóság minden pixelben</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">VÁLTOZTATÁSOK ALKALMAZÁSA</string>
+    <string name="apply">Jelentkezés</string>
+    <string name="selected">Kiválasztott</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">Szinkronizálási beállítások</string>
+    <string name="autosync_on_wifi">Automatikus szinkronizálás Wi-Fi-n keresztül</string>
+    <string name="sync_reading_progress">Olvasási folyamat szinkronizálása</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">Dokumentum neve</string>
+    <string name="name_cannot_be_empty">A név nem lehet üres</string>
+    <string name="str__failed">%1$s Sikertelen</string>
+    <string name="ok">RENDBEN</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">Frissítési csomag - Jelenlegi csomag: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">Húzd le a fájl megnyitásához</string>
+    <string name="release_to_import_and_open_pdf">Engedje el a PDF-fájlok importálásához és megnyitásához</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">Eltávolítás</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF</string>
+    <string name="images">Képek</string>
+    <string name="filter_all_types">Minden fájl</string>
+    <string name="favorites">Kedvenc fájlok</string>
+    <string name="recent">Legutóbbi</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">Dokumentumok keresése...</string>
+    <string name="voice_search">Hangalapú keresés</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">Legutóbbi fájlok</string>
+    <string name="loading_recent_files">Legutóbbi fájlok betöltése...</string>
+    <string name="no_recent_files">Nincsenek friss fájlok</string>
+    <string name="no_favorites">Nincsenek kedvencek</string>
+    <string name="mark_files_as_favorite_to_see_them_here">Jelöld meg a fájlokat kedvencként, hogy itt lásd őket</string>
+    <string name="open_some_pdf_files_to_see_the">Nyisson meg néhány PDF-fájlt, hogy itt megtekinthesse őket</string>
+    <string name="status">Állapot</string>
+    <string name="actions">Műveletek</string>
+    <string name="select_all">Összes kijelölése</string>
+    <string name="enter_multiselect_mode">Többszörös kijelölésű módba lépés</string>
+    <string name="sorted_ascending">Növekvő sorrendben</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">Tárhely: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">%1$s fájl hozzáadása</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">Nézettípus módosítása</string>
+    <string name="filter_">Szűrő: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">PDF betöltése...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">Jelentkezzen be a szinkronizáláshoz</string>
+    <string name="protect_your_library_files">Védje könyvtári fájljait</string>
+    <string name="sign_in">Bejelentkezés</string>
+    <string name="sign_out">Kijelentkezés</string>
+    <string name="sign_in_dialog_title">Bejelentkezés a Falcon PDF-be</string>
+    <string name="sign_in_dialog_subtitle">PDF-könyvtárad, mindenhol.</string>
+    <string name="sign_in_with_google">Bejelentkezés Google-fiókkal</string>
+    <string name="sign_in_with_apple">Bejelentkezés Apple-lel</string>
+    <string name="apple_user_drive_unavailable">A Google Drive szinkronizálása nem érhető el Apple bejelentkezéssel</string>
+    <string name="apple_user_link_google">Google-fiók összekapcsolása a Drive szinkronizálásához</string>
+    <string name="apple_user_sync_info">A felhőalapú szinkronizálás engedélyezéséhez kapcsoljon össze egy Google-fiókot</string>
+    <string name="link_google_account">Google-fiók összekapcsolása</string>
+    <string name="signed_in_successfully">Sikeresen bejelentkezve</string>
+    <string name="signed_out_successfully">Sikeresen kijelentkezve</string>
+    <string name="sync_disabled_free">A szinkronizálás le van tiltva az ingyenes fiókoknál.</string>
+    <string name="storage_disabled_grant_access">A tárhely le van tiltva. Adja meg a meghajtó hozzáférését a kezdéshez.</string>
+    <string name="upgrade_to_pro">Frissítés Pro verzióra</string>
+    <string name="grant_drive_access">Drive-hozzáférés engedélyezése</string>
+    <string name="files_synced">%1$d/%2$d Szinkronizált fájlok</string>
+    <string name="synced_count">%1$d Szinkronizálva</string>
+    <string name="unlimited_sync_active">KORLÁTLAN SZINKRONIZÁLÁS</string>
+    <string name="missing_drive_permissions">Hiányzó Drive-engedélyek. A szinkronizálás jelenleg le van tiltva.</string>
+    <string name="drive_access_revoked">Meghajtóhozzáférés visszavonva. Csatlakozzon újra a szinkronizálás folytatásához.</string>
+    <string name="upgrade_premium">Prémium frissítés</string>
+    <string name="manage_account">Fiók kezelése</string>
+    <string name="sync_now">Szinkronizálás most</string>
+    <string name="tier_free">INGYENES</string>
+    <string name="tier_pro">PROFESSZIONÁLIS</string>
+    <string name="tier_premium">PRÉMIUM</string>
+    <string name="status_paused">SZÜNETELT</string>
+    <!-- Common -->
+    <string name="navigate_back">Navigálás vissza</string>
+    <string name="dismiss">Elvetés</string>
+    <string name="cancel">Mégsem</string>
+    <string name="back">Vissza</string>
+    <string name="search">Keresés</string>
+    <string name="more_actions">További műveletek</string>
+    <string name="share">Részesedés</string>
+    <string name="delete">Töröl</string>
+    <string name="remove_from_recents">Eltávolítás a legutóbbiak közül</string>
+    <string name="open">Nyitott</string>
+    <string name="all">Minden</string>
+    <string name="sort_by_">Rendezés %1$sszerint</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Google Drive szinkronizálás</string>
+    <string name="syncing">Szinkronizálás...</string>
+    <string name="sync_completed">Szinkronizálás befejezve</string>
+    <string name="sync_failed">Szinkronizálás sikertelen</string>
+    <string name="sync_limit_exceeded">Szinkronizációs korlát túllépve. A %s csomagod %d fájlt engedélyez.</string>
+    <string name="sync_no_drive_access">Google Drive-hozzáférés nem érhető el</string>
+    <string name="sync_network_unavailable">Hálózat nem elérhető</string>
+    <string name="sync_last_sync">Utolsó szinkronizálás: %s</string>
+    <string name="sync_total_files">Teljes</string>
+    <string name="sync_synced_files">Szinkronizálva</string>
+    <string name="sync_failed_files">Sikertelen</string>
+    <string name="sync_conflict_files">Konfliktusok</string>
+    <string name="sync_add_to_favorites">Hozzáadás a kedvencekhez</string>
+    <string name="sync_remove_from_favorites">Eltávolítás a kedvencek közül</string>
+    <string name="sync_conflict_title">Szinkronizálási ütközések</string>
+    <string name="sync_conflict_message">A következő fájlok ütköznek, amelyeket fel kell oldani:</string>
+    <string name="sync_conflict_explanation">Ütközés akkor fordul elő, ha mind a helyi, mind a távoli verziókat módosítják.</string>
+    <string name="sync_plan_limit">Szinkron: %d/%d</string>
+    <string name="sync_plan_limit_reached">Elérte a limitet</string>
+    <string name="sync_plan_unlimited">Korlátlan szinkronizálás</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">Kihagyás</string>
+    <string name="welcome_next">Következő</string>
+    <string name="welcome_get_started">Kezdés</string>
+    <string name="welcome_sign_in_get_started">Bejelentkezés &amp; Kezdés</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Bármely dokumentum&lt;/b&gt; azonnali olvasása</string>
+    <string name="welcome_slide1_description">Több mint 10 dokumentumformátum megnyitása és kezelése, beleértve a PDF, DOC, EPUB és MOBI fájlokat.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Olvasson PDF-eket, e-könyveket,&lt;/b&gt; és Office dokumentumokat egy helyen</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Kedvencként&lt;/b&gt; jelölje meg a dokumentumokat, és érje el őket több eszközön keresztül is.</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;Hozzászólás,&lt;/b&gt; kiemelés és együttműködés könnyedén</string>
+    <string name="welcome_slide1_footer">Az univerzális dokumentumolvasó</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;PDF-ek szerkesztése, szkennelése és rendszerezése&lt;/b&gt;</string>
+    <string name="welcome_slide2_description">Minden, amire szükséged van PDF-ek létrehozásához, szerkesztéséhez és kezeléséhez, egyetlen hatékony eszközkészletben.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;Szöveg szerkesztése,&lt;/b&gt; űrlapok megjegyzésekkel való ellátása, kiemelése és kitöltése</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Szkenneljen dokumentumokat&lt;/b&gt; és alakítsa át őket PDF formátumba azonnal</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;30+ eszköz&lt;/b&gt; beleértve az egyesítést, konvertálást, tömörítést és biztonságossá tételt</string>
+    <string name="welcome_slide2_footer">Az Ön többfunkciós PDF-munkaterülete</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;MI, AMI MEGÉRTI&lt;/b&gt; A DOKUMENTUMAIDAT</string>
+    <string name="welcome_slide3_description">Órákat takaríthat meg a dokumentumokat beolvasó és elemző mesterséges intelligenciával.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Hosszú dokumentumok összefoglalása&lt;/b&gt; másodpercek alatt</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; beolvasott oldalak és azonnali szövegfordítás</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Hallgassa meg&lt;/b&gt; a dokumentumokat beépített felolvasással</string>
+    <string name="welcome_slide3_footer">Nincsenek hirdetések. Csak hatékonyság.</string>
+    <string name="grace">KEGYELEM</string>
+    <string name="unable_to_verify_subscription_limited_ac">Az előfizetés ellenőrzése sikertelen. A hozzáférés korlátozott, amíg a kapcsolat helyre nem áll.</string>
+    <string name="retry_verification">Újrapróbálkozás az ellenőrzésen</string>
+    <string name="guest_state">Vendégállam</string>
+    <string name="free_tier">Ingyenes szint</string>
+    <string name="free_tier__locked">Ingyenes szint - Zárolt</string>
+    <string name="pro_tier">Profi szint</string>
+    <string name="pro_tier__restricted">Pro szint - Korlátozott</string>
+    <string name="premium_tier">Prémium szint</string>
+    <string name="premium_tier__error">Prémium szint - Hiba</string>
+    <string name="refresh_plan_status">Terv állapotának frissítése</string>
+    <string name="user_avatar">Felhasználói avatar</string>
+    <string name="debug_tools">Hibakereső eszközök</string>
+    <string name="authentication__drive">Hitelesítés &amp; Meghajtó</string>
+    <string name="auth_state">Hitelesítési állapot</string>
+    <string name="revoke_drive_access">Meghajtóhozzáférés visszavonása</string>
+    <string name="image">Kép</string>
+    <string name="thumbnail">Indexkép</string>
+    <string name="manage_preferences">Beállítások kezelése</string>
+    <string name="tools_history">Eszközök története</string>
+    <string name="manage_recent_logs">Legutóbbi naplók kezelése</string>
+    <string name="more_options">További lehetőségek</string>
+    <string name="clear_all_history">Összes előzmény törlése</string>
+    <string name="no_history_yet">Még nincs előzmény</string>
+    <string name="your_pdf_tool_operations_will_appear_her">A PDF eszköz műveletei itt jelennek meg</string>
+    <string name="view">Kilátás</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">Mentett %1$s</string>
+    <string name="history_status_processing">Feldolgozás</string>
+    <string name="history_status_succeeded">SIKERÜLT</string>
+    <string name="history_status_failed">SIKERTELEN</string>
+    <string name="history_status_processing_upper">FELDOLGOZÁS</string>
+    <string name="history_unknown_files">Ismeretlen fájlok</string>
+    <string name="history_op_complete">%1$s Kész!</string>
+    <string name="history_op_failed">%1$s Sikertelen</string>
+    <string name="history_op_success_multiple">A művelet sikeresen befejeződött %1$d fájllal</string>
+    <string name="history_op_success_single">A művelet sikeresen befejeződött</string>
+    <string name="history_op_error">Nem tudtuk befejezni a műveletet</string>
+    <string name="history_multiple_files">%1$d fájlok</string>
+    <string name="history_failed">Sikertelen</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">Felhőszinkronizálás</string>
+    <string name="cloud_sync_subtitle">Csatlakoztatott eszközök</string>
+    <string name="cloud_sync_all_synced">Minden fájl szinkronizálva</string>
+    <string name="cloud_sync_syncing">Szinkronizálás…</string>
+    <string name="cloud_sync_pending">Szinkronizálás függőben</string>
+    <string name="cloud_sync_last_sync">Utolsó szinkronizálás: %1$s</string>
+    <string name="cloud_sync_never_synced">Soha nem szinkronizálva</string>
+    <string name="cloud_sync_recent_activity">Legutóbbi szinkronizálási tevékenység</string>
+    <string name="cloud_sync_no_files">Még nincsenek szinkronizált fájlok</string>
+    <string name="cloud_sync_synced_to_drive">Szinkronizálva a Drive-ra</string>
+    <string name="cloud_sync_pending_upload">Feltöltés függőben</string>
+    <string name="cloud_sync_sync_now">Szinkronizálás most</string>
+    <string name="cloud_sync_view_history">Szinkronizációs előzmények megtekintése</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d fájlok szinkronizálva</string>
+    <string name="cloud_sync_unlimited_files">%1$d fájlok szinkronizálva · Korlátlan</string>
+    <string name="cloud_sync_cta_title">Bármely platform, bármikor</string>
+    <string name="cloud_sync_cta_subtitle">A dokumentumaid mindenhová elkísérnek</string>
+    <string name="cloud_sync_files_label">%1$d fájlok</string>
+    <string name="settings_data_privacy">Adatok &amp; Adatvédelem</string>
+    <string name="settings_data_privacy_subtitle">Adatkezelés, fiók &amp; törlése</string>
+    <string name="settings_delete_account">Fiók törlése</string>
+    <string name="settings_delete_account_subtitle">Fiók és adatok végleges törlése</string>
+    <string name="delete_account_warning_title">Törli a fiókját?</string>
+    <string name="delete_account_warning_message">Ez véglegesen törli a fiókját és az összes kapcsolódó adatot, beleértve a vásárlási előzményeket és a felhőbe szinkronizált fájlokat. Ez a művelet nem vonható vissza, és a vásárlások később nem állíthatók vissza.</string>
+    <string name="delete_account_confirm_phrase_label">A folytatáshoz írja be a „törlés megerősítése” parancsot:</string>
+    <string name="delete_account_confirm_phrase">törlés megerősítése</string>
+    <string name="delete_account_button">Fiók törlése</string>
+    <string name="delete_account_error_reauth">Biztonsági okokból a fiók törléséhez nemrég kellett bejelentkeznie. Kérjük, jelentkezzen ki, jelentkezzen be újra, majd próbálja újra.</string>
+    <string name="delete_account_success">Fiók sikeresen törölve</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">Fájl &amp; Szinkronizálási beállítások</string>
+    <string name="sync_on_mobile_data_subtitle">Mobil adatforgalom használata felhőalapú szinkronizáláshoz</string>
+    <string name="drive_sync">Háttérszinkronizálás</string>
+    <string name="drive_sync_subtitle">Kedvencek szinkronizálása &amp; dokumentumok beolvasása a Drive-ra</string>
+    <string name="do_not_import_from_other_apps">Ne importáljon fájlokat más alkalmazásokból</string>
+    <string name="do_not_import_from_other_apps_subtitle">Megosztott fájlok ideiglenes megnyitása a könyvtárba mentés nélkül</string>
+    <string name="clear_imported_files">Importált fájlok törlése</string>
+    <string name="clear_imported_files_subtitle">Törölje az összes más alkalmazásokból másolt fájlt</string>
+    <string name="clear_imports_confirm_title">Importált fájlok törlése?</string>
+    <string name="clear_imports_confirm_message">Ez véglegesen törli az Importálások mappában található összes fájlt. A művelet nem vonható vissza.</string>
+    <string name="clear_imports_success">Importált fájlok törölve</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">Adatok &amp; Adatvédelem</string>
+    <string name="analytics_opt_out_title">Használati adatok küldése</string>
+    <string name="analytics_opt_out_subtitle">Ossz meg névtelen használati adatokat és hibajelentéseket a fejlesztővel az alkalmazás fejlesztése érdekében</string>
+    <string name="analytics_opt_out_disabled_note">Az analitika és a hibajelentések le vannak tiltva. Sem a Google-nek, sem a fejlesztőnek nem küldünk adatokat.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">Nem mentett változtatások</string>
+    <string name="unsaved_changes_tab_message">Ez a dokumentum nem mentett módosításokat tartalmaz. Menti a bezárás előtt?</string>
+    <string name="unsaved_changes_window_message">Egy vagy több dokumentumban nem mentett módosítások vannak. Elveti őket és kilép?</string>
+    <string name="discard">Eldobás</string>
+    <string name="discard_and_quit">Elvetés &amp; Kilépés</string>
+    <string name="close">Közeli</string>
+    <string name="remove_favorite">Kedvenc eltávolítása</string>
+    <string name="set_as_default_pdf_viewer">Beállítom alapértelmezett PDF-megjelenítőként?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">A Falcon PDF nem az alapértelmezett PDF-megjelenítő. Szeretné alapértelmezettként beállítani, hogy minden PDF-fájl a Falcon PDF-fel nyíljon meg?</string>
+    <string name="set_now">Beállítás most</string>
+    <string name="never">Soha</string>
+    <string name="later">Később</string>
+    <string name="set_default">Alapértelmezett beállítása</string>
+    <string name="default">Alapértelmezett</string>
+    <string name="version_">%1$s verzió</string>
+    <string name="sign_in_with_other_accounts">Bejelentkezés más fiókokkal</string>
+    <string name="upgrade">Frissítés</string>
+    <string name="view_plan">Terv megtekintése</string>
+    <string name="unlimited_sync_upto_5gb">Korlátlan szinkronizálás akár 5 GB-ig</string>
+    <string name="unlock_faster">Gyorsabb feloldás</string>
+    <string name="use_biometrics_instead_of_passwords">Használjon biometrikus azonosítókat jelszavak helyett.</string>
+    <string name="upgrade_to_premium">Prémium verzióra váltás</string>
+    <string name="unlock_pdf">PDF feloldása</string>
+    <string name="use__to_accessnthis_document">A %1$s gombbal érheted el ezt a dokumentumot\n</string>
+    <string name="open_with_password">Megnyitás jelszóval</string>
+    <string name="secure">Biztonságos</string>
+    <string name="loading_">%1$s betöltése ...</string>
+    <string name="failed_to_open_ebook">Nem sikerült megnyitni az e-könyvet</string>
+    <string name="properties">Tulajdonságok</string>
+    <string name="copy">Másolat</string>
+    <string name="highlight">Kiemelés</string>
+    <string name="clear_selection">Kijelölés törlése</string>
+    <string name="close_search">Keresés bezárása</string>
+    <string name="search_in_book">Keresés a könyvben...</string>
+    <string name="contents">Tartalomjegyzék</string>
+    <string name="table_of_contents">Tartalomjegyzék</string>
+    <string name="no_table_of_contents_available">Nincs elérhető tartalomjegyzék</string>
+    <string name="bookmarks">Könyvjelzők</string>
+    <string name="no_bookmarks_yet">Még nincsenek könyvjelzők</string>
+    <string name="page_">%1$s oldal</string>
+    <string name="no_results">Nincs találat</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">Beállítások</string>
+    <string name="decrease_font_size">Betűméret csökkentése</string>
+    <string name="increase_font_size">Betűméret növelése</string>
+    <string name="font">Betűtípus</string>
+    <string name="jump_to_page">Ugrás az oldalra</string>
+    <string name="enter_page_number_1">Írja be az oldalszámot (1–%1$s):</string>
+    <string name="go">Megy</string>
+    <string name="read_aloud">Hangos olvasás</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">Stop</string>
+    <string name="annotations__text_selection">Jegyzetek &amp; Szövegkijelölés</string>
+    <string name="text_selection_and_annotations_for_ebook">Hamarosan elérhető lesz az e-könyvek szövegkijelölése és jegyzetelése.</string>
+    <string name="longpress_on_text_to_select_highlight_or">Hosszan nyomd meg a szöveget a kiválasztáshoz, kiemeléshez vagy jegyzetek hozzáadásához.</string>
+    <string name="press_play_to_start_reading_aloud">Nyomd meg a lejátszás gombot a hangos olvasás megkezdéséhez...</string>
+    <string name="speed">Sebesség</string>
+    <string name="voice">Hang</string>
+    <string name="no_annotations_yet">Még nincsenek megjegyzések</string>
+    <string name="select_text_to_highlight_or_add_notes">Jelölje ki a kiemelendő szöveget vagy adjon hozzá jegyzeteket</string>
+    <string name="tools">Eszközök</string>
+    <string name="convert_to_images">Képekké konvertálás</string>
+    <string name="rename">Átnevezés</string>
+    <string name="print">Nyomtatás</string>
+    <string name="a">A−</string>
+    <string name="cover_of_">%1$s borítója</string>
+    <string name="no_cover_available">Nincs elérhető fedezet</string>
+    <string name="read_now">Olvassa el most</string>
+    <string name="about_the_book">A KÖNYVRŐL</string>
+    <string name="tags">CÍMKÉK</string>
+    <string name="publisher_info">KIADÓI INFORMÁCIÓK</string>
+    <string name="published_">Közzétéve: %1$s</string>
+    <string name="retry">Újrapróbálkozás</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Gyorsítótár törlése</string>
+    <string name="ebooks_library">E-könyvek könyvtára</string>
+    <string name="manage_your_digital_collection_across_mu">Kezelje digitális gyűjteményét több szolgáltatónál. Keressen, szűrjön és fedezzen fel új címeket a Google Könyvekben és az Open Libraryben.</string>
+    <string name="no_books_found">Nem találhatók könyvek</string>
+    <string name="no_results_for__try_a_different_search_t">Nincs találat a(z) „%1$s” kifejezésre. Próbáljon ki egy másik keresési kifejezést.</string>
+    <string name="downloadable_only">Csak letölthető</string>
+    <string name="file_unavailable">Fájl nem érhető el</string>
+    <string name="unavailable">Nem elérhető</string>
+    <string name="search_titles_authors_isbn">Címek, szerzők, ISBN-ek keresése...</string>
+    <string name="clear_search">Keresés törlése</string>
+    <string name="ebooks">e-könyvek</string>
+    <string name="read_pdf">PDF olvasása</string>
+    <string name="create_pdf">PDF létrehozása</string>
+    <string name="unlock_all_tools_and_remove_limits">Oldd fel az összes eszközt és távolítsd el a korlátokat</string>
+    <string name="ocr_scanning">OCR-szkennelés</string>
+    <string name="extract_text_from_scanned_documents">Szöveg kinyerése beolvasott dokumentumokból</string>
+    <string name="cloud_sync">Felhőszinkronizálás</string>
+    <string name="access_your_documents_anywhere">Dokumentumaihoz bárhonnan hozzáférhet</string>
+    <string name="annotate_pdfs">PDF-ek jegyzetelése</string>
+    <string name="cloud_backup">Felhőalapú biztonsági mentés</string>
+    <string name="continue_reading">Tovább olvasom</string>
+    <string name="pick_files">Fájlok kiválasztása</string>
+    <string name="browse">Böngészés</string>
+    <string name="did_you_know">Tudtad?</string>
+    <string name="home">Otthon</string>
+    <string name="your_documents_at_a_glance">Dokumentumai egy pillantásra</string>
+    <string name="pick_file">Fájl kiválasztása</string>
+    <string name="quick_actions">Gyors műveletek</string>
+    <string name="pro">PROFESSZIONÁLIS</string>
+    <string name="open_files">Fájlok megnyitása</string>
+    <string name="convert_to_pdf">PDF-be konvertálás</string>
+    <string name="close_drawer">Fiók bezárása</string>
+    <string name="close_file">Fájl bezárása</string>
+    <string name="office">Hivatal</string>
+    <string name="coming_soon">Hamarosan érkezik</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">Az e-könyv néző még nem érhető el ezen a platformon.</string>
+    <string name="set_as_default_viewer">Beállítás alapértelmezett nézőként</string>
+    <string name="free">Ingyenes</string>
+    <string name="v">%1$s</string>
+    <string name="downloading_update_">Frissítés letöltése... %1$s%</string>
+    <string name="more">Több</string>
+    <string name="font_size">Betűméret</string>
+    <string name="font_family">Betűcsalád</string>
+    <string name="scroll_direction">Görgetési irány</string>
+    <string name="navigation">Navigáció</string>
+    <string name="keep_screen_on">Képernyő bekapcsolva tartása</string>
+    <string name="volume_button_to_scroll">Hangerő gomb görgetéshez</string>
+    <string name="export_ebook_pages_as_image_files">E-könyv oldalak exportálása képfájlként</string>
+    <string name="access_millions_of_titles">Több millió címhez férhet hozzá.</string>
+    <string name="read_offline_with_natural_ai_voices">Olvass offline módban természetes mesterséges intelligencia hangokkal.</string>
+    <string name="advanced_ai_reader">Fejlett mesterséges intelligencia olvasó.</string>
+    <string name="experience_studioquality_narration">Tapasztald meg a stúdióminőségű narrációt.</string>
+    <string name="powerful_pdf_tools">Hatékony PDF eszközök.</string>
+    <string name="create_and_edit_documents_on_the_go">Dokumentumok létrehozása és szerkesztése útközben.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Frissítés Pro verzióra: Oldd fel az összes eszközt és távolítsd el a korlátozásokat</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">OCR szkennelés: Szöveg kinyerése a szkennelt dokumentumokból</string>
+    <string name="cloud_sync_access_your_documents_anywher">Felhőszinkronizálás: Dokumentumaihoz bárhonnan hozzáférhet</string>
+    <string name="scan">Letapogatás</string>
+    <string name="compress">Borogatás</string>
+    <string name="merge">Összeolvad</string>
+    <string name="convert">Megtérít</string>
+    <string name="highlight_underline_and_add_notes_to_you">Jelölje ki, húzza alá és adjon hozzá jegyzeteket a dokumentumaihoz</string>
+    <string name="keep_your_documents_safe_with_automatic_">Tartsa biztonságban dokumentumait automatikus felhőszinkronizálással</string>
+    <string name="indicator_color_">indikátor_szín_%1$s</string>
+    <string name="my_library">Saját könyvtár</string>
+    <string name="get_ebooks">E-könyvek beszerzése</string>
+    <string name="scan_document">Dokumentum beolvasása</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

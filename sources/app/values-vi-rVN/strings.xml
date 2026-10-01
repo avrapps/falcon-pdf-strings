@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Phép thuật PDF</string>
+    <string name="app_tagline">Bạn muốn làm gì?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">Lần sử dụng cuối cùng</string>
+    <string name="home_favorites">Mục yêu thích</string>
+    <string name="home_new_tool">Công cụ mới</string>
+    <string name="home_featured">NỔI BẬT</string>
+    <string name="home_scan_to_pdf">Quét thành PDF</string>
+    <string name="home_scan_description">Biến tài liệu giấy thành bản kỹ thuật số hoàn hảo ngay lập tức</string>
+    <string name="home_start_scanning">Bắt đầu quét</string>
+    <string name="home_all_tools">Tất cả các công cụ</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">Công cụ PDF</string>
+    <string name="image_tools">Công cụ hình ảnh</string>
+    <string name="tools_split">Tách ra</string>
+    <string name="tools_split_description">Trích xuất các trang</string>
+    <string name="tools_rotate">Quay</string>
+    <string name="tools_rotate_description">Sửa hướng</string>
+    <string name="tools_delete_pages">Xóa trang</string>
+    <string name="tools_delete_pages_description">Loại bỏ những thứ không mong muốn</string>
+    <string name="tools_convert">Chuyển thành</string>
+    <string name="tools_convert_description">Đến/Từ hình ảnh</string>
+    <string name="tools_sign">Dấu hiệu</string>
+    <string name="tools_sign_description">Thêm chữ ký</string>
+    <string name="tools_protect">Bảo vệ</string>
+    <string name="tools_protect_description">Bảo mật mật khẩu</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">Trình xem PDF</string>
+    <string name="pdf_viewer_page_info">Trang %1$d trên %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">Máy quét tài liệu</string>
+    <string name="scanner_capture">Chiếm lấy</string>
+    <string name="scanner_retake">Thi lại</string>
+    <string name="scanner_save">Cứu</string>
+    <!-- Navigation -->
+    <string name="nav_back">Quay lại</string>
+    <string name="nav_settings">Cài đặt</string>
+    <string name="nav_more_options">Nhiều tùy chọn hơn</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_library">Thư viện</string>
+    <string name="nav_scan">Quét</string>
+    <string name="nav_tools">Công cụ</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">Duyệt tệp</string>
+    <string name="browse_files_subtitle">Lưu trữ &amp; Tệp trên đám mây</string>
+    <string name="show_hidden_files">Hiển thị các tệp ẩn</string>
+    <string name="hide_hidden_files">Ẩn các tệp tin ẩn</string>
+    <string name="refresh_storage">Làm mới bộ nhớ</string>
+    <string name="no_storage_available">Không có dung lượng lưu trữ.</string>
+    <string name="no_files_found">Không tìm thấy tệp nào</string>
+    <string name="add_files">Thêm %1$d Tệp</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">Cần có quyền truy cập bộ nhớ</string>
+    <string name="permission_storage_message">Ứng dụng này cần quyền truy cập vào bộ nhớ thiết bị của bạn để duyệt và mở các tệp PDF. Vui lòng cấp quyền truy cập bộ nhớ để tiếp tục.</string>
+    <string name="permission_grant">Cấp quyền</string>
+    <!-- Common Actions -->
+    <string name="action_open">Mở</string>
+    <string name="action_save">Cứu</string>
+    <string name="action_share">Chia sẻ</string>
+    <string name="action_delete">Xóa bỏ</string>
+    <string name="action_cancel">Hủy bỏ</string>
+    <string name="action_confirm">Xác nhận</string>
+    <string name="action_rename">Đổi tên</string>
+    <string name="action_print">In</string>
+    <string name="action_favorite">Yêu thích</string>
+    <string name="action_unfavorite">Không được ưa thích</string>
+    <!-- Document Actions -->
+    <string name="document_share">Chia sẻ tài liệu</string>
+    <string name="document_rename">Đổi tên tài liệu</string>
+    <string name="document_delete">Xóa tài liệu</string>
+    <string name="document_print">In tài liệu</string>
+    <string name="document_favorite">Thêm vào mục yêu thích</string>
+    <string name="document_unfavorite">Xóa khỏi mục yêu thích</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">Tài liệu đã được chia sẻ thành công</string>
+    <string name="document_share_failed">Không thể chia sẻ tài liệu</string>
+    <string name="document_renamed_success">Đã đổi tên tài liệu thành công.</string>
+    <string name="document_rename_failed">Không thể đổi tên tài liệu.</string>
+    <string name="document_deleted_success">Tài liệu đã được xóa thành công</string>
+    <string name="document_delete_failed">Không thể xóa tài liệu</string>
+    <string name="document_print_opened">Tài liệu được mở bằng trình xem PDF mặc định. Sử dụng chức năng in của trình xem để in.</string>
+    <string name="document_print_failed">Không thể in tài liệu</string>
+    <string name="document_added_to_favorites">Đã thêm vào mục yêu thích</string>
+    <string name="document_removed_from_favorites">Đã xóa khỏi mục yêu thích</string>
+    <string name="document_favorite_failed">Không thể cập nhật trạng thái yêu thích</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">Đổi tên tài liệu</string>
+    <string name="dialog_rename_hint">Nhập tên mới</string>
+    <string name="dialog_rename_empty_error">Tên tài liệu không được để trống.</string>
+    <string name="dialog_delete_title">Xóa tài liệu</string>
+    <string name="dialog_delete_file_message">Thao tác này sẽ xóa vĩnh viễn tệp tin.\n\nXóa %1$s?</string>
+    <string name="dialog_delete_uri_message">Chỉ xóa khỏi ứng dụng. Tệp gốc không thay đổi.\n\nXóa %1$s khỏi ứng dụng?</string>
+    <string name="dialog_delete_confirm">Xóa bỏ</string>
+    <string name="dialog_remove_confirm">Di dời</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">Việc đổi tên chỉ diễn ra bên trong ứng dụng. Tệp gốc không thay đổi.</string>
+    <string name="notice_delete_uri_only">Đã xóa khỏi ứng dụng. Tệp gốc không thay đổi.</string>
+    <string name="notice_file_exists_error">Tệp có tên này đã tồn tại.</string>
+    <string name="notice_file_not_found_error">Không tìm thấy tệp</string>
+    <string name="notice_no_active_document">Không có tài liệu nào đang hoạt động</string>
+    <string name="notice_document_path_unavailable">Đường dẫn tệp tài liệu không khả dụng</string>
+    <!-- States -->
+    <string name="state_loading">Đang tải...</string>
+    <string name="state_empty">Không tìm thấy mục nào</string>
+    <string name="state_error">Đã xảy ra lỗi</string>
+    <string name="state_retry">Thử lại</string>
+    <!-- Errors -->
+    <string name="error_network">Kết nối mạng thất bại</string>
+    <string name="error_file_not_found">Không tìm thấy tệp</string>
+    <string name="error_permission_denied">Quyền truy cập bị từ chối</string>
+    <string name="error_invalid_file">Định dạng tệp không hợp lệ</string>
+    <string name="error_password_required">Cần có mật khẩu</string>
+    <string name="error_incorrect_password">Mật khẩu không chính xác</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">Được bảo vệ bằng mật khẩu</string>
+    <string name="password_protected_message">Tệp này yêu cầu mật khẩu để mở. Vui lòng nhập mật khẩu bên dưới.</string>
+    <string name="password_label">Mật khẩu</string>
+    <string name="password_placeholder">Nhập mật khẩu</string>
+    <string name="password_unlock">Mở khóa</string>
+    <string name="password_show">Hiển thị mật khẩu</string>
+    <string name="password_hide">Ẩn mật khẩu</string>
+    <!-- Theme -->
+    <string name="theme_light">Ánh sáng</string>
+    <string name="theme_dark">Tối tăm</string>
+    <string name="theme_system">Hệ thống</string>
+    <string name="theme_adaptive">Thích ứng</string>
+    <string name="theme_custom">Phong tục</string>
+    <!-- Settings -->
+    <string name="settings_title">Tùy chọn</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">Tài khoản &amp; Đồng bộ</string>
+    <string name="settings_category_sync_subtitle">Quản lý tài khoản của bạn, đồng bộ hóa &amp; quyền riêng tư</string>
+    <string name="settings_category_appearance_title">Vẻ bề ngoài</string>
+    <string name="settings_category_appearance_subtitle">Tùy chỉnh giao diện ứng dụng &amp; cảm giác</string>
+    <string name="settings_category_pdf_reader_title">Trình đọc PDF</string>
+    <string name="settings_category_pdf_reader_subtitle">Trải nghiệm đọc mặc định của trình xem &amp;</string>
+    <string name="settings_category_help_title">Trợ giúp &amp; Hỗ trợ</string>
+    <string name="settings_category_help_subtitle">Tài liệu &amp; liên hệ</string>
+    <string name="settings_category_general_title">Tổng quan</string>
+    <string name="settings_category_general_subtitle">Thông tin ứng dụng Ngôn ngữ &amp;</string>
+    <string name="settings_theme_section">Chủ đề</string>
+    <string name="settings_theme_description">Chọn chủ đề bạn thích</string>
+    <string name="settings_accent_color">MÀU NHẤN</string>
+    <string name="settings_custom_colors">Màu sắc tùy chỉnh</string>
+    <string name="settings_primary_color">Màu cơ bản</string>
+    <string name="settings_background_color">Màu nền</string>
+    <string name="settings_surface_color">Màu bề mặt</string>
+    <string name="settings_reset_colors">Khôi phục về mặc định</string>
+    <string name="settings_adaptive_note">Màu sắc thích ứng Material You (Android 12 trở lên)</string>
+    <string name="settings_app_section">Cài đặt ứng dụng</string>
+    <string name="settings_notifications">Thông báo</string>
+    <string name="settings_notifications_description">Nhận thông báo ứng dụng</string>
+    <string name="settings_auto_backup">Sao lưu tự động</string>
+    <string name="settings_auto_backup_description">Tự động sao lưu tài liệu</string>
+    <string name="settings_change_color">Thay đổi màu sắc</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">Tài liệu PDF của bạn sẽ hiển thị ở đây</string>
+    <string name="scan_description">Quét tài liệu thành PDF</string>
+    <string name="tools_description">Công cụ chỉnh sửa và thao tác PDF</string>
+    <string name="home_description">Sử dụng thanh điều hướng phía dưới để truy cập các tính năng.</string>
+    <!-- Sort Options -->
+    <string name="sort_name">Tên</string>
+    <string name="sort_date">Ngày</string>
+    <string name="sort_size">Kích cỡ</string>
+    <string name="sort_option_name">Tên</string>
+    <string name="sort_option_last_opened">Lần cuối mở</string>
+    <string name="sort_option_last_modified">Lần sửa đổi cuối cùng</string>
+    <string name="sort_option_file_size">Kích thước tệp</string>
+    <!-- View Types -->
+    <string name="view_type_list">Chế độ xem danh sách</string>
+    <string name="view_type_table">Chế độ xem dạng bảng</string>
+    <string name="view_type_grid">Chế độ xem lưới</string>
+    <!-- File Properties -->
+    <string name="file_name">Tên tệp</string>
+    <string name="date_modified">Ngày sửa đổi</string>
+    <string name="file_size">Kích cỡ</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">Chưa bắt đầu</string>
+    <string name="file_status_completed">Hoàn thành</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">Tài liệu PDF</string>
+    <string name="document_type_word">Tài liệu Word</string>
+    <string name="document_type_excel">Bảng tính Excel</string>
+    <string name="document_type_image">Tệp hình ảnh</string>
+    <string name="document_type_other">Tài liệu</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">Tất cả các tệp</string>
+    <string name="filter_recent">Gần đây</string>
+    <string name="filter_pdfs">Tệp PDF</string>
+    <string name="filter_images">Hình ảnh</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">Trang chủ</string>
+    <string name="browse_tab">Duyệt</string>
+    <string name="starred_tab">Đã đóng dấu sao</string>
+    <string name="settings_tab">Cài đặt</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">Chuyển đổi chủ đề</string>
+    <string name="accessibility_menu">Thực đơn</string>
+    <string name="accessibility_close">Đóng</string>
+    <string name="accessibility_color_picker">Công cụ chọn màu</string>
+    <!-- Library Screen -->
+    <string name="library_title">Thư viện</string>
+    <string name="library_subtitle">Quản lý tập tin, Tập tin gần đây &amp; Mục yêu thích</string>
+    <string name="library_search_placeholder">Tìm kiếm tập tin...</string>
+    <string name="library_selected_count">%1$d đã chọn</string>
+    <string name="library_open_from_device">Mở từ thiết bị\n</string>
+    <string name="library_browse_files">Duyệt\nTệp</string>
+    <string name="library_action_open">Mở</string>
+    <string name="library_action_share">Chia sẻ</string>
+    <string name="library_action_remove">Di dời</string>
+    <string name="library_action_delete">Xóa bỏ</string>
+    <string name="library_clear_search">Xóa tìm kiếm</string>
+    <string name="library_close_search">Đóng tìm kiếm</string>
+    <string name="library_select_all">Chọn tất cả các tệp</string>
+    <string name="library_exit_multiselect">Thoát chế độ chọn nhiều mục</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">Trợ giúp &amp; Hỗ trợ</string>
+    <string name="help_support_subtitle">Câu hỏi thường gặp, Liên hệ &amp; Pháp lý</string>
+    <string name="settings_pdf_subtitle">Cuộn, Xem &amp; Bố cục</string>
+    <string name="help_header_title">Chúng tôi có thể giúp gì?</string>
+    <string name="help_header_subtitle">Our team is here to ensure you have the\nbest PDF experience.</string>
+    <string name="help_contact_us">Liên hệ với chúng tôi</string>
+    <string name="help_contact_subtitle">Hãy liên hệ với bộ phận hỗ trợ</string>
+    <string name="help_faq">Câu hỏi thường gặp</string>
+    <string name="help_faq_subtitle">Giải đáp các câu hỏi thường gặp</string>
+    <string name="help_privacy_policy">Chính sách bảo mật</string>
+    <string name="help_privacy_subtitle">Cách chúng tôi bảo vệ dữ liệu của bạn</string>
+    <string name="help_terms_service">Điều khoản dịch vụ</string>
+    <string name="help_terms_subtitle">Quy tắc ứng dụng</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">Đồng bộ dữ liệu trên thiết bị di động</string>
+    <string name="background_sync">Đồng bộ hóa nền</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">Cài đặt trình đọc PDF</string>
+    <string name="pdf_settings_coming_soon">Sắp ra mắt</string>
+    <string name="pdf_settings_description">Cấu hình hành vi cuộn, chế độ xem và tùy chọn đọc.</string>
+    <!-- General Settings -->
+    <string name="settings_language">Ngôn ngữ</string>
+    <string name="settings_pdf_reader">Cài đặt trình đọc PDF</string>
+    <string name="settings_help_support">Trợ giúp &amp; Hỗ trợ</string>
+    <string name="settings_whats_new">Có gì mới?</string>
+    <string name="settings_download_desktop">Cài đặt trên thiết bị khác</string>
+    <string name="settings_rate_app">Đánh giá ứng dụng</string>
+    <string name="play_store_not_found">Không tìm thấy Play Store trên thiết bị này.</string>
+    <string name="settings_set_as_default">Đặt làm trình xem PDF mặc định</string>
+    <string name="settings_set_as_default_subtitle">Ứng dụng này mặc định mở các tệp PDF bằng ứng dụng này.</string>
+    <string name="settings_default_pdf_instructions_title">Cách thiết lập làm mặc định</string>
+    <string name="settings_default_pdf_ok">Hiểu rồi</string>
+    <string name="settings_default_app_hint">Không hiệu quả?</string>
+    <string name="settings_default_app_hint_learn_more">Tìm hiểu thêm</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">Ngôn ngữ</string>
+    <string name="language_search_placeholder">Ngôn ngữ tìm kiếm...</string>
+    <!-- Common UI -->
+    <string name="support">Ủng hộ</string>
+    <string name="language_english">Tiếng Anh</string>
+    <string name="language_hindi">हिंदी</string>
+    <string name="language_spanish">Tiếng Tây Ban Nha</string>
+    <string name="language_french">Tiếng Pháp</string>
+    <string name="language_german">tiếng Đức</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">Tiếng Bồ Đào Nha</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">DIỆN MẠO ỨNG DỤNG</string>
+    <string name="theme">CHỦ ĐỀ</string>
+    <string name="general">TỔNG QUAN</string>
+    <string name="new">MỚI</string>
+    <string name="navigate">Điều hướng</string>
+    <string name="download">Tải xuống</string>
+    <string name="falcon_pdf">Falcon PDF</string>
+    <string name="excellence_in_every_pixel">Sự hoàn hảo đến từng pixel</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">ÁP DỤNG THAY ĐỔI</string>
+    <string name="apply">Áp dụng</string>
+    <string name="selected">Đã chọn</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">Cài đặt đồng bộ</string>
+    <string name="autosync_on_wifi">Tự động đồng bộ hóa qua WiFi</string>
+    <string name="sync_reading_progress">Đồng bộ tiến độ đọc</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">Tên tài liệu</string>
+    <string name="name_cannot_be_empty">Tên không được để trống.</string>
+    <string name="str__failed">%1$s Thất bại</string>
+    <string name="ok">ĐƯỢC RỒI</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">Kế hoạch nâng cấp - Kế hoạch hiện tại: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">Kéo thả để mở tệp</string>
+    <string name="release_to_import_and_open_pdf">Phát hành bản quyền để nhập và mở các tệp PDF.</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">Di dời</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF</string>
+    <string name="images">Hình ảnh</string>
+    <string name="filter_all_types">Tất cả các tệp</string>
+    <string name="favorites">Tệp yêu thích</string>
+    <string name="recent">Gần đây</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">Tìm kiếm tài liệu...</string>
+    <string name="voice_search">Tìm kiếm bằng giọng nói</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">Tệp gần đây</string>
+    <string name="loading_recent_files">Đang tải các tập tin gần đây...</string>
+    <string name="no_recent_files">Không có tệp tin gần đây</string>
+    <string name="no_favorites">Không có sự ưu tiên nào</string>
+    <string name="mark_files_as_favorite_to_see_them_here">Đánh dấu các tệp là tệp yêu thích để xem chúng ở đây</string>
+    <string name="open_some_pdf_files_to_see_the">Mở một số tệp PDF để xem chúng ở đây.</string>
+    <string name="status">Trạng thái</string>
+    <string name="actions">Hành động</string>
+    <string name="select_all">Chọn tất cả</string>
+    <string name="enter_multiselect_mode">Vào chế độ chọn nhiều mục</string>
+    <string name="sorted_ascending">Sắp xếp tăng dần</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">Lưu trữ: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">Thêm tệp %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">Thay đổi kiểu hiển thị</string>
+    <string name="filter_">Bộ lọc: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">Đang tải PDF...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">Đăng nhập để đồng bộ hóa</string>
+    <string name="protect_your_library_files">Bảo vệ các tệp thư viện của bạn</string>
+    <string name="sign_in">Đăng nhập</string>
+    <string name="sign_out">Đăng xuất</string>
+    <string name="sign_in_dialog_title">Đăng nhập vào Falcon PDF</string>
+    <string name="sign_in_dialog_subtitle">Thư viện PDF của bạn, mọi lúc mọi nơi.</string>
+    <string name="sign_in_with_google">Đăng nhập bằng Google</string>
+    <string name="sign_in_with_apple">Đăng nhập bằng Apple</string>
+    <string name="apple_user_drive_unavailable">Tính năng đồng bộ Google Drive không khả dụng khi đăng nhập bằng tài khoản Apple.</string>
+    <string name="apple_user_link_google">Liên kết tài khoản Google để đồng bộ hóa Drive</string>
+    <string name="apple_user_sync_info">Để bật tính năng đồng bộ hóa đám mây, hãy liên kết tài khoản Google.</string>
+    <string name="link_google_account">Liên kết tài khoản Google</string>
+    <string name="signed_in_successfully">Đăng nhập thành công</string>
+    <string name="signed_out_successfully">Đăng xuất thành công</string>
+    <string name="sync_disabled_free">Tính năng đồng bộ hóa đã bị vô hiệu hóa đối với tài khoản miễn phí.</string>
+    <string name="storage_disabled_grant_access">Chức năng lưu trữ đã bị vô hiệu hóa. Vui lòng cấp quyền truy cập ổ đĩa để bắt đầu.</string>
+    <string name="upgrade_to_pro">Nâng cấp lên phiên bản Pro</string>
+    <string name="grant_drive_access">Lối vào Grant Drive</string>
+    <string name="files_synced">%1$d/%2$d Tệp đã được đồng bộ hóa</string>
+    <string name="synced_count">%1$d Đã đồng bộ</string>
+    <string name="unlimited_sync_active">ĐỒNG BỘ KHÔNG GIỚI HẠN</string>
+    <string name="missing_drive_permissions">Thiếu quyền truy cập Drive. Quá trình đồng bộ hiện đang bị chặn.</string>
+    <string name="drive_access_revoked">Quyền truy cập ổ đĩa đã bị thu hồi. Vui lòng kết nối lại để tiếp tục đồng bộ hóa.</string>
+    <string name="upgrade_premium">Nâng cấp lên hạng Cao cấp</string>
+    <string name="manage_account">Quản lý tài khoản</string>
+    <string name="sync_now">Đồng bộ ngay</string>
+    <string name="tier_free">MIỄN PHÍ</string>
+    <string name="tier_pro">CHUYÊN NGHIỆP</string>
+    <string name="tier_premium">PHẦN THƯỞNG</string>
+    <string name="status_paused">TẠM DỪNG</string>
+    <!-- Common -->
+    <string name="navigate_back">Quay lại</string>
+    <string name="dismiss">Miễn nhiệm</string>
+    <string name="cancel">Hủy bỏ</string>
+    <string name="back">Mặt sau</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="more_actions">Thêm hành động</string>
+    <string name="share">Chia sẻ</string>
+    <string name="delete">Xóa bỏ</string>
+    <string name="remove_from_recents">Xóa khỏi mục gần đây</string>
+    <string name="open">Mở</string>
+    <string name="all">Tất cả</string>
+    <string name="sort_by_">Sắp xếp theo %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Đồng bộ hóa Google Drive</string>
+    <string name="syncing">Đang đồng bộ hóa...</string>
+    <string name="sync_completed">Đồng bộ hóa hoàn tất</string>
+    <string name="sync_failed">Đồng bộ hóa thất bại</string>
+    <string name="sync_limit_exceeded">Đã vượt quá giới hạn đồng bộ. Gói %s của bạn cho phép %d tập tin.</string>
+    <string name="sync_no_drive_access">Không thể truy cập Google Drive.</string>
+    <string name="sync_network_unavailable">Mạng không khả dụng</string>
+    <string name="sync_last_sync">Lần đồng bộ cuối: %s</string>
+    <string name="sync_total_files">Tổng cộng</string>
+    <string name="sync_synced_files">Đã đồng bộ</string>
+    <string name="sync_failed_files">Thất bại</string>
+    <string name="sync_conflict_files">Xung đột</string>
+    <string name="sync_add_to_favorites">Thêm vào mục yêu thích</string>
+    <string name="sync_remove_from_favorites">Xóa khỏi mục yêu thích</string>
+    <string name="sync_conflict_title">Xung đột đồng bộ</string>
+    <string name="sync_conflict_message">Các tệp sau đây có xung đột cần được giải quyết:</string>
+    <string name="sync_conflict_explanation">Xung đột xảy ra khi cả phiên bản cục bộ và phiên bản từ xa đều bị sửa đổi.</string>
+    <string name="sync_plan_limit">Đồng bộ: %d/%d</string>
+    <string name="sync_plan_limit_reached">Đã đạt giới hạn</string>
+    <string name="sync_plan_unlimited">Đồng bộ hóa không giới hạn</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">Nhảy</string>
+    <string name="welcome_next">Kế tiếp</string>
+    <string name="welcome_get_started">Bắt đầu</string>
+    <string name="welcome_sign_in_get_started">Đăng nhập &amp; Bắt đầu</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Đọc bất kỳ tài liệu nào&lt;/b&gt; Ngay lập tức</string>
+    <string name="welcome_slide1_description">Mở và quản lý hơn 10 định dạng tài liệu, bao gồm PDF, DOC, EPUB, MOBI.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Đọc PDF, sách điện tử,&lt;/b&gt; và tài liệu văn phòng ở cùng một nơi</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Yêu thích&lt;/b&gt; tài liệu và truy cập chúng trên nhiều thiết bị</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;Bình luận,&lt;/b&gt; đánh dấu và cộng tác dễ dàng</string>
+    <string name="welcome_slide1_footer">Trình đọc tài liệu đa năng của bạn</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;Chỉnh sửa, Quét và Sắp xếp&lt;/b&gt; PDF</string>
+    <string name="welcome_slide2_description">Tất cả những gì bạn cần để tạo, chỉnh sửa và quản lý PDF đều có trong một bộ công cụ mạnh mẽ.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;Chỉnh sửa văn bản,&lt;/b&gt; chú thích, tô sáng và điền vào biểu mẫu</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Quét tài liệu&lt;/b&gt; và chuyển chúng thành PDF ngay lập tức</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;Hơn 30 công cụ&lt;/b&gt; bao gồm hợp nhất, chuyển đổi, nén và bảo mật</string>
+    <string name="welcome_slide2_footer">Không gian làm việc PDF đa năng của bạn</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;Trí tuệ nhân tạo hiểu&lt;/b&gt; Tài liệu của bạn</string>
+    <string name="welcome_slide3_description">Tiết kiệm hàng giờ với trí tuệ nhân tạo (AI) giúp bạn đọc và phân tích tài liệu.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Tóm tắt&lt;/b&gt; tài liệu dài trong vài giây</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; quét các trang và dịch văn bản ngay lập tức</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Nghe&lt;/b&gt; tài liệu với tính năng đọc to tích hợp sẵn</string>
+    <string name="welcome_slide3_footer">Không quảng cáo. Chỉ tập trung vào năng suất.</string>
+    <string name="grace">DUYÊN DÁNG</string>
+    <string name="unable_to_verify_subscription_limited_ac">Không thể xác minh đăng ký. Quyền truy cập bị hạn chế cho đến khi kết nối được khôi phục.</string>
+    <string name="retry_verification">Thử lại xác minh</string>
+    <string name="guest_state">Quốc gia khách mời</string>
+    <string name="free_tier">Gói miễn phí</string>
+    <string name="free_tier__locked">Gói miễn phí - Bị khóa</string>
+    <string name="pro_tier">Cấp độ chuyên nghiệp</string>
+    <string name="pro_tier__restricted">Gói chuyên nghiệp - Hạn chế</string>
+    <string name="premium_tier">Hạng Cao Cấp</string>
+    <string name="premium_tier__error">Gói cao cấp - Lỗi</string>
+    <string name="refresh_plan_status">Làm mới trạng thái kế hoạch</string>
+    <string name="user_avatar">Ảnh đại diện người dùng</string>
+    <string name="debug_tools">Công cụ gỡ lỗi</string>
+    <string name="authentication__drive">Xác thực &amp; Ổ đĩa</string>
+    <string name="auth_state">Trạng thái xác thực</string>
+    <string name="revoke_drive_access">Thu hồi quyền truy cập ổ đĩa</string>
+    <string name="image">Hình ảnh</string>
+    <string name="thumbnail">Ảnh thu nhỏ</string>
+    <string name="manage_preferences">Quản lý tùy chọn</string>
+    <string name="tools_history">Lịch sử công cụ</string>
+    <string name="manage_recent_logs">Quản lý nhật ký gần đây</string>
+    <string name="more_options">Nhiều tùy chọn hơn</string>
+    <string name="clear_all_history">Xóa toàn bộ lịch sử</string>
+    <string name="no_history_yet">Chưa có lịch sử nào</string>
+    <string name="your_pdf_tool_operations_will_appear_her">Các thao tác của bạn với công cụ PDF sẽ hiển thị ở đây.</string>
+    <string name="view">Xem</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">Đã lưu %1$s</string>
+    <string name="history_status_processing">Xử lý</string>
+    <string name="history_status_succeeded">THÀNH CÔNG</string>
+    <string name="history_status_failed">THẤT BẠI</string>
+    <string name="history_status_processing_upper">XỬ LÝ</string>
+    <string name="history_unknown_files">Tệp không xác định</string>
+    <string name="history_op_complete">%1$s Hoàn tất!</string>
+    <string name="history_op_failed">%1$s Thất bại</string>
+    <string name="history_op_success_multiple">Thao tác đã hoàn tất thành công với %1$d tập tin</string>
+    <string name="history_op_success_single">Hoạt động đã hoàn tất thành công.</string>
+    <string name="history_op_error">Chúng tôi không thể hoàn thành ca phẫu thuật.</string>
+    <string name="history_multiple_files">%1$d tập tin</string>
+    <string name="history_failed">Thất bại</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">Đồng bộ hóa đám mây</string>
+    <string name="cloud_sync_subtitle">Thiết bị được kết nối</string>
+    <string name="cloud_sync_all_synced">Tất cả các tệp đã được đồng bộ hóa</string>
+    <string name="cloud_sync_syncing">Đang đồng bộ…</string>
+    <string name="cloud_sync_pending">Đang chờ đồng bộ</string>
+    <string name="cloud_sync_last_sync">Lần đồng bộ cuối: %1$s</string>
+    <string name="cloud_sync_never_synced">Chưa bao giờ đồng bộ</string>
+    <string name="cloud_sync_recent_activity">Hoạt động đồng bộ gần đây</string>
+    <string name="cloud_sync_no_files">Chưa có tệp nào được đồng bộ hóa.</string>
+    <string name="cloud_sync_synced_to_drive">Đã đồng bộ với ổ đĩa</string>
+    <string name="cloud_sync_pending_upload">Đang chờ tải lên</string>
+    <string name="cloud_sync_sync_now">Đồng bộ ngay</string>
+    <string name="cloud_sync_view_history">Xem lịch sử đồng bộ</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d tập tin đã được đồng bộ hóa</string>
+    <string name="cloud_sync_unlimited_files">%1$d tập tin đã được đồng bộ hóa · Không giới hạn</string>
+    <string name="cloud_sync_cta_title">Mọi nền tảng, mọi lúc</string>
+    <string name="cloud_sync_cta_subtitle">Tài liệu của bạn sẽ theo bạn mọi lúc mọi nơi.</string>
+    <string name="cloud_sync_files_label">%1$d tập tin</string>
+    <string name="settings_data_privacy">Dữ liệu &amp; Quyền riêng tư</string>
+    <string name="settings_data_privacy_subtitle">Quản lý dữ liệu, xóa tài khoản &amp;</string>
+    <string name="settings_delete_account">Xóa tài khoản</string>
+    <string name="settings_delete_account_subtitle">Xóa vĩnh viễn tài khoản và dữ liệu của bạn</string>
+    <string name="delete_account_warning_title">Bạn muốn xóa tài khoản?</string>
+    <string name="delete_account_warning_message">Thao tác này sẽ xóa vĩnh viễn tài khoản của bạn và tất cả dữ liệu liên quan, bao gồm lịch sử mua hàng và các tệp được đồng bộ hóa trên đám mây. Hành động này không thể hoàn tác và các giao dịch mua hàng không thể được khôi phục sau này.</string>
+    <string name="delete_account_confirm_phrase_label">Nhập 'xác nhận xóa' để tiếp tục:</string>
+    <string name="delete_account_confirm_phrase">xác nhận xóa</string>
+    <string name="delete_account_button">Xóa tài khoản</string>
+    <string name="delete_account_error_reauth">Vì lý do bảo mật, bạn phải đăng nhập gần đây để xóa tài khoản. Vui lòng đăng xuất và đăng nhập lại, sau đó thử lại.</string>
+    <string name="delete_account_success">Tài khoản đã bị xóa thành công</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">Tệp &amp; Cài đặt đồng bộ</string>
+    <string name="sync_on_mobile_data_subtitle">Sử dụng dữ liệu di động để đồng bộ hóa đám mây</string>
+    <string name="drive_sync">Đồng bộ hóa nền</string>
+    <string name="drive_sync_subtitle">Đồng bộ hóa mục yêu thích &amp; quét tài liệu vào Drive</string>
+    <string name="do_not_import_from_other_apps">Không nhập tập tin từ các ứng dụng khác.</string>
+    <string name="do_not_import_from_other_apps_subtitle">Mở tạm thời các tệp được chia sẻ mà không lưu vào thư viện.</string>
+    <string name="clear_imported_files">Xóa các tệp đã nhập</string>
+    <string name="clear_imported_files_subtitle">Xóa tất cả các tệp đã sao chép từ các ứng dụng khác.</string>
+    <string name="clear_imports_confirm_title">Xóa các tập tin đã nhập?</string>
+    <string name="clear_imports_confirm_message">Thao tác này sẽ xóa vĩnh viễn tất cả các tệp trong thư mục Imports của bạn. Không thể hoàn tác.</string>
+    <string name="clear_imports_success">Các tệp đã nhập đã được xóa</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">Dữ liệu &amp; Quyền riêng tư</string>
+    <string name="analytics_opt_out_title">Gửi dữ liệu sử dụng</string>
+    <string name="analytics_opt_out_subtitle">Chia sẻ dữ liệu sử dụng ẩn danh và báo cáo lỗi với nhà phát triển để giúp cải thiện ứng dụng.</string>
+    <string name="analytics_opt_out_disabled_note">Chức năng phân tích và báo cáo lỗi đã bị vô hiệu hóa. Không có dữ liệu nào được gửi đến Google hoặc nhà phát triển.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">Thay đổi chưa được lưu</string>
+    <string name="unsaved_changes_tab_message">Tài liệu này có những thay đổi chưa được lưu. Bạn có muốn lưu trước khi đóng không?</string>
+    <string name="unsaved_changes_window_message">Bạn có những thay đổi chưa được lưu trong một hoặc nhiều tài liệu. Bạn có muốn hủy bỏ chúng và thoát không?</string>
+    <string name="discard">Loại bỏ</string>
+    <string name="discard_and_quit">Bỏ qua &amp; Thoát</string>
+    <string name="close">Đóng</string>
+    <string name="remove_favorite">Xóa mục yêu thích</string>
+    <string name="set_as_default_pdf_viewer">Đặt làm trình xem PDF mặc định?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF hiện không phải là trình xem PDF mặc định của bạn. Bạn có muốn đặt nó làm trình xem mặc định để tất cả các tệp PDF đều được mở bằng Falcon PDF không?</string>
+    <string name="set_now">Đặt ngay</string>
+    <string name="never">Không bao giờ</string>
+    <string name="later">Sau đó</string>
+    <string name="set_default">Đặt mặc định</string>
+    <string name="default">Mặc định</string>
+    <string name="version_">Phiên bản %1$s</string>
+    <string name="sign_in_with_other_accounts">Đăng nhập bằng tài khoản khác</string>
+    <string name="upgrade">Nâng cấp</string>
+    <string name="view_plan">Xem sơ đồ</string>
+    <string name="unlimited_sync_upto_5gb">Đồng bộ hóa không giới hạn, tối đa 5GB.</string>
+    <string name="unlock_faster">Mở khóa nhanh hơn</string>
+    <string name="use_biometrics_instead_of_passwords">Hãy sử dụng sinh trắc học thay vì mật khẩu.</string>
+    <string name="upgrade_to_premium">Nâng cấp lên gói Premium</string>
+    <string name="unlock_pdf">Mở khóa PDF</string>
+    <string name="use__to_accessnthis_document">Sử dụng %1$s để truy cập\ntài liệu này</string>
+    <string name="open_with_password">Mở bằng mật khẩu</string>
+    <string name="secure">Chắc chắn</string>
+    <string name="loading_">Đang tải %1$s...</string>
+    <string name="failed_to_open_ebook">Không thể mở sách điện tử</string>
+    <string name="properties">Của cải</string>
+    <string name="copy">Sao chép</string>
+    <string name="highlight">Điểm nổi bật</string>
+    <string name="clear_selection">Xóa lựa chọn</string>
+    <string name="close_search">Đóng tìm kiếm</string>
+    <string name="search_in_book">Tìm kiếm trong sách...</string>
+    <string name="contents">Nội dung</string>
+    <string name="table_of_contents">Mục lục</string>
+    <string name="no_table_of_contents_available">Không có mục lục.</string>
+    <string name="bookmarks">Dấu trang</string>
+    <string name="no_bookmarks_yet">Chưa có dấu trang nào</string>
+    <string name="page_">Trang %1$s</string>
+    <string name="no_results">Không có kết quả</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">Cài đặt</string>
+    <string name="decrease_font_size">Giảm kích thước phông chữ</string>
+    <string name="increase_font_size">Tăng kích thước phông chữ</string>
+    <string name="font">Phông chữ</string>
+    <string name="jump_to_page">Chuyển đến trang</string>
+    <string name="enter_page_number_1">Nhập số trang (1–%1$s):</string>
+    <string name="go">Đi</string>
+    <string name="read_aloud">Đọc to</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">Dừng lại</string>
+    <string name="annotations__text_selection">Chú thích &amp; Lựa chọn văn bản</string>
+    <string name="text_selection_and_annotations_for_ebook">Tính năng chọn văn bản và chú thích cho sách điện tử sẽ sớm ra mắt.</string>
+    <string name="longpress_on_text_to_select_highlight_or">Nhấn giữ vào văn bản để chọn, tô sáng hoặc thêm ghi chú.</string>
+    <string name="press_play_to_start_reading_aloud">Bấm nút phát để bắt đầu đọc to...</string>
+    <string name="speed">Tốc độ</string>
+    <string name="voice">Tiếng nói</string>
+    <string name="no_annotations_yet">Chưa có chú thích nào.</string>
+    <string name="select_text_to_highlight_or_add_notes">Chọn văn bản để tô sáng hoặc thêm ghi chú</string>
+    <string name="tools">Công cụ</string>
+    <string name="convert_to_images">Chuyển đổi thành hình ảnh</string>
+    <string name="rename">Đổi tên</string>
+    <string name="print">In</string>
+    <string name="a">A−</string>
+    <string name="cover_of_">Ảnh bìa của %1$s</string>
+    <string name="no_cover_available">Không có bảo hiểm nào</string>
+    <string name="read_now">Đọc ngay</string>
+    <string name="about_the_book">GIỚI THIỆU VỀ CUỐN SÁCH</string>
+    <string name="tags">THẺ</string>
+    <string name="publisher_info">THÔNG TIN NHÀ XUẤT BẢN</string>
+    <string name="published_">Đã xuất bản: %1$s</string>
+    <string name="retry">Thử lại</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Xóa bộ nhớ cache</string>
+    <string name="ebooks_library">Thư viện sách điện tử</string>
+    <string name="manage_your_digital_collection_across_mu">Quản lý bộ sưu tập sách điện tử của bạn trên nhiều nhà cung cấp khác nhau. Tìm kiếm, lọc và khám phá các đầu sách mới từ Google Books và Open Library.</string>
+    <string name="no_books_found">Không tìm thấy sách nào</string>
+    <string name="no_results_for__try_a_different_search_t">Không tìm thấy kết quả cho "%1$s". Hãy thử từ khóa tìm kiếm khác.</string>
+    <string name="downloadable_only">Chỉ có thể tải xuống</string>
+    <string name="file_unavailable">Tệp không khả dụng</string>
+    <string name="unavailable">Không khả dụng</string>
+    <string name="search_titles_authors_isbn">Tìm kiếm theo tiêu đề, tác giả, mã ISBN...</string>
+    <string name="clear_search">Xóa tìm kiếm</string>
+    <string name="ebooks">Sách điện tử</string>
+    <string name="read_pdf">Đọc PDF</string>
+    <string name="create_pdf">Tạo PDF</string>
+    <string name="unlock_all_tools_and_remove_limits">Mở khóa tất cả công cụ và loại bỏ mọi giới hạn</string>
+    <string name="ocr_scanning">Quét OCR</string>
+    <string name="extract_text_from_scanned_documents">Trích xuất văn bản từ tài liệu đã quét</string>
+    <string name="cloud_sync">Đồng bộ hóa đám mây</string>
+    <string name="access_your_documents_anywhere">Truy cập tài liệu của bạn mọi lúc mọi nơi</string>
+    <string name="annotate_pdfs">Chú thích PDF</string>
+    <string name="cloud_backup">Sao lưu đám mây</string>
+    <string name="continue_reading">Tiếp tục đọc</string>
+    <string name="pick_files">Chọn tập tin</string>
+    <string name="browse">Duyệt</string>
+    <string name="did_you_know">Bạn có biết?</string>
+    <string name="home">Trang chủ</string>
+    <string name="your_documents_at_a_glance">Tổng quan về tài liệu của bạn</string>
+    <string name="pick_file">Chọn tập tin</string>
+    <string name="quick_actions">Thao tác nhanh</string>
+    <string name="pro">CHUYÊN NGHIỆP</string>
+    <string name="open_files">Mở tệp</string>
+    <string name="convert_to_pdf">Chuyển đổi sang PDF</string>
+    <string name="close_drawer">Đóng ngăn kéo lại</string>
+    <string name="close_file">Đóng tệp</string>
+    <string name="office">Văn phòng</string>
+    <string name="coming_soon">Sắp ra mắt</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">Hiện tại, trình xem sách điện tử chưa có trên nền tảng này.</string>
+    <string name="set_as_default_viewer">Đặt làm trình xem mặc định</string>
+    <string name="free">Miễn phí</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">Đang tải xuống bản cập nhật... %1$s%</string>
+    <string name="more">Hơn</string>
+    <string name="font_size">Kích thước phông chữ</string>
+    <string name="font_family">Họ phông chữ</string>
+    <string name="scroll_direction">Hướng cuộn</string>
+    <string name="navigation">Điều hướng</string>
+    <string name="keep_screen_on">Giữ màn hình luôn bật</string>
+    <string name="volume_button_to_scroll">Nút âm lượng để cuộn</string>
+    <string name="export_ebook_pages_as_image_files">Xuất các trang ebook dưới dạng tệp hình ảnh</string>
+    <string name="access_millions_of_titles">Truy cập hàng triệu đầu sách.</string>
+    <string name="read_offline_with_natural_ai_voices">Đọc sách ngoại tuyến với giọng nói tự nhiên của AI.</string>
+    <string name="advanced_ai_reader">Trình đọc AI tiên tiến.</string>
+    <string name="experience_studioquality_narration">Trải nghiệm giọng thuyết minh chất lượng như trong phòng thu.</string>
+    <string name="powerful_pdf_tools">Các công cụ PDF mạnh mẽ.</string>
+    <string name="create_and_edit_documents_on_the_go">Tạo và chỉnh sửa tài liệu mọi lúc mọi nơi.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Nâng cấp lên phiên bản Pro: Mở khóa tất cả công cụ và loại bỏ mọi giới hạn</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">Quét OCR: Trích xuất văn bản từ tài liệu đã quét</string>
+    <string name="cloud_sync_access_your_documents_anywher">Đồng bộ hóa đám mây: Truy cập tài liệu của bạn mọi lúc mọi nơi</string>
+    <string name="scan">Quét</string>
+    <string name="compress">Nén</string>
+    <string name="merge">Hợp nhất</string>
+    <string name="convert">Chuyển thành</string>
+    <string name="highlight_underline_and_add_notes_to_you">Tô sáng, gạch chân và thêm ghi chú vào tài liệu của bạn.</string>
+    <string name="keep_your_documents_safe_with_automatic_">Bảo vệ tài liệu của bạn an toàn với tính năng đồng bộ hóa đám mây tự động.</string>
+    <string name="indicator_color_">indicator_color_%1$s</string>
+    <string name="my_library">Thư viện của tôi</string>
+    <string name="get_ebooks">Tải sách điện tử</string>
+    <string name="scan_document">Quét tài liệu</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

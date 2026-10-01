@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">ಪುಟಗಳನ್ನು ಅಳಿಸಿ</string>
+    <string name="are_you_sure_you_want_to_delet">ಆಯ್ಕೆ ಮಾಡಿದ ಪುಟಗಳನ್ನು ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ? ಈ ಕ್ರಿಯೆಯನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗುವುದಿಲ್ಲ.</string>
+    <string name="delete">ಅಳಿಸಿ</string>
+    <string name="cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="quick_selection">ತ್ವರಿತ ಆಯ್ಕೆ</string>
+    <string name="select_range">ಶ್ರೇಣಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="select_all">ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="clear_all">ಎಲ್ಲವನ್ನೂ ತೆರವುಗೊಳಿಸಿ</string>
+    <string name="select_page_range">ಪುಟ ಶ್ರೇಣಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="enter_the_range_of_pages_to_de">ಅಳಿಸಬೇಕಾದ ಪುಟಗಳ ಶ್ರೇಣಿಯನ್ನು ನಮೂದಿಸಿ (1-%1$s)</string>
+    <string name="from">ಇಂದ</string>
+    <string name="to">ಗೆ</string>
+    <string name="select">ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="please_go_back_and_select_a_pd">ದಯವಿಟ್ಟು ಹಿಂತಿರುಗಿ ಮತ್ತು PDF ಆಯ್ಕೆಮಾಡಿ.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">ಪಿಡಿಎಫ್ ಅನ್ನು ವಿಭಜಿಸಿ</string>
+    <string name="str_1_file_selected">1 ಫೈಲ್ ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="no_file_selected">ಯಾವುದೇ ಫೈಲ್ ಆಯ್ಕೆಯಾಗಿಲ್ಲ.</string>
+    <string name="split_mode">ಸ್ಪ್ಲಿಟ್ ಮೋಡ್</string>
+    <string name="fixed_segments">ಸ್ಥಿರ ವಿಭಾಗಗಳು</string>
+    <string name="custom_ranges">ಕಸ್ಟಮ್ ಶ್ರೇಣಿಗಳು</string>
+    <string name="segment_size">ವಿಭಾಗದ ಗಾತ್ರ</string>
+    <string name="this_will_create_multiple_pdfs">ಇದು ಪ್ರತಿಯೊಂದಕ್ಕೂ ನಿರ್ದಿಷ್ಟ ಸಂಖ್ಯೆಯ ಪುಟಗಳೊಂದಿಗೆ ಬಹು PDF ಗಳನ್ನು ರಚಿಸುತ್ತದೆ. ಅರ್ಥಪೂರ್ಣ ವಿಭಜನೆಗಳನ್ನು ರಚಿಸಲು ವಿಭಾಗದ ಗಾತ್ರವು ಒಟ್ಟು ಪುಟಗಳಿಗಿಂತ ಕಡಿಮೆಯಿರಬೇಕು. ಉದಾಹರಣೆಗೆ, ಮೂಲ ಫೈಲ್ 8 ಪುಟಗಳನ್ನು ಹೊಂದಿದ್ದರೆ ಮತ್ತು ನೀವು 2 ಅನ್ನು ನಮೂದಿಸಿದರೆ, ತಲಾ 2 ಪುಟಗಳೊಂದಿಗೆ ನಾಲ್ಕು PDF ಫೈಲ್‌ಗಳನ್ನು ರಚಿಸಲಾಗುತ್ತದೆ.</string>
+    <string name="pages_per_file">ಪ್ರತಿ ಫೈಲ್‌ಗೆ ಪುಟಗಳು</string>
+    <string name="eg_2">ಉದಾ, 2</string>
+    <string name="total_number_of_pages_in_pdf__">PDF ನಲ್ಲಿರುವ ಒಟ್ಟು ಪುಟಗಳ ಸಂಖ್ಯೆ: %1$d (ವಿಭಾಗದ ಗಾತ್ರ %1$d ಗಿಂತ ಕಡಿಮೆಯಿರಬೇಕು)</string>
+    <string name="this_will_create__output_files">ಇದು %1$d ಔಟ್‌ಪುಟ್ ಫೈಲ್‌ಗಳನ್ನು ರಚಿಸುತ್ತದೆ</string>
+    <string name="this_will_create__output_file">ಇದು %1$d ಔಟ್‌ಪುಟ್ ಫೈಲ್ ಅನ್ನು ರಚಿಸುತ್ತದೆ</string>
+    <string name="this_input_will_split_the_pdf_">ಈ ಇನ್‌ಪುಟ್ ನಿಮ್ಮ ಶ್ರೇಣಿಗಳ ಆಧಾರದ ಮೇಲೆ PDF ಅನ್ನು ಪ್ರತ್ಯೇಕ ಫೈಲ್‌ಗಳಾಗಿ ವಿಭಜಿಸುತ್ತದೆ. ಉದಾಹರಣೆಗೆ, "1-2,5,6-8" 3 PDF ಗಳನ್ನು ರಚಿಸುತ್ತದೆ: ಮೊದಲು 1-2 ಪುಟಗಳೊಂದಿಗೆ, ಎರಡನೆಯದು 5 ಪುಟಗಳೊಂದಿಗೆ ಮತ್ತು ಮೂರನೆಯದು 6-8 ಪುಟಗಳೊಂದಿಗೆ.</string>
+    <string name="page_ranges">ಪುಟ ಶ್ರೇಣಿಗಳು</string>
+    <string name="eg_1234571520">ಉದಾ, 1-2,3,4-5,7,15-20</string>
+    <string name="format_use_ranges_15_or_single">ಸ್ವರೂಪ: ಅಲ್ಪವಿರಾಮಗಳಿಂದ ಪ್ರತ್ಯೇಕಿಸಲಾದ ಶ್ರೇಣಿಗಳು (1-5) ಅಥವಾ ಏಕ ಪುಟಗಳು (7) ಬಳಸಿ. ಅಂಕೆಗಳು, ಹೈಫನ್‌ಗಳು ಮತ್ತು ಅಲ್ಪವಿರಾಮಗಳನ್ನು ಮಾತ್ರ ಅನುಮತಿಸಲಾಗಿದೆ.</string>
+    <string name="split_preview">ವಿಭಜನೆ ಪೂರ್ವವೀಕ್ಷಣೆ</string>
+    <string name="pdf_files_will_be_created">%1$d PDF ಫೈಲ್‌ಗಳನ್ನು ರಚಿಸಲಾಗುತ್ತದೆ</string>
+    <string name="pdf_file_will_be_created">%1$d PDF ಫೈಲ್ ಅನ್ನು ರಚಿಸಲಾಗುತ್ತದೆ</string>
+    <string name="pdf_result_">PDF ಫಲಿತಾಂಶ %1$s</string>
+    <string name="str__and__more">... ಮತ್ತು %1$d ಇನ್ನಷ್ಟು</string>
+    <string name="splitting_pdf">PDF ಅನ್ನು ವಿಭಜಿಸಲಾಗುತ್ತಿದೆ...</string>
+    <string name="checking_files">ಫೈಲ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ...</string>
+    <string name="page_n">ಪುಟ %1$d</string>
+    <string name="pages_n_m">ಪುಟಗಳು %1$d-%2$d</string>
+    <string name="split_complete">ವಿಭಜನೆ ಪೂರ್ಣಗೊಂಡಿದೆ!</string>
+    <string name="split_failed">ವಿಭಜನೆ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="we_couldnt_split_your_pdf">ನಿಮ್ಮ PDF ಅನ್ನು ವಿಭಜಿಸಲು ನಮಗೆ ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</string>
+    <string name="your_pdf_has_been_successfully_split">ನಿಮ್ಮ PDF ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ %1$d ಫೈಲ್‌ಗಳಾಗಿ ವಿಭಜಿಸಲಾಗಿದೆ.</string>
+    <string name="your_pdf_has_been_successfully_split_single">ನಿಮ್ಮ PDF ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ %1$d ಫೈಲ್ ಆಗಿ ವಿಭಜಿಸಲಾಗಿದೆ.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">PDF ಪರಿಕರಗಳು</string>
+    <string name="image_tools">ಇಮೇಜ್ ಪರಿಕರಗಳು</string>
+    <string name="str_30_tools_for_pdf">PDF ಗಾಗಿ 30+ ಪರಿಕರಗಳು</string>
+    <string name="tools_for_images">ಚಿತ್ರಗಳಿಗಾಗಿ ಪರಿಕರಗಳು</string>
+    <string name="no_tools_found">ಯಾವುದೇ ಪರಿಕರಗಳು ಕಂಡುಬಂದಿಲ್ಲ.</string>
+    <string name="try_adjusting_your_search">ನಿಮ್ಮ ಹುಡುಕಾಟವನ್ನು ಸರಿಹೊಂದಿಸಲು ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="history">ಇತಿಹಾಸ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s ಪುಟ${ಇದ್ದರೆ (ಪುಟ ಎಣಿಕೆ &gt; 1) </string>
+    <string name="n_pages">%1$d ಪುಟಗಳು</string>
+    <string name="n_page">%1$d ಪುಟ</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">ಈ PDF ಗೆ ಪಾಸ್‌ವರ್ಡ್ ಅಗತ್ಯವಿದೆ.</string>
+    <string name="password_provided">ಪಾಸ್‌ವರ್ಡ್ ಒದಗಿಸಲಾಗಿದೆ</string>
+    <string name="password_required">ಪಾಸ್‌ವರ್ಡ್ ಅಗತ್ಯವಿದೆ</string>
+    <string name="open_file">ಫೈಲ್ ತೆರೆಯಿರಿ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">ಸಂಕುಚಿತಗೊಳಿಸಲಾಗಿದೆ </string>
+    <string name="error_details">ದೋಷ ವಿವರಗಳು</string>
+    <string name="view">ವೀಕ್ಷಿಸಿ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">%1$s ರಲ್ಲಿ %2$s ಪುಟಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="showing_first_200_pages">ಮೊದಲ 200 ಪುಟಗಳನ್ನು ತೋರಿಸಲಾಗುತ್ತಿದೆ</string>
+    <string name="use_quick_selection_above_for_">200 ಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಪುಟಗಳಿಗೆ ಮೇಲಿನ ತ್ವರಿತ ಆಯ್ಕೆಯನ್ನು ಬಳಸಿ.</string>
+    <string name="loading">ಲೋಡ್ ಆಗುತ್ತಿದೆ...</string>
+    <string name="error">ದೋಷ</string>
+    <string name="generating_page_previews">ಪುಟ ಪೂರ್ವವೀಕ್ಷಣೆಗಳನ್ನು ರಚಿಸಲಾಗುತ್ತಿದೆ...</string>
+    <string name="page__thumbnail">ಪುಟ %1$s ಥಂಬ್‌ನೇಲ್</string>
+    <string name="selected">ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">ಹುಡುಕಿ Kannada</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">PDF ಅನ್ನು ತಿರುಗಿಸಿ</string>
+    <string name="please_provide_the_password_to">ಕಸ್ಟಮ್ ಪುಟಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ದಯವಿಟ್ಟು ಪಾಸ್‌ವರ್ಡ್ ಒದಗಿಸಿ.</string>
+    <string name="rotation_angle">ತಿರುಗುವಿಕೆಯ ಕೋನ</string>
+    <string name="page_selection">ಪುಟ ಆಯ್ಕೆ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">PDF ಅನ್ನು ಮರುಕ್ರಮಗೊಳಿಸಿ</string>
+    <string name="use_the_arrow_buttons_to_reord">ಪುಟಗಳನ್ನು ಮರುಕ್ರಮಗೊಳಿಸಲು ಬಾಣದ ಗುಂಡಿಗಳನ್ನು ಬಳಸಿ.</string>
+    <string name="pages_">ಪುಟಗಳು (%1$s)</string>
+    <string name="page_">ಪುಟ %1$s</string>
+    <string name="position__of_">ಸ್ಥಾನ: %1$s / %2$s</string>
+    <string name="drag_handle">ಡ್ರ್ಯಾಗ್ ಹ್ಯಾಂಡಲ್</string>
+    <string name="move_up">ಮೇಲಕ್ಕೆ ಸರಿಸಿ</string>
+    <string name="move_down">ಕೆಳಗೆ ಸರಿಸಿ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">PDF ಅನ್ನು ಕುಗ್ಗಿಸಿ</string>
+    <string name="no_files_selected">ಯಾವುದೇ ಫೈಲ್‌ಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ.</string>
+    <string name="please_go_back_and_select_pdf_">ದಯವಿಟ್ಟು ಹಿಂತಿರುಗಿ ಮತ್ತು ಸಂಕುಚಿತಗೊಳಿಸಲು PDF ಫೈಲ್‌ಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">ಯಶಸ್ಸು</string>
+    <string name="individual_results">ವೈಯಕ್ತಿಕ ಫಲಿತಾಂಶಗಳು</string>
+    <string name="done">ಮುಗಿದಿದೆ</string>
+    <string name="compression_complete">ಕಂಪ್ರೆಷನ್ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+    <string name="your_file_is_ready_and_much_li">ನಿಮ್ಮ ಫೈಲ್ ಸಿದ್ಧವಾಗಿದೆ ಮತ್ತು ಹೆಚ್ಚು ಹಗುರವಾಗಿದೆ!</string>
+    <string name="before">ಮೊದಲು</string>
+    <string name="after">ನಂತರ</string>
+    <string name="total_saved">ಒಟ್ಟು ಉಳಿಸಲಾಗಿದೆ</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">ಚಿಕ್ಕದು</string>
+    <string name="str__saved">%1$s% ಉಳಿಸಲಾಗಿದೆ</string>
+    <string name="open">ತೆರೆದ</string>
+    <string name="share">ಹಂಚಿ</string>
+    <string name="close">ಮುಚ್ಚಿ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">ಕಂಪ್ರೆಷನ್ ಮಟ್ಟ</string>
+    <string name="recommended">ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ</string>
+    <string name="str__compression">%1$s ಸಂಕೋಚನ</string>
+    <string name="str__of_original_size">~%1$sಮೂಲ ಗಾತ್ರದ %</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">PDF ಗೆ ಚಿತ್ರಗಳು</string>
+    <string name="str__images_selected">%1$s ಚಿತ್ರಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="images_will_be_converted_in_th">ಕೆಳಗೆ ತೋರಿಸಿರುವ ಕ್ರಮದಲ್ಲಿ ಚಿತ್ರಗಳನ್ನು ಪರಿವರ್ತಿಸಲಾಗುತ್ತದೆ.</string>
+    <string name="remove">ತೆಗೆದುಹಾಕಿ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">ಚಿತ್ರಗಳಿಗೆ PDF</string>
+    <string name="image_format">ಚಿತ್ರ ಸ್ವರೂಪ</string>
+    <string name="image_quality_dpi">ಚಿತ್ರದ ಗುಣಮಟ್ಟ (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">ಪಿಡಿಎಫ್ ಅನ್ನು ವಿಲೀನಗೊಳಿಸಿ</string>
+    <string name="n_files_selected">%1$d ಫೈಲ್‌ಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="n_file_selected">%1$d ಫೈಲ್ ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">PDF ಅನ್ನು ಲಾಕ್ ಮಾಡಿ</string>
+    <string name="password_protection">ಪಾಸ್‌ವರ್ಡ್ ರಕ್ಷಣೆ</string>
+    <string name="enter_a_password_to_protect_yo">ನಿಮ್ಮ PDF ಅನ್ನು ರಕ್ಷಿಸಲು ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ. ಫೈಲ್ ತೆರೆಯಲು ನಿಮಗೆ ಈ ಪಾಸ್‌ವರ್ಡ್ ಅಗತ್ಯವಿದೆ.</string>
+    <string name="password">ಪಾಸ್ವರ್ಡ್</string>
+    <string name="enter_password">ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ</string>
+    <string name="confirm_password">ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ದೃಢೀಕರಿಸಿ</string>
+    <string name="reenter_password">ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ಮರು ನಮೂದಿಸಿ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">ದಯವಿಟ್ಟು ಹಿಂತಿರುಗಿ ಮತ್ತು ಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ.</string>
+    <string name="back">ಹಿಂದೆ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">PDF ಅನ್‌ಲಾಕ್ ಮಾಡಿ</string>
+    <string name="current_password">ಪ್ರಸ್ತುತ ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="enter_the_current_password_to_">ಈ PDF ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಪ್ರಸ್ತುತ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ನಮೂದಿಸಿ.</string>
+    <string name="enter_current_password">ಪ್ರಸ್ತುತ ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ</string>
+    <string name="incorrect_password_please_try_">ತಪ್ಪಾದ ಪಾಸ್‌ವರ್ಡ್. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="new_password_optional">ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ (ಐಚ್ಛಿಕ)</string>
+    <string name="set_a_new_password_to_change_i">ಅದನ್ನು ಬದಲಾಯಿಸಲು ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ಹೊಂದಿಸಿ, ಅಥವಾ ಪಾಸ್‌ವರ್ಡ್ ರಕ್ಷಣೆಯನ್ನು ತೆಗೆದುಹಾಕಲು ಖಾಲಿ ಬಿಡಿ.</string>
+    <string name="new_password">ಹೊಸ ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="enter_new_password">ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ</string>
+    <string name="confirm_new_password">ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ದೃಢೀಕರಿಸಿ</string>
+    <string name="reenter_new_password">ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ಮರು ನಮೂದಿಸಿ</string>
+    <string name="passwords_do_not_match">ಪಾಸ್‌ವರ್ಡ್‌ಗಳು ಹೊಂದಿಕೆಯಾಗುತ್ತಿಲ್ಲ.</string>
+    <string name="compression_failed">ಕಂಪ್ರೆಷನ್ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="open_pdf">PDF ತೆರೆಯಿರಿ</string>
+    <string name="share_file">ಫೈಲ್ ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="pages_deleted">ಪುಟಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ!</string>
+    <string name="delete_failed">ಅಳಿಸುವಿಕೆ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="select_pages_to_delete">ಅಳಿಸಲು ಪುಟಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="pdf_created">PDF ರಚಿಸಲಾಗಿದೆ!</string>
+    <string name="conversion_failed">ಪರಿವರ್ತನೆ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="pdf_locked_successfully">PDF ಯಶಸ್ವಿಯಾಗಿ ಲಾಕ್ ಆಗಿದೆ!</string>
+    <string name="lock_failed">ಲಾಕ್ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="merge_complete">ವಿಲೀನ ಪೂರ್ಣಗೊಂಡಿದೆ!</string>
+    <string name="merge_failed">ವಿಲೀನ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="conversion_complete">ಪರಿವರ್ತನೆ ಪೂರ್ಣಗೊಂಡಿದೆ!</string>
+    <string name="reorder_complete">ಮರುಕ್ರಮಗೊಳಿಸುವಿಕೆ ಪೂರ್ಣಗೊಂಡಿದೆ!</string>
+    <string name="reorder_failed">ಮರುಕ್ರಮಗೊಳಿಸುವಿಕೆ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="rotation_complete">ತಿರುಗುವಿಕೆ ಪೂರ್ಣಗೊಂಡಿದೆ!</string>
+    <string name="rotation_failed">ತಿರುಗಿಸುವಿಕೆ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="select_pages_to_rotate">ತಿರುಗಿಸಲು ಪುಟಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="str__complete">%1$s ಪೂರ್ಣಗೊಂಡಿದೆ!</string>
+    <string name="str__failed">%1$s ವಿಫಲವಾಗಿದೆ</string>
+    <string name="unlock_failed">ಅನ್‌ಲಾಕ್ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="your_pdfs_have_been_successfully_compres">ನಿಮ್ಮ PDF ಗಳನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಸಂಕುಚಿತಗೊಳಿಸಲಾಗಿದೆ.</string>
+    <string name="we_couldnt_compress_your_pdfs">ನಿಮ್ಮ PDF ಗಳನ್ನು ನಮಗೆ ಕುಗ್ಗಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</string>
+    <string name="view_your_compressed_file">ನಿಮ್ಮ ಸಂಕುಚಿತ ಫೈಲ್ ಅನ್ನು ವೀಕ್ಷಿಸಿ</string>
+    <string name="send_to_others_or_apps">ಇತರರಿಗೆ ಅಥವಾ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಗೆ ಕಳುಹಿಸಿ</string>
+    <string name="your_pdf_has_been_successfully_modified">ನಿಮ್ಮ PDF ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಮಾರ್ಪಡಿಸಲಾಗಿದೆ.</string>
+    <string name="we_couldnt_delete_the_pages">ನಮಗೆ ಪುಟಗಳನ್ನು ಅಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</string>
+    <string name="your_images_have_been_converted_to_pdf">ನಿಮ್ಮ ಚಿತ್ರಗಳನ್ನು PDF ಗೆ ಪರಿವರ್ತಿಸಲಾಗಿದೆ.</string>
+    <string name="unable_to_create_pdf_from_images">ಚಿತ್ರಗಳಿಂದ PDF ರಚಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ.</string>
+    <string name="your_pdf_is_now_password_protected">ನಿಮ್ಮ PDF ಈಗ ಪಾಸ್‌ವರ್ಡ್‌ನಿಂದ ರಕ್ಷಿಸಲ್ಪಟ್ಟಿದೆ.</string>
+    <string name="we_couldnt_lock_your_pdf">ನಿಮ್ಮ PDF ಅನ್ನು ಲಾಕ್ ಮಾಡಲು ನಮಗೆ ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</string>
+    <string name="your_pdfs_have_been_successfully_merged">ನಿಮ್ಮ PDF ಗಳನ್ನು ಯಶಸ್ವಿಯಾಗಿ ವಿಲೀನಗೊಳಿಸಲಾಗಿದೆ.</string>
+    <string name="we_couldnt_merge_your_pdfs">ನಿಮ್ಮ PDF ಗಳನ್ನು ವಿಲೀನಗೊಳಿಸಲು ನಮಗೆ ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</string>
+    <string name="str__images_created_successfully">%1$s ಚಿತ್ರಗಳನ್ನು ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ</string>
+    <string name="unable_to_convert_pdf_to_images">PDF ಅನ್ನು ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ.</string>
+    <string name="your_pdf_pages_have_been_successfully_re">ನಿಮ್ಮ PDF ಪುಟಗಳನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಮರುಕ್ರಮಗೊಳಿಸಲಾಗಿದೆ.</string>
+    <string name="we_couldnt_reorder_your_pdf">ನಿಮ್ಮ PDF ಅನ್ನು ಮರುಕ್ರಮಗೊಳಿಸಲು ನಮಗೆ ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</string>
+    <string name="your_pdf_has_been_successfully_rotated">ನಿಮ್ಮ PDF ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ತಿರುಗಿಸಲಾಗಿದೆ.</string>
+    <string name="we_couldnt_rotate_your_pdf">ನಿಮ್ಮ PDF ಅನ್ನು ತಿರುಗಿಸಲು ನಮಗೆ ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</string>
+    <string name="your_file_has_been_successfully_processe">ನಿಮ್ಮ ಫೈಲ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗಿದೆ.</string>
+    <string name="we_couldnt_process_your_file">ನಿಮ್ಮ ಫೈಲ್ ಅನ್ನು ನಮಗೆ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</string>
+    <string name="we_couldnt_unlock_your_pdf">ನಿಮ್ಮ PDF ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ನಮಗೆ ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</string>
+    <string name="clear_filter">ಫಿಲ್ಟರ್ ತೆರವುಗೊಳಿಸಿ</string>
+    <string name="clear">ಸ್ಪಷ್ಟ</string>
+    <string name="pick_a_tool_">ಉಪಕರಣವನ್ನು ಆರಿಸಿ →</string>
+    <string name="drag_to_reorder">ಮರುಕ್ರಮಗೊಳಿಸಲು ಎಳೆಯಿರಿ</string>
+    <string name="your_files_are_securely_processed_on_our">ನಿಮ್ಮ ಫೈಲ್‌ಗಳನ್ನು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಸಂಪರ್ಕಗಳನ್ನು ಬಳಸಿಕೊಂಡು ನಮ್ಮ ಸರ್ವರ್‌ಗಳಲ್ಲಿ ಸುರಕ್ಷಿತವಾಗಿ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗುತ್ತದೆ ಮತ್ತು 1 ಗಂಟೆಯೊಳಗೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅಳಿಸಲಾಗುತ್ತದೆ. ನಾವು ನಿಮ್ಮ ಡೇಟಾವನ್ನು ಎಂದಿಗೂ ಸಂಗ್ರಹಿಸುವುದಿಲ್ಲ ಅಥವಾ ಹಂಚಿಕೊಳ್ಳುವುದಿಲ್ಲ.</string>
+    <string name="compression_quality">ಕಂಪ್ರೆಷನ್ ಗುಣಮಟ್ಟ</string>
+    <string name="dragelevation">ಡ್ರ್ಯಾಗ್ ಎಲಿವೇಶನ್</string>
+    <string name="tool_card_scale">ಟೂಲ್_ಕಾರ್ಡ್_ಸ್ಕೇಲ್</string>
+</resources>

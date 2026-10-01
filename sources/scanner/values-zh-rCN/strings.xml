@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">扫描</string>
+    <string name="scan_home_documents">文件</string>
+    <string name="scan_home_documents_lowercase">文件</string>
+    <string name="scan_home_documents_count">%1$d 文档</string>
+    <string name="scan_home_no_documents">暂无文件</string>
+    <string name="scan_home_start_scanning">开始扫描，创建您的第一份文档</string>
+    <string name="scan_home_new_folder">新建文件夹</string>
+    <string name="scan_home_scan_document">扫描文档</string>
+    <string name="scan_home_import_gallery">从图库导入</string>
+    <string name="scan_home_parent_folder">父文件夹</string>
+    <string name="scan_home_go_back">返回上文件夹</string>
+    <string name="scan_home_create_folder">创建新文件夹</string>
+    <string name="scan_home_enter_folder_name">请输入新文件夹的名称</string>
+    <string name="scan_home_folder_name">文件夹名称</string>
+    <string name="scan_home_folder_placeholder">例如，工作文件</string>
+    <string name="scan_home_folder_error">文件夹名称不能为空。</string>
+    <string name="scan_home_folder_name_empty">文件夹名称不能为空。</string>
+    <string name="scan_home_create">创造</string>
+    <string name="scan_home_folder_exists">已存在同名文件夹</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">相机</string>
+    <string name="scan_camera_permission_required">需要相机许可</string>
+    <string name="scan_camera_permission_message">此应用需要访问摄像头才能扫描文档。</string>
+    <string name="scan_camera_permission_settings">请前往“设置” &gt; “应用” &gt; “PDF 查看器” &gt; “权限”，并启用“相机”权限。</string>
+    <string name="scan_camera_permission_title">需要相机许可</string>
+    <string name="scan_camera_request_permission">请求权限</string>
+    <string name="scan_camera_open_settings">打开设置</string>
+    <string name="scan_camera_close">关闭</string>
+    <string name="scan_camera_flash">闪光</string>
+    <string name="scan_camera_auto_capture">自动捕获</string>
+    <string name="scan_camera_settings">设置</string>
+    <string name="scan_camera_ready_batch">准备扫描多页</string>
+    <string name="scan_camera_ready_multiple">准备扫描多页</string>
+    <string name="scan_camera_hold_steady">扫描时保持稳定</string>
+    <string name="scan_camera_captured_pages">%1$d 页面已捕获</string>
+    <string name="scan_camera_mode_single">单身的</string>
+    <string name="scan_camera_mode_batch">批</string>
+    <string name="scan_camera_preview">预览</string>
+    <string name="scan_camera_finish">结束</string>
+    <string name="scan_camera_starting">启动相机……</string>
+    <string name="scan_camera_document_name">文档名称</string>
+    <string name="scan_camera_document_name_empty">文档名称不能为空</string>
+    <string name="scan_camera_save_document">保存文档</string>
+    <string name="scan_camera_processing">加工...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">裁剪 &amp; 调整</string>
+    <string name="scan_crop_close">关闭</string>
+    <string name="scan_crop_reset">重置</string>
+    <string name="scan_crop_rotate">旋转</string>
+    <string name="scan_crop_done">完毕</string>
+    <string name="scan_crop_scanned_document">扫描文档</string>
+    <string name="scan_crop_magnified_view">放大视图</string>
+    <string name="scan_crop_processing">加工...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">提高</string>
+    <string name="scan_filter_close">关闭</string>
+    <string name="scan_filter_rotate">旋转</string>
+    <string name="scan_filter_done">完毕</string>
+    <string name="scan_filter_filters">过滤器</string>
+    <string name="scan_filter_original">原来的</string>
+    <string name="scan_filter_magic">魔法</string>
+    <string name="scan_filter_lighten">减轻</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">灰度</string>
+    <string name="scan_filter_magic_2">清洁文档</string>
+    <string name="scan_filter_soft_scan">软扫描</string>
+    <string name="scan_filter_color_enhance">Color+</string>
+    <string name="scan_filter_ink_saver">省墨器</string>
+    <string name="scan_filter_premium">高级功能</string>
+    <string name="scan_filter_filtered_document">已筛选文档</string>
+    <string name="scan_filter_applying">应用筛选条件……</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">取消</string>
+    <string name="scan_share">分享</string>
+    <string name="scan_move">移动</string>
+    <string name="scan_move_to_folder">移至文件夹</string>
+    <string name="scan_delete">删除</string>
+    <string name="scan_rename">重命名</string>
+    <string name="scan_root">根</string>
+    <string name="scan_select_destination">选择目标文件夹</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">文档</string>
+    <string name="scan_document_back">后退</string>
+    <string name="scan_document_pages">页面</string>
+    <string name="scan_document_add_pages">向此文档添加页面</string>
+    <string name="scan_document_add_page_button">添加页面</string>
+    <string name="scan_document_rename">重命名</string>
+    <string name="scan_document_share">分享</string>
+    <string name="scan_document_more">更多的</string>
+    <string name="scan_document_pages_count">%1$d 页</string>
+    <string name="scan_document_no_pages">暂无页面</string>
+    <string name="scan_document_scan_page">扫描页</string>
+    <string name="scan_document_import_page">从图库导入</string>
+    <string name="scan_document_grid_view">网格视图</string>
+    <string name="scan_document_list_view">列表视图</string>
+    <string name="scan_document_continuous_view">连续视图</string>
+    <string name="scan_document_page_number">页码 %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">页</string>
+    <string name="scan_page_back">后退</string>
+    <string name="scan_page_share">分享</string>
+    <string name="scan_page_delete">删除</string>
+    <string name="scan_page_of">%1$d 的 %2$d</string>
+    <string name="scan_page_image_not_found">图片未找到</string>
+    <string name="scan_page_retake">重拍</string>
+    <string name="scan_page_crop">庄稼</string>
+    <string name="scan_page_enhance">提高</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">保存到图库</string>
+    <string name="scan_page_saved_to_gallery">图片已保存至图库</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">删除文档？</string>
+    <string name="scan_delete_document_message">您确定要删除“%1$s”吗？这将永久删除此文档中的所有页面。此操作无法撤销。</string>
+    <string name="scan_rename_document">重命名文档</string>
+    <string name="scan_rename_enter_name">请输入文档的新名称</string>
+    <string name="scan_rename_document_name">文档名称</string>
+    <string name="scan_rename_error">文档名称不能为空</string>
+    <string name="scan_dialog_delete_document_title">删除文档？</string>
+    <string name="scan_dialog_delete_document_message">您确定要删除“%1$s”吗？这将永久删除此文档中的所有页面。此操作无法撤销。</string>
+    <string name="scan_dialog_delete_confirm">删除</string>
+    <string name="scan_dialog_cancel">取消</string>
+    <string name="scan_dialog_move_title">移至文件夹</string>
+    <string name="scan_dialog_move_message">选择目标文件夹</string>
+    <string name="scan_dialog_move_confirm">移动</string>
+    <string name="scan_dialog_move_root">根</string>
+    <string name="scan_dialog_move_selected">已选</string>
+    <string name="scan_dialog_rename_title">重命名文档</string>
+    <string name="scan_dialog_rename_message">请输入文档的新名称</string>
+    <string name="scan_dialog_rename_label">文档名称</string>
+    <string name="scan_dialog_rename_error">文档名称不能为空</string>
+    <string name="scan_dialog_rename_confirm">重命名</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">分享</string>
+    <string name="scan_menu_move">移至文件夹</string>
+    <string name="scan_menu_delete">删除</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">相机预览\n（即将推出）</string>
+    <string name="scan_platform_desktop_camera">桌面摄像头预览\n（即将推出）</string>
+    <string name="scan_platform_ios_camera">iOS 相机预览\n（即将推出）</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">关闭</string>
+    <string name="flash">闪光</string>
+    <string name="auto_capture">自动捕获</string>
+    <string name="settings">设置</string>
+    <string name="capture">捕获</string>
+    <string name="finish">结束</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">您确定要删除 %1吗？其中包含的所有文档也将被删除。</string>
+    <string name="share">分享</string>
+    <string name="share_as_images">分享为图片</string>
+    <string name="share_as_pdf">以 PDF 格式共享</string>
+    <string name="move_to_folder">移至文件夹</string>
+    <string name="delete">删除</string>
+    <string name="selected">已选</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">页码 %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">文件夹为空</string>
+    <string name="tap_the__button_to_scan_a_docu">点击“+”按钮扫描文档</string>
+    <string name="str______pages">%1$s • %2$s • %3$s 页</string>
+    <string name="create_folder">创建文件夹</string>
+    <string name="more_options">更多选项</string>
+    <string name="document_thumbnail">文档缩略图</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">图片未找到</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — 页 %2$d</string>
+    <string name="scan_ocr_title">文本识别</string>
+    <string name="scan_ocr_copy">复制文本</string>
+    <string name="scan_ocr_no_text">未找到文本</string>
+    <string name="scan_ocr_processing">识别文本…</string>
+    <string name="scan_ocr_error">无法识别文本</string>
+    <string name="scan_ocr_not_supported">此平台不支持OCR功能</string>
+    <string name="scan_ocr_image">用于OCR的扫描页面</string>
+    <string name="gallery">画廊</string>
+    <string name="select_file">选择文件</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">图像采集失败</string>
+    <string name="error_no_images_captured">未拍摄到图像</string>
+    <string name="error_open_settings">无法打开设置</string>
+    <string name="error_process_images">图像处理失败</string>
+    <string name="error_process_image">图像处理失败</string>
+    <string name="error_start_camera">摄像头启动失败</string>
+    <string name="error_stop_camera">未能停止摄像头</string>
+    <string name="error_crop_image">裁剪图像失败</string>
+    <string name="error_delete_document">删除文档失败</string>
+    <string name="error_delete_page">删除页面失败</string>
+    <string name="error_load_document">文档加载失败</string>
+    <string name="error_load_page">页面加载失败</string>
+    <string name="error_move_document">移动文档失败</string>
+    <string name="error_no_pages_to_share">没有可分享的页面</string>
+    <string name="error_rename_document">重命名文档失败</string>
+    <string name="error_reorder_pages">页面重新排序失败</string>
+    <string name="error_share_images">图片分享失败</string>
+    <string name="error_share_pdf">无法共享 PDF 文件。</string>
+    <string name="error_share_page">分享页面失败</string>
+    <string name="error_create_folder">创建文件夹失败</string>
+    <string name="error_delete_folder">删除文件夹失败</string>
+    <string name="error_rename_folder">重命名文件夹失败</string>
+    <string name="error_unknown">发生未知错误</string>
+    <string name="folder_not_found">未找到文件夹</string>
+    <string name="sync_documents">同步文档</string>
+    <string name="shutter_scale">快门缩放</string>
+    <string name="import_gallery">导入图库</string>
+    <string name="scan_camera">扫描相机</string>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Ελέγξτε τη σύνδεσή σας στο διαδίκτυο και επιβεβαιώστε ότι έχει προστεθεί ένας Λογαριασμός Google στη συσκευή σας και, στη συνέχεια, δοκιμάστε ξανά.</string>
+    <string name="sign_in_with_apple">Σύνδεση με την Apple</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Αναβαθμίστε την εμπειρία σας</string>
+    <string name="purchase_screen_close">Κοντά</string>
+    <string name="purchase_screen_refresh">Φρεσκάρω</string>
+    <string name="purchase_sync_status">Τελευταίος συγχρονισμός: %1s</string>
+    <string name="purchase_current_plan">Ρεύμα</string>
+    <string name="purchase_syncing">Συγχρονισμός…</string>
+    <string name="purchase_loading">Φόρτωση…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Δωρεάν πρόγραμμα</string>
+    <string name="purchase_pro_plan">Έκδοση Pro</string>
+    <string name="purchase_pro_tagline">Πληρώστε μία φορά. Αποκτήστε το για πάντα.</string>
+    <string name="purchase_premium_plan">Premium Συνδρομή</string>
+    <string name="purchase_premium_tagline">Όλα στο Pro, συν το AI &amp; Cloud</string>
+    <string name="purchase_recommended">Συνιστάται</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">Ανάγνωση δυνατά με τεχνητή νοημοσύνη — Ακούστε PDF με φυσικό τρόπο</string>
+    <string name="purchase_pro_feature_2">Πλήρης επεξεργασία PDF &amp; Συμπλήρωση φόρμας</string>
+    <string name="purchase_pro_feature_3">Συγχρονισμός μεταξύ συσκευών μέσω Drive</string>
+    <string name="purchase_pro_feature_4">Χωρίς διαφημίσεις, χωρίς υδατογράφημα στις σαρώσεις</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">Περιλήψεις Τεχνητής Νοημοσύνης με Ισχυρότερη Συλλογιστική</string>
+    <string name="purchase_premium_feature_1_desc">Βαθύτερες απαντήσεις από μεγαλύτερα, σύνθετα έγγραφα</string>
+    <string name="purchase_premium_feature_2_title">50GB Falcon Cloud</string>
+    <string name="purchase_premium_feature_2_desc">Η προσωπική σας βιβλιοθήκη PDF, συγχρονισμένη και ασφαλής</string>
+    <string name="purchase_premium_feature_3_title">Χωρίς όρια σε 60+ εργαλεία PDF</string>
+    <string name="purchase_premium_feature_3_desc">Κάθε εργαλείο, πάντα διαθέσιμο</string>
+    <string name="purchase_premium_feature_4_title">Επεξεργασία πλήρους κειμένου σε PDF</string>
+    <string name="purchase_premium_feature_4_desc">Επεξεργαστείτε κείμενο απευθείας όπως σε ένα πρόγραμμα επεξεργασίας κειμένου</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Αγοράστε Pro</string>
+    <string name="purchase_sign_in_buy">Σύνδεση &amp; Αγορά</string>
+    <string name="purchase_sign_in_subscribe">Σύνδεση &amp; Εγγραφή</string>
+    <string name="purchase_subscribe">Συνεισφέρω</string>
+    <string name="purchase_start_trial">Έναρξη δωρεάν δοκιμής 7 ημερών</string>
+    <string name="purchase_view_all_features">Δείτε όλα τα χαρακτηριστικά</string>
+    <string name="purchase_show_more">Εμφάνιση περισσότερων</string>
+    <string name="purchase_show_less">Εμφάνιση λιγότερων</string>
+    <string name="purchase_see_all_features">Δείτε όλα τα χαρακτηριστικά</string>
+    <string name="purchase_manage_subscription">Διαχείριση συνδρομής</string>
+    <string name="purchase_restore_purchases">Επαναφορά αγορών</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Μηνιαίος</string>
+    <string name="purchase_billing_yearly">Ετήσια</string>
+    <string name="purchase_save_badge">Εξοικονομήστε 40%</string>
+    <string name="purchase_lifetime">Διάρκεια ζωής</string>
+    <string name="purchase_per_year">/έτος</string>
+    <string name="purchase_per_month">/μήνας</string>
+    <string name="purchase_trial_terms">Ακύρωση οποιαδήποτε στιγμή. Ανανεώνεται εκτός εάν ακυρωθεί 24 ώρες πριν από τη λήξη της δοκιμαστικής περιόδου.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Αποτυχία φόρτωσης προϊόντων. Ελέγξτε τη σύνδεσή σας και τη σύνδεσή σας στο διαδίκτυο.</string>
+    <string name="purchase_error_network">Η σύνδεση χάθηκε. Ελέγξτε το διαδίκτυο και δοκιμάστε ξανά.</string>
+    <string name="purchase_error_payment_declined">Η μέθοδος πληρωμής απορρίφθηκε. Ενημερώστε τα στοιχεία πληρωμής σας.</string>
+    <string name="purchase_error_server">Κάτι πήγε στραβά. Δοκιμάστε ξανά αργότερα.</string>
+    <string name="purchase_error_rate_limit">Πάρα πολλές προσπάθειες ανανέωσης. Παρακαλώ περιμένετε.</string>
+    <string name="purchase_error_offline">Δεν υπάρχει σύνδεση στο διαδίκτυο. Εμφανίζονται δεδομένα προσωρινής αποθήκευσης.</string>
+    <string name="purchase_error_product_refresh">Δεν είναι δυνατή η επαλήθευση του προϊόντος. Δοκιμάστε ξανά.</string>
+    <string name="purchase_error_generic">Παρουσιάστηκε σφάλμα. Δοκιμάστε ξανά.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Όροι Παροχής Υπηρεσιών</string>
+    <string name="purchase_privacy_policy">Πολιτική Απορρήτου</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">Ιστορικό αγορών</string>
+    <string name="free_trial">Δωρεάν δοκιμή</string>
+    <string name="no_purchase_history">Δεν υπάρχει ιστορικό αγορών</string>
+    <string name="you_havent_made_any_purchases_">Δεν έχετε κάνει ακόμα καμία αγορά.</string>
+    <string name="error">Σφάλμα</string>
+    <string name="retry">Δοκιμάζω πάλι</string>
+    <string name="back">Πίσω</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Αναβαθμίστε την εμπειρία σας</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Επαναφορά αγορών</string>
+    <string name="close_purchase_screen">Κλείσιμο οθόνης αγοράς</string>
+    <string name="help">Βοήθεια</string>
+    <string name="more_options">Περισσότερες επιλογές</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Φρεσκάρω</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Ενεργός</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s ΕΝΕΡΓΟ</string>
+    <string name="premium_benefits">ΠΛΕΟΝΕΚΤΗΜΑΤΑ ΜΕ ΠΛΗΡΩΜΗ</string>
+    <string name="manage_subscription">Διαχείριση συνδρομής</string>
+    <string name="next_billing_date__manage_your">Επόμενη ημερομηνία χρέωσης: %1$s. Διαχειριστείτε τα στοιχεία χρέωσης και την ακύρωση μέσω των ρυθμίσεων του λογαριασμού σας στο Play Store.</string>
+    <string name="purchase_expires_">Η αγορά λήγει: %1$s</string>
+    <string name="falcon_pdf_pro">Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF Premium (Μηνιαία)</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Premium (Ετήσιο)</string>
+    <string name="pro">ΕΠΑΓΓΕΛΜΑΤΙΑΣ</string>
+    <string name="premium">ΑΣΦΑΛΙΣΤΡΟ</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Αποκτήστε το Falcon PDF Pro ή Premium</string>
+    <string name="purchase_desktop_subtitle">Οι αγορές διαχειρίζονται στον ιστότοπό μας. Κάντε κλικ παρακάτω για να δείτε τα προγράμματα και τις τιμές.</string>
+    <string name="purchase_desktop_open_website">Δείτε τα προγράμματα &amp; Τιμολόγηση</string>
+    <string name="purchase_desktop_already_purchased">Έχετε ήδη αγοράσει; Συνδεθείτε για να συγχρονίσετε το πρόγραμμά σας.</string>
+    <string name="purchase_store_build_subtitle">Η συνδρομή σας ξεκλειδώνει τις λειτουργίες Pro σε όλες τις συσκευές σας. Συνδεθείτε για να συγχρονίσετε το πρόγραμμά σας.</string>
+    <string name="ai_read_aloud">Ανάγνωση AI δυνατά</string>
+    <string name="full_pdf_editing__form_filling">Πλήρης επεξεργασία PDF &amp; Συμπλήρωση φόρμας</string>
+    <string name="crossdevice_sync_via_drive">Συγχρονισμός μεταξύ συσκευών μέσω Drive</string>
+    <string name="adfree_no_watermark">Χωρίς διαφημίσεις, χωρίς υδατογράφημα</string>
+    <string name="export_to_word__excel">Εξαγωγή σε Word &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">Πολλαπλά Θέματα &amp; Φόντα Σελίδας</string>
+    <string name="ai_summaries_with_stronger_reasoning">Περιλήψεις Τεχνητής Νοημοσύνης με Ισχυρότερη Συλλογιστική</string>
+    <string name="no_limits_on_60_pdf_tools">Χωρίς όρια σε 60+ εργαλεία PDF</string>
+    <string name="full_text_editing_in_pdfs">Επεξεργασία πλήρους κειμένου σε PDF</string>
+    <string name="digital_signatures_dscesign">Ψηφιακές Υπογραφές (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Απεριόριστος συγχρονισμός σαρωμένων εγγράφων</string>
+    <string name="biometric_document_lock">Κλείδωμα βιομετρικών εγγράφων</string>
+    <string name="everything_in_pro_all_devices">Τα πάντα σε Pro, σε όλες τις συσκευές</string>
+    <string name="introductory_offer">Εισαγωγική Προσφορά</string>
+    <string name="limited_time__30_off">Περιορισμένος χρόνος — 30% έκπτωση</string>
+    <string name="date__time">Ημερομηνία &amp; Ώρα</string>
+    <string name="amount">Ποσό</string>
+    <string name="platform">Πλατφόρμα</string>
+    <string name="type">Τύπος</string>
+    <string name="expires_on">Λήγει στις</string>
+</resources>

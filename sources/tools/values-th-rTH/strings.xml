@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">ลบหน้า</string>
+    <string name="are_you_sure_you_want_to_delet">คุณแน่ใจหรือไม่ว่าต้องการลบหน้าเว็บที่เลือกไว้ การกระทำนี้ไม่สามารถย้อนกลับได้</string>
+    <string name="delete">ลบ</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="quick_selection">การเลือกอย่างรวดเร็ว</string>
+    <string name="select_range">เลือกช่วง</string>
+    <string name="select_all">เลือกทั้งหมด</string>
+    <string name="clear_all">ล้างทั้งหมด</string>
+    <string name="select_page_range">เลือกช่วงหน้า</string>
+    <string name="enter_the_range_of_pages_to_de">ป้อนช่วงของหน้าที่จะลบ (1-%1$s)</string>
+    <string name="from">จาก</string>
+    <string name="to">ถึง</string>
+    <string name="select">เลือก</string>
+    <string name="please_go_back_and_select_a_pd">โปรดกลับไปเลือกไฟล์ PDF</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">แยกไฟล์ PDF</string>
+    <string name="str_1_file_selected">เลือกไฟล์ 1 ไฟล์</string>
+    <string name="no_file_selected">ไม่ได้เลือกไฟล์</string>
+    <string name="split_mode">โหมดแยก</string>
+    <string name="fixed_segments">ส่วนที่คงที่</string>
+    <string name="custom_ranges">ช่วงที่กำหนดเอง</string>
+    <string name="segment_size">ขนาดส่วน</string>
+    <string name="this_will_create_multiple_pdfs">คำสั่งนี้จะสร้างไฟล์ PDF หลายไฟล์ โดยแต่ละไฟล์มีจำนวนหน้าตามที่ระบุไว้ ขนาดของส่วนย่อยต้องน้อยกว่าจำนวนหน้าทั้งหมดเพื่อให้ได้การแบ่งที่เหมาะสม ตัวอย่างเช่น หากไฟล์ต้นฉบับมี 8 หน้า และคุณป้อน 2 หน้า ระบบจะสร้างไฟล์ PDF จำนวน 4 ไฟล์ โดยแต่ละไฟล์มี 2 หน้า</string>
+    <string name="pages_per_file">จำนวนหน้าต่อไฟล์</string>
+    <string name="eg_2">เช่น 2</string>
+    <string name="total_number_of_pages_in_pdf__">จำนวนหน้าทั้งหมดในไฟล์ PDF: %1$d (ขนาดส่วนต้องน้อยกว่า %1$d)</string>
+    <string name="this_will_create__output_files">การดำเนินการนี้จะสร้างไฟล์เอาต์พุต %1$d ไฟล์</string>
+    <string name="this_will_create__output_file">การดำเนินการนี้จะสร้างไฟล์เอาต์พุต %1$d</string>
+    <string name="this_input_will_split_the_pdf_">ข้อมูลนี้จะแบ่งไฟล์ PDF ออกเป็นไฟล์ย่อยตามช่วงที่คุณกำหนด ตัวอย่างเช่น "1-2,5,6-8" จะสร้างไฟล์ PDF จำนวน 3 ไฟล์ ได้แก่ ไฟล์แรกมีหน้า 1-2 ไฟล์ที่สองมีหน้า 5 และไฟล์ที่สามมีหน้า 6-8</string>
+    <string name="page_ranges">ช่วงหน้า</string>
+    <string name="eg_1234571520">เช่น 1-2,3,4-5,7,15-20</string>
+    <string name="format_use_ranges_15_or_single">รูปแบบ: ใช้ช่วง (1-5) หรือหน้าเดียว (7) คั่นด้วยเครื่องหมายจุลภาค อนุญาตเฉพาะตัวเลข เครื่องหมายยัติภังค์ และเครื่องหมายจุลภาคเท่านั้น</string>
+    <string name="split_preview">การแสดงตัวอย่างแบบแยกหน้าจอ</string>
+    <string name="pdf_files_will_be_created">ไฟล์ PDF จะถูกสร้างขึ้น %1$d</string>
+    <string name="pdf_file_will_be_created">ไฟล์ PDF จะถูกสร้างขึ้น %1$d</string>
+    <string name="pdf_result_">ผลลัพธ์ PDF %1$s</string>
+    <string name="str__and__more">...และ %1$d เพิ่มเติม</string>
+    <string name="splitting_pdf">การแบ่งไฟล์ PDF...</string>
+    <string name="checking_files">กำลังตรวจสอบไฟล์...</string>
+    <string name="page_n">หน้า %1$d</string>
+    <string name="pages_n_m">หน้า %1$d-%2$d</string>
+    <string name="split_complete">การแบ่งเสร็จสมบูรณ์แล้ว!</string>
+    <string name="split_failed">การแบ่งล้มเหลว</string>
+    <string name="we_couldnt_split_your_pdf">เราไม่สามารถแบ่งไฟล์ PDF ของคุณได้</string>
+    <string name="your_pdf_has_been_successfully_split">ไฟล์ PDF ของคุณถูกแบ่งออกเป็นไฟล์ %1$d ไฟล์เรียบร้อยแล้ว</string>
+    <string name="your_pdf_has_been_successfully_split_single">ไฟล์ PDF ของคุณถูกแบ่งออกเป็นไฟล์ %1$d เรียบร้อยแล้ว</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">เครื่องมือ PDF</string>
+    <string name="image_tools">เครื่องมือรูปภาพ</string>
+    <string name="str_30_tools_for_pdf">เครื่องมือสำหรับไฟล์ PDF มากกว่า 30 รายการ</string>
+    <string name="tools_for_images">เครื่องมือสำหรับรูปภาพ</string>
+    <string name="no_tools_found">ไม่พบเครื่องมือใดๆ</string>
+    <string name="try_adjusting_your_search">ลองปรับการค้นหาของคุณดู</string>
+    <string name="history">ประวัติศาสตร์</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s หน้า${ถ้า (pageCount &gt; 1) </string>
+    <string name="n_pages">%1$d หน้า</string>
+    <string name="n_page">%1$d หน้า</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">ต้องใช้รหัสผ่านสำหรับไฟล์ PDF นี้</string>
+    <string name="password_provided">รหัสผ่านที่ให้มา</string>
+    <string name="password_required">ต้องใส่รหัสผ่าน</string>
+    <string name="open_file">เปิดไฟล์</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">บีบอัดโดย </string>
+    <string name="error_details">รายละเอียดข้อผิดพลาด</string>
+    <string name="view">ดู</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">เลือก %1$s จาก %2$s หน้า</string>
+    <string name="showing_first_200_pages">แสดง 200 หน้าแรก</string>
+    <string name="use_quick_selection_above_for_">ใช้ฟังก์ชันเลือกด่วนด้านบนสำหรับหน้าที่มีมากกว่า 200 หน้า</string>
+    <string name="loading">กำลังโหลด...</string>
+    <string name="error">ข้อผิดพลาด</string>
+    <string name="generating_page_previews">กำลังสร้างตัวอย่างหน้าเว็บ...</string>
+    <string name="page__thumbnail">ภาพขนาดย่อของหน้า %1$s</string>
+    <string name="selected">เลือกแล้ว</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">ค้นหา</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">หมุนไฟล์ PDF</string>
+    <string name="please_provide_the_password_to">โปรดระบุรหัสผ่านเพื่อเลือกหน้าเว็บที่กำหนดเอง</string>
+    <string name="rotation_angle">มุมการหมุน</string>
+    <string name="page_selection">การเลือกหน้า</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">สั่งซื้อ PDF ใหม่</string>
+    <string name="use_the_arrow_buttons_to_reord">ใช้ปุ่มลูกศรเพื่อจัดเรียงลำดับหน้าใหม่</string>
+    <string name="pages_">หน้า (%1$s)</string>
+    <string name="page_">หน้า %1$s</string>
+    <string name="position__of_">ตำแหน่ง: %1$s จาก %2$s</string>
+    <string name="drag_handle">ด้ามจับลาก</string>
+    <string name="move_up">เลื่อนขึ้น</string>
+    <string name="move_down">เลื่อนลง</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">บีบอัดไฟล์ PDF</string>
+    <string name="no_files_selected">ไม่พบไฟล์ที่เลือก</string>
+    <string name="please_go_back_and_select_pdf_">โปรดกลับไปเลือกไฟล์ PDF ที่ต้องการบีบอัด</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">ความสำเร็จ</string>
+    <string name="individual_results">ผลลัพธ์รายบุคคล</string>
+    <string name="done">เสร็จแล้ว</string>
+    <string name="compression_complete">การบีบอัดเสร็จสมบูรณ์</string>
+    <string name="your_file_is_ready_and_much_li">ไฟล์ของคุณพร้อมแล้วและมีขนาดเล็ลงกว่าเดิมมาก!</string>
+    <string name="before">ก่อน</string>
+    <string name="after">หลังจาก</string>
+    <string name="total_saved">ยอดรวมที่บันทึกไว้</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">เล็กกว่า</string>
+    <string name="str__saved">%1$s% ที่บันทึกไว้</string>
+    <string name="open">เปิด</string>
+    <string name="share">แบ่งปัน</string>
+    <string name="close">ปิด</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">ระดับการบีบอัด</string>
+    <string name="recommended">ที่แนะนำ</string>
+    <string name="str__compression">%1$s การบีบอัด</string>
+    <string name="str__of_original_size">~%1$s% ของขนาดเดิม</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">แปลงรูปภาพเป็น PDF</string>
+    <string name="str__images_selected">%1$s รูปภาพที่เลือก</string>
+    <string name="images_will_be_converted_in_th">รูปภาพจะถูกแปลงตามลำดับที่แสดงด้านล่าง</string>
+    <string name="remove">ลบ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">แปลง PDF เป็นรูปภาพ</string>
+    <string name="image_format">รูปแบบภาพ</string>
+    <string name="image_quality_dpi">คุณภาพของภาพ (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">รวมไฟล์ PDF</string>
+    <string name="n_files_selected">ไฟล์ที่เลือก %1$d ไฟล์</string>
+    <string name="n_file_selected">%1$d เลือกไฟล์แล้ว</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">ล็อกไฟล์ PDF</string>
+    <string name="password_protection">การป้องกันด้วยรหัสผ่าน</string>
+    <string name="enter_a_password_to_protect_yo">ป้อนรหัสผ่านเพื่อป้องกันไฟล์ PDF ของคุณ คุณจะต้องใช้รหัสผ่านนี้เพื่อเปิดไฟล์</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="enter_password">ป้อนรหัสผ่าน</string>
+    <string name="confirm_password">ยืนยันรหัสผ่าน</string>
+    <string name="reenter_password">ป้อนรหัสผ่านอีกครั้ง</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">โปรดกลับไปเลือกไฟล์</string>
+    <string name="back">กลับ</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">ปลดล็อก PDF</string>
+    <string name="current_password">รหัสผ่านปัจจุบัน</string>
+    <string name="enter_the_current_password_to_">ป้อนรหัสผ่านปัจจุบันเพื่อปลดล็อกไฟล์ PDF นี้</string>
+    <string name="enter_current_password">ป้อนรหัสผ่านปัจจุบัน</string>
+    <string name="incorrect_password_please_try_">รหัสผ่านไม่ถูกต้อง โปรดลองอีกครั้ง</string>
+    <string name="new_password_optional">รหัสผ่านใหม่ (ไม่บังคับ)</string>
+    <string name="set_a_new_password_to_change_i">ตั้งรหัสผ่านใหม่เพื่อเปลี่ยน หรือเว้นว่างไว้เพื่อยกเลิกการป้องกันด้วยรหัสผ่าน</string>
+    <string name="new_password">รหัสผ่านใหม่</string>
+    <string name="enter_new_password">ป้อนรหัสผ่านใหม่</string>
+    <string name="confirm_new_password">ยืนยันรหัสผ่านใหม่</string>
+    <string name="reenter_new_password">ป้อนรหัสผ่านใหม่อีกครั้ง</string>
+    <string name="passwords_do_not_match">รหัสผ่านไม่ตรงกัน</string>
+    <string name="compression_failed">การบีบอัดล้มเหลว</string>
+    <string name="open_pdf">เปิดไฟล์ PDF</string>
+    <string name="share_file">แชร์ไฟล์</string>
+    <string name="pages_deleted">หน้าเว็บถูกลบแล้ว!</string>
+    <string name="delete_failed">การลบล้มเหลว</string>
+    <string name="select_pages_to_delete">เลือกหน้าที่จะลบ</string>
+    <string name="pdf_created">สร้างไฟล์ PDF เสร็จแล้ว!</string>
+    <string name="conversion_failed">การแปลงล้มเหลว</string>
+    <string name="pdf_locked_successfully">ล็อกไฟล์ PDF สำเร็จแล้ว!</string>
+    <string name="lock_failed">การล็อกล้มเหลว</string>
+    <string name="merge_complete">การรวมข้อมูลเสร็จสมบูรณ์!</string>
+    <string name="merge_failed">การรวมล้มเหลว</string>
+    <string name="conversion_complete">การแปลงเสร็จสมบูรณ์!</string>
+    <string name="reorder_complete">การสั่งซื้อใหม่เสร็จสมบูรณ์แล้ว!</string>
+    <string name="reorder_failed">การสั่งซื้อซ้ำล้มเหลว</string>
+    <string name="rotation_complete">การหมุนเสร็จสมบูรณ์!</string>
+    <string name="rotation_failed">การหมุนล้มเหลว</string>
+    <string name="select_pages_to_rotate">เลือกหน้าที่จะหมุน</string>
+    <string name="str__complete">%1$s เสร็จสมบูรณ์!</string>
+    <string name="str__failed">%1$s ล้มเหลว</string>
+    <string name="unlock_failed">การปลดล็อกล้มเหลว</string>
+    <string name="your_pdfs_have_been_successfully_compres">ไฟล์ PDF ของคุณได้รับการบีบอัดเรียบร้อยแล้ว</string>
+    <string name="we_couldnt_compress_your_pdfs">เราไม่สามารถบีบอัดไฟล์ PDF ของคุณได้</string>
+    <string name="view_your_compressed_file">ดูไฟล์ที่บีบอัดของคุณ</string>
+    <string name="send_to_others_or_apps">ส่งให้ผู้อื่นหรือแอปต่างๆ</string>
+    <string name="your_pdf_has_been_successfully_modified">ไฟล์ PDF ของคุณได้รับการแก้ไขเรียบร้อยแล้ว</string>
+    <string name="we_couldnt_delete_the_pages">เราไม่สามารถลบหน้าเหล่านั้นได้</string>
+    <string name="your_images_have_been_converted_to_pdf">รูปภาพของคุณถูกแปลงเป็นไฟล์ PDF แล้ว</string>
+    <string name="unable_to_create_pdf_from_images">ไม่สามารถสร้างไฟล์ PDF จากรูปภาพได้</string>
+    <string name="your_pdf_is_now_password_protected">ไฟล์ PDF ของคุณได้รับการป้องกันด้วยรหัสผ่านเรียบร้อยแล้ว</string>
+    <string name="we_couldnt_lock_your_pdf">เราไม่สามารถล็อกไฟล์ PDF ของคุณได้</string>
+    <string name="your_pdfs_have_been_successfully_merged">ไฟล์ PDF ของคุณได้รับการรวมเข้าด้วยกันเรียบร้อยแล้ว</string>
+    <string name="we_couldnt_merge_your_pdfs">เราไม่สามารถรวมไฟล์ PDF ของคุณได้</string>
+    <string name="str__images_created_successfully">%1$s สร้างภาพสำเร็จแล้ว</string>
+    <string name="unable_to_convert_pdf_to_images">ไม่สามารถแปลงไฟล์ PDF เป็นรูปภาพได้</string>
+    <string name="your_pdf_pages_have_been_successfully_re">ลำดับหน้าในไฟล์ PDF ของคุณได้รับการจัดเรียงใหม่เรียบร้อยแล้ว</string>
+    <string name="we_couldnt_reorder_your_pdf">เราไม่สามารถเรียงลำดับไฟล์ PDF ของคุณใหม่ได้</string>
+    <string name="your_pdf_has_been_successfully_rotated">ไฟล์ PDF ของคุณถูกหมุนเรียบร้อยแล้ว</string>
+    <string name="we_couldnt_rotate_your_pdf">เราไม่สามารถหมุนไฟล์ PDF ของคุณได้</string>
+    <string name="your_file_has_been_successfully_processe">ไฟล์ของคุณได้รับการประมวลผลเรียบร้อยแล้ว</string>
+    <string name="we_couldnt_process_your_file">เราไม่สามารถประมวลผลไฟล์ของคุณได้</string>
+    <string name="we_couldnt_unlock_your_pdf">เราไม่สามารถปลดล็อกไฟล์ PDF ของคุณได้</string>
+    <string name="clear_filter">ล้างตัวกรอง</string>
+    <string name="clear">ชัดเจน</string>
+    <string name="pick_a_tool_">เลือกเครื่องมือ →</string>
+    <string name="drag_to_reorder">ลากเพื่อจัดลำดับใหม่</string>
+    <string name="your_files_are_securely_processed_on_our">ไฟล์ของคุณจะได้รับการประมวลผลอย่างปลอดภัยบนเซิร์ฟเวอร์ของเราโดยใช้การเชื่อมต่อแบบเข้ารหัส และจะถูกลบโดยอัตโนมัติภายใน 1 ชั่วโมง เราไม่เก็บหรือแบ่งปันข้อมูลของคุณกับผู้อื่นโดยเด็ดขาด</string>
+    <string name="compression_quality">คุณภาพการบีบอัด</string>
+    <string name="dragelevation">ลากระดับความสูง</string>
+    <string name="tool_card_scale">มาตราส่วนการ์ดเครื่องมือ</string>
+</resources>

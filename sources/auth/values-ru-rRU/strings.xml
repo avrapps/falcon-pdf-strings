@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Проверьте подключение к интернету и убедитесь, что учетная запись Google добавлена на ваше устройство, затем попробуйте снова.</string>
+    <string name="sign_in_with_apple">Войти с помощью Apple</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Улучшите свой опыт</string>
+    <string name="purchase_screen_close">Закрывать</string>
+    <string name="purchase_screen_refresh">Обновить</string>
+    <string name="purchase_sync_status">Последняя синхронизация: %1s</string>
+    <string name="purchase_current_plan">Текущий</string>
+    <string name="purchase_syncing">Синхронизация…</string>
+    <string name="purchase_loading">Загрузка…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Бесплатный план</string>
+    <string name="purchase_pro_plan">Профессиональная версия</string>
+    <string name="purchase_pro_tagline">Заплатите один раз. Владейте навсегда.</string>
+    <string name="purchase_premium_plan">Премиум-подписка</string>
+    <string name="purchase_premium_tagline">Всё, что есть в Pro, плюс ИИ &amp; Облако</string>
+    <string name="purchase_recommended">Рекомендуется</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">Искусственный интеллект читает вслух — слушайте PDF-файлы естественным образом.</string>
+    <string name="purchase_pro_feature_2">Полное редактирование PDF-файлов &amp; Заполнение форм</string>
+    <string name="purchase_pro_feature_3">Синхронизация между устройствами через Диск</string>
+    <string name="purchase_pro_feature_4">Без рекламы, без водяных знаков на сканах.</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">Краткие обзоры ИИ с более убедительными аргументами</string>
+    <string name="purchase_premium_feature_1_desc">Более глубокие ответы на основе более длинных и сложных документов.</string>
+    <string name="purchase_premium_feature_2_title">50 ГБ Falcon Cloud</string>
+    <string name="purchase_premium_feature_2_desc">Ваша личная библиотека PDF-файлов, синхронизированная и защищенная.</string>
+    <string name="purchase_premium_feature_3_title">Без ограничений на более чем 60 инструментов для работы с PDF-файлами.</string>
+    <string name="purchase_premium_feature_3_desc">Все инструменты всегда под рукой</string>
+    <string name="purchase_premium_feature_4_title">Редактирование полного текста в PDF-файлах</string>
+    <string name="purchase_premium_feature_4_desc">Редактируйте текст напрямую, как в текстовом редакторе.</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Купить Про</string>
+    <string name="purchase_sign_in_buy">Войти &amp; Купить</string>
+    <string name="purchase_sign_in_subscribe">Войти &amp; Подписаться</string>
+    <string name="purchase_subscribe">Подписаться</string>
+    <string name="purchase_start_trial">Начните 7-дневную бесплатную пробную версию</string>
+    <string name="purchase_view_all_features">Просмотреть все функции</string>
+    <string name="purchase_show_more">Показать больше</string>
+    <string name="purchase_show_less">Показать меньше</string>
+    <string name="purchase_see_all_features">Посмотреть все функции</string>
+    <string name="purchase_manage_subscription">Управление подпиской</string>
+    <string name="purchase_restore_purchases">Восстановить покупки</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Ежемесячно</string>
+    <string name="purchase_billing_yearly">Ежегодно</string>
+    <string name="purchase_save_badge">Сэкономьте 40%</string>
+    <string name="purchase_lifetime">Продолжительность жизни</string>
+    <string name="purchase_per_year">/год</string>
+    <string name="purchase_per_month">/месяц</string>
+    <string name="purchase_trial_terms">Отменить можно в любое время. Подписка продлевается автоматически, если не отменена за 24 часа до окончания пробного периода.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Не удалось загрузить товары. Проверьте свой логин и подключение к интернету.</string>
+    <string name="purchase_error_network">Соединение потеряно. Пожалуйста, проверьте подключение к интернету и попробуйте снова.</string>
+    <string name="purchase_error_payment_declined">Способ оплаты отклонен. Пожалуйста, обновите свои платежные данные.</string>
+    <string name="purchase_error_server">Произошла ошибка. Пожалуйста, попробуйте позже.</string>
+    <string name="purchase_error_rate_limit">Слишком много попыток обновления. Пожалуйста, подождите.</string>
+    <string name="purchase_error_offline">Нет подключения к интернету. Отображаются кэшированные данные.</string>
+    <string name="purchase_error_product_refresh">Не удалось проверить товар. Пожалуйста, попробуйте еще раз.</string>
+    <string name="purchase_error_generic">Произошла ошибка. Пожалуйста, попробуйте еще раз.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Условия предоставления услуг</string>
+    <string name="purchase_privacy_policy">политика конфиденциальности</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">История покупок</string>
+    <string name="free_trial">Бесплатная пробная версия</string>
+    <string name="no_purchase_history">История покупок отсутствует</string>
+    <string name="you_havent_made_any_purchases_">Вы еще не совершили ни одной покупки.</string>
+    <string name="error">Ошибка</string>
+    <string name="retry">Повторить попытку</string>
+    <string name="back">Назад</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Улучшите свой опыт</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Восстановить покупки</string>
+    <string name="close_purchase_screen">Закрытие экрана покупки</string>
+    <string name="help">Помощь</string>
+    <string name="more_options">Больше вариантов</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Обновить</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Активный</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s АКТИВНЫЙ</string>
+    <string name="premium_benefits">ПРЕМИАЛЬНЫЕ ПРЕИМУЩЕСТВА</string>
+    <string name="manage_subscription">Управление подпиской</string>
+    <string name="next_billing_date__manage_your">Следующая дата выставления счета: %1$s. Управляйте своими платежными данными и отменой подписки через настройки учетной записи Play Store.</string>
+    <string name="purchase_expires_">Срок действия покупки истекает: %1$s</string>
+    <string name="falcon_pdf_pro">Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF Premium (ежемесячно)</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Premium (годовая подписка)</string>
+    <string name="pro">ПРО</string>
+    <string name="premium">ПРЕМИУМ</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Приобретите Falcon PDF Pro или Premium.</string>
+    <string name="purchase_desktop_subtitle">Управление покупками осуществляется на нашем сайте. Нажмите ниже, чтобы посмотреть тарифные планы и цены.</string>
+    <string name="purchase_desktop_open_website">Посмотреть тарифные планы &amp; Цены</string>
+    <string name="purchase_desktop_already_purchased">Уже приобрели тариф? Войдите в систему, чтобы синхронизировать свой план.</string>
+    <string name="purchase_store_build_subtitle">Ваша подписка открывает функции Pro на всех ваших устройствах. Войдите в систему, чтобы синхронизировать свой план.</string>
+    <string name="ai_read_aloud">Искусственный интеллект читает вслух</string>
+    <string name="full_pdf_editing__form_filling">Полное редактирование PDF-файлов &amp; Заполнение форм</string>
+    <string name="crossdevice_sync_via_drive">Синхронизация между устройствами через Диск</string>
+    <string name="adfree_no_watermark">Без рекламы, без водяных знаков.</string>
+    <string name="export_to_word__excel">Экспорт в Word &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">Несколько тем &amp; Фоны страниц</string>
+    <string name="ai_summaries_with_stronger_reasoning">Краткие обзоры ИИ с более убедительными аргументами</string>
+    <string name="no_limits_on_60_pdf_tools">Без ограничений на более чем 60 инструментов для работы с PDF-файлами.</string>
+    <string name="full_text_editing_in_pdfs">Редактирование полного текста в PDF-файлах</string>
+    <string name="digital_signatures_dscesign">Цифровые подписи (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Неограниченная синхронизация отсканированных документов</string>
+    <string name="biometric_document_lock">Биометрический замок для документов</string>
+    <string name="everything_in_pro_all_devices">Всё в версии Pro, для всех устройств</string>
+    <string name="introductory_offer">Вводное предложение</string>
+    <string name="limited_time__30_off">Ограниченное по времени предложение — скидка 30%</string>
+    <string name="date__time">Дата &amp; Время</string>
+    <string name="amount">Количество</string>
+    <string name="platform">Платформа</string>
+    <string name="type">Тип</string>
+    <string name="expires_on">Срок действия истекает</string>
+</resources>

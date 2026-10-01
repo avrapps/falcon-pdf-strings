@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">인터넷 연결 상태를 확인하고 기기에 Google 계정이 추가되어 있는지 확인한 후 다시 시도해 주세요.</string>
+    <string name="sign_in_with_apple">Apple로 로그인</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">경험을 한 단계 업그레이드하세요</string>
+    <string name="purchase_screen_close">닫다</string>
+    <string name="purchase_screen_refresh">새로 고치다</string>
+    <string name="purchase_sync_status">마지막 동기화 시간: %1s</string>
+    <string name="purchase_current_plan">현재의</string>
+    <string name="purchase_syncing">…동기화 중</string>
+    <string name="purchase_loading">…로딩 중</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">무료 플랜</string>
+    <string name="purchase_pro_plan">프로 에디션</string>
+    <string name="purchase_pro_tagline">한 번만 결제하면 영원히 소유할 수 있습니다.</string>
+    <string name="purchase_premium_plan">프리미엄 구독</string>
+    <string name="purchase_premium_tagline">Pro의 모든 기능에 AI 기능 추가 &amp; 클라우드</string>
+    <string name="purchase_recommended">추천</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">AI 음성 읽기 — PDF 파일을 자연스럽게 읽어줍니다</string>
+    <string name="purchase_pro_feature_2">전체 PDF 편집 &amp; 양식 작성</string>
+    <string name="purchase_pro_feature_3">Drive를 통한 기기 간 동기화</string>
+    <string name="purchase_pro_feature_4">광고 없음, 스캔 이미지에 워터마크 없음</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">더욱 강력한 추론을 담은 AI 요약</string>
+    <string name="purchase_premium_feature_1_desc">더 길고 복잡한 문서에서 더 심층적인 답변을 얻을 수 있습니다.</string>
+    <string name="purchase_premium_feature_2_title">50GB 팔콘 클라우드</string>
+    <string name="purchase_premium_feature_2_desc">동기화되고 안전한 개인 PDF 라이브러리</string>
+    <string name="purchase_premium_feature_3_title">60개 이상의 PDF 도구에 제한 없이 사용 가능</string>
+    <string name="purchase_premium_feature_3_desc">모든 도구는 항상 이용 가능합니다.</string>
+    <string name="purchase_premium_feature_4_title">PDF 파일의 전체 텍스트 편집</string>
+    <string name="purchase_premium_feature_4_desc">워드프로세서처럼 텍스트를 직접 편집하세요</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">프로 구매</string>
+    <string name="purchase_sign_in_buy">로그인 &amp; 구매</string>
+    <string name="purchase_sign_in_subscribe">로그인 &amp; 구독</string>
+    <string name="purchase_subscribe">구독하다</string>
+    <string name="purchase_start_trial">7일 무료 체험 시작하기</string>
+    <string name="purchase_view_all_features">모든 기능 보기</string>
+    <string name="purchase_show_more">더 보기</string>
+    <string name="purchase_show_less">간략히 보기</string>
+    <string name="purchase_see_all_features">모든 기능을 확인하세요</string>
+    <string name="purchase_manage_subscription">구독 관리</string>
+    <string name="purchase_restore_purchases">구매 내역 복원</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">월간 간행물</string>
+    <string name="purchase_billing_yearly">매년</string>
+    <string name="purchase_save_badge">40% 할인</string>
+    <string name="purchase_lifetime">일생</string>
+    <string name="purchase_per_year">/년도</string>
+    <string name="purchase_per_month">/월</string>
+    <string name="purchase_trial_terms">언제든지 취소할 수 있습니다. 체험 기간 종료 24시간 전에 취소하지 않으면 자동으로 갱신됩니다.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">제품을 불러오는 데 실패했습니다. 로그인 상태와 인터넷 연결 상태를 확인하세요.</string>
+    <string name="purchase_error_network">연결이 끊어졌습니다. 인터넷 연결 상태를 확인하고 다시 시도해 주세요.</string>
+    <string name="purchase_error_payment_declined">결제 수단이 거부되었습니다. 결제 정보를 업데이트해 주세요.</string>
+    <string name="purchase_error_server">오류가 발생했습니다. 나중에 다시 시도해 주세요.</string>
+    <string name="purchase_error_rate_limit">새로 고침 시도 횟수가 너무 많습니다. 잠시 기다려 주세요.</string>
+    <string name="purchase_error_offline">인터넷 연결이 없습니다. 캐시된 데이터를 표시합니다.</string>
+    <string name="purchase_error_product_refresh">제품을 확인할 수 없습니다. 다시 시도해 주세요.</string>
+    <string name="purchase_error_generic">오류가 발생했습니다. 다시 시도해 주세요.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">서비스 약관</string>
+    <string name="purchase_privacy_policy">개인정보 보호정책</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">구매 내역</string>
+    <string name="free_trial">무료 체험</string>
+    <string name="no_purchase_history">구매 내역 없음</string>
+    <string name="you_havent_made_any_purchases_">아직 구매 내역이 없습니다.</string>
+    <string name="error">오류</string>
+    <string name="retry">다시 해 보다</string>
+    <string name="back">뒤쪽에</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">경험을 한 단계 업그레이드하세요</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">구매 내역 복원</string>
+    <string name="close_purchase_screen">구매 화면 닫기</string>
+    <string name="help">돕다</string>
+    <string name="more_options">더 많은 옵션</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">새로 고치다</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">활동적인</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s 활성</string>
+    <string name="premium_benefits">프리미엄 혜택</string>
+    <string name="manage_subscription">구독 관리</string>
+    <string name="next_billing_date__manage_your">다음 결제일: %1$s. Play Store 계정 설정에서 결제 정보 관리 및 취소를 진행하세요.</string>
+    <string name="purchase_expires_">구매 만료일: %1$s</string>
+    <string name="falcon_pdf_pro">팔콘 PDF 프로</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF 프리미엄(월간)</string>
+    <string name="falcon_pdf_premium_yearly">팔콘 PDF 프리미엄(연간)</string>
+    <string name="pro">찬성</string>
+    <string name="premium">프리미엄</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Falcon PDF Pro 또는 Premium을 구매하세요.</string>
+    <string name="purchase_desktop_subtitle">구매는 저희 웹사이트에서 관리됩니다. 아래를 클릭하여 요금제 및 가격을 확인하세요.</string>
+    <string name="purchase_desktop_open_website">요금제 보기 &amp; 가격</string>
+    <string name="purchase_desktop_already_purchased">이미 구매하셨나요? 로그인하여 플랜을 동기화하세요.</string>
+    <string name="purchase_store_build_subtitle">구독하면 모든 기기에서 Pro 기능을 사용할 수 있습니다. 로그인하여 구독 플랜을 동기화하세요.</string>
+    <string name="ai_read_aloud">AI가 소리내어 읽어줍니다</string>
+    <string name="full_pdf_editing__form_filling">전체 PDF 편집 &amp; 양식 작성</string>
+    <string name="crossdevice_sync_via_drive">Drive를 통한 기기 간 동기화</string>
+    <string name="adfree_no_watermark">광고 없음, 워터마크 없음</string>
+    <string name="export_to_word__excel">Word로 내보내기 &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">다양한 테마 &amp; 페이지 배경</string>
+    <string name="ai_summaries_with_stronger_reasoning">더욱 강력한 추론을 담은 AI 요약</string>
+    <string name="no_limits_on_60_pdf_tools">60개 이상의 PDF 도구에 제한 없이 사용 가능</string>
+    <string name="full_text_editing_in_pdfs">PDF 파일의 전체 텍스트 편집</string>
+    <string name="digital_signatures_dscesign">디지털 서명(DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">무제한 스캔 문서 동기화</string>
+    <string name="biometric_document_lock">생체인식 문서 잠금</string>
+    <string name="everything_in_pro_all_devices">Pro의 모든 기능, 모든 기기에서 사용 가능</string>
+    <string name="introductory_offer">출시 기념 특별 할인</string>
+    <string name="limited_time__30_off">기간 한정 — 30% 할인</string>
+    <string name="date__time">날짜 &amp; 시간</string>
+    <string name="amount">양</string>
+    <string name="platform">플랫폼</string>
+    <string name="type">유형</string>
+    <string name="expires_on">만료일</string>
+</resources>

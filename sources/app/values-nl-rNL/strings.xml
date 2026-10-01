@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">PDF Magic</string>
+    <string name="app_tagline">Wat zou je graag willen doen?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">Laatst gebruikt</string>
+    <string name="home_favorites">Favorieten</string>
+    <string name="home_new_tool">Nieuw gereedschap</string>
+    <string name="home_featured">UITGELICHT</string>
+    <string name="home_scan_to_pdf">Scannen naar PDF</string>
+    <string name="home_scan_description">Transformeer papieren documenten direct in digitale magie.</string>
+    <string name="home_start_scanning">Start met scannen</string>
+    <string name="home_all_tools">Alle gereedschappen</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">PDF-tools</string>
+    <string name="image_tools">Beeldgereedschappen</string>
+    <string name="tools_split">Split</string>
+    <string name="tools_split_description">Pagina's extraheren</string>
+    <string name="tools_rotate">Draaien</string>
+    <string name="tools_rotate_description">Oriëntatie corrigeren</string>
+    <string name="tools_delete_pages">Pagina's verwijderen</string>
+    <string name="tools_delete_pages_description">Verwijder ongewenste</string>
+    <string name="tools_convert">Overzetten</string>
+    <string name="tools_convert_description">Naar/Van afbeeldingen</string>
+    <string name="tools_sign">Teken</string>
+    <string name="tools_sign_description">Voeg een handtekening toe</string>
+    <string name="tools_protect">Beschermen</string>
+    <string name="tools_protect_description">Wachtwoordbeveiliging</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">PDF-viewer</string>
+    <string name="pdf_viewer_page_info">Pagina %1$d van %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">Documentenscanner</string>
+    <string name="scanner_capture">Vastlegging</string>
+    <string name="scanner_retake">Herhaling</string>
+    <string name="scanner_save">Redden</string>
+    <!-- Navigation -->
+    <string name="nav_back">Ga terug</string>
+    <string name="nav_settings">Instellingen</string>
+    <string name="nav_more_options">Meer opties</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Thuis</string>
+    <string name="nav_library">Bibliotheek</string>
+    <string name="nav_scan">Scannen</string>
+    <string name="nav_tools">Hulpmiddelen</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">Bestanden bekijken</string>
+    <string name="browse_files_subtitle">Opslag &amp; Cloudbestanden</string>
+    <string name="show_hidden_files">Verborgen bestanden weergeven</string>
+    <string name="hide_hidden_files">Verborgen bestanden verbergen</string>
+    <string name="refresh_storage">Vernieuw de opslag</string>
+    <string name="no_storage_available">Geen opslagruimte beschikbaar</string>
+    <string name="no_files_found">Geen bestanden gevonden</string>
+    <string name="add_files">Voeg %1$d bestanden toe</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">Opslagtoegang vereist</string>
+    <string name="permission_storage_message">Deze app heeft toegang nodig tot de opslagruimte van uw apparaat om PDF-bestanden te kunnen bekijken en openen. Geef toestemming voor de opslag om verder te gaan.</string>
+    <string name="permission_grant">Verleen toestemming</string>
+    <!-- Common Actions -->
+    <string name="action_open">Open</string>
+    <string name="action_save">Redden</string>
+    <string name="action_share">Deel</string>
+    <string name="action_delete">Verwijderen</string>
+    <string name="action_cancel">Annuleren</string>
+    <string name="action_confirm">Bevestigen</string>
+    <string name="action_rename">Naam wijzigen</string>
+    <string name="action_print">Afdrukken</string>
+    <string name="action_favorite">Favoriet</string>
+    <string name="action_unfavorite">Niet favoriet</string>
+    <!-- Document Actions -->
+    <string name="document_share">Deel document</string>
+    <string name="document_rename">Document hernoemen</string>
+    <string name="document_delete">Document verwijderen</string>
+    <string name="document_print">Document afdrukken</string>
+    <string name="document_favorite">Toevoegen aan favorieten</string>
+    <string name="document_unfavorite">Verwijderen uit favorieten</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">Document succesvol gedeeld</string>
+    <string name="document_share_failed">Het delen van het document is mislukt.</string>
+    <string name="document_renamed_success">Document succesvol hernoemd</string>
+    <string name="document_rename_failed">Het hernoemen van het document is mislukt.</string>
+    <string name="document_deleted_success">Document succesvol verwijderd</string>
+    <string name="document_delete_failed">Het verwijderen van het document is mislukt.</string>
+    <string name="document_print_opened">Het document is geopend in de standaard PDF-viewer. Gebruik de afdrukfunctie van de viewer om het document af te drukken.</string>
+    <string name="document_print_failed">Het afdrukken van het document is mislukt.</string>
+    <string name="document_added_to_favorites">Toegevoegd aan favorieten</string>
+    <string name="document_removed_from_favorites">Verwijderd uit favorieten</string>
+    <string name="document_favorite_failed">Het bijwerken van de favorietenstatus is mislukt.</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">Document hernoemen</string>
+    <string name="dialog_rename_hint">Voer een nieuwe naam in</string>
+    <string name="dialog_rename_empty_error">De documentnaam mag niet leeg zijn.</string>
+    <string name="dialog_delete_title">Document verwijderen</string>
+    <string name="dialog_delete_file_message">Hiermee wordt het bestand permanent verwijderd.\n\nVerwijderen %1$s?</string>
+    <string name="dialog_delete_uri_message">Verwijdert alleen uit de app. Origineel bestand blijft ongewijzigd.\n\nVerwijder %1$s uit de app?</string>
+    <string name="dialog_delete_confirm">Verwijderen</string>
+    <string name="dialog_remove_confirm">Verwijderen</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">De naamswijziging vindt alleen binnen de app plaats. Het originele bestand blijft ongewijzigd.</string>
+    <string name="notice_delete_uri_only">Verwijderd uit de app. Origineel bestand ongewijzigd.</string>
+    <string name="notice_file_exists_error">Er bestaat al een bestand met deze naam.</string>
+    <string name="notice_file_not_found_error">Bestand niet gevonden</string>
+    <string name="notice_no_active_document">Geen actief document</string>
+    <string name="notice_document_path_unavailable">Het pad naar het documentbestand is niet beschikbaar.</string>
+    <!-- States -->
+    <string name="state_loading">Laden...</string>
+    <string name="state_empty">Geen artikelen gevonden</string>
+    <string name="state_error">Er is iets misgegaan.</string>
+    <string name="state_retry">Opnieuw proberen</string>
+    <!-- Errors -->
+    <string name="error_network">Netwerkverbinding mislukt</string>
+    <string name="error_file_not_found">Bestand niet gevonden</string>
+    <string name="error_permission_denied">Toegang geweigerd</string>
+    <string name="error_invalid_file">Ongeldig bestandsformaat</string>
+    <string name="error_password_required">Wachtwoord vereist</string>
+    <string name="error_incorrect_password">Onjuist wachtwoord</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">Wachtwoordbeveiligd</string>
+    <string name="password_protected_message">Dit bestand vereist een wachtwoord om te openen. Voer het wachtwoord hieronder in.</string>
+    <string name="password_label">Wachtwoord</string>
+    <string name="password_placeholder">Voer wachtwoord in</string>
+    <string name="password_unlock">Ontgrendelen</string>
+    <string name="password_show">Wachtwoord weergeven</string>
+    <string name="password_hide">Wachtwoord verbergen</string>
+    <!-- Theme -->
+    <string name="theme_light">Licht</string>
+    <string name="theme_dark">Donker</string>
+    <string name="theme_system">Systeem</string>
+    <string name="theme_adaptive">Adaptief</string>
+    <string name="theme_custom">Aangepast</string>
+    <!-- Settings -->
+    <string name="settings_title">Voorkeuren</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">Account &amp; Synchroniseren</string>
+    <string name="settings_category_sync_subtitle">Beheer je account, synchroniseer &amp; privacy</string>
+    <string name="settings_category_appearance_title">Verschijning</string>
+    <string name="settings_category_appearance_subtitle">Het uiterlijk van de app aanpassen &amp; gevoel</string>
+    <string name="settings_category_pdf_reader_title">PDF-lezer</string>
+    <string name="settings_category_pdf_reader_subtitle">Standaard leeservaring van de viewer &amp;</string>
+    <string name="settings_category_help_title">Help &amp; Ondersteuning</string>
+    <string name="settings_category_help_subtitle">Documentatie &amp; contact</string>
+    <string name="settings_category_general_title">Algemeen</string>
+    <string name="settings_category_general_subtitle">Taal &amp; app-info</string>
+    <string name="settings_theme_section">Thema</string>
+    <string name="settings_theme_description">Kies je favoriete thema.</string>
+    <string name="settings_accent_color">ACCENTKLEUR</string>
+    <string name="settings_custom_colors">Aangepaste kleuren</string>
+    <string name="settings_primary_color">Primaire kleur</string>
+    <string name="settings_background_color">Achtergrondkleur</string>
+    <string name="settings_surface_color">Oppervlaktekleur</string>
+    <string name="settings_reset_colors">Terugzetten naar standaardinstellingen</string>
+    <string name="settings_adaptive_note">Adaptieve kleuren van Material You (Android 12+)</string>
+    <string name="settings_app_section">App-instellingen</string>
+    <string name="settings_notifications">Meldingen</string>
+    <string name="settings_notifications_description">App-meldingen ontvangen</string>
+    <string name="settings_auto_backup">Automatische back-up</string>
+    <string name="settings_auto_backup_description">Documenten automatisch back-uppen</string>
+    <string name="settings_change_color">Kleur wijzigen</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">Uw PDF-documenten verschijnen hier.</string>
+    <string name="scan_description">Scan documenten naar PDF</string>
+    <string name="tools_description">PDF-bewerkings- en manipulatietools</string>
+    <string name="home_description">Gebruik de onderste navigatiebalk om toegang te krijgen tot functies.</string>
+    <!-- Sort Options -->
+    <string name="sort_name">Naam</string>
+    <string name="sort_date">Datum</string>
+    <string name="sort_size">Maat</string>
+    <string name="sort_option_name">Naam</string>
+    <string name="sort_option_last_opened">Laatst geopend</string>
+    <string name="sort_option_last_modified">Laatst gewijzigd</string>
+    <string name="sort_option_file_size">Bestandsgrootte</string>
+    <!-- View Types -->
+    <string name="view_type_list">Lijstweergave</string>
+    <string name="view_type_table">Tabelweergave</string>
+    <string name="view_type_grid">Rasterweergave</string>
+    <!-- File Properties -->
+    <string name="file_name">Bestandsnaam</string>
+    <string name="date_modified">Datum gewijzigd</string>
+    <string name="file_size">Maat</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">Nog niet gestart</string>
+    <string name="file_status_completed">Voltooid</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">PDF-document</string>
+    <string name="document_type_word">Word-document</string>
+    <string name="document_type_excel">Excel-spreadsheet</string>
+    <string name="document_type_image">Afbeeldingsbestand</string>
+    <string name="document_type_other">Document</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">Alle bestanden</string>
+    <string name="filter_recent">Recent</string>
+    <string name="filter_pdfs">PDF's</string>
+    <string name="filter_images">Afbeeldingen</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">Thuis</string>
+    <string name="browse_tab">Bladeren</string>
+    <string name="starred_tab">Met ster</string>
+    <string name="settings_tab">Instellingen</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">Thema wisselen</string>
+    <string name="accessibility_menu">Menu</string>
+    <string name="accessibility_close">Dichtbij</string>
+    <string name="accessibility_color_picker">Kleurenkiezer</string>
+    <!-- Library Screen -->
+    <string name="library_title">Bibliotheek</string>
+    <string name="library_subtitle">Bestanden beheren, Recente &amp; Favorieten</string>
+    <string name="library_search_placeholder">Bestanden doorzoeken...</string>
+    <string name="library_selected_count">%1$d geselecteerd</string>
+    <string name="library_open_from_device">Openen vanaf\napparaat</string>
+    <string name="library_browse_files">Blader door\nbestanden</string>
+    <string name="library_action_open">Open</string>
+    <string name="library_action_share">Deel</string>
+    <string name="library_action_remove">Verwijderen</string>
+    <string name="library_action_delete">Verwijderen</string>
+    <string name="library_clear_search">Zoekopdracht wissen</string>
+    <string name="library_close_search">Zoeken sluiten</string>
+    <string name="library_select_all">Selecteer alle bestanden</string>
+    <string name="library_exit_multiselect">Verlaat de modus voor meerdere selecties</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">Help &amp; Ondersteuning</string>
+    <string name="help_support_subtitle">Veelgestelde vragen, contact &amp; Juridische informatie</string>
+    <string name="settings_pdf_subtitle">Scroll, Weergave &amp; Lay-out</string>
+    <string name="help_header_title">Hoe kunnen we helpen?</string>
+    <string name="help_header_subtitle">Ons team staat klaar om ervoor te zorgen dat u de\nbeste PDF-ervaring heeft.</string>
+    <string name="help_contact_us">Neem contact met ons op</string>
+    <string name="help_contact_subtitle">Neem contact op met de ondersteuning.</string>
+    <string name="help_faq">Veelgestelde vragen</string>
+    <string name="help_faq_subtitle">Veelgestelde vragen beantwoord</string>
+    <string name="help_privacy_policy">Privacybeleid</string>
+    <string name="help_privacy_subtitle">Hoe wij uw gegevens beschermen</string>
+    <string name="help_terms_service">Gebruiksvoorwaarden</string>
+    <string name="help_terms_subtitle">Regels voor de aanvraag</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">Synchroniseren via mobiele data</string>
+    <string name="background_sync">Achtergrondsynchronisatie</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">PDF-lezerinstellingen</string>
+    <string name="pdf_settings_coming_soon">Binnenkort beschikbaar</string>
+    <string name="pdf_settings_description">Configureer het scrollgedrag, de weergavemodi en de leesvoorkeuren.</string>
+    <!-- General Settings -->
+    <string name="settings_language">Taal</string>
+    <string name="settings_pdf_reader">PDF-lezerinstellingen</string>
+    <string name="settings_help_support">Help &amp; Ondersteuning</string>
+    <string name="settings_whats_new">Wat is er nieuw?</string>
+    <string name="settings_download_desktop">Installeren op een ander apparaat</string>
+    <string name="settings_rate_app">Beoordeel de app</string>
+    <string name="play_store_not_found">Play Store niet gevonden op dit apparaat</string>
+    <string name="settings_set_as_default">Instellen als standaard PDF-viewer</string>
+    <string name="settings_set_as_default_subtitle">PDF's standaard openen met deze app.</string>
+    <string name="settings_default_pdf_instructions_title">Hoe stel ik dit in als standaardinstelling?</string>
+    <string name="settings_default_pdf_ok">Begrepen.</string>
+    <string name="settings_default_app_hint">Werkte het niet?</string>
+    <string name="settings_default_app_hint_learn_more">Leer meer</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">Taal</string>
+    <string name="language_search_placeholder">Zoektalen...</string>
+    <!-- Common UI -->
+    <string name="support">Steun</string>
+    <string name="language_english">Engels</string>
+    <string name="language_hindi">हिंदी</string>
+    <string name="language_spanish">Spaans</string>
+    <string name="language_french">Français</string>
+    <string name="language_german">Duits</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">Portugees</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">APP-UITERLIJK</string>
+    <string name="theme">THEMA</string>
+    <string name="general">ALGEMEEN</string>
+    <string name="new">NIEUW</string>
+    <string name="navigate">Navigeren</string>
+    <string name="download">Download</string>
+    <string name="falcon_pdf">Falcon PDF</string>
+    <string name="excellence_in_every_pixel">Uitmuntendheid in elke pixel</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">WIJZIGINGEN TOEPASSEN</string>
+    <string name="apply">Toepassen</string>
+    <string name="selected">Gekozen</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">Synchronisatie-instellingen</string>
+    <string name="autosync_on_wifi">Automatische synchronisatie via wifi</string>
+    <string name="sync_reading_progress">Synchroniseer de leesvoortgang</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">Documentnaam</string>
+    <string name="name_cannot_be_empty">De naam mag niet leeg zijn.</string>
+    <string name="str__failed">%1$s Mislukt</string>
+    <string name="ok">OK</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">Upgradeplan - Huidig plan: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">Sleep het bestand hierheen om het te openen.</string>
+    <string name="release_to_import_and_open_pdf">Release om PDF-bestanden te importeren en te openen</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">Verwijderen</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF</string>
+    <string name="images">Afbeeldingen</string>
+    <string name="filter_all_types">Alle bestanden</string>
+    <string name="favorites">Favoriete bestanden</string>
+    <string name="recent">Recent</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">Documenten doorzoeken...</string>
+    <string name="voice_search">Spraakgestuurd zoeken</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">Recente bestanden</string>
+    <string name="loading_recent_files">Recente bestanden laden...</string>
+    <string name="no_recent_files">Geen recente bestanden</string>
+    <string name="no_favorites">Geen favorieten</string>
+    <string name="mark_files_as_favorite_to_see_them_here">Markeer bestanden als favoriet om ze hier te kunnen zien.</string>
+    <string name="open_some_pdf_files_to_see_the">Open enkele PDF-bestanden om ze hier te bekijken.</string>
+    <string name="status">Status</string>
+    <string name="actions">Acties</string>
+    <string name="select_all">Alles selecteren</string>
+    <string name="enter_multiselect_mode">Schakel de modus voor meerdere selecties in.</string>
+    <string name="sorted_ascending">Gesorteerd in oplopende volgorde</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">Opslag: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">Voeg %1$s bestanden toe</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">Wijzig het weergavetype</string>
+    <string name="filter_">Filter: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">PDF laden...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">Meld u aan om te synchroniseren</string>
+    <string name="protect_your_library_files">Bescherm uw bibliotheekbestanden</string>
+    <string name="sign_in">Inloggen</string>
+    <string name="sign_out">Uitloggen</string>
+    <string name="sign_in_dialog_title">Meld je aan bij Falcon PDF</string>
+    <string name="sign_in_dialog_subtitle">Uw PDF-bibliotheek, overal beschikbaar.</string>
+    <string name="sign_in_with_google">Aanmelden met Google</string>
+    <string name="sign_in_with_apple">Aanmelden met Apple</string>
+    <string name="apple_user_drive_unavailable">Google Drive-synchronisatie is niet beschikbaar met Apple Sign-In.</string>
+    <string name="apple_user_link_google">Koppel je Google-account voor Drive-synchronisatie</string>
+    <string name="apple_user_sync_info">Om cloudsynchronisatie in te schakelen, koppelt u een Google-account.</string>
+    <string name="link_google_account">Google-account koppelen</string>
+    <string name="signed_in_successfully">Succesvol ingelogd</string>
+    <string name="signed_out_successfully">Succesvol uitgelogd</string>
+    <string name="sync_disabled_free">Synchronisatie is uitgeschakeld voor gratis accounts.</string>
+    <string name="storage_disabled_grant_access">Opslag is uitgeschakeld. Geef schijftoegang om te beginnen.</string>
+    <string name="upgrade_to_pro">Upgrade naar Pro</string>
+    <string name="grant_drive_access">Toegang tot Grant Drive</string>
+    <string name="files_synced">%1$d/%2$d Bestanden gesynchroniseerd</string>
+    <string name="synced_count">%1$d Gesynchroniseerd</string>
+    <string name="unlimited_sync_active">ONBEPERKTE SYNCHRONISATIE</string>
+    <string name="missing_drive_permissions">Onbekende Drive-machtigingen. Synchronisatie is momenteel geblokkeerd.</string>
+    <string name="drive_access_revoked">Toegang tot het station is ingetrokken. Maak opnieuw verbinding om de synchronisatie te hervatten.</string>
+    <string name="upgrade_premium">Upgrade naar Premium</string>
+    <string name="manage_account">Account beheren</string>
+    <string name="sync_now">Nu synchroniseren</string>
+    <string name="tier_free">VRIJ</string>
+    <string name="tier_pro">PRO</string>
+    <string name="tier_premium">PREMIE</string>
+    <string name="status_paused">GEPAUZEERD</string>
+    <!-- Common -->
+    <string name="navigate_back">Ga terug</string>
+    <string name="dismiss">Afwijzen</string>
+    <string name="cancel">Annuleren</string>
+    <string name="back">Rug</string>
+    <string name="search">Zoekopdracht</string>
+    <string name="more_actions">Meer acties</string>
+    <string name="share">Deel</string>
+    <string name="delete">Verwijderen</string>
+    <string name="remove_from_recents">Verwijderen uit recente berichten</string>
+    <string name="open">Open</string>
+    <string name="all">Alle</string>
+    <string name="sort_by_">Sorteren op %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Google Drive-synchronisatie</string>
+    <string name="syncing">Synchroniseren...</string>
+    <string name="sync_completed">Synchronisatie voltooid</string>
+    <string name="sync_failed">Synchronisatie mislukt</string>
+    <string name="sync_limit_exceeded">Synchronisatielimiet overschreden. Uw %s -abonnement staat %d -bestanden toe.</string>
+    <string name="sync_no_drive_access">Toegang tot Google Drive is niet beschikbaar</string>
+    <string name="sync_network_unavailable">Netwerk niet beschikbaar</string>
+    <string name="sync_last_sync">Laatste synchronisatie: %s</string>
+    <string name="sync_total_files">Totaal</string>
+    <string name="sync_synced_files">Gesynchroniseerd</string>
+    <string name="sync_failed_files">Mislukt</string>
+    <string name="sync_conflict_files">Conflicten</string>
+    <string name="sync_add_to_favorites">Toevoegen aan favorieten</string>
+    <string name="sync_remove_from_favorites">Verwijderen uit favorieten</string>
+    <string name="sync_conflict_title">Synchronisatieconflicten</string>
+    <string name="sync_conflict_message">De volgende bestanden bevatten conflicten die moeten worden opgelost:</string>
+    <string name="sync_conflict_explanation">Er ontstaan conflicten wanneer zowel de lokale als de externe versie zijn gewijzigd.</string>
+    <string name="sync_plan_limit">Synchronisatie: %d/%d</string>
+    <string name="sync_plan_limit_reached">Limiet bereikt</string>
+    <string name="sync_plan_unlimited">Onbeperkte synchronisatie</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">Overslaan</string>
+    <string name="welcome_next">Volgende</string>
+    <string name="welcome_get_started">Aan de slag</string>
+    <string name="welcome_sign_in_get_started">Aanmelden &amp; Aan de slag</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Lees elk document&lt;/b&gt; direct</string>
+    <string name="welcome_slide1_description">Open en beheer meer dan 10 documentformaten, waaronder PDF, DOC, EPUB en MOBI.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Lees PDF's, e-books,&lt;/b&gt; en Office-documenten op één plek</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Favoriete&lt;/b&gt; documenten en open ze op alle apparaten</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;Reageer,&lt;/b&gt; markeer en werk gemakkelijk samen</string>
+    <string name="welcome_slide1_footer">Uw universele documentlezer</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;PDF's bewerken, scannen en ordenen&lt;/b&gt;</string>
+    <string name="welcome_slide2_description">Alles wat u nodig hebt om PDF's te maken, bewerken en beheren, in één krachtige toolkit.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;Tekst bewerken,&lt;/b&gt; Annoteren, markeren en formulieren invullen</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Scan documenten&lt;/b&gt; en maak er direct PDF's van</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;Meer dan 30 tools&lt;/b&gt; waaronder samenvoegen, converteren, comprimeren en beveiligen</string>
+    <string name="welcome_slide2_footer">Jouw alles-in-één PDF-werkruimte</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;AI die&lt;/b&gt; uw documenten begrijpt</string>
+    <string name="welcome_slide3_description">Bespaar uren met AI die documenten voor u leest en analyseert.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Vat documenten van&lt;/b&gt; lengte in seconden samen</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; gescande pagina's en vertaal tekst direct</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Luister&lt;/b&gt; naar documenten met ingebouwde voorleesfunctie</string>
+    <string name="welcome_slide3_footer">Geen advertenties. Alleen productiviteit.</string>
+    <string name="grace">ELEGANTIE</string>
+    <string name="unable_to_verify_subscription_limited_ac">Abonnement kan niet worden geverifieerd. Beperkte toegang totdat de verbinding is hersteld.</string>
+    <string name="retry_verification">Opnieuw proberen verificatie</string>
+    <string name="guest_state">Gaststaat</string>
+    <string name="free_tier">Gratis niveau</string>
+    <string name="free_tier__locked">Gratis niveau - Vergrendeld</string>
+    <string name="pro_tier">Pro-niveau</string>
+    <string name="pro_tier__restricted">Pro-niveau - Beperkt</string>
+    <string name="premium_tier">Premium-categorie</string>
+    <string name="premium_tier__error">Premium-niveau - Fout</string>
+    <string name="refresh_plan_status">Vernieuw de abonnementsstatus</string>
+    <string name="user_avatar">Gebruikersavatar</string>
+    <string name="debug_tools">Foutopsporingsprogramma's</string>
+    <string name="authentication__drive">Authenticatie &amp; Drive</string>
+    <string name="auth_state">Autorisatiestaat</string>
+    <string name="revoke_drive_access">Toegang tot het station intrekken</string>
+    <string name="image">Afbeelding</string>
+    <string name="thumbnail">Miniatuurweergave</string>
+    <string name="manage_preferences">Voorkeuren beheren</string>
+    <string name="tools_history">Geschiedenis van de gereedschappen</string>
+    <string name="manage_recent_logs">Recente logboeken beheren</string>
+    <string name="more_options">Meer opties</string>
+    <string name="clear_all_history">Wis alle geschiedenis</string>
+    <string name="no_history_yet">Nog geen geschiedenis</string>
+    <string name="your_pdf_tool_operations_will_appear_her">Uw PDF-toolbewerkingen worden hier weergegeven.</string>
+    <string name="view">Weergave</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">Opgeslagen %1$s</string>
+    <string name="history_status_processing">Verwerking</string>
+    <string name="history_status_succeeded">GELUKT</string>
+    <string name="history_status_failed">MISLUKT</string>
+    <string name="history_status_processing_upper">VERWERKING</string>
+    <string name="history_unknown_files">Onbekende bestanden</string>
+    <string name="history_op_complete">%1$s Voltooid!</string>
+    <string name="history_op_failed">%1$s Mislukt</string>
+    <string name="history_op_success_multiple">De bewerking is succesvol voltooid met %1$d bestanden</string>
+    <string name="history_op_success_single">Operatie succesvol afgerond</string>
+    <string name="history_op_error">We konden de operatie niet voltooien.</string>
+    <string name="history_multiple_files">%1$d bestanden</string>
+    <string name="history_failed">Mislukt</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">Cloudsynchronisatie</string>
+    <string name="cloud_sync_subtitle">Verbonden apparaten</string>
+    <string name="cloud_sync_all_synced">Alle bestanden gesynchroniseerd</string>
+    <string name="cloud_sync_syncing">Synchroniseren…</string>
+    <string name="cloud_sync_pending">Synchronisatie in behandeling</string>
+    <string name="cloud_sync_last_sync">Laatste synchronisatie: %1$s</string>
+    <string name="cloud_sync_never_synced">Nooit gesynchroniseerd</string>
+    <string name="cloud_sync_recent_activity">Recente synchronisatieactiviteit</string>
+    <string name="cloud_sync_no_files">Nog geen gesynchroniseerde bestanden</string>
+    <string name="cloud_sync_synced_to_drive">Gesynchroniseerd met Drive</string>
+    <string name="cloud_sync_pending_upload">Upload in behandeling</string>
+    <string name="cloud_sync_sync_now">Nu synchroniseren</string>
+    <string name="cloud_sync_view_history">Bekijk de synchronisatiegeschiedenis</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d bestanden gesynchroniseerd</string>
+    <string name="cloud_sync_unlimited_files">%1$d bestanden gesynchroniseerd · Onbeperkt</string>
+    <string name="cloud_sync_cta_title">Elk platform, elk moment</string>
+    <string name="cloud_sync_cta_subtitle">Uw documenten volgen u overal.</string>
+    <string name="cloud_sync_files_label">%1$d bestanden</string>
+    <string name="settings_data_privacy">Gegevens &amp; Privacy</string>
+    <string name="settings_data_privacy_subtitle">Gegevens beheren, account verwijderen &amp;</string>
+    <string name="settings_delete_account">Account verwijderen</string>
+    <string name="settings_delete_account_subtitle">Verwijder uw account en gegevens permanent.</string>
+    <string name="delete_account_warning_title">Je account verwijderen?</string>
+    <string name="delete_account_warning_message">Hiermee worden uw account en alle bijbehorende gegevens, inclusief uw aankoopgeschiedenis en in de cloud gesynchroniseerde bestanden, permanent verwijderd. Deze actie kan niet ongedaan worden gemaakt en aankopen kunnen later niet worden hersteld.</string>
+    <string name="delete_account_confirm_phrase_label">Typ 'verwijderen bevestigen' om verder te gaan:</string>
+    <string name="delete_account_confirm_phrase">Bevestig verwijderen</string>
+    <string name="delete_account_button">Account verwijderen</string>
+    <string name="delete_account_error_reauth">Om veiligheidsredenen moet u recent ingelogd zijn geweest om uw account te kunnen verwijderen. Log uit en weer in, en probeer het daarna opnieuw.</string>
+    <string name="delete_account_success">Account succesvol verwijderd</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">Bestand &amp; Synchronisatie-instellingen</string>
+    <string name="sync_on_mobile_data_subtitle">Gebruik mobiele data voor cloudsynchronisatie</string>
+    <string name="drive_sync">Achtergrondsynchronisatie</string>
+    <string name="drive_sync_subtitle">Synchroniseer favorieten &amp; scan documenten naar Drive</string>
+    <string name="do_not_import_from_other_apps">Importeer geen bestanden vanuit andere apps.</string>
+    <string name="do_not_import_from_other_apps_subtitle">Gedeelde bestanden tijdelijk openen zonder ze in de bibliotheek op te slaan.</string>
+    <string name="clear_imported_files">Geïmporteerde bestanden wissen</string>
+    <string name="clear_imported_files_subtitle">Verwijder alle bestanden die vanuit andere apps zijn gekopieerd.</string>
+    <string name="clear_imports_confirm_title">Geïmporteerde bestanden wissen?</string>
+    <string name="clear_imports_confirm_message">Hierdoor worden alle bestanden in uw map 'Imports' permanent verwijderd. Deze actie kan niet ongedaan worden gemaakt.</string>
+    <string name="clear_imports_success">Geïmporteerde bestanden verwijderd</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">Gegevens &amp; Privacy</string>
+    <string name="analytics_opt_out_title">Gebruiksgegevens verzenden</string>
+    <string name="analytics_opt_out_subtitle">Deel anonieme gebruiksgegevens en crashrapporten met de ontwikkelaar om de app te helpen verbeteren.</string>
+    <string name="analytics_opt_out_disabled_note">Analysefuncties en crashrapportage zijn uitgeschakeld. Er worden geen gegevens naar Google of de ontwikkelaar verzonden.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">Niet-opgeslagen wijzigingen</string>
+    <string name="unsaved_changes_tab_message">Dit document bevat niet-opgeslagen wijzigingen. Wilt u opslaan voordat u het sluit?</string>
+    <string name="unsaved_changes_window_message">U hebt niet-opgeslagen wijzigingen in een of meer documenten. Wilt u deze verwijderen en het programma afsluiten?</string>
+    <string name="discard">Weggooien</string>
+    <string name="discard_and_quit">Negeer &amp; Afsluiten</string>
+    <string name="close">Dichtbij</string>
+    <string name="remove_favorite">Favoriet verwijderen</string>
+    <string name="set_as_default_pdf_viewer">Instellen als standaard PDF-viewer?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF is niet uw standaard PDF-viewer. Wilt u deze als standaard instellen, zodat alle PDF-bestanden met Falcon PDF worden geopend?</string>
+    <string name="set_now">Stel nu in</string>
+    <string name="never">Nooit</string>
+    <string name="later">Later</string>
+    <string name="set_default">Standaardwaarde instellen</string>
+    <string name="default">Standaard</string>
+    <string name="version_">Versie %1$s</string>
+    <string name="sign_in_with_other_accounts">Aanmelden met andere accounts</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="view_plan">Bekijk plattegrond</string>
+    <string name="unlimited_sync_upto_5gb">Onbeperkte synchronisatie tot 5 GB</string>
+    <string name="unlock_faster">Sneller ontgrendelen</string>
+    <string name="use_biometrics_instead_of_passwords">Gebruik biometrie in plaats van wachtwoorden.</string>
+    <string name="upgrade_to_premium">Upgrade naar Premium</string>
+    <string name="unlock_pdf">PDF ontgrendelen</string>
+    <string name="use__to_accessnthis_document">Gebruik %1$s om toegang te krijgen tot\ndit document</string>
+    <string name="open_with_password">Openen met wachtwoord</string>
+    <string name="secure">Zeker</string>
+    <string name="loading_">Laden %1$s...</string>
+    <string name="failed_to_open_ebook">Het openen van het e-book is mislukt.</string>
+    <string name="properties">Eigenschappen</string>
+    <string name="copy">Kopiëren</string>
+    <string name="highlight">Markeer</string>
+    <string name="clear_selection">Selectie wissen</string>
+    <string name="close_search">Zoeken sluiten</string>
+    <string name="search_in_book">Zoeken in het boek...</string>
+    <string name="contents">Inhoud</string>
+    <string name="table_of_contents">Inhoudsopgave</string>
+    <string name="no_table_of_contents_available">Er is geen inhoudsopgave beschikbaar.</string>
+    <string name="bookmarks">Bladwijzers</string>
+    <string name="no_bookmarks_yet">Nog geen bladwijzers</string>
+    <string name="page_">Pagina %1$s</string>
+    <string name="no_results">Geen resultaten</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">Instellingen</string>
+    <string name="decrease_font_size">Verklein de lettergrootte</string>
+    <string name="increase_font_size">Lettergrootte vergroten</string>
+    <string name="font">Lettertype</string>
+    <string name="jump_to_page">Ga naar de pagina</string>
+    <string name="enter_page_number_1">Voer het paginanummer in (1–%1$s):</string>
+    <string name="go">Gaan</string>
+    <string name="read_aloud">Voorlezen</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">Stop</string>
+    <string name="annotations__text_selection">Annotaties &amp; Tekstselectie</string>
+    <string name="text_selection_and_annotations_for_ebook">Tekstselectie en annotatie voor e-books zijn binnenkort beschikbaar.</string>
+    <string name="longpress_on_text_to_select_highlight_or">Houd tekst ingedrukt om deze te selecteren, te markeren of notities toe te voegen.</string>
+    <string name="press_play_to_start_reading_aloud">Druk op afspelen om te beginnen met voorlezen...</string>
+    <string name="speed">Snelheid</string>
+    <string name="voice">Stem</string>
+    <string name="no_annotations_yet">Nog geen annotaties</string>
+    <string name="select_text_to_highlight_or_add_notes">Selecteer tekst om te markeren of voeg notities toe.</string>
+    <string name="tools">Hulpmiddelen</string>
+    <string name="convert_to_images">Omzetten naar afbeeldingen</string>
+    <string name="rename">Naam wijzigen</string>
+    <string name="print">Afdrukken</string>
+    <string name="a">A−</string>
+    <string name="cover_of_">Omslag van %1$s</string>
+    <string name="no_cover_available">Geen dekking beschikbaar</string>
+    <string name="read_now">Lees nu</string>
+    <string name="about_the_book">OVER HET BOEK</string>
+    <string name="tags">TAGS</string>
+    <string name="publisher_info">INFORMATIE OVER DE UITGEVER</string>
+    <string name="published_">Gepubliceerd: %1$s</string>
+    <string name="retry">Opnieuw proberen</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Cache wissen</string>
+    <string name="ebooks_library">E-boekenbibliotheek</string>
+    <string name="manage_your_digital_collection_across_mu">Beheer uw digitale collectie bij meerdere aanbieders. Zoek, filter en ontdek nieuwe titels in Google Books en Open Library.</string>
+    <string name="no_books_found">Geen boeken gevonden</string>
+    <string name="no_results_for__try_a_different_search_t">Geen resultaten gevonden voor "%1$s". Probeer een andere zoekterm.</string>
+    <string name="downloadable_only">Alleen te downloaden.</string>
+    <string name="file_unavailable">Bestand niet beschikbaar</string>
+    <string name="unavailable">Niet beschikbaar</string>
+    <string name="search_titles_authors_isbn">Zoek op titel, auteur, ISBN...</string>
+    <string name="clear_search">Zoekopdracht wissen</string>
+    <string name="ebooks">e-boeken</string>
+    <string name="read_pdf">PDF lezen</string>
+    <string name="create_pdf">PDF maken</string>
+    <string name="unlock_all_tools_and_remove_limits">Ontgrendel alle tools en verwijder beperkingen</string>
+    <string name="ocr_scanning">OCR-scannen</string>
+    <string name="extract_text_from_scanned_documents">Tekst extraheren uit gescande documenten</string>
+    <string name="cloud_sync">Cloudsynchronisatie</string>
+    <string name="access_your_documents_anywhere">Overal toegang tot uw documenten</string>
+    <string name="annotate_pdfs">PDF's annoteren</string>
+    <string name="cloud_backup">Cloudback-up</string>
+    <string name="continue_reading">Lees verder</string>
+    <string name="pick_files">Bestanden selecteren</string>
+    <string name="browse">Bladeren</string>
+    <string name="did_you_know">Wist je dat?</string>
+    <string name="home">Thuis</string>
+    <string name="your_documents_at_a_glance">Uw documenten in één oogopslag</string>
+    <string name="pick_file">Selecteer bestand</string>
+    <string name="quick_actions">Snelle acties</string>
+    <string name="pro">PRO</string>
+    <string name="open_files">Open bestanden</string>
+    <string name="convert_to_pdf">Omzetten naar PDF</string>
+    <string name="close_drawer">Lade sluiten</string>
+    <string name="close_file">Bestand sluiten</string>
+    <string name="office">Kantoor</string>
+    <string name="coming_soon">Binnenkort beschikbaar</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">De e-bookviewer is nog niet beschikbaar op dit platform.</string>
+    <string name="set_as_default_viewer">Instellen als standaardviewer</string>
+    <string name="free">Vrij</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">Update downloaden... %1$s%</string>
+    <string name="more">Meer</string>
+    <string name="font_size">Lettergrootte</string>
+    <string name="font_family">Lettertypefamilie</string>
+    <string name="scroll_direction">Scrollrichting</string>
+    <string name="navigation">Navigatie</string>
+    <string name="keep_screen_on">Scherm ingeschakeld houden</string>
+    <string name="volume_button_to_scroll">Volumeknop om te scrollen</string>
+    <string name="export_ebook_pages_as_image_files">Exporteer e-bookpagina's als afbeeldingsbestanden.</string>
+    <string name="access_millions_of_titles">Krijg toegang tot miljoenen titels.</string>
+    <string name="read_offline_with_natural_ai_voices">Lees offline met natuurlijke AI-stemmen.</string>
+    <string name="advanced_ai_reader">Geavanceerde AI-lezer.</string>
+    <string name="experience_studioquality_narration">Ervaar gesproken tekst van studiokwaliteit.</string>
+    <string name="powerful_pdf_tools">Krachtige PDF-tools.</string>
+    <string name="create_and_edit_documents_on_the_go">Maak en bewerk documenten onderweg.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Upgrade naar Pro: ontgrendel alle tools en verwijder beperkingen.</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">OCR-scannen: tekst extraheren uit gescande documenten</string>
+    <string name="cloud_sync_access_your_documents_anywher">Cloudsynchronisatie: overal toegang tot uw documenten</string>
+    <string name="scan">Scannen</string>
+    <string name="compress">Comprimeren</string>
+    <string name="merge">Samenvoegen</string>
+    <string name="convert">Overzetten</string>
+    <string name="highlight_underline_and_add_notes_to_you">Markeer, onderstreep en voeg notities toe aan je documenten.</string>
+    <string name="keep_your_documents_safe_with_automatic_">Houd uw documenten veilig met automatische cloudsynchronisatie.</string>
+    <string name="indicator_color_">indicator_color_%1$s</string>
+    <string name="my_library">Mijn bibliotheek</string>
+    <string name="get_ebooks">Download e-books</string>
+    <string name="scan_document">Scan document</string>
+    <string name="settings_category_ai_chat_title">AI-chatprovider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama of je eigen sleutel</string>
+    <string name="settings_category_tts_title">Voorlezen (TTS)</string>
+    <string name="settings_category_tts_subtitle">Stemmen voor voorlezen</string>
+    <string name="settings_section_ai_voice">AI EN STEM</string>
+    <string name="settings_entry_ai_title">AI-chatprovider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, lokale Ollama of je eigen OpenAI-compatibele sleutel</string>
+    <string name="settings_entry_tts_title">Voorlezen (TTS)</string>
+    <string name="settings_entry_tts_subtitle">Systeem-, ElevenLabs-, OpenAI- of lokale Kokoro-stemmen</string>
+    <string name="provider_dialog_reset">Resetten</string>
+    <string name="provider_dialog_cancel">Annuleren</string>
+    <string name="provider_dialog_save">Voorkeuren opslaan</string>
+    <string name="provider_dialog_encryption_note">Lokaal en versleuteld opgeslagen. Nooit gesynchroniseerd met externe servers.</string>
+    <string name="provider_dialog_close">Sluiten</string>
+    <string name="ai_settings_dialog_title">Instellingen AI-chatprovider</string>
+    <string name="ai_settings_dialog_subtitle">Configureer API-toegangssleutels, aangepaste modellen en providervoorkeuren.</string>
+    <string name="tts_settings_dialog_title">Instellingen TTS-provider</string>
+    <string name="tts_settings_dialog_subtitle">Configureer synthese-engines, beheer inloggegevens en selecteer stemmen.</string>
+</resources>

@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Μαγεία PDF</string>
+    <string name="app_tagline">Τι θα θέλατε να κάνετε;</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">Τελευταία χρήση</string>
+    <string name="home_favorites">Αγαπημένα</string>
+    <string name="home_new_tool">Νέο εργαλείο</string>
+    <string name="home_featured">ΠΡΟΒΑΛΛΟΜΕΝΟ</string>
+    <string name="home_scan_to_pdf">Σάρωση σε PDF</string>
+    <string name="home_scan_description">Μετατρέψτε τα έντυπα έγγραφα σε ψηφιακή μαγεία άμεσα</string>
+    <string name="home_start_scanning">Έναρξη σάρωσης</string>
+    <string name="home_all_tools">Όλα τα εργαλεία</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">Εργαλεία PDF</string>
+    <string name="image_tools">Εργαλεία εικόνας</string>
+    <string name="tools_split">Σπλιτ</string>
+    <string name="tools_split_description">Εξαγωγή σελίδων</string>
+    <string name="tools_rotate">Γυρίζω</string>
+    <string name="tools_rotate_description">Διόρθωση προσανατολισμού</string>
+    <string name="tools_delete_pages">Διαγραφή σελίδων</string>
+    <string name="tools_delete_pages_description">Αφαίρεση ανεπιθύμητων</string>
+    <string name="tools_convert">Μετατρέπω</string>
+    <string name="tools_convert_description">Προς/Από εικόνες</string>
+    <string name="tools_sign">Σημείο</string>
+    <string name="tools_sign_description">Προσθήκη υπογραφής</string>
+    <string name="tools_protect">Προστατεύω</string>
+    <string name="tools_protect_description">Ασφάλεια κωδικού πρόσβασης</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">Πρόγραμμα προβολής PDF</string>
+    <string name="pdf_viewer_page_info">Σελίδα %1$d από %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">Σαρωτής εγγράφων</string>
+    <string name="scanner_capture">Σύλληψη</string>
+    <string name="scanner_retake">Ξαναπαίρνω</string>
+    <string name="scanner_save">Εκτός</string>
+    <!-- Navigation -->
+    <string name="nav_back">Πλοήγηση προς τα πίσω</string>
+    <string name="nav_settings">Ρυθμίσεις</string>
+    <string name="nav_more_options">Περισσότερες επιλογές</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Σπίτι</string>
+    <string name="nav_library">Βιβλιοθήκη</string>
+    <string name="nav_scan">Σάρωση</string>
+    <string name="nav_tools">Εργαλεία</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">Αναζήτηση αρχείων</string>
+    <string name="browse_files_subtitle">Αποθήκευση &amp; Αρχεία cloud</string>
+    <string name="show_hidden_files">Εμφάνιση κρυφών αρχείων</string>
+    <string name="hide_hidden_files">Απόκρυψη κρυφών αρχείων</string>
+    <string name="refresh_storage">Ανανέωση αποθηκευτικού χώρου</string>
+    <string name="no_storage_available">Δεν υπάρχει διαθέσιμος αποθηκευτικός χώρος</string>
+    <string name="no_files_found">Δεν βρέθηκαν αρχεία</string>
+    <string name="add_files">Προσθήκη αρχείων %1$d</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">Απαιτείται άδεια αποθήκευσης</string>
+    <string name="permission_storage_message">Αυτή η εφαρμογή χρειάζεται πρόσβαση στον αποθηκευτικό χώρο της συσκευής σας για να περιηγηθεί και να ανοίξει αρχεία PDF. Παρακαλούμε παραχωρήστε άδεια αποθήκευσης για να συνεχίσετε.</string>
+    <string name="permission_grant">Χορήγηση άδειας</string>
+    <!-- Common Actions -->
+    <string name="action_open">Ανοιχτό</string>
+    <string name="action_save">Εκτός</string>
+    <string name="action_share">Μερίδιο</string>
+    <string name="action_delete">Διαγράφω</string>
+    <string name="action_cancel">Ματαίωση</string>
+    <string name="action_confirm">Επιβεβαιώνω</string>
+    <string name="action_rename">Μετονομάζω</string>
+    <string name="action_print">Αποτύπωμα</string>
+    <string name="action_favorite">Ευνοούμενος</string>
+    <string name="action_unfavorite">Διαγραφή από τα αγαπημένα</string>
+    <!-- Document Actions -->
+    <string name="document_share">Κοινή χρήση εγγράφου</string>
+    <string name="document_rename">Μετονομασία εγγράφου</string>
+    <string name="document_delete">Διαγραφή εγγράφου</string>
+    <string name="document_print">Εκτύπωση εγγράφου</string>
+    <string name="document_favorite">Προσθήκη στα Αγαπημένα</string>
+    <string name="document_unfavorite">Αφαίρεση από τα Αγαπημένα</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">Η κοινοποίηση του εγγράφου έγινε με επιτυχία.</string>
+    <string name="document_share_failed">Η κοινοποίηση του εγγράφου απέτυχε</string>
+    <string name="document_renamed_success">Το έγγραφο μετονομάστηκε με επιτυχία. Η μετονομασία έγινε με επιτυχία.</string>
+    <string name="document_rename_failed">Η μετονομασία του εγγράφου απέτυχε</string>
+    <string name="document_deleted_success">Το έγγραφο διαγράφηκε με επιτυχία.</string>
+    <string name="document_delete_failed">Η διαγραφή του εγγράφου απέτυχε</string>
+    <string name="document_print_opened">Το έγγραφο άνοιξε στην προεπιλεγμένη προβολή PDF. Χρησιμοποιήστε τη λειτουργία εκτύπωσης της προβολής για εκτύπωση.</string>
+    <string name="document_print_failed">Αποτυχία εκτύπωσης εγγράφου</string>
+    <string name="document_added_to_favorites">Προστέθηκε στα Αγαπημένα</string>
+    <string name="document_removed_from_favorites">Αφαιρέθηκε από τα Αγαπημένα</string>
+    <string name="document_favorite_failed">Η ενημέρωση της κατάστασης αγαπημένου απέτυχε</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">Μετονομασία εγγράφου</string>
+    <string name="dialog_rename_hint">Εισαγάγετε νέο όνομα</string>
+    <string name="dialog_rename_empty_error">Το όνομα του εγγράφου δεν μπορεί να είναι κενό</string>
+    <string name="dialog_delete_title">Διαγραφή εγγράφου</string>
+    <string name="dialog_delete_file_message">Αυτό θα διαγράψει οριστικά το αρχείο.\n\nΔιαγραφή %1$s?</string>
+    <string name="dialog_delete_uri_message">Καταργείται μόνο από την εφαρμογή. Το αρχικό αρχείο παραμένει αμετάβλητο.\n\nΚατάργηση του %1$s από την εφαρμογή;</string>
+    <string name="dialog_delete_confirm">Διαγράφω</string>
+    <string name="dialog_remove_confirm">Αφαιρώ</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">Μετονομάζει μόνο εντός της εφαρμογής. Το αρχικό αρχείο παραμένει αμετάβλητο.</string>
+    <string name="notice_delete_uri_only">Καταργήθηκε από την εφαρμογή. Το αρχικό αρχείο δεν άλλαξε.</string>
+    <string name="notice_file_exists_error">Υπάρχει ήδη ένα αρχείο με αυτό το όνομα</string>
+    <string name="notice_file_not_found_error">Το αρχείο δεν βρέθηκε</string>
+    <string name="notice_no_active_document">Δεν υπάρχει ενεργό έγγραφο</string>
+    <string name="notice_document_path_unavailable">Η διαδρομή αρχείου εγγράφου δεν είναι διαθέσιμη</string>
+    <!-- States -->
+    <string name="state_loading">Φόρτωση...</string>
+    <string name="state_empty">Δεν βρέθηκαν στοιχεία</string>
+    <string name="state_error">Κάτι πήγε στραβά</string>
+    <string name="state_retry">Δοκιμάζω πάλι</string>
+    <!-- Errors -->
+    <string name="error_network">Η σύνδεση δικτύου απέτυχε</string>
+    <string name="error_file_not_found">Το αρχείο δεν βρέθηκε</string>
+    <string name="error_permission_denied">Η άδεια απορρίφθηκε</string>
+    <string name="error_invalid_file">Μη έγκυρη μορφή αρχείου</string>
+    <string name="error_password_required">Απαιτείται κωδικός πρόσβασης</string>
+    <string name="error_incorrect_password">Λανθασμένος κωδικός πρόσβασης</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">Προστατεύεται με κωδικό πρόσβασης</string>
+    <string name="password_protected_message">Αυτό το αρχείο απαιτεί κωδικό πρόσβασης για να ανοίξει. Παρακαλώ εισάγετέ τον παρακάτω.</string>
+    <string name="password_label">Σύνθημα</string>
+    <string name="password_placeholder">Εισαγάγετε τον κωδικό πρόσβασης</string>
+    <string name="password_unlock">Ξεκλειδώνω</string>
+    <string name="password_show">Εμφάνιση κωδικού πρόσβασης</string>
+    <string name="password_hide">Απόκρυψη κωδικού πρόσβασης</string>
+    <!-- Theme -->
+    <string name="theme_light">Φως</string>
+    <string name="theme_dark">Σκοτάδι</string>
+    <string name="theme_system">Σύστημα</string>
+    <string name="theme_adaptive">Προσαρμοστικός</string>
+    <string name="theme_custom">Εθιμο</string>
+    <!-- Settings -->
+    <string name="settings_title">Προτιμήσεις</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">Λογαριασμός &amp; Συγχρονισμός</string>
+    <string name="settings_category_sync_subtitle">Διαχειριστείτε τον λογαριασμό σας, συγχρονίστε το απόρρητο &amp;</string>
+    <string name="settings_category_appearance_title">Εμφάνιση</string>
+    <string name="settings_category_appearance_subtitle">Προσαρμόστε την εμφάνιση της εφαρμογής &amp;</string>
+    <string name="settings_category_pdf_reader_title">Αναγνώστης PDF</string>
+    <string name="settings_category_pdf_reader_subtitle">Προεπιλεγμένη εμπειρία ανάγνωσης προγράμματος προβολής &amp;</string>
+    <string name="settings_category_help_title">Βοήθεια &amp; Υποστήριξη</string>
+    <string name="settings_category_help_subtitle">Τεκμηρίωση &amp; επικοινωνία</string>
+    <string name="settings_category_general_title">Γενικός</string>
+    <string name="settings_category_general_subtitle">Γλώσσα &amp; πληροφορίες εφαρμογής</string>
+    <string name="settings_theme_section">Θέμα</string>
+    <string name="settings_theme_description">Επιλέξτε το θέμα που προτιμάτε</string>
+    <string name="settings_accent_color">ΧΡΩΜΑ ΕΜΦΑΝΙΣΗΣ</string>
+    <string name="settings_custom_colors">Προσαρμοσμένα χρώματα</string>
+    <string name="settings_primary_color">Κύριο χρώμα</string>
+    <string name="settings_background_color">Χρώμα φόντου</string>
+    <string name="settings_surface_color">Χρώμα επιφάνειας</string>
+    <string name="settings_reset_colors">Επαναφορά στις προεπιλογές</string>
+    <string name="settings_adaptive_note">Χρώματα που προσαρμόζονται στο υλικό σας (Android 12+)</string>
+    <string name="settings_app_section">Ρυθμίσεις εφαρμογής</string>
+    <string name="settings_notifications">Ειδοποιήσεις</string>
+    <string name="settings_notifications_description">Λήψη ειδοποιήσεων εφαρμογής</string>
+    <string name="settings_auto_backup">Αυτόματη δημιουργία αντιγράφων ασφαλείας</string>
+    <string name="settings_auto_backup_description">Αυτόματη δημιουργία αντιγράφων ασφαλείας εγγράφων</string>
+    <string name="settings_change_color">Αλλαγή χρώματος</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">Τα έγγραφά σας PDF θα εμφανίζονται εδώ.</string>
+    <string name="scan_description">Σάρωση εγγράφων σε PDF</string>
+    <string name="tools_description">Εργαλεία επεξεργασίας και χειρισμού PDF</string>
+    <string name="home_description">Χρησιμοποιήστε την κάτω πλοήγηση για πρόσβαση σε λειτουργίες</string>
+    <!-- Sort Options -->
+    <string name="sort_name">Ονομα</string>
+    <string name="sort_date">Ημερομηνία</string>
+    <string name="sort_size">Μέγεθος</string>
+    <string name="sort_option_name">Ονομα</string>
+    <string name="sort_option_last_opened">Τελευταίο άνοιγμα</string>
+    <string name="sort_option_last_modified">Τελευταία τροποποίηση</string>
+    <string name="sort_option_file_size">Μέγεθος αρχείου</string>
+    <!-- View Types -->
+    <string name="view_type_list">Προβολή λίστας</string>
+    <string name="view_type_table">Προβολή πίνακα</string>
+    <string name="view_type_grid">Προβολή πλέγματος</string>
+    <!-- File Properties -->
+    <string name="file_name">Όνομα αρχείου</string>
+    <string name="date_modified">Ημερομηνία τροποποίησης</string>
+    <string name="file_size">Μέγεθος</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">Δεν έχει ξεκινήσει</string>
+    <string name="file_status_completed">Ολοκληρώθηκε το</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">Έγγραφο PDF</string>
+    <string name="document_type_word">Έγγραφο Word</string>
+    <string name="document_type_excel">Υπολογιστικό φύλλο Excel</string>
+    <string name="document_type_image">Αρχείο εικόνας</string>
+    <string name="document_type_other">Εγγραφο</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">Όλα τα αρχεία</string>
+    <string name="filter_recent">Πρόσφατος</string>
+    <string name="filter_pdfs">PDF</string>
+    <string name="filter_images">Εικόνες</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">Σπίτι</string>
+    <string name="browse_tab">Ξεφυλλίζω</string>
+    <string name="starred_tab">Αστεροειδής</string>
+    <string name="settings_tab">Ρυθμίσεις</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">Εναλλαγή θέματος</string>
+    <string name="accessibility_menu">Μενού</string>
+    <string name="accessibility_close">Κοντά</string>
+    <string name="accessibility_color_picker">Επιλογέας χρώματος</string>
+    <!-- Library Screen -->
+    <string name="library_title">Βιβλιοθήκη</string>
+    <string name="library_subtitle">Διαχείριση Αρχείων, Πρόσφατα &amp; Αγαπημένα</string>
+    <string name="library_search_placeholder">Αναζήτηση αρχείων...</string>
+    <string name="library_selected_count">επιλεγμένο %1$d</string>
+    <string name="library_open_from_device">Άνοιγμα από\nσυσκευή</string>
+    <string name="library_browse_files">Αναζήτηση αρχείων\n</string>
+    <string name="library_action_open">Ανοιχτό</string>
+    <string name="library_action_share">Μερίδιο</string>
+    <string name="library_action_remove">Αφαιρώ</string>
+    <string name="library_action_delete">Διαγράφω</string>
+    <string name="library_clear_search">Εκκαθάριση αναζήτησης</string>
+    <string name="library_close_search">Κλείσιμο αναζήτησης</string>
+    <string name="library_select_all">Επιλογή όλων των αρχείων</string>
+    <string name="library_exit_multiselect">Έξοδος από τη λειτουργία πολλαπλής επιλογής</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">Βοήθεια &amp; Υποστήριξη</string>
+    <string name="help_support_subtitle">Συχνές ερωτήσεις, Επικοινωνία &amp; Νομικά</string>
+    <string name="settings_pdf_subtitle">Κύλιση, Προβολή &amp; Διάταξη</string>
+    <string name="help_header_title">Πώς μπορούμε να βοηθήσουμε;</string>
+    <string name="help_header_subtitle">Η ομάδα μας είναι εδώ για να σας εξασφαλίσει την καλύτερη δυνατή εμπειρία PDF.\n</string>
+    <string name="help_contact_us">Επικοινωνήστε μαζί μας</string>
+    <string name="help_contact_subtitle">Επικοινωνήστε με την υποστήριξη</string>
+    <string name="help_faq">Συχνές ερωτήσεις</string>
+    <string name="help_faq_subtitle">Απαντήσεις σε συχνές ερωτήσεις</string>
+    <string name="help_privacy_policy">Πολιτική Απορρήτου</string>
+    <string name="help_privacy_subtitle">Πώς προστατεύουμε τα δεδομένα σας</string>
+    <string name="help_terms_service">Όροι Παροχής Υπηρεσιών</string>
+    <string name="help_terms_subtitle">Κανόνες εφαρμογής</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">Συγχρονισμός σε δεδομένα κινητής τηλεφωνίας</string>
+    <string name="background_sync">Συγχρονισμός φόντου</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">Ρυθμίσεις προγράμματος ανάγνωσης PDF</string>
+    <string name="pdf_settings_coming_soon">Σύντομα διαθέσιμο</string>
+    <string name="pdf_settings_description">Ρύθμιση παραμέτρων συμπεριφοράς κύλισης, λειτουργιών προβολής και προτιμήσεων ανάγνωσης</string>
+    <!-- General Settings -->
+    <string name="settings_language">Γλώσσα</string>
+    <string name="settings_pdf_reader">Ρυθμίσεις προγράμματος ανάγνωσης PDF</string>
+    <string name="settings_help_support">Βοήθεια &amp; Υποστήριξη</string>
+    <string name="settings_whats_new">Τι νέο υπάρχει</string>
+    <string name="settings_download_desktop">Εγκατάσταση σε άλλη συσκευή</string>
+    <string name="settings_rate_app">Αξιολογήστε την εφαρμογή</string>
+    <string name="play_store_not_found">Δεν βρέθηκε το Play Store σε αυτήν τη συσκευή</string>
+    <string name="settings_set_as_default">Ορισμός ως προεπιλεγμένου προγράμματος προβολής PDF</string>
+    <string name="settings_set_as_default_subtitle">Άνοιγμα PDF με αυτήν την εφαρμογή από προεπιλογή</string>
+    <string name="settings_default_pdf_instructions_title">Πώς να ορίσετε ως προεπιλογή</string>
+    <string name="settings_default_pdf_ok">Το κατάλαβα</string>
+    <string name="settings_default_app_hint">Δεν λειτούργησε;</string>
+    <string name="settings_default_app_hint_learn_more">Μάθετε περισσότερα</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">Γλώσσα</string>
+    <string name="language_search_placeholder">Αναζήτηση γλωσσών...</string>
+    <!-- Common UI -->
+    <string name="support">Υποστήριξη</string>
+    <string name="language_english">αγγλικός</string>
+    <string name="language_hindi">Χίντι</string>
+    <string name="language_spanish">Ισπανικά</string>
+    <string name="language_french">Γαλλικά</string>
+    <string name="language_german">Γερμανικά</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">Αραβικά</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">Πορτογαλικά</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">ΕΜΦΑΝΙΣΗ ΕΦΑΡΜΟΓΗΣ</string>
+    <string name="theme">ΘΕΜΑ</string>
+    <string name="general">ΓΕΝΙΚΟΣ</string>
+    <string name="new">ΝΕΟΣ</string>
+    <string name="navigate">Διαπλέω</string>
+    <string name="download">Λήψη</string>
+    <string name="falcon_pdf">Falcon PDF</string>
+    <string name="excellence_in_every_pixel">Αριστεία σε κάθε pixel</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">ΕΦΑΡΜΟΓΗ ΑΛΛΑΓΩΝ</string>
+    <string name="apply">Εφαρμόζω</string>
+    <string name="selected">Επιλεγμένο</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">Ρυθμίσεις συγχρονισμού</string>
+    <string name="autosync_on_wifi">Αυτόματος συγχρονισμός σε WiFi</string>
+    <string name="sync_reading_progress">Συγχρονισμός προόδου ανάγνωσης</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">Όνομα εγγράφου</string>
+    <string name="name_cannot_be_empty">Το όνομα δεν μπορεί να είναι κενό</string>
+    <string name="str__failed">%1$s Αποτυχία</string>
+    <string name="ok">ΕΝΤΑΞΕΙ</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">Πρόγραμμα αναβάθμισης - Τρέχον πρόγραμμα: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">Απόθεση για άνοιγμα αρχείου</string>
+    <string name="release_to_import_and_open_pdf">Απελευθερώστε για εισαγωγή και άνοιγμα αρχείων PDF</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">Αφαιρώ</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF</string>
+    <string name="images">Εικόνες</string>
+    <string name="filter_all_types">Όλα τα αρχεία</string>
+    <string name="favorites">Αγαπημένα αρχεία</string>
+    <string name="recent">Πρόσφατος</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">Αναζήτηση εγγράφων...</string>
+    <string name="voice_search">Φωνητική αναζήτηση</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">Πρόσφατα Αρχεία</string>
+    <string name="loading_recent_files">Φόρτωση πρόσφατων αρχείων...</string>
+    <string name="no_recent_files">Δεν υπάρχουν πρόσφατα αρχεία</string>
+    <string name="no_favorites">Δεν υπάρχουν αγαπημένα</string>
+    <string name="mark_files_as_favorite_to_see_them_here">Επισημάνετε αρχεία ως αγαπημένα για να τα δείτε εδώ</string>
+    <string name="open_some_pdf_files_to_see_the">Ανοίξτε μερικά αρχεία PDF για να τα δείτε εδώ</string>
+    <string name="status">Κατάσταση</string>
+    <string name="actions">Ενέργειες</string>
+    <string name="select_all">Επιλογή όλων</string>
+    <string name="enter_multiselect_mode">Είσοδος σε λειτουργία πολλαπλής επιλογής</string>
+    <string name="sorted_ascending">Ταξινόμηση σε αύξουσα</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">Αποθήκευση: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">Προσθήκη αρχείων %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">Αλλαγή τύπου προβολής</string>
+    <string name="filter_">Φίλτρο: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">Φόρτωση PDF...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">Συνδεθείτε για συγχρονισμό</string>
+    <string name="protect_your_library_files">Προστατέψτε τα αρχεία της βιβλιοθήκης σας</string>
+    <string name="sign_in">Σύνδεση</string>
+    <string name="sign_out">Αποσύνδεση</string>
+    <string name="sign_in_dialog_title">Συνδεθείτε στο Falcon PDF</string>
+    <string name="sign_in_dialog_subtitle">Η βιβλιοθήκη PDF σας, παντού.</string>
+    <string name="sign_in_with_google">Συνδεθείτε με την Google</string>
+    <string name="sign_in_with_apple">Σύνδεση με την Apple</string>
+    <string name="apple_user_drive_unavailable">Ο συγχρονισμός του Google Drive δεν είναι διαθέσιμος με το Apple Sign-In</string>
+    <string name="apple_user_link_google">Σύνδεση Λογαριασμού Google για συγχρονισμό Drive</string>
+    <string name="apple_user_sync_info">Για να ενεργοποιήσετε τον συγχρονισμό cloud, συνδέστε έναν Λογαριασμό Google</string>
+    <string name="link_google_account">Σύνδεση Λογαριασμού Google</string>
+    <string name="signed_in_successfully">Η σύνδεση ολοκληρώθηκε με επιτυχία</string>
+    <string name="signed_out_successfully">Η αποσύνδεση ολοκληρώθηκε με επιτυχία</string>
+    <string name="sync_disabled_free">Ο συγχρονισμός είναι απενεργοποιημένος για δωρεάν λογαριασμούς.</string>
+    <string name="storage_disabled_grant_access">Ο αποθηκευτικός χώρος είναι απενεργοποιημένος. Παραχωρήστε πρόσβαση στη μονάδα δίσκου για να ξεκινήσετε.</string>
+    <string name="upgrade_to_pro">Αναβάθμιση σε Pro</string>
+    <string name="grant_drive_access">Χορήγηση πρόσβασης στο Drive</string>
+    <string name="files_synced">%1$d/%2$d Αρχεία συγχρονισμένα</string>
+    <string name="synced_count">%1$d Συγχρονισμένο</string>
+    <string name="unlimited_sync_active">ΑΠΕΡΙΟΡΙΣΤΟΣ ΣΥΓΧΡΟΝΙΣΜΟΣ</string>
+    <string name="missing_drive_permissions">Λείπουν τα δικαιώματα Drive. Ο συγχρονισμός είναι αυτήν τη στιγμή αποκλεισμένος.</string>
+    <string name="drive_access_revoked">Η πρόσβαση στο Drive ανακλήθηκε. Επανασυνδεθείτε για να συνεχίσετε τον συγχρονισμό.</string>
+    <string name="upgrade_premium">Αναβάθμιση Premium</string>
+    <string name="manage_account">Διαχείριση λογαριασμού</string>
+    <string name="sync_now">Συγχρονισμός τώρα</string>
+    <string name="tier_free">ΔΩΡΕΑΝ</string>
+    <string name="tier_pro">ΕΠΑΓΓΕΛΜΑΤΙΑΣ</string>
+    <string name="tier_premium">ΑΣΦΑΛΙΣΤΡΟ</string>
+    <string name="status_paused">ΠΑΥΣΗ</string>
+    <!-- Common -->
+    <string name="navigate_back">Πλοήγηση προς τα πίσω</string>
+    <string name="dismiss">Απολύω</string>
+    <string name="cancel">Ματαίωση</string>
+    <string name="back">Πίσω</string>
+    <string name="search">Ερευνα</string>
+    <string name="more_actions">Περισσότερες ενέργειες</string>
+    <string name="share">Μερίδιο</string>
+    <string name="delete">Διαγράφω</string>
+    <string name="remove_from_recents">Κατάργηση από τα πρόσφατα</string>
+    <string name="open">Ανοιχτό</string>
+    <string name="all">Ολοι</string>
+    <string name="sort_by_">Ταξινόμηση κατά %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Συγχρονισμός Google Drive</string>
+    <string name="syncing">Συγχρονισμός...</string>
+    <string name="sync_completed">Ο συγχρονισμός ολοκληρώθηκε</string>
+    <string name="sync_failed">Ο συγχρονισμός απέτυχε.</string>
+    <string name="sync_limit_exceeded">Υπέρβαση ορίου συγχρονισμού. Το πρόγραμμά σας %s επιτρέπει αρχεία %d.</string>
+    <string name="sync_no_drive_access">Η πρόσβαση στο Google Drive δεν είναι διαθέσιμη</string>
+    <string name="sync_network_unavailable">Το δίκτυο δεν είναι διαθέσιμο</string>
+    <string name="sync_last_sync">Τελευταίος συγχρονισμός: %s</string>
+    <string name="sync_total_files">Σύνολο</string>
+    <string name="sync_synced_files">Συγχρονισμένο</string>
+    <string name="sync_failed_files">Αποτυχημένος</string>
+    <string name="sync_conflict_files">Συγκρούσεις</string>
+    <string name="sync_add_to_favorites">Προσθήκη στα αγαπημένα</string>
+    <string name="sync_remove_from_favorites">Αφαίρεση από τα αγαπημένα</string>
+    <string name="sync_conflict_title">Συγχρονισμός διενέξεων</string>
+    <string name="sync_conflict_message">Τα ακόλουθα αρχεία έχουν διενέξεις που χρειάζονται επίλυση:</string>
+    <string name="sync_conflict_explanation">Οι διενέξεις προκύπτουν όταν έχουν τροποποιηθεί τόσο η τοπική όσο και η απομακρυσμένη έκδοση.</string>
+    <string name="sync_plan_limit">Συγχρονισμός: %d/%d</string>
+    <string name="sync_plan_limit_reached">Συμπληρώθηκε το όριο</string>
+    <string name="sync_plan_unlimited">Απεριόριστος συγχρονισμός</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">Παραλείπω</string>
+    <string name="welcome_next">Επόμενος</string>
+    <string name="welcome_get_started">Ξεκινήστε</string>
+    <string name="welcome_sign_in_get_started">Σύνδεση &amp; Ξεκινήστε</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Διαβάστε οποιοδήποτε έγγραφο&lt;/b&gt; Άμεσα</string>
+    <string name="welcome_slide1_description">Ανοίξτε και διαχειριστείτε 10+ μορφές εγγράφων, όπως PDF, DOC, EPUB, MOBI.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Διαβάστε PDF, ηλεκτρονικά βιβλία,&lt;/b&gt; και έγγραφα γραφείου σε ένα μέρος</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Προσθήκη στα αγαπημένα&lt;/b&gt; εγγράφων και πρόσβαση σε αυτά από όλες τις συσκευές. Προσθήκη στα αγαπημένα &lt;/b&gt; έγγραφα και πρόσβαση σε αυτά από όλες τις συσκευές.</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;Σχολιάστε,&lt;/b&gt; επισημάνετε και συνεργαστείτε με ευκολία</string>
+    <string name="welcome_slide1_footer">Ο καθολικός αναγνώστης εγγράφων σας</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;Επεξεργασία, Σάρωση και Οργάνωση&lt;/b&gt; PDF</string>
+    <string name="welcome_slide2_description">Όλα όσα χρειάζεστε για να δημιουργείτε, να επεξεργάζεστε και να διαχειρίζεστε PDF σε ένα ισχυρό κιτ εργαλείων.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;Επεξεργασία κειμένου,&lt;/b&gt; σχολιασμός, επισήμανση και συμπλήρωση φορμών</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Σαρώστε έγγραφα&lt;/b&gt; και μετατρέψτε τα σε PDF άμεσα</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;30+ εργαλεία&lt;/b&gt; συμπεριλαμβανομένων συγχώνευσης, μετατροπής, συμπίεσης και ασφάλειας</string>
+    <string name="welcome_slide2_footer">Ο ολοκληρωμένος χώρος εργασίας σας σε PDF</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;Τεχνητή Νοημοσύνη που Κατανοεί&lt;/b&gt; Τα Έγγραφά σας</string>
+    <string name="welcome_slide3_description">Εξοικονομήστε ώρες με τεχνητή νοημοσύνη που διαβάζει και αναλύει έγγραφα για εσάς.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Σύνοψη&lt;/b&gt; μεγάλων εγγράφων σε δευτερόλεπτα</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; σαρωμένες σελίδες και άμεση μετάφραση κειμένου</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Ακούστε&lt;/b&gt; έγγραφα με ενσωματωμένη δυνατότητα ανάγνωσης δυνατά</string>
+    <string name="welcome_slide3_footer">Χωρίς διαφημίσεις. Μόνο παραγωγικότητα.</string>
+    <string name="grace">ΧΑΡΗ</string>
+    <string name="unable_to_verify_subscription_limited_ac">Δεν είναι δυνατή η επαλήθευση της συνδρομής. Περιορισμένη πρόσβαση μέχρι την αποκατάσταση της σύνδεσης.</string>
+    <string name="retry_verification">Επανάληψη επαλήθευσης</string>
+    <string name="guest_state">Κράτος-φιλοξενούμενος</string>
+    <string name="free_tier">Δωρεάν Επίπεδο</string>
+    <string name="free_tier__locked">Δωρεάν Επίπεδο - Κλειδωμένο</string>
+    <string name="pro_tier">Επαγγελματικό Επίπεδο</string>
+    <string name="pro_tier__restricted">Επαγγελματικό Επίπεδο - Περιορισμένο</string>
+    <string name="premium_tier">Premium Επίπεδο</string>
+    <string name="premium_tier__error">Premium Tier - Σφάλμα</string>
+    <string name="refresh_plan_status">Ανανέωση κατάστασης προγράμματος</string>
+    <string name="user_avatar">Άβαταρ χρήστη</string>
+    <string name="debug_tools">Εργαλεία εντοπισμού σφαλμάτων</string>
+    <string name="authentication__drive">Έλεγχος ταυτότητας &amp; Μονάδα δίσκου</string>
+    <string name="auth_state">Κατάσταση Εξουσιοδότησης</string>
+    <string name="revoke_drive_access">Ανάκληση πρόσβασης στο Drive</string>
+    <string name="image">Εικών</string>
+    <string name="thumbnail">Ονυξ του αντίχειρος</string>
+    <string name="manage_preferences">Διαχείριση προτιμήσεων</string>
+    <string name="tools_history">Ιστορικό Εργαλείων</string>
+    <string name="manage_recent_logs">Διαχείριση πρόσφατων αρχείων καταγραφής</string>
+    <string name="more_options">Περισσότερες επιλογές</string>
+    <string name="clear_all_history">Εκκαθάριση Όλου του Ιστορικού</string>
+    <string name="no_history_yet">Δεν υπάρχει ιστορικό ακόμα</string>
+    <string name="your_pdf_tool_operations_will_appear_her">Οι λειτουργίες του εργαλείου PDF θα εμφανιστούν εδώ.</string>
+    <string name="view">Θέα</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">Αποθηκεύτηκε %1$s</string>
+    <string name="history_status_processing">Επεξεργασία</string>
+    <string name="history_status_succeeded">ΕΠΙΤΥΧΕ</string>
+    <string name="history_status_failed">ΑΠΟΤΥΧΗΜΕΝΟΣ</string>
+    <string name="history_status_processing_upper">ΕΠΕΞΕΡΓΑΣΙΑ</string>
+    <string name="history_unknown_files">Άγνωστα αρχεία</string>
+    <string name="history_op_complete">%1$s Ολοκληρώθηκε!</string>
+    <string name="history_op_failed">%1$s Αποτυχία</string>
+    <string name="history_op_success_multiple">Η λειτουργία ολοκληρώθηκε με επιτυχία με τα αρχεία %1$d</string>
+    <string name="history_op_success_single">Η λειτουργία ολοκληρώθηκε με επιτυχία</string>
+    <string name="history_op_error">Δεν μπορέσαμε να ολοκληρώσουμε την λειτουργία</string>
+    <string name="history_multiple_files">%1$d αρχεία</string>
+    <string name="history_failed">Αποτυχημένος</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">Συγχρονισμός cloud</string>
+    <string name="cloud_sync_subtitle">Συνδεδεμένες συσκευές</string>
+    <string name="cloud_sync_all_synced">Όλα τα αρχεία συγχρονίστηκαν</string>
+    <string name="cloud_sync_syncing">Συγχρονισμός…</string>
+    <string name="cloud_sync_pending">Συγχρονισμός σε εκκρεμότητα</string>
+    <string name="cloud_sync_last_sync">Τελευταίος συγχρονισμός: %1$s</string>
+    <string name="cloud_sync_never_synced">Δεν συγχρονίστηκε ποτέ</string>
+    <string name="cloud_sync_recent_activity">Πρόσφατη δραστηριότητα συγχρονισμού</string>
+    <string name="cloud_sync_no_files">Δεν υπάρχουν ακόμη συγχρονισμένα αρχεία</string>
+    <string name="cloud_sync_synced_to_drive">Συγχρονισμένο με το Drive</string>
+    <string name="cloud_sync_pending_upload">Εκκρεμής μεταφόρτωση</string>
+    <string name="cloud_sync_sync_now">Συγχρονισμός τώρα</string>
+    <string name="cloud_sync_view_history">Προβολή ιστορικού συγχρονισμού</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d αρχεία συγχρονισμένα</string>
+    <string name="cloud_sync_unlimited_files">%1$d αρχεία συγχρονισμένα · Απεριόριστα</string>
+    <string name="cloud_sync_cta_title">Οποιαδήποτε πλατφόρμα, οποιαδήποτε στιγμή</string>
+    <string name="cloud_sync_cta_subtitle">Τα έγγραφά σας σας ακολουθούν παντού</string>
+    <string name="cloud_sync_files_label">%1$d αρχεία</string>
+    <string name="settings_data_privacy">Δεδομένα &amp; Απόρρητο</string>
+    <string name="settings_data_privacy_subtitle">Διαχείριση δεδομένων, διαγραφή λογαριασμού &amp;</string>
+    <string name="settings_delete_account">Διαγραφή λογαριασμού</string>
+    <string name="settings_delete_account_subtitle">Οριστική διαγραφή του λογαριασμού και των δεδομένων σας</string>
+    <string name="delete_account_warning_title">Διαγραφή του λογαριασμού σας;</string>
+    <string name="delete_account_warning_message">Αυτό θα διαγράψει οριστικά τον λογαριασμό σας και όλα τα σχετικά δεδομένα, συμπεριλαμβανομένου του ιστορικού αγορών σας και των αρχείων που έχουν συγχρονιστεί με το cloud. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί και οι αγορές δεν μπορούν να αποκατασταθούν αργότερα.</string>
+    <string name="delete_account_confirm_phrase_label">Πληκτρολογήστε «επιβεβαίωση διαγραφής» για να συνεχίσετε:</string>
+    <string name="delete_account_confirm_phrase">επιβεβαίωση διαγραφής</string>
+    <string name="delete_account_button">Διαγραφή λογαριασμού</string>
+    <string name="delete_account_error_reauth">Για λόγους ασφαλείας, πρέπει να έχετε συνδεθεί πρόσφατα για να διαγράψετε τον λογαριασμό σας. Αποσυνδεθείτε και συνδεθείτε ξανά και, στη συνέχεια, δοκιμάστε ξανά.</string>
+    <string name="delete_account_success">Ο λογαριασμός διαγράφηκε με επιτυχία.</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">Αρχείο &amp; Ρυθμίσεις συγχρονισμού</string>
+    <string name="sync_on_mobile_data_subtitle">Χρήση δεδομένων κινητής τηλεφωνίας για συγχρονισμό στο cloud</string>
+    <string name="drive_sync">Συγχρονισμός φόντου</string>
+    <string name="drive_sync_subtitle">Συγχρονισμός αγαπημένων &amp; σάρωση εγγράφων στο Drive</string>
+    <string name="do_not_import_from_other_apps">Μην εισάγετε αρχεία από άλλες εφαρμογές</string>
+    <string name="do_not_import_from_other_apps_subtitle">Άνοιγμα κοινόχρηστων αρχείων προσωρινά χωρίς αποθήκευση στη βιβλιοθήκη</string>
+    <string name="clear_imported_files">Εκκαθάριση εισαγόμενων αρχείων</string>
+    <string name="clear_imported_files_subtitle">Διαγραφή όλων των αρχείων που αντιγράφηκαν από άλλες εφαρμογές</string>
+    <string name="clear_imports_confirm_title">Διαγραφή εισαγόμενων αρχείων;</string>
+    <string name="clear_imports_confirm_message">Αυτό θα διαγράψει οριστικά όλα τα αρχεία στον φάκελο "Εισαγωγές". Δεν είναι δυνατή η αναίρεση αυτής της ενέργειας.</string>
+    <string name="clear_imports_success">Τα εισαγόμενα αρχεία διαγράφηκαν</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">Δεδομένα &amp; Απόρρητο</string>
+    <string name="analytics_opt_out_title">Αποστολή δεδομένων χρήσης</string>
+    <string name="analytics_opt_out_subtitle">Κοινοποιήστε ανώνυμα δεδομένα χρήσης και αναφορές σφαλμάτων με τον προγραμματιστή για να βοηθήσετε στη βελτίωση της εφαρμογής</string>
+    <string name="analytics_opt_out_disabled_note">Τα αναλυτικά στοιχεία και η αναφορά σφαλμάτων είναι απενεργοποιημένα. Δεν αποστέλλονται δεδομένα στην Google ή στον προγραμματιστή.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">Μη αποθηκευμένες αλλαγές</string>
+    <string name="unsaved_changes_tab_message">Αυτό το έγγραφο έχει μη αποθηκευμένες αλλαγές. Θέλετε να το αποθηκεύσετε πριν το κλείσιμο;</string>
+    <string name="unsaved_changes_window_message">Έχετε μη αποθηκευμένες αλλαγές σε ένα ή περισσότερα έγγραφα. Θέλετε να τις απορρίψετε και να τερματίσετε;</string>
+    <string name="discard">Απορρίπτω</string>
+    <string name="discard_and_quit">Απόρριψη &amp; Έξοδος</string>
+    <string name="close">Κοντά</string>
+    <string name="remove_favorite">Αφαίρεση αγαπημένου</string>
+    <string name="set_as_default_pdf_viewer">Ορισμός ως προεπιλεγμένου προγράμματος προβολής PDF;</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Το Falcon PDF δεν είναι το προεπιλεγμένο πρόγραμμα προβολής PDF. Θέλετε να το ορίσετε ως προεπιλεγμένο, ώστε όλα τα αρχεία PDF να ανοίγουν με το Falcon PDF;</string>
+    <string name="set_now">Ορισμός τώρα</string>
+    <string name="never">Ποτέ</string>
+    <string name="later">Αργότερα</string>
+    <string name="set_default">Ορισμός προεπιλογής</string>
+    <string name="default">Αθέτηση</string>
+    <string name="version_">Έκδοση %1$s</string>
+    <string name="sign_in_with_other_accounts">Σύνδεση με άλλους λογαριασμούς</string>
+    <string name="upgrade">Αναβαθμίζω</string>
+    <string name="view_plan">Προβολή σχεδίου</string>
+    <string name="unlimited_sync_upto_5gb">Απεριόριστος συγχρονισμός έως 5GB</string>
+    <string name="unlock_faster">Ξεκλειδώστε πιο γρήγορα</string>
+    <string name="use_biometrics_instead_of_passwords">Χρησιμοποιήστε βιομετρικά στοιχεία αντί για κωδικούς πρόσβασης.</string>
+    <string name="upgrade_to_premium">Αναβάθμιση σε Premium</string>
+    <string name="unlock_pdf">Ξεκλείδωμα PDF</string>
+    <string name="use__to_accessnthis_document">Χρησιμοποιήστε το %1$s για να αποκτήσετε πρόσβαση σε αυτό το έγγραφο\n</string>
+    <string name="open_with_password">Άνοιγμα με κωδικό πρόσβασης</string>
+    <string name="secure">Ασφαλής</string>
+    <string name="loading_">Φόρτωση %1$s...</string>
+    <string name="failed_to_open_ebook">Αποτυχία ανοίγματος ηλεκτρονικού βιβλίου</string>
+    <string name="properties">Σκηνικά θέατρου</string>
+    <string name="copy">Αντίγραφο</string>
+    <string name="highlight">Αποκορύφωμα</string>
+    <string name="clear_selection">Εκκαθάριση επιλογής</string>
+    <string name="close_search">Κλείσιμο αναζήτησης</string>
+    <string name="search_in_book">Αναζήτηση στο βιβλίο...</string>
+    <string name="contents">Περιεχόμενα</string>
+    <string name="table_of_contents">Πίνακας περιεχομένων</string>
+    <string name="no_table_of_contents_available">Δεν υπάρχει διαθέσιμος πίνακας περιεχομένων</string>
+    <string name="bookmarks">Σελιδοδείκτες</string>
+    <string name="no_bookmarks_yet">Δεν υπάρχουν ακόμη σελιδοδείκτες</string>
+    <string name="page_">Σελίδα %1$s</string>
+    <string name="no_results">Δεν υπάρχουν αποτελέσματα</string>
+    <string name="p">Π%1$s</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="decrease_font_size">Μείωση μεγέθους γραμματοσειράς</string>
+    <string name="increase_font_size">Αύξηση μεγέθους γραμματοσειράς</string>
+    <string name="font">Γραμματοσειρά</string>
+    <string name="jump_to_page">Μετάβαση στη σελίδα</string>
+    <string name="enter_page_number_1">Εισαγάγετε τον αριθμό σελίδας (1–%1$s):</string>
+    <string name="go">Πάω</string>
+    <string name="read_aloud">Διαβάστε δυνατά</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">Στάση</string>
+    <string name="annotations__text_selection">Σχολιασμοί &amp; Επιλογή κειμένου</string>
+    <string name="text_selection_and_annotations_for_ebook">Η επιλογή κειμένου και οι σχολιασμοί για τα ηλεκτρονικά βιβλία θα είναι σύντομα διαθέσιμοι.</string>
+    <string name="longpress_on_text_to_select_highlight_or">Πατήστε παρατεταμένα το κείμενο για να επιλέξετε, να επισημάνετε ή να προσθέσετε σημειώσεις.</string>
+    <string name="press_play_to_start_reading_aloud">Πατήστε αναπαραγωγή για να ξεκινήσετε την ανάγνωση δυνατά...</string>
+    <string name="speed">Ταχύτητα</string>
+    <string name="voice">Φωνή</string>
+    <string name="no_annotations_yet">Δεν υπάρχουν ακόμη σχολιασμοί</string>
+    <string name="select_text_to_highlight_or_add_notes">Επιλέξτε κείμενο για να επισημάνετε ή να προσθέσετε σημειώσεις</string>
+    <string name="tools">Εργαλεία</string>
+    <string name="convert_to_images">Μετατροπή σε εικόνες</string>
+    <string name="rename">Μετονομάζω</string>
+    <string name="print">Αποτύπωμα</string>
+    <string name="a">Α−</string>
+    <string name="cover_of_">Εξώφυλλο του %1$s</string>
+    <string name="no_cover_available">Δεν υπάρχει διαθέσιμη κάλυψη</string>
+    <string name="read_now">Διαβάστε τώρα</string>
+    <string name="about_the_book">ΣΧΕΤΙΚΑ ΜΕ ΤΟ ΒΙΒΛΙΟ</string>
+    <string name="tags">ΕΤΙΚΕΤΕΣ</string>
+    <string name="publisher_info">ΠΛΗΡΟΦΟΡΙΕΣ ΕΚΔΟΤΗ</string>
+    <string name="published_">Δημοσιεύτηκε: %1$s</string>
+    <string name="retry">Δοκιμάζω πάλι</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Εκκαθάριση προσωρινής μνήμης</string>
+    <string name="ebooks_library">Βιβλιοθήκη ηλεκτρονικών βιβλίων</string>
+    <string name="manage_your_digital_collection_across_mu">Διαχειριστείτε την ψηφιακή σας συλλογή σε πολλούς παρόχους. Αναζητήστε, φιλτράρετε και ανακαλύψτε νέους τίτλους από τα Google Books και την Open Library.</string>
+    <string name="no_books_found">Δεν βρέθηκαν βιβλία</string>
+    <string name="no_results_for__try_a_different_search_t">Δεν βρέθηκαν αποτελέσματα για "%1$s". Δοκιμάστε έναν διαφορετικό όρο αναζήτησης.</string>
+    <string name="downloadable_only">Μόνο για λήψη</string>
+    <string name="file_unavailable">Το αρχείο δεν είναι διαθέσιμο</string>
+    <string name="unavailable">Δυσεύρετος</string>
+    <string name="search_titles_authors_isbn">Αναζήτηση τίτλων, συγγραφέων, ISBN...</string>
+    <string name="clear_search">Εκκαθάριση αναζήτησης</string>
+    <string name="ebooks">Ηλεκτρονικά βιβλία</string>
+    <string name="read_pdf">Ανάγνωση PDF</string>
+    <string name="create_pdf">Δημιουργία PDF</string>
+    <string name="unlock_all_tools_and_remove_limits">Ξεκλειδώστε όλα τα εργαλεία και καταργήστε τα όρια</string>
+    <string name="ocr_scanning">Σάρωση OCR</string>
+    <string name="extract_text_from_scanned_documents">Εξαγωγή κειμένου από σαρωμένα έγγραφα</string>
+    <string name="cloud_sync">Συγχρονισμός cloud</string>
+    <string name="access_your_documents_anywhere">Αποκτήστε πρόσβαση στα έγγραφά σας από οπουδήποτε</string>
+    <string name="annotate_pdfs">Σχολιάστε PDF</string>
+    <string name="cloud_backup">Δημιουργία αντιγράφων ασφαλείας στο cloud</string>
+    <string name="continue_reading">Συνέχεια ανάγνωσης</string>
+    <string name="pick_files">Επιλογή αρχείων</string>
+    <string name="browse">Ξεφυλλίζω</string>
+    <string name="did_you_know">Το ξέρατε;</string>
+    <string name="home">Σπίτι</string>
+    <string name="your_documents_at_a_glance">Τα έγγραφά σας με μια ματιά</string>
+    <string name="pick_file">Επιλογή αρχείου</string>
+    <string name="quick_actions">Γρήγορες ενέργειες</string>
+    <string name="pro">ΕΠΑΓΓΕΛΜΑΤΙΑΣ</string>
+    <string name="open_files">Άνοιγμα αρχείων</string>
+    <string name="convert_to_pdf">Μετατροπή σε PDF</string>
+    <string name="close_drawer">Κλείσιμο συρταριού</string>
+    <string name="close_file">Κλείσιμο αρχείου</string>
+    <string name="office">Γραφείο</string>
+    <string name="coming_soon">Σύντομα διαθέσιμο</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">Η εφαρμογή προβολής ηλεκτρονικών βιβλίων δεν είναι ακόμη διαθέσιμη σε αυτήν την πλατφόρμα.</string>
+    <string name="set_as_default_viewer">Ορισμός ως προεπιλεγμένου προγράμματος προβολής</string>
+    <string name="free">Δωρεάν</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">Λήψη ενημέρωσης... %1$s%</string>
+    <string name="more">Περισσότερο</string>
+    <string name="font_size">Μέγεθος γραμματοσειράς</string>
+    <string name="font_family">Οικογένεια γραμματοσειρών</string>
+    <string name="scroll_direction">Κατεύθυνση κύλισης</string>
+    <string name="navigation">Πλοήγηση</string>
+    <string name="keep_screen_on">Διατήρηση οθόνης ενεργοποιημένης</string>
+    <string name="volume_button_to_scroll">Κουμπί έντασης ήχου για κύλιση</string>
+    <string name="export_ebook_pages_as_image_files">Εξαγωγή σελίδων ηλεκτρονικού βιβλίου ως αρχεία εικόνας</string>
+    <string name="access_millions_of_titles">Αποκτήστε πρόσβαση σε εκατομμύρια τίτλους.</string>
+    <string name="read_offline_with_natural_ai_voices">Διαβάστε εκτός σύνδεσης με φυσικές φωνές τεχνητής νοημοσύνης.</string>
+    <string name="advanced_ai_reader">Προηγμένος αναγνώστης τεχνητής νοημοσύνης.</string>
+    <string name="experience_studioquality_narration">Απολαύστε αφήγηση σε ποιότητα στούντιο.</string>
+    <string name="powerful_pdf_tools">Ισχυρά εργαλεία PDF.</string>
+    <string name="create_and_edit_documents_on_the_go">Δημιουργήστε και επεξεργαστείτε έγγραφα εν κινήσει.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Αναβάθμιση σε Pro: Ξεκλειδώστε όλα τα εργαλεία και καταργήστε τα όρια</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">Σάρωση OCR: Εξαγωγή κειμένου από σαρωμένα έγγραφα</string>
+    <string name="cloud_sync_access_your_documents_anywher">Cloud Sync: Αποκτήστε πρόσβαση στα έγγραφά σας από οπουδήποτε</string>
+    <string name="scan">Σάρωση</string>
+    <string name="compress">Κομπρέσα</string>
+    <string name="merge">Συγχώνευση</string>
+    <string name="convert">Μετατρέπω</string>
+    <string name="highlight_underline_and_add_notes_to_you">Επισημάνετε, υπογραμμίστε και προσθέστε σημειώσεις στα έγγραφά σας</string>
+    <string name="keep_your_documents_safe_with_automatic_">Διατηρήστε τα έγγραφά σας ασφαλή με αυτόματο συγχρονισμό cloud</string>
+    <string name="indicator_color_">χρώμα_δείκτη_%1$s</string>
+    <string name="my_library">Η Βιβλιοθήκη μου</string>
+    <string name="get_ebooks">Αποκτήστε ηλεκτρονικά βιβλία</string>
+    <string name="scan_document">Σάρωση εγγράφου</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

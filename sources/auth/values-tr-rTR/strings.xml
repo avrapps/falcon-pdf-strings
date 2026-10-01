@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">İnternet bağlantınızı kontrol edin ve cihazınıza bir Google hesabının eklendiğinden emin olun, ardından tekrar deneyin.</string>
+    <string name="sign_in_with_apple">Apple ile giriş yapın</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Deneyiminizi Geliştirin</string>
+    <string name="purchase_screen_close">Kapalı</string>
+    <string name="purchase_screen_refresh">Yenile</string>
+    <string name="purchase_sync_status">Son senkronizasyon: %1s</string>
+    <string name="purchase_current_plan">Akım</string>
+    <string name="purchase_syncing">Senkronizasyon…</string>
+    <string name="purchase_loading">Yükleniyor…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Ücretsiz Plan</string>
+    <string name="purchase_pro_plan">Profesyonel Sürüm</string>
+    <string name="purchase_pro_tagline">Bir kere ödeyin. Sonsuza dek sahip olun.</string>
+    <string name="purchase_premium_plan">Premium Abonelik</string>
+    <string name="purchase_premium_tagline">Pro'daki her şey, artı yapay zeka &amp; Bulut</string>
+    <string name="purchase_recommended">Tavsiye edilen</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">Yapay Zeka Destekli Sesli Okuma — PDF'leri Doğal Bir Şekilde Dinleyin</string>
+    <string name="purchase_pro_feature_2">Tam PDF Düzenleme &amp; Form Doldurma</string>
+    <string name="purchase_pro_feature_3">Drive üzerinden Cihazlar Arası Senkronizasyon</string>
+    <string name="purchase_pro_feature_4">Reklamsız, taramalarda filigran yok.</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">Daha Güçlü Akıl Yürütmeye Sahip Yapay Zeka Özetleri</string>
+    <string name="purchase_premium_feature_1_desc">Daha uzun ve karmaşık belgelerden daha derinlemesine yanıtlar.</string>
+    <string name="purchase_premium_feature_2_title">50GB Falcon Cloud</string>
+    <string name="purchase_premium_feature_2_desc">Kişisel PDF kütüphaneniz, senkronize edilmiş ve güvenli.</string>
+    <string name="purchase_premium_feature_3_title">60'tan fazla PDF aracında sınır yok.</string>
+    <string name="purchase_premium_feature_3_desc">Her türlü araç, her zaman kullanıma hazır.</string>
+    <string name="purchase_premium_feature_4_title">PDF'lerde Tam Metin Düzenleme</string>
+    <string name="purchase_premium_feature_4_desc">Metni tıpkı bir kelime işlemci gibi doğrudan düzenleyin.</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Pro'yu satın alın</string>
+    <string name="purchase_sign_in_buy">Giriş Yap &amp; Satın Al</string>
+    <string name="purchase_sign_in_subscribe">Giriş Yap &amp; Abone Ol</string>
+    <string name="purchase_subscribe">Abone</string>
+    <string name="purchase_start_trial">7 Günlük Ücretsiz Deneme Sürümünü Başlatın</string>
+    <string name="purchase_view_all_features">Tüm özellikleri görüntüle</string>
+    <string name="purchase_show_more">Daha Fazla Göster</string>
+    <string name="purchase_show_less">Daha az göster</string>
+    <string name="purchase_see_all_features">Tüm özellikleri görüntüle</string>
+    <string name="purchase_manage_subscription">Aboneliği Yönet</string>
+    <string name="purchase_restore_purchases">Satın Alımları Geri Yükle</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Aylık</string>
+    <string name="purchase_billing_yearly">Yıllık</string>
+    <string name="purchase_save_badge">%40 tasarruf edin</string>
+    <string name="purchase_lifetime">Ömür boyu</string>
+    <string name="purchase_per_year">/yıl</string>
+    <string name="purchase_per_month">/ay</string>
+    <string name="purchase_trial_terms">İstediğiniz zaman iptal edebilirsiniz. Deneme süresinin bitiminden 24 saat önce iptal edilmediği takdirde otomatik olarak yenilenir.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Ürünler yüklenemedi. Giriş bilgilerinizi ve internet bağlantınızı kontrol edin.</string>
+    <string name="purchase_error_network">Bağlantı kesildi. Lütfen internet bağlantınızı kontrol edin ve tekrar deneyin.</string>
+    <string name="purchase_error_payment_declined">Ödeme yöntemi reddedildi. Lütfen ödeme bilgilerinizi güncelleyin.</string>
+    <string name="purchase_error_server">Bir sorun oluştu. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="purchase_error_rate_limit">Çok fazla yenileme denemesi yapıldı. Lütfen bekleyin.</string>
+    <string name="purchase_error_offline">İnternet bağlantısı yok. Önbelleğe alınmış veriler gösteriliyor.</string>
+    <string name="purchase_error_product_refresh">Ürün doğrulanamadı. Lütfen tekrar deneyin.</string>
+    <string name="purchase_error_generic">Bir hata oluştu. Lütfen tekrar deneyin.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Hizmet Şartları</string>
+    <string name="purchase_privacy_policy">Gizlilik Politikası</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">Satın Alma Geçmişi</string>
+    <string name="free_trial">Ücretsiz Deneme</string>
+    <string name="no_purchase_history">Satın alma geçmişi yok.</string>
+    <string name="you_havent_made_any_purchases_">Henüz hiçbir satın alma işlemi yapmadınız.</string>
+    <string name="error">Hata</string>
+    <string name="retry">Tekrar dene</string>
+    <string name="back">Geri</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Deneyiminizi Geliştirin</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Satın Alımları Geri Yükle</string>
+    <string name="close_purchase_screen">Satın alma ekranını kapat</string>
+    <string name="help">Yardım</string>
+    <string name="more_options">Daha fazla seçenek</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Yenile</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Aktif</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s AKTİF</string>
+    <string name="premium_benefits">PREMIUM AVANTAJLAR</string>
+    <string name="manage_subscription">Aboneliği Yönet</string>
+    <string name="next_billing_date__manage_your">Sonraki fatura tarihi: %1$s. Fatura bilgilerinizi ve iptal işlemlerinizi Play Store hesap ayarlarınız üzerinden yönetebilirsiniz.</string>
+    <string name="purchase_expires_">Satın alma işleminin geçerlilik süresi: %1$s</string>
+    <string name="falcon_pdf_pro">Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF Premium (Aylık)</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Premium (Yıllık)</string>
+    <string name="pro">PRO</string>
+    <string name="premium">PREMIUM</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Falcon PDF Pro veya Premium'u edinin.</string>
+    <string name="purchase_desktop_subtitle">Satın alma işlemleri web sitemiz üzerinden yönetilmektedir. Planları ve fiyatları görüntülemek için aşağıdaki bağlantıya tıklayın.</string>
+    <string name="purchase_desktop_open_website">Planları Görüntüle &amp; Fiyatlandırma</string>
+    <string name="purchase_desktop_already_purchased">Daha önce satın aldınız mı? Planınızı senkronize etmek için giriş yapın.</string>
+    <string name="purchase_store_build_subtitle">Aboneliğiniz tüm cihazlarınızda Pro özelliklerinin kilidini açar. Planınızı senkronize etmek için oturum açın.</string>
+    <string name="ai_read_aloud">Yapay Zeka Sesli Okuma</string>
+    <string name="full_pdf_editing__form_filling">Tam PDF Düzenleme &amp; Form Doldurma</string>
+    <string name="crossdevice_sync_via_drive">Drive üzerinden Cihazlar Arası Senkronizasyon</string>
+    <string name="adfree_no_watermark">Reklamsız, Filigransız</string>
+    <string name="export_to_word__excel">Word'e Aktar &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">Çoklu Temalar &amp; Sayfa Arka Planları</string>
+    <string name="ai_summaries_with_stronger_reasoning">Daha Güçlü Akıl Yürütmeye Sahip Yapay Zeka Özetleri</string>
+    <string name="no_limits_on_60_pdf_tools">60'tan fazla PDF aracında sınır yok.</string>
+    <string name="full_text_editing_in_pdfs">PDF'lerde Tam Metin Düzenleme</string>
+    <string name="digital_signatures_dscesign">Dijital İmzalar (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Sınırsız Taranmış Belge Senkronizasyonu</string>
+    <string name="biometric_document_lock">Biyometrik Belge Kilidi</string>
+    <string name="everything_in_pro_all_devices">Pro sürümündeki her şey, tüm cihazlarda kullanılabilir.</string>
+    <string name="introductory_offer">Tanıtım Teklifi</string>
+    <string name="limited_time__30_off">Sınırlı süre için — %30 indirim</string>
+    <string name="date__time">Tarih &amp; Saat</string>
+    <string name="amount">Miktar</string>
+    <string name="platform">Platform</string>
+    <string name="type">Tip</string>
+    <string name="expires_on">Son Geçerlilik Tarihi</string>
+</resources>

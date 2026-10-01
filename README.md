@@ -4,17 +4,27 @@ Runtime localization catalog for **Falcon PDF**. The app downloads these JSON
 files on demand (via the jsDelivr CDN) to localize its UI in languages that are
 not bundled in the binary.
 
-This repo is **generated** — do not hand-edit the JSON. It is produced from the
-app's Compose Resources `strings.xml` by
-`scripts/localization/build_string_catalog.py` in the main PDFViewer repo.
+This repo is the **translation source-of-truth** for Falcon PDF. It holds:
+
+- `sources/<module>/values[-<locale>]/strings.xml` — the per-module Android string
+  resources. Crowdin downloads translations here; the base `values/strings.xml` is
+  the English source Crowdin uploads. This repo is wired into the main PDFViewer
+  repo as a submodule at `libs/falcon-pdf-strings/`.
+- `v1/*.json` — the **generated** runtime catalog the app downloads. Produced from
+  `sources/` by `scripts/localization/build_string_catalog.py` in the main repo.
+  Do not hand-edit the JSON.
 
 ## Layout
 
 ```
+sources/<module>/values/strings.xml           English source (per module)
+sources/<module>/values-<locale>/strings.xml  translations (per module, per locale)
 v1/manifest.json      locale index: per-locale revision, byte size, sha256, coverage
-v1/en-rUS.json        English source (100% coverage)
-v1/<tag>.json         one file per locale (Android -r tag form)
+v1/en-rUS.json        English source catalog (100% coverage)
+v1/<tag>.json         one generated catalog file per locale (Android -r tag form)
 ```
+
+Module ids: `app`, `common`, `editor`, `tools`, `scanner`, `auth`.
 
 `v<N>/` is the catalog **schema** version. The app pins its own schema version and
 reads `v<N>/manifest.json` first, then each `v<N>/<tag>.json`, verifying every
@@ -41,10 +51,23 @@ the key name — so partial translations are safe to publish.
 
 ## Updating
 
-In the main PDFViewer repo:
+Translations flow: English `sources/<module>/values/strings.xml` → Crowdin →
+translated `sources/<module>/values-<locale>/strings.xml` (committed here) →
+`build_string_catalog.py` regenerates `v1/`.
+
+From the main PDFViewer repo (this repo checked out at `libs/falcon-pdf-strings/`):
 
 ```bash
-python3 scripts/localization/build_string_catalog.py --out /tmp/catalog/v1
-# copy /tmp/catalog/v1 into this repo's v1/, commit, then move the v1-latest tag:
+# 1. Pull latest translations from Crowdin into libs/falcon-pdf-strings/sources/
+crowdin download
+
+# 2. Regenerate the catalog from sources/ into v1/
+python3 scripts/localization/build_string_catalog.py \
+  --out libs/falcon-pdf-strings/v1
+
+# 3. Commit in the submodule, then move the floating v1-latest tag:
+cd libs/falcon-pdf-strings
+git add sources v1 && git commit -m "Update translations + catalog"
+git push origin main
 git tag -f v1-latest && git push -f origin v1-latest
 ```

@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">سحر PDF</string>
+    <string name="app_tagline">ماذا ترغب أن تفعل؟</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">آخر استخدام</string>
+    <string name="home_favorites">المفضلة</string>
+    <string name="home_new_tool">أداة جديدة</string>
+    <string name="home_featured">مميز</string>
+    <string name="home_scan_to_pdf">امسح ضوئيًا إلى ملف PDF</string>
+    <string name="home_scan_description">حوّل المستندات الورقية إلى سحر رقمي فورياً</string>
+    <string name="home_start_scanning">ابدأ المسح</string>
+    <string name="home_all_tools">جميع الأدوات</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">أدوات PDF</string>
+    <string name="image_tools">أدوات الصور</string>
+    <string name="tools_split">ينقسم</string>
+    <string name="tools_split_description">صفحات مقتطفة</string>
+    <string name="tools_rotate">تناوب</string>
+    <string name="tools_rotate_description">تحديد الاتجاه</string>
+    <string name="tools_delete_pages">حذف الصفحات</string>
+    <string name="tools_delete_pages_description">إزالة غير المرغوب فيه</string>
+    <string name="tools_convert">يتحول</string>
+    <string name="tools_convert_description">من/إلى الصور</string>
+    <string name="tools_sign">لافتة</string>
+    <string name="tools_sign_description">إضافة توقيع</string>
+    <string name="tools_protect">يحمي</string>
+    <string name="tools_protect_description">أمان كلمة المرور</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">عارض ملفات PDF</string>
+    <string name="pdf_viewer_page_info">الصفحة %1$d من %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">ماسح ضوئي للمستندات</string>
+    <string name="scanner_capture">يأسر</string>
+    <string name="scanner_retake">إعادة الاختبار</string>
+    <string name="scanner_save">يحفظ</string>
+    <!-- Navigation -->
+    <string name="nav_back">العودة إلى الخلف</string>
+    <string name="nav_settings">إعدادات</string>
+    <string name="nav_more_options">خيارات إضافية</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">بيت</string>
+    <string name="nav_library">مكتبة</string>
+    <string name="nav_scan">مسح ضوئي</string>
+    <string name="nav_tools">أدوات</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">تصفح الملفات</string>
+    <string name="browse_files_subtitle">التخزين &amp; ملفات السحابة</string>
+    <string name="show_hidden_files">إظهار الملفات المخفية</string>
+    <string name="hide_hidden_files">إخفاء الملفات المخفية</string>
+    <string name="refresh_storage">تحديث التخزين</string>
+    <string name="no_storage_available">لا تتوفر مساحة تخزين</string>
+    <string name="no_files_found">لم يتم العثور على أي ملفات</string>
+    <string name="add_files">أضف %1$d ملفات</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">يلزم الحصول على إذن التخزين</string>
+    <string name="permission_storage_message">يحتاج هذا التطبيق إلى الوصول إلى مساحة تخزين جهازك لتصفح ملفات PDF وفتحها. يُرجى منح إذن الوصول إلى مساحة التخزين للمتابعة.</string>
+    <string name="permission_grant">منح الإذن</string>
+    <!-- Common Actions -->
+    <string name="action_open">يفتح</string>
+    <string name="action_save">يحفظ</string>
+    <string name="action_share">يشارك</string>
+    <string name="action_delete">يمسح</string>
+    <string name="action_cancel">يلغي</string>
+    <string name="action_confirm">يتأكد</string>
+    <string name="action_rename">إعادة تسمية</string>
+    <string name="action_print">مطبعة</string>
+    <string name="action_favorite">مفضل</string>
+    <string name="action_unfavorite">غير مفضل</string>
+    <!-- Document Actions -->
+    <string name="document_share">مشاركة المستند</string>
+    <string name="document_rename">إعادة تسمية المستند</string>
+    <string name="document_delete">حذف المستند</string>
+    <string name="document_print">طباعة المستند</string>
+    <string name="document_favorite">أضف إلى المفضلة</string>
+    <string name="document_unfavorite">إزالة من المفضلة</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">تمت مشاركة المستند بنجاح</string>
+    <string name="document_share_failed">فشل في مشاركة المستند</string>
+    <string name="document_renamed_success">تمت إعادة تسمية المستند بنجاح</string>
+    <string name="document_rename_failed">فشل في إعادة تسمية المستند</string>
+    <string name="document_deleted_success">تم حذف المستند بنجاح</string>
+    <string name="document_delete_failed">فشل حذف المستند</string>
+    <string name="document_print_opened">تم فتح المستند في برنامج عرض ملفات PDF الافتراضي. استخدم وظيفة الطباعة في برنامج العرض للطباعة.</string>
+    <string name="document_print_failed">فشل طباعة المستند</string>
+    <string name="document_added_to_favorites">تمت إضافته إلى المفضلة</string>
+    <string name="document_removed_from_favorites">تمت إزالته من المفضلة</string>
+    <string name="document_favorite_failed">فشل تحديث حالة المفضلة</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">إعادة تسمية المستند</string>
+    <string name="dialog_rename_hint">أدخل الاسم الجديد</string>
+    <string name="dialog_rename_empty_error">لا يمكن أن يكون اسم المستند فارغًا</string>
+    <string name="dialog_delete_title">حذف المستند</string>
+    <string name="dialog_delete_file_message">سيؤدي هذا إلى حذف الملف نهائيًا.\n\nحذف %1$s؟</string>
+    <string name="dialog_delete_uri_message">يُحذف من التطبيق فقط. الملف الأصلي لم يتغير.\n\nهل تريد حذف %1$s من التطبيق؟</string>
+    <string name="dialog_delete_confirm">يمسح</string>
+    <string name="dialog_remove_confirm">يزيل</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">إعادة تسمية الملفات داخل التطبيق فقط. الملف الأصلي لم يتغير.</string>
+    <string name="notice_delete_uri_only">تمت إزالته من التطبيق. الملف الأصلي لم يتغير.</string>
+    <string name="notice_file_exists_error">يوجد ملف بهذا الاسم بالفعل</string>
+    <string name="notice_file_not_found_error">لم يتم العثور على الملف</string>
+    <string name="notice_no_active_document">لا يوجد مستند نشط</string>
+    <string name="notice_document_path_unavailable">مسار ملف المستند غير متوفر</string>
+    <!-- States -->
+    <string name="state_loading">تحميل...</string>
+    <string name="state_empty">لم يتم العثور على أي عناصر</string>
+    <string name="state_error">حدث خطأ ما</string>
+    <string name="state_retry">إعادة المحاولة</string>
+    <!-- Errors -->
+    <string name="error_network">فشل الاتصال بالشبكة</string>
+    <string name="error_file_not_found">لم يتم العثور على الملف</string>
+    <string name="error_permission_denied">تم رفض الإذن</string>
+    <string name="error_invalid_file">تنسيق ملف غير صالح</string>
+    <string name="error_password_required">كلمة المرور مطلوبة</string>
+    <string name="error_incorrect_password">كلمة مرور خاطئة</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">محمي بكلمة مرور</string>
+    <string name="password_protected_message">يتطلب هذا الملف كلمة مرور لفتحه. يرجى إدخالها أدناه.</string>
+    <string name="password_label">كلمة المرور</string>
+    <string name="password_placeholder">أدخل كلمة المرور</string>
+    <string name="password_unlock">فتح</string>
+    <string name="password_show">إظهار كلمة المرور</string>
+    <string name="password_hide">إخفاء كلمة المرور</string>
+    <!-- Theme -->
+    <string name="theme_light">ضوء</string>
+    <string name="theme_dark">مظلم</string>
+    <string name="theme_system">نظام</string>
+    <string name="theme_adaptive">تكيفي</string>
+    <string name="theme_custom">مخصص</string>
+    <!-- Settings -->
+    <string name="settings_title">التفضيلات</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">مزامنة الحساب &amp;</string>
+    <string name="settings_category_sync_subtitle">إدارة حسابك، مزامنة &amp; الخصوصية</string>
+    <string name="settings_category_appearance_title">مظهر</string>
+    <string name="settings_category_appearance_subtitle">تخصيص مظهر التطبيق &amp;</string>
+    <string name="settings_category_pdf_reader_title">قارئ ملفات PDF</string>
+    <string name="settings_category_pdf_reader_subtitle">تجربة القراءة الافتراضية &amp;</string>
+    <string name="settings_category_help_title">مساعدة &amp; دعم</string>
+    <string name="settings_category_help_subtitle">الوثائق &amp; للتواصل</string>
+    <string name="settings_category_general_title">عام</string>
+    <string name="settings_category_general_subtitle">اللغة &amp; معلومات التطبيق</string>
+    <string name="settings_theme_section">سمة</string>
+    <string name="settings_theme_description">اختر المظهر المفضل لديك</string>
+    <string name="settings_accent_color">لون مميز</string>
+    <string name="settings_custom_colors">ألوان مخصصة</string>
+    <string name="settings_primary_color">اللون الأساسي</string>
+    <string name="settings_background_color">لون الخلفية</string>
+    <string name="settings_surface_color">لون الطبعة</string>
+    <string name="settings_reset_colors">إعادة الضبط إلى الوضع الافتراضي</string>
+    <string name="settings_adaptive_note">ألوان Material You التكيفية (Android 12+)</string>
+    <string name="settings_app_section">إعدادات التطبيق</string>
+    <string name="settings_notifications">إشعارات</string>
+    <string name="settings_notifications_description">تلقي إشعارات التطبيق</string>
+    <string name="settings_auto_backup">النسخ الاحتياطي التلقائي</string>
+    <string name="settings_auto_backup_description">نسخ المستندات احتياطيًا تلقائيًا</string>
+    <string name="settings_change_color">تغيير اللون</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">ستظهر مستندات PDF الخاصة بك هنا</string>
+    <string name="scan_description">امسح المستندات ضوئيًا إلى ملف PDF</string>
+    <string name="tools_description">أدوات تحرير ومعالجة ملفات PDF</string>
+    <string name="home_description">استخدم شريط التنقل السفلي للوصول إلى الميزات</string>
+    <!-- Sort Options -->
+    <string name="sort_name">اسم</string>
+    <string name="sort_date">تاريخ</string>
+    <string name="sort_size">مقاس</string>
+    <string name="sort_option_name">اسم</string>
+    <string name="sort_option_last_opened">آخر فتح</string>
+    <string name="sort_option_last_modified">آخر تعديل</string>
+    <string name="sort_option_file_size">حجم الملف</string>
+    <!-- View Types -->
+    <string name="view_type_list">عرض القائمة</string>
+    <string name="view_type_table">عرض الجدول</string>
+    <string name="view_type_grid">عرض الشبكة</string>
+    <!-- File Properties -->
+    <string name="file_name">اسم الملف</string>
+    <string name="date_modified">تاريخ التعديل</string>
+    <string name="file_size">مقاس</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">لم يبدأ بعد</string>
+    <string name="file_status_completed">مكتمل</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">مستند PDF</string>
+    <string name="document_type_word">مستند وورد</string>
+    <string name="document_type_excel">جدول بيانات إكسل</string>
+    <string name="document_type_image">ملف صورة</string>
+    <string name="document_type_other">وثيقة</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">جميع الملفات</string>
+    <string name="filter_recent">مؤخرًا</string>
+    <string name="filter_pdfs">ملفات PDF</string>
+    <string name="filter_images">صور</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">بيت</string>
+    <string name="browse_tab">تصفح</string>
+    <string name="starred_tab">مُمَيَّز بِالْمَنَى</string>
+    <string name="settings_tab">إعدادات</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">تبديل المظهر</string>
+    <string name="accessibility_menu">قائمة طعام</string>
+    <string name="accessibility_close">يغلق</string>
+    <string name="accessibility_color_picker">منتقي الألوان</string>
+    <!-- Library Screen -->
+    <string name="library_title">مكتبة</string>
+    <string name="library_subtitle">إدارة الملفات، الملفات الأخيرة &amp; المفضلة</string>
+    <string name="library_search_placeholder">ملفات البحث...</string>
+    <string name="library_selected_count">تم اختيار %1$d</string>
+    <string name="library_open_from_device">افتح من الجهاز\n</string>
+    <string name="library_browse_files">تصفح\nالملفات</string>
+    <string name="library_action_open">يفتح</string>
+    <string name="library_action_share">يشارك</string>
+    <string name="library_action_remove">يزيل</string>
+    <string name="library_action_delete">يمسح</string>
+    <string name="library_clear_search">مسح البحث</string>
+    <string name="library_close_search">إغلاق البحث</string>
+    <string name="library_select_all">حدد جميع الملفات</string>
+    <string name="library_exit_multiselect">الخروج من وضع التحديد المتعدد</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">مساعدة &amp; دعم</string>
+    <string name="help_support_subtitle">الأسئلة الشائعة، اتصل بنا &amp; الشؤون القانونية</string>
+    <string name="settings_pdf_subtitle">قم بالتمرير، عرض &amp; تخطيط</string>
+    <string name="help_header_title">كيف يمكننا المساعدة؟</string>
+    <string name="help_header_subtitle">Our team is here to ensure you have the\nbest PDF experience.</string>
+    <string name="help_contact_us">اتصل بنا</string>
+    <string name="help_contact_subtitle">تواصل مع فريق الدعم</string>
+    <string name="help_faq">الأسئلة الشائعة</string>
+    <string name="help_faq_subtitle">إجابات على الأسئلة الشائعة</string>
+    <string name="help_privacy_policy">سياسة الخصوصية</string>
+    <string name="help_privacy_subtitle">كيف نحمي بياناتك</string>
+    <string name="help_terms_service">شروط الخدمة</string>
+    <string name="help_terms_subtitle">قواعد التقديم</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">المزامنة عبر بيانات الهاتف المحمول</string>
+    <string name="background_sync">مزامنة الخلفية</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">إعدادات قارئ ملفات PDF</string>
+    <string name="pdf_settings_coming_soon">قريباً</string>
+    <string name="pdf_settings_description">قم بضبط سلوك التمرير، وأنماط العرض، وتفضيلات القراءة.</string>
+    <!-- General Settings -->
+    <string name="settings_language">لغة</string>
+    <string name="settings_pdf_reader">إعدادات قارئ ملفات PDF</string>
+    <string name="settings_help_support">مساعدة &amp; دعم</string>
+    <string name="settings_whats_new">ما الجديد</string>
+    <string name="settings_download_desktop">التثبيت على جهاز آخر</string>
+    <string name="settings_rate_app">تقييم التطبيقات</string>
+    <string name="play_store_not_found">لم يتم العثور على متجر Play على هذا الجهاز</string>
+    <string name="settings_set_as_default">تعيين كعارض PDF افتراضي</string>
+    <string name="settings_set_as_default_subtitle">افتح ملفات PDF باستخدام هذا التطبيق افتراضيًا</string>
+    <string name="settings_default_pdf_instructions_title">كيفية تعيينها كافتراضي</string>
+    <string name="settings_default_pdf_ok">فهمتها</string>
+    <string name="settings_default_app_hint">لم ينجح الأمر؟</string>
+    <string name="settings_default_app_hint_learn_more">يتعلم أكثر</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">لغة</string>
+    <string name="language_search_placeholder">لغات البحث...</string>
+    <!-- Common UI -->
+    <string name="support">يدعم</string>
+    <string name="language_english">إنجليزي</string>
+    <string name="language_hindi">हिंदी</string>
+    <string name="language_spanish">الإسبانية</string>
+    <string name="language_french">الفرنسية</string>
+    <string name="language_german">الألمانية</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">شكرا</string>
+    <string name="language_portuguese">البرتغالية</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">مظهر التطبيق</string>
+    <string name="theme">سمة</string>
+    <string name="general">عام</string>
+    <string name="new">جديد</string>
+    <string name="navigate">تصفح</string>
+    <string name="download">تحميل</string>
+    <string name="falcon_pdf">ملف PDF لفالكون</string>
+    <string name="excellence_in_every_pixel">التميز في كل بكسل</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">تطبيق التغييرات</string>
+    <string name="apply">يتقدم</string>
+    <string name="selected">مختار</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">إعدادات المزامنة</string>
+    <string name="autosync_on_wifi">المزامنة التلقائية عبر الواي فاي</string>
+    <string name="sync_reading_progress">مزامنة تقدم القراءة</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">اسم المستند</string>
+    <string name="name_cannot_be_empty">لا يمكن أن يكون الاسم فارغًا</string>
+    <string name="str__failed">فشل %1$s</string>
+    <string name="ok">نعم</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">خطة الترقية - الخطة الحالية: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">اسحب لفتح الملف</string>
+    <string name="release_to_import_and_open_pdf">إصدار إذن لاستيراد وفتح ملفات PDF</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">يزيل</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">ملف PDF</string>
+    <string name="images">صور</string>
+    <string name="filter_all_types">جميع الملفات</string>
+    <string name="favorites">الملفات المفضلة</string>
+    <string name="recent">مؤخرًا</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">البحث في المستندات...</string>
+    <string name="voice_search">البحث الصوتي</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">الملفات الأخيرة</string>
+    <string name="loading_recent_files">جارٍ تحميل الملفات الأخيرة...</string>
+    <string name="no_recent_files">لا توجد ملفات حديثة</string>
+    <string name="no_favorites">لا يوجد مفضلون</string>
+    <string name="mark_files_as_favorite_to_see_them_here">قم بحفظ الملف في المفضلة لمشاهدته هنا</string>
+    <string name="open_some_pdf_files_to_see_the">افتح بعض ملفات PDF لعرضها هنا</string>
+    <string name="status">حالة</string>
+    <string name="actions">الإجراءات</string>
+    <string name="select_all">حدد الكل</string>
+    <string name="enter_multiselect_mode">ادخل وضع التحديد المتعدد</string>
+    <string name="sorted_ascending">مرتبة تصاعدياً</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">التخزين: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">أضف %1$s ملفًا</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">تغيير نوع العرض</string>
+    <string name="filter_">الفلتر: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">جارٍ تحميل ملف PDF...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">سجّل الدخول للمزامنة</string>
+    <string name="protect_your_library_files">احمِ ملفات مكتبتك</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="sign_out">تسجيل الخروج</string>
+    <string name="sign_in_dialog_title">سجّل الدخول إلى Falcon PDF</string>
+    <string name="sign_in_dialog_subtitle">مكتبة ملفات PDF الخاصة بك، في كل مكان.</string>
+    <string name="sign_in_with_google">سجّل الدخول باستخدام حساب جوجل</string>
+    <string name="sign_in_with_apple">سجّل الدخول باستخدام Apple</string>
+    <string name="apple_user_drive_unavailable">لا تتوفر مزامنة Google Drive مع تسجيل الدخول باستخدام Apple</string>
+    <string name="apple_user_link_google">ربط حساب جوجل لمزامنة البيانات مع جوجل درايف</string>
+    <string name="apple_user_sync_info">لتمكين مزامنة السحابة، اربط حساب جوجل</string>
+    <string name="link_google_account">ربط حساب جوجل</string>
+    <string name="signed_in_successfully">تم تسجيل الدخول بنجاح</string>
+    <string name="signed_out_successfully">تم تسجيل الخروج بنجاح</string>
+    <string name="sync_disabled_free">تم تعطيل المزامنة للحسابات المجانية.</string>
+    <string name="storage_disabled_grant_access">تم تعطيل التخزين. امنح حق الوصول إلى محرك الأقراص للبدء.</string>
+    <string name="upgrade_to_pro">قم بالترقية إلى الإصدار الاحترافي</string>
+    <string name="grant_drive_access">الوصول إلى محرك الأقراص المانح</string>
+    <string name="files_synced">تمت مزامنة الملفات %1$d/%2$d</string>
+    <string name="synced_count">%1$d متزامن</string>
+    <string name="unlimited_sync_active">مزامنة غير محدودة</string>
+    <string name="missing_drive_permissions">أذونات الوصول إلى محرك الأقراص مفقودة. المزامنة محظورة حاليًا.</string>
+    <string name="drive_access_revoked">تم إلغاء الوصول إلى محرك الأقراص. أعد الاتصال لاستئناف المزامنة.</string>
+    <string name="upgrade_premium">ترقية مميزة</string>
+    <string name="manage_account">إدارة الحساب</string>
+    <string name="sync_now">المزامنة الآن</string>
+    <string name="tier_free">حر</string>
+    <string name="tier_pro">محترف</string>
+    <string name="tier_premium">غالي</string>
+    <string name="status_paused">متوقف مؤقتًا</string>
+    <!-- Common -->
+    <string name="navigate_back">العودة إلى الخلف</string>
+    <string name="dismiss">رفض</string>
+    <string name="cancel">يلغي</string>
+    <string name="back">خلف</string>
+    <string name="search">يبحث</string>
+    <string name="more_actions">المزيد من الإجراءات</string>
+    <string name="share">يشارك</string>
+    <string name="delete">يمسح</string>
+    <string name="remove_from_recents">إزالة من التطبيقات الحديثة</string>
+    <string name="open">يفتح</string>
+    <string name="all">الجميع</string>
+    <string name="sort_by_">فرز حسب %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">مزامنة جوجل درايف</string>
+    <string name="syncing">جارٍ المزامنة...</string>
+    <string name="sync_completed">اكتملت عملية المزامنة</string>
+    <string name="sync_failed">فشلت عملية المزامنة</string>
+    <string name="sync_limit_exceeded">تم تجاوز حد المزامنة. تسمح لك خطتك %s بـ %d ملف.</string>
+    <string name="sync_no_drive_access">الوصول إلى جوجل درايف غير متاح</string>
+    <string name="sync_network_unavailable">الشبكة غير متاحة</string>
+    <string name="sync_last_sync">آخر مزامنة: %s</string>
+    <string name="sync_total_files">المجموع</string>
+    <string name="sync_synced_files">متزامن</string>
+    <string name="sync_failed_files">فشل</string>
+    <string name="sync_conflict_files">الصراعات</string>
+    <string name="sync_add_to_favorites">أضف إلى المفضلة</string>
+    <string name="sync_remove_from_favorites">إزالة من المفضلة</string>
+    <string name="sync_conflict_title">تعارضات التزامن</string>
+    <string name="sync_conflict_message">الملفات التالية بها تعارضات تحتاج إلى حل:</string>
+    <string name="sync_conflict_explanation">تحدث التعارضات عندما يتم تعديل كل من النسختين المحلية والبعيدة.</string>
+    <string name="sync_plan_limit">مزامنة: %d/%d</string>
+    <string name="sync_plan_limit_reached">تم الوصول إلى الحد الأقصى</string>
+    <string name="sync_plan_unlimited">مزامنة غير محدودة</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">يتخطى</string>
+    <string name="welcome_next">التالي</string>
+    <string name="welcome_get_started">ابدأ الآن</string>
+    <string name="welcome_sign_in_get_started">تسجيل الدخول &amp; ابدأ الآن</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Read Any Document&lt;/b&gt; Instantly</string>
+    <string name="welcome_slide1_description">افتح وقم بإدارة أكثر من 10 تنسيقات للمستندات بما في ذلك PDF و DOC و EPUB و MOBI.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Read PDFs, ebooks,&lt;/b&gt; and office docs in one place</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;أضف&lt;/b&gt; مستندات إلى المفضلة وقم بالوصول إليها عبر الأجهزة</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;علّق،&lt;/b&gt; ميّز، وتعاون بسهولة</string>
+    <string name="welcome_slide1_footer">قارئ المستندات الشامل الخاص بك</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;Edit, Scan and Organize&lt;/b&gt; PDFs</string>
+    <string name="welcome_slide2_description">كل ما تحتاجه لإنشاء ملفات PDF وتعديلها وإدارتها في مجموعة أدوات واحدة قوية.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;تحرير النص،&lt;/b&gt; إضافة التعليقات، والتمييز، وملء النماذج</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;امسح المستندات ضوئيًا&lt;/b&gt; وحوّلها إلى ملفات PDF على الفور</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;أكثر من 30 أداة&lt;/b&gt; بما في ذلك الدمج والتحويل والضغط والتأمين</string>
+    <string name="welcome_slide2_footer">مساحة عمل PDF المتكاملة الخاصة بك</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;AI That Understands&lt;/b&gt; Your Documents</string>
+    <string name="welcome_slide3_description">وفر ساعات من وقتك مع الذكاء الاصطناعي الذي يقرأ ويحلل المستندات نيابةً عنك.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Summarize&lt;/b&gt; long documents in seconds</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;التعرف الضوئي على الأحرف&lt;/b&gt; مسح الصفحات ضوئيًا وترجمة النصوص فورًا</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Listen&lt;/b&gt; to documents with built-in read-aloud</string>
+    <string name="welcome_slide3_footer">لا إعلانات. فقط الإنتاجية.</string>
+    <string name="grace">جمال</string>
+    <string name="unable_to_verify_subscription_limited_ac">تعذر التحقق من الاشتراك. الوصول محدود حتى استعادة الاتصال.</string>
+    <string name="retry_verification">التحقق من إعادة المحاولة</string>
+    <string name="guest_state">دولة الضيف</string>
+    <string name="free_tier">المستوى المجاني</string>
+    <string name="free_tier__locked">المستوى المجاني - مغلق</string>
+    <string name="pro_tier">المستوى الاحترافي</string>
+    <string name="pro_tier__restricted">المستوى الاحترافي - مقيد</string>
+    <string name="premium_tier">المستوى المميز</string>
+    <string name="premium_tier__error">المستوى المميز - خطأ</string>
+    <string name="refresh_plan_status">حالة خطة التحديث</string>
+    <string name="user_avatar">صورة المستخدم الرمزية</string>
+    <string name="debug_tools">أدوات تصحيح الأخطاء</string>
+    <string name="authentication__drive">المصادقة &amp; محرك الأقراص</string>
+    <string name="auth_state">حالة التفويض</string>
+    <string name="revoke_drive_access">إلغاء الوصول إلى محرك الأقراص</string>
+    <string name="image">صورة</string>
+    <string name="thumbnail">صورة مصغرة</string>
+    <string name="manage_preferences">إدارة التفضيلات</string>
+    <string name="tools_history">تاريخ الأدوات</string>
+    <string name="manage_recent_logs">إدارة السجلات الأخيرة</string>
+    <string name="more_options">خيارات إضافية</string>
+    <string name="clear_all_history">مسح جميع السجلات</string>
+    <string name="no_history_yet">لا يوجد تاريخ حتى الآن</string>
+    <string name="your_pdf_tool_operations_will_appear_her">ستظهر عملياتك التي تقوم بها باستخدام أداة PDF هنا</string>
+    <string name="view">منظر</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">تم الحفظ %1$s</string>
+    <string name="history_status_processing">يعالج</string>
+    <string name="history_status_succeeded">نجح</string>
+    <string name="history_status_failed">فشل</string>
+    <string name="history_status_processing_upper">يعالج</string>
+    <string name="history_unknown_files">ملفات غير معروفة</string>
+    <string name="history_op_complete">%1$s اكتمل!</string>
+    <string name="history_op_failed">فشل %1$s</string>
+    <string name="history_op_success_multiple">اكتملت العملية بنجاح مع %1$d ملفًا</string>
+    <string name="history_op_success_single">اكتملت العملية بنجاح</string>
+    <string name="history_op_error">لم نتمكن من إكمال العملية</string>
+    <string name="history_multiple_files">%1$d ملفات</string>
+    <string name="history_failed">فشل</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">مزامنة السحابة</string>
+    <string name="cloud_sync_subtitle">الأجهزة المتصلة</string>
+    <string name="cloud_sync_all_synced">تمت مزامنة جميع الملفات</string>
+    <string name="cloud_sync_syncing">مزامنة…</string>
+    <string name="cloud_sync_pending">المزامنة قيد الانتظار</string>
+    <string name="cloud_sync_last_sync">آخر مزامنة: %1$s</string>
+    <string name="cloud_sync_never_synced">لم تتم المزامنة مطلقًا</string>
+    <string name="cloud_sync_recent_activity">نشاط المزامنة الأخير</string>
+    <string name="cloud_sync_no_files">لم تتم مزامنة أي ملفات بعد</string>
+    <string name="cloud_sync_synced_to_drive">تمت المزامنة مع محرك الأقراص</string>
+    <string name="cloud_sync_pending_upload">التحميل معلق</string>
+    <string name="cloud_sync_sync_now">مزامنة الآن</string>
+    <string name="cloud_sync_view_history">عرض سجل المزامنة</string>
+    <string name="cloud_sync_files_count">تمت مزامنة الملفات %1$d / %2$d</string>
+    <string name="cloud_sync_unlimited_files">تمت مزامنة %1$d ملف · عدد غير محدود</string>
+    <string name="cloud_sync_cta_title">أي منصة، في أي وقت</string>
+    <string name="cloud_sync_cta_subtitle">مستنداتك ترافقك في كل مكان</string>
+    <string name="cloud_sync_files_label">%1$d ملفات</string>
+    <string name="settings_data_privacy">البيانات &amp; الخصوصية</string>
+    <string name="settings_data_privacy_subtitle">إدارة البيانات، حذف الحساب &amp;</string>
+    <string name="settings_delete_account">حذف الحساب</string>
+    <string name="settings_delete_account_subtitle">احذف حسابك وبياناتك نهائياً</string>
+    <string name="delete_account_warning_title">هل تريد حذف حسابك؟</string>
+    <string name="delete_account_warning_message">سيؤدي هذا إلى حذف حسابك نهائياً وجميع البيانات المرتبطة به، بما في ذلك سجل مشترياتك والملفات التي تمت مزامنتها مع السحابة. لا يمكن التراجع عن هذا الإجراء، ولا يمكن استعادة المشتريات لاحقاً.</string>
+    <string name="delete_account_confirm_phrase_label">اكتب "تأكيد الحذف" للمتابعة:</string>
+    <string name="delete_account_confirm_phrase">تأكيد الحذف</string>
+    <string name="delete_account_button">حذف الحساب</string>
+    <string name="delete_account_error_reauth">لأسباب أمنية، يجب أن تكون قد سجلت الدخول مؤخراً لحذف حسابك. يرجى تسجيل الخروج ثم تسجيل الدخول مرة أخرى، ثم المحاولة مجدداً.</string>
+    <string name="delete_account_success">تم حذف الحساب بنجاح</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">ملف &amp; إعدادات المزامنة</string>
+    <string name="sync_on_mobile_data_subtitle">استخدم بيانات الهاتف المحمول للمزامنة السحابية</string>
+    <string name="drive_sync">مزامنة الخلفية</string>
+    <string name="drive_sync_subtitle">مزامنة المفضلة &amp; مسح المستندات ضوئيًا إلى Drive</string>
+    <string name="do_not_import_from_other_apps">لا تستورد الملفات من تطبيقات أخرى</string>
+    <string name="do_not_import_from_other_apps_subtitle">افتح الملفات المشتركة مؤقتًا دون حفظها في المكتبة</string>
+    <string name="clear_imported_files">مسح الملفات المستوردة</string>
+    <string name="clear_imported_files_subtitle">احذف جميع الملفات المنسوخة من التطبيقات الأخرى</string>
+    <string name="clear_imports_confirm_title">هل تريد مسح الملفات المستوردة؟</string>
+    <string name="clear_imports_confirm_message">سيؤدي هذا إلى حذف جميع الملفات الموجودة في مجلد الاستيراد نهائياً. لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="clear_imports_success">تمت إزالة الملفات المستوردة</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">البيانات &amp; الخصوصية</string>
+    <string name="analytics_opt_out_title">إرسال بيانات الاستخدام</string>
+    <string name="analytics_opt_out_subtitle">شارك بيانات الاستخدام المجهولة وتقارير الأعطال مع المطور للمساعدة في تحسين التطبيق</string>
+    <string name="analytics_opt_out_disabled_note">تم تعطيل التحليلات وتقارير الأعطال. لا يتم إرسال أي بيانات إلى جوجل أو المطور.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">التغييرات غير المحفوظة</string>
+    <string name="unsaved_changes_tab_message">يحتوي هذا المستند على تغييرات لم يتم حفظها. هل تريد الحفظ قبل الإغلاق؟</string>
+    <string name="unsaved_changes_window_message">لديك تغييرات غير محفوظة في مستند واحد أو أكثر. هل تريد تجاهلها والخروج؟</string>
+    <string name="discard">ينبذ</string>
+    <string name="discard_and_quit">تجاهل &amp; خروج</string>
+    <string name="close">يغلق</string>
+    <string name="remove_favorite">إزالة من المفضلة</string>
+    <string name="set_as_default_pdf_viewer">هل تريد تعيينه كعارض PDF افتراضي؟</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">برنامج Falcon PDF ليس برنامج عرض ملفات PDF الافتراضي لديك. هل ترغب في تعيينه كبرنامج افتراضي بحيث تُفتح جميع ملفات PDF باستخدامه؟</string>
+    <string name="set_now">اضبط الآن</string>
+    <string name="never">أبداً</string>
+    <string name="later">لاحقاً</string>
+    <string name="set_default">تعيين افتراضيًا</string>
+    <string name="default">تقصير</string>
+    <string name="version_">الإصدار %1$s</string>
+    <string name="sign_in_with_other_accounts">تسجيل الدخول باستخدام حسابات أخرى</string>
+    <string name="upgrade">يرقي</string>
+    <string name="view_plan">عرض الخطة</string>
+    <string name="unlimited_sync_upto_5gb">مزامنة غير محدودة تصل إلى 5 جيجابايت</string>
+    <string name="unlock_faster">فتح أسرع</string>
+    <string name="use_biometrics_instead_of_passwords">استخدم القياسات الحيوية بدلاً من كلمات المرور.</string>
+    <string name="upgrade_to_premium">قم بالترقية إلى الإصدار المميز</string>
+    <string name="unlock_pdf">فتح ملف PDF</string>
+    <string name="use__to_accessnthis_document">استخدم %1$s للوصول إلى\nهذا المستند</string>
+    <string name="open_with_password">افتح باستخدام كلمة المرور</string>
+    <string name="secure">يؤمن</string>
+    <string name="loading_">جارٍ التحميل %1$s...</string>
+    <string name="failed_to_open_ebook">فشل فتح الكتاب الإلكتروني</string>
+    <string name="properties">ملكيات</string>
+    <string name="copy">ينسخ</string>
+    <string name="highlight">أبرز النقاط</string>
+    <string name="clear_selection">كليرست</string>
+    <string name="close_search">إغلاق البحث</string>
+    <string name="search_in_book">ابحث في الكتاب...</string>
+    <string name="contents">محتويات</string>
+    <string name="table_of_contents">جدول المحتويات</string>
+    <string name="no_table_of_contents_available">لا يوجد جدول محتويات متاح</string>
+    <string name="bookmarks">الإشارات المرجعية</string>
+    <string name="no_bookmarks_yet">لا توجد إشارات مرجعية حتى الآن</string>
+    <string name="page_">الصفحة %1$s</string>
+    <string name="no_results">لا توجد نتائج</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">إعدادات</string>
+    <string name="decrease_font_size">قلل حجم الخط</string>
+    <string name="increase_font_size">قم بزيادة حجم الخط</string>
+    <string name="font">نوع الخط</string>
+    <string name="jump_to_page">انتقل إلى الصفحة</string>
+    <string name="enter_page_number_1">أدخل رقم الصفحة (1–%1$s):</string>
+    <string name="go">يذهب</string>
+    <string name="read_aloud">اقرأ بصوت عالٍ</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">قف</string>
+    <string name="annotations__text_selection">التعليقات &amp; تحديد النص</string>
+    <string name="text_selection_and_annotations_for_ebook">سيتم قريباً إضافة ميزة اختيار النصوص وإضافة التعليقات التوضيحية للكتب الإلكترونية.</string>
+    <string name="longpress_on_text_to_select_highlight_or">اضغط مطولاً على النص لتحديده أو تمييزه أو إضافة ملاحظات إليه.</string>
+    <string name="press_play_to_start_reading_aloud">اضغط على زر التشغيل لبدء القراءة بصوت عالٍ...</string>
+    <string name="speed">سرعة</string>
+    <string name="voice">صوت</string>
+    <string name="no_annotations_yet">لا توجد تعليقات توضيحية حتى الآن</string>
+    <string name="select_text_to_highlight_or_add_notes">حدد النص المراد تمييزه أو إضافة ملاحظات إليه</string>
+    <string name="tools">أدوات</string>
+    <string name="convert_to_images">تحويل إلى صور</string>
+    <string name="rename">إعادة تسمية</string>
+    <string name="print">مطبعة</string>
+    <string name="a">أ−</string>
+    <string name="cover_of_">غلاف %1$s</string>
+    <string name="no_cover_available">لا يوجد غطاء تأميني متاح</string>
+    <string name="read_now">اقرأ الآن</string>
+    <string name="about_the_book">نبذة عن الكتاب</string>
+    <string name="tags">الكلمات المفتاحية</string>
+    <string name="publisher_info">معلومات الناشر</string>
+    <string name="published_">تاريخ النشر: %1$s</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F مسح ذاكرة التخزين المؤقت</string>
+    <string name="ebooks_library">مكتبة الكتب الإلكترونية</string>
+    <string name="manage_your_digital_collection_across_mu">يمكنك إدارة مجموعتك الرقمية عبر مزودين متعددين. ابحث، وفلتر، واكتشف عناوين جديدة من كتب جوجل ومكتبة أوبن لايبراري.</string>
+    <string name="no_books_found">لم يتم العثور على كتب</string>
+    <string name="no_results_for__try_a_different_search_t">لا توجد نتائج للبحث عن "%1$s". جرب مصطلح بحث مختلف.</string>
+    <string name="downloadable_only">للتنزيل فقط</string>
+    <string name="file_unavailable">الملف غير متوفر</string>
+    <string name="unavailable">غير متاح</string>
+    <string name="search_titles_authors_isbn">ابحث عن العناوين والمؤلفين ورقم ISBN...</string>
+    <string name="clear_search">مسح البحث</string>
+    <string name="ebooks">الكتب الإلكترونية</string>
+    <string name="read_pdf">اقرأ ملف PDF</string>
+    <string name="create_pdf">إنشاء ملف PDF</string>
+    <string name="unlock_all_tools_and_remove_limits">أطلق العنان لجميع الأدوات وتخلص من القيود</string>
+    <string name="ocr_scanning">مسح ضوئي بتقنية التعرف الضوئي على الأحرف</string>
+    <string name="extract_text_from_scanned_documents">استخراج النص من المستندات الممسوحة ضوئياً</string>
+    <string name="cloud_sync">مزامنة السحابة</string>
+    <string name="access_your_documents_anywhere">يمكنك الوصول إلى مستنداتك من أي مكان</string>
+    <string name="annotate_pdfs">إضافة تعليقات توضيحية إلى ملفات PDF</string>
+    <string name="cloud_backup">النسخ الاحتياطي السحابي</string>
+    <string name="continue_reading">تابع القراءة</string>
+    <string name="pick_files">اختر الملفات</string>
+    <string name="browse">تصفح</string>
+    <string name="did_you_know">هل تعلم؟</string>
+    <string name="home">بيت</string>
+    <string name="your_documents_at_a_glance">مستنداتك في لمحة</string>
+    <string name="pick_file">ملف التقاط</string>
+    <string name="quick_actions">إجراءات سريعة</string>
+    <string name="pro">محترف</string>
+    <string name="open_files">فتح الملفات</string>
+    <string name="convert_to_pdf">تحويل إلى PDF</string>
+    <string name="close_drawer">أغلق الدرج</string>
+    <string name="close_file">إغلاق الملف</string>
+    <string name="office">مكتب</string>
+    <string name="coming_soon">قريباً</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">لا يتوفر قارئ الكتب الإلكترونية على هذه المنصة حتى الآن.</string>
+    <string name="set_as_default_viewer">تعيين كعارض افتراضي</string>
+    <string name="free">حر</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">جارٍ تنزيل التحديث... %1$s%</string>
+    <string name="more">أكثر</string>
+    <string name="font_size">حجم الخط</string>
+    <string name="font_family">عائلة الخط</string>
+    <string name="scroll_direction">اتجاه التمرير</string>
+    <string name="navigation">ملاحة</string>
+    <string name="keep_screen_on">أبقِ الشاشة قيد التشغيل</string>
+    <string name="volume_button_to_scroll">زر الصوت للتمرير</string>
+    <string name="export_ebook_pages_as_image_files">تصدير صفحات الكتاب الإلكتروني كملفات صور</string>
+    <string name="access_millions_of_titles">يمكنك الوصول إلى ملايين العناوين.</string>
+    <string name="read_offline_with_natural_ai_voices">اقرأ دون اتصال بالإنترنت باستخدام أصوات الذكاء الاصطناعي الطبيعية.</string>
+    <string name="advanced_ai_reader">قارئ متطور بتقنية الذكاء الاصطناعي.</string>
+    <string name="experience_studioquality_narration">استمتع بتجربة سرد بجودة الاستوديو.</string>
+    <string name="powerful_pdf_tools">أدوات قوية لملفات PDF.</string>
+    <string name="create_and_edit_documents_on_the_go">أنشئ وحرر المستندات أثناء التنقل.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">قم بالترقية إلى الإصدار الاحترافي: افتح جميع الأدوات وتخلص من القيود</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">المسح الضوئي بتقنية التعرف الضوئي على الحروف (OCR): استخراج النص من المستندات الممسوحة ضوئياً</string>
+    <string name="cloud_sync_access_your_documents_anywher">مزامنة السحابة: يمكنك الوصول إلى مستنداتك من أي مكان</string>
+    <string name="scan">مسح ضوئي</string>
+    <string name="compress">ضغط</string>
+    <string name="merge">دمج</string>
+    <string name="convert">يتحول</string>
+    <string name="highlight_underline_and_add_notes_to_you">قم بتظليل مستنداتك وتسطيرها وإضافة ملاحظات إليها</string>
+    <string name="keep_your_documents_safe_with_automatic_">حافظ على أمان مستنداتك من خلال المزامنة السحابية التلقائية</string>
+    <string name="indicator_color_">indicator_color_%1$s</string>
+    <string name="my_library">مكتبتي</string>
+    <string name="get_ebooks">احصل على الكتب الإلكترونية</string>
+    <string name="scan_document">مسح المستند ضوئيًا</string>
+    <string name="settings_category_ai_chat_title">مزوّد محادثة الذكاء الاصطناعي</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI أو Ollama أو مفتاحك الخاص</string>
+    <string name="settings_category_tts_title">القراءة الصوتية (TTS)</string>
+    <string name="settings_category_tts_subtitle">أصوات القراءة الصوتية</string>
+    <string name="settings_section_ai_voice">الذكاء الاصطناعي والصوت</string>
+    <string name="settings_entry_ai_title">مزوّد محادثة الذكاء الاصطناعي</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI أو Ollama المحلي أو مفتاحك الخاص المتوافق مع OpenAI</string>
+    <string name="settings_entry_tts_title">القراءة الصوتية (TTS)</string>
+    <string name="settings_entry_tts_subtitle">أصوات النظام أو ElevenLabs أو OpenAI أو Kokoro المحلي</string>
+    <string name="provider_dialog_reset">إعادة تعيين</string>
+    <string name="provider_dialog_cancel">إلغاء</string>
+    <string name="provider_dialog_save">حفظ التفضيلات</string>
+    <string name="provider_dialog_encryption_note">يُخزَّن محليًا ومُشفَّرًا. لا تتم مزامنته أبدًا مع خوادم بعيدة.</string>
+    <string name="provider_dialog_close">إغلاق</string>
+    <string name="ai_settings_dialog_title">إعدادات مزوّد محادثة الذكاء الاصطناعي</string>
+    <string name="ai_settings_dialog_subtitle">هيّئ مفاتيح الوصول إلى API والنماذج المخصصة وتفضيلات المزوّد.</string>
+    <string name="tts_settings_dialog_title">إعدادات مزوّد TTS</string>
+    <string name="tts_settings_dialog_subtitle">هيّئ محركات التخليق وأدِر بيانات الاعتماد واختر الأصوات.</string>
+</resources>

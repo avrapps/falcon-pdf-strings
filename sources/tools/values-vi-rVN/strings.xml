@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">Xóa trang</string>
+    <string name="are_you_sure_you_want_to_delet">Bạn có chắc chắn muốn xóa các trang đã chọn không? Thao tác này không thể hoàn tác.</string>
+    <string name="delete">Xóa bỏ</string>
+    <string name="cancel">Hủy bỏ</string>
+    <string name="quick_selection">Lựa chọn nhanh</string>
+    <string name="select_range">Chọn phạm vi</string>
+    <string name="select_all">Chọn tất cả</string>
+    <string name="clear_all">Xóa tất cả</string>
+    <string name="select_page_range">Chọn phạm vi trang</string>
+    <string name="enter_the_range_of_pages_to_de">Nhập phạm vi trang cần xóa (1-%1$s)</string>
+    <string name="from">Từ</string>
+    <string name="to">ĐẾN</string>
+    <string name="select">Lựa chọn</string>
+    <string name="please_go_back_and_select_a_pd">Vui lòng quay lại và chọn tệp PDF.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">Tách PDF</string>
+    <string name="str_1_file_selected">Đã chọn 1 tệp</string>
+    <string name="no_file_selected">Chưa có tệp nào được chọn</string>
+    <string name="split_mode">Chế độ chia đôi</string>
+    <string name="fixed_segments">Các đoạn cố định</string>
+    <string name="custom_ranges">Phạm vi tùy chỉnh</string>
+    <string name="segment_size">Kích thước phân đoạn</string>
+    <string name="this_will_create_multiple_pdfs">Thao tác này sẽ tạo ra nhiều tệp PDF với số trang được chỉ định cho mỗi tệp. Kích thước phân đoạn phải nhỏ hơn tổng số trang để tạo ra các phân đoạn có ý nghĩa. Ví dụ: nếu tệp nguồn có 8 trang và bạn nhập 2, bốn tệp PDF sẽ được tạo ra, mỗi tệp có 2 trang.</string>
+    <string name="pages_per_file">Số trang trên mỗi tập tin</string>
+    <string name="eg_2">ví dụ, 2</string>
+    <string name="total_number_of_pages_in_pdf__">Tổng số trang trong PDF: %1$d (kích thước phân đoạn phải nhỏ hơn %1$d)</string>
+    <string name="this_will_create__output_files">Thao tác này sẽ tạo ra %1$d tệp đầu ra</string>
+    <string name="this_will_create__output_file">Thao tác này sẽ tạo ra tệp đầu ra %1$d</string>
+    <string name="this_input_will_split_the_pdf_">Đầu vào này sẽ chia tệp PDF thành các tệp riêng biệt dựa trên phạm vi bạn đã chọn. Ví dụ: "1-2,5,6-8" sẽ tạo ra 3 tệp PDF: tệp đầu tiên gồm trang 1-2, tệp thứ hai gồm trang 5 và tệp thứ ba gồm trang 6-8.</string>
+    <string name="page_ranges">Phạm vi trang</string>
+    <string name="eg_1234571520">ví dụ: 1-2,3,4-5,7,15-20</string>
+    <string name="format_use_ranges_15_or_single">Định dạng: Sử dụng các phạm vi (1-5) hoặc các trang đơn (7), được phân tách bằng dấu phẩy. Chỉ cho phép các chữ số, dấu gạch ngang và dấu phẩy.</string>
+    <string name="split_preview">Xem trước chia đôi</string>
+    <string name="pdf_files_will_be_created">%1$d Các tệp PDF sẽ được tạo</string>
+    <string name="pdf_file_will_be_created">%1$d Tệp PDF sẽ được tạo</string>
+    <string name="pdf_result_">Kết quả PDF %1$s</string>
+    <string name="str__and__more">... và %1$d nhiều hơn nữa</string>
+    <string name="splitting_pdf">Chia tách PDF...</string>
+    <string name="checking_files">Đang kiểm tra tập tin...</string>
+    <string name="page_n">Trang %1$d</string>
+    <string name="pages_n_m">Trang %1$d-%2$d</string>
+    <string name="split_complete">Quá trình chia tách đã hoàn tất!</string>
+    <string name="split_failed">Chia tách thất bại</string>
+    <string name="we_couldnt_split_your_pdf">Chúng tôi không thể chia nhỏ tệp PDF của bạn.</string>
+    <string name="your_pdf_has_been_successfully_split">Tệp PDF của bạn đã được chia thành %1$d tệp thành công.</string>
+    <string name="your_pdf_has_been_successfully_split_single">Tệp PDF của bạn đã được chia thành công thành %1$d tập tin</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">Công cụ PDF</string>
+    <string name="image_tools">Công cụ hình ảnh</string>
+    <string name="str_30_tools_for_pdf">Hơn 30 công cụ dành cho PDF</string>
+    <string name="tools_for_images">Công cụ dành cho hình ảnh</string>
+    <string name="no_tools_found">Không tìm thấy công cụ nào</string>
+    <string name="try_adjusting_your_search">Hãy thử điều chỉnh tìm kiếm của bạn</string>
+    <string name="history">Lịch sử</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s page${if (pageCount &gt; 1) </string>
+    <string name="n_pages">%1$d trang</string>
+    <string name="n_page">%1$d trang</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">Cần có mật khẩu để truy cập tệp PDF này.</string>
+    <string name="password_provided">Mật khẩu đã được cung cấp</string>
+    <string name="password_required">Cần có mật khẩu</string>
+    <string name="open_file">Mở tệp</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">Được nén bởi </string>
+    <string name="error_details">Chi tiết lỗi</string>
+    <string name="view">Xem</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">%1$s trong số %2$s trang đã được chọn</string>
+    <string name="showing_first_200_pages">Hiển thị 200 trang đầu tiên</string>
+    <string name="use_quick_selection_above_for_">Sử dụng chức năng Chọn nhanh ở trên cho các trang có số trang vượt quá 200.</string>
+    <string name="loading">Đang tải...</string>
+    <string name="error">Lỗi</string>
+    <string name="generating_page_previews">Đang tạo bản xem trước trang...</string>
+    <string name="page__thumbnail">Trang %1$s hình thu nhỏ</string>
+    <string name="selected">Đã chọn</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">Tìm kiếm</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">Xoay PDF</string>
+    <string name="please_provide_the_password_to">Vui lòng cung cấp mật khẩu để chọn các trang tùy chỉnh.</string>
+    <string name="rotation_angle">Góc quay</string>
+    <string name="page_selection">Chọn trang</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">Sắp xếp lại PDF</string>
+    <string name="use_the_arrow_buttons_to_reord">Sử dụng các nút mũi tên để sắp xếp lại thứ tự các trang.</string>
+    <string name="pages_">Trang (%1$s)</string>
+    <string name="page_">Trang %1$s</string>
+    <string name="position__of_">Vị trí: %1$s của %2$s</string>
+    <string name="drag_handle">Tay cầm kéo</string>
+    <string name="move_up">Tiến lên</string>
+    <string name="move_down">Di chuyển xuống</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">Nén PDF</string>
+    <string name="no_files_selected">Chưa có tệp nào được chọn.</string>
+    <string name="please_go_back_and_select_pdf_">Vui lòng quay lại và chọn các tệp PDF để nén.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">Thành công</string>
+    <string name="individual_results">Kết quả cá nhân</string>
+    <string name="done">Xong</string>
+    <string name="compression_complete">Quá trình nén hoàn tất</string>
+    <string name="your_file_is_ready_and_much_li">Tệp của bạn đã sẵn sàng và dung lượng nhỏ hơn nhiều!</string>
+    <string name="before">TRƯỚC</string>
+    <string name="after">SAU ĐÓ</string>
+    <string name="total_saved">Tổng số tiền đã tiết kiệm</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">NHỎ HƠN</string>
+    <string name="str__saved">%1$s% đã lưu</string>
+    <string name="open">Mở</string>
+    <string name="share">Chia sẻ</string>
+    <string name="close">Đóng</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">Mức độ nén</string>
+    <string name="recommended">Khuyến khích</string>
+    <string name="str__compression">%1$s Nén</string>
+    <string name="str__of_original_size">~%1$s% kích thước ban đầu</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">Chuyển đổi hình ảnh sang PDF</string>
+    <string name="str__images_selected">%1$s hình ảnh đã chọn</string>
+    <string name="images_will_be_converted_in_th">Các hình ảnh sẽ được chuyển đổi theo thứ tự hiển thị bên dưới.</string>
+    <string name="remove">Di dời</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">Chuyển đổi PDF sang hình ảnh</string>
+    <string name="image_format">Định dạng hình ảnh</string>
+    <string name="image_quality_dpi">Chất lượng hình ảnh (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">Ghép PDF</string>
+    <string name="n_files_selected">%1$d tập tin đã chọn</string>
+    <string name="n_file_selected">%1$d tập tin đã được chọn</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">Khóa PDF</string>
+    <string name="password_protection">Bảo vệ bằng mật khẩu</string>
+    <string name="enter_a_password_to_protect_yo">Nhập mật khẩu để bảo vệ tệp PDF của bạn. Bạn sẽ cần mật khẩu này để mở tệp.</string>
+    <string name="password">Mật khẩu</string>
+    <string name="enter_password">Nhập mật khẩu</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="reenter_password">Nhập lại mật khẩu</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">Vui lòng quay lại và chọn tệp.</string>
+    <string name="back">Mặt sau</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">Mở khóa PDF</string>
+    <string name="current_password">Mật khẩu hiện tại</string>
+    <string name="enter_the_current_password_to_">Nhập mật khẩu hiện tại để mở khóa tệp PDF này.</string>
+    <string name="enter_current_password">Nhập mật khẩu hiện tại</string>
+    <string name="incorrect_password_please_try_">Mật khẩu không chính xác. Vui lòng thử lại.</string>
+    <string name="new_password_optional">Mật khẩu mới (Tùy chọn)</string>
+    <string name="set_a_new_password_to_change_i">Đặt mật khẩu mới để thay đổi mật khẩu hiện có, hoặc để trống để bỏ mật khẩu bảo vệ.</string>
+    <string name="new_password">Mật khẩu mới</string>
+    <string name="enter_new_password">Nhập mật khẩu mới</string>
+    <string name="confirm_new_password">Xác nhận mật khẩu mới</string>
+    <string name="reenter_new_password">Nhập lại mật khẩu mới</string>
+    <string name="passwords_do_not_match">Mật khẩu không khớp</string>
+    <string name="compression_failed">Quá trình nén thất bại</string>
+    <string name="open_pdf">Mở tệp PDF</string>
+    <string name="share_file">Chia sẻ tệp</string>
+    <string name="pages_deleted">Các trang đã bị xóa!</string>
+    <string name="delete_failed">Xóa không thành công</string>
+    <string name="select_pages_to_delete">Chọn các trang cần xóa</string>
+    <string name="pdf_created">Đã tạo PDF!</string>
+    <string name="conversion_failed">Quá trình chuyển đổi thất bại</string>
+    <string name="pdf_locked_successfully">Đã khóa file PDF thành công!</string>
+    <string name="lock_failed">Khóa không thành công</string>
+    <string name="merge_complete">Quá trình hợp nhất hoàn tất!</string>
+    <string name="merge_failed">Hợp nhất thất bại</string>
+    <string name="conversion_complete">Quá trình chuyển đổi hoàn tất!</string>
+    <string name="reorder_complete">Đơn hàng đã hoàn tất!</string>
+    <string name="reorder_failed">Đặt hàng lại không thành công</string>
+    <string name="rotation_complete">Quá trình xoay vòng đã hoàn tất!</string>
+    <string name="rotation_failed">Quá trình xoay thất bại</string>
+    <string name="select_pages_to_rotate">Chọn các trang để xoay</string>
+    <string name="str__complete">%1$s Hoàn tất!</string>
+    <string name="str__failed">%1$s Thất bại</string>
+    <string name="unlock_failed">Mở khóa thất bại</string>
+    <string name="your_pdfs_have_been_successfully_compres">Các tệp PDF của bạn đã được nén thành công.</string>
+    <string name="we_couldnt_compress_your_pdfs">Chúng tôi không thể nén các tệp PDF của bạn.</string>
+    <string name="view_your_compressed_file">Xem tệp nén của bạn</string>
+    <string name="send_to_others_or_apps">Gửi cho người khác hoặc ứng dụng</string>
+    <string name="your_pdf_has_been_successfully_modified">Tệp PDF của bạn đã được chỉnh sửa thành công.</string>
+    <string name="we_couldnt_delete_the_pages">Chúng tôi không thể xóa các trang đó.</string>
+    <string name="your_images_have_been_converted_to_pdf">Hình ảnh của bạn đã được chuyển đổi sang định dạng PDF.</string>
+    <string name="unable_to_create_pdf_from_images">Không thể tạo PDF từ hình ảnh</string>
+    <string name="your_pdf_is_now_password_protected">Tệp PDF của bạn hiện đã được bảo vệ bằng mật khẩu.</string>
+    <string name="we_couldnt_lock_your_pdf">Chúng tôi không thể khóa tệp PDF của bạn.</string>
+    <string name="your_pdfs_have_been_successfully_merged">Các tệp PDF của bạn đã được hợp nhất thành công.</string>
+    <string name="we_couldnt_merge_your_pdfs">Chúng tôi không thể ghép các tệp PDF của bạn lại với nhau.</string>
+    <string name="str__images_created_successfully">%1$s hình ảnh đã được tạo thành công</string>
+    <string name="unable_to_convert_pdf_to_images">Không thể chuyển đổi PDF sang hình ảnh</string>
+    <string name="your_pdf_pages_have_been_successfully_re">Các trang PDF của bạn đã được sắp xếp lại thành công.</string>
+    <string name="we_couldnt_reorder_your_pdf">Chúng tôi không thể sắp xếp lại thứ tự tệp PDF của bạn.</string>
+    <string name="your_pdf_has_been_successfully_rotated">Tệp PDF của bạn đã được xoay thành công.</string>
+    <string name="we_couldnt_rotate_your_pdf">Chúng tôi không thể xoay tệp PDF của bạn.</string>
+    <string name="your_file_has_been_successfully_processe">Tệp của bạn đã được xử lý thành công.</string>
+    <string name="we_couldnt_process_your_file">Chúng tôi không thể xử lý tệp của bạn.</string>
+    <string name="we_couldnt_unlock_your_pdf">Chúng tôi không thể mở khóa tệp PDF của bạn.</string>
+    <string name="clear_filter">Xóa bộ lọc</string>
+    <string name="clear">Thông thoáng</string>
+    <string name="pick_a_tool_">Chọn một công cụ →</string>
+    <string name="drag_to_reorder">Kéo để sắp xếp lại</string>
+    <string name="your_files_are_securely_processed_on_our">Các tệp của bạn được xử lý an toàn trên máy chủ của chúng tôi bằng kết nối mã hóa và tự động xóa trong vòng 1 giờ. Chúng tôi không bao giờ lưu trữ hoặc chia sẻ dữ liệu của bạn.</string>
+    <string name="compression_quality">Chất lượng nén</string>
+    <string name="dragelevation">lực cản độ cao</string>
+    <string name="tool_card_scale">tỷ lệ thẻ công cụ</string>
+</resources>

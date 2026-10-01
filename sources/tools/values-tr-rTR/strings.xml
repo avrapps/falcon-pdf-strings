@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">Sayfaları Sil</string>
+    <string name="are_you_sure_you_want_to_delet">Seçili sayfaları silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.</string>
+    <string name="delete">Silmek</string>
+    <string name="cancel">İptal etmek</string>
+    <string name="quick_selection">Hızlı Seçim</string>
+    <string name="select_range">Aralık Seçin</string>
+    <string name="select_all">Tümünü Seç</string>
+    <string name="clear_all">Tümünü Temizle</string>
+    <string name="select_page_range">Sayfa Aralığı Seç</string>
+    <string name="enter_the_range_of_pages_to_de">Silinecek sayfa aralığını girin (1-%1$s)</string>
+    <string name="from">İtibaren</string>
+    <string name="to">İle</string>
+    <string name="select">Seçme</string>
+    <string name="please_go_back_and_select_a_pd">Lütfen geri dönün ve bir PDF seçin.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">PDF'i Bölünmüş</string>
+    <string name="str_1_file_selected">1 dosya seçildi</string>
+    <string name="no_file_selected">Hiçbir dosya seçilmedi.</string>
+    <string name="split_mode">Bölünmüş Mod</string>
+    <string name="fixed_segments">Sabit Segmentler</string>
+    <string name="custom_ranges">Özel Aralıklar</string>
+    <string name="segment_size">Segment Boyutu</string>
+    <string name="this_will_create_multiple_pdfs">Bu işlem, her biri belirtilen sayfa sayısına sahip birden fazla PDF dosyası oluşturacaktır. Anlamlı bölmeler oluşturmak için bölüm boyutu toplam sayfa sayısından küçük olmalıdır. Örneğin, kaynak dosya 8 sayfadan oluşuyorsa ve 2 girerseniz, her biri 2 sayfadan oluşan dört PDF dosyası oluşturulacaktır.</string>
+    <string name="pages_per_file">Dosya başına sayfa sayısı</string>
+    <string name="eg_2">Örneğin, 2</string>
+    <string name="total_number_of_pages_in_pdf__">PDF'deki toplam sayfa sayısı: %1$d (segment boyutu %1$d'ten küçük olmalıdır)</string>
+    <string name="this_will_create__output_files">Bu, %1$d adet çıktı dosyası oluşturacaktır.</string>
+    <string name="this_will_create__output_file">Bu, %1$d çıktı dosyasını oluşturacaktır.</string>
+    <string name="this_input_will_split_the_pdf_">Bu girdi, PDF dosyasını belirttiğiniz aralıklara göre ayrı dosyalara bölecektir. Örneğin, "1-2,5,6-8" ifadesi 3 PDF dosyası oluşturacaktır: birincisi 1-2. sayfaları, ikincisi 5. sayfayı ve üçüncüsü 6-8. sayfaları içerecektir.</string>
+    <string name="page_ranges">Sayfa aralıkları</string>
+    <string name="eg_1234571520">Örneğin, 1-2, 3, 4-5, 7, 15-20</string>
+    <string name="format_use_ranges_15_or_single">Biçim: Virgülle ayrılmış aralıklar (1-5) veya tek sayfalar (7) kullanın. Sadece rakamlar, tireler ve virgüller kullanılabilir.</string>
+    <string name="split_preview">Bölünmüş Önizleme</string>
+    <string name="pdf_files_will_be_created">%1$d PDF dosyaları oluşturulacaktır</string>
+    <string name="pdf_file_will_be_created">%1$d PDF dosyası oluşturulacak</string>
+    <string name="pdf_result_">PDF Sonucu %1$s</string>
+    <string name="str__and__more">... ve %1$d daha fazla</string>
+    <string name="splitting_pdf">PDF'yi bölme...</string>
+    <string name="checking_files">Dosyalar kontrol ediliyor...</string>
+    <string name="page_n">Sayfa %1$d</string>
+    <string name="pages_n_m">Sayfalar %1$d-%2$d</string>
+    <string name="split_complete">Bölünme Tamamlandı!</string>
+    <string name="split_failed">Bölme Başarısız Oldu</string>
+    <string name="we_couldnt_split_your_pdf">PDF dosyanızı bölemedik.</string>
+    <string name="your_pdf_has_been_successfully_split">PDF dosyanız başarıyla %1$d dosyaya bölündü.</string>
+    <string name="your_pdf_has_been_successfully_split_single">PDF dosyanız başarıyla %1$d dosyasına bölündü.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">PDF Araçları</string>
+    <string name="image_tools">Görüntü Araçları</string>
+    <string name="str_30_tools_for_pdf">PDF için 30'dan fazla araç</string>
+    <string name="tools_for_images">Görüntüler için Araçlar</string>
+    <string name="no_tools_found">Hiçbir araç bulunamadı.</string>
+    <string name="try_adjusting_your_search">Arama ayarlarınızı değiştirmeyi deneyin.</string>
+    <string name="history">Tarih</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s sayfa${eğer (sayfaSayısı &gt; 1 ise) </string>
+    <string name="n_pages">%1$d sayfalar</string>
+    <string name="n_page">%1$d sayfa</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">Bu PDF dosyası için şifre gereklidir.</string>
+    <string name="password_provided">Şifre verildi.</string>
+    <string name="password_required">Şifre gerekli</string>
+    <string name="open_file">Dosyayı aç</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">Sıkıştırılmış </string>
+    <string name="error_details">Hata Ayrıntıları</string>
+    <string name="view">Görüş</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">%1$s / %2$s sayfa seçildi</string>
+    <string name="showing_first_200_pages">İlk 200 sayfa gösteriliyor</string>
+    <string name="use_quick_selection_above_for_">200'den fazla sayfa için yukarıdaki Hızlı Seçim özelliğini kullanın.</string>
+    <string name="loading">Yükleniyor...</string>
+    <string name="error">Hata</string>
+    <string name="generating_page_previews">Sayfa önizlemeleri oluşturuluyor...</string>
+    <string name="page__thumbnail">Sayfa %1$s küçük resim</string>
+    <string name="selected">Seçildi</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">Aramak</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">PDF'yi döndür</string>
+    <string name="please_provide_the_password_to">Lütfen özel sayfaları seçmek için şifreyi girin.</string>
+    <string name="rotation_angle">Dönme Açısı</string>
+    <string name="page_selection">Sayfa Seçimi</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">PDF'yi yeniden sırala</string>
+    <string name="use_the_arrow_buttons_to_reord">Sayfaların sırasını değiştirmek için ok düğmelerini kullanın.</string>
+    <string name="pages_">Sayfalar (%1$s)</string>
+    <string name="page_">Sayfa %1$s</string>
+    <string name="position__of_">Konum: %1$s / %2$s</string>
+    <string name="drag_handle">Sürükleme kolu</string>
+    <string name="move_up">Yukarı çık</string>
+    <string name="move_down">Aşağıya doğru hareket edin</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">PDF'yi sıkıştır</string>
+    <string name="no_files_selected">Hiçbir dosya seçilmedi.</string>
+    <string name="please_go_back_and_select_pdf_">Lütfen geri dönün ve sıkıştırmak istediğiniz PDF dosyalarını seçin.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">Başarı</string>
+    <string name="individual_results">Bireysel Sonuçlar</string>
+    <string name="done">Tamamlamak</string>
+    <string name="compression_complete">Sıkıştırma Tamamlandı</string>
+    <string name="your_file_is_ready_and_much_li">Dosyanız hazır ve çok daha hafif!</string>
+    <string name="before">ÖNCE</string>
+    <string name="after">SONRASINDA</string>
+    <string name="total_saved">Toplam Tasarruf</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">DAHA KÜÇÜK</string>
+    <string name="str__saved">%1$s% tasarruf edildi</string>
+    <string name="open">Açık</string>
+    <string name="share">Paylaşmak</string>
+    <string name="close">Kapalı</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">Sıkıştırma Seviyesi</string>
+    <string name="recommended">Tavsiye edilen</string>
+    <string name="str__compression">%1$s Sıkıştırma</string>
+    <string name="str__of_original_size">~%1$sorijinal boyutun %'si</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">Resimleri PDF'ye dönüştür</string>
+    <string name="str__images_selected">%1$s resim seçildi</string>
+    <string name="images_will_be_converted_in_th">Görseller aşağıda gösterilen sırayla dönüştürülecektir.</string>
+    <string name="remove">Kaldırmak</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">PDF'den Görüntülere</string>
+    <string name="image_format">Görüntü Formatı</string>
+    <string name="image_quality_dpi">Görüntü Kalitesi (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">PDF'leri Birleştir</string>
+    <string name="n_files_selected">%1$d dosya seçildi</string>
+    <string name="n_file_selected">%1$d dosya seçildi</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">PDF kilidini aç</string>
+    <string name="password_protection">Parola Koruması</string>
+    <string name="enter_a_password_to_protect_yo">PDF dosyanızı korumak için bir parola girin. Dosyayı açmak için bu parolaya ihtiyacınız olacak.</string>
+    <string name="password">Şifre</string>
+    <string name="enter_password">Şifrenizi girin</string>
+    <string name="confirm_password">Şifreyi Onayla</string>
+    <string name="reenter_password">Şifrenizi tekrar girin</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">Lütfen geri dönüp bir dosya seçin.</string>
+    <string name="back">Geri</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">PDF'nin kilidini açın</string>
+    <string name="current_password">Mevcut Şifre</string>
+    <string name="enter_the_current_password_to_">Bu PDF dosyasının kilidini açmak için mevcut şifreyi girin.</string>
+    <string name="enter_current_password">Geçerli şifrenizi girin.</string>
+    <string name="incorrect_password_please_try_">Yanlış şifre. Lütfen tekrar deneyin.</string>
+    <string name="new_password_optional">Yeni Şifre (İsteğe Bağlı)</string>
+    <string name="set_a_new_password_to_change_i">Yeni bir parola belirleyerek parolanızı değiştirebilir veya boş bırakarak parola korumasını kaldırabilirsiniz.</string>
+    <string name="new_password">Yeni Şifre</string>
+    <string name="enter_new_password">Yeni şifreyi girin</string>
+    <string name="confirm_new_password">Yeni Şifreyi Onayla</string>
+    <string name="reenter_new_password">Yeni şifreyi tekrar girin</string>
+    <string name="passwords_do_not_match">Şifreler eşleşmiyor.</string>
+    <string name="compression_failed">Sıkıştırma Başarısız Oldu</string>
+    <string name="open_pdf">PDF dosyasını aç</string>
+    <string name="share_file">Dosyayı Paylaş</string>
+    <string name="pages_deleted">Sayfalar Silindi!</string>
+    <string name="delete_failed">Silme işlemi başarısız oldu.</string>
+    <string name="select_pages_to_delete">Silinecek Sayfaları Seçin</string>
+    <string name="pdf_created">PDF oluşturuldu!</string>
+    <string name="conversion_failed">Dönüştürme Başarısız</string>
+    <string name="pdf_locked_successfully">PDF başarıyla kilitlendi!</string>
+    <string name="lock_failed">Kilitleme Başarısız Oldu</string>
+    <string name="merge_complete">Birleştirme Tamamlandı!</string>
+    <string name="merge_failed">Birleştirme Başarısız Oldu</string>
+    <string name="conversion_complete">Dönüştürme işlemi tamamlandı!</string>
+    <string name="reorder_complete">Yeniden sipariş tamamlandı!</string>
+    <string name="reorder_failed">Yeniden sipariş başarısız oldu</string>
+    <string name="rotation_complete">Dönüşüm Tamamlandı!</string>
+    <string name="rotation_failed">Döndürme Başarısız Oldu</string>
+    <string name="select_pages_to_rotate">Döndürülecek Sayfaları Seçin</string>
+    <string name="str__complete">%1$s Tamamlandı!</string>
+    <string name="str__failed">%1$s Başarısız</string>
+    <string name="unlock_failed">Kilit Açma Başarısız</string>
+    <string name="your_pdfs_have_been_successfully_compres">PDF dosyalarınız başarıyla sıkıştırıldı.</string>
+    <string name="we_couldnt_compress_your_pdfs">PDF dosyalarınızı sıkıştıramadık.</string>
+    <string name="view_your_compressed_file">Sıkıştırılmış dosyanızı görüntüleyin</string>
+    <string name="send_to_others_or_apps">Başka kişilere veya uygulamalara gönder</string>
+    <string name="your_pdf_has_been_successfully_modified">PDF dosyanız başarıyla değiştirildi.</string>
+    <string name="we_couldnt_delete_the_pages">Sayfaları silemedik.</string>
+    <string name="your_images_have_been_converted_to_pdf">Resimleriniz PDF formatına dönüştürüldü.</string>
+    <string name="unable_to_create_pdf_from_images">Görsellerden PDF oluşturulamıyor.</string>
+    <string name="your_pdf_is_now_password_protected">PDF dosyanız artık şifreyle korunmaktadır.</string>
+    <string name="we_couldnt_lock_your_pdf">PDF dosyanızı kilitleyemedik.</string>
+    <string name="your_pdfs_have_been_successfully_merged">PDF dosyalarınız başarıyla birleştirildi.</string>
+    <string name="we_couldnt_merge_your_pdfs">PDF dosyalarınızı birleştiremedik.</string>
+    <string name="str__images_created_successfully">%1$s görüntü başarıyla oluşturuldu</string>
+    <string name="unable_to_convert_pdf_to_images">PDF dosyasını resme dönüştürmek mümkün değil.</string>
+    <string name="your_pdf_pages_have_been_successfully_re">PDF sayfalarınız başarıyla yeniden sıralandı.</string>
+    <string name="we_couldnt_reorder_your_pdf">PDF dosyanızı yeniden sıralayamadık.</string>
+    <string name="your_pdf_has_been_successfully_rotated">PDF dosyanız başarıyla döndürüldü.</string>
+    <string name="we_couldnt_rotate_your_pdf">PDF dosyanızı döndüremedik.</string>
+    <string name="your_file_has_been_successfully_processe">Dosyanız başarıyla işlendi.</string>
+    <string name="we_couldnt_process_your_file">Dosyanızı işleme alamadık.</string>
+    <string name="we_couldnt_unlock_your_pdf">PDF dosyanızın kilidini açamadık.</string>
+    <string name="clear_filter">Filtreyi temizle</string>
+    <string name="clear">Temizlemek</string>
+    <string name="pick_a_tool_">Bir araç seçin →</string>
+    <string name="drag_to_reorder">Sırayı değiştirmek için sürükleyin</string>
+    <string name="your_files_are_securely_processed_on_our">Dosyalarınız sunucularımızda şifrelenmiş bağlantılar kullanılarak güvenli bir şekilde işlenir ve 1 saat içinde otomatik olarak silinir. Verilerinizi asla saklamaz veya paylaşmayız.</string>
+    <string name="compression_quality">Sıkıştırma kalitesi</string>
+    <string name="dragelevation">sürükleme yüksekliği</string>
+    <string name="tool_card_scale">araç_kartı_ölçeği</string>
+</resources>

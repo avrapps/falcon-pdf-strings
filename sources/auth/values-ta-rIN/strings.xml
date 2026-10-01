@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">உங்கள் இணைய இணைப்பைச் சரிபார்த்து, உங்கள் சாதனத்தில் கூகுள் கணக்கு சேர்க்கப்பட்டுள்ளதா என்பதை உறுதிசெய்த பிறகு, மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="sign_in_with_apple">ஆப்பிள் மூலம் உள்நுழைக</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">உங்கள் அனுபவத்தை மேம்படுத்தவும்</string>
+    <string name="purchase_screen_close">மூடு</string>
+    <string name="purchase_screen_refresh">புதுப்பி</string>
+    <string name="purchase_sync_status">கடைசியாக ஒத்திசைக்கப்பட்டது: %1s</string>
+    <string name="purchase_current_plan">தற்போதைய</string>
+    <string name="purchase_syncing">…ஒத்திசைக்கிறது</string>
+    <string name="purchase_loading">…ஐ ஏற்றுகிறது</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">இலவச திட்டம்</string>
+    <string name="purchase_pro_plan">புரோ பதிப்பு</string>
+    <string name="purchase_pro_tagline">ஒருமுறை பணம் செலுத்துங்கள். என்றென்றும் சொந்தமாக்கிக் கொள்ளுங்கள்.</string>
+    <string name="purchase_premium_plan">பிரீமியம் சந்தா</string>
+    <string name="purchase_premium_tagline">புரோவில் உள்ள அனைத்தும், கூடுதலாக AI &amp; கிளவுட்</string>
+    <string name="purchase_recommended">பரிந்துரைக்கப்படுகிறது</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">AI உரக்க வாசித்தல் — PDF கோப்புகளை இயல்பாகக் கேளுங்கள்</string>
+    <string name="purchase_pro_feature_2">முழு PDF திருத்தம் &amp; படிவம் நிரப்புதல்</string>
+    <string name="purchase_pro_feature_3">டிரைவ் வழியாக சாதனங்களுக்கு இடையேயான ஒத்திசைவு</string>
+    <string name="purchase_pro_feature_4">விளம்பரங்கள் இல்லை, ஸ்கேன்களில் வாட்டர்மார்க் இல்லை</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">வலுவான பகுத்தறிவுடன் கூடிய AI சுருக்கங்கள்</string>
+    <string name="purchase_premium_feature_1_desc">நீண்ட, சிக்கலான ஆவணங்களிலிருந்து ஆழமான பதில்கள்</string>
+    <string name="purchase_premium_feature_2_title">50ஜிபி ஃபால்கன் கிளவுட்</string>
+    <string name="purchase_premium_feature_2_desc">உங்கள் தனிப்பட்ட PDF நூலகம், ஒத்திசைக்கப்பட்ட மற்றும் பாதுகாப்பானது.</string>
+    <string name="purchase_premium_feature_3_title">60க்கும் மேற்பட்ட PDF கருவிகளுக்கு வரம்புகள் இல்லை</string>
+    <string name="purchase_premium_feature_3_desc">ஒவ்வொரு கருவியும், எப்போதும் கிடைக்கும்</string>
+    <string name="purchase_premium_feature_4_title">PDFகளில் முழு உரை திருத்தம்</string>
+    <string name="purchase_premium_feature_4_desc">ஒரு சொல் செயலாக்கியைப் போல உரையை நேரடியாகத் திருத்தவும்</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">ப்ரோ வாங்கவும்</string>
+    <string name="purchase_sign_in_buy">உள்நுழை &amp; வாங்க</string>
+    <string name="purchase_sign_in_subscribe">உள்நுழை &amp; சந்தா சேர்</string>
+    <string name="purchase_subscribe">சந்தா சேருங்கள்</string>
+    <string name="purchase_start_trial">7 நாள் இலவச சோதனையைத் தொடங்குங்கள்</string>
+    <string name="purchase_view_all_features">அனைத்து அம்சங்களையும் காண்க</string>
+    <string name="purchase_show_more">மேலும் காட்டு</string>
+    <string name="purchase_show_less">குறைவாகக் காட்டு</string>
+    <string name="purchase_see_all_features">அனைத்து அம்சங்களையும் காண்க</string>
+    <string name="purchase_manage_subscription">சந்தாவை நிர்வகி</string>
+    <string name="purchase_restore_purchases">வாங்குதல்களை மீட்டெடு</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">மாதாந்திர</string>
+    <string name="purchase_billing_yearly">மாதாந்திரம்</string>
+    <string name="purchase_save_badge">40%% சேமிக்கவும்</string>
+    <string name="purchase_lifetime">வாழ்நாள்</string>
+    <string name="purchase_per_year">/ஆண்டு</string>
+    <string name="purchase_per_month">/மாதம்</string>
+    <string name="purchase_trial_terms">எப்போது வேண்டுமானாலும் ரத்து செய்யலாம். சோதனைக் காலம் முடிவதற்கு 24 மணி நேரத்திற்கு முன்பு ரத்து செய்யப்படாவிட்டால், புதுப்பிக்கப்படும்.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">தயாரிப்புகளை ஏற்ற முடியவில்லை. உங்கள் உள்நுழைவு மற்றும் இணைய இணைப்பைச் சரிபார்க்கவும்.</string>
+    <string name="purchase_error_network">இணைப்பு துண்டிக்கப்பட்டது. உங்கள் இணைய இணைப்பைச் சரிபார்த்து மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="purchase_error_payment_declined">கட்டண முறை நிராகரிக்கப்பட்டது. உங்கள் கட்டணத் தகவலைப் புதுப்பிக்கவும்.</string>
+    <string name="purchase_error_server">ஏதோ தவறாகிவிட்டது. பிறகு முயற்சிக்கவும்.</string>
+    <string name="purchase_error_rate_limit">மிக அதிகமான புதுப்பிப்பு முயற்சிகள். தயவுசெய்து காத்திருக்கவும்.</string>
+    <string name="purchase_error_offline">இணைய இணைப்பு இல்லை. தற்காலிக சேமிப்பில் உள்ள தரவைக் காட்டுகிறது.</string>
+    <string name="purchase_error_product_refresh">தயாரிப்பைச் சரிபார்க்க முடியவில்லை. மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="purchase_error_generic">பிழை ஏற்பட்டது. மீண்டும் முயற்சிக்கவும்.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">சேவை விதிமுறைகள்</string>
+    <string name="purchase_privacy_policy">தனியுரிமைக் கொள்கை</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">கொள்முதல் வரலாறு</string>
+    <string name="free_trial">இலவச சோதனை</string>
+    <string name="no_purchase_history">கொள்முதல் வரலாறு இல்லை</string>
+    <string name="you_havent_made_any_purchases_">நீங்கள் இன்னும் எதுவும் வாங்கவில்லை.</string>
+    <string name="error">பிழை</string>
+    <string name="retry">மீண்டும் முயற்சிக்கவும்</string>
+    <string name="back">திரும்பி</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">உங்கள் அனுபவத்தை மேம்படுத்துங்கள்</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">வாங்கியவற்றை மீட்டமை</string>
+    <string name="close_purchase_screen">கொள்முதல் திரையை மூடுக</string>
+    <string name="help">உதவி</string>
+    <string name="more_options">கூடுதல் விருப்பங்கள்</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">புதுப்பிக்கவும்</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">செயலில்</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s செயலில் உள்ளது</string>
+    <string name="premium_benefits">பிரீமியம் நன்மைகள்</string>
+    <string name="manage_subscription">சந்தாவை நிர்வகிக்கவும்</string>
+    <string name="next_billing_date__manage_your">அடுத்த கட்டணத் தேதி: %1$s. உங்கள் Play Store கணக்கு அமைப்புகள் வழியாக உங்கள் கட்டண விவரங்களையும் ரத்துசெய்தலையும் நிர்வகிக்கவும்.</string>
+    <string name="purchase_expires_">வாங்கியதற்கான காலாவதி: %1$s</string>
+    <string name="falcon_pdf_pro">ஃபால்கன் PDF ப்ரோ</string>
+    <string name="falcon_pdf_premium_monthly">ஃபால்கன் PDF பிரீமியம் (மாதாந்திரம்)</string>
+    <string name="falcon_pdf_premium_yearly">ஃபால்கன் PDF பிரீமியம் (ஆண்டுதோறும்)</string>
+    <string name="pro">புரோ</string>
+    <string name="premium">பிரீமியம்</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">ஃபால்கன் PDF ப்ரோ அல்லது பிரீமியம்-ஐப் பெறுங்கள்</string>
+    <string name="purchase_desktop_subtitle">வாங்குதல்கள் எங்கள் இணையதளத்தில் நிர்வகிக்கப்படுகின்றன. திட்டங்கள் மற்றும் விலை விவரங்களைக் காண கீழே சொடுக்கவும்.</string>
+    <string name="purchase_desktop_open_website">திட்டங்களைக் காண்க &amp; விலை விவரம்</string>
+    <string name="purchase_desktop_already_purchased">ஏற்கனவே வாங்கிவிட்டீர்களா? உங்கள் திட்டத்தை ஒத்திசைக்க உள்நுழையவும்.</string>
+    <string name="purchase_store_build_subtitle">உங்கள் சந்தா உங்கள் அனைத்து சாதனங்களிலும் Pro அம்சங்களைத் திறக்கிறது. உங்கள் திட்டத்தை ஒத்திசைக்க உள்நுழையவும்.</string>
+    <string name="ai_read_aloud">AI உரக்க வாசித்தல்</string>
+    <string name="full_pdf_editing__form_filling">முழு PDF திருத்தம் &amp; படிவம் நிரப்புதல்</string>
+    <string name="crossdevice_sync_via_drive">டிரைவ் வழியாக சாதனங்களுக்கு இடையேயான ஒத்திசைவு</string>
+    <string name="adfree_no_watermark">விளம்பரங்கள் இல்லை, வாட்டர்மார்க் இல்லை</string>
+    <string name="export_to_word__excel">வேர்டு &amp; எக்செல்லுக்கு ஏற்றுமதி செய்</string>
+    <string name="multiple_themes__page_backgrounds">பல்வேறு தீம்கள் &amp; பக்கப் பின்னணிகள்</string>
+    <string name="ai_summaries_with_stronger_reasoning">வலுவான பகுத்தறிவுடன் கூடிய AI சுருக்கங்கள்</string>
+    <string name="no_limits_on_60_pdf_tools">60க்கும் மேற்பட்ட PDF கருவிகளுக்கு வரம்புகள் இல்லை</string>
+    <string name="full_text_editing_in_pdfs">PDFகளில் முழு உரை திருத்தம்</string>
+    <string name="digital_signatures_dscesign">டிஜிட்டல் கையொப்பங்கள் (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">வரம்பற்ற ஸ்கேன் செய்யப்பட்ட ஆவண ஒத்திசைவு</string>
+    <string name="biometric_document_lock">உயிரியல் அளவீட்டு ஆவணப் பூட்டு</string>
+    <string name="everything_in_pro_all_devices">ப்ரோ பதிப்பில் உள்ள அனைத்தும், அனைத்து சாதனங்களிலும்</string>
+    <string name="introductory_offer">அறிமுகச் சலுகை</string>
+    <string name="limited_time__30_off">வரையறுக்கப்பட்ட நேரம் — 30% தள்ளுபடி</string>
+    <string name="date__time">தேதி &amp; நேரம்</string>
+    <string name="amount">தொகை</string>
+    <string name="platform">தளம்</string>
+    <string name="type">வகை</string>
+    <string name="expires_on">காலாவதியாகும் தேதி</string>
+</resources>

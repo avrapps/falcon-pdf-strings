@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">주사</string>
+    <string name="scan_home_documents">서류</string>
+    <string name="scan_home_documents_lowercase">서류</string>
+    <string name="scan_home_documents_count">%1$d 문서</string>
+    <string name="scan_home_no_documents">아직 문서가 없습니다.</string>
+    <string name="scan_home_start_scanning">첫 번째 문서를 만들려면 스캔을 시작하세요.</string>
+    <string name="scan_home_new_folder">새 폴더</string>
+    <string name="scan_home_scan_document">스캔 문서</string>
+    <string name="scan_home_import_gallery">갤러리에서 가져오기</string>
+    <string name="scan_home_parent_folder">상위 폴더</string>
+    <string name="scan_home_go_back">상위 폴더로 돌아가기</string>
+    <string name="scan_home_create_folder">새 폴더 만들기</string>
+    <string name="scan_home_enter_folder_name">새 폴더의 이름을 입력하세요</string>
+    <string name="scan_home_folder_name">폴더 이름</string>
+    <string name="scan_home_folder_placeholder">예: 업무 문서</string>
+    <string name="scan_home_folder_error">폴더 이름은 비워둘 수 없습니다.</string>
+    <string name="scan_home_folder_name_empty">폴더 이름은 비워둘 수 없습니다.</string>
+    <string name="scan_home_create">만들다</string>
+    <string name="scan_home_folder_exists">이 이름의 폴더가 이미 존재합니다.</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">카메라</string>
+    <string name="scan_camera_permission_required">카메라 접근 권한이 필요합니다</string>
+    <string name="scan_camera_permission_message">이 앱은 문서를 스캔하기 위해 카메라 접근 권한이 필요합니다.</string>
+    <string name="scan_camera_permission_settings">Please go to Settings &gt; Apps &gt; PDF Viewer &gt; Permissions and enable Camera permission.</string>
+    <string name="scan_camera_permission_title">카메라 접근 권한이 필요합니다</string>
+    <string name="scan_camera_request_permission">권한 요청</string>
+    <string name="scan_camera_open_settings">설정 열기</string>
+    <string name="scan_camera_close">닫다</string>
+    <string name="scan_camera_flash">플래시</string>
+    <string name="scan_camera_auto_capture">자동 캡처</string>
+    <string name="scan_camera_settings">설정</string>
+    <string name="scan_camera_ready_batch">여러 페이지를 스캔할 준비가 되었습니다.</string>
+    <string name="scan_camera_ready_multiple">여러 페이지를 스캔할 준비가 되었습니다.</string>
+    <string name="scan_camera_hold_steady">스캔하는 동안 흔들림 없이 가만히 있으세요</string>
+    <string name="scan_camera_captured_pages">%1$d 페이지 캡처됨</string>
+    <string name="scan_camera_mode_single">하나의</string>
+    <string name="scan_camera_mode_batch">일괄</string>
+    <string name="scan_camera_preview">시사</string>
+    <string name="scan_camera_finish">마치다</string>
+    <string name="scan_camera_starting">카메라 시작 중...</string>
+    <string name="scan_camera_document_name">문서 이름</string>
+    <string name="scan_camera_document_name_empty">문서 이름은 비워둘 수 없습니다.</string>
+    <string name="scan_camera_save_document">문서 저장</string>
+    <string name="scan_camera_processing">처리 중...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">자르기 &amp; 조정</string>
+    <string name="scan_crop_close">닫다</string>
+    <string name="scan_crop_reset">다시 놓기</string>
+    <string name="scan_crop_rotate">회전</string>
+    <string name="scan_crop_done">완료</string>
+    <string name="scan_crop_scanned_document">스캔된 문서</string>
+    <string name="scan_crop_magnified_view">확대된 이미지</string>
+    <string name="scan_crop_processing">처리 중...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">향상시키다</string>
+    <string name="scan_filter_close">닫다</string>
+    <string name="scan_filter_rotate">회전</string>
+    <string name="scan_filter_done">완료</string>
+    <string name="scan_filter_filters">필터</string>
+    <string name="scan_filter_original">원래의</string>
+    <string name="scan_filter_magic">마법</string>
+    <string name="scan_filter_lighten">가볍게 하다</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">회색조</string>
+    <string name="scan_filter_magic_2">클린닥</string>
+    <string name="scan_filter_soft_scan">소프트 스캔</string>
+    <string name="scan_filter_color_enhance">컬러+</string>
+    <string name="scan_filter_ink_saver">잉크 절약기</string>
+    <string name="scan_filter_premium">프리미엄 기능</string>
+    <string name="scan_filter_filtered_document">필터링된 문서</string>
+    <string name="scan_filter_applying">필터를 적용 중...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">취소</string>
+    <string name="scan_share">공유하다</string>
+    <string name="scan_move">이동하다</string>
+    <string name="scan_move_to_folder">폴더로 이동</string>
+    <string name="scan_delete">삭제</string>
+    <string name="scan_rename">이름 변경</string>
+    <string name="scan_root">뿌리</string>
+    <string name="scan_select_destination">저장할 폴더를 선택하세요</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">문서</string>
+    <string name="scan_document_back">뒤쪽에</string>
+    <string name="scan_document_pages">페이지</string>
+    <string name="scan_document_add_pages">이 문서에 페이지를 추가하세요</string>
+    <string name="scan_document_add_page_button">페이지 추가</string>
+    <string name="scan_document_rename">이름 변경</string>
+    <string name="scan_document_share">공유하다</string>
+    <string name="scan_document_more">더</string>
+    <string name="scan_document_pages_count">%1$d 페이지</string>
+    <string name="scan_document_no_pages">아직 페이지가 없습니다</string>
+    <string name="scan_document_scan_page">스캔 페이지</string>
+    <string name="scan_document_import_page">갤러리에서 가져오기</string>
+    <string name="scan_document_grid_view">그리드 보기</string>
+    <string name="scan_document_list_view">목록 보기</string>
+    <string name="scan_document_continuous_view">연속 보기</string>
+    <string name="scan_document_page_number">페이지 %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">페이지</string>
+    <string name="scan_page_back">뒤쪽에</string>
+    <string name="scan_page_share">공유하다</string>
+    <string name="scan_page_delete">삭제</string>
+    <string name="scan_page_of">%1$d %2$d</string>
+    <string name="scan_page_image_not_found">이미지를 찾을 수 없습니다</string>
+    <string name="scan_page_retake">다시 잡다</string>
+    <string name="scan_page_crop">수확고</string>
+    <string name="scan_page_enhance">향상시키다</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">갤러리에 저장</string>
+    <string name="scan_page_saved_to_gallery">이미지가 갤러리에 저장되었습니다</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">문서를 삭제하시겠습니까?</string>
+    <string name="scan_delete_document_message">"%1$s"을 삭제하시겠습니까? 이 작업을 수행하면 이 문서의 모든 페이지가 영구적으로 삭제됩니다. 이 작업은 되돌릴 수 없습니다.</string>
+    <string name="scan_rename_document">문서 이름 변경</string>
+    <string name="scan_rename_enter_name">문서의 새 이름을 입력하세요.</string>
+    <string name="scan_rename_document_name">문서 이름</string>
+    <string name="scan_rename_error">문서 이름은 비워둘 수 없습니다.</string>
+    <string name="scan_dialog_delete_document_title">문서를 삭제하시겠습니까?</string>
+    <string name="scan_dialog_delete_document_message">"%1$s"을 삭제하시겠습니까? 이 작업을 수행하면 이 문서의 모든 페이지가 영구적으로 삭제됩니다. 이 작업은 되돌릴 수 없습니다.</string>
+    <string name="scan_dialog_delete_confirm">삭제</string>
+    <string name="scan_dialog_cancel">취소</string>
+    <string name="scan_dialog_move_title">폴더로 이동</string>
+    <string name="scan_dialog_move_message">저장할 폴더를 선택하세요</string>
+    <string name="scan_dialog_move_confirm">이동하다</string>
+    <string name="scan_dialog_move_root">뿌리</string>
+    <string name="scan_dialog_move_selected">선택된</string>
+    <string name="scan_dialog_rename_title">문서 이름 변경</string>
+    <string name="scan_dialog_rename_message">문서의 새 이름을 입력하세요.</string>
+    <string name="scan_dialog_rename_label">문서 이름</string>
+    <string name="scan_dialog_rename_error">문서 이름은 비워둘 수 없습니다.</string>
+    <string name="scan_dialog_rename_confirm">이름 변경</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">공유하다</string>
+    <string name="scan_menu_move">폴더로 이동</string>
+    <string name="scan_menu_delete">삭제</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">카메라 미리보기\n(출시 예정)</string>
+    <string name="scan_platform_desktop_camera">데스크톱 카메라 미리보기\n(출시 예정)</string>
+    <string name="scan_platform_ios_camera">iOS 카메라 미리보기\n(출시 예정)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">닫다</string>
+    <string name="flash">플래시</string>
+    <string name="auto_capture">자동 캡처</string>
+    <string name="settings">설정</string>
+    <string name="capture">포착</string>
+    <string name="finish">마치다</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">%1을 삭제하시겠습니까? 안에 있는 모든 문서도 함께 삭제됩니다.</string>
+    <string name="share">공유하다</string>
+    <string name="share_as_images">이미지로 공유하기</string>
+    <string name="share_as_pdf">PDF로 공유하기</string>
+    <string name="move_to_folder">폴더로 이동</string>
+    <string name="delete">삭제</string>
+    <string name="selected">선택된</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">페이지 %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">폴더가 비어 있습니다</string>
+    <string name="tap_the__button_to_scan_a_docu">문서를 스캔하려면 + 버튼을 누르세요.</string>
+    <string name="str______pages">%1$s • %2$s • %3$s 페이지</string>
+    <string name="create_folder">폴더 생성</string>
+    <string name="more_options">더 많은 옵션</string>
+    <string name="document_thumbnail">문서 미리보기</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">이미지를 찾을 수 없습니다</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — 페이지 %2$d</string>
+    <string name="scan_ocr_title">텍스트 인식</string>
+    <string name="scan_ocr_copy">텍스트 복사</string>
+    <string name="scan_ocr_no_text">텍스트를 찾을 수 없습니다.</string>
+    <string name="scan_ocr_processing">텍스트 인식 중…</string>
+    <string name="scan_ocr_error">텍스트를 인식하지 못했습니다.</string>
+    <string name="scan_ocr_not_supported">이 플랫폼에서는 OCR이 지원되지 않습니다.</string>
+    <string name="scan_ocr_image">OCR용 스캔 페이지</string>
+    <string name="gallery">갱도</string>
+    <string name="select_file">파일을 선택하세요</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">이미지 캡처에 실패했습니다.</string>
+    <string name="error_no_images_captured">이미지가 촬영되지 않았습니다.</string>
+    <string name="error_open_settings">설정 창을 열지 못했습니다</string>
+    <string name="error_process_images">이미지 처리 실패</string>
+    <string name="error_process_image">이미지 처리 실패</string>
+    <string name="error_start_camera">카메라 시작에 실패했습니다</string>
+    <string name="error_stop_camera">카메라 정지 실패</string>
+    <string name="error_crop_image">이미지 자르기에 실패했습니다</string>
+    <string name="error_delete_document">문서 삭제에 실패했습니다</string>
+    <string name="error_delete_page">페이지 삭제에 실패했습니다</string>
+    <string name="error_load_document">문서를 불러오는 데 실패했습니다.</string>
+    <string name="error_load_page">페이지 로드에 실패했습니다</string>
+    <string name="error_move_document">문서를 이동하지 못했습니다.</string>
+    <string name="error_no_pages_to_share">공유할 페이지가 없습니다</string>
+    <string name="error_rename_document">문서 이름 변경에 실패했습니다.</string>
+    <string name="error_reorder_pages">페이지 순서 변경에 실패했습니다.</string>
+    <string name="error_share_images">이미지 공유에 실패했습니다</string>
+    <string name="error_share_pdf">PDF 공유에 실패했습니다</string>
+    <string name="error_share_page">페이지 공유에 실패했습니다</string>
+    <string name="error_create_folder">폴더 생성에 실패했습니다</string>
+    <string name="error_delete_folder">폴더 삭제에 실패했습니다</string>
+    <string name="error_rename_folder">폴더 이름 변경에 실패했습니다</string>
+    <string name="error_unknown">알 수 없는 오류가 발생했습니다.</string>
+    <string name="folder_not_found">폴더를 찾을 수 없습니다</string>
+    <string name="sync_documents">문서 동기화</string>
+    <string name="shutter_scale">셔터 스케일</string>
+    <string name="import_gallery">임포트 갤러리</string>
+    <string name="scan_camera">스캔 카메라</string>
+</resources>

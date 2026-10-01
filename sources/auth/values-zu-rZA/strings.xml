@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Hlola uxhumano lwakho lwe-inthanethi bese uqinisekisa ukuthi i-akhawunti ye-Google ingeziwe kudivayisi yakho, bese uzama futhi.</string>
+    <string name="sign_in_with_apple">Ngena ngemvume nge-Apple</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Thuthukisa Okuhlangenwe Nakho</string>
+    <string name="purchase_screen_close">Vala</string>
+    <string name="purchase_screen_refresh">Vuselela</string>
+    <string name="purchase_sync_status">Kuvunyelaniswe okokugcina: %1s</string>
+    <string name="purchase_current_plan">Okwamanje</string>
+    <string name="purchase_syncing">Ukuvumelanisa…</string>
+    <string name="purchase_loading">Iyalayisha…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Uhlelo Lwamahhala</string>
+    <string name="purchase_pro_plan">Uhlelo Lochwepheshe</string>
+    <string name="purchase_pro_tagline">Khokha kanye. Yiba neyakho kuze kube phakade.</string>
+    <string name="purchase_premium_plan">Okubhaliselwe kwe-Premium</string>
+    <string name="purchase_premium_tagline">Konke ku-Pro, kanye ne-AI &amp; Ifu</string>
+    <string name="purchase_recommended">Kunconyiwe</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">Funda Ngokuzwakalayo nge-AI — Lalela ama-PDF ngokwemvelo</string>
+    <string name="purchase_pro_feature_2">Ukuhlela Okugcwele kwe-PDF &amp; Ukugcwaliswa Kwefomu</string>
+    <string name="purchase_pro_feature_3">Ukuvumelanisa Kwedivayisi Ehambayo NgeDrayivu</string>
+    <string name="purchase_pro_feature_4">Akukho zikhangiso, Akukho watermark kuma-scan</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">Izifinyezo ze-AI ezine-Stronger Accuracy</string>
+    <string name="purchase_premium_feature_1_desc">Izimpendulo ezijulile ezivela kumadokhumenti amade nayinkimbinkimbi</string>
+    <string name="purchase_premium_feature_2_title">Ifu le-Falcon elingu-50GB</string>
+    <string name="purchase_premium_feature_2_desc">Umtapo wakho we-PDF, uvumelanisiwe futhi uvikelekile</string>
+    <string name="purchase_premium_feature_3_title">Akukho mingcele kumathuluzi e-PDF angaphezu kuka-60</string>
+    <string name="purchase_premium_feature_3_desc">Wonke amathuluzi, atholakala njalo</string>
+    <string name="purchase_premium_feature_4_title">Ukuhlela Umbhalo Ogcwele Kuma-PDF</string>
+    <string name="purchase_premium_feature_4_desc">Hlela umbhalo ngqo njengeprosesa yamagama</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Thenga i-Pro</string>
+    <string name="purchase_sign_in_buy">Ngena ngemvume &amp; Thenga</string>
+    <string name="purchase_sign_in_subscribe">Ngena ngemvume &amp; Bhalisa</string>
+    <string name="purchase_subscribe">Bhalisa</string>
+    <string name="purchase_start_trial">Qala Isivivinyo Samahhala Sezinsuku Eziyi-7</string>
+    <string name="purchase_view_all_features">Buka zonke izici</string>
+    <string name="purchase_show_more">Bonisa Okuningi</string>
+    <string name="purchase_show_less">Bonisa Okuncane</string>
+    <string name="purchase_see_all_features">Bona zonke izici</string>
+    <string name="purchase_manage_subscription">Phatha Okubhaliselwe</string>
+    <string name="purchase_restore_purchases">Buyisela Ukuthenga</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Nyanga zonke</string>
+    <string name="purchase_billing_yearly">Njalo ngonyaka</string>
+    <string name="purchase_save_badge">Londoloza u-40%%</string>
+    <string name="purchase_lifetime">impilo yonke</string>
+    <string name="purchase_per_year">/unyaka</string>
+    <string name="purchase_per_month">/inyanga</string>
+    <string name="purchase_trial_terms">Khansela noma nini. Ivuselelwa ngaphandle kokuthi ikhanselwe amahora angama-24 ngaphambi kokuphela kwesivivinyo.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Yehlulekile ukulayisha imikhiqizo. Hlola ukungena kwakho ngemvume kanye nokuxhumeka kwe-inthanethi.</string>
+    <string name="purchase_error_network">Uxhumano lulahlekile. Sicela uhlole i-inthanethi yakho bese uzama futhi.</string>
+    <string name="purchase_error_payment_declined">Indlela yokukhokha yenqatshiwe. Sicela ubuyekeze ulwazi lwakho lokukhokha.</string>
+    <string name="purchase_error_server">Kukhona okungahambanga kahle. Sicela uzame futhi kamuva.</string>
+    <string name="purchase_error_rate_limit">Imizamo eminingi kakhulu yokuvuselela. Sicela ulinde.</string>
+    <string name="purchase_error_offline">Akukho uxhumano lwe-inthanethi. Kuboniswa idatha egciniwe.</string>
+    <string name="purchase_error_product_refresh">Ayikwazi ukuqinisekisa umkhiqizo. Sicela uzame futhi.</string>
+    <string name="purchase_error_generic">Kuvele iphutha. Sicela uzame futhi.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Imigomo Yesevisi</string>
+    <string name="purchase_privacy_policy">Inqubomgomo yobumfihlo</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">Umlando Wokuthenga</string>
+    <string name="free_trial">Isivivinyo Samahhala</string>
+    <string name="no_purchase_history">Akukho Umlando Wokuthenga</string>
+    <string name="you_havent_made_any_purchases_">Awukathengi lutho okwamanje.</string>
+    <string name="error">Iphutha</string>
+    <string name="retry">Zama futhi</string>
+    <string name="back">Emuva</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Thuthukisa Okuhlangenwe Nakho</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Buyisela Ukuthenga</string>
+    <string name="close_purchase_screen">Vala isikrini sokuthenga</string>
+    <string name="help">Usizo</string>
+    <string name="more_options">Izinketho ezengeziwe</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Vuselela</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Kuyasebenza</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s KUSEBENZA</string>
+    <string name="premium_benefits">IZINZUZO ZE-PRIUM</string>
+    <string name="manage_subscription">Phatha Okubhaliselwe</string>
+    <string name="next_billing_date__manage_your">Usuku lokukhokha olulandelayo: %1$s. Phatha imininingwane yakho yokukhokha kanye nokukhansela ngezilungiselelo ze-akhawunti yakho ye-Play Store.</string>
+    <string name="purchase_expires_">Ukuthenga kuphelelwa yisikhathi: %1$s</string>
+    <string name="falcon_pdf_pro">I-Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">I-Falcon PDF Premium (Yanyanga zonke)</string>
+    <string name="falcon_pdf_premium_yearly">I-Falcon PDF Premium (Njalo)</string>
+    <string name="pro">I-PRO</string>
+    <string name="premium">I-PREMIUM</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Thola i-Falcon PDF Pro noma i-Premium</string>
+    <string name="purchase_desktop_subtitle">Ukuthenga kuphathwa kuwebhusayithi yethu. Chofoza ngezansi ukuze ubuke izinhlelo namanani.</string>
+    <string name="purchase_desktop_open_website">Buka Amacebo &amp; Amanani</string>
+    <string name="purchase_desktop_already_purchased">Usuvele uthenge? Ngena ngemvume ukuze uvumelanise uhlelo lwakho.</string>
+    <string name="purchase_store_build_subtitle">Ukubhalisa kwakho kuvula izici ze-Pro kuwo wonke amadivayisi akho. Ngena ngemvume ukuze uvumelanise uhlelo lwakho.</string>
+    <string name="ai_read_aloud">Ukufunda Ngokuzwakalayo nge-AI</string>
+    <string name="full_pdf_editing__form_filling">Ukuhlela Okugcwele kwe-PDF &amp; Ukugcwaliswa Kwefomu</string>
+    <string name="crossdevice_sync_via_drive">Ukuvumelanisa Kwedivayisi Ehambayo NgeDrayivu</string>
+    <string name="adfree_no_watermark">Akukho zikhangiso, Akukho Watermark</string>
+    <string name="export_to_word__excel">Thumela ku-Word &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">Izindikimba Eziningi &amp; Izizinda Zekhasi</string>
+    <string name="ai_summaries_with_stronger_reasoning">Izifinyezo ze-AI ezine-Stronger Accuracy</string>
+    <string name="no_limits_on_60_pdf_tools">Akukho mingcele kumathuluzi e-PDF angaphezu kuka-60</string>
+    <string name="full_text_editing_in_pdfs">Ukuhlela Umbhalo Ogcwele Kuma-PDF</string>
+    <string name="digital_signatures_dscesign">Amasignesha Edijithali (i-DSC/i-eSign)</string>
+    <string name="unlimited_scanned_document_sync">Ukuvumelanisa Idokhumenti Okuskeniwe Okungenamkhawulo</string>
+    <string name="biometric_document_lock">Ukukhiya Idokhumenti Yebhayomethrikhi</string>
+    <string name="everything_in_pro_all_devices">Konke ku-Pro, Wonke Amadivayisi</string>
+    <string name="introductory_offer">Ukunikezwa Kwesingeniso</string>
+    <string name="limited_time__30_off">Isikhathi esinqunyelwe — isaphulelo esingu-30%</string>
+    <string name="date__time">Usuku &amp; Isikhathi</string>
+    <string name="amount">Inani</string>
+    <string name="platform">Ipulatifomu</string>
+    <string name="type">Uhlobo</string>
+    <string name="expires_on">Iphelelwa yisikhathi ngo-</string>
+</resources>

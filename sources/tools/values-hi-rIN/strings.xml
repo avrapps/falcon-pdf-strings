@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">पृष्ठ हटाएं</string>
+    <string name="are_you_sure_you_want_to_delet">क्या आप वाकई चयनित पृष्ठों को हटाना चाहते हैं? यह कार्रवाई पूर्ववत नहीं की जा सकती।</string>
+    <string name="delete">मिटाना</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="quick_selection">त्वरित चयन</string>
+    <string name="select_range">रेंज का चयन करें</string>
+    <string name="select_all">सबका चयन करें</string>
+    <string name="clear_all">सभी साफ करें</string>
+    <string name="select_page_range">पृष्ठ सीमा का चयन करें</string>
+    <string name="enter_the_range_of_pages_to_de">हटाए जाने वाले पृष्ठों की सीमा दर्ज करें (1-%1$s)</string>
+    <string name="from">से</string>
+    <string name="to">को</string>
+    <string name="select">चुनना</string>
+    <string name="please_go_back_and_select_a_pd">कृपया वापस जाकर एक पीडीएफ फाइल चुनें</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">पीडीएफ को विभाजित करें</string>
+    <string name="str_1_file_selected">1 फ़ाइल चयनित</string>
+    <string name="no_file_selected">कोई फ़ाइल चयनित नहीं</string>
+    <string name="split_mode">स्प्लिट मोड</string>
+    <string name="fixed_segments">निश्चित खंड</string>
+    <string name="custom_ranges">कस्टम रेंज</string>
+    <string name="segment_size">खंड का आकार</string>
+    <string name="this_will_create_multiple_pdfs">इससे निर्दिष्ट संख्या में पृष्ठों वाली कई PDF फाइलें बनेंगी। सार्थक विभाजन के लिए सेगमेंट का आकार कुल पृष्ठों से कम होना चाहिए। उदाहरण के लिए, यदि मूल फ़ाइल में 8 पृष्ठ हैं और आप 2 दर्ज करते हैं, तो 2-2 पृष्ठों वाली चार PDF फाइलें बनेंगी।</string>
+    <string name="pages_per_file">प्रति फ़ाइल पृष्ठ</string>
+    <string name="eg_2">उदाहरण के लिए, 2</string>
+    <string name="total_number_of_pages_in_pdf__">पीडीएफ में कुल पृष्ठों की संख्या: %1$d (खंड का आकार %1$d से कम होना चाहिए)</string>
+    <string name="this_will_create__output_files">इससे %1$d आउटपुट फ़ाइलें बनेंगी</string>
+    <string name="this_will_create__output_file">इससे %1$d आउटपुट फ़ाइल बनेगी</string>
+    <string name="this_input_will_split_the_pdf_">यह इनपुट आपके द्वारा निर्धारित श्रेणियों के आधार पर PDF को अलग-अलग फ़ाइलों में विभाजित करेगा। उदाहरण के लिए, "1-2,5,6-8" इनपुट से 3 PDF फ़ाइलें बनेंगी: पहली में पृष्ठ 1-2, दूसरी में पृष्ठ 5 और तीसरी में पृष्ठ 6-8 होंगे।</string>
+    <string name="page_ranges">पृष्ठ श्रेणियाँ</string>
+    <string name="eg_1234571520">उदाहरण के लिए, 1-2, 3, 4-5, 7, 15-20</string>
+    <string name="format_use_ranges_15_or_single">प्रारूप: श्रेणियों (1-5) या एकल पृष्ठों (7) का उपयोग करें, अल्पविरामों से अलग करके। केवल अंक, हाइफ़न और अल्पविराम ही अनुमत हैं।</string>
+    <string name="split_preview">स्प्लिट पूर्वावलोकन</string>
+    <string name="pdf_files_will_be_created">%1$d PDF files will be created</string>
+    <string name="pdf_file_will_be_created">%1$d PDF file will be created</string>
+    <string name="pdf_result_">पीडीएफ परिणाम %1$s</string>
+    <string name="str__and__more">...और %1$d अधिक</string>
+    <string name="splitting_pdf">पीडीएफ को विभाजित किया जा रहा है...</string>
+    <string name="checking_files">फ़ाइलों की जाँच हो रही है...</string>
+    <string name="page_n">पृष्ठ %1$d</string>
+    <string name="pages_n_m">पृष्ठ %1$d-%2$d</string>
+    <string name="split_complete">विभाजन पूरा हुआ!</string>
+    <string name="split_failed">विभाजन विफल</string>
+    <string name="we_couldnt_split_your_pdf">हम आपकी पीडीएफ फाइल को विभाजित नहीं कर सके।</string>
+    <string name="your_pdf_has_been_successfully_split">आपकी पीडीएफ फाइल सफलतापूर्वक %1$d फाइलों में विभाजित हो गई है।</string>
+    <string name="your_pdf_has_been_successfully_split_single">आपकी पीडीएफ फाइल सफलतापूर्वक %1$d फाइल में विभाजित हो गई है</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">पीडीएफ उपकरण</string>
+    <string name="image_tools">छवि उपकरण</string>
+    <string name="str_30_tools_for_pdf">पीडीएफ के लिए 30+ उपकरण</string>
+    <string name="tools_for_images">छवियों के लिए उपकरण</string>
+    <string name="no_tools_found">कोई उपकरण नहीं मिला</string>
+    <string name="try_adjusting_your_search">अपनी खोज को समायोजित करने का प्रयास करें</string>
+    <string name="history">इतिहास</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s पृष्ठ${यदि (पृष्ठगणित &gt; 1) </string>
+    <string name="n_pages">%1$d पृष्ठ</string>
+    <string name="n_page">%1$d पृष्ठ</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">इस पीडीएफ के लिए पासवर्ड आवश्यक है</string>
+    <string name="password_provided">पासवर्ड प्रदान किया गया</string>
+    <string name="password_required">पासवर्ड आवश्यक है</string>
+    <string name="open_file">खुली फाइल</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">द्वारा संपीड़ित </string>
+    <string name="error_details">त्रुटि विवरण</string>
+    <string name="view">देखना</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">%2$s पृष्ठों में से %1$s पृष्ठ चयनित हुए</string>
+    <string name="showing_first_200_pages">पहले 200 पृष्ठ दिखाए जा रहे हैं</string>
+    <string name="use_quick_selection_above_for_">200 से अधिक पृष्ठों के लिए ऊपर दिए गए त्वरित चयन का उपयोग करें।</string>
+    <string name="loading">लोड हो रहा है...</string>
+    <string name="error">गलती</string>
+    <string name="generating_page_previews">पेज के पूर्वावलोकन तैयार किए जा रहे हैं...</string>
+    <string name="page__thumbnail">पृष्ठ %1$s थंबनेल</string>
+    <string name="selected">चयनित</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">खोज</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">पीडीएफ घुमाएँ</string>
+    <string name="please_provide_the_password_to">कस्टम पेज चुनने के लिए कृपया पासवर्ड प्रदान करें।</string>
+    <string name="rotation_angle">वर्तन कोण</string>
+    <string name="page_selection">पृष्ठ चयन</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">पीडीएफ को पुनः व्यवस्थित करें</string>
+    <string name="use_the_arrow_buttons_to_reord">पेजों को पुनर्व्यवस्थित करने के लिए तीर बटन का उपयोग करें</string>
+    <string name="pages_">पृष्ठ (%1$s)</string>
+    <string name="page_">पृष्ठ %1$s</string>
+    <string name="position__of_">स्थिति: %1$s का %2$s</string>
+    <string name="drag_handle">हैंडल को खींचें</string>
+    <string name="move_up">बढ़ाना</string>
+    <string name="move_down">नीचे की ओर</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">पीडीएफ को संपीड़ित करें</string>
+    <string name="no_files_selected">कोई फ़ाइल चयनित नहीं है</string>
+    <string name="please_go_back_and_select_pdf_">कृपया वापस जाएं और संपीड़ित करने के लिए पीडीएफ फाइलें चुनें</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">सफलता</string>
+    <string name="individual_results">व्यक्तिगत परिणाम</string>
+    <string name="done">हो गया</string>
+    <string name="compression_complete">संपीड़न पूर्ण</string>
+    <string name="your_file_is_ready_and_much_li">आपकी फाइल तैयार है और काफी हल्की भी!</string>
+    <string name="before">पहले</string>
+    <string name="after">बाद</string>
+    <string name="total_saved">कुल बचत</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">छोटे</string>
+    <string name="str__saved">%1$s% सहेजा गया</string>
+    <string name="open">खुला</string>
+    <string name="share">शेयर करना</string>
+    <string name="close">बंद करना</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">संपीड़न स्तर</string>
+    <string name="recommended">अनुशंसित</string>
+    <string name="str__compression">%1$s संपीड़न</string>
+    <string name="str__of_original_size">मूल आकार का ~%1$s%</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">छवियों को पीडीएफ में बदलें</string>
+    <string name="str__images_selected">%1$s चयनित छवियां</string>
+    <string name="images_will_be_converted_in_th">छवियों को नीचे दिखाए गए क्रम में रूपांतरित किया जाएगा।</string>
+    <string name="remove">निकालना</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">पीडीएफ को छवियों में बदलें</string>
+    <string name="image_format">छवि प्रारूप</string>
+    <string name="image_quality_dpi">छवि गुणवत्ता (डीपीआई)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">पीडीएफ मर्ज करें</string>
+    <string name="n_files_selected">%1$d फ़ाइलें चयनित</string>
+    <string name="n_file_selected">%1$d फ़ाइल चयनित</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">लॉक पीडीएफ</string>
+    <string name="password_protection">पारणशब्द सुरक्षा</string>
+    <string name="enter_a_password_to_protect_yo">अपनी पीडीएफ फाइल को सुरक्षित रखने के लिए पासवर्ड डालें। फाइल खोलने के लिए आपको इस पासवर्ड की आवश्यकता होगी।</string>
+    <string name="password">पासवर्ड</string>
+    <string name="enter_password">पास वर्ड दर्ज करें</string>
+    <string name="confirm_password">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="reenter_password">पासवर्ड फिर से दर्ज करें</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">कृपया वापस जाकर एक फ़ाइल चुनें</string>
+    <string name="back">पीछे</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">पीडीएफ अनलॉक करें</string>
+    <string name="current_password">वर्तमान पासवर्ड</string>
+    <string name="enter_the_current_password_to_">इस पीडीएफ को अनलॉक करने के लिए वर्तमान पासवर्ड दर्ज करें।</string>
+    <string name="enter_current_password">वर्तमान पासवर्ड दर्ज करें</string>
+    <string name="incorrect_password_please_try_">गलत पासवर्ड। कृपया दोबारा प्रयास करें।</string>
+    <string name="new_password_optional">नया पासवर्ड (वैकल्पिक)</string>
+    <string name="set_a_new_password_to_change_i">पासवर्ड बदलने के लिए नया पासवर्ड सेट करें, या पासवर्ड सुरक्षा हटाने के लिए इसे खाली छोड़ दें।</string>
+    <string name="new_password">नया पासवर्ड</string>
+    <string name="enter_new_password">नया पासवर्ड दर्ज करें</string>
+    <string name="confirm_new_password">नए पासवर्ड की पुष्टि करें</string>
+    <string name="reenter_new_password">नया पासवर्ड दोबारा दर्ज करें</string>
+    <string name="passwords_do_not_match">सांकेतिक शब्द मेल नहीं खाते</string>
+    <string name="compression_failed">संपीड़न विफल</string>
+    <string name="open_pdf">पीडीएफ खोलें</string>
+    <string name="share_file">फ़ाइल साझा करें</string>
+    <string name="pages_deleted">पृष्ठ हटा दिए गए!</string>
+    <string name="delete_failed">डिलीट करने में विफल</string>
+    <string name="select_pages_to_delete">हटाने के लिए पृष्ठ चुनें</string>
+    <string name="pdf_created">पीडीएफ तैयार हो गया!</string>
+    <string name="conversion_failed">रूपांतरण असफल</string>
+    <string name="pdf_locked_successfully">पीडीएफ सफलतापूर्वक लॉक हो गया!</string>
+    <string name="lock_failed">लॉक विफल</string>
+    <string name="merge_complete">विलय पूरा हुआ!</string>
+    <string name="merge_failed">विलय विफल</string>
+    <string name="conversion_complete">रूपांतरण पूर्ण!</string>
+    <string name="reorder_complete">पुनः ऑर्डर पूरा हुआ!</string>
+    <string name="reorder_failed">पुनः ऑर्डर विफल</string>
+    <string name="rotation_complete">रोटेशन पूरा हुआ!</string>
+    <string name="rotation_failed">रोटेशन विफल</string>
+    <string name="select_pages_to_rotate">घुमाने के लिए पृष्ठ चुनें</string>
+    <string name="str__complete">%1$s पूरा हुआ!</string>
+    <string name="str__failed">%1$s असफल</string>
+    <string name="unlock_failed">अनलॉक विफल</string>
+    <string name="your_pdfs_have_been_successfully_compres">आपकी पीडीएफ फाइलें सफलतापूर्वक संपीड़ित हो गई हैं।</string>
+    <string name="we_couldnt_compress_your_pdfs">हम आपकी पीडीएफ फाइलों को कंप्रेस नहीं कर सके।</string>
+    <string name="view_your_compressed_file">अपनी संपीड़ित फ़ाइल देखें</string>
+    <string name="send_to_others_or_apps">दूसरों या ऐप्स को भेजें</string>
+    <string name="your_pdf_has_been_successfully_modified">आपकी पीडीएफ फाइल सफलतापूर्वक संशोधित हो गई है।</string>
+    <string name="we_couldnt_delete_the_pages">हम पेज डिलीट नहीं कर पाए</string>
+    <string name="your_images_have_been_converted_to_pdf">आपकी छवियों को पीडीएफ में परिवर्तित कर दिया गया है।</string>
+    <string name="unable_to_create_pdf_from_images">छवियों से पीडीएफ बनाने में असमर्थ</string>
+    <string name="your_pdf_is_now_password_protected">आपकी पीडीएफ फाइल अब पासवर्ड से सुरक्षित है।</string>
+    <string name="we_couldnt_lock_your_pdf">हम आपकी पीडीएफ फाइल को लॉक नहीं कर पाए।</string>
+    <string name="your_pdfs_have_been_successfully_merged">आपकी पीडीएफ फाइलें सफलतापूर्वक मर्ज हो गई हैं।</string>
+    <string name="we_couldnt_merge_your_pdfs">हम आपकी पीडीएफ फाइलों को मर्ज नहीं कर सके।</string>
+    <string name="str__images_created_successfully">%1$s छवियां सफलतापूर्वक बनाई गईं</string>
+    <string name="unable_to_convert_pdf_to_images">पीडीएफ को छवियों में परिवर्तित करने में असमर्थ</string>
+    <string name="your_pdf_pages_have_been_successfully_re">आपके पीडीएफ पृष्ठों का क्रम सफलतापूर्वक बदल दिया गया है।</string>
+    <string name="we_couldnt_reorder_your_pdf">हम आपकी पीडीएफ फाइल को पुनः व्यवस्थित नहीं कर सके।</string>
+    <string name="your_pdf_has_been_successfully_rotated">आपकी पीडीएफ फाइल सफलतापूर्वक घुमा दी गई है।</string>
+    <string name="we_couldnt_rotate_your_pdf">हम आपकी पीडीएफ फाइल को घुमा नहीं सके।</string>
+    <string name="your_file_has_been_successfully_processe">आपकी फ़ाइल सफलतापूर्वक संसाधित हो गई है।</string>
+    <string name="we_couldnt_process_your_file">हम आपकी फ़ाइल को प्रोसेस नहीं कर सके।</string>
+    <string name="we_couldnt_unlock_your_pdf">हम आपकी पीडीएफ फाइल को अनलॉक नहीं कर पाए।</string>
+    <string name="clear_filter">फ़िल्टर साफ़ करें</string>
+    <string name="clear">स्पष्ट</string>
+    <string name="pick_a_tool_">एक उपकरण चुनें →</string>
+    <string name="drag_to_reorder">पुन: व्यवस्थित करने के लिए खींचें</string>
+    <string name="your_files_are_securely_processed_on_our">आपकी फाइलें हमारे सर्वरों पर एन्क्रिप्टेड कनेक्शन का उपयोग करके सुरक्षित रूप से प्रोसेस की जाती हैं और 1 घंटे के भीतर स्वचालित रूप से डिलीट कर दी जाती हैं। हम आपका डेटा कभी भी स्टोर या शेयर नहीं करते हैं।</string>
+    <string name="compression_quality">संपीड़न गुणवत्ता</string>
+    <string name="dragelevation">ड्रैग एलिवेशन</string>
+    <string name="tool_card_scale">टूल_कार्ड_स्केल</string>
+</resources>

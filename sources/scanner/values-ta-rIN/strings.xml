@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">ஸ்கேன்</string>
+    <string name="scan_home_documents">ஆவணங்கள்</string>
+    <string name="scan_home_documents_lowercase">ஆவணங்கள்</string>
+    <string name="scan_home_documents_count">%1$d ஆவணங்கள்</string>
+    <string name="scan_home_no_documents">இன்னும் ஆவணங்கள் இல்லை</string>
+    <string name="scan_home_start_scanning">உங்கள் முதல் ஆவணத்தை உருவாக்க ஸ்கேன் செய்யத் தொடங்குங்கள்.</string>
+    <string name="scan_home_new_folder">புதிய கோப்புறை</string>
+    <string name="scan_home_scan_document">ஆவணத்தை ஸ்கேன் செய்யவும்</string>
+    <string name="scan_home_import_gallery">கேலரியில் இருந்து இறக்குமதி செய்யவும்</string>
+    <string name="scan_home_parent_folder">பெற்றோர் கோப்புறை</string>
+    <string name="scan_home_go_back">மூல கோப்புறைக்குத் திரும்பு</string>
+    <string name="scan_home_create_folder">புதிய கோப்புறையை உருவாக்கு</string>
+    <string name="scan_home_enter_folder_name">புதிய கோப்புறைக்கு ஒரு பெயரை உள்ளிடவும்</string>
+    <string name="scan_home_folder_name">கோப்புறை பெயர்</string>
+    <string name="scan_home_folder_placeholder">எ.கா., பணி ஆவணங்கள்</string>
+    <string name="scan_home_folder_error">கோப்புறையின் பெயர் காலியாக இருக்கக்கூடாது</string>
+    <string name="scan_home_folder_name_empty">கோப்புறையின் பெயர் காலியாக இருக்கக்கூடாது</string>
+    <string name="scan_home_create">உருவாக்கு</string>
+    <string name="scan_home_folder_exists">இந்தப் பெயரில் ஒரு கோப்புறை ஏற்கனவே உள்ளது</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">கேமரா</string>
+    <string name="scan_camera_permission_required">கேமரா அனுமதி தேவை</string>
+    <string name="scan_camera_permission_message">ஆவணங்களை ஸ்கேன் செய்வதற்கு இந்தச் செயலிக்கு கேமரா வசதி தேவை.</string>
+    <string name="scan_camera_permission_settings">அமைப்புகள் &gt; செயலிகள் &gt; PDF பார்வையாளர் &gt; அனுமதிகள் என்பதற்குச் சென்று கேமரா அனுமதியை இயக்கவும்.</string>
+    <string name="scan_camera_permission_title">கேமரா அனுமதி தேவை</string>
+    <string name="scan_camera_request_permission">அனுமதி கோரவும்</string>
+    <string name="scan_camera_open_settings">அமைப்புகளைத் திறக்கவும்</string>
+    <string name="scan_camera_close">அருகில்</string>
+    <string name="scan_camera_flash">ஃப்ளாஷ்</string>
+    <string name="scan_camera_auto_capture">தானியங்கி பிடிப்பு</string>
+    <string name="scan_camera_settings">அமைப்புகள்</string>
+    <string name="scan_camera_ready_batch">பல பக்கங்களை ஸ்கேன் செய்யத் தயார்</string>
+    <string name="scan_camera_ready_multiple">பல பக்கங்களை ஸ்கேன் செய்யத் தயார்</string>
+    <string name="scan_camera_hold_steady">ஸ்கேன் செய்யும் போது நிலையாகப் பிடித்துக் கொள்ளுங்கள்</string>
+    <string name="scan_camera_captured_pages">%1$d கைப்பற்றப்பட்ட பக்கங்கள்</string>
+    <string name="scan_camera_mode_single">தனி</string>
+    <string name="scan_camera_mode_batch">தொகுதி</string>
+    <string name="scan_camera_preview">முன்னோட்டம்</string>
+    <string name="scan_camera_finish">முடிவு</string>
+    <string name="scan_camera_starting">தொடக்க கேமரா...</string>
+    <string name="scan_camera_document_name">ஆவணத்தின் பெயர்</string>
+    <string name="scan_camera_document_name_empty">ஆவணத்தின் பெயர் காலியாக இருக்கக்கூடாது</string>
+    <string name="scan_camera_save_document">ஆவணத்தைச் சேமிக்கவும்</string>
+    <string name="scan_camera_processing">செயலாக்கம்...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">பயிர் &amp; சரிசெய்யவும்</string>
+    <string name="scan_crop_close">அருகில்</string>
+    <string name="scan_crop_reset">மீட்டமை</string>
+    <string name="scan_crop_rotate">சுழற்று</string>
+    <string name="scan_crop_done">முடிந்தது</string>
+    <string name="scan_crop_scanned_document">ஸ்கேன் செய்யப்பட்ட ஆவணம்</string>
+    <string name="scan_crop_magnified_view">பெரிதாக்கப்பட்ட காட்சி</string>
+    <string name="scan_crop_processing">செயலாக்கம்...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">மேம்படுத்து</string>
+    <string name="scan_filter_close">அருகில்</string>
+    <string name="scan_filter_rotate">சுழற்று</string>
+    <string name="scan_filter_done">முடிந்தது</string>
+    <string name="scan_filter_filters">வடிப்பான்கள்</string>
+    <string name="scan_filter_original">அசல்</string>
+    <string name="scan_filter_magic">மாயாஜாலம்</string>
+    <string name="scan_filter_lighten">ஒளியூட்டு</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">சாம்பல் நிறம்</string>
+    <string name="scan_filter_magic_2">சுத்தமான ஆவணம்</string>
+    <string name="scan_filter_soft_scan">மென்மையான ஸ்கேன்</string>
+    <string name="scan_filter_color_enhance">வண்ணம்+</string>
+    <string name="scan_filter_ink_saver">இங்க் சேவர்</string>
+    <string name="scan_filter_premium">பிரீமியம் அம்சம்</string>
+    <string name="scan_filter_filtered_document">வடிகட்டப்பட்ட ஆவணம்</string>
+    <string name="scan_filter_applying">வடிப்பானைப் பயன்படுத்துகிறது...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">ரத்துசெய்</string>
+    <string name="scan_share">பகிர்</string>
+    <string name="scan_move">நகர்த்தவும்</string>
+    <string name="scan_move_to_folder">கோப்புறைக்கு நகர்த்தவும்</string>
+    <string name="scan_delete">நீக்கு</string>
+    <string name="scan_rename">மறுபெயரிடு</string>
+    <string name="scan_root">வேர்</string>
+    <string name="scan_select_destination">இலக்கு கோப்புறையைத் தேர்ந்தெடுக்கவும்</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">ஆவணம்</string>
+    <string name="scan_document_back">திரும்பி</string>
+    <string name="scan_document_pages">பக்கங்கள்</string>
+    <string name="scan_document_add_pages">இந்த ஆவணத்தில் பக்கங்களைச் சேர்க்கவும்</string>
+    <string name="scan_document_add_page_button">பக்கத்தைச் சேர்க்கவும்</string>
+    <string name="scan_document_rename">மறுபெயரிடு</string>
+    <string name="scan_document_share">பகிர்</string>
+    <string name="scan_document_more">மேலும்</string>
+    <string name="scan_document_pages_count">%1$d பக்கங்கள்</string>
+    <string name="scan_document_no_pages">இன்னும் பக்கங்கள் இல்லை</string>
+    <string name="scan_document_scan_page">ஸ்கேன் பக்கம்</string>
+    <string name="scan_document_import_page">கேலரியில் இருந்து இறக்குமதி செய்யவும்</string>
+    <string name="scan_document_grid_view">கட்டக் காட்சி</string>
+    <string name="scan_document_list_view">பட்டியல் பார்வை</string>
+    <string name="scan_document_continuous_view">தொடர்ச்சியான பார்வை</string>
+    <string name="scan_document_page_number">பக்கம் %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">பக்கம்</string>
+    <string name="scan_page_back">திரும்பி</string>
+    <string name="scan_page_share">பகிர்</string>
+    <string name="scan_page_delete">நீக்கு</string>
+    <string name="scan_page_of">%2$d இன் %1$d</string>
+    <string name="scan_page_image_not_found">படம் காணப்படவில்லை</string>
+    <string name="scan_page_retake">மீண்டும் தேர்வு</string>
+    <string name="scan_page_crop">பயிர்</string>
+    <string name="scan_page_enhance">மேம்படுத்து</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">கேலரியில் சேமிக்கவும்</string>
+    <string name="scan_page_saved_to_gallery">படத்தொகுப்பில் சேமிக்கப்பட்ட படம்</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">ஆவணத்தை நீக்கவா?</string>
+    <string name="scan_delete_document_message">"%1$s" என்பதை நீங்கள் உறுதியாக நீக்க விரும்புகிறீர்களா? இது இந்த ஆவணத்தில் உள்ள அனைத்துப் பக்கங்களையும் நிரந்தரமாக நீக்கிவிடும். இந்தச் செயலைத் திரும்பப் பெற முடியாது.</string>
+    <string name="scan_rename_document">ஆவணத்தை மறுபெயரிடு</string>
+    <string name="scan_rename_enter_name">ஆவணத்திற்கு ஒரு புதிய பெயரை உள்ளிடவும்</string>
+    <string name="scan_rename_document_name">ஆவணத்தின் பெயர்</string>
+    <string name="scan_rename_error">ஆவணத்தின் பெயர் காலியாக இருக்கக்கூடாது</string>
+    <string name="scan_dialog_delete_document_title">ஆவணத்தை நீக்கவா?</string>
+    <string name="scan_dialog_delete_document_message">"%1$s" என்பதை நீங்கள் உறுதியாக நீக்க விரும்புகிறீர்களா? இது இந்த ஆவணத்தில் உள்ள அனைத்துப் பக்கங்களையும் நிரந்தரமாக நீக்கிவிடும். இந்தச் செயலைத் திரும்பப் பெற முடியாது.</string>
+    <string name="scan_dialog_delete_confirm">நீக்கு</string>
+    <string name="scan_dialog_cancel">ரத்துசெய்</string>
+    <string name="scan_dialog_move_title">கோப்புறைக்கு நகர்த்தவும்</string>
+    <string name="scan_dialog_move_message">இலக்கு கோப்புறையைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="scan_dialog_move_confirm">நகர்த்தவும்</string>
+    <string name="scan_dialog_move_root">வேர்</string>
+    <string name="scan_dialog_move_selected">தேர்ந்தெடுக்கப்பட்ட</string>
+    <string name="scan_dialog_rename_title">ஆவணத்தை மறுபெயரிடு</string>
+    <string name="scan_dialog_rename_message">ஆவணத்திற்கு ஒரு புதிய பெயரை உள்ளிடவும்</string>
+    <string name="scan_dialog_rename_label">ஆவணத்தின் பெயர்</string>
+    <string name="scan_dialog_rename_error">ஆவணத்தின் பெயர் காலியாக இருக்கக்கூடாது</string>
+    <string name="scan_dialog_rename_confirm">மறுபெயரிடு</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">பகிர்</string>
+    <string name="scan_menu_move">கோப்புறைக்கு நகர்த்தவும்</string>
+    <string name="scan_menu_delete">நீக்கு</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">கேமரா முன்னோட்டம்\n(விரைவில் வருகிறது)</string>
+    <string name="scan_platform_desktop_camera">டெஸ்க்டாப் கேமரா முன்னோட்டம்\n(விரைவில் வருகிறது)</string>
+    <string name="scan_platform_ios_camera">iOS கேமரா முன்னோட்டம்\n(விரைவில் வருகிறது)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">அருகில்</string>
+    <string name="flash">ஃப்ளாஷ்</string>
+    <string name="auto_capture">தானியங்கி பிடிப்பு</string>
+    <string name="settings">அமைப்புகள்</string>
+    <string name="capture">கைப்பற்று</string>
+    <string name="finish">முடிவு</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">%1ஐ நீக்க நீங்கள் உறுதியாக விரும்புகிறீர்களா? அதிலுள்ள அனைத்து ஆவணங்களும் நீக்கப்படும்.</string>
+    <string name="share">பகிர்</string>
+    <string name="share_as_images">படங்களாகப் பகிரவும்</string>
+    <string name="share_as_pdf">PDF ஆகப் பகிரவும்</string>
+    <string name="move_to_folder">கோப்புறைக்கு நகர்த்தவும்</string>
+    <string name="delete">நீக்கு</string>
+    <string name="selected">தேர்ந்தெடுக்கப்பட்ட</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">பக்கம் %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">கோப்புறை காலியாக உள்ளது</string>
+    <string name="tap_the__button_to_scan_a_docu">ஆவணத்தை ஸ்கேன் செய்ய + பொத்தானைத் தட்டவும்.</string>
+    <string name="str______pages">%1$s • %2$s • %3$s பக்கங்கள்</string>
+    <string name="create_folder">கோப்புறையை உருவாக்கு</string>
+    <string name="more_options">கூடுதல் விருப்பங்கள்</string>
+    <string name="document_thumbnail">ஆவண சிறுபடம்</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">படம் காணப்படவில்லை</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — பக்கம் %2$d</string>
+    <string name="scan_ocr_title">உரை அங்கீகாரம்</string>
+    <string name="scan_ocr_copy">உரையை நகலெடுக்கவும்</string>
+    <string name="scan_ocr_no_text">உரை எதுவும் காணப்படவில்லை</string>
+    <string name="scan_ocr_processing">உரையை அடையாளம் காணுதல்…</string>
+    <string name="scan_ocr_error">உரையை அடையாளம் காணத் தவறியது</string>
+    <string name="scan_ocr_not_supported">இந்தத் தளத்தில் OCR ஆதரிக்கப்படவில்லை.</string>
+    <string name="scan_ocr_image">OCR-க்காக ஸ்கேன் செய்யப்பட்ட பக்கம்</string>
+    <string name="gallery">கேலரி</string>
+    <string name="select_file">கோப்பைத் தேர்ந்தெடுக்கவும்</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">படத்தைப் பிடிக்க முடியவில்லை</string>
+    <string name="error_no_images_captured">படங்கள் எதுவும் எடுக்கப்படவில்லை</string>
+    <string name="error_open_settings">அமைப்புகளைத் திறக்க முடியவில்லை</string>
+    <string name="error_process_images">படங்களைச் செயலாக்க முடியவில்லை</string>
+    <string name="error_process_image">படத்தைச் செயலாக்க முடியவில்லை</string>
+    <string name="error_start_camera">கேமராவைத் தொடங்க முடியவில்லை</string>
+    <string name="error_stop_camera">கேமராவை நிறுத்தத் தவறியது</string>
+    <string name="error_crop_image">படத்தை செதுக்க முடியவில்லை</string>
+    <string name="error_delete_document">ஆவணத்தை நீக்க முடியவில்லை</string>
+    <string name="error_delete_page">பக்கத்தை நீக்க முடியவில்லை</string>
+    <string name="error_load_document">ஆவணத்தை ஏற்ற முடியவில்லை</string>
+    <string name="error_load_page">பக்கத்தை ஏற்ற முடியவில்லை</string>
+    <string name="error_move_document">ஆவணத்தை நகர்த்த முடியவில்லை</string>
+    <string name="error_no_pages_to_share">பகிர்வதற்கு பக்கங்கள் இல்லை</string>
+    <string name="error_rename_document">ஆவணத்தின் பெயரை மாற்ற முடியவில்லை</string>
+    <string name="error_reorder_pages">பக்கங்களை மறுவரிசைப்படுத்த முடியவில்லை</string>
+    <string name="error_share_images">படங்களைப் பகிர முடியவில்லை</string>
+    <string name="error_share_pdf">PDF-ஐப் பகிர முடியவில்லை</string>
+    <string name="error_share_page">பக்கத்தைப் பகிர முடியவில்லை</string>
+    <string name="error_create_folder">கோப்புறையை உருவாக்க முடியவில்லை</string>
+    <string name="error_delete_folder">கோப்புறையை நீக்க முடியவில்லை</string>
+    <string name="error_rename_folder">கோப்புறையின் பெயரை மாற்ற முடியவில்லை</string>
+    <string name="error_unknown">அறியப்படாத பிழை ஏற்பட்டது</string>
+    <string name="folder_not_found">கோப்புறை காணப்படவில்லை</string>
+    <string name="sync_documents">ஆவணங்களை ஒத்திசைக்கவும்</string>
+    <string name="shutter_scale">ஷட்டர்_அளவு</string>
+    <string name="import_gallery">இறக்குமதி தொகுப்பு</string>
+    <string name="scan_camera">ஸ்கேன் கேமரா</string>
+</resources>

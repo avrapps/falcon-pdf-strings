@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Pindai</string>
+    <string name="scan_home_documents">Dokumen</string>
+    <string name="scan_home_documents_lowercase">dokumen</string>
+    <string name="scan_home_documents_count">%1$d Dokumen</string>
+    <string name="scan_home_no_documents">Belum ada dokumen</string>
+    <string name="scan_home_start_scanning">Mulailah memindai untuk membuat dokumen pertama Anda.</string>
+    <string name="scan_home_new_folder">Folder Baru</string>
+    <string name="scan_home_scan_document">Pindai Dokumen</string>
+    <string name="scan_home_import_gallery">Impor dari Galeri</string>
+    <string name="scan_home_parent_folder">Folder Induk</string>
+    <string name="scan_home_go_back">Kembali ke folder induk</string>
+    <string name="scan_home_create_folder">Buat Folder Baru</string>
+    <string name="scan_home_enter_folder_name">Masukkan nama untuk folder baru.</string>
+    <string name="scan_home_folder_name">Nama Folder</string>
+    <string name="scan_home_folder_placeholder">misalnya, Dokumen Kerja</string>
+    <string name="scan_home_folder_error">Nama folder tidak boleh kosong.</string>
+    <string name="scan_home_folder_name_empty">Nama folder tidak boleh kosong.</string>
+    <string name="scan_home_create">Membuat</string>
+    <string name="scan_home_folder_exists">Folder dengan nama ini sudah ada.</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Kamera</string>
+    <string name="scan_camera_permission_required">Izin Kamera Diperlukan</string>
+    <string name="scan_camera_permission_message">Aplikasi ini membutuhkan akses kamera untuk memindai dokumen.</string>
+    <string name="scan_camera_permission_settings">Silakan buka Pengaturan &gt; Aplikasi &gt; Penampil PDF &gt; Izin dan aktifkan izin Kamera.</string>
+    <string name="scan_camera_permission_title">Izin Kamera Diperlukan</string>
+    <string name="scan_camera_request_permission">Meminta Izin</string>
+    <string name="scan_camera_open_settings">Buka Pengaturan</string>
+    <string name="scan_camera_close">Menutup</string>
+    <string name="scan_camera_flash">Kilatan</string>
+    <string name="scan_camera_auto_capture">Pengambilan Gambar Otomatis</string>
+    <string name="scan_camera_settings">Pengaturan</string>
+    <string name="scan_camera_ready_batch">Siap memindai beberapa halaman</string>
+    <string name="scan_camera_ready_multiple">Siap memindai beberapa halaman</string>
+    <string name="scan_camera_hold_steady">Tetaplah stabil saat memindai.</string>
+    <string name="scan_camera_captured_pages">%1$d halaman yang ditangkap</string>
+    <string name="scan_camera_mode_single">Lajang</string>
+    <string name="scan_camera_mode_batch">Kelompok</string>
+    <string name="scan_camera_preview">Pratinjau</string>
+    <string name="scan_camera_finish">Menyelesaikan</string>
+    <string name="scan_camera_starting">Menyalakan Kamera...</string>
+    <string name="scan_camera_document_name">Nama Dokumen</string>
+    <string name="scan_camera_document_name_empty">Nama dokumen tidak boleh kosong.</string>
+    <string name="scan_camera_save_document">Simpan Dokumen</string>
+    <string name="scan_camera_processing">Pengolahan...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Pangkas &amp; Sesuaikan</string>
+    <string name="scan_crop_close">Menutup</string>
+    <string name="scan_crop_reset">Mengatur ulang</string>
+    <string name="scan_crop_rotate">Memutar</string>
+    <string name="scan_crop_done">Selesai</string>
+    <string name="scan_crop_scanned_document">Dokumen yang dipindai</string>
+    <string name="scan_crop_magnified_view">Tampilan yang diperbesar</string>
+    <string name="scan_crop_processing">Pengolahan...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Meningkatkan</string>
+    <string name="scan_filter_close">Menutup</string>
+    <string name="scan_filter_rotate">Memutar</string>
+    <string name="scan_filter_done">Selesai</string>
+    <string name="scan_filter_filters">Filter</string>
+    <string name="scan_filter_original">Asli</string>
+    <string name="scan_filter_magic">Sihir</string>
+    <string name="scan_filter_lighten">Meringankan</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">Skala abu-abu</string>
+    <string name="scan_filter_magic_2">Clean Doc</string>
+    <string name="scan_filter_soft_scan">Pemindaian Lunak</string>
+    <string name="scan_filter_color_enhance">Warna+</string>
+    <string name="scan_filter_ink_saver">Penghemat Tinta</string>
+    <string name="scan_filter_premium">Fitur premium</string>
+    <string name="scan_filter_filtered_document">Dokumen yang difilter</string>
+    <string name="scan_filter_applying">Menerapkan filter...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Membatalkan</string>
+    <string name="scan_share">Membagikan</string>
+    <string name="scan_move">Bergerak</string>
+    <string name="scan_move_to_folder">Pindahkan ke Folder</string>
+    <string name="scan_delete">Menghapus</string>
+    <string name="scan_rename">Ganti nama</string>
+    <string name="scan_root">Akar</string>
+    <string name="scan_select_destination">Pilih folder tujuan</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Dokumen</string>
+    <string name="scan_document_back">Kembali</string>
+    <string name="scan_document_pages">halaman</string>
+    <string name="scan_document_add_pages">Tambahkan halaman ke dokumen ini</string>
+    <string name="scan_document_add_page_button">Tambahkan Halaman</string>
+    <string name="scan_document_rename">Ganti nama</string>
+    <string name="scan_document_share">Membagikan</string>
+    <string name="scan_document_more">Lagi</string>
+    <string name="scan_document_pages_count">%1$d halaman</string>
+    <string name="scan_document_no_pages">Belum ada halaman</string>
+    <string name="scan_document_scan_page">Pindai Halaman</string>
+    <string name="scan_document_import_page">Impor dari Galeri</string>
+    <string name="scan_document_grid_view">Tampilan Kisi</string>
+    <string name="scan_document_list_view">Tampilan Daftar</string>
+    <string name="scan_document_continuous_view">Tampilan Berkelanjutan</string>
+    <string name="scan_document_page_number">Halaman %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Halaman</string>
+    <string name="scan_page_back">Kembali</string>
+    <string name="scan_page_share">Membagikan</string>
+    <string name="scan_page_delete">Menghapus</string>
+    <string name="scan_page_of">%1$d dari %2$d</string>
+    <string name="scan_page_image_not_found">Gambar tidak ditemukan</string>
+    <string name="scan_page_retake">Merebut kembali</string>
+    <string name="scan_page_crop">Tanaman</string>
+    <string name="scan_page_enhance">Meningkatkan</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">Simpan ke Galeri</string>
+    <string name="scan_page_saved_to_gallery">Gambar tersimpan ke galeri</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Hapus Dokumen?</string>
+    <string name="scan_delete_document_message">Apakah Anda yakin ingin menghapus "%1$s"? Ini akan menghapus semua halaman dalam dokumen ini secara permanen. Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="scan_rename_document">Ganti Nama Dokumen</string>
+    <string name="scan_rename_enter_name">Masukkan nama baru untuk dokumen tersebut.</string>
+    <string name="scan_rename_document_name">Nama Dokumen</string>
+    <string name="scan_rename_error">Nama dokumen tidak boleh kosong.</string>
+    <string name="scan_dialog_delete_document_title">Hapus Dokumen?</string>
+    <string name="scan_dialog_delete_document_message">Apakah Anda yakin ingin menghapus "%1$s"? Ini akan menghapus semua halaman dalam dokumen ini secara permanen. Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="scan_dialog_delete_confirm">Menghapus</string>
+    <string name="scan_dialog_cancel">Membatalkan</string>
+    <string name="scan_dialog_move_title">Pindahkan ke Folder</string>
+    <string name="scan_dialog_move_message">Pilih folder tujuan</string>
+    <string name="scan_dialog_move_confirm">Bergerak</string>
+    <string name="scan_dialog_move_root">Akar</string>
+    <string name="scan_dialog_move_selected">Terpilih</string>
+    <string name="scan_dialog_rename_title">Ganti Nama Dokumen</string>
+    <string name="scan_dialog_rename_message">Masukkan nama baru untuk dokumen tersebut.</string>
+    <string name="scan_dialog_rename_label">Nama Dokumen</string>
+    <string name="scan_dialog_rename_error">Nama dokumen tidak boleh kosong.</string>
+    <string name="scan_dialog_rename_confirm">Ganti nama</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Membagikan</string>
+    <string name="scan_menu_move">Pindahkan ke Folder</string>
+    <string name="scan_menu_delete">Menghapus</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Pratinjau Kamera\n(Segera Hadir)</string>
+    <string name="scan_platform_desktop_camera">Pratinjau Kamera Desktop\n(Segera Hadir)</string>
+    <string name="scan_platform_ios_camera">Pratinjau Kamera iOS\n(Segera Hadir)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Menutup</string>
+    <string name="flash">Kilatan</string>
+    <string name="auto_capture">Pengambilan Gambar Otomatis</string>
+    <string name="settings">Pengaturan</string>
+    <string name="capture">Menangkap</string>
+    <string name="finish">Menyelesaikan</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Apakah Anda yakin ingin menghapus %1? Semua dokumen di dalamnya juga akan dihapus.</string>
+    <string name="share">Membagikan</string>
+    <string name="share_as_images">Bagikan sebagai Gambar</string>
+    <string name="share_as_pdf">Bagikan sebagai PDF</string>
+    <string name="move_to_folder">Pindahkan ke Folder</string>
+    <string name="delete">Menghapus</string>
+    <string name="selected">Terpilih</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Halaman %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">Folder kosong</string>
+    <string name="tap_the__button_to_scan_a_docu">Ketuk tombol + untuk memindai dokumen</string>
+    <string name="str______pages">%1$s • %2$s • %3$s halaman</string>
+    <string name="create_folder">Buat Folder</string>
+    <string name="more_options">Opsi lainnya</string>
+    <string name="document_thumbnail">Gambar mini dokumen</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Gambar tidak ditemukan</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Halaman %2$d</string>
+    <string name="scan_ocr_title">Pengenalan Teks</string>
+    <string name="scan_ocr_copy">Salin Teks</string>
+    <string name="scan_ocr_no_text">Tidak ada teks yang ditemukan</string>
+    <string name="scan_ocr_processing">Mengenali teks…</string>
+    <string name="scan_ocr_error">Teks gagal dikenali</string>
+    <string name="scan_ocr_not_supported">OCR tidak didukung pada platform ini.</string>
+    <string name="scan_ocr_image">Halaman yang dipindai untuk OCR</string>
+    <string name="gallery">Galeri</string>
+    <string name="select_file">Pilih File</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Gagal mengambil gambar</string>
+    <string name="error_no_images_captured">Tidak ada gambar yang diambil.</string>
+    <string name="error_open_settings">Gagal membuka pengaturan</string>
+    <string name="error_process_images">Gagal memproses gambar</string>
+    <string name="error_process_image">Gagal memproses gambar</string>
+    <string name="error_start_camera">Kamera gagal dinyalakan.</string>
+    <string name="error_stop_camera">Gagal menghentikan kamera</string>
+    <string name="error_crop_image">Gambar gagal dipotong</string>
+    <string name="error_delete_document">Gagal menghapus dokumen</string>
+    <string name="error_delete_page">Gagal menghapus halaman</string>
+    <string name="error_load_document">Dokumen gagal dimuat.</string>
+    <string name="error_load_page">Halaman gagal dimuat.</string>
+    <string name="error_move_document">Dokumen gagal dipindahkan.</string>
+    <string name="error_no_pages_to_share">Tidak ada halaman untuk dibagikan</string>
+    <string name="error_rename_document">Gagal mengganti nama dokumen</string>
+    <string name="error_reorder_pages">Gagal menyusun ulang halaman</string>
+    <string name="error_share_images">Gagal membagikan gambar</string>
+    <string name="error_share_pdf">Gagal membagikan PDF</string>
+    <string name="error_share_page">Gagal membagikan halaman</string>
+    <string name="error_create_folder">Gagal membuat folder</string>
+    <string name="error_delete_folder">Gagal menghapus folder</string>
+    <string name="error_rename_folder">Gagal mengganti nama folder</string>
+    <string name="error_unknown">Terjadi kesalahan yang tidak diketahui.</string>
+    <string name="folder_not_found">Folder tidak ditemukan</string>
+    <string name="sync_documents">Sinkronkan dokumen</string>
+    <string name="shutter_scale">skala_rana</string>
+    <string name="import_gallery">Impor Galeri</string>
+    <string name="scan_camera">Kamera Pemindai</string>
+</resources>

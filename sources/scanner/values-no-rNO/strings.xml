@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Skann</string>
+    <string name="scan_home_documents">Dokumenter</string>
+    <string name="scan_home_documents_lowercase">dokumenter</string>
+    <string name="scan_home_documents_count">%1$d Dokumenter</string>
+    <string name="scan_home_no_documents">Ingen dokumenter ennå</string>
+    <string name="scan_home_start_scanning">Start skanningen for å opprette ditt første dokument</string>
+    <string name="scan_home_new_folder">Ny mappe</string>
+    <string name="scan_home_scan_document">Skann dokument</string>
+    <string name="scan_home_import_gallery">Importer fra galleriet</string>
+    <string name="scan_home_parent_folder">Overordnet mappe</string>
+    <string name="scan_home_go_back">Gå tilbake til overordnet mappe</string>
+    <string name="scan_home_create_folder">Opprett ny mappe</string>
+    <string name="scan_home_enter_folder_name">Skriv inn et navn for den nye mappen</string>
+    <string name="scan_home_folder_name">Mappenavn</string>
+    <string name="scan_home_folder_placeholder">f.eks. arbeidsdokumenter</string>
+    <string name="scan_home_folder_error">Mappenavnet kan ikke være tomt</string>
+    <string name="scan_home_folder_name_empty">Mappenavnet kan ikke være tomt</string>
+    <string name="scan_home_create">Skape</string>
+    <string name="scan_home_folder_exists">En mappe med dette navnet finnes allerede</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Kamera</string>
+    <string name="scan_camera_permission_required">Kameratillatelse kreves</string>
+    <string name="scan_camera_permission_message">Denne appen trenger kameratilgang for å skanne dokumenter.</string>
+    <string name="scan_camera_permission_settings">Gå til Innstillinger &gt; Apper &gt; PDF-leser &gt; Tillatelser og aktiver kameratillatelser.</string>
+    <string name="scan_camera_permission_title">Kameratillatelse kreves</string>
+    <string name="scan_camera_request_permission">Be om tillatelse</string>
+    <string name="scan_camera_open_settings">Åpne Innstillinger</string>
+    <string name="scan_camera_close">Lukke</string>
+    <string name="scan_camera_flash">Blits</string>
+    <string name="scan_camera_auto_capture">Automatisk opptak</string>
+    <string name="scan_camera_settings">Innstillinger</string>
+    <string name="scan_camera_ready_batch">Klar til å skanne flere sider</string>
+    <string name="scan_camera_ready_multiple">Klar til å skanne flere sider</string>
+    <string name="scan_camera_hold_steady">Hold stødig mens du skanner</string>
+    <string name="scan_camera_captured_pages">%1$d sider er tatt</string>
+    <string name="scan_camera_mode_single">Enkelt</string>
+    <string name="scan_camera_mode_batch">Gruppe</string>
+    <string name="scan_camera_preview">Forhåndsvisning</string>
+    <string name="scan_camera_finish">Fullfør</string>
+    <string name="scan_camera_starting">Starter kameraet...</string>
+    <string name="scan_camera_document_name">Dokumentnavn</string>
+    <string name="scan_camera_document_name_empty">Dokumentnavnet kan ikke være tomt</string>
+    <string name="scan_camera_save_document">Lagre dokument</string>
+    <string name="scan_camera_processing">Behandling...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Beskjær &amp; Juster</string>
+    <string name="scan_crop_close">Lukke</string>
+    <string name="scan_crop_reset">Tilbakestill</string>
+    <string name="scan_crop_rotate">Rotere</string>
+    <string name="scan_crop_done">Ferdig</string>
+    <string name="scan_crop_scanned_document">Skannet dokument</string>
+    <string name="scan_crop_magnified_view">Forstørret visning</string>
+    <string name="scan_crop_processing">Behandling...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Forbedre</string>
+    <string name="scan_filter_close">Lukke</string>
+    <string name="scan_filter_rotate">Rotere</string>
+    <string name="scan_filter_done">Ferdig</string>
+    <string name="scan_filter_filters">Filtre</string>
+    <string name="scan_filter_original">Opprinnelig</string>
+    <string name="scan_filter_magic">Magi</string>
+    <string name="scan_filter_lighten">Lysere</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">Gråskala</string>
+    <string name="scan_filter_magic_2">Rengjør dokumentet</string>
+    <string name="scan_filter_soft_scan">Myk skanning</string>
+    <string name="scan_filter_color_enhance">Farge+</string>
+    <string name="scan_filter_ink_saver">Blekksparer</string>
+    <string name="scan_filter_premium">Premium-funksjon</string>
+    <string name="scan_filter_filtered_document">Filtrert dokument</string>
+    <string name="scan_filter_applying">Bruker filteret ...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Kansellere</string>
+    <string name="scan_share">Dele</string>
+    <string name="scan_move">Flytte</string>
+    <string name="scan_move_to_folder">Flytt til mappe</string>
+    <string name="scan_delete">Slett</string>
+    <string name="scan_rename">Gi nytt navn</string>
+    <string name="scan_root">Rot</string>
+    <string name="scan_select_destination">Velg en målmappe</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Dokument</string>
+    <string name="scan_document_back">Tilbake</string>
+    <string name="scan_document_pages">sider</string>
+    <string name="scan_document_add_pages">Legg til sider i dette dokumentet</string>
+    <string name="scan_document_add_page_button">Legg til side</string>
+    <string name="scan_document_rename">Gi nytt navn</string>
+    <string name="scan_document_share">Dele</string>
+    <string name="scan_document_more">Flere</string>
+    <string name="scan_document_pages_count">%1$d sider</string>
+    <string name="scan_document_no_pages">Ingen sider ennå</string>
+    <string name="scan_document_scan_page">Skann side</string>
+    <string name="scan_document_import_page">Importer fra galleriet</string>
+    <string name="scan_document_grid_view">Rutenettvisning</string>
+    <string name="scan_document_list_view">Listevisning</string>
+    <string name="scan_document_continuous_view">Kontinuerlig visning</string>
+    <string name="scan_document_page_number">Side %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Side</string>
+    <string name="scan_page_back">Tilbake</string>
+    <string name="scan_page_share">Dele</string>
+    <string name="scan_page_delete">Slett</string>
+    <string name="scan_page_of">%1$d av %2$d</string>
+    <string name="scan_page_image_not_found">Bildet ble ikke funnet</string>
+    <string name="scan_page_retake">Ta på nytt</string>
+    <string name="scan_page_crop">Avling</string>
+    <string name="scan_page_enhance">Forbedre</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">Lagre i galleriet</string>
+    <string name="scan_page_saved_to_gallery">Bilde lagret i galleriet</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Slette dokument?</string>
+    <string name="scan_delete_document_message">Er du sikker på at du vil slette «%1$s»? Dette vil slette alle sidene i dette dokumentet permanent. Denne handlingen kan ikke angres.</string>
+    <string name="scan_rename_document">Gi nytt navn til dokumentet</string>
+    <string name="scan_rename_enter_name">Skriv inn et nytt navn for dokumentet</string>
+    <string name="scan_rename_document_name">Dokumentnavn</string>
+    <string name="scan_rename_error">Dokumentnavnet kan ikke være tomt</string>
+    <string name="scan_dialog_delete_document_title">Slette dokument?</string>
+    <string name="scan_dialog_delete_document_message">Er du sikker på at du vil slette «%1$s»? Dette vil slette alle sidene i dette dokumentet permanent. Denne handlingen kan ikke angres.</string>
+    <string name="scan_dialog_delete_confirm">Slett</string>
+    <string name="scan_dialog_cancel">Kansellere</string>
+    <string name="scan_dialog_move_title">Flytt til mappe</string>
+    <string name="scan_dialog_move_message">Velg en målmappe</string>
+    <string name="scan_dialog_move_confirm">Flytte</string>
+    <string name="scan_dialog_move_root">Rot</string>
+    <string name="scan_dialog_move_selected">Valgt</string>
+    <string name="scan_dialog_rename_title">Gi nytt navn til dokumentet</string>
+    <string name="scan_dialog_rename_message">Skriv inn et nytt navn for dokumentet</string>
+    <string name="scan_dialog_rename_label">Dokumentnavn</string>
+    <string name="scan_dialog_rename_error">Dokumentnavnet kan ikke være tomt</string>
+    <string name="scan_dialog_rename_confirm">Gi nytt navn</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Dele</string>
+    <string name="scan_menu_move">Flytt til mappe</string>
+    <string name="scan_menu_delete">Slett</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Kameraforhåndsvisning\n(Kommer snart)</string>
+    <string name="scan_platform_desktop_camera">Forhåndsvisning av skrivebordskamera\n(Kommer snart)</string>
+    <string name="scan_platform_ios_camera">Forhåndsvisning av iOS-kamera\n(Kommer snart)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Lukke</string>
+    <string name="flash">Blits</string>
+    <string name="auto_capture">Automatisk opptak</string>
+    <string name="settings">Innstillinger</string>
+    <string name="capture">Opptak</string>
+    <string name="finish">Fullfør</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Er du sikker på at du vil slette %1? Alle dokumentene inni vil også bli slettet.</string>
+    <string name="share">Dele</string>
+    <string name="share_as_images">Del som bilder</string>
+    <string name="share_as_pdf">Del som PDF</string>
+    <string name="move_to_folder">Flytt til mappe</string>
+    <string name="delete">Slett</string>
+    <string name="selected">Valgt</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Side %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">Mappen er tom</string>
+    <string name="tap_the__button_to_scan_a_docu">Trykk på +-knappen for å skanne et dokument</string>
+    <string name="str______pages">%1$s • %2$s • %3$s sider</string>
+    <string name="create_folder">Opprett mappe</string>
+    <string name="more_options">Flere alternativer</string>
+    <string name="document_thumbnail">Dokumentminiatyrbilde</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Bildet ble ikke funnet</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Side %2$d</string>
+    <string name="scan_ocr_title">Tekstgjenkjenning</string>
+    <string name="scan_ocr_copy">Kopier tekst</string>
+    <string name="scan_ocr_no_text">Ingen tekst funnet</string>
+    <string name="scan_ocr_processing">Gjenkjenne tekst…</string>
+    <string name="scan_ocr_error">Kunne ikke gjenkjenne teksten</string>
+    <string name="scan_ocr_not_supported">OCR støttes ikke på denne plattformen</string>
+    <string name="scan_ocr_image">Skannet side for OCR</string>
+    <string name="gallery">Galleri</string>
+    <string name="select_file">Velg fil</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Kunne ikke ta bilde</string>
+    <string name="error_no_images_captured">Ingen bilder tatt</string>
+    <string name="error_open_settings">Kunne ikke åpne innstillingene</string>
+    <string name="error_process_images">Kunne ikke behandle bilder</string>
+    <string name="error_process_image">Kunne ikke behandle bildet</string>
+    <string name="error_start_camera">Kunne ikke starte kameraet</string>
+    <string name="error_stop_camera">Klarte ikke å stoppe kameraet</string>
+    <string name="error_crop_image">Kunne ikke beskjære bildet</string>
+    <string name="error_delete_document">Kunne ikke slette dokumentet</string>
+    <string name="error_delete_page">Kunne ikke slette siden</string>
+    <string name="error_load_document">Kunne ikke laste inn dokumentet</string>
+    <string name="error_load_page">Kunne ikke laste inn siden</string>
+    <string name="error_move_document">Kunne ikke flytte dokumentet</string>
+    <string name="error_no_pages_to_share">Ingen sider å dele</string>
+    <string name="error_rename_document">Kunne ikke gi nytt navn til dokumentet</string>
+    <string name="error_reorder_pages">Kunne ikke endre rekkefølgen på sidene</string>
+    <string name="error_share_images">Kunne ikke dele bilder</string>
+    <string name="error_share_pdf">Kunne ikke dele PDF-filen</string>
+    <string name="error_share_page">Kunne ikke dele siden</string>
+    <string name="error_create_folder">Kunne ikke opprette mappen</string>
+    <string name="error_delete_folder">Kunne ikke slette mappen</string>
+    <string name="error_rename_folder">Kunne ikke gi nytt navn til mappen</string>
+    <string name="error_unknown">Det oppsto en ukjent feil</string>
+    <string name="folder_not_found">Mappen ble ikke funnet</string>
+    <string name="sync_documents">Synkroniser dokumenter</string>
+    <string name="shutter_scale">lukkerskala</string>
+    <string name="import_gallery">Importer galleri</string>
+    <string name="scan_camera">Skann kamera</string>
+</resources>

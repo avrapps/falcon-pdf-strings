@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">Ellenőrizd az internetkapcsolatodat, és győződj meg róla, hogy hozzá van adva Google-fiók az eszközödhöz, majd próbáld újra.</string>
+    <string name="sign_in_with_apple">Bejelentkezés Apple-lel</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">Fejleszd az élményed</string>
+    <string name="purchase_screen_close">Közeli</string>
+    <string name="purchase_screen_refresh">Frissítés</string>
+    <string name="purchase_sync_status">Utolsó szinkronizálás: %1s</string>
+    <string name="purchase_current_plan">Jelenlegi</string>
+    <string name="purchase_syncing">Szinkronizálás…</string>
+    <string name="purchase_loading">…betöltése</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">Ingyenes csomag</string>
+    <string name="purchase_pro_plan">Pro kiadás</string>
+    <string name="purchase_pro_tagline">Fizess egyszer. Birtokold örökre.</string>
+    <string name="purchase_premium_plan">Prémium előfizetés</string>
+    <string name="purchase_premium_tagline">Minden a Pro verzióban, plusz mesterséges intelligencia &amp; Felhő</string>
+    <string name="purchase_recommended">Ajánlott</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">AI hangos olvasás – Hallgassa meg a PDF-eket természetesen</string>
+    <string name="purchase_pro_feature_2">Teljes PDF szerkesztés &amp; Űrlapkitöltés</string>
+    <string name="purchase_pro_feature_3">Eszközök közötti szinkronizálás a Drive-on keresztül</string>
+    <string name="purchase_pro_feature_4">Hirdetésmentes, vízjelmentes a szkenneléseken</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">MI-összefoglalók erősebb érveléssel</string>
+    <string name="purchase_premium_feature_1_desc">Mélyebb válaszok hosszabb, összetett dokumentumokból</string>
+    <string name="purchase_premium_feature_2_title">5 GB-os Falcon Cloud</string>
+    <string name="purchase_premium_feature_2_desc">Személyes PDF-könyvtár, szinkronizálva és biztonságosan</string>
+    <string name="purchase_premium_feature_3_title">Nincsenek korlátok több mint 60 PDF eszközre</string>
+    <string name="purchase_premium_feature_3_desc">Minden eszköz, mindig kéznél</string>
+    <string name="purchase_premium_feature_4_title">Teljes szöveg szerkesztése PDF fájlokban</string>
+    <string name="purchase_premium_feature_4_desc">Szöveg közvetlen szerkesztése, mint egy szövegszerkesztőben</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">Vásároljon Pro-t</string>
+    <string name="purchase_sign_in_buy">Bejelentkezés &amp; Vásárlás</string>
+    <string name="purchase_sign_in_subscribe">Bejelentkezés &amp; Feliratkozás</string>
+    <string name="purchase_subscribe">Feliratkozás</string>
+    <string name="purchase_start_trial">Indítsa el a 7 napos ingyenes próbaidőszakot</string>
+    <string name="purchase_view_all_features">Az összes funkció megtekintése</string>
+    <string name="purchase_show_more">Mutass többet</string>
+    <string name="purchase_show_less">Kevesebb megjelenítése</string>
+    <string name="purchase_see_all_features">Az összes funkció megtekintése</string>
+    <string name="purchase_manage_subscription">Előfizetés kezelése</string>
+    <string name="purchase_restore_purchases">Vásárlások visszaállítása</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">Havi</string>
+    <string name="purchase_billing_yearly">Évi</string>
+    <string name="purchase_save_badge">Spóroljon 40%-ot</string>
+    <string name="purchase_lifetime">Élettartam</string>
+    <string name="purchase_per_year">/év</string>
+    <string name="purchase_per_month">/hónap</string>
+    <string name="purchase_trial_terms">Bármikor lemondható. Megújul, kivéve, ha a próbaidőszak lejárta előtt 24 órával lemondják.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">Nem sikerült betölteni a termékeket. Ellenőrizd a bejelentkezést és az internetkapcsolatot.</string>
+    <string name="purchase_error_network">Megszakadt a kapcsolat. Ellenőrizd az internetkapcsolatodat, és próbáld újra.</string>
+    <string name="purchase_error_payment_declined">Fizetési mód elutasítva. Kérjük, frissítse fizetési adatait.</string>
+    <string name="purchase_error_server">Valami hiba történt. Kérjük, próbáld újra később.</string>
+    <string name="purchase_error_rate_limit">Túl sok frissítési kísérlet. Kérjük, várjon.</string>
+    <string name="purchase_error_offline">Nincs internetkapcsolat. A gyorsítótárazott adatok láthatók.</string>
+    <string name="purchase_error_product_refresh">Nem sikerült ellenőrizni a terméket. Kérjük, próbálja újra.</string>
+    <string name="purchase_error_generic">Hiba történt. Kérjük, próbálja újra.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">Szolgáltatási feltételek</string>
+    <string name="purchase_privacy_policy">Adatvédelmi irányelvek</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">Vásárlási előzmények</string>
+    <string name="free_trial">Ingyenes próbaverzió</string>
+    <string name="no_purchase_history">Nincsenek vásárlási előzmények</string>
+    <string name="you_havent_made_any_purchases_">Még nem vásároltál semmit.</string>
+    <string name="error">Hiba</string>
+    <string name="retry">Újrapróbálkozás</string>
+    <string name="back">Vissza</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">Fejleszd az élményed</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">Vásárlások visszaállítása</string>
+    <string name="close_purchase_screen">Vásárlási képernyő bezárása</string>
+    <string name="help">Segítség</string>
+    <string name="more_options">További lehetőségek</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">Frissítés</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">Aktív</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s AKTÍV</string>
+    <string name="premium_benefits">PRÉMIUM JUTTATÁSOK</string>
+    <string name="manage_subscription">Előfizetés kezelése</string>
+    <string name="next_billing_date__manage_your">Következő számlázási dátum: %1$s. Számlázási adatait és lemondását a Play Áruház fiókbeállításaiban kezelheti.</string>
+    <string name="purchase_expires_">Vásárlás lejár: %1$s</string>
+    <string name="falcon_pdf_pro">Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">Falcon PDF Prémium (Havi)</string>
+    <string name="falcon_pdf_premium_yearly">Falcon PDF Prémium (Éves)</string>
+    <string name="pro">PROFESSZIONÁLIS</string>
+    <string name="premium">PRÉMIUM</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">Szerezd meg a Falcon PDF Pro vagy Premium verziót</string>
+    <string name="purchase_desktop_subtitle">A vásárlásokat weboldalunkon kezeljük. Kattintson az alábbi lehetőségekre a csomagok és az árak megtekintéséhez.</string>
+    <string name="purchase_desktop_open_website">Csomagok megtekintése &amp; Árazás</string>
+    <string name="purchase_desktop_already_purchased">Már megvásároltad? Jelentkezz be a csomagod szinkronizálásához.</string>
+    <string name="purchase_store_build_subtitle">Előfizetése feloldja a Pro funkciókat minden eszközén. Jelentkezzen be a csomag szinkronizálásához.</string>
+    <string name="ai_read_aloud">AI hangos olvasás</string>
+    <string name="full_pdf_editing__form_filling">Teljes PDF szerkesztés &amp; Űrlapkitöltés</string>
+    <string name="crossdevice_sync_via_drive">Eszközök közötti szinkronizálás a Drive-on keresztül</string>
+    <string name="adfree_no_watermark">Hirdetésmentes, vízjelmentes</string>
+    <string name="export_to_word__excel">Exportálás Wordbe &amp; Excelbe</string>
+    <string name="multiple_themes__page_backgrounds">Több téma &amp; Oldal hátterek</string>
+    <string name="ai_summaries_with_stronger_reasoning">MI-összefoglalók erősebb érveléssel</string>
+    <string name="no_limits_on_60_pdf_tools">Nincsenek korlátok több mint 60 PDF eszközre</string>
+    <string name="full_text_editing_in_pdfs">Teljes szöveg szerkesztése PDF fájlokban</string>
+    <string name="digital_signatures_dscesign">Digitális aláírások (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">Korlátlan szkennelt dokumentum szinkronizálás</string>
+    <string name="biometric_document_lock">Biometrikus dokumentumzár</string>
+    <string name="everything_in_pro_all_devices">Minden a Pro-ban, minden eszközön</string>
+    <string name="introductory_offer">Bevezető ajánlat</string>
+    <string name="limited_time__30_off">Korlátozott ideig – 30% kedvezmény</string>
+    <string name="date__time">Dátum &amp; Időpont</string>
+    <string name="amount">Összeg</string>
+    <string name="platform">Platform</string>
+    <string name="type">Típus</string>
+    <string name="expires_on">Lejár:</string>
+</resources>

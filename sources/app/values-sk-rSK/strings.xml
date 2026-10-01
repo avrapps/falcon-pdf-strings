@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">PDF mágia</string>
+    <string name="app_tagline">Čo by si chcel/a robiť?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">Naposledy použité</string>
+    <string name="home_favorites">Obľúbené</string>
+    <string name="home_new_tool">Nový nástroj</string>
+    <string name="home_featured">VYBRANÉ</string>
+    <string name="home_scan_to_pdf">Skenovať do PDF</string>
+    <string name="home_scan_description">Premeňte papierové dokumenty okamžite na digitálnu mágiu</string>
+    <string name="home_start_scanning">Spustiť skenovanie</string>
+    <string name="home_all_tools">Všetky nástroje</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">Nástroje pre PDF</string>
+    <string name="image_tools">Nástroje pre obrázky</string>
+    <string name="tools_split">Rozdeliť</string>
+    <string name="tools_split_description">Extrahovať stránky</string>
+    <string name="tools_rotate">Otočiť</string>
+    <string name="tools_rotate_description">Oprava orientácie</string>
+    <string name="tools_delete_pages">Odstrániť stránky</string>
+    <string name="tools_delete_pages_description">Odstráňte nežiaduce</string>
+    <string name="tools_convert">Konvertovať</string>
+    <string name="tools_convert_description">Do/z obrázkov</string>
+    <string name="tools_sign">Prihlásiť sa</string>
+    <string name="tools_sign_description">Pridať podpis</string>
+    <string name="tools_protect">Chrániť</string>
+    <string name="tools_protect_description">Zabezpečenie heslom</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">Prehliadač PDF</string>
+    <string name="pdf_viewer_page_info">Strana %1$d z %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">Skener dokumentov</string>
+    <string name="scanner_capture">Zachytiť</string>
+    <string name="scanner_retake">Znovu natočiť</string>
+    <string name="scanner_save">Uložiť</string>
+    <!-- Navigation -->
+    <string name="nav_back">Navigácia späť</string>
+    <string name="nav_settings">Nastavenia</string>
+    <string name="nav_more_options">Viac možností</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Domov</string>
+    <string name="nav_library">Knižnica</string>
+    <string name="nav_scan">Skenovať</string>
+    <string name="nav_tools">Nástroje</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">Prehliadať súbory</string>
+    <string name="browse_files_subtitle">Úložisko &amp; Cloudové súbory</string>
+    <string name="show_hidden_files">Zobraziť skryté súbory</string>
+    <string name="hide_hidden_files">Skryť skryté súbory</string>
+    <string name="refresh_storage">Obnoviť úložisko</string>
+    <string name="no_storage_available">Nie je k dispozícii žiadny úložný priestor</string>
+    <string name="no_files_found">Nenašli sa žiadne súbory</string>
+    <string name="add_files">Pridať súbory %1$d</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">Vyžaduje sa povolenie na ukladanie</string>
+    <string name="permission_storage_message">Táto aplikácia potrebuje prístup k úložisku vášho zariadenia na prehliadanie a otváranie súborov PDF. Ak chcete pokračovať, udeľte jej povolenie na prístup k úložisku.</string>
+    <string name="permission_grant">Udeliť povolenie</string>
+    <!-- Common Actions -->
+    <string name="action_open">OTVORENÉ</string>
+    <string name="action_save">Uložiť</string>
+    <string name="action_share">Zdieľať</string>
+    <string name="action_delete">Odstrániť</string>
+    <string name="action_cancel">Zrušiť</string>
+    <string name="action_confirm">Potvrdiť</string>
+    <string name="action_rename">Premenovať</string>
+    <string name="action_print">Tlačiť</string>
+    <string name="action_favorite">Obľúbené</string>
+    <string name="action_unfavorite">Odstrániť z obľúbených</string>
+    <!-- Document Actions -->
+    <string name="document_share">Zdieľať dokument</string>
+    <string name="document_rename">Premenovať dokument</string>
+    <string name="document_delete">Odstrániť dokument</string>
+    <string name="document_print">Tlač dokumentu</string>
+    <string name="document_favorite">Pridať k obľúbeným</string>
+    <string name="document_unfavorite">Odstrániť z obľúbených</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">Dokument bol úspešne zdieľaný</string>
+    <string name="document_share_failed">Zdieľanie dokumentu zlyhalo</string>
+    <string name="document_renamed_success">Dokument bol úspešne premenovaný</string>
+    <string name="document_rename_failed">Premenovanie dokumentu zlyhalo</string>
+    <string name="document_deleted_success">Dokument bol úspešne odstránený</string>
+    <string name="document_delete_failed">Dokument sa nepodarilo odstrániť</string>
+    <string name="document_print_opened">Dokument otvorený v predvolenom prehliadači PDF. Na tlač použite funkciu tlače v prehliadači.</string>
+    <string name="document_print_failed">Tlač dokumentu zlyhala</string>
+    <string name="document_added_to_favorites">Pridané k obľúbeným</string>
+    <string name="document_removed_from_favorites">Odstránené z obľúbených</string>
+    <string name="document_favorite_failed">Nepodarilo sa aktualizovať stav obľúbených</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">Premenovať dokument</string>
+    <string name="dialog_rename_hint">Zadajte nové meno</string>
+    <string name="dialog_rename_empty_error">Názov dokumentu nemôže byť prázdny</string>
+    <string name="dialog_delete_title">Odstrániť dokument</string>
+    <string name="dialog_delete_file_message">Týmto sa súbor natrvalo vymaže.\n\nVymazať %1$s?</string>
+    <string name="dialog_delete_uri_message">Odstráni iba z aplikácie. Pôvodný súbor sa nezmení.\n\nOdstrániť %1$s z aplikácie?</string>
+    <string name="dialog_delete_confirm">Odstrániť</string>
+    <string name="dialog_remove_confirm">Odstrániť</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">Premenuje iba v rámci aplikácie. Pôvodný súbor zostáva nezmenený.</string>
+    <string name="notice_delete_uri_only">Odstránené z aplikácie. Pôvodný súbor zostal nezmenený.</string>
+    <string name="notice_file_exists_error">Súbor s týmto názvom už existuje</string>
+    <string name="notice_file_not_found_error">Súbor sa nenašiel</string>
+    <string name="notice_no_active_document">Žiadny aktívny dokument</string>
+    <string name="notice_document_path_unavailable">Cesta k súboru dokumentu nie je k dispozícii</string>
+    <!-- States -->
+    <string name="state_loading">Načítava sa...</string>
+    <string name="state_empty">Nenašli sa žiadne položky</string>
+    <string name="state_error">Niečo sa pokazilo</string>
+    <string name="state_retry">Skúsiť znova</string>
+    <!-- Errors -->
+    <string name="error_network">Sieťové pripojenie zlyhalo</string>
+    <string name="error_file_not_found">Súbor sa nenašiel</string>
+    <string name="error_permission_denied">Povolenie zamietnuté</string>
+    <string name="error_invalid_file">Neplatný formát súboru</string>
+    <string name="error_password_required">Vyžaduje sa heslo</string>
+    <string name="error_incorrect_password">Nesprávne heslo</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">Chránené heslom</string>
+    <string name="password_protected_message">Na otvorenie tohto súboru je potrebné heslo. Zadajte ho nižšie.</string>
+    <string name="password_label">Heslo</string>
+    <string name="password_placeholder">Zadajte heslo</string>
+    <string name="password_unlock">Odomknúť</string>
+    <string name="password_show">Zobraziť heslo</string>
+    <string name="password_hide">Skryť heslo</string>
+    <!-- Theme -->
+    <string name="theme_light">Svetlo</string>
+    <string name="theme_dark">Tmavé</string>
+    <string name="theme_system">Systém</string>
+    <string name="theme_adaptive">Adaptívne</string>
+    <string name="theme_custom">Vlastné</string>
+    <!-- Settings -->
+    <string name="settings_title">Predvoľby</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">Účet &amp; Synchronizácia</string>
+    <string name="settings_category_sync_subtitle">Spravujte svoj účet, synchronizujte &amp; súkromie</string>
+    <string name="settings_category_appearance_title">Vzhľad</string>
+    <string name="settings_category_appearance_subtitle">Prispôsobte si vzhľad aplikácie &amp; dojem</string>
+    <string name="settings_category_pdf_reader_title">Čítačka PDF</string>
+    <string name="settings_category_pdf_reader_subtitle">Predvolený prehliadač &amp; čitateľský zážitok</string>
+    <string name="settings_category_help_title">Pomoc &amp; Podpora</string>
+    <string name="settings_category_help_subtitle">Dokumentácia &amp; kontakt</string>
+    <string name="settings_category_general_title">Všeobecné</string>
+    <string name="settings_category_general_subtitle">Informácie o aplikácii pre jazyk &amp;</string>
+    <string name="settings_theme_section">Téma</string>
+    <string name="settings_theme_description">Vyberte si preferovanú tému</string>
+    <string name="settings_accent_color">AKCENTNÁ FARBA</string>
+    <string name="settings_custom_colors">Vlastné farby</string>
+    <string name="settings_primary_color">Primárna farba</string>
+    <string name="settings_background_color">Farba pozadia</string>
+    <string name="settings_surface_color">Farba povrchu</string>
+    <string name="settings_reset_colors">Obnoviť na predvolené</string>
+    <string name="settings_adaptive_note">Adaptívne farby Material You (Android 12+)</string>
+    <string name="settings_app_section">Nastavenia aplikácie</string>
+    <string name="settings_notifications">Upozornenia</string>
+    <string name="settings_notifications_description">Dostávať upozornenia aplikácií</string>
+    <string name="settings_auto_backup">Automatické zálohovanie</string>
+    <string name="settings_auto_backup_description">Automatické zálohovanie dokumentov</string>
+    <string name="settings_change_color">Zmeniť farbu</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">Vaše PDF dokumenty sa zobrazia tu</string>
+    <string name="scan_description">Skenovanie dokumentov do PDF</string>
+    <string name="tools_description">Nástroje na úpravu a manipuláciu s PDF</string>
+    <string name="home_description">Na prístup k funkciám použite spodnú navigáciu</string>
+    <!-- Sort Options -->
+    <string name="sort_name">Meno</string>
+    <string name="sort_date">Dátum</string>
+    <string name="sort_size">Veľkosť</string>
+    <string name="sort_option_name">Meno</string>
+    <string name="sort_option_last_opened">Naposledy otvorené</string>
+    <string name="sort_option_last_modified">Naposledy upravené</string>
+    <string name="sort_option_file_size">Veľkosť súboru</string>
+    <!-- View Types -->
+    <string name="view_type_list">Zobrazenie zoznamu</string>
+    <string name="view_type_table">Zobrazenie tabuľky</string>
+    <string name="view_type_grid">Zobrazenie mriežky</string>
+    <!-- File Properties -->
+    <string name="file_name">Názov súboru</string>
+    <string name="date_modified">Dátum úpravy</string>
+    <string name="file_size">Veľkosť</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">Nezačaté</string>
+    <string name="file_status_completed">Dokončené</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">PDF dokument</string>
+    <string name="document_type_word">Wordový dokument</string>
+    <string name="document_type_excel">Tabuľkový procesor Excelu</string>
+    <string name="document_type_image">Súbor s obrázkom</string>
+    <string name="document_type_other">Dokument</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">Všetky súbory</string>
+    <string name="filter_recent">Nedávne</string>
+    <string name="filter_pdfs">PDF súbory</string>
+    <string name="filter_images">Obrázky</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">Domov</string>
+    <string name="browse_tab">Prehliadať</string>
+    <string name="starred_tab">Označené hviezdičkou</string>
+    <string name="settings_tab">Nastavenia</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">Prepnúť tému</string>
+    <string name="accessibility_menu">Menu</string>
+    <string name="accessibility_close">Zatvoriť</string>
+    <string name="accessibility_color_picker">Výber farby</string>
+    <!-- Library Screen -->
+    <string name="library_title">Knižnica</string>
+    <string name="library_subtitle">Správa súborov, Nedávne &amp; Obľúbené</string>
+    <string name="library_search_placeholder">Hľadať súbory...</string>
+    <string name="library_selected_count">%1$d vybrané</string>
+    <string name="library_open_from_device">Otvoriť zo zariadenia\n</string>
+    <string name="library_browse_files">Prehliadať súbory\n</string>
+    <string name="library_action_open">OTVORENÉ</string>
+    <string name="library_action_share">Zdieľať</string>
+    <string name="library_action_remove">Odstrániť</string>
+    <string name="library_action_delete">Odstrániť</string>
+    <string name="library_clear_search">Vymazať vyhľadávanie</string>
+    <string name="library_close_search">Zatvoriť vyhľadávanie</string>
+    <string name="library_select_all">Vybrať všetky súbory</string>
+    <string name="library_exit_multiselect">Ukončiť režim viacnásobného výberu</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">Pomocník &amp; Podpora</string>
+    <string name="help_support_subtitle">Často kladené otázky, Kontakt &amp; Právne informácie</string>
+    <string name="settings_pdf_subtitle">Posúvanie, Zobrazenie &amp; Rozloženie</string>
+    <string name="help_header_title">Ako môžeme pomôcť?</string>
+    <string name="help_header_subtitle">Náš tím je tu, aby vám zabezpečil\nnajlepší zážitok z PDF.</string>
+    <string name="help_contact_us">Kontaktujte nás</string>
+    <string name="help_contact_subtitle">Kontaktujte podporu</string>
+    <string name="help_faq">Často kladené otázky</string>
+    <string name="help_faq_subtitle">Odpovede na bežné otázky</string>
+    <string name="help_privacy_policy">Zásady ochrany osobných údajov</string>
+    <string name="help_privacy_subtitle">Ako chránime vaše údaje</string>
+    <string name="help_terms_service">Podmienky služby</string>
+    <string name="help_terms_subtitle">Pravidlá aplikácie</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">Synchronizácia cez mobilné dáta</string>
+    <string name="background_sync">Synchronizácia na pozadí</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">Nastavenia čítačky PDF</string>
+    <string name="pdf_settings_coming_soon">Čoskoro</string>
+    <string name="pdf_settings_description">Konfigurácia správania sa pri posúvaní, režimov zobrazenia a preferencií čítania</string>
+    <!-- General Settings -->
+    <string name="settings_language">Jazyk</string>
+    <string name="settings_pdf_reader">Nastavenia čítačky PDF</string>
+    <string name="settings_help_support">Pomocník &amp; Podpora</string>
+    <string name="settings_whats_new">Čo je nové</string>
+    <string name="settings_download_desktop">Inštalovať na iné zariadenie</string>
+    <string name="settings_rate_app">Ohodnoťte aplikáciu</string>
+    <string name="play_store_not_found">Obchod Play sa na tomto zariadení nenašiel</string>
+    <string name="settings_set_as_default">Nastaviť ako predvolený prehliadač PDF</string>
+    <string name="settings_set_as_default_subtitle">Otvárajte súbory PDF v tejto aplikácii predvolene</string>
+    <string name="settings_default_pdf_instructions_title">Ako nastaviť ako predvolené</string>
+    <string name="settings_default_pdf_ok">Rozumiem</string>
+    <string name="settings_default_app_hint">Nefungovalo to?</string>
+    <string name="settings_default_app_hint_learn_more">Zistite viac</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">Jazyk</string>
+    <string name="language_search_placeholder">Hľadať jazyky...</string>
+    <!-- Common UI -->
+    <string name="support">Podpora</string>
+    <string name="language_english">Angličtina</string>
+    <string name="language_hindi">Hindčina</string>
+    <string name="language_spanish">Španielčina</string>
+    <string name="language_french">Français</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">arabčina</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">Portugalčina</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">VZHĽAD APLIKÁCIE</string>
+    <string name="theme">TÉMA</string>
+    <string name="general">VŠEOBECNÉ</string>
+    <string name="new">NOVÉ</string>
+    <string name="navigate">Navigácia</string>
+    <string name="download">Stiahnuť</string>
+    <string name="falcon_pdf">PDF sokola</string>
+    <string name="excellence_in_every_pixel">Dokonalost v každom pixeli</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">POUŽIŤ ZMENY</string>
+    <string name="apply">Použiť</string>
+    <string name="selected">Vybrané</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">Nastavenia synchronizácie</string>
+    <string name="autosync_on_wifi">Automatická synchronizácia cez Wi-Fi</string>
+    <string name="sync_reading_progress">Synchronizácia priebehu čítania</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">Názov dokumentu</string>
+    <string name="name_cannot_be_empty">Názov nemôže byť prázdny</string>
+    <string name="str__failed">%1$s Zlyhalo</string>
+    <string name="ok">V poriadku</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">Plán inovácie – Aktuálny plán: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">Presunutím otvoríte súbor</string>
+    <string name="release_to_import_and_open_pdf">Uvoľnite pre import a otvorenie súborov PDF</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">Odstrániť</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF</string>
+    <string name="images">Obrázky</string>
+    <string name="filter_all_types">Všetky súbory</string>
+    <string name="favorites">Obľúbené súbory</string>
+    <string name="recent">Nedávne</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">Hľadať dokumenty...</string>
+    <string name="voice_search">Hlasové vyhľadávanie</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">Nedávne súbory</string>
+    <string name="loading_recent_files">Načítavajú sa nedávne súbory...</string>
+    <string name="no_recent_files">Žiadne nedávne súbory</string>
+    <string name="no_favorites">Žiadne obľúbené</string>
+    <string name="mark_files_as_favorite_to_see_them_here">Označte súbory ako obľúbené, aby sa tu zobrazovali</string>
+    <string name="open_some_pdf_files_to_see_the">Otvorte si niektoré súbory PDF a pozrite si ich tu</string>
+    <string name="status">Stav</string>
+    <string name="actions">Akcie</string>
+    <string name="select_all">Vybrať všetko</string>
+    <string name="enter_multiselect_mode">Prejsť do režimu viacnásobného výberu</string>
+    <string name="sorted_ascending">Zoradené vzostupne</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">Úložisko: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">Pridať súbory %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">Zmeniť typ zobrazenia</string>
+    <string name="filter_">Filter: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">Načítava sa PDF...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">Prihláste sa na synchronizáciu</string>
+    <string name="protect_your_library_files">Chráňte súbory svojej knižnice</string>
+    <string name="sign_in">Prihlásiť sa</string>
+    <string name="sign_out">Odhlásiť sa</string>
+    <string name="sign_in_dialog_title">Prihláste sa do Falcon PDF</string>
+    <string name="sign_in_dialog_subtitle">Vaša PDF knižnica, kdekoľvek.</string>
+    <string name="sign_in_with_google">Prihlásiť sa pomocou Googlu</string>
+    <string name="sign_in_with_apple">Prihlásiť sa pomocou Apple</string>
+    <string name="apple_user_drive_unavailable">Synchronizácia Disku Google nie je k dispozícii s prihlásením cez Apple</string>
+    <string name="apple_user_link_google">Prepojenie účtu Google pre synchronizáciu Disku</string>
+    <string name="apple_user_sync_info">Ak chcete povoliť synchronizáciu s cloudom, prepojte účet Google</string>
+    <string name="link_google_account">Prepojiť účet Google</string>
+    <string name="signed_in_successfully">Úspešné prihlásenie</string>
+    <string name="signed_out_successfully">Úspešné odhlásenie</string>
+    <string name="sync_disabled_free">Synchronizácia je pre bezplatné účty zakázaná.</string>
+    <string name="storage_disabled_grant_access">Úložisko je vypnuté. Ak chcete začať, povoľte prístup k disku.</string>
+    <string name="upgrade_to_pro">Prejdite na Pro verziu</string>
+    <string name="grant_drive_access">Udeliť prístup k disku</string>
+    <string name="files_synced">%1$d/%2$d Synchronizované súbory</string>
+    <string name="synced_count">%1$d Synchronizované</string>
+    <string name="unlimited_sync_active">NEOBMEDZENÁ SYNCHRONIZÁCIA</string>
+    <string name="missing_drive_permissions">Chýbajú povolenia Disku. Synchronizácia je momentálne blokovaná.</string>
+    <string name="drive_access_revoked">Prístup k Disku bol zrušený. Znova sa pripojte, aby ste obnovili synchronizáciu.</string>
+    <string name="upgrade_premium">Prémiový upgrade</string>
+    <string name="manage_account">Spravovať účet</string>
+    <string name="sync_now">Synchronizovať teraz</string>
+    <string name="tier_free">ZADARMO</string>
+    <string name="tier_pro">PROFESIONÁL</string>
+    <string name="tier_premium">PRÉMIOVÝ</string>
+    <string name="status_paused">POZASTAVENÉ</string>
+    <!-- Common -->
+    <string name="navigate_back">Navigácia späť</string>
+    <string name="dismiss">Zavrieť</string>
+    <string name="cancel">Zrušiť</string>
+    <string name="back">Späť</string>
+    <string name="search">Hľadať</string>
+    <string name="more_actions">Viac akcií</string>
+    <string name="share">Zdieľať</string>
+    <string name="delete">Odstrániť</string>
+    <string name="remove_from_recents">Odstrániť z nedávnych</string>
+    <string name="open">OTVORENÉ</string>
+    <string name="all">Všetky</string>
+    <string name="sort_by_">Zoradiť podľa %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Synchronizácia Disku Google</string>
+    <string name="syncing">Synchronizácia...</string>
+    <string name="sync_completed">Synchronizácia dokončená</string>
+    <string name="sync_failed">Synchronizácia zlyhala</string>
+    <string name="sync_limit_exceeded">Limit synchronizácie bol prekročený. Váš plán %s povoľuje %d súborov.</string>
+    <string name="sync_no_drive_access">Prístup k Disku Google nie je k dispozícii</string>
+    <string name="sync_network_unavailable">Sieť nie je k dispozícii</string>
+    <string name="sync_last_sync">Posledná synchronizácia: %s</string>
+    <string name="sync_total_files">Celkom</string>
+    <string name="sync_synced_files">Synchronizované</string>
+    <string name="sync_failed_files">Neúspešné</string>
+    <string name="sync_conflict_files">Konflikty</string>
+    <string name="sync_add_to_favorites">Pridať k obľúbeným</string>
+    <string name="sync_remove_from_favorites">Odstrániť z obľúbených</string>
+    <string name="sync_conflict_title">Konflikty synchronizácie</string>
+    <string name="sync_conflict_message">Nasledujúce súbory majú konflikty, ktoré je potrebné vyriešiť:</string>
+    <string name="sync_conflict_explanation">Ku konfliktom dochádza, keď boli upravené lokálne aj vzdialené verzie.</string>
+    <string name="sync_plan_limit">Synchronizácia: %d/%d</string>
+    <string name="sync_plan_limit_reached">Dosiahnutý limit</string>
+    <string name="sync_plan_unlimited">Neobmedzená synchronizácia</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">Preskočiť</string>
+    <string name="welcome_next">Ďalej</string>
+    <string name="welcome_get_started">Začať</string>
+    <string name="welcome_sign_in_get_started">Prihlásiť sa &amp; Začať</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Prečítajte si akýkoľvek dokument&lt;/b&gt; Okamžite</string>
+    <string name="welcome_slide1_description">Otvárajte a spravujte viac ako 10 formátov dokumentov vrátane PDF, DOC, EPUB a MOBI.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Čítajte PDF súbory, elektronické knihy&lt;/b&gt; a kancelárske dokumenty na jednom mieste</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Obľúbené&lt;/b&gt; dokumenty a prístup k nim na rôznych zariadeniach</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;Komentujte,&lt;/b&gt; zvýrazňujte a spolupracujte s ľahkosťou</string>
+    <string name="welcome_slide1_footer">Vaša univerzálna čítačka dokumentov</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;Upravujte, skenujte a organizujte&lt;/b&gt; súbory PDF</string>
+    <string name="welcome_slide2_description">Všetko, čo potrebujete na vytváranie, úpravu a správu PDF súborov v jednej výkonnej sade nástrojov.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;Upravovať text,&lt;/b&gt; pridávať anotácie, zvýrazňovať a vypĺňať formuláre</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Skenujte dokumenty&lt;/b&gt; a okamžite ich premeňte na PDF súbory</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;Viac ako 30 nástrojov&lt;/b&gt; vrátane zlúčenia, konverzie, kompresie a zabezpečenia</string>
+    <string name="welcome_slide2_footer">Váš univerzálny pracovný priestor pre PDF</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;UI, ktorá rozumie&lt;/b&gt; vašim dokumentom</string>
+    <string name="welcome_slide3_description">Ušetrite hodiny s umelou inteligenciou, ktorá za vás číta a analyzuje dokumenty.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Zhrňte&lt;/b&gt; dlhé dokumenty za pár sekúnd</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; naskenované stránky a okamžitý preklad textu</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Počúvajte&lt;/b&gt; dokumenty so vstavanou funkciou čítania nahlas</string>
+    <string name="welcome_slide3_footer">Žiadne reklamy. Len produktivita.</string>
+    <string name="grace">MILOSŤ</string>
+    <string name="unable_to_verify_subscription_limited_ac">Nepodarilo sa overiť odber. Obmedzený prístup do obnovenia pripojenia.</string>
+    <string name="retry_verification">Opakujte overenie</string>
+    <string name="guest_state">Hosťovský štát</string>
+    <string name="free_tier">Bezplatná úroveň</string>
+    <string name="free_tier__locked">Bezplatná úroveň – uzamknutá</string>
+    <string name="pro_tier">Profesionálna úroveň</string>
+    <string name="pro_tier__restricted">Profesionálna úroveň – Obmedzené</string>
+    <string name="premium_tier">Prémiová úroveň</string>
+    <string name="premium_tier__error">Prémiová úroveň – Chyba</string>
+    <string name="refresh_plan_status">Obnoviť stav plánu</string>
+    <string name="user_avatar">Avatar používateľa</string>
+    <string name="debug_tools">Nástroje na ladenie</string>
+    <string name="authentication__drive">Autentifikácia &amp; Disk</string>
+    <string name="auth_state">Stav autorizácie</string>
+    <string name="revoke_drive_access">Zrušiť prístup k disku</string>
+    <string name="image">Obrázok</string>
+    <string name="thumbnail">Miniatúra</string>
+    <string name="manage_preferences">Spravovať nastavenia</string>
+    <string name="tools_history">História nástrojov</string>
+    <string name="manage_recent_logs">Spravovať nedávne protokoly</string>
+    <string name="more_options">Viac možností</string>
+    <string name="clear_all_history">Vymazať celú históriu</string>
+    <string name="no_history_yet">Zatiaľ žiadna história</string>
+    <string name="your_pdf_tool_operations_will_appear_her">Tu sa zobrazia vaše operácie s nástrojom PDF</string>
+    <string name="view">Zobraziť</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">Uložené %1$s</string>
+    <string name="history_status_processing">Spracovanie</string>
+    <string name="history_status_succeeded">ÚSPEŠNÉ</string>
+    <string name="history_status_failed">NEÚSPEŠNÉ</string>
+    <string name="history_status_processing_upper">SPRACOVANIE</string>
+    <string name="history_unknown_files">Neznáme súbory</string>
+    <string name="history_op_complete">%1$s Hotovo!</string>
+    <string name="history_op_failed">%1$s Zlyhalo</string>
+    <string name="history_op_success_multiple">Operácia bola úspešne dokončená s %1$d súbormi</string>
+    <string name="history_op_success_single">Operácia bola úspešne dokončená</string>
+    <string name="history_op_error">Operáciu sme nedokázali dokončiť</string>
+    <string name="history_multiple_files">%1$d súbory</string>
+    <string name="history_failed">Neúspešné</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">Synchronizácia s cloudom</string>
+    <string name="cloud_sync_subtitle">Pripojené zariadenia</string>
+    <string name="cloud_sync_all_synced">Všetky súbory synchronizované</string>
+    <string name="cloud_sync_syncing">Synchronizácia…</string>
+    <string name="cloud_sync_pending">Čaká sa na synchronizáciu</string>
+    <string name="cloud_sync_last_sync">Posledná synchronizácia: %1$s</string>
+    <string name="cloud_sync_never_synced">Nikdy nesynchronizované</string>
+    <string name="cloud_sync_recent_activity">Nedávna aktivita synchronizácie</string>
+    <string name="cloud_sync_no_files">Zatiaľ žiadne synchronizované súbory</string>
+    <string name="cloud_sync_synced_to_drive">Synchronizované s Diskom</string>
+    <string name="cloud_sync_pending_upload">Čaká sa na nahranie</string>
+    <string name="cloud_sync_sync_now">Synchronizovať teraz</string>
+    <string name="cloud_sync_view_history">Zobraziť históriu synchronizácie</string>
+    <string name="cloud_sync_files_count">Synchronizované súbory %1$d / %2$d</string>
+    <string name="cloud_sync_unlimited_files">%1$d synchronizovaných súborov · Neobmedzené</string>
+    <string name="cloud_sync_cta_title">Akákoľvek platforma, kedykoľvek</string>
+    <string name="cloud_sync_cta_subtitle">Vaše dokumenty vás sprevádzajú všade</string>
+    <string name="cloud_sync_files_label">%1$d súbory</string>
+    <string name="settings_data_privacy">Údaje &amp; Ochrana osobných údajov</string>
+    <string name="settings_data_privacy_subtitle">Spravovať údaje, vymazanie účtu &amp;</string>
+    <string name="settings_delete_account">Odstrániť účet</string>
+    <string name="settings_delete_account_subtitle">Natrvalo vymažte svoj účet a údaje</string>
+    <string name="delete_account_warning_title">Zmazať účet?</string>
+    <string name="delete_account_warning_message">Týmto sa natrvalo odstráni váš účet a všetky súvisiace údaje vrátane histórie nákupov a súborov synchronizovaných s cloudom. Túto akciu nie je možné vrátiť späť a nákupy nie je možné neskôr obnoviť.</string>
+    <string name="delete_account_confirm_phrase_label">Pre pokračovanie zadajte „potvrdiť odstránenie“:</string>
+    <string name="delete_account_confirm_phrase">potvrdiť vymazanie</string>
+    <string name="delete_account_button">Odstrániť účet</string>
+    <string name="delete_account_error_reauth">Z bezpečnostných dôvodov ste sa museli nedávno prihlásiť, aby ste mohli svoj účet odstrániť. Odhláste sa a znova sa prihláste a potom to skúste znova.</string>
+    <string name="delete_account_success">Účet bol úspešne odstránený</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">Súbor &amp; Nastavenia synchronizácie</string>
+    <string name="sync_on_mobile_data_subtitle">Používať mobilné dáta na synchronizáciu s cloudom</string>
+    <string name="drive_sync">Synchronizácia na pozadí</string>
+    <string name="drive_sync_subtitle">Synchronizácia obľúbených položiek &amp; skenovanie dokumentov na Disk</string>
+    <string name="do_not_import_from_other_apps">Neimportovať súbory z iných aplikácií</string>
+    <string name="do_not_import_from_other_apps_subtitle">Dočasne otvoriť zdieľané súbory bez uloženia do knižnice</string>
+    <string name="clear_imported_files">Vymazať importované súbory</string>
+    <string name="clear_imported_files_subtitle">Odstráňte všetky súbory skopírované z iných aplikácií</string>
+    <string name="clear_imports_confirm_title">Vymazať importované súbory?</string>
+    <string name="clear_imports_confirm_message">Týmto sa natrvalo odstránia všetky súbory vo vašom priečinku Importy. Túto akciu nie je možné vrátiť späť.</string>
+    <string name="clear_imports_success">Importované súbory boli vymazané</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">Údaje &amp; Ochrana osobných údajov</string>
+    <string name="analytics_opt_out_title">Odoslať údaje o používaní</string>
+    <string name="analytics_opt_out_subtitle">Zdieľajte anonymné údaje o používaní a správy o zlyhaní s vývojárom, aby ste pomohli vylepšiť aplikáciu</string>
+    <string name="analytics_opt_out_disabled_note">Analytika a hlásenie zlyhaní sú vypnuté. Do spoločnosti Google ani vývojárovi sa neodosielajú žiadne údaje.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">Neuložené zmeny</string>
+    <string name="unsaved_changes_tab_message">Tento dokument obsahuje neuložené zmeny. Chcete ich pred zatvorením uložiť?</string>
+    <string name="unsaved_changes_window_message">V jednom alebo viacerých dokumentoch máte neuložené zmeny. Chcete ich zahodiť a ukončiť?</string>
+    <string name="discard">Zahodiť</string>
+    <string name="discard_and_quit">Zahodiť &amp; Ukončiť</string>
+    <string name="close">Zatvoriť</string>
+    <string name="remove_favorite">Odstrániť obľúbené</string>
+    <string name="set_as_default_pdf_viewer">Nastaviť ako predvolený prehliadač PDF?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF nie je váš predvolený prehliadač PDF. Chcete ho nastaviť ako predvolený, aby sa všetky súbory PDF otvárali vo Falcon PDF?</string>
+    <string name="set_now">Nastaviť teraz</string>
+    <string name="never">Nikdy</string>
+    <string name="later">Neskôr</string>
+    <string name="set_default">Nastaviť predvolené</string>
+    <string name="default">Predvolené</string>
+    <string name="version_">Verzia %1$s</string>
+    <string name="sign_in_with_other_accounts">Prihlásiť sa pomocou iných účtov</string>
+    <string name="upgrade">Vylepšiť</string>
+    <string name="view_plan">Zobraziť plán</string>
+    <string name="unlimited_sync_upto_5gb">Neobmedzená synchronizácia až do 5 GB</string>
+    <string name="unlock_faster">Odomknite rýchlejšie</string>
+    <string name="use_biometrics_instead_of_passwords">Používajte biometrické údaje namiesto hesiel.</string>
+    <string name="upgrade_to_premium">Prejdite na prémiovú verziu</string>
+    <string name="unlock_pdf">Odomknúť PDF</string>
+    <string name="use__to_accessnthis_document">Na prístup k tomuto dokumentu %1$s použite\n</string>
+    <string name="open_with_password">Otvoriť s heslom</string>
+    <string name="secure">Bezpečné</string>
+    <string name="loading_">Načítava sa %1$s...</string>
+    <string name="failed_to_open_ebook">Nepodarilo sa otvoriť e-knihu</string>
+    <string name="properties">Nehnuteľnosti</string>
+    <string name="copy">Kopírovať</string>
+    <string name="highlight">Zvýrazniť</string>
+    <string name="clear_selection">Vymazať výber</string>
+    <string name="close_search">Zatvoriť vyhľadávanie</string>
+    <string name="search_in_book">Hľadať v knihe...</string>
+    <string name="contents">Obsah</string>
+    <string name="table_of_contents">Obsah</string>
+    <string name="no_table_of_contents_available">Nie je k dispozícii žiadny obsah</string>
+    <string name="bookmarks">Záložky</string>
+    <string name="no_bookmarks_yet">Zatiaľ žiadne záložky</string>
+    <string name="page_">Strana %1$s</string>
+    <string name="no_results">Žiadne výsledky</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">Nastavenia</string>
+    <string name="decrease_font_size">Zmenšiť veľkosť písma</string>
+    <string name="increase_font_size">Zväčšiť veľkosť písma</string>
+    <string name="font">Písmo</string>
+    <string name="jump_to_page">Prejsť na stránku</string>
+    <string name="enter_page_number_1">Zadajte číslo strany (1–%1$s):</string>
+    <string name="go">Ísť</string>
+    <string name="read_aloud">Čítať nahlas</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">Zastaviť</string>
+    <string name="annotations__text_selection">Anotácie &amp; Výber textu</string>
+    <string name="text_selection_and_annotations_for_ebook">Výber textu a anotácie pre elektronické knihy budú čoskoro k dispozícii.</string>
+    <string name="longpress_on_text_to_select_highlight_or">Dlhým stlačením textu ho vyberiete, zvýrazníte alebo pridáte poznámky.</string>
+    <string name="press_play_to_start_reading_aloud">Stlačte prehrávanie a začnite čítať nahlas...</string>
+    <string name="speed">Rýchlosť</string>
+    <string name="voice">Hlas</string>
+    <string name="no_annotations_yet">Zatiaľ žiadne anotácie</string>
+    <string name="select_text_to_highlight_or_add_notes">Vyberte text, ktorý chcete zvýrazniť alebo pridať poznámky</string>
+    <string name="tools">Nástroje</string>
+    <string name="convert_to_images">Konvertovať na obrázky</string>
+    <string name="rename">Premenovať</string>
+    <string name="print">Tlačiť</string>
+    <string name="a">A−</string>
+    <string name="cover_of_">Obálka %1$s</string>
+    <string name="no_cover_available">Nie je k dispozícii žiadny kryt</string>
+    <string name="read_now">Čítať teraz</string>
+    <string name="about_the_book">O KNIHE</string>
+    <string name="tags">ŠTÍTKY</string>
+    <string name="publisher_info">INFORMÁCIE O VYDAVATEĽOVI</string>
+    <string name="published_">Publikované: %1$s</string>
+    <string name="retry">Skúsiť znova</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Vymazať vyrovnávaciu pamäť</string>
+    <string name="ebooks_library">Knižnica elektronických kníh</string>
+    <string name="manage_your_digital_collection_across_mu">Spravujte svoju digitálnu zbierku od viacerých poskytovateľov. Vyhľadávajte, filtrujte a objavujte nové tituly z Google Books a Open Library.</string>
+    <string name="no_books_found">Nenašli sa žiadne knihy</string>
+    <string name="no_results_for__try_a_different_search_t">Žiadne výsledky pre výraz „%1$s“. Skúste iný hľadaný výraz.</string>
+    <string name="downloadable_only">Iba na stiahnutie</string>
+    <string name="file_unavailable">Súbor nie je k dispozícii</string>
+    <string name="unavailable">Nedostupné</string>
+    <string name="search_titles_authors_isbn">Vyhľadávanie názvov, autorov, ISBN...</string>
+    <string name="clear_search">Vymazať vyhľadávanie</string>
+    <string name="ebooks">Elektronické knihy</string>
+    <string name="read_pdf">Prečítať PDF</string>
+    <string name="create_pdf">Vytvoriť PDF</string>
+    <string name="unlock_all_tools_and_remove_limits">Odomknite všetky nástroje a odstráňte obmedzenia</string>
+    <string name="ocr_scanning">Skenovanie OCR</string>
+    <string name="extract_text_from_scanned_documents">Extrahovanie textu zo skenovaných dokumentov</string>
+    <string name="cloud_sync">Synchronizácia s cloudom</string>
+    <string name="access_your_documents_anywhere">Prístup k dokumentom odkiaľkoľvek</string>
+    <string name="annotate_pdfs">Anotácia PDF súborov</string>
+    <string name="cloud_backup">Zálohovanie do cloudu</string>
+    <string name="continue_reading">Pokračovať v čítaní</string>
+    <string name="pick_files">Vybrať súbory</string>
+    <string name="browse">Prehliadať</string>
+    <string name="did_you_know">Vedeli ste?</string>
+    <string name="home">Domov</string>
+    <string name="your_documents_at_a_glance">Vaše dokumenty na prvý pohľad</string>
+    <string name="pick_file">Vybrať súbor</string>
+    <string name="quick_actions">Rýchle akcie</string>
+    <string name="pro">PROFESIONÁL</string>
+    <string name="open_files">Otvorené súbory</string>
+    <string name="convert_to_pdf">Konvertovať do PDF</string>
+    <string name="close_drawer">Zatvoriť zásuvku</string>
+    <string name="close_file">Zatvoriť súbor</string>
+    <string name="office">Kancelária</string>
+    <string name="coming_soon">Čoskoro</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">Prehliadač elektronických kníh zatiaľ nie je na tejto platforme dostupný.</string>
+    <string name="set_as_default_viewer">Nastaviť ako predvolený prehliadač</string>
+    <string name="free">Zadarmo</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">Sťahovanie aktualizácie... %1$s%</string>
+    <string name="more">Viac</string>
+    <string name="font_size">Veľkosť písma</string>
+    <string name="font_family">Rodina písma</string>
+    <string name="scroll_direction">Smer posúvania</string>
+    <string name="navigation">Navigácia</string>
+    <string name="keep_screen_on">Nechajte obrazovku zapnutú</string>
+    <string name="volume_button_to_scroll">Tlačidlo hlasitosti na posúvanie</string>
+    <string name="export_ebook_pages_as_image_files">Exportovať stránky e-knihy ako obrazové súbory</string>
+    <string name="access_millions_of_titles">Prístup k miliónom titulov.</string>
+    <string name="read_offline_with_natural_ai_voices">Čítajte offline s prirodzenými hlasmi umelej inteligencie.</string>
+    <string name="advanced_ai_reader">Pokročilá čítačka s umelou inteligenciou.</string>
+    <string name="experience_studioquality_narration">Zažite rozprávanie v štúdiovej kvalite.</string>
+    <string name="powerful_pdf_tools">Výkonné nástroje pre PDF.</string>
+    <string name="create_and_edit_documents_on_the_go">Vytvárajte a upravujte dokumenty na cestách.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Prejdite na Pro: Odomknite všetky nástroje a odstráňte obmedzenia</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">Skenovanie OCR: Extrakcia textu zo skenovaných dokumentov</string>
+    <string name="cloud_sync_access_your_documents_anywher">Synchronizácia s cloudom: Prístup k dokumentom odkiaľkoľvek</string>
+    <string name="scan">Skenovať</string>
+    <string name="compress">Komprimovať</string>
+    <string name="merge">Zlúčiť</string>
+    <string name="convert">Konvertovať</string>
+    <string name="highlight_underline_and_add_notes_to_you">Zvýrazňujte, podčiarkujte a pridávajte do dokumentov poznámky</string>
+    <string name="keep_your_documents_safe_with_automatic_">Udržujte svoje dokumenty v bezpečí vďaka automatickej synchronizácii s cloudom</string>
+    <string name="indicator_color_">indicator_color_%1$s</string>
+    <string name="my_library">Moja knižnica</string>
+    <string name="get_ebooks">Získajte e-knihy</string>
+    <string name="scan_document">Skenovať dokument</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

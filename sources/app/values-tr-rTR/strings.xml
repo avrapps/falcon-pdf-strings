@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">PDF Büyüsü</string>
+    <string name="app_tagline">Ne yapmak istersiniz?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">Son Kullanım</string>
+    <string name="home_favorites">Favoriler</string>
+    <string name="home_new_tool">Yeni Araç</string>
+    <string name="home_featured">ÖNE ÇIKANLAR</string>
+    <string name="home_scan_to_pdf">PDF'ye tarayın</string>
+    <string name="home_scan_description">Kağıt belgeleri anında dijital harikalara dönüştürün.</string>
+    <string name="home_start_scanning">Tarama İşlemine Başla</string>
+    <string name="home_all_tools">Tüm Araçlar</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">PDF Araçları</string>
+    <string name="image_tools">Görüntü Araçları</string>
+    <string name="tools_split">Bölmek</string>
+    <string name="tools_split_description">Sayfaları çıkarın</string>
+    <string name="tools_rotate">Döndür</string>
+    <string name="tools_rotate_description">Yönü düzeltin</string>
+    <string name="tools_delete_pages">Sayfaları Sil</string>
+    <string name="tools_delete_pages_description">İstenmeyenleri kaldır</string>
+    <string name="tools_convert">Dönüştürmek</string>
+    <string name="tools_convert_description">Görüntülere/Görüntülerden</string>
+    <string name="tools_sign">İmza</string>
+    <string name="tools_sign_description">İmza ekle</string>
+    <string name="tools_protect">Korumak</string>
+    <string name="tools_protect_description">Parola güvenliği</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">PDF Görüntüleyici</string>
+    <string name="pdf_viewer_page_info">Sayfa %1$d / %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">Belge Tarayıcı</string>
+    <string name="scanner_capture">Esir almak</string>
+    <string name="scanner_retake">Tekrar çekim</string>
+    <string name="scanner_save">Kaydetmek</string>
+    <!-- Navigation -->
+    <string name="nav_back">Geri dön</string>
+    <string name="nav_settings">Ayarlar</string>
+    <string name="nav_more_options">Daha fazla seçenek</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Ev</string>
+    <string name="nav_library">Kütüphane</string>
+    <string name="nav_scan">Tarama</string>
+    <string name="nav_tools">Aletler</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">Dosyalara Gözat</string>
+    <string name="browse_files_subtitle">Depolama &amp; Bulut Dosyaları</string>
+    <string name="show_hidden_files">Gizli dosyaları göster</string>
+    <string name="hide_hidden_files">Gizli dosyaları gizle</string>
+    <string name="refresh_storage">Depolama alanını yenile</string>
+    <string name="no_storage_available">Depolama alanı yok.</string>
+    <string name="no_files_found">Dosya bulunamadı.</string>
+    <string name="add_files">%1$d Dosya Ekle</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">Depolama İzni Gerekli</string>
+    <string name="permission_storage_message">Bu uygulama, PDF dosyalarına göz atmak ve bunları açmak için cihazınızın depolama alanına erişime ihtiyaç duymaktadır. Devam etmek için lütfen depolama izni verin.</string>
+    <string name="permission_grant">İzin Ver</string>
+    <!-- Common Actions -->
+    <string name="action_open">Açık</string>
+    <string name="action_save">Kaydetmek</string>
+    <string name="action_share">Paylaşmak</string>
+    <string name="action_delete">Silmek</string>
+    <string name="action_cancel">İptal etmek</string>
+    <string name="action_confirm">Onaylamak</string>
+    <string name="action_rename">Yeniden isimlendirmek</string>
+    <string name="action_print">Yazdır</string>
+    <string name="action_favorite">Favori</string>
+    <string name="action_unfavorite">Favorilerden çıkar</string>
+    <!-- Document Actions -->
+    <string name="document_share">Belgeyi Paylaş</string>
+    <string name="document_rename">Belgeyi Yeniden Adlandır</string>
+    <string name="document_delete">Belgeyi Sil</string>
+    <string name="document_print">Belgeyi Yazdır</string>
+    <string name="document_favorite">Favorilere Ekle</string>
+    <string name="document_unfavorite">Favorilerden kaldır</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">Belge başarıyla paylaşıldı.</string>
+    <string name="document_share_failed">Belge paylaşımı başarısız oldu.</string>
+    <string name="document_renamed_success">Belgenin adı başarıyla değiştirildi.</string>
+    <string name="document_rename_failed">Belgeyi yeniden adlandırma başarısız oldu.</string>
+    <string name="document_deleted_success">Belge başarıyla silindi.</string>
+    <string name="document_delete_failed">Belge silme işlemi başarısız oldu.</string>
+    <string name="document_print_opened">Belge varsayılan PDF görüntüleyicisinde açıldı. Yazdırmak için görüntüleyicinin yazdırma işlevini kullanın.</string>
+    <string name="document_print_failed">Belge yazdırma işlemi başarısız oldu.</string>
+    <string name="document_added_to_favorites">Favorilere eklendi</string>
+    <string name="document_removed_from_favorites">Favorilerden kaldırıldı</string>
+    <string name="document_favorite_failed">Favori durumunu güncelleme başarısız oldu.</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">Belgeyi Yeniden Adlandır</string>
+    <string name="dialog_rename_hint">Yeni adı girin</string>
+    <string name="dialog_rename_empty_error">Belge adı boş bırakılamaz.</string>
+    <string name="dialog_delete_title">Belgeyi Sil</string>
+    <string name="dialog_delete_file_message">Bu işlem dosyayı kalıcı olarak silecektir.\n\nSil %1$s?</string>
+    <string name="dialog_delete_uri_message">Yalnızca uygulamadan kaldırır. Orijinal dosya değişmez.\n\n %1$s dosyasını uygulamadan kaldırmak ister misiniz?</string>
+    <string name="dialog_delete_confirm">Silmek</string>
+    <string name="dialog_remove_confirm">Kaldırmak</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">Yeniden adlandırma yalnızca uygulama içinde yapılır. Orijinal dosya değişmez.</string>
+    <string name="notice_delete_uri_only">Uygulamadan kaldırıldı. Orijinal dosya değiştirilmedi.</string>
+    <string name="notice_file_exists_error">Bu isimde bir dosya zaten mevcut.</string>
+    <string name="notice_file_not_found_error">Dosya bulunamadı.</string>
+    <string name="notice_no_active_document">Aktif belge yok.</string>
+    <string name="notice_document_path_unavailable">Belge dosya yolu kullanılamıyor.</string>
+    <!-- States -->
+    <string name="state_loading">Yükleniyor...</string>
+    <string name="state_empty">Hiçbir öğe bulunamadı.</string>
+    <string name="state_error">Bir şeyler ters gitti.</string>
+    <string name="state_retry">Tekrar dene</string>
+    <!-- Errors -->
+    <string name="error_network">Ağ bağlantısı başarısız oldu.</string>
+    <string name="error_file_not_found">Dosya bulunamadı.</string>
+    <string name="error_permission_denied">İzin reddedildi</string>
+    <string name="error_invalid_file">Geçersiz dosya formatı</string>
+    <string name="error_password_required">Şifre gerekli</string>
+    <string name="error_incorrect_password">Yanlış şifre</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">Şifre Korumalı</string>
+    <string name="password_protected_message">Bu dosyayı açmak için parola gereklidir. Lütfen aşağıya parolanızı girin.</string>
+    <string name="password_label">Şifre</string>
+    <string name="password_placeholder">Şifrenizi girin</string>
+    <string name="password_unlock">Kilidi aç</string>
+    <string name="password_show">Şifreyi göster</string>
+    <string name="password_hide">Şifreyi gizle</string>
+    <!-- Theme -->
+    <string name="theme_light">Işık</string>
+    <string name="theme_dark">Karanlık</string>
+    <string name="theme_system">Sistem</string>
+    <string name="theme_adaptive">Uyarlanabilir</string>
+    <string name="theme_custom">Gelenek</string>
+    <!-- Settings -->
+    <string name="settings_title">Tercihler</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">Hesap &amp; Senkronizasyon</string>
+    <string name="settings_category_sync_subtitle">Hesabınızı yönetin, senkronizasyon yapın &amp; gizlilik</string>
+    <string name="settings_category_appearance_title">Dış görünüş</string>
+    <string name="settings_category_appearance_subtitle">Uygulamanın görünümünü ve hissini özelleştirin &amp;</string>
+    <string name="settings_category_pdf_reader_title">PDF Okuyucu</string>
+    <string name="settings_category_pdf_reader_subtitle">Varsayılan görüntüleyici &amp; okuma deneyimi</string>
+    <string name="settings_category_help_title">Yardım &amp; Destek</string>
+    <string name="settings_category_help_subtitle">Dokümantasyon &amp; iletişim</string>
+    <string name="settings_category_general_title">Genel</string>
+    <string name="settings_category_general_subtitle">Dil &amp; uygulama bilgisi</string>
+    <string name="settings_theme_section">Tema</string>
+    <string name="settings_theme_description">Tercih ettiğiniz temayı seçin.</string>
+    <string name="settings_accent_color">VURGU RENGİ</string>
+    <string name="settings_custom_colors">Özel Renkler</string>
+    <string name="settings_primary_color">Ana Renk</string>
+    <string name="settings_background_color">Arka Plan Rengi</string>
+    <string name="settings_surface_color">Yüzey Rengi</string>
+    <string name="settings_reset_colors">Varsayılan ayarlara sıfırla</string>
+    <string name="settings_adaptive_note">Material You uyarlanabilir renkler (Android 12+)</string>
+    <string name="settings_app_section">Uygulama Ayarları</string>
+    <string name="settings_notifications">Bildirimler</string>
+    <string name="settings_notifications_description">Uygulama bildirimlerini alın</string>
+    <string name="settings_auto_backup">Otomatik Yedekleme</string>
+    <string name="settings_auto_backup_description">Belgeleri otomatik olarak yedekleyin</string>
+    <string name="settings_change_color">Renk değiştir</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">PDF belgeleriniz burada görünecektir.</string>
+    <string name="scan_description">Belgeleri PDF'ye tarayın.</string>
+    <string name="tools_description">PDF düzenleme ve manipülasyon araçları</string>
+    <string name="home_description">Özelliklere erişmek için alt gezinme çubuğunu kullanın.</string>
+    <!-- Sort Options -->
+    <string name="sort_name">İsim</string>
+    <string name="sort_date">Tarih</string>
+    <string name="sort_size">Boyut</string>
+    <string name="sort_option_name">İsim</string>
+    <string name="sort_option_last_opened">Son Açılış</string>
+    <string name="sort_option_last_modified">Son Değişiklik</string>
+    <string name="sort_option_file_size">Dosya Boyutu</string>
+    <!-- View Types -->
+    <string name="view_type_list">Liste Görünümü</string>
+    <string name="view_type_table">Tablo Görünümü</string>
+    <string name="view_type_grid">Izgara Görünümü</string>
+    <!-- File Properties -->
+    <string name="file_name">Dosya adı</string>
+    <string name="date_modified">Değiştirilme Tarihi</string>
+    <string name="file_size">Boyut</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">Başlamadı</string>
+    <string name="file_status_completed">Tamamlanmış</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">PDF Belgesi</string>
+    <string name="document_type_word">Word Belgesi</string>
+    <string name="document_type_excel">Excel Elektronik Tablosu</string>
+    <string name="document_type_image">Görüntü Dosyası</string>
+    <string name="document_type_other">Belge</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">Tüm Dosyalar</string>
+    <string name="filter_recent">Son</string>
+    <string name="filter_pdfs">PDF'ler</string>
+    <string name="filter_images">Görseller</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">Ev</string>
+    <string name="browse_tab">Gözat</string>
+    <string name="starred_tab">Yıldızlı</string>
+    <string name="settings_tab">Ayarlar</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">Temayı değiştir</string>
+    <string name="accessibility_menu">Menü</string>
+    <string name="accessibility_close">Kapalı</string>
+    <string name="accessibility_color_picker">Renk seçici</string>
+    <!-- Library Screen -->
+    <string name="library_title">Kütüphane</string>
+    <string name="library_subtitle">Dosyaları Yönet, Son Kullanılanlar &amp; Favoriler</string>
+    <string name="library_search_placeholder">Dosyaları ara...</string>
+    <string name="library_selected_count">%1$d seçildi</string>
+    <string name="library_open_from_device">\nCihazından Aç</string>
+    <string name="library_browse_files">Dosyalara Göz Atın\n</string>
+    <string name="library_action_open">Açık</string>
+    <string name="library_action_share">Paylaşmak</string>
+    <string name="library_action_remove">Kaldırmak</string>
+    <string name="library_action_delete">Silmek</string>
+    <string name="library_clear_search">Arama sonuçlarını temizle</string>
+    <string name="library_close_search">Aramayı kapat</string>
+    <string name="library_select_all">Tüm dosyaları seç</string>
+    <string name="library_exit_multiselect">Çoklu seçim modundan çık</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">Yardım &amp; Destek</string>
+    <string name="help_support_subtitle">Sıkça Sorulan Sorular, İletişim &amp; Yasal Bilgiler</string>
+    <string name="settings_pdf_subtitle">Kaydır, Görünüm &amp; Düzen</string>
+    <string name="help_header_title">Nasıl yardımcı olabiliriz?</string>
+    <string name="help_header_subtitle">Our team is here to ensure you have the\nbest PDF experience.</string>
+    <string name="help_contact_us">Bize Ulaşın</string>
+    <string name="help_contact_subtitle">Destek ekibiyle iletişime geçin.</string>
+    <string name="help_faq">Sıkça Sorulan Sorular</string>
+    <string name="help_faq_subtitle">Sıkça sorulan sorulara yanıtlar</string>
+    <string name="help_privacy_policy">Gizlilik Politikası</string>
+    <string name="help_privacy_subtitle">Verilerinizi nasıl koruyoruz?</string>
+    <string name="help_terms_service">Hizmet Şartları</string>
+    <string name="help_terms_subtitle">Başvuru kuralları</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">Mobil veri üzerinden senkronizasyon</string>
+    <string name="background_sync">Arka plan senkronizasyonu</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">PDF Okuyucu Ayarları</string>
+    <string name="pdf_settings_coming_soon">Yakında gelecek</string>
+    <string name="pdf_settings_description">Kaydırma davranışını, görüntüleme modlarını ve okuma tercihlerini yapılandırın.</string>
+    <!-- General Settings -->
+    <string name="settings_language">Dil</string>
+    <string name="settings_pdf_reader">PDF Okuyucu Ayarları</string>
+    <string name="settings_help_support">Yardım &amp; Destek</string>
+    <string name="settings_whats_new">Ne var ne yok</string>
+    <string name="settings_download_desktop">Başka bir cihaza yükle</string>
+    <string name="settings_rate_app">Uygulamayı değerlendir</string>
+    <string name="play_store_not_found">Bu cihazda Play Store bulunamadı.</string>
+    <string name="settings_set_as_default">Varsayılan PDF Görüntüleyici Olarak Ayarla</string>
+    <string name="settings_set_as_default_subtitle">PDF dosyalarını varsayılan olarak bu uygulamayla açın.</string>
+    <string name="settings_default_pdf_instructions_title">Varsayılan olarak nasıl ayarlanır?</string>
+    <string name="settings_default_pdf_ok">Anladım</string>
+    <string name="settings_default_app_hint">İşe yaramadı mı?</string>
+    <string name="settings_default_app_hint_learn_more">Daha fazla bilgi edin</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">Dil</string>
+    <string name="language_search_placeholder">Dilleri ara...</string>
+    <!-- Common UI -->
+    <string name="support">Destek</string>
+    <string name="language_english">İngilizce</string>
+    <string name="language_hindi">Hintçe</string>
+    <string name="language_spanish">İspanyolca</string>
+    <string name="language_french">Fransızca</string>
+    <string name="language_german">Almanca</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">Portekizce</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">UYGULAMA GÖRÜNÜMÜ</string>
+    <string name="theme">TEMA</string>
+    <string name="general">GENEL</string>
+    <string name="new">YENİ</string>
+    <string name="navigate">Gezinti</string>
+    <string name="download">İndirmek</string>
+    <string name="falcon_pdf">Falcon PDF</string>
+    <string name="excellence_in_every_pixel">Her pikselde mükemmellik</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">DEĞİŞİKLİKLERİ UYGULA</string>
+    <string name="apply">Uygula</string>
+    <string name="selected">Seçildi</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">Senkronizasyon Ayarları</string>
+    <string name="autosync_on_wifi">WiFi üzerinden otomatik senkronizasyon</string>
+    <string name="sync_reading_progress">Okuma ilerlemesini senkronize et</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">Belge adı</string>
+    <string name="name_cannot_be_empty">İsim boş bırakılamaz.</string>
+    <string name="str__failed">%1$s Başarısız</string>
+    <string name="ok">TAMAM</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">Yükseltme planı - Mevcut plan: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">Dosyayı açmak için sürükle bırak</string>
+    <string name="release_to_import_and_open_pdf">PDF dosyalarını içe aktarma ve açma izni verildi.</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">Kaldırmak</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF</string>
+    <string name="images">Görseller</string>
+    <string name="filter_all_types">Tüm Dosyalar</string>
+    <string name="favorites">Favori Dosyalar</string>
+    <string name="recent">Son</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">Belgeleri ara...</string>
+    <string name="voice_search">Sesli arama</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">Son Dosyalar</string>
+    <string name="loading_recent_files">Son kullanılan dosyalar yükleniyor...</string>
+    <string name="no_recent_files">Son zamanlarda dosya bulunmuyor.</string>
+    <string name="no_favorites">Favori yok</string>
+    <string name="mark_files_as_favorite_to_see_them_here">Burada görmek için dosyaları favorilerinize ekleyin.</string>
+    <string name="open_some_pdf_files_to_see_the">Burada görebileceğiniz bazı PDF dosyalarını açın.</string>
+    <string name="status">Durum</string>
+    <string name="actions">Eylemler</string>
+    <string name="select_all">Tümünü seç</string>
+    <string name="enter_multiselect_mode">Çoklu seçim moduna girin</string>
+    <string name="sorted_ascending">Artan sırada sıralanmıştır</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">Depolama: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">%1$s dosyaları ekle</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">Görünüm türünü değiştir</string>
+    <string name="filter_">Filtre: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">PDF yükleniyor...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">Senkronizasyon için giriş yapın</string>
+    <string name="protect_your_library_files">Kütüphane dosyalarınızı koruyun.</string>
+    <string name="sign_in">Giriş Yap</string>
+    <string name="sign_out">oturumu Kapat</string>
+    <string name="sign_in_dialog_title">Falcon PDF'ye giriş yapın</string>
+    <string name="sign_in_dialog_subtitle">PDF kütüphaneniz her yerde.</string>
+    <string name="sign_in_with_google">Google ile giriş yapın</string>
+    <string name="sign_in_with_apple">Apple ile giriş yapın</string>
+    <string name="apple_user_drive_unavailable">Apple ile oturum açma özelliğiyle Google Drive senkronizasyonu kullanılamıyor.</string>
+    <string name="apple_user_link_google">Drive senkronizasyonu için Google Hesabınızı bağlayın.</string>
+    <string name="apple_user_sync_info">Bulut senkronizasyonunu etkinleştirmek için bir Google hesabı bağlayın.</string>
+    <string name="link_google_account">Google Hesabınızı Bağlayın</string>
+    <string name="signed_in_successfully">Başarılı bir şekilde giriş yapıldı.</string>
+    <string name="signed_out_successfully">Başarılı bir şekilde oturum kapatıldı.</string>
+    <string name="sync_disabled_free">Ücretsiz hesaplar için senkronizasyon devre dışı bırakılmıştır.</string>
+    <string name="storage_disabled_grant_access">Depolama devre dışı bırakıldı. Başlatmak için sürücüye erişim izni verin.</string>
+    <string name="upgrade_to_pro">Pro sürüme yükseltin</string>
+    <string name="grant_drive_access">Grant Drive Erişimi</string>
+    <string name="files_synced">%1$d/%2$d Dosyalar Senkronize Edildi</string>
+    <string name="synced_count">%1$d Senkronize edildi</string>
+    <string name="unlimited_sync_active">SINIRSIZ SENKRONİZASYON</string>
+    <string name="missing_drive_permissions">Drive izinleri eksik. Senkronizasyon şu anda engellenmiş durumda.</string>
+    <string name="drive_access_revoked">Sürücü erişimi iptal edildi. Senkronizasyona devam etmek için yeniden bağlanın.</string>
+    <string name="upgrade_premium">Premium'a Yükseltin</string>
+    <string name="manage_account">Hesabı Yönet</string>
+    <string name="sync_now">Şimdi senkronize et</string>
+    <string name="tier_free">ÖZGÜR</string>
+    <string name="tier_pro">PRO</string>
+    <string name="tier_premium">PREMIUM</string>
+    <string name="status_paused">DURAKLATILDI</string>
+    <!-- Common -->
+    <string name="navigate_back">Geri dön</string>
+    <string name="dismiss">Azletmek</string>
+    <string name="cancel">İptal etmek</string>
+    <string name="back">Geri</string>
+    <string name="search">Aramak</string>
+    <string name="more_actions">Daha fazla işlem</string>
+    <string name="share">Paylaşmak</string>
+    <string name="delete">Silmek</string>
+    <string name="remove_from_recents">Son kullanılanlardan kaldır</string>
+    <string name="open">Açık</string>
+    <string name="all">Tüm</string>
+    <string name="sort_by_">%1$sölçütüne göre sırala</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Google Drive Senkronizasyonu</string>
+    <string name="syncing">Senkronizasyon...</string>
+    <string name="sync_completed">Senkronizasyon tamamlandı</string>
+    <string name="sync_failed">Senkronizasyon başarısız oldu</string>
+    <string name="sync_limit_exceeded">Senkronizasyon sınırı aşıldı. %s planınız %d dosyaya izin veriyor.</string>
+    <string name="sync_no_drive_access">Google Drive'a erişim mümkün değil.</string>
+    <string name="sync_network_unavailable">Ağ bağlantısı mevcut değil.</string>
+    <string name="sync_last_sync">Son senkronizasyon: %s</string>
+    <string name="sync_total_files">Toplam</string>
+    <string name="sync_synced_files">Senkronize edildi</string>
+    <string name="sync_failed_files">Arızalı</string>
+    <string name="sync_conflict_files">Çatışmalar</string>
+    <string name="sync_add_to_favorites">Favorilere ekle</string>
+    <string name="sync_remove_from_favorites">Favorilerden kaldır</string>
+    <string name="sync_conflict_title">Senkronizasyon Çakışmaları</string>
+    <string name="sync_conflict_message">Aşağıdaki dosyalarda çözülmesi gereken çakışmalar bulunmaktadır:</string>
+    <string name="sync_conflict_explanation">Hem yerel hem de uzak sürümlerde değişiklik yapıldığında çakışmalar meydana gelir.</string>
+    <string name="sync_plan_limit">Senkronizasyon: %d/%d</string>
+    <string name="sync_plan_limit_reached">Sınır aşıldı.</string>
+    <string name="sync_plan_unlimited">Sınırsız senkronizasyon</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">Atlamak</string>
+    <string name="welcome_next">Sonraki</string>
+    <string name="welcome_get_started">Başlayın</string>
+    <string name="welcome_sign_in_get_started">Giriş yap &amp; Başla</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Herhangi Bir Belgeyi Anında Okuyun&lt;/b&gt;</string>
+    <string name="welcome_slide1_description">PDF, DOC, EPUB, MOBI dahil olmak üzere 10'dan fazla belge formatını açın ve yönetin.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Read PDFs, ebooks,&lt;/b&gt; and office docs in one place</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Favori&lt;/b&gt; belgelerinize ekleyin ve bunlara farklı cihazlardan erişin.</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;Yorum yapın,&lt;/b&gt; vurgulayın ve kolaylıkla işbirliği yapın.</string>
+    <string name="welcome_slide1_footer">Evrensel belge okuyucunuz</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;PDF'leri Düzenleyin, Tarayın ve Organize Edin&lt;/b&gt;</string>
+    <string name="welcome_slide2_description">PDF dosyaları oluşturmak, düzenlemek ve yönetmek için ihtiyacınız olan her şey tek bir güçlü araç setinde.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;Metni düzenleyin,&lt;/b&gt; not ekleyin, vurgulayın ve formları doldurun.</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Belgeleri tarayın&lt;/b&gt; ve anında PDF'ye dönüştürün</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;Birleştirme, dönüştürme, sıkıştırma ve güvenli hale getirme dahil 30'dan fazla araç&lt;/b&gt;</string>
+    <string name="welcome_slide2_footer">Hepsi bir arada PDF çalışma alanınız</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;Belgelerinizi Anlayan Yapay Zeka&lt;/b&gt;</string>
+    <string name="welcome_slide3_description">Belgelerinizi okuyup analiz eden yapay zeka sayesinde saatlerce zamandan tasarruf edin.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Uzun belgeleri saniyeler içinde özetleyin&lt;/b&gt;</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; taranmış sayfaları ve metni anında çevirir</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Dahili sesli okuma özelliği bulunan belgeleri dinleyin&lt;/b&gt;</string>
+    <string name="welcome_slide3_footer">Reklam yok. Sadece verimlilik.</string>
+    <string name="grace">LÜTUF</string>
+    <string name="unable_to_verify_subscription_limited_ac">Abonelik doğrulanamadı. Bağlantı yeniden kurulana kadar erişim sınırlı.</string>
+    <string name="retry_verification">Doğrulama İşlemini Tekrar Dene</string>
+    <string name="guest_state">Konuk Devlet</string>
+    <string name="free_tier">Ücretsiz Katman</string>
+    <string name="free_tier__locked">Ücretsiz Katman - Kilitli</string>
+    <string name="pro_tier">Profesyonel Seviye</string>
+    <string name="pro_tier__restricted">Profesyonel Seviye - Kısıtlı</string>
+    <string name="premium_tier">Premium Seviye</string>
+    <string name="premium_tier__error">Premium Katman - Hata</string>
+    <string name="refresh_plan_status">Plan durumunu yenile</string>
+    <string name="user_avatar">Kullanıcı avatarı</string>
+    <string name="debug_tools">Hata Ayıklama Araçları</string>
+    <string name="authentication__drive">Kimlik Doğrulama &amp; Sürücü</string>
+    <string name="auth_state">Yetki Durumu</string>
+    <string name="revoke_drive_access">Sürücü Erişimini İptal Et</string>
+    <string name="image">Görüntü</string>
+    <string name="thumbnail">Küçük resim</string>
+    <string name="manage_preferences">Tercihleri Yönet</string>
+    <string name="tools_history">Araçlar Geçmişi</string>
+    <string name="manage_recent_logs">Son kayıtları yönetin</string>
+    <string name="more_options">Daha fazla seçenek</string>
+    <string name="clear_all_history">Tüm Geçmişi Temizle</string>
+    <string name="no_history_yet">Henüz Tarihçe Yok</string>
+    <string name="your_pdf_tool_operations_will_appear_her">PDF aracıyla yaptığınız işlemler burada görünecektir.</string>
+    <string name="view">Görüş</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">Kaydedildi %1$s</string>
+    <string name="history_status_processing">İşleme</string>
+    <string name="history_status_succeeded">BAŞARILI</string>
+    <string name="history_status_failed">ARIZALI</string>
+    <string name="history_status_processing_upper">İŞLEME</string>
+    <string name="history_unknown_files">Bilinmeyen dosyalar</string>
+    <string name="history_op_complete">%1$s Tamamlandı!</string>
+    <string name="history_op_failed">%1$s Başarısız</string>
+    <string name="history_op_success_multiple">İşlem %1$d dosya ile başarıyla tamamlandı.</string>
+    <string name="history_op_success_single">Operasyon başarıyla tamamlandı.</string>
+    <string name="history_op_error">Operasyonu tamamlayamadık.</string>
+    <string name="history_multiple_files">%1$d dosyalar</string>
+    <string name="history_failed">Arızalı</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">Bulut Senkronizasyonu</string>
+    <string name="cloud_sync_subtitle">Bağlı Cihazlar</string>
+    <string name="cloud_sync_all_synced">Tüm dosyalar senkronize edildi.</string>
+    <string name="cloud_sync_syncing">Senkronizasyon…</string>
+    <string name="cloud_sync_pending">Senkronizasyon beklemede</string>
+    <string name="cloud_sync_last_sync">Son senkronizasyon: %1$s</string>
+    <string name="cloud_sync_never_synced">Hiç senkronize edilmedi</string>
+    <string name="cloud_sync_recent_activity">Son Senkronizasyon Etkinliği</string>
+    <string name="cloud_sync_no_files">Henüz senkronize edilmiş dosya yok.</string>
+    <string name="cloud_sync_synced_to_drive">Drive ile senkronize edildi</string>
+    <string name="cloud_sync_pending_upload">Yükleme bekleniyor</string>
+    <string name="cloud_sync_sync_now">Şimdi Senkronize Et</string>
+    <string name="cloud_sync_view_history">Senkronizasyon geçmişini görüntüle</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d dosyaları senkronize edildi</string>
+    <string name="cloud_sync_unlimited_files">%1$d dosya senkronize edildi · Sınırsız</string>
+    <string name="cloud_sync_cta_title">Herhangi bir platform, herhangi bir zaman.</string>
+    <string name="cloud_sync_cta_subtitle">Belgeleriniz her yere sizinle birlikte gelir.</string>
+    <string name="cloud_sync_files_label">%1$d dosyalar</string>
+    <string name="settings_data_privacy">Veri Gizliliği &amp;</string>
+    <string name="settings_data_privacy_subtitle">Verileri yönet, hesap silme &amp;</string>
+    <string name="settings_delete_account">Hesabı Sil</string>
+    <string name="settings_delete_account_subtitle">Hesabınızı ve verilerinizi kalıcı olarak silin.</string>
+    <string name="delete_account_warning_title">Hesabınızı silmek mi istiyorsunuz?</string>
+    <string name="delete_account_warning_message">Bu işlem, satın alma geçmişiniz ve buluta senkronize edilmiş dosyalarınız da dahil olmak üzere hesabınızı ve ilgili tüm verileri kalıcı olarak silecektir. Bu işlem geri alınamaz ve satın alımlar daha sonra geri yüklenemez.</string>
+    <string name="delete_account_confirm_phrase_label">Devam etmek için 'silme işlemini onayla' yazın:</string>
+    <string name="delete_account_confirm_phrase">silmeyi onayla</string>
+    <string name="delete_account_button">Hesabı Sil</string>
+    <string name="delete_account_error_reauth">Güvenlik nedeniyle, hesabınızı silmek için yakın zamanda oturum açmış olmanız gerekmektedir. Lütfen oturumu kapatıp tekrar oturum açın ve tekrar deneyin.</string>
+    <string name="delete_account_success">Hesap başarıyla silindi.</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">Dosya &amp; Senkronizasyon Ayarları</string>
+    <string name="sync_on_mobile_data_subtitle">Bulut senkronizasyonu için mobil veriyi kullanın.</string>
+    <string name="drive_sync">Arka plan senkronizasyonu</string>
+    <string name="drive_sync_subtitle">Favorileri senkronize et &amp; belgeleri Drive'a tarayın</string>
+    <string name="do_not_import_from_other_apps">Diğer uygulamalardan dosya içe aktarmayın.</string>
+    <string name="do_not_import_from_other_apps_subtitle">Paylaşılan dosyaları kütüphaneye kaydetmeden geçici olarak açın.</string>
+    <string name="clear_imported_files">İçe Aktarılan Dosyaları Temizle</string>
+    <string name="clear_imported_files_subtitle">Diğer uygulamalardan kopyalanan tüm dosyaları silin.</string>
+    <string name="clear_imports_confirm_title">İçe aktarılan dosyaları temizle?</string>
+    <string name="clear_imports_confirm_message">Bu işlem, İçe Aktarmalar klasörünüzdeki tüm dosyaları kalıcı olarak silecektir. Bu işlem geri alınamaz.</string>
+    <string name="clear_imports_success">İçe aktarılan dosyalar temizlendi.</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">Veri Gizliliği &amp;</string>
+    <string name="analytics_opt_out_title">Kullanım Verilerini Gönder</string>
+    <string name="analytics_opt_out_subtitle">Uygulamanın geliştirilmesine yardımcı olmak için anonim kullanım verilerini ve çökme raporlarını geliştiriciyle paylaşın.</string>
+    <string name="analytics_opt_out_disabled_note">Analiz ve çökme raporlaması devre dışı bırakıldı. Google'a veya geliştiriciye hiçbir veri gönderilmiyor.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">Kaydedilmemiş Değişiklikler</string>
+    <string name="unsaved_changes_tab_message">Bu belgede kaydedilmemiş değişiklikler var. Kapatmadan önce kaydetmek ister misiniz?</string>
+    <string name="unsaved_changes_window_message">Bir veya daha fazla belgede kaydedilmemiş değişiklikleriniz var. Bunları silmek ve çıkmak ister misiniz?</string>
+    <string name="discard">Atın</string>
+    <string name="discard_and_quit">&amp; 'ı At Çıkış</string>
+    <string name="close">Kapalı</string>
+    <string name="remove_favorite">Favorilerden kaldır</string>
+    <string name="set_as_default_pdf_viewer">Varsayılan PDF görüntüleyici olarak ayarla?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF varsayılan PDF görüntüleyiciniz değil. Tüm PDF dosyalarının Falcon PDF ile açılması için varsayılan olarak ayarlamak ister misiniz?</string>
+    <string name="set_now">Şimdi Ayarla</string>
+    <string name="never">Asla</string>
+    <string name="later">Daha sonra</string>
+    <string name="set_default">Varsayılanı Ayarla</string>
+    <string name="default">Varsayılan</string>
+    <string name="version_">Sürüm %1$s</string>
+    <string name="sign_in_with_other_accounts">Diğer hesaplarla giriş yapın</string>
+    <string name="upgrade">Güncelleme</string>
+    <string name="view_plan">Planı Görüntüle</string>
+    <string name="unlimited_sync_upto_5gb">5 GB'a kadar sınırsız senkronizasyon</string>
+    <string name="unlock_faster">Daha hızlı kilidi açın</string>
+    <string name="use_biometrics_instead_of_passwords">Parola yerine biyometrik kimlik doğrulama kullanın.</string>
+    <string name="upgrade_to_premium">Premium'a yükseltin</string>
+    <string name="unlock_pdf">PDF'nin kilidini açın</string>
+    <string name="use__to_accessnthis_document">Use %1$s to access\nthis document</string>
+    <string name="open_with_password">Şifreyle Aç</string>
+    <string name="secure">Güvenli</string>
+    <string name="loading_">%1$s yükleniyor...</string>
+    <string name="failed_to_open_ebook">E-kitap açılamadı.</string>
+    <string name="properties">Özellikler</string>
+    <string name="copy">Kopyala</string>
+    <string name="highlight">Öne çıkanlar</string>
+    <string name="clear_selection">Seçimi temizle</string>
+    <string name="close_search">Aramayı kapat</string>
+    <string name="search_in_book">Kitapta ara...</string>
+    <string name="contents">İçindekiler</string>
+    <string name="table_of_contents">İçindekiler</string>
+    <string name="no_table_of_contents_available">İçindekiler tablosu mevcut değil.</string>
+    <string name="bookmarks">Yer işaretleri</string>
+    <string name="no_bookmarks_yet">Henüz yer imi yok.</string>
+    <string name="page_">Sayfa %1$s</string>
+    <string name="no_results">Sonuç bulunamadı.</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">Ayarlar</string>
+    <string name="decrease_font_size">Yazı tipi boyutunu küçültün</string>
+    <string name="increase_font_size">Yazı tipi boyutunu büyüt</string>
+    <string name="font">Yazı Tipi</string>
+    <string name="jump_to_page">Sayfaya Git</string>
+    <string name="enter_page_number_1">Sayfa numarasını girin (1–%1$s):</string>
+    <string name="go">Gitmek</string>
+    <string name="read_aloud">Sesli Oku</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">Durmak</string>
+    <string name="annotations__text_selection">Açıklamalar &amp; Metin Seçimi</string>
+    <string name="text_selection_and_annotations_for_ebook">E-kitaplar için metin seçimi ve not ekleme özellikleri yakında geliyor.</string>
+    <string name="longpress_on_text_to_select_highlight_or">Metni seçmek, vurgulamak veya not eklemek için metne uzun süre basılı tutun.</string>
+    <string name="press_play_to_start_reading_aloud">Sesli okumaya başlamak için oynat düğmesine basın...</string>
+    <string name="speed">Hız</string>
+    <string name="voice">Ses</string>
+    <string name="no_annotations_yet">Henüz hiçbir açıklama eklenmedi.</string>
+    <string name="select_text_to_highlight_or_add_notes">Vurgulamak veya not eklemek için metni seçin.</string>
+    <string name="tools">Aletler</string>
+    <string name="convert_to_images">Görüntülere Dönüştür</string>
+    <string name="rename">Yeniden isimlendirmek</string>
+    <string name="print">Yazdır</string>
+    <string name="a">A−</string>
+    <string name="cover_of_">%1$s'nun kapağı</string>
+    <string name="no_cover_available">Kapak mevcut değil.</string>
+    <string name="read_now">Şimdi Okuyun</string>
+    <string name="about_the_book">KİTAP HAKKINDA</string>
+    <string name="tags">ETİKETLER</string>
+    <string name="publisher_info">YAYINCI BİLGİLERİ</string>
+    <string name="published_">Yayınlanma tarihi: %1$s</string>
+    <string name="retry">Tekrar dene</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Önbelleği Temizle</string>
+    <string name="ebooks_library">E-kitap Kütüphanesi</string>
+    <string name="manage_your_digital_collection_across_mu">Dijital koleksiyonunuzu birden fazla sağlayıcı üzerinden yönetin. Google Books ve Open Library'den yeni kitaplar arayın, filtreleyin ve keşfedin.</string>
+    <string name="no_books_found">Hiçbir kitap bulunamadı.</string>
+    <string name="no_results_for__try_a_different_search_t">"%1$s" için sonuç bulunamadı. Farklı bir arama terimi deneyin.</string>
+    <string name="downloadable_only">Sadece İndirilebilir</string>
+    <string name="file_unavailable">Dosya mevcut değil.</string>
+    <string name="unavailable">Mevcut değil</string>
+    <string name="search_titles_authors_isbn">Başlıkları, yazarları, ISBN'i arayın...</string>
+    <string name="clear_search">Arama sonuçlarını temizle</string>
+    <string name="ebooks">e-Kitaplar</string>
+    <string name="read_pdf">PDF'i okuyun</string>
+    <string name="create_pdf">PDF oluştur</string>
+    <string name="unlock_all_tools_and_remove_limits">Tüm araçların kilidini açın ve sınırlamaları kaldırın.</string>
+    <string name="ocr_scanning">OCR Tarama</string>
+    <string name="extract_text_from_scanned_documents">Taranmış belgelerden metin çıkarma</string>
+    <string name="cloud_sync">Bulut Senkronizasyonu</string>
+    <string name="access_your_documents_anywhere">Belgelerinize her yerden erişin.</string>
+    <string name="annotate_pdfs">PDF'lere açıklama ekleyin</string>
+    <string name="cloud_backup">Bulut Yedekleme</string>
+    <string name="continue_reading">Devamını Okuyun</string>
+    <string name="pick_files">Dosyaları Seçin</string>
+    <string name="browse">Gözat</string>
+    <string name="did_you_know">Biliyor musun?</string>
+    <string name="home">Ev</string>
+    <string name="your_documents_at_a_glance">Belgeleriniz bir bakışta</string>
+    <string name="pick_file">Dosya Seç</string>
+    <string name="quick_actions">Hızlı İşlemler</string>
+    <string name="pro">PRO</string>
+    <string name="open_files">Dosyaları aç</string>
+    <string name="convert_to_pdf">PDF'ye dönüştür</string>
+    <string name="close_drawer">Çekmeceyi kapatın</string>
+    <string name="close_file">Dosyayı kapat</string>
+    <string name="office">Ofis</string>
+    <string name="coming_soon">Yakında gelecek</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">Bu platformda e-kitap görüntüleyici henüz mevcut değil.</string>
+    <string name="set_as_default_viewer">Varsayılan Görüntüleyici Olarak Ayarla</string>
+    <string name="free">Özgür</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">Güncelleme indiriliyor... %1$s%</string>
+    <string name="more">Daha</string>
+    <string name="font_size">Yazı Tipi Boyutu</string>
+    <string name="font_family">Yazı Tipi Ailesi</string>
+    <string name="scroll_direction">Kaydırma Yönü</string>
+    <string name="navigation">Navigasyon</string>
+    <string name="keep_screen_on">Ekranı Açık Tutun</string>
+    <string name="volume_button_to_scroll">Ses düğmesini kaydırarak</string>
+    <string name="export_ebook_pages_as_image_files">E-kitap sayfalarını resim dosyaları olarak dışa aktarın</string>
+    <string name="access_millions_of_titles">Milyonlarca başlığa erişin.</string>
+    <string name="read_offline_with_natural_ai_voices">Doğal yapay zeka sesleriyle çevrimdışı okuyun.</string>
+    <string name="advanced_ai_reader">Gelişmiş yapay zeka okuyucu.</string>
+    <string name="experience_studioquality_narration">Stüdyo kalitesinde seslendirmeyi deneyimleyin.</string>
+    <string name="powerful_pdf_tools">Güçlü PDF araçları.</string>
+    <string name="create_and_edit_documents_on_the_go">Hareket halindeyken belge oluşturun ve düzenleyin.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Pro sürüme yükseltin: Tüm araçların kilidini açın ve sınırlamaları kaldırın.</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">OCR Tarama: Taranmış belgelerden metin çıkarma</string>
+    <string name="cloud_sync_access_your_documents_anywher">Bulut Senkronizasyonu: Belgelerinize her yerden erişin</string>
+    <string name="scan">Tarama</string>
+    <string name="compress">Kompres</string>
+    <string name="merge">Birleştir</string>
+    <string name="convert">Dönüştürmek</string>
+    <string name="highlight_underline_and_add_notes_to_you">Belgelerinizi vurgulayın, altını çizin ve notlar ekleyin.</string>
+    <string name="keep_your_documents_safe_with_automatic_">Belgelerinizi otomatik bulut senkronizasyonu ile güvende tutun.</string>
+    <string name="indicator_color_">gösterge_rengisi_%1$s</string>
+    <string name="my_library">Kütüphanem</string>
+    <string name="get_ebooks">E-kitap edinin</string>
+    <string name="scan_document">Belgeyi Tara</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

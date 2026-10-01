@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Skannata</string>
+    <string name="scan_home_documents">Dokumentit</string>
+    <string name="scan_home_documents_lowercase">asiakirjat</string>
+    <string name="scan_home_documents_count">%1$d Asiakirjat</string>
+    <string name="scan_home_no_documents">Ei vielä asiakirjoja</string>
+    <string name="scan_home_start_scanning">Aloita skannaus luodaksesi ensimmäisen asiakirjasi</string>
+    <string name="scan_home_new_folder">Uusi kansio</string>
+    <string name="scan_home_scan_document">Skannaa asiakirja</string>
+    <string name="scan_home_import_gallery">Tuo galleriasta</string>
+    <string name="scan_home_parent_folder">Yläkansio</string>
+    <string name="scan_home_go_back">Palaa takaisin pääkansioon</string>
+    <string name="scan_home_create_folder">Luo uusi kansio</string>
+    <string name="scan_home_enter_folder_name">Anna uudelle kansiolle nimi</string>
+    <string name="scan_home_folder_name">Kansion nimi</string>
+    <string name="scan_home_folder_placeholder">esim. työasiakirjat</string>
+    <string name="scan_home_folder_error">Kansion nimi ei voi olla tyhjä</string>
+    <string name="scan_home_folder_name_empty">Kansion nimi ei voi olla tyhjä</string>
+    <string name="scan_home_create">Luoda</string>
+    <string name="scan_home_folder_exists">Tämänniminen kansio on jo olemassa</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Kamera</string>
+    <string name="scan_camera_permission_required">Kameran käyttöoikeus vaaditaan</string>
+    <string name="scan_camera_permission_message">Tämä sovellus tarvitsee kameran käyttöoikeuden asiakirjojen skannaamiseen.</string>
+    <string name="scan_camera_permission_settings">Siirry kohtaan Asetukset &gt; Sovellukset &gt; PDF-katseluohjelma &gt; Käyttöoikeudet ja ota käyttöön Kameran käyttöoikeudet.</string>
+    <string name="scan_camera_permission_title">Kameran käyttöoikeus vaaditaan</string>
+    <string name="scan_camera_request_permission">Pyydä lupaa</string>
+    <string name="scan_camera_open_settings">Avaa asetukset</string>
+    <string name="scan_camera_close">Lähellä</string>
+    <string name="scan_camera_flash">Salama</string>
+    <string name="scan_camera_auto_capture">Automaattinen kuvaus</string>
+    <string name="scan_camera_settings">Asetukset</string>
+    <string name="scan_camera_ready_batch">Valmis skannaamaan useita sivuja</string>
+    <string name="scan_camera_ready_multiple">Valmis skannaamaan useita sivuja</string>
+    <string name="scan_camera_hold_steady">Pidä vakaana skannauksen aikana</string>
+    <string name="scan_camera_captured_pages">%1$d sivua kaapattu</string>
+    <string name="scan_camera_mode_single">Yksittäinen</string>
+    <string name="scan_camera_mode_batch">Erä</string>
+    <string name="scan_camera_preview">Esikatselu</string>
+    <string name="scan_camera_finish">Valmis</string>
+    <string name="scan_camera_starting">Kameran käynnistäminen...</string>
+    <string name="scan_camera_document_name">Asiakirjan nimi</string>
+    <string name="scan_camera_document_name_empty">Dokumentin nimi ei voi olla tyhjä</string>
+    <string name="scan_camera_save_document">Tallenna dokumentti</string>
+    <string name="scan_camera_processing">Käsitellään...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Rajaa &amp; Säädä</string>
+    <string name="scan_crop_close">Lähellä</string>
+    <string name="scan_crop_reset">Nollaa</string>
+    <string name="scan_crop_rotate">Kiertää</string>
+    <string name="scan_crop_done">Tehty</string>
+    <string name="scan_crop_scanned_document">Skannattu asiakirja</string>
+    <string name="scan_crop_magnified_view">Suurennettu näkymä</string>
+    <string name="scan_crop_processing">Käsitellään...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Parantaa</string>
+    <string name="scan_filter_close">Lähellä</string>
+    <string name="scan_filter_rotate">Kiertää</string>
+    <string name="scan_filter_done">Tehty</string>
+    <string name="scan_filter_filters">Suodattimet</string>
+    <string name="scan_filter_original">Alkuperäinen</string>
+    <string name="scan_filter_magic">Taika</string>
+    <string name="scan_filter_lighten">Keventää</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">Harmaasävy</string>
+    <string name="scan_filter_magic_2">Puhdas dokumentti</string>
+    <string name="scan_filter_soft_scan">Pehmeä skannaus</string>
+    <string name="scan_filter_color_enhance">Väri+</string>
+    <string name="scan_filter_ink_saver">Musteensäästö</string>
+    <string name="scan_filter_premium">Premium-ominaisuus</string>
+    <string name="scan_filter_filtered_document">Suodatettu asiakirja</string>
+    <string name="scan_filter_applying">Suodatinta käytetään...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Peruuttaa</string>
+    <string name="scan_share">Jakaa</string>
+    <string name="scan_move">Liikkua</string>
+    <string name="scan_move_to_folder">Siirrä kansioon</string>
+    <string name="scan_delete">Poistaa</string>
+    <string name="scan_rename">Nimeä uudelleen</string>
+    <string name="scan_root">Juuri</string>
+    <string name="scan_select_destination">Valitse kohdekansio</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Asiakirja</string>
+    <string name="scan_document_back">Takaisin</string>
+    <string name="scan_document_pages">sivut</string>
+    <string name="scan_document_add_pages">Lisää sivuja tähän dokumenttiin</string>
+    <string name="scan_document_add_page_button">Lisää sivu</string>
+    <string name="scan_document_rename">Nimeä uudelleen</string>
+    <string name="scan_document_share">Jakaa</string>
+    <string name="scan_document_more">Lisää</string>
+    <string name="scan_document_pages_count">%1$d sivua</string>
+    <string name="scan_document_no_pages">Ei vielä sivuja</string>
+    <string name="scan_document_scan_page">Skannaa sivu</string>
+    <string name="scan_document_import_page">Tuo galleriasta</string>
+    <string name="scan_document_grid_view">Ruudukkonäkymä</string>
+    <string name="scan_document_list_view">Listanäkymä</string>
+    <string name="scan_document_continuous_view">Jatkuva näkymä</string>
+    <string name="scan_document_page_number">Sivu %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Sivu</string>
+    <string name="scan_page_back">Takaisin</string>
+    <string name="scan_page_share">Jakaa</string>
+    <string name="scan_page_delete">Poistaa</string>
+    <string name="scan_page_of">%1$d / %2$d</string>
+    <string name="scan_page_image_not_found">Kuvaa ei löytynyt</string>
+    <string name="scan_page_retake">Ota uudelleen</string>
+    <string name="scan_page_crop">Sato</string>
+    <string name="scan_page_enhance">Parantaa</string>
+    <string name="scan_page_ocr">OCR-tekstintunnistus</string>
+    <string name="scan_page_save_gallery">Tallenna galleriaan</string>
+    <string name="scan_page_saved_to_gallery">Kuva tallennettiin galleriaan</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Poistetaanko dokumentti?</string>
+    <string name="scan_delete_document_message">Haluatko varmasti poistaa "%1$s"? Tämä poistaa pysyvästi kaikki sivut tästä asiakirjasta. Tätä toimintoa ei voi perua.</string>
+    <string name="scan_rename_document">Nimeä asiakirja uudelleen</string>
+    <string name="scan_rename_enter_name">Anna dokumentille uusi nimi</string>
+    <string name="scan_rename_document_name">Asiakirjan nimi</string>
+    <string name="scan_rename_error">Dokumentin nimi ei voi olla tyhjä</string>
+    <string name="scan_dialog_delete_document_title">Poistetaanko dokumentti?</string>
+    <string name="scan_dialog_delete_document_message">Haluatko varmasti poistaa "%1$s"? Tämä poistaa pysyvästi kaikki sivut tästä asiakirjasta. Tätä toimintoa ei voi perua.</string>
+    <string name="scan_dialog_delete_confirm">Poistaa</string>
+    <string name="scan_dialog_cancel">Peruuttaa</string>
+    <string name="scan_dialog_move_title">Siirrä kansioon</string>
+    <string name="scan_dialog_move_message">Valitse kohdekansio</string>
+    <string name="scan_dialog_move_confirm">Liikkua</string>
+    <string name="scan_dialog_move_root">Juuri</string>
+    <string name="scan_dialog_move_selected">Valittu</string>
+    <string name="scan_dialog_rename_title">Nimeä asiakirja uudelleen</string>
+    <string name="scan_dialog_rename_message">Anna dokumentille uusi nimi</string>
+    <string name="scan_dialog_rename_label">Asiakirjan nimi</string>
+    <string name="scan_dialog_rename_error">Dokumentin nimi ei voi olla tyhjä</string>
+    <string name="scan_dialog_rename_confirm">Nimeä uudelleen</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Jakaa</string>
+    <string name="scan_menu_move">Siirrä kansioon</string>
+    <string name="scan_menu_delete">Poistaa</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Kameran esikatselu\n(Tulossa pian)</string>
+    <string name="scan_platform_desktop_camera">Pöytäkameran esikatselu\n(Tulossa pian)</string>
+    <string name="scan_platform_ios_camera">iOS-kameran esikatselu\n(Tulossa pian)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Lähellä</string>
+    <string name="flash">Salama</string>
+    <string name="auto_capture">Automaattinen kuvaus</string>
+    <string name="settings">Asetukset</string>
+    <string name="capture">Kaapata</string>
+    <string name="finish">Valmis</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Haluatko varmasti poistaa %1? Kaikki sen sisältämät asiakirjat poistetaan myös.</string>
+    <string name="share">Jakaa</string>
+    <string name="share_as_images">Jaa kuvina</string>
+    <string name="share_as_pdf">Jaa PDF-muodossa</string>
+    <string name="move_to_folder">Siirrä kansioon</string>
+    <string name="delete">Poistaa</string>
+    <string name="selected">Valittu</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Sivu %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">Kansio on tyhjä</string>
+    <string name="tap_the__button_to_scan_a_docu">Napauta +-painiketta skannataksesi asiakirjan</string>
+    <string name="str______pages">%1$s • %2$s • %3$s sivua</string>
+    <string name="create_folder">Luo kansio</string>
+    <string name="more_options">Lisää vaihtoehtoja</string>
+    <string name="document_thumbnail">Dokumentin pikkukuva</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Kuvaa ei löytynyt</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Sivu %2$d</string>
+    <string name="scan_ocr_title">Tekstin tunnistus</string>
+    <string name="scan_ocr_copy">Kopioi teksti</string>
+    <string name="scan_ocr_no_text">Ei tekstiä löytynyt</string>
+    <string name="scan_ocr_processing">Tekstin tunnistaminen…</string>
+    <string name="scan_ocr_error">Tekstin tunnistaminen epäonnistui</string>
+    <string name="scan_ocr_not_supported">OCR-tunnistusta ei tueta tällä alustalla</string>
+    <string name="scan_ocr_image">Skannattu sivu OCR-tunnistusta varten</string>
+    <string name="gallery">Galleria</string>
+    <string name="select_file">Valitse tiedosto</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Kuvan ottaminen epäonnistui</string>
+    <string name="error_no_images_captured">Ei otettuja kuvia</string>
+    <string name="error_open_settings">Asetusten avaaminen epäonnistui</string>
+    <string name="error_process_images">Kuvien käsittely epäonnistui</string>
+    <string name="error_process_image">Kuvan käsittely epäonnistui</string>
+    <string name="error_start_camera">Kameran käynnistäminen epäonnistui</string>
+    <string name="error_stop_camera">Kameran pysäyttäminen epäonnistui</string>
+    <string name="error_crop_image">Kuvan rajaaminen epäonnistui</string>
+    <string name="error_delete_document">Dokumentin poistaminen epäonnistui</string>
+    <string name="error_delete_page">Sivun poistaminen epäonnistui</string>
+    <string name="error_load_document">Asiakirjan lataaminen epäonnistui</string>
+    <string name="error_load_page">Sivun lataaminen epäonnistui</string>
+    <string name="error_move_document">Dokumentin siirtäminen epäonnistui</string>
+    <string name="error_no_pages_to_share">Ei jaettavia sivuja</string>
+    <string name="error_rename_document">Dokumentin uudelleennimeäminen epäonnistui</string>
+    <string name="error_reorder_pages">Sivujen uudelleenjärjestely epäonnistui</string>
+    <string name="error_share_images">Kuvien jakaminen epäonnistui</string>
+    <string name="error_share_pdf">PDF-tiedoston jakaminen epäonnistui</string>
+    <string name="error_share_page">Sivun jakaminen epäonnistui</string>
+    <string name="error_create_folder">Kansion luominen epäonnistui</string>
+    <string name="error_delete_folder">Kansion poistaminen epäonnistui</string>
+    <string name="error_rename_folder">Kansion uudelleennimeäminen epäonnistui</string>
+    <string name="error_unknown">Tuntematon virhe tapahtui</string>
+    <string name="folder_not_found">Kansiota ei löytynyt</string>
+    <string name="sync_documents">Synkronoi dokumentit</string>
+    <string name="shutter_scale">sulkimen_mittakaava</string>
+    <string name="import_gallery">Tuo galleria</string>
+    <string name="scan_camera">Skannaa kamera</string>
+</resources>

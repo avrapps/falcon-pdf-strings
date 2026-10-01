@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">PDF 매직</string>
+    <string name="app_tagline">무엇을 하고 싶으세요?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">최근 사용</string>
+    <string name="home_favorites">즐겨찾기</string>
+    <string name="home_new_tool">새로운 도구</string>
+    <string name="home_featured">추천 상품</string>
+    <string name="home_scan_to_pdf">PDF로 스캔</string>
+    <string name="home_scan_description">종이 문서를 순식간에 디지털 문서로 변환하세요.</string>
+    <string name="home_start_scanning">스캔 시작</string>
+    <string name="home_all_tools">모든 도구</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">PDF 도구</string>
+    <string name="image_tools">이미지 도구</string>
+    <string name="tools_split">나뉘다</string>
+    <string name="tools_split_description">페이지 추출</string>
+    <string name="tools_rotate">회전</string>
+    <string name="tools_rotate_description">방향 고정</string>
+    <string name="tools_delete_pages">페이지 삭제</string>
+    <string name="tools_delete_pages_description">원치 않는 부분을 제거하세요</string>
+    <string name="tools_convert">전환하다</string>
+    <string name="tools_convert_description">이미지 전송/이미지에서</string>
+    <string name="tools_sign">징후</string>
+    <string name="tools_sign_description">서명 추가</string>
+    <string name="tools_protect">보호하다</string>
+    <string name="tools_protect_description">비밀번호 보안</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">PDF 뷰어</string>
+    <string name="pdf_viewer_page_info">%2$d의 페이지 %1$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">문서 스캐너</string>
+    <string name="scanner_capture">포착</string>
+    <string name="scanner_retake">다시 잡다</string>
+    <string name="scanner_save">구하다</string>
+    <!-- Navigation -->
+    <string name="nav_back">뒤로 가기</string>
+    <string name="nav_settings">설정</string>
+    <string name="nav_more_options">더 많은 옵션</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">집</string>
+    <string name="nav_library">도서관</string>
+    <string name="nav_scan">주사</string>
+    <string name="nav_tools">도구</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">파일 찾아보기</string>
+    <string name="browse_files_subtitle">저장소 &amp; 클라우드 파일</string>
+    <string name="show_hidden_files">숨겨진 파일 표시</string>
+    <string name="hide_hidden_files">숨겨진 파일 숨기기</string>
+    <string name="refresh_storage">저장소 새로 고침</string>
+    <string name="no_storage_available">저장 공간이 없습니다</string>
+    <string name="no_files_found">파일을 찾을 수 없습니다.</string>
+    <string name="add_files">%1$d 파일을 추가합니다</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">저장 권한이 필요합니다</string>
+    <string name="permission_storage_message">이 앱은 PDF 파일을 탐색하고 열기 위해 기기 저장소에 접근해야 합니다. 계속하려면 저장소 권한을 허용해 주세요.</string>
+    <string name="permission_grant">허가해 주세요</string>
+    <!-- Common Actions -->
+    <string name="action_open">열려 있는</string>
+    <string name="action_save">구하다</string>
+    <string name="action_share">공유하다</string>
+    <string name="action_delete">삭제</string>
+    <string name="action_cancel">취소</string>
+    <string name="action_confirm">확인하다</string>
+    <string name="action_rename">이름 변경</string>
+    <string name="action_print">인쇄</string>
+    <string name="action_favorite">가장 좋아하는</string>
+    <string name="action_unfavorite">싫어함</string>
+    <!-- Document Actions -->
+    <string name="document_share">문서 공유</string>
+    <string name="document_rename">문서 이름 변경</string>
+    <string name="document_delete">문서 삭제</string>
+    <string name="document_print">문서 인쇄</string>
+    <string name="document_favorite">즐겨찾기에 추가</string>
+    <string name="document_unfavorite">즐겨찾기에서 제거</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">문서가 성공적으로 공유되었습니다.</string>
+    <string name="document_share_failed">문서 공유에 실패했습니다</string>
+    <string name="document_renamed_success">문서 이름 변경이 성공적으로 완료되었습니다.</string>
+    <string name="document_rename_failed">문서 이름 변경에 실패했습니다.</string>
+    <string name="document_deleted_success">문서가 성공적으로 삭제되었습니다.</string>
+    <string name="document_delete_failed">문서 삭제에 실패했습니다</string>
+    <string name="document_print_opened">기본 PDF 뷰어에서 문서가 열립니다. 뷰어의 인쇄 기능을 사용하여 인쇄하십시오.</string>
+    <string name="document_print_failed">문서 인쇄에 실패했습니다</string>
+    <string name="document_added_to_favorites">즐겨찾기에 추가됨</string>
+    <string name="document_removed_from_favorites">즐겨찾기에서 삭제됨</string>
+    <string name="document_favorite_failed">즐겨찾기 상태 업데이트에 실패했습니다.</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">문서 이름 변경</string>
+    <string name="dialog_rename_hint">새 이름을 입력하세요</string>
+    <string name="dialog_rename_empty_error">문서 이름은 비워둘 수 없습니다.</string>
+    <string name="dialog_delete_title">문서 삭제</string>
+    <string name="dialog_delete_file_message">이렇게 하면 파일이 영구적으로 삭제됩니다.\n\n %1$s 삭제하시겠습니까?</string>
+    <string name="dialog_delete_uri_message">앱에서만 제거합니다. 원본 파일은 변경되지 않습니다.\n\n앱에서 %1$s 를 제거하시겠습니까?</string>
+    <string name="dialog_delete_confirm">삭제</string>
+    <string name="dialog_remove_confirm">제거하다</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">앱 내에서만 파일 이름이 변경됩니다. 원본 파일은 변경되지 않습니다.</string>
+    <string name="notice_delete_uri_only">앱에서 삭제되었습니다. 원본 파일은 변경되지 않았습니다.</string>
+    <string name="notice_file_exists_error">이 이름의 파일이 이미 존재합니다.</string>
+    <string name="notice_file_not_found_error">파일을 찾을 수 없습니다.</string>
+    <string name="notice_no_active_document">활성화된 문서가 없습니다.</string>
+    <string name="notice_document_path_unavailable">문서 파일 경로를 사용할 수 없습니다.</string>
+    <!-- States -->
+    <string name="state_loading">로딩 중...</string>
+    <string name="state_empty">검색된 항목이 없습니다.</string>
+    <string name="state_error">뭔가 잘못됐어요</string>
+    <string name="state_retry">다시 해 보다</string>
+    <!-- Errors -->
+    <string name="error_network">네트워크 연결 실패</string>
+    <string name="error_file_not_found">파일을 찾을 수 없습니다.</string>
+    <string name="error_permission_denied">권한이 거부되었습니다</string>
+    <string name="error_invalid_file">잘못된 파일 형식입니다</string>
+    <string name="error_password_required">비밀번호가 필요합니다</string>
+    <string name="error_incorrect_password">비밀번호가 잘못되었습니다</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">비밀번호로 보호됨</string>
+    <string name="password_protected_message">이 파일을 열려면 암호가 필요합니다. 아래에 암호를 입력하세요.</string>
+    <string name="password_label">비밀번호</string>
+    <string name="password_placeholder">비밀번호를 입력하세요</string>
+    <string name="password_unlock">터놓다</string>
+    <string name="password_show">비밀번호 표시</string>
+    <string name="password_hide">비밀번호 숨기기</string>
+    <!-- Theme -->
+    <string name="theme_light">빛</string>
+    <string name="theme_dark">어두운</string>
+    <string name="theme_system">체계</string>
+    <string name="theme_adaptive">적응형</string>
+    <string name="theme_custom">관습</string>
+    <!-- Settings -->
+    <string name="settings_title">환경설정</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">계정 &amp; 동기화</string>
+    <string name="settings_category_sync_subtitle">계정 관리, 개인 정보 동기화 &amp;</string>
+    <string name="settings_category_appearance_title">모습</string>
+    <string name="settings_category_appearance_subtitle">앱의 외관을 맞춤 설정하세요 &amp; 느낌</string>
+    <string name="settings_category_pdf_reader_title">PDF 리더</string>
+    <string name="settings_category_pdf_reader_subtitle">기본 뷰어 &amp; 읽기 환경</string>
+    <string name="settings_category_help_title">도움말 &amp; 지원</string>
+    <string name="settings_category_help_subtitle">문서 &amp; 연락처</string>
+    <string name="settings_category_general_title">일반적인</string>
+    <string name="settings_category_general_subtitle">언어 &amp; 앱 정보</string>
+    <string name="settings_theme_section">주제</string>
+    <string name="settings_theme_description">원하는 테마를 선택하세요</string>
+    <string name="settings_accent_color">액센트 컬러</string>
+    <string name="settings_custom_colors">맞춤 색상</string>
+    <string name="settings_primary_color">원색</string>
+    <string name="settings_background_color">배경색</string>
+    <string name="settings_surface_color">표면 색상</string>
+    <string name="settings_reset_colors">기본값으로 재설정</string>
+    <string name="settings_adaptive_note">Material You 적응형 색상(Android 12 이상)</string>
+    <string name="settings_app_section">앱 설정</string>
+    <string name="settings_notifications">알림</string>
+    <string name="settings_notifications_description">앱 알림을 받으세요</string>
+    <string name="settings_auto_backup">자동 백업</string>
+    <string name="settings_auto_backup_description">문서를 자동으로 백업합니다.</string>
+    <string name="settings_change_color">색상 변경</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">PDF 문서가 여기에 표시됩니다.</string>
+    <string name="scan_description">문서를 스캔하여 PDF 파일로 저장</string>
+    <string name="tools_description">PDF 편집 및 조작 도구</string>
+    <string name="home_description">하단 탐색 메뉴를 사용하여 기능에 액세스하세요.</string>
+    <!-- Sort Options -->
+    <string name="sort_name">이름</string>
+    <string name="sort_date">날짜</string>
+    <string name="sort_size">크기</string>
+    <string name="sort_option_name">이름</string>
+    <string name="sort_option_last_opened">최근 개장</string>
+    <string name="sort_option_last_modified">최종 수정일</string>
+    <string name="sort_option_file_size">파일 크기</string>
+    <!-- View Types -->
+    <string name="view_type_list">목록 보기</string>
+    <string name="view_type_table">테이블 뷰</string>
+    <string name="view_type_grid">그리드 보기</string>
+    <!-- File Properties -->
+    <string name="file_name">파일 이름</string>
+    <string name="date_modified">수정일</string>
+    <string name="file_size">크기</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">시작 안 함</string>
+    <string name="file_status_completed">완전한</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">PDF 문서</string>
+    <string name="document_type_word">워드 문서</string>
+    <string name="document_type_excel">엑셀 스프레드시트</string>
+    <string name="document_type_image">이미지 파일</string>
+    <string name="document_type_other">문서</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">모든 파일</string>
+    <string name="filter_recent">최근의</string>
+    <string name="filter_pdfs">PDF</string>
+    <string name="filter_images">이미지</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">집</string>
+    <string name="browse_tab">먹다</string>
+    <string name="starred_tab">별표</string>
+    <string name="settings_tab">설정</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">테마 전환</string>
+    <string name="accessibility_menu">메뉴</string>
+    <string name="accessibility_close">닫다</string>
+    <string name="accessibility_color_picker">색상 선택기</string>
+    <!-- Library Screen -->
+    <string name="library_title">도서관</string>
+    <string name="library_subtitle">파일 관리, 최근 항목 &amp; 즐겨찾기</string>
+    <string name="library_search_placeholder">파일을 검색하세요...</string>
+    <string name="library_selected_count">%1$d 선택됨</string>
+    <string name="library_open_from_device">\n기기에서 열기</string>
+    <string name="library_browse_files">파일 찾아보기\n개</string>
+    <string name="library_action_open">열려 있는</string>
+    <string name="library_action_share">공유하다</string>
+    <string name="library_action_remove">제거하다</string>
+    <string name="library_action_delete">삭제</string>
+    <string name="library_clear_search">검색 결과 지우기</string>
+    <string name="library_close_search">검색 닫기</string>
+    <string name="library_select_all">모든 파일을 선택하세요</string>
+    <string name="library_exit_multiselect">다중 선택 모드 종료</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">도움말 &amp; 지원</string>
+    <string name="help_support_subtitle">자주 묻는 질문, 문의하기 &amp; 법률</string>
+    <string name="settings_pdf_subtitle">스크롤, 보기 &amp; 레이아웃</string>
+    <string name="help_header_title">어떻게 도와드릴까요?</string>
+    <string name="help_header_subtitle">Our team is here to ensure you have the\nbest PDF experience.</string>
+    <string name="help_contact_us">문의하기</string>
+    <string name="help_contact_subtitle">고객 지원팀에 문의하세요</string>
+    <string name="help_faq">자주 묻는 질문</string>
+    <string name="help_faq_subtitle">자주 묻는 질문에 대한 답변</string>
+    <string name="help_privacy_policy">개인정보 보호정책</string>
+    <string name="help_privacy_subtitle">저희는 어떻게 고객님의 데이터를 보호하는가</string>
+    <string name="help_terms_service">서비스 약관</string>
+    <string name="help_terms_subtitle">신청 규칙</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">모바일 데이터 동기화</string>
+    <string name="background_sync">백그라운드 동기화</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">PDF 리더 설정</string>
+    <string name="pdf_settings_coming_soon">곧 출시 예정</string>
+    <string name="pdf_settings_description">스크롤 동작, 보기 모드 및 읽기 기본 설정을 구성합니다.</string>
+    <!-- General Settings -->
+    <string name="settings_language">언어</string>
+    <string name="settings_pdf_reader">PDF 리더 설정</string>
+    <string name="settings_help_support">도움말 &amp; 지원</string>
+    <string name="settings_whats_new">새로운 소식</string>
+    <string name="settings_download_desktop">다른 기기에 설치하기</string>
+    <string name="settings_rate_app">앱 평가하기</string>
+    <string name="play_store_not_found">이 기기에서 Play Store를 찾을 수 없습니다.</string>
+    <string name="settings_set_as_default">기본 PDF 뷰어로 설정</string>
+    <string name="settings_set_as_default_subtitle">PDF 파일을 이 앱으로 기본 설정하여 엽니다.</string>
+    <string name="settings_default_pdf_instructions_title">기본값으로 설정하는 방법</string>
+    <string name="settings_default_pdf_ok">알았어요</string>
+    <string name="settings_default_app_hint">작동하지 않았나요?</string>
+    <string name="settings_default_app_hint_learn_more">더 알아보기</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">언어</string>
+    <string name="language_search_placeholder">검색 언어...</string>
+    <!-- Common UI -->
+    <string name="support">지원하다</string>
+    <string name="language_english">영어</string>
+    <string name="language_hindi">힌디어</string>
+    <string name="language_spanish">스페인어</string>
+    <string name="language_french">프랑스어</string>
+    <string name="language_german">독일어</string>
+    <string name="language_chinese_simplified">중국어(简体)</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_japanese">일본어</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">포르투갈어</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">앱 외관</string>
+    <string name="theme">주제</string>
+    <string name="general">일반적인</string>
+    <string name="new">새로운</string>
+    <string name="navigate">탐색하기</string>
+    <string name="download">다운로드</string>
+    <string name="falcon_pdf">팔콘 PDF</string>
+    <string name="excellence_in_every_pixel">모든 픽셀 하나하나에 담긴 탁월함</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">변경 사항 적용</string>
+    <string name="apply">적용하다</string>
+    <string name="selected">선택된</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">설정 동기화</string>
+    <string name="autosync_on_wifi">Wi-Fi 자동 동기화</string>
+    <string name="sync_reading_progress">읽기 진행 상황 동기화</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">문서 이름</string>
+    <string name="name_cannot_be_empty">이름은 비워둘 수 없습니다.</string>
+    <string name="str__failed">%1$s 실패</string>
+    <string name="ok">좋아요</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">업그레이드 플랜 - 현재 플랜: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">파일을 열려면 드래그하세요</string>
+    <string name="release_to_import_and_open_pdf">PDF 파일 가져오기 및 열기 기능을 출시합니다.</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">제거하다</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF</string>
+    <string name="images">이미지</string>
+    <string name="filter_all_types">모든 파일</string>
+    <string name="favorites">즐겨찾는 파일</string>
+    <string name="recent">최근의</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">문서를 검색하세요...</string>
+    <string name="voice_search">음성 검색</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">최근 파일</string>
+    <string name="loading_recent_files">최근 파일을 불러오는 중...</string>
+    <string name="no_recent_files">최근 파일이 없습니다.</string>
+    <string name="no_favorites">특별히 좋아하는 사람 없음</string>
+    <string name="mark_files_as_favorite_to_see_them_here">파일을 즐겨찾기에 추가하면 여기에서 바로 볼 수 있습니다.</string>
+    <string name="open_some_pdf_files_to_see_the">PDF 파일을 열어서 확인해 보세요.</string>
+    <string name="status">상태</string>
+    <string name="actions">행위</string>
+    <string name="select_all">모두 선택하세요</string>
+    <string name="enter_multiselect_mode">다중 선택 모드로 들어가세요</string>
+    <string name="sorted_ascending">오름차순 정렬</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">저장 위치: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">%1$s 파일을 추가하세요</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">보기 유형 변경</string>
+    <string name="filter_">필터: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">PDF 파일을 불러오는 중...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">로그인하여 동기화하세요</string>
+    <string name="protect_your_library_files">라이브러리 파일을 보호하세요</string>
+    <string name="sign_in">로그인</string>
+    <string name="sign_out">로그아웃</string>
+    <string name="sign_in_dialog_title">Falcon PDF에 로그인하세요</string>
+    <string name="sign_in_dialog_subtitle">언제 어디서든 PDF 라이브러리를 이용하세요.</string>
+    <string name="sign_in_with_google">Google 계정으로 로그인</string>
+    <string name="sign_in_with_apple">Apple로 로그인</string>
+    <string name="apple_user_drive_unavailable">Apple Sign-In에서는 Google Drive 동기화를 사용할 수 없습니다.</string>
+    <string name="apple_user_link_google">Google 계정 연결을 통해 Drive와 동기화하세요.</string>
+    <string name="apple_user_sync_info">클라우드 동기화를 사용하려면 Google 계정을 연결하세요.</string>
+    <string name="link_google_account">Google 계정 연결</string>
+    <string name="signed_in_successfully">로그인 성공</string>
+    <string name="signed_out_successfully">성공적으로 로그아웃되었습니다.</string>
+    <string name="sync_disabled_free">무료 계정의 경우 동기화 기능이 비활성화되어 있습니다.</string>
+    <string name="storage_disabled_grant_access">저장소가 비활성화되었습니다. 시작하려면 드라이브 액세스 권한을 부여하십시오.</string>
+    <string name="upgrade_to_pro">프로 버전으로 업그레이드하세요</string>
+    <string name="grant_drive_access">그랜트 드라이브 액세스</string>
+    <string name="files_synced">%1$d/%2$d 파일 동기화됨</string>
+    <string name="synced_count">%1$d 동기화됨</string>
+    <string name="unlimited_sync_active">무제한 동기화</string>
+    <string name="missing_drive_permissions">드라이브 권한이 부족합니다. 동기화가 현재 차단되었습니다.</string>
+    <string name="drive_access_revoked">드라이브 액세스가 취소되었습니다. 동기화를 재개하려면 다시 연결하세요.</string>
+    <string name="upgrade_premium">프리미엄 업그레이드</string>
+    <string name="manage_account">계정 관리</string>
+    <string name="sync_now">지금 동기화하세요</string>
+    <string name="tier_free">무료</string>
+    <string name="tier_pro">찬성</string>
+    <string name="tier_premium">프리미엄</string>
+    <string name="status_paused">일시 중지됨</string>
+    <!-- Common -->
+    <string name="navigate_back">뒤로 가기</string>
+    <string name="dismiss">해고하다</string>
+    <string name="cancel">취소</string>
+    <string name="back">뒤쪽에</string>
+    <string name="search">찾다</string>
+    <string name="more_actions">추가 작업</string>
+    <string name="share">공유하다</string>
+    <string name="delete">삭제</string>
+    <string name="remove_from_recents">최근 항목에서 제거</string>
+    <string name="open">열려 있는</string>
+    <string name="all">모두</string>
+    <string name="sort_by_">%1$s를 기준으로 정렬</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">구글 드라이브 동기화</string>
+    <string name="syncing">동기화 중...</string>
+    <string name="sync_completed">동기화 완료</string>
+    <string name="sync_failed">동기화 실패</string>
+    <string name="sync_limit_exceeded">동기화 제한을 초과했습니다. 사용 중인 %s 요금제는 %d 개의 파일 동기화만 허용합니다.</string>
+    <string name="sync_no_drive_access">Google Drive에 액세스할 수 없습니다.</string>
+    <string name="sync_network_unavailable">네트워크를 사용할 수 없습니다</string>
+    <string name="sync_last_sync">마지막 동기화: %s</string>
+    <string name="sync_total_files">총</string>
+    <string name="sync_synced_files">동기화됨</string>
+    <string name="sync_failed_files">실패한</string>
+    <string name="sync_conflict_files">갈등</string>
+    <string name="sync_add_to_favorites">즐겨찾기에 추가</string>
+    <string name="sync_remove_from_favorites">즐겨찾기에서 제거</string>
+    <string name="sync_conflict_title">동기화 충돌</string>
+    <string name="sync_conflict_message">다음 파일들에 해결해야 할 충돌이 있습니다.</string>
+    <string name="sync_conflict_explanation">로컬 버전과 원격 버전이 모두 수정되었을 때 충돌이 발생합니다.</string>
+    <string name="sync_plan_limit">동기화: %d/%d</string>
+    <string name="sync_plan_limit_reached">제한에 도달했습니다</string>
+    <string name="sync_plan_unlimited">무제한 동기화</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">건너뛰다</string>
+    <string name="welcome_next">다음</string>
+    <string name="welcome_get_started">시작하기</string>
+    <string name="welcome_sign_in_get_started">로그인 &amp; 시작하기</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;모든 문서를 즉시 읽기&lt;/b&gt;</string>
+    <string name="welcome_slide1_description">PDF, DOC, EPUB, MOBI를 포함한 10가지 이상의 문서 형식을 열고 관리할 수 있습니다.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Read PDFs, ebooks,&lt;/b&gt; and office docs in one place</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;즐겨찾는&lt;/b&gt; 문서를 저장하고 여러 기기에서 액세스하세요.</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;댓글 달기,&lt;/b&gt; 강조 표시, 간편한 공동 작업</string>
+    <string name="welcome_slide1_footer">범용 문서 리더</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;PDF 편집, 스캔 및 정리&lt;/b&gt; PDF</string>
+    <string name="welcome_slide2_description">PDF를 생성, 편집 및 관리하는 데 필요한 모든 기능을 하나의 강력한 툴킷에서 제공합니다.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;텍스트 편집,&lt;/b&gt; 주석 달기, 강조 표시 및 양식 작성</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;문서를 스캔하고&lt;/b&gt; 즉시 PDF로 변환하세요</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;병합, 변환, 압축 및 보안을 포함한 30개 이상의 도구&lt;/b&gt;</string>
+    <string name="welcome_slide2_footer">모든 기능을 갖춘 PDF 작업 공간</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">문서를 이해하는 AI &lt;b&gt;&lt;/b&gt;</string>
+    <string name="welcome_slide3_description">AI가 문서를 읽고 분석해 주기 때문에 시간을 크게 절약할 수 있습니다.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;긴 문서를&lt;/b&gt; 초 만에 요약합니다.</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; 스캔한 페이지를 즉시 번역하세요</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;내장된 소리내어 읽기 기능을 사용하여 문서를 듣습니다&lt;/b&gt;</string>
+    <string name="welcome_slide3_footer">광고 없음. 오직 생산성만.</string>
+    <string name="grace">우아함</string>
+    <string name="unable_to_verify_subscription_limited_ac">구독 여부를 확인할 수 없습니다. 연결이 복구될 때까지 접속이 제한됩니다.</string>
+    <string name="retry_verification">재시도 검증</string>
+    <string name="guest_state">게스트 스테이트</string>
+    <string name="free_tier">무료 티어</string>
+    <string name="free_tier__locked">무료 티어 - 잠금됨</string>
+    <string name="pro_tier">프로 티어</string>
+    <string name="pro_tier__restricted">프로 등급 - 제한됨</string>
+    <string name="premium_tier">프리미엄 등급</string>
+    <string name="premium_tier__error">프리미엄 등급 - 오류</string>
+    <string name="refresh_plan_status">계획 상태 새로 고침</string>
+    <string name="user_avatar">사용자 아바타</string>
+    <string name="debug_tools">디버그 도구</string>
+    <string name="authentication__drive">인증 &amp; 드라이브</string>
+    <string name="auth_state">권한 상태</string>
+    <string name="revoke_drive_access">드라이브 액세스 권한 취소</string>
+    <string name="image">영상</string>
+    <string name="thumbnail">썸네일</string>
+    <string name="manage_preferences">환경설정 관리</string>
+    <string name="tools_history">도구 기록</string>
+    <string name="manage_recent_logs">최근 로그 관리</string>
+    <string name="more_options">더 많은 옵션</string>
+    <string name="clear_all_history">모든 기록 삭제</string>
+    <string name="no_history_yet">아직 기록이 없습니다.</string>
+    <string name="your_pdf_tool_operations_will_appear_her">PDF 도구 사용 내역이 여기에 표시됩니다.</string>
+    <string name="view">보다</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">저장됨 %1$s</string>
+    <string name="history_status_processing">처리 중</string>
+    <string name="history_status_succeeded">성공했습니다</string>
+    <string name="history_status_failed">실패한</string>
+    <string name="history_status_processing_upper">처리 중</string>
+    <string name="history_unknown_files">알 수 없는 파일</string>
+    <string name="history_op_complete">%1$s 완료!</string>
+    <string name="history_op_failed">%1$s 실패</string>
+    <string name="history_op_success_multiple">%1$d 파일에 대한 작업이 성공적으로 완료되었습니다.</string>
+    <string name="history_op_success_single">작업이 성공적으로 완료되었습니다.</string>
+    <string name="history_op_error">우리는 그 작전을 완료할 수 없었습니다.</string>
+    <string name="history_multiple_files">%1$d 파일</string>
+    <string name="history_failed">실패한</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">클라우드 동기화</string>
+    <string name="cloud_sync_subtitle">연결된 기기</string>
+    <string name="cloud_sync_all_synced">모든 파일이 동기화되었습니다</string>
+    <string name="cloud_sync_syncing">… 동기화 중</string>
+    <string name="cloud_sync_pending">동기화 대기 중</string>
+    <string name="cloud_sync_last_sync">마지막 동기화: %1$s</string>
+    <string name="cloud_sync_never_synced">동기화되지 않음</string>
+    <string name="cloud_sync_recent_activity">최근 동기화 활동</string>
+    <string name="cloud_sync_no_files">아직 동기화된 파일이 없습니다.</string>
+    <string name="cloud_sync_synced_to_drive">드라이브에 동기화됨</string>
+    <string name="cloud_sync_pending_upload">업로드 대기 중</string>
+    <string name="cloud_sync_sync_now">지금 동기화하세요</string>
+    <string name="cloud_sync_view_history">동기화 기록 보기</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d 파일이 동기화되었습니다.</string>
+    <string name="cloud_sync_unlimited_files">%1$d 개 파일 동기화됨 · 무제한</string>
+    <string name="cloud_sync_cta_title">어떤 플랫폼에서든, 언제든</string>
+    <string name="cloud_sync_cta_subtitle">당신의 문서는 어디를 가든 당신과 함께합니다.</string>
+    <string name="cloud_sync_files_label">%1$d 파일</string>
+    <string name="settings_data_privacy">데이터 &amp; 개인정보 보호</string>
+    <string name="settings_data_privacy_subtitle">데이터 관리, 계정 &amp; 삭제</string>
+    <string name="settings_delete_account">계정 삭제</string>
+    <string name="settings_delete_account_subtitle">계정과 데이터를 영구적으로 삭제합니다.</string>
+    <string name="delete_account_warning_title">계정을 삭제하시겠습니까?</string>
+    <string name="delete_account_warning_message">이렇게 하면 계정과 구매 내역, 클라우드에 동기화된 파일 등 모든 관련 데이터가 영구적으로 삭제됩니다. 이 작업은 되돌릴 수 없으며 구매 내역도 나중에 복원할 수 없습니다.</string>
+    <string name="delete_account_confirm_phrase_label">삭제를 진행하려면 '삭제 확인'을 입력하세요.</string>
+    <string name="delete_account_confirm_phrase">삭제 확인</string>
+    <string name="delete_account_button">계정 삭제</string>
+    <string name="delete_account_error_reauth">보안상의 이유로 계정을 삭제하려면 최근에 로그인했어야 합니다. 로그아웃 후 다시 로그인하여 시도해 주세요.</string>
+    <string name="delete_account_success">계정이 성공적으로 삭제되었습니다.</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">파일 &amp; 동기화 설정</string>
+    <string name="sync_on_mobile_data_subtitle">클라우드 동기화에 모바일 데이터를 사용하세요.</string>
+    <string name="drive_sync">백그라운드 동기화</string>
+    <string name="drive_sync_subtitle">즐겨찾기 동기화 &amp; 스캔한 문서를 드라이브에 저장</string>
+    <string name="do_not_import_from_other_apps">다른 앱에서 파일을 가져오지 마세요.</string>
+    <string name="do_not_import_from_other_apps_subtitle">공유 파일을 라이브러리에 저장하지 않고 임시로 열어봅니다.</string>
+    <string name="clear_imported_files">가져온 파일 지우기</string>
+    <string name="clear_imported_files_subtitle">다른 앱에서 복사한 모든 파일을 삭제합니다.</string>
+    <string name="clear_imports_confirm_title">가져온 파일을 삭제하시겠습니까?</string>
+    <string name="clear_imports_confirm_message">이렇게 하면 Imports 폴더에 있는 모든 파일이 영구적으로 삭제됩니다. 이 작업은 되돌릴 수 없습니다.</string>
+    <string name="clear_imports_success">가져온 파일이 삭제되었습니다.</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">데이터 &amp; 개인정보 보호</string>
+    <string name="analytics_opt_out_title">사용량 데이터 전송</string>
+    <string name="analytics_opt_out_subtitle">익명의 사용 데이터와 충돌 보고서를 개발자와 공유하여 앱 개선에 도움을 주세요.</string>
+    <string name="analytics_opt_out_disabled_note">분석 및 충돌 보고 기능이 비활성화되었습니다. Google이나 개발자에게 데이터가 전송되지 않습니다.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">저장되지 않은 변경 사항</string>
+    <string name="unsaved_changes_tab_message">이 문서에는 저장되지 않은 변경 사항이 있습니다. 닫기 전에 저장하시겠습니까?</string>
+    <string name="unsaved_changes_window_message">하나 이상의 문서에 저장되지 않은 변경 사항이 있습니다. 변경 사항을 모두 취소하고 종료하시겠습니까?</string>
+    <string name="discard">버리다</string>
+    <string name="discard_and_quit">버리기 &amp; 종료</string>
+    <string name="close">닫다</string>
+    <string name="remove_favorite">즐겨찾기에서 삭제</string>
+    <string name="set_as_default_pdf_viewer">기본 PDF 뷰어로 설정하시겠습니까?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF가 기본 PDF 뷰어가 아닙니다. 모든 PDF 파일을 Falcon PDF로 열도록 기본 뷰어로 설정하시겠습니까?</string>
+    <string name="set_now">지금 설정하세요</string>
+    <string name="never">절대</string>
+    <string name="later">나중에</string>
+    <string name="set_default">기본값 설정</string>
+    <string name="default">기본</string>
+    <string name="version_">버전 %1$s</string>
+    <string name="sign_in_with_other_accounts">다른 계정으로 로그인하세요</string>
+    <string name="upgrade">치받이</string>
+    <string name="view_plan">계획 보기</string>
+    <string name="unlimited_sync_upto_5gb">최대 5GB까지 무제한 동기화</string>
+    <string name="unlock_faster">더 빠르게 잠금 해제하세요</string>
+    <string name="use_biometrics_instead_of_passwords">비밀번호 대신 생체인식을 사용하세요.</string>
+    <string name="upgrade_to_premium">프리미엄으로 업그레이드하세요</string>
+    <string name="unlock_pdf">PDF 잠금 해제</string>
+    <string name="use__to_accessnthis_document">%1$s 를 사용하여\n이 문서에 접근하세요.</string>
+    <string name="open_with_password">비밀번호로 열기</string>
+    <string name="secure">안전한</string>
+    <string name="loading_">%1$s 로딩 중...</string>
+    <string name="failed_to_open_ebook">전자책을 열 수 없습니다</string>
+    <string name="properties">속성</string>
+    <string name="copy">복사</string>
+    <string name="highlight">가장 밝은 부분</string>
+    <string name="clear_selection">선택 해제</string>
+    <string name="close_search">검색 닫기</string>
+    <string name="search_in_book">책에서 검색...</string>
+    <string name="contents">내용물</string>
+    <string name="table_of_contents">목차</string>
+    <string name="no_table_of_contents_available">목차를 사용할 수 없습니다.</string>
+    <string name="bookmarks">책갈피</string>
+    <string name="no_bookmarks_yet">아직 북마크가 없습니다</string>
+    <string name="page_">페이지 %1$s</string>
+    <string name="no_results">결과가 없습니다</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">설정</string>
+    <string name="decrease_font_size">글꼴 크기를 줄이세요</string>
+    <string name="increase_font_size">글꼴 크기를 키우세요</string>
+    <string name="font">세례반</string>
+    <string name="jump_to_page">페이지로 이동</string>
+    <string name="enter_page_number_1">페이지 번호를 입력하세요 (1–%1$s):</string>
+    <string name="go">가다</string>
+    <string name="read_aloud">소리내어 읽어주세요</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">멈추다</string>
+    <string name="annotations__text_selection">주석 &amp; 텍스트 선택</string>
+    <string name="text_selection_and_annotations_for_ebook">전자책용 텍스트 선택 및 주석 기능이 곧 출시될 예정입니다.</string>
+    <string name="longpress_on_text_to_select_highlight_or">텍스트를 길게 눌러 선택, 강조 표시 또는 메모를 추가하세요.</string>
+    <string name="press_play_to_start_reading_aloud">재생 버튼을 눌러 소리 내어 읽기 시작하세요...</string>
+    <string name="speed">속도</string>
+    <string name="voice">목소리</string>
+    <string name="no_annotations_yet">아직 주석이 없습니다</string>
+    <string name="select_text_to_highlight_or_add_notes">강조 표시하거나 메모를 추가할 텍스트를 선택하세요.</string>
+    <string name="tools">도구</string>
+    <string name="convert_to_images">이미지로 변환</string>
+    <string name="rename">이름 변경</string>
+    <string name="print">인쇄</string>
+    <string name="a">에이−</string>
+    <string name="cover_of_">%1$s 표지</string>
+    <string name="no_cover_available">보험 가입 불가</string>
+    <string name="read_now">지금 읽어보세요</string>
+    <string name="about_the_book">책 소개</string>
+    <string name="tags">태그</string>
+    <string name="publisher_info">출판사 정보</string>
+    <string name="published_">게시됨: %1$s</string>
+    <string name="retry">다시 해 보다</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F 캐시 지우기</string>
+    <string name="ebooks_library">전자책 라이브러리</string>
+    <string name="manage_your_digital_collection_across_mu">다양한 제공업체에 걸쳐 있는 디지털 컬렉션을 관리하세요. Google Books와 Open Library에서 새로운 도서를 검색하고, 필터링하고, 찾아보세요.</string>
+    <string name="no_books_found">책을 찾을 수 없습니다.</string>
+    <string name="no_results_for__try_a_different_search_t">"%1$s"에 대한 검색 결과가 없습니다. 다른 검색어를 사용해 보세요.</string>
+    <string name="downloadable_only">다운로드 전용</string>
+    <string name="file_unavailable">파일을 사용할 수 없습니다.</string>
+    <string name="unavailable">없는</string>
+    <string name="search_titles_authors_isbn">제목, 저자, ISBN 등으로 검색하세요...</string>
+    <string name="clear_search">검색 결과 지우기</string>
+    <string name="ebooks">전자책</string>
+    <string name="read_pdf">PDF 읽기</string>
+    <string name="create_pdf">PDF 생성</string>
+    <string name="unlock_all_tools_and_remove_limits">모든 도구를 잠금 해제하고 제한을 없애세요</string>
+    <string name="ocr_scanning">OCR 스캔</string>
+    <string name="extract_text_from_scanned_documents">스캔한 문서에서 텍스트 추출</string>
+    <string name="cloud_sync">클라우드 동기화</string>
+    <string name="access_your_documents_anywhere">어디서든 문서에 액세스하세요</string>
+    <string name="annotate_pdfs">PDF에 주석 달기</string>
+    <string name="cloud_backup">클라우드 백업</string>
+    <string name="continue_reading">계속 읽기</string>
+    <string name="pick_files">파일 선택</string>
+    <string name="browse">먹다</string>
+    <string name="did_you_know">알고 계셨나요?</string>
+    <string name="home">집</string>
+    <string name="your_documents_at_a_glance">내 문서를 한눈에 보기</string>
+    <string name="pick_file">파일 선택</string>
+    <string name="quick_actions">빠른 조치</string>
+    <string name="pro">찬성</string>
+    <string name="open_files">파일 열기</string>
+    <string name="convert_to_pdf">PDF로 변환</string>
+    <string name="close_drawer">서랍을 닫으세요</string>
+    <string name="close_file">파일을 닫습니다</string>
+    <string name="office">사무실</string>
+    <string name="coming_soon">곧 출시 예정</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">이 플랫폼에서는 아직 전자책 뷰어를 사용할 수 없습니다.</string>
+    <string name="set_as_default_viewer">기본 뷰어로 설정</string>
+    <string name="free">무료</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">업데이트 다운로드 중... %1$s%</string>
+    <string name="more">더</string>
+    <string name="font_size">글꼴 크기</string>
+    <string name="font_family">글꼴 패밀리</string>
+    <string name="scroll_direction">스크롤 방향</string>
+    <string name="navigation">항해</string>
+    <string name="keep_screen_on">화면을 켜둔 상태로 유지</string>
+    <string name="volume_button_to_scroll">볼륨 버튼으로 스크롤하세요</string>
+    <string name="export_ebook_pages_as_image_files">전자책 페이지를 이미지 파일로 내보내기</string>
+    <string name="access_millions_of_titles">수백만 개의 콘텐츠를 이용하세요.</string>
+    <string name="read_offline_with_natural_ai_voices">자연스러운 AI 음성으로 오프라인에서 읽어보세요.</string>
+    <string name="advanced_ai_reader">고급 AI 리더.</string>
+    <string name="experience_studioquality_narration">스튜디오급 음질의 내레이션을 경험해 보세요.</string>
+    <string name="powerful_pdf_tools">강력한 PDF 도구.</string>
+    <string name="create_and_edit_documents_on_the_go">이동 중에도 문서를 작성하고 편집하세요.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">프로 버전으로 업그레이드하세요: 모든 도구를 잠금 해제하고 제한을 없애세요.</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">OCR 스캔: 스캔한 문서에서 텍스트 추출</string>
+    <string name="cloud_sync_access_your_documents_anywher">클라우드 동기화: 어디서든 문서에 액세스하세요</string>
+    <string name="scan">주사</string>
+    <string name="compress">압박 붕대</string>
+    <string name="merge">병합</string>
+    <string name="convert">전환하다</string>
+    <string name="highlight_underline_and_add_notes_to_you">문서에서 강조 표시, 밑줄 긋기, 메모 추가하기</string>
+    <string name="keep_your_documents_safe_with_automatic_">클라우드 자동 동기화로 문서를 안전하게 보관하세요.</string>
+    <string name="indicator_color_">indicator_color_%1$s</string>
+    <string name="my_library">내 라이브러리</string>
+    <string name="get_ebooks">전자책을 받으세요</string>
+    <string name="scan_document">스캔 문서</string>
+    <string name="settings_category_ai_chat_title">AI 채팅 제공업체</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama 또는 직접 키</string>
+    <string name="settings_category_tts_title">소리 내어 읽기 (TTS)</string>
+    <string name="settings_category_tts_subtitle">소리 내어 읽기 재생용 음성</string>
+    <string name="settings_section_ai_voice">AI 및 음성</string>
+    <string name="settings_entry_ai_title">AI 채팅 제공업체</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, 로컬 Ollama 또는 직접 만든 OpenAI 호환 키</string>
+    <string name="settings_entry_tts_title">소리 내어 읽기 (TTS)</string>
+    <string name="settings_entry_tts_subtitle">시스템, ElevenLabs, OpenAI 또는 로컬 Kokoro 음성</string>
+    <string name="provider_dialog_reset">재설정</string>
+    <string name="provider_dialog_cancel">취소</string>
+    <string name="provider_dialog_save">환경설정 저장</string>
+    <string name="provider_dialog_encryption_note">로컬에 암호화되어 저장됩니다. 원격 서버에 절대 동기화되지 않습니다.</string>
+    <string name="provider_dialog_close">닫기</string>
+    <string name="ai_settings_dialog_title">AI 채팅 제공업체 설정</string>
+    <string name="ai_settings_dialog_subtitle">API 액세스 키, 사용자 지정 모델 및 제공업체 환경설정을 구성합니다.</string>
+    <string name="tts_settings_dialog_title">TTS 제공업체 설정</string>
+    <string name="tts_settings_dialog_subtitle">합성 엔진을 구성하고 자격 증명을 관리하며 음성을 선택합니다.</string>
+</resources>

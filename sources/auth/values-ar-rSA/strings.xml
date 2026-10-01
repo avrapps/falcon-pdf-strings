@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth &Signin-->
+    <string name="error_sign_in_failed">تحقق من اتصالك بالإنترنت وتأكد من إضافة حساب جوجل إلى جهازك، ثم حاول مرة أخرى.</string>
+    <string name="sign_in_with_apple">سجّل الدخول باستخدام Apple</string>
+    <!-- Purchase Screen - General -->
+    <string name="purchase_screen_title">ارتقِ بتجربتك</string>
+    <string name="purchase_screen_close">يغلق</string>
+    <string name="purchase_screen_refresh">ينعش</string>
+    <string name="purchase_sync_status">آخر مزامنة: %1s</string>
+    <string name="purchase_current_plan">حاضِر</string>
+    <string name="purchase_syncing">مزامنة…</string>
+    <string name="purchase_loading">جارٍ التحميل…</string>
+    <!-- Purchase Screen - Plans -->
+    <string name="purchase_free_plan">خطة مجانية</string>
+    <string name="purchase_pro_plan">النسخة الاحترافية</string>
+    <string name="purchase_pro_tagline">ادفع مرة واحدة. امتلك للأبد.</string>
+    <string name="purchase_premium_plan">اشتراك مميز</string>
+    <string name="purchase_premium_tagline">كل شيء في النسخة الاحترافية، بالإضافة إلى الذكاء الاصطناعي السحابي &amp;</string>
+    <string name="purchase_recommended">مُستَحسَن</string>
+    <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_pro_feature_1">القراءة بصوت عالٍ بالذكاء الاصطناعي — استمع إلى ملفات PDF بشكل طبيعي</string>
+    <string name="purchase_pro_feature_2">تحرير ملفات PDF بالكامل &amp; تعبئة النماذج</string>
+    <string name="purchase_pro_feature_3">مزامنة الأجهزة عبر محرك الأقراص</string>
+    <string name="purchase_pro_feature_4">بدون إعلانات، بدون علامة مائية على الصور الممسوحة ضوئياً</string>
+    <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
+    <string name="purchase_premium_feature_1_title">ملخصات الذكاء الاصطناعي بمنطق أقوى</string>
+    <string name="purchase_premium_feature_1_desc">إجابات أعمق من وثائق أطول وأكثر تعقيدًا</string>
+    <string name="purchase_premium_feature_2_title">50 جيجابايت من سحابة فالكون</string>
+    <string name="purchase_premium_feature_2_desc">مكتبة ملفات PDF الشخصية الخاصة بك، متزامنة وآمنة</string>
+    <string name="purchase_premium_feature_3_title">لا حدود لأكثر من 60 أداة PDF</string>
+    <string name="purchase_premium_feature_3_desc">جميع الأدوات، متوفرة دائمًا</string>
+    <string name="purchase_premium_feature_4_title">تحرير النصوص الكاملة في ملفات PDF</string>
+    <string name="purchase_premium_feature_4_desc">قم بتحرير النص مباشرة مثل معالج النصوص</string>
+    <!-- Purchase Screen - Actions -->
+    <string name="purchase_buy_pro">اشترِ النسخة الاحترافية</string>
+    <string name="purchase_sign_in_buy">تسجيل الدخول &amp; شراء</string>
+    <string name="purchase_sign_in_subscribe">تسجيل الدخول &amp; الاشتراك</string>
+    <string name="purchase_subscribe">يشترك</string>
+    <string name="purchase_start_trial">ابدأ تجربتك المجانية لمدة 7 أيام</string>
+    <string name="purchase_view_all_features">عرض جميع الميزات</string>
+    <string name="purchase_show_more">عرض المزيد</string>
+    <string name="purchase_show_less">إظهار أقل</string>
+    <string name="purchase_see_all_features">اطلع على جميع الميزات</string>
+    <string name="purchase_manage_subscription">إدارة الاشتراك</string>
+    <string name="purchase_restore_purchases">استعادة المشتريات</string>
+    <!-- Purchase Screen - Billing -->
+    <string name="purchase_billing_monthly">شهريا</string>
+    <string name="purchase_billing_yearly">سنوي</string>
+    <string name="purchase_save_badge">وفر 40%</string>
+    <string name="purchase_lifetime">حياة</string>
+    <string name="purchase_per_year">/سنة</string>
+    <string name="purchase_per_month">/شهر</string>
+    <string name="purchase_trial_terms">يمكنك الإلغاء في أي وقت. يتم التجديد تلقائيًا ما لم يتم الإلغاء قبل 24 ساعة من انتهاء الفترة التجريبية.</string>
+    <!-- Purchase Screen - Errors -->
+    <string name="purchase_error">فشل تحميل المنتجات. يرجى التحقق من تسجيل الدخول واتصال الإنترنت.</string>
+    <string name="purchase_error_network">انقطع الاتصال. يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى.</string>
+    <string name="purchase_error_payment_declined">تم رفض طريقة الدفع. يرجى تحديث معلومات الدفع الخاصة بك.</string>
+    <string name="purchase_error_server">حدث خطأ ما. يرجى المحاولة مرة أخرى لاحقاً.</string>
+    <string name="purchase_error_rate_limit">عدد محاولات التحديث كبير جدًا. يرجى الانتظار.</string>
+    <string name="purchase_error_offline">لا يوجد اتصال بالإنترنت. يتم عرض البيانات المخزنة مؤقتًا.</string>
+    <string name="purchase_error_product_refresh">تعذر التحقق من المنتج. يرجى المحاولة مرة أخرى.</string>
+    <string name="purchase_error_generic">حدث خطأ. يرجى المحاولة مرة أخرى.</string>
+    <!-- Purchase Screen - Legal -->
+    <string name="purchase_terms_of_service">شروط الخدمة</string>
+    <string name="purchase_privacy_policy">سياسة الخصوصية</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/history/ui/PurchaseHistoryScreen.kt -->
+    <string name="purchase_history">سجل الشراء</string>
+    <string name="free_trial">تجربة مجانية</string>
+    <string name="no_purchase_history">لا يوجد سجل مشتريات</string>
+    <string name="you_havent_made_any_purchases_">لم تقم بأي عمليات شراء حتى الآن.</string>
+    <string name="error">خطأ</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="back">خلف</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/PurchaseScreen.kt -->
+    <string name="upgrade_your_experience">ارتقِ بتجربتك</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PurchaseTopBar.kt -->
+    <string name="restore_purchases">استعادة المشتريات</string>
+    <string name="close_purchase_screen">إغلاق شاشة الشراء</string>
+    <string name="help">يساعد</string>
+    <string name="more_options">خيارات إضافية</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/SyncStatus.kt -->
+    <string name="refresh">ينعش</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumFeatures.kt -->
+    <string name="active">نشيط</string>
+    <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
+    <string name="str__active">%1$s نشط</string>
+    <string name="premium_benefits">مزايا مميزة</string>
+    <string name="manage_subscription">إدارة الاشتراك</string>
+    <string name="next_billing_date__manage_your">تاريخ الفاتورة التالي: %1$s. يمكنك إدارة تفاصيل الفواتير والإلغاء عبر إعدادات حسابك في متجر Play.</string>
+    <string name="purchase_expires_">تاريخ انتهاء صلاحية الشراء: %1$s</string>
+    <string name="falcon_pdf_pro">برنامج Falcon PDF Pro</string>
+    <string name="falcon_pdf_premium_monthly">فالكون بي دي إف بريميوم (شهريًا)</string>
+    <string name="falcon_pdf_premium_yearly">فالكون بي دي إف بريميوم (سنويًا)</string>
+    <string name="pro">محترف</string>
+    <string name="premium">غالي</string>
+    <!-- Desktop Purchase Screen -->
+    <string name="purchase_desktop_title">احصل على Falcon PDF Pro أو Premium</string>
+    <string name="purchase_desktop_subtitle">تتم إدارة عمليات الشراء عبر موقعنا الإلكتروني. انقر أدناه للاطلاع على الخطط والأسعار.</string>
+    <string name="purchase_desktop_open_website">عرض الخطط &amp; الأسعار</string>
+    <string name="purchase_desktop_already_purchased">هل اشتريت بالفعل؟ سجّل الدخول لمزامنة خطتك.</string>
+    <string name="purchase_store_build_subtitle">يفتح اشتراكك ميزات Pro على جميع أجهزتك. سجّل الدخول لمزامنة خطتك.</string>
+    <string name="ai_read_aloud">القراءة بصوت عالٍ بواسطة الذكاء الاصطناعي</string>
+    <string name="full_pdf_editing__form_filling">تحرير ملفات PDF بالكامل &amp; تعبئة النماذج</string>
+    <string name="crossdevice_sync_via_drive">مزامنة الأجهزة عبر محرك الأقراص</string>
+    <string name="adfree_no_watermark">بدون إعلانات، بدون علامة مائية</string>
+    <string name="export_to_word__excel">تصدير إلى Word &amp; Excel</string>
+    <string name="multiple_themes__page_backgrounds">خلفيات صفحات متعددة &amp;</string>
+    <string name="ai_summaries_with_stronger_reasoning">ملخصات الذكاء الاصطناعي بمنطق أقوى</string>
+    <string name="no_limits_on_60_pdf_tools">لا حدود لأكثر من 60 أداة PDF</string>
+    <string name="full_text_editing_in_pdfs">تحرير النصوص الكاملة في ملفات PDF</string>
+    <string name="digital_signatures_dscesign">التوقيعات الرقمية (DSC/eSign)</string>
+    <string name="unlimited_scanned_document_sync">مزامنة غير محدودة للمستندات الممسوحة ضوئيًا</string>
+    <string name="biometric_document_lock">قفل المستندات البيومترية</string>
+    <string name="everything_in_pro_all_devices">كل شيء في النسخة الاحترافية، على جميع الأجهزة</string>
+    <string name="introductory_offer">عرض تمهيدي</string>
+    <string name="limited_time__30_off">لفترة محدودة - خصم 30%</string>
+    <string name="date__time">التاريخ &amp; الوقت</string>
+    <string name="amount">كمية</string>
+    <string name="platform">منصة</string>
+    <string name="type">يكتب</string>
+    <string name="expires_on">تاريخ الانتهاء</string>
+</resources>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">Ištrinti puslapius</string>
+    <string name="are_you_sure_you_want_to_delet">Ar tikrai norite ištrinti pasirinktus puslapius? Šio veiksmo atšaukti negalima.</string>
+    <string name="delete">Ištrinti</string>
+    <string name="cancel">Atšaukti</string>
+    <string name="quick_selection">Greitas pasirinkimas</string>
+    <string name="select_range">Pasirinkite diapazoną</string>
+    <string name="select_all">Pasirinkti viską</string>
+    <string name="clear_all">Išvalyti viską</string>
+    <string name="select_page_range">Pasirinkite puslapių diapazoną</string>
+    <string name="enter_the_range_of_pages_to_de">Įveskite norimų ištrinti puslapių diapazoną (1-%1$s)</string>
+    <string name="from">Iš</string>
+    <string name="to">Į</string>
+    <string name="select">Pasirinkite</string>
+    <string name="please_go_back_and_select_a_pd">Grįžkite ir pasirinkite PDF failą</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">Padalinti PDF</string>
+    <string name="str_1_file_selected">Pasirinktas 1 failas</string>
+    <string name="no_file_selected">Nepasirinktas failas</string>
+    <string name="split_mode">Padalintas režimas</string>
+    <string name="fixed_segments">Fiksuoti segmentai</string>
+    <string name="custom_ranges">Pasirinktiniai diapazonai</string>
+    <string name="segment_size">Segmento dydis</string>
+    <string name="this_will_create_multiple_pdfs">Tai sukurs kelis PDF failus su nurodytu puslapių skaičiumi kiekviename. Kad būtų sukurti prasmingi padalijimai, segmento dydis turi būti mažesnis už bendrą puslapių skaičių. Pavyzdžiui, jei šaltinio faile yra 8 puslapiai, o įvesite 2, bus sugeneruoti keturi PDF failai po 2 puslapius kiekviename.</string>
+    <string name="pages_per_file">Puslapių skaičius faile</string>
+    <string name="eg_2">pvz., 2</string>
+    <string name="total_number_of_pages_in_pdf__">Bendras puslapių skaičius PDF faile: %1$d (segmento dydis turi būti mažesnis nei %1$d)</string>
+    <string name="this_will_create__output_files">Tai sukurs %1$d išvesties failus</string>
+    <string name="this_will_create__output_file">Tai sukurs %1$d išvesties failą</string>
+    <string name="this_input_will_split_the_pdf_">Ši įvestis padalins PDF failą į atskirus failus pagal jūsų diapazonus. Pavyzdžiui, „1-2,5,6-8“ sukurs 3 PDF failus: pirmąjį su 1-2 puslapiais, antrąjį su 5 puslapiu ir trečiąjį su 6-8 puslapiais.</string>
+    <string name="page_ranges">Puslapių diapazonai</string>
+    <string name="eg_1234571520">pvz., 1–2, 3, 4–5, 7, 15–20</string>
+    <string name="format_use_ranges_15_or_single">Formatas: Naudokite diapazonus (1–5) arba atskirus puslapius (7), atskirtus kableliais. Leidžiami tik skaitmenys, brūkšneliai ir kableliai.</string>
+    <string name="split_preview">Padalinta peržiūra</string>
+    <string name="pdf_files_will_be_created">%1$d Bus sukurti PDF failai</string>
+    <string name="pdf_file_will_be_created">%1$d Bus sukurtas PDF failas</string>
+    <string name="pdf_result_">PDF rezultatas %1$s</string>
+    <string name="str__and__more">... ir %1$d daugiau</string>
+    <string name="splitting_pdf">PDF skaidymas...</string>
+    <string name="checking_files">Tikrinami failai...</string>
+    <string name="page_n">Puslapis %1$d</string>
+    <string name="pages_n_m">Puslapiai %1$d-%2$d</string>
+    <string name="split_complete">Padalijimas baigtas!</string>
+    <string name="split_failed">Padalinti nepavyko</string>
+    <string name="we_couldnt_split_your_pdf">Nepavyko padalinti jūsų PDF failo</string>
+    <string name="your_pdf_has_been_successfully_split">Jūsų PDF failas sėkmingai padalintas į %1$d failus</string>
+    <string name="your_pdf_has_been_successfully_split_single">Jūsų PDF failas sėkmingai padalintas į %1$d failus</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">PDF įrankiai</string>
+    <string name="image_tools">Vaizdo įrankiai</string>
+    <string name="str_30_tools_for_pdf">Daugiau nei 30 įrankių PDF failams kurti</string>
+    <string name="tools_for_images">Vaizdų įrankiai</string>
+    <string name="no_tools_found">Nerasta jokių įrankių</string>
+    <string name="try_adjusting_your_search">Pabandykite pakoreguoti paiešką</string>
+    <string name="history">Istorija</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s puslapis${if (puslapiųSkaičius &gt; 1) </string>
+    <string name="n_pages">%1$d puslapiai</string>
+    <string name="n_page">%1$d puslapis</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">Šiam PDF failui reikalingas slaptažodis</string>
+    <string name="password_provided">Pateiktas slaptažodis</string>
+    <string name="password_required">Reikalingas slaptažodis</string>
+    <string name="open_file">Atidaryti failą</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">Suspausta </string>
+    <string name="error_details">Klaidos informacija</string>
+    <string name="view">Peržiūrėti</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">Pasirinkta %1$s iš %2$s puslapių</string>
+    <string name="showing_first_200_pages">Rodomi pirmieji 200 puslapių</string>
+    <string name="use_quick_selection_above_for_">Puslapiams, didesniems nei 200, naudokite aukščiau pateiktą greitąjį pasirinkimą</string>
+    <string name="loading">Kraunama...</string>
+    <string name="error">Klaida</string>
+    <string name="generating_page_previews">Generuojamos puslapio peržiūros...</string>
+    <string name="page__thumbnail">Puslapio %1$s miniatiūra</string>
+    <string name="selected">Pasirinkta</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">Paieška</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">Pasukti PDF</string>
+    <string name="please_provide_the_password_to">Norėdami pasirinkti pasirinktinius puslapius, įveskite slaptažodį</string>
+    <string name="rotation_angle">Sukimosi kampas</string>
+    <string name="page_selection">Puslapio pasirinkimas</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">Pertvarkyti PDF</string>
+    <string name="use_the_arrow_buttons_to_reord">Puslapių tvarkai keisti naudokite rodyklių mygtukus</string>
+    <string name="pages_">Puslapiai (%1$s)</string>
+    <string name="page_">Puslapis %1$s</string>
+    <string name="position__of_">Pozicija: %1$s iš %2$s</string>
+    <string name="drag_handle">Vilkite rankenėlę</string>
+    <string name="move_up">Judėti aukštyn</string>
+    <string name="move_down">Perkelti žemyn</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">Suspausti PDF</string>
+    <string name="no_files_selected">Nepasirinkta jokių failų</string>
+    <string name="please_go_back_and_select_pdf_">Grįžkite atgal ir pasirinkite PDF failus, kuriuos norite suspausti</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">Sėkmė</string>
+    <string name="individual_results">Individualūs rezultatai</string>
+    <string name="done">Atlikta</string>
+    <string name="compression_complete">Suspaudimas baigtas</string>
+    <string name="your_file_is_ready_and_much_li">Jūsų failas paruoštas ir daug lengvesnis!</string>
+    <string name="before">PRIEŠ</string>
+    <string name="after">PO</string>
+    <string name="total_saved">Iš viso sutaupyta</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">MAŽESNIS</string>
+    <string name="str__saved">%1$sSutaupyta %</string>
+    <string name="open">Atidaryti</string>
+    <string name="share">Bendrinti</string>
+    <string name="close">Uždaryti</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">Suspaudimo lygis</string>
+    <string name="recommended">Rekomenduojama</string>
+    <string name="str__compression">%1$s Suspaudimas</string>
+    <string name="str__of_original_size">~%1$s% originalaus dydžio</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">Vaizdai į PDF</string>
+    <string name="str__images_selected">%1$s pasirinktų vaizdų</string>
+    <string name="images_will_be_converted_in_th">Vaizdai bus konvertuojami toliau nurodyta tvarka</string>
+    <string name="remove">Pašalinti</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">PDF į vaizdus</string>
+    <string name="image_format">Vaizdo formatas</string>
+    <string name="image_quality_dpi">Vaizdo kokybė (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">Sujungti PDF failus</string>
+    <string name="n_files_selected">%1$d pasirinkti failai</string>
+    <string name="n_file_selected">%1$d pasirinktas failas</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">Užrakinti PDF</string>
+    <string name="password_protection">Slaptažodžio apsauga</string>
+    <string name="enter_a_password_to_protect_yo">Įveskite slaptažodį, kad apsaugotumėte PDF failą. Jums reikės šio slaptažodžio norint atidaryti failą.</string>
+    <string name="password">Slaptažodis</string>
+    <string name="enter_password">Įveskite slaptažodį</string>
+    <string name="confirm_password">Patvirtinkite slaptažodį</string>
+    <string name="reenter_password">Pakartokite slaptažodį</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">Grįžkite ir pasirinkite failą</string>
+    <string name="back">Atgal</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">Atrakinti PDF</string>
+    <string name="current_password">Dabartinis slaptažodis</string>
+    <string name="enter_the_current_password_to_">Įveskite dabartinį slaptažodį, kad atrakintumėte šį PDF failą</string>
+    <string name="enter_current_password">Įveskite dabartinį slaptažodį</string>
+    <string name="incorrect_password_please_try_">Neteisingas slaptažodis. Bandykite dar kartą.</string>
+    <string name="new_password_optional">Naujas slaptažodis (nebūtina)</string>
+    <string name="set_a_new_password_to_change_i">Nustatykite naują slaptažodį, kad jį pakeistumėte, arba palikite tuščią, kad pašalintumėte slaptažodžio apsaugą</string>
+    <string name="new_password">Naujas slaptažodis</string>
+    <string name="enter_new_password">Įveskite naują slaptažodį</string>
+    <string name="confirm_new_password">Patvirtinkite naują slaptažodį</string>
+    <string name="reenter_new_password">Pakartokite naują slaptažodį</string>
+    <string name="passwords_do_not_match">Slaptažodžiai nesutampa</string>
+    <string name="compression_failed">Suspaudimas nepavyko</string>
+    <string name="open_pdf">Atidaryti PDF failą</string>
+    <string name="share_file">Bendrinti failą</string>
+    <string name="pages_deleted">Puslapiai ištrinti!</string>
+    <string name="delete_failed">Ištrinti nepavyko</string>
+    <string name="select_pages_to_delete">Pasirinkite puslapius, kuriuos norite ištrinti</string>
+    <string name="pdf_created">PDF sukurtas!</string>
+    <string name="conversion_failed">Konversija nepavyko</string>
+    <string name="pdf_locked_successfully">PDF sėkmingai užrakintas!</string>
+    <string name="lock_failed">Užrakinti nepavyko</string>
+    <string name="merge_complete">Sujungimas baigtas!</string>
+    <string name="merge_failed">Sujungti nepavyko</string>
+    <string name="conversion_complete">Konversija baigta!</string>
+    <string name="reorder_complete">Užsakymas pakartotinai atliktas!</string>
+    <string name="reorder_failed">Užsakyti nepavyko</string>
+    <string name="rotation_complete">Rotacija baigta!</string>
+    <string name="rotation_failed">Pasukimas nepavyko</string>
+    <string name="select_pages_to_rotate">Pasirinkite puslapius, kuriuos norite pasukti</string>
+    <string name="str__complete">%1$s Užbaigta!</string>
+    <string name="str__failed">%1$s Nepavyko</string>
+    <string name="unlock_failed">Atrakinti nepavyko</string>
+    <string name="your_pdfs_have_been_successfully_compres">Jūsų PDF failai sėkmingai suspausti</string>
+    <string name="we_couldnt_compress_your_pdfs">Nepavyko suspausti jūsų PDF failų</string>
+    <string name="view_your_compressed_file">Peržiūrėkite suspaustą failą</string>
+    <string name="send_to_others_or_apps">Siųsti kitiems arba programėlėms</string>
+    <string name="your_pdf_has_been_successfully_modified">Jūsų PDF failas sėkmingai pakeistas</string>
+    <string name="we_couldnt_delete_the_pages">Nepavyko ištrinti puslapių</string>
+    <string name="your_images_have_been_converted_to_pdf">Jūsų vaizdai konvertuoti į PDF</string>
+    <string name="unable_to_create_pdf_from_images">Nepavyksta sukurti PDF iš paveikslėlių</string>
+    <string name="your_pdf_is_now_password_protected">Jūsų PDF failas dabar apsaugotas slaptažodžiu</string>
+    <string name="we_couldnt_lock_your_pdf">Nepavyko užrakinti jūsų PDF failo</string>
+    <string name="your_pdfs_have_been_successfully_merged">Jūsų PDF failai sėkmingai sujungti</string>
+    <string name="we_couldnt_merge_your_pdfs">Nepavyko sujungti jūsų PDF failų</string>
+    <string name="str__images_created_successfully">%1$s paveikslėliai sukurti sėkmingai</string>
+    <string name="unable_to_convert_pdf_to_images">Nepavyksta konvertuoti PDF į paveikslėlius</string>
+    <string name="your_pdf_pages_have_been_successfully_re">Jūsų PDF puslapiai sėkmingai pertvarkyti</string>
+    <string name="we_couldnt_reorder_your_pdf">Nepavyko pertvarkyti jūsų PDF failo</string>
+    <string name="your_pdf_has_been_successfully_rotated">Jūsų PDF failas sėkmingai pasuktas</string>
+    <string name="we_couldnt_rotate_your_pdf">Nepavyko pasukti jūsų PDF failo</string>
+    <string name="your_file_has_been_successfully_processe">Jūsų failas sėkmingai apdorotas</string>
+    <string name="we_couldnt_process_your_file">Nepavyko apdoroti jūsų failo</string>
+    <string name="we_couldnt_unlock_your_pdf">Nepavyko atrakinti jūsų PDF failo</string>
+    <string name="clear_filter">Išvalyti filtrą</string>
+    <string name="clear">Išvalyti</string>
+    <string name="pick_a_tool_">Pasirinkite įrankį →</string>
+    <string name="drag_to_reorder">Vilkite, kad pakeistumėte tvarką</string>
+    <string name="your_files_are_securely_processed_on_our">Jūsų failai saugiai apdorojami mūsų serveriuose naudojant užšifruotus ryšius ir automatiškai ištrinami per 1 valandą. Mes niekada nesaugome ir nebendriname jūsų duomenų.</string>
+    <string name="compression_quality">Suspaudimo kokybė</string>
+    <string name="dragelevation">tempimo aukštis</string>
+    <string name="tool_card_scale">įrankių_kortelės_mastas</string>
+</resources>

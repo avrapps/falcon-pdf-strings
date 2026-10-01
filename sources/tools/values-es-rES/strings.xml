@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
+    <string name="delete_pages">Eliminar páginas</string>
+    <string name="are_you_sure_you_want_to_delet">¿Está seguro de que desea eliminar las páginas seleccionadas? Esta acción no se puede deshacer.</string>
+    <string name="delete">Borrar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="quick_selection">Selección rápida</string>
+    <string name="select_range">Seleccionar rango</string>
+    <string name="select_all">Seleccionar todo</string>
+    <string name="clear_all">Borrar todo</string>
+    <string name="select_page_range">Seleccione el rango de páginas.</string>
+    <string name="enter_the_range_of_pages_to_de">Introduzca el rango de páginas que desea eliminar (1-%1$s)</string>
+    <string name="from">De</string>
+    <string name="to">A</string>
+    <string name="select">Seleccionar</string>
+    <string name="please_go_back_and_select_a_pd">Por favor, vuelva atrás y seleccione un PDF.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
+    <string name="split_pdf">PDF dividido</string>
+    <string name="str_1_file_selected">Se ha seleccionado 1 archivo.</string>
+    <string name="no_file_selected">No se ha seleccionado ningún archivo.</string>
+    <string name="split_mode">Modo dividido</string>
+    <string name="fixed_segments">Segmentos fijos</string>
+    <string name="custom_ranges">Gamas personalizadas</string>
+    <string name="segment_size">Tamaño del segmento</string>
+    <string name="this_will_create_multiple_pdfs">Esto creará varios archivos PDF con el número de páginas especificado cada uno. El tamaño del segmento debe ser menor que el total de páginas para que las divisiones sean significativas. Por ejemplo, si el archivo original tiene 8 páginas y usted introduce 2, se generarán cuatro archivos PDF de 2 páginas cada uno.</string>
+    <string name="pages_per_file">Páginas por archivo</string>
+    <string name="eg_2">p. ej., 2</string>
+    <string name="total_number_of_pages_in_pdf__">Número total de páginas en PDF: %1$d (el tamaño del segmento debe ser menor que %1$d)</string>
+    <string name="this_will_create__output_files">Esto creará archivos de salida %1$d</string>
+    <string name="this_will_create__output_file">Esto creará un archivo de salida %1$d</string>
+    <string name="this_input_will_split_the_pdf_">Esta entrada dividirá el PDF en archivos separados según los rangos que especifique. Por ejemplo, "1-2,5,6-8" creará 3 archivos PDF: el primero con las páginas 1 y 2, el segundo con la página 5 y el tercero con las páginas 6 a 8.</string>
+    <string name="page_ranges">Rangos de páginas</string>
+    <string name="eg_1234571520">p. ej., 1-2,3,4-5,7,15-20</string>
+    <string name="format_use_ranges_15_or_single">Formato: Utilice rangos (1-5) o páginas individuales (7), separadas por comas. Solo se permiten dígitos, guiones y comas.</string>
+    <string name="split_preview">Vista previa dividida</string>
+    <string name="pdf_files_will_be_created">Se crearán archivos PDF %1$d</string>
+    <string name="pdf_file_will_be_created">%1$d PDF file will be created</string>
+    <string name="pdf_result_">Resultado PDF %1$s</string>
+    <string name="str__and__more">... y %1$d más</string>
+    <string name="splitting_pdf">Dividir PDF...</string>
+    <string name="checking_files">Comprobando archivos...</string>
+    <string name="page_n">Página %1$d</string>
+    <string name="pages_n_m">Páginas %1$d-%2$d</string>
+    <string name="split_complete">¡División completada!</string>
+    <string name="split_failed">La división falló.</string>
+    <string name="we_couldnt_split_your_pdf">No pudimos dividir tu PDF</string>
+    <string name="your_pdf_has_been_successfully_split">Tu PDF se ha dividido correctamente en %1$d archivos</string>
+    <string name="your_pdf_has_been_successfully_split_single">Tu PDF se ha dividido correctamente en %1$d archivo</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
+    <string name="pdf_tools">Herramientas PDF</string>
+    <string name="image_tools">Herramientas de imagen</string>
+    <string name="str_30_tools_for_pdf">Más de 30 herramientas para PDF</string>
+    <string name="tools_for_images">Herramientas para imágenes</string>
+    <string name="no_tools_found">No se encontraron herramientas</string>
+    <string name="try_adjusting_your_search">Intenta ajustar tu búsqueda</string>
+    <string name="history">Historia</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
+    <string name="str_">%1$s</string>
+    <string name="str__pageif_pagecount__1_">%1$s página${si (pageCount &gt; 1) </string>
+    <string name="n_pages">%1$d páginas</string>
+    <string name="n_page">%1$d página</string>
+    <string name="file_size_arrow">%1$s → %2$s</string>
+    <string name="password_required_for_this_pdf">Se requiere contraseña para este PDF.</string>
+    <string name="password_provided">Contraseña proporcionada</string>
+    <string name="password_required">Se requiere contraseña</string>
+    <string name="open_file">Abrir archivo</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
+    <string name="compressed_by_">Comprimido por </string>
+    <string name="error_details">Detalles del error</string>
+    <string name="view">Vista</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
+    <string name="str__of__pages_selected">%1$s de %2$s páginas seleccionadas</string>
+    <string name="showing_first_200_pages">Mostrando las primeras 200 páginas</string>
+    <string name="use_quick_selection_above_for_">Utilice la Selección rápida anterior para páginas superiores a 200.</string>
+    <string name="loading">Cargando...</string>
+    <string name="error">Error</string>
+    <string name="generating_page_previews">Generando vistas previas de página...</string>
+    <string name="page__thumbnail">Página %1$s miniatura</string>
+    <string name="selected">Seleccionado</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/SearchBar.kt -->
+    <string name="search">Buscar</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
+    <string name="rotate_pdf">Rotar PDF</string>
+    <string name="please_provide_the_password_to">Proporcione la contraseña para seleccionar páginas personalizadas.</string>
+    <string name="rotation_angle">Ángulo de rotación</string>
+    <string name="page_selection">Selección de página</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
+    <string name="reorder_pdf">Reordenar PDF</string>
+    <string name="use_the_arrow_buttons_to_reord">Utilice los botones de flecha para reordenar las páginas.</string>
+    <string name="pages_">Páginas (%1$s)</string>
+    <string name="page_">Página %1$s</string>
+    <string name="position__of_">Posición: %1$s de %2$s</string>
+    <string name="drag_handle">Mango de arrastre</string>
+    <string name="move_up">Subir</string>
+    <string name="move_down">Baja</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
+    <string name="compress_pdf">Comprimir PDF</string>
+    <string name="no_files_selected">No se ha seleccionado ningún archivo.</string>
+    <string name="please_go_back_and_select_pdf_">Por favor, vuelva atrás y seleccione los archivos PDF que desea comprimir.</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
+    <string name="success">Éxito</string>
+    <string name="individual_results">Resultados individuales</string>
+    <string name="done">Hecho</string>
+    <string name="compression_complete">Compresión completa</string>
+    <string name="your_file_is_ready_and_much_li">¡Tu archivo está listo y mucho más ligero!</string>
+    <string name="before">ANTES</string>
+    <string name="after">DESPUÉS</string>
+    <string name="total_saved">Total ahorrado</string>
+    <string name="str_p">%1$s%</string>
+    <string name="smaller">MENOR</string>
+    <string name="str__saved">%1$s% guardado</string>
+    <string name="open">Abierto</string>
+    <string name="share">Compartir</string>
+    <string name="close">Cerca</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressionLevelSelector.kt -->
+    <string name="compression_level">Nivel de compresión</string>
+    <string name="recommended">Recomendado</string>
+    <string name="str__compression">%1$s Compresión</string>
+    <string name="str__of_original_size">~%1$s% del tamaño original</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
+    <string name="images_to_pdf">Imágenes a PDF</string>
+    <string name="str__images_selected">%1$s imágenes seleccionadas</string>
+    <string name="images_will_be_converted_in_th">Las imágenes se convertirán en el orden que se muestra a continuación.</string>
+    <string name="remove">Eliminar</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
+    <string name="pdf_to_images">PDF a imágenes</string>
+    <string name="image_format">Formato de imagen</string>
+    <string name="image_quality_dpi">Calidad de imagen (DPI)</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
+    <string name="merge_pdf">Combinar PDF</string>
+    <string name="n_files_selected">%1$d archivos seleccionados</string>
+    <string name="n_file_selected">%1$d archivo seleccionado</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
+    <string name="lock_pdf">Bloquear PDF</string>
+    <string name="password_protection">Protección con contraseña</string>
+    <string name="enter_a_password_to_protect_yo">Introduce una contraseña para proteger tu PDF. Necesitarás esta contraseña para abrir el archivo.</string>
+    <string name="password">Contraseña</string>
+    <string name="enter_password">Introduzca la contraseña</string>
+    <string name="confirm_password">confirmar Contraseña</string>
+    <string name="reenter_password">Escriba la contraseña otra vez</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
+    <string name="please_go_back_and_select_a_fi">Por favor, vuelva atrás y seleccione un archivo.</string>
+    <string name="back">Atrás</string>
+    <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
+    <string name="unlock_pdf">Desbloquear PDF</string>
+    <string name="current_password">Contraseña actual</string>
+    <string name="enter_the_current_password_to_">Introduzca la contraseña actual para desbloquear este PDF.</string>
+    <string name="enter_current_password">Introduzca la contraseña actual</string>
+    <string name="incorrect_password_please_try_">Contraseña incorrecta. Inténtalo de nuevo.</string>
+    <string name="new_password_optional">Nueva contraseña (opcional)</string>
+    <string name="set_a_new_password_to_change_i">Establezca una nueva contraseña para cambiarla, o déjela en blanco para eliminar la protección con contraseña.</string>
+    <string name="new_password">Nueva contraseña</string>
+    <string name="enter_new_password">Introduzca la nueva contraseña</string>
+    <string name="confirm_new_password">Confirmar nueva contraseña</string>
+    <string name="reenter_new_password">Vuelva a introducir la nueva contraseña.</string>
+    <string name="passwords_do_not_match">Las contraseñas no coinciden</string>
+    <string name="compression_failed">Falló la compresión</string>
+    <string name="open_pdf">Abrir PDF</string>
+    <string name="share_file">Compartir archivo</string>
+    <string name="pages_deleted">¡Páginas eliminadas!</string>
+    <string name="delete_failed">Error al eliminar</string>
+    <string name="select_pages_to_delete">Seleccione las páginas que desea eliminar.</string>
+    <string name="pdf_created">¡PDF creado!</string>
+    <string name="conversion_failed">Error de conversión</string>
+    <string name="pdf_locked_successfully">¡PDF bloqueado correctamente!</string>
+    <string name="lock_failed">Error de bloqueo</string>
+    <string name="merge_complete">¡Fusión completada!</string>
+    <string name="merge_failed">La fusión falló.</string>
+    <string name="conversion_complete">¡Conversión completada!</string>
+    <string name="reorder_complete">¡Reorden completado!</string>
+    <string name="reorder_failed">Error al realizar el pedido</string>
+    <string name="rotation_complete">¡Rotación completada!</string>
+    <string name="rotation_failed">La rotación falló.</string>
+    <string name="select_pages_to_rotate">Seleccione las páginas que desea rotar.</string>
+    <string name="str__complete">%1$s ¡Completado!</string>
+    <string name="str__failed">%1$s Falló</string>
+    <string name="unlock_failed">Error al desbloquear</string>
+    <string name="your_pdfs_have_been_successfully_compres">Sus archivos PDF se han comprimido correctamente.</string>
+    <string name="we_couldnt_compress_your_pdfs">No pudimos comprimir tus archivos PDF.</string>
+    <string name="view_your_compressed_file">Visualice su archivo comprimido</string>
+    <string name="send_to_others_or_apps">Enviar a otros o aplicaciones</string>
+    <string name="your_pdf_has_been_successfully_modified">Su PDF ha sido modificado correctamente.</string>
+    <string name="we_couldnt_delete_the_pages">No pudimos eliminar las páginas</string>
+    <string name="your_images_have_been_converted_to_pdf">Tus imágenes se han convertido a PDF.</string>
+    <string name="unable_to_create_pdf_from_images">No se puede crear un PDF a partir de imágenes.</string>
+    <string name="your_pdf_is_now_password_protected">Su PDF ahora está protegido con contraseña.</string>
+    <string name="we_couldnt_lock_your_pdf">No pudimos bloquear tu PDF</string>
+    <string name="your_pdfs_have_been_successfully_merged">Sus archivos PDF se han fusionado correctamente.</string>
+    <string name="we_couldnt_merge_your_pdfs">No pudimos combinar tus archivos PDF.</string>
+    <string name="str__images_created_successfully">%1$s imágenes creadas correctamente</string>
+    <string name="unable_to_convert_pdf_to_images">No se puede convertir el PDF a imágenes.</string>
+    <string name="your_pdf_pages_have_been_successfully_re">Sus páginas PDF se han reordenado correctamente.</string>
+    <string name="we_couldnt_reorder_your_pdf">No pudimos reordenar su PDF</string>
+    <string name="your_pdf_has_been_successfully_rotated">Su PDF se ha rotado correctamente.</string>
+    <string name="we_couldnt_rotate_your_pdf">No pudimos rotar tu PDF</string>
+    <string name="your_file_has_been_successfully_processe">Su archivo ha sido procesado correctamente.</string>
+    <string name="we_couldnt_process_your_file">No pudimos procesar su archivo.</string>
+    <string name="we_couldnt_unlock_your_pdf">No pudimos desbloquear tu PDF</string>
+    <string name="clear_filter">Filtro transparente</string>
+    <string name="clear">Claro</string>
+    <string name="pick_a_tool_">Elige una herramienta →</string>
+    <string name="drag_to_reorder">Arrastra para reordenar</string>
+    <string name="your_files_are_securely_processed_on_our">Tus archivos se procesan de forma segura en nuestros servidores mediante conexiones cifradas y se eliminan automáticamente en el plazo de una hora. Nunca almacenamos ni compartimos tus datos.</string>
+    <string name="compression_quality">Calidad de compresión</string>
+    <string name="dragelevation">arrastrarElevación</string>
+    <string name="tool_card_scale">escala de la tarjeta de herramientas</string>
+</resources>

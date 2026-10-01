@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">Skanna</string>
+    <string name="scan_home_documents">Skjöl</string>
+    <string name="scan_home_documents_lowercase">skjöl</string>
+    <string name="scan_home_documents_count">%1$d Skjöl</string>
+    <string name="scan_home_no_documents">Engin skjöl ennþá</string>
+    <string name="scan_home_start_scanning">Byrjaðu að skanna til að búa til fyrsta skjalið þitt</string>
+    <string name="scan_home_new_folder">Ný mappa</string>
+    <string name="scan_home_scan_document">Skanna skjal</string>
+    <string name="scan_home_import_gallery">Flytja inn úr myndasafni</string>
+    <string name="scan_home_parent_folder">Yfirmappa</string>
+    <string name="scan_home_go_back">Fara aftur í yfirmöppuna</string>
+    <string name="scan_home_create_folder">Búa til nýja möppu</string>
+    <string name="scan_home_enter_folder_name">Sláðu inn nafn fyrir nýju möppuna</string>
+    <string name="scan_home_folder_name">Möppunafn</string>
+    <string name="scan_home_folder_placeholder">t.d. vinnuskjöl</string>
+    <string name="scan_home_folder_error">Möppunafn má ekki vera tómt</string>
+    <string name="scan_home_folder_name_empty">Möppunafn má ekki vera tómt</string>
+    <string name="scan_home_create">Búa til</string>
+    <string name="scan_home_folder_exists">Mappa með þessu nafni er þegar til</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">Myndavél</string>
+    <string name="scan_camera_permission_required">Leyfi fyrir myndavél krafist</string>
+    <string name="scan_camera_permission_message">Þetta forrit þarf aðgang að myndavél til að skanna skjöl.</string>
+    <string name="scan_camera_permission_settings">Farðu í Stillingar &gt; Forrit &gt; PDF skoðari &gt; Heimildir og virkjaðu heimildir fyrir myndavél.</string>
+    <string name="scan_camera_permission_title">Leyfi fyrir myndavél krafist</string>
+    <string name="scan_camera_request_permission">Beiðni um leyfi</string>
+    <string name="scan_camera_open_settings">Opna stillingar</string>
+    <string name="scan_camera_close">Loka</string>
+    <string name="scan_camera_flash">Flass</string>
+    <string name="scan_camera_auto_capture">Sjálfvirk myndataka</string>
+    <string name="scan_camera_settings">Stillingar</string>
+    <string name="scan_camera_ready_batch">Tilbúinn til að skanna margar síður</string>
+    <string name="scan_camera_ready_multiple">Tilbúinn til að skanna margar síður</string>
+    <string name="scan_camera_hold_steady">Haltu kyrrum á meðan þú skannar</string>
+    <string name="scan_camera_captured_pages">%1$d síður teknar</string>
+    <string name="scan_camera_mode_single">Einhleypur</string>
+    <string name="scan_camera_mode_batch">Hópur</string>
+    <string name="scan_camera_preview">Forskoðun</string>
+    <string name="scan_camera_finish">Ljúka</string>
+    <string name="scan_camera_starting">Ræsir myndavél...</string>
+    <string name="scan_camera_document_name">Nafn skjals</string>
+    <string name="scan_camera_document_name_empty">Nafn skjals má ekki vera autt</string>
+    <string name="scan_camera_save_document">Vista skjal</string>
+    <string name="scan_camera_processing">Vinnsla...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">Skerið &amp; Stilla</string>
+    <string name="scan_crop_close">Loka</string>
+    <string name="scan_crop_reset">Endurstilla</string>
+    <string name="scan_crop_rotate">Snúa</string>
+    <string name="scan_crop_done">Lokið</string>
+    <string name="scan_crop_scanned_document">Skannað skjal</string>
+    <string name="scan_crop_magnified_view">Stækkað sjónarhorn</string>
+    <string name="scan_crop_processing">Vinnsla...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">Bæta</string>
+    <string name="scan_filter_close">Loka</string>
+    <string name="scan_filter_rotate">Snúa</string>
+    <string name="scan_filter_done">Lokið</string>
+    <string name="scan_filter_filters">Síur</string>
+    <string name="scan_filter_original">Upprunalega</string>
+    <string name="scan_filter_magic">Töfrar</string>
+    <string name="scan_filter_lighten">Lýsa</string>
+    <string name="scan_filter_bw">B&amp;V</string>
+    <string name="scan_filter_grayscale">Grátóna</string>
+    <string name="scan_filter_magic_2">Hreint skjal</string>
+    <string name="scan_filter_soft_scan">Mjúk skönnun</string>
+    <string name="scan_filter_color_enhance">Litur+</string>
+    <string name="scan_filter_ink_saver">Bleksparnaður</string>
+    <string name="scan_filter_premium">Aukagjaldseiginleiki</string>
+    <string name="scan_filter_filtered_document">Síað skjal</string>
+    <string name="scan_filter_applying">Nota síu...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">Hætta við</string>
+    <string name="scan_share">Deila</string>
+    <string name="scan_move">Færa</string>
+    <string name="scan_move_to_folder">Færa í möppu</string>
+    <string name="scan_delete">Eyða</string>
+    <string name="scan_rename">Endurnefna</string>
+    <string name="scan_root">Rót</string>
+    <string name="scan_select_destination">Veldu áfangamöppu</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">Skjal</string>
+    <string name="scan_document_back">Til baka</string>
+    <string name="scan_document_pages">síður</string>
+    <string name="scan_document_add_pages">Bæta við síðum í þetta skjal</string>
+    <string name="scan_document_add_page_button">Bæta við síðu</string>
+    <string name="scan_document_rename">Endurnefna</string>
+    <string name="scan_document_share">Deila</string>
+    <string name="scan_document_more">Meira</string>
+    <string name="scan_document_pages_count">%1$d síður</string>
+    <string name="scan_document_no_pages">Engar síður ennþá</string>
+    <string name="scan_document_scan_page">Skanna síðu</string>
+    <string name="scan_document_import_page">Flytja inn úr myndasafni</string>
+    <string name="scan_document_grid_view">Ristsýn</string>
+    <string name="scan_document_list_view">Listasýn</string>
+    <string name="scan_document_continuous_view">Samfelld sýn</string>
+    <string name="scan_document_page_number">Síða %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">Síða</string>
+    <string name="scan_page_back">Til baka</string>
+    <string name="scan_page_share">Deila</string>
+    <string name="scan_page_delete">Eyða</string>
+    <string name="scan_page_of">%1$d af %2$d</string>
+    <string name="scan_page_image_not_found">Mynd fannst ekki</string>
+    <string name="scan_page_retake">Endurtaka</string>
+    <string name="scan_page_crop">Uppskera</string>
+    <string name="scan_page_enhance">Bæta</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">Vista í myndasafni</string>
+    <string name="scan_page_saved_to_gallery">Mynd vistuð í myndasafni</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">Eyða skjali?</string>
+    <string name="scan_delete_document_message">Ertu viss um að þú viljir eyða "%1$s"? Þetta mun eyða öllum síðum í þessu skjali fyrir fullt og allt. Þessa aðgerð er ekki hægt að afturkalla.</string>
+    <string name="scan_rename_document">Endurnefna skjal</string>
+    <string name="scan_rename_enter_name">Sláðu inn nýtt nafn fyrir skjalið</string>
+    <string name="scan_rename_document_name">Nafn skjals</string>
+    <string name="scan_rename_error">Nafn skjals má ekki vera autt</string>
+    <string name="scan_dialog_delete_document_title">Eyða skjali?</string>
+    <string name="scan_dialog_delete_document_message">Ertu viss um að þú viljir eyða "%1$s"? Þetta mun eyða öllum síðum í þessu skjali fyrir fullt og allt. Þessa aðgerð er ekki hægt að afturkalla.</string>
+    <string name="scan_dialog_delete_confirm">Eyða</string>
+    <string name="scan_dialog_cancel">Hætta við</string>
+    <string name="scan_dialog_move_title">Færa í möppu</string>
+    <string name="scan_dialog_move_message">Veldu áfangamöppu</string>
+    <string name="scan_dialog_move_confirm">Færa</string>
+    <string name="scan_dialog_move_root">Rót</string>
+    <string name="scan_dialog_move_selected">Valið</string>
+    <string name="scan_dialog_rename_title">Endurnefna skjal</string>
+    <string name="scan_dialog_rename_message">Sláðu inn nýtt nafn fyrir skjalið</string>
+    <string name="scan_dialog_rename_label">Nafn skjals</string>
+    <string name="scan_dialog_rename_error">Nafn skjals má ekki vera autt</string>
+    <string name="scan_dialog_rename_confirm">Endurnefna</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">Deila</string>
+    <string name="scan_menu_move">Færa í möppu</string>
+    <string name="scan_menu_delete">Eyða</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">Forskoðun myndavélar\n(Væntanlegt)</string>
+    <string name="scan_platform_desktop_camera">Forskoðun á skjáborðsmyndavél\n(Væntanlegt)</string>
+    <string name="scan_platform_ios_camera">Forskoðun á iOS myndavél\n(kemur bráðlega)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">Loka</string>
+    <string name="flash">Flass</string>
+    <string name="auto_capture">Sjálfvirk myndataka</string>
+    <string name="settings">Stillingar</string>
+    <string name="capture">Handtaka</string>
+    <string name="finish">Ljúka</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">Ertu viss um að þú viljir eyða %1? Öllum skjölum innan þess verður einnig eytt.</string>
+    <string name="share">Deila</string>
+    <string name="share_as_images">Deila sem myndum</string>
+    <string name="share_as_pdf">Deila sem PDF</string>
+    <string name="move_to_folder">Færa í möppu</string>
+    <string name="delete">Eyða</string>
+    <string name="selected">Valið</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">Síða %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">Mappan er tóm</string>
+    <string name="tap_the__button_to_scan_a_docu">Ýttu á + hnappinn til að skanna skjal</string>
+    <string name="str______pages">%1$s • %2$s • %3$s síður</string>
+    <string name="create_folder">Búa til möppu</string>
+    <string name="more_options">Fleiri valkostir</string>
+    <string name="document_thumbnail">Smámynd skjals</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">Mynd fannst ekki</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — Síða %2$d</string>
+    <string name="scan_ocr_title">Textagreining</string>
+    <string name="scan_ocr_copy">Afrita texta</string>
+    <string name="scan_ocr_no_text">Enginn texti fannst</string>
+    <string name="scan_ocr_processing">Að þekkja texta…</string>
+    <string name="scan_ocr_error">Gat ekki þekkt texta</string>
+    <string name="scan_ocr_not_supported">OCR er ekki stutt á þessu stýrikerfi</string>
+    <string name="scan_ocr_image">Skönnuð síða fyrir OCR</string>
+    <string name="gallery">Myndasafn</string>
+    <string name="select_file">Veldu skrá</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">Mistókst að taka mynd</string>
+    <string name="error_no_images_captured">Engar myndir teknar</string>
+    <string name="error_open_settings">Mistókst að opna stillingar</string>
+    <string name="error_process_images">Mistókst að vinna úr myndum</string>
+    <string name="error_process_image">Mistókst að vinna úr myndinni</string>
+    <string name="error_start_camera">Mistókst að ræsa myndavélina</string>
+    <string name="error_stop_camera">Mistókst að stöðva myndavélina</string>
+    <string name="error_crop_image">Mistókst að klippa myndina</string>
+    <string name="error_delete_document">Mistókst að eyða skjali</string>
+    <string name="error_delete_page">Mistókst að eyða síðu</string>
+    <string name="error_load_document">Mistókst að hlaða skjalinu</string>
+    <string name="error_load_page">Mistókst að hlaða síðu</string>
+    <string name="error_move_document">Mistókst að færa skjalið</string>
+    <string name="error_no_pages_to_share">Engar síður til að deila</string>
+    <string name="error_rename_document">Mistókst að endurnefna skjal</string>
+    <string name="error_reorder_pages">Mistókst að endurraða síðum</string>
+    <string name="error_share_images">Mistókst að deila myndum</string>
+    <string name="error_share_pdf">Mistókst að deila PDF skrá</string>
+    <string name="error_share_page">Mistókst að deila síðu</string>
+    <string name="error_create_folder">Mistókst að búa til möppu</string>
+    <string name="error_delete_folder">Mistókst að eyða möppu</string>
+    <string name="error_rename_folder">Mistókst að endurnefna möppu</string>
+    <string name="error_unknown">Óþekkt villa kom upp</string>
+    <string name="folder_not_found">Mappa fannst ekki</string>
+    <string name="sync_documents">Samstilla skjöl</string>
+    <string name="shutter_scale">lokarakvarði</string>
+    <string name="import_gallery">Flytja inn gallerí</string>
+    <string name="scan_camera">Skanna myndavél</string>
+</resources>

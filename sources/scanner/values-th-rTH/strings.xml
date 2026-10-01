@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">สแกน</string>
+    <string name="scan_home_documents">เอกสาร</string>
+    <string name="scan_home_documents_lowercase">เอกสาร</string>
+    <string name="scan_home_documents_count">%1$d เอกสาร</string>
+    <string name="scan_home_no_documents">ยังไม่มีเอกสารใดๆ</string>
+    <string name="scan_home_start_scanning">เริ่มสแกนเพื่อสร้างเอกสารฉบับแรกของคุณ</string>
+    <string name="scan_home_new_folder">โฟลเดอร์ใหม่</string>
+    <string name="scan_home_scan_document">สแกนเอกสาร</string>
+    <string name="scan_home_import_gallery">นำเข้าจากแกลเลอรี</string>
+    <string name="scan_home_parent_folder">โฟลเดอร์หลัก</string>
+    <string name="scan_home_go_back">กลับไปยังโฟลเดอร์หลัก</string>
+    <string name="scan_home_create_folder">สร้างโฟลเดอร์ใหม่</string>
+    <string name="scan_home_enter_folder_name">ป้อนชื่อสำหรับโฟลเดอร์ใหม่</string>
+    <string name="scan_home_folder_name">ชื่อโฟลเดอร์</string>
+    <string name="scan_home_folder_placeholder">เช่น เอกสารงาน</string>
+    <string name="scan_home_folder_error">ชื่อโฟลเดอร์ต้องไม่ว่างเปล่า</string>
+    <string name="scan_home_folder_name_empty">ชื่อโฟลเดอร์ต้องไม่ว่างเปล่า</string>
+    <string name="scan_home_create">สร้าง</string>
+    <string name="scan_home_folder_exists">มีโฟลเดอร์ชื่อนี้อยู่แล้ว</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">กล้อง</string>
+    <string name="scan_camera_permission_required">ต้องขออนุญาตใช้กล้อง</string>
+    <string name="scan_camera_permission_message">แอปนี้จำเป็นต้องเข้าถึงกล้องเพื่อสแกนเอกสาร</string>
+    <string name="scan_camera_permission_settings">โปรดไปที่ การตั้งค่า &gt; แอป &gt; โปรแกรมดูไฟล์ PDF &gt; สิทธิ์การเข้าถึง และเปิดใช้งานสิทธิ์การเข้าถึงกล้อง</string>
+    <string name="scan_camera_permission_title">ต้องขออนุญาตใช้กล้อง</string>
+    <string name="scan_camera_request_permission">ขออนุญาต</string>
+    <string name="scan_camera_open_settings">เปิดการตั้งค่า</string>
+    <string name="scan_camera_close">ปิด</string>
+    <string name="scan_camera_flash">แฟลช</string>
+    <string name="scan_camera_auto_capture">การจับภาพอัตโนมัติ</string>
+    <string name="scan_camera_settings">การตั้งค่า</string>
+    <string name="scan_camera_ready_batch">พร้อมสำหรับการสแกนหลายหน้า</string>
+    <string name="scan_camera_ready_multiple">พร้อมสำหรับการสแกนหลายหน้า</string>
+    <string name="scan_camera_hold_steady">จับให้นิ่งขณะสแกน</string>
+    <string name="scan_camera_captured_pages">%1$d หน้าที่ถูกบันทึก</string>
+    <string name="scan_camera_mode_single">เดี่ยว</string>
+    <string name="scan_camera_mode_batch">ชุด</string>
+    <string name="scan_camera_preview">ตัวอย่าง</string>
+    <string name="scan_camera_finish">เสร็จ</string>
+    <string name="scan_camera_starting">กำลังเริ่มกล้อง...</string>
+    <string name="scan_camera_document_name">ชื่อเอกสาร</string>
+    <string name="scan_camera_document_name_empty">ชื่อเอกสารต้องไม่ว่างเปล่า</string>
+    <string name="scan_camera_save_document">บันทึกเอกสาร</string>
+    <string name="scan_camera_processing">กำลังประมวลผล...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">ครอบตัด &amp; ปรับแต่ง</string>
+    <string name="scan_crop_close">ปิด</string>
+    <string name="scan_crop_reset">รีเซ็ต</string>
+    <string name="scan_crop_rotate">หมุน</string>
+    <string name="scan_crop_done">เสร็จแล้ว</string>
+    <string name="scan_crop_scanned_document">เอกสารที่สแกนแล้ว</string>
+    <string name="scan_crop_magnified_view">ภาพขยาย</string>
+    <string name="scan_crop_processing">กำลังประมวลผล...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">ยกระดับ</string>
+    <string name="scan_filter_close">ปิด</string>
+    <string name="scan_filter_rotate">หมุน</string>
+    <string name="scan_filter_done">เสร็จแล้ว</string>
+    <string name="scan_filter_filters">ตัวกรอง</string>
+    <string name="scan_filter_original">ต้นฉบับ</string>
+    <string name="scan_filter_magic">เวทมนตร์</string>
+    <string name="scan_filter_lighten">เบาลง</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">โทนสีเทา</string>
+    <string name="scan_filter_magic_2">คลีนด็อก</string>
+    <string name="scan_filter_soft_scan">ซอฟต์สแกน</string>
+    <string name="scan_filter_color_enhance">สี+</string>
+    <string name="scan_filter_ink_saver">ประหยัดหมึก</string>
+    <string name="scan_filter_premium">คุณสมบัติพิเศษ</string>
+    <string name="scan_filter_filtered_document">เอกสารที่ผ่านการกรอง</string>
+    <string name="scan_filter_applying">กำลังใช้ตัวกรอง...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">ยกเลิก</string>
+    <string name="scan_share">แบ่งปัน</string>
+    <string name="scan_move">เคลื่อนไหว</string>
+    <string name="scan_move_to_folder">ย้ายไปยังโฟลเดอร์</string>
+    <string name="scan_delete">ลบ</string>
+    <string name="scan_rename">เปลี่ยนชื่อ</string>
+    <string name="scan_root">ราก</string>
+    <string name="scan_select_destination">เลือกโฟลเดอร์ปลายทาง</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">เอกสาร</string>
+    <string name="scan_document_back">กลับ</string>
+    <string name="scan_document_pages">หน้า</string>
+    <string name="scan_document_add_pages">เพิ่มหน้าให้กับเอกสารนี้</string>
+    <string name="scan_document_add_page_button">เพิ่มหน้า</string>
+    <string name="scan_document_rename">เปลี่ยนชื่อ</string>
+    <string name="scan_document_share">แบ่งปัน</string>
+    <string name="scan_document_more">มากกว่า</string>
+    <string name="scan_document_pages_count">%1$d หน้า</string>
+    <string name="scan_document_no_pages">ยังไม่มีหน้าเว็บ</string>
+    <string name="scan_document_scan_page">สแกนหน้า</string>
+    <string name="scan_document_import_page">นำเข้าจากแกลเลอรี</string>
+    <string name="scan_document_grid_view">มุมมองแบบตาราง</string>
+    <string name="scan_document_list_view">มุมมองรายการ</string>
+    <string name="scan_document_continuous_view">การรับชมอย่างต่อเนื่อง</string>
+    <string name="scan_document_page_number">หน้า %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">หน้าหนังสือ</string>
+    <string name="scan_page_back">กลับ</string>
+    <string name="scan_page_share">แบ่งปัน</string>
+    <string name="scan_page_delete">ลบ</string>
+    <string name="scan_page_of">%1$d ของ %2$d</string>
+    <string name="scan_page_image_not_found">ไม่พบรูปภาพ</string>
+    <string name="scan_page_retake">ถ่ายซ้ำ</string>
+    <string name="scan_page_crop">พืชผล</string>
+    <string name="scan_page_enhance">ยกระดับ</string>
+    <string name="scan_page_ocr">โอซีอาร์</string>
+    <string name="scan_page_save_gallery">บันทึกไปยังแกลเลอรี</string>
+    <string name="scan_page_saved_to_gallery">บันทึกภาพลงในแกลเลอรีแล้ว</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">ลบเอกสาร?</string>
+    <string name="scan_delete_document_message">คุณแน่ใจหรือไม่ว่าต้องการลบ "%1$s"? การดำเนินการนี้จะลบทุกหน้าในเอกสารนี้อย่างถาวร การกระทำนี้ไม่สามารถย้อนกลับได้</string>
+    <string name="scan_rename_document">เปลี่ยนชื่อเอกสาร</string>
+    <string name="scan_rename_enter_name">ป้อนชื่อใหม่สำหรับเอกสาร</string>
+    <string name="scan_rename_document_name">ชื่อเอกสาร</string>
+    <string name="scan_rename_error">ชื่อเอกสารต้องไม่ว่างเปล่า</string>
+    <string name="scan_dialog_delete_document_title">ลบเอกสาร?</string>
+    <string name="scan_dialog_delete_document_message">คุณแน่ใจหรือไม่ว่าต้องการลบ "%1$s"? การดำเนินการนี้จะลบทุกหน้าในเอกสารนี้อย่างถาวร การกระทำนี้ไม่สามารถย้อนกลับได้</string>
+    <string name="scan_dialog_delete_confirm">ลบ</string>
+    <string name="scan_dialog_cancel">ยกเลิก</string>
+    <string name="scan_dialog_move_title">ย้ายไปยังโฟลเดอร์</string>
+    <string name="scan_dialog_move_message">เลือกโฟลเดอร์ปลายทาง</string>
+    <string name="scan_dialog_move_confirm">เคลื่อนไหว</string>
+    <string name="scan_dialog_move_root">ราก</string>
+    <string name="scan_dialog_move_selected">เลือกแล้ว</string>
+    <string name="scan_dialog_rename_title">เปลี่ยนชื่อเอกสาร</string>
+    <string name="scan_dialog_rename_message">ป้อนชื่อใหม่สำหรับเอกสาร</string>
+    <string name="scan_dialog_rename_label">ชื่อเอกสาร</string>
+    <string name="scan_dialog_rename_error">ชื่อเอกสารต้องไม่ว่างเปล่า</string>
+    <string name="scan_dialog_rename_confirm">เปลี่ยนชื่อ</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">แบ่งปัน</string>
+    <string name="scan_menu_move">ย้ายไปยังโฟลเดอร์</string>
+    <string name="scan_menu_delete">ลบ</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">ตัวอย่างกล้อง\n(เร็วๆ นี้)</string>
+    <string name="scan_platform_desktop_camera">ตัวอย่างภาพจากกล้องบนเดสก์ท็อป\n(เร็วๆ นี้)</string>
+    <string name="scan_platform_ios_camera">ตัวอย่างกล้อง iOS\n(เร็วๆ นี้)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">ปิด</string>
+    <string name="flash">แฟลช</string>
+    <string name="auto_capture">การจับภาพอัตโนมัติ</string>
+    <string name="settings">การตั้งค่า</string>
+    <string name="capture">การจับกุม</string>
+    <string name="finish">เสร็จ</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">คุณแน่ใจหรือไม่ว่าต้องการลบ %1เอกสารทั้งหมดที่อยู่ภายในจะถูกลบไปด้วย</string>
+    <string name="share">แบ่งปัน</string>
+    <string name="share_as_images">แชร์เป็นรูปภาพ</string>
+    <string name="share_as_pdf">แชร์เป็นไฟล์ PDF</string>
+    <string name="move_to_folder">ย้ายไปยังโฟลเดอร์</string>
+    <string name="delete">ลบ</string>
+    <string name="selected">เลือกแล้ว</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">หน้า %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">โฟลเดอร์ว่างเปล่า</string>
+    <string name="tap_the__button_to_scan_a_docu">แตะปุ่ม + เพื่อสแกนเอกสาร</string>
+    <string name="str______pages">%1$s • %2$s • %3$s หน้า</string>
+    <string name="create_folder">สร้างโฟลเดอร์</string>
+    <string name="more_options">ตัวเลือกเพิ่มเติม</string>
+    <string name="document_thumbnail">ภาพย่อของเอกสาร</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">ไม่พบรูปภาพ</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — หน้า %2$d</string>
+    <string name="scan_ocr_title">การจดจำข้อความ</string>
+    <string name="scan_ocr_copy">คัดลอกข้อความ</string>
+    <string name="scan_ocr_no_text">ไม่พบข้อความ</string>
+    <string name="scan_ocr_processing">การจดจำข้อความ…</string>
+    <string name="scan_ocr_error">ไม่สามารถจดจำข้อความได้</string>
+    <string name="scan_ocr_not_supported">แพลตฟอร์มนี้ไม่รองรับ OCR</string>
+    <string name="scan_ocr_image">หน้าที่สแกนแล้วสำหรับ OCR</string>
+    <string name="gallery">แกลเลอรี่</string>
+    <string name="select_file">เลือกไฟล์</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">ไม่สามารถบันทึกภาพได้</string>
+    <string name="error_no_images_captured">ไม่มีการบันทึกภาพ</string>
+    <string name="error_open_settings">ไม่สามารถเปิดการตั้งค่าได้</string>
+    <string name="error_process_images">ไม่สามารถประมวลผลภาพได้</string>
+    <string name="error_process_image">ไม่สามารถประมวลผลภาพได้</string>
+    <string name="error_start_camera">ไม่สามารถเริ่มกล้องได้</string>
+    <string name="error_stop_camera">ไม่สามารถหยุดกล้องได้</string>
+    <string name="error_crop_image">ไม่สามารถครอบตัดภาพได้</string>
+    <string name="error_delete_document">ไม่สามารถลบเอกสารได้</string>
+    <string name="error_delete_page">ไม่สามารถลบหน้าได้</string>
+    <string name="error_load_document">ไม่สามารถโหลดเอกสารได้</string>
+    <string name="error_load_page">ไม่สามารถโหลดหน้าเว็บได้</string>
+    <string name="error_move_document">ไม่สามารถย้ายเอกสารได้</string>
+    <string name="error_no_pages_to_share">ไม่มีหน้าเว็บให้แชร์</string>
+    <string name="error_rename_document">ไม่สามารถเปลี่ยนชื่อเอกสารได้</string>
+    <string name="error_reorder_pages">ไม่สามารถเรียงลำดับหน้าใหม่ได้</string>
+    <string name="error_share_images">ไม่สามารถแชร์รูปภาพได้</string>
+    <string name="error_share_pdf">ไม่สามารถแชร์ไฟล์ PDF ได้</string>
+    <string name="error_share_page">ไม่สามารถแชร์หน้าเว็บได้</string>
+    <string name="error_create_folder">ไม่สามารถสร้างโฟลเดอร์ได้</string>
+    <string name="error_delete_folder">ไม่สามารถลบโฟลเดอร์ได้</string>
+    <string name="error_rename_folder">ไม่สามารถเปลี่ยนชื่อโฟลเดอร์ได้</string>
+    <string name="error_unknown">เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ</string>
+    <string name="folder_not_found">ไม่พบโฟลเดอร์</string>
+    <string name="sync_documents">ซิงค์เอกสาร</string>
+    <string name="shutter_scale">มาตราส่วนชัตเตอร์</string>
+    <string name="import_gallery">นำเข้าแกลเลอรี</string>
+    <string name="scan_camera">กล้องสแกน</string>
+</resources>

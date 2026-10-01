@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">PDF-galdur</string>
+    <string name="app_tagline">Hvað langar þig að gera?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">Síðast notað</string>
+    <string name="home_favorites">Uppáhalds</string>
+    <string name="home_new_tool">Nýtt tól</string>
+    <string name="home_featured">VALIN</string>
+    <string name="home_scan_to_pdf">Skanna í PDF</string>
+    <string name="home_scan_description">Breyttu pappírsskjölum í stafræna töfra samstundis</string>
+    <string name="home_start_scanning">Byrja að skanna</string>
+    <string name="home_all_tools">Öll verkfæri</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">PDF verkfæri</string>
+    <string name="image_tools">Myndverkfæri</string>
+    <string name="tools_split">Skipta</string>
+    <string name="tools_split_description">Draga út síður</string>
+    <string name="tools_rotate">Snúa</string>
+    <string name="tools_rotate_description">Lagfæra stefnu</string>
+    <string name="tools_delete_pages">Eyða síðum</string>
+    <string name="tools_delete_pages_description">Fjarlægja óæskilegt</string>
+    <string name="tools_convert">Umbreyta</string>
+    <string name="tools_convert_description">Til/frá myndum</string>
+    <string name="tools_sign">Skilti</string>
+    <string name="tools_sign_description">Bæta við undirskrift</string>
+    <string name="tools_protect">Vernda</string>
+    <string name="tools_protect_description">Lykilorðsöryggi</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">PDF-skoðari</string>
+    <string name="pdf_viewer_page_info">Síða %1$d af %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">Skjalaskanni</string>
+    <string name="scanner_capture">Handtaka</string>
+    <string name="scanner_retake">Endurtaka</string>
+    <string name="scanner_save">Vista</string>
+    <!-- Navigation -->
+    <string name="nav_back">Fara til baka</string>
+    <string name="nav_settings">Stillingar</string>
+    <string name="nav_more_options">Fleiri valkostir</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Heim</string>
+    <string name="nav_library">Bókasafn</string>
+    <string name="nav_scan">Skanna</string>
+    <string name="nav_tools">Verkfæri</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">Skoða skrár</string>
+    <string name="browse_files_subtitle">Geymsla &amp; Skýjaskrár</string>
+    <string name="show_hidden_files">Sýna faldar skrár</string>
+    <string name="hide_hidden_files">Fela faldar skrár</string>
+    <string name="refresh_storage">Endurnýja geymslupláss</string>
+    <string name="no_storage_available">Engin geymsla tiltæk</string>
+    <string name="no_files_found">Engar skrár fundust</string>
+    <string name="add_files">Bæta við %1$d skrám</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">Geymsluheimild krafist</string>
+    <string name="permission_storage_message">Þetta forrit þarf aðgang að geymslu tækisins til að skoða og opna PDF skrár. Vinsamlegast veittu geymsluheimild til að halda áfram.</string>
+    <string name="permission_grant">Veita leyfi</string>
+    <!-- Common Actions -->
+    <string name="action_open">Opið</string>
+    <string name="action_save">Vista</string>
+    <string name="action_share">Deila</string>
+    <string name="action_delete">Eyða</string>
+    <string name="action_cancel">Hætta við</string>
+    <string name="action_confirm">Staðfesta</string>
+    <string name="action_rename">Endurnefna</string>
+    <string name="action_print">Prenta</string>
+    <string name="action_favorite">Uppáhalds</string>
+    <string name="action_unfavorite">Fjarlægja úr uppáhaldslistum</string>
+    <!-- Document Actions -->
+    <string name="document_share">Deila skjali</string>
+    <string name="document_rename">Endurnefna skjal</string>
+    <string name="document_delete">Eyða skjali</string>
+    <string name="document_print">Prenta skjal</string>
+    <string name="document_favorite">Bæta við uppáhalds</string>
+    <string name="document_unfavorite">Fjarlægja úr uppáhalds</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">Skjalinu var deilt</string>
+    <string name="document_share_failed">Mistókst að deila skjali</string>
+    <string name="document_renamed_success">Endurnefning skjals tókst</string>
+    <string name="document_rename_failed">Mistókst að endurnefna skjal</string>
+    <string name="document_deleted_success">Skjalinu var eytt</string>
+    <string name="document_delete_failed">Mistókst að eyða skjali</string>
+    <string name="document_print_opened">Skjal opnað í sjálfgefnum PDF-skoðara. Notaðu prentunarvirknina í skoðaranum til að prenta.</string>
+    <string name="document_print_failed">Mistókst að prenta skjalið</string>
+    <string name="document_added_to_favorites">Bætt við uppáhalds</string>
+    <string name="document_removed_from_favorites">Fjarlægt úr uppáhaldslistum</string>
+    <string name="document_favorite_failed">Mistókst að uppfæra uppáhaldsstöðu</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">Endurnefna skjal</string>
+    <string name="dialog_rename_hint">Sláðu inn nýtt nafn</string>
+    <string name="dialog_rename_empty_error">Nafn skjals má ekki vera autt</string>
+    <string name="dialog_delete_title">Eyða skjali</string>
+    <string name="dialog_delete_file_message">Þetta mun eyða skránni varanlega.\n\nEyða %1$s?</string>
+    <string name="dialog_delete_uri_message">Fjarlægir aðeins úr forritinu. Upprunalega skráin óbreytt.\n\nFjarlægja %1$s úr forritinu?</string>
+    <string name="dialog_delete_confirm">Eyða</string>
+    <string name="dialog_remove_confirm">Fjarlægja</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">Endurnefnir aðeins innan appsins. Upprunalega skráin óbreytt.</string>
+    <string name="notice_delete_uri_only">Fjarlægt úr forritinu. Upprunalega skráin óbreytt.</string>
+    <string name="notice_file_exists_error">Skrá með þessu nafni er þegar til</string>
+    <string name="notice_file_not_found_error">Skrá fannst ekki</string>
+    <string name="notice_no_active_document">Ekkert virkt skjal</string>
+    <string name="notice_document_path_unavailable">Skráarslóð skjalsins er ekki tiltæk</string>
+    <!-- States -->
+    <string name="state_loading">Hleður...</string>
+    <string name="state_empty">Engir hlutir fundust</string>
+    <string name="state_error">Eitthvað fór úrskeiðis</string>
+    <string name="state_retry">Reyna aftur</string>
+    <!-- Errors -->
+    <string name="error_network">Nettenging mistókst</string>
+    <string name="error_file_not_found">Skrá fannst ekki</string>
+    <string name="error_permission_denied">Leyfi hafnað</string>
+    <string name="error_invalid_file">Ógilt skráarsnið</string>
+    <string name="error_password_required">Lykilorð krafist</string>
+    <string name="error_incorrect_password">Rangt lykilorð</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">Lykilorðsvarið</string>
+    <string name="password_protected_message">Þessi skrá krefst lykilorðs til að opna. Vinsamlegast sláðu það inn hér að neðan.</string>
+    <string name="password_label">Lykilorð</string>
+    <string name="password_placeholder">Sláðu inn lykilorð</string>
+    <string name="password_unlock">Opna</string>
+    <string name="password_show">Sýna lykilorð</string>
+    <string name="password_hide">Fela lykilorð</string>
+    <!-- Theme -->
+    <string name="theme_light">Ljós</string>
+    <string name="theme_dark">Dökkt</string>
+    <string name="theme_system">Kerfi</string>
+    <string name="theme_adaptive">Aðlögunarhæft</string>
+    <string name="theme_custom">Sérsniðin</string>
+    <!-- Settings -->
+    <string name="settings_title">Kjörstillingar</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">Reikningur &amp; Samstilling</string>
+    <string name="settings_category_sync_subtitle">Stjórnaðu reikningnum þínum, samstilltu &amp; friðhelgi einkalífsins</string>
+    <string name="settings_category_appearance_title">Útlit</string>
+    <string name="settings_category_appearance_subtitle">Sérsníða útlit appsins &amp;</string>
+    <string name="settings_category_pdf_reader_title">PDF lesari</string>
+    <string name="settings_category_pdf_reader_subtitle">Sjálfgefin lesreynsla fyrir lesanda &amp;</string>
+    <string name="settings_category_help_title">Hjálp &amp; Stuðningur</string>
+    <string name="settings_category_help_subtitle">Gögn &amp; samband</string>
+    <string name="settings_category_general_title">Almennt</string>
+    <string name="settings_category_general_subtitle">Upplýsingar um forritið Tungumál &amp;</string>
+    <string name="settings_theme_section">Þema</string>
+    <string name="settings_theme_description">Veldu þema sem þú vilt</string>
+    <string name="settings_accent_color">HREIMILITUR</string>
+    <string name="settings_custom_colors">Sérsniðnir litir</string>
+    <string name="settings_primary_color">Aðallitur</string>
+    <string name="settings_background_color">Bakgrunnslitur</string>
+    <string name="settings_surface_color">Yfirborðslitur</string>
+    <string name="settings_reset_colors">Endurstilla í sjálfgefið ástand</string>
+    <string name="settings_adaptive_note">Aðlögunarhæfir litir Material You (Android 12+)</string>
+    <string name="settings_app_section">Stillingar forrits</string>
+    <string name="settings_notifications">Tilkynningar</string>
+    <string name="settings_notifications_description">Fá tilkynningar í forriti</string>
+    <string name="settings_auto_backup">Sjálfvirk afritun</string>
+    <string name="settings_auto_backup_description">Sjálfvirk afritun skjala</string>
+    <string name="settings_change_color">Breyta lit</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">PDF skjölin þín munu birtast hér</string>
+    <string name="scan_description">Skanna skjöl í PDF</string>
+    <string name="tools_description">PDF ritvinnslu- og meðhöndlunartól</string>
+    <string name="home_description">Notið neðri valmyndina til að fá aðgang að eiginleikum</string>
+    <!-- Sort Options -->
+    <string name="sort_name">Nafn</string>
+    <string name="sort_date">Dagsetning</string>
+    <string name="sort_size">Stærð</string>
+    <string name="sort_option_name">Nafn</string>
+    <string name="sort_option_last_opened">Síðast opnað</string>
+    <string name="sort_option_last_modified">Síðast breytt</string>
+    <string name="sort_option_file_size">Skráarstærð</string>
+    <!-- View Types -->
+    <string name="view_type_list">Listasýn</string>
+    <string name="view_type_table">Töflusýn</string>
+    <string name="view_type_grid">Ristsýn</string>
+    <!-- File Properties -->
+    <string name="file_name">Skráarnafn</string>
+    <string name="date_modified">Dagsetning breytinga</string>
+    <string name="file_size">Stærð</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">Ekki byrjað</string>
+    <string name="file_status_completed">Lokið</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">PDF skjal</string>
+    <string name="document_type_word">Word-skjal</string>
+    <string name="document_type_excel">Excel töflureiknir</string>
+    <string name="document_type_image">Myndskrá</string>
+    <string name="document_type_other">Skjal</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">Allar skrár</string>
+    <string name="filter_recent">Nýlegt</string>
+    <string name="filter_pdfs">PDF-skjöl</string>
+    <string name="filter_images">Myndir</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">Heim</string>
+    <string name="browse_tab">Skoða</string>
+    <string name="starred_tab">Stjörnumerkt</string>
+    <string name="settings_tab">Stillingar</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">Skipta um þema</string>
+    <string name="accessibility_menu">Matseðill</string>
+    <string name="accessibility_close">Loka</string>
+    <string name="accessibility_color_picker">Litavalari</string>
+    <!-- Library Screen -->
+    <string name="library_title">Bókasafn</string>
+    <string name="library_subtitle">Stjórna skrám, nýlegum &amp; Uppáhalds</string>
+    <string name="library_search_placeholder">Leita að skrám...</string>
+    <string name="library_selected_count">%1$d valið</string>
+    <string name="library_open_from_device">Opna úr\ntæki</string>
+    <string name="library_browse_files">Skoða\nskrár</string>
+    <string name="library_action_open">Opið</string>
+    <string name="library_action_share">Deila</string>
+    <string name="library_action_remove">Fjarlægja</string>
+    <string name="library_action_delete">Eyða</string>
+    <string name="library_clear_search">Hreinsa leit</string>
+    <string name="library_close_search">Loka leit</string>
+    <string name="library_select_all">Veldu allar skrár</string>
+    <string name="library_exit_multiselect">Hætta í fjölvalsstillingu</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">Hjálp &amp; Stuðningur</string>
+    <string name="help_support_subtitle">Algengar spurningar, Hafðu samband &amp; Lögfræði</string>
+    <string name="settings_pdf_subtitle">Fletta, Skoða &amp; Útlit</string>
+    <string name="help_header_title">Hvernig getum við hjálpað?</string>
+    <string name="help_header_subtitle">Teymið okkar er til staðar til að tryggja að þú fáir\nbestu PDF upplifunina.</string>
+    <string name="help_contact_us">Hafðu samband við okkur</string>
+    <string name="help_contact_subtitle">Hafðu samband við þjónustuver</string>
+    <string name="help_faq">Algengar spurningar</string>
+    <string name="help_faq_subtitle">Algengar spurningar svaraðar</string>
+    <string name="help_privacy_policy">Persónuverndarstefna</string>
+    <string name="help_privacy_subtitle">Hvernig við verndum gögnin þín</string>
+    <string name="help_terms_service">Þjónustuskilmálar</string>
+    <string name="help_terms_subtitle">Reglur umsóknarinnar</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">Samstilling á farsímagögnum</string>
+    <string name="background_sync">Samstilling í bakgrunni</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">Stillingar PDF lesara</string>
+    <string name="pdf_settings_coming_soon">Kemur bráðlega</string>
+    <string name="pdf_settings_description">Stilla skrunhegðun, skoðunarhami og lesstillingar</string>
+    <!-- General Settings -->
+    <string name="settings_language">Tungumál</string>
+    <string name="settings_pdf_reader">Stillingar PDF lesara</string>
+    <string name="settings_help_support">Hjálp &amp; Stuðningur</string>
+    <string name="settings_whats_new">Hvað er nýtt</string>
+    <string name="settings_download_desktop">Setja upp á öðru tæki</string>
+    <string name="settings_rate_app">Gefðu app einkunn</string>
+    <string name="play_store_not_found">Play Store fannst ekki í þessu tæki</string>
+    <string name="settings_set_as_default">Setja sem sjálfgefinn PDF-skoðara</string>
+    <string name="settings_set_as_default_subtitle">Opna PDF skjöl með þessu forriti sjálfgefið</string>
+    <string name="settings_default_pdf_instructions_title">Hvernig á að stilla sem sjálfgefið</string>
+    <string name="settings_default_pdf_ok">Ég skildi það</string>
+    <string name="settings_default_app_hint">Virkaði ekki?</string>
+    <string name="settings_default_app_hint_learn_more">Frekari upplýsingar</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">Tungumál</string>
+    <string name="language_search_placeholder">Leita að tungumálum...</string>
+    <!-- Common UI -->
+    <string name="support">Stuðningur</string>
+    <string name="language_english">Enska</string>
+    <string name="language_hindi">Hinrik</string>
+    <string name="language_spanish">Spænska</string>
+    <string name="language_french">Franska</string>
+    <string name="language_german">Þýska</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">Arabískt</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">Portúgalska</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">ÚTLIT FORRITS</string>
+    <string name="theme">ÞEMA</string>
+    <string name="general">ALMENNT</string>
+    <string name="new">NÝTT</string>
+    <string name="navigate">Sigla</string>
+    <string name="download">Sækja</string>
+    <string name="falcon_pdf">Falcon PDF</string>
+    <string name="excellence_in_every_pixel">Framúrskarandi gæði í hverri pixlu</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">BEITA BREYTINGAR</string>
+    <string name="apply">Sækja um</string>
+    <string name="selected">Valið</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">Samstillingar</string>
+    <string name="autosync_on_wifi">Sjálfvirk samstilling á WiFi</string>
+    <string name="sync_reading_progress">Samstilla lestrarframvindu</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">Nafn skjals</string>
+    <string name="name_cannot_be_empty">Nafn má ekki vera tómt</string>
+    <string name="str__failed">%1$s Mistókst</string>
+    <string name="ok">Í lagi</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">Uppfærsluáætlun - Núverandi áætlun: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">Sleppa til að opna skrá</string>
+    <string name="release_to_import_and_open_pdf">Gefðu upp til að flytja inn og opna PDF skrár</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">Fjarlægja</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF-skrá</string>
+    <string name="images">Myndir</string>
+    <string name="filter_all_types">Allar skrár</string>
+    <string name="favorites">Uppáhaldsskrár</string>
+    <string name="recent">Nýlegt</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">Leita í skjölum...</string>
+    <string name="voice_search">Raddleit</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">Nýlegar skrár</string>
+    <string name="loading_recent_files">Hleður nýlegar skrár...</string>
+    <string name="no_recent_files">Engar nýlegar skrár</string>
+    <string name="no_favorites">Engin uppáhalds</string>
+    <string name="mark_files_as_favorite_to_see_them_here">Merktu skrár sem uppáhalds til að sjá þær hér</string>
+    <string name="open_some_pdf_files_to_see_the">Opnaðu nokkrar PDF skrár til að sjá þær hér</string>
+    <string name="status">Staða</string>
+    <string name="actions">Aðgerðir</string>
+    <string name="select_all">Velja allt</string>
+    <string name="enter_multiselect_mode">Fara í fjölvalsstillingu</string>
+    <string name="sorted_ascending">Raðað í hækkandi röð</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">Geymsla: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">Bæta við %1$s skrám</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">Breyta gerð skoðunar</string>
+    <string name="filter_">Sía: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">Hleður PDF...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">Skráðu þig inn til að samstilla</string>
+    <string name="protect_your_library_files">Verndaðu skrár bókasafnsins þíns</string>
+    <string name="sign_in">Innskráning</string>
+    <string name="sign_out">Skrá út</string>
+    <string name="sign_in_dialog_title">Innskráning í Falcon PDF</string>
+    <string name="sign_in_dialog_subtitle">PDF bókasafnið þitt, alls staðar.</string>
+    <string name="sign_in_with_google">Innskráning með Google</string>
+    <string name="sign_in_with_apple">Innskráning með Apple</string>
+    <string name="apple_user_drive_unavailable">Samstilling Google Drive er ekki í boði með Apple innskráningu</string>
+    <string name="apple_user_link_google">Tengja Google reikning fyrir Drive samstillingu</string>
+    <string name="apple_user_sync_info">Til að virkja samstillingu í skýinu skaltu tengja Google reikning</string>
+    <string name="link_google_account">Tengja Google reikning</string>
+    <string name="signed_in_successfully">Innskráning tókst</string>
+    <string name="signed_out_successfully">Útskráning tókst</string>
+    <string name="sync_disabled_free">Samstilling er óvirk fyrir ókeypis reikninga.</string>
+    <string name="storage_disabled_grant_access">Geymsla er óvirk. Veittu aðgang að drifinu til að byrja.</string>
+    <string name="upgrade_to_pro">Uppfærsla í atvinnumannaflokk</string>
+    <string name="grant_drive_access">Veita aðgang að Drive</string>
+    <string name="files_synced">%1$d/%2$d Samstilltar skrár</string>
+    <string name="synced_count">%1$d Samstillt</string>
+    <string name="unlimited_sync_active">ÓTAKMÖRKUÐ SAMSTILLING</string>
+    <string name="missing_drive_permissions">Heimildir fyrir Drive vantar. Samstilling er lokuð núna.</string>
+    <string name="drive_access_revoked">Aðgangur að Drive afturkallaður. Tengstu aftur til að halda samstillingu áfram.</string>
+    <string name="upgrade_premium">Uppfærsla á Premium</string>
+    <string name="manage_account">Stjórna reikningi</string>
+    <string name="sync_now">Samstilla núna</string>
+    <string name="tier_free">ÓKEYPIS</string>
+    <string name="tier_pro">FAGMAÐUR</string>
+    <string name="tier_premium">ÚRVALS</string>
+    <string name="status_paused">Í HLÖÐ</string>
+    <!-- Common -->
+    <string name="navigate_back">Fara til baka</string>
+    <string name="dismiss">Hafna</string>
+    <string name="cancel">Hætta við</string>
+    <string name="back">Til baka</string>
+    <string name="search">Leita</string>
+    <string name="more_actions">Fleiri aðgerðir</string>
+    <string name="share">Deila</string>
+    <string name="delete">Eyða</string>
+    <string name="remove_from_recents">Fjarlægja úr nýlegum</string>
+    <string name="open">Opið</string>
+    <string name="all">Allt</string>
+    <string name="sort_by_">Raða eftir %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Google Drive samstilling</string>
+    <string name="syncing">Samstillir...</string>
+    <string name="sync_completed">Samstilling lokið</string>
+    <string name="sync_failed">Samstilling mistókst</string>
+    <string name="sync_limit_exceeded">Samstillingarmörkum náð. %s áætlunin þín leyfir %d skrár.</string>
+    <string name="sync_no_drive_access">Aðgangur að Google Drive er ekki í boði</string>
+    <string name="sync_network_unavailable">Netið er ekki tiltækt</string>
+    <string name="sync_last_sync">Síðasta samstilling: %s</string>
+    <string name="sync_total_files">Samtals</string>
+    <string name="sync_synced_files">Samstillt</string>
+    <string name="sync_failed_files">Mistókst</string>
+    <string name="sync_conflict_files">Átök</string>
+    <string name="sync_add_to_favorites">Bæta við uppáhalds</string>
+    <string name="sync_remove_from_favorites">Fjarlægja úr uppáhaldslistum</string>
+    <string name="sync_conflict_title">Samstillingarárekstrar</string>
+    <string name="sync_conflict_message">Eftirfarandi skrár hafa árekstra sem þarfnast úrlausnar:</string>
+    <string name="sync_conflict_explanation">Árekstrar eiga sér stað þegar bæði staðbundnar og fjarstýrðar útgáfur hafa verið breyttar.</string>
+    <string name="sync_plan_limit">Samstilling: %d/%d</string>
+    <string name="sync_plan_limit_reached">Takmarki náð</string>
+    <string name="sync_plan_unlimited">Ótakmörkuð samstilling</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">Sleppa</string>
+    <string name="welcome_next">Næst</string>
+    <string name="welcome_get_started">Byrjaðu</string>
+    <string name="welcome_sign_in_get_started">Innskráning &amp; Byrja</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Lesið hvaða skjal sem er&lt;/b&gt; samstundis</string>
+    <string name="welcome_slide1_description">Opnaðu og stjórnaðu 10+ skjalasniðum, þar á meðal PDF, DOC, EPUB og MOBI.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Lesið PDF skjöl, rafbækur,&lt;/b&gt; og Office skjöl á einum stað</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Uppáhalds skjöl&lt;/b&gt; og opnaðu þau á öllum tækjum</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;Skrifa athugasemdir,&lt;/b&gt; merkja og vinna saman með auðveldum hætti</string>
+    <string name="welcome_slide1_footer">Alhliða skjalalesarinn þinn</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;Breyta, skanna og skipuleggja&lt;/b&gt; PDF skjöl</string>
+    <string name="welcome_slide2_description">Allt sem þú þarft til að búa til, breyta og stjórna PDF skjölum í einu öflugu verkfærakistu.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;Breyta texta,&lt;/b&gt; gera athugasemdir, auðkenna og fylla út eyðublöð</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Skannaðu skjöl&lt;/b&gt; og breyttu þeim í PDF skjöl samstundis</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;30+ verkfæri&lt;/b&gt; þar á meðal sameina, umbreyta, þjappa og tryggja</string>
+    <string name="welcome_slide2_footer">Allt-í-einu PDF vinnusvæði þitt</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;Gervigreind sem skilur&lt;/b&gt; skjölin þín</string>
+    <string name="welcome_slide3_description">Sparaðu klukkustundir með gervigreind sem les og greinir skjöl fyrir þig.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Gera samantekt á&lt;/b&gt; löngum skjölum á nokkrum sekúndum</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; skannaðar síður og þýða texta samstundis</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Hlustaðu&lt;/b&gt; á skjöl með innbyggðum upplestri</string>
+    <string name="welcome_slide3_footer">Engar auglýsingar. Bara framleiðni.</string>
+    <string name="grace">NÁÐ</string>
+    <string name="unable_to_verify_subscription_limited_ac">Ekki tókst að staðfesta áskrift. Takmarkaður aðgangur þar til tengingin er endurræst.</string>
+    <string name="retry_verification">Reyna staðfestingu aftur</string>
+    <string name="guest_state">Gestaríki</string>
+    <string name="free_tier">Ókeypis stig</string>
+    <string name="free_tier__locked">Ókeypis stig - Læst</string>
+    <string name="pro_tier">Atvinnumannastig</string>
+    <string name="pro_tier__restricted">Atvinnumannastig - Takmarkað</string>
+    <string name="premium_tier">Premium-stig</string>
+    <string name="premium_tier__error">Premium-stig - Villa</string>
+    <string name="refresh_plan_status">Endurnýja stöðu áætlunar</string>
+    <string name="user_avatar">Notandamynd</string>
+    <string name="debug_tools">Villuleitartól</string>
+    <string name="authentication__drive">Auðkenning &amp; Drive</string>
+    <string name="auth_state">Heimildarstaða</string>
+    <string name="revoke_drive_access">Afturkalla aðgang að drifinu</string>
+    <string name="image">Mynd</string>
+    <string name="thumbnail">Smámynd</string>
+    <string name="manage_preferences">Stjórna stillingum</string>
+    <string name="tools_history">Verkfærasaga</string>
+    <string name="manage_recent_logs">Stjórna nýlegum skrám</string>
+    <string name="more_options">Fleiri valkostir</string>
+    <string name="clear_all_history">Hreinsa alla sögu</string>
+    <string name="no_history_yet">Engin saga ennþá</string>
+    <string name="your_pdf_tool_operations_will_appear_her">Aðgerðir þínar í PDF tólinu munu birtast hér</string>
+    <string name="view">Skoða</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">Vistað %1$s</string>
+    <string name="history_status_processing">Vinnsla</string>
+    <string name="history_status_succeeded">Tókst</string>
+    <string name="history_status_failed">MISTÓKST</string>
+    <string name="history_status_processing_upper">VINNSLA</string>
+    <string name="history_unknown_files">Óþekktar skrár</string>
+    <string name="history_op_complete">%1$s Lokið!</string>
+    <string name="history_op_failed">%1$s Mistókst</string>
+    <string name="history_op_success_multiple">Aðgerð lokið með %1$d skrám</string>
+    <string name="history_op_success_single">Aðgerð lokið með góðum árangri</string>
+    <string name="history_op_error">Við gátum ekki lokið aðgerðinni</string>
+    <string name="history_multiple_files">%1$d skrár</string>
+    <string name="history_failed">Mistókst</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">Skýjasamstilling</string>
+    <string name="cloud_sync_subtitle">Tengd tæki</string>
+    <string name="cloud_sync_all_synced">Allar skrár samstilltar</string>
+    <string name="cloud_sync_syncing">Samstilling…</string>
+    <string name="cloud_sync_pending">Samstilling í bið</string>
+    <string name="cloud_sync_last_sync">Síðasta samstilling: %1$s</string>
+    <string name="cloud_sync_never_synced">Aldrei samstillt</string>
+    <string name="cloud_sync_recent_activity">Nýleg samstillingarvirkni</string>
+    <string name="cloud_sync_no_files">Engar samstilltar skrár ennþá</string>
+    <string name="cloud_sync_synced_to_drive">Samstillt við Drive</string>
+    <string name="cloud_sync_pending_upload">Bíður upphleðslu</string>
+    <string name="cloud_sync_sync_now">Samstilla núna</string>
+    <string name="cloud_sync_view_history">Skoða samstillingarsögu</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d skrár samstilltar</string>
+    <string name="cloud_sync_unlimited_files">%1$d skrár samstilltar · Ótakmarkað</string>
+    <string name="cloud_sync_cta_title">Hvaða vettvang sem er, hvenær sem er</string>
+    <string name="cloud_sync_cta_subtitle">Skjölin þín fylgja þér hvert sem er</string>
+    <string name="cloud_sync_files_label">%1$d skrár</string>
+    <string name="settings_data_privacy">Gögn &amp; Persónuvernd</string>
+    <string name="settings_data_privacy_subtitle">Stjórna gögnum, eyðingu reiknings &amp;</string>
+    <string name="settings_delete_account">Eyða reikningi</string>
+    <string name="settings_delete_account_subtitle">Eyða reikningnum þínum og gögnum varanlega</string>
+    <string name="delete_account_warning_title">Eyða aðganginum þínum?</string>
+    <string name="delete_account_warning_message">Þetta mun eyða reikningnum þínum og öllum tengdum gögnum varanlega, þar á meðal kaupsögu þinni og skýjasamstilltum skrám. Ekki er hægt að afturkalla þessa aðgerð og ekki er hægt að endurheimta kaup síðar.</string>
+    <string name="delete_account_confirm_phrase_label">Sláðu inn „staðfesta eyðingu“ til að halda áfram:</string>
+    <string name="delete_account_confirm_phrase">staðfesta eyðingu</string>
+    <string name="delete_account_button">Eyða reikningi</string>
+    <string name="delete_account_error_reauth">Af öryggisástæðum verður þú að hafa skráð þig inn nýlega til að eyða aðganginum þínum. Skráðu þig út og inn aftur og reyndu síðan aftur.</string>
+    <string name="delete_account_success">Reikningi eytt með góðum árangri</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">Skrá &amp; Samstillingarstillingar</string>
+    <string name="sync_on_mobile_data_subtitle">Nota farsímagögn fyrir samstillingu í skýinu</string>
+    <string name="drive_sync">Samstilling í bakgrunni</string>
+    <string name="drive_sync_subtitle">Samstilla uppáhalds &amp; skanna skjöl við Drive</string>
+    <string name="do_not_import_from_other_apps">Ekki flytja inn skrár úr öðrum forritum</string>
+    <string name="do_not_import_from_other_apps_subtitle">Opna sameiginlegar skrár tímabundið án þess að vista í bókasafni</string>
+    <string name="clear_imported_files">Hreinsa innfluttar skrár</string>
+    <string name="clear_imported_files_subtitle">Eyða öllum skrám sem afritaðar eru úr öðrum forritum</string>
+    <string name="clear_imports_confirm_title">Hreinsa innfluttar skrár?</string>
+    <string name="clear_imports_confirm_message">Þetta mun eyða öllum skrám í innflutningsmöppunni þinni fyrir fullt og allt. Þetta er ekki hægt að afturkalla.</string>
+    <string name="clear_imports_success">Innfluttar skrár hreinsaðar</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">Gögn &amp; Persónuvernd</string>
+    <string name="analytics_opt_out_title">Senda notkunargögn</string>
+    <string name="analytics_opt_out_subtitle">Deila nafnlausum notkunargögnum og hrunskýrslum með forritaranum til að hjálpa til við að bæta forritið</string>
+    <string name="analytics_opt_out_disabled_note">Greiningar og hrunskýrslur eru óvirkar. Engin gögn eru send til Google eða forritarans.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">Óvistaðar breytingar</string>
+    <string name="unsaved_changes_tab_message">Þetta skjal inniheldur óvistaðar breytingar. Viltu vista áður en þú lokar?</string>
+    <string name="unsaved_changes_window_message">Þú hefur óvistaðar breytingar í einu eða fleiri skjölum. Viltu henda þeim og hætta?</string>
+    <string name="discard">Fjarlægja</string>
+    <string name="discard_and_quit">Fjarlægja &amp; Hætta</string>
+    <string name="close">Loka</string>
+    <string name="remove_favorite">Fjarlægja uppáhalds</string>
+    <string name="set_as_default_pdf_viewer">Stilla sem sjálfgefinn PDF-skoðara?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF er ekki sjálfgefinn PDF-skoðari þinn. Viltu stilla hann sem sjálfgefinn þannig að allar PDF-skrár opnist með Falcon PDF?</string>
+    <string name="set_now">Stilla núna</string>
+    <string name="never">Aldrei</string>
+    <string name="later">Seinna</string>
+    <string name="set_default">Stilla sjálfgefið</string>
+    <string name="default">Sjálfgefið</string>
+    <string name="version_">Útgáfa %1$s</string>
+    <string name="sign_in_with_other_accounts">Innskráning með öðrum reikningum</string>
+    <string name="upgrade">Uppfærsla</string>
+    <string name="view_plan">Skoða áætlun</string>
+    <string name="unlimited_sync_upto_5gb">Ótakmörkuð samstilling allt að 5GB</string>
+    <string name="unlock_faster">Opnaðu hraðar</string>
+    <string name="use_biometrics_instead_of_passwords">Notið líffræðileg auðkenningu í stað lykilorða.</string>
+    <string name="upgrade_to_premium">Uppfæra í Premium</string>
+    <string name="unlock_pdf">Opna PDF</string>
+    <string name="use__to_accessnthis_document">Notið %1$s til að fá aðgang að\nþessu skjali</string>
+    <string name="open_with_password">Opna með lykilorði</string>
+    <string name="secure">Öruggt</string>
+    <string name="loading_">Hleður %1$s...</string>
+    <string name="failed_to_open_ebook">Mistókst að opna rafbókina</string>
+    <string name="properties">Eiginleikar</string>
+    <string name="copy">Afrita</string>
+    <string name="highlight">Hápunktur</string>
+    <string name="clear_selection">Hreinsa val</string>
+    <string name="close_search">Loka leit</string>
+    <string name="search_in_book">Leita í bókinni...</string>
+    <string name="contents">Efnisyfirlit</string>
+    <string name="table_of_contents">Efnisyfirlit</string>
+    <string name="no_table_of_contents_available">Engin efnisyfirlit tiltæk</string>
+    <string name="bookmarks">Bókamerki</string>
+    <string name="no_bookmarks_yet">Engin bókamerki ennþá</string>
+    <string name="page_">Síða %1$s</string>
+    <string name="no_results">Engar niðurstöður</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">Stillingar</string>
+    <string name="decrease_font_size">Minnka leturstærð</string>
+    <string name="increase_font_size">Auka leturstærð</string>
+    <string name="font">Leturgerð</string>
+    <string name="jump_to_page">Fara á síðu</string>
+    <string name="enter_page_number_1">Sláðu inn síðunúmer (1–%1$s):</string>
+    <string name="go">Fara</string>
+    <string name="read_aloud">Lesa upphátt</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">Stöðva</string>
+    <string name="annotations__text_selection">Skýringar &amp; Textaval</string>
+    <string name="text_selection_and_annotations_for_ebook">Textaval og skýringar fyrir rafbækur eru væntanlegar bráðlega.</string>
+    <string name="longpress_on_text_to_select_highlight_or">Haltu inni texta til að velja, auðkenna eða bæta við athugasemdum.</string>
+    <string name="press_play_to_start_reading_aloud">Ýttu á spilun til að byrja að lesa upphátt...</string>
+    <string name="speed">Hraði</string>
+    <string name="voice">Rödd</string>
+    <string name="no_annotations_yet">Engar skýringar ennþá</string>
+    <string name="select_text_to_highlight_or_add_notes">Veldu texta til að auðkenna eða bæta við athugasemdum</string>
+    <string name="tools">Verkfæri</string>
+    <string name="convert_to_images">Umbreyta í myndir</string>
+    <string name="rename">Endurnefna</string>
+    <string name="print">Prenta</string>
+    <string name="a">A−</string>
+    <string name="cover_of_">Forsíða %1$s</string>
+    <string name="no_cover_available">Engin umbúðir í boði</string>
+    <string name="read_now">Lesa núna</string>
+    <string name="about_the_book">UM BÓKINA</string>
+    <string name="tags">MERKI</string>
+    <string name="publisher_info">UPPLÝSINGAR UM ÚTGÁFANDA</string>
+    <string name="published_">Birt: %1$s</string>
+    <string name="retry">Reyna aftur</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Hreinsa skyndiminni</string>
+    <string name="ebooks_library">Rafbókasafn</string>
+    <string name="manage_your_digital_collection_across_mu">Hafðu umsjón með stafrænu safni þínu hjá mörgum veitendum. Leitaðu, síaðu og uppgötvaðu nýjar bækur frá Google Books og Open Library.</string>
+    <string name="no_books_found">Engar bækur fundust</string>
+    <string name="no_results_for__try_a_different_search_t">Engar niðurstöður fyrir "%1$s". Prófaðu aðra leitarorð.</string>
+    <string name="downloadable_only">Aðeins niðurhalanlegt</string>
+    <string name="file_unavailable">Skrá ekki tiltæk</string>
+    <string name="unavailable">Ekki tiltækt</string>
+    <string name="search_titles_authors_isbn">Leita að titlum, höfundum, ISBN...</string>
+    <string name="clear_search">Hreinsa leit</string>
+    <string name="ebooks">Rafbækur</string>
+    <string name="read_pdf">Lesa PDF-kóða</string>
+    <string name="create_pdf">Búa til PDF-skrá</string>
+    <string name="unlock_all_tools_and_remove_limits">Opnaðu öll verkfæri og fjarlægðu takmörk</string>
+    <string name="ocr_scanning">OCR skönnun</string>
+    <string name="extract_text_from_scanned_documents">Draga út texta úr skönnuðum skjölum</string>
+    <string name="cloud_sync">Skýjasamstilling</string>
+    <string name="access_your_documents_anywhere">Aðgangur að skjölunum þínum hvar sem er</string>
+    <string name="annotate_pdfs">Skýringar á PDF skjölum</string>
+    <string name="cloud_backup">Afritun í skýinu</string>
+    <string name="continue_reading">Halda áfram að lesa</string>
+    <string name="pick_files">Veldu skrár</string>
+    <string name="browse">Skoða</string>
+    <string name="did_you_know">Vissir þú?</string>
+    <string name="home">Heim</string>
+    <string name="your_documents_at_a_glance">Skjölin þín í hnotskurn</string>
+    <string name="pick_file">Veldu skrá</string>
+    <string name="quick_actions">Flýtiaðgerðir</string>
+    <string name="pro">FAGMAÐUR</string>
+    <string name="open_files">Opna skrár</string>
+    <string name="convert_to_pdf">Umbreyta í PDF</string>
+    <string name="close_drawer">Loka skúffu</string>
+    <string name="close_file">Loka skrá</string>
+    <string name="office">Skrifstofa</string>
+    <string name="coming_soon">Kemur bráðlega</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">Rafbókarskoðari er ekki enn í boði á þessum vettvang.</string>
+    <string name="set_as_default_viewer">Setja sem sjálfgefinn skoðara</string>
+    <string name="free">Ókeypis</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">Sæki uppfærslu... %1$s%</string>
+    <string name="more">Meira</string>
+    <string name="font_size">Leturstærð</string>
+    <string name="font_family">Leturfjölskylda</string>
+    <string name="scroll_direction">Skrunátt</string>
+    <string name="navigation">Leiðsögn</string>
+    <string name="keep_screen_on">Halda skjánum á</string>
+    <string name="volume_button_to_scroll">Hljóðstyrkshnappur til að skruna</string>
+    <string name="export_ebook_pages_as_image_files">Flytja út rafbókarsíður sem myndaskrár</string>
+    <string name="access_millions_of_titles">Aðgangur að milljónum titla.</string>
+    <string name="read_offline_with_natural_ai_voices">Lestu án nettengingar með náttúrulegum gervigreindarröddum.</string>
+    <string name="advanced_ai_reader">Háþróaður gervigreindarlesari.</string>
+    <string name="experience_studioquality_narration">Upplifðu frásögn í stúdíógæðum.</string>
+    <string name="powerful_pdf_tools">Öflug PDF verkfæri.</string>
+    <string name="create_and_edit_documents_on_the_go">Búðu til og breyttu skjölum á ferðinni.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Uppfærsla í Pro: Opnaðu öll verkfæri og fjarlægðu takmarkanir</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">OCR skönnun: Dragðu út texta úr skönnuðum skjölum</string>
+    <string name="cloud_sync_access_your_documents_anywher">Skýjasamstilling: Fáðu aðgang að skjölunum þínum hvar sem er</string>
+    <string name="scan">Skanna</string>
+    <string name="compress">Þjappa</string>
+    <string name="merge">Sameina</string>
+    <string name="convert">Umbreyta</string>
+    <string name="highlight_underline_and_add_notes_to_you">Merktu, undirstrikaðu og bættu við athugasemdum í skjölunum þínum</string>
+    <string name="keep_your_documents_safe_with_automatic_">Haltu skjölunum þínum öruggum með sjálfvirkri samstillingu í skýinu</string>
+    <string name="indicator_color_">litur_vísir_%1$s</string>
+    <string name="my_library">Bókasafnið mitt</string>
+    <string name="get_ebooks">Fáðu rafbækur</string>
+    <string name="scan_document">Skanna skjal</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

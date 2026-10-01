@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">PDF-magi</string>
+    <string name="app_tagline">Vad skulle du vilja göra?</string>
+    <!-- Home Screen -->
+    <string name="home_last_used">Senast använd</string>
+    <string name="home_favorites">Favoriter</string>
+    <string name="home_new_tool">Nytt verktyg</string>
+    <string name="home_featured">UTVALD</string>
+    <string name="home_scan_to_pdf">Skanna till PDF</string>
+    <string name="home_scan_description">Förvandla pappersdokument till digital magi direkt</string>
+    <string name="home_start_scanning">Börja skanna</string>
+    <string name="home_all_tools">Alla verktyg</string>
+    <!-- PDF Tools -->
+    <string name="pdf_tools">PDF-verktyg</string>
+    <string name="image_tools">Bildverktyg</string>
+    <string name="tools_split">Split</string>
+    <string name="tools_split_description">Extrahera sidor</string>
+    <string name="tools_rotate">Rotera</string>
+    <string name="tools_rotate_description">Fixera orientering</string>
+    <string name="tools_delete_pages">Ta bort sidor</string>
+    <string name="tools_delete_pages_description">Ta bort oönskade</string>
+    <string name="tools_convert">Konvertera</string>
+    <string name="tools_convert_description">Till/Från-bilder</string>
+    <string name="tools_sign">Tecken</string>
+    <string name="tools_sign_description">Lägg till signatur</string>
+    <string name="tools_protect">Skydda</string>
+    <string name="tools_protect_description">Lösenordssäkerhet</string>
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_title">PDF-läsare</string>
+    <string name="pdf_viewer_page_info">Sida %1$d av %2$d</string>
+    <!-- Scanner -->
+    <string name="scanner_title">Dokumentskanner</string>
+    <string name="scanner_capture">Fånga</string>
+    <string name="scanner_retake">Ta om</string>
+    <string name="scanner_save">Spara</string>
+    <!-- Navigation -->
+    <string name="nav_back">Navigera tillbaka</string>
+    <string name="nav_settings">Inställningar</string>
+    <string name="nav_more_options">Fler alternativ</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Hem</string>
+    <string name="nav_library">Bibliotek</string>
+    <string name="nav_scan">Avsöka</string>
+    <string name="nav_tools">Verktyg</string>
+    <!-- Browse Files -->
+    <string name="browse_files_title">Bläddra bland filer</string>
+    <string name="browse_files_subtitle">Lagring &amp; Molnfiler</string>
+    <string name="show_hidden_files">Visa dolda filer</string>
+    <string name="hide_hidden_files">Dölj dolda filer</string>
+    <string name="refresh_storage">Uppdatera lagring</string>
+    <string name="no_storage_available">Ingen lagringsplats tillgänglig</string>
+    <string name="no_files_found">Inga filer hittades</string>
+    <string name="add_files">Lägg till %1$d filer</string>
+    <!-- Permissions -->
+    <string name="permission_storage_title">Lagringstillstånd krävs</string>
+    <string name="permission_storage_message">Den här appen behöver åtkomst till enhetens lagring för att kunna bläddra bland och öppna PDF-filer. Vänligen ge lagringsbehörighet för att fortsätta.</string>
+    <string name="permission_grant">Bevilja tillstånd</string>
+    <!-- Common Actions -->
+    <string name="action_open">Öppna</string>
+    <string name="action_save">Spara</string>
+    <string name="action_share">Dela</string>
+    <string name="action_delete">Radera</string>
+    <string name="action_cancel">Avboka</string>
+    <string name="action_confirm">Bekräfta</string>
+    <string name="action_rename">Döpa om</string>
+    <string name="action_print">Skriva ut</string>
+    <string name="action_favorite">Favorit</string>
+    <string name="action_unfavorite">Ta bort favoriter</string>
+    <!-- Document Actions -->
+    <string name="document_share">Dela dokument</string>
+    <string name="document_rename">Byt namn på dokument</string>
+    <string name="document_delete">Ta bort dokument</string>
+    <string name="document_print">Skriv ut dokument</string>
+    <string name="document_favorite">Lägg till i favoriter</string>
+    <string name="document_unfavorite">Ta bort från favoriter</string>
+    <!-- Document Action Messages -->
+    <string name="document_shared_success">Dokumentet delades</string>
+    <string name="document_share_failed">Det gick inte att dela dokumentet</string>
+    <string name="document_renamed_success">Dokumentet har bytt namn</string>
+    <string name="document_rename_failed">Misslyckades med att byta namn på dokumentet</string>
+    <string name="document_deleted_success">Dokumentet har raderats</string>
+    <string name="document_delete_failed">Misslyckades med att ta bort dokumentet</string>
+    <string name="document_print_opened">Dokumentet öppnades i standard PDF-läsaren. Använd läsarens utskriftsfunktion för att skriva ut.</string>
+    <string name="document_print_failed">Kunde inte skriva ut dokumentet</string>
+    <string name="document_added_to_favorites">Tillagd i favoriter</string>
+    <string name="document_removed_from_favorites">Borttagen från favoriter</string>
+    <string name="document_favorite_failed">Misslyckades med att uppdatera favoritstatusen</string>
+    <!-- Document Action Dialogs -->
+    <string name="dialog_rename_title">Byt namn på dokument</string>
+    <string name="dialog_rename_hint">Ange nytt namn</string>
+    <string name="dialog_rename_empty_error">Dokumentnamnet får inte vara tomt</string>
+    <string name="dialog_delete_title">Ta bort dokument</string>
+    <string name="dialog_delete_file_message">Detta kommer att radera filen permanent.\n\nRadera %1$s?</string>
+    <string name="dialog_delete_uri_message">Tar endast bort från appen. Originalfilen är oförändrad.\n\nTa bort %1$s från appen?</string>
+    <string name="dialog_delete_confirm">Radera</string>
+    <string name="dialog_remove_confirm">Ta bort</string>
+    <!-- Document Action Notices -->
+    <string name="notice_rename_uri_only">Byter namn endast inuti appen. Ursprunglig fil oförändrad.</string>
+    <string name="notice_delete_uri_only">Borttagen från appen. Ursprunglig fil oförändrad.</string>
+    <string name="notice_file_exists_error">En fil med detta namn finns redan</string>
+    <string name="notice_file_not_found_error">Filen hittades inte</string>
+    <string name="notice_no_active_document">Inget aktivt dokument</string>
+    <string name="notice_document_path_unavailable">Sökvägen för dokumentfilen är inte tillgänglig</string>
+    <!-- States -->
+    <string name="state_loading">Belastning...</string>
+    <string name="state_empty">Inga objekt hittades</string>
+    <string name="state_error">Något gick fel</string>
+    <string name="state_retry">Försöka igen</string>
+    <!-- Errors -->
+    <string name="error_network">Nätverksanslutningen misslyckades</string>
+    <string name="error_file_not_found">Filen hittades inte</string>
+    <string name="error_permission_denied">Tillåtelse nekad</string>
+    <string name="error_invalid_file">Ogiltigt filformat</string>
+    <string name="error_password_required">Lösenord krävs</string>
+    <string name="error_incorrect_password">Felaktigt lösenord</string>
+    <!-- Password Dialog -->
+    <string name="password_protected_title">Lösenordsskyddad</string>
+    <string name="password_protected_message">Den här filen kräver ett lösenord för att öppnas. Ange det nedan.</string>
+    <string name="password_label">Lösenord</string>
+    <string name="password_placeholder">Ange lösenord</string>
+    <string name="password_unlock">Låsa upp</string>
+    <string name="password_show">Visa lösenord</string>
+    <string name="password_hide">Dölj lösenord</string>
+    <!-- Theme -->
+    <string name="theme_light">Ljus</string>
+    <string name="theme_dark">Mörk</string>
+    <string name="theme_system">System</string>
+    <string name="theme_adaptive">Adaptiv</string>
+    <string name="theme_custom">Beställnings</string>
+    <!-- Settings -->
+    <string name="settings_title">Inställningar</string>
+    <!-- Settings sidebar categories -->
+    <string name="settings_category_sync_title">Konto &amp; Synkronisera</string>
+    <string name="settings_category_sync_subtitle">Hantera ditt konto, synkronisera &amp; integritet</string>
+    <string name="settings_category_appearance_title">Utseende</string>
+    <string name="settings_category_appearance_subtitle">Anpassa appens utseende &amp;</string>
+    <string name="settings_category_pdf_reader_title">PDF-läsare</string>
+    <string name="settings_category_pdf_reader_subtitle">Standardläsare &amp; läsupplevelse</string>
+    <string name="settings_category_help_title">Hjälp &amp; Support</string>
+    <string name="settings_category_help_subtitle">Dokumentation &amp; kontakt</string>
+    <string name="settings_category_general_title">Allmän</string>
+    <string name="settings_category_general_subtitle">Språk &amp; appinformation</string>
+    <string name="settings_theme_section">Tema</string>
+    <string name="settings_theme_description">Välj ditt föredragna tema</string>
+    <string name="settings_accent_color">ACCENTFÄRG</string>
+    <string name="settings_custom_colors">Anpassade färger</string>
+    <string name="settings_primary_color">Grundfärg</string>
+    <string name="settings_background_color">Bakgrundsfärg</string>
+    <string name="settings_surface_color">Ytfärg</string>
+    <string name="settings_reset_colors">Återställ till standard</string>
+    <string name="settings_adaptive_note">Material You adaptiva färger (Android 12+)</string>
+    <string name="settings_app_section">Appinställningar</string>
+    <string name="settings_notifications">Aviseringar</string>
+    <string name="settings_notifications_description">Få app-aviseringar</string>
+    <string name="settings_auto_backup">Automatisk säkerhetskopiering</string>
+    <string name="settings_auto_backup_description">Säkerhetskopiera dokument automatiskt</string>
+    <string name="settings_change_color">Ändra färg</string>
+    <!-- Screen descriptions -->
+    <string name="library_description">Dina PDF-dokument kommer att visas här</string>
+    <string name="scan_description">Skanna dokument till PDF</string>
+    <string name="tools_description">PDF-redigerings- och manipuleringsverktyg</string>
+    <string name="home_description">Använd navigeringen längst ner för att komma åt funktioner</string>
+    <!-- Sort Options -->
+    <string name="sort_name">Namn</string>
+    <string name="sort_date">Datum</string>
+    <string name="sort_size">Storlek</string>
+    <string name="sort_option_name">Namn</string>
+    <string name="sort_option_last_opened">Senast öppnad</string>
+    <string name="sort_option_last_modified">Senast ändrad</string>
+    <string name="sort_option_file_size">Fil-storlek</string>
+    <!-- View Types -->
+    <string name="view_type_list">Listvy</string>
+    <string name="view_type_table">Tabellvy</string>
+    <string name="view_type_grid">Rutnätsvy</string>
+    <!-- File Properties -->
+    <string name="file_name">Filnamn</string>
+    <string name="date_modified">Datum ändrat</string>
+    <string name="file_size">Storlek</string>
+    <!-- File Status -->
+    <string name="file_status_not_started">Inte påbörjad</string>
+    <string name="file_status_completed">Avslutad</string>
+    <!-- Document Types -->
+    <string name="document_type_pdf">PDF-dokument</string>
+    <string name="document_type_word">Word-dokument</string>
+    <string name="document_type_excel">Excel-kalkylblad</string>
+    <string name="document_type_image">Bildfil</string>
+    <string name="document_type_other">Dokumentera</string>
+    <!-- Filter Options -->
+    <string name="filter_all_files">Alla filer</string>
+    <string name="filter_recent">Ny</string>
+    <string name="filter_pdfs">PDF-filer</string>
+    <string name="filter_images">Bilder</string>
+    <!-- Bottom Navigation -->
+    <string name="home_tab">Hem</string>
+    <string name="browse_tab">Bläddra</string>
+    <string name="starred_tab">Stjärnmärkt</string>
+    <string name="settings_tab">Inställningar</string>
+    <!-- Accessibility -->
+    <string name="accessibility_theme_toggle">Växla tema</string>
+    <string name="accessibility_menu">Meny</string>
+    <string name="accessibility_close">Nära</string>
+    <string name="accessibility_color_picker">Färgväljare</string>
+    <!-- Library Screen -->
+    <string name="library_title">Bibliotek</string>
+    <string name="library_subtitle">Hantera filer, Senaste &amp; Favoriter</string>
+    <string name="library_search_placeholder">Sök filer...</string>
+    <string name="library_selected_count">%1$d vald</string>
+    <string name="library_open_from_device">Öppna från\nenhet</string>
+    <string name="library_browse_files">Bläddra bland\nfiler</string>
+    <string name="library_action_open">Öppna</string>
+    <string name="library_action_share">Dela</string>
+    <string name="library_action_remove">Ta bort</string>
+    <string name="library_action_delete">Radera</string>
+    <string name="library_clear_search">Rensa sökningen</string>
+    <string name="library_close_search">Stäng sökningen</string>
+    <string name="library_select_all">Markera alla filer</string>
+    <string name="library_exit_multiselect">Avsluta flervalsläge</string>
+    <!-- Help & Support -->
+    <string name="help_support_title">Hjälp &amp; Support</string>
+    <string name="help_support_subtitle">Vanliga frågor, kontakt &amp; Juridisk information</string>
+    <string name="settings_pdf_subtitle">Rulla, Visa &amp; Layout</string>
+    <string name="help_header_title">Hur kan vi hjälpa till?</string>
+    <string name="help_header_subtitle">Vårt team finns här för att se till att du får den\nbästa PDF-upplevelsen.</string>
+    <string name="help_contact_us">Kontakta oss</string>
+    <string name="help_contact_subtitle">Kontakta supporten</string>
+    <string name="help_faq">Vanliga frågor</string>
+    <string name="help_faq_subtitle">Vanliga frågor besvarade</string>
+    <string name="help_privacy_policy">Integritetspolicy</string>
+    <string name="help_privacy_subtitle">Hur vi skyddar dina uppgifter</string>
+    <string name="help_terms_service">Användarvillkor</string>
+    <string name="help_terms_subtitle">Regler för ansökan</string>
+    <!-- Sync Settings -->
+    <string name="sync_on_mobile_data">Synkronisera på mobildata</string>
+    <string name="background_sync">Bakgrundssynkronisering</string>
+    <!-- PDF Settings -->
+    <string name="pdf_settings_title">PDF-läsarinställningar</string>
+    <string name="pdf_settings_coming_soon">Kommer snart</string>
+    <string name="pdf_settings_description">Konfigurera rullningsbeteende, visningslägen och läsinställningar</string>
+    <!-- General Settings -->
+    <string name="settings_language">Språk</string>
+    <string name="settings_pdf_reader">PDF-läsarinställningar</string>
+    <string name="settings_help_support">Hjälp &amp; Support</string>
+    <string name="settings_whats_new">Nyheter</string>
+    <string name="settings_download_desktop">Installera på en annan enhet</string>
+    <string name="settings_rate_app">Betygsätt appen</string>
+    <string name="play_store_not_found">Play Butik hittades inte på den här enheten</string>
+    <string name="settings_set_as_default">Ange som standard PDF-läsare</string>
+    <string name="settings_set_as_default_subtitle">Öppna PDF-filer med den här appen som standard</string>
+    <string name="settings_default_pdf_instructions_title">Hur man ställer in som standard</string>
+    <string name="settings_default_pdf_ok">Förstod</string>
+    <string name="settings_default_app_hint">Fungerade inte?</string>
+    <string name="settings_default_app_hint_learn_more">Läs mer</string>
+    <!-- Language Picker -->
+    <string name="language_picker_title">Språk</string>
+    <string name="language_search_placeholder">Sök språk...</string>
+    <!-- Common UI -->
+    <string name="support">Stöd</string>
+    <string name="language_english">Engelska</string>
+    <string name="language_hindi">Hinand</string>
+    <string name="language_spanish">Spanska</string>
+    <string name="language_french">Franska</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_chinese_simplified">中文 (简体)</string>
+    <string name="language_arabic">Arabiska</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">Portugisiska</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/SettingsScreen.kt -->
+    <string name="app_appearance">APPENS UTSEENDE</string>
+    <string name="theme">TEMA</string>
+    <string name="general">ALLMÄN</string>
+    <string name="new">NY</string>
+    <string name="navigate">Navigera</string>
+    <string name="download">Ladda ner</string>
+    <string name="falcon_pdf">Falcon PDF</string>
+    <string name="excellence_in_every_pixel">Excellens i varje pixel</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/LanguagePickerScreen.kt -->
+    <string name="apply_changes">TILLÄMPA ÄNDRINGAR</string>
+    <string name="apply">Tillämpas</string>
+    <string name="selected">Vald</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/settings/ui/components/SettingsAuthenticationSection.kt -->
+    <string name="sync_settings">Synkroniseringsinställningar</string>
+    <string name="autosync_on_wifi">Automatisk synkronisering på WiFi</string>
+    <string name="sync_reading_progress">Synkronisera läsförloppet</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/pdf/ui/DocumentActionDialogs.kt -->
+    <string name="document_name">Dokumentnamn</string>
+    <string name="name_cannot_be_empty">Namnet kan inte vara tomt</string>
+    <string name="str__failed">%1$s Misslyckades</string>
+    <string name="ok">OK</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/PlanStatusChip.kt -->
+    <string name="upgrade_plan__current_plan_">Uppgraderingsplan - Nuvarande plan: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/DragDropOverlay.kt -->
+    <string name="drop_to_open_file">Släpp för att öppna filen</string>
+    <string name="release_to_import_and_open_pdf">Släpp ur för att importera och öppna PDF-filer</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/LibraryTopAppBar.kt -->
+    <string name="remove">Ta bort</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/FiltersWidget.kt -->
+    <string name="pdf">PDF</string>
+    <string name="images">Bilder</string>
+    <string name="filter_all_types">Alla filer</string>
+    <string name="favorites">Favoritfiler</string>
+    <string name="recent">Ny</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/SearchAndFiltersWidget.kt -->
+    <string name="search_documents">Sök dokument...</string>
+    <string name="voice_search">Röstsökning</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/library/ui/components/RecentFilesListWidget.kt -->
+    <string name="recent_files">Senaste filer</string>
+    <string name="loading_recent_files">Laddar nya filer...</string>
+    <string name="no_recent_files">Inga nya filer</string>
+    <string name="no_favorites">Inga favoriter</string>
+    <string name="mark_files_as_favorite_to_see_them_here">Markera filer som favoriter för att se dem här</string>
+    <string name="open_some_pdf_files_to_see_the">Öppna några PDF-filer för att se dem här</string>
+    <string name="status">Status</string>
+    <string name="actions">Åtgärder</string>
+    <string name="select_all">Markera alla</string>
+    <string name="enter_multiselect_mode">Gå in i flervalsläge</string>
+    <string name="sorted_ascending">Sorterat stigande</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/StorageList.kt -->
+    <string name="storage_">Lagring: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseBottomBar.kt -->
+    <string name="add__files">Lägg till %1$s filer</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/browse/ui/components/BrowseControls.kt -->
+    <string name="change_view_type">Ändra vytyp</string>
+    <string name="filter_">Filter: %1$s</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/main/ui/MainScreen.kt -->
+    <string name="loading_pdf">Laddar PDF...</string>
+    <!-- From: composeApp/src/commonMain/kotlin/com/avrapps/pdfviewer/feature/authentication/ui/UnifiedSyncWidget.kt -->
+    <string name="sign_in_to_sync">Logga in för att synkronisera</string>
+    <string name="protect_your_library_files">Skydda dina biblioteksfiler</string>
+    <string name="sign_in">Logga in</string>
+    <string name="sign_out">Logga ut</string>
+    <string name="sign_in_dialog_title">Logga in på Falcon PDF</string>
+    <string name="sign_in_dialog_subtitle">Ditt PDF-bibliotek, överallt.</string>
+    <string name="sign_in_with_google">Logga in med Google</string>
+    <string name="sign_in_with_apple">Logga in med Apple</string>
+    <string name="apple_user_drive_unavailable">Google Drive-synkronisering är inte tillgänglig med Apple-inloggning</string>
+    <string name="apple_user_link_google">Länka Google-konto för Drive-synkronisering</string>
+    <string name="apple_user_sync_info">För att aktivera molnsynkronisering, länka ett Google-konto</string>
+    <string name="link_google_account">Länka Google-konto</string>
+    <string name="signed_in_successfully">Inloggad</string>
+    <string name="signed_out_successfully">Utloggad</string>
+    <string name="sync_disabled_free">Synkronisering är inaktiverad för gratiskonton.</string>
+    <string name="storage_disabled_grant_access">Lagring är inaktiverad. Bevilja åtkomst till enheten för att börja.</string>
+    <string name="upgrade_to_pro">Uppgradera till Pro</string>
+    <string name="grant_drive_access">Bevilja Drive-åtkomst</string>
+    <string name="files_synced">%1$d/%2$d Synkroniserade filer</string>
+    <string name="synced_count">%1$d Synkroniserad</string>
+    <string name="unlimited_sync_active">OBEGRÄNSAD SYNKRONISERING</string>
+    <string name="missing_drive_permissions">Drive-behörigheter saknas. Synkronisering är för närvarande blockerad.</string>
+    <string name="drive_access_revoked">Åtkomst till Drive återkallad. Återanslut för att återuppta synkroniseringen.</string>
+    <string name="upgrade_premium">Uppgradera Premium</string>
+    <string name="manage_account">Hantera konto</string>
+    <string name="sync_now">Synkronisera nu</string>
+    <string name="tier_free">GRATIS</string>
+    <string name="tier_pro">PRO</string>
+    <string name="tier_premium">PREMIE</string>
+    <string name="status_paused">PAUSAD</string>
+    <!-- Common -->
+    <string name="navigate_back">Navigera tillbaka</string>
+    <string name="dismiss">Avfärda</string>
+    <string name="cancel">Avboka</string>
+    <string name="back">Tillbaka</string>
+    <string name="search">Söka</string>
+    <string name="more_actions">Fler åtgärder</string>
+    <string name="share">Dela</string>
+    <string name="delete">Radera</string>
+    <string name="remove_from_recents">Ta bort från senaste</string>
+    <string name="open">Öppna</string>
+    <string name="all">Alla</string>
+    <string name="sort_by_">Sortera efter %1$s</string>
+    <string name="str_">%1$s</string>
+    <!-- Sync functionality strings -->
+    <string name="sync_google_drive">Google Drive-synkronisering</string>
+    <string name="syncing">Synkroniserar...</string>
+    <string name="sync_completed">Synkroniseringen är klar</string>
+    <string name="sync_failed">Synkronisering misslyckades</string>
+    <string name="sync_limit_exceeded">Synkroniseringsgränsen har överskridits. Ditt %s -abonnemang tillåter %d filer.</string>
+    <string name="sync_no_drive_access">Google Drive-åtkomst är inte tillgänglig</string>
+    <string name="sync_network_unavailable">Nätverket är inte tillgängligt</string>
+    <string name="sync_last_sync">Senaste synkronisering: %s</string>
+    <string name="sync_total_files">Total</string>
+    <string name="sync_synced_files">Synkroniserad</string>
+    <string name="sync_failed_files">Misslyckades</string>
+    <string name="sync_conflict_files">Konflikter</string>
+    <string name="sync_add_to_favorites">Lägg till i favoriter</string>
+    <string name="sync_remove_from_favorites">Ta bort från favoriter</string>
+    <string name="sync_conflict_title">Synkroniseringskonflikter</string>
+    <string name="sync_conflict_message">Följande filer har konflikter som behöver lösas:</string>
+    <string name="sync_conflict_explanation">Konflikter uppstår när både lokala och fjärrversioner har ändrats.</string>
+    <string name="sync_plan_limit">Synkronisera: %d/%d</string>
+    <string name="sync_plan_limit_reached">Gränsen nådd</string>
+    <string name="sync_plan_unlimited">Obegränsad synkronisering</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_skip">Hoppa</string>
+    <string name="welcome_next">Nästa</string>
+    <string name="welcome_get_started">Kom igång</string>
+    <string name="welcome_sign_in_get_started">Logga in &amp; Kom igång</string>
+    <!-- Welcome Slide 1 -->
+    <string name="welcome_slide1_title">&lt;b&gt;Läs vilket dokument som helst&lt;/b&gt; direkt</string>
+    <string name="welcome_slide1_description">Öppna och hantera fler än 10 dokumentformat, inklusive PDF, DOC, EPUB och MOBI.</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Läs PDF-filer, e-böcker,&lt;/b&gt; och Office-dokument på ett ställe</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Favoritera&lt;/b&gt; dokument och få åtkomst till dem på olika enheter</string>
+    <string name="welcome_slide1_feature3">&lt;b&gt;Kommentera,&lt;/b&gt; markera och samarbeta enkelt</string>
+    <string name="welcome_slide1_footer">Din universella dokumentläsare</string>
+    <!-- Welcome Slide 2 -->
+    <string name="welcome_slide2_title">&lt;b&gt;Redigera, skanna och organisera&lt;/b&gt; PDF-filer</string>
+    <string name="welcome_slide2_description">Allt du behöver för att skapa, redigera och hantera PDF-filer i en kraftfull verktygslåda.</string>
+    <string name="welcome_slide2_feature1">&lt;b&gt;Redigera text,&lt;/b&gt; kommentera, markera och fyll i formulär</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Skanna dokument&lt;/b&gt; och omvandla dem till PDF-filer direkt</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;30+ verktyg&lt;/b&gt; inklusive sammanfogning, konvertering, komprimering och säkerhet</string>
+    <string name="welcome_slide2_footer">Din allt-i-ett PDF-arbetsyta</string>
+    <!-- Welcome Slide 3 -->
+    <string name="welcome_slide3_title">&lt;b&gt;AI som förstår&lt;/b&gt; dina dokument</string>
+    <string name="welcome_slide3_description">Spara timmar med AI som läser och analyserar dokument åt dig.</string>
+    <string name="welcome_slide3_feature1">&lt;b&gt;Sammanfatta&lt;/b&gt; långa dokument på några sekunder</string>
+    <string name="welcome_slide3_feature2">&lt;b&gt;OCR&lt;/b&gt; skannade sidor och översatte text direkt</string>
+    <string name="welcome_slide3_feature3">&lt;b&gt;Lyssna&lt;/b&gt; på dokument med inbyggd högläsning</string>
+    <string name="welcome_slide3_footer">Inga annonser. Bara produktivitet.</string>
+    <string name="grace">NÅD</string>
+    <string name="unable_to_verify_subscription_limited_ac">Det gick inte att verifiera prenumerationen. Begränsad åtkomst tills anslutningen återställts.</string>
+    <string name="retry_verification">Försök igen med verifiering</string>
+    <string name="guest_state">Gäststat</string>
+    <string name="free_tier">Gratis nivå</string>
+    <string name="free_tier__locked">Gratis nivå - Låst</string>
+    <string name="pro_tier">Pro-nivå</string>
+    <string name="pro_tier__restricted">Pro-nivå - Begränsad</string>
+    <string name="premium_tier">Premiumnivå</string>
+    <string name="premium_tier__error">Premiumnivå - Fel</string>
+    <string name="refresh_plan_status">Uppdatera planstatus</string>
+    <string name="user_avatar">Användarens avatar</string>
+    <string name="debug_tools">Felsökningsverktyg</string>
+    <string name="authentication__drive">Autentisering &amp; Drive</string>
+    <string name="auth_state">Aut.status</string>
+    <string name="revoke_drive_access">Återkalla åtkomst till enhet</string>
+    <string name="image">Bild</string>
+    <string name="thumbnail">Miniatyrbild</string>
+    <string name="manage_preferences">Hantera inställningar</string>
+    <string name="tools_history">Verktygshistorik</string>
+    <string name="manage_recent_logs">Hantera senaste loggar</string>
+    <string name="more_options">Fler alternativ</string>
+    <string name="clear_all_history">Rensa all historik</string>
+    <string name="no_history_yet">Ingen historik ännu</string>
+    <string name="your_pdf_tool_operations_will_appear_her">Dina PDF-verktygsåtgärder kommer att visas här</string>
+    <string name="view">Se</string>
+    <!-- Tools History Screen Strings -->
+    <string name="history_saved_size">Sparad %1$s</string>
+    <string name="history_status_processing">Bearbetning</string>
+    <string name="history_status_succeeded">LYCKADES</string>
+    <string name="history_status_failed">MISSLYCKADES</string>
+    <string name="history_status_processing_upper">BEARBETNING</string>
+    <string name="history_unknown_files">Okända filer</string>
+    <string name="history_op_complete">%1$s Klart!</string>
+    <string name="history_op_failed">%1$s Misslyckades</string>
+    <string name="history_op_success_multiple">Operationen slutfördes med %1$d filer</string>
+    <string name="history_op_success_single">Operationen slutfördes</string>
+    <string name="history_op_error">Vi kunde inte slutföra operationen</string>
+    <string name="history_multiple_files">%1$d filer</string>
+    <string name="history_failed">Misslyckades</string>
+    <!-- Cloud Sync Screen -->
+    <string name="cloud_sync_title">Molnsynkronisering</string>
+    <string name="cloud_sync_subtitle">Anslutna enheter</string>
+    <string name="cloud_sync_all_synced">Alla filer synkroniserade</string>
+    <string name="cloud_sync_syncing">Synkroniserar…</string>
+    <string name="cloud_sync_pending">Synkronisering väntar</string>
+    <string name="cloud_sync_last_sync">Senaste synkronisering: %1$s</string>
+    <string name="cloud_sync_never_synced">Aldrig synkroniserad</string>
+    <string name="cloud_sync_recent_activity">Senaste synkroniseringsaktivitet</string>
+    <string name="cloud_sync_no_files">Inga synkroniserade filer ännu</string>
+    <string name="cloud_sync_synced_to_drive">Synkroniserad med Drive</string>
+    <string name="cloud_sync_pending_upload">Väntar på uppladdning</string>
+    <string name="cloud_sync_sync_now">Synkronisera nu</string>
+    <string name="cloud_sync_view_history">Visa synkroniseringshistorik</string>
+    <string name="cloud_sync_files_count">%1$d / %2$d filer synkroniserade</string>
+    <string name="cloud_sync_unlimited_files">%1$d filer synkroniserade · Obegränsat</string>
+    <string name="cloud_sync_cta_title">Vilken plattform som helst, när som helst</string>
+    <string name="cloud_sync_cta_subtitle">Dina dokument följer dig överallt</string>
+    <string name="cloud_sync_files_label">%1$d filer</string>
+    <string name="settings_data_privacy">Data &amp; Sekretess</string>
+    <string name="settings_data_privacy_subtitle">Hantera data, konto &amp; radering</string>
+    <string name="settings_delete_account">Ta bort konto</string>
+    <string name="settings_delete_account_subtitle">Ta bort ditt konto och dina data permanent</string>
+    <string name="delete_account_warning_title">Radera ditt konto?</string>
+    <string name="delete_account_warning_message">Detta kommer att permanent radera ditt konto och all tillhörande data, inklusive din köphistorik och molnsynkroniserade filer. Åtgärden kan inte ångras och köp kan inte återställas senare.</string>
+    <string name="delete_account_confirm_phrase_label">Skriv 'bekräfta borttagning' för att fortsätta:</string>
+    <string name="delete_account_confirm_phrase">bekräfta borttagning</string>
+    <string name="delete_account_button">Ta bort konto</string>
+    <string name="delete_account_error_reauth">Av säkerhetsskäl måste du nyligen ha loggat in för att radera ditt konto. Logga ut och logga in igen, och försök sedan igen.</string>
+    <string name="delete_account_success">Kontot har raderats</string>
+    <!-- File & Sync Settings -->
+    <string name="file_and_sync_settings">Fil &amp; Synkroniseringsinställningar</string>
+    <string name="sync_on_mobile_data_subtitle">Använd mobildata för molnsynkronisering</string>
+    <string name="drive_sync">Bakgrundssynkronisering</string>
+    <string name="drive_sync_subtitle">Synkronisera favoriter &amp; skanna dokument till Drive</string>
+    <string name="do_not_import_from_other_apps">Importera inte filer från andra appar</string>
+    <string name="do_not_import_from_other_apps_subtitle">Öppna delade filer tillfälligt utan att spara i biblioteket</string>
+    <string name="clear_imported_files">Rensa importerade filer</string>
+    <string name="clear_imported_files_subtitle">Ta bort alla filer som kopierats från andra appar</string>
+    <string name="clear_imports_confirm_title">Rensa importerade filer?</string>
+    <string name="clear_imports_confirm_message">Detta kommer att permanent radera alla filer i din importmapp. Detta kan inte ångras.</string>
+    <string name="clear_imports_success">Importerade filer har rensats</string>
+    <!-- Data & Privacy Settings -->
+    <string name="data_privacy_settings">Data &amp; Sekretess</string>
+    <string name="analytics_opt_out_title">Skicka användningsdata</string>
+    <string name="analytics_opt_out_subtitle">Dela anonym användningsdata och kraschrapporter med utvecklaren för att förbättra appen</string>
+    <string name="analytics_opt_out_disabled_note">Analys och kraschrapportering är inaktiverade. Ingen data skickas till Google eller utvecklaren.</string>
+    <!-- Unsaved Changes Dialogs -->
+    <string name="unsaved_changes">Osparade ändringar</string>
+    <string name="unsaved_changes_tab_message">Det här dokumentet har ändringar som inte sparats. Vill du spara innan du stänger?</string>
+    <string name="unsaved_changes_window_message">Du har osparade ändringar i ett eller flera dokument. Vill du slänga dem och avsluta?</string>
+    <string name="discard">Kassera</string>
+    <string name="discard_and_quit">Ignorera &amp; Avsluta</string>
+    <string name="close">Nära</string>
+    <string name="remove_favorite">Ta bort favorit</string>
+    <string name="set_as_default_pdf_viewer">Ange som standard PDF-läsare?</string>
+    <string name="falcon_pdf_is_not_your_default_pdf_viewe">Falcon PDF är inte ditt standardprogram för PDF-visning. Vill du ställa in det som standard så att alla PDF-filer öppnas med Falcon PDF?</string>
+    <string name="set_now">Ställ in nu</string>
+    <string name="never">Aldrig</string>
+    <string name="later">Senare</string>
+    <string name="set_default">Ange standard</string>
+    <string name="default">Standard</string>
+    <string name="version_">Version %1$s</string>
+    <string name="sign_in_with_other_accounts">Logga in med andra konton</string>
+    <string name="upgrade">Uppgradera</string>
+    <string name="view_plan">Visa plan</string>
+    <string name="unlimited_sync_upto_5gb">Obegränsad synkronisering upp till 5 GB</string>
+    <string name="unlock_faster">Lås upp snabbare</string>
+    <string name="use_biometrics_instead_of_passwords">Använd biometri istället för lösenord.</string>
+    <string name="upgrade_to_premium">Uppgradera till Premium</string>
+    <string name="unlock_pdf">Lås upp PDF</string>
+    <string name="use__to_accessnthis_document">Använd %1$s för att komma åt\ndet här dokumentet</string>
+    <string name="open_with_password">Öppna med lösenord</string>
+    <string name="secure">Säkra</string>
+    <string name="loading_">Laddar %1$s...</string>
+    <string name="failed_to_open_ebook">Misslyckades med att öppna e-boken</string>
+    <string name="properties">Fastigheter</string>
+    <string name="copy">Kopiera</string>
+    <string name="highlight">Markera</string>
+    <string name="clear_selection">Rensa valet</string>
+    <string name="close_search">Stäng sökningen</string>
+    <string name="search_in_book">Sök i boken...</string>
+    <string name="contents">Innehåll</string>
+    <string name="table_of_contents">Innehållsförteckning</string>
+    <string name="no_table_of_contents_available">Ingen innehållsförteckning tillgänglig</string>
+    <string name="bookmarks">Bokmärken</string>
+    <string name="no_bookmarks_yet">Inga bokmärken ännu</string>
+    <string name="page_">Sida %1$s</string>
+    <string name="no_results">Inga resultat</string>
+    <string name="p">P%1$s</string>
+    <string name="settings">Inställningar</string>
+    <string name="decrease_font_size">Minska teckenstorleken</string>
+    <string name="increase_font_size">Öka teckenstorleken</string>
+    <string name="font">Font</string>
+    <string name="jump_to_page">Hoppa till sida</string>
+    <string name="enter_page_number_1">Ange sidnummer (1–%1$s):</string>
+    <string name="go">Gå</string>
+    <string name="read_aloud">Läs högt</string>
+    <string name="x">%1$sx</string>
+    <string name="stop">Stopp</string>
+    <string name="annotations__text_selection">Anteckningar &amp; Textval</string>
+    <string name="text_selection_and_annotations_for_ebook">Textval och anteckningar för e-böcker kommer snart.</string>
+    <string name="longpress_on_text_to_select_highlight_or">Tryck länge på text för att välja, markera eller lägga till anteckningar.</string>
+    <string name="press_play_to_start_reading_aloud">Tryck på play för att börja läsa högt...</string>
+    <string name="speed">Hastighet</string>
+    <string name="voice">Röst</string>
+    <string name="no_annotations_yet">Inga anteckningar ännu</string>
+    <string name="select_text_to_highlight_or_add_notes">Markera text att markera eller lägga till anteckningar</string>
+    <string name="tools">Verktyg</string>
+    <string name="convert_to_images">Konvertera till bilder</string>
+    <string name="rename">Döpa om</string>
+    <string name="print">Skriva ut</string>
+    <string name="a">A−</string>
+    <string name="cover_of_">Omslag till %1$s</string>
+    <string name="no_cover_available">Ingen täckning tillgänglig</string>
+    <string name="read_now">Läs nu</string>
+    <string name="about_the_book">OM BOKEN</string>
+    <string name="tags">TAGGAR</string>
+    <string name="publisher_info">UTGIVAREINFORMATION</string>
+    <string name="published_">Publicerad: %1$s</string>
+    <string name="retry">Försöka igen</string>
+    <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Rensa cacheminnet</string>
+    <string name="ebooks_library">E-boksbibliotek</string>
+    <string name="manage_your_digital_collection_across_mu">Hantera din digitala samling från flera leverantörer. Sök, filtrera och upptäck nya titlar från Google Böcker och Open Library.</string>
+    <string name="no_books_found">Inga böcker hittades</string>
+    <string name="no_results_for__try_a_different_search_t">Inga resultat för "%1$s". Försök med en annan sökterm.</string>
+    <string name="downloadable_only">Endast nedladdningsbar</string>
+    <string name="file_unavailable">Filen är inte tillgänglig</string>
+    <string name="unavailable">Inte tillgänglig</string>
+    <string name="search_titles_authors_isbn">Sök titlar, författare, ISBN...</string>
+    <string name="clear_search">Rensa sökningen</string>
+    <string name="ebooks">e-böcker</string>
+    <string name="read_pdf">Läs PDF</string>
+    <string name="create_pdf">Skapa PDF</string>
+    <string name="unlock_all_tools_and_remove_limits">Lås upp alla verktyg och ta bort begränsningar</string>
+    <string name="ocr_scanning">OCR-skanning</string>
+    <string name="extract_text_from_scanned_documents">Extrahera text från skannade dokument</string>
+    <string name="cloud_sync">Molnsynkronisering</string>
+    <string name="access_your_documents_anywhere">Få tillgång till dina dokument var som helst</string>
+    <string name="annotate_pdfs">Kommentera PDF-filer</string>
+    <string name="cloud_backup">Molnsäkerhetskopiering</string>
+    <string name="continue_reading">Fortsätt läsa</string>
+    <string name="pick_files">Välj filer</string>
+    <string name="browse">Bläddra</string>
+    <string name="did_you_know">Visste du?</string>
+    <string name="home">Hem</string>
+    <string name="your_documents_at_a_glance">Dina dokument i överblick</string>
+    <string name="pick_file">Välj fil</string>
+    <string name="quick_actions">Snabbåtgärder</string>
+    <string name="pro">PRO</string>
+    <string name="open_files">Öppna filer</string>
+    <string name="convert_to_pdf">Konvertera till PDF</string>
+    <string name="close_drawer">Stäng lådan</string>
+    <string name="close_file">Stäng filen</string>
+    <string name="office">Kontor</string>
+    <string name="coming_soon">Kommer snart</string>
+    <string name="ebook_viewer_is_not_yet_available_on_thi">E-boksläsare är ännu inte tillgänglig på den här plattformen.</string>
+    <string name="set_as_default_viewer">Ange som standardvisare</string>
+    <string name="free">Gratis</string>
+    <string name="v">v%1$s</string>
+    <string name="downloading_update_">Laddar ner uppdatering... %1$s%</string>
+    <string name="more">Mer</string>
+    <string name="font_size">Fontstorlek</string>
+    <string name="font_family">Typsnittsfamilj</string>
+    <string name="scroll_direction">Rullningsriktning</string>
+    <string name="navigation">Navigering</string>
+    <string name="keep_screen_on">Håll skärmen på</string>
+    <string name="volume_button_to_scroll">Volymknapp för att scrolla</string>
+    <string name="export_ebook_pages_as_image_files">Exportera e-bokssidor som bildfiler</string>
+    <string name="access_millions_of_titles">Få tillgång till miljontals titlar.</string>
+    <string name="read_offline_with_natural_ai_voices">Läs offline med naturliga AI-röster.</string>
+    <string name="advanced_ai_reader">Avancerad AI-läsare.</string>
+    <string name="experience_studioquality_narration">Upplev berättarröst i studiokvalitet.</string>
+    <string name="powerful_pdf_tools">Kraftfulla PDF-verktyg.</string>
+    <string name="create_and_edit_documents_on_the_go">Skapa och redigera dokument när du är på språng.</string>
+    <string name="upgrade_to_pro_unlock_all_tools_and_remo">Uppgradera till Pro: Lås upp alla verktyg och ta bort begränsningar</string>
+    <string name="ocr_scanning_extract_text_from_scanned_d">OCR-skanning: Extrahera text från skannade dokument</string>
+    <string name="cloud_sync_access_your_documents_anywher">Molnsynkronisering: Få tillgång till dina dokument var som helst</string>
+    <string name="scan">Avsöka</string>
+    <string name="compress">Komprimera</string>
+    <string name="merge">Slå ihop</string>
+    <string name="convert">Konvertera</string>
+    <string name="highlight_underline_and_add_notes_to_you">Markera, understryk och lägg till anteckningar i dina dokument</string>
+    <string name="keep_your_documents_safe_with_automatic_">Skydda dina dokument med automatisk molnsynkronisering</string>
+    <string name="indicator_color_">indikatorfärg_%1$s</string>
+    <string name="my_library">Mitt bibliotek</string>
+    <string name="get_ebooks">Skaffa e-böcker</string>
+    <string name="scan_document">Skanna dokument</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <string name="settings_section_ai_voice">AI &amp; VOICE</string>
+    <string name="settings_entry_ai_title">AI Chat Provider</string>
+    <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>
+    <string name="settings_entry_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_entry_tts_subtitle">System, ElevenLabs, OpenAI or local Kokoro voices</string>
+    <string name="provider_dialog_reset">Reset</string>
+    <string name="provider_dialog_cancel">Cancel</string>
+    <string name="provider_dialog_save">Save Preferences</string>
+    <string name="provider_dialog_encryption_note">Stored locally, encrypted. Never synced to remote servers.</string>
+    <string name="provider_dialog_close">Close</string>
+    <string name="ai_settings_dialog_title">AI Chat Provider Settings</string>
+    <string name="ai_settings_dialog_subtitle">Configure API access keys, custom models, and provider preferences.</string>
+    <string name="tts_settings_dialog_title">TTS Provider Settings</string>
+    <string name="tts_settings_dialog_subtitle">Configure synthesis engines, manage credentials, and select voices.</string>
+</resources>

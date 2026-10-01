@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Feature Strings -->
+    <!-- Scan Home Screen -->
+    <string name="scan_home_title">スキャン</string>
+    <string name="scan_home_documents">文書</string>
+    <string name="scan_home_documents_lowercase">文書</string>
+    <string name="scan_home_documents_count">%1$d ドキュメント</string>
+    <string name="scan_home_no_documents">まだ書類はありません</string>
+    <string name="scan_home_start_scanning">スキャンを開始して最初のドキュメントを作成します</string>
+    <string name="scan_home_new_folder">新しいフォルダ</string>
+    <string name="scan_home_scan_document">スキャンドキュメント</string>
+    <string name="scan_home_import_gallery">ギャラリーからインポート</string>
+    <string name="scan_home_parent_folder">親フォルダ</string>
+    <string name="scan_home_go_back">親フォルダに戻る</string>
+    <string name="scan_home_create_folder">新しいフォルダーを作成する</string>
+    <string name="scan_home_enter_folder_name">新しいフォルダーの名前を入力してください</string>
+    <string name="scan_home_folder_name">フォルダ名</string>
+    <string name="scan_home_folder_placeholder">例：作業文書</string>
+    <string name="scan_home_folder_error">フォルダ名は空にできません</string>
+    <string name="scan_home_folder_name_empty">フォルダ名は空にできません</string>
+    <string name="scan_home_create">作成する</string>
+    <string name="scan_home_folder_exists">この名前のフォルダは既に存在します</string>
+    <!-- Scan Camera Screen -->
+    <string name="scan_camera_title">カメラ</string>
+    <string name="scan_camera_permission_required">カメラ撮影許可が必要です</string>
+    <string name="scan_camera_permission_message">このアプリは、書類をスキャンするためにカメラへのアクセス権限を必要とします。</string>
+    <string name="scan_camera_permission_settings">設定 &gt; アプリ &gt; PDF ビューア &gt; 権限 に進み、カメラの権限を有効にしてください。</string>
+    <string name="scan_camera_permission_title">カメラ撮影許可が必要です</string>
+    <string name="scan_camera_request_permission">許可をリクエストする</string>
+    <string name="scan_camera_open_settings">設定を開く</string>
+    <string name="scan_camera_close">近い</string>
+    <string name="scan_camera_flash">フラッシュ</string>
+    <string name="scan_camera_auto_capture">自動キャプチャ</string>
+    <string name="scan_camera_settings">設定</string>
+    <string name="scan_camera_ready_batch">複数ページのスキャン準備完了</string>
+    <string name="scan_camera_ready_multiple">複数ページのスキャン準備完了</string>
+    <string name="scan_camera_hold_steady">スキャン中はしっかりと固定してください。</string>
+    <string name="scan_camera_captured_pages">%1$d ページがキャプチャされました</string>
+    <string name="scan_camera_mode_single">シングル</string>
+    <string name="scan_camera_mode_batch">バッチ</string>
+    <string name="scan_camera_preview">プレビュー</string>
+    <string name="scan_camera_finish">仕上げる</string>
+    <string name="scan_camera_starting">カメラを起動しています...</string>
+    <string name="scan_camera_document_name">文書名</string>
+    <string name="scan_camera_document_name_empty">文書名は空欄にできません</string>
+    <string name="scan_camera_save_document">ドキュメントを保存する</string>
+    <string name="scan_camera_processing">処理...</string>
+    <!-- Scan Crop Screen -->
+    <string name="scan_crop_title">トリミング &amp; 調整</string>
+    <string name="scan_crop_close">近い</string>
+    <string name="scan_crop_reset">リセット</string>
+    <string name="scan_crop_rotate">回転</string>
+    <string name="scan_crop_done">終わり</string>
+    <string name="scan_crop_scanned_document">スキャンされた文書</string>
+    <string name="scan_crop_magnified_view">拡大表示</string>
+    <string name="scan_crop_processing">処理...</string>
+    <!-- Scan Filter Screen -->
+    <string name="scan_filter_title">強化する</string>
+    <string name="scan_filter_close">近い</string>
+    <string name="scan_filter_rotate">回転</string>
+    <string name="scan_filter_done">終わり</string>
+    <string name="scan_filter_filters">フィルター</string>
+    <string name="scan_filter_original">オリジナル</string>
+    <string name="scan_filter_magic">魔法</string>
+    <string name="scan_filter_lighten">明るくする</string>
+    <string name="scan_filter_bw">B&amp;W</string>
+    <string name="scan_filter_grayscale">グレースケール</string>
+    <string name="scan_filter_magic_2">クリーンドキュメント</string>
+    <string name="scan_filter_soft_scan">ソフトスキャン</string>
+    <string name="scan_filter_color_enhance">カラー+</string>
+    <string name="scan_filter_ink_saver">インク節約</string>
+    <string name="scan_filter_premium">プレミアム機能</string>
+    <string name="scan_filter_filtered_document">フィルタリングされたドキュメント</string>
+    <string name="scan_filter_applying">フィルターを適用しています...</string>
+    <!-- General Scan Actions -->
+    <string name="scan_cancel">キャンセル</string>
+    <string name="scan_share">共有</string>
+    <string name="scan_move">動く</string>
+    <string name="scan_move_to_folder">フォルダに移動</string>
+    <string name="scan_delete">消去</string>
+    <string name="scan_rename">名前を変更する</string>
+    <string name="scan_root">根</string>
+    <string name="scan_select_destination">保存先フォルダを選択してください</string>
+    <!-- Scan Document Screen -->
+    <string name="scan_document_title">書類</string>
+    <string name="scan_document_back">戻る</string>
+    <string name="scan_document_pages">ページ</string>
+    <string name="scan_document_add_pages">このドキュメントにページを追加する</string>
+    <string name="scan_document_add_page_button">ページを追加</string>
+    <string name="scan_document_rename">名前を変更する</string>
+    <string name="scan_document_share">共有</string>
+    <string name="scan_document_more">もっと</string>
+    <string name="scan_document_pages_count">%1$d ページ</string>
+    <string name="scan_document_no_pages">ページはまだありません</string>
+    <string name="scan_document_scan_page">スキャンページ</string>
+    <string name="scan_document_import_page">ギャラリーからインポート</string>
+    <string name="scan_document_grid_view">グリッド表示</string>
+    <string name="scan_document_list_view">リストビュー</string>
+    <string name="scan_document_continuous_view">連続表示</string>
+    <string name="scan_document_page_number">ページ %1$d</string>
+    <!-- Scan Page Screen -->
+    <string name="scan_page_title">ページ</string>
+    <string name="scan_page_back">戻る</string>
+    <string name="scan_page_share">共有</string>
+    <string name="scan_page_delete">消去</string>
+    <string name="scan_page_of">%1$d / %2$d</string>
+    <string name="scan_page_image_not_found">画像が見つかりません</string>
+    <string name="scan_page_retake">再撮影</string>
+    <string name="scan_page_crop">作物</string>
+    <string name="scan_page_enhance">強化する</string>
+    <string name="scan_page_ocr">OCR</string>
+    <string name="scan_page_save_gallery">ギャラリーに保存</string>
+    <string name="scan_page_saved_to_gallery">画像はギャラリーに保存されました</string>
+    <!-- Scan Dialogs -->
+    <string name="scan_delete_document_title">ドキュメントを削除しますか？</string>
+    <string name="scan_delete_document_message">「%1$s」を削除してもよろしいですか？削除すると、このドキュメント内のすべてのページが完全に削除されます。この操作は元に戻せません。</string>
+    <string name="scan_rename_document">ドキュメントの名前を変更する</string>
+    <string name="scan_rename_enter_name">文書の新しい名前を入力してください</string>
+    <string name="scan_rename_document_name">文書名</string>
+    <string name="scan_rename_error">文書名は空欄にできません</string>
+    <string name="scan_dialog_delete_document_title">ドキュメントを削除しますか？</string>
+    <string name="scan_dialog_delete_document_message">「%1$s」を削除してもよろしいですか？削除すると、このドキュメント内のすべてのページが完全に削除されます。この操作は元に戻せません。</string>
+    <string name="scan_dialog_delete_confirm">消去</string>
+    <string name="scan_dialog_cancel">キャンセル</string>
+    <string name="scan_dialog_move_title">フォルダに移動</string>
+    <string name="scan_dialog_move_message">保存先フォルダを選択してください</string>
+    <string name="scan_dialog_move_confirm">動く</string>
+    <string name="scan_dialog_move_root">根</string>
+    <string name="scan_dialog_move_selected">選ばれた</string>
+    <string name="scan_dialog_rename_title">ドキュメントの名前を変更する</string>
+    <string name="scan_dialog_rename_message">文書の新しい名前を入力してください</string>
+    <string name="scan_dialog_rename_label">文書名</string>
+    <string name="scan_dialog_rename_error">文書名は空欄にできません</string>
+    <string name="scan_dialog_rename_confirm">名前を変更する</string>
+    <!-- Scan Menu Actions -->
+    <string name="scan_menu_share">共有</string>
+    <string name="scan_menu_move">フォルダに移動</string>
+    <string name="scan_menu_delete">消去</string>
+    <!-- Scan Platform Messages -->
+    <string name="scan_platform_camera_coming_soon">カメラプレビュー\n(近日公開)</string>
+    <string name="scan_platform_desktop_camera">デスクトップカメラプレビュー\n(近日公開)</string>
+    <string name="scan_platform_ios_camera">iOSカメラプレビュー\n(近日公開)</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
+    <string name="close">近い</string>
+    <string name="flash">フラッシュ</string>
+    <string name="auto_capture">自動キャプチャ</string>
+    <string name="settings">設定</string>
+    <string name="capture">捕獲</string>
+    <string name="finish">仕上げる</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
+    <string name="are_you_sure_you_want_to_delet">%1を削除してもよろしいですか？内部のすべてのドキュメントも削除されます。</string>
+    <string name="share">共有</string>
+    <string name="share_as_images">画像として共有</string>
+    <string name="share_as_pdf">PDFとして共有</string>
+    <string name="move_to_folder">フォルダに移動</string>
+    <string name="delete">消去</string>
+    <string name="selected">選ばれた</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDocumentScreen.kt -->
+    <string name="page_">ページ %1$s</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
+    <string name="str__">%1$s %2$s</string>
+    <string name="folder_is_empty">フォルダは空です</string>
+    <string name="tap_the__button_to_scan_a_docu">書類をスキャンするには「+」ボタンをタップしてください。</string>
+    <string name="str______pages">%1$s • %2$s • %3$s ページ</string>
+    <string name="create_folder">フォルダを作成する</string>
+    <string name="more_options">その他のオプション</string>
+    <string name="document_thumbnail">ドキュメントサムネイル</string>
+    <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
+    <string name="image_not_found">画像が見つかりません</string>
+    <string name="str___">%1$s %2$s %3$s</string>
+    <!-- Scan Page Screen - title and OCR -->
+    <string name="scan_page_title_format">%1$s — ページ %2$d</string>
+    <string name="scan_ocr_title">テキスト認識</string>
+    <string name="scan_ocr_copy">テキストをコピー</string>
+    <string name="scan_ocr_no_text">テキストが見つかりません</string>
+    <string name="scan_ocr_processing">テキストの認識…</string>
+    <string name="scan_ocr_error">テキストを認識できませんでした</string>
+    <string name="scan_ocr_not_supported">このプラットフォームではOCRはサポートされていません。</string>
+    <string name="scan_ocr_image">OCR用にスキャンしたページ</string>
+    <string name="gallery">ギャラリー</string>
+    <string name="select_file">ファイルを選択</string>
+    <!-- Error Messages -->
+    <string name="error_capture_image">画像のキャプチャに失敗しました</string>
+    <string name="error_no_images_captured">画像は撮影されませんでした</string>
+    <string name="error_open_settings">設定を開くのに失敗しました</string>
+    <string name="error_process_images">画像の処理に失敗しました</string>
+    <string name="error_process_image">画像の処理に失敗しました</string>
+    <string name="error_start_camera">カメラの起動に失敗しました</string>
+    <string name="error_stop_camera">カメラの停止に失敗しました</string>
+    <string name="error_crop_image">画像の切り抜きに失敗しました</string>
+    <string name="error_delete_document">ドキュメントの削除に失敗しました</string>
+    <string name="error_delete_page">ページの削除に失敗しました</string>
+    <string name="error_load_document">ドキュメントの読み込みに失敗しました</string>
+    <string name="error_load_page">ページの読み込みに失敗しました</string>
+    <string name="error_move_document">ドキュメントの移動に失敗しました</string>
+    <string name="error_no_pages_to_share">共有するページはありません</string>
+    <string name="error_rename_document">ドキュメントの名前変更に失敗しました</string>
+    <string name="error_reorder_pages">ページの並べ替えに失敗しました</string>
+    <string name="error_share_images">画像の共有に失敗しました</string>
+    <string name="error_share_pdf">PDFの共有に失敗しました</string>
+    <string name="error_share_page">ページの共有に失敗しました</string>
+    <string name="error_create_folder">フォルダの作成に失敗しました</string>
+    <string name="error_delete_folder">フォルダの削除に失敗しました</string>
+    <string name="error_rename_folder">フォルダ名の変更に失敗しました</string>
+    <string name="error_unknown">不明なエラーが発生しました</string>
+    <string name="folder_not_found">フォルダが見つかりません</string>
+    <string name="sync_documents">ドキュメントを同期する</string>
+    <string name="shutter_scale">シャッタースケール</string>
+    <string name="import_gallery">インポートギャラリー</string>
+    <string name="scan_camera">スキャンカメラ</string>
+</resources>

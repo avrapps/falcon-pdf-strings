@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/CompactPdfComponents.kt -->
+    <string name="copy">Copy</string>
+    <string name="translate">Translate</string>
+    <string name="read">Read</string>
+    <string name="highlight">Highlight</string>
+    <string name="underline">Underline</string>
+    <string name="strikethrough">Strikethrough</string>
+    <string name="draw">Draw</string>
+    <string name="more_colors">More colors</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/PdfPasswordDialog.kt -->
+    <string name="password_protected">Password Protected</string>
+    <string name="this_document_is_password_prot">This document is password protected. Please enter the password to continue.</string>
+    <string name="password">Password</string>
+    <string name="enter_password">Enter password</string>
+    <string name="incorrect_password_please_try_">Incorrect password. Please try again.</string>
+    <string name="unlock">Unlock</string>
+    <string name="password_input_field">Password input field</string>
+    <string name="unlock_pdf_with_password">Unlock PDF with password</string>
+    <string name="cancel_and_go_back">Cancel and go back</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/contents/PdfAnnotationsPanel.kt -->
+    <string name="comments_coming_soon">Comments Coming Soon</string>
+    <string name="annotation_features_will_be_av">Annotation features will be available in a future update. You'll be able to add highlights, notes, and comments to your PDF documents.</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/contents/PdfBookmarksPanel.kt -->
+    <string name="my_bookmarks">MY BOOKMARKS</string>
+    <string name="no_bookmarks_added">No bookmarks added</string>
+    <string name="pdf_outline">PDF OUTLINE</string>
+    <string name="loading_outline">Loading outline...</string>
+    <string name="this_document_does_not_contain">This document does not contain an outline</string>
+    <string name="page___">Page %1$s • %2$s</string>
+    <string name="page_">Page %1$s</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/contents/PdfPagesPanel.kt -->
+    <string name="loading_document">Loading document...</string>
+    <string name="no_pages_found_in_document">No pages found in document</string>
+    <string name="error">Error</string>
+    <string name="page__thumbnail">Page %1$s thumbnail</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/expanded/LeftNavigation.kt -->
+    <string name="close_sidebar">Close sidebar</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/expanded/PdfToolBar.kt -->
+    <string name="rename_document">Rename Document</string>
+    <string name="delete_document">Delete Document</string>
+    <string name="share_document">Share Document</string>
+    <string name="print_document">Print Document</string>
+    <string name="more_options">More Options</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/expanded/PdfBottomNavigationBar.kt -->
+    <string name="str__">/ %1$s</string>
+    <string name="previous_page">Previous page</string>
+    <string name="next_page">Next page</string>
+    <string name="zoom_out">Zoom out</string>
+    <string name="zoom_in">Zoom in</string>
+    <string name="fullscreen">Fullscreen</string>
+    <string name="rotate_page">Rotate page</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/expanded/SearchBar.kt -->
+    <string name="match_case">Match case</string>
+    <string name="whole_word">Whole word</string>
+    <string name="close_search">Close search</string>
+    <string name="previous_result">Previous result</string>
+    <string name="next_result">Next result</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/expanded/sidebar/ToolsSideBarContent.kt -->
+    <string name="pdf_tools">PDF Tools</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/compact/PdfSearchBar.kt -->
+    <string name="search_document">Search document...</string>
+    <string name="w" traslate="false">W</string>
+    <string name="str2_">%1$s/%2$s</string>
+    <string name="no_results">No Results</string>
+    <string name="clear">Clear</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/compact/FilesDrawer.kt -->
+    <string name="open_files">Open Files</string>
+    <string name="close_all_other_tabs">Close All Other Tabs</string>
+    <string name="close_drawer">Close drawer</string>
+    <string name="close_file">Close file</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/compact/CompactPdfBottomBar.kt -->
+    <string name="view">View</string>
+    <string name="edit">Edit</string>
+    <string name="tools">Tools</string>
+    <string name="contents">Contents</string>
+    <string name="settings">Settings</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/compact/CompactPdfTopBar.kt -->
+    <string name="pdf__">PDF • %1$s</string>
+    <string name="upgrade_to_pro">Upgrade to Pro</string>
+    <string name="read_aloud">Read Aloud</string>
+    <string name="reflow_view">Reflow View</string>
+    <string name="rename">Rename</string>
+    <string name="jump_to_page">Jump to Page</string>
+    <string name="jump_to_page_title">Go to Page</string>
+    <string name="jump_to_page_hint">Enter page number (1–%1$d)</string>
+    <string name="jump_to_page_invalid">Please enter a number between 1 and %1$d</string>
+    <string name="jump_to_page_go">Go</string>
+    <string name="print">Print</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/shared/SharedSearchResultsList.kt -->
+    <string name="str__results">%1$s results</string>
+    <string name="str__results_for_">%1$s results for "%2$s"</string>
+    <string name="close_results">Close results</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/settings/ui/SettingsScreen.kt -->
+    <string name="pdf_editor_settings">PDF Editor Settings</string>
+    <string name="save_preferences">Save Preferences</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/settings/ui/components/SettingsComponents.kt -->
+    <string name="page_background">Page Background</string>
+    <string name="annotation_author">Annotation Author</string>
+    <string name="eg_alex_johnson">e.g. Alex Johnson</string>
+    <string name="this_name_will_appear_on_all_y">This name will appear on all your document comments and highlights.</string>
+    <string name="free_plan_annotation_author_info">Free plan users have a fixed annotation author. Upgrade to Pro to customize your author name.</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/chat/ui/ChatScreenContent.kt -->
+    <string name="ai_chat_assistant">AI Chat Assistant</string>
+    <string name="loading_chat">Loading chat...</string>
+    <string name="get_intelligent_insights_and_a">Get intelligent insights and answers about your PDF documents with our AI assistant.</string>
+    <string name="available_with_pro_and_premium">Available with Pro and Premium plans</string>
+    <string name="upgrade_now">Upgrade Now</string>
+    <string name="chat_quota_exceeded_title">Chat Limit Reached</string>
+    <string name="chat_quota_exceeded_pro_message">You've used all %1$s lifetime AI chats included with Pro. Upgrade to Premium for 5 chats per month.</string>
+    <string name="chat_quota_exceeded_premium_message">You've used all %1$s AI chats for this month. Your quota resets next month.</string>
+    <string name="chat_pro_limit_note">Pro: %1$s lifetime chats • Premium: %2$s chats/month</string>
+    <string name="chat_usage_indicator_pro">%1$s / %2$s lifetime chats used</string>
+    <string name="chat_usage_indicator_premium">%1$s / %2$s chats this month</string>
+
+    <!-- Chat History screen -->
+    <string name="chat_history">Chat History</string>
+    <string name="chat_history_empty">No chat history yet</string>
+    <string name="chat_history_empty_subtitle">Start a conversation with a PDF to see it here</string>
+    <string name="chat_history_messages_count">%1$s messages</string>
+    <string name="chat_history_last_message">Last: %1$s</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="retry">Retry</string>
+    <string name="ask_me_anything_about_your_pdf">Ask me anything about your PDF document</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/chat/ui/components/SuggestedPrompts.kt -->
+    <string name="try_asking">Try asking:</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/chat/ui/components/ChatInputArea.kt -->
+    <string name="summarize">Summarize</string>
+    <string name="send_message">Send message</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/chat/ui/components/ExtractionShimmer.kt -->
+    <string name="preparing_document_for_ai">Preparing document for AI</string>
+    <string name="extracting_text_and_analyzing_">Extracting text and analyzing content...</string>
+    <string name="this_usually_takes_a_few_secon">This usually takes a few seconds</string>
+
+    <!-- Common -->
+    <string name="navigate_back">Navigate back</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Back</string>
+    <string name="search">Search</string>
+    <string name="more_actions">More actions</string>
+    <string name="share">Share</string>
+    <string name="show_in_finder">Show in Finder</string>
+    <string name="delete">Delete</string>
+    <string name="open">Open</string>
+    <string name="all">All</string>
+    <string name="sort_by_">Sort by %1$s</string>
+    <string name="str_">%1$s</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/SimplePdfViewer.kt -->
+    <string name="loading_pdf">Loading PDF...</string>
+    <string name="cannot_open_file">Cannot Open File</string>
+    <string name="for_security_reasons_opening_l">For security reasons, opening local files from PDFs is not supported on this platform.\n\nFile: %1$s</string>
+    <string name="open_file_confirmation">This PDF contains a link to a local file. Do you want to open it?\n\nFile: %1$s</string>
+    <string name="open_file_title">Open Linked File</string>
+    <string name="open_file_not_found">The linked file could not be found.\n\nFile: %1$s</string>
+    <string name="ok">OK</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/ThreadedRepliesView.kt -->
+    <string name="reply">Reply</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/CompactPdfBottomSheets.kt -->
+    <string name="unsaved_changes">Unsaved Changes</string>
+    <string name="you_have_unsaved_annotations_d">You have unsaved annotations. Do you want to save them before leaving?</string>
+    <string name="save">Save</string>
+    <string name="discard">Discard</string>
+
+    <!-- Save Options Dialog -->
+    <string name="save_changes">Save Changes</string>
+    <string name="save_to_documents">Save to Documents</string>
+    <string name="save_with_watermark">Save with Watermark</string>
+    <string name="save_clean_buy_pro">Save Clean — Buy Pro</string>
+    <string name="save_clean_buy_premium">Save Clean — Subscribe to Premium</string>
+    <string name="subscribe_premium">Subscribe to Premium</string>
+    <string name="save_options_title">Save Changes?</string>
+    <string name="save_options_subtitle">Choose how to save "%1$s"</string>
+    <string name="save_options_edits_summary">Edits made: %1$s</string>
+    <string name="save_options_irreversible_note">These changes cannot be undone once saved.</string>
+    <string name="save_options_pro_note">Pro features detected. Save with watermark for free, or buy Pro for a clean export.</string>
+    <string name="save_options_premium_note">Premium features detected. Subscribe to Premium to save without restrictions.</string>
+    <string name="edit_type_free">Markup</string>
+    <string name="edit_type_pro">Text / Form / Sign</string>
+    <string name="edit_type_premium">Watermark / Page Numbers</string>
+    <string name="save_with_watermark_note">Note: A watermark will be added to each page.</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/AnnotationCard.kt -->
+    <string name="str___page_">%1$s • Page %2$s</string>
+    <string name="just_now">Just now</string>
+    <string name="author">Author</string>
+    <string name="note">Note</string>
+    <string name="no_note_added">No note added</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/ReplyInputDialog.kt -->
+    <string name="reply_to_">Reply to %1$s</string>
+    <string name="your_reply">Your reply</string>
+    <string name="post_reply">Post Reply</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/DocumentInfoDialog.kt -->
+    <string name="document_info">Document Info</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/AnnotationBottomSheet.kt -->
+    <string name="annotations_">Annotations (%1$s)</string>
+    <string name="no_annotations_at_this_locatio">No annotations at this location</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/contents/PdfAnnotationsPanel.kt -->
+    <string name="loading_annotations">Loading annotations...</string>
+    <string name="failed_to_load_annotations">Failed to load annotations</string>
+    <string name="no_annotations_yet">No annotations yet</string>
+    <string name="add_highlights_notes_or_commen">Add highlights, notes, or comments to your PDF</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/compact/CompactPdfTopBar.kt -->
+    <string name="properties">Properties</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/reflow/ReflowScreen.kt -->
+    <string name="reflow_mode_active">REFLOW MODE ACTIVE</string>
+    <string name="decrease_font_size">Decrease font size</string>
+    <string name="increase_font_size">Increase font size</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/layouts/CompactPdfLayout.kt -->
+    <string name="str___">%1$s / %2$s</string>
+    <string name="edit_tool_hint_tap_text">Tap anywhere on the page to add text</string>
+    <string name="edit_tool_hint_tap_image">Tap to add an image</string>
+    <string name="edit_tool_hint_tap_signature">Tap to add a signature</string>
+    <string name="edit_tool_hint_drag_shape">Drag to draw a shape</string>
+    <string name="edit_tool_hint_tap_form">Tap to add a form field</string>
+    <string name="edit_tool_hint_tap_stamp">Tap to place stamp</string>
+    <string name="user">User</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/edittools/ui/components/SelectionBox.kt -->
+    <string name="signature_preview">Signature preview</string>
+    <string name="edit_properties">Edit Properties</string>
+    <string name="open_comments">Comments</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/edittools/ui/components/TextOptionsBottomSheet.kt -->
+    <string name="text_options">Text Options</string>
+    <string name="reset">Reset</string>
+    <string name="done">Done</string>
+    <string name="font_family">FONT FAMILY</string>
+    <string name="size">SIZE</string>
+    <string name="alignment">ALIGNMENT</string>
+    <string name="opacity">OPACITY</string>
+    <string name="str_p">%1$s%</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/edittools/ui/components/TextInputOverlay.kt -->
+    <string name="enter_text">Enter text...</string>
+
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/edittools/ui/components/ToolPanel.kt -->
+    <string name="pro_feature">Pro feature</string>
+    <string name="premium_feature">Premium feature</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/edittools/ui/components/WatermarkBottomSheet.kt -->
+    <string name="watermark_settings">Watermark Settings</string>
+    <string name="apply">Apply</string>
+    <string name="live_preview">Live Preview</string>
+    <string name="page_of_">Page %1$s of %2$s</string>
+    <string name="watermark_type_text">Text</string>
+    <string name="watermark_type_image">Image</string>
+    <string name="watermark_text_label">Watermark Text</string>
+    <string name="watermark_text_placeholder">e.g. CONFIDENTIAL</string>
+    <string name="watermark_font_label">Font</string>
+    <string name="watermark_size_label">Size</string>
+    <string name="watermark_size_value">%1$spt</string>
+    <string name="watermark_transparency_label">Transparency</string>
+    <string name="watermark_transparency_value">%1$s%%</string>
+    <string name="watermark_rotation_label">Rotation</string>
+    <string name="watermark_rotation_0">0°</string>
+    <string name="watermark_rotation_neg45">-45°</string>
+    <string name="watermark_rotation_pos45">45°</string>
+    <string name="watermark_rotation_90">90°</string>
+    <string name="watermark_page_range_label">Page Range</string>
+    <string name="watermark_page_range_all">All Pages</string>
+    <string name="watermark_page_range_current">Current Page</string>
+    <string name="watermark_page_range_custom">Custom Range</string>
+    <string name="watermark_page_range_custom_hint">e.g. 1-5, 8, 11-12</string>
+    <string name="watermark_apply_button">Apply Watermark</string>
+    <string name="watermark_reset_button">Reset</string>
+    <string name="watermark_decrease_size">Decrease font size</string>
+    <string name="watermark_increase_size">Increase font size</string>
+    <string name="watermark_previous_page">Previous preview page</string>
+    <string name="watermark_next_page">Next preview page</string>
+    <string name="watermark_close">Close watermark settings</string>
+    <string name="watermark_font_helvetica">Helvetica</string>
+    <string name="watermark_font_times">Times New Roman</string>
+    <string name="watermark_font_courier">Courier</string>
+    <string name="watermark_select_image">Select Image</string>
+    <string name="watermark_image_scale_label">Image Scale</string>
+    <string name="watermark_indicative_note">Note: The preview is indicative. Once applied, watermarks cannot be edited later.</string>
+    <string name="watermark_image_hint">Tap to select a watermark image (PNG, JPG)</string>
+    <string name="watermark_position_label">Position</string>
+    <string name="watermark_position_top_left">Top Left</string>
+    <string name="watermark_position_top_center">Top Center</string>
+    <string name="watermark_position_top_right">Top Right</string>
+    <string name="watermark_position_middle_left">Middle Left</string>
+    <string name="watermark_position_middle_center">Center</string>
+    <string name="watermark_position_middle_right">Middle Right</string>
+    <string name="watermark_position_bottom_left">Bottom Left</string>
+    <string name="watermark_position_bottom_center">Bottom Center</string>
+    <string name="watermark_position_bottom_right">Bottom Right</string>
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/edittools/ui/components/FormSubtypeSelector.kt -->
+    <string name="checkbox_form_field">Checkbox form field</string>
+    <string name="radio_button_form_field">Radio button form field</string>
+    <string name="text_field_form_field">Text field form field</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/edittools/ui/components/StampBottomSheet.kt -->
+    <string name="select_stamp">Select Stamp</string>
+    <string name="stamp_tab_standard">Standard</string>
+    <string name="stamp_tab_custom">Custom</string>
+    <string name="stamp_section_standard_business">Standard Business</string>
+    <string name="stamp_select_image_title">Select Image from Device</string>
+    <string name="stamp_select_image_subtitle">Supports PNG, JPG, or PDF</string>
+    <string name="stamp_create_custom">Create New Custom Stamp</string>
+    <string name="stamp_promo_text">Want to create your dynamic link?</string>
+    <string name="stamp_promo_link">Visit our stamp maker</string>
+    <string name="stamp_hint_tap">Tap to place stamp</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/edittools/ui/components/SignatureBottomSheet.kt -->
+    <string name="add_signature">Add Signature</string>
+    <string name="apply_signature">Apply Signature</string>
+    <string name="type_signature_functionality_c">Type signature functionality coming soon</string>
+    <string name="type_your_signature">Type your signature</string>
+    <string name="tap_to_upload_signature_image">Tap to upload signature image</string>
+    <string name="png_jpg_supported">PNG, JPG supported</string>
+    <string name="select_image">Select Image</string>
+    <string name="sign_here_with_your_finger">Sign here with your finger</string>
+    <string name="crop_signature">Crop Signature</string>
+    <string name="apply_crop">Apply Crop</string>
+    <string name="loading_image">Loading image...</string>
+    <string name="close">Close</string>
+    <string name="upload_image">Upload image</string>
+    <string name="selected_image">Selected image</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/edittools/ui/components/ShapeSubtypeSelector.kt -->
+    <string name="rectangle_shape">Rectangle shape</string>
+    <string name="circle_shape">Circle shape</string>
+    <string name="line_shape">Line shape</string>
+    <string name="arrow_shape">Arrow shape</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/readaloud/ReadAloudBottomSheet.kt -->
+    <string name="background_play">Background Play</string>
+    <string name="voice">VOICE</string>
+    <string name="speed">SPEED</string>
+    <string name="x">%1$sx</string>
+    <string name="premium">Premium</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="change_voice">Change voice</string>
+    <string name="previous_sentence">Previous sentence</string>
+    <string name="next_sentence">Next sentence</string>
+
+    <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/readaloud/VoiceSettingsBottomSheet.kt -->
+    <string name="select_voice">Select Voice</string>
+    <string name="get_more_voices">Get More Voices</string>
+    <string name="hd">HD</string>
+    <string name="try_voice">Try voice</string>
+    <string name="selected">Selected</string>
+    <string name="align_left">Align left</string>
+    <string name="align_center">Align center</string>
+    <string name="align_right">Align right</string>
+    <string name="document_viewing">Document Viewing</string>
+    <string name="appearance">Appearance</string>
+    <string name="personalization">Personalization</string>
+    <string name="scrolling_method">Scrolling Method</string>
+    <string name="scroll_direction">Scroll Direction</string>
+    <string name="page_layout">Page Layout</string>
+    <string name="keep_screen_on">Keep Screen On</string>
+    <string name="volume_button_scroll">Volume Button Scroll</string>
+    <string name="reading_mode">Reading Mode</string>
+    <string name="more">More</string>
+    <string name="search_results">Search Results</string>
+    <string name="prevent_screen_from_turning_off_while_re">Prevent screen from turning off while reading</string>
+    <string name="use_volume_buttons_to_scroll_pages">Use volume buttons to scroll pages</string>
+    <string name="single_tap_to_toggle_fullscreen_mode">Single tap to toggle fullscreen mode</string>
+    <!-- Page Number Settings -->
+    <string name="page_number_settings">Number Pages</string>
+    <string name="page_number_close">Close page number settings</string>
+    <string name="page_number_apply_button">Apply Page Numbers</string>
+    <string name="page_number_vertical_position">Vertical Position</string>
+    <string name="page_number_position_top">Top</string>
+    <string name="page_number_position_bottom">Bottom</string>
+    <string name="page_number_horizontal_alignment">Horizontal Alignment</string>
+    <string name="page_number_align_left">Left</string>
+    <string name="page_number_align_center">Center</string>
+    <string name="page_number_align_right">Right</string>
+    <string name="page_number_format_section">Format &amp; Style</string>
+    <string name="page_number_format_label">Format</string>
+    <string name="page_number_format_number_only">1</string>
+    <string name="page_number_format_number_of_total">1 of n</string>
+    <string name="page_number_format_page_number">Page 1</string>
+    <string name="page_number_format_page_number_of_total">Page 1 of n</string>
+    <string name="page_number_starting_number_label">Starting Number</string>
+    <string name="page_number_font_label">Font Family</string>
+    <string name="page_number_font_subtitle">Regular, 12pt</string>
+    <string name="page_number_options_section">Options</string>
+    <string name="page_number_exclude_cover_label">Exclude Cover Page</string>
+    <string name="page_number_exclude_cover_subtitle">Start numbering from page 2</string>
+    <string name="page_number_range_label">Page Range</string>
+    <string name="page_number_range_all">All Pages</string>
+    <string name="page_number_range_custom">Custom</string>
+    <string name="page_number_range_custom_hint">e.g. 1-5, 8, 11-12</string>
+    <string name="page_number_previous_page">Previous preview page</string>
+    <string name="page_number_next_page">Next preview page</string>
+    <string name="page_number_font_size_label">Font Size</string>
+    <string name="page_number_style_label">Style</string>
+    <string name="page_number_bold">B</string>
+    <string name="page_number_italic">I</string>
+    <string name="page_number_underline">U</string>
+    <string name="page_number_color_label">Text Color</string>
+    <string name="page_number_border_color_label">Border Color</string>
+    <string name="page_number_border_none">None</string>
+    <string name="page_number_margin_label">Margin</string>
+    <string name="page_number_margin_horizontal">Horizontal (pt)</string>
+    <string name="page_number_margin_vertical">Vertical (pt)</string>
+    <string name="page_number_decrease_size">Decrease font size</string>
+    <string name="page_number_increase_size">Increase font size</string>
+    <!-- Annotation interaction tooltip -->
+    <string name="annotation_tooltip_edit">Edit</string>
+    <string name="annotation_tooltip_delete">Delete</string>
+    <string name="annotation_tooltip_drag_desc">Drag annotation</string>
+    <string name="annotation_tooltip_edit_desc">Edit annotation properties</string>
+    <string name="annotation_tooltip_delete_desc">Delete annotation</string>
+    <string name="annotation_property_panel_coming_soon">Property editing coming soon</string>
+    <string name="image_options">Image Options</string>
+    <string name="rotation">ROTATION</string>
+    <string name="rotate_left">Rotate Left</string>
+    <string name="rotate_right">Rotate Right</string>
+    <string name="custom_angle">Custom Angle</string>
+    <string name="angle_hint">Angle (0-360)</string>
+    <string name="angle_degree">%1$s°</string>
+
+    <!-- Annotate tool labels -->
+    <string name="tool_highlight">Highlight</string>
+    <string name="tool_underline">Underline</string>
+    <string name="tool_strikethrough">Strikethrough</string>
+    <string name="tool_squiggly">Squiggly</string>
+    <string name="tool_note">Note</string>
+    <string name="tool_free_text">Free Text</string>
+
+    <!-- Insert tool labels -->
+    <string name="tool_sign">Sign</string>
+    <string name="tool_image">Image</string>
+    <string name="tool_stamp">Stamp</string>
+    <string name="tool_watermark">Watermark</string>
+    <string name="tool_page_number">Page Number</string>
+    <string name="tool_attachment">Attachment</string>
+
+    <!-- File attachment feature -->
+    <string name="attachment_save_title">Save attachment?</string>
+    <string name="attachment_save_security_message">For your safety, this file is only saved to your device — it is never opened automatically. Only save attachments from sources you trust.</string>
+    <string name="attachment_file_label">File: %1$s</string>
+    <string name="attachment_saved_to">Saved to %1$s</string>
+    <string name="attachment_save_failed">Couldn\'t save the attachment</string>
+    <string name="attachment_save_failed_reason">Couldn\'t save the attachment: %1$s</string>
+    <string name="attachment_extract_failed">Couldn\'t read the attachment</string>
+    <string name="attachment_pick_failed">Couldn\'t read the selected file</string>
+    <string name="attachment_added">Attachment added. Tap to place it on the page.</string>
+
+    <!-- Form tool labels -->
+    <string name="tool_form_text_field">Text Field</string>
+    <string name="tool_form_checkbox">Checkbox</string>
+    <string name="tool_form_radio">Radio</string>
+    <string name="tool_form_tick">Tick</string>
+    <string name="tool_form_bullet">Bullet</string>
+    <string name="tool_form_cross">Cross</string>
+
+    <!-- Draw tool labels -->
+    <string name="tool_draw_ink">Ink</string>
+    <string name="tool_draw_line">Line</string>
+    <string name="tool_draw_rectangle">Rectangle</string>
+    <string name="tool_draw_polygon">Polygon</string>
+    <string name="tool_draw_circle">Circle</string>
+
+    <!-- Tool category labels -->
+    <string name="tool_category_annotate">Annotate</string>
+    <string name="tool_category_insert">Insert</string>
+    <string name="tool_category_form">Form</string>
+    <string name="tool_category_draw">Draw</string>
+    <string name="tool_category_view">View</string>
+
+    <!-- View tool labels -->
+    <string name="tool_view_single_page">Single Page</string>
+    <string name="tool_view_two_page">Two Page</string>
+    <string name="tool_view_continuous">Continuous</string>
+    <string name="tool_view_reflow">Reflow</string>
+
+    <!-- Undo / Redo actions -->
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+
+    <!-- Property panel labels -->
+    <string name="prop_color">Color</string>
+    <string name="prop_stroke_color">Stroke Color</string>
+    <string name="prop_fill_color">Fill Color</string>
+    <string name="prop_stroke_width">Stroke Width</string>
+    <string name="prop_opacity">Opacity</string>
+    <string name="prop_start_arrow">Start Arrow</string>
+    <string name="prop_end_arrow">End Arrow</string>
+    <string name="annotation_properties">Annotation Properties</string>
+    <string name="type_here">Type here...</string>
+    <string name="border_style">Border Style</string>
+    <string name="bold">Bold</string>
+    <string name="italic">Italic</string>
+    <string name="left">Left</string>
+    <string name="center">Center</string>
+    <string name="right">Right</string>
+    <string name="solid">Solid</string>
+    <string name="dashed">Dashed</string>
+    <string name="pt">%1$spt</string>
+    <string name="shape_properties">Shape Properties</string>
+    <string name="preview">Preview</string>
+    <string name="no_saved_signatures">No saved signatures</string>
+    <string name="delete_signature">Delete signature</string>
+    <string name="page__of_">Page %1$s of %2$s</string>
+    <string name="author_name">Author Name</string>
+    <string name="strike">Strike</string>
+    <string name="squiggly">Squiggly</string>
+    <string name="redact">Redact</string>
+    <string name="ai_chat">AI Chat</string>
+    <string name="annotations">Annotations</string>
+    <string name="pan_mode">Pan Mode</string>
+    <string name="select_mode">Select Mode</string>
+    <string name="close_chat">Close chat</string>
+    <!-- TTS Provider Settings -->
+    <string name="tts_providers">TTS Providers</string>
+    <string name="cloud_tts_elevenlabs">Cloud TTS (ElevenLabs)</string>
+    <string name="on_device_tts">On-Device TTS</string>
+    <string name="standard_on_device">Standard On-Device</string>
+    <string name="standard_on_device_desc">Uses system default voices.</string>
+    <string name="elevenlabs_api_key">ElevenLabs API Key</string>
+    <string name="api_key_placeholder">sk_...</string>
+    <string name="language">Language</string>
+    <string name="advanced_settings">Advanced Settings</string>
+    <string name="stability">Stability</string>
+    <string name="clarity">Clarity</string>
+    <string name="use_elevenlabs">Use ElevenLabs</string>
+    <string name="model_version">Model Version</string>
+    <string name="download_voice">Voice</string>
+    <string name="active">Active</string>
+    <string name="ready">Ready</string>
+    <string name="downloading">Downloading</string>
+    <string name="not_downloaded">Not Downloaded</string>
+    <string name="show_key">Show key</string>
+    <string name="hide_key">Hide key</string>
+
+    <!-- Digital Signature -->
+    <string name="sig_all_valid">Signed and all signatures are valid</string>
+    <string name="sig_all_valid_count">All %1$d signatures are valid</string>
+    <string name="sig_certified_by">Document certified by %1$s</string>
+    <string name="sig_mixed">%1$d of %2$d signatures verified. %3$d could not be verified.</string>
+    <string name="sig_invalid">WARNING: Document has been modified — signatures are invalid</string>
+    <string name="sig_unsigned_single">This document has a signature field that needs to be signed</string>
+    <string name="sig_unsigned_plural">This document has %1$d signature fields that need to be signed</string>
+    <string name="sig_partial_signed">%1$d signed%2$s. %3$d unsigned field%4$s remaining.</string>
+    <string name="sig_checking">Checking signatures…</string>
+    <string name="sig_valid_suffix"> (valid)</string>
+    <string name="sig_panel_title">Signature Details</string>
+    <string name="sig_show_certificate">Show Certificate</string>
+    <string name="sig_go_to_signature">Go to Signature</string>
+    <string name="sig_signature_details">Signature Details</string>
+    <string name="sig_signatures_count">%1$d Signatures</string>
+    <string name="sig_one_signature">1 Signature</string>
+    <string name="sig_rev_signed_by">Rev. %1$d: Signed by</string>
+    <string name="sig_validity_summary">Validity Summary</string>
+    <string name="sig_doc_not_modified">The document has not been modified since signing</string>
+
+    <!-- Digital Signature — Digital ID dialog (DigitalIdDialog.kt) -->
+    <string name="sig_id_header_sign">Sign with a Digital ID</string>
+    <string name="sig_id_header_add">Add a Digital ID</string>
+    <string name="sig_id_header_create">Create a self-signed Digital ID</string>
+    <string name="sig_id_header_import">Import Digital ID from file</string>
+    <string name="sig_id_close">Close</string>
+    <string name="sig_id_error_read_file">Could not read the selected file</string>
+    <string name="sig_id_error_bad_password">Incorrect password or unsupported file</string>
+    <string name="sig_id_empty_list">You don\'t have any Digital IDs yet. Add one to sign this document.</string>
+    <string name="sig_id_choose_to_sign">Choose the Digital ID to sign with:</string>
+    <string name="sig_id_choose_add_type">How would you like to add a Digital ID?</string>
+    <string name="sig_id_option_file_desc">Import an existing .p12 / .pfx Digital ID you already have.</string>
+    <string name="sig_id_option_create_desc">Create a self-signed Digital ID for personal use.</string>
+    <string name="sig_id_password_prompt">Enter the password that protects "%1$s".</string>
+    <string name="sig_id_password_label">Password</string>
+    <string name="sig_id_hide_password">Hide password</string>
+    <string name="sig_id_show_password">Show password</string>
+    <string name="sig_id_badge_keychain">Keychain</string>
+    <string name="sig_id_expired">Expired</string>
+    <string name="sig_id_valid_to">Valid to %1$s</string>
+    <string name="sig_id_btn_cancel">Cancel</string>
+    <string name="sig_id_btn_continue">Continue</string>
+    <string name="sig_id_btn_back">Back</string>
+    <string name="sig_id_btn_save">Save</string>
+    <string name="sig_id_btn_import">Import</string>
+
+    <!-- Digital Signature — signed success dialog (SignedSuccessDialog.kt) -->
+    <string name="sig_success_title">Document signed</string>
+    <string name="sig_success_saved_as">Saved as "%1$s".</string>
+    <string name="sig_success_close">Close</string>
+    <string name="sig_success_open">Open signed PDF</string>
+
+    <!-- Digital Signature — signer detail rows (SignatureSideBarContent.kt) -->
+    <string name="sig_collapse">Collapse</string>
+    <string name="sig_expand">Expand</string>
+    <string name="sig_add_to_trusted">Add to Trusted Certificate</string>
+    <string name="sig_row_signed_by">Signed by</string>
+    <string name="sig_row_reason">Reason</string>
+    <string name="sig_row_time">Time</string>
+    <string name="sig_row_type">Type</string>
+    <string name="sig_row_permission">Permission</string>
+    <string name="sig_row_certificate">Certificate</string>
+    <string name="sig_row_issued_by">Issued by</string>
+    <string name="sig_row_valid_from">Valid from</string>
+    <string name="sig_row_valid_to">Valid to</string>
+
+    <!-- Digital Signature — signing flow toasts (ExpandedPdfLayout.kt) -->
+    <string name="sig_toast_load_failed">Failed to load Digital ID</string>
+    <string name="sig_toast_cannot_sign_in_memory">Cannot sign in-memory PDFs</string>
+    <string name="sig_toast_sign_failed">Failed to sign document</string>
+
+    <!-- Digital Signature — appearance rendered text labels -->
+    <string name="sig_ap_digitally_signed_by">Digitally signed by %1$s</string>
+    <string name="sig_ap_date">Date: %1$s</string>
+    <string name="sig_ap_reason">Reason: %1$s</string>
+    <string name="sig_ap_location">Location: %1$s</string>
+
+    <!-- Digital Signature — Sign-as appearance preview dialog -->
+    <string name="sig_ap_sign_as">Sign as "%1$s"</string>
+    <string name="sig_ap_appearance">Appearance</string>
+    <string name="sig_ap_create">Create</string>
+    <string name="sig_ap_modify">Modify</string>
+    <string name="sig_ap_reason_label">Reason</string>
+    <string name="sig_ap_location_label">Location</string>
+    <string name="sig_ap_back">Back</string>
+    <string name="sig_ap_sign">Sign</string>
+    <string name="sig_ap_no_appearance_checkbox">Sign without a visible appearance</string>
+    <string name="sig_ap_no_appearance_note">This signature will not be visible on the page.</string>
+
+    <!-- Digital Signature — appearance preset editor dialog -->
+    <string name="sig_ap_customize_title">Customize the Signature Appearance</string>
+    <string name="sig_ap_select_signature">Select signature</string>
+    <string name="sig_ap_change_signature">Change signature</string>
+    <string name="sig_ap_remove">Remove</string>
+    <string name="sig_ap_include">Include</string>
+    <string name="sig_ap_include_name">Name</string>
+    <string name="sig_ap_include_date">Date</string>
+    <string name="sig_ap_include_logo">Logo</string>
+    <string name="sig_ap_include_labels">Labels</string>
+    <string name="sig_ap_text_direction">Text Direction</string>
+    <string name="sig_ap_dir_auto">Auto</string>
+    <string name="sig_ap_dir_ltr">LTR</string>
+    <string name="sig_ap_dir_rtl">RTL</string>
+    <string name="sig_ap_preset_name">Preset name</string>
+    <string name="sig_ap_cancel">Cancel</string>
+    <string name="sig_ap_save">Save</string>
+
+    <!-- Toolbar settings dropdown -->
+    <string name="toolbar_tools">Tools</string>
+    <string name="toolbar_thumbnails">Thumbnails</string>
+    <string name="toolbar_contents">Contents</string>
+    <string name="toolbar_settings">Settings</string>
+    <string name="settings_scroll_method">SCROLL METHOD</string>
+    <string name="settings_scroll">Scroll</string>
+    <string name="settings_swipe">Swipe</string>
+    <string name="settings_direction">DIRECTION</string>
+    <string name="settings_vertical">Vertical</string>
+    <string name="settings_horizontal">Horizontal</string>
+    <string name="settings_page_background">PAGE BACKGROUND</string>
+    <string name="settings_custom_color">Custom color</string>
+    <string name="ai_settings">AI Settings</string>
+    <string name="copy_conversation">Copy conversation</string>
+    <string name="ai_chat_settings">AI Chat Settings</string>
+    <string name="stop">Stop</string>
+    <string name="ai_chat_provider">AI Chat Provider</string>
+    <string name="get_free_ai_chat">Get free AI chat</string>
+    <string name="use_your_own_openai_openrouter_groq_or_l">Use your own OpenAI, OpenRouter, Groq or local Ollama key — learn how →</string>
+    <string name="falcon_ai">Falcon AI</string>
+    <string name="builtin__gpt4omini__usage_limits_apply">Built-in • gpt-4o-mini • Usage limits apply</string>
+    <string name="local_model_ollama">Local Model (Ollama)</string>
+    <string name="unlimited__private__14b_recommended">Unlimited • Private • 14B+ recommended</string>
+    <string name="custom_provider">Custom Provider</string>
+    <string name="openai_groq_together_ai_etc__bring_your_">OpenAI, Groq, Together AI, etc. • Bring your own key</string>
+    <string name="save_ai_settings">Save AI Settings</string>
+    <string name="profile">Profile</string>
+    <string name="select_profile">Select profile</string>
+    <string name="new_profile">New profile</string>
+    <string name="delete_profile">Delete profile</string>
+    <string name="delete_profile__this_cannot_be_undone">Delete profile "%1$s"? This cannot be undone.</string>
+    <string name="profile_name">Profile name</string>
+    <string name="eg_gpt4o_for_editing">e.g. GPT-4o for editing</string>
+    <string name="a_profile_with_this_name_already_exists">A profile with this name already exists</string>
+    <string name="create">Create</string>
+    <string name="tool_level">Tool Level</string>
+    <string name="pro_required">Pro required</string>
+    <string name="ollama_endpoint">Ollama Endpoint</string>
+    <string name="httplocalhost11434">http://localhost:11434</string>
+    <string name="model">Model</string>
+    <string name="select_model">Select model</string>
+    <string name="no_models_found_click_refresh">No models found. Click Refresh.</string>
+    <string name="refresh_models">Refresh models</string>
+    <string name="provider">Provider</string>
+    <string name="base_url">Base URL</string>
+    <string name="httpsapiexamplecomv1">https://api.example.com/v1</string>
+    <string name="api_key">API Key</string>
+    <string name="sk">sk-...</string>
+    <string name="gpt4omini">gpt-4o-mini</string>
+    <string name="system_text_to_speech">System Text to Speech</string>
+    <string name="natural_voice_through_ai">Natural Voice through AI</string>
+    <string name="configure">Configure</string>
+    <string name="configure_tts_provider">Configure TTS Provider</string>
+    <string name="system">System</string>
+    <string name="elevenlabs">ElevenLabs</string>
+    <string name="system_tts_uses_your_devices_builtin_tex">System TTS uses your device's built-in text-to-speech engine.</string>
+    <string name="voice__available">Voice (%1$s available)</string>
+    <string name="no_voices_found_please_install_a_tts_eng">No voices found. Please install a TTS engine on your device.</string>
+    <string name="get_api_key">Get API Key</string>
+    <string name="get_key">Get Key</string>
+    <string name="sk_">sk_...</string>
+    <string name="saved">Saved</string>
+    <string name="api_key_validated_and_saved_securely">API key validated and saved securely.</string>
+    <string name="see_authentication_docs">See authentication docs</string>
+    <string name="no_voices_available_check_your_api_key_p">No voices available. Check your API key permissions.</string>
+    <string name="save_your_api_key_to_load_available_voic">Save your API key to load available voices.</string>
+    <string name="mb">%1$sMB</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="extracting">Extracting...</string>
+    <string name="download">Download</string>
+    <string name="update">Update</string>
+    <string name="certificate_viewer">Certificate Viewer</string>
+    <string name="this_dialog_shows_details_of_the_certifi">This dialog shows details of the certificate and its issuance chain.</string>
+    <string name="this_certificate_is_trusted_to">This certificate is trusted to:</string>
+    <string name="revocation_checking_is_not_performed">Revocation checking is not performed.</string>
+    <string name="path_validation_checks_were_performed_at">Path validation checks were performed at the time of parsing.</string>
+    <string name="a_digital_id_is_required_to_create_a_dig">A Digital ID is required to create a digital signature. </string>
+    <string name="select_the_type_of_digital_id">Select the type of Digital ID:</string>
+    <string name="use_a_digital_id_from_a_file">Use a Digital ID from a file</string>
+    <string name="create_a_new_digital_id">Create a new Digital ID</string>
+    <string name="enter_the_identity_information_to_be_use">Enter the identity information to be used for the self-signed Digital ID. </string>
+    <string name="name">Name</string>
+    <string name="enter_your_full_name">Enter your full name</string>
+    <string name="organizational_unit">Organizational Unit</string>
+    <string name="department_or_unit">Department or unit</string>
+    <string name="organization_name">Organization Name</string>
+    <string name="enter_organization_name">Enter Organization Name...</string>
+    <string name="email_address">Email Address</string>
+    <string name="youexamplecom">you@example.com</string>
+    <string name="countryregion">Country/Region</string>
+    <string name="in__india">IN - INDIA</string>
+    <string name="key_algorithm">Key Algorithm</string>
+    <string name="use_digital_id_for">Use Digital ID for</string>
+    <string name="view_signature_details">View signature details</string>
+    <string name="signature_validation_status">Signature Validation Status</string>
+    <string name="all_signatures_">All Signatures (%1$s)</string>
+    <string name="validity_summary">Validity Summary</string>
+    <string name="signer_info">Signer Info</string>
+    <string name="show_certificate">Show Certificate…</string>
+    <string name="unsigned_signature_fields">Unsigned Signature Fields</string>
+    <string name="no_signature_fields_found">No signature fields found</string>
+    <string name="rev__signed_by">Rev. %1$s: Signed by</string>
+    <string name="go_to_signature">Go to Signature</string>
+    <string name="signature_details">Signature Details</string>
+    <string name="on_page_">on page %1$s</string>
+    <string name="sign">Sign</string>
+    <string name="clear_saved_password">Clear saved password</string>
+    <string name="edit_">Edit %1$s</string>
+    <string name="font_color">Font Color</string>
+    <string name="background">Background</string>
+    <string name="border_color">Border Color</string>
+    <string name="basic">Basic</string>
+    <string name="advanced">Advanced</string>
+    <string name="system_tts">System TTS</string>
+    <string name="root">[Root]</string>
+    <string name="issuer">[Issuer]</string>
+    <string name="leaf">[Leaf]</string>
+    <string name="import_an_existing_digital_id_that_you_h">Import an existing Digital ID that you have obtained as a file (.pfx, .p12)</string>
+    <string name="create_your_selfsigned_digital_id_for_pe">Create your self-signed Digital ID for personal use</string>
+    <string name="files">Files</string>
+    <!-- From: session AI Chat Provider + TTS Provider settings sections -->
+    <!-- AI provider cards -->
+    <string name="ai_provider_falcon_title">Falcon AI</string>
+    <string name="ai_provider_falcon_subtitle">Built-in hosted cloud AI.</string>
+    <string name="ai_provider_tag_cloud">Cloud AI</string>
+    <string name="ai_provider_tag_locked">Locked</string>
+    <string name="ai_provider_ollama_title">Local AI (Ollama)</string>
+    <string name="ai_provider_ollama_subtitle">On-device, 100% private.</string>
+    <string name="ai_provider_tag_private">100% Private</string>
+    <string name="ai_provider_byok_title">OpenAI &amp; OpenRouter</string>
+    <string name="ai_provider_byok_subtitle">Bring your own keys.</string>
+    <string name="ai_provider_tag_byok">BYOK</string>
+    <!-- Falcon plan panel -->
+    <string name="ai_plan_active_license">Active License</string>
+    <string name="ai_plan_current_plan_suffix">TIER • CURRENT PLAN</string>
+    <string name="ai_plan_available_suffix">Available</string>
+    <string name="ai_plan_used_format">%1$d of %2$d used</string>
+    <string name="ai_plan_falcon_description">Hosted Falcon AI analyzes multi-page PDFs, processes OCR embeddings, and executes high-speed synthesis in a secured sandboxed enclave.</string>
+    <string name="ai_plan_available_percent">%1$d%% Available</string>
+    <string name="ai_plan_left">Left</string>
+    <string name="ai_plan_tier_free">Free</string>
+    <string name="ai_plan_tier_pro">Pro</string>
+    <string name="ai_plan_tier_premium">Premium</string>
+    <string name="ai_plan_active">Active</string>
+    <string name="ai_plan_free_heading">0 Hosted Trials</string>
+    <string name="ai_plan_free_body">No hosted Falcon AI runs. Use Local AI (Ollama) or BYOK for free, unlimited on-device execution.</string>
+    <string name="ai_plan_free_current">Current Plan</string>
+    <string name="ai_plan_free_baseline">Default Baseline</string>
+    <string name="ai_plan_pro_heading">5 PDF Chats / Lifetime</string>
+    <string name="ai_plan_pro_body">Includes 5 full lifetime trial runs to test hosted Falcon AI, smart table extraction, and zero-setup Q&amp;A.</string>
+    <string name="ai_plan_runs_remaining_format">%1$d Runs Remaining</string>
+    <string name="ai_plan_pro_lifetime_footer">5 lifetime</string>
+    <string name="ai_plan_premium_heading">5 PDF Chats / Month</string>
+    <string name="ai_plan_premium_body">Recurring monthly allowance with high-speed GPU trial runs refreshed at the start of every billing cycle.</string>
+    <string name="ai_plan_left_this_month_format">%1$d left this month</string>
+    <string name="ai_plan_premium_price">$9 / month</string>
+    <string name="ai_plan_upgrade">Upgrade</string>
+    <!-- Ollama panel -->
+    <string name="ai_ollama_header_title">Local AI Assistant (Ollama)</string>
+    <string name="ai_ollama_header_subtitle">Run neural LLMs on-device. High privacy, unlimited generation.</string>
+    <string name="ai_ollama_ping_daemon">Ping Daemon</string>
+    <string name="ai_ollama_daemon_endpoint">Daemon Endpoint</string>
+    <string name="ai_ollama_endpoint_hint">http://localhost:11434</string>
+    <string name="ai_ollama_model_identifier">Model Identifier</string>
+    <string name="ai_ollama_model_hint">e.g. llama3.2:3b or mistral:7b</string>
+    <string name="ai_ollama_add_model">Add Model</string>
+    <string name="ai_ollama_discovered_format">Discovered on daemon: %1$s</string>
+    <string name="ai_ollama_configured_models_format">CONFIGURED LOCAL MODELS (%1$d)</string>
+    <string name="ai_ollama_no_models">No models registered yet. Add one above (after running `ollama pull`).</string>
+    <string name="ai_ollama_active_default">Active Default</string>
+    <string name="ai_ollama_user_configured">User configured</string>
+    <string name="ai_ollama_set_default">Set Default</string>
+    <!-- BYOK panel -->
+    <string name="ai_byok_provider_service">Provider Service</string>
+    <string name="ai_byok_api_key">API Secret Key</string>
+    <string name="ai_byok_api_key_hint">sk-…</string>
+    <string name="ai_byok_verify_idle">Verify Key</string>
+    <string name="ai_byok_verify_busy">Verifying…</string>
+    <string name="ai_byok_verify_done">Valid Key</string>
+    <string name="ai_byok_model_tag">Model Deployment Tag</string>
+    <string name="ai_byok_model_hint">gpt-4o-mini</string>
+    <string name="ai_byok_base_url">Base URL / Proxy Host</string>
+    <string name="ai_byok_base_url_hint">https://api.example.com/v1</string>
+    <string name="ai_byok_capability_label">Document Tool Execution Capability</string>
+    <string name="ai_byok_standard_title">Standard Mode</string>
+    <string name="ai_byok_standard_subtitle">~16 core tools • fast, lightweight</string>
+    <string name="ai_byok_advanced_title">Advanced Reasoning</string>
+    <string name="ai_byok_advanced_subtitle">79 tools • deep cross-doc reasoning</string>
+    <string name="ai_byok_saved_configs">Saved Configurations</string>
+    <string name="ai_byok_saved_count_format">%1$d saved config(s)</string>
+    <string name="ai_byok_no_model">No model</string>
+    <string name="ai_byok_set_active">Set Active</string>
+    <!-- Shared buttons / daemon check -->
+    <string name="settings_save_current">Save Current</string>
+    <string name="settings_save_preferences">Save Preferences</string>
+    <string name="settings_saving">Saving…</string>
+    <string name="daemon_checking">Checking…</string>
+    <string name="daemon_online">Daemon Online</string>
+    <string name="daemon_unreachable">Unreachable</string>
+    <!-- TTS provider cards -->
+    <string name="tts_provider_title">TTS Provider</string>
+    <string name="tts_provider_system_title">System / Device</string>
+    <string name="tts_provider_system_subtitle">Host OS voice synthesis.</string>
+    <string name="tts_provider_tag_offline">Offline</string>
+    <string name="tts_provider_elevenlabs_title">ElevenLabs</string>
+    <string name="tts_provider_elevenlabs_subtitle">Ultra-realistic neural voices.</string>
+    <string name="tts_provider_tag_cloud">Cloud AI</string>
+    <string name="tts_provider_openai_title">OpenAI / Gateway</string>
+    <string name="tts_provider_openai_subtitle">OpenAI, OpenRouter or proxies.</string>
+    <string name="tts_provider_tag_gateway">Gateway</string>
+    <string name="tts_provider_local_title">Local AI (Kokoro)</string>
+    <string name="tts_provider_local_subtitle">On-device neural inference.</string>
+    <string name="tts_provider_tag_private">Private</string>
+    <!-- TTS System panel -->
+    <string name="tts_system_header_title">System Built-in Voice</string>
+    <string name="tts_system_header_subtitle">Uses your device's built-in voices (e.g. Albert, Alice on macOS). Offline, zero latency.</string>
+    <string name="tts_system_ready">Ready</string>
+    <string name="tts_system_language">Language &amp; Region</string>
+    <string name="tts_system_gender">Voice Gender</string>
+    <string name="tts_system_voice_count_format">Voice (%1$d available)</string>
+    <string name="tts_gender_all">All</string>
+    <string name="tts_gender_male">Male</string>
+    <string name="tts_gender_female">Female</string>
+    <string name="tts_voice_default">Default</string>
+    <string name="tts_test">Test</string>
+    <string name="tts_test_playing">Playing…</string>
+    <string name="tts_test_played">Played</string>
+    <string name="tts_test_preview_format">This is a preview of the %1$s voice.</string>
+    <!-- TTS ElevenLabs panel -->
+    <string name="tts_elevenlabs_header_title">ElevenLabs Voice Engine</string>
+    <string name="tts_elevenlabs_header_subtitle">High-fidelity AI voices with emotional nuance.</string>
+    <string name="tts_status_cloud">Cloud</string>
+    <string name="tts_api_key">API Key</string>
+    <string name="tts_api_key_hint">sk_live_…</string>
+    <string name="tts_validate">Validate</string>
+    <string name="tts_validating">Validating…</string>
+    <string name="tts_key_valid">Key Valid</string>
+    <string name="tts_elevenlabs_preview">This is a preview of the selected ElevenLabs voice.</string>
+    <!-- TTS OpenAI gateway panel -->
+    <string name="tts_openai_header_title">OpenAI &amp; Speech Gateway</string>
+    <string name="tts_openai_header_subtitle">OpenAI, OpenRouter or any compatible gateway.</string>
+    <string name="tts_status_compatible">Compatible</string>
+    <string name="tts_openai_preset">Preset Provider</string>
+    <string name="tts_openai_endpoint">Endpoint URL</string>
+    <string name="tts_openai_endpoint_hint">https://api.openai.com/v1/audio/speech</string>
+    <string name="tts_openai_api_key">API Key / Bearer Token</string>
+    <string name="tts_openai_model">Model</string>
+    <string name="tts_openai_model_hint">tts-1</string>
+    <string name="tts_openai_voice">Voice</string>
+    <string name="tts_openai_voice_hint">alloy</string>
+    <string name="tts_openai_format">Output Format</string>
+    <string name="tts_openai_preview_format">This is a preview of the %1$s voice %2$s.</string>
+    <string name="tts_openai_saved_models">Saved Models</string>
+    <string name="tts_openai_saved_count_format">%1$d saved config(s)</string>
+    <string name="tts_openai_no_models">No saved models yet. Set a model + voice above and tap "Save Current".</string>
+    <string name="tts_openai_row_preview_format">This is a preview of %1$s voice %2$s.</string>
+    <string name="tts_openai_voice_prefix_format">Voice: %1$s</string>
+    <!-- TTS Local (Kokoro) panel -->
+    <string name="tts_local_header_title">Local AI Synthesis (Kokoro)</string>
+    <string name="tts_local_header_subtitle">On-device neural synthesis, no cloud telemetry.</string>
+    <string name="tts_local_engine_active">Engine Active</string>
+    <string name="tts_local_server_port">Local Inference Server &amp; Port</string>
+    <string name="tts_local_endpoint_hint">http://127.0.0.1:8880/v1/audio/speech</string>
+    <string name="tts_local_default_port">Default port: 127.0.0.1:8880</string>
+    <string name="tts_local_check_daemon">Check Daemon</string>
+    <string name="tts_local_installed_voices">Installed Voice Models</string>
+    <string name="tts_local_ready_count_format">%1$d local model(s) ready</string>
+    <string name="tts_local_no_voices">No local voices yet. Add one below (e.g. af_bella, am_adam).</string>
+    <string name="tts_local_default">Default</string>
+    <string name="tts_local_model_id_format">Model ID: %1$s • %2$s • %3$s</string>
+    <string name="tts_local_set_active">Set Active</string>
+    <string name="tts_local_add_model">Add Local Model / Voice</string>
+    <string name="tts_local_close">Close</string>
+    <string name="tts_local_preview_format">This is a preview of the %1$s voice.</string>
+    <string name="tts_local_configure_title">Configure &amp; Register Local Voice</string>
+    <string name="tts_local_model_name">Model Name / Identifier *</string>
+    <string name="tts_local_model_name_hint">e.g. bf_emma, custom_storyteller</string>
+    <string name="tts_local_locale">Locale</string>
+    <string name="tts_local_gender">Gender</string>
+    <string name="tts_local_cancel">Cancel</string>
+    <string name="tts_local_register">Register Voice</string>
+    <string name="tts_active">Active</string>
+    <!-- PDF OCR: recognise text on the current page (shown in the viewer overflow menu) -->
+    <string name="recognize_text_on_page">Recognise text on this page</string>
+    <string name="no_images_on_page">No images on this page to extract text from.</string>
+</resources>
