@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">تم حفظ الصورة في المعرض</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">هل تريد حذف المستند؟</string>
-    <string name="scan_delete_document_message">هل أنت متأكد من رغبتك في حذف "%1$s"؟ سيؤدي هذا إلى حذف جميع صفحات هذا المستند نهائيًا. لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="scan_delete_document_message">هل أنت متأكد من رغبتك في حذف \"%1$s\"؟ سيؤدي هذا إلى حذف جميع صفحات هذا المستند نهائيًا. لا يمكن التراجع عن هذا الإجراء.</string>
     <string name="scan_rename_document">إعادة تسمية المستند</string>
     <string name="scan_rename_enter_name">أدخل اسمًا جديدًا للمستند</string>
     <string name="scan_rename_document_name">اسم المستند</string>
     <string name="scan_rename_error">لا يمكن أن يكون اسم المستند فارغًا</string>
     <string name="scan_dialog_delete_document_title">هل تريد حذف المستند؟</string>
-    <string name="scan_dialog_delete_document_message">هل أنت متأكد من رغبتك في حذف "%1$s"؟ سيؤدي هذا إلى حذف جميع صفحات هذا المستند نهائيًا. لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="scan_dialog_delete_document_message">هل أنت متأكد من رغبتك في حذف \"%1$s\"؟ سيؤدي هذا إلى حذف جميع صفحات هذا المستند نهائيًا. لا يمكن التراجع عن هذا الإجراء.</string>
     <string name="scan_dialog_delete_confirm">يمسح</string>
     <string name="scan_dialog_cancel">يلغي</string>
     <string name="scan_dialog_move_title">نقل إلى المجلد</string>
@@ -161,7 +161,7 @@
     <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
     <string name="str__">%1$s %2$s</string>
     <string name="folder_is_empty">المجلد فارغ</string>
-    <string name="tap_the__button_to_scan_a_docu">انقر على زر "+" لمسح مستند ضوئيًا</string>
+    <string name="tap_the__button_to_scan_a_docu">انقر على زر \"+\" لمسح مستند ضوئيًا</string>
     <string name="str______pages">%1$s • %2$s • %3$s صفحات</string>
     <string name="create_folder">إنشاء مجلد</string>
     <string name="more_options">خيارات إضافية</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — الصفحة %2$d</string>
     <string name="scan_ocr_title">التعرف على النصوص</string>
-    <string name="scan_ocr_copy">انسخ النص</string>
     <string name="scan_ocr_no_text">لم يتم العثور على نص</string>
-    <string name="scan_ocr_processing">التعرف على النص…</string>
     <string name="scan_ocr_error">فشل في التعرف على النص</string>
     <string name="scan_ocr_not_supported">لا تدعم هذه المنصة تقنية التعرف الضوئي على الأحرف (OCR).</string>
-    <string name="scan_ocr_image">صفحة ممسوحة ضوئياً لغرض التعرف الضوئي على الحروف (OCR)</string>
     <string name="gallery">معرض</string>
     <string name="select_file">حدد ملفًا</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">مقياس الغالق</string>
     <string name="import_gallery">معرض الاستيراد</string>
     <string name="scan_camera">كاميرا المسح الضوئي</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

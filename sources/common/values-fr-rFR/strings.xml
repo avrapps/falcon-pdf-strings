@@ -24,7 +24,7 @@
     <string name="tool_compress_desc">Réduire la taille du fichier</string>
     <string name="tool_merge_desc">Fusionner des fichiers PDF</string>
     <string name="tool_split_desc">Extraire les pages</string>
-    <string name="tool_rotate_desc">Changer d'orientation</string>
+    <string name="tool_rotate_desc">Changer d\'orientation</string>
     <string name="tool_delete_pages_desc">Supprimer les indésirables</string>
     <string name="tool_reorder_pdf_desc">Réorganiser les pages</string>
     <string name="tool_number_pages_desc">Ajouter les numéros de page</string>
@@ -33,7 +33,7 @@
     <string name="tool_pdf_to_ppt_desc">Convertir en diapositives</string>
     <string name="tool_image_to_pdf_desc">Créer à partir de photos</string>
     <string name="tool_word_to_pdf_desc">Créer à partir de Word</string>
-    <string name="tool_ppt_to_pdf_desc">Créer à partir d'une présentation PowerPoint</string>
+    <string name="tool_ppt_to_pdf_desc">Créer à partir d\'une présentation PowerPoint</string>
     <string name="tool_watermark_pdf_desc">Ajouter un filigrane</string>
     <string name="tool_digital_sign_desc">Signer le document</string>
     <string name="tool_lock_pdf_desc">Ajouter un mot de passe</string>
@@ -54,8 +54,8 @@
     <string name="cancel">Annuler</string>
     <string name="hide_password">Masquer le mot de passe</string>
     <string name="show_password">Afficher le mot de passe</string>
-    <string name="rate_dialog_title">Vous appréciez l'application ?</string>
-    <string name="rate_dialog_message">Si vous appréciez l'utilisation de PDF Viewer, merci de prendre un instant pour l'évaluer. Cela nous est très utile !</string>
+    <string name="rate_dialog_title">Vous appréciez l\'application ?</string>
+    <string name="rate_dialog_message">Si vous appréciez l\'utilisation de PDF Viewer, merci de prendre un instant pour l\'évaluer. Cela nous est très utile !</string>
     <string name="rate_now">Évaluer en magasin</string>
     <string name="rate_later">Peut-être plus tard</string>
     <string name="rate_never">Ne jamais montrer</string>
@@ -64,7 +64,7 @@
     <string name="color_picker_presets">Préréglages</string>
     <string name="color_picker_recent">Récent</string>
     <string name="color_picker_cancel">Annuler</string>
-    <string name="color_picker_ok">D'ACCORD</string>
+    <string name="color_picker_ok">D\'ACCORD</string>
     <string name="color_picker_hex_label">HEX</string>
     <string name="save_for_biometric">Hormis pour la biométrie</string>
     <string name="stored_encrypted_locally_wont_sync_to_cl">Stocké localement et chiffré. Ne se synchronise pas avec le cloud.</string>
@@ -74,7 +74,7 @@
     <string name="reduce_file_size">Réduire la taille du fichier</string>
     <string name="merge_pdf_files">Fusionner des fichiers PDF</string>
     <string name="extract_pages">Extraire les pages</string>
-    <string name="change_orientation">Changer d'orientation</string>
+    <string name="change_orientation">Changer d\'orientation</string>
     <string name="remove_unwanted">Supprimer les indésirables</string>
     <string name="rearrange_pages">Réorganiser les pages</string>
     <string name="add_page_numbers">Ajouter les numéros de page</string>
@@ -83,7 +83,7 @@
     <string name="convert_to_slides">Convertir en diapositives</string>
     <string name="create_from_photos">Créer à partir de photos</string>
     <string name="create_from_word">Créer à partir de mots</string>
-    <string name="create_from_ppt">Créer à partir d'une présentation PowerPoint</string>
+    <string name="create_from_ppt">Créer à partir d\'une présentation PowerPoint</string>
     <string name="add_watermark">Ajouter un filigrane</string>
     <string name="sign_document">Signer le document</string>
     <string name="add_password">Ajouter un mot de passe</string>

@@ -69,6 +69,7 @@
     <string name="compressed_by_">壓縮 </string>
     <string name="error_details">錯誤詳情</string>
     <string name="view">看法</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">已選擇 %1$s 共 %2$s 頁</string>
     <string name="showing_first_200_pages">顯示前 200 頁</string>

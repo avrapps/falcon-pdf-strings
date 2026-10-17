@@ -24,7 +24,7 @@
     <string name="purchase_pro_feature_3">Sincronizzazione tra dispositivi tramite Drive</string>
     <string name="purchase_pro_feature_4">Senza pubblicità, senza filigrana sulle scansioni.</string>
     <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
-    <string name="purchase_premium_feature_1_title">Riepiloghi basati sull'IA con un ragionamento più robusto</string>
+    <string name="purchase_premium_feature_1_title">Riepiloghi basati sull\'IA con un ragionamento più robusto</string>
     <string name="purchase_premium_feature_1_desc">Risposte più approfondite da documenti più lunghi e complessi</string>
     <string name="purchase_premium_feature_2_title">5 GB Falcon Cloud</string>
     <string name="purchase_premium_feature_2_desc">La tua libreria PDF personale, sincronizzata e sicura.</string>
@@ -86,9 +86,9 @@
     <!-- From: pdf-auth-billing/src/commonMain/kotlin/com/avrapps/pdfviewer/auth/billing/purchase/ui/components/PremiumActiveCard.kt -->
     <string name="str__active">%1$s ATTIVO</string>
     <string name="premium_benefits">VANTAGGI PREMIUM</string>
-    <string name="manage_subscription">Gestisci l'abbonamento</string>
+    <string name="manage_subscription">Gestisci l\'abbonamento</string>
     <string name="next_billing_date__manage_your">Prossima data di fatturazione: %1$s. Gestisci i dettagli di fatturazione e la cancellazione tramite le impostazioni del tuo account Play Store.</string>
-    <string name="purchase_expires_">L'acquisto scade il: %1$s</string>
+    <string name="purchase_expires_">L\'acquisto scade il: %1$s</string>
     <string name="falcon_pdf_pro">Falcon PDF Pro</string>
     <string name="falcon_pdf_premium_monthly">Falcon PDF Premium (Mensile)</string>
     <string name="falcon_pdf_premium_yearly">Falcon PDF Premium (abbonamento annuale)</string>
@@ -106,7 +106,7 @@
     <string name="adfree_no_watermark">Senza pubblicità, senza filigrana</string>
     <string name="export_to_word__excel">Esporta in Word &amp; Excel</string>
     <string name="multiple_themes__page_backgrounds">Temi multipli &amp; Sfondi della pagina</string>
-    <string name="ai_summaries_with_stronger_reasoning">Riepiloghi basati sull'IA con un ragionamento più robusto</string>
+    <string name="ai_summaries_with_stronger_reasoning">Riepiloghi basati sull\'IA con un ragionamento più robusto</string>
     <string name="no_limits_on_60_pdf_tools">Nessun limite su oltre 60 strumenti PDF</string>
     <string name="full_text_editing_in_pdfs">Modifica completa del testo nei PDF</string>
     <string name="digital_signatures_dscesign">Firme digitali (DSC/eSign)</string>

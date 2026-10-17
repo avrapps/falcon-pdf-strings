@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">Imatge desada a la galeria</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Voleu suprimir el document?</string>
-    <string name="scan_delete_document_message">Esteu segur que voleu suprimir "%1$s"? Això suprimirà permanentment totes les pàgines d'aquest document. Aquesta acció no es pot desfer.</string>
+    <string name="scan_delete_document_message">Esteu segur que voleu suprimir \"%1$s\"? Això suprimirà permanentment totes les pàgines d\'aquest document. Aquesta acció no es pot desfer.</string>
     <string name="scan_rename_document">Canvia el nom del document</string>
     <string name="scan_rename_enter_name">Introduïu un nom nou per al document</string>
     <string name="scan_rename_document_name">Nom del document</string>
     <string name="scan_rename_error">El nom del document no pot estar buit</string>
     <string name="scan_dialog_delete_document_title">Voleu suprimir el document?</string>
-    <string name="scan_dialog_delete_document_message">Esteu segur que voleu suprimir "%1$s"? Això suprimirà permanentment totes les pàgines d'aquest document. Aquesta acció no es pot desfer.</string>
+    <string name="scan_dialog_delete_document_message">Esteu segur que voleu suprimir \"%1$s\"? Això suprimirà permanentment totes les pàgines d\'aquest document. Aquesta acció no es pot desfer.</string>
     <string name="scan_dialog_delete_confirm">Suprimeix</string>
     <string name="scan_dialog_cancel">Cancel·la</string>
     <string name="scan_dialog_move_title">Mou a la carpeta</string>
@@ -139,8 +139,8 @@
     <string name="scan_menu_delete">Suprimeix</string>
     <!-- Scan Platform Messages -->
     <string name="scan_platform_camera_coming_soon">Previsualització de la càmera\n(Properament)</string>
-    <string name="scan_platform_desktop_camera">Previsualització de la càmera d'escriptori\n(Properament)</string>
-    <string name="scan_platform_ios_camera">Previsualització de la càmera d'iOS\n(Properament)</string>
+    <string name="scan_platform_desktop_camera">Previsualització de la càmera d\'escriptori\n(Properament)</string>
+    <string name="scan_platform_ios_camera">Previsualització de la càmera d\'iOS\n(Properament)</string>
     <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
     <string name="close">Tanca</string>
     <string name="flash">Flaix</string>
@@ -149,7 +149,7 @@
     <string name="capture">Captura</string>
     <string name="finish">Finalitzar</string>
     <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
-    <string name="are_you_sure_you_want_to_delet">Esteu segur que voleu suprimir %1? Tots els documents que hi ha a dins també s'eliminaran.</string>
+    <string name="are_you_sure_you_want_to_delet">Esteu segur que voleu suprimir %1? Tots els documents que hi ha a dins també s\'eliminaran.</string>
     <string name="share">Comparteix</string>
     <string name="share_as_images">Comparteix com a imatges</string>
     <string name="share_as_pdf">Comparteix com a PDF</string>
@@ -172,41 +172,45 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Pàgina %2$d</string>
     <string name="scan_ocr_title">Reconeixement de text</string>
-    <string name="scan_ocr_copy">Copiar text</string>
-    <string name="scan_ocr_no_text">No s'ha trobat cap text</string>
-    <string name="scan_ocr_processing">Reconeixement de text…</string>
-    <string name="scan_ocr_error">No s'ha pogut reconèixer el text</string>
-    <string name="scan_ocr_not_supported">L'OCR no és compatible amb aquesta plataforma</string>
-    <string name="scan_ocr_image">Pàgina escanejada per a OCR</string>
+    <string name="scan_ocr_no_text">No s\'ha trobat cap text</string>
+    <string name="scan_ocr_error">No s\'ha pogut reconèixer el text</string>
+    <string name="scan_ocr_not_supported">L\'OCR no és compatible amb aquesta plataforma</string>
     <string name="gallery">Galeria</string>
     <string name="select_file">Selecciona un fitxer</string>
     <!-- Error Messages -->
-    <string name="error_capture_image">No s'ha pogut capturar la imatge</string>
-    <string name="error_no_images_captured">No s'han capturat imatges</string>
-    <string name="error_open_settings">No s'ha pogut obrir la configuració</string>
-    <string name="error_process_images">No s'han pogut processar les imatges</string>
-    <string name="error_process_image">No s'ha pogut processar la imatge</string>
-    <string name="error_start_camera">No s'ha pogut iniciar la càmera</string>
-    <string name="error_stop_camera">No s'ha pogut aturar la càmera</string>
-    <string name="error_crop_image">No s'ha pogut retallar la imatge</string>
-    <string name="error_delete_document">No s'ha pogut suprimir el document</string>
-    <string name="error_delete_page">No s'ha pogut suprimir la pàgina</string>
-    <string name="error_load_document">No s'ha pogut carregar el document</string>
-    <string name="error_load_page">No s'ha pogut carregar la pàgina</string>
-    <string name="error_move_document">No s'ha pogut moure el document</string>
+    <string name="error_capture_image">No s\'ha pogut capturar la imatge</string>
+    <string name="error_no_images_captured">No s\'han capturat imatges</string>
+    <string name="error_open_settings">No s\'ha pogut obrir la configuració</string>
+    <string name="error_process_images">No s\'han pogut processar les imatges</string>
+    <string name="error_process_image">No s\'ha pogut processar la imatge</string>
+    <string name="error_start_camera">No s\'ha pogut iniciar la càmera</string>
+    <string name="error_stop_camera">No s\'ha pogut aturar la càmera</string>
+    <string name="error_crop_image">No s\'ha pogut retallar la imatge</string>
+    <string name="error_delete_document">No s\'ha pogut suprimir el document</string>
+    <string name="error_delete_page">No s\'ha pogut suprimir la pàgina</string>
+    <string name="error_load_document">No s\'ha pogut carregar el document</string>
+    <string name="error_load_page">No s\'ha pogut carregar la pàgina</string>
+    <string name="error_move_document">No s\'ha pogut moure el document</string>
     <string name="error_no_pages_to_share">No hi ha pàgines per compartir</string>
-    <string name="error_rename_document">No s'ha pogut canviar el nom del document</string>
-    <string name="error_reorder_pages">No s'han pogut reordenar les pàgines</string>
-    <string name="error_share_images">No s'han pogut compartir les imatges</string>
-    <string name="error_share_pdf">No s'ha pogut compartir el PDF</string>
-    <string name="error_share_page">No s'ha pogut compartir la pàgina</string>
-    <string name="error_create_folder">No s'ha pogut crear la carpeta</string>
-    <string name="error_delete_folder">No s'ha pogut suprimir la carpeta</string>
-    <string name="error_rename_folder">No s'ha pogut canviar el nom de la carpeta</string>
-    <string name="error_unknown">S'ha produït un error desconegut</string>
-    <string name="folder_not_found">No s'ha trobat la carpeta</string>
+    <string name="error_rename_document">No s\'ha pogut canviar el nom del document</string>
+    <string name="error_reorder_pages">No s\'han pogut reordenar les pàgines</string>
+    <string name="error_share_images">No s\'han pogut compartir les imatges</string>
+    <string name="error_share_pdf">No s\'ha pogut compartir el PDF</string>
+    <string name="error_share_page">No s\'ha pogut compartir la pàgina</string>
+    <string name="error_create_folder">No s\'ha pogut crear la carpeta</string>
+    <string name="error_delete_folder">No s\'ha pogut suprimir la carpeta</string>
+    <string name="error_rename_folder">No s\'ha pogut canviar el nom de la carpeta</string>
+    <string name="error_unknown">S\'ha produït un error desconegut</string>
+    <string name="folder_not_found">No s\'ha trobat la carpeta</string>
     <string name="sync_documents">Sincronitza documents</string>
     <string name="shutter_scale">escala_obturador</string>
     <string name="import_gallery">Importa la galeria</string>
-    <string name="scan_camera">Càmera d'escaneig</string>
+    <string name="scan_camera">Càmera d\'escaneig</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

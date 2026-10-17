@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">छवि गैलरी में सहेजी गई</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">दस्तावेज़ हटाएं?</string>
-    <string name="scan_delete_document_message">क्या आप वाकई "%1$s" को हटाना चाहते हैं? इससे इस दस्तावेज़ के सभी पृष्ठ स्थायी रूप से हट जाएंगे। इस कार्रवाई को पूर्ववत नहीं किया जा सकता है।</string>
+    <string name="scan_delete_document_message">क्या आप वाकई \"%1$s\" को हटाना चाहते हैं? इससे इस दस्तावेज़ के सभी पृष्ठ स्थायी रूप से हट जाएंगे। इस कार्रवाई को पूर्ववत नहीं किया जा सकता है।</string>
     <string name="scan_rename_document">दस्तावेज़ का नाम बदलें</string>
     <string name="scan_rename_enter_name">दस्तावेज़ के लिए एक नया नाम दर्ज करें</string>
     <string name="scan_rename_document_name">दस्तावेज़ का नाम</string>
     <string name="scan_rename_error">दस्तावेज़ का नाम खाली नहीं हो सकता</string>
     <string name="scan_dialog_delete_document_title">दस्तावेज़ हटाएं?</string>
-    <string name="scan_dialog_delete_document_message">क्या आप वाकई "%1$s" को हटाना चाहते हैं? इससे इस दस्तावेज़ के सभी पृष्ठ स्थायी रूप से हट जाएंगे। इस कार्रवाई को पूर्ववत नहीं किया जा सकता है।</string>
+    <string name="scan_dialog_delete_document_message">क्या आप वाकई \"%1$s\" को हटाना चाहते हैं? इससे इस दस्तावेज़ के सभी पृष्ठ स्थायी रूप से हट जाएंगे। इस कार्रवाई को पूर्ववत नहीं किया जा सकता है।</string>
     <string name="scan_dialog_delete_confirm">मिटाना</string>
     <string name="scan_dialog_cancel">रद्द करना</string>
     <string name="scan_dialog_move_title">फ़ोल्डर में ले जाएँ</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — पृष्ठ %2$d</string>
     <string name="scan_ocr_title">पाठ पहचान</string>
-    <string name="scan_ocr_copy">टेक्स्ट कॉपी करें</string>
     <string name="scan_ocr_no_text">कोई पाठ नहीं मिला</string>
-    <string name="scan_ocr_processing">पाठ को पहचानना…</string>
     <string name="scan_ocr_error">पाठ को पहचानने में विफल</string>
     <string name="scan_ocr_not_supported">इस प्लेटफॉर्म पर OCR समर्थित नहीं है।</string>
-    <string name="scan_ocr_image">ओसीआर के लिए स्कैन किया गया पृष्ठ</string>
     <string name="gallery">गैलरी</string>
     <string name="select_file">फ़ाइल का चयन करें</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">शटर_स्केल</string>
     <string name="import_gallery">आयात गैलरी</string>
     <string name="scan_camera">स्कैन कैमरा</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

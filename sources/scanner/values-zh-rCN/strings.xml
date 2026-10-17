@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — 页 %2$d</string>
     <string name="scan_ocr_title">文本识别</string>
-    <string name="scan_ocr_copy">复制文本</string>
     <string name="scan_ocr_no_text">未找到文本</string>
-    <string name="scan_ocr_processing">识别文本…</string>
     <string name="scan_ocr_error">无法识别文本</string>
     <string name="scan_ocr_not_supported">此平台不支持OCR功能</string>
-    <string name="scan_ocr_image">用于OCR的扫描页面</string>
     <string name="gallery">画廊</string>
     <string name="select_file">选择文件</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">快门缩放</string>
     <string name="import_gallery">导入图库</string>
     <string name="scan_camera">扫描相机</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

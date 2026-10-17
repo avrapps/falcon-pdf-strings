@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">Slika spremljena u galeriju</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Izbrisati dokument?</string>
-    <string name="scan_delete_document_message">Jeste li sigurni da želite izbrisati "%1$s"? Ovim će se trajno izbrisati sve stranice u ovom dokumentu. Ova se radnja ne može poništiti.</string>
+    <string name="scan_delete_document_message">Jeste li sigurni da želite izbrisati \"%1$s\"? Ovim će se trajno izbrisati sve stranice u ovom dokumentu. Ova se radnja ne može poništiti.</string>
     <string name="scan_rename_document">Preimenuj dokument</string>
     <string name="scan_rename_enter_name">Unesite novi naziv za dokument</string>
     <string name="scan_rename_document_name">Naziv dokumenta</string>
     <string name="scan_rename_error">Naziv dokumenta ne može biti prazan</string>
     <string name="scan_dialog_delete_document_title">Izbrisati dokument?</string>
-    <string name="scan_dialog_delete_document_message">Jeste li sigurni da želite izbrisati "%1$s"? Ovim će se trajno izbrisati sve stranice u ovom dokumentu. Ova se radnja ne može poništiti.</string>
+    <string name="scan_dialog_delete_document_message">Jeste li sigurni da želite izbrisati \"%1$s\"? Ovim će se trajno izbrisati sve stranice u ovom dokumentu. Ova se radnja ne može poništiti.</string>
     <string name="scan_dialog_delete_confirm">Izbrisati</string>
     <string name="scan_dialog_cancel">Otkazati</string>
     <string name="scan_dialog_move_title">Premjesti u mapu</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Stranica %2$d</string>
     <string name="scan_ocr_title">Prepoznavanje teksta</string>
-    <string name="scan_ocr_copy">Kopiraj tekst</string>
     <string name="scan_ocr_no_text">Nije pronađen tekst</string>
-    <string name="scan_ocr_processing">Prepoznavanje teksta…</string>
     <string name="scan_ocr_error">Prepoznavanje teksta nije uspjelo</string>
     <string name="scan_ocr_not_supported">OCR nije podržan na ovoj platformi</string>
-    <string name="scan_ocr_image">Skenirana stranica za OCR</string>
     <string name="gallery">Galerija</string>
     <string name="select_file">Odaberite datoteku</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">skala_zatvarača</string>
     <string name="import_gallery">Uvoz galerije</string>
     <string name="scan_camera">Skeniraj kameru</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

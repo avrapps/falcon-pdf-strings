@@ -31,7 +31,7 @@
     <string name="tool_pdf_to_image_desc">Stoor as JPG/PNG</string>
     <string name="tool_pdf_to_word_desc">Skakel om na DOCX</string>
     <string name="tool_pdf_to_ppt_desc">Skakel om na skyfies</string>
-    <string name="tool_image_to_pdf_desc">Skep van foto's</string>
+    <string name="tool_image_to_pdf_desc">Skep van foto\'s</string>
     <string name="tool_word_to_pdf_desc">Skep vanaf Word</string>
     <string name="tool_ppt_to_pdf_desc">Skep vanaf PPT</string>
     <string name="tool_watermark_pdf_desc">Voeg watermerk by</string>
@@ -42,7 +42,7 @@
     <string name="tool_read_aloud_desc">Luister na PDF</string>
     <!-- Password Dialog -->
     <string name="password_protected">Wagwoordbeskermd</string>
-    <string name="this_document_is_password_prot">Hierdie dokument is met 'n wagwoord beskerm. Voer asseblief die wagwoord in om voort te gaan.</string>
+    <string name="this_document_is_password_prot">Hierdie dokument is met \'n wagwoord beskerm. Voer asseblief die wagwoord in om voort te gaan.</string>
     <string name="enter_password_for">Voer wagwoord in vir:\n%1$s</string>
     <string name="password">Wagwoord</string>
     <string name="enter_password">Voer wagwoord in</string>
@@ -55,12 +55,12 @@
     <string name="hide_password">Versteek wagwoord</string>
     <string name="show_password">Wys wagwoord</string>
     <string name="rate_dialog_title">Geniet jy die toepassing?</string>
-    <string name="rate_dialog_message">As jy daarvan hou om PDF Viewer te gebruik, neem asseblief 'n oomblik om dit te gradeer. Dit help ons regtig!</string>
+    <string name="rate_dialog_message">As jy daarvan hou om PDF Viewer te gebruik, neem asseblief \'n oomblik om dit te gradeer. Dit help ons regtig!</string>
     <string name="rate_now">Beoordeel op Winkel</string>
     <string name="rate_later">Miskien later</string>
     <string name="rate_never">Nooit Wys</string>
     <!-- Color Picker -->
-    <string name="color_picker_title">Kies 'n kleur</string>
+    <string name="color_picker_title">Kies \'n kleur</string>
     <string name="color_picker_presets">Voorinstellings</string>
     <string name="color_picker_recent">Onlangs</string>
     <string name="color_picker_cancel">Kanselleer</string>
@@ -69,7 +69,7 @@
     <string name="save_for_biometric">Stoor vir biometriese</string>
     <string name="stored_encrypted_locally_wont_sync_to_cl">Plaaslik geïnkripteer gestoor. Sal nie met die wolk sinkroniseer nie.</string>
     <string name="biometric_unlock">Biometriese ontsluiting</string>
-    <string name="upgrade_to_unlock_pdfs_with_fingerprint">Gradeer op om PDF's met vingerafdruk te ontsluit</string>
+    <string name="upgrade_to_unlock_pdfs_with_fingerprint">Gradeer op om PDF\'s met vingerafdruk te ontsluit</string>
     <string name="upgrade">Opgradeer</string>
     <string name="reduce_file_size">Verminder lêergrootte</string>
     <string name="merge_pdf_files">Voeg PDF-lêers saam</string>
@@ -81,7 +81,7 @@
     <string name="save_as_jpgpng">Stoor as JPG/PNG</string>
     <string name="convert_to_docx">Skakel om na DOCX</string>
     <string name="convert_to_slides">Skakel om na skyfies</string>
-    <string name="create_from_photos">Skep van foto's</string>
+    <string name="create_from_photos">Skep van foto\'s</string>
     <string name="create_from_word">Skep uit woord</string>
     <string name="create_from_ppt">Skep vanaf PPT</string>
     <string name="add_watermark">Voeg watermerk by</string>

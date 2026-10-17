@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">إجمالي عدد الصفحات في ملف PDF: %1$d (يجب أن يكون حجم الجزء أقل من %1$d)</string>
     <string name="this_will_create__output_files">سيؤدي هذا إلى إنشاء %1$d ملفات إخراج</string>
     <string name="this_will_create__output_file">سيؤدي هذا إلى إنشاء ملف إخراج %1$d</string>
-    <string name="this_input_will_split_the_pdf_">سيؤدي هذا الإدخال إلى تقسيم ملف PDF إلى ملفات منفصلة بناءً على نطاقاتك. على سبيل المثال، سيؤدي إدخال "1-2، 5، 6-8" إلى إنشاء 3 ملفات PDF: الأول يحتوي على الصفحتين 1-2، والثاني على الصفحة 5، والثالث على الصفحات من 6 إلى 8.</string>
+    <string name="this_input_will_split_the_pdf_">سيؤدي هذا الإدخال إلى تقسيم ملف PDF إلى ملفات منفصلة بناءً على نطاقاتك. على سبيل المثال، سيؤدي إدخال \"1-2، 5، 6-8\" إلى إنشاء 3 ملفات PDF: الأول يحتوي على الصفحتين 1-2، والثاني على الصفحة 5، والثالث على الصفحات من 6 إلى 8.</string>
     <string name="page_ranges">نطاقات الصفحات</string>
     <string name="eg_1234571520">مثال: 1-2، 3، 4-5، 7، 15-20</string>
     <string name="format_use_ranges_15_or_single">التنسيق: استخدم نطاقات (1-5) أو صفحات مفردة (7)، مفصولة بفواصل. يُسمح فقط بالأرقام والواصلات والفواصل.</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">مضغوط بواسطة </string>
     <string name="error_details">تفاصيل الخطأ</string>
     <string name="view">منظر</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">تم تحديد %1$s من %2$s صفحة</string>
     <string name="showing_first_200_pages">عرض أول 200 صفحة</string>

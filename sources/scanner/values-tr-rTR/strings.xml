@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">Resim galeriye kaydedildi.</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Belgeyi silmek mi istiyorsunuz?</string>
-    <string name="scan_delete_document_message">"%1$s" öğesini silmek istediğinizden emin misiniz? Bu işlem, bu belgedeki tüm sayfaları kalıcı olarak silecektir. Bu işlem geri alınamaz.</string>
+    <string name="scan_delete_document_message">\"%1$s\" öğesini silmek istediğinizden emin misiniz? Bu işlem, bu belgedeki tüm sayfaları kalıcı olarak silecektir. Bu işlem geri alınamaz.</string>
     <string name="scan_rename_document">Belgeyi Yeniden Adlandır</string>
     <string name="scan_rename_enter_name">Belge için yeni bir ad girin.</string>
     <string name="scan_rename_document_name">Belge Adı</string>
     <string name="scan_rename_error">Belge adı boş bırakılamaz.</string>
     <string name="scan_dialog_delete_document_title">Belgeyi silmek mi istiyorsunuz?</string>
-    <string name="scan_dialog_delete_document_message">"%1$s" öğesini silmek istediğinizden emin misiniz? Bu işlem, bu belgedeki tüm sayfaları kalıcı olarak silecektir. Bu işlem geri alınamaz.</string>
+    <string name="scan_dialog_delete_document_message">\"%1$s\" öğesini silmek istediğinizden emin misiniz? Bu işlem, bu belgedeki tüm sayfaları kalıcı olarak silecektir. Bu işlem geri alınamaz.</string>
     <string name="scan_dialog_delete_confirm">Silmek</string>
     <string name="scan_dialog_cancel">İptal etmek</string>
     <string name="scan_dialog_move_title">Klasöre Taşı</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Sayfa %2$d</string>
     <string name="scan_ocr_title">Metin Tanıma</string>
-    <string name="scan_ocr_copy">Metni Kopyala</string>
     <string name="scan_ocr_no_text">Metin bulunamadı.</string>
-    <string name="scan_ocr_processing">Metni tanıma…</string>
     <string name="scan_ocr_error">Metin tanınmadı.</string>
     <string name="scan_ocr_not_supported">Bu platformda OCR desteği bulunmamaktadır.</string>
-    <string name="scan_ocr_image">OCR için taranmış sayfa</string>
     <string name="gallery">Galeri</string>
     <string name="select_file">Dosya Seç</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">deklanşör_ölçeği</string>
     <string name="import_gallery">Galeriye İçe Aktarma</string>
     <string name="scan_camera">Tarama Kamerası</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

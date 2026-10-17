@@ -19,7 +19,7 @@
     <string name="purchase_premium_tagline">Alles in Pro, plus AI &amp; Cloud</string>
     <string name="purchase_recommended">Aanbevolen</string>
     <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
-    <string name="purchase_pro_feature_1">AI voorlezen — Luister op een natuurlijke manier naar PDF's.</string>
+    <string name="purchase_pro_feature_1">AI voorlezen — Luister op een natuurlijke manier naar PDF\'s.</string>
     <string name="purchase_pro_feature_2">Volledige PDF-bewerking &amp; Formulier invullen</string>
     <string name="purchase_pro_feature_3">Synchronisatie tussen apparaten via Drive</string>
     <string name="purchase_pro_feature_4">Reclamevrij, geen watermerk op de scans</string>
@@ -30,7 +30,7 @@
     <string name="purchase_premium_feature_2_desc">Uw persoonlijke PDF-bibliotheek, gesynchroniseerd en veilig.</string>
     <string name="purchase_premium_feature_3_title">Geen beperkingen op meer dan 60 PDF-tools</string>
     <string name="purchase_premium_feature_3_desc">Alle gereedschappen, altijd beschikbaar.</string>
-    <string name="purchase_premium_feature_4_title">Volledige tekstbewerking in PDF's</string>
+    <string name="purchase_premium_feature_4_title">Volledige tekstbewerking in PDF\'s</string>
     <string name="purchase_premium_feature_4_desc">Bewerk tekst direct, net als in een tekstverwerker.</string>
     <!-- Purchase Screen - Actions -->
     <string name="purchase_buy_pro">Koop Pro</string>
@@ -105,10 +105,10 @@
     <string name="crossdevice_sync_via_drive">Synchronisatie tussen apparaten via Drive</string>
     <string name="adfree_no_watermark">Reclamevrij, geen watermerk</string>
     <string name="export_to_word__excel">Exporteren naar Word &amp; Excel</string>
-    <string name="multiple_themes__page_backgrounds">Meerdere thema's &amp; Pagina-achtergronden</string>
+    <string name="multiple_themes__page_backgrounds">Meerdere thema\'s &amp; Pagina-achtergronden</string>
     <string name="ai_summaries_with_stronger_reasoning">AI-samenvattingen met een sterkere argumentatie</string>
     <string name="no_limits_on_60_pdf_tools">Geen beperkingen op meer dan 60 PDF-tools</string>
-    <string name="full_text_editing_in_pdfs">Volledige tekstbewerking in PDF's</string>
+    <string name="full_text_editing_in_pdfs">Volledige tekstbewerking in PDF\'s</string>
     <string name="digital_signatures_dscesign">Digitale handtekeningen (DSC/eSign)</string>
     <string name="unlimited_scanned_document_sync">Onbeperkte synchronisatie van gescande documenten</string>
     <string name="biometric_document_lock">Biometrische documentvergrendeling</string>

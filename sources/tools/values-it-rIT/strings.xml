@@ -9,8 +9,8 @@
     <string name="select_range">Seleziona intervallo</string>
     <string name="select_all">Seleziona tutto</string>
     <string name="clear_all">Cancella tutto</string>
-    <string name="select_page_range">Seleziona l'intervallo di pagine</string>
-    <string name="enter_the_range_of_pages_to_de">Inserisci l'intervallo di pagine da eliminare (1-%1$s)</string>
+    <string name="select_page_range">Seleziona l\'intervallo di pagine</string>
+    <string name="enter_the_range_of_pages_to_de">Inserisci l\'intervallo di pagine da eliminare (1-%1$s)</string>
     <string name="from">Da</string>
     <string name="to">A</string>
     <string name="select">Selezionare</string>
@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">Numero totale di pagine nel PDF: %1$d (la dimensione del segmento deve essere inferiore a %1$d)</string>
     <string name="this_will_create__output_files">Questo creerà %1$d file di output</string>
     <string name="this_will_create__output_file">Questo creerà il file di output %1$d</string>
-    <string name="this_input_will_split_the_pdf_">Questo input dividerà il PDF in file separati in base agli intervalli specificati. Ad esempio, "1-2,5,6-8" creerà 3 PDF: il primo con le pagine 1-2, il secondo con la pagina 5 e il terzo con le pagine 6-8.</string>
+    <string name="this_input_will_split_the_pdf_">Questo input dividerà il PDF in file separati in base agli intervalli specificati. Ad esempio, \"1-2,5,6-8\" creerà 3 PDF: il primo con le pagine 1-2, il secondo con la pagina 5 e il terzo con le pagine 6-8.</string>
     <string name="page_ranges">Intervalli di pagine</string>
     <string name="eg_1234571520">ad esempio 1-2,3,4-5,7,15-20</string>
     <string name="format_use_ranges_15_or_single">Formato: utilizzare intervalli (1-5) o pagine singole (7), separati da virgole. Sono ammessi solo cifre, trattini e virgole.</string>
@@ -67,8 +67,9 @@
     <string name="open_file">Apri il file</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
     <string name="compressed_by_">Compresso da </string>
-    <string name="error_details">Dettagli dell'errore</string>
+    <string name="error_details">Dettagli dell\'errore</string>
     <string name="view">Visualizzazione</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">%1$s di %2$s pagine selezionate</string>
     <string name="showing_first_200_pages">Visualizzazione delle prime 200 pagine</string>
@@ -92,7 +93,7 @@
     <string name="page_">Pagina %1$s</string>
     <string name="position__of_">Posizione: %1$s di %2$s</string>
     <string name="drag_handle">Maniglia di trascinamento</string>
-    <string name="move_up">Spostarsi verso l'alto</string>
+    <string name="move_up">Spostarsi verso l\'alto</string>
     <string name="move_down">Scendendo</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
     <string name="compress_pdf">Comprimi PDF</string>
@@ -121,12 +122,12 @@
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
     <string name="images_to_pdf">Immagini in PDF</string>
     <string name="str__images_selected">%1$s immagini selezionate</string>
-    <string name="images_will_be_converted_in_th">Le immagini verranno convertite nell'ordine mostrato di seguito</string>
+    <string name="images_will_be_converted_in_th">Le immagini verranno convertite nell\'ordine mostrato di seguito</string>
     <string name="remove">Rimuovere</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
     <string name="pdf_to_images">Da PDF a immagini</string>
     <string name="image_format">Formato immagine</string>
-    <string name="image_quality_dpi">Qualità dell'immagine (DPI)</string>
+    <string name="image_quality_dpi">Qualità dell\'immagine (DPI)</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
     <string name="merge_pdf">Unisci PDF</string>
     <string name="n_files_selected">%1$d file selezionati</string>
@@ -201,7 +202,7 @@
     <string name="clear">Chiaro</string>
     <string name="pick_a_tool_">Scegli uno strumento →</string>
     <string name="drag_to_reorder">Trascina per riordinare</string>
-    <string name="your_files_are_securely_processed_on_our">I tuoi file vengono elaborati in modo sicuro sui nostri server tramite connessioni crittografate e cancellati automaticamente entro un'ora. Non memorizziamo né condividiamo mai i tuoi dati.</string>
+    <string name="your_files_are_securely_processed_on_our">I tuoi file vengono elaborati in modo sicuro sui nostri server tramite connessioni crittografate e cancellati automaticamente entro un\'ora. Non memorizziamo né condividiamo mai i tuoi dati.</string>
     <string name="compression_quality">Qualità della compressione</string>
     <string name="dragelevation">trascinamentoElevazione</string>
     <string name="tool_card_scale">scala della scheda degli strumenti</string>

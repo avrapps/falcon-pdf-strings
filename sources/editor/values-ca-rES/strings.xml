@@ -16,23 +16,23 @@
     <string name="enter_password">Introdueix la contrasenya</string>
     <string name="incorrect_password_please_try_">Contrasenya incorrecta. Si us plau, torneu-ho a intentar.</string>
     <string name="unlock">Desbloqueja</string>
-    <string name="password_input_field">Camp d'entrada de contrasenya</string>
+    <string name="password_input_field">Camp d\'entrada de contrasenya</string>
     <string name="unlock_pdf_with_password">Desbloqueja el PDF amb contrasenya</string>
     <string name="cancel_and_go_back">Cancel·la i torna enrere</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/contents/PdfAnnotationsPanel.kt -->
     <string name="comments_coming_soon">Comentaris aviat</string>
-    <string name="annotation_features_will_be_av">Les funcions d'anotació estaran disponibles en una futura actualització. Podreu afegir ressaltats, notes i comentaris als vostres documents PDF.</string>
+    <string name="annotation_features_will_be_av">Les funcions d\'anotació estaran disponibles en una futura actualització. Podreu afegir ressaltats, notes i comentaris als vostres documents PDF.</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/contents/PdfBookmarksPanel.kt -->
     <string name="my_bookmarks">ELS MEUS PUNTS DE LLIBRE</string>
-    <string name="no_bookmarks_added">No s'han afegit marcadors</string>
+    <string name="no_bookmarks_added">No s\'han afegit marcadors</string>
     <string name="pdf_outline">ESQUEMA EN PDF</string>
-    <string name="loading_outline">S'està carregant l'esquema...</string>
+    <string name="loading_outline">S\'està carregant l\'esquema...</string>
     <string name="this_document_does_not_contain">Aquest document no conté un esquema</string>
     <string name="page___">Pàgina %1$s • %2$s</string>
     <string name="page_">Pàgina %1$s</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/contents/PdfPagesPanel.kt -->
-    <string name="loading_document">S'està carregant el document...</string>
-    <string name="no_pages_found_in_document">No s'han trobat pàgines al document</string>
+    <string name="loading_document">S\'està carregant el document...</string>
+    <string name="no_pages_found_in_document">No s\'han trobat pàgines al document</string>
     <string name="error">Error</string>
     <string name="page__thumbnail">Miniatura de la pàgina %1$s</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/expanded/LeftNavigation.kt -->
@@ -90,27 +90,27 @@
     <string name="print">Imprimeix</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/shared/SharedSearchResultsList.kt -->
     <string name="str__results">resultats %1$s</string>
-    <string name="str__results_for_">%1$s resultats per a "%2$s"</string>
+    <string name="str__results_for_">%1$s resultats per a \"%2$s\"</string>
     <string name="close_results">Tanca els resultats</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/settings/ui/SettingsScreen.kt -->
-    <string name="pdf_editor_settings">Configuració de l'editor de PDF</string>
+    <string name="pdf_editor_settings">Configuració de l\'editor de PDF</string>
     <string name="save_preferences">Desa les preferències</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/settings/ui/components/SettingsComponents.kt -->
     <string name="page_background">Fons de pàgina</string>
-    <string name="annotation_author">Autor de l'anotació</string>
+    <string name="annotation_author">Autor de l\'anotació</string>
     <string name="eg_alex_johnson">per exemple, Alex Johnson</string>
     <string name="this_name_will_appear_on_all_y">Aquest nom apareixerà a tots els comentaris i ressaltats del vostre document.</string>
-    <string name="free_plan_annotation_author_info">Els usuaris del pla gratuït tenen un autor d'anotacions fix. Actualitza a Pro per personalitzar el nom de l'autor.</string>
+    <string name="free_plan_annotation_author_info">Els usuaris del pla gratuït tenen un autor d\'anotacions fix. Actualitza a Pro per personalitzar el nom de l\'autor.</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/chat/ui/ChatScreenContent.kt -->
     <string name="ai_chat_assistant">Assistent de xat amb IA</string>
-    <string name="loading_chat">S'està carregant el xat...</string>
-    <string name="get_intelligent_insights_and_a">Obtén informació i respostes intel·ligents sobre els teus documents PDF amb el nostre assistent d'IA.</string>
+    <string name="loading_chat">S\'està carregant el xat...</string>
+    <string name="get_intelligent_insights_and_a">Obtén informació i respostes intel·ligents sobre els teus documents PDF amb el nostre assistent d\'IA.</string>
     <string name="available_with_pro_and_premium">Disponible amb els plans Pro* i Premium</string>
     <string name="upgrade_now">Actualitza ara</string>
     <string name="chat_quota_exceeded_title">Límit mensual assolit</string>
-    <string name="chat_quota_exceeded_pro_message">Has utilitzat tots els xats d'IA de per vida %1$s inclosos amb Pro. Actualitza a Premium per a 5 xats al mes.</string>
-    <string name="chat_quota_exceeded_premium_message">Has utilitzat tots els xats d'IA %1$s d'aquest mes. La teva quota es restableix el mes que ve.</string>
-    <string name="chat_pro_limit_note">* El pla Pro inclou %1$s xats d'IA al mes</string>
+    <string name="chat_quota_exceeded_pro_message">Has utilitzat tots els xats d\'IA de per vida %1$s inclosos amb Pro. Actualitza a Premium per a 5 xats al mes.</string>
+    <string name="chat_quota_exceeded_premium_message">Has utilitzat tots els xats d\'IA %1$s d\'aquest mes. La teva quota es restableix el mes que ve.</string>
+    <string name="chat_pro_limit_note">* El pla Pro inclou %1$s xats d\'IA al mes</string>
     <string name="chat_usage_indicator_pro">%1$s / %2$s xats utilitzats durant tota la vida</string>
     <string name="chat_usage_indicator_premium">%1$s / %2$s xats aquest mes</string>
     <!-- Chat History screen -->
@@ -121,7 +121,7 @@
     <string name="chat_history_last_message">Últim: %1$s</string>
     <string name="something_went_wrong">Alguna cosa ha anat malament</string>
     <string name="retry">Torna-ho a intentar</string>
-    <string name="ask_me_anything_about_your_pdf">Pregunta'm qualsevol cosa sobre el teu document PDF</string>
+    <string name="ask_me_anything_about_your_pdf">Pregunta\'m qualsevol cosa sobre el teu document PDF</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/chat/ui/components/SuggestedPrompts.kt -->
     <string name="try_asking">Prova de preguntar:</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/chat/ui/components/ChatInputArea.kt -->
@@ -139,19 +139,20 @@
     <string name="search">Cerca</string>
     <string name="more_actions">Més accions</string>
     <string name="share">Comparteix</string>
+    <string name="show_in_finder">Show in Finder</string>
     <string name="delete">Suprimeix</string>
     <string name="open">Obre</string>
     <string name="all">Tot</string>
     <string name="sort_by_">Ordena per %1$s</string>
     <string name="str_">%1$s</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/SimplePdfViewer.kt -->
-    <string name="loading_pdf">S'està carregant el PDF...</string>
+    <string name="loading_pdf">S\'està carregant el PDF...</string>
     <string name="cannot_open_file">No es pot obrir el fitxer</string>
     <string name="for_security_reasons_opening_l">Per motius de seguretat, no es permet obrir fitxers locals des de PDF.\n\nFitxer: %1$s</string>
     <string name="open_file_confirmation">Aquest PDF conté un enllaç a un fitxer local. Voleu obrir-lo?\n\nFitxer: %1$s</string>
     <string name="open_file_title">Obre el fitxer enllaçat</string>
-    <string name="open_file_not_found">No s'ha pogut trobar el fitxer enllaçat.\n\nFitxer: %1$s</string>
-    <string name="ok">D'acord</string>
+    <string name="open_file_not_found">No s\'ha pogut trobar el fitxer enllaçat.\n\nFitxer: %1$s</string>
+    <string name="ok">D\'acord</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/ThreadedRepliesView.kt -->
     <string name="reply">Resposta</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/CompactPdfBottomSheets.kt -->
@@ -162,26 +163,26 @@
     <!-- Save Options Dialog -->
     <string name="save_changes">Desa els canvis</string>
     <string name="save_to_documents">Desa a Documents</string>
-    <string name="save_with_watermark">Desa amb marca d'aigua</string>
+    <string name="save_with_watermark">Desa amb marca d\'aigua</string>
     <string name="save_clean_buy_pro">Estalvia Net — Compra Pro</string>
     <string name="save_clean_buy_premium">Desa Neteja — Subscriu-te a Premium</string>
     <string name="subscribe_premium">Subscriu-te a Premium</string>
     <string name="save_options_title">Desar els canvis?</string>
-    <string name="save_options_subtitle">Trieu com voleu desar "%1$s"</string>
+    <string name="save_options_subtitle">Trieu com voleu desar \"%1$s\"</string>
     <string name="save_options_edits_summary">Edicions fetes: %1$s</string>
     <string name="save_options_irreversible_note">Aquests canvis no es poden desfer un cop desats.</string>
-    <string name="save_options_pro_note">Funcions Pro detectades. Desa amb marca d'aigua gratuïtament o compra Pro per a una exportació neta.</string>
+    <string name="save_options_pro_note">Funcions Pro detectades. Desa amb marca d\'aigua gratuïtament o compra Pro per a una exportació neta.</string>
     <string name="save_options_premium_note">Funcions premium detectades. Subscriu-te a Premium per desar sense restriccions.</string>
     <string name="edit_type_free">Marcat</string>
     <string name="edit_type_pro">Text / Formulari / Signe</string>
-    <string name="edit_type_premium">Marca d'aigua / Números de pàgina</string>
-    <string name="save_with_watermark_note">Nota: S'afegirà una marca d'aigua a cada pàgina.</string>
+    <string name="edit_type_premium">Marca d\'aigua / Números de pàgina</string>
+    <string name="save_with_watermark_note">Nota: S\'afegirà una marca d\'aigua a cada pàgina.</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/AnnotationCard.kt -->
     <string name="str___page_">%1$s • Pàgina %2$s</string>
     <string name="just_now">Ara mateix</string>
     <string name="author">Autor</string>
     <string name="note">Nota</string>
-    <string name="no_note_added">No s'ha afegit cap nota</string>
+    <string name="no_note_added">No s\'ha afegit cap nota</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/ReplyInputDialog.kt -->
     <string name="reply_to_">Respon a %1$s</string>
     <string name="your_reply">La teva resposta</string>
@@ -192,8 +193,8 @@
     <string name="annotations_">Anotacions (%1$s)</string>
     <string name="no_annotations_at_this_locatio">No hi ha anotacions en aquesta ubicació</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/contents/PdfAnnotationsPanel.kt -->
-    <string name="loading_annotations">S'estan carregant les anotacions...</string>
-    <string name="failed_to_load_annotations">No s'han pogut carregar les anotacions</string>
+    <string name="loading_annotations">S\'estan carregant les anotacions...</string>
+    <string name="failed_to_load_annotations">No s\'han pogut carregar les anotacions</string>
     <string name="no_annotations_yet">Encara no hi ha anotacions</string>
     <string name="add_highlights_notes_or_commen">Afegiu ressaltats, notes o comentaris al vostre PDF</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/compact/CompactPdfTopBar.kt -->
@@ -210,6 +211,10 @@
     <string name="edit_tool_hint_drag_shape">Arrossega per dibuixar una forma</string>
     <string name="edit_tool_hint_tap_form">Toca per afegir un camp de formulari</string>
     <string name="edit_tool_hint_tap_stamp">Toca per col·locar el segell</string>
+    <string name="edit_tool_hint_tap_signature_field">Tap to place signature field</string>
+    <string name="edit_tool_hint_tap_note">Tap to insert text note</string>
+    <string name="edit_tool_hint_tap_text_field">Tap to insert Text field</string>
+    <string name="edit_tool_hint_tap_attachment">Tap to insert attachment</string>
     <string name="user">Usuari</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/edittools/ui/components/SelectionBox.kt -->
     <string name="signature_preview">Vista prèvia de la signatura</string>
@@ -230,13 +235,13 @@
     <string name="pro_feature">Funció professional</string>
     <string name="premium_feature">Funció premium</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/edittools/ui/components/WatermarkBottomSheet.kt -->
-    <string name="watermark_settings">Configuració de la marca d'aigua</string>
+    <string name="watermark_settings">Configuració de la marca d\'aigua</string>
     <string name="apply">Aplica</string>
     <string name="live_preview">Previsualització en directe</string>
     <string name="page_of_">Pàgina %1$s de %2$s</string>
     <string name="watermark_type_text">Text</string>
     <string name="watermark_type_image">Imatge</string>
-    <string name="watermark_text_label">Text de la marca d'aigua</string>
+    <string name="watermark_text_label">Text de la marca d\'aigua</string>
     <string name="watermark_text_placeholder">p. ex. CONFIDENCIAL</string>
     <string name="watermark_font_label">Font</string>
     <string name="watermark_size_label">Mida</string>
@@ -253,33 +258,33 @@
     <string name="watermark_page_range_current">Pàgina actual</string>
     <string name="watermark_page_range_custom">Rang personalitzat</string>
     <string name="watermark_page_range_custom_hint">p. ex. 1-5, 8, 11-12</string>
-    <string name="watermark_apply_button">Aplicar marca d'aigua</string>
+    <string name="watermark_apply_button">Aplicar marca d\'aigua</string>
     <string name="watermark_reset_button">Restablir</string>
     <string name="watermark_decrease_size">Reduir la mida de la lletra</string>
     <string name="watermark_increase_size">Augmenta la mida de la lletra</string>
     <string name="watermark_previous_page">Pàgina de previsualització anterior</string>
     <string name="watermark_next_page">Pàgina de previsualització següent</string>
-    <string name="watermark_close">Tanca la configuració de la marca d'aigua</string>
+    <string name="watermark_close">Tanca la configuració de la marca d\'aigua</string>
     <string name="watermark_font_helvetica">Helvètica</string>
     <string name="watermark_font_times">Times New Roman</string>
     <string name="watermark_font_courier">Missatger</string>
     <string name="watermark_select_image">Selecciona la imatge</string>
-    <string name="watermark_image_scale_label">Escala d'imatge</string>
-    <string name="watermark_indicative_note">Nota: La previsualització és indicativa. Un cop aplicades, les marques d'aigua no es poden editar més tard.</string>
-    <string name="watermark_image_hint">Toca per seleccionar una imatge de marca d'aigua (PNG, JPG)</string>
+    <string name="watermark_image_scale_label">Escala d\'imatge</string>
+    <string name="watermark_indicative_note">Nota: La previsualització és indicativa. Un cop aplicades, les marques d\'aigua no es poden editar més tard.</string>
+    <string name="watermark_image_hint">Toca per seleccionar una imatge de marca d\'aigua (PNG, JPG)</string>
     <string name="watermark_position_label">Posició</string>
-    <string name="watermark_position_top_left">A dalt a l'esquerra</string>
+    <string name="watermark_position_top_left">A dalt a l\'esquerra</string>
     <string name="watermark_position_top_center">Centre superior</string>
     <string name="watermark_position_top_right">A dalt a la dreta</string>
     <string name="watermark_position_middle_left">Centre Esquerra</string>
     <string name="watermark_position_middle_center">Centre</string>
     <string name="watermark_position_middle_right">Centre Dreta</string>
-    <string name="watermark_position_bottom_left">A baix a l'esquerra</string>
+    <string name="watermark_position_bottom_left">A baix a l\'esquerra</string>
     <string name="watermark_position_bottom_center">Centre inferior</string>
     <string name="watermark_position_bottom_right">A baix a la dreta</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/edittools/ui/components/FormSubtypeSelector.kt -->
     <string name="checkbox_form_field">Camp de formulari de casella de selecció</string>
-    <string name="radio_button_form_field">Camp de formulari de botó d'opció</string>
+    <string name="radio_button_form_field">Camp de formulari de botó d\'opció</string>
     <string name="text_field_form_field">Camp de text camp de formulari</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/edittools/ui/components/StampBottomSheet.kt -->
     <string name="select_stamp">Selecciona el segell</string>
@@ -301,9 +306,10 @@
     <string name="png_jpg_supported">PNG i JPG compatibles</string>
     <string name="select_image">Selecciona la imatge</string>
     <string name="sign_here_with_your_finger">Signa aquí amb el dit</string>
+    <string name="sign_here_placeholder">Sign Here</string>
     <string name="crop_signature">Signatura del cultiu</string>
     <string name="apply_crop">Aplica el retall</string>
-    <string name="loading_image">S'està carregant la imatge...</string>
+    <string name="loading_image">S\'està carregant la imatge...</string>
     <string name="close">Tanca</string>
     <string name="upload_image">Puja una imatge</string>
     <string name="selected_image">Imatge seleccionada</string>
@@ -328,7 +334,7 @@
     <string name="hd">Alta definició</string>
     <string name="try_voice">Prova la veu</string>
     <string name="selected">Seleccionat</string>
-    <string name="align_left">Alinea a l'esquerra</string>
+    <string name="align_left">Alinea a l\'esquerra</string>
     <string name="align_center">Alinea al centre</string>
     <string name="align_right">Alinea a la dreta</string>
     <string name="document_viewing">Visualització de documents</string>
@@ -342,7 +348,7 @@
     <string name="reading_mode">Mode de lectura</string>
     <string name="more">Més</string>
     <string name="search_results">Resultats de la cerca</string>
-    <string name="prevent_screen_from_turning_off_while_re">Evita que la pantalla s'apagui mentre llegeixes</string>
+    <string name="prevent_screen_from_turning_off_while_re">Evita que la pantalla s\'apagui mentre llegeixes</string>
     <string name="use_volume_buttons_to_scroll_pages">Utilitzeu els botons de volum per desplaçar-vos per les pàgines</string>
     <string name="single_tap_to_toggle_fullscreen_mode">Toqueu un sol cop per activar o desactivar el mode de pantalla completa</string>
     <!-- Page Number Settings -->
@@ -390,13 +396,13 @@
     <!-- Annotation interaction tooltip -->
     <string name="annotation_tooltip_edit">Edita</string>
     <string name="annotation_tooltip_delete">Suprimeix</string>
-    <string name="annotation_tooltip_drag_desc">Arrossega l'anotació</string>
-    <string name="annotation_tooltip_edit_desc">Edita les propietats de l'anotació</string>
-    <string name="annotation_tooltip_delete_desc">Suprimeix l'anotació</string>
-    <string name="annotation_property_panel_coming_soon">L'edició de propietats estarà disponible aviat</string>
-    <string name="image_options">Opcions d'imatge</string>
+    <string name="annotation_tooltip_drag_desc">Arrossega l\'anotació</string>
+    <string name="annotation_tooltip_edit_desc">Edita les propietats de l\'anotació</string>
+    <string name="annotation_tooltip_delete_desc">Suprimeix l\'anotació</string>
+    <string name="annotation_property_panel_coming_soon">L\'edició de propietats estarà disponible aviat</string>
+    <string name="image_options">Opcions d\'imatge</string>
     <string name="rotation">ROTACIÓ</string>
-    <string name="rotate_left">Gira a l'esquerra</string>
+    <string name="rotate_left">Gira a l\'esquerra</string>
     <string name="rotate_right">Gira a la dreta</string>
     <string name="custom_angle">Angle personalitzat</string>
     <string name="angle_hint">Angle (0-360)</string>
@@ -412,8 +418,62 @@
     <string name="tool_sign">Signa</string>
     <string name="tool_image">Imatge</string>
     <string name="tool_stamp">Segell</string>
-    <string name="tool_watermark">Marca d'aigua</string>
+    <string name="tool_watermark">Marca d\'aigua</string>
     <string name="tool_page_number">Número de pàgina</string>
+    <string name="tool_attachment">Attachment</string>
+    <string name="tool_signature_field">Digital Signature</string>
+    <!-- Digital signature: Sign-or-Share choice (Phase 1C) -->
+    <string name="sign_choice_title">What would you like to do?</string>
+    <string name="sign_choice_subtitle">Sign this document yourself, or send it to someone else to sign.</string>
+    <string name="sign_choice_sign_this">Sign this PDF</string>
+    <string name="sign_choice_share">Share PDF to sign</string>
+    <!-- Digital signature: Share PDF to sign (Phase 1D) -->
+    <string name="share_sign_title">Share PDF to sign</string>
+    <string name="share_sign_signer_email">Signer email</string>
+    <string name="share_sign_signer_email_hint">name@example.com</string>
+    <string name="share_sign_deadline">Sign-by date</string>
+    <string name="share_sign_no_expiry">No expiry</string>
+    <string name="share_sign_message_optional">Message (optional)</string>
+    <string name="share_sign_cc_optional">CC (optional)</string>
+    <string name="share_sign_cc_hint">Comma-separated emails</string>
+    <string name="share_sign_send">Send invite</string>
+    <string name="share_sign_requires_signin">Please sign in to send a signing request.</string>
+    <string name="share_sign_sign_in">Sign in</string>
+    <string name="share_sign_invalid_email">Enter a valid email address.</string>
+    <string name="share_sign_pick_date">Pick a sign-by date.</string>
+    <string name="share_sign_sending">Sending invite…</string>
+    <string name="share_sign_failed">Could not send the invite. Please try again.</string>
+    <string name="share_sign_sent_title">Invite sent</string>
+    <string name="share_sign_sent_message">We\'ve emailed the signer. You\'ve been CC\'d a copy.</string>
+    <!-- Digital signature: signing-in-progress overlay -->
+    <string name="sign_in_progress">Signing…</string>
+    <!-- Digital signature: post-sign upload + confirmation (Phase 1E) -->
+    <string name="sign_upload_success">Signed — sender and you have been emailed a copy.</string>
+    <string name="sign_upload_reauth_prompt">Sign in as %1$s to upload your signed copy.</string>
+    <!-- Digital signature: Pending Actions (Phase 1F) -->
+    <string name="pending_actions_title">Pending Actions</string>
+    <string name="pending_sign_requests_title">Pending Sign Requests</string>
+    <string name="pending_actions_see_all">See All</string>
+    <string name="pending_actions_refresh">Refresh</string>
+    <string name="pending_actions_sign">Sign</string>
+    <string name="pending_actions_reject">Reject</string>
+    <string name="pending_actions_reject_confirm_title">Reject sign request?</string>
+    <string name="pending_actions_reject_confirm_message">Decline to sign \"%1$s\"? The sender will be notified and this can\'t be undone.</string>
+    <string name="pending_actions_requested_on">Requested %1$s</string>
+    <string name="pending_actions_expired">Expired</string>
+    <string name="pending_actions_sign_within_days">Sign within %1$d days</string>
+    <string name="pending_actions_sign_within_one_day">Sign within 1 day</string>
+    <string name="pending_actions_empty">No pending sign requests.</string>
+    <!-- File attachment feature -->
+    <string name="attachment_save_title">Save attachment?</string>
+    <string name="attachment_save_security_message">For your safety, this file is only saved to your device — it is never opened automatically. Only save attachments from sources you trust.</string>
+    <string name="attachment_file_label">File: %1$s</string>
+    <string name="attachment_saved_to">Saved to %1$s</string>
+    <string name="attachment_save_failed">Couldn\'t save the attachment</string>
+    <string name="attachment_save_failed_reason">Couldn\'t save the attachment: %1$s</string>
+    <string name="attachment_extract_failed">Couldn\'t read the attachment</string>
+    <string name="attachment_pick_failed">Couldn\'t read the selected file</string>
+    <string name="attachment_added">Attachment added. Tap to place it on the page.</string>
     <!-- Form tool labels -->
     <string name="tool_form_text_field">Camp de text</string>
     <string name="tool_form_checkbox">Casella de selecció</string>
@@ -444,12 +504,12 @@
     <!-- Property panel labels -->
     <string name="prop_color">Color</string>
     <string name="prop_stroke_color">Color del traç</string>
-    <string name="prop_fill_color">Color d'emplenament</string>
+    <string name="prop_fill_color">Color d\'emplenament</string>
     <string name="prop_stroke_width">Amplada del traç</string>
     <string name="prop_opacity">Opacitat</string>
-    <string name="prop_start_arrow">Fletxa d'inici</string>
+    <string name="prop_start_arrow">Fletxa d\'inici</string>
     <string name="prop_end_arrow">Fletxa final</string>
-    <string name="annotation_properties">Propietats d'anotació</string>
+    <string name="annotation_properties">Propietats d\'anotació</string>
     <string name="type_here">Escriu aquí...</string>
     <string name="border_style">Estil de vora</string>
     <string name="bold">Negreta</string>
@@ -465,11 +525,11 @@
     <string name="no_saved_signatures">Sense signatures desades</string>
     <string name="delete_signature">Suprimeix la signatura</string>
     <string name="page__of_">Pàgina %1$s de %2$s</string>
-    <string name="author_name">Nom de l'autor</string>
+    <string name="author_name">Nom de l\'autor</string>
     <string name="strike">Vaga</string>
     <string name="squiggly">Ondulat</string>
     <string name="redact">Redactar</string>
-    <string name="ai_chat">Xat d'IA</string>
+    <string name="ai_chat">Xat d\'IA</string>
     <string name="annotations">Anotacions</string>
     <string name="pan_mode">Mode panoràmic</string>
     <string name="select_mode">Selecciona el mode</string>
@@ -480,7 +540,7 @@
     <string name="on_device_tts">TTS al dispositiu</string>
     <string name="standard_on_device">Estàndard al dispositiu</string>
     <string name="standard_on_device_desc">Utilitza les veus predeterminades del sistema.</string>
-    <string name="elevenlabs_api_key">Clau API d'ElevenLabs</string>
+    <string name="elevenlabs_api_key">Clau API d\'ElevenLabs</string>
     <string name="api_key_placeholder">sk_...</string>
     <string name="language">Llengua</string>
     <string name="advanced_settings">Configuració avançada</string>
@@ -499,8 +559,8 @@
     <string name="sig_all_valid">Signat i totes les signatures són vàlides</string>
     <string name="sig_all_valid_count">Totes les signatures %1$d són vàlides</string>
     <string name="sig_certified_by">Document certificat per %1$s</string>
-    <string name="sig_mixed">S'han verificat %1$d de %2$d signatures. No s'ha pogut verificar %3$d.</string>
-    <string name="sig_invalid">AVÍS: El document s'ha modificat; les signatures no són vàlides.</string>
+    <string name="sig_mixed">S\'han verificat %1$d de %2$d signatures. No s\'ha pogut verificar %3$d.</string>
+    <string name="sig_invalid">AVÍS: El document s\'ha modificat; les signatures no són vàlides.</string>
     <string name="sig_unsigned_single">Aquest document té un camp de signatura que cal signar.</string>
     <string name="sig_unsigned_plural">Aquest document té %1$d camps de signatura que cal signar.</string>
     <string name="sig_partial_signed">%1$d amb signe%2$s. %3$d camp sense signe%4$s restant.</string>
@@ -515,13 +575,93 @@
     <string name="sig_rev_signed_by">Rev. %1$d: Signat per</string>
     <string name="sig_validity_summary">Resum de validesa</string>
     <string name="sig_doc_not_modified">El document no ha estat modificat des de la signatura</string>
+    <!-- Digital Signature — Digital ID dialog (DigitalIdDialog.kt) -->
+    <string name="sig_id_header_sign">Sign with a Digital ID</string>
+    <string name="sig_id_header_add">Add a Digital ID</string>
+    <string name="sig_id_header_create">Create a self-signed Digital ID</string>
+    <string name="sig_id_header_import">Import Digital ID from file</string>
+    <string name="sig_id_close">Close</string>
+    <string name="sig_id_error_read_file">Could not read the selected file</string>
+    <string name="sig_id_error_bad_password">Incorrect password or unsupported file</string>
+    <string name="sig_id_empty_list">You don\'t have any Digital IDs yet. Add one to sign this document.</string>
+    <string name="sig_id_choose_to_sign">Choose the Digital ID to sign with:</string>
+    <string name="sig_id_choose_add_type">How would you like to add a Digital ID?</string>
+    <string name="sig_id_option_file_desc">Import an existing .p12 / .pfx Digital ID you already have.</string>
+    <string name="sig_id_option_create_desc">Create a self-signed Digital ID for personal use.</string>
+    <string name="sig_id_password_prompt">Enter the password that protects \"%1$s\".</string>
+    <string name="sig_id_password_label">Password</string>
+    <string name="sig_id_hide_password">Hide password</string>
+    <string name="sig_id_show_password">Show password</string>
+    <string name="sig_id_badge_keychain">Keychain</string>
+    <string name="sig_id_expired">Expired</string>
+    <string name="sig_id_valid_to">Valid to %1$s</string>
+    <string name="sig_id_btn_cancel">Cancel</string>
+    <string name="sig_id_btn_continue">Continue</string>
+    <string name="sig_id_btn_back">Back</string>
+    <string name="sig_id_btn_save">Save</string>
+    <string name="sig_id_btn_import">Import</string>
+    <!-- Digital Signature — signed success dialog (SignedSuccessDialog.kt) -->
+    <string name="sig_success_title">Document signed</string>
+    <string name="sig_success_saved_as">Saved as \"%1$s\".</string>
+    <string name="sig_success_close">Close</string>
+    <string name="sig_success_open">Open signed PDF</string>
+    <!-- Digital Signature — signer detail rows (SignatureSideBarContent.kt) -->
+    <string name="sig_collapse">Collapse</string>
+    <string name="sig_expand">Expand</string>
+    <string name="sig_add_to_trusted">Add to Trusted Certificate</string>
+    <string name="sig_row_signed_by">Signed by</string>
+    <string name="sig_row_reason">Reason</string>
+    <string name="sig_row_time">Time</string>
+    <string name="sig_row_type">Type</string>
+    <string name="sig_row_permission">Permission</string>
+    <string name="sig_row_certificate">Certificate</string>
+    <string name="sig_row_issued_by">Issued by</string>
+    <string name="sig_row_valid_from">Valid from</string>
+    <string name="sig_row_valid_to">Valid to</string>
+    <!-- Digital Signature — signing flow toasts (ExpandedPdfLayout.kt) -->
+    <string name="sig_toast_load_failed">Failed to load Digital ID</string>
+    <string name="sig_toast_cannot_sign_in_memory">Cannot sign in-memory PDFs</string>
+    <string name="sig_toast_sign_failed">Failed to sign document</string>
+    <!-- Digital Signature — appearance rendered text labels -->
+    <string name="sig_ap_digitally_signed_by">Digitally signed by %1$s</string>
+    <string name="sig_ap_date">Date: %1$s</string>
+    <string name="sig_ap_reason">Reason: %1$s</string>
+    <string name="sig_ap_location">Location: %1$s</string>
+    <!-- Digital Signature — Sign-as appearance preview dialog -->
+    <string name="sig_ap_sign_as">Sign as \"%1$s\"</string>
+    <string name="sig_ap_appearance">Appearance</string>
+    <string name="sig_ap_create">Create</string>
+    <string name="sig_ap_modify">Modify</string>
+    <string name="sig_ap_reason_label">Reason</string>
+    <string name="sig_ap_location_label">Location</string>
+    <string name="sig_ap_back">Back</string>
+    <string name="sig_ap_sign">Sign</string>
+    <string name="sig_ap_no_appearance_checkbox">Sign without a visible appearance</string>
+    <string name="sig_ap_no_appearance_note">This signature will not be visible on the page.</string>
+    <!-- Digital Signature — appearance preset editor dialog -->
+    <string name="sig_ap_customize_title">Customize the Signature Appearance</string>
+    <string name="sig_ap_select_signature">Select signature</string>
+    <string name="sig_ap_change_signature">Change signature</string>
+    <string name="sig_ap_remove">Remove</string>
+    <string name="sig_ap_include">Include</string>
+    <string name="sig_ap_include_name">Name</string>
+    <string name="sig_ap_include_date">Date</string>
+    <string name="sig_ap_include_logo">Logo</string>
+    <string name="sig_ap_include_labels">Labels</string>
+    <string name="sig_ap_text_direction">Text Direction</string>
+    <string name="sig_ap_dir_auto">Auto</string>
+    <string name="sig_ap_dir_ltr">LTR</string>
+    <string name="sig_ap_dir_rtl">RTL</string>
+    <string name="sig_ap_preset_name">Preset name</string>
+    <string name="sig_ap_cancel">Cancel</string>
+    <string name="sig_ap_save">Save</string>
     <!-- Toolbar settings dropdown -->
     <string name="toolbar_tools">Eines</string>
     <string name="toolbar_thumbnails">Miniatures</string>
     <string name="toolbar_contents">Contingut</string>
     <string name="toolbar_settings">Configuració</string>
     <string name="settings_scroll_method">MÈTODE DE DESPLAÇAMENT</string>
-    <string name="settings_scroll">Desplaça't</string>
+    <string name="settings_scroll">Desplaça\'t</string>
     <string name="settings_swipe">Llisca</string>
     <string name="settings_direction">DIRECCIÓ</string>
     <string name="settings_vertical">Vertical</string>
@@ -530,13 +670,13 @@
     <string name="settings_custom_color">Color personalitzat</string>
     <string name="ai_settings">Configuració de la IA</string>
     <string name="copy_conversation">Copia la conversa</string>
-    <string name="ai_chat_settings">Configuració del xat d'IA</string>
+    <string name="ai_chat_settings">Configuració del xat d\'IA</string>
     <string name="stop">Atura</string>
-    <string name="ai_chat_provider">Proveïdor de xat d'IA</string>
-    <string name="get_free_ai_chat">Obtén un xat d'IA gratuït</string>
+    <string name="ai_chat_provider">Proveïdor de xat d\'IA</string>
+    <string name="get_free_ai_chat">Obtén un xat d\'IA gratuït</string>
     <string name="use_your_own_openai_openrouter_groq_or_l">Utilitzeu la vostra pròpia clau OpenAI, OpenRouter, Groq o Ollama local: apreneu com →</string>
     <string name="falcon_ai">IA del Falcó</string>
-    <string name="builtin__gpt4omini__usage_limits_apply">Integrat • gpt-4o-mini • S'apliquen límits d'ús</string>
+    <string name="builtin__gpt4omini__usage_limits_apply">Integrat • gpt-4o-mini • S\'apliquen límits d\'ús</string>
     <string name="local_model_ollama">Model Local (Ollama)</string>
     <string name="unlimited__private__14b_recommended">Il·limitat • Privat • Recomanat per a majors de 14 milions</string>
     <string name="custom_provider">Proveïdor personalitzat</string>
@@ -546,18 +686,18 @@
     <string name="select_profile">Selecciona el perfil</string>
     <string name="new_profile">Nou perfil</string>
     <string name="delete_profile">Suprimeix el perfil</string>
-    <string name="delete_profile__this_cannot_be_undone">Voleu suprimir el perfil "%1$s"? Això no es pot desfer.</string>
+    <string name="delete_profile__this_cannot_be_undone">Voleu suprimir el perfil \"%1$s\"? Això no es pot desfer.</string>
     <string name="profile_name">Nom del perfil</string>
-    <string name="eg_gpt4o_for_editing">p. ex. GPT-4o per a l'edició</string>
+    <string name="eg_gpt4o_for_editing">p. ex. GPT-4o per a l\'edició</string>
     <string name="a_profile_with_this_name_already_exists">Ja existeix un perfil amb aquest nom</string>
     <string name="create">Crea</string>
-    <string name="tool_level">Nivell d'eina</string>
+    <string name="tool_level">Nivell d\'eina</string>
     <string name="pro_required">Es requereix un professional</string>
-    <string name="ollama_endpoint">Punt final d'Ollama</string>
+    <string name="ollama_endpoint">Punt final d\'Ollama</string>
     <string name="httplocalhost11434">http://localhost:11434</string>
     <string name="model">Model</string>
     <string name="select_model">Selecciona el model</string>
-    <string name="no_models_found_click_refresh">No s'han trobat models. Feu clic a Actualitza.</string>
+    <string name="no_models_found_click_refresh">No s\'han trobat models. Feu clic a Actualitza.</string>
     <string name="refresh_models">Actualitza els models</string>
     <string name="provider">Proveïdor</string>
     <string name="base_url">URL base</string>
@@ -573,42 +713,42 @@
     <string name="elevenlabs">ElevenLabs</string>
     <string name="system_tts_uses_your_devices_builtin_tex">El sistema TTS utilitza el motor de text a veu integrat al dispositiu.</string>
     <string name="voice__available">Veu (%1$s disponible)</string>
-    <string name="no_voices_found_please_install_a_tts_eng">No s'han trobat veus. Si us plau, instal·leu un motor TTS al dispositiu.</string>
-    <string name="get_api_key">Obtén la clau de l'API</string>
+    <string name="no_voices_found_please_install_a_tts_eng">No s\'han trobat veus. Si us plau, instal·leu un motor TTS al dispositiu.</string>
+    <string name="get_api_key">Obtén la clau de l\'API</string>
     <string name="get_key">Obtén la clau</string>
     <string name="sk_">sk_...</string>
     <string name="saved">Desat</string>
     <string name="api_key_validated_and_saved_securely">Clau API validada i desada de manera segura.</string>
-    <string name="see_authentication_docs">Veure els documents d'autenticació</string>
+    <string name="see_authentication_docs">Veure els documents d\'autenticació</string>
     <string name="no_voices_available_check_your_api_key_p">No hi ha veus disponibles. Comproveu els permisos de la vostra clau API.</string>
-    <string name="save_your_api_key_to_load_available_voic">Desa la clau de l'API per carregar les veus disponibles.</string>
+    <string name="save_your_api_key_to_load_available_voic">Desa la clau de l\'API per carregar les veus disponibles.</string>
     <string name="mb">%1$sMB</string>
     <string name="downloaded">Descarregat</string>
     <string name="extracting">Extraient...</string>
     <string name="download">Descarrega</string>
     <string name="update">Actualització</string>
     <string name="certificate_viewer">Visualitzador de certificats</string>
-    <string name="this_dialog_shows_details_of_the_certifi">Aquest diàleg mostra els detalls del certificat i la seva cadena d'emissió.</string>
+    <string name="this_dialog_shows_details_of_the_certifi">Aquest diàleg mostra els detalls del certificat i la seva cadena d\'emissió.</string>
     <string name="this_certificate_is_trusted_to">Aquest certificat és de confiança per a:</string>
     <string name="revocation_checking_is_not_performed">No es realitza la comprovació de revocació.</string>
-    <string name="path_validation_checks_were_performed_at">Les comprovacions de validació de la ruta es van dur a terme en el moment de l'anàlisi sintàctica.</string>
+    <string name="path_validation_checks_were_performed_at">Les comprovacions de validació de la ruta es van dur a terme en el moment de l\'anàlisi sintàctica.</string>
     <string name="a_digital_id_is_required_to_create_a_dig">Es requereix un identificador digital per crear una signatura digital. </string>
-    <string name="select_the_type_of_digital_id">Seleccioneu el tipus d'ID digital:</string>
-    <string name="use_a_digital_id_from_a_file">Utilitzar un identificador digital d'un fitxer</string>
+    <string name="select_the_type_of_digital_id">Seleccioneu el tipus d\'ID digital:</string>
+    <string name="use_a_digital_id_from_a_file">Utilitzar un identificador digital d\'un fitxer</string>
     <string name="create_a_new_digital_id">Crea un nou ID digital</string>
-    <string name="enter_the_identity_information_to_be_use">Introduïu la informació d'identitat que s'utilitzarà per a l'identificador digital autosignat. </string>
+    <string name="enter_the_identity_information_to_be_use">Introduïu la informació d\'identitat que s\'utilitzarà per a l\'identificador digital autosignat. </string>
     <string name="name">Nom</string>
     <string name="enter_your_full_name">Introdueix el teu nom complet</string>
     <string name="organizational_unit">Unitat organitzativa</string>
     <string name="department_or_unit">Departament o unitat</string>
-    <string name="organization_name">Nom de l'organització</string>
-    <string name="enter_organization_name">Introduïu el nom de l'organització...</string>
+    <string name="organization_name">Nom de l\'organització</string>
+    <string name="enter_organization_name">Introduïu el nom de l\'organització...</string>
     <string name="email_address">Adreça electrònica</string>
     <string name="youexamplecom">tu@exemple.com</string>
     <string name="countryregion">País/Regió</string>
-    <string name="in__india">A L'ÍNDIA</string>
+    <string name="in__india">A L\'ÍNDIA</string>
     <string name="key_algorithm">Algoritme clau</string>
-    <string name="use_digital_id_for">Utilitzeu l'identificador digital per a</string>
+    <string name="use_digital_id_for">Utilitzeu l\'identificador digital per a</string>
     <string name="view_signature_details">Veure els detalls de la signatura</string>
     <string name="signature_validation_status">Estat de validació de la signatura</string>
     <string name="all_signatures_">Totes les signatures (%1$s)</string>
@@ -616,7 +756,7 @@
     <string name="signer_info">Informació del signant</string>
     <string name="show_certificate">Mostra el certificat…</string>
     <string name="unsigned_signature_fields">Camps de signatura sense signatura</string>
-    <string name="no_signature_fields_found">No s'han trobat camps de signatura</string>
+    <string name="no_signature_fields_found">No s\'han trobat camps de signatura</string>
     <string name="rev__signed_by">Rev. %1$s: Signat per</string>
     <string name="go_to_signature">Anar a Signatura</string>
     <string name="signature_details">Detalls de la signatura</string>
@@ -636,6 +776,8 @@
     <string name="import_an_existing_digital_id_that_you_h">Importa un ID digital existent que hagis obtingut com a fitxer (.pfx, .p12)</string>
     <string name="create_your_selfsigned_digital_id_for_pe">Crea el teu identificador digital autosignat per a ús personal</string>
     <string name="files">Fitxers</string>
+    <!-- From: session AI Chat Provider + TTS Provider settings sections -->
+    <!-- AI provider cards -->
     <string name="ai_provider_falcon_title">Falcon AI</string>
     <string name="ai_provider_falcon_subtitle">Built-in hosted cloud AI.</string>
     <string name="ai_provider_tag_cloud">Cloud AI</string>
@@ -646,6 +788,7 @@
     <string name="ai_provider_byok_title">OpenAI &amp; OpenRouter</string>
     <string name="ai_provider_byok_subtitle">Bring your own keys.</string>
     <string name="ai_provider_tag_byok">BYOK</string>
+    <!-- Falcon plan panel -->
     <string name="ai_plan_active_license">Active License</string>
     <string name="ai_plan_current_plan_suffix">TIER • CURRENT PLAN</string>
     <string name="ai_plan_available_suffix">Available</string>
@@ -670,6 +813,7 @@
     <string name="ai_plan_left_this_month_format">%1$d left this month</string>
     <string name="ai_plan_premium_price">$9 / month</string>
     <string name="ai_plan_upgrade">Upgrade</string>
+    <!-- Ollama panel -->
     <string name="ai_ollama_header_title">Local AI Assistant (Ollama)</string>
     <string name="ai_ollama_header_subtitle">Run neural LLMs on-device. High privacy, unlimited generation.</string>
     <string name="ai_ollama_ping_daemon">Ping Daemon</string>
@@ -684,6 +828,7 @@
     <string name="ai_ollama_active_default">Active Default</string>
     <string name="ai_ollama_user_configured">User configured</string>
     <string name="ai_ollama_set_default">Set Default</string>
+    <!-- BYOK panel -->
     <string name="ai_byok_provider_service">Provider Service</string>
     <string name="ai_byok_api_key">API Secret Key</string>
     <string name="ai_byok_api_key_hint">sk-…</string>
@@ -703,12 +848,14 @@
     <string name="ai_byok_saved_count_format">%1$d saved config(s)</string>
     <string name="ai_byok_no_model">No model</string>
     <string name="ai_byok_set_active">Set Active</string>
+    <!-- Shared buttons / daemon check -->
     <string name="settings_save_current">Save Current</string>
     <string name="settings_save_preferences">Save Preferences</string>
     <string name="settings_saving">Saving…</string>
     <string name="daemon_checking">Checking…</string>
     <string name="daemon_online">Daemon Online</string>
     <string name="daemon_unreachable">Unreachable</string>
+    <!-- TTS provider cards -->
     <string name="tts_provider_title">TTS Provider</string>
     <string name="tts_provider_system_title">System / Device</string>
     <string name="tts_provider_system_subtitle">Host OS voice synthesis.</string>
@@ -722,8 +869,9 @@
     <string name="tts_provider_local_title">Local AI (Kokoro)</string>
     <string name="tts_provider_local_subtitle">On-device neural inference.</string>
     <string name="tts_provider_tag_private">Private</string>
+    <!-- TTS System panel -->
     <string name="tts_system_header_title">System Built-in Voice</string>
-    <string name="tts_system_header_subtitle">Uses your device's built-in voices (e.g. Albert, Alice on macOS). Offline, zero latency.</string>
+    <string name="tts_system_header_subtitle">Uses your device\'s built-in voices (e.g. Albert, Alice on macOS). Offline, zero latency.</string>
     <string name="tts_system_ready">Ready</string>
     <string name="tts_system_language">Language &amp; Region</string>
     <string name="tts_system_gender">Voice Gender</string>
@@ -736,6 +884,7 @@
     <string name="tts_test_playing">Playing…</string>
     <string name="tts_test_played">Played</string>
     <string name="tts_test_preview_format">This is a preview of the %1$s voice.</string>
+    <!-- TTS ElevenLabs panel -->
     <string name="tts_elevenlabs_header_title">ElevenLabs Voice Engine</string>
     <string name="tts_elevenlabs_header_subtitle">High-fidelity AI voices with emotional nuance.</string>
     <string name="tts_status_cloud">Cloud</string>
@@ -744,7 +893,9 @@
     <string name="tts_validate">Validate</string>
     <string name="tts_validating">Validating…</string>
     <string name="tts_key_valid">Key Valid</string>
+    <string name="tts_key_invalid">Invalid Key</string>
     <string name="tts_elevenlabs_preview">This is a preview of the selected ElevenLabs voice.</string>
+    <!-- TTS OpenAI gateway panel -->
     <string name="tts_openai_header_title">OpenAI &amp; Speech Gateway</string>
     <string name="tts_openai_header_subtitle">OpenAI, OpenRouter or any compatible gateway.</string>
     <string name="tts_status_compatible">Compatible</string>
@@ -760,9 +911,11 @@
     <string name="tts_openai_preview_format">This is a preview of the %1$s voice %2$s.</string>
     <string name="tts_openai_saved_models">Saved Models</string>
     <string name="tts_openai_saved_count_format">%1$d saved config(s)</string>
-    <string name="tts_openai_no_models">No saved models yet. Set a model + voice above and tap "Save Current".</string>
+    <string name="tts_openai_no_models">No saved models yet. Set a model + voice above and tap \"Save Current\".</string>
+    <string name="tts_openai_validate_to_save">Validate your key to enable Save Current.</string>
     <string name="tts_openai_row_preview_format">This is a preview of %1$s voice %2$s.</string>
     <string name="tts_openai_voice_prefix_format">Voice: %1$s</string>
+    <!-- TTS Local (Kokoro) panel -->
     <string name="tts_local_header_title">Local AI Synthesis (Kokoro)</string>
     <string name="tts_local_header_subtitle">On-device neural synthesis, no cloud telemetry.</string>
     <string name="tts_local_engine_active">Engine Active</string>
@@ -787,4 +940,7 @@
     <string name="tts_local_cancel">Cancel</string>
     <string name="tts_local_register">Register Voice</string>
     <string name="tts_active">Active</string>
+    <!-- PDF OCR: recognise text on the current page (shown in the viewer overflow menu) -->
+    <string name="recognize_text_on_page">Recognise text on this page</string>
+    <string name="no_images_on_page">No images on this page to extract text from.</string>
 </resources>

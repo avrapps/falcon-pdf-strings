@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">Samlet antal sider i PDF-filen: %1$d (segmentstørrelsen skal være mindre end %1$d)</string>
     <string name="this_will_create__output_files">Dette vil oprette %1$d outputfiler</string>
     <string name="this_will_create__output_file">Dette vil oprette %1$d outputfil</string>
-    <string name="this_input_will_split_the_pdf_">Dette input vil opdele PDF'en i separate filer baseret på dine intervaller. For eksempel vil "1-2,5,6-8" oprette 3 PDF'er: den første med siderne 1-2, den anden med side 5 og den tredje med siderne 6-8.</string>
+    <string name="this_input_will_split_the_pdf_">Dette input vil opdele PDF\'en i separate filer baseret på dine intervaller. For eksempel vil \"1-2,5,6-8\" oprette 3 PDF\'er: den første med siderne 1-2, den anden med side 5 og den tredje med siderne 6-8.</string>
     <string name="page_ranges">Sideintervaller</string>
     <string name="eg_1234571520">f.eks. 1-2, 3, 4-5, 7, 15-20</string>
     <string name="format_use_ranges_15_or_single">Format: Brug intervaller (1-5) eller enkelte sider (7), adskilt af kommaer. Kun cifre, bindestreger og kommaer er tilladt.</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">Komprimeret af </string>
     <string name="error_details">Fejloplysninger</string>
     <string name="view">Udsigt</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">%1$s af %2$s sider valgt</string>
     <string name="showing_first_200_pages">Viser de første 200 sider</string>
@@ -177,7 +178,7 @@
     <string name="str__failed">%1$s Mislykkedes</string>
     <string name="unlock_failed">Oplåsning mislykkedes</string>
     <string name="your_pdfs_have_been_successfully_compres">Dine PDF-filer er blevet komprimeret</string>
-    <string name="we_couldnt_compress_your_pdfs">Vi kunne ikke komprimere dine PDF'er</string>
+    <string name="we_couldnt_compress_your_pdfs">Vi kunne ikke komprimere dine PDF\'er</string>
     <string name="view_your_compressed_file">Se din komprimerede fil</string>
     <string name="send_to_others_or_apps">Send til andre eller apps</string>
     <string name="your_pdf_has_been_successfully_modified">Din PDF er blevet ændret</string>

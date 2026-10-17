@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">PDFలోని మొత్తం పేజీల సంఖ్య: %1$d (సెగ్మెంట్ పరిమాణం %1$d కంటే తక్కువగా ఉండాలి)</string>
     <string name="this_will_create__output_files">ఇది %1$d అవుట్‌పుట్ ఫైల్‌లను సృష్టిస్తుంది</string>
     <string name="this_will_create__output_file">ఇది %1$d అవుట్‌పుట్ ఫైల్‌ను సృష్టిస్తుంది</string>
-    <string name="this_input_will_split_the_pdf_">ఈ ఇన్‌పుట్ మీ శ్రేణుల ఆధారంగా PDFని వేర్వేరు ఫైల్‌లుగా విభజిస్తుంది. ఉదాహరణకు, "1-2,5,6-8" 3 PDFలను సృష్టిస్తుంది: మొదటిది 1-2 పేజీలతో, రెండవది 5వ పేజీతో, మరియు మూడవది 6-8 పేజీలతో.</string>
+    <string name="this_input_will_split_the_pdf_">ఈ ఇన్‌పుట్ మీ శ్రేణుల ఆధారంగా PDFని వేర్వేరు ఫైల్‌లుగా విభజిస్తుంది. ఉదాహరణకు, \"1-2,5,6-8\" 3 PDFలను సృష్టిస్తుంది: మొదటిది 1-2 పేజీలతో, రెండవది 5వ పేజీతో, మరియు మూడవది 6-8 పేజీలతో.</string>
     <string name="page_ranges">పేజీ శ్రేణులు</string>
     <string name="eg_1234571520">ఉదాహరణకు, 1-2,3,4-5,7,15-20</string>
     <string name="format_use_ranges_15_or_single">ఫార్మాట్: శ్రేణులను (1-5) లేదా ఒకే పేజీలను (7) ఉపయోగించండి, వీటిని కామాలతో వేరు చేయాలి. అంకెలు, హైఫన్‌లు మరియు కామాలు మాత్రమే అనుమతించబడతాయి.</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">సంపీడనం చేయబడింది </string>
     <string name="error_details">లోపం వివరాలు</string>
     <string name="view">వీక్షణ</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">%2$s పేజీలలో %1$s పేజీలు ఎంపిక చేయబడ్డాయి</string>
     <string name="showing_first_200_pages">మొదటి 200 పేజీలను చూపుతోంది</string>

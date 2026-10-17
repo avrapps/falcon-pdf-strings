@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">PDF-ലെ ആകെ പേജുകളുടെ എണ്ണം: %1$d (സെഗ്‌മെന്റ് വലുപ്പം %1$d നേക്കാൾ കുറവായിരിക്കണം)</string>
     <string name="this_will_create__output_files">ഇത് %1$d ഔട്ട്‌പുട്ട് ഫയലുകൾ സൃഷ്ടിക്കും</string>
     <string name="this_will_create__output_file">ഇത് %1$d ഔട്ട്‌പുട്ട് ഫയൽ സൃഷ്ടിക്കും</string>
-    <string name="this_input_will_split_the_pdf_">ഈ ഇൻപുട്ട് നിങ്ങളുടെ ശ്രേണികളെ അടിസ്ഥാനമാക്കി PDF-നെ പ്രത്യേക ഫയലുകളായി വിഭജിക്കും. ഉദാഹരണത്തിന്, "1-2,5,6-8" 3 PDF-കൾ സൃഷ്ടിക്കും: ആദ്യം 1-2 പേജുകളുള്ളതും, രണ്ടാമത്തേത് 5 പേജുകളുള്ളതും, മൂന്നാമത്തേത് 6-8 പേജുകളുള്ളതും.</string>
+    <string name="this_input_will_split_the_pdf_">ഈ ഇൻപുട്ട് നിങ്ങളുടെ ശ്രേണികളെ അടിസ്ഥാനമാക്കി PDF-നെ പ്രത്യേക ഫയലുകളായി വിഭജിക്കും. ഉദാഹരണത്തിന്, \"1-2,5,6-8\" 3 PDF-കൾ സൃഷ്ടിക്കും: ആദ്യം 1-2 പേജുകളുള്ളതും, രണ്ടാമത്തേത് 5 പേജുകളുള്ളതും, മൂന്നാമത്തേത് 6-8 പേജുകളുള്ളതും.</string>
     <string name="page_ranges">പേജ് ശ്രേണികൾ</string>
     <string name="eg_1234571520">ഉദാ, 1-2,3,4-5,7,15-20</string>
     <string name="format_use_ranges_15_or_single">ഫോർമാറ്റ്: കോമകൾ ഉപയോഗിച്ച് വേർതിരിച്ച ശ്രേണികൾ (1-5) അല്ലെങ്കിൽ ഒറ്റ പേജുകൾ (7) ഉപയോഗിക്കുക. അക്കങ്ങൾ, ഹൈഫനുകൾ, കോമകൾ എന്നിവ മാത്രമേ അനുവദിക്കൂ.</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">കംപ്രസ് ചെയ്തത് </string>
     <string name="error_details">പിശക് വിശദാംശങ്ങൾ</string>
     <string name="view">കാണുക</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">%1$s ൽ %2$s പേജുകൾ തിരഞ്ഞെടുത്തു</string>
     <string name="showing_first_200_pages">ആദ്യ 200 പേജുകൾ കാണിക്കുന്നു</string>

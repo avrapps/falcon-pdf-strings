@@ -68,7 +68,7 @@
     <string name="purchase_history">Purchase History</string>
     <string name="free_trial">Free Trial</string>
     <string name="no_purchase_history">No Purchase History</string>
-    <string name="you_havent_made_any_purchases_">You haven't made any purchases yet.</string>
+    <string name="you_havent_made_any_purchases_">You haven\'t made any purchases yet.</string>
     <string name="error">Error</string>
     <string name="retry">Retry</string>
     <string name="back">Back</string>

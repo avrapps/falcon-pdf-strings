@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">చిత్రం గ్యాలరీలో సేవ్ చేయబడింది</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">పత్రం తొలగించాలా?</string>
-    <string name="scan_delete_document_message">మీరు నిజంగా "%1$s" ను తొలగించాలనుకుంటున్నారా? ఇది ఈ పత్రంలోని అన్ని పేజీలను శాశ్వతంగా తొలగిస్తుంది. ఈ చర్యను రద్దు చేయడం సాధ్యపడదు.</string>
+    <string name="scan_delete_document_message">మీరు నిజంగా \"%1$s\" ను తొలగించాలనుకుంటున్నారా? ఇది ఈ పత్రంలోని అన్ని పేజీలను శాశ్వతంగా తొలగిస్తుంది. ఈ చర్యను రద్దు చేయడం సాధ్యపడదు.</string>
     <string name="scan_rename_document">పత్రం పేరు మార్చండి</string>
     <string name="scan_rename_enter_name">పత్రానికి కొత్త పేరును నమోదు చేయండి</string>
     <string name="scan_rename_document_name">పత్రం పేరు</string>
     <string name="scan_rename_error">పత్రం పేరు ఖాళీగా ఉండకూడదు</string>
     <string name="scan_dialog_delete_document_title">పత్రం తొలగించాలా?</string>
-    <string name="scan_dialog_delete_document_message">మీరు నిజంగా "%1$s" ను తొలగించాలనుకుంటున్నారా? ఇది ఈ పత్రంలోని అన్ని పేజీలను శాశ్వతంగా తొలగిస్తుంది. ఈ చర్యను రద్దు చేయడం సాధ్యపడదు.</string>
+    <string name="scan_dialog_delete_document_message">మీరు నిజంగా \"%1$s\" ను తొలగించాలనుకుంటున్నారా? ఇది ఈ పత్రంలోని అన్ని పేజీలను శాశ్వతంగా తొలగిస్తుంది. ఈ చర్యను రద్దు చేయడం సాధ్యపడదు.</string>
     <string name="scan_dialog_delete_confirm">తొలగించు</string>
     <string name="scan_dialog_cancel">రద్దు చేయండి</string>
     <string name="scan_dialog_move_title">ఫోల్డర్‌కు తరలించండి</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — పేజీ %2$d</string>
     <string name="scan_ocr_title">టెక్స్ట్ గుర్తింపు</string>
-    <string name="scan_ocr_copy">వచనాన్ని కాపీ చేయండి</string>
     <string name="scan_ocr_no_text">ఎటువంటి వచనం కనుగొనబడలేదు</string>
-    <string name="scan_ocr_processing">టెక్స్ట్‌ను గుర్తించడం…</string>
     <string name="scan_ocr_error">టెక్స్ట్‌ను గుర్తించడంలో విఫలమైంది</string>
     <string name="scan_ocr_not_supported">ఈ ప్లాట్‌ఫారమ్‌లో OCR సపోర్ట్ చేయబడదు</string>
-    <string name="scan_ocr_image">OCR కోసం స్కాన్ చేసిన పేజీ</string>
     <string name="gallery">గ్యాలరీ</string>
     <string name="select_file">ఫైల్‌ను ఎంచుకోండి</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">షట్టర్_స్కేల్</string>
     <string name="import_gallery">దిగుమతి గ్యాలరీ</string>
     <string name="scan_camera">స్కాన్ కెమెరా</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

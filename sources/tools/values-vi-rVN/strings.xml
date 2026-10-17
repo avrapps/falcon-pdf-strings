@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">Tổng số trang trong PDF: %1$d (kích thước phân đoạn phải nhỏ hơn %1$d)</string>
     <string name="this_will_create__output_files">Thao tác này sẽ tạo ra %1$d tệp đầu ra</string>
     <string name="this_will_create__output_file">Thao tác này sẽ tạo ra tệp đầu ra %1$d</string>
-    <string name="this_input_will_split_the_pdf_">Đầu vào này sẽ chia tệp PDF thành các tệp riêng biệt dựa trên phạm vi bạn đã chọn. Ví dụ: "1-2,5,6-8" sẽ tạo ra 3 tệp PDF: tệp đầu tiên gồm trang 1-2, tệp thứ hai gồm trang 5 và tệp thứ ba gồm trang 6-8.</string>
+    <string name="this_input_will_split_the_pdf_">Đầu vào này sẽ chia tệp PDF thành các tệp riêng biệt dựa trên phạm vi bạn đã chọn. Ví dụ: \"1-2,5,6-8\" sẽ tạo ra 3 tệp PDF: tệp đầu tiên gồm trang 1-2, tệp thứ hai gồm trang 5 và tệp thứ ba gồm trang 6-8.</string>
     <string name="page_ranges">Phạm vi trang</string>
     <string name="eg_1234571520">ví dụ: 1-2,3,4-5,7,15-20</string>
     <string name="format_use_ranges_15_or_single">Định dạng: Sử dụng các phạm vi (1-5) hoặc các trang đơn (7), được phân tách bằng dấu phẩy. Chỉ cho phép các chữ số, dấu gạch ngang và dấu phẩy.</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">Được nén bởi </string>
     <string name="error_details">Chi tiết lỗi</string>
     <string name="view">Xem</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">%1$s trong số %2$s trang đã được chọn</string>
     <string name="showing_first_200_pages">Hiển thị 200 trang đầu tiên</string>

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Name -->
-    <string name="app_name">पीडीएफ मैजिक</string>
-    <string name="app_tagline">आप क्या करना चाहेंगे?</string>
     <!-- Home Screen -->
     <string name="home_last_used">अंतिम समय प्रयोग हुआ</string>
     <string name="home_favorites">पसंदीदा</string>
@@ -138,8 +135,42 @@
     <string name="settings_category_appearance_subtitle">ऐप के लुक और फील को कस्टमाइज़ करें &amp;</string>
     <string name="settings_category_pdf_reader_title">पीडीएफ रीडर</string>
     <string name="settings_category_pdf_reader_subtitle">डिफ़ॉल्ट दर्शक &amp; पठन अनुभव</string>
+    <string name="settings_category_ai_chat_title">AI चैट प्रदाता</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama या आपकी अपनी कुंजी</string>
+    <string name="settings_category_tts_title">ज़ोर से पढ़ें (TTS)</string>
+    <string name="settings_category_tts_subtitle">ज़ोर से पढ़ने के लिए आवाज़ें</string>
     <string name="settings_category_help_title">सहायता &amp; समर्थन</string>
     <string name="settings_category_help_subtitle">प्रलेखन &amp; संपर्क</string>
+    <string name="settings_category_shortcuts_title">Keyboard Shortcuts</string>
+    <string name="settings_category_shortcuts_subtitle">Desktop hotkeys reference</string>
+    <string name="shortcuts_intro_note">On macOS press Cmd; on Windows and Linux press Ctrl. Shortcuts pause while editing a form field so typing goes to the field.</string>
+    <string name="shortcuts_group_file">File</string>
+    <string name="shortcuts_group_tabs">Tabs</string>
+    <string name="shortcuts_group_navigation">Navigation</string>
+    <string name="shortcuts_group_view_zoom">View &amp; zoom</string>
+    <string name="shortcuts_group_search_panels">Search &amp; panels</string>
+    <string name="shortcuts_action_open_file">Open a file</string>
+    <string name="shortcuts_action_save">Save</string>
+    <string name="shortcuts_action_print">Print</string>
+    <string name="shortcuts_action_close_tab">Close current tab</string>
+    <string name="shortcuts_action_next_tab">Next tab</string>
+    <string name="shortcuts_action_previous_tab">Previous tab</string>
+    <string name="shortcuts_action_jump_to_tab">Jump to tab 1–8</string>
+    <string name="shortcuts_action_jump_to_last_tab">Jump to last tab</string>
+    <string name="shortcuts_action_go_to_page">Go to page</string>
+    <string name="shortcuts_action_next_prev_page">Next / previous page</string>
+    <string name="shortcuts_action_first_last_page">First / last page</string>
+    <string name="shortcuts_action_pan_page">Pan the page</string>
+    <string name="shortcuts_action_zoom_in_out">Zoom in / out</string>
+    <string name="shortcuts_action_reset_zoom">Reset zoom (fit width)</string>
+    <string name="shortcuts_action_toggle_fullscreen">Toggle fullscreen</string>
+    <string name="shortcuts_action_exit_fullscreen">Exit fullscreen</string>
+    <string name="shortcuts_action_search">Search</string>
+    <string name="shortcuts_action_copy_text">Copy selected text</string>
+    <string name="shortcuts_action_bookmarks_panel">Bookmarks panel</string>
+    <string name="shortcuts_action_toggle_bookmark">Toggle bookmark on page</string>
+    <string name="shortcuts_action_pages_panel">Pages panel</string>
+    <string name="shortcuts_action_annotations_panel">Annotations panel</string>
     <string name="settings_category_general_title">सामान्य</string>
     <string name="settings_category_general_subtitle">भाषा &amp; ऐप जानकारी</string>
     <string name="settings_theme_section">विषय</string>
@@ -233,6 +264,7 @@
     <string name="help_terms_subtitle">आवेदन के नियम</string>
     <!-- Sync Settings -->
     <string name="sync_on_mobile_data">मोबाइल डेटा पर सिंक करें</string>
+    <string name="sync_skipped_mobile_data">On mobile data — sync is off. Enable \"Sync on mobile data\" in settings or connect to Wi-Fi.</string>
     <string name="background_sync">बैकग्राउंड सिंक</string>
     <!-- PDF Settings -->
     <string name="pdf_settings_title">पीडीएफ रीडर सेटिंग्स</string>
@@ -255,6 +287,8 @@
     <!-- Language Picker -->
     <string name="language_picker_title">भाषा</string>
     <string name="language_search_placeholder">भाषाओं में खोजें...</string>
+    <string name="language_applying">Applying…</string>
+    <string name="language_download_badge">Download</string>
     <!-- Common UI -->
     <string name="support">सहायता</string>
     <string name="language_english">अंग्रेज़ी</string>
@@ -365,6 +399,7 @@
     <string name="search">खोज</string>
     <string name="more_actions">और कार्रवाइयां</string>
     <string name="share">शेयर करना</string>
+    <string name="show_in_finder">Show in Finder</string>
     <string name="delete">मिटाना</string>
     <string name="remove_from_recents">हाल के संदेशों से हटाएं</string>
     <string name="open">खुला</string>
@@ -483,7 +518,7 @@
     <string name="settings_delete_account_subtitle">अपना खाता और डेटा स्थायी रूप से हटा दें</string>
     <string name="delete_account_warning_title">अपना खाता हटाना चाहते हैं?</string>
     <string name="delete_account_warning_message">इससे आपका खाता और उससे संबंधित सभी डेटा, जिसमें आपकी खरीदारी का इतिहास और क्लाउड-सिंक्रनाइज़्ड फ़ाइलें शामिल हैं, स्थायी रूप से हटा दिए जाएंगे। इस कार्रवाई को पूर्ववत नहीं किया जा सकता है और बाद में की गई खरीदारी को बहाल नहीं किया जा सकता है।</string>
-    <string name="delete_account_confirm_phrase_label">आगे बढ़ने के लिए 'डिलीट की पुष्टि करें' टाइप करें:</string>
+    <string name="delete_account_confirm_phrase_label">आगे बढ़ने के लिए \'डिलीट की पुष्टि करें\' टाइप करें:</string>
     <string name="delete_account_confirm_phrase">डिलीट की पुष्टि करें</string>
     <string name="delete_account_button">खाता हटा दो</string>
     <string name="delete_account_error_reauth">सुरक्षा कारणों से, आपको अपना खाता हटाने के लिए हाल ही में लॉग इन करना होगा। कृपया लॉग आउट करें और फिर से लॉग इन करें, फिर प्रयास करें।</string>
@@ -511,6 +546,7 @@
     <string name="unsaved_changes_window_message">आपने एक या अधिक दस्तावेज़ों में बदलाव किए हैं जिन्हें आपने सहेजा नहीं है। क्या आप उन्हें हटाकर बाहर निकलना चाहते हैं?</string>
     <string name="discard">खारिज करना</string>
     <string name="discard_and_quit">त्यागें &amp; बाहर निकलें</string>
+    <string name="drop_files_to_open">Drop files to open</string>
     <string name="close">बंद करना</string>
     <string name="remove_favorite">पसंदीदा हटाएं</string>
     <string name="set_as_default_pdf_viewer">क्या इसे डिफ़ॉल्ट पीडीएफ व्यूअर के रूप में सेट करना है?</string>
@@ -583,7 +619,7 @@
     <string name="ebooks_library">ई-पुस्तक पुस्तकालय</string>
     <string name="manage_your_digital_collection_across_mu">कई प्रदाताओं पर अपने डिजिटल संग्रह को प्रबंधित करें। Google Books और Open Library से नई पुस्तकें खोजें, फ़िल्टर करें और उनका पता लगाएं।</string>
     <string name="no_books_found">कोई पुस्तकें नहीं मिलीं</string>
-    <string name="no_results_for__try_a_different_search_t">"%1$s" के लिए कोई परिणाम नहीं मिले। कृपया कोई दूसरा खोज शब्द आजमाएँ।</string>
+    <string name="no_results_for__try_a_different_search_t">\"%1$s\" के लिए कोई परिणाम नहीं मिले। कृपया कोई दूसरा खोज शब्द आजमाएँ।</string>
     <string name="downloadable_only">केवल डाउनलोड करने योग्य</string>
     <string name="file_unavailable">फ़ाइल अनुपलब्ध है</string>
     <string name="unavailable">अनुपलब्ध</string>
@@ -606,6 +642,9 @@
     <string name="home">घर</string>
     <string name="your_documents_at_a_glance">आपके दस्तावेज़ एक नज़र में</string>
     <string name="pick_file">फ़ाइल चुनें</string>
+    <string name="pending_actions_open_failed">Couldn\'t open this document to sign. Make sure you\'re signed in with the invited email, then try again.</string>
+    <string name="pending_actions_open_failed_title">Can\'t open sign request</string>
+    <string name="pending_actions_reject_failed">Couldn\'t decline the request. Make sure you\'re signed in with the invited email, then try again.</string>
     <string name="quick_actions">त्वरित कार्रवाइयां</string>
     <string name="pro">प्रो</string>
     <string name="open_files">खुली फ़ाइलें</string>
@@ -646,10 +685,7 @@
     <string name="my_library">मेरी लाइब्रेरी</string>
     <string name="get_ebooks">ई-पुस्तकें प्राप्त करें</string>
     <string name="scan_document">दस्तावेज़ स्कैन करें</string>
-    <string name="settings_category_ai_chat_title">AI चैट प्रदाता</string>
-    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama या आपकी अपनी कुंजी</string>
-    <string name="settings_category_tts_title">ज़ोर से पढ़ें (TTS)</string>
-    <string name="settings_category_tts_subtitle">ज़ोर से पढ़ने के लिए आवाज़ें</string>
+    <!-- From: session AI/TTS provider settings entries + standalone screens -->
     <string name="settings_section_ai_voice">AI और आवाज़</string>
     <string name="settings_entry_ai_title">AI चैट प्रदाता</string>
     <string name="settings_entry_ai_subtitle">Falcon AI, लोकल Ollama, या आपकी अपनी OpenAI-संगत कुंजी</string>

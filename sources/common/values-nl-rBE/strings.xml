@@ -67,7 +67,7 @@
     <string name="color_picker_ok">OK</string>
     <string name="color_picker_hex_label">HEX</string>
     <string name="save_for_biometric">Save for biometric</string>
-    <string name="stored_encrypted_locally_wont_sync_to_cl">Stored encrypted locally. Won't sync to cloud.</string>
+    <string name="stored_encrypted_locally_wont_sync_to_cl">Stored encrypted locally. Won\'t sync to cloud.</string>
     <string name="biometric_unlock">Biometric unlock</string>
     <string name="upgrade_to_unlock_pdfs_with_fingerprint">Upgrade to unlock PDFs with fingerprint</string>
     <string name="upgrade">Upgrade</string>

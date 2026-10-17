@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">התמונה נשמרה בגלריה</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">למחוק מסמך?</string>
-    <string name="scan_delete_document_message">האם אתה בטוח שברצונך למחוק את "%1$s"? פעולה זו תמחק לצמיתות את כל הדפים במסמך זה. פעולה זו אינה ניתנת לביטול.</string>
+    <string name="scan_delete_document_message">האם אתה בטוח שברצונך למחוק את \"%1$s\"? פעולה זו תמחק לצמיתות את כל הדפים במסמך זה. פעולה זו אינה ניתנת לביטול.</string>
     <string name="scan_rename_document">שינוי שם המסמך</string>
     <string name="scan_rename_enter_name">הזן שם חדש למסמך</string>
     <string name="scan_rename_document_name">שם המסמך</string>
     <string name="scan_rename_error">שם המסמך אינו יכול להיות ריק</string>
     <string name="scan_dialog_delete_document_title">למחוק מסמך?</string>
-    <string name="scan_dialog_delete_document_message">האם אתה בטוח שברצונך למחוק את "%1$s"? פעולה זו תמחק לצמיתות את כל הדפים במסמך זה. פעולה זו אינה ניתנת לביטול.</string>
+    <string name="scan_dialog_delete_document_message">האם אתה בטוח שברצונך למחוק את \"%1$s\"? פעולה זו תמחק לצמיתות את כל הדפים במסמך זה. פעולה זו אינה ניתנת לביטול.</string>
     <string name="scan_dialog_delete_confirm">לִמְחוֹק</string>
     <string name="scan_dialog_cancel">לְבַטֵל</string>
     <string name="scan_dialog_move_title">העבר לתיקייה</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — עמוד %2$d</string>
     <string name="scan_ocr_title">זיהוי טקסט</string>
-    <string name="scan_ocr_copy">העתקת טקסט</string>
     <string name="scan_ocr_no_text">לא נמצא טקסט</string>
-    <string name="scan_ocr_processing">זיהוי טקסט…</string>
     <string name="scan_ocr_error">נכשל בזיהוי הטקסט</string>
     <string name="scan_ocr_not_supported">זיהוי תווים אופטי (OCR) אינו נתמך בפלטפורמה זו</string>
-    <string name="scan_ocr_image">דף סרוק עבור OCR</string>
     <string name="gallery">גָלֶרֵיָה</string>
     <string name="select_file">בחר קובץ</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">קנה מידה של תריס</string>
     <string name="import_gallery">ייבוא גלריה</string>
     <string name="scan_camera">סריקת מצלמה</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

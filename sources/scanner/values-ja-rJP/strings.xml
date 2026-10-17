@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — ページ %2$d</string>
     <string name="scan_ocr_title">テキスト認識</string>
-    <string name="scan_ocr_copy">テキストをコピー</string>
     <string name="scan_ocr_no_text">テキストが見つかりません</string>
-    <string name="scan_ocr_processing">テキストの認識…</string>
     <string name="scan_ocr_error">テキストを認識できませんでした</string>
     <string name="scan_ocr_not_supported">このプラットフォームではOCRはサポートされていません。</string>
-    <string name="scan_ocr_image">OCR用にスキャンしたページ</string>
     <string name="gallery">ギャラリー</string>
     <string name="select_file">ファイルを選択</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">シャッタースケール</string>
     <string name="import_gallery">インポートギャラリー</string>
     <string name="scan_camera">スキャンカメラ</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

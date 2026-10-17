@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">Συνολικός αριθμός σελίδων σε PDF: %1$d (το μέγεθος του τμήματος πρέπει να είναι μικρότερο από %1$d)</string>
     <string name="this_will_create__output_files">Αυτό θα δημιουργήσει %1$d αρχεία εξόδου</string>
     <string name="this_will_create__output_file">Αυτό θα δημιουργήσει το αρχείο εξόδου %1$d</string>
-    <string name="this_input_will_split_the_pdf_">Αυτή η εισαγωγή θα διαιρέσει το PDF σε ξεχωριστά αρχεία με βάση τα εύρη σας. Για παράδειγμα, η εντολή "1-2,5,6-8" θα δημιουργήσει 3 PDF: το πρώτο με τις σελίδες 1-2, το δεύτερο με τη σελίδα 5 και το τρίτο με τις σελίδες 6-8.</string>
+    <string name="this_input_will_split_the_pdf_">Αυτή η εισαγωγή θα διαιρέσει το PDF σε ξεχωριστά αρχεία με βάση τα εύρη σας. Για παράδειγμα, η εντολή \"1-2,5,6-8\" θα δημιουργήσει 3 PDF: το πρώτο με τις σελίδες 1-2, το δεύτερο με τη σελίδα 5 και το τρίτο με τις σελίδες 6-8.</string>
     <string name="page_ranges">Εύρος σελίδων</string>
     <string name="eg_1234571520">π.χ., 1-2,3,4-5,7,15-20</string>
     <string name="format_use_ranges_15_or_single">Μορφή: Χρησιμοποιήστε εύρη (1-5) ή μεμονωμένες σελίδες (7), διαχωρισμένες με κόμματα. Επιτρέπονται μόνο ψηφία, παύλες και κόμματα.</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">Συμπιεσμένο από </string>
     <string name="error_details">Λεπτομέρειες σφάλματος</string>
     <string name="view">Θέα</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">Επιλέχθηκαν %1$s από %2$s σελίδες</string>
     <string name="showing_first_200_pages">Εμφάνιση των πρώτων 200 σελίδων</string>

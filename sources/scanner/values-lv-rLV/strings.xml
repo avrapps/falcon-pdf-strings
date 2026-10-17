@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">Attēls saglabāts galerijā</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Vai dzēst dokumentu?</string>
-    <string name="scan_delete_document_message">Vai tiešām vēlaties dzēst "%1$s"? Tas neatgriezeniski dzēsīs visas šī dokumenta lapas. Šo darbību nevar atsaukt.</string>
+    <string name="scan_delete_document_message">Vai tiešām vēlaties dzēst \"%1$s\"? Tas neatgriezeniski dzēsīs visas šī dokumenta lapas. Šo darbību nevar atsaukt.</string>
     <string name="scan_rename_document">Pārdēvēt dokumentu</string>
     <string name="scan_rename_enter_name">Ievadiet jaunu dokumenta nosaukumu</string>
     <string name="scan_rename_document_name">Dokumenta nosaukums</string>
     <string name="scan_rename_error">Dokumenta nosaukuma lauks nedrīkst būt tukšs</string>
     <string name="scan_dialog_delete_document_title">Vai dzēst dokumentu?</string>
-    <string name="scan_dialog_delete_document_message">Vai tiešām vēlaties dzēst "%1$s"? Tas neatgriezeniski dzēsīs visas šī dokumenta lapas. Šo darbību nevar atsaukt.</string>
+    <string name="scan_dialog_delete_document_message">Vai tiešām vēlaties dzēst \"%1$s\"? Tas neatgriezeniski dzēsīs visas šī dokumenta lapas. Šo darbību nevar atsaukt.</string>
     <string name="scan_dialog_delete_confirm">Dzēst</string>
     <string name="scan_dialog_cancel">Atcelt</string>
     <string name="scan_dialog_move_title">Pārvietot uz mapi</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Lapa %2$d</string>
     <string name="scan_ocr_title">Teksta atpazīšana</string>
-    <string name="scan_ocr_copy">Kopēt tekstu</string>
     <string name="scan_ocr_no_text">Nav atrasts teksts</string>
-    <string name="scan_ocr_processing">Teksta atpazīšana…</string>
     <string name="scan_ocr_error">Neizdevās atpazīt tekstu</string>
     <string name="scan_ocr_not_supported">OCR šajā platformā netiek atbalstīts</string>
-    <string name="scan_ocr_image">Skenēta lapa OCR atpazīšanai</string>
     <string name="gallery">Galerija</string>
     <string name="select_file">Atlasīt failu</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">slēdža_mērogs</string>
     <string name="import_gallery">Importēt galeriju</string>
     <string name="scan_camera">Skenēšanas kamera</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

@@ -54,7 +54,7 @@
     <string name="cancel">Cancellare</string>
     <string name="hide_password">Nascondi password</string>
     <string name="show_password">Mostra password</string>
-    <string name="rate_dialog_title">Ti piace l'app?</string>
+    <string name="rate_dialog_title">Ti piace l\'app?</string>
     <string name="rate_dialog_message">Se ti piace usare PDF Viewer, ti preghiamo di dedicare un momento a valutarlo. Ci sarebbe di grande aiuto!</string>
     <string name="rate_now">Valuta il negozio</string>
     <string name="rate_later">Forse più tardi</string>
@@ -69,7 +69,7 @@
     <string name="save_for_biometric">Salva per dati biometrici</string>
     <string name="stored_encrypted_locally_wont_sync_to_cl">Archiviato localmente in forma crittografata. Non verrà sincronizzato con il cloud.</string>
     <string name="biometric_unlock">Sblocco biometrico</string>
-    <string name="upgrade_to_unlock_pdfs_with_fingerprint">Esegui l'upgrade per sbloccare i PDF con l'impronta digitale</string>
+    <string name="upgrade_to_unlock_pdfs_with_fingerprint">Esegui l\'upgrade per sbloccare i PDF con l\'impronta digitale</string>
     <string name="upgrade">Aggiornamento</string>
     <string name="reduce_file_size">Ridurre le dimensioni del file</string>
     <string name="merge_pdf_files">Unire file PDF</string>

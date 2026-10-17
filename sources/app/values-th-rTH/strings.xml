@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Name -->
-    <string name="app_name">PDF Magic</string>
-    <string name="app_tagline">คุณอยากทำอะไร?</string>
     <!-- Home Screen -->
     <string name="home_last_used">ใช้งานครั้งล่าสุด</string>
     <string name="home_favorites">รายการโปรด</string>
@@ -138,8 +135,42 @@
     <string name="settings_category_appearance_subtitle">ปรับแต่งรูปลักษณ์และความรู้สึกของแอป &amp;</string>
     <string name="settings_category_pdf_reader_title">โปรแกรมอ่านไฟล์ PDF</string>
     <string name="settings_category_pdf_reader_subtitle">ประสบการณ์การอ่านจากโปรแกรมดูเริ่มต้น &amp;</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
     <string name="settings_category_help_title">ความช่วยเหลือ &amp; การสนับสนุน</string>
     <string name="settings_category_help_subtitle">เอกสาร &amp; ติดต่อ</string>
+    <string name="settings_category_shortcuts_title">Keyboard Shortcuts</string>
+    <string name="settings_category_shortcuts_subtitle">Desktop hotkeys reference</string>
+    <string name="shortcuts_intro_note">On macOS press Cmd; on Windows and Linux press Ctrl. Shortcuts pause while editing a form field so typing goes to the field.</string>
+    <string name="shortcuts_group_file">File</string>
+    <string name="shortcuts_group_tabs">Tabs</string>
+    <string name="shortcuts_group_navigation">Navigation</string>
+    <string name="shortcuts_group_view_zoom">View &amp; zoom</string>
+    <string name="shortcuts_group_search_panels">Search &amp; panels</string>
+    <string name="shortcuts_action_open_file">Open a file</string>
+    <string name="shortcuts_action_save">Save</string>
+    <string name="shortcuts_action_print">Print</string>
+    <string name="shortcuts_action_close_tab">Close current tab</string>
+    <string name="shortcuts_action_next_tab">Next tab</string>
+    <string name="shortcuts_action_previous_tab">Previous tab</string>
+    <string name="shortcuts_action_jump_to_tab">Jump to tab 1–8</string>
+    <string name="shortcuts_action_jump_to_last_tab">Jump to last tab</string>
+    <string name="shortcuts_action_go_to_page">Go to page</string>
+    <string name="shortcuts_action_next_prev_page">Next / previous page</string>
+    <string name="shortcuts_action_first_last_page">First / last page</string>
+    <string name="shortcuts_action_pan_page">Pan the page</string>
+    <string name="shortcuts_action_zoom_in_out">Zoom in / out</string>
+    <string name="shortcuts_action_reset_zoom">Reset zoom (fit width)</string>
+    <string name="shortcuts_action_toggle_fullscreen">Toggle fullscreen</string>
+    <string name="shortcuts_action_exit_fullscreen">Exit fullscreen</string>
+    <string name="shortcuts_action_search">Search</string>
+    <string name="shortcuts_action_copy_text">Copy selected text</string>
+    <string name="shortcuts_action_bookmarks_panel">Bookmarks panel</string>
+    <string name="shortcuts_action_toggle_bookmark">Toggle bookmark on page</string>
+    <string name="shortcuts_action_pages_panel">Pages panel</string>
+    <string name="shortcuts_action_annotations_panel">Annotations panel</string>
     <string name="settings_category_general_title">ทั่วไป</string>
     <string name="settings_category_general_subtitle">ข้อมูลแอปภาษา &amp;</string>
     <string name="settings_theme_section">ธีม</string>
@@ -233,6 +264,7 @@
     <string name="help_terms_subtitle">กฎเกณฑ์การสมัคร</string>
     <!-- Sync Settings -->
     <string name="sync_on_mobile_data">ซิงค์ข้อมูลผ่านมือถือ</string>
+    <string name="sync_skipped_mobile_data">On mobile data — sync is off. Enable \"Sync on mobile data\" in settings or connect to Wi-Fi.</string>
     <string name="background_sync">การซิงค์พื้นหลัง</string>
     <!-- PDF Settings -->
     <string name="pdf_settings_title">การตั้งค่าโปรแกรมอ่านไฟล์ PDF</string>
@@ -255,6 +287,8 @@
     <!-- Language Picker -->
     <string name="language_picker_title">ภาษา</string>
     <string name="language_search_placeholder">ค้นหาภาษา...</string>
+    <string name="language_applying">Applying…</string>
+    <string name="language_download_badge">Download</string>
     <!-- Common UI -->
     <string name="support">สนับสนุน</string>
     <string name="language_english">ภาษาอังกฤษ</string>
@@ -365,6 +399,7 @@
     <string name="search">ค้นหา</string>
     <string name="more_actions">การดำเนินการเพิ่มเติม</string>
     <string name="share">แบ่งปัน</string>
+    <string name="show_in_finder">Show in Finder</string>
     <string name="delete">ลบ</string>
     <string name="remove_from_recents">ลบออกจากรายการล่าสุด</string>
     <string name="open">เปิด</string>
@@ -483,7 +518,7 @@
     <string name="settings_delete_account_subtitle">ลบข้อมูลและบัญชีของคุณอย่างถาวร</string>
     <string name="delete_account_warning_title">ลบบัญชีของคุณแล้วใช่ไหม?</string>
     <string name="delete_account_warning_message">การดำเนินการนี้จะลบข้อมูลบัญชีของคุณและข้อมูลที่เกี่ยวข้องทั้งหมดอย่างถาวร รวมถึงประวัติการซื้อและไฟล์ที่ซิงค์กับระบบคลาวด์ การดำเนินการนี้ไม่สามารถยกเลิกได้ และไม่สามารถกู้คืนการซื้อในภายหลังได้</string>
-    <string name="delete_account_confirm_phrase_label">พิมพ์ 'ยืนยันการลบ' เพื่อดำเนินการต่อ:</string>
+    <string name="delete_account_confirm_phrase_label">พิมพ์ \'ยืนยันการลบ\' เพื่อดำเนินการต่อ:</string>
     <string name="delete_account_confirm_phrase">ยืนยันการลบ</string>
     <string name="delete_account_button">ลบบัญชีผู้ใช้</string>
     <string name="delete_account_error_reauth">เพื่อความปลอดภัย คุณต้องเพิ่งเข้าสู่ระบบเพื่อลบบัญชีของคุณ โปรดออกจากระบบแล้วเข้าสู่ระบบอีกครั้ง จากนั้นลองใหม่อีกครั้ง</string>
@@ -511,6 +546,7 @@
     <string name="unsaved_changes_window_message">คุณมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึกในเอกสารอย่างน้อยหนึ่งฉบับ คุณต้องการยกเลิกการเปลี่ยนแปลงเหล่านั้นและออกจากโปรแกรมหรือไม่</string>
     <string name="discard">ทิ้ง</string>
     <string name="discard_and_quit">ทิ้ง &amp; ออก</string>
+    <string name="drop_files_to_open">Drop files to open</string>
     <string name="close">ปิด</string>
     <string name="remove_favorite">ลบรายการโปรด</string>
     <string name="set_as_default_pdf_viewer">ตั้งเป็นโปรแกรมดูไฟล์ PDF เริ่มต้นหรือไม่?</string>
@@ -583,7 +619,7 @@
     <string name="ebooks_library">ห้องสมุดอีบุ๊ก</string>
     <string name="manage_your_digital_collection_across_mu">จัดการคอลเล็กชันดิจิทัลของคุณจากผู้ให้บริการหลายราย ค้นหา กรอง และค้นพบหนังสือใหม่ ๆ จาก Google Books และ Open Library</string>
     <string name="no_books_found">ไม่พบหนังสือ</string>
-    <string name="no_results_for__try_a_different_search_t">ไม่พบผลลัพธ์สำหรับ "%1$s" ลองใช้คำค้นหาอื่นดู</string>
+    <string name="no_results_for__try_a_different_search_t">ไม่พบผลลัพธ์สำหรับ \"%1$s\" ลองใช้คำค้นหาอื่นดู</string>
     <string name="downloadable_only">ดาวน์โหลดเท่านั้น</string>
     <string name="file_unavailable">ไฟล์ไม่พร้อมใช้งาน</string>
     <string name="unavailable">ไม่พร้อมใช้งาน</string>
@@ -606,6 +642,9 @@
     <string name="home">บ้าน</string>
     <string name="your_documents_at_a_glance">เอกสารของคุณโดยสรุป</string>
     <string name="pick_file">เลือกไฟล์</string>
+    <string name="pending_actions_open_failed">Couldn\'t open this document to sign. Make sure you\'re signed in with the invited email, then try again.</string>
+    <string name="pending_actions_open_failed_title">Can\'t open sign request</string>
+    <string name="pending_actions_reject_failed">Couldn\'t decline the request. Make sure you\'re signed in with the invited email, then try again.</string>
     <string name="quick_actions">การดำเนินการด่วน</string>
     <string name="pro">โปร</string>
     <string name="open_files">เปิดไฟล์</string>
@@ -646,10 +685,7 @@
     <string name="my_library">ห้องสมุดของฉัน</string>
     <string name="get_ebooks">ดาวน์โหลดอีบุ๊ก</string>
     <string name="scan_document">สแกนเอกสาร</string>
-    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
-    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
-    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
-    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <!-- From: session AI/TTS provider settings entries + standalone screens -->
     <string name="settings_section_ai_voice">AI &amp; VOICE</string>
     <string name="settings_entry_ai_title">AI Chat Provider</string>
     <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>

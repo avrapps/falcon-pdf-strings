@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">Billede gemt i galleriet</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Slet dokument?</string>
-    <string name="scan_delete_document_message">Er du sikker på, at du vil slette "%1$s"? Dette vil permanent slette alle sider i dette dokument. Denne handling kan ikke fortrydes.</string>
+    <string name="scan_delete_document_message">Er du sikker på, at du vil slette \"%1$s\"? Dette vil permanent slette alle sider i dette dokument. Denne handling kan ikke fortrydes.</string>
     <string name="scan_rename_document">Omdøb dokument</string>
     <string name="scan_rename_enter_name">Indtast et nyt navn til dokumentet</string>
     <string name="scan_rename_document_name">Dokumentnavn</string>
     <string name="scan_rename_error">Dokumentnavnet må ikke være tomt</string>
     <string name="scan_dialog_delete_document_title">Slet dokument?</string>
-    <string name="scan_dialog_delete_document_message">Er du sikker på, at du vil slette "%1$s"? Dette vil permanent slette alle sider i dette dokument. Denne handling kan ikke fortrydes.</string>
+    <string name="scan_dialog_delete_document_message">Er du sikker på, at du vil slette \"%1$s\"? Dette vil permanent slette alle sider i dette dokument. Denne handling kan ikke fortrydes.</string>
     <string name="scan_dialog_delete_confirm">Slet</string>
     <string name="scan_dialog_cancel">Ophæve</string>
     <string name="scan_dialog_move_title">Flyt til mappe</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Side %2$d</string>
     <string name="scan_ocr_title">Tekstgenkendelse</string>
-    <string name="scan_ocr_copy">Kopiér tekst</string>
     <string name="scan_ocr_no_text">Ingen tekst fundet</string>
-    <string name="scan_ocr_processing">Genkendelse af tekst…</string>
     <string name="scan_ocr_error">Kunne ikke genkende tekst</string>
     <string name="scan_ocr_not_supported">OCR understøttes ikke på denne platform</string>
-    <string name="scan_ocr_image">Scannet side til OCR</string>
     <string name="gallery">Galleri</string>
     <string name="select_file">Vælg fil</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">shutter_scale</string>
     <string name="import_gallery">Importér galleri</string>
     <string name="scan_camera">Scan kamera</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

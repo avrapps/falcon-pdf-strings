@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Pagina %2$d</string>
     <string name="scan_ocr_title">Recunoaștere text</string>
-    <string name="scan_ocr_copy">Copiați textul</string>
     <string name="scan_ocr_no_text">Nu s-a găsit niciun text</string>
-    <string name="scan_ocr_processing">Recunoașterea textului…</string>
     <string name="scan_ocr_error">Textul nu a fost recunoscut</string>
     <string name="scan_ocr_not_supported">OCR nu este acceptat pe această platformă</string>
-    <string name="scan_ocr_image">Pagină scanată pentru OCR</string>
     <string name="gallery">Galerie</string>
     <string name="select_file">Selectați fișierul</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">scară_obturator</string>
     <string name="import_gallery">Importați galeria</string>
     <string name="scan_camera">Scanare cameră</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

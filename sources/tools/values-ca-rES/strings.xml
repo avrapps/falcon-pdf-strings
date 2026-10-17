@@ -9,8 +9,8 @@
     <string name="select_range">Selecciona un interval</string>
     <string name="select_all">Selecciona-ho tot</string>
     <string name="clear_all">Esborra-ho tot</string>
-    <string name="select_page_range">Selecciona l'interval de pàgines</string>
-    <string name="enter_the_range_of_pages_to_de">Introduïu l'interval de pàgines que voleu suprimir (1-%1$s)</string>
+    <string name="select_page_range">Selecciona l\'interval de pàgines</string>
+    <string name="enter_the_range_of_pages_to_de">Introduïu l\'interval de pàgines que voleu suprimir (1-%1$s)</string>
     <string name="from">De</string>
     <string name="to">A</string>
     <string name="select">Selecciona</string>
@@ -18,18 +18,18 @@
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
     <string name="split_pdf">Dividir PDF</string>
     <string name="str_1_file_selected">1 fitxer seleccionat</string>
-    <string name="no_file_selected">No s'ha seleccionat cap fitxer</string>
+    <string name="no_file_selected">No s\'ha seleccionat cap fitxer</string>
     <string name="split_mode">Mode dividit</string>
     <string name="fixed_segments">Segments fixos</string>
     <string name="custom_ranges">Intervals personalitzats</string>
     <string name="segment_size">Mida del segment</string>
-    <string name="this_will_create_multiple_pdfs">Això crearà diversos PDF amb el nombre especificat de pàgines cadascun. La mida del segment ha de ser inferior al total de pàgines per crear divisions significatives. Per exemple, si el fitxer d'origen té 8 pàgines i n'introduïu 2, es generaran quatre fitxers PDF amb 2 pàgines cadascun.</string>
+    <string name="this_will_create_multiple_pdfs">Això crearà diversos PDF amb el nombre especificat de pàgines cadascun. La mida del segment ha de ser inferior al total de pàgines per crear divisions significatives. Per exemple, si el fitxer d\'origen té 8 pàgines i n\'introduïu 2, es generaran quatre fitxers PDF amb 2 pàgines cadascun.</string>
     <string name="pages_per_file">Pàgines per fitxer</string>
     <string name="eg_2">p. ex., 2</string>
     <string name="total_number_of_pages_in_pdf__">Nombre total de pàgines en PDF: %1$d (la mida del segment ha de ser inferior a %1$d)</string>
     <string name="this_will_create__output_files">Això crearà fitxers de sortida %1$d</string>
     <string name="this_will_create__output_file">Això crearà un fitxer de sortida %1$d</string>
-    <string name="this_input_will_split_the_pdf_">Aquesta entrada dividirà el PDF en fitxers separats segons els vostres intervals. Per exemple, "1-2,5,6-8" crearà 3 PDF: el primer amb les pàgines 1-2, el segon amb la pàgina 5 i el tercer amb les pàgines 6-8.</string>
+    <string name="this_input_will_split_the_pdf_">Aquesta entrada dividirà el PDF en fitxers separats segons els vostres intervals. Per exemple, \"1-2,5,6-8\" crearà 3 PDF: el primer amb les pàgines 1-2, el segon amb la pàgina 5 i el tercer amb les pàgines 6-8.</string>
     <string name="page_ranges">Intervals de pàgines</string>
     <string name="eg_1234571520">p. ex., 1-2, 3, 4-5, 7, 15-20</string>
     <string name="format_use_ranges_15_or_single">Format: utilitzeu intervals (1-5) o pàgines individuals (7), separats per comes. Només es permeten dígits, guions i comes.</string>
@@ -39,21 +39,21 @@
     <string name="pdf_result_">Resultat PDF %1$s</string>
     <string name="str__and__more">... i %1$d més</string>
     <string name="splitting_pdf">Dividint PDF...</string>
-    <string name="checking_files">S'estan revisant els fitxers...</string>
+    <string name="checking_files">S\'estan revisant els fitxers...</string>
     <string name="page_n">Pàgina %1$d</string>
     <string name="pages_n_m">Pàgines %1$d-%2$d</string>
     <string name="split_complete">Divisió completa!</string>
     <string name="split_failed">Error de divisió</string>
     <string name="we_couldnt_split_your_pdf">No hem pogut dividir el vostre PDF</string>
-    <string name="your_pdf_has_been_successfully_split">El vostre PDF s'ha dividit correctament en %1$d fitxers</string>
-    <string name="your_pdf_has_been_successfully_split_single">El vostre PDF s'ha dividit correctament en un fitxer %1$d</string>
+    <string name="your_pdf_has_been_successfully_split">El vostre PDF s\'ha dividit correctament en %1$d fitxers</string>
+    <string name="your_pdf_has_been_successfully_split_single">El vostre PDF s\'ha dividit correctament en un fitxer %1$d</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
     <string name="pdf_tools">Eines PDF</string>
-    <string name="image_tools">Eines d'imatge</string>
+    <string name="image_tools">Eines d\'imatge</string>
     <string name="str_30_tools_for_pdf">Més de 30 eines per a PDF</string>
     <string name="tools_for_images">Eines per a imatges</string>
-    <string name="no_tools_found">No s'han trobat eines</string>
-    <string name="try_adjusting_your_search">Prova d'ajustar la cerca</string>
+    <string name="no_tools_found">No s\'han trobat eines</string>
+    <string name="try_adjusting_your_search">Prova d\'ajustar la cerca</string>
     <string name="history">Història</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
     <string name="str_">%1$s</string>
@@ -67,13 +67,14 @@
     <string name="open_file">Obre el fitxer</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/ToolResultScreen.kt -->
     <string name="compressed_by_">Comprimit per </string>
-    <string name="error_details">Detalls de l'error</string>
+    <string name="error_details">Detalls de l\'error</string>
     <string name="view">Vista</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">%1$s de %2$s pàgines seleccionades</string>
     <string name="showing_first_200_pages">Mostrant les primeres 200 pàgines</string>
     <string name="use_quick_selection_above_for_">Feu servir la selecció ràpida anterior per a pàgines superiors a 200</string>
-    <string name="loading">S'està carregant...</string>
+    <string name="loading">S\'està carregant...</string>
     <string name="error">Error</string>
     <string name="generating_page_previews">Generant previsualitzacions de pàgina...</string>
     <string name="page__thumbnail">Miniatura de la pàgina %1$s</string>
@@ -91,12 +92,12 @@
     <string name="pages_">Pàgines (%1$s)</string>
     <string name="page_">Pàgina %1$s</string>
     <string name="position__of_">Posició: %1$s de %2$s</string>
-    <string name="drag_handle">Control d'arrossegament</string>
+    <string name="drag_handle">Control d\'arrossegament</string>
     <string name="move_up">Puja</string>
     <string name="move_down">Moure cap avall</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/CompressScreen.kt -->
     <string name="compress_pdf">Comprimir PDF</string>
-    <string name="no_files_selected">No s'han seleccionat fitxers</string>
+    <string name="no_files_selected">No s\'han seleccionat fitxers</string>
     <string name="please_go_back_and_select_pdf_">Si us plau, torneu enrere i seleccioneu els fitxers PDF per comprimir-los.</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/compress/ui/components/CompressSuccessScreen.kt -->
     <string name="success">Èxit</string>
@@ -121,12 +122,12 @@
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/imagestopdf/ui/ImagesToPdfScreen.kt -->
     <string name="images_to_pdf">Imatges a PDF</string>
     <string name="str__images_selected">%1$s imatges seleccionades</string>
-    <string name="images_will_be_converted_in_th">Les imatges es convertiran en l'ordre que es mostra a continuació</string>
+    <string name="images_will_be_converted_in_th">Les imatges es convertiran en l\'ordre que es mostra a continuació</string>
     <string name="remove">Elimina</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/pdftoimages/ui/PdfToImagesScreen.kt -->
     <string name="pdf_to_images">PDF a imatges</string>
-    <string name="image_format">Format d'imatge</string>
-    <string name="image_quality_dpi">Qualitat d'imatge (DPI)</string>
+    <string name="image_format">Format d\'imatge</string>
+    <string name="image_quality_dpi">Qualitat d\'imatge (DPI)</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/merge/ui/MergeScreen.kt -->
     <string name="merge_pdf">Fusionar PDF</string>
     <string name="n_files_selected">%1$d fitxers seleccionats</string>
@@ -176,32 +177,32 @@
     <string name="str__complete">%1$s Completat!</string>
     <string name="str__failed">%1$s Error</string>
     <string name="unlock_failed">Error de desbloqueig</string>
-    <string name="your_pdfs_have_been_successfully_compres">Els vostres PDF s'han comprimit correctament</string>
+    <string name="your_pdfs_have_been_successfully_compres">Els vostres PDF s\'han comprimit correctament</string>
     <string name="we_couldnt_compress_your_pdfs">No hem pogut comprimir els vostres PDF</string>
     <string name="view_your_compressed_file">Visualitza el fitxer comprimit</string>
     <string name="send_to_others_or_apps">Enviar a altres persones o aplicacions</string>
-    <string name="your_pdf_has_been_successfully_modified">El vostre PDF s'ha modificat correctament</string>
+    <string name="your_pdf_has_been_successfully_modified">El vostre PDF s\'ha modificat correctament</string>
     <string name="we_couldnt_delete_the_pages">No hem pogut suprimir les pàgines</string>
-    <string name="your_images_have_been_converted_to_pdf">Les teves imatges s'han convertit a PDF</string>
-    <string name="unable_to_create_pdf_from_images">No es pot crear un PDF a partir d'imatges</string>
+    <string name="your_images_have_been_converted_to_pdf">Les teves imatges s\'han convertit a PDF</string>
+    <string name="unable_to_create_pdf_from_images">No es pot crear un PDF a partir d\'imatges</string>
     <string name="your_pdf_is_now_password_protected">El vostre PDF ara està protegit amb contrasenya</string>
     <string name="we_couldnt_lock_your_pdf">No hem pogut bloquejar el vostre PDF</string>
-    <string name="your_pdfs_have_been_successfully_merged">Els vostres PDF s'han fusionat correctament</string>
+    <string name="your_pdfs_have_been_successfully_merged">Els vostres PDF s\'han fusionat correctament</string>
     <string name="we_couldnt_merge_your_pdfs">No hem pogut fusionar els vostres PDF</string>
     <string name="str__images_created_successfully">%1$s imatges creades correctament</string>
     <string name="unable_to_convert_pdf_to_images">No es pot convertir PDF a imatges</string>
-    <string name="your_pdf_pages_have_been_successfully_re">Les pàgines del PDF s'han reordenat correctament.</string>
+    <string name="your_pdf_pages_have_been_successfully_re">Les pàgines del PDF s\'han reordenat correctament.</string>
     <string name="we_couldnt_reorder_your_pdf">No hem pogut reordenar el vostre PDF</string>
-    <string name="your_pdf_has_been_successfully_rotated">El vostre PDF s'ha rotat correctament</string>
+    <string name="your_pdf_has_been_successfully_rotated">El vostre PDF s\'ha rotat correctament</string>
     <string name="we_couldnt_rotate_your_pdf">No hem pogut rotar el vostre PDF</string>
-    <string name="your_file_has_been_successfully_processe">El vostre fitxer s'ha processat correctament</string>
+    <string name="your_file_has_been_successfully_processe">El vostre fitxer s\'ha processat correctament</string>
     <string name="we_couldnt_process_your_file">No hem pogut processar el vostre fitxer</string>
     <string name="we_couldnt_unlock_your_pdf">No hem pogut desbloquejar el vostre PDF</string>
     <string name="clear_filter">Esborra el filtre</string>
     <string name="clear">Clar</string>
     <string name="pick_a_tool_">Trieu una eina →</string>
     <string name="drag_to_reorder">Arrossega per reordenar</string>
-    <string name="your_files_are_securely_processed_on_our">Els vostres fitxers es processen de manera segura als nostres servidors mitjançant connexions xifrades i s'eliminen automàticament en 1 hora. Mai emmagatzemem ni compartim les vostres dades.</string>
+    <string name="your_files_are_securely_processed_on_our">Els vostres fitxers es processen de manera segura als nostres servidors mitjançant connexions xifrades i s\'eliminen automàticament en 1 hora. Mai emmagatzemem ni compartim les vostres dades.</string>
     <string name="compression_quality">Qualitat de compressió</string>
     <string name="dragelevation">arrossegarElevació</string>
     <string name="tool_card_scale">escala_targeta_eina</string>

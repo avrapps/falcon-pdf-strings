@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--Auth &Signin-->
-    <string name="error_sign_in_failed">Comprova la connexió a Internet i confirma que s'ha afegit un compte de Google al dispositiu i, a continuació, torna-ho a provar.</string>
+    <string name="error_sign_in_failed">Comprova la connexió a Internet i confirma que s\'ha afegit un compte de Google al dispositiu i, a continuació, torna-ho a provar.</string>
     <string name="sign_in_with_apple">Inicia la sessió amb Apple</string>
     <!-- Purchase Screen - General -->
     <string name="purchase_screen_title">Millora la teva experiència</string>
@@ -10,7 +10,7 @@
     <string name="purchase_sync_status">Darrera sincronització: %1s</string>
     <string name="purchase_current_plan">Actual</string>
     <string name="purchase_syncing">Sincronitzant…</string>
-    <string name="purchase_loading">S'està carregant…</string>
+    <string name="purchase_loading">S\'està carregant…</string>
     <!-- Purchase Screen - Plans -->
     <string name="purchase_free_plan">Pla gratuït</string>
     <string name="purchase_pro_plan">Edició Pro</string>
@@ -22,9 +22,9 @@
     <string name="purchase_pro_feature_1">Lectura en veu alta amb IA: escolta PDF de manera natural</string>
     <string name="purchase_pro_feature_2">Edició completa de PDF &amp; Emplenament de formularis</string>
     <string name="purchase_pro_feature_3">Sincronització entre dispositius a través de Drive</string>
-    <string name="purchase_pro_feature_4">Sense anuncis, sense marques d'aigua als escanejos</string>
+    <string name="purchase_pro_feature_4">Sense anuncis, sense marques d\'aigua als escanejos</string>
     <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
-    <string name="purchase_premium_feature_1_title">Resums d'IA amb un raonament més sòlid</string>
+    <string name="purchase_premium_feature_1_title">Resums d\'IA amb un raonament més sòlid</string>
     <string name="purchase_premium_feature_1_desc">Respostes més profundes a partir de documents més llargs i complexos</string>
     <string name="purchase_premium_feature_2_title">5 GB Falcon Cloud</string>
     <string name="purchase_premium_feature_2_desc">La teva biblioteca personal de PDF, sincronitzada i segura</string>
@@ -39,7 +39,7 @@
     <string name="purchase_subscribe">Subscriu-te</string>
     <string name="purchase_start_trial">Comença la prova gratuïta de 7 dies</string>
     <string name="purchase_view_all_features">Veure totes les funcions</string>
-    <string name="purchase_show_more">Mostra'n més</string>
+    <string name="purchase_show_more">Mostra\'n més</string>
     <string name="purchase_show_less">Mostra menys</string>
     <string name="purchase_see_all_features">Veure totes les funcions</string>
     <string name="purchase_manage_subscription">Gestiona la subscripció</string>
@@ -53,14 +53,14 @@
     <string name="purchase_per_month">/mes</string>
     <string name="purchase_trial_terms">Cancel·la en qualsevol moment. Es renova tret que cancel·lis 24 hores abans que finalitzi la prova.</string>
     <!-- Purchase Screen - Errors -->
-    <string name="purchase_error">No s'han pogut carregar els productes. Comproveu l'inici de sessió i la connexió a Internet.</string>
+    <string name="purchase_error">No s\'han pogut carregar els productes. Comproveu l\'inici de sessió i la connexió a Internet.</string>
     <string name="purchase_error_network">Connexió perduda. Si us plau, comproveu la connexió a Internet i torneu-ho a intentar.</string>
     <string name="purchase_error_payment_declined">Mètode de pagament rebutjat. Si us plau, actualitzeu la vostra informació de pagament.</string>
-    <string name="purchase_error_server">S'ha produït un error. Torna-ho a provar més tard.</string>
-    <string name="purchase_error_rate_limit">Massa intents d'actualització. Si us plau, espereu.</string>
+    <string name="purchase_error_server">S\'ha produït un error. Torna-ho a provar més tard.</string>
+    <string name="purchase_error_rate_limit">Massa intents d\'actualització. Si us plau, espereu.</string>
     <string name="purchase_error_offline">No hi ha connexió a Internet. Es mostren les dades emmagatzemades a la memòria cau.</string>
-    <string name="purchase_error_product_refresh">No s'ha pogut verificar el producte. Si us plau, torneu-ho a intentar.</string>
-    <string name="purchase_error_generic">S'ha produït un error. Torna-ho a intentar.</string>
+    <string name="purchase_error_product_refresh">No s\'ha pogut verificar el producte. Si us plau, torneu-ho a intentar.</string>
+    <string name="purchase_error_generic">S\'ha produït un error. Torna-ho a intentar.</string>
     <!-- Purchase Screen - Legal -->
     <string name="purchase_terms_of_service">Condicions del servei</string>
     <string name="purchase_privacy_policy">Política de privacitat</string>
@@ -103,10 +103,10 @@
     <string name="ai_read_aloud">Lectura en veu alta per IA</string>
     <string name="full_pdf_editing__form_filling">Edició completa de PDF &amp; Emplenament de formularis</string>
     <string name="crossdevice_sync_via_drive">Sincronització entre dispositius a través de Drive</string>
-    <string name="adfree_no_watermark">Sense anuncis, sense marca d'aigua</string>
+    <string name="adfree_no_watermark">Sense anuncis, sense marca d\'aigua</string>
     <string name="export_to_word__excel">Exporta a Word &amp; Excel</string>
     <string name="multiple_themes__page_backgrounds">Temes múltiples &amp; Fons de pàgina</string>
-    <string name="ai_summaries_with_stronger_reasoning">Resums d'IA amb un raonament més sòlid</string>
+    <string name="ai_summaries_with_stronger_reasoning">Resums d\'IA amb un raonament més sòlid</string>
     <string name="no_limits_on_60_pdf_tools">Sense límits en més de 60 eines PDF</string>
     <string name="full_text_editing_in_pdfs">Edició de text complet en PDF</string>
     <string name="digital_signatures_dscesign">Signatures digitals (DSC/eSign)</string>

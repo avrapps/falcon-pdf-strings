@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">በፒዲኤፍ ውስጥ ያሉት አጠቃላይ የገጾች ብዛት፦ %1$d (የክፍሉ መጠን ከ %1$d ያነሰ መሆን አለበት)</string>
     <string name="this_will_create__output_files">ይህ %1$d የውጤት ፋይሎችን ይፈጥራል</string>
     <string name="this_will_create__output_file">ይህ %1$d የውጤት ፋይል ይፈጥራል</string>
-    <string name="this_input_will_split_the_pdf_">ይህ ግቤት ፒዲኤፉን እንደ ክልልዎ መሰረት ወደ ተለያዩ ፋይሎች ይከፍለዋል። ለምሳሌ፣ "1-2,5,6-8" 3 ፒዲኤፎችን ይፈጥራል፡ መጀመሪያ ከገጽ 1-2፣ ሁለተኛ ከገጽ 5 እና ሶስተኛ ከገጽ 6-8 ጋር።</string>
+    <string name="this_input_will_split_the_pdf_">ይህ ግቤት ፒዲኤፉን እንደ ክልልዎ መሰረት ወደ ተለያዩ ፋይሎች ይከፍለዋል። ለምሳሌ፣ \"1-2,5,6-8\" 3 ፒዲኤፎችን ይፈጥራል፡ መጀመሪያ ከገጽ 1-2፣ ሁለተኛ ከገጽ 5 እና ሶስተኛ ከገጽ 6-8 ጋር።</string>
     <string name="page_ranges">የገጽ ክልሎች</string>
     <string name="eg_1234571520">ለምሳሌ፣ 1-2,3,4-5,7,15-20</string>
     <string name="format_use_ranges_15_or_single">ቅርጸት፡ በኮማዎች የተለዩ ክልሎችን (1-5) ወይም ነጠላ ገጾችን (7) ይጠቀሙ። አሃዞች፣ ሰረዞች እና ኮማዎች ብቻ ይፈቀዳሉ።</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">የተጨመቀው በ </string>
     <string name="error_details">የስህተት ዝርዝሮች</string>
     <string name="view">ይመልከቱ</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">%1$s ከ %2$s ገጾች ተመርጠዋል</string>
     <string name="showing_first_200_pages">የመጀመሪያዎቹን 200 ገጾች በማሳየት ላይ</string>

@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">Kép mentve a galériába</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Törli a dokumentumot?</string>
-    <string name="scan_delete_document_message">Biztosan törölni szeretnéd a(z) "%1$s" oldalt? Ez véglegesen törli a dokumentum összes oldalát. A művelet nem vonható vissza.</string>
+    <string name="scan_delete_document_message">Biztosan törölni szeretnéd a(z) \"%1$s\" oldalt? Ez véglegesen törli a dokumentum összes oldalát. A művelet nem vonható vissza.</string>
     <string name="scan_rename_document">Dokumentum átnevezése</string>
     <string name="scan_rename_enter_name">Adjon meg egy új nevet a dokumentumnak</string>
     <string name="scan_rename_document_name">Dokumentum neve</string>
     <string name="scan_rename_error">A dokumentum neve nem lehet üres</string>
     <string name="scan_dialog_delete_document_title">Törli a dokumentumot?</string>
-    <string name="scan_dialog_delete_document_message">Biztosan törölni szeretnéd a(z) "%1$s" oldalt? Ez véglegesen törli a dokumentum összes oldalát. A művelet nem vonható vissza.</string>
+    <string name="scan_dialog_delete_document_message">Biztosan törölni szeretnéd a(z) \"%1$s\" oldalt? Ez véglegesen törli a dokumentum összes oldalát. A művelet nem vonható vissza.</string>
     <string name="scan_dialog_delete_confirm">Töröl</string>
     <string name="scan_dialog_cancel">Mégsem</string>
     <string name="scan_dialog_move_title">Áthelyezés mappába</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — %2$d oldal</string>
     <string name="scan_ocr_title">Szövegfelismerés</string>
-    <string name="scan_ocr_copy">Szöveg másolása</string>
     <string name="scan_ocr_no_text">Nem található szöveg</string>
-    <string name="scan_ocr_processing">Szöveg felismerése…</string>
     <string name="scan_ocr_error">Nem sikerült felismerni a szöveget</string>
     <string name="scan_ocr_not_supported">Az OCR nem támogatott ezen a platformon.</string>
-    <string name="scan_ocr_image">OCR-hez beolvasott oldal</string>
     <string name="gallery">Galéria</string>
     <string name="select_file">Fájl kiválasztása</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">redőnyméret</string>
     <string name="import_gallery">Galéria importálása</string>
     <string name="scan_camera">Szkennelő kamera</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

@@ -14,13 +14,13 @@
     <string name="scan_home_parent_folder">Ouervouer</string>
     <string name="scan_home_go_back">Gaan terug na ouermap</string>
     <string name="scan_home_create_folder">Skep Nuwe Vouer</string>
-    <string name="scan_home_enter_folder_name">Voer 'n naam vir die nuwe vouer in</string>
+    <string name="scan_home_enter_folder_name">Voer \'n naam vir die nuwe vouer in</string>
     <string name="scan_home_folder_name">Vouernaam</string>
     <string name="scan_home_folder_placeholder">bv. Werkdokumente</string>
     <string name="scan_home_folder_error">Vouernaam kan nie leeg wees nie</string>
     <string name="scan_home_folder_name_empty">Vouernaam kan nie leeg wees nie</string>
     <string name="scan_home_create">Skep</string>
-    <string name="scan_home_folder_exists">'n Vouer met hierdie naam bestaan reeds</string>
+    <string name="scan_home_folder_exists">\'n Vouer met hierdie naam bestaan reeds</string>
     <!-- Scan Camera Screen -->
     <string name="scan_camera_title">Kamera</string>
     <string name="scan_camera_permission_required">Kameratoestemming Vereis</string>
@@ -81,7 +81,7 @@
     <string name="scan_delete">Vee uit</string>
     <string name="scan_rename">Hernoem</string>
     <string name="scan_root">Wortel</string>
-    <string name="scan_select_destination">Kies 'n bestemmingsmap</string>
+    <string name="scan_select_destination">Kies \'n bestemmingsmap</string>
     <!-- Scan Document Screen -->
     <string name="scan_document_title">Dokument</string>
     <string name="scan_document_back">Terug</string>
@@ -114,22 +114,22 @@
     <string name="scan_page_saved_to_gallery">Beeld gestoor in galery</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Vee dokument uit?</string>
-    <string name="scan_delete_document_message">Is jy seker jy wil "%1$s" verwyder? Dit sal alle bladsye in hierdie dokument permanent verwyder. Hierdie aksie kan nie ongedaan gemaak word nie.</string>
+    <string name="scan_delete_document_message">Is jy seker jy wil \"%1$s\" verwyder? Dit sal alle bladsye in hierdie dokument permanent verwyder. Hierdie aksie kan nie ongedaan gemaak word nie.</string>
     <string name="scan_rename_document">Hernoem Dokument</string>
-    <string name="scan_rename_enter_name">Voer 'n nuwe naam vir die dokument in</string>
+    <string name="scan_rename_enter_name">Voer \'n nuwe naam vir die dokument in</string>
     <string name="scan_rename_document_name">Dokumentnaam</string>
     <string name="scan_rename_error">Dokumentnaam kan nie leeg wees nie</string>
     <string name="scan_dialog_delete_document_title">Vee dokument uit?</string>
-    <string name="scan_dialog_delete_document_message">Is jy seker jy wil "%1$s" verwyder? Dit sal alle bladsye in hierdie dokument permanent verwyder. Hierdie aksie kan nie ongedaan gemaak word nie.</string>
+    <string name="scan_dialog_delete_document_message">Is jy seker jy wil \"%1$s\" verwyder? Dit sal alle bladsye in hierdie dokument permanent verwyder. Hierdie aksie kan nie ongedaan gemaak word nie.</string>
     <string name="scan_dialog_delete_confirm">Vee uit</string>
     <string name="scan_dialog_cancel">Kanselleer</string>
     <string name="scan_dialog_move_title">Skuif na vouer</string>
-    <string name="scan_dialog_move_message">Kies 'n bestemmingsmap</string>
+    <string name="scan_dialog_move_message">Kies \'n bestemmingsmap</string>
     <string name="scan_dialog_move_confirm">Beweeg</string>
     <string name="scan_dialog_move_root">Wortel</string>
     <string name="scan_dialog_move_selected">Geselekteerde</string>
     <string name="scan_dialog_rename_title">Hernoem Dokument</string>
-    <string name="scan_dialog_rename_message">Voer 'n nuwe naam vir die dokument in</string>
+    <string name="scan_dialog_rename_message">Voer \'n nuwe naam vir die dokument in</string>
     <string name="scan_dialog_rename_label">Dokumentnaam</string>
     <string name="scan_dialog_rename_error">Dokumentnaam kan nie leeg wees nie</string>
     <string name="scan_dialog_rename_confirm">Hernoem</string>
@@ -161,7 +161,7 @@
     <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanHomeScreen.kt -->
     <string name="str__">%1$s %2$s</string>
     <string name="folder_is_empty">Lêer is leeg</string>
-    <string name="tap_the__button_to_scan_a_docu">Tik die + knoppie om 'n dokument te skandeer</string>
+    <string name="tap_the__button_to_scan_a_docu">Tik die + knoppie om \'n dokument te skandeer</string>
     <string name="str______pages">%1$s • %2$s • %3$s bladsye</string>
     <string name="create_folder">Skep vouer</string>
     <string name="more_options">Meer opsies</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Bladsy %2$d</string>
     <string name="scan_ocr_title">Teksherkenning</string>
-    <string name="scan_ocr_copy">Kopieer teks</string>
     <string name="scan_ocr_no_text">Geen teks gevind nie</string>
-    <string name="scan_ocr_processing">Herkenning van teks…</string>
     <string name="scan_ocr_error">Kon nie teks herken nie</string>
     <string name="scan_ocr_not_supported">OCR word nie op hierdie platform ondersteun nie</string>
-    <string name="scan_ocr_image">Geskandeerde bladsy vir OCR</string>
     <string name="gallery">Galery</string>
     <string name="select_file">Kies Lêer</string>
     <!-- Error Messages -->
@@ -203,10 +200,17 @@
     <string name="error_create_folder">Kon nie vouer skep nie</string>
     <string name="error_delete_folder">Kon nie vouer uitvee nie</string>
     <string name="error_rename_folder">Kon nie die vouer hernoem nie</string>
-    <string name="error_unknown">'n Onbekende fout het voorgekom</string>
+    <string name="error_unknown">\'n Onbekende fout het voorgekom</string>
     <string name="folder_not_found">Lêer nie gevind nie</string>
     <string name="sync_documents">Sinkroniseer dokumente</string>
     <string name="shutter_scale">sluiter_skaal</string>
     <string name="import_gallery">Invoergalery</string>
     <string name="scan_camera">Skandeerkamera</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

@@ -33,10 +33,10 @@
     <string name="scan_camera_flash">Flash</string>
     <string name="scan_camera_auto_capture">Automatische vastlegging</string>
     <string name="scan_camera_settings">Instellingen</string>
-    <string name="scan_camera_ready_batch">Klaar om meerdere pagina's te scannen</string>
-    <string name="scan_camera_ready_multiple">Klaar om meerdere pagina's te scannen</string>
+    <string name="scan_camera_ready_batch">Klaar om meerdere pagina\'s te scannen</string>
+    <string name="scan_camera_ready_multiple">Klaar om meerdere pagina\'s te scannen</string>
     <string name="scan_camera_hold_steady">Houd uw apparaat stabiel tijdens het scannen.</string>
-    <string name="scan_camera_captured_pages">%1$d pagina's vastgelegd</string>
+    <string name="scan_camera_captured_pages">%1$d pagina\'s vastgelegd</string>
     <string name="scan_camera_mode_single">Enkel</string>
     <string name="scan_camera_mode_batch">Partij</string>
     <string name="scan_camera_preview">Voorbeeld</string>
@@ -85,14 +85,14 @@
     <!-- Scan Document Screen -->
     <string name="scan_document_title">Document</string>
     <string name="scan_document_back">Rug</string>
-    <string name="scan_document_pages">pagina's</string>
-    <string name="scan_document_add_pages">Voeg pagina's toe aan dit document</string>
+    <string name="scan_document_pages">pagina\'s</string>
+    <string name="scan_document_add_pages">Voeg pagina\'s toe aan dit document</string>
     <string name="scan_document_add_page_button">Pagina toevoegen</string>
     <string name="scan_document_rename">Naam wijzigen</string>
     <string name="scan_document_share">Deel</string>
     <string name="scan_document_more">Meer</string>
-    <string name="scan_document_pages_count">%1$d pagina's</string>
-    <string name="scan_document_no_pages">Nog geen pagina's</string>
+    <string name="scan_document_pages_count">%1$d pagina\'s</string>
+    <string name="scan_document_no_pages">Nog geen pagina\'s</string>
     <string name="scan_document_scan_page">Scan pagina</string>
     <string name="scan_document_import_page">Importeren vanuit de galerij</string>
     <string name="scan_document_grid_view">Rasterweergave</string>
@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">Afbeelding opgeslagen in de galerij</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Document verwijderen?</string>
-    <string name="scan_delete_document_message">Weet je zeker dat je "%1$s" wilt verwijderen? Hiermee worden alle pagina's in dit document permanent verwijderd. Deze actie kan niet ongedaan worden gemaakt.</string>
+    <string name="scan_delete_document_message">Weet je zeker dat je \"%1$s\" wilt verwijderen? Hiermee worden alle pagina\'s in dit document permanent verwijderd. Deze actie kan niet ongedaan worden gemaakt.</string>
     <string name="scan_rename_document">Document hernoemen</string>
     <string name="scan_rename_enter_name">Voer een nieuwe naam in voor het document.</string>
     <string name="scan_rename_document_name">Documentnaam</string>
     <string name="scan_rename_error">De documentnaam mag niet leeg zijn.</string>
     <string name="scan_dialog_delete_document_title">Document verwijderen?</string>
-    <string name="scan_dialog_delete_document_message">Weet je zeker dat je "%1$s" wilt verwijderen? Hiermee worden alle pagina's in dit document permanent verwijderd. Deze actie kan niet ongedaan worden gemaakt.</string>
+    <string name="scan_dialog_delete_document_message">Weet je zeker dat je \"%1$s\" wilt verwijderen? Hiermee worden alle pagina\'s in dit document permanent verwijderd. Deze actie kan niet ongedaan worden gemaakt.</string>
     <string name="scan_dialog_delete_confirm">Verwijderen</string>
     <string name="scan_dialog_cancel">Annuleren</string>
     <string name="scan_dialog_move_title">Verplaatsen naar map</string>
@@ -162,7 +162,7 @@
     <string name="str__">%1$s %2$s</string>
     <string name="folder_is_empty">De map is leeg.</string>
     <string name="tap_the__button_to_scan_a_docu">Tik op de + knop om een document te scannen.</string>
-    <string name="str______pages">%1$s • %2$s • %3$s pagina's</string>
+    <string name="str______pages">%1$s • %2$s • %3$s pagina\'s</string>
     <string name="create_folder">Map maken</string>
     <string name="more_options">Meer opties</string>
     <string name="document_thumbnail">Documentminiatuur</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Pagina %2$d</string>
     <string name="scan_ocr_title">Tekstherkenning</string>
-    <string name="scan_ocr_copy">Tekst kopiëren</string>
     <string name="scan_ocr_no_text">Geen tekst gevonden</string>
-    <string name="scan_ocr_processing">Tekst herkennen…</string>
     <string name="scan_ocr_error">Tekst niet herkend</string>
     <string name="scan_ocr_not_supported">OCR wordt niet ondersteund op dit platform.</string>
-    <string name="scan_ocr_image">Gescande pagina voor OCR</string>
     <string name="gallery">Galerij</string>
     <string name="select_file">Selecteer bestand</string>
     <!-- Error Messages -->
@@ -194,9 +191,9 @@
     <string name="error_load_document">Het laden van het document is mislukt.</string>
     <string name="error_load_page">Pagina laden mislukt</string>
     <string name="error_move_document">Het verplaatsen van het document is mislukt.</string>
-    <string name="error_no_pages_to_share">Geen pagina's om te delen</string>
+    <string name="error_no_pages_to_share">Geen pagina\'s om te delen</string>
     <string name="error_rename_document">Het hernoemen van het document is mislukt.</string>
-    <string name="error_reorder_pages">Het is niet gelukt om de pagina's opnieuw te ordenen.</string>
+    <string name="error_reorder_pages">Het is niet gelukt om de pagina\'s opnieuw te ordenen.</string>
     <string name="error_share_images">Afbeeldingen delen mislukt</string>
     <string name="error_share_pdf">Het delen van het PDF-bestand is mislukt.</string>
     <string name="error_share_page">Pagina delen mislukt</string>
@@ -209,4 +206,11 @@
     <string name="shutter_scale">sluiter_schaal</string>
     <string name="import_gallery">Importeer galerij</string>
     <string name="scan_camera">Scancamera</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">Jumla ya idadi ya kurasa katika PDF: %1$d (ukubwa wa sehemu lazima uwe chini ya %1$d)</string>
     <string name="this_will_create__output_files">Hii itaunda faili za matokeo %1$d</string>
     <string name="this_will_create__output_file">Hii itaunda faili ya matokeo ya %1$d</string>
-    <string name="this_input_will_split_the_pdf_">Ingizo hili litagawanya PDF katika faili tofauti kulingana na masafa yako. Kwa mfano, "1-2,5,6-8" itaunda PDF 3: kwanza ikiwa na kurasa 1-2, pili ikiwa na ukurasa wa 5, na ya tatu ikiwa na kurasa 6-8.</string>
+    <string name="this_input_will_split_the_pdf_">Ingizo hili litagawanya PDF katika faili tofauti kulingana na masafa yako. Kwa mfano, \"1-2,5,6-8\" itaunda PDF 3: kwanza ikiwa na kurasa 1-2, pili ikiwa na ukurasa wa 5, na ya tatu ikiwa na kurasa 6-8.</string>
     <string name="page_ranges">Safu za kurasa</string>
     <string name="eg_1234571520">mfano, 1-2,3,4-5,7,15-20</string>
     <string name="format_use_ranges_15_or_single">Muundo: Tumia masafa (1-5) au kurasa moja (7), yaliyotenganishwa na koma. Ni tarakimu, vistari, na koma pekee zinazoruhusiwa.</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">Imebanwa na </string>
     <string name="error_details">Maelezo ya Hitilafu</string>
     <string name="view">Tazama</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">%1$s kati ya %2$s kurasa zilizochaguliwa</string>
     <string name="showing_first_200_pages">Inaonyesha kurasa 200 za kwanza</string>

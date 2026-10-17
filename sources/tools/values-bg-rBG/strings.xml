@@ -69,6 +69,7 @@
     <string name="compressed_by_">Компресирано от </string>
     <string name="error_details">Подробности за грешката</string>
     <string name="view">Преглед</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">Избрани са %1$s от %2$s страници</string>
     <string name="showing_first_200_pages">Показване на първите 200 страници</string>

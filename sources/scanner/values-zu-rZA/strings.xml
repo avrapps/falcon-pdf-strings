@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">Isithombe silondolozwe kugalari</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Susa Idokhumenti?</string>
-    <string name="scan_delete_document_message">Uqinisekile ukuthi ufuna ukususa "%1$s"? Lokhu kuzosusa unomphela wonke amakhasi akule dokhumenti. Lesi senzo asikwazi ukuhlehliswa.</string>
+    <string name="scan_delete_document_message">Uqinisekile ukuthi ufuna ukususa \"%1$s\"? Lokhu kuzosusa unomphela wonke amakhasi akule dokhumenti. Lesi senzo asikwazi ukuhlehliswa.</string>
     <string name="scan_rename_document">Qamba kabusha idokhumenti</string>
     <string name="scan_rename_enter_name">Faka igama elisha ledokhumenti</string>
     <string name="scan_rename_document_name">Igama Ledokhumenti</string>
     <string name="scan_rename_error">Igama ledokhumenti alikwazi ukungabi nalutho</string>
     <string name="scan_dialog_delete_document_title">Susa Idokhumenti?</string>
-    <string name="scan_dialog_delete_document_message">Uqinisekile ukuthi ufuna ukususa "%1$s"? Lokhu kuzosusa unomphela wonke amakhasi akule dokhumenti. Lesi senzo asikwazi ukuhlehliswa.</string>
+    <string name="scan_dialog_delete_document_message">Uqinisekile ukuthi ufuna ukususa \"%1$s\"? Lokhu kuzosusa unomphela wonke amakhasi akule dokhumenti. Lesi senzo asikwazi ukuhlehliswa.</string>
     <string name="scan_dialog_delete_confirm">Susa</string>
     <string name="scan_dialog_cancel">Khansela</string>
     <string name="scan_dialog_move_title">Hambisa Kufolda</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Ikhasi %2$d</string>
     <string name="scan_ocr_title">Ukuqashelwa Kombhalo</string>
-    <string name="scan_ocr_copy">Kopisha Umbhalo</string>
     <string name="scan_ocr_no_text">Akukho umbhalo otholiwe</string>
-    <string name="scan_ocr_processing">Ukuqaphela umbhalo…</string>
     <string name="scan_ocr_error">Yehlulekile ukubona umbhalo</string>
     <string name="scan_ocr_not_supported">I-OCR ayisekelwa kule nkundla</string>
-    <string name="scan_ocr_image">Ikhasi eliskeniwe le-OCR</string>
     <string name="gallery">Igalari</string>
     <string name="select_file">Khetha Ifayela</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">isikali_sesivalo</string>
     <string name="import_gallery">Ngenisa Igalari</string>
     <string name="scan_camera">Skena Ikhamera</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

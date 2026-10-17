@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">Η εικόνα αποθηκεύτηκε στη συλλογή</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Διαγραφή εγγράφου;</string>
-    <string name="scan_delete_document_message">Είστε βέβαιοι ότι θέλετε να διαγράψετε το "%1$s"; Αυτό θα διαγράψει οριστικά όλες τις σελίδες σε αυτό το έγγραφο. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</string>
+    <string name="scan_delete_document_message">Είστε βέβαιοι ότι θέλετε να διαγράψετε το \"%1$s\"; Αυτό θα διαγράψει οριστικά όλες τις σελίδες σε αυτό το έγγραφο. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</string>
     <string name="scan_rename_document">Μετονομασία εγγράφου</string>
     <string name="scan_rename_enter_name">Εισαγάγετε ένα νέο όνομα για το έγγραφο</string>
     <string name="scan_rename_document_name">Όνομα εγγράφου</string>
     <string name="scan_rename_error">Το όνομα του εγγράφου δεν μπορεί να είναι κενό</string>
     <string name="scan_dialog_delete_document_title">Διαγραφή εγγράφου;</string>
-    <string name="scan_dialog_delete_document_message">Είστε βέβαιοι ότι θέλετε να διαγράψετε το "%1$s"; Αυτό θα διαγράψει οριστικά όλες τις σελίδες σε αυτό το έγγραφο. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</string>
+    <string name="scan_dialog_delete_document_message">Είστε βέβαιοι ότι θέλετε να διαγράψετε το \"%1$s\"; Αυτό θα διαγράψει οριστικά όλες τις σελίδες σε αυτό το έγγραφο. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</string>
     <string name="scan_dialog_delete_confirm">Διαγράφω</string>
     <string name="scan_dialog_cancel">Ματαίωση</string>
     <string name="scan_dialog_move_title">Μετακίνηση σε φάκελο</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Σελίδα %2$d</string>
     <string name="scan_ocr_title">Αναγνώριση κειμένου</string>
-    <string name="scan_ocr_copy">Αντιγραφή κειμένου</string>
     <string name="scan_ocr_no_text">Δεν βρέθηκε κείμενο</string>
-    <string name="scan_ocr_processing">Αναγνώριση κειμένου…</string>
     <string name="scan_ocr_error">Αποτυχία αναγνώρισης κειμένου</string>
     <string name="scan_ocr_not_supported">Το OCR δεν υποστηρίζεται σε αυτήν την πλατφόρμα</string>
-    <string name="scan_ocr_image">Σαρωμένη σελίδα για OCR</string>
     <string name="gallery">Στοά</string>
     <string name="select_file">Επιλογή Αρχείου</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">κλίμακα_κλίμακας_κλείστρου</string>
     <string name="import_gallery">Εισαγωγή Συλλογής</string>
     <string name="scan_camera">Σάρωση κάμερας</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

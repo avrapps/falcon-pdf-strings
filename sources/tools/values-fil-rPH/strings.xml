@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">Kabuuang bilang ng mga pahina sa PDF: %1$d (ang laki ng segment ay dapat na mas mababa sa %1$d)</string>
     <string name="this_will_create__output_files">Gagawa ito ng mga output file na %1$d</string>
     <string name="this_will_create__output_file">Gagawa ito ng output file na %1$d</string>
-    <string name="this_input_will_split_the_pdf_">Hahatiin ng input na ito ang PDF sa magkakahiwalay na file batay sa iyong mga saklaw. Halimbawa, ang "1-2,5,6-8" ay lilikha ng 3 PDF: una na may mga pahina 1-2, pangalawa na may pahina 5, at pangatlo na may mga pahina 6-8.</string>
+    <string name="this_input_will_split_the_pdf_">Hahatiin ng input na ito ang PDF sa magkakahiwalay na file batay sa iyong mga saklaw. Halimbawa, ang \"1-2,5,6-8\" ay lilikha ng 3 PDF: una na may mga pahina 1-2, pangalawa na may pahina 5, at pangatlo na may mga pahina 6-8.</string>
     <string name="page_ranges">Mga hanay ng pahina</string>
     <string name="eg_1234571520">hal., 1-2,3,4-5,7,15-20</string>
     <string name="format_use_ranges_15_or_single">Format: Gumamit ng mga saklaw (1-5) o mga pahinang isahan (7), na pinaghihiwalay ng mga kuwit. Mga digit, gitling, at kuwit lamang ang pinapayagan.</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">Na-compress ni </string>
     <string name="error_details">Mga Detalye ng Error</string>
     <string name="view">Tingnan</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">%1$s ng %2$s na mga pahina ang napili</string>
     <string name="showing_first_200_pages">Ipinapakita ang unang 200 pahina</string>

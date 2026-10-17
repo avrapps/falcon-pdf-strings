@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">ಚಿತ್ರವನ್ನು ಗ್ಯಾಲರಿಯಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">ಡಾಕ್ಯುಮೆಂಟ್ ಅಳಿಸುವುದೇ?</string>
-    <string name="scan_delete_document_message">"%1$s" ಅನ್ನು ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ? ಇದು ಈ ಡಾಕ್ಯುಮೆಂಟ್‌ನಲ್ಲಿರುವ ಎಲ್ಲಾ ಪುಟಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸುತ್ತದೆ. ಈ ಕ್ರಿಯೆಯನ್ನು ರದ್ದುಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
+    <string name="scan_delete_document_message">\"%1$s\" ಅನ್ನು ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ? ಇದು ಈ ಡಾಕ್ಯುಮೆಂಟ್‌ನಲ್ಲಿರುವ ಎಲ್ಲಾ ಪುಟಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸುತ್ತದೆ. ಈ ಕ್ರಿಯೆಯನ್ನು ರದ್ದುಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
     <string name="scan_rename_document">ಡಾಕ್ಯುಮೆಂಟ್ ಅನ್ನು ಮರುಹೆಸರಿಸಿ</string>
     <string name="scan_rename_enter_name">ಡಾಕ್ಯುಮೆಂಟ್‌ಗೆ ಹೊಸ ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
     <string name="scan_rename_document_name">ದಾಖಲೆಯ ಹೆಸರು</string>
     <string name="scan_rename_error">ಡಾಕ್ಯುಮೆಂಟ್ ಹೆಸರು ಖಾಲಿಯಾಗಿರಬಾರದು.</string>
     <string name="scan_dialog_delete_document_title">ಡಾಕ್ಯುಮೆಂಟ್ ಅಳಿಸುವುದೇ?</string>
-    <string name="scan_dialog_delete_document_message">"%1$s" ಅನ್ನು ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ? ಇದು ಈ ಡಾಕ್ಯುಮೆಂಟ್‌ನಲ್ಲಿರುವ ಎಲ್ಲಾ ಪುಟಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸುತ್ತದೆ. ಈ ಕ್ರಿಯೆಯನ್ನು ರದ್ದುಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
+    <string name="scan_dialog_delete_document_message">\"%1$s\" ಅನ್ನು ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ? ಇದು ಈ ಡಾಕ್ಯುಮೆಂಟ್‌ನಲ್ಲಿರುವ ಎಲ್ಲಾ ಪುಟಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸುತ್ತದೆ. ಈ ಕ್ರಿಯೆಯನ್ನು ರದ್ದುಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
     <string name="scan_dialog_delete_confirm">ಅಳಿಸಿ</string>
     <string name="scan_dialog_cancel">ರದ್ದುಮಾಡಿ</string>
     <string name="scan_dialog_move_title">ಫೋಲ್ಡರ್‌ಗೆ ಸರಿಸಿ</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — ಪುಟ %2$d</string>
     <string name="scan_ocr_title">ಪಠ್ಯ ಗುರುತಿಸುವಿಕೆ</string>
-    <string name="scan_ocr_copy">ಪಠ್ಯವನ್ನು ನಕಲಿಸಿ</string>
     <string name="scan_ocr_no_text">ಯಾವುದೇ ಪಠ್ಯ ಕಂಡುಬಂದಿಲ್ಲ</string>
-    <string name="scan_ocr_processing">… ಪಠ್ಯವನ್ನು ಗುರುತಿಸಲಾಗುತ್ತಿದೆ</string>
     <string name="scan_ocr_error">ಪಠ್ಯವನ್ನು ಗುರುತಿಸಲು ವಿಫಲವಾಗಿದೆ</string>
     <string name="scan_ocr_not_supported">ಈ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್‌ನಲ್ಲಿ OCR ಬೆಂಬಲಿತವಾಗಿಲ್ಲ.</string>
-    <string name="scan_ocr_image">OCR ಗಾಗಿ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಪುಟ</string>
     <string name="gallery">ಗ್ಯಾಲರಿ</string>
     <string name="select_file">ಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">ಶಟರ್_ಸ್ಕೇಲ್</string>
     <string name="import_gallery">ಗ್ಯಾಲರಿಯನ್ನು ಆಮದು ಮಾಡಿ</string>
     <string name="scan_camera">ಕ್ಯಾಮೆರಾ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">Número total de páginas en PDF: %1$d (el tamaño del segmento debe ser menor que %1$d)</string>
     <string name="this_will_create__output_files">Esto creará archivos de salida %1$d</string>
     <string name="this_will_create__output_file">Esto creará un archivo de salida %1$d</string>
-    <string name="this_input_will_split_the_pdf_">Esta entrada dividirá el PDF en archivos separados según los rangos que especifique. Por ejemplo, "1-2,5,6-8" creará 3 archivos PDF: el primero con las páginas 1 y 2, el segundo con la página 5 y el tercero con las páginas 6 a 8.</string>
+    <string name="this_input_will_split_the_pdf_">Esta entrada dividirá el PDF en archivos separados según los rangos que especifique. Por ejemplo, \"1-2,5,6-8\" creará 3 archivos PDF: el primero con las páginas 1 y 2, el segundo con la página 5 y el tercero con las páginas 6 a 8.</string>
     <string name="page_ranges">Rangos de páginas</string>
     <string name="eg_1234571520">p. ej., 1-2,3,4-5,7,15-20</string>
     <string name="format_use_ranges_15_or_single">Formato: Utilice rangos (1-5) o páginas individuales (7), separadas por comas. Solo se permiten dígitos, guiones y comas.</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">Comprimido por </string>
     <string name="error_details">Detalles del error</string>
     <string name="view">Vista</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">%1$s de %2$s páginas seleccionadas</string>
     <string name="showing_first_200_pages">Mostrando las primeras 200 páginas</string>

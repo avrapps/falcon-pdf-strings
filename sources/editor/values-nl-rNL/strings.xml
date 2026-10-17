@@ -32,7 +32,7 @@
     <string name="page_">Pagina %1$s</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/contents/PdfPagesPanel.kt -->
     <string name="loading_document">Document laden...</string>
-    <string name="no_pages_found_in_document">Geen pagina's gevonden in het document</string>
+    <string name="no_pages_found_in_document">Geen pagina\'s gevonden in het document</string>
     <string name="error">Fout</string>
     <string name="page__thumbnail">Pagina %1$s miniatuur</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/expanded/LeftNavigation.kt -->
@@ -90,7 +90,7 @@
     <string name="print">Afdrukken</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/shared/SharedSearchResultsList.kt -->
     <string name="str__results">%1$s resultaten</string>
-    <string name="str__results_for_">%1$s resultaten voor "%2$s"</string>
+    <string name="str__results_for_">%1$s resultaten voor \"%2$s\"</string>
     <string name="close_results">Nauwe resultaten</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/settings/ui/SettingsScreen.kt -->
     <string name="pdf_editor_settings">PDF-editorinstellingen</string>
@@ -139,6 +139,7 @@
     <string name="search">Zoekopdracht</string>
     <string name="more_actions">Meer acties</string>
     <string name="share">Deel</string>
+    <string name="show_in_finder">Show in Finder</string>
     <string name="delete">Verwijderen</string>
     <string name="open">Open</string>
     <string name="all">Alle</string>
@@ -147,7 +148,7 @@
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/SimplePdfViewer.kt -->
     <string name="loading_pdf">PDF laden...</string>
     <string name="cannot_open_file">Kan bestand niet openen</string>
-    <string name="for_security_reasons_opening_l">Om veiligheidsredenen wordt het openen van lokale bestanden vanuit PDF's niet ondersteund.\n\nBestand: %1$s</string>
+    <string name="for_security_reasons_opening_l">Om veiligheidsredenen wordt het openen van lokale bestanden vanuit PDF\'s niet ondersteund.\n\nBestand: %1$s</string>
     <string name="open_file_confirmation">Deze PDF bevat een link naar een lokaal bestand. Wilt u het openen?\n\nBestand: %1$s</string>
     <string name="open_file_title">Gekoppeld bestand openen</string>
     <string name="open_file_not_found">Het gekoppelde bestand kon niet worden gevonden.\n\nBestand: %1$s</string>
@@ -167,7 +168,7 @@
     <string name="save_clean_buy_premium">Bespaar op schoonmaak — Abonneer je op Premium</string>
     <string name="subscribe_premium">Abonneer je op Premium</string>
     <string name="save_options_title">Wijzigingen opslaan?</string>
-    <string name="save_options_subtitle">Kies hoe je "%1$s" wilt opslaan.</string>
+    <string name="save_options_subtitle">Kies hoe je \"%1$s\" wilt opslaan.</string>
     <string name="save_options_edits_summary">Aanpassingen gedaan: %1$s</string>
     <string name="save_options_irreversible_note">Deze wijzigingen kunnen niet meer ongedaan worden gemaakt nadat ze zijn opgeslagen.</string>
     <string name="save_options_pro_note">Pro-functies gedetecteerd. Sla gratis op met watermerk, of koop Pro voor een schone export.</string>
@@ -210,6 +211,10 @@
     <string name="edit_tool_hint_drag_shape">Sleep om een vorm te tekenen.</string>
     <string name="edit_tool_hint_tap_form">Tik om een formulierveld toe te voegen</string>
     <string name="edit_tool_hint_tap_stamp">Tik om een stempel te plaatsen</string>
+    <string name="edit_tool_hint_tap_signature_field">Tap to place signature field</string>
+    <string name="edit_tool_hint_tap_note">Tap to insert text note</string>
+    <string name="edit_tool_hint_tap_text_field">Tap to insert Text field</string>
+    <string name="edit_tool_hint_tap_attachment">Tap to insert attachment</string>
     <string name="user">Gebruiker</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/edittools/ui/components/SelectionBox.kt -->
     <string name="signature_preview">Voorbeeld van handtekening</string>
@@ -249,7 +254,7 @@
     <string name="watermark_rotation_pos45">45°</string>
     <string name="watermark_rotation_90">90°</string>
     <string name="watermark_page_range_label">Paginabereik</string>
-    <string name="watermark_page_range_all">Alle pagina's</string>
+    <string name="watermark_page_range_all">Alle pagina\'s</string>
     <string name="watermark_page_range_current">Huidige pagina</string>
     <string name="watermark_page_range_custom">Aangepast assortiment</string>
     <string name="watermark_page_range_custom_hint">bijv. 1-5, 8, 11-12</string>
@@ -301,6 +306,7 @@
     <string name="png_jpg_supported">PNG- en JPG-bestanden worden ondersteund.</string>
     <string name="select_image">Selecteer afbeelding</string>
     <string name="sign_here_with_your_finger">Teken hier met je vinger</string>
+    <string name="sign_here_placeholder">Sign Here</string>
     <string name="crop_signature">Crop Signature</string>
     <string name="apply_crop">Gewas toepassen</string>
     <string name="loading_image">Afbeelding laden...</string>
@@ -343,7 +349,7 @@
     <string name="more">Meer</string>
     <string name="search_results">Zoekresultaten</string>
     <string name="prevent_screen_from_turning_off_while_re">Voorkom dat het scherm uitschakelt tijdens het lezen.</string>
-    <string name="use_volume_buttons_to_scroll_pages">Gebruik de volumeknoppen om door de pagina's te scrollen.</string>
+    <string name="use_volume_buttons_to_scroll_pages">Gebruik de volumeknoppen om door de pagina\'s te scrollen.</string>
     <string name="single_tap_to_toggle_fullscreen_mode">Tik één keer om de volledige schermmodus in of uit te schakelen.</string>
     <!-- Page Number Settings -->
     <string name="page_number_settings">Paginanummer</string>
@@ -369,7 +375,7 @@
     <string name="page_number_exclude_cover_label">Voorpagina uitsluiten</string>
     <string name="page_number_exclude_cover_subtitle">Begin met nummeren vanaf pagina 2.</string>
     <string name="page_number_range_label">Paginabereik</string>
-    <string name="page_number_range_all">Alle pagina's</string>
+    <string name="page_number_range_all">Alle pagina\'s</string>
     <string name="page_number_range_custom">Aangepast</string>
     <string name="page_number_range_custom_hint">bijv. 1-5, 8, 11-12</string>
     <string name="page_number_previous_page">Vorige voorbeeldpagina</string>
@@ -414,6 +420,60 @@
     <string name="tool_stamp">Stempel</string>
     <string name="tool_watermark">Watermerk</string>
     <string name="tool_page_number">Paginanummer</string>
+    <string name="tool_attachment">Attachment</string>
+    <string name="tool_signature_field">Digital Signature</string>
+    <!-- Digital signature: Sign-or-Share choice (Phase 1C) -->
+    <string name="sign_choice_title">What would you like to do?</string>
+    <string name="sign_choice_subtitle">Sign this document yourself, or send it to someone else to sign.</string>
+    <string name="sign_choice_sign_this">Sign this PDF</string>
+    <string name="sign_choice_share">Share PDF to sign</string>
+    <!-- Digital signature: Share PDF to sign (Phase 1D) -->
+    <string name="share_sign_title">Share PDF to sign</string>
+    <string name="share_sign_signer_email">Signer email</string>
+    <string name="share_sign_signer_email_hint">name@example.com</string>
+    <string name="share_sign_deadline">Sign-by date</string>
+    <string name="share_sign_no_expiry">No expiry</string>
+    <string name="share_sign_message_optional">Message (optional)</string>
+    <string name="share_sign_cc_optional">CC (optional)</string>
+    <string name="share_sign_cc_hint">Comma-separated emails</string>
+    <string name="share_sign_send">Send invite</string>
+    <string name="share_sign_requires_signin">Please sign in to send a signing request.</string>
+    <string name="share_sign_sign_in">Sign in</string>
+    <string name="share_sign_invalid_email">Enter a valid email address.</string>
+    <string name="share_sign_pick_date">Pick a sign-by date.</string>
+    <string name="share_sign_sending">Sending invite…</string>
+    <string name="share_sign_failed">Could not send the invite. Please try again.</string>
+    <string name="share_sign_sent_title">Invite sent</string>
+    <string name="share_sign_sent_message">We\'ve emailed the signer. You\'ve been CC\'d a copy.</string>
+    <!-- Digital signature: signing-in-progress overlay -->
+    <string name="sign_in_progress">Signing…</string>
+    <!-- Digital signature: post-sign upload + confirmation (Phase 1E) -->
+    <string name="sign_upload_success">Signed — sender and you have been emailed a copy.</string>
+    <string name="sign_upload_reauth_prompt">Sign in as %1$s to upload your signed copy.</string>
+    <!-- Digital signature: Pending Actions (Phase 1F) -->
+    <string name="pending_actions_title">Pending Actions</string>
+    <string name="pending_sign_requests_title">Pending Sign Requests</string>
+    <string name="pending_actions_see_all">See All</string>
+    <string name="pending_actions_refresh">Refresh</string>
+    <string name="pending_actions_sign">Sign</string>
+    <string name="pending_actions_reject">Reject</string>
+    <string name="pending_actions_reject_confirm_title">Reject sign request?</string>
+    <string name="pending_actions_reject_confirm_message">Decline to sign \"%1$s\"? The sender will be notified and this can\'t be undone.</string>
+    <string name="pending_actions_requested_on">Requested %1$s</string>
+    <string name="pending_actions_expired">Expired</string>
+    <string name="pending_actions_sign_within_days">Sign within %1$d days</string>
+    <string name="pending_actions_sign_within_one_day">Sign within 1 day</string>
+    <string name="pending_actions_empty">No pending sign requests.</string>
+    <!-- File attachment feature -->
+    <string name="attachment_save_title">Save attachment?</string>
+    <string name="attachment_save_security_message">For your safety, this file is only saved to your device — it is never opened automatically. Only save attachments from sources you trust.</string>
+    <string name="attachment_file_label">File: %1$s</string>
+    <string name="attachment_saved_to">Saved to %1$s</string>
+    <string name="attachment_save_failed">Couldn\'t save the attachment</string>
+    <string name="attachment_save_failed_reason">Couldn\'t save the attachment: %1$s</string>
+    <string name="attachment_extract_failed">Couldn\'t read the attachment</string>
+    <string name="attachment_pick_failed">Couldn\'t read the selected file</string>
+    <string name="attachment_added">Attachment added. Tap to place it on the page.</string>
     <!-- Form tool labels -->
     <string name="tool_form_text_field">Tekstveld</string>
     <string name="tool_form_checkbox">Selectievakje</string>
@@ -435,7 +495,7 @@
     <string name="tool_category_view">Weergave</string>
     <!-- View tool labels -->
     <string name="tool_view_single_page">Enkele pagina</string>
-    <string name="tool_view_two_page">Twee pagina's</string>
+    <string name="tool_view_two_page">Twee pagina\'s</string>
     <string name="tool_view_continuous">Continu</string>
     <string name="tool_view_reflow">Reflow</string>
     <!-- Undo / Redo actions -->
@@ -515,6 +575,86 @@
     <string name="sig_rev_signed_by">Rev. %1$d: Ondertekend door</string>
     <string name="sig_validity_summary">Validiteitssamenvatting</string>
     <string name="sig_doc_not_modified">Het document is sinds de ondertekening niet gewijzigd.</string>
+    <!-- Digital Signature — Digital ID dialog (DigitalIdDialog.kt) -->
+    <string name="sig_id_header_sign">Sign with a Digital ID</string>
+    <string name="sig_id_header_add">Add a Digital ID</string>
+    <string name="sig_id_header_create">Create a self-signed Digital ID</string>
+    <string name="sig_id_header_import">Import Digital ID from file</string>
+    <string name="sig_id_close">Close</string>
+    <string name="sig_id_error_read_file">Could not read the selected file</string>
+    <string name="sig_id_error_bad_password">Incorrect password or unsupported file</string>
+    <string name="sig_id_empty_list">You don\'t have any Digital IDs yet. Add one to sign this document.</string>
+    <string name="sig_id_choose_to_sign">Choose the Digital ID to sign with:</string>
+    <string name="sig_id_choose_add_type">How would you like to add a Digital ID?</string>
+    <string name="sig_id_option_file_desc">Import an existing .p12 / .pfx Digital ID you already have.</string>
+    <string name="sig_id_option_create_desc">Create a self-signed Digital ID for personal use.</string>
+    <string name="sig_id_password_prompt">Enter the password that protects \"%1$s\".</string>
+    <string name="sig_id_password_label">Password</string>
+    <string name="sig_id_hide_password">Hide password</string>
+    <string name="sig_id_show_password">Show password</string>
+    <string name="sig_id_badge_keychain">Keychain</string>
+    <string name="sig_id_expired">Expired</string>
+    <string name="sig_id_valid_to">Valid to %1$s</string>
+    <string name="sig_id_btn_cancel">Cancel</string>
+    <string name="sig_id_btn_continue">Continue</string>
+    <string name="sig_id_btn_back">Back</string>
+    <string name="sig_id_btn_save">Save</string>
+    <string name="sig_id_btn_import">Import</string>
+    <!-- Digital Signature — signed success dialog (SignedSuccessDialog.kt) -->
+    <string name="sig_success_title">Document signed</string>
+    <string name="sig_success_saved_as">Saved as \"%1$s\".</string>
+    <string name="sig_success_close">Close</string>
+    <string name="sig_success_open">Open signed PDF</string>
+    <!-- Digital Signature — signer detail rows (SignatureSideBarContent.kt) -->
+    <string name="sig_collapse">Collapse</string>
+    <string name="sig_expand">Expand</string>
+    <string name="sig_add_to_trusted">Add to Trusted Certificate</string>
+    <string name="sig_row_signed_by">Signed by</string>
+    <string name="sig_row_reason">Reason</string>
+    <string name="sig_row_time">Time</string>
+    <string name="sig_row_type">Type</string>
+    <string name="sig_row_permission">Permission</string>
+    <string name="sig_row_certificate">Certificate</string>
+    <string name="sig_row_issued_by">Issued by</string>
+    <string name="sig_row_valid_from">Valid from</string>
+    <string name="sig_row_valid_to">Valid to</string>
+    <!-- Digital Signature — signing flow toasts (ExpandedPdfLayout.kt) -->
+    <string name="sig_toast_load_failed">Failed to load Digital ID</string>
+    <string name="sig_toast_cannot_sign_in_memory">Cannot sign in-memory PDFs</string>
+    <string name="sig_toast_sign_failed">Failed to sign document</string>
+    <!-- Digital Signature — appearance rendered text labels -->
+    <string name="sig_ap_digitally_signed_by">Digitally signed by %1$s</string>
+    <string name="sig_ap_date">Date: %1$s</string>
+    <string name="sig_ap_reason">Reason: %1$s</string>
+    <string name="sig_ap_location">Location: %1$s</string>
+    <!-- Digital Signature — Sign-as appearance preview dialog -->
+    <string name="sig_ap_sign_as">Sign as \"%1$s\"</string>
+    <string name="sig_ap_appearance">Appearance</string>
+    <string name="sig_ap_create">Create</string>
+    <string name="sig_ap_modify">Modify</string>
+    <string name="sig_ap_reason_label">Reason</string>
+    <string name="sig_ap_location_label">Location</string>
+    <string name="sig_ap_back">Back</string>
+    <string name="sig_ap_sign">Sign</string>
+    <string name="sig_ap_no_appearance_checkbox">Sign without a visible appearance</string>
+    <string name="sig_ap_no_appearance_note">This signature will not be visible on the page.</string>
+    <!-- Digital Signature — appearance preset editor dialog -->
+    <string name="sig_ap_customize_title">Customize the Signature Appearance</string>
+    <string name="sig_ap_select_signature">Select signature</string>
+    <string name="sig_ap_change_signature">Change signature</string>
+    <string name="sig_ap_remove">Remove</string>
+    <string name="sig_ap_include">Include</string>
+    <string name="sig_ap_include_name">Name</string>
+    <string name="sig_ap_include_date">Date</string>
+    <string name="sig_ap_include_logo">Logo</string>
+    <string name="sig_ap_include_labels">Labels</string>
+    <string name="sig_ap_text_direction">Text Direction</string>
+    <string name="sig_ap_dir_auto">Auto</string>
+    <string name="sig_ap_dir_ltr">LTR</string>
+    <string name="sig_ap_dir_rtl">RTL</string>
+    <string name="sig_ap_preset_name">Preset name</string>
+    <string name="sig_ap_cancel">Cancel</string>
+    <string name="sig_ap_save">Save</string>
     <!-- Toolbar settings dropdown -->
     <string name="toolbar_tools">Hulpmiddelen</string>
     <string name="toolbar_thumbnails">Miniatuurafbeeldingen</string>
@@ -546,7 +686,7 @@
     <string name="select_profile">Selecteer profiel</string>
     <string name="new_profile">Nieuw profiel</string>
     <string name="delete_profile">Profiel verwijderen</string>
-    <string name="delete_profile__this_cannot_be_undone">Profiel "%1$s" verwijderen? Dit kan niet ongedaan gemaakt worden.</string>
+    <string name="delete_profile__this_cannot_be_undone">Profiel \"%1$s\" verwijderen? Dit kan niet ongedaan gemaakt worden.</string>
     <string name="profile_name">Profielnaam</string>
     <string name="eg_gpt4o_for_editing">bijvoorbeeld GPT-40 voor bewerking</string>
     <string name="a_profile_with_this_name_already_exists">Er bestaat al een profiel met deze naam.</string>
@@ -636,6 +776,8 @@
     <string name="import_an_existing_digital_id_that_you_h">Importeer een bestaande digitale identiteitskaart die u als bestand (.pfx, .p12) hebt verkregen.</string>
     <string name="create_your_selfsigned_digital_id_for_pe">Maak uw eigen digitale identiteitsbewijs aan voor persoonlijk gebruik.</string>
     <string name="files">Bestanden</string>
+    <!-- From: session AI Chat Provider + TTS Provider settings sections -->
+    <!-- AI provider cards -->
     <string name="ai_provider_falcon_title">Falcon AI</string>
     <string name="ai_provider_falcon_subtitle">Ingebouwde gehoste cloud-AI.</string>
     <string name="ai_provider_tag_cloud">Cloud-AI</string>
@@ -646,11 +788,12 @@
     <string name="ai_provider_byok_title">OpenAI &amp; OpenRouter</string>
     <string name="ai_provider_byok_subtitle">Gebruik je eigen sleutels.</string>
     <string name="ai_provider_tag_byok">BYOK</string>
+    <!-- Falcon plan panel -->
     <string name="ai_plan_active_license">Actieve licentie</string>
     <string name="ai_plan_current_plan_suffix">NIVEAU • HUIDIG ABONNEMENT</string>
     <string name="ai_plan_available_suffix">Beschikbaar</string>
     <string name="ai_plan_used_format">%1$d van %2$d gebruikt</string>
-    <string name="ai_plan_falcon_description">Gehoste Falcon AI analyseert PDF's met meerdere pagina's, verwerkt OCR-embeddings en voert razendsnelle synthese uit in een beveiligde sandbox-enclave.</string>
+    <string name="ai_plan_falcon_description">Gehoste Falcon AI analyseert PDF\'s met meerdere pagina\'s, verwerkt OCR-embeddings en voert razendsnelle synthese uit in een beveiligde sandbox-enclave.</string>
     <string name="ai_plan_available_percent">%1$d%% beschikbaar</string>
     <string name="ai_plan_left">Resterend</string>
     <string name="ai_plan_tier_free">Gratis</string>
@@ -670,8 +813,9 @@
     <string name="ai_plan_left_this_month_format">%1$d resterend deze maand</string>
     <string name="ai_plan_premium_price">$9 / month</string>
     <string name="ai_plan_upgrade">Upgraden</string>
+    <!-- Ollama panel -->
     <string name="ai_ollama_header_title">Lokale AI-assistent (Ollama)</string>
-    <string name="ai_ollama_header_subtitle">Voer neurale LLM's uit op het apparaat. Hoge privacy, onbeperkte generatie.</string>
+    <string name="ai_ollama_header_subtitle">Voer neurale LLM\'s uit op het apparaat. Hoge privacy, onbeperkte generatie.</string>
     <string name="ai_ollama_ping_daemon">Daemon pingen</string>
     <string name="ai_ollama_daemon_endpoint">Daemon-eindpunt</string>
     <string name="ai_ollama_endpoint_hint">http://localhost:11434</string>
@@ -684,6 +828,7 @@
     <string name="ai_ollama_active_default">Actieve standaard</string>
     <string name="ai_ollama_user_configured">Door gebruiker ingesteld</string>
     <string name="ai_ollama_set_default">Als standaard</string>
+    <!-- BYOK panel -->
     <string name="ai_byok_provider_service">Providerservice</string>
     <string name="ai_byok_api_key">Geheime API-sleutel</string>
     <string name="ai_byok_api_key_hint">sk-…</string>
@@ -703,12 +848,14 @@
     <string name="ai_byok_saved_count_format">%1$d opgeslagen config.</string>
     <string name="ai_byok_no_model">Geen model</string>
     <string name="ai_byok_set_active">Activeren</string>
+    <!-- Shared buttons / daemon check -->
     <string name="settings_save_current">Huidige opslaan</string>
     <string name="settings_save_preferences">Voorkeuren opslaan</string>
     <string name="settings_saving">Opslaan…</string>
     <string name="daemon_checking">Controleren…</string>
     <string name="daemon_online">Daemon online</string>
     <string name="daemon_unreachable">Onbereikbaar</string>
+    <!-- TTS provider cards -->
     <string name="tts_provider_title">TTS-provider</string>
     <string name="tts_provider_system_title">Systeem / Apparaat</string>
     <string name="tts_provider_system_subtitle">Spraaksynthese van het besturingssysteem.</string>
@@ -717,11 +864,12 @@
     <string name="tts_provider_elevenlabs_subtitle">Ultrarealistische neurale stemmen.</string>
     <string name="tts_provider_tag_cloud">Cloud-AI</string>
     <string name="tts_provider_openai_title">OpenAI / Gateway</string>
-    <string name="tts_provider_openai_subtitle">OpenAI, OpenRouter of proxy's.</string>
+    <string name="tts_provider_openai_subtitle">OpenAI, OpenRouter of proxy\'s.</string>
     <string name="tts_provider_tag_gateway">Gateway</string>
     <string name="tts_provider_local_title">Lokale AI (Kokoro)</string>
     <string name="tts_provider_local_subtitle">Neurale inferentie op het apparaat.</string>
     <string name="tts_provider_tag_private">Privé</string>
+    <!-- TTS System panel -->
     <string name="tts_system_header_title">Ingebouwde systeemstem</string>
     <string name="tts_system_header_subtitle">Gebruikt de ingebouwde stemmen van je apparaat (bijv. Albert, Alice op macOS). Offline, geen vertraging.</string>
     <string name="tts_system_ready">Gereed</string>
@@ -736,6 +884,7 @@
     <string name="tts_test_playing">Afspelen…</string>
     <string name="tts_test_played">Afgespeeld</string>
     <string name="tts_test_preview_format">Dit is een voorbeeld van de stem %1$s.</string>
+    <!-- TTS ElevenLabs panel -->
     <string name="tts_elevenlabs_header_title">ElevenLabs-stemengine</string>
     <string name="tts_elevenlabs_header_subtitle">AI-stemmen met hoge kwaliteit en emotionele nuance.</string>
     <string name="tts_status_cloud">Cloud</string>
@@ -744,7 +893,9 @@
     <string name="tts_validate">Valideren</string>
     <string name="tts_validating">Valideren…</string>
     <string name="tts_key_valid">Sleutel geldig</string>
+    <string name="tts_key_invalid">Invalid Key</string>
     <string name="tts_elevenlabs_preview">Dit is een voorbeeld van de geselecteerde ElevenLabs-stem.</string>
+    <!-- TTS OpenAI gateway panel -->
     <string name="tts_openai_header_title">OpenAI &amp; Speech Gateway</string>
     <string name="tts_openai_header_subtitle">OpenAI, OpenRouter of een compatibele gateway.</string>
     <string name="tts_status_compatible">Compatibel</string>
@@ -760,9 +911,11 @@
     <string name="tts_openai_preview_format">Dit is een voorbeeld van de stem %1$s %2$s.</string>
     <string name="tts_openai_saved_models">Opgeslagen modellen</string>
     <string name="tts_openai_saved_count_format">%1$d opgeslagen config.</string>
-    <string name="tts_openai_no_models">Nog geen opgeslagen modellen. Stel hierboven een model en stem in en tik op "Huidige opslaan".</string>
+    <string name="tts_openai_no_models">Nog geen opgeslagen modellen. Stel hierboven een model en stem in en tik op \"Huidige opslaan\".</string>
+    <string name="tts_openai_validate_to_save">Validate your key to enable Save Current.</string>
     <string name="tts_openai_row_preview_format">Dit is een voorbeeld van %1$s stem %2$s.</string>
     <string name="tts_openai_voice_prefix_format">Stem: %1$s</string>
+    <!-- TTS Local (Kokoro) panel -->
     <string name="tts_local_header_title">Lokale AI-synthese (Kokoro)</string>
     <string name="tts_local_header_subtitle">Neurale synthese op het apparaat, geen cloudtelemetrie.</string>
     <string name="tts_local_engine_active">Engine actief</string>
@@ -787,4 +940,7 @@
     <string name="tts_local_cancel">Annuleren</string>
     <string name="tts_local_register">Stem registreren</string>
     <string name="tts_active">Actief</string>
+    <!-- PDF OCR: recognise text on the current page (shown in the viewer overflow menu) -->
+    <string name="recognize_text_on_page">Recognise text on this page</string>
+    <string name="no_images_on_page">No images on this page to extract text from.</string>
 </resources>

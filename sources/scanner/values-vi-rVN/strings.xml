@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">Ảnh đã được lưu vào thư viện</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Xóa tài liệu?</string>
-    <string name="scan_delete_document_message">Bạn có chắc chắn muốn xóa "%1$s" không? Thao tác này sẽ xóa vĩnh viễn tất cả các trang trong tài liệu này. Không thể hoàn tác.</string>
+    <string name="scan_delete_document_message">Bạn có chắc chắn muốn xóa \"%1$s\" không? Thao tác này sẽ xóa vĩnh viễn tất cả các trang trong tài liệu này. Không thể hoàn tác.</string>
     <string name="scan_rename_document">Đổi tên tài liệu</string>
     <string name="scan_rename_enter_name">Nhập tên mới cho tài liệu</string>
     <string name="scan_rename_document_name">Tên tài liệu</string>
     <string name="scan_rename_error">Tên tài liệu không được để trống.</string>
     <string name="scan_dialog_delete_document_title">Xóa tài liệu?</string>
-    <string name="scan_dialog_delete_document_message">Bạn có chắc chắn muốn xóa "%1$s" không? Thao tác này sẽ xóa vĩnh viễn tất cả các trang trong tài liệu này. Không thể hoàn tác.</string>
+    <string name="scan_dialog_delete_document_message">Bạn có chắc chắn muốn xóa \"%1$s\" không? Thao tác này sẽ xóa vĩnh viễn tất cả các trang trong tài liệu này. Không thể hoàn tác.</string>
     <string name="scan_dialog_delete_confirm">Xóa bỏ</string>
     <string name="scan_dialog_cancel">Hủy bỏ</string>
     <string name="scan_dialog_move_title">Di chuyển đến thư mục</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Trang %2$d</string>
     <string name="scan_ocr_title">Nhận dạng văn bản</string>
-    <string name="scan_ocr_copy">Sao chép văn bản</string>
     <string name="scan_ocr_no_text">Không tìm thấy văn bản nào</string>
-    <string name="scan_ocr_processing">Nhận dạng văn bản…</string>
     <string name="scan_ocr_error">Không nhận dạng được văn bản</string>
     <string name="scan_ocr_not_supported">Nền tảng này không hỗ trợ OCR.</string>
-    <string name="scan_ocr_image">Trang được quét để nhận dạng ký tự quang học (OCR).</string>
     <string name="gallery">Phòng trưng bày</string>
     <string name="select_file">Chọn tệp</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">tỷ lệ màn trập</string>
     <string name="import_gallery">Thư viện nhập khẩu</string>
     <string name="scan_camera">Máy quét</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

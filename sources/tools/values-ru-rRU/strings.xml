@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">Общее количество страниц в PDF: %1$d (размер сегмента должен быть меньше %1$d)</string>
     <string name="this_will_create__output_files">Это создаст %1$d выходных файлов</string>
     <string name="this_will_create__output_file">Это создаст выходной файл %1$d</string>
-    <string name="this_input_will_split_the_pdf_">Этот параметр разделит PDF-файл на отдельные файлы в соответствии с заданными диапазонами. Например, "1-2,5,6-8" создаст 3 PDF-файла: первый со страницами 1-2, второй со страницей 5 и третий со страницами 6-8.</string>
+    <string name="this_input_will_split_the_pdf_">Этот параметр разделит PDF-файл на отдельные файлы в соответствии с заданными диапазонами. Например, \"1-2,5,6-8\" создаст 3 PDF-файла: первый со страницами 1-2, второй со страницей 5 и третий со страницами 6-8.</string>
     <string name="page_ranges">Диапазоны страниц</string>
     <string name="eg_1234571520">например, 1-2, 3, 4-5, 7, 15-20</string>
     <string name="format_use_ranges_15_or_single">Формат: Используйте диапазоны (1-5) или отдельные страницы (7), разделяя их запятыми. Допускаются только цифры, дефисы и запятые.</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">Сжато с помощью </string>
     <string name="error_details">Подробности ошибки</string>
     <string name="view">Вид</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">%1$s из %2$s выбранных страниц</string>
     <string name="showing_first_200_pages">Показаны первые 200 страниц</string>

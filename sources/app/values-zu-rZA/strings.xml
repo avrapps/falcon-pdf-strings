@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Name -->
-    <string name="app_name">Umlingo we-PDF</string>
-    <string name="app_tagline">Ungathanda ukwenzani?</string>
     <!-- Home Screen -->
     <string name="home_last_used">Ukusetshenziswa Kokugcina</string>
     <string name="home_favorites">Izintandokazi</string>
@@ -138,8 +135,42 @@
     <string name="settings_category_appearance_subtitle">Yenza ngokwezifiso ukubukeka kohlelo lokusebenza &amp; umuzwa</string>
     <string name="settings_category_pdf_reader_title">Isifundi se-PDF</string>
     <string name="settings_category_pdf_reader_subtitle">Isibukeli esizenzakalelayo &amp; isipiliyoni sokufunda</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
     <string name="settings_category_help_title">Usizo &amp; Usekelo</string>
     <string name="settings_category_help_subtitle">Amadokhumenti &amp; oxhumana naye</string>
+    <string name="settings_category_shortcuts_title">Keyboard Shortcuts</string>
+    <string name="settings_category_shortcuts_subtitle">Desktop hotkeys reference</string>
+    <string name="shortcuts_intro_note">On macOS press Cmd; on Windows and Linux press Ctrl. Shortcuts pause while editing a form field so typing goes to the field.</string>
+    <string name="shortcuts_group_file">File</string>
+    <string name="shortcuts_group_tabs">Tabs</string>
+    <string name="shortcuts_group_navigation">Navigation</string>
+    <string name="shortcuts_group_view_zoom">View &amp; zoom</string>
+    <string name="shortcuts_group_search_panels">Search &amp; panels</string>
+    <string name="shortcuts_action_open_file">Open a file</string>
+    <string name="shortcuts_action_save">Save</string>
+    <string name="shortcuts_action_print">Print</string>
+    <string name="shortcuts_action_close_tab">Close current tab</string>
+    <string name="shortcuts_action_next_tab">Next tab</string>
+    <string name="shortcuts_action_previous_tab">Previous tab</string>
+    <string name="shortcuts_action_jump_to_tab">Jump to tab 1–8</string>
+    <string name="shortcuts_action_jump_to_last_tab">Jump to last tab</string>
+    <string name="shortcuts_action_go_to_page">Go to page</string>
+    <string name="shortcuts_action_next_prev_page">Next / previous page</string>
+    <string name="shortcuts_action_first_last_page">First / last page</string>
+    <string name="shortcuts_action_pan_page">Pan the page</string>
+    <string name="shortcuts_action_zoom_in_out">Zoom in / out</string>
+    <string name="shortcuts_action_reset_zoom">Reset zoom (fit width)</string>
+    <string name="shortcuts_action_toggle_fullscreen">Toggle fullscreen</string>
+    <string name="shortcuts_action_exit_fullscreen">Exit fullscreen</string>
+    <string name="shortcuts_action_search">Search</string>
+    <string name="shortcuts_action_copy_text">Copy selected text</string>
+    <string name="shortcuts_action_bookmarks_panel">Bookmarks panel</string>
+    <string name="shortcuts_action_toggle_bookmark">Toggle bookmark on page</string>
+    <string name="shortcuts_action_pages_panel">Pages panel</string>
+    <string name="shortcuts_action_annotations_panel">Annotations panel</string>
     <string name="settings_category_general_title">Jikelele</string>
     <string name="settings_category_general_subtitle">Ulimi &amp; ulwazi lohlelo lokusebenza</string>
     <string name="settings_theme_section">Itimu</string>
@@ -233,6 +264,7 @@
     <string name="help_terms_subtitle">Imithetho yesicelo</string>
     <!-- Sync Settings -->
     <string name="sync_on_mobile_data">Vumelanisa kudatha yeselula</string>
+    <string name="sync_skipped_mobile_data">On mobile data — sync is off. Enable \"Sync on mobile data\" in settings or connect to Wi-Fi.</string>
     <string name="background_sync">Ukuvumelanisa kwangemuva</string>
     <!-- PDF Settings -->
     <string name="pdf_settings_title">Izilungiselelo Zomfundi we-PDF</string>
@@ -255,6 +287,8 @@
     <!-- Language Picker -->
     <string name="language_picker_title">Ulimi</string>
     <string name="language_search_placeholder">Sesha izilimi...</string>
+    <string name="language_applying">Applying…</string>
+    <string name="language_download_badge">Download</string>
     <!-- Common UI -->
     <string name="support">Usekelo</string>
     <string name="language_english">IsiNgisi</string>
@@ -365,6 +399,7 @@
     <string name="search">Sesha</string>
     <string name="more_actions">Izenzo ezengeziwe</string>
     <string name="share">Yabelana</string>
+    <string name="show_in_finder">Show in Finder</string>
     <string name="delete">Susa</string>
     <string name="remove_from_recents">Susa kokusanda kwenzeka</string>
     <string name="open">Vula</string>
@@ -483,7 +518,7 @@
     <string name="settings_delete_account_subtitle">Susa unomphela i-akhawunti yakho nedatha</string>
     <string name="delete_account_warning_title">Susa i-akhawunti yakho?</string>
     <string name="delete_account_warning_message">Lokhu kuzosusa unomphela i-akhawunti yakho kanye nayo yonke idatha ehlobene, kufaka phakathi umlando wakho wokuthenga namafayela avumelaniswe namafu. Lesi senzo asikwazi ukuhlehliswa futhi ukuthenga akukwazi ukubuyiselwa kamuva.</string>
-    <string name="delete_account_confirm_phrase_label">Thayipha okuthi 'qinisekisa ukususa' ukuze uqhubeke:</string>
+    <string name="delete_account_confirm_phrase_label">Thayipha okuthi \'qinisekisa ukususa\' ukuze uqhubeke:</string>
     <string name="delete_account_confirm_phrase">qinisekisa ukususa</string>
     <string name="delete_account_button">Susa i-Akhawunti</string>
     <string name="delete_account_error_reauth">Ukuze kuvikelwe, kumele ukuthi usungene ngemvume muva nje ukuze ususe i-akhawunti yakho. Sicela uphume ngemvume bese ungena futhi, bese uzama futhi.</string>
@@ -511,6 +546,7 @@
     <string name="unsaved_changes_window_message">Unezinguquko ezingakagcinwa kudokhumenti eyodwa noma ngaphezulu. Ingabe ufuna ukuzilahla bese uphuma?</string>
     <string name="discard">Lahla</string>
     <string name="discard_and_quit">Lahla &amp; Yeka</string>
+    <string name="drop_files_to_open">Drop files to open</string>
     <string name="close">Vala</string>
     <string name="remove_favorite">Susa intandokazi</string>
     <string name="set_as_default_pdf_viewer">Setha njenge-PDF Viewer Ezenzakalelayo?</string>
@@ -583,7 +619,7 @@
     <string name="ebooks_library">Umtapo Wezincwadi ze-E</string>
     <string name="manage_your_digital_collection_across_mu">Phatha iqoqo lakho ledijithali kubahlinzeki abaningi. Sesha, hlunga, futhi uthole izihloko ezintsha ezivela ku-Google Books kanye ne-Open Library.</string>
     <string name="no_books_found">Azikho izincwadi ezitholakele</string>
-    <string name="no_results_for__try_a_different_search_t">Ayikho imiphumela ye-"%1$s". Zama igama lokusesha elihlukile.</string>
+    <string name="no_results_for__try_a_different_search_t">Ayikho imiphumela ye-\"%1$s\". Zama igama lokusesha elihlukile.</string>
     <string name="downloadable_only">Okungalandwa Kuphela</string>
     <string name="file_unavailable">Ifayela alitholakali</string>
     <string name="unavailable">Akutholakali</string>
@@ -606,6 +642,9 @@
     <string name="home">Ikhaya</string>
     <string name="your_documents_at_a_glance">Amadokhumenti akho ngokushesha</string>
     <string name="pick_file">Khetha Ifayela</string>
+    <string name="pending_actions_open_failed">Couldn\'t open this document to sign. Make sure you\'re signed in with the invited email, then try again.</string>
+    <string name="pending_actions_open_failed_title">Can\'t open sign request</string>
+    <string name="pending_actions_reject_failed">Couldn\'t decline the request. Make sure you\'re signed in with the invited email, then try again.</string>
     <string name="quick_actions">Izenzo Ezisheshayo</string>
     <string name="pro">I-PRO</string>
     <string name="open_files">Vula amafayela</string>
@@ -646,10 +685,7 @@
     <string name="my_library">Ilabhulali Yami</string>
     <string name="get_ebooks">Thola ama-eBook</string>
     <string name="scan_document">Skena Idokhumenti</string>
-    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
-    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
-    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
-    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <!-- From: session AI/TTS provider settings entries + standalone screens -->
     <string name="settings_section_ai_voice">AI &amp; VOICE</string>
     <string name="settings_entry_ai_title">AI Chat Provider</string>
     <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>

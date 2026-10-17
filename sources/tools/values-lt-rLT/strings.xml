@@ -69,6 +69,7 @@
     <string name="compressed_by_">Suspausta </string>
     <string name="error_details">Klaidos informacija</string>
     <string name="view">Peržiūrėti</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">Pasirinkta %1$s iš %2$s puslapių</string>
     <string name="showing_first_200_pages">Rodomi pirmieji 200 puslapių</string>

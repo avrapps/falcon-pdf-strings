@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Name -->
-    <string name="app_name">PDF Büyüsü</string>
-    <string name="app_tagline">Ne yapmak istersiniz?</string>
     <!-- Home Screen -->
     <string name="home_last_used">Son Kullanım</string>
     <string name="home_favorites">Favoriler</string>
     <string name="home_new_tool">Yeni Araç</string>
     <string name="home_featured">ÖNE ÇIKANLAR</string>
-    <string name="home_scan_to_pdf">PDF'ye tarayın</string>
+    <string name="home_scan_to_pdf">PDF\'ye tarayın</string>
     <string name="home_scan_description">Kağıt belgeleri anında dijital harikalara dönüştürün.</string>
     <string name="home_start_scanning">Tarama İşlemine Başla</string>
     <string name="home_all_tools">Tüm Araçlar</string>
@@ -138,8 +135,42 @@
     <string name="settings_category_appearance_subtitle">Uygulamanın görünümünü ve hissini özelleştirin &amp;</string>
     <string name="settings_category_pdf_reader_title">PDF Okuyucu</string>
     <string name="settings_category_pdf_reader_subtitle">Varsayılan görüntüleyici &amp; okuma deneyimi</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
     <string name="settings_category_help_title">Yardım &amp; Destek</string>
     <string name="settings_category_help_subtitle">Dokümantasyon &amp; iletişim</string>
+    <string name="settings_category_shortcuts_title">Keyboard Shortcuts</string>
+    <string name="settings_category_shortcuts_subtitle">Desktop hotkeys reference</string>
+    <string name="shortcuts_intro_note">On macOS press Cmd; on Windows and Linux press Ctrl. Shortcuts pause while editing a form field so typing goes to the field.</string>
+    <string name="shortcuts_group_file">File</string>
+    <string name="shortcuts_group_tabs">Tabs</string>
+    <string name="shortcuts_group_navigation">Navigation</string>
+    <string name="shortcuts_group_view_zoom">View &amp; zoom</string>
+    <string name="shortcuts_group_search_panels">Search &amp; panels</string>
+    <string name="shortcuts_action_open_file">Open a file</string>
+    <string name="shortcuts_action_save">Save</string>
+    <string name="shortcuts_action_print">Print</string>
+    <string name="shortcuts_action_close_tab">Close current tab</string>
+    <string name="shortcuts_action_next_tab">Next tab</string>
+    <string name="shortcuts_action_previous_tab">Previous tab</string>
+    <string name="shortcuts_action_jump_to_tab">Jump to tab 1–8</string>
+    <string name="shortcuts_action_jump_to_last_tab">Jump to last tab</string>
+    <string name="shortcuts_action_go_to_page">Go to page</string>
+    <string name="shortcuts_action_next_prev_page">Next / previous page</string>
+    <string name="shortcuts_action_first_last_page">First / last page</string>
+    <string name="shortcuts_action_pan_page">Pan the page</string>
+    <string name="shortcuts_action_zoom_in_out">Zoom in / out</string>
+    <string name="shortcuts_action_reset_zoom">Reset zoom (fit width)</string>
+    <string name="shortcuts_action_toggle_fullscreen">Toggle fullscreen</string>
+    <string name="shortcuts_action_exit_fullscreen">Exit fullscreen</string>
+    <string name="shortcuts_action_search">Search</string>
+    <string name="shortcuts_action_copy_text">Copy selected text</string>
+    <string name="shortcuts_action_bookmarks_panel">Bookmarks panel</string>
+    <string name="shortcuts_action_toggle_bookmark">Toggle bookmark on page</string>
+    <string name="shortcuts_action_pages_panel">Pages panel</string>
+    <string name="shortcuts_action_annotations_panel">Annotations panel</string>
     <string name="settings_category_general_title">Genel</string>
     <string name="settings_category_general_subtitle">Dil &amp; uygulama bilgisi</string>
     <string name="settings_theme_section">Tema</string>
@@ -159,7 +190,7 @@
     <string name="settings_change_color">Renk değiştir</string>
     <!-- Screen descriptions -->
     <string name="library_description">PDF belgeleriniz burada görünecektir.</string>
-    <string name="scan_description">Belgeleri PDF'ye tarayın.</string>
+    <string name="scan_description">Belgeleri PDF\'ye tarayın.</string>
     <string name="tools_description">PDF düzenleme ve manipülasyon araçları</string>
     <string name="home_description">Özelliklere erişmek için alt gezinme çubuğunu kullanın.</string>
     <!-- Sort Options -->
@@ -190,7 +221,7 @@
     <!-- Filter Options -->
     <string name="filter_all_files">Tüm Dosyalar</string>
     <string name="filter_recent">Son</string>
-    <string name="filter_pdfs">PDF'ler</string>
+    <string name="filter_pdfs">PDF\'ler</string>
     <string name="filter_images">Görseller</string>
     <!-- Bottom Navigation -->
     <string name="home_tab">Ev</string>
@@ -233,6 +264,7 @@
     <string name="help_terms_subtitle">Başvuru kuralları</string>
     <!-- Sync Settings -->
     <string name="sync_on_mobile_data">Mobil veri üzerinden senkronizasyon</string>
+    <string name="sync_skipped_mobile_data">On mobile data — sync is off. Enable \"Sync on mobile data\" in settings or connect to Wi-Fi.</string>
     <string name="background_sync">Arka plan senkronizasyonu</string>
     <!-- PDF Settings -->
     <string name="pdf_settings_title">PDF Okuyucu Ayarları</string>
@@ -255,6 +287,8 @@
     <!-- Language Picker -->
     <string name="language_picker_title">Dil</string>
     <string name="language_search_placeholder">Dilleri ara...</string>
+    <string name="language_applying">Applying…</string>
+    <string name="language_download_badge">Download</string>
     <!-- Common UI -->
     <string name="support">Destek</string>
     <string name="language_english">İngilizce</string>
@@ -331,7 +365,7 @@
     <string name="protect_your_library_files">Kütüphane dosyalarınızı koruyun.</string>
     <string name="sign_in">Giriş Yap</string>
     <string name="sign_out">oturumu Kapat</string>
-    <string name="sign_in_dialog_title">Falcon PDF'ye giriş yapın</string>
+    <string name="sign_in_dialog_title">Falcon PDF\'ye giriş yapın</string>
     <string name="sign_in_dialog_subtitle">PDF kütüphaneniz her yerde.</string>
     <string name="sign_in_with_google">Google ile giriş yapın</string>
     <string name="sign_in_with_apple">Apple ile giriş yapın</string>
@@ -350,7 +384,7 @@
     <string name="unlimited_sync_active">SINIRSIZ SENKRONİZASYON</string>
     <string name="missing_drive_permissions">Drive izinleri eksik. Senkronizasyon şu anda engellenmiş durumda.</string>
     <string name="drive_access_revoked">Sürücü erişimi iptal edildi. Senkronizasyona devam etmek için yeniden bağlanın.</string>
-    <string name="upgrade_premium">Premium'a Yükseltin</string>
+    <string name="upgrade_premium">Premium\'a Yükseltin</string>
     <string name="manage_account">Hesabı Yönet</string>
     <string name="sync_now">Şimdi senkronize et</string>
     <string name="tier_free">ÖZGÜR</string>
@@ -365,6 +399,7 @@
     <string name="search">Aramak</string>
     <string name="more_actions">Daha fazla işlem</string>
     <string name="share">Paylaşmak</string>
+    <string name="show_in_finder">Show in Finder</string>
     <string name="delete">Silmek</string>
     <string name="remove_from_recents">Son kullanılanlardan kaldır</string>
     <string name="open">Açık</string>
@@ -377,7 +412,7 @@
     <string name="sync_completed">Senkronizasyon tamamlandı</string>
     <string name="sync_failed">Senkronizasyon başarısız oldu</string>
     <string name="sync_limit_exceeded">Senkronizasyon sınırı aşıldı. %s planınız %d dosyaya izin veriyor.</string>
-    <string name="sync_no_drive_access">Google Drive'a erişim mümkün değil.</string>
+    <string name="sync_no_drive_access">Google Drive\'a erişim mümkün değil.</string>
     <string name="sync_network_unavailable">Ağ bağlantısı mevcut değil.</string>
     <string name="sync_last_sync">Son senkronizasyon: %s</string>
     <string name="sync_total_files">Toplam</string>
@@ -399,17 +434,17 @@
     <string name="welcome_sign_in_get_started">Giriş yap &amp; Başla</string>
     <!-- Welcome Slide 1 -->
     <string name="welcome_slide1_title">&lt;b&gt;Herhangi Bir Belgeyi Anında Okuyun&lt;/b&gt;</string>
-    <string name="welcome_slide1_description">PDF, DOC, EPUB, MOBI dahil olmak üzere 10'dan fazla belge formatını açın ve yönetin.</string>
+    <string name="welcome_slide1_description">PDF, DOC, EPUB, MOBI dahil olmak üzere 10\'dan fazla belge formatını açın ve yönetin.</string>
     <string name="welcome_slide1_feature1">&lt;b&gt;Read PDFs, ebooks,&lt;/b&gt; and office docs in one place</string>
     <string name="welcome_slide1_feature2">&lt;b&gt;Favori&lt;/b&gt; belgelerinize ekleyin ve bunlara farklı cihazlardan erişin.</string>
     <string name="welcome_slide1_feature3">&lt;b&gt;Yorum yapın,&lt;/b&gt; vurgulayın ve kolaylıkla işbirliği yapın.</string>
     <string name="welcome_slide1_footer">Evrensel belge okuyucunuz</string>
     <!-- Welcome Slide 2 -->
-    <string name="welcome_slide2_title">&lt;b&gt;PDF'leri Düzenleyin, Tarayın ve Organize Edin&lt;/b&gt;</string>
+    <string name="welcome_slide2_title">&lt;b&gt;PDF\'leri Düzenleyin, Tarayın ve Organize Edin&lt;/b&gt;</string>
     <string name="welcome_slide2_description">PDF dosyaları oluşturmak, düzenlemek ve yönetmek için ihtiyacınız olan her şey tek bir güçlü araç setinde.</string>
     <string name="welcome_slide2_feature1">&lt;b&gt;Metni düzenleyin,&lt;/b&gt; not ekleyin, vurgulayın ve formları doldurun.</string>
-    <string name="welcome_slide2_feature2">&lt;b&gt;Belgeleri tarayın&lt;/b&gt; ve anında PDF'ye dönüştürün</string>
-    <string name="welcome_slide2_feature3">&lt;b&gt;Birleştirme, dönüştürme, sıkıştırma ve güvenli hale getirme dahil 30'dan fazla araç&lt;/b&gt;</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Belgeleri tarayın&lt;/b&gt; ve anında PDF\'ye dönüştürün</string>
+    <string name="welcome_slide2_feature3">&lt;b&gt;Birleştirme, dönüştürme, sıkıştırma ve güvenli hale getirme dahil 30\'dan fazla araç&lt;/b&gt;</string>
     <string name="welcome_slide2_footer">Hepsi bir arada PDF çalışma alanınız</string>
     <!-- Welcome Slide 3 -->
     <string name="welcome_slide3_title">&lt;b&gt;Belgelerinizi Anlayan Yapay Zeka&lt;/b&gt;</string>
@@ -483,7 +518,7 @@
     <string name="settings_delete_account_subtitle">Hesabınızı ve verilerinizi kalıcı olarak silin.</string>
     <string name="delete_account_warning_title">Hesabınızı silmek mi istiyorsunuz?</string>
     <string name="delete_account_warning_message">Bu işlem, satın alma geçmişiniz ve buluta senkronize edilmiş dosyalarınız da dahil olmak üzere hesabınızı ve ilgili tüm verileri kalıcı olarak silecektir. Bu işlem geri alınamaz ve satın alımlar daha sonra geri yüklenemez.</string>
-    <string name="delete_account_confirm_phrase_label">Devam etmek için 'silme işlemini onayla' yazın:</string>
+    <string name="delete_account_confirm_phrase_label">Devam etmek için \'silme işlemini onayla\' yazın:</string>
     <string name="delete_account_confirm_phrase">silmeyi onayla</string>
     <string name="delete_account_button">Hesabı Sil</string>
     <string name="delete_account_error_reauth">Güvenlik nedeniyle, hesabınızı silmek için yakın zamanda oturum açmış olmanız gerekmektedir. Lütfen oturumu kapatıp tekrar oturum açın ve tekrar deneyin.</string>
@@ -492,7 +527,7 @@
     <string name="file_and_sync_settings">Dosya &amp; Senkronizasyon Ayarları</string>
     <string name="sync_on_mobile_data_subtitle">Bulut senkronizasyonu için mobil veriyi kullanın.</string>
     <string name="drive_sync">Arka plan senkronizasyonu</string>
-    <string name="drive_sync_subtitle">Favorileri senkronize et &amp; belgeleri Drive'a tarayın</string>
+    <string name="drive_sync_subtitle">Favorileri senkronize et &amp; belgeleri Drive\'a tarayın</string>
     <string name="do_not_import_from_other_apps">Diğer uygulamalardan dosya içe aktarmayın.</string>
     <string name="do_not_import_from_other_apps_subtitle">Paylaşılan dosyaları kütüphaneye kaydetmeden geçici olarak açın.</string>
     <string name="clear_imported_files">İçe Aktarılan Dosyaları Temizle</string>
@@ -504,13 +539,14 @@
     <string name="data_privacy_settings">Veri Gizliliği &amp;</string>
     <string name="analytics_opt_out_title">Kullanım Verilerini Gönder</string>
     <string name="analytics_opt_out_subtitle">Uygulamanın geliştirilmesine yardımcı olmak için anonim kullanım verilerini ve çökme raporlarını geliştiriciyle paylaşın.</string>
-    <string name="analytics_opt_out_disabled_note">Analiz ve çökme raporlaması devre dışı bırakıldı. Google'a veya geliştiriciye hiçbir veri gönderilmiyor.</string>
+    <string name="analytics_opt_out_disabled_note">Analiz ve çökme raporlaması devre dışı bırakıldı. Google\'a veya geliştiriciye hiçbir veri gönderilmiyor.</string>
     <!-- Unsaved Changes Dialogs -->
     <string name="unsaved_changes">Kaydedilmemiş Değişiklikler</string>
     <string name="unsaved_changes_tab_message">Bu belgede kaydedilmemiş değişiklikler var. Kapatmadan önce kaydetmek ister misiniz?</string>
     <string name="unsaved_changes_window_message">Bir veya daha fazla belgede kaydedilmemiş değişiklikleriniz var. Bunları silmek ve çıkmak ister misiniz?</string>
     <string name="discard">Atın</string>
-    <string name="discard_and_quit">&amp; 'ı At Çıkış</string>
+    <string name="discard_and_quit">&amp; \'ı At Çıkış</string>
+    <string name="drop_files_to_open">Drop files to open</string>
     <string name="close">Kapalı</string>
     <string name="remove_favorite">Favorilerden kaldır</string>
     <string name="set_as_default_pdf_viewer">Varsayılan PDF görüntüleyici olarak ayarla?</string>
@@ -524,11 +560,11 @@
     <string name="sign_in_with_other_accounts">Diğer hesaplarla giriş yapın</string>
     <string name="upgrade">Güncelleme</string>
     <string name="view_plan">Planı Görüntüle</string>
-    <string name="unlimited_sync_upto_5gb">5 GB'a kadar sınırsız senkronizasyon</string>
+    <string name="unlimited_sync_upto_5gb">5 GB\'a kadar sınırsız senkronizasyon</string>
     <string name="unlock_faster">Daha hızlı kilidi açın</string>
     <string name="use_biometrics_instead_of_passwords">Parola yerine biyometrik kimlik doğrulama kullanın.</string>
-    <string name="upgrade_to_premium">Premium'a yükseltin</string>
-    <string name="unlock_pdf">PDF'nin kilidini açın</string>
+    <string name="upgrade_to_premium">Premium\'a yükseltin</string>
+    <string name="unlock_pdf">PDF\'nin kilidini açın</string>
     <string name="use__to_accessnthis_document">Use %1$s to access\nthis document</string>
     <string name="open_with_password">Şifreyle Aç</string>
     <string name="secure">Güvenli</string>
@@ -571,7 +607,7 @@
     <string name="rename">Yeniden isimlendirmek</string>
     <string name="print">Yazdır</string>
     <string name="a">A−</string>
-    <string name="cover_of_">%1$s'nun kapağı</string>
+    <string name="cover_of_">%1$s\'nun kapağı</string>
     <string name="no_cover_available">Kapak mevcut değil.</string>
     <string name="read_now">Şimdi Okuyun</string>
     <string name="about_the_book">KİTAP HAKKINDA</string>
@@ -581,23 +617,23 @@
     <string name="retry">Tekrar dene</string>
     <string name="ud83duddd1ufe0f_clear_cache">\uD83D\uDDD1\uFE0F Önbelleği Temizle</string>
     <string name="ebooks_library">E-kitap Kütüphanesi</string>
-    <string name="manage_your_digital_collection_across_mu">Dijital koleksiyonunuzu birden fazla sağlayıcı üzerinden yönetin. Google Books ve Open Library'den yeni kitaplar arayın, filtreleyin ve keşfedin.</string>
+    <string name="manage_your_digital_collection_across_mu">Dijital koleksiyonunuzu birden fazla sağlayıcı üzerinden yönetin. Google Books ve Open Library\'den yeni kitaplar arayın, filtreleyin ve keşfedin.</string>
     <string name="no_books_found">Hiçbir kitap bulunamadı.</string>
-    <string name="no_results_for__try_a_different_search_t">"%1$s" için sonuç bulunamadı. Farklı bir arama terimi deneyin.</string>
+    <string name="no_results_for__try_a_different_search_t">\"%1$s\" için sonuç bulunamadı. Farklı bir arama terimi deneyin.</string>
     <string name="downloadable_only">Sadece İndirilebilir</string>
     <string name="file_unavailable">Dosya mevcut değil.</string>
     <string name="unavailable">Mevcut değil</string>
-    <string name="search_titles_authors_isbn">Başlıkları, yazarları, ISBN'i arayın...</string>
+    <string name="search_titles_authors_isbn">Başlıkları, yazarları, ISBN\'i arayın...</string>
     <string name="clear_search">Arama sonuçlarını temizle</string>
     <string name="ebooks">e-Kitaplar</string>
-    <string name="read_pdf">PDF'i okuyun</string>
+    <string name="read_pdf">PDF\'i okuyun</string>
     <string name="create_pdf">PDF oluştur</string>
     <string name="unlock_all_tools_and_remove_limits">Tüm araçların kilidini açın ve sınırlamaları kaldırın.</string>
     <string name="ocr_scanning">OCR Tarama</string>
     <string name="extract_text_from_scanned_documents">Taranmış belgelerden metin çıkarma</string>
     <string name="cloud_sync">Bulut Senkronizasyonu</string>
     <string name="access_your_documents_anywhere">Belgelerinize her yerden erişin.</string>
-    <string name="annotate_pdfs">PDF'lere açıklama ekleyin</string>
+    <string name="annotate_pdfs">PDF\'lere açıklama ekleyin</string>
     <string name="cloud_backup">Bulut Yedekleme</string>
     <string name="continue_reading">Devamını Okuyun</string>
     <string name="pick_files">Dosyaları Seçin</string>
@@ -606,10 +642,13 @@
     <string name="home">Ev</string>
     <string name="your_documents_at_a_glance">Belgeleriniz bir bakışta</string>
     <string name="pick_file">Dosya Seç</string>
+    <string name="pending_actions_open_failed">Couldn\'t open this document to sign. Make sure you\'re signed in with the invited email, then try again.</string>
+    <string name="pending_actions_open_failed_title">Can\'t open sign request</string>
+    <string name="pending_actions_reject_failed">Couldn\'t decline the request. Make sure you\'re signed in with the invited email, then try again.</string>
     <string name="quick_actions">Hızlı İşlemler</string>
     <string name="pro">PRO</string>
     <string name="open_files">Dosyaları aç</string>
-    <string name="convert_to_pdf">PDF'ye dönüştür</string>
+    <string name="convert_to_pdf">PDF\'ye dönüştür</string>
     <string name="close_drawer">Çekmeceyi kapatın</string>
     <string name="close_file">Dosyayı kapat</string>
     <string name="office">Ofis</string>
@@ -646,10 +685,7 @@
     <string name="my_library">Kütüphanem</string>
     <string name="get_ebooks">E-kitap edinin</string>
     <string name="scan_document">Belgeyi Tara</string>
-    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
-    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
-    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
-    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <!-- From: session AI/TTS provider settings entries + standalone screens -->
     <string name="settings_section_ai_voice">AI &amp; VOICE</string>
     <string name="settings_entry_ai_title">AI Chat Provider</string>
     <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>

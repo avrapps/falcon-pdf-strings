@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">Na-save ang larawan sa gallery</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Burahin ang Dokumento?</string>
-    <string name="scan_delete_document_message">Sigurado ka bang gusto mong burahin ang "%1$s"? Permanente nitong buburahin ang lahat ng pahina sa dokumentong ito. Hindi na maaaring bawiin ang aksyon na ito.</string>
+    <string name="scan_delete_document_message">Sigurado ka bang gusto mong burahin ang \"%1$s\"? Permanente nitong buburahin ang lahat ng pahina sa dokumentong ito. Hindi na maaaring bawiin ang aksyon na ito.</string>
     <string name="scan_rename_document">Palitan ang Pangalan ng Dokumento</string>
     <string name="scan_rename_enter_name">Maglagay ng bagong pangalan para sa dokumento</string>
     <string name="scan_rename_document_name">Pangalan ng Dokumento</string>
     <string name="scan_rename_error">Hindi maaaring walang laman ang pangalan ng dokumento</string>
     <string name="scan_dialog_delete_document_title">Burahin ang Dokumento?</string>
-    <string name="scan_dialog_delete_document_message">Sigurado ka bang gusto mong burahin ang "%1$s"? Permanente nitong buburahin ang lahat ng pahina sa dokumentong ito. Hindi na maaaring bawiin ang aksyon na ito.</string>
+    <string name="scan_dialog_delete_document_message">Sigurado ka bang gusto mong burahin ang \"%1$s\"? Permanente nitong buburahin ang lahat ng pahina sa dokumentong ito. Hindi na maaaring bawiin ang aksyon na ito.</string>
     <string name="scan_dialog_delete_confirm">Burahin</string>
     <string name="scan_dialog_cancel">Kanselahin</string>
     <string name="scan_dialog_move_title">Ilipat sa Folder</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Pahina %2$d</string>
     <string name="scan_ocr_title">Pagkilala sa Teksto</string>
-    <string name="scan_ocr_copy">Kopyahin ang Teksto</string>
     <string name="scan_ocr_no_text">Walang nakitang teksto</string>
-    <string name="scan_ocr_processing">Pagkilala sa teksto…</string>
     <string name="scan_ocr_error">Nabigong makilala ang teksto</string>
     <string name="scan_ocr_not_supported">Hindi sinusuportahan ang OCR sa platform na ito</string>
-    <string name="scan_ocr_image">Na-scan na pahina para sa OCR</string>
     <string name="gallery">Galeriya</string>
     <string name="select_file">Piliin ang File</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">shutter_scale</string>
     <string name="import_gallery">I-import ang Gallery</string>
     <string name="scan_camera">I-scan ang Kamera</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

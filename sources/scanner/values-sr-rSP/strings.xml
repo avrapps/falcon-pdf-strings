@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Страна %2$d</string>
     <string name="scan_ocr_title">Препознавање текста</string>
-    <string name="scan_ocr_copy">Копирај текст</string>
     <string name="scan_ocr_no_text">Није пронађен текст</string>
-    <string name="scan_ocr_processing">Препознавање текста…</string>
     <string name="scan_ocr_error">Препознавање текста није успело</string>
     <string name="scan_ocr_not_supported">OCR није подржан на овој платформи</string>
-    <string name="scan_ocr_image">Скенирана страница за OCR</string>
     <string name="gallery">Галерија</string>
     <string name="select_file">Изаберите датотеку</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">скала_затварача</string>
     <string name="import_gallery">Увези галерију</string>
     <string name="scan_camera">Скенирање камере</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

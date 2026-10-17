@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">Imej disimpan ke galeri</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Padam Dokumen?</string>
-    <string name="scan_delete_document_message">Adakah anda pasti mahu memadamkan "%1$s"? Ini akan memadamkan semua halaman dalam dokumen ini secara kekal. Tindakan ini tidak boleh dibuat asal.</string>
+    <string name="scan_delete_document_message">Adakah anda pasti mahu memadamkan \"%1$s\"? Ini akan memadamkan semua halaman dalam dokumen ini secara kekal. Tindakan ini tidak boleh dibuat asal.</string>
     <string name="scan_rename_document">Namakan Semula Dokumen</string>
     <string name="scan_rename_enter_name">Masukkan nama baharu untuk dokumen tersebut</string>
     <string name="scan_rename_document_name">Nama Dokumen</string>
     <string name="scan_rename_error">Nama dokumen tidak boleh kosong</string>
     <string name="scan_dialog_delete_document_title">Padam Dokumen?</string>
-    <string name="scan_dialog_delete_document_message">Adakah anda pasti mahu memadamkan "%1$s"? Ini akan memadamkan semua halaman dalam dokumen ini secara kekal. Tindakan ini tidak boleh dibuat asal.</string>
+    <string name="scan_dialog_delete_document_message">Adakah anda pasti mahu memadamkan \"%1$s\"? Ini akan memadamkan semua halaman dalam dokumen ini secara kekal. Tindakan ini tidak boleh dibuat asal.</string>
     <string name="scan_dialog_delete_confirm">Padam</string>
     <string name="scan_dialog_cancel">Batal</string>
     <string name="scan_dialog_move_title">Alihkan ke Folder</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Muka Surat %2$d</string>
     <string name="scan_ocr_title">Pengecaman Teks</string>
-    <string name="scan_ocr_copy">Salin Teks</string>
     <string name="scan_ocr_no_text">Tiada teks ditemui</string>
-    <string name="scan_ocr_processing">Mengecam teks…</string>
     <string name="scan_ocr_error">Gagal mengecam teks</string>
     <string name="scan_ocr_not_supported">OCR tidak disokong pada platform ini</string>
-    <string name="scan_ocr_image">Halaman yang diimbas untuk OCR</string>
     <string name="gallery">Galeri</string>
     <string name="select_file">Pilih Fail</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">skala_pengatup</string>
     <string name="import_gallery">Galeri Import</string>
     <string name="scan_camera">Kamera Imbas</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

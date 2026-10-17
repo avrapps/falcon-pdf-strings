@@ -2,7 +2,7 @@
 <resources>
     <!-- PDF Tool Names -->
     <string name="tool_compress">Стиснути</string>
-    <string name="tool_merge">Об'єднати</string>
+    <string name="tool_merge">Об\'єднати</string>
     <string name="tool_split">Спліт</string>
     <string name="tool_rotate">Повернути</string>
     <string name="tool_delete_pages">Видалити сторінки</string>
@@ -22,7 +22,7 @@
     <string name="tool_read_aloud">Читати вголос</string>
     <!-- PDF Tool Descriptions -->
     <string name="tool_compress_desc">Зменшити розмір файлу</string>
-    <string name="tool_merge_desc">Об'єднання PDF-файлів</string>
+    <string name="tool_merge_desc">Об\'єднання PDF-файлів</string>
     <string name="tool_split_desc">Вилучити сторінки</string>
     <string name="tool_rotate_desc">Змінити орієнтацію</string>
     <string name="tool_delete_pages_desc">Видалити небажані</string>
@@ -72,7 +72,7 @@
     <string name="upgrade_to_unlock_pdfs_with_fingerprint">Оновіть систему, щоб розблокувати PDF-файли за допомогою відбитка пальця</string>
     <string name="upgrade">Оновлення</string>
     <string name="reduce_file_size">Зменшити розмір файлу</string>
-    <string name="merge_pdf_files">Об'єднання PDF-файлів</string>
+    <string name="merge_pdf_files">Об\'єднання PDF-файлів</string>
     <string name="extract_pages">Вилучити сторінки</string>
     <string name="change_orientation">Змінити орієнтацію</string>
     <string name="remove_unwanted">Видалити небажані</string>

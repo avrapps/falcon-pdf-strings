@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Name -->
-    <string name="app_name">קסם PDF</string>
-    <string name="app_tagline">מה היית רוצה לעשות?</string>
     <!-- Home Screen -->
     <string name="home_last_used">בשימוש אחרון</string>
     <string name="home_favorites">מועדפים</string>
@@ -138,8 +135,42 @@
     <string name="settings_category_appearance_subtitle">התאמה אישית של מראה האפליקציה &amp;</string>
     <string name="settings_category_pdf_reader_title">קורא PDF</string>
     <string name="settings_category_pdf_reader_subtitle">חוויית הקריאה של מציג ברירת מחדל &amp;</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
     <string name="settings_category_help_title">עזרה &amp; תמיכה</string>
     <string name="settings_category_help_subtitle">תיעוד &amp; איש קשר</string>
+    <string name="settings_category_shortcuts_title">Keyboard Shortcuts</string>
+    <string name="settings_category_shortcuts_subtitle">Desktop hotkeys reference</string>
+    <string name="shortcuts_intro_note">On macOS press Cmd; on Windows and Linux press Ctrl. Shortcuts pause while editing a form field so typing goes to the field.</string>
+    <string name="shortcuts_group_file">File</string>
+    <string name="shortcuts_group_tabs">Tabs</string>
+    <string name="shortcuts_group_navigation">Navigation</string>
+    <string name="shortcuts_group_view_zoom">View &amp; zoom</string>
+    <string name="shortcuts_group_search_panels">Search &amp; panels</string>
+    <string name="shortcuts_action_open_file">Open a file</string>
+    <string name="shortcuts_action_save">Save</string>
+    <string name="shortcuts_action_print">Print</string>
+    <string name="shortcuts_action_close_tab">Close current tab</string>
+    <string name="shortcuts_action_next_tab">Next tab</string>
+    <string name="shortcuts_action_previous_tab">Previous tab</string>
+    <string name="shortcuts_action_jump_to_tab">Jump to tab 1–8</string>
+    <string name="shortcuts_action_jump_to_last_tab">Jump to last tab</string>
+    <string name="shortcuts_action_go_to_page">Go to page</string>
+    <string name="shortcuts_action_next_prev_page">Next / previous page</string>
+    <string name="shortcuts_action_first_last_page">First / last page</string>
+    <string name="shortcuts_action_pan_page">Pan the page</string>
+    <string name="shortcuts_action_zoom_in_out">Zoom in / out</string>
+    <string name="shortcuts_action_reset_zoom">Reset zoom (fit width)</string>
+    <string name="shortcuts_action_toggle_fullscreen">Toggle fullscreen</string>
+    <string name="shortcuts_action_exit_fullscreen">Exit fullscreen</string>
+    <string name="shortcuts_action_search">Search</string>
+    <string name="shortcuts_action_copy_text">Copy selected text</string>
+    <string name="shortcuts_action_bookmarks_panel">Bookmarks panel</string>
+    <string name="shortcuts_action_toggle_bookmark">Toggle bookmark on page</string>
+    <string name="shortcuts_action_pages_panel">Pages panel</string>
+    <string name="shortcuts_action_annotations_panel">Annotations panel</string>
     <string name="settings_category_general_title">כְּלָלִי</string>
     <string name="settings_category_general_subtitle">מידע על האפליקציה שפה &amp;</string>
     <string name="settings_theme_section">נוֹשֵׂא</string>
@@ -233,6 +264,7 @@
     <string name="help_terms_subtitle">כללי הבקשה</string>
     <!-- Sync Settings -->
     <string name="sync_on_mobile_data">סנכרון בנתונים ניידים</string>
+    <string name="sync_skipped_mobile_data">On mobile data — sync is off. Enable \"Sync on mobile data\" in settings or connect to Wi-Fi.</string>
     <string name="background_sync">סנכרון רקע</string>
     <!-- PDF Settings -->
     <string name="pdf_settings_title">הגדרות קורא PDF</string>
@@ -255,6 +287,8 @@
     <!-- Language Picker -->
     <string name="language_picker_title">שָׂפָה</string>
     <string name="language_search_placeholder">חיפוש שפות...</string>
+    <string name="language_applying">Applying…</string>
+    <string name="language_download_badge">Download</string>
     <!-- Common UI -->
     <string name="support">תְמִיכָה</string>
     <string name="language_english">אַנגְלִית</string>
@@ -365,6 +399,7 @@
     <string name="search">לְחַפֵּשׂ</string>
     <string name="more_actions">פעולות נוספות</string>
     <string name="share">לַחֲלוֹק</string>
+    <string name="show_in_finder">Show in Finder</string>
     <string name="delete">לִמְחוֹק</string>
     <string name="remove_from_recents">הסר מהתכנים האחרונים</string>
     <string name="open">לִפְתוֹחַ</string>
@@ -483,7 +518,7 @@
     <string name="settings_delete_account_subtitle">מחיקת החשבון והנתונים שלך לצמיתות</string>
     <string name="delete_account_warning_title">למחוק את החשבון שלך?</string>
     <string name="delete_account_warning_message">פעולה זו תמחק לצמיתות את חשבונך ואת כל הנתונים המשויכים, כולל היסטוריית הרכישות שלך וקבצים המסונכרנים בענן. לא ניתן לבטל פעולה זו ולא ניתן לשחזר רכישות מאוחר יותר.</string>
-    <string name="delete_account_confirm_phrase_label">הקלד 'אישור מחיקה' כדי להמשיך:</string>
+    <string name="delete_account_confirm_phrase_label">הקלד \'אישור מחיקה\' כדי להמשיך:</string>
     <string name="delete_account_confirm_phrase">אישור מחיקה</string>
     <string name="delete_account_button">מחיקת חשבון</string>
     <string name="delete_account_error_reauth">מטעמי אבטחה, עליך להיכנס לאחרונה כדי למחוק את חשבונך. אנא צא והתחבר שוב, ולאחר מכן נסה שוב.</string>
@@ -511,6 +546,7 @@
     <string name="unsaved_changes_window_message">יש לך שינויים שלא נשמרו במסמך אחד או יותר. האם ברצונך למחוק אותם ולסגור?</string>
     <string name="discard">לְהַשְׁלִיך</string>
     <string name="discard_and_quit">מחק &amp; צא</string>
+    <string name="drop_files_to_open">Drop files to open</string>
     <string name="close">לִסְגוֹר</string>
     <string name="remove_favorite">הסר מועדף</string>
     <string name="set_as_default_pdf_viewer">להגדיר כצופה PDF כברירת מחדל?</string>
@@ -583,7 +619,7 @@
     <string name="ebooks_library">ספריית ספרים אלקטרוניים</string>
     <string name="manage_your_digital_collection_across_mu">נהל את האוסף הדיגיטלי שלך על פני ספקים מרובים. חפש, סנן וגלה כותרים חדשים מ-Google Books ומ-Open Library.</string>
     <string name="no_books_found">לא נמצאו ספרים</string>
-    <string name="no_results_for__try_a_different_search_t">אין תוצאות עבור "%1$s". נסה מונח חיפוש אחר.</string>
+    <string name="no_results_for__try_a_different_search_t">אין תוצאות עבור \"%1$s\". נסה מונח חיפוש אחר.</string>
     <string name="downloadable_only">להורדה בלבד</string>
     <string name="file_unavailable">הקובץ לא זמין</string>
     <string name="unavailable">לא זמין</string>
@@ -606,6 +642,9 @@
     <string name="home">בַּיִת</string>
     <string name="your_documents_at_a_glance">המסמכים שלך במבט חטוף</string>
     <string name="pick_file">בחר קובץ</string>
+    <string name="pending_actions_open_failed">Couldn\'t open this document to sign. Make sure you\'re signed in with the invited email, then try again.</string>
+    <string name="pending_actions_open_failed_title">Can\'t open sign request</string>
+    <string name="pending_actions_reject_failed">Couldn\'t decline the request. Make sure you\'re signed in with the invited email, then try again.</string>
     <string name="quick_actions">פעולות מהירות</string>
     <string name="pro">מִקצוֹעָן</string>
     <string name="open_files">פתיחת קבצים</string>
@@ -646,10 +685,7 @@
     <string name="my_library">הספרייה שלי</string>
     <string name="get_ebooks">קבל ספרים אלקטרוניים</string>
     <string name="scan_document">סריקת מסמך</string>
-    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
-    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
-    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
-    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <!-- From: session AI/TTS provider settings entries + standalone screens -->
     <string name="settings_section_ai_voice">AI &amp; VOICE</string>
     <string name="settings_entry_ai_title">AI Chat Provider</string>
     <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>

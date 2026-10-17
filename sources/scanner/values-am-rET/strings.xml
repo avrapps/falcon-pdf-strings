@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">ምስሉ ወደ ጋለሪ ተቀምጧል</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">ሰነድ ይሰረዝ?</string>
-    <string name="scan_delete_document_message">"%1$s"ን መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት? ይህ በዚህ ሰነድ ውስጥ ያሉትን ሁሉንም ገጾች በቋሚነት ይሰርዛል። ይህ እርምጃ ሊቀለበስ አይችልም።</string>
+    <string name="scan_delete_document_message">\"%1$s\"ን መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት? ይህ በዚህ ሰነድ ውስጥ ያሉትን ሁሉንም ገጾች በቋሚነት ይሰርዛል። ይህ እርምጃ ሊቀለበስ አይችልም።</string>
     <string name="scan_rename_document">ሰነድን እንደገና ይሰይሙ</string>
     <string name="scan_rename_enter_name">ለሰነዱ አዲስ ስም ያስገቡ</string>
     <string name="scan_rename_document_name">የሰነድ ስም</string>
     <string name="scan_rename_error">የሰነድ ስም ባዶ ሊሆን አይችልም</string>
     <string name="scan_dialog_delete_document_title">ሰነድ ይሰረዝ?</string>
-    <string name="scan_dialog_delete_document_message">"%1$s"ን መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት? ይህ በዚህ ሰነድ ውስጥ ያሉትን ሁሉንም ገጾች በቋሚነት ይሰርዛል። ይህ እርምጃ ሊቀለበስ አይችልም።</string>
+    <string name="scan_dialog_delete_document_message">\"%1$s\"ን መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት? ይህ በዚህ ሰነድ ውስጥ ያሉትን ሁሉንም ገጾች በቋሚነት ይሰርዛል። ይህ እርምጃ ሊቀለበስ አይችልም።</string>
     <string name="scan_dialog_delete_confirm">ሰርዝ</string>
     <string name="scan_dialog_cancel">ሰርዝ</string>
     <string name="scan_dialog_move_title">ወደ አቃፊ ውሰድ</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — ገጽ %2$d</string>
     <string name="scan_ocr_title">የጽሑፍ ማወቂያ</string>
-    <string name="scan_ocr_copy">ጽሑፍን ቅዳ</string>
     <string name="scan_ocr_no_text">ምንም ጽሑፍ አልተገኘም</string>
-    <string name="scan_ocr_processing">ጽሑፍን በማወቅ ላይ…</string>
     <string name="scan_ocr_error">ጽሑፍን መለየት አልተሳካም</string>
     <string name="scan_ocr_not_supported">OCR በዚህ መድረክ ላይ አይደገፍም</string>
-    <string name="scan_ocr_image">ለOCR የተቃኘ ገጽ</string>
     <string name="gallery">ጋለሪ</string>
     <string name="select_file">ፋይል ይምረጡ</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">የመዝጊያ_ልኬት</string>
     <string name="import_gallery">የማስመጣት ጋለሪ</string>
     <string name="scan_camera">ካሜራ ይቃኙ</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">Pilt salvestati galeriisse</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Kustutada dokument?</string>
-    <string name="scan_delete_document_message">Kas olete kindel, et soovite kustutada "%1$s"? See kustutab jäädavalt kõik selle dokumendi lehed. Seda toimingut ei saa tagasi võtta.</string>
+    <string name="scan_delete_document_message">Kas olete kindel, et soovite kustutada \"%1$s\"? See kustutab jäädavalt kõik selle dokumendi lehed. Seda toimingut ei saa tagasi võtta.</string>
     <string name="scan_rename_document">Dokumendi ümbernimetamine</string>
     <string name="scan_rename_enter_name">Sisesta dokumendile uus nimi</string>
     <string name="scan_rename_document_name">Dokumendi nimi</string>
     <string name="scan_rename_error">Dokumendi nimi ei tohi olla tühi</string>
     <string name="scan_dialog_delete_document_title">Kustutada dokument?</string>
-    <string name="scan_dialog_delete_document_message">Kas olete kindel, et soovite kustutada "%1$s"? See kustutab jäädavalt kõik selle dokumendi lehed. Seda toimingut ei saa tagasi võtta.</string>
+    <string name="scan_dialog_delete_document_message">Kas olete kindel, et soovite kustutada \"%1$s\"? See kustutab jäädavalt kõik selle dokumendi lehed. Seda toimingut ei saa tagasi võtta.</string>
     <string name="scan_dialog_delete_confirm">Kustuta</string>
     <string name="scan_dialog_cancel">Tühista</string>
     <string name="scan_dialog_move_title">Teisalda kausta</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Leht %2$d</string>
     <string name="scan_ocr_title">Tekstituvastus</string>
-    <string name="scan_ocr_copy">Kopeeri tekst</string>
     <string name="scan_ocr_no_text">Teksti ei leitud</string>
-    <string name="scan_ocr_processing">Teksti tuvastamine…</string>
     <string name="scan_ocr_error">Teksti tuvastamine ebaõnnestus</string>
     <string name="scan_ocr_not_supported">OCR-i see platvorm ei toeta</string>
-    <string name="scan_ocr_image">OCR-i jaoks skannitud leht</string>
     <string name="gallery">Galerii</string>
     <string name="select_file">Valige fail</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">katiku_skaala</string>
     <string name="import_gallery">Impordi galerii</string>
     <string name="scan_camera">Skannimiskaamera</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">Picha imehifadhiwa kwenye ghala</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Futa Hati?</string>
-    <string name="scan_delete_document_message">Una uhakika unataka kufuta "%1$s"? Hii itafuta kabisa kurasa zote katika hati hii. Kitendo hiki hakiwezi kutenduliwa.</string>
+    <string name="scan_delete_document_message">Una uhakika unataka kufuta \"%1$s\"? Hii itafuta kabisa kurasa zote katika hati hii. Kitendo hiki hakiwezi kutenduliwa.</string>
     <string name="scan_rename_document">Badilisha Jina la Hati</string>
     <string name="scan_rename_enter_name">Ingiza jina jipya la hati</string>
     <string name="scan_rename_document_name">Jina la Hati</string>
     <string name="scan_rename_error">Jina la hati haliwezi kuwa tupu</string>
     <string name="scan_dialog_delete_document_title">Futa Hati?</string>
-    <string name="scan_dialog_delete_document_message">Una uhakika unataka kufuta "%1$s"? Hii itafuta kabisa kurasa zote katika hati hii. Kitendo hiki hakiwezi kutenduliwa.</string>
+    <string name="scan_dialog_delete_document_message">Una uhakika unataka kufuta \"%1$s\"? Hii itafuta kabisa kurasa zote katika hati hii. Kitendo hiki hakiwezi kutenduliwa.</string>
     <string name="scan_dialog_delete_confirm">Futa</string>
     <string name="scan_dialog_cancel">Ghairi</string>
     <string name="scan_dialog_move_title">Hamisha hadi kwenye Folda</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Ukurasa %2$d</string>
     <string name="scan_ocr_title">Utambuzi wa Maandishi</string>
-    <string name="scan_ocr_copy">Nakili Maandishi</string>
     <string name="scan_ocr_no_text">Hakuna maandishi yaliyopatikana</string>
-    <string name="scan_ocr_processing">Kutambua maandishi…</string>
     <string name="scan_ocr_error">Imeshindwa kutambua maandishi</string>
     <string name="scan_ocr_not_supported">OCR haitumiki kwenye mfumo huu</string>
-    <string name="scan_ocr_image">Ukurasa uliochanganuliwa kwa ajili ya OCR</string>
     <string name="gallery">Matunzio</string>
     <string name="select_file">Chagua Faili</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">kipimo_cha_shutter</string>
     <string name="import_gallery">Ingiza Matunzio</string>
     <string name="scan_camera">Kamera ya Changanua</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

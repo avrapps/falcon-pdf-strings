@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--Auth &Signin-->
-    <string name="error_sign_in_failed">Kontrollige oma internetiühendust ja veenduge, et Google'i konto on teie seadmesse lisatud, seejärel proovige uuesti.</string>
-    <string name="sign_in_with_apple">Logi sisse Apple'iga</string>
+    <string name="error_sign_in_failed">Kontrollige oma internetiühendust ja veenduge, et Google\'i konto on teie seadmesse lisatud, seejärel proovige uuesti.</string>
+    <string name="sign_in_with_apple">Logi sisse Apple\'iga</string>
     <!-- Purchase Screen - General -->
     <string name="purchase_screen_title">Täiusta oma kogemust</string>
     <string name="purchase_screen_close">Sule</string>
@@ -21,7 +21,7 @@
     <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
     <string name="purchase_pro_feature_1">Tehisintellekti abil ettelugemine – kuulake PDF-faile loomulikult</string>
     <string name="purchase_pro_feature_2">Täielik PDF-i redigeerimine &amp; Vormide täitmine</string>
-    <string name="purchase_pro_feature_3">Seadmeteülene sünkroonimine Drive'i kaudu</string>
+    <string name="purchase_pro_feature_3">Seadmeteülene sünkroonimine Drive\'i kaudu</string>
     <string name="purchase_pro_feature_4">Reklaamivaba, skannimisel pole vesimärki</string>
     <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
     <string name="purchase_premium_feature_1_title">Tehisintellekti kokkuvõtted tugevama arutluskäiguga</string>
@@ -102,7 +102,7 @@
     <string name="purchase_store_build_subtitle">Sinu tellimus avab Pro-funktsioonid kõigis sinu seadmetes. Logi sisse, et oma paketti sünkroonida.</string>
     <string name="ai_read_aloud">AI loeb valjusti ette</string>
     <string name="full_pdf_editing__form_filling">Täielik PDF-i redigeerimine &amp; Vormide täitmine</string>
-    <string name="crossdevice_sync_via_drive">Seadmeteülene sünkroonimine Drive'i kaudu</string>
+    <string name="crossdevice_sync_via_drive">Seadmeteülene sünkroonimine Drive\'i kaudu</string>
     <string name="adfree_no_watermark">Reklaamivaba, vesimärgita</string>
     <string name="export_to_word__excel">Ekspordi Wordi &amp; Excelisse</string>
     <string name="multiple_themes__page_backgrounds">Mitmed teemad &amp; Lehekülje taustad</string>

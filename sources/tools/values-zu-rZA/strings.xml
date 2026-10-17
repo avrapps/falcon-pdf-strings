@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">Inani eliphelele lamakhasi ku-PDF: %1$d (usayizi wesigaba kumele ube ngaphansi kuka- %1$d)</string>
     <string name="this_will_create__output_files">Lokhu kuzodala amafayela okukhipha %1$d</string>
     <string name="this_will_create__output_file">Lokhu kuzodala ifayela lokukhipha %1$d</string>
-    <string name="this_input_will_split_the_pdf_">Lokhu kufakwa kuzohlukanisa i-PDF ibe amafayela ahlukene ngokusekelwe kububanzi bakho. Isibonelo, i-"1-2,5,6-8" izodala ama-PDF amathathu: okokuqala ngamakhasi 1-2, okwesibili ngekhasi 5, kanye nelesithathu ngamakhasi 6-8.</string>
+    <string name="this_input_will_split_the_pdf_">Lokhu kufakwa kuzohlukanisa i-PDF ibe amafayela ahlukene ngokusekelwe kububanzi bakho. Isibonelo, i-\"1-2,5,6-8\" izodala ama-PDF amathathu: okokuqala ngamakhasi 1-2, okwesibili ngekhasi 5, kanye nelesithathu ngamakhasi 6-8.</string>
     <string name="page_ranges">Ububanzi bekhasi</string>
     <string name="eg_1234571520">isib., 1-2,3,4-5,7,15-20</string>
     <string name="format_use_ranges_15_or_single">Ifomethi: Sebenzisa amabanga (1-5) noma amakhasi angawodwa (7), ahlukaniswe ngamakhoma. Kuvunyelwe izinombolo, amakhoma, namakhoma kuphela.</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">Kucindezelwe yi- </string>
     <string name="error_details">Imininingwane Yephutha</string>
     <string name="view">Buka</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">%1$s kwamakhasi %2$s akhethiwe</string>
     <string name="showing_first_200_pages">Kuboniswa amakhasi okuqala angu-200</string>

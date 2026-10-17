@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/deletepages/ui/DeletePagesScreen.kt -->
-    <string name="delete_pages">Pagina's verwijderen</string>
-    <string name="are_you_sure_you_want_to_delet">Weet u zeker dat u de geselecteerde pagina's wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.</string>
+    <string name="delete_pages">Pagina\'s verwijderen</string>
+    <string name="are_you_sure_you_want_to_delet">Weet u zeker dat u de geselecteerde pagina\'s wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.</string>
     <string name="delete">Verwijderen</string>
     <string name="cancel">Annuleren</string>
     <string name="quick_selection">Snel selecteren</string>
@@ -10,7 +10,7 @@
     <string name="select_all">Alles selecteren</string>
     <string name="clear_all">Alles wissen</string>
     <string name="select_page_range">Selecteer paginabereik</string>
-    <string name="enter_the_range_of_pages_to_de">Voer het bereik van de te verwijderen pagina's in (1-%1$s)</string>
+    <string name="enter_the_range_of_pages_to_de">Voer het bereik van de te verwijderen pagina\'s in (1-%1$s)</string>
     <string name="from">Van</string>
     <string name="to">Naar</string>
     <string name="select">Select</string>
@@ -23,16 +23,16 @@
     <string name="fixed_segments">Vaste segmenten</string>
     <string name="custom_ranges">Aangepaste assortimenten</string>
     <string name="segment_size">Segmentgrootte</string>
-    <string name="this_will_create_multiple_pdfs">Hiermee worden meerdere PDF-bestanden gemaakt met het opgegeven aantal pagina's. De segmentgrootte moet kleiner zijn dan het totale aantal pagina's om zinvolle splitsingen te creëren. Als het bronbestand bijvoorbeeld 8 pagina's heeft en u voert 2 in, worden er vier PDF-bestanden gegenereerd met elk 2 pagina's.</string>
-    <string name="pages_per_file">Pagina's per bestand</string>
+    <string name="this_will_create_multiple_pdfs">Hiermee worden meerdere PDF-bestanden gemaakt met het opgegeven aantal pagina\'s. De segmentgrootte moet kleiner zijn dan het totale aantal pagina\'s om zinvolle splitsingen te creëren. Als het bronbestand bijvoorbeeld 8 pagina\'s heeft en u voert 2 in, worden er vier PDF-bestanden gegenereerd met elk 2 pagina\'s.</string>
+    <string name="pages_per_file">Pagina\'s per bestand</string>
     <string name="eg_2">bijv. 2</string>
-    <string name="total_number_of_pages_in_pdf__">Totaal aantal pagina's in PDF: %1$d (segmentgrootte moet kleiner zijn dan %1$d)</string>
+    <string name="total_number_of_pages_in_pdf__">Totaal aantal pagina\'s in PDF: %1$d (segmentgrootte moet kleiner zijn dan %1$d)</string>
     <string name="this_will_create__output_files">Dit zal %1$d uitvoerbestanden genereren</string>
     <string name="this_will_create__output_file">Dit zal het uitvoerbestand %1$d creëren</string>
-    <string name="this_input_will_split_the_pdf_">Met deze invoer wordt de PDF opgesplitst in afzonderlijke bestanden op basis van de door u opgegeven bereiken. Bijvoorbeeld: "1-2,5,6-8" genereert 3 PDF's: een eerste met pagina's 1-2, een tweede met pagina 5 en een derde met pagina's 6-8.</string>
+    <string name="this_input_will_split_the_pdf_">Met deze invoer wordt de PDF opgesplitst in afzonderlijke bestanden op basis van de door u opgegeven bereiken. Bijvoorbeeld: \"1-2,5,6-8\" genereert 3 PDF\'s: een eerste met pagina\'s 1-2, een tweede met pagina 5 en een derde met pagina\'s 6-8.</string>
     <string name="page_ranges">Paginabereiken</string>
     <string name="eg_1234571520">bijv. 1-2,3,4-5,7,15-20</string>
-    <string name="format_use_ranges_15_or_single">Opmaak: Gebruik bereiken (1-5) of afzonderlijke pagina's (7), gescheiden door komma's. Alleen cijfers, koppeltekens en komma's zijn toegestaan.</string>
+    <string name="format_use_ranges_15_or_single">Opmaak: Gebruik bereiken (1-5) of afzonderlijke pagina\'s (7), gescheiden door komma\'s. Alleen cijfers, koppeltekens en komma\'s zijn toegestaan.</string>
     <string name="split_preview">Gesplitste voorvertoning</string>
     <string name="pdf_files_will_be_created">%1$d PDF-bestanden worden aangemaakt</string>
     <string name="pdf_file_will_be_created">%1$d Er wordt een PDF-bestand aangemaakt</string>
@@ -41,7 +41,7 @@
     <string name="splitting_pdf">PDF-bestand splitsen...</string>
     <string name="checking_files">Bestanden controleren...</string>
     <string name="page_n">Pagina %1$d</string>
-    <string name="pages_n_m">Pagina's %1$d-%2$d</string>
+    <string name="pages_n_m">Pagina\'s %1$d-%2$d</string>
     <string name="split_complete">Splitsing voltooid!</string>
     <string name="split_failed">Splitsing mislukt</string>
     <string name="we_couldnt_split_your_pdf">We konden uw PDF-bestand niet splitsen.</string>
@@ -58,7 +58,7 @@
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PDFFileItem.kt -->
     <string name="str_">%1$s</string>
     <string name="str__pageif_pagecount__1_">%1$s pagina${als (paginaaantal &gt; 1) </string>
-    <string name="n_pages">%1$d pagina's</string>
+    <string name="n_pages">%1$d pagina\'s</string>
     <string name="n_page">%1$d pagina</string>
     <string name="file_size_arrow">%1$s → %2$s</string>
     <string name="password_required_for_this_pdf">Wachtwoord vereist voor dit PDF-bestand.</string>
@@ -69,10 +69,11 @@
     <string name="compressed_by_">Gecomprimeerd door </string>
     <string name="error_details">Foutdetails</string>
     <string name="view">Weergave</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
-    <string name="str__of__pages_selected">%1$s van %2$s pagina's geselecteerd</string>
-    <string name="showing_first_200_pages">De eerste 200 pagina's worden weergegeven.</string>
-    <string name="use_quick_selection_above_for_">Gebruik de snelle selectie hierboven voor pagina's boven de 200.</string>
+    <string name="str__of__pages_selected">%1$s van %2$s pagina\'s geselecteerd</string>
+    <string name="showing_first_200_pages">De eerste 200 pagina\'s worden weergegeven.</string>
+    <string name="use_quick_selection_above_for_">Gebruik de snelle selectie hierboven voor pagina\'s boven de 200.</string>
     <string name="loading">Laden...</string>
     <string name="error">Fout</string>
     <string name="generating_page_previews">Paginavoorbeelden genereren...</string>
@@ -82,13 +83,13 @@
     <string name="search">Zoekopdracht</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/rotate/ui/RotateScreen.kt -->
     <string name="rotate_pdf">PDF roteren</string>
-    <string name="please_provide_the_password_to">Geef het wachtwoord op om aangepaste pagina's te selecteren.</string>
+    <string name="please_provide_the_password_to">Geef het wachtwoord op om aangepaste pagina\'s te selecteren.</string>
     <string name="rotation_angle">Rotatiehoek</string>
     <string name="page_selection">Pagina selecteren</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/reorder/ui/ReorderScreen.kt -->
     <string name="reorder_pdf">PDF opnieuw bestellen</string>
-    <string name="use_the_arrow_buttons_to_reord">Gebruik de pijlknoppen om de pagina's opnieuw te ordenen.</string>
-    <string name="pages_">Pagina's (%1$s)</string>
+    <string name="use_the_arrow_buttons_to_reord">Gebruik de pijlknoppen om de pagina\'s opnieuw te ordenen.</string>
+    <string name="pages_">Pagina\'s (%1$s)</string>
     <string name="page_">Pagina %1$s</string>
     <string name="position__of_">Positie: %1$s van %2$s</string>
     <string name="drag_handle">Sleepgreep</string>
@@ -158,9 +159,9 @@
     <string name="compression_failed">Compressie mislukt</string>
     <string name="open_pdf">PDF openen</string>
     <string name="share_file">Bestand delen</string>
-    <string name="pages_deleted">Pagina's verwijderd!</string>
+    <string name="pages_deleted">Pagina\'s verwijderd!</string>
     <string name="delete_failed">Verwijderen mislukt</string>
-    <string name="select_pages_to_delete">Selecteer de pagina's die u wilt verwijderen</string>
+    <string name="select_pages_to_delete">Selecteer de pagina\'s die u wilt verwijderen</string>
     <string name="pdf_created">PDF aangemaakt!</string>
     <string name="conversion_failed">Conversie mislukt</string>
     <string name="pdf_locked_successfully">PDF succesvol vergrendeld!</string>
@@ -172,7 +173,7 @@
     <string name="reorder_failed">Herbestelling mislukt</string>
     <string name="rotation_complete">Rotatie voltooid!</string>
     <string name="rotation_failed">Rotatie mislukt</string>
-    <string name="select_pages_to_rotate">Selecteer pagina's om te roteren</string>
+    <string name="select_pages_to_rotate">Selecteer pagina\'s om te roteren</string>
     <string name="str__complete">%1$s Voltooid!</string>
     <string name="str__failed">%1$s Mislukt</string>
     <string name="unlock_failed">Ontgrendelen mislukt</string>
@@ -181,7 +182,7 @@
     <string name="view_your_compressed_file">Bekijk uw gecomprimeerde bestand</string>
     <string name="send_to_others_or_apps">Verzenden naar anderen of apps</string>
     <string name="your_pdf_has_been_successfully_modified">Uw PDF-bestand is succesvol gewijzigd.</string>
-    <string name="we_couldnt_delete_the_pages">We konden de pagina's niet verwijderen.</string>
+    <string name="we_couldnt_delete_the_pages">We konden de pagina\'s niet verwijderen.</string>
     <string name="your_images_have_been_converted_to_pdf">Uw afbeeldingen zijn geconverteerd naar PDF.</string>
     <string name="unable_to_create_pdf_from_images">Het lukt niet om een PDF-bestand van afbeeldingen te maken.</string>
     <string name="your_pdf_is_now_password_protected">Uw PDF-bestand is nu met een wachtwoord beveiligd.</string>
@@ -190,7 +191,7 @@
     <string name="we_couldnt_merge_your_pdfs">Het is ons niet gelukt uw PDF-bestanden samen te voegen.</string>
     <string name="str__images_created_successfully">%1$s afbeeldingen succesvol aangemaakt</string>
     <string name="unable_to_convert_pdf_to_images">PDF-bestanden kunnen niet naar afbeeldingen worden geconverteerd.</string>
-    <string name="your_pdf_pages_have_been_successfully_re">Uw PDF-pagina's zijn succesvol opnieuw geordend.</string>
+    <string name="your_pdf_pages_have_been_successfully_re">Uw PDF-pagina\'s zijn succesvol opnieuw geordend.</string>
     <string name="we_couldnt_reorder_your_pdf">Het is ons niet gelukt om uw PDF-bestand opnieuw te ordenen.</string>
     <string name="your_pdf_has_been_successfully_rotated">Uw PDF-bestand is succesvol geroteerd.</string>
     <string name="we_couldnt_rotate_your_pdf">Het is ons niet gelukt om uw PDF te roteren.</string>

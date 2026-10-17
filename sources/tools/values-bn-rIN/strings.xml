@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">Total number of pages in PDF: %1$d (segment size must be less than %1$d)</string>
     <string name="this_will_create__output_files">This will create %1$d output files</string>
     <string name="this_will_create__output_file">This will create %1$d output file</string>
-    <string name="this_input_will_split_the_pdf_">This input will split the PDF into separate files based on your ranges. For example, "1-2,5,6-8" will create 3 PDFs: first with pages 1-2, second with page 5, and third with pages 6-8.</string>
+    <string name="this_input_will_split_the_pdf_">This input will split the PDF into separate files based on your ranges. For example, \"1-2,5,6-8\" will create 3 PDFs: first with pages 1-2, second with page 5, and third with pages 6-8.</string>
     <string name="page_ranges">Page ranges</string>
     <string name="eg_1234571520">e.g., 1-2,3,4-5,7,15-20</string>
     <string name="format_use_ranges_15_or_single">Format: Use ranges (1-5) or single pages (7), separated by commas. Only digits, hyphens, and commas are allowed.</string>
@@ -44,7 +44,7 @@
     <string name="pages_n_m">Pages %1$d-%2$d</string>
     <string name="split_complete">Split Complete!</string>
     <string name="split_failed">Split Failed</string>
-    <string name="we_couldnt_split_your_pdf">We couldn't split your PDF</string>
+    <string name="we_couldnt_split_your_pdf">We couldn\'t split your PDF</string>
     <string name="your_pdf_has_been_successfully_split">Your PDF has been successfully split into %1$d files</string>
     <string name="your_pdf_has_been_successfully_split_single">Your PDF has been successfully split into %1$d file</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/ToolsHomeScreen.kt -->
@@ -69,6 +69,7 @@
     <string name="compressed_by_">Compressed by </string>
     <string name="error_details">Error Details</string>
     <string name="view">View</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">%1$s of %2$s pages selected</string>
     <string name="showing_first_200_pages">Showing first 200 pages</string>
@@ -134,7 +135,7 @@
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
     <string name="lock_pdf">Lock PDF</string>
     <string name="password_protection">Password Protection</string>
-    <string name="enter_a_password_to_protect_yo">Enter a password to protect your PDF. You'll need this password to open the file.</string>
+    <string name="enter_a_password_to_protect_yo">Enter a password to protect your PDF. You\'ll need this password to open the file.</string>
     <string name="password">Password</string>
     <string name="enter_password">Enter password</string>
     <string name="confirm_password">Confirm Password</string>
@@ -177,26 +178,26 @@
     <string name="str__failed">%1$s Failed</string>
     <string name="unlock_failed">Unlock Failed</string>
     <string name="your_pdfs_have_been_successfully_compres">Your PDFs have been successfully compressed</string>
-    <string name="we_couldnt_compress_your_pdfs">We couldn't compress your PDFs</string>
+    <string name="we_couldnt_compress_your_pdfs">We couldn\'t compress your PDFs</string>
     <string name="view_your_compressed_file">View your compressed file</string>
     <string name="send_to_others_or_apps">Send to others or apps</string>
     <string name="your_pdf_has_been_successfully_modified">Your PDF has been successfully modified</string>
-    <string name="we_couldnt_delete_the_pages">We couldn't delete the pages</string>
+    <string name="we_couldnt_delete_the_pages">We couldn\'t delete the pages</string>
     <string name="your_images_have_been_converted_to_pdf">Your images have been converted to PDF</string>
     <string name="unable_to_create_pdf_from_images">Unable to create PDF from images</string>
     <string name="your_pdf_is_now_password_protected">Your PDF is now password protected</string>
-    <string name="we_couldnt_lock_your_pdf">We couldn't lock your PDF</string>
+    <string name="we_couldnt_lock_your_pdf">We couldn\'t lock your PDF</string>
     <string name="your_pdfs_have_been_successfully_merged">Your PDFs have been successfully merged</string>
-    <string name="we_couldnt_merge_your_pdfs">We couldn't merge your PDFs</string>
+    <string name="we_couldnt_merge_your_pdfs">We couldn\'t merge your PDFs</string>
     <string name="str__images_created_successfully">%1$s images created successfully</string>
     <string name="unable_to_convert_pdf_to_images">Unable to convert PDF to images</string>
     <string name="your_pdf_pages_have_been_successfully_re">Your PDF pages have been successfully reordered</string>
-    <string name="we_couldnt_reorder_your_pdf">We couldn't reorder your PDF</string>
+    <string name="we_couldnt_reorder_your_pdf">We couldn\'t reorder your PDF</string>
     <string name="your_pdf_has_been_successfully_rotated">Your PDF has been successfully rotated</string>
-    <string name="we_couldnt_rotate_your_pdf">We couldn't rotate your PDF</string>
+    <string name="we_couldnt_rotate_your_pdf">We couldn\'t rotate your PDF</string>
     <string name="your_file_has_been_successfully_processe">Your file has been successfully processed</string>
-    <string name="we_couldnt_process_your_file">We couldn't process your file</string>
-    <string name="we_couldnt_unlock_your_pdf">We couldn't unlock your PDF</string>
+    <string name="we_couldnt_process_your_file">We couldn\'t process your file</string>
+    <string name="we_couldnt_unlock_your_pdf">We couldn\'t unlock your PDF</string>
     <string name="clear_filter">Clear filter</string>
     <string name="clear">Clear</string>
     <string name="pick_a_tool_">Pick a tool →</string>

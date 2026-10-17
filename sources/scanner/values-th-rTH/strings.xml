@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">บันทึกภาพลงในแกลเลอรีแล้ว</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">ลบเอกสาร?</string>
-    <string name="scan_delete_document_message">คุณแน่ใจหรือไม่ว่าต้องการลบ "%1$s"? การดำเนินการนี้จะลบทุกหน้าในเอกสารนี้อย่างถาวร การกระทำนี้ไม่สามารถย้อนกลับได้</string>
+    <string name="scan_delete_document_message">คุณแน่ใจหรือไม่ว่าต้องการลบ \"%1$s\"? การดำเนินการนี้จะลบทุกหน้าในเอกสารนี้อย่างถาวร การกระทำนี้ไม่สามารถย้อนกลับได้</string>
     <string name="scan_rename_document">เปลี่ยนชื่อเอกสาร</string>
     <string name="scan_rename_enter_name">ป้อนชื่อใหม่สำหรับเอกสาร</string>
     <string name="scan_rename_document_name">ชื่อเอกสาร</string>
     <string name="scan_rename_error">ชื่อเอกสารต้องไม่ว่างเปล่า</string>
     <string name="scan_dialog_delete_document_title">ลบเอกสาร?</string>
-    <string name="scan_dialog_delete_document_message">คุณแน่ใจหรือไม่ว่าต้องการลบ "%1$s"? การดำเนินการนี้จะลบทุกหน้าในเอกสารนี้อย่างถาวร การกระทำนี้ไม่สามารถย้อนกลับได้</string>
+    <string name="scan_dialog_delete_document_message">คุณแน่ใจหรือไม่ว่าต้องการลบ \"%1$s\"? การดำเนินการนี้จะลบทุกหน้าในเอกสารนี้อย่างถาวร การกระทำนี้ไม่สามารถย้อนกลับได้</string>
     <string name="scan_dialog_delete_confirm">ลบ</string>
     <string name="scan_dialog_cancel">ยกเลิก</string>
     <string name="scan_dialog_move_title">ย้ายไปยังโฟลเดอร์</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — หน้า %2$d</string>
     <string name="scan_ocr_title">การจดจำข้อความ</string>
-    <string name="scan_ocr_copy">คัดลอกข้อความ</string>
     <string name="scan_ocr_no_text">ไม่พบข้อความ</string>
-    <string name="scan_ocr_processing">การจดจำข้อความ…</string>
     <string name="scan_ocr_error">ไม่สามารถจดจำข้อความได้</string>
     <string name="scan_ocr_not_supported">แพลตฟอร์มนี้ไม่รองรับ OCR</string>
-    <string name="scan_ocr_image">หน้าที่สแกนแล้วสำหรับ OCR</string>
     <string name="gallery">แกลเลอรี่</string>
     <string name="select_file">เลือกไฟล์</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">มาตราส่วนชัตเตอร์</string>
     <string name="import_gallery">นำเข้าแกลเลอรี</string>
     <string name="scan_camera">กล้องสแกน</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

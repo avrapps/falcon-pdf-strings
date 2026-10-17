@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Strana %2$d</string>
     <string name="scan_ocr_title">Rozpoznávání textu</string>
-    <string name="scan_ocr_copy">Kopírovat text</string>
     <string name="scan_ocr_no_text">Nenalezen žádný text</string>
-    <string name="scan_ocr_processing">Rozpoznávání textu…</string>
     <string name="scan_ocr_error">Rozpoznání textu se nezdařilo</string>
     <string name="scan_ocr_not_supported">OCR není na této platformě podporováno</string>
-    <string name="scan_ocr_image">Naskenovaná stránka pro OCR</string>
     <string name="gallery">Galerie</string>
     <string name="select_file">Vybrat soubor</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">shutter_scale</string>
     <string name="import_gallery">Importovat galerii</string>
     <string name="scan_camera">Skenovací kamera</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

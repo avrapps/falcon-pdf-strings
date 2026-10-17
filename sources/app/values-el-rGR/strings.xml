@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Name -->
-    <string name="app_name">Μαγεία PDF</string>
-    <string name="app_tagline">Τι θα θέλατε να κάνετε;</string>
     <!-- Home Screen -->
     <string name="home_last_used">Τελευταία χρήση</string>
     <string name="home_favorites">Αγαπημένα</string>
@@ -138,8 +135,42 @@
     <string name="settings_category_appearance_subtitle">Προσαρμόστε την εμφάνιση της εφαρμογής &amp;</string>
     <string name="settings_category_pdf_reader_title">Αναγνώστης PDF</string>
     <string name="settings_category_pdf_reader_subtitle">Προεπιλεγμένη εμπειρία ανάγνωσης προγράμματος προβολής &amp;</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
     <string name="settings_category_help_title">Βοήθεια &amp; Υποστήριξη</string>
     <string name="settings_category_help_subtitle">Τεκμηρίωση &amp; επικοινωνία</string>
+    <string name="settings_category_shortcuts_title">Keyboard Shortcuts</string>
+    <string name="settings_category_shortcuts_subtitle">Desktop hotkeys reference</string>
+    <string name="shortcuts_intro_note">On macOS press Cmd; on Windows and Linux press Ctrl. Shortcuts pause while editing a form field so typing goes to the field.</string>
+    <string name="shortcuts_group_file">File</string>
+    <string name="shortcuts_group_tabs">Tabs</string>
+    <string name="shortcuts_group_navigation">Navigation</string>
+    <string name="shortcuts_group_view_zoom">View &amp; zoom</string>
+    <string name="shortcuts_group_search_panels">Search &amp; panels</string>
+    <string name="shortcuts_action_open_file">Open a file</string>
+    <string name="shortcuts_action_save">Save</string>
+    <string name="shortcuts_action_print">Print</string>
+    <string name="shortcuts_action_close_tab">Close current tab</string>
+    <string name="shortcuts_action_next_tab">Next tab</string>
+    <string name="shortcuts_action_previous_tab">Previous tab</string>
+    <string name="shortcuts_action_jump_to_tab">Jump to tab 1–8</string>
+    <string name="shortcuts_action_jump_to_last_tab">Jump to last tab</string>
+    <string name="shortcuts_action_go_to_page">Go to page</string>
+    <string name="shortcuts_action_next_prev_page">Next / previous page</string>
+    <string name="shortcuts_action_first_last_page">First / last page</string>
+    <string name="shortcuts_action_pan_page">Pan the page</string>
+    <string name="shortcuts_action_zoom_in_out">Zoom in / out</string>
+    <string name="shortcuts_action_reset_zoom">Reset zoom (fit width)</string>
+    <string name="shortcuts_action_toggle_fullscreen">Toggle fullscreen</string>
+    <string name="shortcuts_action_exit_fullscreen">Exit fullscreen</string>
+    <string name="shortcuts_action_search">Search</string>
+    <string name="shortcuts_action_copy_text">Copy selected text</string>
+    <string name="shortcuts_action_bookmarks_panel">Bookmarks panel</string>
+    <string name="shortcuts_action_toggle_bookmark">Toggle bookmark on page</string>
+    <string name="shortcuts_action_pages_panel">Pages panel</string>
+    <string name="shortcuts_action_annotations_panel">Annotations panel</string>
     <string name="settings_category_general_title">Γενικός</string>
     <string name="settings_category_general_subtitle">Γλώσσα &amp; πληροφορίες εφαρμογής</string>
     <string name="settings_theme_section">Θέμα</string>
@@ -233,6 +264,7 @@
     <string name="help_terms_subtitle">Κανόνες εφαρμογής</string>
     <!-- Sync Settings -->
     <string name="sync_on_mobile_data">Συγχρονισμός σε δεδομένα κινητής τηλεφωνίας</string>
+    <string name="sync_skipped_mobile_data">On mobile data — sync is off. Enable \"Sync on mobile data\" in settings or connect to Wi-Fi.</string>
     <string name="background_sync">Συγχρονισμός φόντου</string>
     <!-- PDF Settings -->
     <string name="pdf_settings_title">Ρυθμίσεις προγράμματος ανάγνωσης PDF</string>
@@ -255,6 +287,8 @@
     <!-- Language Picker -->
     <string name="language_picker_title">Γλώσσα</string>
     <string name="language_search_placeholder">Αναζήτηση γλωσσών...</string>
+    <string name="language_applying">Applying…</string>
+    <string name="language_download_badge">Download</string>
     <!-- Common UI -->
     <string name="support">Υποστήριξη</string>
     <string name="language_english">αγγλικός</string>
@@ -365,6 +399,7 @@
     <string name="search">Ερευνα</string>
     <string name="more_actions">Περισσότερες ενέργειες</string>
     <string name="share">Μερίδιο</string>
+    <string name="show_in_finder">Show in Finder</string>
     <string name="delete">Διαγράφω</string>
     <string name="remove_from_recents">Κατάργηση από τα πρόσφατα</string>
     <string name="open">Ανοιχτό</string>
@@ -498,7 +533,7 @@
     <string name="clear_imported_files">Εκκαθάριση εισαγόμενων αρχείων</string>
     <string name="clear_imported_files_subtitle">Διαγραφή όλων των αρχείων που αντιγράφηκαν από άλλες εφαρμογές</string>
     <string name="clear_imports_confirm_title">Διαγραφή εισαγόμενων αρχείων;</string>
-    <string name="clear_imports_confirm_message">Αυτό θα διαγράψει οριστικά όλα τα αρχεία στον φάκελο "Εισαγωγές". Δεν είναι δυνατή η αναίρεση αυτής της ενέργειας.</string>
+    <string name="clear_imports_confirm_message">Αυτό θα διαγράψει οριστικά όλα τα αρχεία στον φάκελο \"Εισαγωγές\". Δεν είναι δυνατή η αναίρεση αυτής της ενέργειας.</string>
     <string name="clear_imports_success">Τα εισαγόμενα αρχεία διαγράφηκαν</string>
     <!-- Data & Privacy Settings -->
     <string name="data_privacy_settings">Δεδομένα &amp; Απόρρητο</string>
@@ -511,6 +546,7 @@
     <string name="unsaved_changes_window_message">Έχετε μη αποθηκευμένες αλλαγές σε ένα ή περισσότερα έγγραφα. Θέλετε να τις απορρίψετε και να τερματίσετε;</string>
     <string name="discard">Απορρίπτω</string>
     <string name="discard_and_quit">Απόρριψη &amp; Έξοδος</string>
+    <string name="drop_files_to_open">Drop files to open</string>
     <string name="close">Κοντά</string>
     <string name="remove_favorite">Αφαίρεση αγαπημένου</string>
     <string name="set_as_default_pdf_viewer">Ορισμός ως προεπιλεγμένου προγράμματος προβολής PDF;</string>
@@ -583,7 +619,7 @@
     <string name="ebooks_library">Βιβλιοθήκη ηλεκτρονικών βιβλίων</string>
     <string name="manage_your_digital_collection_across_mu">Διαχειριστείτε την ψηφιακή σας συλλογή σε πολλούς παρόχους. Αναζητήστε, φιλτράρετε και ανακαλύψτε νέους τίτλους από τα Google Books και την Open Library.</string>
     <string name="no_books_found">Δεν βρέθηκαν βιβλία</string>
-    <string name="no_results_for__try_a_different_search_t">Δεν βρέθηκαν αποτελέσματα για "%1$s". Δοκιμάστε έναν διαφορετικό όρο αναζήτησης.</string>
+    <string name="no_results_for__try_a_different_search_t">Δεν βρέθηκαν αποτελέσματα για \"%1$s\". Δοκιμάστε έναν διαφορετικό όρο αναζήτησης.</string>
     <string name="downloadable_only">Μόνο για λήψη</string>
     <string name="file_unavailable">Το αρχείο δεν είναι διαθέσιμο</string>
     <string name="unavailable">Δυσεύρετος</string>
@@ -606,6 +642,9 @@
     <string name="home">Σπίτι</string>
     <string name="your_documents_at_a_glance">Τα έγγραφά σας με μια ματιά</string>
     <string name="pick_file">Επιλογή αρχείου</string>
+    <string name="pending_actions_open_failed">Couldn\'t open this document to sign. Make sure you\'re signed in with the invited email, then try again.</string>
+    <string name="pending_actions_open_failed_title">Can\'t open sign request</string>
+    <string name="pending_actions_reject_failed">Couldn\'t decline the request. Make sure you\'re signed in with the invited email, then try again.</string>
     <string name="quick_actions">Γρήγορες ενέργειες</string>
     <string name="pro">ΕΠΑΓΓΕΛΜΑΤΙΑΣ</string>
     <string name="open_files">Άνοιγμα αρχείων</string>
@@ -646,10 +685,7 @@
     <string name="my_library">Η Βιβλιοθήκη μου</string>
     <string name="get_ebooks">Αποκτήστε ηλεκτρονικά βιβλία</string>
     <string name="scan_document">Σάρωση εγγράφου</string>
-    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
-    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
-    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
-    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <!-- From: session AI/TTS provider settings entries + standalone screens -->
     <string name="settings_section_ai_voice">AI &amp; VOICE</string>
     <string name="settings_entry_ai_title">AI Chat Provider</string>
     <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>

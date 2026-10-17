@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">Kopējais lappušu skaits PDF failā: %1$d (segmenta izmēram jābūt mazākam par %1$d)</string>
     <string name="this_will_create__output_files">Tas izveidos %1$d izvades failus</string>
     <string name="this_will_create__output_file">Tas izveidos %1$d izvades failu</string>
-    <string name="this_input_will_split_the_pdf_">Šī ievade sadalīs PDF failu atsevišķos failos, pamatojoties uz jūsu diapazoniem. Piemēram, ievadot "1-2,5,6-8", tiks izveidoti 3 PDF faili: pirmais ar 1.-2. lappusi, otrais ar 5. lappusi un trešais ar 6.-8. lappusi.</string>
+    <string name="this_input_will_split_the_pdf_">Šī ievade sadalīs PDF failu atsevišķos failos, pamatojoties uz jūsu diapazoniem. Piemēram, ievadot \"1-2,5,6-8\", tiks izveidoti 3 PDF faili: pirmais ar 1.-2. lappusi, otrais ar 5. lappusi un trešais ar 6.-8. lappusi.</string>
     <string name="page_ranges">Lapu diapazoni</string>
     <string name="eg_1234571520">piem., 1–2, 3, 4–5, 7, 15–20</string>
     <string name="format_use_ranges_15_or_single">Formāts: Izmantojiet diapazonus (1–5) vai atsevišķas lappuses (7), atdalot tās ar komatiem. Atļauti ir tikai cipari, defises un komati.</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">Saspiests ar </string>
     <string name="error_details">Kļūdas informācija</string>
     <string name="view">Skatīt</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">Atlasītas %1$s no %2$s lapām</string>
     <string name="showing_first_200_pages">Rāda pirmās 200 lappuses</string>

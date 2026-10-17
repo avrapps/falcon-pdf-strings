@@ -21,7 +21,7 @@
     <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
     <string name="purchase_pro_feature_1">AI Read Aloud — Pakikinig sa mga PDF nang natural</string>
     <string name="purchase_pro_feature_2">Buong Pag-eedit ng PDF &amp; Pagpuno ng Form</string>
-    <string name="purchase_pro_feature_3">Pag-sync sa Iba't Ibang Device sa pamamagitan ng Drive</string>
+    <string name="purchase_pro_feature_3">Pag-sync sa Iba\'t Ibang Device sa pamamagitan ng Drive</string>
     <string name="purchase_pro_feature_4">Walang Ad, Walang Watermark sa mga Scan</string>
     <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
     <string name="purchase_premium_feature_1_title">Mga Buod ng AI na may Mas Matibay na Pangangatwiran</string>
@@ -102,7 +102,7 @@
     <string name="purchase_store_build_subtitle">Ina-unlock ng iyong subscription ang mga Pro na feature sa lahat ng iyong device. Mag-sign in para i-sync ang iyong plano.</string>
     <string name="ai_read_aloud">Pagbasa nang Malakas ng AI</string>
     <string name="full_pdf_editing__form_filling">Buong Pag-eedit ng PDF &amp; Pagpuno ng Form</string>
-    <string name="crossdevice_sync_via_drive">Pag-sync sa Iba't Ibang Device sa pamamagitan ng Drive</string>
+    <string name="crossdevice_sync_via_drive">Pag-sync sa Iba\'t Ibang Device sa pamamagitan ng Drive</string>
     <string name="adfree_no_watermark">Walang Ad, Walang Watermark</string>
     <string name="export_to_word__excel">I-export sa Word &amp; Excel</string>
     <string name="multiple_themes__page_backgrounds">Maramihang Tema &amp; Mga Background ng Pahina</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--Auth &Signin-->
-    <string name="error_sign_in_failed">Gaan jou internetverbinding na en bevestig dat 'n Google-rekening by jou toestel gevoeg is, en probeer dan weer.</string>
+    <string name="error_sign_in_failed">Gaan jou internetverbinding na en bevestig dat \'n Google-rekening by jou toestel gevoeg is, en probeer dan weer.</string>
     <string name="sign_in_with_apple">Teken aan met Apple</string>
     <!-- Purchase Screen - General -->
     <string name="purchase_screen_title">Gradeer jou ervaring op</string>
@@ -19,7 +19,7 @@
     <string name="purchase_premium_tagline">Alles in Pro, plus KI &amp; Wolk</string>
     <string name="purchase_recommended">Aanbeveel</string>
     <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
-    <string name="purchase_pro_feature_1">KI Lees Hardop — Luister natuurlik na PDF's</string>
+    <string name="purchase_pro_feature_1">KI Lees Hardop — Luister natuurlik na PDF\'s</string>
     <string name="purchase_pro_feature_2">Volledige PDF-redigering &amp; Vormvul</string>
     <string name="purchase_pro_feature_3">Kruistoestel-sinkronisering via Drive</string>
     <string name="purchase_pro_feature_4">Advertensievry, geen watermerk op skanderings nie</string>
@@ -30,8 +30,8 @@
     <string name="purchase_premium_feature_2_desc">Jou persoonlike PDF-biblioteek, gesinkroniseer en veilig</string>
     <string name="purchase_premium_feature_3_title">Geen beperkings op 60+ PDF-gereedskap nie</string>
     <string name="purchase_premium_feature_3_desc">Elke hulpmiddel, altyd beskikbaar</string>
-    <string name="purchase_premium_feature_4_title">Volledige teksredigering in PDF's</string>
-    <string name="purchase_premium_feature_4_desc">Wysig teks direk soos 'n woordverwerker</string>
+    <string name="purchase_premium_feature_4_title">Volledige teksredigering in PDF\'s</string>
+    <string name="purchase_premium_feature_4_desc">Wysig teks direk soos \'n woordverwerker</string>
     <!-- Purchase Screen - Actions -->
     <string name="purchase_buy_pro">Koop Pro</string>
     <string name="purchase_sign_in_buy">Aanmeld &amp; Koop</string>
@@ -60,7 +60,7 @@
     <string name="purchase_error_rate_limit">Te veel herlaaipogings. Wag asseblief.</string>
     <string name="purchase_error_offline">Geen internetverbinding nie. Wys gekaste data.</string>
     <string name="purchase_error_product_refresh">Kon nie produk verifieer nie. Probeer asseblief weer.</string>
-    <string name="purchase_error_generic">'n Fout het voorgekom. Probeer asseblief weer.</string>
+    <string name="purchase_error_generic">\'n Fout het voorgekom. Probeer asseblief weer.</string>
     <!-- Purchase Screen - Legal -->
     <string name="purchase_terms_of_service">Diensbepalings</string>
     <string name="purchase_privacy_policy">Privaatheidsbeleid</string>
@@ -108,7 +108,7 @@
     <string name="multiple_themes__page_backgrounds">Verskeie temas &amp; Bladsy-agtergronde</string>
     <string name="ai_summaries_with_stronger_reasoning">KI-opsommings met sterker redenasie</string>
     <string name="no_limits_on_60_pdf_tools">Geen beperkings op 60+ PDF-gereedskap nie</string>
-    <string name="full_text_editing_in_pdfs">Volledige teksredigering in PDF's</string>
+    <string name="full_text_editing_in_pdfs">Volledige teksredigering in PDF\'s</string>
     <string name="digital_signatures_dscesign">Digitale Handtekeninge (DSC/eHandtekening)</string>
     <string name="unlimited_scanned_document_sync">Onbeperkte geskandeerde dokument sinchronisasie</string>
     <string name="biometric_document_lock">Biometriese dokumentslot</string>

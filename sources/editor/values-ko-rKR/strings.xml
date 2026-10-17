@@ -90,7 +90,7 @@
     <string name="print">인쇄</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/ui/components/shared/SharedSearchResultsList.kt -->
     <string name="str__results">%1$s 결과</string>
-    <string name="str__results_for_">%1$s 검색 결과 "%2$s"</string>
+    <string name="str__results_for_">%1$s 검색 결과 \"%2$s\"</string>
     <string name="close_results">근접 결과</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/settings/ui/SettingsScreen.kt -->
     <string name="pdf_editor_settings">PDF 편집기 설정</string>
@@ -109,7 +109,7 @@
     <string name="upgrade_now">지금 업그레이드하세요</string>
     <string name="chat_quota_exceeded_title">월간 한도에 도달했습니다</string>
     <string name="chat_quota_exceeded_pro_message">Pro 버전에 포함된 평생 AI 채팅 횟수 %1$s 회를 모두 사용하셨습니다. 프리미엄 버전으로 업그레이드하시면 월 5회 채팅을 이용하실 수 있습니다.</string>
-    <string name="chat_quota_exceeded_premium_message">You've used all %1$s AI chats for this month. Your quota resets next month.</string>
+    <string name="chat_quota_exceeded_premium_message">You\'ve used all %1$s AI chats for this month. Your quota resets next month.</string>
     <string name="chat_pro_limit_note">* 프로 플랜에는 매월 %1$s 개의 AI 채팅이 포함됩니다.</string>
     <string name="chat_usage_indicator_pro">%1$s / %2$s 평생 채팅 사용</string>
     <string name="chat_usage_indicator_premium">%1$s / %2$s 이번 달 채팅</string>
@@ -139,6 +139,7 @@
     <string name="search">찾다</string>
     <string name="more_actions">추가 작업</string>
     <string name="share">공유하다</string>
+    <string name="show_in_finder">Show in Finder</string>
     <string name="delete">삭제</string>
     <string name="open">열려 있는</string>
     <string name="all">모두</string>
@@ -167,7 +168,7 @@
     <string name="save_clean_buy_premium">Save Clean — 프리미엄 구독</string>
     <string name="subscribe_premium">프리미엄 구독하기</string>
     <string name="save_options_title">변경 사항을 저장하시겠습니까?</string>
-    <string name="save_options_subtitle">"%1$s "을 저장하는 방법을 선택하세요</string>
+    <string name="save_options_subtitle">\"%1$s \"을 저장하는 방법을 선택하세요</string>
     <string name="save_options_edits_summary">수정 내역: %1$s</string>
     <string name="save_options_irreversible_note">이러한 변경 사항은 저장 후에는 되돌릴 수 없습니다.</string>
     <string name="save_options_pro_note">Pro 기능이 감지되었습니다. 무료로 워터마크와 함께 저장하거나, 워터마크 없이 내보내려면 Pro 버전을 구매하세요.</string>
@@ -210,6 +211,10 @@
     <string name="edit_tool_hint_drag_shape">드래그하여 도형을 그리세요</string>
     <string name="edit_tool_hint_tap_form">양식 필드를 추가하려면 탭하세요.</string>
     <string name="edit_tool_hint_tap_stamp">탭하여 도장을 찍으세요</string>
+    <string name="edit_tool_hint_tap_signature_field">Tap to place signature field</string>
+    <string name="edit_tool_hint_tap_note">Tap to insert text note</string>
+    <string name="edit_tool_hint_tap_text_field">Tap to insert Text field</string>
+    <string name="edit_tool_hint_tap_attachment">Tap to insert attachment</string>
     <string name="user">사용자</string>
     <!-- From: falcon-pdf-editor/src/commonMain/kotlin/com/falcon/pdfeditor/edittools/ui/components/SelectionBox.kt -->
     <string name="signature_preview">서명 미리보기</string>
@@ -301,6 +306,7 @@
     <string name="png_jpg_supported">PNG, JPG 지원</string>
     <string name="select_image">이미지 선택</string>
     <string name="sign_here_with_your_finger">여기에 손가락으로 서명하세요</string>
+    <string name="sign_here_placeholder">Sign Here</string>
     <string name="crop_signature">작물 특징</string>
     <string name="apply_crop">작물에 적용</string>
     <string name="loading_image">이미지 로딩 중...</string>
@@ -414,6 +420,60 @@
     <string name="tool_stamp">우표</string>
     <string name="tool_watermark">양수표</string>
     <string name="tool_page_number">페이지 번호</string>
+    <string name="tool_attachment">Attachment</string>
+    <string name="tool_signature_field">Digital Signature</string>
+    <!-- Digital signature: Sign-or-Share choice (Phase 1C) -->
+    <string name="sign_choice_title">What would you like to do?</string>
+    <string name="sign_choice_subtitle">Sign this document yourself, or send it to someone else to sign.</string>
+    <string name="sign_choice_sign_this">Sign this PDF</string>
+    <string name="sign_choice_share">Share PDF to sign</string>
+    <!-- Digital signature: Share PDF to sign (Phase 1D) -->
+    <string name="share_sign_title">Share PDF to sign</string>
+    <string name="share_sign_signer_email">Signer email</string>
+    <string name="share_sign_signer_email_hint">name@example.com</string>
+    <string name="share_sign_deadline">Sign-by date</string>
+    <string name="share_sign_no_expiry">No expiry</string>
+    <string name="share_sign_message_optional">Message (optional)</string>
+    <string name="share_sign_cc_optional">CC (optional)</string>
+    <string name="share_sign_cc_hint">Comma-separated emails</string>
+    <string name="share_sign_send">Send invite</string>
+    <string name="share_sign_requires_signin">Please sign in to send a signing request.</string>
+    <string name="share_sign_sign_in">Sign in</string>
+    <string name="share_sign_invalid_email">Enter a valid email address.</string>
+    <string name="share_sign_pick_date">Pick a sign-by date.</string>
+    <string name="share_sign_sending">Sending invite…</string>
+    <string name="share_sign_failed">Could not send the invite. Please try again.</string>
+    <string name="share_sign_sent_title">Invite sent</string>
+    <string name="share_sign_sent_message">We\'ve emailed the signer. You\'ve been CC\'d a copy.</string>
+    <!-- Digital signature: signing-in-progress overlay -->
+    <string name="sign_in_progress">Signing…</string>
+    <!-- Digital signature: post-sign upload + confirmation (Phase 1E) -->
+    <string name="sign_upload_success">Signed — sender and you have been emailed a copy.</string>
+    <string name="sign_upload_reauth_prompt">Sign in as %1$s to upload your signed copy.</string>
+    <!-- Digital signature: Pending Actions (Phase 1F) -->
+    <string name="pending_actions_title">Pending Actions</string>
+    <string name="pending_sign_requests_title">Pending Sign Requests</string>
+    <string name="pending_actions_see_all">See All</string>
+    <string name="pending_actions_refresh">Refresh</string>
+    <string name="pending_actions_sign">Sign</string>
+    <string name="pending_actions_reject">Reject</string>
+    <string name="pending_actions_reject_confirm_title">Reject sign request?</string>
+    <string name="pending_actions_reject_confirm_message">Decline to sign \"%1$s\"? The sender will be notified and this can\'t be undone.</string>
+    <string name="pending_actions_requested_on">Requested %1$s</string>
+    <string name="pending_actions_expired">Expired</string>
+    <string name="pending_actions_sign_within_days">Sign within %1$d days</string>
+    <string name="pending_actions_sign_within_one_day">Sign within 1 day</string>
+    <string name="pending_actions_empty">No pending sign requests.</string>
+    <!-- File attachment feature -->
+    <string name="attachment_save_title">Save attachment?</string>
+    <string name="attachment_save_security_message">For your safety, this file is only saved to your device — it is never opened automatically. Only save attachments from sources you trust.</string>
+    <string name="attachment_file_label">File: %1$s</string>
+    <string name="attachment_saved_to">Saved to %1$s</string>
+    <string name="attachment_save_failed">Couldn\'t save the attachment</string>
+    <string name="attachment_save_failed_reason">Couldn\'t save the attachment: %1$s</string>
+    <string name="attachment_extract_failed">Couldn\'t read the attachment</string>
+    <string name="attachment_pick_failed">Couldn\'t read the selected file</string>
+    <string name="attachment_added">Attachment added. Tap to place it on the page.</string>
     <!-- Form tool labels -->
     <string name="tool_form_text_field">텍스트 필드</string>
     <string name="tool_form_checkbox">체크박스</string>
@@ -515,6 +575,86 @@
     <string name="sig_rev_signed_by">Rev. %1$d: 서명자:</string>
     <string name="sig_validity_summary">유효성 요약</string>
     <string name="sig_doc_not_modified">해당 문서는 서명 이후 수정되지 않았습니다.</string>
+    <!-- Digital Signature — Digital ID dialog (DigitalIdDialog.kt) -->
+    <string name="sig_id_header_sign">Sign with a Digital ID</string>
+    <string name="sig_id_header_add">Add a Digital ID</string>
+    <string name="sig_id_header_create">Create a self-signed Digital ID</string>
+    <string name="sig_id_header_import">Import Digital ID from file</string>
+    <string name="sig_id_close">Close</string>
+    <string name="sig_id_error_read_file">Could not read the selected file</string>
+    <string name="sig_id_error_bad_password">Incorrect password or unsupported file</string>
+    <string name="sig_id_empty_list">You don\'t have any Digital IDs yet. Add one to sign this document.</string>
+    <string name="sig_id_choose_to_sign">Choose the Digital ID to sign with:</string>
+    <string name="sig_id_choose_add_type">How would you like to add a Digital ID?</string>
+    <string name="sig_id_option_file_desc">Import an existing .p12 / .pfx Digital ID you already have.</string>
+    <string name="sig_id_option_create_desc">Create a self-signed Digital ID for personal use.</string>
+    <string name="sig_id_password_prompt">Enter the password that protects \"%1$s\".</string>
+    <string name="sig_id_password_label">Password</string>
+    <string name="sig_id_hide_password">Hide password</string>
+    <string name="sig_id_show_password">Show password</string>
+    <string name="sig_id_badge_keychain">Keychain</string>
+    <string name="sig_id_expired">Expired</string>
+    <string name="sig_id_valid_to">Valid to %1$s</string>
+    <string name="sig_id_btn_cancel">Cancel</string>
+    <string name="sig_id_btn_continue">Continue</string>
+    <string name="sig_id_btn_back">Back</string>
+    <string name="sig_id_btn_save">Save</string>
+    <string name="sig_id_btn_import">Import</string>
+    <!-- Digital Signature — signed success dialog (SignedSuccessDialog.kt) -->
+    <string name="sig_success_title">Document signed</string>
+    <string name="sig_success_saved_as">Saved as \"%1$s\".</string>
+    <string name="sig_success_close">Close</string>
+    <string name="sig_success_open">Open signed PDF</string>
+    <!-- Digital Signature — signer detail rows (SignatureSideBarContent.kt) -->
+    <string name="sig_collapse">Collapse</string>
+    <string name="sig_expand">Expand</string>
+    <string name="sig_add_to_trusted">Add to Trusted Certificate</string>
+    <string name="sig_row_signed_by">Signed by</string>
+    <string name="sig_row_reason">Reason</string>
+    <string name="sig_row_time">Time</string>
+    <string name="sig_row_type">Type</string>
+    <string name="sig_row_permission">Permission</string>
+    <string name="sig_row_certificate">Certificate</string>
+    <string name="sig_row_issued_by">Issued by</string>
+    <string name="sig_row_valid_from">Valid from</string>
+    <string name="sig_row_valid_to">Valid to</string>
+    <!-- Digital Signature — signing flow toasts (ExpandedPdfLayout.kt) -->
+    <string name="sig_toast_load_failed">Failed to load Digital ID</string>
+    <string name="sig_toast_cannot_sign_in_memory">Cannot sign in-memory PDFs</string>
+    <string name="sig_toast_sign_failed">Failed to sign document</string>
+    <!-- Digital Signature — appearance rendered text labels -->
+    <string name="sig_ap_digitally_signed_by">Digitally signed by %1$s</string>
+    <string name="sig_ap_date">Date: %1$s</string>
+    <string name="sig_ap_reason">Reason: %1$s</string>
+    <string name="sig_ap_location">Location: %1$s</string>
+    <!-- Digital Signature — Sign-as appearance preview dialog -->
+    <string name="sig_ap_sign_as">Sign as \"%1$s\"</string>
+    <string name="sig_ap_appearance">Appearance</string>
+    <string name="sig_ap_create">Create</string>
+    <string name="sig_ap_modify">Modify</string>
+    <string name="sig_ap_reason_label">Reason</string>
+    <string name="sig_ap_location_label">Location</string>
+    <string name="sig_ap_back">Back</string>
+    <string name="sig_ap_sign">Sign</string>
+    <string name="sig_ap_no_appearance_checkbox">Sign without a visible appearance</string>
+    <string name="sig_ap_no_appearance_note">This signature will not be visible on the page.</string>
+    <!-- Digital Signature — appearance preset editor dialog -->
+    <string name="sig_ap_customize_title">Customize the Signature Appearance</string>
+    <string name="sig_ap_select_signature">Select signature</string>
+    <string name="sig_ap_change_signature">Change signature</string>
+    <string name="sig_ap_remove">Remove</string>
+    <string name="sig_ap_include">Include</string>
+    <string name="sig_ap_include_name">Name</string>
+    <string name="sig_ap_include_date">Date</string>
+    <string name="sig_ap_include_logo">Logo</string>
+    <string name="sig_ap_include_labels">Labels</string>
+    <string name="sig_ap_text_direction">Text Direction</string>
+    <string name="sig_ap_dir_auto">Auto</string>
+    <string name="sig_ap_dir_ltr">LTR</string>
+    <string name="sig_ap_dir_rtl">RTL</string>
+    <string name="sig_ap_preset_name">Preset name</string>
+    <string name="sig_ap_cancel">Cancel</string>
+    <string name="sig_ap_save">Save</string>
     <!-- Toolbar settings dropdown -->
     <string name="toolbar_tools">도구</string>
     <string name="toolbar_thumbnails">썸네일</string>
@@ -546,7 +686,7 @@
     <string name="select_profile">프로필을 선택하세요</string>
     <string name="new_profile">새 프로필</string>
     <string name="delete_profile">프로필 삭제</string>
-    <string name="delete_profile__this_cannot_be_undone">프로필 "%1$s"을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.</string>
+    <string name="delete_profile__this_cannot_be_undone">프로필 \"%1$s\"을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.</string>
     <string name="profile_name">프로필 이름</string>
     <string name="eg_gpt4o_for_editing">예: 편집용 GPT-4o</string>
     <string name="a_profile_with_this_name_already_exists">이미 동일한 이름의 프로필이 존재합니다.</string>
@@ -636,6 +776,8 @@
     <string name="import_an_existing_digital_id_that_you_h">파일 형식(.pfx, .p12)으로 발급받은 기존 디지털 ID를 가져오세요.</string>
     <string name="create_your_selfsigned_digital_id_for_pe">개인 용도로 사용할 수 있는 자체 서명 디지털 ID를 생성하세요.</string>
     <string name="files">파일</string>
+    <!-- From: session AI Chat Provider + TTS Provider settings sections -->
+    <!-- AI provider cards -->
     <string name="ai_provider_falcon_title">Falcon AI</string>
     <string name="ai_provider_falcon_subtitle">내장된 호스팅 클라우드 AI.</string>
     <string name="ai_provider_tag_cloud">클라우드 AI</string>
@@ -646,6 +788,7 @@
     <string name="ai_provider_byok_title">OpenAI &amp; OpenRouter</string>
     <string name="ai_provider_byok_subtitle">직접 키를 사용하세요.</string>
     <string name="ai_provider_tag_byok">BYOK</string>
+    <!-- Falcon plan panel -->
     <string name="ai_plan_active_license">활성 라이선스</string>
     <string name="ai_plan_current_plan_suffix">등급 • 현재 요금제</string>
     <string name="ai_plan_available_suffix">사용 가능</string>
@@ -670,6 +813,7 @@
     <string name="ai_plan_left_this_month_format">이번 달 %1$d회 남음</string>
     <string name="ai_plan_premium_price">$9 / month</string>
     <string name="ai_plan_upgrade">업그레이드</string>
+    <!-- Ollama panel -->
     <string name="ai_ollama_header_title">로컬 AI 어시스턴트 (Ollama)</string>
     <string name="ai_ollama_header_subtitle">온디바이스에서 신경망 LLM을 실행합니다. 높은 개인정보 보호, 무제한 생성.</string>
     <string name="ai_ollama_ping_daemon">데몬 확인</string>
@@ -684,6 +828,7 @@
     <string name="ai_ollama_active_default">활성 기본값</string>
     <string name="ai_ollama_user_configured">사용자 구성</string>
     <string name="ai_ollama_set_default">기본값으로 설정</string>
+    <!-- BYOK panel -->
     <string name="ai_byok_provider_service">제공업체 서비스</string>
     <string name="ai_byok_api_key">API 비밀 키</string>
     <string name="ai_byok_api_key_hint">sk-…</string>
@@ -703,12 +848,14 @@
     <string name="ai_byok_saved_count_format">저장된 구성 %1$d개</string>
     <string name="ai_byok_no_model">모델 없음</string>
     <string name="ai_byok_set_active">활성화</string>
+    <!-- Shared buttons / daemon check -->
     <string name="settings_save_current">현재 설정 저장</string>
     <string name="settings_save_preferences">환경설정 저장</string>
     <string name="settings_saving">저장 중…</string>
     <string name="daemon_checking">확인 중…</string>
     <string name="daemon_online">데몬 온라인</string>
     <string name="daemon_unreachable">연결할 수 없음</string>
+    <!-- TTS provider cards -->
     <string name="tts_provider_title">TTS 제공업체</string>
     <string name="tts_provider_system_title">시스템 / 기기</string>
     <string name="tts_provider_system_subtitle">운영체제 음성 합성.</string>
@@ -722,6 +869,7 @@
     <string name="tts_provider_local_title">로컬 AI (Kokoro)</string>
     <string name="tts_provider_local_subtitle">온디바이스 신경망 추론.</string>
     <string name="tts_provider_tag_private">비공개</string>
+    <!-- TTS System panel -->
     <string name="tts_system_header_title">시스템 내장 음성</string>
     <string name="tts_system_header_subtitle">기기의 내장 음성(예: macOS의 Albert, Alice)을 사용합니다. 오프라인, 지연 없음.</string>
     <string name="tts_system_ready">준비됨</string>
@@ -736,6 +884,7 @@
     <string name="tts_test_playing">재생 중…</string>
     <string name="tts_test_played">재생됨</string>
     <string name="tts_test_preview_format">%1$s 음성의 미리 듣기입니다.</string>
+    <!-- TTS ElevenLabs panel -->
     <string name="tts_elevenlabs_header_title">ElevenLabs 음성 엔진</string>
     <string name="tts_elevenlabs_header_subtitle">감정 뉘앙스를 갖춘 고음질 AI 음성.</string>
     <string name="tts_status_cloud">클라우드</string>
@@ -744,7 +893,9 @@
     <string name="tts_validate">검증</string>
     <string name="tts_validating">검증 중…</string>
     <string name="tts_key_valid">키 유효</string>
+    <string name="tts_key_invalid">Invalid Key</string>
     <string name="tts_elevenlabs_preview">선택한 ElevenLabs 음성의 미리 듣기입니다.</string>
+    <!-- TTS OpenAI gateway panel -->
     <string name="tts_openai_header_title">OpenAI &amp; Speech Gateway</string>
     <string name="tts_openai_header_subtitle">OpenAI, OpenRouter 또는 호환 게이트웨이.</string>
     <string name="tts_status_compatible">호환</string>
@@ -760,9 +911,11 @@
     <string name="tts_openai_preview_format">%1$s 음성 %2$s의 미리 듣기입니다.</string>
     <string name="tts_openai_saved_models">저장된 모델</string>
     <string name="tts_openai_saved_count_format">저장된 구성 %1$d개</string>
-    <string name="tts_openai_no_models">저장된 모델이 아직 없습니다. 위에서 모델과 음성을 설정하고 "현재 설정 저장"을 누르세요.</string>
+    <string name="tts_openai_no_models">저장된 모델이 아직 없습니다. 위에서 모델과 음성을 설정하고 \"현재 설정 저장\"을 누르세요.</string>
+    <string name="tts_openai_validate_to_save">Validate your key to enable Save Current.</string>
     <string name="tts_openai_row_preview_format">%1$s 음성 %2$s의 미리 듣기입니다.</string>
     <string name="tts_openai_voice_prefix_format">음성: %1$s</string>
+    <!-- TTS Local (Kokoro) panel -->
     <string name="tts_local_header_title">로컬 AI 합성 (Kokoro)</string>
     <string name="tts_local_header_subtitle">온디바이스 신경망 합성, 클라우드 텔레메트리 없음.</string>
     <string name="tts_local_engine_active">엔진 활성</string>
@@ -787,4 +940,7 @@
     <string name="tts_local_cancel">취소</string>
     <string name="tts_local_register">음성 등록</string>
     <string name="tts_active">활성</string>
+    <!-- PDF OCR: recognise text on the current page (shown in the viewer overflow menu) -->
+    <string name="recognize_text_on_page">Recognise text on this page</string>
+    <string name="no_images_on_page">No images on this page to extract text from.</string>
 </resources>

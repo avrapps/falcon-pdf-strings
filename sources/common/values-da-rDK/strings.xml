@@ -69,7 +69,7 @@
     <string name="save_for_biometric">Gem til biometri</string>
     <string name="stored_encrypted_locally_wont_sync_to_cl">Gemt krypteret lokalt. Synkroniseres ikke med skyen.</string>
     <string name="biometric_unlock">Biometrisk oplåsning</string>
-    <string name="upgrade_to_unlock_pdfs_with_fingerprint">Opgrader for at låse PDF'er op med fingeraftryk</string>
+    <string name="upgrade_to_unlock_pdfs_with_fingerprint">Opgrader for at låse PDF\'er op med fingeraftryk</string>
     <string name="upgrade">Opgrader</string>
     <string name="reduce_file_size">Reducer filstørrelsen</string>
     <string name="merge_pdf_files">Flet PDF-filer</string>

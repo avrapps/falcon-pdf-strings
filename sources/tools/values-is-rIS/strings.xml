@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">Heildarfjöldi blaðsíðna í PDF skjali: %1$d (stærð hluta verður að vera minni en %1$d)</string>
     <string name="this_will_create__output_files">Þetta mun búa til %1$d úttaksskrár</string>
     <string name="this_will_create__output_file">Þetta mun búa til %1$d úttaksskrá</string>
-    <string name="this_input_will_split_the_pdf_">Þessi innsláttur mun skipta PDF skjalinu í aðskildar skrár byggt á sviðinu þínu. Til dæmis mun "1-2,5,6-8" búa til þrjár PDF skjöl: fyrsta með síðum 1-2, annað með síðu 5 og þriðja með síðum 6-8.</string>
+    <string name="this_input_will_split_the_pdf_">Þessi innsláttur mun skipta PDF skjalinu í aðskildar skrár byggt á sviðinu þínu. Til dæmis mun \"1-2,5,6-8\" búa til þrjár PDF skjöl: fyrsta með síðum 1-2, annað með síðu 5 og þriðja með síðum 6-8.</string>
     <string name="page_ranges">Síðubil</string>
     <string name="eg_1234571520">t.d. 1-2, 3, 4-5, 7, 15-20</string>
     <string name="format_use_ranges_15_or_single">Snið: Notið svið (1-5) eða stakar síður (7), aðskildar með kommum. Aðeins tölustafir, bandstrik og kommur eru leyfðar.</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">Þjappað af </string>
     <string name="error_details">Upplýsingar um villu</string>
     <string name="view">Skoða</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">%1$s af %2$s síðum valdar</string>
     <string name="showing_first_200_pages">Sýni fyrstu 200 síðurnar</string>

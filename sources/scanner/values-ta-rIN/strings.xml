@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">படத்தொகுப்பில் சேமிக்கப்பட்ட படம்</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">ஆவணத்தை நீக்கவா?</string>
-    <string name="scan_delete_document_message">"%1$s" என்பதை நீங்கள் உறுதியாக நீக்க விரும்புகிறீர்களா? இது இந்த ஆவணத்தில் உள்ள அனைத்துப் பக்கங்களையும் நிரந்தரமாக நீக்கிவிடும். இந்தச் செயலைத் திரும்பப் பெற முடியாது.</string>
+    <string name="scan_delete_document_message">\"%1$s\" என்பதை நீங்கள் உறுதியாக நீக்க விரும்புகிறீர்களா? இது இந்த ஆவணத்தில் உள்ள அனைத்துப் பக்கங்களையும் நிரந்தரமாக நீக்கிவிடும். இந்தச் செயலைத் திரும்பப் பெற முடியாது.</string>
     <string name="scan_rename_document">ஆவணத்தை மறுபெயரிடு</string>
     <string name="scan_rename_enter_name">ஆவணத்திற்கு ஒரு புதிய பெயரை உள்ளிடவும்</string>
     <string name="scan_rename_document_name">ஆவணத்தின் பெயர்</string>
     <string name="scan_rename_error">ஆவணத்தின் பெயர் காலியாக இருக்கக்கூடாது</string>
     <string name="scan_dialog_delete_document_title">ஆவணத்தை நீக்கவா?</string>
-    <string name="scan_dialog_delete_document_message">"%1$s" என்பதை நீங்கள் உறுதியாக நீக்க விரும்புகிறீர்களா? இது இந்த ஆவணத்தில் உள்ள அனைத்துப் பக்கங்களையும் நிரந்தரமாக நீக்கிவிடும். இந்தச் செயலைத் திரும்பப் பெற முடியாது.</string>
+    <string name="scan_dialog_delete_document_message">\"%1$s\" என்பதை நீங்கள் உறுதியாக நீக்க விரும்புகிறீர்களா? இது இந்த ஆவணத்தில் உள்ள அனைத்துப் பக்கங்களையும் நிரந்தரமாக நீக்கிவிடும். இந்தச் செயலைத் திரும்பப் பெற முடியாது.</string>
     <string name="scan_dialog_delete_confirm">நீக்கு</string>
     <string name="scan_dialog_cancel">ரத்துசெய்</string>
     <string name="scan_dialog_move_title">கோப்புறைக்கு நகர்த்தவும்</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — பக்கம் %2$d</string>
     <string name="scan_ocr_title">உரை அங்கீகாரம்</string>
-    <string name="scan_ocr_copy">உரையை நகலெடுக்கவும்</string>
     <string name="scan_ocr_no_text">உரை எதுவும் காணப்படவில்லை</string>
-    <string name="scan_ocr_processing">உரையை அடையாளம் காணுதல்…</string>
     <string name="scan_ocr_error">உரையை அடையாளம் காணத் தவறியது</string>
     <string name="scan_ocr_not_supported">இந்தத் தளத்தில் OCR ஆதரிக்கப்படவில்லை.</string>
-    <string name="scan_ocr_image">OCR-க்காக ஸ்கேன் செய்யப்பட்ட பக்கம்</string>
     <string name="gallery">கேலரி</string>
     <string name="select_file">கோப்பைத் தேர்ந்தெடுக்கவும்</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">ஷட்டர்_அளவு</string>
     <string name="import_gallery">இறக்குமதி தொகுப்பு</string>
     <string name="scan_camera">ஸ்கேன் கேமரா</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

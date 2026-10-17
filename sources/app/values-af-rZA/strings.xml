@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Name -->
-    <string name="app_name">PDF-magie</string>
-    <string name="app_tagline">Wat wil jy graag doen?</string>
     <!-- Home Screen -->
     <string name="home_last_used">Laas Gebruik</string>
     <string name="home_favorites">Gunstelinge</string>
@@ -99,7 +96,7 @@
     <!-- Document Action Notices -->
     <string name="notice_rename_uri_only">Hernoem slegs binne die toepassing. Oorspronklike lêer onveranderd.</string>
     <string name="notice_delete_uri_only">Verwyder van program. Oorspronklike lêer onveranderd.</string>
-    <string name="notice_file_exists_error">'n Lêer met hierdie naam bestaan reeds</string>
+    <string name="notice_file_exists_error">\'n Lêer met hierdie naam bestaan reeds</string>
     <string name="notice_file_not_found_error">Lêer nie gevind nie</string>
     <string name="notice_no_active_document">Geen aktiewe dokument nie</string>
     <string name="notice_document_path_unavailable">Dokumentlêerpad nie beskikbaar nie</string>
@@ -117,7 +114,7 @@
     <string name="error_incorrect_password">Verkeerde wagwoord</string>
     <!-- Password Dialog -->
     <string name="password_protected_title">Wagwoordbeskermd</string>
-    <string name="password_protected_message">Hierdie lêer vereis 'n wagwoord om oop te maak. Voer dit asseblief hieronder in.</string>
+    <string name="password_protected_message">Hierdie lêer vereis \'n wagwoord om oop te maak. Voer dit asseblief hieronder in.</string>
     <string name="password_label">Wagwoord</string>
     <string name="password_placeholder">Voer wagwoord in</string>
     <string name="password_unlock">Ontsluit</string>
@@ -138,8 +135,42 @@
     <string name="settings_category_appearance_subtitle">Pas die voorkoms van die toepassing &amp; aan</string>
     <string name="settings_category_pdf_reader_title">PDF-leser</string>
     <string name="settings_category_pdf_reader_subtitle">Standaardkyker &amp; leeservaring</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
     <string name="settings_category_help_title">Hulp &amp; Ondersteuning</string>
     <string name="settings_category_help_subtitle">Dokumentasie &amp; kontak</string>
+    <string name="settings_category_shortcuts_title">Keyboard Shortcuts</string>
+    <string name="settings_category_shortcuts_subtitle">Desktop hotkeys reference</string>
+    <string name="shortcuts_intro_note">On macOS press Cmd; on Windows and Linux press Ctrl. Shortcuts pause while editing a form field so typing goes to the field.</string>
+    <string name="shortcuts_group_file">File</string>
+    <string name="shortcuts_group_tabs">Tabs</string>
+    <string name="shortcuts_group_navigation">Navigation</string>
+    <string name="shortcuts_group_view_zoom">View &amp; zoom</string>
+    <string name="shortcuts_group_search_panels">Search &amp; panels</string>
+    <string name="shortcuts_action_open_file">Open a file</string>
+    <string name="shortcuts_action_save">Save</string>
+    <string name="shortcuts_action_print">Print</string>
+    <string name="shortcuts_action_close_tab">Close current tab</string>
+    <string name="shortcuts_action_next_tab">Next tab</string>
+    <string name="shortcuts_action_previous_tab">Previous tab</string>
+    <string name="shortcuts_action_jump_to_tab">Jump to tab 1–8</string>
+    <string name="shortcuts_action_jump_to_last_tab">Jump to last tab</string>
+    <string name="shortcuts_action_go_to_page">Go to page</string>
+    <string name="shortcuts_action_next_prev_page">Next / previous page</string>
+    <string name="shortcuts_action_first_last_page">First / last page</string>
+    <string name="shortcuts_action_pan_page">Pan the page</string>
+    <string name="shortcuts_action_zoom_in_out">Zoom in / out</string>
+    <string name="shortcuts_action_reset_zoom">Reset zoom (fit width)</string>
+    <string name="shortcuts_action_toggle_fullscreen">Toggle fullscreen</string>
+    <string name="shortcuts_action_exit_fullscreen">Exit fullscreen</string>
+    <string name="shortcuts_action_search">Search</string>
+    <string name="shortcuts_action_copy_text">Copy selected text</string>
+    <string name="shortcuts_action_bookmarks_panel">Bookmarks panel</string>
+    <string name="shortcuts_action_toggle_bookmark">Toggle bookmark on page</string>
+    <string name="shortcuts_action_pages_panel">Pages panel</string>
+    <string name="shortcuts_action_annotations_panel">Annotations panel</string>
     <string name="settings_category_general_title">Algemeen</string>
     <string name="settings_category_general_subtitle">Taal &amp; programinligting</string>
     <string name="settings_theme_section">Tema</string>
@@ -190,7 +221,7 @@
     <!-- Filter Options -->
     <string name="filter_all_files">Alle lêers</string>
     <string name="filter_recent">Onlangs</string>
-    <string name="filter_pdfs">PDF's</string>
+    <string name="filter_pdfs">PDF\'s</string>
     <string name="filter_images">Beelde</string>
     <!-- Bottom Navigation -->
     <string name="home_tab">Tuis</string>
@@ -233,6 +264,7 @@
     <string name="help_terms_subtitle">Reëls van die aansoek</string>
     <!-- Sync Settings -->
     <string name="sync_on_mobile_data">Sinkroniseer op mobiele data</string>
+    <string name="sync_skipped_mobile_data">On mobile data — sync is off. Enable \"Sync on mobile data\" in settings or connect to Wi-Fi.</string>
     <string name="background_sync">Agtergrond-sinchronisasie</string>
     <!-- PDF Settings -->
     <string name="pdf_settings_title">PDF-leserinstellings</string>
@@ -243,11 +275,11 @@
     <string name="settings_pdf_reader">PDF-leserinstellings</string>
     <string name="settings_help_support">Hulp &amp; Ondersteuning</string>
     <string name="settings_whats_new">Wat is nuut</string>
-    <string name="settings_download_desktop">Installeer op 'n ander toestel</string>
+    <string name="settings_download_desktop">Installeer op \'n ander toestel</string>
     <string name="settings_rate_app">Beoordeel die toepassing</string>
     <string name="play_store_not_found">Play Winkel nie op hierdie toestel gevind nie</string>
     <string name="settings_set_as_default">Stel as verstek PDF-kyker</string>
-    <string name="settings_set_as_default_subtitle">Maak PDF's standaard met hierdie toepassing oop</string>
+    <string name="settings_set_as_default_subtitle">Maak PDF\'s standaard met hierdie toepassing oop</string>
     <string name="settings_default_pdf_instructions_title">Hoe om as verstek te stel</string>
     <string name="settings_default_pdf_ok">Verstaan</string>
     <string name="settings_default_app_hint">Het nie gewerk nie?</string>
@@ -255,6 +287,8 @@
     <!-- Language Picker -->
     <string name="language_picker_title">Taal</string>
     <string name="language_search_placeholder">Soek tale...</string>
+    <string name="language_applying">Applying…</string>
+    <string name="language_download_badge">Download</string>
     <!-- Common UI -->
     <string name="support">Ondersteuning</string>
     <string name="language_english">Engels</string>
@@ -311,7 +345,7 @@
     <string name="no_recent_files">Geen onlangse lêers nie</string>
     <string name="no_favorites">Geen gunstelinge nie</string>
     <string name="mark_files_as_favorite_to_see_them_here">Merk lêers as gunstelinge om hulle hier te sien</string>
-    <string name="open_some_pdf_files_to_see_the">Maak 'n paar PDF-lêers oop om hulle hier te sien</string>
+    <string name="open_some_pdf_files_to_see_the">Maak \'n paar PDF-lêers oop om hulle hier te sien</string>
     <string name="status">Status</string>
     <string name="actions">Aksies</string>
     <string name="select_all">Kies alles</string>
@@ -337,7 +371,7 @@
     <string name="sign_in_with_apple">Teken aan met Apple</string>
     <string name="apple_user_drive_unavailable">Google Drive-sinkronisering is nie beskikbaar met Apple-aanmelding nie</string>
     <string name="apple_user_link_google">Koppel Google-rekening vir Drive-sinkronisering</string>
-    <string name="apple_user_sync_info">Om wolk-sinchronisasie te aktiveer, koppel 'n Google-rekening</string>
+    <string name="apple_user_sync_info">Om wolk-sinchronisasie te aktiveer, koppel \'n Google-rekening</string>
     <string name="link_google_account">Koppel Google-rekening</string>
     <string name="signed_in_successfully">Suksesvol aangemeld</string>
     <string name="signed_out_successfully">Suksesvol uitgeteken</string>
@@ -365,6 +399,7 @@
     <string name="search">Soek</string>
     <string name="more_actions">Meer aksies</string>
     <string name="share">Deel</string>
+    <string name="show_in_finder">Show in Finder</string>
     <string name="delete">Vee uit</string>
     <string name="remove_from_recents">Verwyder uit onlangse</string>
     <string name="open">Oop</string>
@@ -400,15 +435,15 @@
     <!-- Welcome Slide 1 -->
     <string name="welcome_slide1_title">&lt;b&gt;Lees enige dokument&lt;/b&gt; onmiddellik</string>
     <string name="welcome_slide1_description">Maak oop en bestuur meer as 10 dokumentformate, insluitend PDF, DOC, EPUB, MOBI.</string>
-    <string name="welcome_slide1_feature1">&lt;b&gt;Lees PDF's, e-boeke,&lt;/b&gt; en Office-dokumente op een plek</string>
+    <string name="welcome_slide1_feature1">&lt;b&gt;Lees PDF\'s, e-boeke,&lt;/b&gt; en Office-dokumente op een plek</string>
     <string name="welcome_slide1_feature2">&lt;b&gt;Gunstel&lt;/b&gt; dokumente en kry toegang daartoe op verskillende toestelle</string>
     <string name="welcome_slide1_feature3">&lt;b&gt;Lewer kommentaar,&lt;/b&gt; merk uit, en werk maklik saam</string>
     <string name="welcome_slide1_footer">Jou universele dokumentleser</string>
     <!-- Welcome Slide 2 -->
-    <string name="welcome_slide2_title">&lt;b&gt;Wysig, skandeer en organiseer&lt;/b&gt; PDF's</string>
-    <string name="welcome_slide2_description">Alles wat jy nodig het om PDF's te skep, te redigeer en te bestuur in een kragtige gereedskapskis.</string>
+    <string name="welcome_slide2_title">&lt;b&gt;Wysig, skandeer en organiseer&lt;/b&gt; PDF\'s</string>
+    <string name="welcome_slide2_description">Alles wat jy nodig het om PDF\'s te skep, te redigeer en te bestuur in een kragtige gereedskapskis.</string>
     <string name="welcome_slide2_feature1">&lt;b&gt;Wysig teks,&lt;/b&gt; annoteer, merk en vul vorms in</string>
-    <string name="welcome_slide2_feature2">&lt;b&gt;Skandeer dokumente&lt;/b&gt; en omskep dit onmiddellik in PDF's</string>
+    <string name="welcome_slide2_feature2">&lt;b&gt;Skandeer dokumente&lt;/b&gt; en omskep dit onmiddellik in PDF\'s</string>
     <string name="welcome_slide2_feature3">&lt;b&gt;30+ gereedskap&lt;/b&gt; insluitend saamsmelt, omskakel, komprimeer en beveilig</string>
     <string name="welcome_slide2_footer">Jou alles-in-een PDF-werkruimte</string>
     <!-- Welcome Slide 3 -->
@@ -483,7 +518,7 @@
     <string name="settings_delete_account_subtitle">Vee jou rekening en data permanent uit</string>
     <string name="delete_account_warning_title">Vee jou rekening uit?</string>
     <string name="delete_account_warning_message">Dit sal jou rekening en alle geassosieerde data permanent uitvee, insluitend jou aankoopgeskiedenis en wolk-gesinkroniseerde lêers. Hierdie aksie kan nie ongedaan gemaak word nie en aankope kan nie later herstel word nie.</string>
-    <string name="delete_account_confirm_phrase_label">Tik 'bevestig verwydering' om voort te gaan:</string>
+    <string name="delete_account_confirm_phrase_label">Tik \'bevestig verwydering\' om voort te gaan:</string>
     <string name="delete_account_confirm_phrase">bevestig verwydering</string>
     <string name="delete_account_button">Vee rekening uit</string>
     <string name="delete_account_error_reauth">Vir sekuriteit moet jy onlangs aangemeld het om jou rekening te verwyder. Meld asseblief af en weer aan, en probeer dan weer.</string>
@@ -511,6 +546,7 @@
     <string name="unsaved_changes_window_message">Jy het ongestoorde veranderinge in een of meer dokumente. Wil jy hulle weggooi en afsluit?</string>
     <string name="discard">Gooi weg</string>
     <string name="discard_and_quit">Gooi weg &amp; Sluit af</string>
+    <string name="drop_files_to_open">Drop files to open</string>
     <string name="close">Maak toe</string>
     <string name="remove_favorite">Verwyder gunsteling</string>
     <string name="set_as_default_pdf_viewer">Stel as verstek PDF-kyker?</string>
@@ -583,7 +619,7 @@
     <string name="ebooks_library">E-boeke Biblioteek</string>
     <string name="manage_your_digital_collection_across_mu">Bestuur jou digitale versameling oor verskeie verskaffers. Soek, filter en ontdek nuwe titels van Google Boeke en Open Library.</string>
     <string name="no_books_found">Geen boeke gevind nie</string>
-    <string name="no_results_for__try_a_different_search_t">Geen resultate vir "%1$s" nie. Probeer 'n ander soekterm.</string>
+    <string name="no_results_for__try_a_different_search_t">Geen resultate vir \"%1$s\" nie. Probeer \'n ander soekterm.</string>
     <string name="downloadable_only">Slegs aflaaibaar</string>
     <string name="file_unavailable">Lêer onbeskikbaar</string>
     <string name="unavailable">Nie beskikbaar nie</string>
@@ -597,15 +633,18 @@
     <string name="extract_text_from_scanned_documents">Onttrek teks uit geskandeerde dokumente</string>
     <string name="cloud_sync">Wolk-sinchronisasie</string>
     <string name="access_your_documents_anywhere">Kry toegang tot jou dokumente enige plek</string>
-    <string name="annotate_pdfs">Annoteer PDF's</string>
+    <string name="annotate_pdfs">Annoteer PDF\'s</string>
     <string name="cloud_backup">Wolkrugsteun</string>
     <string name="continue_reading">Lees verder</string>
     <string name="pick_files">Kies lêers</string>
     <string name="browse">Blaai</string>
     <string name="did_you_know">Het jy geweet?</string>
     <string name="home">Tuis</string>
-    <string name="your_documents_at_a_glance">Jou dokumente in 'n oogopslag</string>
+    <string name="your_documents_at_a_glance">Jou dokumente in \'n oogopslag</string>
     <string name="pick_file">Kies Lêer</string>
+    <string name="pending_actions_open_failed">Couldn\'t open this document to sign. Make sure you\'re signed in with the invited email, then try again.</string>
+    <string name="pending_actions_open_failed_title">Can\'t open sign request</string>
+    <string name="pending_actions_reject_failed">Couldn\'t decline the request. Make sure you\'re signed in with the invited email, then try again.</string>
     <string name="quick_actions">Vinnige Aksies</string>
     <string name="pro">PRO</string>
     <string name="open_files">Maak lêers oop</string>
@@ -646,10 +685,7 @@
     <string name="my_library">My Biblioteek</string>
     <string name="get_ebooks">Kry e-boeke</string>
     <string name="scan_document">Skandeer Dokument</string>
-    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
-    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
-    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
-    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <!-- From: session AI/TTS provider settings entries + standalone screens -->
     <string name="settings_section_ai_voice">AI &amp; VOICE</string>
     <string name="settings_entry_ai_title">AI Chat Provider</string>
     <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>

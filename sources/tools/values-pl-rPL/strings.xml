@@ -69,6 +69,7 @@
     <string name="compressed_by_">Skompresowane przez </string>
     <string name="error_details">Szczegóły błędu</string>
     <string name="view">Pogląd</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">Wybrano %1$s z %2$s stron</string>
     <string name="showing_first_200_pages">Wyświetlanie pierwszych 200 stron</string>

@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">Kuva tallennettiin galleriaan</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Poistetaanko dokumentti?</string>
-    <string name="scan_delete_document_message">Haluatko varmasti poistaa "%1$s"? Tämä poistaa pysyvästi kaikki sivut tästä asiakirjasta. Tätä toimintoa ei voi perua.</string>
+    <string name="scan_delete_document_message">Haluatko varmasti poistaa \"%1$s\"? Tämä poistaa pysyvästi kaikki sivut tästä asiakirjasta. Tätä toimintoa ei voi perua.</string>
     <string name="scan_rename_document">Nimeä asiakirja uudelleen</string>
     <string name="scan_rename_enter_name">Anna dokumentille uusi nimi</string>
     <string name="scan_rename_document_name">Asiakirjan nimi</string>
     <string name="scan_rename_error">Dokumentin nimi ei voi olla tyhjä</string>
     <string name="scan_dialog_delete_document_title">Poistetaanko dokumentti?</string>
-    <string name="scan_dialog_delete_document_message">Haluatko varmasti poistaa "%1$s"? Tämä poistaa pysyvästi kaikki sivut tästä asiakirjasta. Tätä toimintoa ei voi perua.</string>
+    <string name="scan_dialog_delete_document_message">Haluatko varmasti poistaa \"%1$s\"? Tämä poistaa pysyvästi kaikki sivut tästä asiakirjasta. Tätä toimintoa ei voi perua.</string>
     <string name="scan_dialog_delete_confirm">Poistaa</string>
     <string name="scan_dialog_cancel">Peruuttaa</string>
     <string name="scan_dialog_move_title">Siirrä kansioon</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Sivu %2$d</string>
     <string name="scan_ocr_title">Tekstin tunnistus</string>
-    <string name="scan_ocr_copy">Kopioi teksti</string>
     <string name="scan_ocr_no_text">Ei tekstiä löytynyt</string>
-    <string name="scan_ocr_processing">Tekstin tunnistaminen…</string>
     <string name="scan_ocr_error">Tekstin tunnistaminen epäonnistui</string>
     <string name="scan_ocr_not_supported">OCR-tunnistusta ei tueta tällä alustalla</string>
-    <string name="scan_ocr_image">Skannattu sivu OCR-tunnistusta varten</string>
     <string name="gallery">Galleria</string>
     <string name="select_file">Valitse tiedosto</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">sulkimen_mittakaava</string>
     <string name="import_gallery">Tuo galleria</string>
     <string name="scan_camera">Skannaa kamera</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

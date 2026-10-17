@@ -17,8 +17,8 @@
     <string name="scan_home_enter_folder_name">Введіть назву для нової папки</string>
     <string name="scan_home_folder_name">Назва папки</string>
     <string name="scan_home_folder_placeholder">наприклад, Робочі документи</string>
-    <string name="scan_home_folder_error">Ім'я папки не може бути порожнім</string>
-    <string name="scan_home_folder_name_empty">Ім'я папки не може бути порожнім</string>
+    <string name="scan_home_folder_error">Ім\'я папки не може бути порожнім</string>
+    <string name="scan_home_folder_name_empty">Ім\'я папки не може бути порожнім</string>
     <string name="scan_home_create">Створити</string>
     <string name="scan_home_folder_exists">Папка з такою назвою вже існує</string>
     <!-- Scan Camera Screen -->
@@ -67,7 +67,7 @@
     <string name="scan_filter_bw">Б&amp;В</string>
     <string name="scan_filter_grayscale">Відтінки сірого</string>
     <string name="scan_filter_magic_2">Очистити документ</string>
-    <string name="scan_filter_soft_scan">М'яке сканування</string>
+    <string name="scan_filter_soft_scan">М\'яке сканування</string>
     <string name="scan_filter_color_enhance">Колір+</string>
     <string name="scan_filter_ink_saver">Економія чорнила</string>
     <string name="scan_filter_premium">Преміум-функція</string>
@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">Зображення збережено в галерею</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Видалити документ?</string>
-    <string name="scan_delete_document_message">Ви впевнені, що хочете видалити "%1$s"? Це назавжди видалить усі сторінки в цьому документі. Цю дію не можна скасувати.</string>
+    <string name="scan_delete_document_message">Ви впевнені, що хочете видалити \"%1$s\"? Це назавжди видалить усі сторінки в цьому документі. Цю дію не можна скасувати.</string>
     <string name="scan_rename_document">Перейменувати документ</string>
     <string name="scan_rename_enter_name">Введіть нову назву для документа</string>
     <string name="scan_rename_document_name">Назва документа</string>
     <string name="scan_rename_error">Назва документа не може бути порожньою</string>
     <string name="scan_dialog_delete_document_title">Видалити документ?</string>
-    <string name="scan_dialog_delete_document_message">Ви впевнені, що хочете видалити "%1$s"? Це назавжди видалить усі сторінки в цьому документі. Цю дію не можна скасувати.</string>
+    <string name="scan_dialog_delete_document_message">Ви впевнені, що хочете видалити \"%1$s\"? Це назавжди видалить усі сторінки в цьому документі. Цю дію не можна скасувати.</string>
     <string name="scan_dialog_delete_confirm">Видалити</string>
     <string name="scan_dialog_cancel">Скасувати</string>
     <string name="scan_dialog_move_title">Перемістити до папки</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Сторінка %2$d</string>
     <string name="scan_ocr_title">Розпізнавання тексту</string>
-    <string name="scan_ocr_copy">Копіювати текст</string>
     <string name="scan_ocr_no_text">Текст не знайдено</string>
-    <string name="scan_ocr_processing">Розпізнавання тексту…</string>
     <string name="scan_ocr_error">Не вдалося розпізнати текст</string>
     <string name="scan_ocr_not_supported">Розпізнавання символів (OCR) не підтримується на цій платформі.</string>
-    <string name="scan_ocr_image">Відсканована сторінка для OCR</string>
     <string name="gallery">Галерея</string>
     <string name="select_file">Виберіть файл</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">масштаб_затвора</string>
     <string name="import_gallery">Імпорт галереї</string>
     <string name="scan_camera">Сканування камери</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

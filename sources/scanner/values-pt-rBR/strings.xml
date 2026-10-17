@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">Imagem salva na galeria</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Excluir documento?</string>
-    <string name="scan_delete_document_message">Tem certeza de que deseja excluir "%1$s"? Isso excluirá permanentemente todas as páginas deste documento. Esta ação não pode ser desfeita.</string>
+    <string name="scan_delete_document_message">Tem certeza de que deseja excluir \"%1$s\"? Isso excluirá permanentemente todas as páginas deste documento. Esta ação não pode ser desfeita.</string>
     <string name="scan_rename_document">Renomear documento</string>
     <string name="scan_rename_enter_name">Insira um novo nome para o documento.</string>
     <string name="scan_rename_document_name">Nome do documento</string>
     <string name="scan_rename_error">O nome do documento não pode estar vazio.</string>
     <string name="scan_dialog_delete_document_title">Excluir documento?</string>
-    <string name="scan_dialog_delete_document_message">Tem certeza de que deseja excluir "%1$s"? Isso excluirá permanentemente todas as páginas deste documento. Esta ação não pode ser desfeita.</string>
+    <string name="scan_dialog_delete_document_message">Tem certeza de que deseja excluir \"%1$s\"? Isso excluirá permanentemente todas as páginas deste documento. Esta ação não pode ser desfeita.</string>
     <string name="scan_dialog_delete_confirm">Excluir</string>
     <string name="scan_dialog_cancel">Cancelar</string>
     <string name="scan_dialog_move_title">Mover para a pasta</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Página %2$d</string>
     <string name="scan_ocr_title">Reconhecimento de texto</string>
-    <string name="scan_ocr_copy">Copiar texto</string>
     <string name="scan_ocr_no_text">Nenhum texto encontrado</string>
-    <string name="scan_ocr_processing">Reconhecendo texto…</string>
     <string name="scan_ocr_error">Não foi possível reconhecer o texto.</string>
     <string name="scan_ocr_not_supported">O OCR não é compatível com esta plataforma.</string>
-    <string name="scan_ocr_image">Página digitalizada para OCR</string>
     <string name="gallery">Galeria</string>
     <string name="select_file">Selecionar arquivo</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">escala_do_obturador</string>
     <string name="import_gallery">Galeria de Importação</string>
     <string name="scan_camera">Câmera de digitalização</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">Jumlah halaman dalam PDF: %1$d (saiz segmen mestilah kurang daripada %1$d)</string>
     <string name="this_will_create__output_files">Ini akan mencipta fail output %1$d</string>
     <string name="this_will_create__output_file">Ini akan mencipta fail output %1$d</string>
-    <string name="this_input_will_split_the_pdf_">Input ini akan membahagikan PDF kepada fail berasingan berdasarkan julat anda. Contohnya, "1-2,5,6-8" akan mencipta 3 PDF: pertama dengan halaman 1-2, kedua dengan halaman 5, dan ketiga dengan halaman 6-8.</string>
+    <string name="this_input_will_split_the_pdf_">Input ini akan membahagikan PDF kepada fail berasingan berdasarkan julat anda. Contohnya, \"1-2,5,6-8\" akan mencipta 3 PDF: pertama dengan halaman 1-2, kedua dengan halaman 5, dan ketiga dengan halaman 6-8.</string>
     <string name="page_ranges">Julat halaman</string>
     <string name="eg_1234571520">cth., 1-2,3,4-5,7,15-20</string>
     <string name="format_use_ranges_15_or_single">Format: Gunakan julat (1-5) atau halaman tunggal (7), dipisahkan dengan koma. Hanya digit, tanda sempang dan koma dibenarkan.</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">Dimampatkan oleh </string>
     <string name="error_details">Butiran Ralat</string>
     <string name="view">Lihat</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">%1$s daripada %2$s halaman dipilih</string>
     <string name="showing_first_200_pages">Menunjukkan 200 halaman pertama</string>

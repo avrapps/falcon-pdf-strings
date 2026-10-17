@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">Ukupan broj stranica u PDF-u: %1$d (veličina segmenta mora biti manja od %1$d)</string>
     <string name="this_will_create__output_files">Ovo će stvoriti %1$d izlaznih datoteka</string>
     <string name="this_will_create__output_file">Ovo će stvoriti %1$d izlaznu datoteku</string>
-    <string name="this_input_will_split_the_pdf_">Ovaj unos će podijeliti PDF u zasebne datoteke na temelju vaših raspona. Na primjer, "1-2,5,6-8" će stvoriti 3 PDF-a: prvi sa stranicama 1-2, drugi sa stranicom 5 i treći sa stranicama 6-8.</string>
+    <string name="this_input_will_split_the_pdf_">Ovaj unos će podijeliti PDF u zasebne datoteke na temelju vaših raspona. Na primjer, \"1-2,5,6-8\" će stvoriti 3 PDF-a: prvi sa stranicama 1-2, drugi sa stranicom 5 i treći sa stranicama 6-8.</string>
     <string name="page_ranges">Rasponi stranica</string>
     <string name="eg_1234571520">npr. 1-2, 3, 4-5, 7, 15-20</string>
     <string name="format_use_ranges_15_or_single">Format: Koristite raspone (1-5) ili pojedinačne stranice (7), odvojene zarezima. Dopuštene su samo znamenke, crtice i zarezi.</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">Komprimirano od strane </string>
     <string name="error_details">Detalji pogreške</string>
     <string name="view">Pogled</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">Odabrano %1$s od %2$s stranica</string>
     <string name="showing_first_200_pages">Prikazuje se prvih 200 stranica</string>

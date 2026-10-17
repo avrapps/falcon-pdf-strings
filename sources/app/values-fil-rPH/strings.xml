@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Name -->
-    <string name="app_name">PDF Magic</string>
-    <string name="app_tagline">Ano ang gusto mong gawin?</string>
     <!-- Home Screen -->
     <string name="home_last_used">Huling Ginamit</string>
     <string name="home_favorites">Mga Paborito</string>
@@ -138,8 +135,42 @@
     <string name="settings_category_appearance_subtitle">I-customize ang hitsura ng app &amp; na pakiramdam</string>
     <string name="settings_category_pdf_reader_title">Mambabasa ng PDF</string>
     <string name="settings_category_pdf_reader_subtitle">Karanasan sa pagbabasa ng default na tumitingin &amp;</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
     <string name="settings_category_help_title">Tulong &amp; Suporta</string>
     <string name="settings_category_help_subtitle">Dokumentasyon &amp; makipag-ugnayan</string>
+    <string name="settings_category_shortcuts_title">Keyboard Shortcuts</string>
+    <string name="settings_category_shortcuts_subtitle">Desktop hotkeys reference</string>
+    <string name="shortcuts_intro_note">On macOS press Cmd; on Windows and Linux press Ctrl. Shortcuts pause while editing a form field so typing goes to the field.</string>
+    <string name="shortcuts_group_file">File</string>
+    <string name="shortcuts_group_tabs">Tabs</string>
+    <string name="shortcuts_group_navigation">Navigation</string>
+    <string name="shortcuts_group_view_zoom">View &amp; zoom</string>
+    <string name="shortcuts_group_search_panels">Search &amp; panels</string>
+    <string name="shortcuts_action_open_file">Open a file</string>
+    <string name="shortcuts_action_save">Save</string>
+    <string name="shortcuts_action_print">Print</string>
+    <string name="shortcuts_action_close_tab">Close current tab</string>
+    <string name="shortcuts_action_next_tab">Next tab</string>
+    <string name="shortcuts_action_previous_tab">Previous tab</string>
+    <string name="shortcuts_action_jump_to_tab">Jump to tab 1–8</string>
+    <string name="shortcuts_action_jump_to_last_tab">Jump to last tab</string>
+    <string name="shortcuts_action_go_to_page">Go to page</string>
+    <string name="shortcuts_action_next_prev_page">Next / previous page</string>
+    <string name="shortcuts_action_first_last_page">First / last page</string>
+    <string name="shortcuts_action_pan_page">Pan the page</string>
+    <string name="shortcuts_action_zoom_in_out">Zoom in / out</string>
+    <string name="shortcuts_action_reset_zoom">Reset zoom (fit width)</string>
+    <string name="shortcuts_action_toggle_fullscreen">Toggle fullscreen</string>
+    <string name="shortcuts_action_exit_fullscreen">Exit fullscreen</string>
+    <string name="shortcuts_action_search">Search</string>
+    <string name="shortcuts_action_copy_text">Copy selected text</string>
+    <string name="shortcuts_action_bookmarks_panel">Bookmarks panel</string>
+    <string name="shortcuts_action_toggle_bookmark">Toggle bookmark on page</string>
+    <string name="shortcuts_action_pages_panel">Pages panel</string>
+    <string name="shortcuts_action_annotations_panel">Annotations panel</string>
     <string name="settings_category_general_title">Heneral</string>
     <string name="settings_category_general_subtitle">Impormasyon ng app sa Wika &amp;</string>
     <string name="settings_theme_section">Tema</string>
@@ -233,6 +264,7 @@
     <string name="help_terms_subtitle">Mga tuntunin ng aplikasyon</string>
     <!-- Sync Settings -->
     <string name="sync_on_mobile_data">Pag-sync sa mobile data</string>
+    <string name="sync_skipped_mobile_data">On mobile data — sync is off. Enable \"Sync on mobile data\" in settings or connect to Wi-Fi.</string>
     <string name="background_sync">Pag-sync sa background</string>
     <!-- PDF Settings -->
     <string name="pdf_settings_title">Mga Setting ng PDF Reader</string>
@@ -255,6 +287,8 @@
     <!-- Language Picker -->
     <string name="language_picker_title">Wika</string>
     <string name="language_search_placeholder">Maghanap ng mga wika...</string>
+    <string name="language_applying">Applying…</string>
+    <string name="language_download_badge">Download</string>
     <!-- Common UI -->
     <string name="support">Suporta</string>
     <string name="language_english">Ingles</string>
@@ -365,6 +399,7 @@
     <string name="search">Maghanap</string>
     <string name="more_actions">Higit pang mga aksyon</string>
     <string name="share">Ibahagi</string>
+    <string name="show_in_finder">Show in Finder</string>
     <string name="delete">Burahin</string>
     <string name="remove_from_recents">Alisin sa mga kamakailang</string>
     <string name="open">Bukas</string>
@@ -401,7 +436,7 @@
     <string name="welcome_slide1_title">&lt;b&gt;Basahin ang Anumang Dokumento&lt;/b&gt; Agad-agad</string>
     <string name="welcome_slide1_description">Buksan at pamahalaan ang mahigit 10 format ng dokumento kabilang ang PDF, DOC, EPUB, MOBI.</string>
     <string name="welcome_slide1_feature1">&lt;b&gt;Magbasa ng mga PDF, ebook,&lt;/b&gt; at mga dokumento sa opisina sa iisang lugar</string>
-    <string name="welcome_slide1_feature2">&lt;b&gt;Mga Paboritong dokumento ng&lt;/b&gt; at i-access ang mga ito sa iba't ibang device</string>
+    <string name="welcome_slide1_feature2">&lt;b&gt;Mga Paboritong dokumento ng&lt;/b&gt; at i-access ang mga ito sa iba\'t ibang device</string>
     <string name="welcome_slide1_feature3">&lt;b&gt;Magkomento,&lt;/b&gt; i-highlight, at makipagtulungan nang madali</string>
     <string name="welcome_slide1_footer">Ang iyong pangkalahatang mambabasa ng dokumento</string>
     <!-- Welcome Slide 2 -->
@@ -419,7 +454,7 @@
     <string name="welcome_slide3_feature3">&lt;b&gt;Makinig sa&lt;/b&gt; sa mga dokumentong may built-in na read-aloud</string>
     <string name="welcome_slide3_footer">Walang mga ad. Produktibidad lang.</string>
     <string name="grace">BIYAYA</string>
-    <string name="unable_to_verify_subscription_limited_ac">Hindi ma-verify ang subscription. Limitado ang access hangga't hindi naibabalik ang koneksyon.</string>
+    <string name="unable_to_verify_subscription_limited_ac">Hindi ma-verify ang subscription. Limitado ang access hangga\'t hindi naibabalik ang koneksyon.</string>
     <string name="retry_verification">Subukang Muli ang Pag-verify</string>
     <string name="guest_state">Estado ng Panauhin</string>
     <string name="free_tier">Libreng Antas</string>
@@ -483,7 +518,7 @@
     <string name="settings_delete_account_subtitle">Permanenteng burahin ang iyong account at data</string>
     <string name="delete_account_warning_title">Burahin ang iyong account?</string>
     <string name="delete_account_warning_message">Permanente nitong buburahin ang iyong account at lahat ng nauugnay na data, kabilang ang iyong history ng pagbili at mga cloud-synced na file. Hindi na maaaring bawiin ang aksyon na ito at hindi na maibabalik ang mga binili sa ibang pagkakataon.</string>
-    <string name="delete_account_confirm_phrase_label">I-type ang 'kumpirmahin ang pagtanggal' para magpatuloy:</string>
+    <string name="delete_account_confirm_phrase_label">I-type ang \'kumpirmahin ang pagtanggal\' para magpatuloy:</string>
     <string name="delete_account_confirm_phrase">kumpirmahin ang pagbura</string>
     <string name="delete_account_button">Burahin ang Account</string>
     <string name="delete_account_error_reauth">Para sa seguridad, dapat ay kamakailan ka lang nag-sign in para mabura ang iyong account. Mangyaring mag-sign out at mag-sign in muli, pagkatapos ay subukang muli.</string>
@@ -511,6 +546,7 @@
     <string name="unsaved_changes_window_message">Mayroon kang mga hindi pa nase-save na pagbabago sa isa o higit pang mga dokumento. Gusto mo bang itapon ang mga ito at umalis?</string>
     <string name="discard">Itapon</string>
     <string name="discard_and_quit">Itapon ang &amp; Tumigil</string>
+    <string name="drop_files_to_open">Drop files to open</string>
     <string name="close">Isara</string>
     <string name="remove_favorite">Alisin ang paborito</string>
     <string name="set_as_default_pdf_viewer">Itakda bilang Default na PDF Viewer?</string>
@@ -583,7 +619,7 @@
     <string name="ebooks_library">Aklatan ng mga E-libro</string>
     <string name="manage_your_digital_collection_across_mu">Pamahalaan ang iyong digital na koleksyon sa maraming provider. Maghanap, mag-filter, at tumuklas ng mga bagong pamagat mula sa Google Books at Open Library.</string>
     <string name="no_books_found">Walang natagpuang mga libro</string>
-    <string name="no_results_for__try_a_different_search_t">Walang resulta para sa "%1$s". Subukan ang ibang termino para sa paghahanap.</string>
+    <string name="no_results_for__try_a_different_search_t">Walang resulta para sa \"%1$s\". Subukan ang ibang termino para sa paghahanap.</string>
     <string name="downloadable_only">Mada-download Lamang</string>
     <string name="file_unavailable">Hindi magagamit ang file</string>
     <string name="unavailable">Hindi magagamit</string>
@@ -606,6 +642,9 @@
     <string name="home">Tahanan</string>
     <string name="your_documents_at_a_glance">Ang iyong mga dokumento sa isang sulyap</string>
     <string name="pick_file">Pumili ng File</string>
+    <string name="pending_actions_open_failed">Couldn\'t open this document to sign. Make sure you\'re signed in with the invited email, then try again.</string>
+    <string name="pending_actions_open_failed_title">Can\'t open sign request</string>
+    <string name="pending_actions_reject_failed">Couldn\'t decline the request. Make sure you\'re signed in with the invited email, then try again.</string>
     <string name="quick_actions">Mga Mabilisang Aksyon</string>
     <string name="pro">PRO</string>
     <string name="open_files">Buksan ang mga file</string>
@@ -646,10 +685,7 @@
     <string name="my_library">Aking Aklatan</string>
     <string name="get_ebooks">Kumuha ng mga eBook</string>
     <string name="scan_document">I-scan ang Dokumento</string>
-    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
-    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
-    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
-    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <!-- From: session AI/TTS provider settings entries + standalone screens -->
     <string name="settings_section_ai_voice">AI &amp; VOICE</string>
     <string name="settings_entry_ai_title">AI Chat Provider</string>
     <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>

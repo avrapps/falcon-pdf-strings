@@ -19,7 +19,7 @@
     <string name="purchase_premium_tagline">Alt i Pro, plus AI &amp; Cloud</string>
     <string name="purchase_recommended">Anbefalet</string>
     <!-- Purchase Screen - Pro Features (legacy fallback — primary source is features.json) -->
-    <string name="purchase_pro_feature_1">AI-højtlæsning — Lyt til PDF'er naturligt</string>
+    <string name="purchase_pro_feature_1">AI-højtlæsning — Lyt til PDF\'er naturligt</string>
     <string name="purchase_pro_feature_2">Fuld PDF-redigering &amp; Formularudfyldning</string>
     <string name="purchase_pro_feature_3">Synkronisering på tværs af enheder via Drev</string>
     <string name="purchase_pro_feature_4">Reklamefri, intet vandmærke på scanninger</string>
@@ -30,7 +30,7 @@
     <string name="purchase_premium_feature_2_desc">Dit personlige PDF-bibliotek, synkroniseret og sikkert</string>
     <string name="purchase_premium_feature_3_title">Ingen grænser for 60+ PDF-værktøjer</string>
     <string name="purchase_premium_feature_3_desc">Alle værktøjer, altid tilgængelige</string>
-    <string name="purchase_premium_feature_4_title">Fuldtekstredigering i PDF'er</string>
+    <string name="purchase_premium_feature_4_title">Fuldtekstredigering i PDF\'er</string>
     <string name="purchase_premium_feature_4_desc">Rediger tekst direkte som et tekstbehandlingsprogram</string>
     <!-- Purchase Screen - Actions -->
     <string name="purchase_buy_pro">Køb Pro</string>
@@ -108,7 +108,7 @@
     <string name="multiple_themes__page_backgrounds">Flere temaer &amp; Sidebaggrunde</string>
     <string name="ai_summaries_with_stronger_reasoning">AI-resuméer med stærkere argumentation</string>
     <string name="no_limits_on_60_pdf_tools">Ingen grænser for 60+ PDF-værktøjer</string>
-    <string name="full_text_editing_in_pdfs">Fuldtekstredigering i PDF'er</string>
+    <string name="full_text_editing_in_pdfs">Fuldtekstredigering i PDF\'er</string>
     <string name="digital_signatures_dscesign">Digitale signaturer (DSC/eSign)</string>
     <string name="unlimited_scanned_document_sync">Ubegrænset synkronisering af scannede dokumenter</string>
     <string name="biometric_document_lock">Biometrisk dokumentlås</string>

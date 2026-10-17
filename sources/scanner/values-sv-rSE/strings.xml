@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">Bilden sparad i galleriet</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Ta bort dokument?</string>
-    <string name="scan_delete_document_message">Är du säker på att du vill ta bort "%1$s"? Detta kommer att ta bort alla sidor i det här dokumentet permanent. Åtgärden kan inte ångras.</string>
+    <string name="scan_delete_document_message">Är du säker på att du vill ta bort \"%1$s\"? Detta kommer att ta bort alla sidor i det här dokumentet permanent. Åtgärden kan inte ångras.</string>
     <string name="scan_rename_document">Byt namn på dokument</string>
     <string name="scan_rename_enter_name">Ange ett nytt namn för dokumentet</string>
     <string name="scan_rename_document_name">Dokumentnamn</string>
     <string name="scan_rename_error">Dokumentnamnet får inte vara tomt</string>
     <string name="scan_dialog_delete_document_title">Ta bort dokument?</string>
-    <string name="scan_dialog_delete_document_message">Är du säker på att du vill ta bort "%1$s"? Detta kommer att ta bort alla sidor i det här dokumentet permanent. Åtgärden kan inte ångras.</string>
+    <string name="scan_dialog_delete_document_message">Är du säker på att du vill ta bort \"%1$s\"? Detta kommer att ta bort alla sidor i det här dokumentet permanent. Åtgärden kan inte ångras.</string>
     <string name="scan_dialog_delete_confirm">Radera</string>
     <string name="scan_dialog_cancel">Avboka</string>
     <string name="scan_dialog_move_title">Flytta till mapp</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Sida %2$d</string>
     <string name="scan_ocr_title">Textigenkänning</string>
-    <string name="scan_ocr_copy">Kopiera text</string>
     <string name="scan_ocr_no_text">Ingen text hittades</string>
-    <string name="scan_ocr_processing">Tolkning av text…</string>
     <string name="scan_ocr_error">Kunde inte känna igen texten</string>
     <string name="scan_ocr_not_supported">OCR stöds inte på den här plattformen</string>
-    <string name="scan_ocr_image">Skannad sida för OCR</string>
     <string name="gallery">Galleri</string>
     <string name="select_file">Välj fil</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">slutarskala</string>
     <string name="import_gallery">Importera galleri</string>
     <string name="scan_camera">Skanna kamera</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

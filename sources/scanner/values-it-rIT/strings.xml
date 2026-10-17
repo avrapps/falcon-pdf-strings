@@ -23,10 +23,10 @@
     <string name="scan_home_folder_exists">Esiste già una cartella con questo nome</string>
     <!-- Scan Camera Screen -->
     <string name="scan_camera_title">Telecamera</string>
-    <string name="scan_camera_permission_required">È necessaria l'autorizzazione per scattare foto.</string>
-    <string name="scan_camera_permission_message">Questa app necessita dell'accesso alla fotocamera per scansionare i documenti.</string>
-    <string name="scan_camera_permission_settings">Vai su Impostazioni &gt; App &gt; Visualizzatore PDF &gt; Autorizzazioni e abilita l'autorizzazione per la fotocamera.</string>
-    <string name="scan_camera_permission_title">È necessaria l'autorizzazione per scattare foto.</string>
+    <string name="scan_camera_permission_required">È necessaria l\'autorizzazione per scattare foto.</string>
+    <string name="scan_camera_permission_message">Questa app necessita dell\'accesso alla fotocamera per scansionare i documenti.</string>
+    <string name="scan_camera_permission_settings">Vai su Impostazioni &gt; App &gt; Visualizzatore PDF &gt; Autorizzazioni e abilita l\'autorizzazione per la fotocamera.</string>
+    <string name="scan_camera_permission_title">È necessaria l\'autorizzazione per scattare foto.</string>
     <string name="scan_camera_request_permission">Richiesta di autorizzazione</string>
     <string name="scan_camera_open_settings">Apri le impostazioni</string>
     <string name="scan_camera_close">Vicino</string>
@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">Immagine salvata nella galleria</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Eliminare il documento?</string>
-    <string name="scan_delete_document_message">Sei sicuro di voler eliminare "%1$s"? Questa operazione eliminerà definitivamente tutte le pagine di questo documento. Questa azione non può essere annullata.</string>
+    <string name="scan_delete_document_message">Sei sicuro di voler eliminare \"%1$s\"? Questa operazione eliminerà definitivamente tutte le pagine di questo documento. Questa azione non può essere annullata.</string>
     <string name="scan_rename_document">Rinominare il documento</string>
     <string name="scan_rename_enter_name">Inserisci un nuovo nome per il documento</string>
     <string name="scan_rename_document_name">Nome reale</string>
     <string name="scan_rename_error">Il nome del documento non può essere vuoto</string>
     <string name="scan_dialog_delete_document_title">Eliminare il documento?</string>
-    <string name="scan_dialog_delete_document_message">Sei sicuro di voler eliminare "%1$s"? Questa operazione eliminerà definitivamente tutte le pagine di questo documento. Questa azione non può essere annullata.</string>
+    <string name="scan_dialog_delete_document_message">Sei sicuro di voler eliminare \"%1$s\"? Questa operazione eliminerà definitivamente tutte le pagine di questo documento. Questa azione non può essere annullata.</string>
     <string name="scan_dialog_delete_confirm">Eliminare</string>
     <string name="scan_dialog_cancel">Cancellare</string>
     <string name="scan_dialog_move_title">Sposta nella cartella</string>
@@ -172,23 +172,20 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Pagina %2$d</string>
     <string name="scan_ocr_title">Riconoscimento del testo</string>
-    <string name="scan_ocr_copy">Copia testo</string>
     <string name="scan_ocr_no_text">Nessun testo trovato</string>
-    <string name="scan_ocr_processing">Riconoscimento del testo…</string>
     <string name="scan_ocr_error">Impossibile riconoscere il testo</string>
     <string name="scan_ocr_not_supported">La funzionalità OCR non è supportata su questa piattaforma.</string>
-    <string name="scan_ocr_image">Pagina scansionata per OCR</string>
     <string name="gallery">Galleria</string>
     <string name="select_file">Seleziona il file</string>
     <!-- Error Messages -->
-    <string name="error_capture_image">Impossibile acquisire l'immagine</string>
+    <string name="error_capture_image">Impossibile acquisire l\'immagine</string>
     <string name="error_no_images_captured">Nessuna immagine catturata</string>
     <string name="error_open_settings">Impossibile aprire le impostazioni</string>
     <string name="error_process_images">Impossibile elaborare le immagini</string>
-    <string name="error_process_image">Impossibile elaborare l'immagine</string>
+    <string name="error_process_image">Impossibile elaborare l\'immagine</string>
     <string name="error_start_camera">Impossibile avviare la fotocamera</string>
     <string name="error_stop_camera">Impossibile arrestare la telecamera</string>
-    <string name="error_crop_image">Impossibile ritagliare l'immagine</string>
+    <string name="error_crop_image">Impossibile ritagliare l\'immagine</string>
     <string name="error_delete_document">Impossibile eliminare il documento</string>
     <string name="error_delete_page">Impossibile eliminare la pagina</string>
     <string name="error_load_document">Impossibile caricare il documento</string>
@@ -206,7 +203,14 @@
     <string name="error_unknown">Si è verificato un errore sconosciuto</string>
     <string name="folder_not_found">Cartella non trovata</string>
     <string name="sync_documents">Sincronizzare i documenti</string>
-    <string name="shutter_scale">scala dell'otturatore</string>
-    <string name="import_gallery">Galleria d'importazione</string>
+    <string name="shutter_scale">scala dell\'otturatore</string>
+    <string name="import_gallery">Galleria d\'importazione</string>
     <string name="scan_camera">Telecamera di scansione</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

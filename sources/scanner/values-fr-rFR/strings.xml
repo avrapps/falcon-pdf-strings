@@ -6,7 +6,7 @@
     <string name="scan_home_documents">Documents</string>
     <string name="scan_home_documents_lowercase">documents</string>
     <string name="scan_home_documents_count">%1$d Documents</string>
-    <string name="scan_home_no_documents">Aucun document pour l'instant</string>
+    <string name="scan_home_no_documents">Aucun document pour l\'instant</string>
     <string name="scan_home_start_scanning">Commencez à numériser pour créer votre premier document.</string>
     <string name="scan_home_new_folder">Nouveau dossier</string>
     <string name="scan_home_scan_document">Document numérisé</string>
@@ -25,9 +25,9 @@
     <string name="scan_camera_title">Caméra</string>
     <string name="scan_camera_permission_required">Autorisation de prise de vue requise</string>
     <string name="scan_camera_permission_message">Cette application nécessite un accès à la caméra pour numériser les documents.</string>
-    <string name="scan_camera_permission_settings">Veuillez vous rendre dans Paramètres &gt; Applications &gt; Visionneuse PDF &gt; Autorisations et activer l'autorisation de la caméra.</string>
+    <string name="scan_camera_permission_settings">Veuillez vous rendre dans Paramètres &gt; Applications &gt; Visionneuse PDF &gt; Autorisations et activer l\'autorisation de la caméra.</string>
     <string name="scan_camera_permission_title">Autorisation de prise de vue requise</string>
-    <string name="scan_camera_request_permission">Demande d'autorisation</string>
+    <string name="scan_camera_request_permission">Demande d\'autorisation</string>
     <string name="scan_camera_open_settings">Ouvrir les paramètres</string>
     <string name="scan_camera_close">Fermer</string>
     <string name="scan_camera_flash">Éclair</string>
@@ -69,7 +69,7 @@
     <string name="scan_filter_magic_2">Document propre</string>
     <string name="scan_filter_soft_scan">Analyse logicielle</string>
     <string name="scan_filter_color_enhance">Couleur+</string>
-    <string name="scan_filter_ink_saver">Économiseur d'encre</string>
+    <string name="scan_filter_ink_saver">Économiseur d\'encre</string>
     <string name="scan_filter_premium">Fonctionnalité premium</string>
     <string name="scan_filter_filtered_document">Document filtré</string>
     <string name="scan_filter_applying">Application du filtre...</string>
@@ -140,7 +140,7 @@
     <!-- Scan Platform Messages -->
     <string name="scan_platform_camera_coming_soon">Aperçu de la caméra\n(Bientôt disponible)</string>
     <string name="scan_platform_desktop_camera">Aperçu de la caméra de bureau\n(Bientôt disponible)</string>
-    <string name="scan_platform_ios_camera">Aperçu de l'appareil photo iOS\n(Bientôt disponible)</string>
+    <string name="scan_platform_ios_camera">Aperçu de l\'appareil photo iOS\n(Bientôt disponible)</string>
     <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanCameraScreen.kt -->
     <string name="close">Fermer</string>
     <string name="flash">Éclair</string>
@@ -149,9 +149,9 @@
     <string name="capture">Capturer</string>
     <string name="finish">Finition</string>
     <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanDialogs.kt -->
-    <string name="are_you_sure_you_want_to_delet">Êtes-vous sûr de vouloir supprimer %1? Tous les documents qu'il contient seront également supprimés.</string>
+    <string name="are_you_sure_you_want_to_delet">Êtes-vous sûr de vouloir supprimer %1? Tous les documents qu\'il contient seront également supprimés.</string>
     <string name="share">Partager</string>
-    <string name="share_as_images">Partager sous forme d'images</string>
+    <string name="share_as_images">Partager sous forme d\'images</string>
     <string name="share_as_pdf">Partager au format PDF</string>
     <string name="move_to_folder">Déplacer vers le dossier</string>
     <string name="delete">Supprimer</string>
@@ -164,7 +164,7 @@
     <string name="tap_the__button_to_scan_a_docu">Appuyez sur le bouton + pour numériser un document</string>
     <string name="str______pages">%1$s • %2$s • %3$s pages</string>
     <string name="create_folder">Créer un dossier</string>
-    <string name="more_options">Plus d'options</string>
+    <string name="more_options">Plus d\'options</string>
     <string name="document_thumbnail">Miniature du document</string>
     <!-- From: document-scanner/src/commonMain/kotlin/com/avrapps/documentscanner/ui/ScanPageScreen.kt -->
     <string name="image_not_found">Image introuvable</string>
@@ -172,23 +172,20 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Page %2$d</string>
     <string name="scan_ocr_title">Reconnaissance de texte</string>
-    <string name="scan_ocr_copy">Copier le texte</string>
     <string name="scan_ocr_no_text">Aucun texte trouvé</string>
-    <string name="scan_ocr_processing">Reconnaissance de texte…</string>
     <string name="scan_ocr_error">Impossible de reconnaître le texte</string>
-    <string name="scan_ocr_not_supported">La reconnaissance optique de caractères (OCR) n'est pas prise en charge sur cette plateforme.</string>
-    <string name="scan_ocr_image">Page numérisée pour OCR</string>
+    <string name="scan_ocr_not_supported">La reconnaissance optique de caractères (OCR) n\'est pas prise en charge sur cette plateforme.</string>
     <string name="gallery">Galerie</string>
     <string name="select_file">Sélectionner un fichier</string>
     <!-- Error Messages -->
-    <string name="error_capture_image">Impossible de capturer l'image</string>
+    <string name="error_capture_image">Impossible de capturer l\'image</string>
     <string name="error_no_images_captured">Aucune image capturée</string>
-    <string name="error_open_settings">Impossible d'ouvrir les paramètres</string>
+    <string name="error_open_settings">Impossible d\'ouvrir les paramètres</string>
     <string name="error_process_images">Échec du traitement des images</string>
-    <string name="error_process_image">Échec du traitement de l'image</string>
+    <string name="error_process_image">Échec du traitement de l\'image</string>
     <string name="error_start_camera">Impossible de démarrer la caméra</string>
-    <string name="error_stop_camera">L'appareil photo n'a pas pu être arrêté.</string>
-    <string name="error_crop_image">Échec du recadrage de l'image</string>
+    <string name="error_stop_camera">L\'appareil photo n\'a pas pu être arrêté.</string>
+    <string name="error_crop_image">Échec du recadrage de l\'image</string>
     <string name="error_delete_document">Échec de la suppression du document</string>
     <string name="error_delete_page">Impossible de supprimer la page</string>
     <string name="error_load_document">Impossible de charger le document</string>
@@ -203,10 +200,17 @@
     <string name="error_create_folder">Impossible de créer le dossier</string>
     <string name="error_delete_folder">Échec de la suppression du dossier</string>
     <string name="error_rename_folder">Impossible de renommer le dossier</string>
-    <string name="error_unknown">Une erreur inconnue s'est produite.</string>
+    <string name="error_unknown">Une erreur inconnue s\'est produite.</string>
     <string name="folder_not_found">Dossier introuvable</string>
     <string name="sync_documents">Documents de synchronisation</string>
     <string name="shutter_scale">échelle_obturateur</string>
-    <string name="import_gallery">Galerie d'importation</string>
+    <string name="import_gallery">Galerie d\'importation</string>
     <string name="scan_camera">Caméra de numérisation</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

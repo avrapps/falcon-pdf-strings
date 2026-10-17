@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">PDF-இல் உள்ள மொத்தப் பக்கங்களின் எண்ணிக்கை: %1$d (பிரிவின் அளவு %1$d-ஐ விடக் குறைவாக இருக்க வேண்டும்)</string>
     <string name="this_will_create__output_files">இது %1$d வெளியீட்டுக் கோப்புகளை உருவாக்கும்</string>
     <string name="this_will_create__output_file">இது %1$d வெளியீட்டுக் கோப்பை உருவாக்கும்</string>
-    <string name="this_input_will_split_the_pdf_">இந்த உள்ளீடு, நீங்கள் குறிப்பிடும் வரம்புகளின் அடிப்படையில் PDF-ஐத் தனித்தனி கோப்புகளாகப் பிரிக்கும். உதாரணமாக, "1-2,5,6-8" என உள்ளிடும்போது, முதலாவது 1-2 பக்கங்களையும், இரண்டாவது 5-ஆம் பக்கத்தையும், மூன்றாவது 6-8 பக்கங்களையும் கொண்ட 3 PDF-கள் உருவாக்கப்படும்.</string>
+    <string name="this_input_will_split_the_pdf_">இந்த உள்ளீடு, நீங்கள் குறிப்பிடும் வரம்புகளின் அடிப்படையில் PDF-ஐத் தனித்தனி கோப்புகளாகப் பிரிக்கும். உதாரணமாக, \"1-2,5,6-8\" என உள்ளிடும்போது, முதலாவது 1-2 பக்கங்களையும், இரண்டாவது 5-ஆம் பக்கத்தையும், மூன்றாவது 6-8 பக்கங்களையும் கொண்ட 3 PDF-கள் உருவாக்கப்படும்.</string>
     <string name="page_ranges">பக்க வரம்புகள்</string>
     <string name="eg_1234571520">எ.கா., 1-2,3,4-5,7,15-20</string>
     <string name="format_use_ranges_15_or_single">வடிவம்: காற்புள்ளிகளால் பிரிக்கப்பட்ட வரம்புகளாக (1-5) அல்லது ஒற்றைப் பக்கங்களாக (7) பயன்படுத்தவும். எண்கள், இணைப்புக்கோடுகள் மற்றும் காற்புள்ளிகள் மட்டுமே அனுமதிக்கப்படும்.</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">சுருக்கப்பட்டது </string>
     <string name="error_details">பிழை விவரங்கள்</string>
     <string name="view">பார்வை</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">%2$s பக்கங்களில் %1$s பக்கங்கள் தேர்ந்தெடுக்கப்பட்டன</string>
     <string name="showing_first_200_pages">முதல் 200 பக்கங்கள் காட்டப்படுகின்றன</string>

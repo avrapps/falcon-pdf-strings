@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">จำนวนหน้าทั้งหมดในไฟล์ PDF: %1$d (ขนาดส่วนต้องน้อยกว่า %1$d)</string>
     <string name="this_will_create__output_files">การดำเนินการนี้จะสร้างไฟล์เอาต์พุต %1$d ไฟล์</string>
     <string name="this_will_create__output_file">การดำเนินการนี้จะสร้างไฟล์เอาต์พุต %1$d</string>
-    <string name="this_input_will_split_the_pdf_">ข้อมูลนี้จะแบ่งไฟล์ PDF ออกเป็นไฟล์ย่อยตามช่วงที่คุณกำหนด ตัวอย่างเช่น "1-2,5,6-8" จะสร้างไฟล์ PDF จำนวน 3 ไฟล์ ได้แก่ ไฟล์แรกมีหน้า 1-2 ไฟล์ที่สองมีหน้า 5 และไฟล์ที่สามมีหน้า 6-8</string>
+    <string name="this_input_will_split_the_pdf_">ข้อมูลนี้จะแบ่งไฟล์ PDF ออกเป็นไฟล์ย่อยตามช่วงที่คุณกำหนด ตัวอย่างเช่น \"1-2,5,6-8\" จะสร้างไฟล์ PDF จำนวน 3 ไฟล์ ได้แก่ ไฟล์แรกมีหน้า 1-2 ไฟล์ที่สองมีหน้า 5 และไฟล์ที่สามมีหน้า 6-8</string>
     <string name="page_ranges">ช่วงหน้า</string>
     <string name="eg_1234571520">เช่น 1-2,3,4-5,7,15-20</string>
     <string name="format_use_ranges_15_or_single">รูปแบบ: ใช้ช่วง (1-5) หรือหน้าเดียว (7) คั่นด้วยเครื่องหมายจุลภาค อนุญาตเฉพาะตัวเลข เครื่องหมายยัติภังค์ และเครื่องหมายจุลภาคเท่านั้น</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">บีบอัดโดย </string>
     <string name="error_details">รายละเอียดข้อผิดพลาด</string>
     <string name="view">ดู</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">เลือก %1$s จาก %2$s หน้า</string>
     <string name="showing_first_200_pages">แสดง 200 หน้าแรก</string>

@@ -14,7 +14,7 @@
     <string name="from">Van</string>
     <string name="to">Aan</string>
     <string name="select">Kies</string>
-    <string name="please_go_back_and_select_a_pd">Gaan asseblief terug en kies 'n PDF</string>
+    <string name="please_go_back_and_select_a_pd">Gaan asseblief terug en kies \'n PDF</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/split/ui/SplitScreen.kt -->
     <string name="split_pdf">Gesplete PDF</string>
     <string name="str_1_file_selected">1 lêer gekies</string>
@@ -23,13 +23,13 @@
     <string name="fixed_segments">Vaste Segmente</string>
     <string name="custom_ranges">Aangepaste reekse</string>
     <string name="segment_size">Segmentgrootte</string>
-    <string name="this_will_create_multiple_pdfs">Dit sal verskeie PDF's skep met die gespesifiseerde aantal bladsye elk. Die segmentgrootte moet minder wees as die totale bladsye om betekenisvolle verdelings te skep. Byvoorbeeld, as die bronlêer 8 bladsye het en jy 2 invoer, sal vier PDF-lêers gegenereer word met 2 bladsye elk.</string>
+    <string name="this_will_create_multiple_pdfs">Dit sal verskeie PDF\'s skep met die gespesifiseerde aantal bladsye elk. Die segmentgrootte moet minder wees as die totale bladsye om betekenisvolle verdelings te skep. Byvoorbeeld, as die bronlêer 8 bladsye het en jy 2 invoer, sal vier PDF-lêers gegenereer word met 2 bladsye elk.</string>
     <string name="pages_per_file">Bladsye per lêer</string>
     <string name="eg_2">bv., 2</string>
     <string name="total_number_of_pages_in_pdf__">Totale aantal bladsye in PDF: %1$d (segmentgrootte moet minder as %1$d wees)</string>
     <string name="this_will_create__output_files">Dit sal %1$d uitvoerlêers skep</string>
     <string name="this_will_create__output_file">Dit sal die %1$d uitvoerlêer skep</string>
-    <string name="this_input_will_split_the_pdf_">Hierdie invoer sal die PDF in aparte lêers verdeel gebaseer op jou reekse. Byvoorbeeld, "1-2,5,6-8" sal 3 PDF's skep: eerste met bladsye 1-2, tweede met bladsy 5, en derde met bladsye 6-8.</string>
+    <string name="this_input_will_split_the_pdf_">Hierdie invoer sal die PDF in aparte lêers verdeel gebaseer op jou reekse. Byvoorbeeld, \"1-2,5,6-8\" sal 3 PDF\'s skep: eerste met bladsye 1-2, tweede met bladsy 5, en derde met bladsye 6-8.</string>
     <string name="page_ranges">Bladsyreekse</string>
     <string name="eg_1234571520">bv. 1-2, 3, 4-5, 7, 15-20</string>
     <string name="format_use_ranges_15_or_single">Formaat: Gebruik reekse (1-5) of enkele bladsye (7), geskei deur kommas. Slegs syfers, koppeltekens en kommas word toegelaat.</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">Saamgepers deur </string>
     <string name="error_details">Foutbesonderhede</string>
     <string name="view">Bekyk</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">%1$s van %2$s bladsye gekies</string>
     <string name="showing_first_200_pages">Wys eerste 200 bladsye</string>
@@ -134,13 +135,13 @@
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/lock/ui/LockScreen.kt -->
     <string name="lock_pdf">Sluit PDF</string>
     <string name="password_protection">Wagwoordbeskerming</string>
-    <string name="enter_a_password_to_protect_yo">Voer 'n wagwoord in om jou PDF te beskerm. Jy sal hierdie wagwoord nodig hê om die lêer oop te maak.</string>
+    <string name="enter_a_password_to_protect_yo">Voer \'n wagwoord in om jou PDF te beskerm. Jy sal hierdie wagwoord nodig hê om die lêer oop te maak.</string>
     <string name="password">Wagwoord</string>
     <string name="enter_password">Voer wagwoord in</string>
     <string name="confirm_password">Bevestig wagwoord</string>
     <string name="reenter_password">Voer wagwoord weer in</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/server/ui/ServerToolScreen.kt -->
-    <string name="please_go_back_and_select_a_fi">Gaan asseblief terug en kies 'n lêer</string>
+    <string name="please_go_back_and_select_a_fi">Gaan asseblief terug en kies \'n lêer</string>
     <string name="back">Terug</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/unlock/ui/UnlockScreen.kt -->
     <string name="unlock_pdf">Ontsluit PDF</string>
@@ -149,7 +150,7 @@
     <string name="enter_current_password">Voer huidige wagwoord in</string>
     <string name="incorrect_password_please_try_">Verkeerde wagwoord. Probeer asseblief weer.</string>
     <string name="new_password_optional">Nuwe Wagwoord (Opsioneel)</string>
-    <string name="set_a_new_password_to_change_i">Stel 'n nuwe wagwoord om dit te verander, of los dit leeg om wagwoordbeskerming te verwyder</string>
+    <string name="set_a_new_password_to_change_i">Stel \'n nuwe wagwoord om dit te verander, of los dit leeg om wagwoordbeskerming te verwyder</string>
     <string name="new_password">Nuwe Wagwoord</string>
     <string name="enter_new_password">Voer nuwe wagwoord in</string>
     <string name="confirm_new_password">Bevestig Nuwe Wagwoord</string>
@@ -176,18 +177,18 @@
     <string name="str__complete">%1$s Voltooi!</string>
     <string name="str__failed">%1$s Misluk</string>
     <string name="unlock_failed">Ontsluit het misluk</string>
-    <string name="your_pdfs_have_been_successfully_compres">Jou PDF's is suksesvol saamgepers</string>
-    <string name="we_couldnt_compress_your_pdfs">Ons kon nie jou PDF's komprimeer nie</string>
+    <string name="your_pdfs_have_been_successfully_compres">Jou PDF\'s is suksesvol saamgepers</string>
+    <string name="we_couldnt_compress_your_pdfs">Ons kon nie jou PDF\'s komprimeer nie</string>
     <string name="view_your_compressed_file">Bekyk jou saamgeperste lêer</string>
     <string name="send_to_others_or_apps">Stuur na ander of programme</string>
     <string name="your_pdf_has_been_successfully_modified">Jou PDF is suksesvol gewysig</string>
     <string name="we_couldnt_delete_the_pages">Ons kon nie die bladsye verwyder nie</string>
     <string name="your_images_have_been_converted_to_pdf">Jou beelde is na PDF omgeskakel</string>
     <string name="unable_to_create_pdf_from_images">Kan nie PDF van beelde skep nie</string>
-    <string name="your_pdf_is_now_password_protected">Jou PDF is nou met 'n wagwoord beskerm</string>
+    <string name="your_pdf_is_now_password_protected">Jou PDF is nou met \'n wagwoord beskerm</string>
     <string name="we_couldnt_lock_your_pdf">Ons kon nie jou PDF sluit nie</string>
-    <string name="your_pdfs_have_been_successfully_merged">Jou PDF's is suksesvol saamgevoeg</string>
-    <string name="we_couldnt_merge_your_pdfs">Ons kon nie jou PDF's saamvoeg nie</string>
+    <string name="your_pdfs_have_been_successfully_merged">Jou PDF\'s is suksesvol saamgevoeg</string>
+    <string name="we_couldnt_merge_your_pdfs">Ons kon nie jou PDF\'s saamvoeg nie</string>
     <string name="str__images_created_successfully">%1$s beelde suksesvol geskep</string>
     <string name="unable_to_convert_pdf_to_images">Kan nie PDF na beelde omskakel nie</string>
     <string name="your_pdf_pages_have_been_successfully_re">Jou PDF-bladsye is suksesvol herrangskik</string>
@@ -199,7 +200,7 @@
     <string name="we_couldnt_unlock_your_pdf">Ons kon nie jou PDF ontsluit nie</string>
     <string name="clear_filter">Vee filter uit</string>
     <string name="clear">Duidelik</string>
-    <string name="pick_a_tool_">Kies 'n gereedskap →</string>
+    <string name="pick_a_tool_">Kies \'n gereedskap →</string>
     <string name="drag_to_reorder">Sleep om te herrangskik</string>
     <string name="your_files_are_securely_processed_on_our">Jou lêers word veilig op ons bedieners verwerk met behulp van geënkripteerde verbindings en outomaties binne 1 uur uitgevee. Ons stoor of deel nooit jou data nie.</string>
     <string name="compression_quality">Kompressiekwaliteit</string>

@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">PDF의 총 페이지 수: %1$d (세그먼트 크기는 %1$d보다 작아야 합니다)</string>
     <string name="this_will_create__output_files">이렇게 하면 %1$d 개의 출력 파일이 생성됩니다.</string>
     <string name="this_will_create__output_file">이렇게 하면 %1$d 출력 파일이 생성됩니다.</string>
-    <string name="this_input_will_split_the_pdf_">이 입력값을 사용하면 지정한 범위에 따라 PDF 파일이 여러 개의 개별 파일로 분할됩니다. 예를 들어, "1-2,5,6-8"을 입력하면 1~2페이지가 포함된 첫 번째 파일, 5페이지가 포함된 두 번째 파일, 그리고 6~8페이지가 포함된 세 번째 파일, 이렇게 총 세 개의 PDF 파일이 생성됩니다.</string>
+    <string name="this_input_will_split_the_pdf_">이 입력값을 사용하면 지정한 범위에 따라 PDF 파일이 여러 개의 개별 파일로 분할됩니다. 예를 들어, \"1-2,5,6-8\"을 입력하면 1~2페이지가 포함된 첫 번째 파일, 5페이지가 포함된 두 번째 파일, 그리고 6~8페이지가 포함된 세 번째 파일, 이렇게 총 세 개의 PDF 파일이 생성됩니다.</string>
     <string name="page_ranges">페이지 범위</string>
     <string name="eg_1234571520">예: 1-2, 3, 4-5, 7, 15-20</string>
     <string name="format_use_ranges_15_or_single">형식: 쉼표로 구분된 범위(1-5) 또는 단일 페이지(7)를 사용하십시오. 숫자, 하이픈 및 쉼표만 허용됩니다.</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">압축됨 </string>
     <string name="error_details">오류 세부 정보</string>
     <string name="view">보다</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">%1$s of %2$s pages selected</string>
     <string name="showing_first_200_pages">처음 200페이지를 표시합니다.</string>

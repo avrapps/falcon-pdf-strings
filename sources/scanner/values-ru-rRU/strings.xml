@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">Изображение сохранено в галерею</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">Удалить документ?</string>
-    <string name="scan_delete_document_message">Вы уверены, что хотите удалить "%1$s"? Это приведет к безвозвратному удалению всех страниц в этом документе. Это действие необратимо.</string>
+    <string name="scan_delete_document_message">Вы уверены, что хотите удалить \"%1$s\"? Это приведет к безвозвратному удалению всех страниц в этом документе. Это действие необратимо.</string>
     <string name="scan_rename_document">Переименовать документ</string>
     <string name="scan_rename_enter_name">Введите новое название для документа.</string>
     <string name="scan_rename_document_name">Название документа</string>
     <string name="scan_rename_error">Название документа не может быть пустым.</string>
     <string name="scan_dialog_delete_document_title">Удалить документ?</string>
-    <string name="scan_dialog_delete_document_message">Вы уверены, что хотите удалить "%1$s"? Это приведет к безвозвратному удалению всех страниц в этом документе. Это действие необратимо.</string>
+    <string name="scan_dialog_delete_document_message">Вы уверены, что хотите удалить \"%1$s\"? Это приведет к безвозвратному удалению всех страниц в этом документе. Это действие необратимо.</string>
     <string name="scan_dialog_delete_confirm">Удалить</string>
     <string name="scan_dialog_cancel">Отмена</string>
     <string name="scan_dialog_move_title">Переместить в папку</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — Страница %2$d</string>
     <string name="scan_ocr_title">Распознавание текста</string>
-    <string name="scan_ocr_copy">Скопировать текст</string>
     <string name="scan_ocr_no_text">Текст не найден</string>
-    <string name="scan_ocr_processing">Распознавание текста…</string>
     <string name="scan_ocr_error">Не удалось распознать текст</string>
     <string name="scan_ocr_not_supported">Функция распознавания текста (OCR) на этой платформе не поддерживается.</string>
-    <string name="scan_ocr_image">Отсканированная страница для распознавания текста (OCR)</string>
     <string name="gallery">Галерея</string>
     <string name="select_file">Выберите файл</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">масштаб затвора</string>
     <string name="import_gallery">Галерея импорта</string>
     <string name="scan_camera">Сканирующая камера</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

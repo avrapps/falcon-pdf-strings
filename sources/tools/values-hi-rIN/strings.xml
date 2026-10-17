@@ -29,7 +29,7 @@
     <string name="total_number_of_pages_in_pdf__">पीडीएफ में कुल पृष्ठों की संख्या: %1$d (खंड का आकार %1$d से कम होना चाहिए)</string>
     <string name="this_will_create__output_files">इससे %1$d आउटपुट फ़ाइलें बनेंगी</string>
     <string name="this_will_create__output_file">इससे %1$d आउटपुट फ़ाइल बनेगी</string>
-    <string name="this_input_will_split_the_pdf_">यह इनपुट आपके द्वारा निर्धारित श्रेणियों के आधार पर PDF को अलग-अलग फ़ाइलों में विभाजित करेगा। उदाहरण के लिए, "1-2,5,6-8" इनपुट से 3 PDF फ़ाइलें बनेंगी: पहली में पृष्ठ 1-2, दूसरी में पृष्ठ 5 और तीसरी में पृष्ठ 6-8 होंगे।</string>
+    <string name="this_input_will_split_the_pdf_">यह इनपुट आपके द्वारा निर्धारित श्रेणियों के आधार पर PDF को अलग-अलग फ़ाइलों में विभाजित करेगा। उदाहरण के लिए, \"1-2,5,6-8\" इनपुट से 3 PDF फ़ाइलें बनेंगी: पहली में पृष्ठ 1-2, दूसरी में पृष्ठ 5 और तीसरी में पृष्ठ 6-8 होंगे।</string>
     <string name="page_ranges">पृष्ठ श्रेणियाँ</string>
     <string name="eg_1234571520">उदाहरण के लिए, 1-2, 3, 4-5, 7, 15-20</string>
     <string name="format_use_ranges_15_or_single">प्रारूप: श्रेणियों (1-5) या एकल पृष्ठों (7) का उपयोग करें, अल्पविरामों से अलग करके। केवल अंक, हाइफ़न और अल्पविराम ही अनुमत हैं।</string>
@@ -69,6 +69,7 @@
     <string name="compressed_by_">द्वारा संपीड़ित </string>
     <string name="error_details">त्रुटि विवरण</string>
     <string name="view">देखना</string>
+    <string name="show_in_finder">Show in Finder</string>
     <!-- From: pdf-tools/src/commonMain/kotlin/com/avrapps/pdftools/ui/components/PageSelectionComponents.kt -->
     <string name="str__of__pages_selected">%2$s पृष्ठों में से %1$s पृष्ठ चयनित हुए</string>
     <string name="showing_first_200_pages">पहले 200 पृष्ठ दिखाए जा रहे हैं</string>

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Name -->
-    <string name="app_name">PDF മാജിക്</string>
-    <string name="app_tagline">നിങ്ങൾക്ക് എന്ത് ചെയ്യാനാണ് ഇഷ്ടം?</string>
     <!-- Home Screen -->
     <string name="home_last_used">അവസാനം ഉപയോഗിച്ചത്</string>
     <string name="home_favorites">പ്രിയപ്പെട്ടവ</string>
@@ -138,8 +135,42 @@
     <string name="settings_category_appearance_subtitle">ആപ്പ് ലുക്ക് &amp; ഫീൽ ഇഷ്ടാനുസൃതമാക്കുക</string>
     <string name="settings_category_pdf_reader_title">PDF റീഡർ</string>
     <string name="settings_category_pdf_reader_subtitle">ഡിഫോൾട്ട് വ്യൂവർ &amp; വായനാനുഭവം</string>
+    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
+    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
+    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
     <string name="settings_category_help_title">സഹായം &amp; പിന്തുണ</string>
     <string name="settings_category_help_subtitle">ഡോക്യുമെന്റേഷൻ &amp; കോൺടാക്റ്റ്</string>
+    <string name="settings_category_shortcuts_title">Keyboard Shortcuts</string>
+    <string name="settings_category_shortcuts_subtitle">Desktop hotkeys reference</string>
+    <string name="shortcuts_intro_note">On macOS press Cmd; on Windows and Linux press Ctrl. Shortcuts pause while editing a form field so typing goes to the field.</string>
+    <string name="shortcuts_group_file">File</string>
+    <string name="shortcuts_group_tabs">Tabs</string>
+    <string name="shortcuts_group_navigation">Navigation</string>
+    <string name="shortcuts_group_view_zoom">View &amp; zoom</string>
+    <string name="shortcuts_group_search_panels">Search &amp; panels</string>
+    <string name="shortcuts_action_open_file">Open a file</string>
+    <string name="shortcuts_action_save">Save</string>
+    <string name="shortcuts_action_print">Print</string>
+    <string name="shortcuts_action_close_tab">Close current tab</string>
+    <string name="shortcuts_action_next_tab">Next tab</string>
+    <string name="shortcuts_action_previous_tab">Previous tab</string>
+    <string name="shortcuts_action_jump_to_tab">Jump to tab 1–8</string>
+    <string name="shortcuts_action_jump_to_last_tab">Jump to last tab</string>
+    <string name="shortcuts_action_go_to_page">Go to page</string>
+    <string name="shortcuts_action_next_prev_page">Next / previous page</string>
+    <string name="shortcuts_action_first_last_page">First / last page</string>
+    <string name="shortcuts_action_pan_page">Pan the page</string>
+    <string name="shortcuts_action_zoom_in_out">Zoom in / out</string>
+    <string name="shortcuts_action_reset_zoom">Reset zoom (fit width)</string>
+    <string name="shortcuts_action_toggle_fullscreen">Toggle fullscreen</string>
+    <string name="shortcuts_action_exit_fullscreen">Exit fullscreen</string>
+    <string name="shortcuts_action_search">Search</string>
+    <string name="shortcuts_action_copy_text">Copy selected text</string>
+    <string name="shortcuts_action_bookmarks_panel">Bookmarks panel</string>
+    <string name="shortcuts_action_toggle_bookmark">Toggle bookmark on page</string>
+    <string name="shortcuts_action_pages_panel">Pages panel</string>
+    <string name="shortcuts_action_annotations_panel">Annotations panel</string>
     <string name="settings_category_general_title">ജനറൽ</string>
     <string name="settings_category_general_subtitle">ഭാഷ &amp; ആപ്പ് വിവരങ്ങൾ</string>
     <string name="settings_theme_section">തീം</string>
@@ -233,6 +264,7 @@
     <string name="help_terms_subtitle">അപേക്ഷയുടെ നിയമങ്ങൾ</string>
     <!-- Sync Settings -->
     <string name="sync_on_mobile_data">മൊബൈൽ ഡാറ്റയിൽ സമന്വയിപ്പിക്കുക</string>
+    <string name="sync_skipped_mobile_data">On mobile data — sync is off. Enable \"Sync on mobile data\" in settings or connect to Wi-Fi.</string>
     <string name="background_sync">പശ്ചാത്തല സമന്വയം</string>
     <!-- PDF Settings -->
     <string name="pdf_settings_title">PDF റീഡർ ക്രമീകരണങ്ങൾ</string>
@@ -255,6 +287,8 @@
     <!-- Language Picker -->
     <string name="language_picker_title">ഭാഷ</string>
     <string name="language_search_placeholder">ഭാഷകൾ തിരയുക...</string>
+    <string name="language_applying">Applying…</string>
+    <string name="language_download_badge">Download</string>
     <!-- Common UI -->
     <string name="support">പിന്തുണ</string>
     <string name="language_english">ഇംഗ്ലീഷ്</string>
@@ -365,6 +399,7 @@
     <string name="search">തിരയുക</string>
     <string name="more_actions">കൂടുതൽ പ്രവർത്തനങ്ങൾ</string>
     <string name="share">പങ്കിടുക</string>
+    <string name="show_in_finder">Show in Finder</string>
     <string name="delete">ഇല്ലാതാക്കുക</string>
     <string name="remove_from_recents">അടുത്തിടെയുള്ളവയിൽ നിന്ന് നീക്കം ചെയ്യുക</string>
     <string name="open">തുറക്കുക</string>
@@ -483,7 +518,7 @@
     <string name="settings_delete_account_subtitle">നിങ്ങളുടെ അക്കൗണ്ടും ഡാറ്റയും ശാശ്വതമായി ഇല്ലാതാക്കുക</string>
     <string name="delete_account_warning_title">നിങ്ങളുടെ അക്കൗണ്ട് ഇല്ലാതാക്കണോ?</string>
     <string name="delete_account_warning_message">ഇത് നിങ്ങളുടെ അക്കൗണ്ടും അനുബന്ധ ഡാറ്റയും, വാങ്ങൽ ചരിത്രവും ക്ലൗഡ്-സമന്വയിപ്പിച്ച ഫയലുകളും ഉൾപ്പെടെ ശാശ്വതമായി ഇല്ലാതാക്കും. ഈ പ്രവർത്തനം പഴയപടിയാക്കാനോ വാങ്ങലുകൾ പിന്നീട് പുനഃസ്ഥാപിക്കാനോ കഴിയില്ല.</string>
-    <string name="delete_account_confirm_phrase_label">തുടരാൻ 'ഇല്ലാതാക്കൽ സ്ഥിരീകരിക്കുക' എന്ന് ടൈപ്പ് ചെയ്യുക:</string>
+    <string name="delete_account_confirm_phrase_label">തുടരാൻ \'ഇല്ലാതാക്കൽ സ്ഥിരീകരിക്കുക\' എന്ന് ടൈപ്പ് ചെയ്യുക:</string>
     <string name="delete_account_confirm_phrase">ഇല്ലാതാക്കൽ സ്ഥിരീകരിക്കുക</string>
     <string name="delete_account_button">അക്കൗണ്ട് ഇല്ലാതാക്കുക</string>
     <string name="delete_account_error_reauth">സുരക്ഷയ്ക്കായി, നിങ്ങളുടെ അക്കൗണ്ട് ഇല്ലാതാക്കാൻ നിങ്ങൾ അടുത്തിടെ സൈൻ ഇൻ ചെയ്തിരിക്കണം. സൈൻ ഔട്ട് ചെയ്‌ത് വീണ്ടും സൈൻ ഇൻ ചെയ്‌ത് വീണ്ടും ശ്രമിക്കുക.</string>
@@ -511,6 +546,7 @@
     <string name="unsaved_changes_window_message">ഒന്നോ അതിലധികമോ പ്രമാണങ്ങളിൽ സംരക്ഷിക്കാത്ത മാറ്റങ്ങളുണ്ട്. അവ ഉപേക്ഷിച്ച് പുറത്തുകടക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?</string>
     <string name="discard">ഉപേക്ഷിക്കുക</string>
     <string name="discard_and_quit">ഉപേക്ഷിക്കുക &amp; പുറത്തുകടക്കുക</string>
+    <string name="drop_files_to_open">Drop files to open</string>
     <string name="close">അടയ്ക്കുക</string>
     <string name="remove_favorite">പ്രിയപ്പെട്ടത് നീക്കം ചെയ്യുക</string>
     <string name="set_as_default_pdf_viewer">ഡിഫോൾട്ട് PDF വ്യൂവർ ആയി സജ്ജീകരിക്കണോ?</string>
@@ -583,7 +619,7 @@
     <string name="ebooks_library">ഇ-ബുക്ക് ലൈബ്രറി</string>
     <string name="manage_your_digital_collection_across_mu">ഒന്നിലധികം ദാതാക്കളിലുടനീളം നിങ്ങളുടെ ഡിജിറ്റൽ ശേഖരം കൈകാര്യം ചെയ്യുക. Google Books, Open Library എന്നിവയിൽ നിന്ന് പുതിയ ശീർഷകങ്ങൾ തിരയുക, ഫിൽട്ടർ ചെയ്യുക, കണ്ടെത്തുക.</string>
     <string name="no_books_found">പുസ്തകങ്ങളൊന്നും കണ്ടെത്തിയില്ല.</string>
-    <string name="no_results_for__try_a_different_search_t">"%1$s" എന്നതിന് ഫലങ്ങളൊന്നുമില്ല. മറ്റൊരു തിരയൽ പദം പരീക്ഷിക്കുക.</string>
+    <string name="no_results_for__try_a_different_search_t">\"%1$s\" എന്നതിന് ഫലങ്ങളൊന്നുമില്ല. മറ്റൊരു തിരയൽ പദം പരീക്ഷിക്കുക.</string>
     <string name="downloadable_only">ഡൗൺലോഡ് ചെയ്യാൻ മാത്രം</string>
     <string name="file_unavailable">ഫയൽ ലഭ്യമല്ല</string>
     <string name="unavailable">ലഭ്യമല്ല</string>
@@ -606,6 +642,9 @@
     <string name="home">വീട്</string>
     <string name="your_documents_at_a_glance">നിങ്ങളുടെ പ്രമാണങ്ങൾ ഒറ്റനോട്ടത്തിൽ</string>
     <string name="pick_file">ഫയൽ തിരഞ്ഞെടുക്കുക</string>
+    <string name="pending_actions_open_failed">Couldn\'t open this document to sign. Make sure you\'re signed in with the invited email, then try again.</string>
+    <string name="pending_actions_open_failed_title">Can\'t open sign request</string>
+    <string name="pending_actions_reject_failed">Couldn\'t decline the request. Make sure you\'re signed in with the invited email, then try again.</string>
     <string name="quick_actions">ദ്രുത പ്രവർത്തനങ്ങൾ</string>
     <string name="pro">പി.ആർ.ഒ.</string>
     <string name="open_files">ഫയലുകൾ തുറക്കുക</string>
@@ -646,10 +685,7 @@
     <string name="my_library">എന്റെ ലൈബ്രറി</string>
     <string name="get_ebooks">ഇ-ബുക്കുകൾ നേടൂ</string>
     <string name="scan_document">ഡോക്യുമെന്റ് സ്കാൻ ചെയ്യുക</string>
-    <string name="settings_category_ai_chat_title">AI Chat Provider</string>
-    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama or your own key</string>
-    <string name="settings_category_tts_title">Read Aloud (TTS)</string>
-    <string name="settings_category_tts_subtitle">Voices for read-aloud playback</string>
+    <!-- From: session AI/TTS provider settings entries + standalone screens -->
     <string name="settings_section_ai_voice">AI &amp; VOICE</string>
     <string name="settings_entry_ai_title">AI Chat Provider</string>
     <string name="settings_entry_ai_subtitle">Falcon AI, local Ollama, or your own OpenAI-compatible key</string>

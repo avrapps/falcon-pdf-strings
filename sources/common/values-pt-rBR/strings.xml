@@ -14,7 +14,7 @@
     <string name="tool_image_to_pdf">Converter imagem para PDF</string>
     <string name="tool_word_to_pdf">Word para PDF</string>
     <string name="tool_ppt_to_pdf">PPT para PDF</string>
-    <string name="tool_watermark_pdf">PDF com marca d'água</string>
+    <string name="tool_watermark_pdf">PDF com marca d\'água</string>
     <string name="tool_digital_sign">Sinalização digital</string>
     <string name="tool_lock_pdf">Bloquear PDF</string>
     <string name="tool_change_password">Alterar a senha</string>
@@ -34,7 +34,7 @@
     <string name="tool_image_to_pdf_desc">Criar a partir de fotos</string>
     <string name="tool_word_to_pdf_desc">Criar a partir do Word</string>
     <string name="tool_ppt_to_pdf_desc">Criar a partir do PPT</string>
-    <string name="tool_watermark_pdf_desc">Adicionar marca d'água</string>
+    <string name="tool_watermark_pdf_desc">Adicionar marca d\'água</string>
     <string name="tool_digital_sign_desc">Assinar documento</string>
     <string name="tool_lock_pdf_desc">Adicionar senha</string>
     <string name="tool_change_password_desc">Atualizar senha</string>
@@ -84,7 +84,7 @@
     <string name="create_from_photos">Criar a partir de fotos</string>
     <string name="create_from_word">Criar a partir do Word</string>
     <string name="create_from_ppt">Criar a partir do PPT</string>
-    <string name="add_watermark">Adicionar marca d'água</string>
+    <string name="add_watermark">Adicionar marca d\'água</string>
     <string name="sign_document">Assinar documento</string>
     <string name="add_password">Adicionar senha</string>
     <string name="update_password">Atualizar senha</string>

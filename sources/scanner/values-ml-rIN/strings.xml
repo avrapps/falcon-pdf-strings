@@ -114,13 +114,13 @@
     <string name="scan_page_saved_to_gallery">ചിത്രം ഗാലറിയിൽ സംരക്ഷിച്ചു</string>
     <!-- Scan Dialogs -->
     <string name="scan_delete_document_title">പ്രമാണം ഇല്ലാതാക്കണോ?</string>
-    <string name="scan_delete_document_message">"%1$s" ഇല്ലാതാക്കണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ? ഇത് ഈ പ്രമാണത്തിലെ എല്ലാ പേജുകളും ശാശ്വതമായി ഇല്ലാതാക്കും. ഈ പ്രവർത്തനം പഴയപടിയാക്കാൻ കഴിയില്ല.</string>
+    <string name="scan_delete_document_message">\"%1$s\" ഇല്ലാതാക്കണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ? ഇത് ഈ പ്രമാണത്തിലെ എല്ലാ പേജുകളും ശാശ്വതമായി ഇല്ലാതാക്കും. ഈ പ്രവർത്തനം പഴയപടിയാക്കാൻ കഴിയില്ല.</string>
     <string name="scan_rename_document">പ്രമാണത്തിന്റെ പേരുമാറ്റുക</string>
     <string name="scan_rename_enter_name">പ്രമാണത്തിന് ഒരു പുതിയ പേര് നൽകുക</string>
     <string name="scan_rename_document_name">പ്രമാണത്തിന്റെ പേര്</string>
     <string name="scan_rename_error">പ്രമാണത്തിന്റെ പേര് ശൂന്യമായിടാൻ കഴിയില്ല.</string>
     <string name="scan_dialog_delete_document_title">പ്രമാണം ഇല്ലാതാക്കണോ?</string>
-    <string name="scan_dialog_delete_document_message">"%1$s" ഇല്ലാതാക്കണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ? ഇത് ഈ പ്രമാണത്തിലെ എല്ലാ പേജുകളും ശാശ്വതമായി ഇല്ലാതാക്കും. ഈ പ്രവർത്തനം പഴയപടിയാക്കാൻ കഴിയില്ല.</string>
+    <string name="scan_dialog_delete_document_message">\"%1$s\" ഇല്ലാതാക്കണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ? ഇത് ഈ പ്രമാണത്തിലെ എല്ലാ പേജുകളും ശാശ്വതമായി ഇല്ലാതാക്കും. ഈ പ്രവർത്തനം പഴയപടിയാക്കാൻ കഴിയില്ല.</string>
     <string name="scan_dialog_delete_confirm">ഇല്ലാതാക്കുക</string>
     <string name="scan_dialog_cancel">റദ്ദാക്കുക</string>
     <string name="scan_dialog_move_title">ഫോൾഡറിലേക്ക് നീക്കുക</string>
@@ -172,12 +172,9 @@
     <!-- Scan Page Screen - title and OCR -->
     <string name="scan_page_title_format">%1$s — പേജ് %2$d</string>
     <string name="scan_ocr_title">വാചക തിരിച്ചറിയൽ</string>
-    <string name="scan_ocr_copy">വാചകം പകർത്തുക</string>
     <string name="scan_ocr_no_text">ടെക്‌സ്‌റ്റൊന്നും കണ്ടെത്തിയില്ല</string>
-    <string name="scan_ocr_processing">… എന്ന വാചകം തിരിച്ചറിയുന്നു</string>
     <string name="scan_ocr_error">ടെക്സ്റ്റ് തിരിച്ചറിയുന്നതിൽ പരാജയപ്പെട്ടു</string>
     <string name="scan_ocr_not_supported">ഈ പ്ലാറ്റ്‌ഫോമിൽ OCR പിന്തുണയ്ക്കുന്നില്ല.</string>
-    <string name="scan_ocr_image">OCR-നായി സ്കാൻ ചെയ്ത പേജ്</string>
     <string name="gallery">ഗാലറി</string>
     <string name="select_file">ഫയൽ തിരഞ്ഞെടുക്കുക</string>
     <!-- Error Messages -->
@@ -209,4 +206,11 @@
     <string name="shutter_scale">ഷട്ടർ_സ്കെയിൽ</string>
     <string name="import_gallery">ഗാലറി ഇറക്കുമതി ചെയ്യുക</string>
     <string name="scan_camera">ക്യാമറ സ്കാൻ ചെയ്യുക</string>
+    <!-- Unified overlay OCR screen -->
+    <string name="ocr_copy_all">Copy all text</string>
+    <string name="ocr_tap_hint">Long-press the page to select and copy text, or use Copy all.</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_preparing">Preparing page…</string>
+    <string name="ocr_recognizing">Extracting text…</string>
+    <string name="ocr_retry">Retry</string>
 </resources>

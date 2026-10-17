@@ -22,7 +22,7 @@
     <string name="purchase_pro_feature_1">Leitura em voz alta por IA — Ouça PDFs naturalmente</string>
     <string name="purchase_pro_feature_2">Edição completa de PDF &amp; Preenchimento de formulários</string>
     <string name="purchase_pro_feature_3">Sincronização entre dispositivos via Drive</string>
-    <string name="purchase_pro_feature_4">Sem anúncios, sem marca d'água nas digitalizações.</string>
+    <string name="purchase_pro_feature_4">Sem anúncios, sem marca d\'água nas digitalizações.</string>
     <!-- Purchase Screen - Premium Features (legacy fallback — primary source is features.json) -->
     <string name="purchase_premium_feature_1_title">Resumos de IA com raciocínio mais robusto</string>
     <string name="purchase_premium_feature_1_desc">Respostas mais detalhadas a partir de documentos mais longos e complexos.</string>
@@ -103,7 +103,7 @@
     <string name="ai_read_aloud">IA lê em voz alta</string>
     <string name="full_pdf_editing__form_filling">Edição completa de PDF &amp; Preenchimento de formulários</string>
     <string name="crossdevice_sync_via_drive">Sincronização entre dispositivos via Drive</string>
-    <string name="adfree_no_watermark">Sem anúncios, sem marca d'água</string>
+    <string name="adfree_no_watermark">Sem anúncios, sem marca d\'água</string>
     <string name="export_to_word__excel">Exportar para Word &amp; Excel</string>
     <string name="multiple_themes__page_backgrounds">Vários temas &amp; Fundos de página</string>
     <string name="ai_summaries_with_stronger_reasoning">Resumos de IA com raciocínio mais robusto</string>

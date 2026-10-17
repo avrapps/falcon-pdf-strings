@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Name -->
-    <string name="app_name">PDF Magic</string>
-    <string name="app_tagline">What would you like to do?</string>
     <!-- Home Screen -->
     <string name="home_last_used">Last Used</string>
     <string name="home_favorites">Favorites</string>
@@ -82,7 +79,7 @@
     <string name="document_rename_failed">Failed to rename document</string>
     <string name="document_deleted_success">Document deleted successfully</string>
     <string name="document_delete_failed">Failed to delete document</string>
-    <string name="document_print_opened">Document opened in default PDF viewer. Use the viewer's print function to print.</string>
+    <string name="document_print_opened">Document opened in default PDF viewer. Use the viewer\'s print function to print.</string>
     <string name="document_print_failed">Failed to print document</string>
     <string name="document_added_to_favorites">Added to Favorites</string>
     <string name="document_removed_from_favorites">Removed from Favorites</string>
@@ -138,8 +135,42 @@
     <string name="settings_category_appearance_subtitle">Customize app look &amp; feel</string>
     <string name="settings_category_pdf_reader_title">PDF Reader</string>
     <string name="settings_category_pdf_reader_subtitle">Default viewer &amp; reading experience</string>
+    <string name="settings_category_ai_chat_title">AI-chatprovider</string>
+    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama of je eigen sleutel</string>
+    <string name="settings_category_tts_title">Voorlezen (TTS)</string>
+    <string name="settings_category_tts_subtitle">Stemmen voor voorlezen</string>
     <string name="settings_category_help_title">Help &amp; Support</string>
     <string name="settings_category_help_subtitle">Documentation &amp; contact</string>
+    <string name="settings_category_shortcuts_title">Keyboard Shortcuts</string>
+    <string name="settings_category_shortcuts_subtitle">Desktop hotkeys reference</string>
+    <string name="shortcuts_intro_note">On macOS press Cmd; on Windows and Linux press Ctrl. Shortcuts pause while editing a form field so typing goes to the field.</string>
+    <string name="shortcuts_group_file">File</string>
+    <string name="shortcuts_group_tabs">Tabs</string>
+    <string name="shortcuts_group_navigation">Navigation</string>
+    <string name="shortcuts_group_view_zoom">View &amp; zoom</string>
+    <string name="shortcuts_group_search_panels">Search &amp; panels</string>
+    <string name="shortcuts_action_open_file">Open a file</string>
+    <string name="shortcuts_action_save">Save</string>
+    <string name="shortcuts_action_print">Print</string>
+    <string name="shortcuts_action_close_tab">Close current tab</string>
+    <string name="shortcuts_action_next_tab">Next tab</string>
+    <string name="shortcuts_action_previous_tab">Previous tab</string>
+    <string name="shortcuts_action_jump_to_tab">Jump to tab 1–8</string>
+    <string name="shortcuts_action_jump_to_last_tab">Jump to last tab</string>
+    <string name="shortcuts_action_go_to_page">Go to page</string>
+    <string name="shortcuts_action_next_prev_page">Next / previous page</string>
+    <string name="shortcuts_action_first_last_page">First / last page</string>
+    <string name="shortcuts_action_pan_page">Pan the page</string>
+    <string name="shortcuts_action_zoom_in_out">Zoom in / out</string>
+    <string name="shortcuts_action_reset_zoom">Reset zoom (fit width)</string>
+    <string name="shortcuts_action_toggle_fullscreen">Toggle fullscreen</string>
+    <string name="shortcuts_action_exit_fullscreen">Exit fullscreen</string>
+    <string name="shortcuts_action_search">Search</string>
+    <string name="shortcuts_action_copy_text">Copy selected text</string>
+    <string name="shortcuts_action_bookmarks_panel">Bookmarks panel</string>
+    <string name="shortcuts_action_toggle_bookmark">Toggle bookmark on page</string>
+    <string name="shortcuts_action_pages_panel">Pages panel</string>
+    <string name="shortcuts_action_annotations_panel">Annotations panel</string>
     <string name="settings_category_general_title">General</string>
     <string name="settings_category_general_subtitle">Language &amp; app info</string>
     <string name="settings_theme_section">Theme</string>
@@ -233,6 +264,7 @@
     <string name="help_terms_subtitle">Rules of the application</string>
     <!-- Sync Settings -->
     <string name="sync_on_mobile_data">Sync on mobile data</string>
+    <string name="sync_skipped_mobile_data">On mobile data — sync is off. Enable \"Sync on mobile data\" in settings or connect to Wi-Fi.</string>
     <string name="background_sync">Background sync</string>
     <!-- PDF Settings -->
     <string name="pdf_settings_title">PDF Reader Settings</string>
@@ -242,7 +274,7 @@
     <string name="settings_language">Language</string>
     <string name="settings_pdf_reader">PDF Reader Settings</string>
     <string name="settings_help_support">Help &amp; Support</string>
-    <string name="settings_whats_new">What's New</string>
+    <string name="settings_whats_new">What\'s New</string>
     <string name="settings_download_desktop">Install on Another Device</string>
     <string name="settings_rate_app">Rate App</string>
     <string name="play_store_not_found">Play Store not found on this device</string>
@@ -250,11 +282,13 @@
     <string name="settings_set_as_default_subtitle">Open PDFs with this app by default</string>
     <string name="settings_default_pdf_instructions_title">How to Set as Default</string>
     <string name="settings_default_pdf_ok">Got it</string>
-    <string name="settings_default_app_hint">Didn't work?</string>
+    <string name="settings_default_app_hint">Didn\'t work?</string>
     <string name="settings_default_app_hint_learn_more">Learn more</string>
     <!-- Language Picker -->
     <string name="language_picker_title">Language</string>
     <string name="language_search_placeholder">Search languages...</string>
+    <string name="language_applying">Applying…</string>
+    <string name="language_download_badge">Download</string>
     <!-- Common UI -->
     <string name="support">Support</string>
     <string name="language_english">English</string>
@@ -365,6 +399,7 @@
     <string name="search">Search</string>
     <string name="more_actions">More actions</string>
     <string name="share">Share</string>
+    <string name="show_in_finder">Show in Finder</string>
     <string name="delete">Delete</string>
     <string name="remove_from_recents">Remove from recents</string>
     <string name="open">Open</string>
@@ -455,7 +490,7 @@
     <string name="history_op_failed">%1$s Failed</string>
     <string name="history_op_success_multiple">Operation completed successfully with %1$d files</string>
     <string name="history_op_success_single">Operation completed successfully</string>
-    <string name="history_op_error">We couldn't complete the operation</string>
+    <string name="history_op_error">We couldn\'t complete the operation</string>
     <string name="history_multiple_files">%1$d files</string>
     <string name="history_failed">Failed</string>
     <!-- Cloud Sync Screen -->
@@ -483,7 +518,7 @@
     <string name="settings_delete_account_subtitle">Permanently delete your account and data</string>
     <string name="delete_account_warning_title">Delete your account?</string>
     <string name="delete_account_warning_message">This will permanently delete your account and all associated data, including your purchase history and cloud-synced files. This action cannot be undone and purchases cannot be restored later.</string>
-    <string name="delete_account_confirm_phrase_label">Type 'confirm delete' to proceed:</string>
+    <string name="delete_account_confirm_phrase_label">Type \'confirm delete\' to proceed:</string>
     <string name="delete_account_confirm_phrase">confirm delete</string>
     <string name="delete_account_button">Delete Account</string>
     <string name="delete_account_error_reauth">For security, you must have recently signed in to delete your account. Please sign out and sign in again, then try again.</string>
@@ -511,6 +546,7 @@
     <string name="unsaved_changes_window_message">You have unsaved changes in one or more documents. Do you want to discard them and quit?</string>
     <string name="discard">Discard</string>
     <string name="discard_and_quit">Discard &amp; Quit</string>
+    <string name="drop_files_to_open">Drop files to open</string>
     <string name="close">Close</string>
     <string name="remove_favorite">Remove favorite</string>
     <string name="set_as_default_pdf_viewer">Set as Default PDF Viewer?</string>
@@ -583,7 +619,7 @@
     <string name="ebooks_library">E-books Library</string>
     <string name="manage_your_digital_collection_across_mu">Manage your digital collection across multiple providers. Search, filter, and discover new titles from Google Books and Open Library.</string>
     <string name="no_books_found">No books found</string>
-    <string name="no_results_for__try_a_different_search_t">No results for "%1$s". Try a different search term.</string>
+    <string name="no_results_for__try_a_different_search_t">No results for \"%1$s\". Try a different search term.</string>
     <string name="downloadable_only">Downloadable Only</string>
     <string name="file_unavailable">File unavailable</string>
     <string name="unavailable">Unavailable</string>
@@ -606,6 +642,9 @@
     <string name="home">Home</string>
     <string name="your_documents_at_a_glance">Your documents at a glance</string>
     <string name="pick_file">Pick File</string>
+    <string name="pending_actions_open_failed">Couldn\'t open this document to sign. Make sure you\'re signed in with the invited email, then try again.</string>
+    <string name="pending_actions_open_failed_title">Can\'t open sign request</string>
+    <string name="pending_actions_reject_failed">Couldn\'t decline the request. Make sure you\'re signed in with the invited email, then try again.</string>
     <string name="quick_actions">Quick Actions</string>
     <string name="pro">PRO</string>
     <string name="open_files">Open files</string>
@@ -646,10 +685,7 @@
     <string name="my_library">My Library</string>
     <string name="get_ebooks">Get eBooks</string>
     <string name="scan_document">Scan Document</string>
-    <string name="settings_category_ai_chat_title">AI-chatprovider</string>
-    <string name="settings_category_ai_chat_subtitle">Falcon AI, Ollama of je eigen sleutel</string>
-    <string name="settings_category_tts_title">Voorlezen (TTS)</string>
-    <string name="settings_category_tts_subtitle">Stemmen voor voorlezen</string>
+    <!-- From: session AI/TTS provider settings entries + standalone screens -->
     <string name="settings_section_ai_voice">AI EN STEM</string>
     <string name="settings_entry_ai_title">AI-chatprovider</string>
     <string name="settings_entry_ai_subtitle">Falcon AI, lokale Ollama of je eigen OpenAI-compatibele sleutel</string>
